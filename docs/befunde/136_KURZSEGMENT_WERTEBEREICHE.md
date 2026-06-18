@@ -1,6 +1,6 @@
-﻿# Kurzsegment-Wertebereiche
+# Kurzsegment-Wertebereiche
 
-Stand: 2026-06-18 19:11:21
+Stand: 2026-06-18 19:42:06
 
 ## Zweck
 
@@ -30,6 +30,8 @@ Sie dürfen nicht als harte Schwellwerte gelesen werden.
 | quiet_2026_anchor | ruhig_feldzeitnah | 4 (0.043) | 0.166449 | 0.639974 | 0.370294 | 0.415 | 0.001773 | 0.000518 |
 | quiet_2024_real1 | ruhenah | 4 (0.043) | 0.189680 | 0.630744 | 0.362024 | 0.500 | 0.000000 | 0.000000 |
 | quiet_2025_stress | ruhenah | 0 (0.000) | 0.176916 | 0.639352 | 0.378478 | 0.500 | 0.000000 | 0.000000 |
+| sideways_2024_active | ruhig_feldzeitnah | 4 (0.043) | 0.202000 | 0.629551 | 0.369655 | 0.436 | 0.001773 | 0.000701 |
+| sideways_2024_quiet | ruhig_feldzeitnah | 4 (0.043) | 0.160006 | 0.639653 | 0.365178 | 0.415 | 0.005319 | 0.001010 |
 
 ## Verdichtete Wertebereiche
 
@@ -38,7 +40,7 @@ Sie dürfen nicht als harte Schwellwerte gelesen werden.
 | last_feldzeitnah | 2 | 0.229167 - 0.234043 | 0.246979 - 0.270193 | 0.601652 - 0.606201 | 0.345029 - 0.356035 | 0.520833 - 0.617021 | 0.001736 - 0.003546 | 0.000194 - 0.001599 |
 | lastnah | 4 | 0.212766 - 0.236559 | 0.241203 - 0.269079 | 0.594327 - 0.607085 | 0.329181 - 0.351929 | 0.446809 - 0.537634 | 0.000000 - 0.000000 | 0.000000 - 0.000000 |
 | ruhenah | 2 | 0.000000 - 0.042553 | 0.176916 - 0.189680 | 0.630744 - 0.639352 | 0.362024 - 0.378478 | 0.500000 - 0.500000 | 0.000000 - 0.000000 | 0.000000 - 0.000000 |
-| ruhig_feldzeitnah | 2 | 0.021277 - 0.042553 | 0.166449 - 0.175145 | 0.628376 - 0.639974 | 0.345272 - 0.370294 | 0.414894 - 0.436170 | 0.001773 - 0.001773 | 0.000518 - 0.000662 |
+| ruhig_feldzeitnah | 4 | 0.021277 - 0.042553 | 0.160006 - 0.202000 | 0.628376 - 0.639974 | 0.345272 - 0.370294 | 0.414894 - 0.436170 | 0.001773 - 0.005319 | 0.000518 - 0.001010 |
 
 ## Mittelwerte Nach Lesung
 
@@ -47,16 +49,15 @@ Sie dürfen nicht als harte Schwellwerte gelesen werden.
 | last_feldzeitnah | 0.231605 | 0.258586 | 0.603927 | 0.350532 | 0.568927 | 0.002641 | 0.000897 |
 | lastnah | 0.224605 | 0.255630 | 0.601189 | 0.339568 | 0.484100 | 0.000000 | 0.000000 |
 | ruhenah | 0.021277 | 0.183298 | 0.635048 | 0.370251 | 0.500000 | 0.000000 | 0.000000 |
-| ruhig_feldzeitnah | 0.031915 | 0.170797 | 0.634175 | 0.357783 | 0.425532 | 0.001773 | 0.000590 |
+| ruhig_feldzeitnah | 0.037234 | 0.175900 | 0.634389 | 0.362600 | 0.425532 | 0.002660 | 0.000723 |
 
 ## Befund
 
-Die bisherigen Kurzsegmente trennen sich in vier Arbeitsformen:
+Die bisherigen Kurzsegmente trennen sich in drei Arbeitsformen:
 
 - `lastnah`: hohe Memorylast, hoher Strain, schwächere Rekopplung.
-- `last_feldzeitnah`: Last bleibt dominant, aber erste Wiederkehr/Nachhall-Spuren treten hinzu.
-- `ruhenah`: niedrige Memorylast, niedriger Strain, stärkere Rekopplung ohne deutliche Feldzeitspur.
 - `ruhig_feldzeitnah`: niedrige Memorylast, niedriger Strain, stärkere Rekopplung und leichte Feldzeitspur.
+- `last_feldzeitnah`: Last bleibt dominant, aber erste Wiederkehr/Nachhall-Spuren treten hinzu.
 
 Damit wird die passive MCM-Lesung präziser:
 
@@ -84,6 +85,6 @@ Neue Segmente können die Bereiche bestätigen, verschieben oder neue Mischforme
 
 ## Wie es weitergeht
 
-Als nächstes sollte ein weiteres Regime getestet werden.
-Ziel: Prüfen, ob `lastnah`, `last_feldzeitnah`, `ruhenah` und `ruhig_feldzeitnah` auch in Seitwärts- oder Expansionswelten getrennt entstehen.
-Wenn neue Mischformen auftreten, müssen sie hierarchisch eingeordnet werden: Grundpol, Unterform, danach mögliche Folgeschritte.
+Als nächstes sollte ein weiteres unabhängiges Jahr getestet werden.
+Ziel: Prüfen, ob `lastnah`, `ruhig_feldzeitnah` und `last_feldzeitnah` auch außerhalb der bisher verwendeten Welten entstehen.
+Wenn ja, wird die Kurzsegment-Lesung als passive Diagnoseebene deutlich belastbarer.
