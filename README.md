@@ -202,6 +202,7 @@ Besonders relevant sind:
 - `120_PASSIVE_MCM_ZYKLUSKARTE.md`
 - `121_PASSIVE_FELDKLASSEN_DIAGNOSE.md`
 - `122_STRESS_GEGENPOL_DIAGNOSE.md`
+- `123_NATUERLICHE_MCM_MOEGLICHKEITEN.md`
 - `AKTUELLER_FORSCHUNGSLAUF.md`
 - `AKTUELLER_FORSCHUNGSLAUF_2024_01.md`
 - `MEHRWELT_VERGLEICH.md`
@@ -226,6 +227,8 @@ Der aktuelle Mehrwelt-Vergleich zeigt zusätzlich:
 Das spricht für weltbezogene Innenfeldordnungen statt wahlloser Speicherung.
 
 Die Feldklassen-Diagnose ist ausdrücklich ein Auswertungswerkzeug. Sie ist keine Runtime-Regel, kein Gate und keine Handlungsvorgabe für MINI_DIO.
+
+Die nächsten Diagnosen sollen entlang der natürlichen MCM-Möglichkeiten eingeordnet werden: Feldtopologie, Feldzeit, Bedeutungsverdichtung, Rekopplung, Lastwahrnehmung und getrennte Sinnesachsen.
 
 ## Was MINI_DIO Nicht Ist
 
