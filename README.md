@@ -217,6 +217,7 @@ Besonders relevant sind:
 - `135_ZWEITE_STRESSINSEL_KURZSEGMENT_PRUEFUNG.md`
 - `136_KURZSEGMENT_WERTEBEREICHE.md`
 - `137_UNABHAENGIGES_JAHR_KURZSEGMENT_PRUEFUNG.md`
+- `138_STRESSREGIME_KURZSEGMENT_PRUEFUNG.md`
 - `AKTUELLER_FORSCHUNGSLAUF.md`
 - `AKTUELLER_FORSCHUNGSLAUF_2024_01.md`
 - `MEHRWELT_VERGLEICH.md`
@@ -245,6 +246,7 @@ Der aktuelle Mehrwelt-Vergleich zeigt zusätzlich:
 - Eine zweite lokale Stressinsel aus einer anderen Stresswelt wird ebenfalls `lastnah` gelesen: hohe Memorylast, hoher Strain und schwächere Rekopplung.
 - Die bisherigen Kurzsegment-Wertebereiche trennen `lastnah`, `ruhig_feldzeitnah` und `last_feldzeitnah` als Arbeitsformen; sie sind Diagnosebefunde, keine Schwellwerte.
 - Ein unabhängiges 2024-Jahr bestätigt die Trennung: das automatisch extrahierte Stressfenster wird `last_feldzeitnah`, das automatisch extrahierte Ruhefenster ruhenah gelesen.
+- Eine stressartige 2025-Welt enthält lokal beides: ein automatisch extrahiertes Stressfenster wird `lastnah`, ein Ruhefenster aus derselben Welt wird `ruhenah` gelesen.
 
 Das spricht für weltbezogene Innenfeldordnungen statt wahlloser Speicherung.
 
