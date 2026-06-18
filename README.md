@@ -211,6 +211,7 @@ Besonders relevant sind:
 - `129_AUTO_STRESS_ABSCHNITTSANALYSE.md`
 - `130_LOKALE_STRESSINSEL_REPRODUKTION.md`
 - `131_LOKALE_RUHEINSEL_GEGEN_STRESSINSEL.md`
+- `132_PASSIVE_MCM_POLACHSEN.md`
 - `AKTUELLER_FORSCHUNGSLAUF.md`
 - `AKTUELLER_FORSCHUNGSLAUF_2024_01.md`
 - `MEHRWELT_VERGLEICH.md`
@@ -233,6 +234,7 @@ Der aktuelle Mehrwelt-Vergleich zeigt zusätzlich:
 - Der Stress-Gegenpol entsteht bisher nicht durch ein einzelnes Rohweltmerkmal, sondern durch die Kopplung aus Weltunruhe, Kipp-/Spannungswirkung, Rekopplungsverlust und höherem Episodenmemory.
 - Isolierte Stresssegmente können lokal denselben Stress-Gegenpol bilden, auch wenn Wiederkehr und Nachhall erst in längerer Einbettung sichtbar werden.
 - Lokale Kurzsegmente müssen vorsichtig gelesen werden: bei ihnen sind Memorylast, Strain und Rekopplung belastbarer als ein globaler Feldklassenname.
+- Passive Gegenpole wie Stress/Entlastung, Unruhe/Ruhe, Drift/Rekopplung oder Zerfall/Verdichtung werden nicht als Module modelliert, sondern als Polachsen der MCM-Feldreaktion gelesen.
 
 Das spricht für weltbezogene Innenfeldordnungen statt wahlloser Speicherung.
 
