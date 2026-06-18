@@ -2,7 +2,7 @@
 
 MINI_DIO ist ein eigenständiges Forschungsprojekt für ein kleines, [MCM](https://github.com/H5Pro2/Mental-Core-Matrix-MCM)-basiertes Innenfeldsystem.
 
-MINI_DIO versteht DIO als Digitalen Organismus. Aus dem Forschungsprozess heraus entstand die Überlegung, einem solchen Organismus eine kontrollierte Außenwelt zu geben, die energiegeladen, ruhig, rhythmisch, brüchig oder wiederkehrend sein kann. Dafür wird ein Kursverlauf eines Assets nicht als Trading-Signal gelesen, sondern als visuelle, tonale und energetische Spur in eine testbare Welt übersetzt. An dieser Welt kann ein künstliches MCM-Feld passiv reagieren, ordnen und Bedeutung verdichten.
+MINI_DIO versteht DIO als Digitalen Organismus. Aus dem Forschungsprozess heraus entstand die Überlegung, einem solchen Organismus eine kontrollierte Außenwelt zu geben, die energiegeladen, ruhig, rhythmisch, brüchig oder wiederkehrend sein kann. Dafür wird eine zeitliche Datenreihe eines dynamischen Systems nicht als Handlungssignal gelesen, sondern als visuelle, tonale und energetische Spur in eine testbare Welt übersetzt. An dieser Welt kann ein künstliches MCM-Feld passiv reagieren, ordnen und Bedeutung verdichten.
 
 
 ![MINI_DIO](docs/bilder/MINI_DIO.PNG)
@@ -56,7 +56,7 @@ Es fragt zuerst:
 - Was rekoppelt?
 - Kann daraus eine reproduzierbare innere Topologie entstehen?
 
-Damit ist MINI_DIO zuerst ein Forschungsinstrument für [MCM](https://github.com/H5Pro2/Mental-Core-Matrix-MCM)-basierte Wahrnehmung, nicht ein Bot.
+Damit ist MINI_DIO zuerst ein Forschungsinstrument für [MCM](https://github.com/H5Pro2/Mental-Core-Matrix-MCM)-basierte Wahrnehmung, kein Ausführungssystem.
 
 ## Visuelle Übersicht
 
@@ -121,14 +121,14 @@ Der aktuelle Forschungsstand zeigt:
 - passive Innenfeldzustände bilden unterscheidbare Wirkungsklassen,
 - `field_carried` und `field_strained` treten als passive Episodenzustände auf,
 - [MCM-Rekopplung](https://github.com/H5Pro2/Mental-Core-Matrix-MCM) und Sinnes-MCM-Kopplung sind messbar,
-- aktuelle Läufe bleiben bewusst ohne Trading-Handlung.
+- aktuelle Läufe bleiben bewusst ohne ausführende Handlung.
 
 Beispiel aus dem aktuellen Forschungslauf:
 
 ```text
 Top-Syntax-Überlappung:   1.0
 Top-Familien-Überlappung: 1.0
-Trades:                  0 -> 0
+Handlungen:              0 -> 0
 Episoden:                994 -> 994
 ```
 
@@ -154,7 +154,7 @@ MINI_DIO ist aktuell passive Forschungsinfrastruktur.
 
 Reports sind keine:
 
-- Trading-Regeln,
+- Ausführungsregeln,
 - Gates,
 - Entry-Signale,
 - Motorik,
@@ -279,7 +279,7 @@ Die nächsten Diagnosen sollen entlang der natürlichen [MCM-Möglichkeiten](htt
 
 ## Was MINI_DIO Nicht Ist
 
-MINI_DIO ist aktuell kein Tradingbot.
+MINI_DIO ist aktuell kein Ausführungssystem.
 
 Es ist kein fertiges KI-System, kein autonomer Agent und kein Beweis für Bewusstsein. Es ist ein kontrollierter Forschungsaufbau, um zu untersuchen, ob ein kleines MCM-Feld reproduzierbare innere Bedeutungsräume aus Weltkontakt bilden kann.
 
