@@ -1,8 +1,11 @@
-# MINI_DIO
+﻿# MINI_DIO
 
 MINI_DIO ist ein eigenständiges Forschungsprojekt für ein kleines, MCM-basiertes Innenfeldsystem.
 
 Der Kern ist nicht Trading. Marktdaten werden aktuell als kontrollierte Außenwelt genutzt, weil sie Zeit, Bewegung, Energie, Rhythmus, Bruch, Wiederkehr und strukturelle Varianz liefern. Damit entsteht eine testbare Welt, an der ein künstliches MCM-Feld passiv reagieren, ordnen und Bedeutung verdichten kann.
+
+
+![MINI_DIO](docs/bilder/MINI_DIO.PNG)
 
 ## Worum Es Geht
 
@@ -54,6 +57,24 @@ Es fragt zuerst:
 - Kann daraus eine reproduzierbare innere Topologie entstehen?
 
 Damit ist MINI_DIO zuerst ein Forschungsinstrument für MCM-basierte Wahrnehmung, nicht ein Bot.
+
+## Visuelle Übersicht
+
+Die folgenden Grafiken beschreiben MINI_DIO als Forschungsaufbau: von Wahrnehmungsreduktion über Zeichenbildung und semantische Kandidaten bis zur MCM-Topologie.
+
+![Wahrnehmung Und Reduktion](docs/bilder/01_WAHRNEMUNG_UND_REDUKTION.PNG)
+
+![Passive Zeichenbildung](docs/bilder/02_PASSIVE_ZEICHENBILDUNG.PNG)
+
+![Semantik-Kandidatenkarte](docs/bilder/03_SEMANTIK_KANDIDATENKARTE.PNG)
+
+![DOLU-Relevanz, MINI_DIO Und MCM](docs/bilder/04_DOLU_RELEVANZ_MINI_DIO_UND_MCM.PNG)
+
+![Emergenzpfad](docs/bilder/05_EMERGENZPFAD.PNG)
+
+![MCM-Topologie](docs/bilder/06_MCM_TOPOLOGIE.PNG)
+
+![Abgrenzung](docs/bilder/07_ABGRENZUNG.PNG)
 
 ## Abgrenzung Zu Ähnlichen Forschungsrichtungen
 
@@ -262,19 +283,3 @@ Es ist kein fertiges KI-System, kein autonomer Agent und kein Beweis für Bewuss
 
 Diese Vorsicht ist wichtig, weil der interessante Teil gerade darin liegt, nichts vorschnell als Handlung, Strategie oder Intelligenz zu verkaufen.
 
-## Nächste Forschungsrichtung
-
-Der nächste Schritt ist die Prüfung über mehrere kontrollierte Außenwelten.
-
-Dabei wird untersucht, ob die beobachtete Innenfeldordnung nur an eine einzelne Welt gebunden ist oder ob MINI_DIO auch bei veränderten Weltsequenzen stabile, driftende oder neu entstehende Bedeutungsräume bildet.
-
-Leitfragen:
-
-- bleiben Bedeutungsinseln stabil?
-- welche neuen Bedeutungsinseln entstehen?
-- wann beginnt eine vorhandene Bedeutung zu driften?
-- wann bildet sich eine neue Brücke zwischen Feldbereichen?
-- wie verändert sich die Zentrum-Peripherie-Ordnung?
-- bleibt passive Eigenregulation auch unter veränderter Weltspannung erkennbar?
-
-Wenn diese Befunde über mehrere Welten reproduzierbar bleiben, entsteht daraus die Grundlage für eine sauberere wissenschaftliche Beschreibung der MCM-Feldorganisation in MINI_DIO.
