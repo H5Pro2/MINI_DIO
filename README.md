@@ -214,6 +214,7 @@ Besonders relevant sind:
 - `132_PASSIVE_MCM_POLACHSEN.md`
 - `133_KURZSEGMENT_LESER.md`
 - `134_ZWEITE_RUHEINSEL_KURZSEGMENT_PRUEFUNG.md`
+- `135_ZWEITE_STRESSINSEL_KURZSEGMENT_PRUEFUNG.md`
 - `AKTUELLER_FORSCHUNGSLAUF.md`
 - `AKTUELLER_FORSCHUNGSLAUF_2024_01.md`
 - `MEHRWELT_VERGLEICH.md`
@@ -239,6 +240,7 @@ Der aktuelle Mehrwelt-Vergleich zeigt zusätzlich:
 - Passive Gegenpole wie Stress/Entlastung, Unruhe/Ruhe, Drift/Rekopplung oder Zerfall/Verdichtung werden nicht als Module modelliert, sondern als Polachsen der MCM-Feldreaktion gelesen.
 - Der Kurzsegment-Leser trennt lokale Lastnähe, Ruhenähe und Feldzeitnähe relativ zueinander; Feldzeitnähe ist dabei nicht automatisch Ruhe.
 - Zwei lokale Ruheinseln aus unterschiedlichen ruhigen Welten werden `ruhig_feldzeitnah` gelesen: niedrige Memorylast, niedriger Strain, stärkere Rekopplung und trotzdem leichte Feldzeitspur.
+- Eine zweite lokale Stressinsel aus einer anderen Stresswelt wird ebenfalls `lastnah` gelesen: hohe Memorylast, hoher Strain und schwächere Rekopplung.
 
 Das spricht für weltbezogene Innenfeldordnungen statt wahlloser Speicherung.
 
