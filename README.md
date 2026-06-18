@@ -1,119 +1,224 @@
 # MINI_DIO
 
-MINI_DIO is a research project for a small MCM-based artificial inner-field system.
+MINI_DIO ist ein eigenständiges Forschungsprojekt für ein kleines, MCM-basiertes Innenfeldsystem.
 
-The focus is not trading. Market data is currently used as a controlled external world because it provides time, movement, energy, rhythm and structural variance.
+Der Kern ist nicht Trading. Marktdaten werden aktuell als kontrollierte Außenwelt genutzt, weil sie Zeit, Bewegung, Energie, Rhythmus, Bruch, Wiederkehr und strukturelle Varianz liefern. Damit entsteht eine testbare Welt, an der ein künstliches MCM-Feld passiv reagieren, ordnen und Bedeutung verdichten kann.
 
-## Research Focus
+## Worum Es Geht
 
-MINI_DIO investigates whether a small MCM field can form:
+MINI_DIO untersucht eine einfache, aber weitreichende Frage:
 
-- passive inner-field reactions,
-- emergent meaning condensation,
-- recurrent semantic islands,
-- center/periphery topology,
-- drift and transition phases,
-- passive field self-regulation,
-- cyclic field movement.
+Kann ein kleines künstliches MCM-Feld aus wiederholtem Weltkontakt eine eigene innere Ordnung bilden?
 
-Current working hypothesis:
+Der Fokus liegt auf:
 
-The MCM field appears to possess passive self-regulation. Center, bridge, drift and transition are not manually forced as action rules; they are read as emerging field roles.
+- MCM-basierter Innenfeldreaktion,
+- emergenter Bedeutungsverdichtung,
+- wiederkehrenden semantischen Inseln,
+- Zentrum-Peripherie-Topologie,
+- Drift, Übergang und Rekopplung,
+- passiver Eigenregulation des Feldes,
+- zyklischer Feldbewegung,
+- reproduzierbarer Ordnung bei gleicher Welt.
 
-## Related Research Directions
+Die aktuelle Arbeitshypothese:
 
-MINI_DIO is not built in isolation. There are related research directions and systems:
+Das MCM-Feld scheint passive Eigenregulation zu besitzen. Zentrum, Brücke, Drift und Übergang werden nicht als Regel programmiert, sondern als Rollen gelesen, die aus der Feldorganisation entstehen.
 
-- **Active Inference / Free Energy Principle**  
-  Models perception, action and self-organization through prediction, uncertainty and free-energy minimization.
-- **Embodied AI and ecological perception**  
-  Studies agents that perceive and act through situated sensorimotor coupling with an environment.
-- **Neuromorphic and spiking-neural systems**  
-  Build brain-inspired computation through neurons, spikes, temporal dynamics and energy-efficient processing.
-- **Cognitive architectures such as OpenCog / OpenCog Hyperon**  
-  Explore artificial cognition through multiple interacting knowledge and reasoning systems.
-- **Neural simulators such as Nengo**  
-  Provide tools for building large-scale neural and cognitive models.
-- **Self-organizing and adaptive cognition research**  
-  Studies how memory, structure and behavior can emerge from internal dynamics instead of fixed instruction chains.
+## Warum Das Interessant Ist
 
-MINI_DIO is close to these fields, but the MCM approach is different in its current focus:
+Viele technische Systeme speichern Rohdaten, berechnen Merkmale und leiten daraus eine Entscheidung ab. MINI_DIO geht bewusst anders vor.
 
-- The central object is not prediction, reward, symbolic reasoning or trading performance, but **MCM-based inner-field reaction**.
-- Sensory input is not used directly as action logic. It first becomes **field effect**: tension, carrying, strain, drift, recoupling and after-effect.
-- Meaning is not assigned as a fixed label. It is read as **emergent meaning condensation** when similar inner-field states return.
-- The system is currently passive. It observes whether field topology, semantic islands and self-regulation appear before any action layer is added.
-- The key research question is whether a small artificial field can form reproducible inner order from world contact without hard-coded strategy logic.
-
-In short: related systems often ask how an agent predicts, acts, reasons or optimizes. MINI_DIO currently asks how an MCM field internally reacts, organizes, condenses meaning and stabilizes itself before action.
-
-## Project Layout
+Eine Weltlage wird nicht sofort Handlung. Sie wird zuerst Innenfeldwirkung:
 
 ```text
-mini_dio/      Core package: world, MCM neuron, field effects, memory, runner
-reports/       Passive research reports and diagnostic scripts
-docs/befunde/  Current research findings
-data/          Local test worlds
-memory/        Local MINI_DIO memory files
-debug/         Local report and run outputs
-tools/         Utility scripts
-tests/         Future verification tests
+Weltkontakt
+  -> Sehen / Hören / Fühlen
+  -> MCM-Feldwirkung
+  -> semantische Verdichtung
+  -> passive Innenordnung
+  -> spätere mögliche Regulation
 ```
 
-## Important Boundary
+Das Projekt fragt nicht zuerst: "Was soll das System tun?"
 
-MINI_DIO is currently passive research infrastructure.
+Es fragt zuerst:
 
-Reports must not be interpreted as:
+- Was entsteht im Inneren, wenn Welt auf Feld trifft?
+- Welche Zustände kehren wieder?
+- Welche Bedeutung verdichtet sich?
+- Was bleibt stabil?
+- Was driftet?
+- Was kippt?
+- Was rekoppelt?
+- Kann daraus eine reproduzierbare innere Topologie entstehen?
 
-- trading rules,
-- gates,
-- entry signals,
-- motor logic,
-- proof of a universal MCM topology.
+Damit ist MINI_DIO zuerst ein Forschungsinstrument für MCM-basierte Wahrnehmung, nicht ein Bot.
 
-They are observations of passive field organization.
+## Abgrenzung Zu Ähnlichen Forschungsrichtungen
 
-## Run
+MINI_DIO steht nicht isoliert. Es berührt mehrere bekannte Forschungsfelder:
+
+- **Active Inference / Free Energy Principle**  
+  Modelliert Wahrnehmung, Handlung und Selbstorganisation über Vorhersage, Unsicherheit und Minimierung freier Energie.
+
+- **Embodied AI und ökologische Wahrnehmung**  
+  Untersucht Systeme, die über Sensorik, Körperbezug und Umweltkontakt lernen.
+
+- **Neuromorphe Systeme und Spiking Neural Networks**  
+  Arbeiten mit neuronennaher Verarbeitung, zeitlicher Dynamik und energieeffizienter Aktivität.
+
+- **Kognitive Architekturen wie OpenCog / OpenCog Hyperon**  
+  Versuchen künstliche Kognition über kombinierte Wissens-, Denk- und Entscheidungssysteme aufzubauen.
+
+- **Neuronale Simulatoren wie Nengo**  
+  Ermöglichen den Bau großer neuronaler und kognitiver Modelle.
+
+- **Selbstorganisierende adaptive Systeme**  
+  Untersuchen, wie Struktur, Gedächtnis und Verhalten aus interner Dynamik entstehen können.
+
+MINI_DIO ist mit diesen Feldern verwandt, setzt aber einen anderen Schwerpunkt:
+
+- Nicht Vorhersage steht im Zentrum, sondern Innenfeldreaktion.
+- Nicht Belohnung steht im Zentrum, sondern Feldwirkung und Rekopplung.
+- Nicht Symbol-Logik steht im Zentrum, sondern emergente Bedeutungsverdichtung.
+- Nicht Handlung steht am Anfang, sondern passive Ordnung.
+- Nicht harte Regeln erzeugen Verhalten, sondern wiederkehrende Feldzustände werden gelesen.
+
+Kurz gesagt:
+
+Andere Systeme fragen oft, wie ein Agent handelt, optimiert, plant oder schlussfolgert. MINI_DIO fragt zuerst, wie ein MCM-Feld Weltkontakt innerlich organisiert, Bedeutung bildet und sich selbst stabilisiert.
+
+## Aktueller Stand
+
+MINI_DIO läuft als eigenständiges Python-Projekt.
+
+Der aktuelle Forschungsstand zeigt:
+
+- gleiche kontrollierte Welt erzeugt reproduzierbare Top-Syntax,
+- gleiche kontrollierte Welt erzeugt reproduzierbare Top-Familien,
+- passive Innenfeldzustände bilden unterscheidbare Wirkungsklassen,
+- `field_carried` und `field_strained` treten als passive Episodenzustände auf,
+- MCM-Rekopplung und Sinnes-MCM-Kopplung sind messbar,
+- aktuelle Läufe bleiben bewusst ohne Trading-Handlung.
+
+Beispiel aus dem aktuellen Forschungslauf:
+
+```text
+Top-Syntax-Überlappung:   1.0
+Top-Familien-Überlappung: 1.0
+Trades:                  0 -> 0
+Episoden:                994 -> 994
+```
+
+Das ist wichtig: Die Reproduzierbarkeit bezieht sich hier nicht auf Profit, sondern auf innere Ordnung bei gleicher Welt.
+
+## Projektstruktur
+
+```text
+mini_dio/      Kernpaket: Welt, MCM-Neuron, Feldwirkung, Memory, Runner
+reports/       Passive Forschungsreports und Diagnose-Skripte
+docs/befunde/  Aktuelle Befunde und Forschungsläufe
+DIO_BAUPLAN/   Abhandlungen und Theorieanker
+data/          Kontrollierte Außenwelten
+memory/        Lokale Memory-Dateien, nicht für Git
+debug/         Lokale Run- und Report-Ausgaben, nicht für Git
+tools/         Prüf- und Forschungsketten
+tests/         Platz für spätere Tests
+```
+
+## Wichtige Grenze
+
+MINI_DIO ist aktuell passive Forschungsinfrastruktur.
+
+Reports sind keine:
+
+- Trading-Regeln,
+- Gates,
+- Entry-Signale,
+- Motorik,
+- Strategie,
+- Beweise einer universellen MCM-Topologie.
+
+Sie sind Beobachtungen passiver Feldorganisation.
+
+Handlung darf erst wieder Thema werden, wenn passive Innenordnung, Rekopplung, Bedeutung und Konsequenz stabil genug verstanden sind.
+
+## Starten
+
+Projekt prüfen:
+
+```powershell
+python tools\check_project.py
+```
+
+Ein einzelner passiver Lauf:
 
 ```powershell
 python -m mini_dio.run_mini --data data/kontrolliert_2023_real_test1_1000_5m_SOLUSDT.csv
 ```
 
-## Standard Research Chain
+Standard-Forschungskette:
 
 ```powershell
 python tools\run_research_chain.py
 ```
 
-This runs two passive MINI_DIO passes on the same controlled world, compares both reports, and writes:
+Diese Kette führt zwei passive Läufe auf derselben kontrollierten Welt aus, vergleicht beide Reports und schreibt:
 
 - `debug/research_chain/research_chain_summary.json`
 - `docs/befunde/AKTUELLER_FORSCHUNGSLAUF.md`
 
-If no data file is present, add a CSV with:
+Erwartetes CSV-Format:
 
 ```text
 timestamp_ms,open,high,low,close,volume
 ```
 
-## Current Research Chain
+## Aktuelle Befundkette
 
-The current documented findings are in `docs/befunde/107_...` through `120_...`.
+Die aktuellen Befunde liegen unter:
 
-The strongest current result is the passive MCM cycle map:
+```text
+docs/befunde/
+```
 
-- center can hold,
-- bridges carry center,
-- drift can return to center,
-- transition can recouple,
-- drift/transition can pass through center into bridge states.
+Besonders relevant sind:
 
-## Next Step
+- `107_KLEINER_DURCHBRUCH_MCM_TOPOLOGIE_BEFUND.md`
+- `108_REPRODUZIERTE_MCM_TOPOLOGIE_ROLLENKARTE.md`
+- `114_PASSIVE_MCM_TOPOLOGIE_MATRIX.md`
+- `119_MCM_FELD_EIGENREGULATION_BEFUND.md`
+- `120_PASSIVE_MCM_ZYKLUSKARTE.md`
+- `AKTUELLER_FORSCHUNGSLAUF.md`
 
-Evaluate passive cycle maturity:
+Der stärkste aktuelle Befund ist die passive MCM-Zykluskarte:
 
-- Which cycles are stable?
-- Which cycles are open?
-- Which cycles are strained?
-- Which cycles are reorganizing?
+- Zentrum kann halten.
+- Brücken können Zentrum tragen.
+- Drift kann zum Zentrum zurückführen.
+- Übergang kann rekoppeln.
+- Drift und Übergang können über Zentrum in Brückenzustände übergehen.
+
+## Was MINI_DIO Nicht Ist
+
+MINI_DIO ist aktuell kein Tradingbot.
+
+Es ist kein fertiges KI-System, kein autonomer Agent und kein Beweis für Bewusstsein. Es ist ein kontrollierter Forschungsaufbau, um zu untersuchen, ob ein kleines MCM-Feld reproduzierbare innere Bedeutungsräume aus Weltkontakt bilden kann.
+
+Diese Vorsicht ist wichtig, weil der interessante Teil gerade darin liegt, nichts vorschnell als Handlung, Strategie oder Intelligenz zu verkaufen.
+
+## Nächster Schritt
+
+Als nächstes wird dieselbe Forschungskette mit weiteren kontrollierten Welten ausgeführt.
+
+Ziel:
+
+- bleiben Bedeutungsinseln stabil?
+- entstehen neue Inseln?
+- driftet eine vorhandene Bedeutung?
+- bildet sich eine neue Brücke?
+- verändert sich die Zentrum-Peripherie-Ordnung?
+- bleibt die passive Eigenregulation erkennbar?
+
+Wenn diese Befunde über mehrere Welten stabil bleiben, entsteht daraus die Grundlage für eine wissenschaftlich sauberere Beschreibung der MCM-Feldorganisation in MINI_DIO.
