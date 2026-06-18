@@ -200,6 +200,7 @@ Besonders relevant sind:
 - `114_PASSIVE_MCM_TOPOLOGIE_MATRIX.md`
 - `119_MCM_FELD_EIGENREGULATION_BEFUND.md`
 - `120_PASSIVE_MCM_ZYKLUSKARTE.md`
+- `121_PASSIVE_FELDKLASSEN_DIAGNOSE.md`
 - `AKTUELLER_FORSCHUNGSLAUF.md`
 - `AKTUELLER_FORSCHUNGSLAUF_2024_01.md`
 - `MEHRWELT_VERGLEICH.md`
@@ -218,8 +219,11 @@ Der aktuelle Mehrwelt-Vergleich zeigt zusätzlich:
 - Zwischen verschiedenen Welten verschieben sich Syntax und Familien deutlich.
 - Das passive Feldprofil bleibt dennoch ähnlich.
 - Die dominante Feldwirkung kann je nach Weltspannung wechseln, ohne dass die Feldordnung kollabiert.
+- Aus mehreren Welten lassen sich vorläufige passive Feldklassen lesen: ruhige Nähegruppe, angespannte Übergangsgruppe und Stress-Gegenpol.
 
 Das spricht für weltbezogene Innenfeldordnungen statt wahlloser Speicherung.
+
+Die Feldklassen-Diagnose ist ausdrücklich ein Auswertungswerkzeug. Sie ist keine Runtime-Regel, kein Gate und keine Handlungsvorgabe für MINI_DIO.
 
 ## Was MINI_DIO Nicht Ist
 
