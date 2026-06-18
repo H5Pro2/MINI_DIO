@@ -1,0 +1,10 @@
+[project]
+name = "mini-dio"
+version = "0.1.0"
+description = "Standalone MINI_DIO research project for MCM-based passive inner-field cognition."
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.setuptools]
+packages = ["mini_dio"]
+
