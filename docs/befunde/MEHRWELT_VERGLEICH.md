@@ -1,6 +1,6 @@
 # Mehrwelt-Vergleich
 
-Stand: 2026-06-18 17:13:32
+Stand: 2026-06-18 17:23:40
 
 ## Zweck
 
@@ -137,6 +137,27 @@ Feldprofil:
 - `stabil`: `348`
 - `tragend_unruhig`: `436`
 
+### welt_2024_bridge3_01
+
+- Datenwelt: `data\kontrolliert_2024_bridge_test3_1000_5m_SOLUSDT.csv`
+- Kerzen: `1000`
+- Unique Syntax: `979` -> `979`
+- Episoden: `994` -> `994`
+- Episodenmemory Lauf 2: `117`
+- Top-Syntax-Reproduktion: `1.0`
+- Top-Familien-Reproduktion: `1.0`
+- MCM-Rekopplung Lauf 2: `0.616367`
+- MCM-Tragqualität Lauf 2: `0.353651`
+- dominante Feldwirkung: `tragend_unruhig` (`0.4728`)
+
+Feldprofil:
+
+- `diffus`: `21`
+- `gespannt`: `79`
+- `kippend`: `98`
+- `stabil`: `326`
+- `tragend_unruhig`: `470`
+
 ## Weltvergleich
 
 ### welt_2023_01 gegen welt_2024_01
@@ -184,6 +205,15 @@ Feldprofil:
 - Rekopplungsdelta: `-0.008037`
 - Tragqualitätsdelta: `-0.006905`
 
+### welt_2023_01 gegen welt_2024_bridge3_01
+
+- Feldprofil-Ähnlichkeit: `0.8592`
+- Top-Syntax-Ähnlichkeit: `0.0`
+- Top-Familien-Ähnlichkeit: `0.0`
+- dominante Feldwirkung: `stabil -> tragend_unruhig`
+- Rekopplungsdelta: `-0.006655`
+- Tragqualitätsdelta: `0.000612`
+
 ### welt_2024_01 gegen welt_2025_core_01
 
 - Feldprofil-Ähnlichkeit: `0.8581`
@@ -220,6 +250,15 @@ Feldprofil:
 - Rekopplungsdelta: `-0.007312`
 - Tragqualitätsdelta: `-0.011957`
 
+### welt_2024_01 gegen welt_2024_bridge3_01
+
+- Feldprofil-Ähnlichkeit: `0.9235`
+- Top-Syntax-Ähnlichkeit: `0.0`
+- Top-Familien-Ähnlichkeit: `0.0`
+- dominante Feldwirkung: `tragend_unruhig -> tragend_unruhig`
+- Rekopplungsdelta: `-0.00593`
+- Tragqualitätsdelta: `-0.00444`
+
 ### welt_2025_core_01 gegen welt_2025_mid_shift_01
 
 - Feldprofil-Ähnlichkeit: `0.9618`
@@ -247,6 +286,15 @@ Feldprofil:
 - Rekopplungsdelta: `-0.0189`
 - Tragqualitätsdelta: `-0.015135`
 
+### welt_2025_core_01 gegen welt_2024_bridge3_01
+
+- Feldprofil-Ähnlichkeit: `0.7837`
+- Top-Syntax-Ähnlichkeit: `0.0`
+- Top-Familien-Ähnlichkeit: `0.0`
+- dominante Feldwirkung: `stabil -> tragend_unruhig`
+- Rekopplungsdelta: `-0.017518`
+- Tragqualitätsdelta: `-0.007618`
+
 ### welt_2025_mid_shift_01 gegen welt_2025_late_shift_01
 
 - Feldprofil-Ähnlichkeit: `0.9658`
@@ -265,6 +313,15 @@ Feldprofil:
 - Rekopplungsdelta: `-0.015505`
 - Tragqualitätsdelta: `-0.013235`
 
+### welt_2025_mid_shift_01 gegen welt_2024_bridge3_01
+
+- Feldprofil-Ähnlichkeit: `0.8139`
+- Top-Syntax-Ähnlichkeit: `0.0`
+- Top-Familien-Ähnlichkeit: `0.0`
+- dominante Feldwirkung: `stabil -> tragend_unruhig`
+- Rekopplungsdelta: `-0.014123`
+- Tragqualitätsdelta: `-0.005718`
+
 ### welt_2025_late_shift_01 gegen welt_2023_stress_01
 
 - Feldprofil-Ähnlichkeit: `0.8028`
@@ -274,19 +331,37 @@ Feldprofil:
 - Rekopplungsdelta: `-0.019013`
 - Tragqualitätsdelta: `-0.015761`
 
+### welt_2025_late_shift_01 gegen welt_2024_bridge3_01
+
+- Feldprofil-Ähnlichkeit: `0.7807`
+- Top-Syntax-Ähnlichkeit: `0.0`
+- Top-Familien-Ähnlichkeit: `0.0`
+- dominante Feldwirkung: `stabil -> tragend_unruhig`
+- Rekopplungsdelta: `-0.017631`
+- Tragqualitätsdelta: `-0.008244`
+
+### welt_2023_stress_01 gegen welt_2024_bridge3_01
+
+- Feldprofil-Ähnlichkeit: `0.9638`
+- Top-Syntax-Ähnlichkeit: `0.0`
+- Top-Familien-Ähnlichkeit: `0.0667`
+- dominante Feldwirkung: `tragend_unruhig -> tragend_unruhig`
+- Rekopplungsdelta: `0.001382`
+- Tragqualitätsdelta: `0.007517`
+
 ## Befund
 
-Die sechs geprüften Welten zeigen eine hohe Reproduktion innerhalb der jeweiligen Welt, aber klare Verschiebungen zwischen den Welten. Das spricht dafür, dass MINI_DIO nicht wahllos speichert, sondern weltbezogene Innenfeldordnungen bildet.
+Die sieben geprüften Welten zeigen eine hohe Reproduktion innerhalb der jeweiligen Welt, aber klare Verschiebungen zwischen den Welten. Das spricht dafür, dass MINI_DIO nicht wahllos speichert, sondern weltbezogene Innenfeldordnungen bildet.
 
-Die drei 2025-Welten bilden feldseitig eine ruhige Nähegruppe. Sie teilen keine Top-Syntax und keine Top-Familien, bleiben im Feldprofil aber eng beieinander:
+Die drei 2025-Welten bilden weiterhin eine ruhige Nähegruppe. Sie teilen keine Top-Syntax und keine Top-Familien, bleiben im Feldprofil aber eng beieinander:
 
 - 2025-Core gegen 2025-Mid-Shift: `0.9618`
 - 2025-Core gegen 2025-Late-Shift: `0.9879`
 - 2025-Mid-Shift gegen 2025-Late-Shift: `0.9658`
 
-Der 2023-Stresslauf bildet den Gegenpol: niedrigere Rekopplung, niedrigere Tragqualität, mehr gespannte und kippende Wirkungen und deutlich mehr Episodenmemory. Das ist fachlich relevant, weil MINI_DIO hier nicht nur andere Wörter bildet, sondern eine andere Feldbelastung zeigt.
+Die neue Welt `welt_2024_bridge3_01` ordnet sich nicht als neutrale Übergangswelt ein, sondern nahe am Stress-Gegenpol. Besonders relevant ist die Nähe zu `welt_2023_stress_01`: Feldprofil-Ähnlichkeit `0.9638`, gleiche dominante Feldwirkung `tragend_unruhig -> tragend_unruhig`, erhöhte Kipp-/Spannungswirkung und hohes Episodenmemory.
 
-Damit entsteht eine klarere Arbeitsthese: Syntax ist stark weltbezogen, das Feldprofil kann aber weltübergreifende Nähegruppen bilden. MINI_DIO scheint also nicht nur einzelne Bedeutungsinseln zu reproduzieren, sondern auch größere Innenfeldklassen zu tragen.
+Damit wird die Arbeitsthese stärker: Syntax bleibt weltbezogen, aber das Innenfeld bildet größere Klassen. MINI_DIO liest also nicht nur einzelne Bedeutungsinseln, sondern auch wiedererkennbare Belastungs- und Nähefelder.
 
 Wichtig bleibt: Das ist passive Feldforschung. Der Bericht erzeugt keine Handlung, kein Gate und keine Strategie.
 

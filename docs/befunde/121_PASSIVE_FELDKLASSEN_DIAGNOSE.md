@@ -1,6 +1,6 @@
 # Passive Feldklassen-Diagnose
 
-Stand: 2026-06-18 17:16:39
+Stand: 2026-06-18 17:24:28
 
 ## Zweck
 
@@ -17,10 +17,10 @@ Hierarchie der Prüfung:
 
 ### Stress-Gegenpol
 
-- Welten: `1`
-- mittlere Rekopplung: `0.614985`
-- mittlere Tragqualität: `0.346134`
-- mittlere Spannungs-/Kippwirkung: `191.0`
+- Welten: `2`
+- mittlere Rekopplung: `0.615676`
+- mittlere Tragqualität: `0.349892`
+- mittlere Spannungs-/Kippwirkung: `184.0`
 
 #### welt_2023_stress_01
 
@@ -37,6 +37,22 @@ Hierarchie der Prüfung:
 - Rohwelt avg_range: `0.007442`
 - Rohwelt drift: `0.42866`
 - Richtungswechsel: `449`
+
+#### welt_2024_bridge3_01
+
+- Datenwelt: `data\kontrolliert_2024_bridge_test3_1000_5m_SOLUSDT.csv`
+- dominante Feldwirkung: `tragend_unruhig` (`0.4728`)
+- Rekopplung: `0.616367`
+- Tragqualität: `0.353651`
+- Sinnes-MCM-Kopplung: `0.821115`
+- Episodenmemory: `117`
+- Unique Syntax: `979`
+- gespannte + kippende Wirkung: `177`
+- Rohwelt avg_abs_return: `0.003269`
+- Rohwelt max_abs_return: `0.068453`
+- Rohwelt avg_range: `0.006902`
+- Rohwelt drift: `0.117163`
+- Richtungswechsel: `487`
 
 ### angespannte Übergangsgruppe
 

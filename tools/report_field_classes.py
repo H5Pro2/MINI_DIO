@@ -234,6 +234,7 @@ def main() -> int:
         ("welt_2025_mid_shift_01", "debug/research_chain_2025_mid_shift_01/research_chain_summary.json"),
         ("welt_2025_late_shift_01", "debug/research_chain_2025_late_shift_01/research_chain_summary.json"),
         ("welt_2023_stress_01", "debug/research_chain_2023_stress_01/research_chain_summary.json"),
+        ("welt_2024_bridge3_01", "debug/research_chain_2024_bridge3_01/research_chain_summary.json"),
     ]
     summaries = []
     for name, path_text in summary_args:
