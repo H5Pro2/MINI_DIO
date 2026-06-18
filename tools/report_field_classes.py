@@ -84,17 +84,25 @@ def _world_metrics(data_path_text: str) -> dict[str, float]:
 
 def _classify(row: dict) -> str:
     profile = row["profile"]
+    total = max(1, sum(profile.values()))
     stable = profile.get("stabil", 0)
     strained = profile.get("gespannt", 0) + profile.get("kippend", 0)
     restless = profile.get("tragend_unruhig", 0)
     rekopplung = row["rekopplung"]
     carry = row["carry"]
-    memory = row["episode_memory"]
+    carried_ratio = row.get("field_carried_ratio", 0.0)
+    stable_ratio = stable / total
+    restless_ratio = restless / total
+    strain_ratio = strained / total
 
-    if rekopplung >= 0.630 and carry >= 0.359 and stable >= 500 and strained <= 75:
-        return "ruhige Nähegruppe"
-    if rekopplung <= 0.617 or carry <= 0.348 or strained >= 170 or memory >= 100:
+    if rekopplung <= 0.617 or carry <= 0.348:
         return "Stress-Gegenpol"
+    if strain_ratio >= 0.17 and carried_ratio < 0.93:
+        return "Stress-Gegenpol"
+    if stable_ratio >= 0.50 and carried_ratio >= 0.94 and rekopplung >= 0.625 and carry >= 0.355:
+        return "ruhige Nähegruppe"
+    if restless_ratio >= stable_ratio or strain_ratio >= 0.10:
+        return "angespannte Übergangsgruppe"
     if restless >= stable or strained >= 120:
         return "angespannte Übergangsgruppe"
     return "mittlere Feldlage"
@@ -107,6 +115,10 @@ def build_rows(summaries: list[tuple[str, dict]]) -> list[dict]:
         dominant, dominant_ratio = _dominant_effect(profile)
         data_path = str(summary.get("data_path", ""))
         metrics = _world_metrics(data_path)
+        states = summary.get("episode_memory_states") or {}
+        episodes = int((summary.get("episodes") or [0, 0])[1] or 0)
+        field_carried = int(states.get("field_carried", 0) or 0)
+        field_strained = int(states.get("field_strained", 0) or 0)
         row = {
             "name": name,
             "data_path": data_path,
@@ -117,6 +129,11 @@ def build_rows(summaries: list[tuple[str, dict]]) -> list[dict]:
             "carry": _second(summary.get("avg_mcm_carry_quality")),
             "sensory": _second(summary.get("avg_mcm_sensory_coupling")),
             "episode_memory": int((summary.get("episode_memory_written") or [0, 0])[1]),
+            "episodes": episodes,
+            "field_carried": field_carried,
+            "field_strained": field_strained,
+            "field_carried_ratio": round(field_carried / max(1, episodes), 4),
+            "field_strained_ratio": round(field_strained / max(1, episodes), 4),
             "unique_symbols": int((summary.get("unique_symbols") or [0, 0])[1]),
             "world_metrics": metrics,
         }
@@ -182,6 +199,8 @@ def write_markdown(rows: list[dict], out_path: Path) -> None:
                     f"- Tragqualität: `{row['carry']:.6f}`",
                     f"- Sinnes-MCM-Kopplung: `{row['sensory']:.6f}`",
                     f"- Episodenmemory: `{row['episode_memory']}`",
+                    f"- field_carried: `{row['field_carried']}` (`{row['field_carried_ratio']}`)",
+                    f"- field_strained: `{row['field_strained']}` (`{row['field_strained_ratio']}`)",
                     f"- Unique Syntax: `{row['unique_symbols']}`",
                     f"- gespannte + kippende Wirkung: `{strain}`",
                     f"- Rohwelt avg_abs_return: `{metrics['avg_abs_return']}`",
