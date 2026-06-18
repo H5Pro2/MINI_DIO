@@ -28,6 +28,8 @@ Die aktuelle Arbeitshypothese:
 
 Das [MCM-Feld](https://github.com/H5Pro2/Mental-Core-Matrix-MCM) scheint passive Eigenregulation zu besitzen. Zentrum, Brücke, Drift und Übergang werden nicht als Regel programmiert, sondern als Rollen gelesen, die aus der Feldorganisation entstehen.
 
+In den bisher geprüften Welten hat MINI_DIO wiederholt eine Feldform ausgebildet, die der hypothetischen MCM-Topologie nahekommt: zentrumsnahe Stabilisierung, offene Brücken, driftende Nähebereiche und belastete Randspannung. Nach erneuter Codeprüfung gibt es aktuell keinen Hinweis darauf, dass diese Form durch eine feste Vorgabe wie "das muss so aussehen" erzeugt wird. Die Topologiebegriffe entstehen in der nachgelagerten Diagnose und Beschreibung; die Laufstruktur selbst arbeitet mit Sehen, Hören, Fühlen, MCM-Feldwirkung und eigener `dio_*`-Syntax. Auch nach mehreren Memory-Neustarts blieb dieser Befund in den geprüften Welten auffällig reproduzierbar.
+
 ## Warum Das Interessant Ist
 
 Viele technische Systeme speichern Rohdaten, berechnen Merkmale und leiten daraus eine Entscheidung ab. MINI_DIO geht bewusst anders vor.
@@ -251,6 +253,10 @@ Der stärkste aktuelle Befund ist die passive [MCM-Zykluskarte](https://github.c
 - Drift kann zum Zentrum zurückführen.
 - Übergang kann rekoppeln.
 - Drift und Übergang können über Zentrum in Brückenzustände übergehen.
+
+Wichtiger Topologie-Hinweis:
+
+Die bisher beobachtete Topologie wurde nicht als Zielbild in MINI_DIO eingebaut. Der Code enthält im Kern keine feste Vorgabe für vier Felder, Zentrum, Brücken, Ring, Rand oder eine bestimmte geometrische Ordnung. Solche Begriffe werden in Reports und Befunden verwendet, um die entstandenen Feldrollen nachträglich lesbar zu machen. Der derzeitige Befund ist deshalb besonders interessant: In den geprüften Welten bildet MINI_DIO selbstständig eine Ordnung, die der hypothetischen MCM-Arbeit entspricht. Das ist noch kein universeller Beweis, aber ein reproduzierbarer Forschungsbefund innerhalb der bisherigen Testwelten und Memory-Neustarts.
 
 Der aktuelle Mehrwelt-Vergleich zeigt zusätzlich:
 

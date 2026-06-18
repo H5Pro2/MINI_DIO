@@ -218,6 +218,110 @@ Zentrum
 -> neue Ordnung
 ```
 
+## 7. Codepruefung: Keine eingebaute Zielgeometrie
+
+Nach erneuter Codepruefung ist wichtig festzuhalten:
+
+```text
+Die beobachtete Topologie ist im Mini-DIO-Kern nicht als Zielbild
+oder feste geometrische Vorgabe eingebaut.
+```
+
+Im Kerncode finden sich keine festen Vorgaben wie:
+
+- vier Gruppen muessen entstehen,
+- ein Zentrum muss entstehen,
+- Bruecken muessen entstehen,
+- ein Ring oder Rand muss entstehen,
+- bestimmte Symbole muessen bestimmte Rollen einnehmen,
+- eine Leonardo-/12-4-0-Topologie muss abgebildet werden.
+
+Die eigentliche Mini-DIO-Laufstruktur arbeitet mit:
+
+- Sehen,
+- Hoeren,
+- Fuehlen,
+- MCM-Feldwirkung,
+- neuronaler Verarbeitung,
+- Nachhall,
+- eigener `dio_*`-Syntax,
+- passiver Memory-Verdichtung.
+
+Die Begriffe wie:
+
+- `zentrum_nahe_stabilisierung`
+- `offene_bruecke_tragend`
+- `offene_bruecke_entlastend`
+- `selbstnah_driftend`
+- `spannungsrand_belastend`
+
+entstehen in nachgelagerten Diagnose- und Report-Schichten. Sie beschreiben
+die gelesene Feldrolle, aber sie erzeugen diese Rolle nicht im Mini-DIO-Kern.
+
+Damit ist der Befund methodisch vorsichtiger zu lesen:
+
+```text
+Nicht: Mini-DIO wurde so gebaut, dass es diese Topologie zeigen muss.
+Sondern: Mini-DIO erzeugt in den geprueften Welten eine Feldordnung,
+die nachtraeglich als MCM-nahe Topologie gelesen werden kann.
+```
+
+## 8. Reproduzierbarkeit nach Memory-Neustarts
+
+Der Befund ist besonders interessant, weil er nicht nur in einem einzelnen
+Memory-Zustand auftrat.
+
+In mehreren geprueften Laeufen, auch nach Memory-Neustarts, zeigte sich erneut:
+
+- wiederkehrende Top-Syntax,
+- wiederkehrende Bedeutungsfamilien,
+- stabile oder driftende Innenfeldrollen,
+- zentrumsnahe Stabilisierung,
+- offene Bruecken,
+- belastete Randspannung,
+- Rekopplungs- und Uebergangsformen.
+
+Das bedeutet nicht, dass eine universelle MCM-Topologie bereits bewiesen ist.
+Es bedeutet aber:
+
+```text
+Innerhalb der bisher geprueften Welten entsteht eine auffaellig
+reproduzierbare Innenfeldordnung, die der hypothetischen MCM-Arbeit
+entspricht, ohne dass diese Ordnung als feste Form programmiert wurde.
+```
+
+## 9. Forschungswert
+
+Der wissenschaftlich interessante Punkt liegt genau in dieser Trennung:
+
+```text
+Erzeugung:
+  Welt -> Sehen / Hoeren / Fuehlen -> MCM-Feld -> Syntax -> Memory
+
+Lesung:
+  entstandene Feldrollen -> Zentrum / Bruecke / Drift / Rand
+```
+
+Wenn diese Trennung stabil bleibt, ist der Befund wertvoll, weil er zeigt,
+dass eine MCM-nahe Topologie aus Feldkontakt, Wiederkehr und Bedeutungs-
+verdichtung entstehen kann, ohne als starre Struktur vorgeschrieben zu sein.
+
+Fuer den weiteren Forschungsweg heisst das:
+
+- Topologie darf nicht als Regel eingebaut werden.
+- Topologie muss weiter als passiver Befund gelesen werden.
+- Neue Welten muessen pruefen, ob die Ordnung stabil bleibt, driftet,
+  neue Rollen bildet oder zerfaellt.
+- Jede neue visuelle Darstellung muss klar als Interpretation markiert
+  werden, nicht als Beweisbild.
+
+Damit bleibt der aktuelle Stand:
+
+```text
+Starker reproduzierbarer Forschungsbefund,
+aber noch kein universeller Beweis.
+```
+
 Wichtig:
 Diese neue Ordnung ist nicht vorprogrammiert als feste Karte.
 Sie wird aus passiven Reifespuren gelesen.
@@ -273,4 +377,3 @@ Vor Feldwirkung kommt Wahrnehmung.
 ```
 
 Das ist fuer Mini-DIO der aktuell sauberste dokumentarische Aufbau.
-
