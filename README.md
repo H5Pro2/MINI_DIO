@@ -169,6 +169,16 @@ Diese Kette führt zwei passive Läufe auf derselben kontrollierten Welt aus, ve
 - `debug/research_chain/research_chain_summary.json`
 - `docs/befunde/AKTUELLER_FORSCHUNGSLAUF.md`
 
+Mehrwelt-Vergleich:
+
+```powershell
+python tools\compare_research_chains.py
+```
+
+Dieses Werkzeug vergleicht mehrere `research_chain_summary.json`-Dateien und schreibt:
+
+- `docs/befunde/MEHRWELT_VERGLEICH.md`
+
 Erwartetes CSV-Format:
 
 ```text
@@ -191,6 +201,8 @@ Besonders relevant sind:
 - `119_MCM_FELD_EIGENREGULATION_BEFUND.md`
 - `120_PASSIVE_MCM_ZYKLUSKARTE.md`
 - `AKTUELLER_FORSCHUNGSLAUF.md`
+- `AKTUELLER_FORSCHUNGSLAUF_2024_01.md`
+- `MEHRWELT_VERGLEICH.md`
 
 Der stärkste aktuelle Befund ist die passive MCM-Zykluskarte:
 
@@ -199,6 +211,15 @@ Der stärkste aktuelle Befund ist die passive MCM-Zykluskarte:
 - Drift kann zum Zentrum zurückführen.
 - Übergang kann rekoppeln.
 - Drift und Übergang können über Zentrum in Brückenzustände übergehen.
+
+Der aktuelle Mehrwelt-Vergleich zeigt zusätzlich:
+
+- Innerhalb einzelner Welten reproduzieren sich Top-Syntax und Top-Familien stabil.
+- Zwischen verschiedenen Welten verschieben sich Syntax und Familien deutlich.
+- Das passive Feldprofil bleibt dennoch ähnlich.
+- Die dominante Feldwirkung kann je nach Weltspannung wechseln, ohne dass die Feldordnung kollabiert.
+
+Das spricht für weltbezogene Innenfeldordnungen statt wahlloser Speicherung.
 
 ## Was MINI_DIO Nicht Ist
 
