@@ -119,12 +119,14 @@ def _add_relative_reading(rows: list[dict]) -> None:
         row["relative_load_score"] = load
         row["relative_calm_score"] = calm
         row["relative_field_time_score"] = field_time
-        if calm > load and calm >= field_time:
+        if field_time > max(load, calm) and calm > load:
+            row["short_segment_reading"] = "ruhig_feldzeitnah"
+        elif field_time > max(load, calm) and load > calm:
+            row["short_segment_reading"] = "last_feldzeitnah"
+        elif calm > load and calm >= field_time:
             row["short_segment_reading"] = "ruhenah"
         elif load > calm and load >= field_time:
             row["short_segment_reading"] = "lastnah"
-        elif field_time > max(load, calm):
-            row["short_segment_reading"] = "feldzeitnah"
         else:
             row["short_segment_reading"] = "gemischt"
 
@@ -158,6 +160,7 @@ def write_markdown(rows: list[dict], out_path: Path) -> None:
         "- Lastnähe: mehr Memorylast, mehr Strain, schwächere Rekopplung, mehr Feldwechsel.",
         "- Ruhenähe: weniger Memorylast, weniger Strain, stärkere Rekopplung.",
         "- Feldzeitnähe: Wiederkehr und Nachhall treten sichtbar auf.",
+        "- Kombinierte Lesung: Feldzeit kann ruhig oder belastet eingebettet sein.",
         "",
         "## Segmentvergleich",
         "",
