@@ -208,17 +208,19 @@ Es ist kein fertiges KI-System, kein autonomer Agent und kein Beweis für Bewuss
 
 Diese Vorsicht ist wichtig, weil der interessante Teil gerade darin liegt, nichts vorschnell als Handlung, Strategie oder Intelligenz zu verkaufen.
 
-## Nächster Schritt
+## Nächste Forschungsrichtung
 
-Als nächstes wird dieselbe Forschungskette mit weiteren kontrollierten Welten ausgeführt.
+Der nächste Schritt ist die Prüfung über mehrere kontrollierte Außenwelten.
 
-Ziel:
+Dabei wird untersucht, ob die beobachtete Innenfeldordnung nur an eine einzelne Welt gebunden ist oder ob MINI_DIO auch bei veränderten Weltsequenzen stabile, driftende oder neu entstehende Bedeutungsräume bildet.
+
+Leitfragen:
 
 - bleiben Bedeutungsinseln stabil?
-- entstehen neue Inseln?
-- driftet eine vorhandene Bedeutung?
-- bildet sich eine neue Brücke?
-- verändert sich die Zentrum-Peripherie-Ordnung?
-- bleibt die passive Eigenregulation erkennbar?
+- welche neuen Bedeutungsinseln entstehen?
+- wann beginnt eine vorhandene Bedeutung zu driften?
+- wann bildet sich eine neue Brücke zwischen Feldbereichen?
+- wie verändert sich die Zentrum-Peripherie-Ordnung?
+- bleibt passive Eigenregulation auch unter veränderter Weltspannung erkennbar?
 
-Wenn diese Befunde über mehrere Welten stabil bleiben, entsteht daraus die Grundlage für eine wissenschaftlich sauberere Beschreibung der MCM-Feldorganisation in MINI_DIO.
+Wenn diese Befunde über mehrere Welten reproduzierbar bleiben, entsteht daraus die Grundlage für eine sauberere wissenschaftliche Beschreibung der MCM-Feldorganisation in MINI_DIO.
