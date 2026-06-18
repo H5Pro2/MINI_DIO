@@ -2,7 +2,7 @@
 
 MINI_DIO ist ein eigenständiges Forschungsprojekt für ein kleines, [MCM](https://github.com/H5Pro2/Mental-Core-Matrix-MCM)-basiertes Innenfeldsystem.
 
-Der Kern ist nicht Trading. Marktdaten werden aktuell als kontrollierte Außenwelt genutzt, weil sie Zeit, Bewegung, Energie, Rhythmus, Bruch, Wiederkehr und strukturelle Varianz liefern. Damit entsteht eine testbare Welt, an der ein künstliches MCM-Feld passiv reagieren, ordnen und Bedeutung verdichten kann.
+MINI_DIO versteht DIO als Digitalen Organismus. Aus dem Forschungsprozess heraus entstand die Überlegung, einem solchen Organismus eine kontrollierte Außenwelt zu geben, die energiegeladen, ruhig, rhythmisch, brüchig oder wiederkehrend sein kann. Dafür wird ein Kursverlauf eines Assets nicht als Trading-Signal gelesen, sondern als visuelle, tonale und energetische Spur in eine testbare Welt übersetzt. An dieser Welt kann ein künstliches MCM-Feld passiv reagieren, ordnen und Bedeutung verdichten.
 
 
 ![MINI_DIO](docs/bilder/MINI_DIO.PNG)
