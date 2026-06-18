@@ -212,6 +212,7 @@ Besonders relevant sind:
 - `130_LOKALE_STRESSINSEL_REPRODUKTION.md`
 - `131_LOKALE_RUHEINSEL_GEGEN_STRESSINSEL.md`
 - `132_PASSIVE_MCM_POLACHSEN.md`
+- `133_KURZSEGMENT_LESER.md`
 - `AKTUELLER_FORSCHUNGSLAUF.md`
 - `AKTUELLER_FORSCHUNGSLAUF_2024_01.md`
 - `MEHRWELT_VERGLEICH.md`
@@ -235,6 +236,7 @@ Der aktuelle Mehrwelt-Vergleich zeigt zusätzlich:
 - Isolierte Stresssegmente können lokal denselben Stress-Gegenpol bilden, auch wenn Wiederkehr und Nachhall erst in längerer Einbettung sichtbar werden.
 - Lokale Kurzsegmente müssen vorsichtig gelesen werden: bei ihnen sind Memorylast, Strain und Rekopplung belastbarer als ein globaler Feldklassenname.
 - Passive Gegenpole wie Stress/Entlastung, Unruhe/Ruhe, Drift/Rekopplung oder Zerfall/Verdichtung werden nicht als Module modelliert, sondern als Polachsen der MCM-Feldreaktion gelesen.
+- Der Kurzsegment-Leser trennt lokale Lastnähe, Ruhenähe und Feldzeitnähe relativ zueinander; Feldzeitnähe ist dabei nicht automatisch Ruhe.
 
 Das spricht für weltbezogene Innenfeldordnungen statt wahlloser Speicherung.
 
