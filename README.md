@@ -210,6 +210,7 @@ Besonders relevant sind:
 - `128_AUTO_STRESS_FENSTER_KLASSENPRUEFUNG.md`
 - `129_AUTO_STRESS_ABSCHNITTSANALYSE.md`
 - `130_LOKALE_STRESSINSEL_REPRODUKTION.md`
+- `131_LOKALE_RUHEINSEL_GEGEN_STRESSINSEL.md`
 - `AKTUELLER_FORSCHUNGSLAUF.md`
 - `AKTUELLER_FORSCHUNGSLAUF_2024_01.md`
 - `MEHRWELT_VERGLEICH.md`
@@ -231,6 +232,7 @@ Der aktuelle Mehrwelt-Vergleich zeigt zusätzlich:
 - Aus mehreren Welten lassen sich vorläufige passive Feldklassen lesen: ruhige Nähegruppe, angespannte Übergangsgruppe und Stress-Gegenpol.
 - Der Stress-Gegenpol entsteht bisher nicht durch ein einzelnes Rohweltmerkmal, sondern durch die Kopplung aus Weltunruhe, Kipp-/Spannungswirkung, Rekopplungsverlust und höherem Episodenmemory.
 - Isolierte Stresssegmente können lokal denselben Stress-Gegenpol bilden, auch wenn Wiederkehr und Nachhall erst in längerer Einbettung sichtbar werden.
+- Lokale Kurzsegmente müssen vorsichtig gelesen werden: bei ihnen sind Memorylast, Strain und Rekopplung belastbarer als ein globaler Feldklassenname.
 
 Das spricht für weltbezogene Innenfeldordnungen statt wahlloser Speicherung.
 
