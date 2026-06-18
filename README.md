@@ -201,6 +201,7 @@ Besonders relevant sind:
 - `119_MCM_FELD_EIGENREGULATION_BEFUND.md`
 - `120_PASSIVE_MCM_ZYKLUSKARTE.md`
 - `121_PASSIVE_FELDKLASSEN_DIAGNOSE.md`
+- `122_STRESS_GEGENPOL_DIAGNOSE.md`
 - `AKTUELLER_FORSCHUNGSLAUF.md`
 - `AKTUELLER_FORSCHUNGSLAUF_2024_01.md`
 - `MEHRWELT_VERGLEICH.md`
@@ -220,6 +221,7 @@ Der aktuelle Mehrwelt-Vergleich zeigt zusätzlich:
 - Das passive Feldprofil bleibt dennoch ähnlich.
 - Die dominante Feldwirkung kann je nach Weltspannung wechseln, ohne dass die Feldordnung kollabiert.
 - Aus mehreren Welten lassen sich vorläufige passive Feldklassen lesen: ruhige Nähegruppe, angespannte Übergangsgruppe und Stress-Gegenpol.
+- Der Stress-Gegenpol entsteht bisher nicht durch ein einzelnes Rohweltmerkmal, sondern durch die Kopplung aus Weltunruhe, Kipp-/Spannungswirkung, Rekopplungsverlust und höherem Episodenmemory.
 
 Das spricht für weltbezogene Innenfeldordnungen statt wahlloser Speicherung.
 
