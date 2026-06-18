@@ -1,6 +1,6 @@
 ﻿# MINI_DIO
 
-MINI_DIO ist ein eigenständiges Forschungsprojekt für ein kleines, MCM-basiertes Innenfeldsystem.
+MINI_DIO ist ein eigenständiges Forschungsprojekt für ein kleines, [MCM](https://github.com/H5Pro2/Mental-Core-Matrix-MCM)-basiertes Innenfeldsystem.
 
 Der Kern ist nicht Trading. Marktdaten werden aktuell als kontrollierte Außenwelt genutzt, weil sie Zeit, Bewegung, Energie, Rhythmus, Bruch, Wiederkehr und strukturelle Varianz liefern. Damit entsteht eine testbare Welt, an der ein künstliches MCM-Feld passiv reagieren, ordnen und Bedeutung verdichten kann.
 
@@ -11,11 +11,11 @@ Der Kern ist nicht Trading. Marktdaten werden aktuell als kontrollierte Außenwe
 
 MINI_DIO untersucht eine einfache, aber weitreichende Frage:
 
-Kann ein kleines künstliches MCM-Feld aus wiederholtem Weltkontakt eine eigene innere Ordnung bilden?
+Kann ein kleines künstliches [MCM-Feld](https://github.com/H5Pro2/Mental-Core-Matrix-MCM) aus wiederholtem Weltkontakt eine eigene innere Ordnung bilden?
 
 Der Fokus liegt auf:
 
-- MCM-basierter Innenfeldreaktion,
+- [MCM](https://github.com/H5Pro2/Mental-Core-Matrix-MCM)-basierter Innenfeldreaktion,
 - emergenter Bedeutungsverdichtung,
 - wiederkehrenden semantischen Inseln,
 - Zentrum-Peripherie-Topologie,
@@ -26,7 +26,7 @@ Der Fokus liegt auf:
 
 Die aktuelle Arbeitshypothese:
 
-Das MCM-Feld scheint passive Eigenregulation zu besitzen. Zentrum, Brücke, Drift und Übergang werden nicht als Regel programmiert, sondern als Rollen gelesen, die aus der Feldorganisation entstehen.
+Das [MCM-Feld](https://github.com/H5Pro2/Mental-Core-Matrix-MCM) scheint passive Eigenregulation zu besitzen. Zentrum, Brücke, Drift und Übergang werden nicht als Regel programmiert, sondern als Rollen gelesen, die aus der Feldorganisation entstehen.
 
 ## Warum Das Interessant Ist
 
@@ -56,7 +56,7 @@ Es fragt zuerst:
 - Was rekoppelt?
 - Kann daraus eine reproduzierbare innere Topologie entstehen?
 
-Damit ist MINI_DIO zuerst ein Forschungsinstrument für MCM-basierte Wahrnehmung, nicht ein Bot.
+Damit ist MINI_DIO zuerst ein Forschungsinstrument für [MCM](https://github.com/H5Pro2/Mental-Core-Matrix-MCM)-basierte Wahrnehmung, nicht ein Bot.
 
 ## Visuelle Übersicht
 
@@ -108,7 +108,7 @@ MINI_DIO ist mit diesen Feldern verwandt, setzt aber einen anderen Schwerpunkt:
 
 Kurz gesagt:
 
-Andere Systeme fragen oft, wie ein Agent handelt, optimiert, plant oder schlussfolgert. MINI_DIO fragt zuerst, wie ein MCM-Feld Weltkontakt innerlich organisiert, Bedeutung bildet und sich selbst stabilisiert.
+Andere Systeme fragen oft, wie ein Agent handelt, optimiert, plant oder schlussfolgert. MINI_DIO fragt zuerst, wie ein [MCM-Feld](https://github.com/H5Pro2/Mental-Core-Matrix-MCM) Weltkontakt innerlich organisiert, Bedeutung bildet und sich selbst stabilisiert.
 
 ## Aktueller Stand
 
@@ -120,7 +120,7 @@ Der aktuelle Forschungsstand zeigt:
 - gleiche kontrollierte Welt erzeugt reproduzierbare Top-Familien,
 - passive Innenfeldzustände bilden unterscheidbare Wirkungsklassen,
 - `field_carried` und `field_strained` treten als passive Episodenzustände auf,
-- MCM-Rekopplung und Sinnes-MCM-Kopplung sind messbar,
+- [MCM-Rekopplung](https://github.com/H5Pro2/Mental-Core-Matrix-MCM) und Sinnes-MCM-Kopplung sind messbar,
 - aktuelle Läufe bleiben bewusst ohne Trading-Handlung.
 
 Beispiel aus dem aktuellen Forschungslauf:
@@ -159,7 +159,7 @@ Reports sind keine:
 - Entry-Signale,
 - Motorik,
 - Strategie,
-- Beweise einer universellen MCM-Topologie.
+- Beweise einer universellen [MCM-Topologie](https://github.com/H5Pro2/Mental-Core-Matrix-MCM).
 
 Sie sind Beobachtungen passiver Feldorganisation.
 
@@ -243,7 +243,7 @@ Besonders relevant sind:
 - `AKTUELLER_FORSCHUNGSLAUF_2024_01.md`
 - `MEHRWELT_VERGLEICH.md`
 
-Der stärkste aktuelle Befund ist die passive MCM-Zykluskarte:
+Der stärkste aktuelle Befund ist die passive [MCM-Zykluskarte](https://github.com/H5Pro2/Mental-Core-Matrix-MCM):
 
 - Zentrum kann halten.
 - Brücken können Zentrum tragen.
@@ -261,7 +261,7 @@ Der aktuelle Mehrwelt-Vergleich zeigt zusätzlich:
 - Der Stress-Gegenpol entsteht bisher nicht durch ein einzelnes Rohweltmerkmal, sondern durch die Kopplung aus Weltunruhe, Kipp-/Spannungswirkung, Rekopplungsverlust und höherem Episodenmemory.
 - Isolierte Stresssegmente können lokal denselben Stress-Gegenpol bilden, auch wenn Wiederkehr und Nachhall erst in längerer Einbettung sichtbar werden.
 - Lokale Kurzsegmente müssen vorsichtig gelesen werden: bei ihnen sind Memorylast, Strain und Rekopplung belastbarer als ein globaler Feldklassenname.
-- Passive Gegenpole wie Stress/Entlastung, Unruhe/Ruhe, Drift/Rekopplung oder Zerfall/Verdichtung werden nicht als Module modelliert, sondern als Polachsen der MCM-Feldreaktion gelesen.
+- Passive Gegenpole wie Stress/Entlastung, Unruhe/Ruhe, Drift/Rekopplung oder Zerfall/Verdichtung werden nicht als Module modelliert, sondern als Polachsen der [MCM-Feldreaktion](https://github.com/H5Pro2/Mental-Core-Matrix-MCM) gelesen.
 - Der Kurzsegment-Leser trennt lokale Lastnähe, Ruhenähe und Feldzeitnähe relativ zueinander; Feldzeitnähe ist dabei nicht automatisch Ruhe.
 - Zwei lokale Ruheinseln aus unterschiedlichen ruhigen Welten werden `ruhig_feldzeitnah` gelesen: niedrige Memorylast, niedriger Strain, stärkere Rekopplung und trotzdem leichte Feldzeitspur.
 - Eine zweite lokale Stressinsel aus einer anderen Stresswelt wird ebenfalls `lastnah` gelesen: hohe Memorylast, hoher Strain und schwächere Rekopplung.
@@ -273,7 +273,7 @@ Das spricht für weltbezogene Innenfeldordnungen statt wahlloser Speicherung.
 
 Die Feldklassen-Diagnose ist ausdrücklich ein Auswertungswerkzeug. Sie ist keine Runtime-Regel, kein Gate und keine Handlungsvorgabe für MINI_DIO.
 
-Die nächsten Diagnosen sollen entlang der natürlichen MCM-Möglichkeiten eingeordnet werden: Feldtopologie, Feldzeit, Bedeutungsverdichtung, Rekopplung, Lastwahrnehmung und getrennte Sinnesachsen.
+Die nächsten Diagnosen sollen entlang der natürlichen [MCM-Möglichkeiten](https://github.com/H5Pro2/Mental-Core-Matrix-MCM) eingeordnet werden: Feldtopologie, Feldzeit, Bedeutungsverdichtung, Rekopplung, Lastwahrnehmung und getrennte Sinnesachsen.
 
 ## Was MINI_DIO Nicht Ist
 
