@@ -1,10 +1,10 @@
 # Weltuebergreifende Informationsaufnahme: Diagnose
 
-Stand: 2026-06-19 09:37:13
+Stand: 2026-06-19 21:19:49
 
 ## Zweck
 
-Diese Diagnose prueft, ob MINI_DIO Welten ueber Sehen, Hoeren und Fuehlen vergleichbar aufnimmt.
+Diese Diagnose prueft, ob MINI_DIO Welten ueber Sehen, Hoeren und MCM-Feldwirkung vergleichbar aufnimmt.
 Sie liest nicht die MCM-Topologie selbst, sondern den Schritt davor: Rohwelt zu Sinneswerten.
 
 Wichtig: Das ist keine Handlung, kein Gate und keine Runtime-Regel.
@@ -35,53 +35,53 @@ Wichtig: Das ist keine Handlung, kein Gate und keine Runtime-Regel.
 | SOL_2023_5M_REAL1 | sehen.form_change | nahe_saettigung | 1.0000 | 0.0580 | 0.0590 |
 | SOL_2023_5M_REAL1 | hoeren.energy_tone | tragbar | 0.5593 | 0.0110 | 0.0750 |
 | SOL_2023_5M_REAL1 | hoeren.energy_shift | nahe_saettigung | 1.0000 | 0.0620 | 0.2120 |
-| SOL_2023_5M_REAL1 | fuehlen.mcm_coherence | tragbar | 0.6964 | 0.0070 | 0.0330 |
-| SOL_2023_5M_REAL1 | fuehlen.mcm_tension | tragbar | 0.5963 | 0.0020 | 0.0040 |
-| SOL_2023_5M_REAL1 | fuehlen.mcm_asymmetry | tragbar | 0.5170 | 0.0050 | 0.0830 |
+| SOL_2023_5M_REAL1 | mcm_feldwirkung.mcm_coherence | tragbar | 0.7092 | 0.0000 | 0.0120 |
+| SOL_2023_5M_REAL1 | mcm_feldwirkung.mcm_tension | tragbar | 0.5562 | 0.0000 | 0.0010 |
+| SOL_2023_5M_REAL1 | mcm_feldwirkung.mcm_asymmetry | tragbar | 0.4422 | 0.0020 | 0.0790 |
 | SOL_2024_5M_REAL1 | sehen.form_flow | tragbar | 0.8371 | 0.0330 | 0.0460 |
 | SOL_2024_5M_REAL1 | sehen.form_stability | uebersteuert | 1.0000 | 0.4670 | 0.4840 |
 | SOL_2024_5M_REAL1 | sehen.form_change | nahe_saettigung | 0.9910 | 0.0540 | 0.0440 |
 | SOL_2024_5M_REAL1 | hoeren.energy_tone | tragbar | 0.4908 | 0.0060 | 0.0790 |
 | SOL_2024_5M_REAL1 | hoeren.energy_shift | nahe_saettigung | 1.0000 | 0.0690 | 0.0240 |
-| SOL_2024_5M_REAL1 | fuehlen.mcm_coherence | nahe_saettigung | 0.9650 | 0.0290 | 0.0060 |
-| SOL_2024_5M_REAL1 | fuehlen.mcm_tension | tragbar | 0.5712 | 0.0030 | 0.0010 |
-| SOL_2024_5M_REAL1 | fuehlen.mcm_asymmetry | tragbar | 0.5120 | 0.0010 | 0.0750 |
+| SOL_2024_5M_REAL1 | mcm_feldwirkung.mcm_coherence | tragbar | 0.7904 | 0.0000 | 0.0070 |
+| SOL_2024_5M_REAL1 | mcm_feldwirkung.mcm_tension | tragbar | 0.5386 | 0.0000 | 0.0010 |
+| SOL_2024_5M_REAL1 | mcm_feldwirkung.mcm_asymmetry | tragbar | 0.4513 | 0.0010 | 0.0770 |
 | SOL_2024_1H_2K | sehen.form_flow | uebersteuert | 1.0000 | 0.3190 | 0.0185 |
 | SOL_2024_1H_2K | sehen.form_stability | uebersteuert | 1.0000 | 0.5005 | 0.4870 |
 | SOL_2024_1H_2K | sehen.form_change | uebersteuert | 1.0000 | 0.4185 | 0.0190 |
 | SOL_2024_1H_2K | hoeren.energy_tone | tragbar | 0.5212 | 0.0055 | 0.0575 |
 | SOL_2024_1H_2K | hoeren.energy_shift | nahe_saettigung | 1.0000 | 0.0740 | 0.0385 |
-| SOL_2024_1H_2K | fuehlen.mcm_coherence | nahe_saettigung | 0.9472 | 0.0200 | 0.0015 |
-| SOL_2024_1H_2K | fuehlen.mcm_tension | tragbar | 0.7645 | 0.0045 | 0.0005 |
-| SOL_2024_1H_2K | fuehlen.mcm_asymmetry | tragbar | 0.8458 | 0.0120 | 0.0315 |
+| SOL_2024_1H_2K | mcm_feldwirkung.mcm_coherence | tragbar | 0.6147 | 0.0000 | 0.0480 |
+| SOL_2024_1H_2K | mcm_feldwirkung.mcm_tension | tragbar | 0.6350 | 0.0000 | 0.0005 |
+| SOL_2024_1H_2K | mcm_feldwirkung.mcm_asymmetry | tragbar | 0.7192 | 0.0030 | 0.0400 |
 | BTC_2024_5M_2K | sehen.form_flow | tragbar | 0.3514 | 0.0030 | 0.1265 |
 | BTC_2024_5M_2K | sehen.form_stability | uebersteuert | 1.0000 | 0.5000 | 0.4975 |
 | BTC_2024_5M_2K | sehen.form_change | tragbar | 0.4433 | 0.0070 | 0.1110 |
 | BTC_2024_5M_2K | hoeren.energy_tone | tragbar | 0.5519 | 0.0085 | 0.0595 |
 | BTC_2024_5M_2K | hoeren.energy_shift | uebersteuert | 1.0000 | 0.1100 | 0.0260 |
-| BTC_2024_5M_2K | fuehlen.mcm_coherence | nahe_saettigung | 0.9486 | 0.0200 | 0.0005 |
-| BTC_2024_5M_2K | fuehlen.mcm_tension | tragbar | 0.3743 | 0.0005 | 0.0045 |
-| BTC_2024_5M_2K | fuehlen.mcm_asymmetry | tragbar | 0.2993 | 0.0000 | 0.1235 |
+| BTC_2024_5M_2K | mcm_feldwirkung.mcm_coherence | tragbar | 0.7656 | 0.0000 | 0.0115 |
+| BTC_2024_5M_2K | mcm_feldwirkung.mcm_tension | tragbar | 0.4621 | 0.0000 | 0.0005 |
+| BTC_2024_5M_2K | mcm_feldwirkung.mcm_asymmetry | tragbar | 0.3337 | 0.0000 | 0.0910 |
 | BTC_2024_1H_2K | sehen.form_flow | uebersteuert | 1.0000 | 0.1090 | 0.0380 |
 | BTC_2024_1H_2K | sehen.form_stability | uebersteuert | 1.0000 | 0.5035 | 0.4960 |
 | BTC_2024_1H_2K | sehen.form_change | uebersteuert | 1.0000 | 0.1415 | 0.0305 |
 | BTC_2024_1H_2K | hoeren.energy_tone | tragbar | 0.5954 | 0.0110 | 0.0550 |
 | BTC_2024_1H_2K | hoeren.energy_shift | nahe_saettigung | 1.0000 | 0.0900 | 0.0345 |
-| BTC_2024_1H_2K | fuehlen.mcm_coherence | nahe_saettigung | 0.9386 | 0.0180 | 0.0005 |
-| BTC_2024_1H_2K | fuehlen.mcm_tension | tragbar | 0.7023 | 0.0070 | 0.0010 |
-| BTC_2024_1H_2K | fuehlen.mcm_asymmetry | tragbar | 0.7010 | 0.0090 | 0.0685 |
+| BTC_2024_1H_2K | mcm_feldwirkung.mcm_coherence | tragbar | 0.6833 | 0.0000 | 0.0320 |
+| BTC_2024_1H_2K | mcm_feldwirkung.mcm_tension | tragbar | 0.6088 | 0.0000 | 0.0005 |
+| BTC_2024_1H_2K | mcm_feldwirkung.mcm_asymmetry | tragbar | 0.5949 | 0.0040 | 0.0795 |
 | SOL_2023_NEG_STRESS | sehen.form_flow | tragbar | 0.4819 | 0.0140 | 0.0640 |
 | SOL_2023_NEG_STRESS | sehen.form_stability | uebersteuert | 1.0000 | 0.3630 | 0.3330 |
 | SOL_2023_NEG_STRESS | sehen.form_change | tragbar | 0.5813 | 0.0090 | 0.0880 |
 | SOL_2023_NEG_STRESS | hoeren.energy_tone | tragbar | 0.5873 | 0.0140 | 0.0580 |
 | SOL_2023_NEG_STRESS | hoeren.energy_shift | nahe_saettigung | 1.0000 | 0.0610 | 0.1260 |
-| SOL_2023_NEG_STRESS | fuehlen.mcm_coherence | tragbar | 0.8904 | 0.0140 | 0.0380 |
-| SOL_2023_NEG_STRESS | fuehlen.mcm_tension | tragbar | 0.4613 | 0.0010 | 0.0060 |
-| SOL_2023_NEG_STRESS | fuehlen.mcm_asymmetry | tragbar | 0.3603 | 0.0000 | 0.1340 |
+| SOL_2023_NEG_STRESS | mcm_feldwirkung.mcm_coherence | tragbar | 0.7672 | 0.0000 | 0.0050 |
+| SOL_2023_NEG_STRESS | mcm_feldwirkung.mcm_tension | tragbar | 0.4723 | 0.0000 | 0.0010 |
+| SOL_2023_NEG_STRESS | mcm_feldwirkung.mcm_asymmetry | tragbar | 0.3351 | 0.0000 | 0.1190 |
 
 ## Befund
 
-Auffaellige Sinnesachsen: SOL_2023_5M_REAL1:sehen.form_stability=uebersteuert, SOL_2023_5M_REAL1:sehen.form_change=nahe_saettigung, SOL_2023_5M_REAL1:hoeren.energy_shift=nahe_saettigung, SOL_2024_5M_REAL1:sehen.form_stability=uebersteuert, SOL_2024_5M_REAL1:sehen.form_change=nahe_saettigung, SOL_2024_5M_REAL1:hoeren.energy_shift=nahe_saettigung, SOL_2024_5M_REAL1:fuehlen.mcm_coherence=nahe_saettigung, SOL_2024_1H_2K:sehen.form_flow=uebersteuert, SOL_2024_1H_2K:sehen.form_stability=uebersteuert, SOL_2024_1H_2K:sehen.form_change=uebersteuert, SOL_2024_1H_2K:hoeren.energy_shift=nahe_saettigung, SOL_2024_1H_2K:fuehlen.mcm_coherence=nahe_saettigung, ... (10 weitere)
+Auffaellige Sinnesachsen: SOL_2023_5M_REAL1:sehen.form_stability=uebersteuert, SOL_2023_5M_REAL1:sehen.form_change=nahe_saettigung, SOL_2023_5M_REAL1:hoeren.energy_shift=nahe_saettigung, SOL_2024_5M_REAL1:sehen.form_stability=uebersteuert, SOL_2024_5M_REAL1:sehen.form_change=nahe_saettigung, SOL_2024_5M_REAL1:hoeren.energy_shift=nahe_saettigung, SOL_2024_1H_2K:sehen.form_flow=uebersteuert, SOL_2024_1H_2K:sehen.form_stability=uebersteuert, SOL_2024_1H_2K:sehen.form_change=uebersteuert, SOL_2024_1H_2K:hoeren.energy_shift=nahe_saettigung, BTC_2024_5M_2K:sehen.form_stability=uebersteuert, BTC_2024_5M_2K:hoeren.energy_shift=uebersteuert, ... (6 weitere)
 
 Wenn Welten vor allem durch feste Teiler oder lokale Rohverhaeltnisse uebersetzt werden, kann das MCM-Feld nicht sicher unterscheiden, ob es echte Feldwirkung oder falsche Reizskalierung erlebt.
 Damit ist ein Teil der bisherigen Weltunterschiede moeglicherweise Wahrnehmungsproblem, nicht Topologieproblem.

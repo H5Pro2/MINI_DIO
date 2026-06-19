@@ -907,7 +907,11 @@ def main() -> None:
     parser.add_argument("--world-carrying-memory", default="")
     parser.add_argument("--inner-awareness-memory", default="")
     parser.add_argument("--world-label", default="")
-    parser.add_argument("--sense-mode", choices=("fixed", "world_relative"), default="fixed")
+    parser.add_argument(
+        "--sense-mode",
+        choices=("fixed", "world_relative"),
+        default=getattr(Config, "DIO_MINI_SENSE_MODE", "world_relative"),
+    )
     args = parser.parse_args()
 
     data_path = Path(args.data)

@@ -67,6 +67,14 @@ Aussenwelt -> MCM-Feld
 
 Das waere fachlich zu roh, weil ein organisches System nicht die ganze Welt direkt fuehlt. Es fuehlt nur das, was ueber seine Rezeptoren als innere Beruehrung ankommt.
 
+Die Sinnesaufnahme nutzt ab Befund `321` standardmaessig den weltrelativen Modus:
+
+```text
+DIO_MINI_SENSE_MODE = "world_relative"
+```
+
+Damit werden unterschiedliche Welten zuerst gegen ihre eigene Bewegung, Lautstaerke und Formspannung gelesen, bevor daraus Rezeptorkontakt und MCM-Feldwirkung entstehen.
+
 Wichtig:
 
 ```text

@@ -24,9 +24,9 @@ SENSE_FEATURES = (
     ("sehen.form_change", "sehen", "form_change"),
     ("hoeren.energy_tone", "hoeren", "energy_tone"),
     ("hoeren.energy_shift", "hoeren", "energy_shift"),
-    ("fuehlen.mcm_coherence", "fuehlen", "mcm_coherence"),
-    ("fuehlen.mcm_tension", "fuehlen", "mcm_tension"),
-    ("fuehlen.mcm_asymmetry", "fuehlen", "mcm_asymmetry"),
+    ("mcm_feldwirkung.mcm_coherence", "mcm_feldwirkung", "mcm_coherence"),
+    ("mcm_feldwirkung.mcm_tension", "mcm_feldwirkung", "mcm_tension"),
+    ("mcm_feldwirkung.mcm_asymmetry", "mcm_feldwirkung", "mcm_asymmetry"),
 )
 
 
@@ -135,7 +135,10 @@ def _analyze_world(name: str, path: Path) -> tuple[dict[str, object], list[dict[
     for index in range(len(candles)):
         senses = build_senses(candles, index)
         for feature, root, key in SENSE_FEATURES:
-            feature_values[feature].append(_float(dict(senses.get(root, {}) or {}).get(key)))
+            source = dict(senses.get(root, {}) or {})
+            if root == "mcm_feldwirkung" and key not in source:
+                source = dict(senses.get("fuehlen", {}) or {})
+            feature_values[feature].append(_float(source.get(key)))
 
     feature_rows: list[dict[str, object]] = []
     for feature, values in feature_values.items():
@@ -192,7 +195,7 @@ def _write_md(summaries: list[dict[str, object]], feature_rows: list[dict[str, o
         "",
         "## Zweck",
         "",
-        "Diese Diagnose prueft, ob MINI_DIO Welten ueber Sehen, Hoeren und Fuehlen vergleichbar aufnimmt.",
+        "Diese Diagnose prueft, ob MINI_DIO Welten ueber Sehen, Hoeren und MCM-Feldwirkung vergleichbar aufnimmt.",
         "Sie liest nicht die MCM-Topologie selbst, sondern den Schritt davor: Rohwelt zu Sinneswerten.",
         "",
         "Wichtig: Das ist keine Handlung, kein Gate und keine Runtime-Regel.",

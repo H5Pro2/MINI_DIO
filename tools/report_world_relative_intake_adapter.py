@@ -24,9 +24,9 @@ FEATURES = (
     ("sehen.form_change", "sehen", "form_change"),
     ("hoeren.energy_tone", "hoeren", "energy_tone"),
     ("hoeren.energy_shift", "hoeren", "energy_shift"),
-    ("fuehlen.mcm_coherence", "fuehlen", "mcm_coherence"),
-    ("fuehlen.mcm_tension", "fuehlen", "mcm_tension"),
-    ("fuehlen.mcm_asymmetry", "fuehlen", "mcm_asymmetry"),
+    ("mcm_feldwirkung.mcm_coherence", "mcm_feldwirkung", "mcm_coherence"),
+    ("mcm_feldwirkung.mcm_tension", "mcm_feldwirkung", "mcm_tension"),
+    ("mcm_feldwirkung.mcm_asymmetry", "mcm_feldwirkung", "mcm_asymmetry"),
 )
 
 
@@ -96,7 +96,10 @@ def _collect(candles: list[dict], mode: str) -> dict[str, list[float]]:
         else:
             senses = build_senses(candles, index)
         for feature, root, key in FEATURES:
-            values[feature].append(_float(dict(senses.get(root, {}) or {}).get(key)))
+            source = dict(senses.get(root, {}) or {})
+            if root == "mcm_feldwirkung" and key not in source:
+                source = dict(senses.get("fuehlen", {}) or {})
+            values[feature].append(_float(source.get(key)))
     return values
 
 
@@ -180,7 +183,7 @@ def _write_md(rows: list[dict[str, object]], path: Path) -> None:
         "## Zweck",
         "",
         "Diese Diagnose vergleicht die aktuelle feste Sinnesuebersetzung mit einem weltrelativen Adapter.",
-        "Geprueft wird, ob MINI_DIO Welten dadurch einheitlicher sieht, hoert und fuehlt.",
+        "Geprueft wird, ob MINI_DIO Welten dadurch einheitlicher sieht, hoert und in MCM-Feldwirkung uebersetzt.",
         "",
         "Wichtig: Das ist keine Handlung, kein Gate und keine Runtime-Regel.",
         "",

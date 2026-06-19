@@ -52,7 +52,7 @@ Die aktuelle Wahrnehmungsarchitektur trennt damit bewusst:
 - Sehen liest Form und Struktur.
 - Hören liest Energie, Ton und Spannung.
 - Rezeptoren übersetzen Sinneskontakt in innere Berührung.
-- Fühlen meint hier MCM-Feldwirkung durch Rezeptorkontakt, nicht Hautkontakt.
+- Fühlen in Form von MCM-Feldwirkung über einen Rezeptorkontakt.
 
 Die Außenwelt wirkt nicht direkt in das MCM-Feld. MINI_DIO fühlt nur das, was über seine Rezeptoren als innere Berührung ankommt.
 
@@ -183,6 +183,7 @@ Der aktuelle Forschungsstand zeigt:
 - rekoppelnde und offen getragene Kontaktinseln sind dadurch als passive Innenfeld-Semantik unterscheidbar; sie bleiben Diagnose, keine Handlungssignale,
 - die Rezeptorschicht ist damit als Schutzgrenze vor der MCM-Schicht zu behandeln: Weltkontakt wird erst rezeptorisch übersetzt, bevor daraus MCM-Fühlen entsteht,
 - der erste Reproduktionstest der MCM-Episodenfamilien zeigt: Familien kehren weltübergreifend wieder, tragen aber keine starre 1:1-Bedeutung; ihre konkrete Kontaktqualität bleibt welt- und feldlageabhängig,
+- `world_relative` ist jetzt passiver Standardmodus der Sinnesaufnahme, weil er im Systemabgleich Übersteuerung reduziert, Feld-Episoden deutlich weniger fragmentiert und die MCM-Rekopplung verbessert,
 - aktuelle Läufe bleiben bewusst ohne ausführende Handlung.
 
 Beispiel aus dem aktuellen Forschungslauf:
@@ -247,7 +248,8 @@ Passiver Lauf mit weltrelativer Sinnesaufnahme:
 python -m mini_dio.run_mini --data data/kontrolliert_2023_real_test1_1000_5m_SOLUSDT.csv --sense-mode world_relative
 ```
 
-Der Modus `world_relative` ist aktuell Forschungsmodus, nicht Standard.
+Der Modus `world_relative` ist aktuell der passive Standard. `--sense-mode fixed` bleibt nur fuer
+Vergleichslaeufe erhalten.
 
 Standard-Forschungskette:
 
@@ -402,6 +404,7 @@ Besonders relevant sind:
 - `318_REZEPTOR_EPISODENFAMILIEN_REPRO_BEFUND.md`
 - `319_TAKTILE_REZEPTOR_SIMULATION_UND_GETRENNTE_SINNESWAHRNEHMUNG.md`
 - `320_MCM_FELDWIRKUNG_ALIAS_UMSETZUNG.md`
+- `321_WELTRELATIVER_STANDARD_UND_SYSTEMABGLEICH.md`
 - `AKTUELLER_FORSCHUNGSLAUF.md`
 - `AKTUELLER_FORSCHUNGSLAUF_2024_01.md`
 - `MEHRWELT_VERGLEICH.md`

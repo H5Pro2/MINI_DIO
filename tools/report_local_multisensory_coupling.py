@@ -240,7 +240,7 @@ def _write_markdown(rows: list[dict], out_path: Path) -> None:
         "## Zweck",
         "",
         "Diese Diagnose liest kurze Abschnitte innerhalb einer Welt.",
-        "Sie prueft, ob Hoeren, Sehen und Fuehlen lokal gemeinsam kippen oder rekoppeln.",
+        "Sie prueft, ob Hoeren, Sehen und MCM-Feldwirkung lokal gemeinsam kippen oder rekoppeln.",
         "",
         "Wichtig: Das ist keine Handlung, kein Gate und kein Entry-Signal.",
         "",

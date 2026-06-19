@@ -97,9 +97,9 @@ def _episode_segment_metrics(episodes: list[dict], start: int, end: int) -> dict
         "sehen_change": avg("sehen_form_change"),
         "hoeren_tone": avg("hoeren_energy_tone"),
         "hoeren_shift": avg("hoeren_energy_shift"),
-        "fuehlen_coherence": avg("fuehlen_mcm_coherence"),
-        "fuehlen_tension": avg("fuehlen_mcm_tension"),
-        "fuehlen_asymmetry": avg("fuehlen_mcm_asymmetry"),
+        "mcm_feldwirkung_coherence": avg("mcm_feldwirkung_mcm_coherence"),
+        "mcm_feldwirkung_tension": avg("mcm_feldwirkung_mcm_tension"),
+        "mcm_feldwirkung_asymmetry": avg("mcm_feldwirkung_mcm_asymmetry"),
         "episode_memory_count": sum(1 for row in rows if row.get("episode_memory_symbol", "-") not in ("", "-")),
     }
 

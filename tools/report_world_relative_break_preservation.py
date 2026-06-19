@@ -153,13 +153,13 @@ def _raw_scores(candles: list[dict]) -> list[float]:
 def _sense_break_score(senses: dict) -> float:
     sehen = dict(senses.get("sehen", {}) or {})
     hoeren = dict(senses.get("hoeren", {}) or {})
-    fuehlen = dict(senses.get("fuehlen", {}) or {})
+    feldwirkung = dict(senses.get("mcm_feldwirkung", {}) or senses.get("fuehlen", {}) or {})
     return (
         abs(_float(sehen.get("form_change"))) * 0.30
         + abs(_float(hoeren.get("energy_shift"))) * 0.24
         + abs(_float(sehen.get("form_flow"))) * 0.18
         + abs(_float(hoeren.get("energy_tone"))) * 0.12
-        + _float(fuehlen.get("mcm_tension")) * 0.16
+        + _float(feldwirkung.get("mcm_tension")) * 0.16
     )
 
 

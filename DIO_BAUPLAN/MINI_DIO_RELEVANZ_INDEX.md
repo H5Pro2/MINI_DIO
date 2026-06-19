@@ -73,6 +73,8 @@ Besonders relevant fuer den aktuellen Bauplanstand:
   - Trennt Sehen, Hoeren und spaeteres Tasten fachlich und legt die Mousepad-/Kontaktflaechen-Simulation als moegliche passive Tastachse fest.
 - `320_MCM_FELDWIRKUNG_ALIAS_UMSETZUNG.md`
   - Fuehrt `mcm_feldwirkung` als fachlichen Alias ein und haelt `fuehlen` nur als Kompatibilitaetsname fuer alte Reports.
+- `321_WELTRELATIVER_STANDARD_UND_SYSTEMABGLEICH.md`
+  - Begruendet `world_relative` als passiven Standardmodus, weil die feste Uebersetzung weiter Reizuebersteuerung erzeugt.
 
 ## Entfernt aus MINI_DIO
 
