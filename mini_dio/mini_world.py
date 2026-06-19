@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import csv
+import math
 from pathlib import Path
 
 
@@ -14,6 +15,35 @@ def _clip(value: float, lo: float = -1.0, hi: float = 1.0) -> float:
     if value != value:
         value = 0.0
     return max(lo, min(hi, value))
+
+
+def _percentile(values: list[float], q: float) -> float:
+    if not values:
+        return 0.0
+    values = sorted(float(item) for item in values)
+    index = (len(values) - 1) * q
+    lower = int(index)
+    upper = min(len(values) - 1, lower + 1)
+    if lower == upper:
+        return values[lower]
+    return values[lower] * (upper - index) + values[upper] * (index - lower)
+
+
+def _robust_scale(values: list[float], fallback: float = 1.0) -> float:
+    abs_values = [abs(float(item or 0.0)) for item in values if item == item]
+    if not abs_values:
+        return max(1e-9, fallback)
+    scale = _percentile(abs_values, 0.95)
+    if scale <= 1e-9:
+        scale = _percentile(abs_values, 0.75)
+    return max(1e-9, scale, fallback)
+
+
+def _soft_signed(value: float, scale: float, gain: float = 0.62) -> float:
+    """Soft sensory compression around a world-relative scale."""
+
+    scale = max(1e-9, float(scale or 0.0))
+    return math.tanh((float(value or 0.0) / scale) * gain)
 
 
 def load_candles(path: str | Path) -> list[dict]:
@@ -31,6 +61,78 @@ def load_candles(path: str | Path) -> list[dict]:
                 }
             )
     return candles
+
+
+def _sample_primitives(sample: list[dict]) -> dict:
+    closes = [item["close"] for item in sample]
+    ranges = [max(1e-9, item["high"] - item["low"]) for item in sample]
+    volumes = [item["volume"] for item in sample]
+    returns = [(closes[i] - closes[i - 1]) / max(1e-9, closes[i - 1]) for i in range(1, len(closes))]
+    direction = (closes[-1] - closes[0]) / max(1e-9, closes[0])
+    previous_mean = sum(returns[:-1]) / max(1, len(returns) - 1) if len(returns) > 1 else 0.0
+    change = returns[-1] - previous_mean if returns else 0.0
+    range_base = sum(ranges) / max(1, len(ranges))
+    range_shift = ranges[-1] / max(1e-9, range_base) - 1.0
+    volume_base = sum(volumes) / max(1, len(volumes))
+    volume_shift = volumes[-1] / max(1e-9, volume_base) - 1.0
+    energy_shift = (ranges[-1] - ranges[-2]) / max(1e-9, range_base) if len(ranges) > 1 else 0.0
+    signed_sum = sum(returns)
+    abs_sum = sum(abs(item) for item in returns)
+    directional_consistency = abs(signed_sum) / max(1e-9, abs_sum)
+    positive = sum(1 for item in returns if item > 0)
+    negative = sum(1 for item in returns if item < 0)
+    agreement = abs(positive - negative) / max(1, len(returns))
+    return {
+        "returns": returns,
+        "direction": direction,
+        "change": change,
+        "range_shift": range_shift,
+        "volume_shift": volume_shift,
+        "energy_shift": energy_shift,
+        "agreement": agreement,
+        "directional_consistency": directional_consistency,
+    }
+
+
+def build_sensory_profile(candles: list[dict], window: int = 5) -> dict:
+    """Build a passive world-relative profile for sensory intake.
+
+    This profile is a research adapter. It keeps different worlds comparable by
+    reading movement, change and tone relative to the world's own distribution.
+    It does not create actions, gates or direction rules.
+    """
+
+    directions: list[float] = []
+    changes: list[float] = []
+    range_shifts: list[float] = []
+    volume_shifts: list[float] = []
+    energy_shifts: list[float] = []
+    for index in range(len(candles)):
+        start = max(0, index - window + 1)
+        sample = candles[start : index + 1]
+        if len(sample) < 2:
+            continue
+        primitives = _sample_primitives(sample)
+        directions.append(primitives["direction"])
+        changes.append(primitives["change"])
+        range_shifts.append(primitives["range_shift"])
+        volume_shifts.append(primitives["volume_shift"])
+        energy_shifts.append(primitives["energy_shift"])
+
+    return {
+        "direction_scale": _robust_scale(directions, fallback=0.003),
+        "change_scale": _robust_scale(changes, fallback=0.002),
+        "range_shift_scale": _robust_scale(range_shifts, fallback=0.35),
+        "volume_shift_scale": _robust_scale(volume_shifts, fallback=0.50),
+        "energy_shift_scale": _robust_scale(energy_shifts, fallback=0.35),
+        "sample_count": len(directions),
+        "passive_only": True,
+        "influences_action": False,
+        "is_gate": False,
+        "is_motoric": False,
+        "is_entry_signal": False,
+        "is_direction_signal": False,
+    }
 
 
 def build_senses(candles: list[dict], index: int, window: int = 5) -> dict:
@@ -80,6 +182,68 @@ def build_senses(candles: list[dict], index: int, window: int = 5) -> dict:
             "mcm_coherence": mcm_coherence,
             "mcm_tension": mcm_tension,
             "mcm_asymmetry": mcm_asymmetry,
+        },
+    }
+
+
+def build_senses_world_relative(candles: list[dict], index: int, window: int = 5, profile: dict | None = None) -> dict:
+    """Build senses with a world-relative intake adapter.
+
+    The adapter keeps the same output shape as ``build_senses`` but avoids
+    fixed absolute divisors. It reads each world against its own rhythm and
+    amplitude first, then maps the result into the Mini-DIO sensory space.
+    """
+
+    start = max(0, index - window + 1)
+    sample = candles[start : index + 1]
+    if len(sample) < 2:
+        return {
+            "sehen": {"form_flow": 0.0, "form_stability": 0.0, "form_change": 0.0},
+            "hoeren": {"energy_tone": 0.0, "energy_shift": 0.0},
+            "fuehlen": {"mcm_coherence": 0.0, "mcm_tension": 0.0, "mcm_asymmetry": 0.0},
+        }
+    profile = dict(profile or build_sensory_profile(candles, window=window))
+    primitives = _sample_primitives(sample)
+
+    direction_scale = float(profile.get("direction_scale", 0.003) or 0.003)
+    change_scale = float(profile.get("change_scale", 0.002) or 0.002)
+    range_shift_scale = float(profile.get("range_shift_scale", 0.35) or 0.35)
+    volume_shift_scale = float(profile.get("volume_shift_scale", 0.50) or 0.50)
+    energy_shift_scale = float(profile.get("energy_shift_scale", 0.35) or 0.35)
+
+    form_flow = _soft_signed(primitives["direction"], direction_scale)
+    directional_energy = abs(form_flow)
+    form_stability = _clip(((primitives["directional_consistency"] * 2.0) - 1.0) * (0.35 + (directional_energy * 0.65)))
+    form_change = _soft_signed(primitives["change"], change_scale)
+
+    range_component = _soft_signed(primitives["range_shift"], range_shift_scale)
+    volume_component = _soft_signed(primitives["volume_shift"], volume_shift_scale)
+    energy_tone = _clip((range_component * 0.62) + (volume_component * 0.38))
+    energy_shift = _soft_signed(primitives["energy_shift"], energy_shift_scale)
+
+    coherence = _clip(
+        (form_stability * 0.42)
+        + ((1.0 - abs(energy_tone)) * 0.26)
+        + (primitives["directional_consistency"] * 0.22)
+        + ((1.0 - abs(form_change)) * 0.10)
+    )
+    tension = _clip(abs(form_flow) * 0.34 + abs(energy_tone) * 0.34 + abs(form_change) * 0.20 + abs(energy_shift) * 0.12, 0.0, 1.0)
+    asymmetry = _clip((form_flow * 0.50) + (form_change * 0.24) + (energy_shift * 0.18) + (energy_tone * 0.08))
+
+    return {
+        "sehen": {
+            "form_flow": form_flow,
+            "form_stability": form_stability,
+            "form_change": form_change,
+        },
+        "hoeren": {
+            "energy_tone": energy_tone,
+            "energy_shift": energy_shift,
+        },
+        "fuehlen": {
+            "mcm_coherence": coherence,
+            "mcm_tension": tension,
+            "mcm_asymmetry": asymmetry,
         },
     }
 

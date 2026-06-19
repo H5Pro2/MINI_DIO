@@ -10,7 +10,11 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 def compile_python_files() -> int:
-    files = list((ROOT / "mini_dio").glob("*.py")) + list((ROOT / "reports").glob("*.py"))
+    files = (
+        list((ROOT / "mini_dio").glob("*.py"))
+        + list((ROOT / "reports").glob("*.py"))
+        + list((ROOT / "tools").glob("*.py"))
+    )
     errors: list[tuple[Path, str]] = []
     for path in files:
         try:

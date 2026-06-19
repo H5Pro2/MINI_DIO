@@ -123,6 +123,15 @@ Der aktuelle Forschungsstand zeigt:
 - passive Innenfeldzustände bilden unterscheidbare Wirkungsklassen,
 - `field_carried` und `field_strained` treten als passive Episodenzustände auf,
 - [MCM-Rekopplung](https://github.com/H5Pro2/Mental-Core-Matrix-MCM) und Sinnes-MCM-Kopplung sind messbar,
+- Randspannung erscheint derzeit eher als Variantenfamilie als als einzelnes festes Zeichen,
+- aktuelle Preview-Zeichen lassen sich passiv in Rollenfamilien wie Rekopplungsnähe, Randspannung und offene Variante lesen,
+- eine neue Realwelt erweitert vor allem Rekopplungsnähe, ohne die bisherige Gruppenordnung aufzulösen,
+- die Rollenrelation blieb in der ersten Stabilitätsmatrix nach neuer Welt stabil,
+- die aktuelle Forschung zeigt, dass Sinnesberechnung selbst ein kritischer Faktor ist; ein weicher weltrelativer Wahrnehmungsadapter wird daher passiv geprüft,
+- die Mehrweltprüfung dieses Adapters zeigt stark vereinheitlichte Aufnahme über SOL/BTC, 5m/1h und Stresswelten; das reduziert Rohdatenlast, muss aber weiter gegen echte Weltspannung geprüft werden,
+- rohe Bruchfenster bleiben im weltrelativen Modus bisher sensorisch sichtbar und zeigen lokal erhöhte Kippnähe,
+- eine frische Laufprüfung mit SOL 5m, SOL 1h, BTC 5m und BTC 1h bestätigt diesen Brucherhalt bei passiver Wahrnehmung,
+- die weltrelative Topologie-Matrix liest Rollenqualität statt feste `dio_*`-Namen und zeigt in den geprüften SOL/BTC- und 5m/1h-Welten eine stabile Rollenordnung aus Zentrum, offener Variante und Rand/Kippnähe,
 - aktuelle Läufe bleiben bewusst ohne ausführende Handlung.
 
 Beispiel aus dem aktuellen Forschungslauf:
@@ -180,6 +189,14 @@ Ein einzelner passiver Lauf:
 ```powershell
 python -m mini_dio.run_mini --data data/kontrolliert_2023_real_test1_1000_5m_SOLUSDT.csv
 ```
+
+Passiver Lauf mit weltrelativer Sinnesaufnahme:
+
+```powershell
+python -m mini_dio.run_mini --data data/kontrolliert_2023_real_test1_1000_5m_SOLUSDT.csv --sense-mode world_relative
+```
+
+Der Modus `world_relative` ist aktuell Forschungsmodus, nicht Standard.
 
 Standard-Forschungskette:
 
@@ -242,6 +259,74 @@ Besonders relevant sind:
 - `137_UNABHAENGIGES_JAHR_KURZSEGMENT_PRUEFUNG.md`
 - `138_STRESSREGIME_KURZSEGMENT_PRUEFUNG.md`
 - `139_SEITWAERTSREGIME_KURZSEGMENT_PRUEFUNG.md`
+- `202_WELTLAUTSTAERKE_BTC_SOL_ZEITAUFLOESUNG.md`
+- `204_VERDICHTUNGS_SENSITIVITAET_BTC_SOL.md`
+- `205_VERDICHTUNGS_SENSITIVITAET_BEFUND.md`
+- `206_ORGANISCHE_REIZADAPTATION_DIAGNOSE.md`
+- `207_ORGANISCHE_REIZADAPTATION_BEFUND.md`
+- `208_DAUERLAST_ZERLEGUNG_DIAGNOSE.md`
+- `209_DAUERLAST_ZERLEGUNG_BEFUND.md`
+- `210_REKOPPLUNGSQUALITAET_DIAGNOSE.md`
+- `211_REKOPPLUNGSQUALITAET_BEFUND.md`
+- `212_REKOPPLUNGSROLLEN_MEHRWELT_DIAGNOSE.md`
+- `213_REKOPPLUNGSROLLEN_MEHRWELT_BEFUND.md`
+- `214_LOKALE_REKOPPLUNGSPOLE_DIAGNOSE.md`
+- `215_LOKALE_REKOPPLUNGSPOLE_BEFUND.md`
+- `216_LOKALE_WELTMERKMALE_REKOPPLUNG_DIAGNOSE.md`
+- `217_LOKALE_WELTMERKMALE_REKOPPLUNG_BEFUND.md`
+- `218_FELDHISTORIE_GEGEN_WELTSTRUKTUR_DIAGNOSE.md`
+- `219_FELDHISTORIE_GEGEN_WELTSTRUKTUR_BEFUND.md`
+- `220_SOL5M_HARMONISCHE_REFERENZ_DIAGNOSE.md`
+- `221_SOL5M_HARMONISCHE_REFERENZ_BEFUND.md`
+- `222_ORGANISCHER_ADAPTIONSWEG_DIAGNOSE.md`
+- `223_ORGANISCHER_ADAPTIONSWEG_BEFUND.md`
+- `224_AUDITIVE_REGULATION_DIAGNOSE.md`
+- `225_AUDITIVE_REGULATION_BEFUND.md`
+- `226_AUDITIVE_FELDKOPPLUNG_DIAGNOSE.md`
+- `227_AUDITIVE_FELDKOPPLUNG_BEFUND.md`
+- `228_VISUELLE_REGULATION_DIAGNOSE.md`
+- `229_VISUELLE_REGULATION_BEFUND.md`
+- `230_VISUELLE_FELDKOPPLUNG_DIAGNOSE.md`
+- `231_VISUELLE_FELDKOPPLUNG_BEFUND.md`
+- `232_MULTISENSORISCHE_KOPPLUNG_DIAGNOSE.md`
+- `233_MULTISENSORISCHE_KOPPLUNG_BEFUND.md`
+- `234_LOKALE_MULTISENSORISCHE_KOPPLUNG_DIAGNOSE.md`
+- `235_LOKALE_MULTISENSORISCHE_KOPPLUNG_BEFUND.md`
+- `236_LOKALE_MULTISENSORISCHE_SYNTAX_DIAGNOSE.md`
+- `237_LOKALE_MULTISENSORISCHE_SYNTAX_BEFUND.md`
+- `238_LOKALE_FELD_EPISODEN_VORSCHAU_BEFUND.md`
+- `239_LOKALE_MULTISENSORISCHE_KOPPLUNG_PREVIEW_DIAGNOSE.md`
+- `240_LOKALE_FELD_EPISODEN_PREVIEW_SYNTAX_DIAGNOSE.md`
+- `241_LOKALE_FELD_EPISODEN_PREVIEW_SYNTAX_BEFUND.md`
+- `242_MEHRWELT_LOKALE_MULTISENSORISCHE_KOPPLUNG_PREVIEW_DIAGNOSE.md`
+- `243_MEHRWELT_FELD_EPISODEN_PREVIEW_SYNTAX_DIAGNOSE.md`
+- `244_MEHRWELT_FELD_EPISODEN_PREVIEW_SYNTAX_BEFUND.md`
+- `245_PASSIVE_PREVIEW_REGULATIONSKARTE.md`
+- `246_PREVIEW_SYMBOL_02XIKFK_ROLLENKONTRAST.md`
+- `247_PREVIEW_KIPPVARIANTEN_GEGEN_REKOPPLUNGSFAMILIE.md`
+- `248_FOLGEWELT_LOKALE_MULTISENSORISCHE_KOPPLUNG_PREVIEW_DIAGNOSE.md`
+- `249_FOLGEWELT_FELD_EPISODEN_PREVIEW_SYNTAX_DIAGNOSE.md`
+- `250_FOLGEWELT_KIPPVARIANTEN_GEGEN_REKOPPLUNGSFAMILIE.md`
+- `251_FOLGEWELT_RANDSPANNUNG_BEFUND.md`
+- `252_182Y_FOLGEWELTEN_LOKALE_KOPPLUNG_PREVIEW_DIAGNOSE.md`
+- `253_182Y_FOLGEWELTEN_PREVIEW_SYNTAX_DIAGNOSE.md`
+- `254_182Y_FOLGEWELTEN_KIPPVARIANTEN_KONTRAST.md`
+- `255_182Y_FOLGEWELTEN_RANDSPANNUNG_GRUPPENBEFUND.md`
+- `256_PASSIVE_SYMBOLGRUPPEN_ROLLENKARTE.md`
+- `257_SYMBOLGRUPPEN_NEUE_WELT_LOKALE_KOPPLUNG_PREVIEW_DIAGNOSE.md`
+- `258_SYMBOLGRUPPEN_NEUE_WELT_PREVIEW_SYNTAX_DIAGNOSE.md`
+- `259_SYMBOLGRUPPEN_NEUE_WELT_ROLLENKARTE.md`
+- `260_SYMBOLGRUPPEN_NEUE_WELT_BEFUND.md`
+- `261_SYMBOLGRUPPEN_STABILITAETSMATRIX.md`
+- `262_WELTUEBERGREIFENDE_INFORMATIONSAUFNAHME_DIAGNOSE.md`
+- `263_WELTRELATIVER_WAHRNEHMUNGSADAPTER_VERGLEICH.md`
+- `264_WEICHER_WELTRELATIVER_WAHRNEHMUNGSADAPTER_VERGLEICH.md`
+- `265_WAHRNEHMUNGSADAPTER_LAUFVERGLEICH.md`
+- `266_WELTRELATIVER_MEHRWELT_LAUFBEFUND.md`
+- `267_WELTRELATIVER_BRUCHERHALT_DIAGNOSE.md`
+- `268_SOL_BTC_5M_1H_WELTRELATIVER_BRUCHERHALT.md`
+- `269_WELTRELATIVE_TOPOLOGIE_MATRIX.md`
+- `270_AKTUELLER_STAND_WELTRELATIVE_TOPOLOGIE.md`
 - `AKTUELLER_FORSCHUNGSLAUF.md`
 - `AKTUELLER_FORSCHUNGSLAUF_2024_01.md`
 - `MEHRWELT_VERGLEICH.md`
@@ -266,6 +351,36 @@ Der aktuelle Mehrwelt-Vergleich zeigt zusätzlich:
 - Die dominante Feldwirkung kann je nach Weltspannung wechseln, ohne dass die Feldordnung kollabiert.
 - Aus mehreren Welten lassen sich vorläufige passive Feldklassen lesen: ruhige Nähegruppe, angespannte Übergangsgruppe und Stress-Gegenpol.
 - Der Stress-Gegenpol entsteht bisher nicht durch ein einzelnes Rohweltmerkmal, sondern durch die Kopplung aus Weltunruhe, Kipp-/Spannungswirkung, Rekopplungsverlust und höherem Episodenmemory.
+- Weltlautstärke, Verdichtungs-Sensitivität und organische Reizadaptation werden getrennt gelesen: Ein Reiz kann aufmerksamkeitsnah sein, ohne langfristig feldlastnah zu werden; umgekehrt kann Dauerlast feldseitig wirken, obwohl sie nicht als akuter Einzelreiz maximal auffällt.
+- Die organische Reizadaptation ist aktuell Diagnose, keine Kernregel: Habituation, Sensitivierung, Aufmerksamkeit und allostatische Tragfähigkeit werden passiv gemessen, nicht als Handlung genutzt.
+- Die Dauerlast-Zerlegung zeigt bisher: SOL 30m/1h wird vor allem durch Feldlast, Memorylast und Rekopplungsverlust schwer, während BTC 5m zwar aufmerksamkeitsnah ist, aber feldseitig gut getragen bleibt.
+- Die Rekopplungsdiagnose liest daraus passive Rollen: `reiz_aktiv_rekoppelnd`, `nachhall_rekoppelnd`, `uebergang_bindend` und `last_memory_bindend`.
+- Der Mehrwelt-Test zeigt: Viele gemischte Welten bleiben aktiv-rekoppelnd; lokale Stresssegmente koennen dagegen klar last-/memorybindend werden.
+- Lokale Rekopplungspole sind sichtbar: Ruhe-/Entlastungssegmente wurden bisher aktiv-rekoppelnd gelesen, lokale Stresssegmente liegen deutlich naeher an Uebergang oder Last-/Memorybindung.
+- Lokale Bindung folgt bisher eher Rohweltverdichtung, Range, Feldlast und Memorylast als einem einfachen Richtungswechsel.
+- Aehnliche Rohweltverdichtung erzeugt nicht zwingend dieselbe Rekopplungsrolle: Feldlast, Memorylast und Rekopplungsverlust wirken als angenaeherte Feldhistorie mit.
+- Der Vergleich `STRESS_2023_TEST4` gegen `STRESS_2024_REAL` ist der bisher scharfste Hinweis: fast gleiche Weltverdichtung, aber Wechsel von `last_memory_bindend` zu `uebergang_bindend`.
+- SOL 5m wirkt in den bisherigen Diagnosen harmonischer, weil es nicht reizarm ist, sondern gut rekoppelbar bleibt: genug Aktivierung fuer Bedeutung, aber deutlich weniger Feldlast, Memorylast und Ueberbindung als SOL 30m/1h oder lokale Stresssegmente.
+- Daraus folgt keine Bevorzugungsregel fuer 5m. SOL 5m dient als passives Referenzprofil fuer tragfaehige Weltwirkung.
+- Organische Anpassungsfaehigkeit zeigt sich nicht als ein Limiter, sondern als mehrere passive Adaptionsachsen: Feldabstand bilden, Memory leichter tragen, Rekopplung vertiefen, Dauerlast abbauen, Nachhall loesbar machen und Reizbasis neu einpendeln.
+- SOL 1h braucht in der aktuellen Diagnose vor allem Feldabstand und leichtere Memory-/Dauerlast-Kopplung; Stresssegmente zeigen je nach Weltwirkung andere Anpassungsachsen.
+- Die auditive Achse liest Marktenergie als Hoerregulation: Hinhoeren, Rauschen filtern, Reiz abklingen lassen, genauer Anhoeren, Alarm, Hintergrund und Beruhigung. Diese Zustaende wirken nicht direkt als Bedeutung, sondern muessen mit MCM-Feldwirkung und Rekopplung zusammen gelesen werden.
+- SOL 5m zeigt bisher eine tragfaehige Hoermischung: aktiv genug fuer Hinhoeren/genaueres Anhoeren, aber mit niedriger Feld- und Memorylast.
+- Die auditive Feldkopplung zeigt: Hoerfilterung reicht allein nicht. Entscheidend ist, ob die gehoerte Tonspur leicht rekoppelt oder als Feld-/Memorylast bindet.
+- SOL 1h wird auditiv naeher an Feldlast gelesen (`hoerlast_feldnah`), waehrend SOL 5m trotz aktiver Hoeranteile niedrige Feldbindung zeigt.
+- Die visuelle Achse liest Formfluss, Formstabilitaet, Formwechsel und visuellen Feldabstand als eigene Sinnesregulation: Hintergrund halten, Rauschen filtern, stabile Form tragen, Alarmform erkennen oder genauer ansehen.
+- Die visuelle Feldkopplung zeigt: Form ist nicht automatisch Feldlast. SOL 5m bleibt bisher `offene_sehkopplung` mit niedriger Feldbindung, waehrend SOL 1h und mehrere Stresssegmente naeher an `sehlast_feldnah` liegen.
+- Daraus entsteht die naechste Pruefebene: Hoeren, Sehen und Fuehlen muessen multisensorisch zusammen gelesen werden, ohne dass eine Sinnesachse allein Handlung oder Bedeutung erzwingt.
+- Die multisensorische Kopplung zeigt bisher vor allem `offene_multisensorik` und `rekoppelnde_sinnesnaehe`. SOL 5m bleibt mit niedriger Ueberlast offen getragen, SOL 30m zeigt eher rekoppelnde Naehe, SOL 1h liegt naeher an Last, aber noch ohne klaren Kollaps.
+- Daraus folgt als naechste Hierarchie: erst gemeinsame Sinnesinnenlage pruefen, dann lokale Kippzonen innerhalb einzelner Welten suchen.
+- Die lokale multisensorische Kopplung zeigt: Gesamtweltrollen sind zu grob. SOL 5m besitzt starke lokale Rekopplungsfenster, waehrend SOL 1h/30m staerkere lokale Kippfenster zeigen. Entscheidend ist dabei nicht die reine Anzahl der Fenster, sondern Staerke, Ort und Reproduktion gleicher Tickbereiche ueber Lauf 1 und Lauf 2.
+- Die lokale Syntaxpruefung zeigt: lokale Kipp- und Rekopplungsfenster tragen bereits wiederkehrende `symbol_family`-Muster. Die tiefere `mcm_field_episode_symbol`-Spur bleibt dort aber noch weitgehend leer. Das spricht fuer lokale Wahrnehmungsfamilien, aber noch nicht fuer voll gereifte lokale Feld-Episoden.
+- Die Ursache der leeren lokalen Feld-Episodenspur ist geklaert: `mcm_field_episode_symbol` wurde bisher nur beim Abschluss einer Episode geschrieben. MINI_DIO gibt nun zusaetzlich eine passive `mcm_field_episode_preview_symbol`-Spur pro Tick aus, damit lokale entstehende Feld-Episoden sichtbar werden, ohne Memory zu schreiben oder Handlung zu beeinflussen.
+- Frische Preview-Laeufe zeigen jetzt: lokale Rekopplungsfenster tragen reproduzierbar starke `dio_mcm_episode_*`-Vorschau-Familien, besonders `dio_mcm_episode_02xikfk`. Lokale Kippfenster tragen andere Vorschau-Feldsymbole, etwa `dio_mcm_episode_037i64j`, mit unruhigerer Innenfeldwirkung. Das ist ein Hinweis auf entstehende lokale Feld-Episoden-Syntax, noch kein Beweis fuer gereifte lokale Bedeutungsinseln.
+- Der Mehrwelt-Preview-Vergleich zeigt: `dio_mcm_episode_02xikfk` wirkt aktuell wie eine gemeinsame lokale Rekopplungsnaehe-Sprache ueber Real-, Negativ- und Expansionswelt. Gleichzeitig entstehen weltbezogene Varianten wie `dio_mcm_episode_1t5bcxp`. Daraus folgt vorlaeufig: MINI_DIO bildet nicht nur Einzelzeichen, sondern eine lokale Feldsprache mit gemeinsamer Grundnaehe und situativen Erweiterungen.
+- Die passive Regulationskarte zeigt: dieselbe Vorschau-Feldlage kann je nach Rolle anders wirken. `dio_mcm_episode_02xikfk` ist in `lokal_rekoppelnd` stabil und entlastend, in `lokale_multisensorische_kippnaehe` dagegen tragend-unruhiger. Regulation wird damit als Kopplung gelesen: Feldsymbol plus lokale Rolle plus Innenfeldwirkung.
+- Die seltenen Kippvarianten `dio_mcm_episode_037i64j`, `dio_mcm_episode_0e9ekzq`, `dio_mcm_episode_0eje6op` und `dio_mcm_episode_182yyt2` zeigen gegenueber der Rekopplungsfamilie mehr Kippnaehe, mehr Felddruck und weniger Entlastung. Bisher sind sie eine reproduzierte Rand-/Spannungsgruppe innerhalb `PREVIEW_REAL_2023`, aber noch keine mehrweltstabile Familie.
+- Eine weitere Realwelt stuetzt erstmals `dio_mcm_episode_182yyt2` als wiederkehrendes Randspannungszeichen. Damit ist Anspannung nicht geloest, aber klarer differenziert: allgemeine Rekopplung bleibt haeufig und stabil, Randspannung bleibt seltener, kippnaeher und unruhiger, kann aber wiederkehren.
 - Isolierte Stresssegmente können lokal denselben Stress-Gegenpol bilden, auch wenn Wiederkehr und Nachhall erst in längerer Einbettung sichtbar werden.
 - Lokale Kurzsegmente müssen vorsichtig gelesen werden: bei ihnen sind Memorylast, Strain und Rekopplung belastbarer als ein globaler Feldklassenname.
 - Passive Gegenpole wie Stress/Entlastung, Unruhe/Ruhe, Drift/Rekopplung oder Zerfall/Verdichtung werden nicht als Module modelliert, sondern als Polachsen der [MCM-Feldreaktion](https://github.com/H5Pro2/Mental-Core-Matrix-MCM) gelesen.

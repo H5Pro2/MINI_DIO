@@ -24,9 +24,22 @@ from mini_dio.mcm_effect_map import (
     classify_current_mcm_effect,
 )
 from mini_dio.mcm_neuron import ACTION_NAMES, MiniMCMField
-from mini_dio.mini_world import best_future_action, build_senses, evaluate_future, evaluate_trade_event, load_candles
+from mini_dio.mini_world import (
+    best_future_action,
+    build_senses,
+    build_senses_world_relative,
+    build_sensory_profile,
+    evaluate_future,
+    evaluate_trade_event,
+    load_candles,
+)
 from mini_dio.neuro_state import build_mini_neuro_state
-from mini_dio.semantic_memory import SemanticMemory, make_syntax_symbol, make_syntax_vector
+from mini_dio.semantic_memory import (
+    SemanticMemory,
+    make_mcm_field_episode_symbol,
+    make_syntax_symbol,
+    make_syntax_vector,
+)
 from mini_dio.temporal_memory import MiniTemporalTracker
 
 
@@ -351,8 +364,13 @@ def run_once(
     passive_world_label: str = "",
     passive_world_state: dict | None = None,
     passive_inner_awareness_by_family: dict | None = None,
+    sense_mode: str = "fixed",
 ) -> dict:
     candles = load_candles(data_path)
+    sense_mode = str(sense_mode or "fixed").strip().lower()
+    if sense_mode not in {"fixed", "world_relative"}:
+        raise ValueError(f"unknown sense_mode: {sense_mode}")
+    sensory_profile = build_sensory_profile(candles) if sense_mode == "world_relative" else {}
     field = MiniMCMField(neuron_count=getattr(Config, "DIO_MINI_MCM_NEURON_COUNT", 12))
     debug_dir = debug_root / f"dio_mini_lauf_{run_index}"
     debug_dir.mkdir(parents=True, exist_ok=True)
@@ -414,7 +432,10 @@ def run_once(
     temporal_tracker = MiniTemporalTracker()
     episode_tracker = PassiveEpisodeTracker(max_ticks=getattr(Config, "DIO_MINI_EPISODE_MEMORY_MAX_TICKS", 12))
     while index < max(1, len(candles) - horizon):
-        senses = build_senses(candles, index)
+        if sense_mode == "world_relative":
+            senses = build_senses_world_relative(candles, index, profile=sensory_profile)
+        else:
+            senses = build_senses(candles, index)
         field_state = field.step(senses)
         syntax_vector = make_syntax_vector(senses, field_state["signature"])
         symbol = make_syntax_symbol(senses, field_state["signature"])
@@ -560,6 +581,10 @@ def run_once(
         episode_payload = episode_tracker.step(index, symbol_family, mcm_field_effect)
         episode_memory_symbol = "-"
         mcm_field_episode_symbol = "-"
+        mcm_field_episode_preview_symbol = "-"
+        mcm_field_episode_preview_payload = episode_tracker.preview()
+        if mcm_field_episode_preview_payload:
+            mcm_field_episode_preview_symbol = make_mcm_field_episode_symbol(mcm_field_episode_preview_payload)
         if episode_payload:
             episode_memory_symbol = memory.store_episode_memory(episode_payload)
             mcm_field_episode_symbol = memory.store_mcm_field_episode_memory(episode_payload)
@@ -606,6 +631,7 @@ def run_once(
                 "mcm_hearing_field_gap": f"{float(mcm_field_effect['hearing_field_gap']):.6f}",
                 "episode_memory_symbol": episode_memory_symbol,
                 "mcm_field_episode_symbol": mcm_field_episode_symbol,
+                "mcm_field_episode_preview_symbol": mcm_field_episode_preview_symbol,
                 "action": action,
                 "raw_action": raw_action,
                 "phase_active": int(phase_active),
@@ -725,6 +751,8 @@ def run_once(
     report = {
         "run": run_index,
         "data_path": str(data_path),
+        "sense_mode": sense_mode,
+        "sensory_profile": sensory_profile,
         "passive_world_label": passive_world_label or "",
         "passive_world_memory_loaded": bool(passive_world_state),
         "passive_inner_awareness_memory_loaded": bool(passive_inner_awareness_by_family),
@@ -861,6 +889,7 @@ def main() -> None:
     parser.add_argument("--world-carrying-memory", default="")
     parser.add_argument("--inner-awareness-memory", default="")
     parser.add_argument("--world-label", default="")
+    parser.add_argument("--sense-mode", choices=("fixed", "world_relative"), default="fixed")
     args = parser.parse_args()
 
     data_path = Path(args.data)
@@ -887,6 +916,7 @@ def main() -> None:
             passive_world_label=str(args.world_label or ""),
             passive_world_state=passive_world_state,
             passive_inner_awareness_by_family=passive_inner_awareness_by_family,
+            sense_mode=args.sense_mode,
         )
         reports.append(report)
         memory.save()

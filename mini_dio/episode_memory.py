@@ -194,3 +194,13 @@ class PassiveEpisodeTracker:
             self.previous_state = self.active_state
         self.active_state = ""
         return payload
+
+    def preview(self) -> dict | None:
+        """Return the currently forming passive episode without closing it.
+
+        This is a read-only diagnostic view. It lets local analyses inspect the
+        field-episode shape on every tick without writing memory or influencing
+        action.
+        """
+
+        return self._record_payload()
