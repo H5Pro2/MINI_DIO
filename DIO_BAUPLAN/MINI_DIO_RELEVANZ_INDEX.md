@@ -75,6 +75,8 @@ Besonders relevant fuer den aktuellen Bauplanstand:
   - Fuehrt `mcm_feldwirkung` als fachlichen Alias ein und haelt `fuehlen` nur als Kompatibilitaetsname fuer alte Reports.
 - `321_WELTRELATIVER_STANDARD_UND_SYSTEMABGLEICH.md`
   - Begruendet `world_relative` als passiven Standardmodus, weil die feste Uebersetzung weiter Reizuebersteuerung erzeugt.
+- `322_WELTRELATIVER_STANDARD_TOPOLOGIE_PRUEFUNG.md`
+  - Prueft nach der Standardumstellung SOL/BTC und 5m/1h; alle vier Welten bleiben in `zentrum_mit_rand_und_uebergang`.
 
 ## Entfernt aus MINI_DIO
 

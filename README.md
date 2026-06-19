@@ -51,10 +51,11 @@ Die aktuelle Wahrnehmungsarchitektur trennt damit bewusst:
 
 - Sehen liest Form und Struktur.
 - Hören liest Energie, Ton und Spannung.
-- Rezeptoren übersetzen Sinneskontakt in innere Berührung.
-- Fühlen in Form von MCM-Feldwirkung über einen Rezeptorkontakt.
+- Rezeptoren bilden aus Sinneskontakt eine geordnete Kontaktqualität.
+- Fühlen entsteht als MCM-Feldwirkung dieser Kontaktqualität.
 
-Die Außenwelt wirkt nicht direkt in das MCM-Feld. MINI_DIO fühlt nur das, was über seine Rezeptoren als innere Berührung ankommt.
+Die Außenwelt wirkt nicht direkt in das MCM-Feld. MINI_DIO verarbeitet zuerst Sinneskontakt,
+dann Rezeptorkontakt und erst daraus eine MCM-Feldwirkung.
 
 Damit ist die Rezeptorschicht ein fundamentaler Schutzbaustein:
 
@@ -62,7 +63,7 @@ Damit ist die Rezeptorschicht ein fundamentaler Schutzbaustein:
 Sie schützt das MCM-Feld vor Rohdatenüberlagerung.
 ```
 
-Das Feld wird nicht mit Außenwelt-Daten geflutet, sondern mit geordneter Kontaktqualität berührt.
+Das Feld wird nicht mit Außenwelt-Daten geflutet, sondern reagiert auf geordnete Kontaktqualität.
 
 Wichtig bleibt die Trennung:
 
@@ -184,6 +185,7 @@ Der aktuelle Forschungsstand zeigt:
 - die Rezeptorschicht ist damit als Schutzgrenze vor der MCM-Schicht zu behandeln: Weltkontakt wird erst rezeptorisch übersetzt, bevor daraus MCM-Fühlen entsteht,
 - der erste Reproduktionstest der MCM-Episodenfamilien zeigt: Familien kehren weltübergreifend wieder, tragen aber keine starre 1:1-Bedeutung; ihre konkrete Kontaktqualität bleibt welt- und feldlageabhängig,
 - `world_relative` ist jetzt passiver Standardmodus der Sinnesaufnahme, weil er im Systemabgleich Übersteuerung reduziert, Feld-Episoden deutlich weniger fragmentiert und die MCM-Rekopplung verbessert,
+- die erste Topologieprüfung nach Umstellung auf `world_relative` zeigt in SOL/BTC und 5m/1h weiterhin `zentrum_mit_rand_und_uebergang`: Zentrum bleibt dominant, offene Variante und Rand/Kippnähe bleiben als Nebenrollen sichtbar,
 - aktuelle Läufe bleiben bewusst ohne ausführende Handlung.
 
 Beispiel aus dem aktuellen Forschungslauf:
@@ -405,6 +407,7 @@ Besonders relevant sind:
 - `319_TAKTILE_REZEPTOR_SIMULATION_UND_GETRENNTE_SINNESWAHRNEHMUNG.md`
 - `320_MCM_FELDWIRKUNG_ALIAS_UMSETZUNG.md`
 - `321_WELTRELATIVER_STANDARD_UND_SYSTEMABGLEICH.md`
+- `322_WELTRELATIVER_STANDARD_TOPOLOGIE_PRUEFUNG.md`
 - `AKTUELLER_FORSCHUNGSLAUF.md`
 - `AKTUELLER_FORSCHUNGSLAUF_2024_01.md`
 - `MEHRWELT_VERGLEICH.md`
