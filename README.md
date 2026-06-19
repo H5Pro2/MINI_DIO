@@ -38,12 +38,54 @@ Eine Weltlage wird nicht sofort Handlung. Sie wird zuerst Innenfeldwirkung:
 
 ```text
 Weltkontakt
-  -> Sehen / Hören / Fühlen
+  -> Sehen / Hören
+  -> Rezeptoren
+  -> Fühlen
   -> MCM-Feldwirkung
   -> semantische Verdichtung
   -> passive Innenordnung
   -> spätere mögliche Regulation
 ```
+
+Die aktuelle Wahrnehmungsarchitektur trennt damit bewusst:
+
+- Sehen liest Form und Struktur.
+- Hören liest Energie, Ton und Spannung.
+- Rezeptoren übersetzen Sinneskontakt in innere Berührung.
+- Fühlen meint hier MCM-Feldwirkung durch Rezeptorkontakt, nicht Hautkontakt.
+
+Die Außenwelt wirkt nicht direkt in das MCM-Feld. MINI_DIO fühlt nur das, was über seine Rezeptoren als innere Berührung ankommt.
+
+Damit ist die Rezeptorschicht ein fundamentaler Schutzbaustein:
+
+```text
+Sie schützt das MCM-Feld vor Rohdatenüberlagerung.
+```
+
+Das Feld wird nicht mit Außenwelt-Daten geflutet, sondern mit geordneter Kontaktqualität berührt.
+
+Wichtig bleibt die Trennung:
+
+```text
+Sehen + Hören ist nicht Fühlen.
+```
+
+Sehen, Hören und ein späteres Tasten sind eigene Sinnesachsen. Eine taktile Achse müsste separat entstehen, zum Beispiel über eine Mousepad- oder Kontaktflächen-Simulation mit Kontaktpunkt, Druck, Bewegung, Reibung, Stabilität und Nachhall.
+
+MINI_DIO unterscheidet damit:
+
+- Sinneswahrnehmung: Was kommt über einen Kanal an?
+- Reflektive Innenwahrnehmung: Wie wirkt diese Wahrnehmung in mir?
+- MCM-Feldwirkung: Was verändert diese Wahrnehmung in meiner Feldordnung?
+
+Im Code wird diese Trennung kompatibel geführt:
+
+```text
+mcm_feldwirkung = fachlicher Name
+fuehlen = alter Kompatibilitätsname
+```
+
+Neue Kernlogik liest bevorzugt `mcm_feldwirkung`. Alte `fuehlen_*`-Spalten bleiben erhalten, damit historische Befunde und Reports vergleichbar bleiben.
 
 Das Projekt fragt nicht zuerst: "Was soll das System tun?"
 
@@ -132,6 +174,15 @@ Der aktuelle Forschungsstand zeigt:
 - rohe Bruchfenster bleiben im weltrelativen Modus bisher sensorisch sichtbar und zeigen lokal erhöhte Kippnähe,
 - eine frische Laufprüfung mit SOL 5m, SOL 1h, BTC 5m und BTC 1h bestätigt diesen Brucherhalt bei passiver Wahrnehmung,
 - die weltrelative Topologie-Matrix liest Rollenqualität statt feste `dio_*`-Namen und zeigt in den geprüften SOL/BTC- und 5m/1h-Welten eine stabile Rollenordnung aus Zentrum, offener Variante und Rand/Kippnähe,
+- die Rezeptorschicht trennt jetzt Außenweltkontakt von innerer MCM-Wirkung: Sehen und Hören berühren Rezeptoren, erst daraus entsteht Fühlen,
+- die Rezeptorprüfung über SOL/BTC/KAS auf 5m und 1h zeigt weiterhin `zentrum_mit_rand_und_uebergang`,
+- Öffnung aus dem Zentrum zeigt erhöhten `contact_pressure` und fallendes `contact_alignment`; Rekopplung zeigt sinkenden Druck und bessere Passung,
+- längere 5k/10k-Rezeptorwelten bleiben bisher ebenfalls in `zentrum_mit_rand_und_uebergang`; neue Kontakt-Archetypen sind durch Dauer allein noch nicht zwingend sichtbar,
+- lokale Rezeptor-Kontaktinseln entstehen in Dauerlastwelten, bleiben meist kurz und rekoppeln in vielen Fällen wieder,
+- die Kontaktinseln zerstreuen sich auf der rohen `symbol_family`-Ebene stark, verdichten sich aber auf der `mcm_field_episode_preview`-Ebene in deutlich weniger MCM-Episodenfamilien,
+- rekoppelnde und offen getragene Kontaktinseln sind dadurch als passive Innenfeld-Semantik unterscheidbar; sie bleiben Diagnose, keine Handlungssignale,
+- die Rezeptorschicht ist damit als Schutzgrenze vor der MCM-Schicht zu behandeln: Weltkontakt wird erst rezeptorisch übersetzt, bevor daraus MCM-Fühlen entsteht,
+- der erste Reproduktionstest der MCM-Episodenfamilien zeigt: Familien kehren weltübergreifend wieder, tragen aber keine starre 1:1-Bedeutung; ihre konkrete Kontaktqualität bleibt welt- und feldlageabhängig,
 - aktuelle Läufe bleiben bewusst ohne ausführende Handlung.
 
 Beispiel aus dem aktuellen Forschungslauf:
@@ -327,6 +378,30 @@ Besonders relevant sind:
 - `268_SOL_BTC_5M_1H_WELTRELATIVER_BRUCHERHALT.md`
 - `269_WELTRELATIVE_TOPOLOGIE_MATRIX.md`
 - `270_AKTUELLER_STAND_WELTRELATIVE_TOPOLOGIE.md`
+- `303_REZEPTORISCHE_MCM_TRENNUNG_UMSETZUNG.md`
+- `304_REZEPTOR_TOPOLOGIE_MATRIX.md`
+- `305_REZEPTOR_SINNESACHSE_MATRIX.csv`
+- `306_REZEPTOR_TOPOLOGIE_BEFUND.md`
+- `307_REZEPTOR_OEFFNUNG_REKOPPLUNG_MATRIX.csv`
+- `307_REZEPTOR_UEBERGANG_AGGREGAT.csv`
+- `307_REZEPTOR_UEBERGANG_EVENTS.csv`
+- `308_REZEPTOR_OEFFNUNG_REKOPPLUNG_BEFUND.md`
+- `309_REZEPTOR_DAUERLAST_TOPOLOGIE_MATRIX.md`
+- `310_REZEPTOR_DAUERLAST_SINNESACHSE_MATRIX.csv`
+- `311_REZEPTOR_DAUERLAST_BEFUND.md`
+- `312_REZEPTOR_KONTAKTINSELN_EVENTS.csv`
+- `312_REZEPTOR_KONTAKTINSELN_SUMMARY.csv`
+- `313_REZEPTOR_KONTAKTINSELN_BEFUND.md`
+- `314_REZEPTOR_KONTAKTINSEL_SYMBOL_FAMILIEN.csv`
+- `314_REZEPTOR_KONTAKTINSEL_MCM_PREVIEW_FAMILIEN.csv`
+- `314_REZEPTOR_KONTAKTINSEL_FAMILIEN_PAARE.csv`
+- `315_REZEPTOR_KONTAKTINSEL_FAMILIEN_BEFUND.md`
+- `316_REZEPTORSCHICHT_ALS_MCM_SCHUTZGRENZE.md`
+- `317_REZEPTOR_EPISODENFAMILIEN_REPRO_EVENTS.csv`
+- `317_REZEPTOR_EPISODENFAMILIEN_REPRO_MATRIX.csv`
+- `318_REZEPTOR_EPISODENFAMILIEN_REPRO_BEFUND.md`
+- `319_TAKTILE_REZEPTOR_SIMULATION_UND_GETRENNTE_SINNESWAHRNEHMUNG.md`
+- `320_MCM_FELDWIRKUNG_ALIAS_UMSETZUNG.md`
 - `AKTUELLER_FORSCHUNGSLAUF.md`
 - `AKTUELLER_FORSCHUNGSLAUF_2024_01.md`
 - `MEHRWELT_VERGLEICH.md`

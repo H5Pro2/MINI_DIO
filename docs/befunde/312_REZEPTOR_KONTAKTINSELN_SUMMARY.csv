@@ -1,0 +1,5 @@
+world,episodes,pressure_threshold_p90,alignment_threshold_p10,island_count,island_episode_count,island_episode_share,avg_island_duration,max_island_duration,rekoppelt_nach_kontaktinsel,offen_getragen_nach_kontaktinsel,bleibt_kippnah_nach_kontaktinsel
+SOL_2023_NEG_STRESS_10K_RECEPTOR,9994,0.301645,0.761854,428,528,0.052832,1.233645,7,275,147,6
+SOL_2024_SIDEWAYS_5K_RECEPTOR,4994,0.304664,0.761056,215,263,0.052663,1.223256,7,119,91,5
+SOL_2025_STRESS_5K_RECEPTOR,4994,0.305308,0.757124,211,246,0.049259,1.165877,5,108,100,3
+SOL_2026_STABLE_5K_RECEPTOR,4994,0.299720,0.755517,233,274,0.054866,1.175966,5,155,76,2

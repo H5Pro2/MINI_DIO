@@ -1,6 +1,6 @@
 # MINI_DIO Relevanz-Index
 
-Stand: 2026-06-18
+Stand: 2026-06-19
 
 Dieser Index legt fest, was aus dem kopierten `DIO_BAUPLAN` fuer das neue MINI_DIO-Forschungsprojekt relevant bleibt.
 
@@ -21,7 +21,58 @@ Die laufenden technischen Forschungsbefunde liegen nicht mehr im alten Bauplan, 
 
 - `docs/befunde/`
 
-Dort liegen die aktuellen Befunde `107` bis `120` und der jeweils aktuelle Forschungslauf.
+Dort liegen die aktuellen Befunde und der jeweils aktuelle Forschungslauf.
+
+Besonders relevant fuer den aktuellen Bauplanstand:
+
+- `303_REZEPTORISCHE_MCM_TRENNUNG_UMSETZUNG.md`
+  - Fuehrt die Kette `Aussenwelt -> Sehen / Hoeren -> Rezeptoren -> Fuehlen -> MCM-Feld` ein.
+- `304_REZEPTOR_TOPOLOGIE_MATRIX.md`
+  - Zeigt, dass die Zentrum-Rand-Uebergangsordnung nach rezeptorischer Trennung erhalten bleibt.
+- `305_REZEPTOR_SINNESACHSE_MATRIX.csv`
+  - Macht die Kontaktwerte der Rezeptorschicht weltuebergreifend vergleichbar.
+- `306_REZEPTOR_TOPOLOGIE_BEFUND.md`
+  - Dokumentiert die rezeptorische Topologiepruefung ueber SOL, BTC und KAS.
+- `307_REZEPTOR_OEFFNUNG_REKOPPLUNG_MATRIX.csv`
+  - Trennt Zentrum, offene Variante und Spannungsrand nach Rezeptorwerten.
+- `307_REZEPTOR_UEBERGANG_EVENTS.csv`
+  - Listet lokale Oeffnungs- und Rekopplungsereignisse.
+- `307_REZEPTOR_UEBERGANG_AGGREGAT.csv`
+  - Verdichtet die Uebergangsdynamik ueber alle geprueften Rezeptorwelten.
+- `308_REZEPTOR_OEFFNUNG_REKOPPLUNG_BEFUND.md`
+  - Belegt diagnostisch: Oeffnung zeigt mehr Kontaktdruck und weniger Kontaktpassung, Rekopplung zeigt Entlastung und bessere Passung.
+- `309_REZEPTOR_DAUERLAST_TOPOLOGIE_MATRIX.md`
+  - Prueft die rezeptorische Topologie in laengeren 5k/10k-Welten.
+- `310_REZEPTOR_DAUERLAST_SINNESACHSE_MATRIX.csv`
+  - Verdichtet Kontaktdruck, Alignment und Feldwerte unter Dauerlast.
+- `311_REZEPTOR_DAUERLAST_BEFUND.md`
+  - Dokumentiert, dass die Zentrum-Rand-Uebergangsordnung unter den geprueften Dauerlastwelten stabil bleibt.
+- `312_REZEPTOR_KONTAKTINSELN_EVENTS.csv`
+  - Listet lokale Kontaktinseln mit hohem Kontaktdruck und niedriger Kontaktpassung.
+- `312_REZEPTOR_KONTAKTINSELN_SUMMARY.csv`
+  - Verdichtet Kontaktinsel-Haeufigkeit, Dauer und Nachlauf je Dauerlastwelt.
+- `313_REZEPTOR_KONTAKTINSELN_BEFUND.md`
+  - Zeigt, dass viele lokale Kontaktinseln kurz bleiben und danach rekoppeln, statt dauerhaft zu kollabieren.
+- `314_REZEPTOR_KONTAKTINSEL_SYMBOL_FAMILIEN.csv`
+  - Listet die feinen lokalen Symbolfamilien innerhalb der Rezeptor-Kontaktinseln.
+- `314_REZEPTOR_KONTAKTINSEL_MCM_PREVIEW_FAMILIEN.csv`
+  - Verdichtet Kontaktinseln auf MCM-Feld-Episodenfamilien und macht Rekopplung, Offenheit und Kippnaehe vergleichbar.
+- `314_REZEPTOR_KONTAKTINSEL_FAMILIEN_PAARE.csv`
+  - Zeigt wiederkehrende Paare aus lokaler Symbolfamilie und MCM-Preview-Familie.
+- `315_REZEPTOR_KONTAKTINSEL_FAMILIEN_BEFUND.md`
+  - Dokumentiert die Trennung zwischen feiner Wahrnehmungsvarianz und verdichteter MCM-Feld-Episodensprache.
+- `316_REZEPTORSCHICHT_ALS_MCM_SCHUTZGRENZE.md`
+  - Legt die Rezeptorschicht als fundamentale Grenze, Uebersetzung und Schutzmechanik vor dem MCM-Feld fest.
+- `317_REZEPTOR_EPISODENFAMILIEN_REPRO_EVENTS.csv`
+  - Listet lokale Reproduktionsevents der Ziel-MCM-Episodenfamilien ueber mehrere Rezeptorwelten.
+- `317_REZEPTOR_EPISODENFAMILIEN_REPRO_MATRIX.csv`
+  - Verdichtet die Reproduktion nach Welt, Familie, Kontaktdruck, Alignment, Rekopplung, Offenheit und Kippnaehe.
+- `318_REZEPTOR_EPISODENFAMILIEN_REPRO_BEFUND.md`
+  - Dokumentiert, dass MCM-Episodenfamilien wiederkehren, aber als Bedeutungsspannweiten statt als starre Bedeutungen gelesen werden muessen.
+- `319_TAKTILE_REZEPTOR_SIMULATION_UND_GETRENNTE_SINNESWAHRNEHMUNG.md`
+  - Trennt Sehen, Hoeren und spaeteres Tasten fachlich und legt die Mousepad-/Kontaktflaechen-Simulation als moegliche passive Tastachse fest.
+- `320_MCM_FELDWIRKUNG_ALIAS_UMSETZUNG.md`
+  - Fuehrt `mcm_feldwirkung` als fachlichen Alias ein und haelt `fuehlen` nur als Kompatibilitaetsname fuer alte Reports.
 
 ## Entfernt aus MINI_DIO
 
@@ -38,6 +89,15 @@ Diese Bereiche enthielten zu viel alten DIO-Kontext, alte Handlungsvorstellungen
 ## Leitgrenze
 
 MINI_DIO untersucht zuerst, ob ein kleines MCM-Feld passive Innenordnung, Bedeutungsverdichtung, Feldtopologie und Eigenregulation ausbildet.
+
+Aktuelle zusaetzliche Leitgrenze:
+
+```text
+Aussenwelt wirkt nicht direkt in das MCM-Feld.
+Weltkontakt wird ueber Sehen und Hoeren aufgenommen.
+Rezeptoren uebersetzen diesen Kontakt.
+Fuehlen ist die innere MCM-Wirkung dieser Beruehrung.
+```
 
 Nicht uebernehmen:
 
@@ -56,4 +116,3 @@ Die naechste Arbeit findet im neuen Projektkern statt:
 2. `python tools/run_research_chain.py`
 3. zweite kontrollierte Welt testen
 4. Reproduzierbarkeit, Drift und neue Bedeutungsinseln vergleichen
-

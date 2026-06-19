@@ -198,6 +198,10 @@ def _positive_band(value: float) -> float:
     return _clip((float(value or 0.0) + 1.0) * 0.5, 0.0, 1.0)
 
 
+def _mcm_feldwirkung(senses: dict) -> dict:
+    return dict(senses.get("mcm_feldwirkung", {}) or senses.get("fuehlen", {}) or {})
+
+
 def _organic_action_pressure(action: str, base: float, bias: float, readiness: dict) -> dict:
     """Return soft action pressure without fixed accept/reject thresholds.
 
@@ -235,15 +239,15 @@ def _observation_recognition_pressure(senses: dict, associative_trade: float, ma
 
     This does not make a trade and does not increase direct action trust. It
     only gives memory.learn_observation a continuous sense of how clearly the
-    current sehen/fuehlen state was noticed.
+    current sehen/mcm_feldwirkung state was noticed.
     """
 
     sehen = dict(senses.get("sehen", {}) or {})
-    fuehlen = dict(senses.get("fuehlen", {}) or {})
+    feldwirkung = _mcm_feldwirkung(senses)
     flow_presence = abs(float(sehen.get("form_flow", 0.0) or 0.0))
     form_stability = _positive_band(float(sehen.get("form_stability", 0.0) or 0.0))
-    coherence = _positive_band(float(fuehlen.get("mcm_coherence", 0.0) or 0.0))
-    tension_room = 1.0 - _clip(float(fuehlen.get("mcm_tension", 0.0) or 0.0), 0.0, 1.0)
+    coherence = _positive_band(float(feldwirkung.get("mcm_coherence", 0.0) or 0.0))
+    tension_room = 1.0 - _clip(float(feldwirkung.get("mcm_tension", 0.0) or 0.0), 0.0, 1.0)
     sensory_presence = _clip(
         (flow_presence * 0.25)
         + (form_stability * 0.25)
@@ -301,15 +305,20 @@ def sensory_distance(left: dict, right: dict) -> float:
         ("sehen", "form_change"),
         ("hoeren", "energy_tone"),
         ("hoeren", "energy_shift"),
-        ("fuehlen", "mcm_coherence"),
-        ("fuehlen", "mcm_tension"),
-        ("fuehlen", "mcm_asymmetry"),
+        ("mcm_feldwirkung", "mcm_coherence"),
+        ("mcm_feldwirkung", "mcm_tension"),
+        ("mcm_feldwirkung", "mcm_asymmetry"),
     ]
     distance = 0.0
     for root, key in keys:
+        left_source = dict(left.get(root, {}) or {})
+        right_source = dict(right.get(root, {}) or {})
+        if root == "mcm_feldwirkung":
+            left_source = left_source or dict(left.get("fuehlen", {}) or {})
+            right_source = right_source or dict(right.get("fuehlen", {}) or {})
         distance += abs(
-            float(dict(left.get(root, {}) or {}).get(key, 0.0) or 0.0)
-            - float(dict(right.get(root, {}) or {}).get(key, 0.0) or 0.0)
+            float(left_source.get(key, 0.0) or 0.0)
+            - float(right_source.get(key, 0.0) or 0.0)
         )
     return distance / max(1, len(keys))
 
@@ -323,8 +332,9 @@ def episode_binding_state(active_phase: dict, action: str, senses: dict, scores:
     phase_window = max(1, int(horizon) + 2)
     same_action = active_action in ("LONG", "SHORT") and action == active_action
     in_afterimage = phase_age <= phase_window
-    coherence = abs(float(dict(senses.get("fuehlen", {}) or {}).get("mcm_coherence", 0.0) or 0.0))
-    tension = float(dict(senses.get("fuehlen", {}) or {}).get("mcm_tension", 0.0) or 0.0)
+    feldwirkung = _mcm_feldwirkung(senses)
+    coherence = abs(float(feldwirkung.get("mcm_coherence", 0.0) or 0.0))
+    tension = float(feldwirkung.get("mcm_tension", 0.0) or 0.0)
     trade_score = float(scores.get(action, 0.0) or 0.0)
     wait_score = float(scores.get("WAIT", 0.0) or 0.0)
     score_gap = max(0.0, trade_score - wait_score)
@@ -714,6 +724,14 @@ def run_once(
                 "sehen_form_change": f"{senses['sehen']['form_change']:.6f}",
                 "hoeren_energy_tone": f"{senses['hoeren']['energy_tone']:.6f}",
                 "hoeren_energy_shift": f"{senses['hoeren']['energy_shift']:.6f}",
+                "rezeptor_visual_contact": f"{float(senses.get('rezeptoren', {}).get('visual_contact', 0.0) or 0.0):.6f}",
+                "rezeptor_auditory_contact": f"{float(senses.get('rezeptoren', {}).get('auditory_contact', 0.0) or 0.0):.6f}",
+                "rezeptor_contact_pressure": f"{float(senses.get('rezeptoren', {}).get('contact_pressure', 0.0) or 0.0):.6f}",
+                "rezeptor_contact_alignment": f"{float(senses.get('rezeptoren', {}).get('contact_alignment', 0.0) or 0.0):.6f}",
+                "rezeptor_contact_asymmetry": f"{float(senses.get('rezeptoren', {}).get('contact_asymmetry', 0.0) or 0.0):.6f}",
+                "mcm_feldwirkung_mcm_coherence": f"{senses['mcm_feldwirkung']['mcm_coherence']:.6f}",
+                "mcm_feldwirkung_mcm_tension": f"{senses['mcm_feldwirkung']['mcm_tension']:.6f}",
+                "mcm_feldwirkung_mcm_asymmetry": f"{senses['mcm_feldwirkung']['mcm_asymmetry']:.6f}",
                 "fuehlen_mcm_coherence": f"{senses['fuehlen']['mcm_coherence']:.6f}",
                 "fuehlen_mcm_tension": f"{senses['fuehlen']['mcm_tension']:.6f}",
                 "fuehlen_mcm_asymmetry": f"{senses['fuehlen']['mcm_asymmetry']:.6f}",

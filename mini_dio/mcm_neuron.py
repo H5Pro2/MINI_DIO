@@ -11,9 +11,9 @@ FEATURES = (
     "sehen.form_change",
     "hoeren.energy_tone",
     "hoeren.energy_shift",
-    "fuehlen.mcm_coherence",
-    "fuehlen.mcm_tension",
-    "fuehlen.mcm_asymmetry",
+    "mcm_feldwirkung.mcm_coherence",
+    "mcm_feldwirkung.mcm_tension",
+    "mcm_feldwirkung.mcm_asymmetry",
 )
 
 ACTION_NAMES = ("WAIT", "LONG", "SHORT")
@@ -33,7 +33,10 @@ def flatten_senses(senses: dict) -> dict:
     flat = {}
     for path in FEATURES:
         root, key = path.split(".", 1)
-        flat[path] = _clip(dict(senses.get(root, {}) or {}).get(key, 0.0))
+        source = dict(senses.get(root, {}) or {})
+        if root == "mcm_feldwirkung" and key not in source:
+            source = dict(senses.get("fuehlen", {}) or {})
+        flat[path] = _clip(source.get(key, 0.0))
     return flat
 
 

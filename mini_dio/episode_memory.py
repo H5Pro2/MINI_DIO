@@ -24,6 +24,10 @@ def _signed_clip(value: float) -> float:
     return max(-1.0, min(1.0, float(value or 0.0)))
 
 
+def _mcm_feldwirkung(senses: dict) -> dict:
+    return dict(senses.get("mcm_feldwirkung", {}) or senses.get("fuehlen", {}) or {})
+
+
 def build_mcm_field_effect(senses: dict, reflection_context: dict, temporal_state: dict, neuro_state: dict) -> dict:
     """Return a compact passive MCM-field effect.
 
@@ -33,15 +37,15 @@ def build_mcm_field_effect(senses: dict, reflection_context: dict, temporal_stat
 
     sehen = dict(senses.get("sehen", {}) or {})
     hoeren = dict(senses.get("hoeren", {}) or {})
-    fuehlen = dict(senses.get("fuehlen", {}) or {})
+    feldwirkung = _mcm_feldwirkung(senses)
     form_flow = _signed_clip(sehen.get("form_flow", 0.0))
     form_change = _signed_clip(sehen.get("form_change", 0.0))
     form_stability = _signed_clip(sehen.get("form_stability", 0.0))
     energy_tone = _signed_clip(hoeren.get("energy_tone", 0.0))
     energy_shift = _signed_clip(hoeren.get("energy_shift", 0.0))
-    coherence = _signed_clip(fuehlen.get("mcm_coherence", 0.0))
-    tension = _clip(fuehlen.get("mcm_tension", 0.0))
-    asymmetry = _signed_clip(fuehlen.get("mcm_asymmetry", 0.0))
+    coherence = _signed_clip(feldwirkung.get("mcm_coherence", 0.0))
+    tension = _clip(feldwirkung.get("mcm_tension", 0.0))
+    asymmetry = _signed_clip(feldwirkung.get("mcm_asymmetry", 0.0))
     reflection_carry = _clip(reflection_context.get("reflection_context_carry", 0.0))
     reflection_strain = _clip(reflection_context.get("reflection_context_strain", 0.0))
     reflection_alignment = _clip(reflection_context.get("reflection_context_alignment", 0.0))

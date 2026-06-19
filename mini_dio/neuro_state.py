@@ -33,6 +33,10 @@ def _diagnostic_max(diagnostics: dict, key: str) -> float:
     return max(values) if values else 0.0
 
 
+def _mcm_feldwirkung(senses: dict) -> dict:
+    return dict(senses.get("mcm_feldwirkung", {}) or senses.get("fuehlen", {}) or {})
+
+
 def build_mini_neuro_state(
     *,
     senses: dict,
@@ -45,10 +49,10 @@ def build_mini_neuro_state(
     """Build passive inner-state tones from perception and consequence."""
 
     sehen = dict(senses.get("sehen", {}) or {})
-    fuehlen = dict(senses.get("fuehlen", {}) or {})
+    feldwirkung = _mcm_feldwirkung(senses)
     form_stability = _positive_band(sehen.get("form_stability", 0.0))
-    coherence = _positive_band(fuehlen.get("mcm_coherence", 0.0))
-    tension = _clip(fuehlen.get("mcm_tension", 0.0))
+    coherence = _positive_band(feldwirkung.get("mcm_coherence", 0.0))
+    tension = _clip(feldwirkung.get("mcm_tension", 0.0))
     temporal_trust = _clip(temporal_state.get("mini_temporal_trust_support", 0.0))
     temporal_caution = _clip(temporal_state.get("mini_temporal_caution_support", 0.0))
     afterimage = _clip(temporal_state.get("mini_afterimage", 0.0))

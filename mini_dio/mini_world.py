@@ -46,6 +46,100 @@ def _soft_signed(value: float, scale: float, gain: float = 0.62) -> float:
     return math.tanh((float(value or 0.0) / scale) * gain)
 
 
+def _empty_senses() -> dict:
+    mcm_feldwirkung = {"mcm_coherence": 0.0, "mcm_tension": 0.0, "mcm_asymmetry": 0.0}
+    return {
+        "sehen": {"form_flow": 0.0, "form_stability": 0.0, "form_change": 0.0},
+        "hoeren": {"energy_tone": 0.0, "energy_shift": 0.0},
+        "rezeptoren": {
+            "visual_contact": 0.0,
+            "auditory_contact": 0.0,
+            "contact_pressure": 0.0,
+            "contact_alignment": 0.0,
+            "contact_asymmetry": 0.0,
+            "passive_only": True,
+            "influences_action": False,
+        },
+        "mcm_feldwirkung": dict(mcm_feldwirkung),
+        "fuehlen": dict(mcm_feldwirkung),
+    }
+
+
+def _build_receptor_senses(sehen: dict, hoeren: dict) -> dict:
+    """Translate sensory contact into an inner-field touch.
+
+    The MCM field should not receive the outside world directly. It receives
+    the inner-field effect of receptor contact: visual form contact, auditory
+    energy contact, and their current alignment. The public keys keep
+    `fuehlen` as a compatibility alias, while `mcm_feldwirkung` is the
+    fachlich preferred name.
+    """
+
+    form_flow = _clip(sehen.get("form_flow", 0.0))
+    form_stability = _clip(sehen.get("form_stability", 0.0))
+    form_change = _clip(sehen.get("form_change", 0.0))
+    energy_tone = _clip(hoeren.get("energy_tone", 0.0))
+    energy_shift = _clip(hoeren.get("energy_shift", 0.0))
+
+    stability_band = max(0.0, min(1.0, (form_stability + 1.0) * 0.5))
+    visual_contact = _clip(
+        (abs(form_flow) * 0.32)
+        + ((1.0 - stability_band) * 0.28)
+        + (abs(form_change) * 0.28)
+        + (abs(form_flow - form_change) * 0.12),
+        0.0,
+        1.0,
+    )
+    auditory_contact = _clip((abs(energy_tone) * 0.58) + (abs(energy_shift) * 0.42), 0.0, 1.0)
+    contact_alignment = _clip(
+        1.0
+        - (abs(visual_contact - auditory_contact) * 0.55)
+        - (abs(form_flow - energy_shift) * 0.20),
+        0.0,
+        1.0,
+    )
+    contact_pressure = _clip(
+        (visual_contact * 0.38)
+        + (auditory_contact * 0.38)
+        + (abs(visual_contact - auditory_contact) * 0.12)
+        + (max(0.0, 0.45 - stability_band) * 0.12),
+        0.0,
+        1.0,
+    )
+    contact_asymmetry = _clip(
+        (form_flow * 0.40)
+        + (form_change * 0.22)
+        + (energy_shift * 0.22)
+        + (energy_tone * 0.16)
+    )
+    mcm_coherence = _clip(
+        (((contact_alignment * 2.0) - 1.0) * 0.55)
+        + (form_stability * 0.25)
+        + ((1.0 - contact_pressure) * 0.20)
+    )
+
+    mcm_feldwirkung = {
+        "mcm_coherence": mcm_coherence,
+        "mcm_tension": contact_pressure,
+        "mcm_asymmetry": contact_asymmetry,
+    }
+    return {
+        "sehen": dict(sehen),
+        "hoeren": dict(hoeren),
+        "rezeptoren": {
+            "visual_contact": visual_contact,
+            "auditory_contact": auditory_contact,
+            "contact_pressure": contact_pressure,
+            "contact_alignment": contact_alignment,
+            "contact_asymmetry": contact_asymmetry,
+            "passive_only": True,
+            "influences_action": False,
+        },
+        "mcm_feldwirkung": dict(mcm_feldwirkung),
+        "fuehlen": dict(mcm_feldwirkung),
+    }
+
+
 def load_candles(path: str | Path) -> list[dict]:
     candles = []
     with Path(path).open(newline="", encoding="utf-8") as handle:
@@ -139,11 +233,7 @@ def build_senses(candles: list[dict], index: int, window: int = 5) -> dict:
     start = max(0, index - window + 1)
     sample = candles[start : index + 1]
     if len(sample) < 2:
-        return {
-            "sehen": {"form_flow": 0.0, "form_stability": 0.0, "form_change": 0.0},
-            "hoeren": {"energy_tone": 0.0, "energy_shift": 0.0},
-            "fuehlen": {"mcm_coherence": 0.0, "mcm_tension": 0.0, "mcm_asymmetry": 0.0},
-        }
+        return _empty_senses()
     closes = [item["close"] for item in sample]
     ranges = [max(1e-9, item["high"] - item["low"]) for item in sample]
     volumes = [item["volume"] for item in sample]
@@ -164,26 +254,16 @@ def build_senses(candles: list[dict], index: int, window: int = 5) -> dict:
     form_change = _clip(change / 0.009)
     energy_tone = _clip(((range_shift * 0.62) + (volume_shift * 0.38)) / 1.4)
     energy_shift = _clip((ranges[-1] - ranges[-2]) / max(1e-9, range_base))
-    mcm_coherence = _clip((form_stability * 0.48) + ((1.0 - abs(energy_tone)) * 0.28) + (agreement * 0.24))
-    mcm_tension = _clip(abs(form_flow) * 0.42 + abs(energy_tone) * 0.42 + abs(form_change) * 0.16, 0.0, 1.0)
-    mcm_asymmetry = _clip((form_flow * 0.56) + (form_change * 0.24) + (energy_shift * 0.20))
-
-    return {
-        "sehen": {
-            "form_flow": form_flow,
-            "form_stability": form_stability,
-            "form_change": form_change,
-        },
-        "hoeren": {
-            "energy_tone": energy_tone,
-            "energy_shift": energy_shift,
-        },
-        "fuehlen": {
-            "mcm_coherence": mcm_coherence,
-            "mcm_tension": mcm_tension,
-            "mcm_asymmetry": mcm_asymmetry,
-        },
+    sehen = {
+        "form_flow": form_flow,
+        "form_stability": form_stability,
+        "form_change": form_change,
     }
+    hoeren = {
+        "energy_tone": energy_tone,
+        "energy_shift": energy_shift,
+    }
+    return _build_receptor_senses(sehen, hoeren)
 
 
 def build_senses_world_relative(candles: list[dict], index: int, window: int = 5, profile: dict | None = None) -> dict:
@@ -197,11 +277,7 @@ def build_senses_world_relative(candles: list[dict], index: int, window: int = 5
     start = max(0, index - window + 1)
     sample = candles[start : index + 1]
     if len(sample) < 2:
-        return {
-            "sehen": {"form_flow": 0.0, "form_stability": 0.0, "form_change": 0.0},
-            "hoeren": {"energy_tone": 0.0, "energy_shift": 0.0},
-            "fuehlen": {"mcm_coherence": 0.0, "mcm_tension": 0.0, "mcm_asymmetry": 0.0},
-        }
+        return _empty_senses()
     profile = dict(profile or build_sensory_profile(candles, window=window))
     primitives = _sample_primitives(sample)
 
@@ -220,32 +296,16 @@ def build_senses_world_relative(candles: list[dict], index: int, window: int = 5
     volume_component = _soft_signed(primitives["volume_shift"], volume_shift_scale)
     energy_tone = _clip((range_component * 0.62) + (volume_component * 0.38))
     energy_shift = _soft_signed(primitives["energy_shift"], energy_shift_scale)
-
-    coherence = _clip(
-        (form_stability * 0.42)
-        + ((1.0 - abs(energy_tone)) * 0.26)
-        + (primitives["directional_consistency"] * 0.22)
-        + ((1.0 - abs(form_change)) * 0.10)
-    )
-    tension = _clip(abs(form_flow) * 0.34 + abs(energy_tone) * 0.34 + abs(form_change) * 0.20 + abs(energy_shift) * 0.12, 0.0, 1.0)
-    asymmetry = _clip((form_flow * 0.50) + (form_change * 0.24) + (energy_shift * 0.18) + (energy_tone * 0.08))
-
-    return {
-        "sehen": {
-            "form_flow": form_flow,
-            "form_stability": form_stability,
-            "form_change": form_change,
-        },
-        "hoeren": {
-            "energy_tone": energy_tone,
-            "energy_shift": energy_shift,
-        },
-        "fuehlen": {
-            "mcm_coherence": coherence,
-            "mcm_tension": tension,
-            "mcm_asymmetry": asymmetry,
-        },
+    sehen = {
+        "form_flow": form_flow,
+        "form_stability": form_stability,
+        "form_change": form_change,
     }
+    hoeren = {
+        "energy_tone": energy_tone,
+        "energy_shift": energy_shift,
+    }
+    return _build_receptor_senses(sehen, hoeren)
 
 
 def evaluate_future(candles: list[dict], index: int, action: str, horizon: int = 5, cost: float = 0.0012) -> dict:

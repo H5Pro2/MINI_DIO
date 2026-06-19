@@ -36,13 +36,18 @@ def _base36(number: int) -> str:
     return "".join(reversed(chars))
 
 
+def _mcm_feldwirkung(senses: dict) -> dict:
+    return dict(senses.get("mcm_feldwirkung", {}) or senses.get("fuehlen", {}) or {})
+
+
 def make_syntax_vector(senses: dict, field_signature: float) -> list[float]:
     """Return DIO's compact sensory vector.
 
     This is not a strategy description. It is a normalized form of
-    sehen/hoeren/fuehlen plus the current MCM field signature.
+    sehen/hoeren/mcm_feldwirkung plus the current MCM field signature.
     """
 
+    feldwirkung = _mcm_feldwirkung(senses)
     return [
         _clip(value)
         for value in [
@@ -51,9 +56,9 @@ def make_syntax_vector(senses: dict, field_signature: float) -> list[float]:
             senses.get("sehen", {}).get("form_change", 0.0),
             senses.get("hoeren", {}).get("energy_tone", 0.0),
             senses.get("hoeren", {}).get("energy_shift", 0.0),
-            senses.get("fuehlen", {}).get("mcm_coherence", 0.0),
-            senses.get("fuehlen", {}).get("mcm_tension", 0.0),
-            senses.get("fuehlen", {}).get("mcm_asymmetry", 0.0),
+            feldwirkung.get("mcm_coherence", 0.0),
+            feldwirkung.get("mcm_tension", 0.0),
+            feldwirkung.get("mcm_asymmetry", 0.0),
             field_signature,
         ]
     ]
@@ -63,7 +68,7 @@ def make_syntax_symbol(senses: dict, field_signature: float) -> str:
     """Create a compact internal symbol from sensed state.
 
     The buckets are not strategy labels. They only compress sehen/hoeren/
-    fuehlen into a repeatable internal word.
+    mcm_feldwirkung into a repeatable internal word.
     """
 
     values = make_syntax_vector(senses, field_signature)
@@ -209,7 +214,12 @@ def _vector_distance(left: list[float], right: list[float]) -> float:
     size = min(len(left), len(right))
     if size <= 0:
         return 1.0
-    return sum(abs(_clip(left[i]) - _clip(right[i])) for i in range(size)) / size
+    # Syntax vectors are clipped when they are created or stored. Re-clipping
+    # every coordinate dominates long passive runs without adding information.
+    total = 0.0
+    for i in range(size):
+        total += abs(float(left[i]) - float(right[i]))
+    return total / size
 
 
 def _update_vector(record: dict, vector: list[float], count: int) -> None:
@@ -251,6 +261,16 @@ def _observation_signal(record: dict, action: str) -> float:
 
 def _associative_signal(records: list[dict], action: str, vector: list[float]) -> float:
     if not vector:
+        return 0.0
+    # Passive research runs often have many remembered families but no
+    # effective action signal yet. In that case the old path spent most runtime
+    # computing vector distances that can only average back to zero.
+    has_signal = False
+    for record in records:
+        if _action_signal(record, action) != 0.0:
+            has_signal = True
+            break
+    if not has_signal:
         return 0.0
     weighted = 0.0
     weight_sum = 0.0
