@@ -1,0 +1,13 @@
+year,timeframe,pair,events,worlds,top_passive_quality,top_share,quality_profile,top_signature,top_signature_share,drift_label
+2024,1h,dio_mcm_episode_1t5bcxp->dio_mcm_episode_183drjy,106,3,eng_getragen,0.613208,"eng_getragen:65; breit_driftend:33; fragmentiert:8",rekoppelnde_lage->rekoppelnde_lage->rekoppelnde_lage,0.613208,wiederkehrend_variabel
+2024,1h,dio_mcm_episode_183drjy->dio_mcm_episode_1t5bcxp,94,4,fragmentiert,0.553191,"fragmentiert:52; breit_driftend:31; eng_getragen:11",rekoppelnde_lage->druck_lage->rekoppelnde_lage,0.127660,lokal_offen
+2024,15m,dio_mcm_episode_1t5bcxp->dio_mcm_episode_183drjy,74,4,eng_getragen,0.540541,"eng_getragen:40; breit_driftend:26; fragmentiert:8",rekoppelnde_lage->rekoppelnde_lage->rekoppelnde_lage,0.540541,wiederkehrend_variabel
+2024,15m,dio_mcm_episode_183drjy->dio_mcm_episode_1t5bcxp,67,4,fragmentiert,0.522388,"fragmentiert:35; breit_driftend:21; eng_getragen:11",rekoppelnde_lage->rekoppelnde_lage->rekoppelnde_lage,0.164179,lokal_offen
+2024,5m,dio_mcm_episode_1t5bcxp->dio_mcm_episode_183drjy,77,4,eng_getragen,0.519481,"eng_getragen:40; breit_driftend:25; fragmentiert:12",rekoppelnde_lage->rekoppelnde_lage->rekoppelnde_lage,0.519481,wiederkehrend_variabel
+2024,5m,dio_mcm_episode_183drjy->dio_mcm_episode_1t5bcxp,64,4,fragmentiert,0.500000,"fragmentiert:32; breit_driftend:19; eng_getragen:13",rekoppelnde_lage->rekoppelnde_lage->rekoppelnde_lage,0.203125,lokal_offen
+2025,1h,dio_mcm_episode_1t5bcxp->dio_mcm_episode_183drjy,103,4,eng_getragen,0.553398,"eng_getragen:57; breit_driftend:28; fragmentiert:18",rekoppelnde_lage->rekoppelnde_lage->rekoppelnde_lage,0.553398,wiederkehrend_variabel
+2025,1h,dio_mcm_episode_183drjy->dio_mcm_episode_1t5bcxp,97,4,fragmentiert,0.639175,"fragmentiert:62; breit_driftend:25; eng_getragen:10",rekoppelnde_lage->bewegungsbruch->rekoppelnde_lage,0.134021,lokal_offen
+2025,15m,dio_mcm_episode_1t5bcxp->dio_mcm_episode_183drjy,91,4,eng_getragen,0.637363,"eng_getragen:58; breit_driftend:23; fragmentiert:10",rekoppelnde_lage->rekoppelnde_lage->rekoppelnde_lage,0.637363,wiederkehrend_stabil
+2025,15m,dio_mcm_episode_183drjy->dio_mcm_episode_1t5bcxp,80,4,fragmentiert,0.475000,"fragmentiert:38; breit_driftend:32; eng_getragen:9; offen_driftend:1",rekoppelnde_lage->offene_lage->rekoppelnde_lage,0.150000,lokal_offen
+2025,5m,dio_mcm_episode_1t5bcxp->dio_mcm_episode_183drjy,79,4,eng_getragen,0.607595,"eng_getragen:48; breit_driftend:24; fragmentiert:7",rekoppelnde_lage->rekoppelnde_lage->rekoppelnde_lage,0.607595,wiederkehrend_stabil
+2025,5m,dio_mcm_episode_183drjy->dio_mcm_episode_1t5bcxp,69,4,fragmentiert,0.536232,"fragmentiert:37; breit_driftend:26; eng_getragen:6",rekoppelnde_lage->druck_lage->bewegungsbruch,0.130435,lokal_offen

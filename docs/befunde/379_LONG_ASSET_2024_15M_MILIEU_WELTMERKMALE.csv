@@ -1,0 +1,9 @@
+pair,world,events,top_quality,top_share,quality_count,ticks,form_change,form_stability,energy_shift,energy_tone,contact_pressure,contact_alignment,mcm_strain,mcm_rekopplung
+dio_mcm_episode_183drjy->dio_mcm_episode_1t5bcxp,LONG2024_15M_BTC_QUIET_4000,30,rekoppelnd_offen,0.400000,8,3994.000000,0.202838,0.026929,0.216705,0.209240,0.209383,0.865703,0.188587,0.647339
+dio_mcm_episode_183drjy->dio_mcm_episode_1t5bcxp,LONG2024_15M_BTC_STRESS_4000,12,druckuebergang,0.500000,3,3994.000000,0.189770,0.033261,0.215394,0.202954,0.205330,0.866848,0.186525,0.648511
+dio_mcm_episode_183drjy->dio_mcm_episode_1t5bcxp,LONG2024_15M_SOL_QUIET_4000,20,druckbruch,0.250000,7,3994.000000,0.209515,0.042574,0.227943,0.206276,0.214611,0.861564,0.191658,0.645393
+dio_mcm_episode_183drjy->dio_mcm_episode_1t5bcxp,LONG2024_15M_SOL_STRESS_4000,5,bruchuebergang,0.600000,2,3994.000000,0.193939,0.038778,0.224333,0.210296,0.210045,0.864904,0.189218,0.646991
+dio_mcm_episode_1t5bcxp->dio_mcm_episode_183drjy,LONG2024_15M_BTC_QUIET_4000,33,rekoppelnd_stabil,0.545455,3,3994.000000,0.202838,0.026929,0.216705,0.209240,0.209383,0.865703,0.188587,0.647339
+dio_mcm_episode_1t5bcxp->dio_mcm_episode_183drjy,LONG2024_15M_BTC_STRESS_4000,16,rekoppelnd_stabil,0.500000,3,3994.000000,0.189770,0.033261,0.215394,0.202954,0.205330,0.866848,0.186525,0.648511
+dio_mcm_episode_1t5bcxp->dio_mcm_episode_183drjy,LONG2024_15M_SOL_QUIET_4000,18,rekoppelnd_stabil,0.611111,5,3994.000000,0.209515,0.042574,0.227943,0.206276,0.214611,0.861564,0.191658,0.645393
+dio_mcm_episode_1t5bcxp->dio_mcm_episode_183drjy,LONG2024_15M_SOL_STRESS_4000,7,rekoppelnd_stabil,0.428571,4,3994.000000,0.193939,0.038778,0.224333,0.210296,0.210045,0.864904,0.189218,0.646991

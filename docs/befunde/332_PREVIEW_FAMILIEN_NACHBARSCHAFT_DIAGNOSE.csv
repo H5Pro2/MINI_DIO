@@ -1,0 +1,19 @@
+asset,timeframe,preview,count,dominant_prev,dominant_next,dominant_role,prev_self_share,next_self_share,focus_delta_prev,focus_delta_next,pressure_delta_prev,pressure_delta_next,sharpness_delta_prev,sharpness_delta_next,rekopplung_delta_next
+SOL,5m,dio_mcm_episode_0y50lf3,72,dio_mcm_episode_0y50lf3 (71/72),dio_mcm_episode_0y50lf3 (71/72),zentrum_stabil (61/72),0.986111,0.986111,-0.000079,0.001395,-0.000362,0.003069,0.000668,-0.002937,-0.001546
+SOL,5m,dio_mcm_episode_183drjy,0,-,-,-,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000
+SOL,5m,dio_mcm_episode_1t5bcxp,1692,dio_mcm_episode_1t5bcxp (1685/1692),dio_mcm_episode_1t5bcxp (1685/1691),zentrum_stabil (1432/1692),0.995863,0.996452,0.000109,0.000336,0.000177,0.000769,-0.000523,-0.000241,-0.000377
+SOL,1h,dio_mcm_episode_0y50lf3,33,dio_mcm_episode_0y50lf3 (30/33),dio_mcm_episode_0y50lf3 (30/33),zentrum_stabil (26/33),0.909091,0.909091,-0.000062,-0.000768,0.003360,0.001261,-0.001924,0.020065,0.000057
+SOL,1h,dio_mcm_episode_183drjy,266,dio_mcm_episode_183drjy (250/266),dio_mcm_episode_183drjy (250/266),zentrum_stabil (238/266),0.939850,0.939850,0.002151,0.004421,0.002024,0.007849,-0.001623,-0.009901,-0.004305
+SOL,1h,dio_mcm_episode_1t5bcxp,1443,dio_mcm_episode_1t5bcxp (1420/1443),dio_mcm_episode_1t5bcxp (1420/1442),zentrum_stabil (1167/1443),0.984061,0.984743,0.000053,-0.000606,-0.000076,0.000091,-0.000493,0.000195,-0.000105
+BTC,5m,dio_mcm_episode_0y50lf3,651,dio_mcm_episode_0y50lf3 (649/651),dio_mcm_episode_0y50lf3 (649/651),zentrum_stabil (558/651),0.996928,0.996928,-0.000133,-0.000123,-0.000108,0.000013,0.000021,0.000302,-0.000039
+BTC,5m,dio_mcm_episode_183drjy,301,dio_mcm_episode_183drjy (299/301),dio_mcm_episode_183drjy (299/300),zentrum_stabil (272/301),0.993355,0.996667,0.000562,0.000331,0.000654,0.000941,-0.001765,-0.001648,-0.000579
+BTC,5m,dio_mcm_episode_1t5bcxp,799,dio_mcm_episode_1t5bcxp (789/799),dio_mcm_episode_1t5bcxp (789/799),zentrum_stabil (682/799),0.987484,0.987484,0.000414,0.000106,0.000357,0.001193,0.000471,0.001278,-0.000659
+BTC,1h,dio_mcm_episode_0y50lf3,33,dio_mcm_episode_0y50lf3 (32/33),dio_mcm_episode_0y50lf3 (32/33),zentrum_stabil (28/33),0.969697,0.969697,-0.000972,0.005777,-0.002968,0.005945,-0.001993,-0.017065,-0.002740
+BTC,1h,dio_mcm_episode_183drjy,707,dio_mcm_episode_183drjy (689/707),dio_mcm_episode_183drjy (689/707),zentrum_stabil (623/707),0.974540,0.974540,0.000278,0.001322,0.000638,0.002979,-0.001520,-0.001984,-0.001651
+BTC,1h,dio_mcm_episode_1t5bcxp,977,dio_mcm_episode_1t5bcxp (954/977),dio_mcm_episode_1t5bcxp (954/976),zentrum_stabil (813/977),0.976459,0.977459,-0.000109,-0.000035,-0.000299,0.000004,0.000649,-0.000117,0.000006
+KAS,5m,dio_mcm_episode_0y50lf3,695,dio_mcm_episode_0y50lf3 (694/695),dio_mcm_episode_0y50lf3 (694/695),zentrum_stabil (586/695),0.998561,0.998561,0.000014,0.000088,0.000098,0.000314,0.000088,-0.000167,-0.000164
+KAS,5m,dio_mcm_episode_183drjy,0,-,-,-,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000
+KAS,5m,dio_mcm_episode_1t5bcxp,1162,dio_mcm_episode_1t5bcxp (1160/1162),dio_mcm_episode_1t5bcxp (1160/1161),zentrum_stabil (941/1162),0.998279,0.999139,0.000142,0.000184,0.000036,0.000198,0.000194,-0.000018,-0.000080
+KAS,1h,dio_mcm_episode_0y50lf3,36,dio_mcm_episode_0y50lf3 (33/36),dio_mcm_episode_0y50lf3 (33/36),zentrum_stabil (32/36),0.916667,0.916667,0.001051,-0.000314,0.000207,0.000824,-0.006813,0.007175,-0.000488
+KAS,1h,dio_mcm_episode_183drjy,92,dio_mcm_episode_183drjy (85/92),dio_mcm_episode_183drjy (85/92),zentrum_stabil (81/92),0.923913,0.923913,0.002655,0.001973,0.002619,0.009036,-0.008465,0.000166,-0.005248
+KAS,1h,dio_mcm_episode_1t5bcxp,1647,dio_mcm_episode_1t5bcxp (1630/1647),dio_mcm_episode_1t5bcxp (1630/1646),zentrum_stabil (1361/1647),0.989678,0.990279,-0.000193,0.000241,-0.000113,0.000599,-0.000733,-0.001016,-0.000303

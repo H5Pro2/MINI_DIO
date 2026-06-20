@@ -51,8 +51,11 @@ Die aktuelle Wahrnehmungsarchitektur trennt damit bewusst:
 
 - Sehen liest Form und Struktur.
 - Hören liest Energie, Ton und Spannung.
-- Rezeptoren bilden aus Sinneskontakt eine geordnete Kontaktqualität.
-- Fühlen entsteht als MCM-Feldwirkung dieser Kontaktqualität.
+- Sehen ist Distanzwahrnehmung: Eine Form wirkt nicht direkt wie Kontakt, sondern kann über Erfahrung/Memory Bedeutung koppeln.
+- Hören kann als Frequenz, Ton und Rhythmus das Feld stimulieren.
+- Fühlen/Spüren ist direkter Kontakt zur Welt; in den aktuellen Kurswelten ist dieser direkte Kontakt noch nicht aktiv.
+- Rezeptoren bilden aus Sinnesaufnahme, Frequenzstimulation, möglicher Memory-Kopplung und direktem Kontakt eine geordnete Eingangswirkung.
+- MCM-Feldwirkung entsteht aus dieser Eingangswirkung.
 
 Die Außenwelt wirkt nicht direkt in das MCM-Feld. MINI_DIO verarbeitet zuerst Sinneskontakt,
 dann Rezeptorkontakt und erst daraus eine MCM-Feldwirkung.
@@ -175,7 +178,7 @@ Der aktuelle Forschungsstand zeigt:
 - rohe Bruchfenster bleiben im weltrelativen Modus bisher sensorisch sichtbar und zeigen lokal erhöhte Kippnähe,
 - eine frische Laufprüfung mit SOL 5m, SOL 1h, BTC 5m und BTC 1h bestätigt diesen Brucherhalt bei passiver Wahrnehmung,
 - die weltrelative Topologie-Matrix liest Rollenqualität statt feste `dio_*`-Namen und zeigt in den geprüften SOL/BTC- und 5m/1h-Welten eine stabile Rollenordnung aus Zentrum, offener Variante und Rand/Kippnähe,
-- die Rezeptorschicht trennt jetzt Außenweltkontakt von innerer MCM-Wirkung: Sehen und Hören berühren Rezeptoren, erst daraus entsteht Fühlen,
+- die Rezeptorschicht trennt jetzt Außenweltkontakt von innerer MCM-Wirkung: Sehen liefert Formauffälligkeit, Hören liefert Ton-/Energie-Stimulation, direkter Kontakt bleibt ein eigener späterer Spürkanal; daraus entsteht geordnete MCM-Feldwirkung,
 - die Rezeptorprüfung über SOL/BTC/KAS auf 5m und 1h zeigt weiterhin `zentrum_mit_rand_und_uebergang`,
 - Öffnung aus dem Zentrum zeigt erhöhten `contact_pressure` und fallendes `contact_alignment`; Rekopplung zeigt sinkenden Druck und bessere Passung,
 - längere 5k/10k-Rezeptorwelten bleiben bisher ebenfalls in `zentrum_mit_rand_und_uebergang`; neue Kontakt-Archetypen sind durch Dauer allein noch nicht zwingend sichtbar,
@@ -186,6 +189,57 @@ Der aktuelle Forschungsstand zeigt:
 - der erste Reproduktionstest der MCM-Episodenfamilien zeigt: Familien kehren weltübergreifend wieder, tragen aber keine starre 1:1-Bedeutung; ihre konkrete Kontaktqualität bleibt welt- und feldlageabhängig,
 - `world_relative` ist jetzt passiver Standardmodus der Sinnesaufnahme, weil er im Systemabgleich Übersteuerung reduziert, Feld-Episoden deutlich weniger fragmentiert und die MCM-Rekopplung verbessert,
 - die erste Topologieprüfung nach Umstellung auf `world_relative` zeigt in SOL/BTC und 5m/1h weiterhin `zentrum_mit_rand_und_uebergang`: Zentrum bleibt dominant, offene Variante und Rand/Kippnähe bleiben als Nebenrollen sichtbar,
+- ruhige Kurzfenster, Stress-Kurzfenster und Expansionswelten bleiben ebenfalls in derselben Rollenordnung; Stress erhöht bisher lokal Rand/Kippnähe, erzwingt aber keine neue dominante Mischklasse,
+- gleich lange Sideways- und negative Stresswelten relativieren den Kurzsegment-Befund: Stress erhöht Rand/Kippnähe nicht automatisch, sondern kann je nach Weltqualität zentrumsnah rekoppeln oder offener/variantenreicher werden,
+- die Differenz zwischen negativen Stresswelten liegt bisher eher in Drift, Richtungswechsel, Persistenz und Rekopplung als in bloßer Weltlautstärke,
+- lokal zeigt sich: `NEG_STRESS_2024` wird nicht randlastiger, sondern unterbricht zentrumsnahe Rekopplung häufiger und verschiebt mehr Episoden in offene Variante,
+- die offene Variante ist auf roher `symbol_family`-Ebene stark fragmentiert, verdichtet sich aber auf MCM-Preview-Ebene; sie wirkt derzeit wie eine passive Bedeutungsspannweite um das Zentrum, nicht wie eine einzelne gereifte Bedeutungsinsel,
+- `dio_mcm_episode_1t5bcxp` erscheint in der aktuellen 12-Welten-Prüfung über Stress, Ruhe, Expansion sowie SOL/BTC/KAS und 5m/1h als wiederkehrende dominante MCM-Preview-Familie; die darunterliegenden Rohsymbole bleiben stark variabel,
+- im Assetprofil bleibt `dio_mcm_episode_1t5bcxp` bei SOL, BTC und KAS dominant, aber BTC verteilt deutlich mehr Gewicht auf andere Preview-Familien wie `dio_mcm_episode_0y50lf3` und `dio_mcm_episode_183drjy`; das spricht für gleiche Grundsprache bei unterschiedlicher Innenfeld-Gewichtung,
+- als nächste passive Schicht wird Regulation als Wahrnehmungs-Einstellung gefasst: Fokus/Abstand, lauter/leiser, scharf/unscharf und Druck/Entspannung; diese Achsen beschreiben Aufnahmequalität, nicht Handlung,
+- die erste Regulationsachsen-Prüfung liest `1t5bcxp`, `0y50lf3` und `183drjy` alle als nah, leise, eher unscharf und entspannend; die Trennung liegt damit bisher nicht in harten Regulationsklassen, sondern in Gewichtung, Häufigkeit, Streuung und Nachbarschaft,
+- die Nachbarschaftsdiagnose zeigt diese Familien zuerst als stabile Selbstinseln; die Boundary-Diagnose trennt echte Kanten davon und liest besonders `1t5bcxp <-> 183drjy` als wiederkehrende passive Feldbewegung,
+- die Übergangspaar-Diagnose zeigt wiederkehrende Feldbewegungen zwischen Bedeutungsinseln; besonders `1t5bcxp -> 183drjy` wirkt drucksenkend und leicht rekoppelnd, während der Rückweg nach `1t5bcxp` mehr Druck und offenere Variante tragen kann,
+- die erste Paar-Klassifikation liest `1t5bcxp -> 183drjy` als rekoppelnden Grundinsel-Wechsel und `183drjy -> 1t5bcxp` als druckvollere Rückführung; diese Klassen sind Arbeitsklassen, keine starre Ontologie,
+- die Validierung über Stress-, Seitwärts- und Expansionswelten hält diese Bewegungsarten lesbar: `1t5bcxp -> 183drjy` bleibt als ruhiger Grundinsel-Wechsel sichtbar, während `183drjy -> 1t5bcxp` weiterhin druckvoller zurückführt,
+- die Rohwelt-Segmentlupe zeigt das Kontaktmilieu dieser Bewegungen: `1t5bcxp -> 183drjy` liegt überwiegend in rekoppelnder Lage, während der Rückweg im Wechsel selbst häufiger Drucklage und stärkeren Energiebruch trägt,
+- die Kontaktmilieu-Wiederkehrprüfung zeigt bisher nur ein klar stabiles Milieu: `1t5bcxp -> 183drjy` erscheint überwiegend als `rekoppelnde_lage -> rekoppelnde_lage -> rekoppelnde_lage`; die anderen geprüften Übergänge bleiben variabler,
+- die Langweltprüfung relativiert diese Stabilität: `1t5bcxp -> 183drjy` bleibt häufig, aber sein Milieu wird breiter; die rekoppelnde Signatur bleibt sichtbar, ist aber nicht mehr dominant genug, um als universell stabil zu gelten,
+- die Driftqualitätsprüfung trennt tragbare Drift von Fragmentierung: `1t5bcxp -> 183drjy` wirkt breit driftend, während `183drjy -> 1t5bcxp` stark fragmentiert erscheint,
+- die Rücklegung auf Weltmerkmale zeigt eine erste Milieu-Neigung: bei niedrigerer Passung erscheint `1t5bcxp -> 183drjy` eher `offen_stabil`, bei höherer Passung in den SOL-Welten eher `rekoppelnd_stabil`,
+- daraus entsteht eine passive Regulationswahrnehmung: MINI_DIO liest nicht nur, dass eine Feldbewegung vorkommt, sondern auch, wie sie getragen wird: eng getragen, offen driftend, breit driftend oder fragmentiert,
+- die erste Reproduktionsprüfung dieser Regulationsqualitäten zeigt: `1t5bcxp -> 183drjy` bleibt als Bewegung erhalten, trägt aber mehrere Qualitäten; `183drjy -> 1t5bcxp` bleibt deutlich fragmentierter,
+- eine neue Asset-/Zeitgruppe aus SOL, BTC und KAS über 5m, 15m, 30m und 1h bestätigt keine starre Qualität, aber eine gerichtete Differenz: `1t5bcxp -> 183drjy` wirkt eher offen getragen, der Rückweg bleibt stärker fragmentiert,
+- längere 4000er Teilwelten aus SOL/BTC 1h ziehen `1t5bcxp -> 183drjy` wieder näher an rekoppelnde Tragung, während `183drjy -> 1t5bcxp` fragmentiert bleibt; die Asymmetrie wirkt damit robuster als eine starre Symbolbedeutung,
+- eine frische Memory-Reproduktion derselben 4000er Teilwelten wiederholt diese gerichtete Asymmetrie exakt in den Kernwerten: `1t5bcxp -> 183drjy` bleibt dominant `eng_getragen`, der Rückweg bleibt dominant `fragmentiert`,
+- eine andere Jahreswelt aus SOL/BTC 2025 1h bestätigt die Richtung: `1t5bcxp -> 183drjy` bleibt eher eng getragen, `183drjy -> 1t5bcxp` bleibt stärker fragmentiert; die genaue Ausprägung driftet, die Bewegungsrichtung bleibt lesbar,
+- die 15m-Zeitauflösung bestätigt die Asymmetrie ebenfalls: `1t5bcxp -> 183drjy` wird dort als `wiederkehrend_stabil` und dominant `eng_getragen` gelesen, während der Rückweg fragmentierter bleibt,
+- die 5m-Zeitauflösung bestätigt den Befund trotz stärkerer Mikrostruktur: `1t5bcxp -> 183drjy` bleibt `rekoppelnd_stabil`/`eng_getragen`, der Rückweg bleibt fragmentierter,
+- die gemeinsame Zeitauflösungs-Matrix zeigt: 1h, 15m und 5m tragen dieselbe gerichtete Grundbewegung; stabil ist nicht ein Einzelzeichen, sondern Richtung, Feldlage, Wiederkehr und Tragart,
+- die Jahresmatrix 2024/2025 zeigt dieselbe Richtung über beide Jahreswelten: `1t5bcxp -> 183drjy` bleibt dominant `eng_getragen`, `183drjy -> 1t5bcxp` bleibt dominant `fragmentiert`; 2025 wirkt schärfer bruch-/drucknah, 2024 weicher,
+- eine begrenzte KAS-Gegenprobe zeigt dieselbe Richtung, aber mit sehr kleiner Ereignisbasis: `1t5bcxp -> 183drjy` bleibt `eng_getragen`, der Rückweg bleibt `fragmentiert`; KAS braucht längere oder gezielter extrahierte Welten für eine belastbare Asset-Reproduktion,
+- aus den bisherigen Befunden ist eine passive Feldbewegungs-Ableitung entstanden: Feldlage, Tragart, Richtung, Wiederkehr, Rekopplung und Fragmentierung bilden eine gewachsene Innenfeldspur, aber keine Handlung und kein Gate,
+- die technische Skizze für `MCMFieldMovementMemory` definiert eine passive Speicherschicht für MCM-Feldbewegungen; sie speichert Wiederkehr, Tragart, Drift, Rekopplung und Fragmentierung, aber keine Wahrnehmungssteuerung,
+- `MCMFieldMovementMemory` ist als erster passiver Code-Baustein umgesetzt: `mini_dio/mcm_field_movement_memory.py` verdichtet vorhandene Befundmatrizen zu gerichteten Innenfeldspuren; `tools/report_mcm_field_movement_memory.py` schreibt daraus eine Summary. Der erste Lauf liest `1t5bcxp -> 183drjy` als `recurrently_carried` und den Rückweg als `recurrently_fragmented`, weiterhin ohne Handlung, Gate oder Strategie,
+- die erweiterte Mehrwelt-Feldbewegungs-Memory liest über die vorhandenen Bewegungsmatrizen und Reproduktionsbefunde dieselbe Grundasymmetrie: der Hinweg bleibt dominant getragen, der Rückweg dominant fragmentiert. Da sich Quellen teilweise aus denselben Grundbefunden ableiten, ist das ein Verdichtungsbefund, keine unabhängige Statistik,
+- eine unabhängige 1000er Late-Shift-Welt erzeugt bewusst keine künstlich gereifte Qualität: `02xikfk -> 1t5bcxp` wird als junge, breit driftende Spur gelesen. Das bestätigt die Trennschärfe der Feldbewegungs-Memory: wiederkehrende Bewegung wird verdichtet, Einzelkontakt bleibt jung,
+- die Achsen Fokus/Abstand, lauter/leiser, scharf/unscharf und Druck/Entspannung gehören nicht in diese Memory-Schicht; sie bilden eine getrennte rezeptorisch-regulatorische Wahrnehmungsschicht, die beschreibt, wie Informationen unterschiedlicher Asset- und Weltklassen in das MCM-Feld gelangen,
+- ältere Dateien mit `REGULATIONSQUALITAET` im Namen bleiben als Befundhistorie erhalten. Für den aktuellen Bauzustand gilt die neue Trennung: Feldbewegungs-Memory speichert Feldwirkung; rezeptorisch-regulatorische Wahrnehmung beschreibt Aufnahmequalität,
+- die strikte Trennung ist jetzt als Bauprinzip festgehalten: Das MCM-Feld bleibt einfach und behält seine passive Eigenregulation; reguliert wird nur die Aufnahme vor dem Feld, also wie Weltkontakt über Fokus/Abstand, lauter/leiser, scharf/unscharf und Druck/Entspannung am Feld ankommt,
+- die Sinneswege sind fachlich korrigiert: `visual_form_salience` beschreibt sichtbare Formauffälligkeit, `auditory_stimulation` beschreibt Ton-/Energie-Stimulation, `direct_contact_pressure` bleibt der spätere direkte Kontaktkanal und `field_intake_pressure` ist der resultierende Eingangsdruck ins MCM-Feld. Alte Spalten wie `visual_contact`, `auditory_contact` und `contact_pressure` bleiben nur als Kompatibilitätsnamen erhalten,
+- Fokus/Abstand, lauter/leiser, scharf/unscharf und Druck/Entspannung sind jetzt als Organismus-Eigenschaften gefasst. Technisch werden sie als `perception_regulation_state` und `organism_adaptation_state` sichtbar. Sie sind keine Regeln fuer das Feld, sondern Faehigkeiten, mit denen MINI_DIO lernt, Weltaufnahme anzupassen,
+- die Anpassung ist jetzt sinnesgetrennt zu lesen: MINI_DIO kann theoretisch stärker sehen und gedämpfter hören, mehr Abstand halten und trotzdem genauer fokussieren, oder Fühlen/Spüren erst bei echtem Kontakt stärker zulassen. Welche Kombination trägt, muss über MCM-Feldrückmeldung und episodische Erfahrung entstehen,
+- `field_intake_pressure` geht als tatsächliche Rezeptorwirkung in `mcm_tension` ein. `adaptation_potential`, `adapted_field_intake_pressure` und der alte Kompatibilitätsname `regulation_damping` bleiben Diagnosewerte; sie dämpfen das Feld nicht mehr heimlich global,
+- die erste sinnesgetrennte Achspruefung ueber vier kurze Kontrollwelten zeigt: Die Achsen sind technisch sauber sichtbar, aber im Weltmittel noch eng beieinander. Der naechste sinnvolle Schritt ist deshalb lokale Episodenpruefung statt weiterer globaler Mittelwerte,
+- die lokale Sinnesachsen-Episodenkarte zeigt: `hoeren_hin` in stabiler Innenfeldlage ist weltuebergreifend eine ruhige, haeufig rekoppelnde Achsenlage; lokaler `feldinput` liegt naeher an Strain und Kontaktlast,
+- die Rekopplungsqualitaetspruefung verdichtet diesen Befund: Hoeren, Sehen und Feldkontakt muessen getrennt gelesen werden. Die naechste Frage ist nicht globale Daempfung, sondern welche Aufnahmeart in welcher Weltlage tragbar rekoppelt,
+- die Gegenprobe ueber SOL/BTC/KAS sowie 5m/1h bestaetigt diese Richtung: `hoeren_hin` bleibt in allen geprueften Welten die ruhigste lokale Rekopplungsachse, waehrend `feldinput` weiter die kontaktlastigere Feldinput-Seite traegt,
+- damit wird die rezeptorisch-regulatorische Wahrnehmungsschicht als Aufnahmequalitaet gestuetzt: MINI_DIO muss nicht das Feld global daempfen, sondern lernen, wie eine Weltlage ueber Hoeren, Sehen, Abstand oder Feldkontakt aufgenommen wird,
+- die erste Faehigkeitslesung von `hoeren_hin` zeigt Rang 1 in allen geprueften Gegenwelten, einen sehr hohen stabilen Innenfeldanteil und deutlich weniger Strain/Feldinput als direkter Feldkontakt. Das spricht fuer Hinhoren als passive Aufnahmefaehigkeit, nicht fuer eine Handlungsregel,
+- der Sinnesaufnahme-Vergleich trennt die Rollen klarer: `hoeren_hin` ist die ruhigste akustische Rekopplung, `sehen_fokus` bleibt visuell tragend, `feldinput` ist der kontaktlastige direkte Feldkontakt. Damit wird Aufnahmequalitaet als lokale Faehigkeit lesbar, nicht als globaler Daempfungswert,
+- die Wiedererkennungspruefung zeigt 51 Signaturen, die in mindestens drei Gegenwelten wiederkehren; 6 davon lesen sich als reproduzierte ruhige Aufnahmen. Die staerkste Spur ist `hoeren_hin + inner_effect_stable + dio_mcm_episode_0e7qvj1`, gefolgt von `sehen_fokus + inner_effect_stable + dio_mcm_episode_0e7qvj1`,
+- damit entsteht eine passive Lernspur: gleiche Aufnahmeart, aehnliche Innenfeldlage und aehnliche MCM-Feldwirkung werden wiedererkennbar, ohne Handlung, Gate oder Strategie,
+- die MCM-Neuronen, die Episodendistanz, der Beobachtungsdruck, die neurochemische Spiegelung und die interne `dio_*`-Syntax lesen jetzt bevorzugt Rezeptoraufnahme plus MCM-Feldwirkung statt direkter Roh-Sinneswerte. Rohwerte bleiben sichtbar, aber nicht mehr der primäre innere Lernvektor,
 - aktuelle Läufe bleiben bewusst ohne ausführende Handlung.
 
 Beispiel aus dem aktuellen Forschungslauf:
@@ -408,6 +462,78 @@ Besonders relevant sind:
 - `320_MCM_FELDWIRKUNG_ALIAS_UMSETZUNG.md`
 - `321_WELTRELATIVER_STANDARD_UND_SYSTEMABGLEICH.md`
 - `322_WELTRELATIVER_STANDARD_TOPOLOGIE_PRUEFUNG.md`
+- `323_TOPOLOGIE_BEDINGUNGSWELTEN_PRUEFUNG.md`
+- `324_GLEICH_LANGE_RUHE_STRESS_TOPOLOGIE_PRUEFUNG.md`
+- `325_RUHE_STRESS_WELTMERKMALE_REKOPPLUNG_DIAGNOSE.md`
+- `326_EPISODENROLLEN_WELTMERKMALE_DIAGNOSE.md`
+- `327_OFFENE_VARIANTE_FAMILIEN_DIAGNOSE.md`
+- `328_OFFENE_PREVIEW_FAMILIE_WELTEN_VERGLEICH.md`
+- `329_ASSET_PREVIEW_FAMILIEN_PROFIL.md`
+- `330_REGULATIONSACHSEN_WAHRNEHMUNGSSCHICHT.md`
+- `331_PREVIEW_FAMILIEN_REGULATIONSACHSEN_PROFIL.md`
+- `332_PREVIEW_FAMILIEN_NACHBARSCHAFT_DIAGNOSE.md`
+- `333_PREVIEW_FAMILIEN_BOUNDARY_DIAGNOSE.md`
+- `334_PREVIEW_UEBERGANGSPAARE_DIAGNOSE.md`
+- `335_PREVIEW_UEBERGANGSPAARE_KLASSIFIKATION.md`
+- `336_BEWEGUNGSARTEN_VALIDIERUNG.md`
+- `337_BEWEGUNGSARTEN_ROHWELT_SEGMENTE.md`
+- `338_KONTAKTMILIEU_WIEDERKEHR_DRIFT.md`
+- `339_LANGWELT_STABILES_MILIEU_SEGMENTE.md`
+- `340_LANGWELT_KONTAKTMILIEU_WIEDERKEHR.md`
+- `341_MILIEU_DRIFTQUALITAET.md`
+- `342_MILIEU_DRIFT_WELTMERKMALE.md`
+- `343_PASSIVE_REGULATIONSWAHRNEHMUNG.md`
+- `344_PASSIVE_REGULATIONSQUALITAET_REPRODUKTION.md`
+- `345_ASSET_ZEIT_REGULATIONSQUALITAET_SEGMENTE.md`
+- `346_ASSET_ZEIT_KONTAKTMILIEU_WIEDERKEHR.md`
+- `347_ASSET_ZEIT_MILIEU_DRIFTQUALITAET.md`
+- `348_ASSET_ZEIT_MILIEU_WELTMERKMALE.md`
+- `349_ASSET_ZEIT_PASSIVE_REGULATIONSQUALITAET.md`
+- `350_LONG_ASSET_REGULATIONSQUALITAET_SEGMENTE.md`
+- `351_LONG_ASSET_KONTAKTMILIEU_WIEDERKEHR.md`
+- `352_LONG_ASSET_MILIEU_DRIFTQUALITAET.md`
+- `353_LONG_ASSET_MILIEU_WELTMERKMALE.md`
+- `354_LONG_ASSET_PASSIVE_REGULATIONSQUALITAET.md`
+- `355_LONG_ASSET_REPRO_REGULATIONSQUALITAET_SEGMENTE.md`
+- `356_LONG_ASSET_REPRO_KONTAKTMILIEU_WIEDERKEHR.md`
+- `357_LONG_ASSET_REPRO_MILIEU_DRIFTQUALITAET.md`
+- `358_LONG_ASSET_REPRO_MILIEU_WELTMERKMALE.md`
+- `359_LONG_ASSET_REPRO_PASSIVE_REGULATIONSQUALITAET.md`
+- `360_LONG_ASSET_2025_REGULATIONSQUALITAET_SEGMENTE.md`
+- `361_LONG_ASSET_2025_KONTAKTMILIEU_WIEDERKEHR.md`
+- `362_LONG_ASSET_2025_MILIEU_DRIFTQUALITAET.md`
+- `363_LONG_ASSET_2025_MILIEU_WELTMERKMALE.md`
+- `364_LONG_ASSET_2025_PASSIVE_REGULATIONSQUALITAET.md`
+- `365_LONG_ASSET_2025_15M_REGULATIONSQUALITAET_SEGMENTE.md`
+- `366_LONG_ASSET_2025_15M_KONTAKTMILIEU_WIEDERKEHR.md`
+- `367_LONG_ASSET_2025_15M_MILIEU_DRIFTQUALITAET.md`
+- `368_LONG_ASSET_2025_15M_MILIEU_WELTMERKMALE.md`
+- `369_LONG_ASSET_2025_15M_PASSIVE_REGULATIONSQUALITAET.md`
+- `370_LONG_ASSET_2025_5M_REGULATIONSQUALITAET_SEGMENTE.md`
+- `371_LONG_ASSET_2025_5M_KONTAKTMILIEU_WIEDERKEHR.md`
+- `372_LONG_ASSET_2025_5M_MILIEU_DRIFTQUALITAET.md`
+- `373_LONG_ASSET_2025_5M_MILIEU_WELTMERKMALE.md`
+- `374_LONG_ASSET_2025_5M_PASSIVE_REGULATIONSQUALITAET.md`
+- `375_ZEITAUFLOESUNGS_MATRIX_GERICHTETE_FELDBEWEGUNG.md`
+- `386_JAHRES_ZEITAUFLOESUNGS_MATRIX_GERICHTETE_FELDBEWEGUNG.md`
+- `391_KAS_ASSET_GEGENPROBE_PASSIVE_REGULATIONSQUALITAET.md`
+- `392_REGULATORISCHE_ABLEITUNG_AUS_DEN_BEFUNDEN.md`
+- `393_MCM_FELDBEWEGUNGS_MEMORY_TECHNISCHE_SKIZZE.md`
+- `394_MCM_FELDBEWEGUNGS_MEMORY_SUMMARY.md`
+- `395_MCM_FELDBEWEGUNGS_MEMORY_MEHRWELT_SUMMARY.md`
+- `396_MCM_FELDBEWEGUNG_LATE_SHIFT_2023_PASSIVE_FELDWIRKUNG.md`
+- `397_MCM_FELDBEWEGUNGS_MEMORY_UNABHAENGIGE_WELT_SUMMARY.md`
+- `398_REZEPTORISCH_REGULATORISCHE_WAHRNEHMUNGSSCHICHT.md`
+- `399_STRIKTE_TRENNUNG_MCM_FELD_UND_WAHRNEHMUNGSREGULATION.md`
+- `400_SINNESGETRENNTE_ANPASSUNGSFAEHIGKEIT.md`
+- `401_SINNESGETRENNTE_ACHSPRUEFUNG.md`
+- `402_LOKALE_SINNESACHSEN_EPISODENKARTE.md`
+- `403_SINNESACHSEN_REKOPPLUNGSQUALITAET.md`
+- `404_SINNESACHSEN_EPISODENKARTE_GEGENPROBE.md`
+- `405_SINNESACHSEN_REKOPPLUNGSQUALITAET_GEGENPROBE.md`
+- `406_HOEREN_HIN_REKOPPLUNGSFAEHIGKEIT.md`
+- `407_SINNESAUFNAHME_FAEHIGKEITSVERGLEICH.md`
+- `408_SINNESAUFNAHME_WIEDERERKENNUNG.md`
 - `AKTUELLER_FORSCHUNGSLAUF.md`
 - `AKTUELLER_FORSCHUNGSLAUF_2024_01.md`
 - `MEHRWELT_VERGLEICH.md`
@@ -458,7 +584,7 @@ Der aktuelle Mehrwelt-Vergleich zeigt zusätzlich:
 - Die lokale Syntaxpruefung zeigt: lokale Kipp- und Rekopplungsfenster tragen bereits wiederkehrende `symbol_family`-Muster. Die tiefere `mcm_field_episode_symbol`-Spur bleibt dort aber noch weitgehend leer. Das spricht fuer lokale Wahrnehmungsfamilien, aber noch nicht fuer voll gereifte lokale Feld-Episoden.
 - Die Ursache der leeren lokalen Feld-Episodenspur ist geklaert: `mcm_field_episode_symbol` wurde bisher nur beim Abschluss einer Episode geschrieben. MINI_DIO gibt nun zusaetzlich eine passive `mcm_field_episode_preview_symbol`-Spur pro Tick aus, damit lokale entstehende Feld-Episoden sichtbar werden, ohne Memory zu schreiben oder Handlung zu beeinflussen.
 - Frische Preview-Laeufe zeigen jetzt: lokale Rekopplungsfenster tragen reproduzierbar starke `dio_mcm_episode_*`-Vorschau-Familien, besonders `dio_mcm_episode_02xikfk`. Lokale Kippfenster tragen andere Vorschau-Feldsymbole, etwa `dio_mcm_episode_037i64j`, mit unruhigerer Innenfeldwirkung. Das ist ein Hinweis auf entstehende lokale Feld-Episoden-Syntax, noch kein Beweis fuer gereifte lokale Bedeutungsinseln.
-- Der Mehrwelt-Preview-Vergleich zeigt: `dio_mcm_episode_02xikfk` wirkt aktuell wie eine gemeinsame lokale Rekopplungsnaehe-Sprache ueber Real-, Negativ- und Expansionswelt. Gleichzeitig entstehen weltbezogene Varianten wie `dio_mcm_episode_1t5bcxp`. Daraus folgt vorlaeufig: MINI_DIO bildet nicht nur Einzelzeichen, sondern eine lokale Feldsprache mit gemeinsamer Grundnaehe und situativen Erweiterungen.
+- Der fruehere Mehrwelt-Preview-Vergleich zeigte `dio_mcm_episode_02xikfk` als lokale Rekopplungsnaehe-Sprache. Die spaetere 12-Welten-Pruefung erweitert diesen Befund: `dio_mcm_episode_1t5bcxp` ist keine rein weltbezogene Einzelvariante mehr, sondern eine breit wiederkehrende MCM-Preview-Familie mit stark variabler Rohsyntax darunter. Daraus folgt vorlaeufig: MINI_DIO bildet nicht nur Einzelzeichen, sondern Feldsprache mit verdichteter Bedeutungsebene und lokaler Oberflaechenvarianz.
 - Die passive Regulationskarte zeigt: dieselbe Vorschau-Feldlage kann je nach Rolle anders wirken. `dio_mcm_episode_02xikfk` ist in `lokal_rekoppelnd` stabil und entlastend, in `lokale_multisensorische_kippnaehe` dagegen tragend-unruhiger. Regulation wird damit als Kopplung gelesen: Feldsymbol plus lokale Rolle plus Innenfeldwirkung.
 - Die seltenen Kippvarianten `dio_mcm_episode_037i64j`, `dio_mcm_episode_0e9ekzq`, `dio_mcm_episode_0eje6op` und `dio_mcm_episode_182yyt2` zeigen gegenueber der Rekopplungsfamilie mehr Kippnaehe, mehr Felddruck und weniger Entlastung. Bisher sind sie eine reproduzierte Rand-/Spannungsgruppe innerhalb `PREVIEW_REAL_2023`, aber noch keine mehrweltstabile Familie.
 - Eine weitere Realwelt stuetzt erstmals `dio_mcm_episode_182yyt2` als wiederkehrendes Randspannungszeichen. Damit ist Anspannung nicht geloest, aber klarer differenziert: allgemeine Rekopplung bleibt haeufig und stabil, Randspannung bleibt seltener, kippnaeher und unruhiger, kann aber wiederkehren.

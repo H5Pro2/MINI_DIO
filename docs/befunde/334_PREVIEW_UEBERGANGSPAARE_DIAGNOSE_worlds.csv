@@ -1,0 +1,7 @@
+asset,timeframe,transition_count,top_pair,pressure_delta,sharpness_delta,rekopplung_delta
+BTC,1h,176,dio_mcm_episode_183drjy->dio_mcm_episode_1t5bcxp (14/176),0.005035,-0.003566,-0.002838
+BTC,5m,124,dio_mcm_episode_1y00xwb->dio_mcm_episode_0vkdfwc (6/124),0.001751,-0.011853,-0.000649
+KAS,1h,125,dio_mcm_episode_183drjy->dio_mcm_episode_1t5bcxp (7/125),0.007318,0.006274,-0.003084
+KAS,5m,43,dio_mcm_episode_14wxqua->dio_mcm_episode_1y00xwb (2/43),0.004919,-0.043753,-0.002009
+SOL,1h,190,dio_mcm_episode_1t5bcxp->dio_mcm_episode_183drjy (12/190),0.007561,0.011732,-0.002667
+SOL,5m,80,dio_mcm_episode_04e9yp5->dio_mcm_episode_14wxqua (3/80),0.006073,0.004458,-0.003572

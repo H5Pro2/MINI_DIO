@@ -1,0 +1,3 @@
+pair,events,worlds,signature_count,top_signature,top_signature_share,pressure_delta,pressure_std,rekopplung_delta,rekopplung_std,drift_label
+dio_mcm_episode_183drjy->dio_mcm_episode_1t5bcxp,9,2,7,rekoppelnde_lage->druck_lage->bewegungsbruch,0.222222,0.064003,0.095167,-0.018878,0.019541,lokal_offen
+dio_mcm_episode_1t5bcxp->dio_mcm_episode_183drjy,7,2,3,rekoppelnde_lage->rekoppelnde_lage->rekoppelnde_lage,0.714286,0.030620,0.063024,-0.010054,0.019303,lokal_offen

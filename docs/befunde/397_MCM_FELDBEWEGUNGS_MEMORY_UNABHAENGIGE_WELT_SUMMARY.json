@@ -1,0 +1,23 @@
+[
+  {
+    "movement_key": "dio_mcm_episode_02xikfk->dio_mcm_episode_1t5bcxp",
+    "seen_count": 1,
+    "total_events": 1,
+    "total_worlds_observed": 1,
+    "dominant_tragart": "breit_driftend",
+    "field_memory_quality": "young",
+    "maturity_note": "young_trace",
+    "dominant_field_position": "-",
+    "dominant_drift_label": "-",
+    "avg_top_share": 1.0,
+    "avg_top_signature_share": 0.0,
+    "tragart_profile": "breit_driftend:1",
+    "field_position_profile": "-",
+    "drift_profile": "-",
+    "timeframes": "-",
+    "assets": "-",
+    "years": "-",
+    "sources": "396_MCM_FELDBEWEGUNG_LATE_SHIFT_2023_PASSIVE_FELDWIRKUNG_reproduktion.csv:1",
+    "caution_note": "passive_not_actionable"
+  }
+]

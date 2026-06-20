@@ -1,0 +1,7 @@
+pair,phase,samples,worlds,dominant_segment,dominant_role,form_stability,form_change,energy_shift,contact_pressure,contact_alignment,mcm_strain,mcm_rekopplung
+dio_mcm_episode_183drjy->dio_mcm_episode_1t5bcxp,nachher,160,4,rekoppelnde_lage,zentrum_stabil,-0.006437,0.199149,0.248177,0.213080,0.872406,0.191166,0.644558
+dio_mcm_episode_183drjy->dio_mcm_episode_1t5bcxp,vorher,160,4,rekoppelnde_lage,zentrum_stabil,0.039068,0.181596,0.222200,0.204379,0.875002,0.185506,0.650065
+dio_mcm_episode_183drjy->dio_mcm_episode_1t5bcxp,wechsel,80,4,offene_lage,zentrum_stabil,0.022395,0.251379,0.375442,0.271881,0.806828,0.230527,0.620011
+dio_mcm_episode_1t5bcxp->dio_mcm_episode_183drjy,nachher,182,4,rekoppelnde_lage,zentrum_stabil,0.017751,0.152804,0.214302,0.186812,0.882141,0.178841,0.652675
+dio_mcm_episode_1t5bcxp->dio_mcm_episode_183drjy,vorher,182,4,rekoppelnde_lage,zentrum_stabil,0.087638,0.134668,0.213651,0.177157,0.885667,0.174303,0.656498
+dio_mcm_episode_1t5bcxp->dio_mcm_episode_183drjy,wechsel,91,4,rekoppelnde_lage,zentrum_stabil,0.087046,0.094605,0.139618,0.151773,0.911987,0.149127,0.676553

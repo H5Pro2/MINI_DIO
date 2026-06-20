@@ -44,18 +44,19 @@ def make_syntax_vector(senses: dict, field_signature: float) -> list[float]:
     """Return DIO's compact sensory vector.
 
     This is not a strategy description. It is a normalized form of
-    sehen/hoeren/mcm_feldwirkung plus the current MCM field signature.
+    receptor intake/mcm_feldwirkung plus the current MCM field signature.
     """
 
     feldwirkung = _mcm_feldwirkung(senses)
+    rezeptoren = dict(senses.get("rezeptoren", {}) or {})
     return [
         _clip(value)
         for value in [
-            senses.get("sehen", {}).get("form_flow", 0.0),
-            senses.get("sehen", {}).get("form_stability", 0.0),
-            senses.get("sehen", {}).get("form_change", 0.0),
-            senses.get("hoeren", {}).get("energy_tone", 0.0),
-            senses.get("hoeren", {}).get("energy_shift", 0.0),
+            rezeptoren.get("visual_form_salience", 0.0),
+            rezeptoren.get("visual_memory_recall", 0.0),
+            rezeptoren.get("auditory_stimulation", 0.0),
+            rezeptoren.get("direct_contact_pressure", 0.0),
+            rezeptoren.get("field_intake_pressure", 0.0),
             feldwirkung.get("mcm_coherence", 0.0),
             feldwirkung.get("mcm_tension", 0.0),
             feldwirkung.get("mcm_asymmetry", 0.0),
@@ -67,7 +68,7 @@ def make_syntax_vector(senses: dict, field_signature: float) -> list[float]:
 def make_syntax_symbol(senses: dict, field_signature: float) -> str:
     """Create a compact internal symbol from sensed state.
 
-    The buckets are not strategy labels. They only compress sehen/hoeren/
+    The buckets are not strategy labels. They only compress receptor intake/
     mcm_feldwirkung into a repeatable internal word.
     """
 

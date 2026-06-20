@@ -1,0 +1,11 @@
+pair,signature,events,worlds,share,pressure_delta,rekopplung_delta
+dio_mcm_episode_183drjy->dio_mcm_episode_1t5bcxp,rekoppelnde_lage->druck_lage->bewegungsbruch,2,2,0.222222,0.079875,-0.009452
+dio_mcm_episode_183drjy->dio_mcm_episode_1t5bcxp,offene_lage->druck_lage->rekoppelnde_lage,2,2,0.222222,0.025017,-0.014821
+dio_mcm_episode_183drjy->dio_mcm_episode_1t5bcxp,rekoppelnde_lage->offene_lage->druck_lage,1,1,0.111111,0.197836,-0.047627
+dio_mcm_episode_183drjy->dio_mcm_episode_1t5bcxp,rekoppelnde_lage->druck_lage->rekoppelnde_lage,1,1,0.111111,0.111519,-0.028198
+dio_mcm_episode_183drjy->dio_mcm_episode_1t5bcxp,rekoppelnde_lage->bewegungsbruch->rekoppelnde_lage,1,1,0.111111,-0.062052,0.008840
+dio_mcm_episode_183drjy->dio_mcm_episode_1t5bcxp,bewegungsbruch->bewegungsbruch->bewegungsbruch,1,1,0.111111,-0.076653,-0.004324
+dio_mcm_episode_183drjy->dio_mcm_episode_1t5bcxp,rekoppelnde_lage->offene_lage->bewegungsbruch,1,1,0.111111,0.195594,-0.050052
+dio_mcm_episode_1t5bcxp->dio_mcm_episode_183drjy,rekoppelnde_lage->rekoppelnde_lage->rekoppelnde_lage,5,2,0.714286,0.027100,-0.010602
+dio_mcm_episode_1t5bcxp->dio_mcm_episode_183drjy,offene_lage->rekoppelnde_lage->rekoppelnde_lage,1,1,0.142857,-0.048541,0.015496
+dio_mcm_episode_1t5bcxp->dio_mcm_episode_183drjy,rekoppelnde_lage->rekoppelnde_lage->offene_lage,1,1,0.142857,0.127382,-0.032862

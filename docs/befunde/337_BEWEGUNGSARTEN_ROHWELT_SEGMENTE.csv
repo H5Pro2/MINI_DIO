@@ -1,0 +1,13 @@
+pair,phase,samples,worlds,dominant_segment,dominant_role,form_stability,form_change,energy_shift,contact_pressure,contact_alignment,mcm_strain,mcm_rekopplung
+dio_mcm_episode_02xikfk->dio_mcm_episode_1t5bcxp,nachher,38,6,rekoppelnde_lage,zentrum_stabil,0.033090,0.270361,0.211217,0.218449,0.838850,0.196370,0.639849
+dio_mcm_episode_02xikfk->dio_mcm_episode_1t5bcxp,vorher,38,6,rekoppelnde_lage,zentrum_stabil,0.055796,0.249618,0.201739,0.232547,0.832120,0.204123,0.636091
+dio_mcm_episode_02xikfk->dio_mcm_episode_1t5bcxp,wechsel,19,6,rekoppelnde_lage,zentrum_stabil,0.063381,0.248015,0.191031,0.215425,0.892960,0.184014,0.653318
+dio_mcm_episode_183drjy->dio_mcm_episode_1t5bcxp,nachher,24,5,rekoppelnde_lage,zentrum_stabil,0.021199,0.151556,0.211626,0.200180,0.871323,0.190762,0.644149
+dio_mcm_episode_183drjy->dio_mcm_episode_1t5bcxp,vorher,24,5,rekoppelnde_lage,zentrum_stabil,0.086534,0.144140,0.245514,0.200231,0.867924,0.182194,0.654303
+dio_mcm_episode_183drjy->dio_mcm_episode_1t5bcxp,wechsel,12,5,druck_lage,offene_variante,0.077115,0.217658,0.453534,0.298719,0.787322,0.242537,0.614909
+dio_mcm_episode_1t5bcxp->dio_mcm_episode_02xikfk,nachher,24,4,rekoppelnde_lage,zentrum_stabil,0.103188,0.282796,0.196606,0.241779,0.820476,0.205790,0.636974
+dio_mcm_episode_1t5bcxp->dio_mcm_episode_02xikfk,vorher,24,4,offene_lage,zentrum_stabil,0.369679,0.259761,0.266058,0.262174,0.792978,0.222158,0.629835
+dio_mcm_episode_1t5bcxp->dio_mcm_episode_02xikfk,wechsel,12,4,druck_lage,offene_variante,0.278175,0.458800,0.317833,0.308574,0.702295,0.247615,0.612413
+dio_mcm_episode_1t5bcxp->dio_mcm_episode_183drjy,nachher,24,5,rekoppelnde_lage,zentrum_stabil,0.164577,0.125943,0.254467,0.200833,0.872348,0.190216,0.646870
+dio_mcm_episode_1t5bcxp->dio_mcm_episode_183drjy,vorher,24,5,rekoppelnde_lage,zentrum_stabil,0.046016,0.113531,0.137307,0.164673,0.893863,0.173421,0.652771
+dio_mcm_episode_1t5bcxp->dio_mcm_episode_183drjy,wechsel,12,5,rekoppelnde_lage,zentrum_stabil,0.100943,0.077867,0.120344,0.144951,0.899648,0.150528,0.672062

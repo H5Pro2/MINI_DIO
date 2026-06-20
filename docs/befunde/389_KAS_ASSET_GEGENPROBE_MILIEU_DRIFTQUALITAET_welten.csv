@@ -1,0 +1,11 @@
+pair,world,quality,events,share
+dio_mcm_episode_183drjy->dio_mcm_episode_1t5bcxp,KAS2024_15M_ASSET_PROBE,druckbruch,1,0.500000
+dio_mcm_episode_183drjy->dio_mcm_episode_1t5bcxp,KAS2024_15M_ASSET_PROBE,druckuebergang,1,0.500000
+dio_mcm_episode_183drjy->dio_mcm_episode_1t5bcxp,KAS2024_1H_ASSET_PROBE,druckuebergang,2,0.285714
+dio_mcm_episode_183drjy->dio_mcm_episode_1t5bcxp,KAS2024_1H_ASSET_PROBE,bruchuebergang,2,0.285714
+dio_mcm_episode_183drjy->dio_mcm_episode_1t5bcxp,KAS2024_1H_ASSET_PROBE,rekoppelnd_offen,1,0.142857
+dio_mcm_episode_183drjy->dio_mcm_episode_1t5bcxp,KAS2024_1H_ASSET_PROBE,bruchdominant,1,0.142857
+dio_mcm_episode_183drjy->dio_mcm_episode_1t5bcxp,KAS2024_1H_ASSET_PROBE,druckbruch,1,0.142857
+dio_mcm_episode_1t5bcxp->dio_mcm_episode_183drjy,KAS2024_15M_ASSET_PROBE,rekoppelnd_stabil,1,1.000000
+dio_mcm_episode_1t5bcxp->dio_mcm_episode_183drjy,KAS2024_1H_ASSET_PROBE,rekoppelnd_stabil,4,0.666667
+dio_mcm_episode_1t5bcxp->dio_mcm_episode_183drjy,KAS2024_1H_ASSET_PROBE,rekoppelnd_offen,2,0.333333

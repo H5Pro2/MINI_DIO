@@ -1,0 +1,13 @@
+scope,pair,world,events,source_quality,top_quality,share,passive_regulation_quality,contact_pressure,contact_alignment,mcm_rekopplung
+gesamt,dio_mcm_episode_183drjy->dio_mcm_episode_1t5bcxp,-,9,breit_driftend,druckuebergang,0.333333,breit_driftend,,,
+gesamt,dio_mcm_episode_1t5bcxp->dio_mcm_episode_183drjy,-,7,eng_getragen,rekoppelnd_stabil,0.714286,eng_getragen,,,
+welt,dio_mcm_episode_183drjy->dio_mcm_episode_1t5bcxp,KAS2024_15M_ASSET_PROBE,1,druckbruch,druckbruch,0.500000,fragmentiert,0.212675,0.866595,0.644307
+welt,dio_mcm_episode_183drjy->dio_mcm_episode_1t5bcxp,KAS2024_15M_ASSET_PROBE,1,druckuebergang,druckuebergang,0.500000,fragmentiert,0.212675,0.866595,0.644307
+welt,dio_mcm_episode_183drjy->dio_mcm_episode_1t5bcxp,KAS2024_1H_ASSET_PROBE,2,druckuebergang,druckuebergang,0.285714,fragmentiert,0.213652,0.864756,0.643407
+welt,dio_mcm_episode_183drjy->dio_mcm_episode_1t5bcxp,KAS2024_1H_ASSET_PROBE,2,bruchuebergang,bruchuebergang,0.285714,fragmentiert,0.213652,0.864756,0.643407
+welt,dio_mcm_episode_183drjy->dio_mcm_episode_1t5bcxp,KAS2024_1H_ASSET_PROBE,1,rekoppelnd_offen,rekoppelnd_offen,0.142857,breit_driftend,0.213652,0.864756,0.643407
+welt,dio_mcm_episode_183drjy->dio_mcm_episode_1t5bcxp,KAS2024_1H_ASSET_PROBE,1,bruchdominant,bruchdominant,0.142857,fragmentiert,0.213652,0.864756,0.643407
+welt,dio_mcm_episode_183drjy->dio_mcm_episode_1t5bcxp,KAS2024_1H_ASSET_PROBE,1,druckbruch,druckbruch,0.142857,fragmentiert,0.213652,0.864756,0.643407
+welt,dio_mcm_episode_1t5bcxp->dio_mcm_episode_183drjy,KAS2024_15M_ASSET_PROBE,1,rekoppelnd_stabil,rekoppelnd_stabil,1.000000,eng_getragen,0.212675,0.866595,0.644307
+welt,dio_mcm_episode_1t5bcxp->dio_mcm_episode_183drjy,KAS2024_1H_ASSET_PROBE,4,rekoppelnd_stabil,rekoppelnd_stabil,0.666667,eng_getragen,0.213652,0.864756,0.643407
+welt,dio_mcm_episode_1t5bcxp->dio_mcm_episode_183drjy,KAS2024_1H_ASSET_PROBE,2,rekoppelnd_offen,rekoppelnd_offen,0.333333,breit_driftend,0.213652,0.864756,0.643407

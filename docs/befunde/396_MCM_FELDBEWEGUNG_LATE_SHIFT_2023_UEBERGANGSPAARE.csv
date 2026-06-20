@@ -1,0 +1,21 @@
+pair,count,worlds,dominant_world,dominant_role_shift,pressure_delta,sharpness_delta,focus_delta,rekopplung_delta,loudness_delta
+dio_mcm_episode_1xlulkb->dio_mcm_episode_00i7zy5,1,1,LATE_SHIFT_2023_5m (1/1),zentrum_stabil->zentrum_stabil (1/1),0.005431,0.000000,-0.032331,-0.012408,-0.038563
+dio_mcm_episode_00i7zy5->dio_mcm_episode_05712v1,1,1,LATE_SHIFT_2023_5m (1/1),zentrum_stabil->zentrum_stabil (1/1),-0.040189,0.134221,-0.007680,0.023796,-0.098321
+dio_mcm_episode_05712v1->dio_mcm_episode_0cokzhj,1,1,LATE_SHIFT_2023_5m (1/1),zentrum_stabil->zentrum_stabil (1/1),0.048155,-0.446887,-0.012373,-0.035553,-0.004295
+dio_mcm_episode_0cokzhj->dio_mcm_episode_1al8fjz,1,1,LATE_SHIFT_2023_5m (1/1),zentrum_stabil->zentrum_stabil (1/1),0.016902,0.049903,0.050177,0.002757,0.084827
+dio_mcm_episode_1al8fjz->dio_mcm_episode_1y2gc2i,1,1,LATE_SHIFT_2023_5m (1/1),zentrum_stabil->zentrum_stabil (1/1),0.027339,-0.048207,0.092434,-0.010930,0.195338
+dio_mcm_episode_1y2gc2i->dio_mcm_episode_1y26981,1,1,LATE_SHIFT_2023_5m (1/1),zentrum_stabil->zentrum_stabil (1/1),0.016802,0.030977,-0.060900,-0.026664,-0.031277
+dio_mcm_episode_1y26981->dio_mcm_episode_17i4j9o,1,1,LATE_SHIFT_2023_5m (1/1),zentrum_stabil->zentrum_stabil (1/1),-0.016402,-0.067622,-0.027463,0.001351,-0.053907
+dio_mcm_episode_17i4j9o->dio_mcm_episode_0y50lf3,1,1,LATE_SHIFT_2023_5m (1/1),zentrum_stabil->zentrum_stabil (1/1),0.024329,0.026062,0.034762,-0.013273,0.173890
+dio_mcm_episode_0y50lf3->dio_mcm_episode_19w6ffd,1,1,LATE_SHIFT_2023_5m (1/1),zentrum_stabil->spannungsrand_kippnaehe (1/1),0.167293,-0.168665,0.006186,-0.098430,0.349626
+dio_mcm_episode_19w6ffd->dio_mcm_episode_0inn73s,1,1,LATE_SHIFT_2023_5m (1/1),spannungsrand_kippnaehe->offene_variante (1/1),-0.128635,0.209212,0.029404,0.086157,-0.320145
+dio_mcm_episode_0inn73s->dio_mcm_episode_0ifxej6,1,1,LATE_SHIFT_2023_5m (1/1),offene_variante->offene_variante (1/1),0.010030,-0.092224,-0.206492,-0.016313,-0.353967
+dio_mcm_episode_0ifxej6->dio_mcm_episode_0x7d4av,1,1,LATE_SHIFT_2023_5m (1/1),offene_variante->zentrum_stabil (1/1),-0.054219,0.297864,-0.025962,0.013376,-0.006596
+dio_mcm_episode_0x7d4av->dio_mcm_episode_0x44t5z,1,1,LATE_SHIFT_2023_5m (1/1),offene_variante->spannungsrand_kippnaehe (1/1),0.012155,0.347757,-0.076451,-0.024739,0.093295
+dio_mcm_episode_0x44t5z->dio_mcm_episode_1acdaev,1,1,LATE_SHIFT_2023_5m (1/1),spannungsrand_kippnaehe->offene_variante (1/1),-0.078274,0.121662,-0.098545,0.037391,-0.358837
+dio_mcm_episode_1acdaev->dio_mcm_episode_0vzztud,1,1,LATE_SHIFT_2023_5m (1/1),offene_variante->offene_variante (1/1),0.000091,0.363565,-0.017571,0.007414,0.011041
+dio_mcm_episode_0vzztud->dio_mcm_episode_0vq085e,1,1,LATE_SHIFT_2023_5m (1/1),offene_variante->offene_variante (1/1),0.024781,-0.787472,0.139704,-0.000256,0.197328
+dio_mcm_episode_0vq085e->dio_mcm_episode_1yv9fvu,1,1,LATE_SHIFT_2023_5m (1/1),offene_variante->zentrum_stabil (1/1),-0.090264,0.260730,-0.149017,0.016152,-0.285527
+dio_mcm_episode_1yv9fvu->dio_mcm_episode_1so7ez5,1,1,LATE_SHIFT_2023_5m (1/1),zentrum_stabil->zentrum_stabil (1/1),-0.011763,0.045698,0.029760,0.013024,0.040106
+dio_mcm_episode_1so7ez5->dio_mcm_episode_02xikfk,1,1,LATE_SHIFT_2023_5m (1/1),zentrum_stabil->zentrum_stabil (1/1),0.003603,-0.222959,-0.031129,-0.033895,-0.072335
+dio_mcm_episode_02xikfk->dio_mcm_episode_1t5bcxp,1,1,LATE_SHIFT_2023_5m (1/1),zentrum_stabil->zentrum_stabil (1/1),-0.033707,0.154682,-0.072755,0.006617,-0.185843

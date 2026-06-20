@@ -1,0 +1,5 @@
+pair,events,worlds,signature_count,top_signature,top_signature_share,pressure_delta,pressure_std,rekopplung_delta,rekopplung_std,drift_label
+dio_mcm_episode_02xikfk->dio_mcm_episode_1t5bcxp,19,6,13,rekoppelnde_lage->offene_lage->rekoppelnde_lage,0.157895,-0.014098,0.062362,0.003758,0.018394,lokal_offen
+dio_mcm_episode_183drjy->dio_mcm_episode_1t5bcxp,12,5,7,rekoppelnde_lage->rekoppelnde_lage->rekoppelnde_lage,0.333333,-0.000051,0.076642,-0.010154,0.019249,lokal_offen
+dio_mcm_episode_1t5bcxp->dio_mcm_episode_02xikfk,12,4,11,offene_lage->druck_lage->offene_lage,0.166667,-0.020395,0.055233,0.007139,0.016811,lokal_offen
+dio_mcm_episode_1t5bcxp->dio_mcm_episode_183drjy,12,5,2,rekoppelnde_lage->rekoppelnde_lage->rekoppelnde_lage,0.833333,0.036160,0.068528,-0.005901,0.020632,wiederkehrend_stabil

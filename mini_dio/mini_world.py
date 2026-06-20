@@ -48,15 +48,45 @@ def _soft_signed(value: float, scale: float, gain: float = 0.62) -> float:
 
 def _empty_senses() -> dict:
     mcm_feldwirkung = {"mcm_coherence": 0.0, "mcm_tension": 0.0, "mcm_asymmetry": 0.0}
+    perception_regulation_state = {
+        "focus_strength": 0.0,
+        "distance_need": 0.0,
+        "auditory_loudness": 0.0,
+        "auditory_softening": 0.0,
+        "visual_sharpness": 0.0,
+        "visual_blur": 0.0,
+        "felt_pressure": 0.0,
+        "felt_relaxation": 0.0,
+        "visual_focus_tendency": 0.0,
+        "visual_distance_tendency": 0.0,
+        "auditory_listen_tendency": 0.0,
+        "auditory_softening_tendency": 0.0,
+        "felt_contact_tendency": 0.0,
+        "felt_distance_tendency": 0.0,
+        "raw_field_intake_pressure": 0.0,
+        "adaptation_potential": 0.0,
+        "adapted_field_intake_pressure": 0.0,
+        "regulation_damping": 0.0,
+        "passive_only": True,
+        "influences_action": False,
+    }
     return {
         "sehen": {"form_flow": 0.0, "form_stability": 0.0, "form_change": 0.0},
         "hoeren": {"energy_tone": 0.0, "energy_shift": 0.0},
+        "perception_regulation_state": dict(perception_regulation_state),
+        "organism_adaptation_state": dict(perception_regulation_state),
         "rezeptoren": {
+            "visual_form_salience": 0.0,
+            "visual_memory_recall": 0.0,
+            "auditory_stimulation": 0.0,
+            "direct_contact_pressure": 0.0,
+            "field_intake_pressure": 0.0,
             "visual_contact": 0.0,
             "auditory_contact": 0.0,
             "contact_pressure": 0.0,
             "contact_alignment": 0.0,
             "contact_asymmetry": 0.0,
+            **perception_regulation_state,
             "passive_only": True,
             "influences_action": False,
         },
@@ -66,13 +96,12 @@ def _empty_senses() -> dict:
 
 
 def _build_receptor_senses(sehen: dict, hoeren: dict) -> dict:
-    """Translate sensory contact into an inner-field touch.
+    """Translate sensory intake into MCM field effect.
 
-    The MCM field should not receive the outside world directly. It receives
-    the inner-field effect of receptor contact: visual form contact, auditory
-    energy contact, and their current alignment. The public keys keep
-    `fuehlen` as a compatibility alias, while `mcm_feldwirkung` is the
-    fachlich preferred name.
+    Seeing does not directly touch the field. It provides form salience and can
+    later couple to memory. Hearing is tonal/energetic stimulation. Direct
+    contact is a separate receptor path and is currently empty for chart worlds.
+    Compatibility keys keep older reports readable.
     """
 
     form_flow = _clip(sehen.get("form_flow", 0.0))
@@ -82,7 +111,7 @@ def _build_receptor_senses(sehen: dict, hoeren: dict) -> dict:
     energy_shift = _clip(hoeren.get("energy_shift", 0.0))
 
     stability_band = max(0.0, min(1.0, (form_stability + 1.0) * 0.5))
-    visual_contact = _clip(
+    visual_form_salience = _clip(
         (abs(form_flow) * 0.32)
         + ((1.0 - stability_band) * 0.28)
         + (abs(form_change) * 0.28)
@@ -90,22 +119,87 @@ def _build_receptor_senses(sehen: dict, hoeren: dict) -> dict:
         0.0,
         1.0,
     )
-    auditory_contact = _clip((abs(energy_tone) * 0.58) + (abs(energy_shift) * 0.42), 0.0, 1.0)
+    visual_memory_recall = 0.0
+    auditory_stimulation = _clip((abs(energy_tone) * 0.58) + (abs(energy_shift) * 0.42), 0.0, 1.0)
+    direct_contact_pressure = 0.0
+    visual_sharpness = _clip(
+        (stability_band * 0.48)
+        + ((1.0 - abs(form_change)) * 0.24)
+        + ((1.0 - abs(form_flow - form_change)) * 0.16)
+        + ((1.0 - auditory_stimulation) * 0.12),
+        0.0,
+        1.0,
+    )
+    visual_blur = _clip(1.0 - visual_sharpness, 0.0, 1.0)
+    auditory_loudness = auditory_stimulation
+    auditory_softening = _clip(
+        (auditory_loudness * 0.52)
+        + (abs(energy_shift) * 0.22)
+        + (visual_blur * 0.16)
+        + (max(0.0, 0.40 - stability_band) * 0.10),
+        0.0,
+        1.0,
+    )
     contact_alignment = _clip(
         1.0
-        - (abs(visual_contact - auditory_contact) * 0.55)
+        - (abs(visual_form_salience - auditory_stimulation) * 0.42)
         - (abs(form_flow - energy_shift) * 0.20),
         0.0,
         1.0,
     )
-    contact_pressure = _clip(
-        (visual_contact * 0.38)
-        + (auditory_contact * 0.38)
-        + (abs(visual_contact - auditory_contact) * 0.12)
+    raw_field_intake_pressure = _clip(
+        (auditory_stimulation * 0.54)
+        + (direct_contact_pressure * 0.30)
+        + (visual_memory_recall * 0.10)
+        + (abs(visual_form_salience - auditory_stimulation) * 0.06)
         + (max(0.0, 0.45 - stability_band) * 0.12),
         0.0,
         1.0,
     )
+    distance_need = _clip(
+        (raw_field_intake_pressure * 0.34)
+        + ((1.0 - contact_alignment) * 0.28)
+        + (visual_blur * 0.20)
+        + (auditory_softening * 0.18),
+        0.0,
+        1.0,
+    )
+    focus_strength = _clip(
+        (visual_form_salience * 0.28)
+        + (visual_sharpness * 0.26)
+        + (contact_alignment * 0.24)
+        + ((1.0 - distance_need) * 0.22),
+        0.0,
+        1.0,
+    )
+    felt_pressure = _clip(
+        (raw_field_intake_pressure * 0.46)
+        + (distance_need * 0.24)
+        + (direct_contact_pressure * 0.18)
+        + ((1.0 - contact_alignment) * 0.12),
+        0.0,
+        1.0,
+    )
+    felt_relaxation = _clip(
+        (contact_alignment * 0.34)
+        + ((1.0 - felt_pressure) * 0.28)
+        + (focus_strength * 0.20)
+        + (visual_sharpness * 0.18),
+        0.0,
+        1.0,
+    )
+    adaptation_potential = _clip(
+        (distance_need * 0.18)
+        + (auditory_softening * 0.12)
+        + (visual_blur * 0.08)
+        + (felt_relaxation * 0.06),
+        0.0,
+        0.42,
+    )
+    # This is diagnostic only: the MCM field receives receptor intake, while
+    # organism adaptation stays observable as an ability state.
+    adapted_field_intake_pressure = _clip(raw_field_intake_pressure * (1.0 - adaptation_potential), 0.0, 1.0)
+    field_intake_pressure = raw_field_intake_pressure
     contact_asymmetry = _clip(
         (form_flow * 0.40)
         + (form_change * 0.22)
@@ -115,23 +209,53 @@ def _build_receptor_senses(sehen: dict, hoeren: dict) -> dict:
     mcm_coherence = _clip(
         (((contact_alignment * 2.0) - 1.0) * 0.55)
         + (form_stability * 0.25)
-        + ((1.0 - contact_pressure) * 0.20)
+        + ((1.0 - field_intake_pressure) * 0.20)
     )
 
     mcm_feldwirkung = {
         "mcm_coherence": mcm_coherence,
-        "mcm_tension": contact_pressure,
+        "mcm_tension": field_intake_pressure,
         "mcm_asymmetry": contact_asymmetry,
+    }
+    perception_regulation_state = {
+        "focus_strength": focus_strength,
+        "distance_need": distance_need,
+        "auditory_loudness": auditory_loudness,
+        "auditory_softening": auditory_softening,
+        "visual_sharpness": visual_sharpness,
+        "visual_blur": visual_blur,
+        "felt_pressure": felt_pressure,
+        "felt_relaxation": felt_relaxation,
+        "visual_focus_tendency": focus_strength,
+        "visual_distance_tendency": visual_blur,
+        "auditory_listen_tendency": _clip(1.0 - auditory_softening, 0.0, 1.0),
+        "auditory_softening_tendency": auditory_softening,
+        "felt_contact_tendency": direct_contact_pressure,
+        "felt_distance_tendency": distance_need,
+        "raw_field_intake_pressure": raw_field_intake_pressure,
+        "adaptation_potential": adaptation_potential,
+        "adapted_field_intake_pressure": adapted_field_intake_pressure,
+        "regulation_damping": adaptation_potential,
+        "passive_only": True,
+        "influences_action": False,
     }
     return {
         "sehen": dict(sehen),
         "hoeren": dict(hoeren),
+        "perception_regulation_state": dict(perception_regulation_state),
+        "organism_adaptation_state": dict(perception_regulation_state),
         "rezeptoren": {
-            "visual_contact": visual_contact,
-            "auditory_contact": auditory_contact,
-            "contact_pressure": contact_pressure,
+            "visual_form_salience": visual_form_salience,
+            "visual_memory_recall": visual_memory_recall,
+            "auditory_stimulation": auditory_stimulation,
+            "direct_contact_pressure": direct_contact_pressure,
+            "field_intake_pressure": field_intake_pressure,
+            "visual_contact": visual_form_salience,
+            "auditory_contact": auditory_stimulation,
+            "contact_pressure": field_intake_pressure,
             "contact_alignment": contact_alignment,
             "contact_asymmetry": contact_asymmetry,
+            **perception_regulation_state,
             "passive_only": True,
             "influences_action": False,
         },

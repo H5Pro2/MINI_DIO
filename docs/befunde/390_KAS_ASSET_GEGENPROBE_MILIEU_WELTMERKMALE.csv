@@ -1,0 +1,5 @@
+pair,world,events,top_quality,top_share,quality_count,ticks,form_change,form_stability,energy_shift,energy_tone,contact_pressure,contact_alignment,mcm_strain,mcm_rekopplung
+dio_mcm_episode_183drjy->dio_mcm_episode_1t5bcxp,KAS2024_15M_ASSET_PROBE,2,druckbruch,0.500000,2,1994.000000,0.203900,0.041514,0.223037,0.214407,0.212675,0.866595,0.192284,0.644307
+dio_mcm_episode_183drjy->dio_mcm_episode_1t5bcxp,KAS2024_1H_ASSET_PROBE,7,druckuebergang,0.285714,5,1994.000000,0.203274,0.024350,0.216525,0.212778,0.213652,0.864756,0.192742,0.643407
+dio_mcm_episode_1t5bcxp->dio_mcm_episode_183drjy,KAS2024_15M_ASSET_PROBE,1,rekoppelnd_stabil,1.000000,1,1994.000000,0.203900,0.041514,0.223037,0.214407,0.212675,0.866595,0.192284,0.644307
+dio_mcm_episode_1t5bcxp->dio_mcm_episode_183drjy,KAS2024_1H_ASSET_PROBE,6,rekoppelnd_stabil,0.666667,2,1994.000000,0.203274,0.024350,0.216525,0.212778,0.213652,0.864756,0.192742,0.643407

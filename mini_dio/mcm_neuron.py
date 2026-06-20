@@ -6,11 +6,11 @@ import math
 
 
 FEATURES = (
-    "sehen.form_flow",
-    "sehen.form_stability",
-    "sehen.form_change",
-    "hoeren.energy_tone",
-    "hoeren.energy_shift",
+    "rezeptoren.visual_form_salience",
+    "rezeptoren.visual_memory_recall",
+    "rezeptoren.auditory_stimulation",
+    "rezeptoren.direct_contact_pressure",
+    "rezeptoren.field_intake_pressure",
     "mcm_feldwirkung.mcm_coherence",
     "mcm_feldwirkung.mcm_tension",
     "mcm_feldwirkung.mcm_asymmetry",

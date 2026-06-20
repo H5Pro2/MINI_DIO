@@ -1,0 +1,7 @@
+movement_class,pairs,events,worlds_sum,top_pair,pressure_delta,sharpness_delta,rekopplung_delta
+gemischte_feldbewegung,10,53,37,dio_mcm_episode_14wxqua->dio_mcm_episode_1y00xwb,0.001131,-0.032125,-0.006870
+grundinsel_wechsel,2,31,11,dio_mcm_episode_02xikfk->dio_mcm_episode_1t5bcxp,-0.013591,0.035097,0.013007
+druck_rueckfuehrung,7,30,20,dio_mcm_episode_183drjy->dio_mcm_episode_1t5bcxp,0.124340,-0.049545,-0.064187
+rekopplungsbogen,7,26,23,dio_mcm_episode_1yv9fvu->dio_mcm_episode_1so7ez5,-0.029769,0.051622,0.020509
+offener_uebergang,2,14,6,dio_mcm_episode_1t5bcxp->dio_mcm_episode_02xikfk,0.033795,-0.197294,-0.019618
+schaerfungsuebergang,2,13,8,dio_mcm_episode_0vkdfwc->dio_mcm_episode_1t5bcxp,-0.006089,0.083020,0.003692

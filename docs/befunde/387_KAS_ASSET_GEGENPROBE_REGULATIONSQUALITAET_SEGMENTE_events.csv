@@ -1,0 +1,17 @@
+world,pair,event_tick,before_class,switch_class,after_class,pressure_delta,rekopplung_delta
+KAS2024_15M_ASSET_PROBE,dio_mcm_episode_183drjy->dio_mcm_episode_1t5bcxp,1970,rekoppelnde_lage,druck_lage,bewegungsbruch,0.065627,-0.000758
+KAS2024_15M_ASSET_PROBE,dio_mcm_episode_183drjy->dio_mcm_episode_1t5bcxp,1982,offene_lage,druck_lage,rekoppelnde_lage,-0.021900,-0.004583
+KAS2024_15M_ASSET_PROBE,dio_mcm_episode_1t5bcxp->dio_mcm_episode_183drjy,1975,rekoppelnde_lage,rekoppelnde_lage,rekoppelnde_lage,-0.021462,0.007699
+KAS2024_1H_ASSET_PROBE,dio_mcm_episode_183drjy->dio_mcm_episode_1t5bcxp,447,rekoppelnde_lage,offene_lage,druck_lage,0.197836,-0.047627
+KAS2024_1H_ASSET_PROBE,dio_mcm_episode_183drjy->dio_mcm_episode_1t5bcxp,505,rekoppelnde_lage,druck_lage,rekoppelnde_lage,0.111519,-0.028198
+KAS2024_1H_ASSET_PROBE,dio_mcm_episode_183drjy->dio_mcm_episode_1t5bcxp,849,rekoppelnde_lage,bewegungsbruch,rekoppelnde_lage,-0.062052,0.008840
+KAS2024_1H_ASSET_PROBE,dio_mcm_episode_183drjy->dio_mcm_episode_1t5bcxp,907,bewegungsbruch,bewegungsbruch,bewegungsbruch,-0.076653,-0.004324
+KAS2024_1H_ASSET_PROBE,dio_mcm_episode_183drjy->dio_mcm_episode_1t5bcxp,1512,offene_lage,druck_lage,rekoppelnde_lage,0.071934,-0.025058
+KAS2024_1H_ASSET_PROBE,dio_mcm_episode_183drjy->dio_mcm_episode_1t5bcxp,1642,rekoppelnde_lage,offene_lage,bewegungsbruch,0.195594,-0.050052
+KAS2024_1H_ASSET_PROBE,dio_mcm_episode_183drjy->dio_mcm_episode_1t5bcxp,1665,rekoppelnde_lage,druck_lage,bewegungsbruch,0.094122,-0.018145
+KAS2024_1H_ASSET_PROBE,dio_mcm_episode_1t5bcxp->dio_mcm_episode_183drjy,444,rekoppelnde_lage,rekoppelnde_lage,rekoppelnde_lage,0.015351,-0.022446
+KAS2024_1H_ASSET_PROBE,dio_mcm_episode_1t5bcxp->dio_mcm_episode_183drjy,503,rekoppelnde_lage,rekoppelnde_lage,rekoppelnde_lage,0.121338,-0.037826
+KAS2024_1H_ASSET_PROBE,dio_mcm_episode_1t5bcxp->dio_mcm_episode_183drjy,822,rekoppelnde_lage,rekoppelnde_lage,rekoppelnde_lage,0.019085,-0.001147
+KAS2024_1H_ASSET_PROBE,dio_mcm_episode_1t5bcxp->dio_mcm_episode_183drjy,859,offene_lage,rekoppelnde_lage,rekoppelnde_lage,-0.048541,0.015496
+KAS2024_1H_ASSET_PROBE,dio_mcm_episode_1t5bcxp->dio_mcm_episode_183drjy,1641,rekoppelnde_lage,rekoppelnde_lage,offene_lage,0.127382,-0.032862
+KAS2024_1H_ASSET_PROBE,dio_mcm_episode_1t5bcxp->dio_mcm_episode_183drjy,1656,rekoppelnde_lage,rekoppelnde_lage,rekoppelnde_lage,0.001188,0.000709

@@ -1,0 +1,26 @@
+pair,count,worlds,dominant_world,dominant_role_shift,pressure_delta,sharpness_delta,focus_delta,rekopplung_delta,loudness_delta
+dio_mcm_episode_1t5bcxp->dio_mcm_episode_183drjy,33,4,BTC_1h (13/33),zentrum_stabil->zentrum_stabil (33/33),-0.016496,0.056274,-0.005842,0.015014,-0.028737
+dio_mcm_episode_183drjy->dio_mcm_episode_1t5bcxp,32,3,BTC_1h (14/32),zentrum_stabil->offene_variante (11/32),0.064007,0.002145,0.016556,-0.033681,0.202806
+dio_mcm_episode_1y00xwb->dio_mcm_episode_0vkdfwc,29,6,BTC_1h (8/29),zentrum_stabil->zentrum_stabil (24/29),-0.002017,-0.010169,-0.004546,0.002027,-0.002762
+dio_mcm_episode_14wxqua->dio_mcm_episode_1y00xwb,27,6,SOL_1h (7/27),zentrum_stabil->zentrum_stabil (21/27),-0.016004,0.015285,-0.017889,0.003311,-0.073004
+dio_mcm_episode_0vkdfwc->dio_mcm_episode_1t5bcxp,26,6,SOL_1h (8/26),zentrum_stabil->zentrum_stabil (20/26),0.011079,0.001970,0.011625,-0.004209,0.058907
+dio_mcm_episode_04e9yp5->dio_mcm_episode_14wxqua,24,6,SOL_1h (6/24),zentrum_stabil->zentrum_stabil (19/24),0.009117,0.012408,0.005318,-0.004058,0.029052
+dio_mcm_episode_02xikfk->dio_mcm_episode_1t5bcxp,22,5,BTC_1h (6/22),zentrum_stabil->zentrum_stabil (16/22),-0.009071,0.001160,0.023821,0.016101,0.003385
+dio_mcm_episode_1so7ez5->dio_mcm_episode_02xikfk,11,4,BTC_5m (4/11),zentrum_stabil->zentrum_stabil (6/11),0.006747,-0.094803,-0.009070,-0.004230,-0.051964
+dio_mcm_episode_1t5bcxp->dio_mcm_episode_02xikfk,11,5,SOL_1h (3/11),offene_variante->offene_variante (6/11),0.006999,0.127779,-0.065132,-0.016706,-0.012713
+dio_mcm_episode_0inn73s->dio_mcm_episode_04e9yp5,11,5,KAS_1h (4/11),zentrum_stabil->zentrum_stabil (6/11),-0.023618,0.092076,-0.034503,0.003919,-0.079865
+dio_mcm_episode_0magw2b->dio_mcm_episode_1yv9fvu,8,5,SOL_1h (2/8),zentrum_stabil->zentrum_stabil (3/8),0.008898,-0.101295,-0.024451,-0.006902,-0.048886
+dio_mcm_episode_03xfov3->dio_mcm_episode_183drjy,8,3,SOL_1h (4/8),zentrum_stabil->zentrum_stabil (7/8),0.036782,-0.115117,0.023303,-0.023686,0.123855
+dio_mcm_episode_14wxqua->dio_mcm_episode_0magw2b,7,3,SOL_5m (3/7),zentrum_stabil->zentrum_stabil (3/7),-0.008158,0.083685,-0.069533,-0.009760,-0.102432
+dio_mcm_episode_0magw2b->dio_mcm_episode_14wxqua,7,5,SOL_1h (2/7),zentrum_stabil->zentrum_stabil (5/7),-0.018930,0.012356,0.032102,0.019404,0.004672
+dio_mcm_episode_1yv9fvu->dio_mcm_episode_1so7ez5,7,5,BTC_5m (2/7),zentrum_stabil->zentrum_stabil (5/7),0.009733,0.037305,0.033787,-0.005111,0.082646
+dio_mcm_episode_17i4j9o->dio_mcm_episode_0y50lf3,7,4,SOL_1h (3/7),zentrum_stabil->zentrum_stabil (3/7),0.055570,0.079127,0.031045,-0.026258,0.235020
+dio_mcm_episode_0y50lf3->dio_mcm_episode_17i4j9o,5,3,SOL_1h (2/5),zentrum_stabil->zentrum_stabil (5/5),-0.005199,0.181381,0.028050,0.016370,0.014232
+dio_mcm_episode_1yv9fvu->dio_mcm_episode_1y00xwb,5,3,BTC_5m (3/5),zentrum_stabil->zentrum_stabil (5/5),-0.014453,0.207965,-0.019414,0.015019,-0.040798
+dio_mcm_episode_0vkdfwc->dio_mcm_episode_03xfov3,5,3,SOL_1h (2/5),zentrum_stabil->zentrum_stabil (5/5),0.010187,0.072741,0.022366,-0.007372,0.040645
+dio_mcm_episode_009px6q->dio_mcm_episode_0y50lf3,4,4,SOL_5m (1/4),zentrum_stabil->zentrum_stabil (4/4),-0.015782,0.016031,-0.015354,0.011169,-0.087274
+dio_mcm_episode_0x7d4av->dio_mcm_episode_0m0hadc,4,3,SOL_1h (2/4),zentrum_stabil->zentrum_stabil (3/4),0.000851,0.051452,-0.054807,-0.004030,-0.073227
+dio_mcm_episode_0m0hadc->dio_mcm_episode_0magw2b,4,3,BTC_1h (2/4),zentrum_stabil->zentrum_stabil (2/4),-0.017815,0.182267,0.022929,0.009730,0.106017
+dio_mcm_episode_0wxdilw->dio_mcm_episode_04e9yp5,4,3,BTC_1h (2/4),zentrum_stabil->zentrum_stabil (3/4),0.009208,-0.072254,0.073036,0.006739,0.121229
+dio_mcm_episode_0magw2b->dio_mcm_episode_1y00xwb,3,2,SOL_5m (2/3),offene_variante->zentrum_stabil (2/3),-0.029972,0.069243,0.065103,0.032014,0.097017
+dio_mcm_episode_037i64j->dio_mcm_episode_02xikfk,3,2,SOL_5m (2/3),zentrum_stabil->offene_variante (1/3),-0.034365,-0.096513,-0.022631,0.010441,-0.104582

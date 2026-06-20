@@ -1,0 +1,8 @@
+pair,world,events,top_quality,top_share,quality_count,ticks,form_change,form_stability,energy_shift,energy_tone,contact_pressure,contact_alignment,mcm_strain,mcm_rekopplung
+dio_mcm_episode_183drjy->dio_mcm_episode_1t5bcxp,EXPANSION_10K,29,offen_stabil,0.310345,6,9994.000000,0.196610,0.043239,0.219005,0.205617,0.201498,0.569067,0.178093,0.653373
+dio_mcm_episode_183drjy->dio_mcm_episode_1t5bcxp,SOL2023_NEG_10K,40,rekoppelnd_offen,0.225000,7,9994.000000,0.200325,0.020885,0.214738,0.200799,0.207637,0.865786,0.183481,0.653141
+dio_mcm_episode_183drjy->dio_mcm_episode_1t5bcxp,SOL2025_STRESS_5K,9,rekoppelnd_offen,0.444444,5,4994.000000,0.217149,0.052319,0.224619,0.200705,0.214477,0.859432,0.190371,0.646687
+dio_mcm_episode_183drjy->dio_mcm_episode_1t5bcxp,SOL2026_STABLE_5K,19,druckbruch,0.263158,8,4994.000000,0.200812,0.058115,0.211910,0.200912,0.206422,0.866684,0.186045,0.650064
+dio_mcm_episode_1t5bcxp->dio_mcm_episode_183drjy,EXPANSION_10K,38,offen_stabil,0.789474,4,9994.000000,0.196610,0.043239,0.219005,0.205617,0.201498,0.569067,0.178093,0.653373
+dio_mcm_episode_1t5bcxp->dio_mcm_episode_183drjy,SOL2023_NEG_10K,52,rekoppelnd_stabil,0.557692,5,9994.000000,0.200325,0.020885,0.214738,0.200799,0.207637,0.865786,0.183481,0.653141
+dio_mcm_episode_1t5bcxp->dio_mcm_episode_183drjy,SOL2025_STRESS_5K,13,rekoppelnd_stabil,0.769231,4,4994.000000,0.217149,0.052319,0.224619,0.200705,0.214477,0.859432,0.190371,0.646687

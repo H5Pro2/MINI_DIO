@@ -48,9 +48,10 @@ def build_mini_neuro_state(
 ) -> dict:
     """Build passive inner-state tones from perception and consequence."""
 
-    sehen = dict(senses.get("sehen", {}) or {})
+    rezeptoren = dict(senses.get("rezeptoren", {}) or {})
     feldwirkung = _mcm_feldwirkung(senses)
-    form_stability = _positive_band(sehen.get("form_stability", 0.0))
+    visual_salience = _clip(rezeptoren.get("visual_form_salience", 0.0))
+    intake_pressure = _clip(rezeptoren.get("field_intake_pressure", 0.0))
     coherence = _positive_band(feldwirkung.get("mcm_coherence", 0.0))
     tension = _clip(feldwirkung.get("mcm_tension", 0.0))
     temporal_trust = _clip(temporal_state.get("mini_temporal_trust_support", 0.0))
@@ -69,7 +70,7 @@ def build_mini_neuro_state(
     action_taken = 1.0 if str(action or "").upper() in ("LONG", "SHORT") else 0.0
     event = str(outcome_event or "").upper()
 
-    focus_tone = _clip((form_stability * 0.28) + (coherence * 0.28) + (temporal_trust * 0.24) + ((1.0 - tension) * 0.20))
+    focus_tone = _clip((visual_salience * 0.22) + (coherence * 0.28) + (temporal_trust * 0.24) + ((1.0 - max(tension, intake_pressure)) * 0.26))
     trust_tone = _clip((max_readiness * 0.34) + (temporal_trust * 0.24) + (positive_consequence * 0.30) + (afterimage * 0.12))
     caution_tone = _clip((max_trade_caution * 0.26) + (temporal_caution * 0.28) + (tension * 0.20) + (negative_consequence * 0.26))
     strain_tone = _clip((tension * 0.32) + (caution_tone * 0.34) + (max(0.0, 0.30 - max_readiness) * 0.18) + (action_taken * negative_consequence * 0.16))

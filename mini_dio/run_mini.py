@@ -242,17 +242,21 @@ def _observation_recognition_pressure(senses: dict, associative_trade: float, ma
     current sehen/mcm_feldwirkung state was noticed.
     """
 
-    sehen = dict(senses.get("sehen", {}) or {})
+    rezeptoren = dict(senses.get("rezeptoren", {}) or {})
     feldwirkung = _mcm_feldwirkung(senses)
-    flow_presence = abs(float(sehen.get("form_flow", 0.0) or 0.0))
-    form_stability = _positive_band(float(sehen.get("form_stability", 0.0) or 0.0))
+    visual_presence = _clip(float(rezeptoren.get("visual_form_salience", 0.0) or 0.0), 0.0, 1.0)
+    auditory_presence = _clip(float(rezeptoren.get("auditory_stimulation", 0.0) or 0.0), 0.0, 1.0)
+    contact_presence = _clip(float(rezeptoren.get("direct_contact_pressure", 0.0) or 0.0), 0.0, 1.0)
+    intake_pressure = _clip(float(rezeptoren.get("field_intake_pressure", 0.0) or 0.0), 0.0, 1.0)
     coherence = _positive_band(float(feldwirkung.get("mcm_coherence", 0.0) or 0.0))
     tension_room = 1.0 - _clip(float(feldwirkung.get("mcm_tension", 0.0) or 0.0), 0.0, 1.0)
     sensory_presence = _clip(
-        (flow_presence * 0.25)
-        + (form_stability * 0.25)
+        (visual_presence * 0.26)
+        + (auditory_presence * 0.20)
+        + (contact_presence * 0.16)
         + (coherence * 0.30)
-        + (tension_room * 0.20),
+        + (tension_room * 0.16)
+        + ((1.0 - intake_pressure) * 0.08),
         0.0,
         1.0,
     )
@@ -300,11 +304,11 @@ def sensory_distance(left: dict, right: dict) -> float:
     if not left or not right:
         return 1.0
     keys = [
-        ("sehen", "form_flow"),
-        ("sehen", "form_stability"),
-        ("sehen", "form_change"),
-        ("hoeren", "energy_tone"),
-        ("hoeren", "energy_shift"),
+        ("rezeptoren", "visual_form_salience"),
+        ("rezeptoren", "visual_memory_recall"),
+        ("rezeptoren", "auditory_stimulation"),
+        ("rezeptoren", "direct_contact_pressure"),
+        ("rezeptoren", "field_intake_pressure"),
         ("mcm_feldwirkung", "mcm_coherence"),
         ("mcm_feldwirkung", "mcm_tension"),
         ("mcm_feldwirkung", "mcm_asymmetry"),
@@ -724,6 +728,29 @@ def run_once(
                 "sehen_form_change": f"{senses['sehen']['form_change']:.6f}",
                 "hoeren_energy_tone": f"{senses['hoeren']['energy_tone']:.6f}",
                 "hoeren_energy_shift": f"{senses['hoeren']['energy_shift']:.6f}",
+                "rezeptor_visual_form_salience": f"{float(senses.get('rezeptoren', {}).get('visual_form_salience', 0.0) or 0.0):.6f}",
+                "rezeptor_visual_memory_recall": f"{float(senses.get('rezeptoren', {}).get('visual_memory_recall', 0.0) or 0.0):.6f}",
+                "rezeptor_auditory_stimulation": f"{float(senses.get('rezeptoren', {}).get('auditory_stimulation', 0.0) or 0.0):.6f}",
+                "rezeptor_direct_contact_pressure": f"{float(senses.get('rezeptoren', {}).get('direct_contact_pressure', 0.0) or 0.0):.6f}",
+                "rezeptor_field_intake_pressure": f"{float(senses.get('rezeptoren', {}).get('field_intake_pressure', 0.0) or 0.0):.6f}",
+                "perception_focus_strength": f"{float(senses.get('perception_regulation_state', {}).get('focus_strength', 0.0) or 0.0):.6f}",
+                "perception_distance_need": f"{float(senses.get('perception_regulation_state', {}).get('distance_need', 0.0) or 0.0):.6f}",
+                "perception_auditory_loudness": f"{float(senses.get('perception_regulation_state', {}).get('auditory_loudness', 0.0) or 0.0):.6f}",
+                "perception_auditory_softening": f"{float(senses.get('perception_regulation_state', {}).get('auditory_softening', 0.0) or 0.0):.6f}",
+                "perception_visual_sharpness": f"{float(senses.get('perception_regulation_state', {}).get('visual_sharpness', 0.0) or 0.0):.6f}",
+                "perception_visual_blur": f"{float(senses.get('perception_regulation_state', {}).get('visual_blur', 0.0) or 0.0):.6f}",
+                "perception_felt_pressure": f"{float(senses.get('perception_regulation_state', {}).get('felt_pressure', 0.0) or 0.0):.6f}",
+                "perception_felt_relaxation": f"{float(senses.get('perception_regulation_state', {}).get('felt_relaxation', 0.0) or 0.0):.6f}",
+                "perception_visual_focus_tendency": f"{float(senses.get('perception_regulation_state', {}).get('visual_focus_tendency', 0.0) or 0.0):.6f}",
+                "perception_visual_distance_tendency": f"{float(senses.get('perception_regulation_state', {}).get('visual_distance_tendency', 0.0) or 0.0):.6f}",
+                "perception_auditory_listen_tendency": f"{float(senses.get('perception_regulation_state', {}).get('auditory_listen_tendency', 0.0) or 0.0):.6f}",
+                "perception_auditory_softening_tendency": f"{float(senses.get('perception_regulation_state', {}).get('auditory_softening_tendency', 0.0) or 0.0):.6f}",
+                "perception_felt_contact_tendency": f"{float(senses.get('perception_regulation_state', {}).get('felt_contact_tendency', 0.0) or 0.0):.6f}",
+                "perception_felt_distance_tendency": f"{float(senses.get('perception_regulation_state', {}).get('felt_distance_tendency', 0.0) or 0.0):.6f}",
+                "perception_raw_field_intake_pressure": f"{float(senses.get('perception_regulation_state', {}).get('raw_field_intake_pressure', 0.0) or 0.0):.6f}",
+                "perception_adaptation_potential": f"{float(senses.get('perception_regulation_state', {}).get('adaptation_potential', 0.0) or 0.0):.6f}",
+                "perception_adapted_field_intake_pressure": f"{float(senses.get('perception_regulation_state', {}).get('adapted_field_intake_pressure', 0.0) or 0.0):.6f}",
+                "perception_regulation_damping": f"{float(senses.get('perception_regulation_state', {}).get('regulation_damping', 0.0) or 0.0):.6f}",
                 "rezeptor_visual_contact": f"{float(senses.get('rezeptoren', {}).get('visual_contact', 0.0) or 0.0):.6f}",
                 "rezeptor_auditory_contact": f"{float(senses.get('rezeptoren', {}).get('auditory_contact', 0.0) or 0.0):.6f}",
                 "rezeptor_contact_pressure": f"{float(senses.get('rezeptoren', {}).get('contact_pressure', 0.0) or 0.0):.6f}",
