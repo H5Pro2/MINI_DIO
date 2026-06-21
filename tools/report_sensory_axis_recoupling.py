@@ -168,7 +168,7 @@ def write_markdown(path: Path, axis_rows: list[dict[str, object]], summaries: li
             return 0.0
         return sum(float(row["count"]) * float(row[column]) for row in rows) / total
 
-    title_number = "405" if "405_" in path.name else "403"
+    title_number = path.name.split("_", 1)[0] if "_" in path.name and path.name[:3].isdigit() else "405" if "405_" in path.name else "403"
     title_suffix = " Gegenprobe" if "GEGENPROBE" in path.name else ""
     lines: list[str] = []
     lines.append(f"# {title_number} - Sinnesachsen-Rekopplungsqualitaet{title_suffix}")

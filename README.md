@@ -238,7 +238,28 @@ Der aktuelle Forschungsstand zeigt:
 - die erste Faehigkeitslesung von `hoeren_hin` zeigt Rang 1 in allen geprueften Gegenwelten, einen sehr hohen stabilen Innenfeldanteil und deutlich weniger Strain/Feldinput als direkter Feldkontakt. Das spricht fuer Hinhoren als passive Aufnahmefaehigkeit, nicht fuer eine Handlungsregel,
 - der Sinnesaufnahme-Vergleich trennt die Rollen klarer: `hoeren_hin` ist die ruhigste akustische Rekopplung, `sehen_fokus` bleibt visuell tragend, `feldinput` ist der kontaktlastige direkte Feldkontakt. Damit wird Aufnahmequalitaet als lokale Faehigkeit lesbar, nicht als globaler Daempfungswert,
 - die Wiedererkennungspruefung zeigt 51 Signaturen, die in mindestens drei Gegenwelten wiederkehren; 6 davon lesen sich als reproduzierte ruhige Aufnahmen. Die staerkste Spur ist `hoeren_hin + inner_effect_stable + dio_mcm_episode_0e7qvj1`, gefolgt von `sehen_fokus + inner_effect_stable + dio_mcm_episode_0e7qvj1`,
+- die assetgetrennte Feldtragungspruefung zeigt: BTC, SOL und KAS nutzen dieselbe passive Vorschlagssprache, bilden aber unterschiedliche Trag- und Entlastungsprofile. BTC wirkt balancierter, SOL und KAS zeigen staerkeren Abstandszug; `ruhig hinhoeren` bleibt uebergreifend die am staerksten getragene Aufnahmeart,
+- das assetbezogene Organismusprofil trennt Bedarf von Tragung: BTC ruft eher Fokus auf, SOL/KAS rufen eher Abstand auf; in allen drei Assets traegt aber `ruhig hinhoeren` am staerksten. Das stuetzt die Trennung zwischen haeufig benoetigter Aufnahmefaehigkeit und tatsaechlich tragender Rekopplung,
+- die Assetprofil-Stabilitaetspruefung zeigt: BTC bleibt in vier Quellen bei Fokusbedarf und getragener Hoerrekopplung; SOL bleibt in drei sehr unterschiedlichen Welten bei Abstandsbedarf und getragener Hoerrekopplung; KAS passt in die Richtung, ist aber bisher nur ein zusammengefasster Zeitebenenblock und daher noch keine echte Stabilitaetsreihe,
+- die KAS-Einzelweltpruefung zerlegt KAS jetzt in 5m, 15m, 30m und 1h. Ergebnis: KAS bleibt in allen vier Einzelquellen bei Abstandsbedarf, getragener Hoerrekopplung und drucknaher Kontaktentlastung. Damit ist KAS nicht mehr nur als Block, sondern als eigene Stabilitaetsreihe gegen BTC und SOL lesbar,
+- die Jahreserweiterung mit BTC/SOL 2025 zeigt: Die tragende Grundaufnahme bleibt ueber alle Assets `ruhig hinhoeren`. SOL und KAS bleiben auch im Bedarf stabil abstandsnah; BTC bleibt in der Tragung stabil, verschiebt den Bedarf aber in den 2025er Einzelquellen von Fokus zu Abstand,
+- die lokale BTC-2025-Gegenlesung zeigt: Diese Verschiebung entsteht nicht grob aus mehr Roh-Abstandsaufnahme. Die lokalen Sinnesachsen bleiben relativ nah; die Aenderung liegt eher in der Bedeutungs-/Regulationsgewichtung nach der Aufnahme. BTC-2025 hoert weiter stabil, verarbeitet die aufgenommene Lage aber staerker als Abstand/Kontaktentlastung,
 - damit entsteht eine passive Lernspur: gleiche Aufnahmeart, aehnliche Innenfeldlage und aehnliche MCM-Feldwirkung werden wiedererkennbar, ohne Handlung, Gate oder Strategie,
+- `SensoryIntakeMemory` ist als passiver Speicherbaustein umgesetzt: die erste Memory-Summary liest 409 Aufnahme-Spuren, davon 6 reproduzierte ruhige Aufnahmen und 124 kontaktlastige Aufnahmen. Gespeichert wird Aufnahmequalitaet vor dem Feld, nicht Handlung, Gate oder Strategie,
+- eine neue Gegenwelt `BTC_2024_5M_QUIET_4000` trifft 129 vorhandene Intake-Keys wieder; 86 davon behalten dieselbe passive Memory-Qualitaet. Das spricht fuer wiedererkennbare Aufnahmefamilien, nicht fuer Handlung oder Steuerung,
+- eine deutlich andere Stress-Gegenwelt `SOL_2023_NEGATIVE_STRESS_10K` trifft 135 vorhandene Intake-Keys wieder; 90 davon behalten dieselbe passive Memory-Qualitaet. Damit bleibt die passive Sinnesaufnahme-Memory auch unter anderer Weltspannung teilweise stabil. Gleichzeitig entstehen junge und kontaktlastige Einzelspuren, die als Drift oder neue Aufnahmequalitaet weiter geprueft werden muessen,
+- lokal bleibt `hoeren_hin` auch in der Stresswelt die ruhigste Rekopplungsachse. `sehen_fokus` bleibt nahe daran, waehrend `feldinput` mehr Strain und Kontaktlast traegt. Das stuetzt weiter die Trennung zwischen Hoeren, Sehen und direktem Feldkontakt,
+- eine Seitwaerts-Gegenwelt `SOL_2026_SIDEWAYS_10K` trifft 125 vorhandene Intake-Keys wieder; 79 davon behalten dieselbe passive Memory-Qualitaet. Damit zeigt sich dieselbe Grundrichtung auch in einer ruhigeren, seitlichen Weltspannung,
+- der direkte Gegenweltvergleich ueber Quiet, Stress und Sideways zeigt: `hoeren_hin` bleibt jeweils die ruhigste Rekopplungsachse, `sehen_fokus` bleibt nahe daran und `feldinput` bleibt die kontaktlastigere Feldinput-Seite. Damit wird Aufnahmequalitaet als passive Familienbildung vor dem Feld weiter gestuetzt,
+- eine positive Expansionswelt `SOL_2023_POSITIVE_EXPANSION_10K` trifft 150 vorhandene Intake-Keys wieder; 101 davon behalten dieselbe passive Memory-Qualitaet. In dieser Pruefung zerlegt Expansion die Aufnahmefamilien nicht, sondern zeigt bisher die staerkste Anschlussfaehigkeit zur Basis-Memory,
+- der Gegenweltvergleich ueber Quiet, Stress, Sideways und Expansion bestaetigt die Rollenaufteilung: `hoeren_hin` bleibt ruhig rekoppelnd, `sehen_fokus` bleibt formnah tragend und `feldinput` bleibt kontaktlastiger,
+- eine unabhaengige BTC-5m-Gegenprobe mit 2000 Zeilen trifft 7 von 7 gebildeten Intake-Keys in der Basis-Memory wieder. Zwei behalten dieselbe Qualitaet, vier werden von reifer Basisqualitaet zu junger Spur gelesen und eine wird kontaktlastiger. Damit wirkt die Grundsignatur assetuebergreifend anschlussfaehig, aber bei kurzer Welt noch nicht gleich gereift,
+- in dieser BTC-Gegenprobe bleibt `hoeren_hin` ebenfalls die beste Rekopplungsachse. `sehen_fokus` bleibt nahe daran, waehrend `feldinput` und `fuehlen_abstand` mehr Kontaktlast tragen,
+- eine laengere BTC-5m-Gegenprobe mit 4000 Zeilen trifft erneut 7 von 7 gebildeten Intake-Keys in der Basis-Memory wieder. Zwei Kontaktqualitaeten bleiben reproduziert, fuenf ruhige/tragende Achsen bleiben aber junge Spuren. Das spricht fuer stabile Anschlussfaehigkeit der Signatur, aber gegen die vorschnelle Annahme, dass mehr Weltlaenge automatisch gleiche Reife erzeugt,
+- die passive Regulationsvorschlagsschicht ist diagnostisch umgesetzt: sie liest aus der Sinnesaufnahme-Memory kontinuierliche Vorschlagsrichtungen wie ruhig hinhoeren, Sehen schaerfen, Abstand bilden, leiser/weicher aufnehmen und Druck/Feldkontakt entlasten. Sie greift nicht in Handlung, Strategie oder MCM-Feld ein,
+- in den BTC-Gegenproben 5m/1h und Quiet/Stress bleibt die Vorschlagsverteilung identisch. Das stuetzt die rezeptorisch-regulatorische Wahrnehmungsschicht als stabile Faehigkeitsebene vor aktiver Regulation,
+- die SOL/KAS-Gegenprüfung zeigt dieselbe Vorschlagssprache, aber mit anderer Gewichtung: SOL Stress, SOL Sideways, SOL Expansion und KAS-Zeitebenen tragen deutlich mehr `Abstand bilden`. Damit wirkt die Schicht nicht fix, sondern welt- und assetabhängig,
+- die erste Feldtragungsprüfung der Vorschläge zeigt: alle Vorschlagsrichtungen bleiben grundsätzlich feldtragbar, aber mit unterschiedlicher Nähe zu Druckbearbeitung. `ruhig hinhoeren`, `Sehen schaerfen` und `Fokus halten / vertiefen` liegen stärker auf der getragenen Seite; `Abstand bilden`, `leiser / weicher aufnehmen` und `Druck / Feldkontakt entlasten` liegen näher an Entlastung und Druckverarbeitung,
 - die MCM-Neuronen, die Episodendistanz, der Beobachtungsdruck, die neurochemische Spiegelung und die interne `dio_*`-Syntax lesen jetzt bevorzugt Rezeptoraufnahme plus MCM-Feldwirkung statt direkter Roh-Sinneswerte. Rohwerte bleiben sichtbar, aber nicht mehr der primäre innere Lernvektor,
 - aktuelle Läufe bleiben bewusst ohne ausführende Handlung.
 
@@ -534,6 +555,71 @@ Besonders relevant sind:
 - `406_HOEREN_HIN_REKOPPLUNGSFAEHIGKEIT.md`
 - `407_SINNESAUFNAHME_FAEHIGKEITSVERGLEICH.md`
 - `408_SINNESAUFNAHME_WIEDERERKENNUNG.md`
+- `409_PASSIVE_SINNESAUFNAHME_MEMORY.md`
+- `410_BTC2024_5M_QUIET_SINNESACHSEN_EPISODENKARTE.md`
+- `411_BTC2024_5M_QUIET_SINNESAUFNAHME_WIEDERERKENNUNG.md`
+- `412_BTC2024_5M_QUIET_PASSIVE_SINNESAUFNAHME_MEMORY.md`
+- `413_BTC2024_5M_QUIET_INTAKE_MEMORY_ABGLEICH.md`
+- `414_SOL2023_NEGATIVE_STRESS_10K_SINNESACHSEN_EPISODENKARTE.md`
+- `415_SOL2023_NEGATIVE_STRESS_10K_SINNESACHSEN_REKOPPLUNG.md`
+- `416_SOL2023_NEGATIVE_STRESS_10K_SINNESAUFNAHME_WIEDERERKENNUNG.md`
+- `417_SOL2023_NEGATIVE_STRESS_10K_PASSIVE_SINNESAUFNAHME_MEMORY.md`
+- `418_SOL2023_NEGATIVE_STRESS_10K_INTAKE_MEMORY_ABGLEICH.md`
+- `419_SOL2026_SIDEWAYS_10K_SINNESACHSEN_EPISODENKARTE.md`
+- `420_SOL2026_SIDEWAYS_10K_SINNESACHSEN_REKOPPLUNG.md`
+- `421_SOL2026_SIDEWAYS_10K_SINNESAUFNAHME_WIEDERERKENNUNG.md`
+- `422_SOL2026_SIDEWAYS_10K_PASSIVE_SINNESAUFNAHME_MEMORY.md`
+- `423_SOL2026_SIDEWAYS_10K_INTAKE_MEMORY_ABGLEICH.md`
+- `424_INTAKE_MEMORY_GEGENWELTEN_VERGLEICH.md`
+- `425_SOL2023_POSITIVE_EXPANSION_10K_SINNESACHSEN_EPISODENKARTE.md`
+- `426_SOL2023_POSITIVE_EXPANSION_10K_SINNESACHSEN_REKOPPLUNG.md`
+- `427_SOL2023_POSITIVE_EXPANSION_10K_SINNESAUFNAHME_WIEDERERKENNUNG.md`
+- `428_SOL2023_POSITIVE_EXPANSION_10K_PASSIVE_SINNESAUFNAHME_MEMORY.md`
+- `429_SOL2023_POSITIVE_EXPANSION_10K_INTAKE_MEMORY_ABGLEICH.md`
+- `430_BTC2024_5M_2K_SINNESACHSEN_EPISODENKARTE.md`
+- `431_BTC2024_5M_2K_SINNESACHSEN_REKOPPLUNG.md`
+- `432_BTC2024_5M_2K_SINNESAUFNAHME_WIEDERERKENNUNG.md`
+- `433_BTC2024_5M_2K_PASSIVE_SINNESAUFNAHME_MEMORY.md`
+- `434_BTC2024_5M_2K_INTAKE_MEMORY_ABGLEICH.md`
+- `435_BTC2024_5M_QUIET_4K_LONG_SINNESACHSEN_EPISODENKARTE.md`
+- `436_BTC2024_5M_QUIET_4K_LONG_SINNESACHSEN_REKOPPLUNG.md`
+- `437_BTC2024_5M_QUIET_4K_LONG_SINNESAUFNAHME_WIEDERERKENNUNG.md`
+- `438_BTC2024_5M_QUIET_4K_LONG_PASSIVE_SINNESAUFNAHME_MEMORY.md`
+- `439_BTC2024_5M_QUIET_4K_LONG_INTAKE_MEMORY_ABGLEICH.md`
+- `440_BTC2024_5M_STRESS_4K_SINNESACHSEN_EPISODENKARTE.md`
+- `441_BTC2024_5M_STRESS_4K_SINNESACHSEN_REKOPPLUNG.md`
+- `442_BTC2024_5M_STRESS_4K_SINNESAUFNAHME_WIEDERERKENNUNG.md`
+- `443_BTC2024_5M_STRESS_4K_PASSIVE_SINNESAUFNAHME_MEMORY.md`
+- `444_BTC2024_5M_STRESS_4K_INTAKE_MEMORY_ABGLEICH.md`
+- `445_BTC2024_1H_STRESS_4K_SINNESACHSEN_EPISODENKARTE.md`
+- `446_BTC2024_1H_STRESS_4K_SINNESACHSEN_REKOPPLUNG.md`
+- `447_BTC2024_1H_STRESS_4K_SINNESAUFNAHME_WIEDERERKENNUNG.md`
+- `448_BTC2024_1H_STRESS_4K_PASSIVE_SINNESAUFNAHME_MEMORY.md`
+- `449_BTC2024_1H_STRESS_4K_INTAKE_MEMORY_ABGLEICH.md`
+- `450_BTC2024_5M_VS_1H_STRESS_INTAKE_MEMORY_ABGLEICH.md`
+- `451_BTC2024_1H_QUIET_4K_SINNESACHSEN_EPISODENKARTE.md`
+- `452_BTC2024_1H_QUIET_4K_SINNESACHSEN_REKOPPLUNG.md`
+- `453_BTC2024_1H_QUIET_4K_SINNESAUFNAHME_WIEDERERKENNUNG.md`
+- `454_BTC2024_1H_QUIET_4K_PASSIVE_SINNESAUFNAHME_MEMORY.md`
+- `455_BTC2024_1H_QUIET_4K_INTAKE_MEMORY_ABGLEICH.md`
+- `456_BTC2024_1H_QUIET_VS_STRESS_INTAKE_MEMORY_ABGLEICH.md`
+- `457_BTC2024_5M_QUIET_VS_STRESS_INTAKE_MEMORY_ABGLEICH.md`
+- `458_BTC_TIMEFRAME_STRESS_SYNTHESE.md`
+- `459_PASSIVE_REGULATIONSVORSCHLAG_BASIS.md`
+- `460_BTC2024_5M_QUIET_REGULATIONSVORSCHLAG.md`
+- `461_BTC2024_5M_STRESS_REGULATIONSVORSCHLAG.md`
+- `462_BTC2024_1H_QUIET_REGULATIONSVORSCHLAG.md`
+- `463_BTC2024_1H_STRESS_REGULATIONSVORSCHLAG.md`
+- `464_PASSIVE_REGULATIONSVORSCHLAG_MEHRWELT_SYNTHESE.md`
+- `465_SOL2023_NEGATIVE_STRESS_10K_REGULATIONSVORSCHLAG.md`
+- `466_SOL2026_SIDEWAYS_10K_REGULATIONSVORSCHLAG.md`
+- `467_SOL2023_POSITIVE_EXPANSION_10K_REGULATIONSVORSCHLAG.md`
+- `468_KAS2024_ZEITEBENEN_SINNESACHSEN_EPISODENKARTE.md`
+- `469_KAS2024_ZEITEBENEN_SINNESAUFNAHME_WIEDERERKENNUNG.md`
+- `470_KAS2024_ZEITEBENEN_PASSIVE_SINNESAUFNAHME_MEMORY.md`
+- `471_KAS2024_ZEITEBENEN_REGULATIONSVORSCHLAG.md`
+- `472_SOL_KAS_REGULATIONSVORSCHLAG_SYNTHESE.md`
+- `473_PASSIVE_REGULATIONSVORSCHLAG_FELDTRAGUNG.md`
 - `AKTUELLER_FORSCHUNGSLAUF.md`
 - `AKTUELLER_FORSCHUNGSLAUF_2024_01.md`
 - `MEHRWELT_VERGLEICH.md`
@@ -576,6 +662,11 @@ Der aktuelle Mehrwelt-Vergleich zeigt zusätzlich:
 - Die auditive Feldkopplung zeigt: Hoerfilterung reicht allein nicht. Entscheidend ist, ob die gehoerte Tonspur leicht rekoppelt oder als Feld-/Memorylast bindet.
 - SOL 1h wird auditiv naeher an Feldlast gelesen (`hoerlast_feldnah`), waehrend SOL 5m trotz aktiver Hoeranteile niedrige Feldbindung zeigt.
 - Die visuelle Achse liest Formfluss, Formstabilitaet, Formwechsel und visuellen Feldabstand als eigene Sinnesregulation: Hintergrund halten, Rauschen filtern, stabile Form tragen, Alarmform erkennen oder genauer ansehen.
+- Die BTC-5m-Stress-Gegenprobe zeigt: andere Weltspannung erzeugt nicht automatisch neue Rohspuren. Von 7 verdichteten Intake-Spuren treffen 6 bekannte Basis-Keys wieder, 4 behalten dieselbe Qualitaet. Das stuetzt die These stabiler Aufnahmefamilien unter veraenderter Spannung.
+- Die BTC-1h-Stress-Gegenprobe zeigt: andere Zeitskala erhaelt die Keys, oeffnet aber die Qualitaet. Von 7 verdichteten Intake-Spuren treffen 7 bekannte Basis-Keys wieder, aber nur 2 behalten dieselbe Qualitaet. Damit wirkt Timeframe-Spannung eher als Reife-/Tragqualitaetsverschiebung, nicht als kompletter Bedeutungsbruch.
+- Der direkte BTC-5m-gegen-1h-Stressvergleich zeigt: Nur 3 von 7 Keys werden direkt geteilt, aber diese 3 bleiben vollstaendig qualitaetsgleich. Timeframe verschiebt also Teile der Aufnahmefamilie, waehrend ein stabiler Kern erhalten bleibt.
+- Der direkte BTC-1h-Quiet-gegen-1h-Stressvergleich zeigt maximale Naehe: 7 von 7 Keys und 7 von 7 Qualitaeten bleiben gleich. Die bisherige Verschiebung liegt damit eher im Wechsel der Zeitskala als in der ruhigen oder stressigen 1h-Weltspannung.
+- Der direkte BTC-5m-Quiet-gegen-5m-Stressvergleich zeigt dagegen nur 3 von 7 gemeinsame Keys, aber diese 3 bleiben qualitaetsgleich. Ueber alle BTC-Direktvergleiche erscheint damit ein stabiler Kern aus `hoeren_hin`, `sehen_abstand` und `fuehlen_abstand`, waehrend die restliche Aufnahmeoberflaeche je nach Timeframe und Weltspannung variiert.
 - Die visuelle Feldkopplung zeigt: Form ist nicht automatisch Feldlast. SOL 5m bleibt bisher `offene_sehkopplung` mit niedriger Feldbindung, waehrend SOL 1h und mehrere Stresssegmente naeher an `sehlast_feldnah` liegen.
 - Daraus entsteht die naechste Pruefebene: Hoeren, Sehen und Fuehlen muessen multisensorisch zusammen gelesen werden, ohne dass eine Sinnesachse allein Handlung oder Bedeutung erzwingt.
 - Die multisensorische Kopplung zeigt bisher vor allem `offene_multisensorik` und `rekoppelnde_sinnesnaehe`. SOL 5m bleibt mit niedriger Ueberlast offen getragen, SOL 30m zeigt eher rekoppelnde Naehe, SOL 1h liegt naeher an Last, aber noch ohne klaren Kollaps.

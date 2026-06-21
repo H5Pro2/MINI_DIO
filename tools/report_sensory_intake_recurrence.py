@@ -41,6 +41,15 @@ def _read_rows(path: Path) -> list[dict[str, str]]:
         return list(csv.DictReader(handle, delimiter=";"))
 
 
+def _report_title(path: Path) -> str:
+    stem = path.stem
+    if "_" in stem:
+        number, rest = stem.split("_", 1)
+        if number.isdigit():
+            return f"# {number} - {rest.replace('_', ' ').title()}"
+    return f"# {stem.replace('_', ' ').title()}"
+
+
 def _weighted_average(rows: list[dict[str, str]], column: str) -> float:
     total = sum(_float(row.get("count")) for row in rows)
     if total <= 0.0:
@@ -89,10 +98,12 @@ def build_rows(input_path: Path) -> list[dict[str, object]]:
 
     grouped: dict[tuple[str, str, str], list[dict[str, str]]] = defaultdict(list)
     for row in raw_rows:
+        inner_effect = row.get("inner_effect_state") or row.get("dominant_inner_effect_state") or "-"
+        preview = row.get("mcm_preview_symbol") or row.get("dominant_mcm_preview_symbol") or "-"
         key = (
             str(row.get("axis") or "-"),
-            str(row.get("inner_effect_state") or "-"),
-            str(row.get("mcm_preview_symbol") or "-"),
+            str(inner_effect),
+            str(preview),
         )
         grouped[key].append(row)
 
@@ -175,7 +186,7 @@ def write_markdown(path: Path, rows: list[dict[str, object]]) -> None:
     stable_rows = [row for row in rows if row["signature_label"] == "reproduzierte_ruhige_aufnahme"]
     recurring_rows = [row for row in rows if int(row["world_count"]) >= 3]
     lines = [
-        "# 408 - Sinnesaufnahme Wiedererkennung",
+        _report_title(path),
         "",
         "## Fragestellung",
         "",

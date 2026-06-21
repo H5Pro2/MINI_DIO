@@ -1,6 +1,6 @@
 # MINI_DIO Relevanz-Index
 
-Stand: 2026-06-19
+Stand: 2026-06-20
 
 Dieser Index legt fest, was aus dem kopierten `DIO_BAUPLAN` fuer das neue MINI_DIO-Forschungsprojekt relevant bleibt.
 
@@ -221,6 +221,160 @@ Besonders relevant fuer den aktuellen Bauplanstand:
   - Vergleicht die Aufnahmeachsen gemeinsam. Ergebnis: `hoeren_hin` wirkt ruhig rekoppelnd, `sehen_fokus` visuell tragend, `feldinput` kontaktlastig. Das stuetzt die Lesart von Aufnahmequalitaet als lokale Faehigkeit vor dem MCM-Feld.
 - `408_SINNESAUFNAHME_WIEDERERKENNUNG.md`
   - Prueft passive Wiedererkennung ueber die Signatur `Aufnahmeachse + Innenfeldzustand + MCM-Preview`. Ergebnis: 51 Signaturen kehren in mindestens drei Gegenwelten wieder, 6 davon als reproduzierte ruhige Aufnahme. Das ist passive Lernspur, keine Handlung.
+- `409_PASSIVE_SINNESAUFNAHME_MEMORY.md`
+  - Fuehrt die Wiedererkennung aus 408 in eine kleine passive `SensoryIntakeMemory` ueber. Ergebnis: 409 Memory-Eintraege, 6 reproduzierte ruhige Aufnahmen, 124 kontaktlastige Aufnahmen. Speichert Aufnahmequalitaet, nicht Handlung, Gate oder Strategie.
+- `410_BTC2024_5M_QUIET_SINNESACHSEN_EPISODENKARTE.md`
+  - Legt eine neue Gegenwelt `BTC_2024_5M_QUIET_4000` in dieselbe lokale Sinnesachsenlesung. Ergebnis: 284 lokale Achsen-/Innenfeldkombinationen.
+- `411_BTC2024_5M_QUIET_SINNESAUFNAHME_WIEDERERKENNUNG.md`
+  - Verdichtet die neue Gegenwelt in dieselbe Aufnahme-Signaturstruktur wie 408.
+- `412_BTC2024_5M_QUIET_PASSIVE_SINNESAUFNAHME_MEMORY.md`
+  - Baut daraus eine einzelne Gegenwelt-Intake-Memory: 284 Spuren, 57 kontaktlastige Aufnahmen, viele Spuren noch jung, weil nur eine Welt gelesen wurde.
+- `413_BTC2024_5M_QUIET_INTAKE_MEMORY_ABGLEICH.md`
+  - Vergleicht die Basis-Memory 409 mit der neuen Gegenwelt 412. Ergebnis: 129 gemeinsame Intake-Keys, davon 86 mit reproduzierter Memory-Qualitaet. Das stuetzt wiedererkennbare Aufnahmefamilien, bleibt aber passiv.
+- `414_SOL2023_NEGATIVE_STRESS_10K_SINNESACHSEN_EPISODENKARTE.md`
+  - Legt eine deutlich andere Stress-Gegenwelt in dieselbe lokale Sinnesachsenlesung. Ergebnis: 348 lokale Achsen-/Innenfeldkombinationen.
+- `415_SOL2023_NEGATIVE_STRESS_10K_SINNESACHSEN_REKOPPLUNG.md`
+  - Verdichtet die Stresswelt nach Rekopplung, Strain und Feldinput. Ergebnis: `hoeren_hin` bleibt ruhig rekoppelnd, `sehen_fokus` bleibt nahe daran, `feldinput` traegt mehr Kontaktlast.
+- `416_SOL2023_NEGATIVE_STRESS_10K_SINNESAUFNAHME_WIEDERERKENNUNG.md`
+  - Verdichtet die Stresswelt in dieselbe Aufnahme-Signaturstruktur wie 408.
+- `417_SOL2023_NEGATIVE_STRESS_10K_PASSIVE_SINNESAUFNAHME_MEMORY.md`
+  - Baut daraus eine einzelne Stresswelt-Intake-Memory: 348 Spuren, 106 kontaktlastige Aufnahmen und 3 strained Aufnahmen; viele Spuren bleiben jung, weil nur eine Welt gelesen wurde.
+- `418_SOL2023_NEGATIVE_STRESS_10K_INTAKE_MEMORY_ABGLEICH.md`
+  - Vergleicht die Basis-Memory 409 mit der Stresswelt 417. Ergebnis: 135 gemeinsame Intake-Keys, davon 90 mit reproduzierter Memory-Qualitaet. Das stuetzt robuste passive Aufnahmefamilien auch unter anderer Weltspannung.
+- `419_SOL2026_SIDEWAYS_10K_SINNESACHSEN_EPISODENKARTE.md`
+  - Legt eine Seitwaerts-Gegenwelt in dieselbe lokale Sinnesachsenlesung. Ergebnis: 292 lokale Achsen-/Innenfeldkombinationen.
+- `420_SOL2026_SIDEWAYS_10K_SINNESACHSEN_REKOPPLUNG.md`
+  - Verdichtet die Seitwaertswelt nach Rekopplung, Strain und Feldinput. Ergebnis: `hoeren_hin` bleibt ruhig rekoppelnd, `sehen_fokus` bleibt nahe daran, `feldinput` traegt mehr Kontaktlast.
+- `421_SOL2026_SIDEWAYS_10K_SINNESAUFNAHME_WIEDERERKENNUNG.md`
+  - Verdichtet die Seitwaertswelt in dieselbe Aufnahme-Signaturstruktur wie 408.
+- `422_SOL2026_SIDEWAYS_10K_PASSIVE_SINNESAUFNAHME_MEMORY.md`
+  - Baut daraus eine einzelne Seitwaerts-Intake-Memory: 292 Spuren, 93 kontaktlastige Aufnahmen und 5 strained Aufnahmen.
+- `423_SOL2026_SIDEWAYS_10K_INTAKE_MEMORY_ABGLEICH.md`
+  - Vergleicht die Basis-Memory 409 mit der Seitwaertswelt 422. Ergebnis: 125 gemeinsame Intake-Keys, davon 79 mit reproduzierter Memory-Qualitaet.
+- `424_INTAKE_MEMORY_GEGENWELTEN_VERGLEICH.md`
+  - Vergleicht Quiet, Stress, Sideways und Expansion direkt. Ergebnis: `hoeren_hin` bleibt ueber alle vier Gegenwelten die ruhigste Rekopplungsachse; die passive Aufnahmefamilien-These wird dadurch gestuetzt, bleibt aber diagnostisch.
+- `425_SOL2023_POSITIVE_EXPANSION_10K_SINNESACHSEN_EPISODENKARTE.md`
+  - Legt eine positive Expansionswelt in dieselbe lokale Sinnesachsenlesung. Ergebnis: 352 lokale Achsen-/Innenfeldkombinationen.
+- `426_SOL2023_POSITIVE_EXPANSION_10K_SINNESACHSEN_REKOPPLUNG.md`
+  - Verdichtet die Expansionswelt nach Rekopplung, Strain und Feldinput. Ergebnis: `hoeren_hin` bleibt ruhig rekoppelnd, `sehen_fokus` bleibt nahe daran, `feldinput` traegt mehr Kontaktlast.
+- `427_SOL2023_POSITIVE_EXPANSION_10K_SINNESAUFNAHME_WIEDERERKENNUNG.md`
+  - Verdichtet die Expansionswelt in dieselbe Aufnahme-Signaturstruktur wie 408.
+- `428_SOL2023_POSITIVE_EXPANSION_10K_PASSIVE_SINNESAUFNAHME_MEMORY.md`
+  - Baut daraus eine einzelne Expansions-Intake-Memory: 352 Spuren, 94 kontaktlastige Aufnahmen und 5 strained Aufnahmen.
+- `429_SOL2023_POSITIVE_EXPANSION_10K_INTAKE_MEMORY_ABGLEICH.md`
+  - Vergleicht die Basis-Memory 409 mit der Expansionswelt 428. Ergebnis: 150 gemeinsame Intake-Keys, davon 101 mit reproduzierter Memory-Qualitaet. Das ist bisher die staerkste Gegenwelt-Anschlussfaehigkeit.
+- `430_BTC2024_5M_2K_SINNESACHSEN_EPISODENKARTE.md`
+  - Legt eine unabhaengige BTC-5m-Welt mit 2000 Zeilen in dieselbe lokale Sinnesachsenlesung. Ergebnis: 158 lokale Achsen-/Innenfeldkombinationen.
+- `431_BTC2024_5M_2K_SINNESACHSEN_REKOPPLUNG.md`
+  - Verdichtet die BTC-2k-Welt nach Rekopplung, Strain und Feldinput. Ergebnis: `hoeren_hin` bleibt die beste Rekopplungsachse; `feldinput` und `fuehlen_abstand` tragen mehr Kontaktlast.
+- `432_BTC2024_5M_2K_SINNESAUFNAHME_WIEDERERKENNUNG.md`
+  - Verdichtet die BTC-2k-Welt in dieselbe Aufnahme-Signaturstruktur wie 408.
+- `433_BTC2024_5M_2K_PASSIVE_SINNESAUFNAHME_MEMORY.md`
+  - Baut daraus eine kleine einzelne BTC-Intake-Memory: 7 Spuren, davon 2 kontaktlastige Aufnahmen.
+- `434_BTC2024_5M_2K_INTAKE_MEMORY_ABGLEICH.md`
+  - Vergleicht die Basis-Memory 409 mit der BTC-2k-Welt 433. Ergebnis: 7 gemeinsame Intake-Keys bei 7 Gegenwelt-Spuren; 2 Qualitaeten bleiben gleich, 4 werden als junge offene Spur gelesen und 1 wird kontaktlastiger. Das zeigt Anschlussfaehigkeit, aber noch keine gleiche Reife.
+- `435_BTC2024_5M_QUIET_4K_LONG_SINNESACHSEN_EPISODENKARTE.md`
+  - Legt eine laengere BTC-5m-Welt mit 4000 Zeilen in dieselbe lokale Sinnesachsenlesung. Ergebnis: 284 lokale Achsen-/Innenfeldkombinationen.
+- `436_BTC2024_5M_QUIET_4K_LONG_SINNESACHSEN_REKOPPLUNG.md`
+  - Verdichtet die BTC-4k-Welt nach Rekopplung, Strain und Feldinput. Ergebnis: `hoeren_hin` bleibt beste Rekopplungsachse; `feldinput` und `fuehlen_abstand` tragen mehr Kontaktlast.
+- `437_BTC2024_5M_QUIET_4K_LONG_SINNESAUFNAHME_WIEDERERKENNUNG.md`
+  - Verdichtet die BTC-4k-Welt in dieselbe Aufnahme-Signaturstruktur wie 408.
+- `438_BTC2024_5M_QUIET_4K_LONG_PASSIVE_SINNESAUFNAHME_MEMORY.md`
+  - Baut daraus eine einzelne BTC-4k-Intake-Memory: 7 Spuren, davon 2 kontaktlastige Aufnahmen.
+- `439_BTC2024_5M_QUIET_4K_LONG_INTAKE_MEMORY_ABGLEICH.md`
+  - Vergleicht die Basis-Memory 409 mit der BTC-4k-Welt 438. Ergebnis: 7 gemeinsame Intake-Keys bei 7 Gegenwelt-Spuren; 2 Qualitaeten bleiben gleich, 5 bleiben junge offene Spuren. Mehr Weltlaenge bestaetigt Anschluss, erzeugt aber noch keine gleiche Reife.
+- `440_BTC2024_5M_STRESS_4K_SINNESACHSEN_EPISODENKARTE.md`
+  - Legt eine BTC-5m-Stresswelt mit 4000 Zeilen in dieselbe lokale Sinnesachsenlesung. Ergebnis: 249 lokale Achsen-/Innenfeldkombinationen.
+- `441_BTC2024_5M_STRESS_4K_SINNESACHSEN_REKOPPLUNG.md`
+  - Verdichtet die BTC-Stresswelt nach Rekopplung, Strain und Feldinput. Ergebnis: `hoeren_hin` bleibt beste Rekopplungsachse; `feldinput` und `fuehlen_abstand` tragen mehr Kontaktlast.
+- `442_BTC2024_5M_STRESS_4K_SINNESAUFNAHME_WIEDERERKENNUNG.md`
+  - Verdichtet die BTC-Stresswelt in dieselbe Aufnahme-Signaturstruktur wie 408.
+- `443_BTC2024_5M_STRESS_4K_PASSIVE_SINNESAUFNAHME_MEMORY.md`
+  - Baut daraus eine einzelne BTC-Stress-Intake-Memory: 7 Spuren, davon 2 kontaktlastige Aufnahmen.
+- `444_BTC2024_5M_STRESS_4K_INTAKE_MEMORY_ABGLEICH.md`
+  - Vergleicht die Basis-Memory 409 mit der BTC-Stresswelt 443. Ergebnis: 6 gemeinsame Intake-Keys bei 7 Gegenwelt-Spuren; 4 Qualitaeten bleiben gleich und 2 bleiben junge offene Spuren. Das stuetzt stabile Aufnahmefamilien unter anderer BTC-Weltspannung.
+- `445_BTC2024_1H_STRESS_4K_SINNESACHSEN_EPISODENKARTE.md`
+  - Legt eine BTC-1h-Stresswelt mit 4000 Zeilen in dieselbe lokale Sinnesachsenlesung. Ergebnis: 185 lokale Achsen-/Innenfeldkombinationen.
+- `446_BTC2024_1H_STRESS_4K_SINNESACHSEN_REKOPPLUNG.md`
+  - Verdichtet die BTC-1h-Stresswelt nach Rekopplung, Strain und Feldinput. Ergebnis: `hoeren_hin` bleibt beste Rekopplungsachse; `feldinput` und `fuehlen_abstand` tragen mehr Kontaktlast.
+- `447_BTC2024_1H_STRESS_4K_SINNESAUFNAHME_WIEDERERKENNUNG.md`
+  - Verdichtet die BTC-1h-Stresswelt in dieselbe Aufnahme-Signaturstruktur wie 408.
+- `448_BTC2024_1H_STRESS_4K_PASSIVE_SINNESAUFNAHME_MEMORY.md`
+  - Baut daraus eine einzelne BTC-1h-Intake-Memory: 7 Spuren, davon 2 kontaktlastige Aufnahmen.
+- `449_BTC2024_1H_STRESS_4K_INTAKE_MEMORY_ABGLEICH.md`
+  - Vergleicht die Basis-Memory 409 mit der BTC-1h-Stresswelt 448. Ergebnis: 7 gemeinsame Intake-Keys bei 7 Gegenwelt-Spuren; 2 Qualitaeten bleiben gleich und 5 bleiben junge offene Spuren. Die Zeitskala oeffnet also eher die Tragqualitaet, statt die Aufnahmefamilie zu brechen.
+- `450_BTC2024_5M_VS_1H_STRESS_INTAKE_MEMORY_ABGLEICH.md`
+  - Vergleicht BTC-5m-Stress direkt mit BTC-1h-Stress. Ergebnis: 3 gemeinsame Intake-Keys bei je 7 Spuren, alle 3 qualitaetsgleich. Das zeigt eine Timeframe-bedingte Teilverschiebung bei stabilem Kern.
+- `451_BTC2024_1H_QUIET_4K_SINNESACHSEN_EPISODENKARTE.md`
+  - Legt eine ruhige BTC-1h-Welt mit 4000 Zeilen in dieselbe lokale Sinnesachsenlesung. Ergebnis: 220 lokale Achsen-/Innenfeldkombinationen.
+- `452_BTC2024_1H_QUIET_4K_SINNESACHSEN_REKOPPLUNG.md`
+  - Verdichtet die ruhige BTC-1h-Welt nach Rekopplung, Strain und Feldinput. Ergebnis: `hoeren_hin` bleibt beste Rekopplungsachse; `feldinput` und `fuehlen_abstand` tragen mehr Kontaktlast.
+- `453_BTC2024_1H_QUIET_4K_SINNESAUFNAHME_WIEDERERKENNUNG.md`
+  - Verdichtet die ruhige BTC-1h-Welt in dieselbe Aufnahme-Signaturstruktur wie 408.
+- `454_BTC2024_1H_QUIET_4K_PASSIVE_SINNESAUFNAHME_MEMORY.md`
+  - Baut daraus eine einzelne BTC-1h-Quiet-Intake-Memory: 7 Spuren, davon 2 kontaktlastige Aufnahmen.
+- `455_BTC2024_1H_QUIET_4K_INTAKE_MEMORY_ABGLEICH.md`
+  - Vergleicht die Basis-Memory 409 mit der ruhigen BTC-1h-Welt 454. Ergebnis: 7 gemeinsame Intake-Keys bei 7 Gegenwelt-Spuren; 2 Qualitaeten bleiben gleich und 5 bleiben junge offene Spuren.
+- `456_BTC2024_1H_QUIET_VS_STRESS_INTAKE_MEMORY_ABGLEICH.md`
+  - Vergleicht BTC-1h-Quiet direkt mit BTC-1h-Stress. Ergebnis: 7 gemeinsame Intake-Keys bei je 7 Spuren, alle 7 qualitaetsgleich. Das trennt Stresswirkung von Timeframe-Wirkung und spricht fuer stabile BTC-1h-Aufnahmefamilien.
+- `457_BTC2024_5M_QUIET_VS_STRESS_INTAKE_MEMORY_ABGLEICH.md`
+  - Vergleicht BTC-5m-Quiet direkt mit BTC-5m-Stress. Ergebnis: 3 gemeinsame Intake-Keys bei je 7 Spuren, alle 3 qualitaetsgleich. BTC 5m teilt damit nur den stabilen Kern, nicht die ganze Oberflaeche.
+- `458_BTC_TIMEFRAME_STRESS_SYNTHESE.md`
+  - Zieht die BTC-Direktvergleiche zusammen. Ergebnis: `hoeren_hin`, `sehen_abstand` und `fuehlen_abstand` erscheinen als stabiler BTC-Kern, waehrend die restliche Aufnahmeorganisation je nach Timeframe und Spannung variiert.
+- `459_PASSIVE_REGULATIONSVORSCHLAG_BASIS.md`
+  - Liest aus der Basis-Sinnesaufnahme-Memory passive Vorschlagsrichtungen fuer Wahrnehmungsfaehigkeiten. Ergebnis: 409 Spuren, mehr Entlastung als Vertiefung; keine Handlung, kein Gate, keine Strategie.
+- `460_BTC2024_5M_QUIET_REGULATIONSVORSCHLAG.md`
+  - Liest passive Vorschlagsrichtungen fuer BTC 5m Quiet. Ergebnis: 7 Spuren mit balancierter Mischung aus Vertiefung und Entlastung.
+- `461_BTC2024_5M_STRESS_REGULATIONSVORSCHLAG.md`
+  - Liest passive Vorschlagsrichtungen fuer BTC 5m Stress. Ergebnis: gleicher Vorschlagsmix wie BTC 5m Quiet.
+- `462_BTC2024_1H_QUIET_REGULATIONSVORSCHLAG.md`
+  - Liest passive Vorschlagsrichtungen fuer BTC 1h Quiet. Ergebnis: gleicher Vorschlagsmix wie die 5m-Gegenwelten.
+- `463_BTC2024_1H_STRESS_REGULATIONSVORSCHLAG.md`
+  - Liest passive Vorschlagsrichtungen fuer BTC 1h Stress. Ergebnis: gleicher Vorschlagsmix wie BTC 1h Quiet.
+- `464_PASSIVE_REGULATIONSVORSCHLAG_MEHRWELT_SYNTHESE.md`
+  - Fasst 459 bis 463 zusammen. Ergebnis: BTC 5m/1h und Quiet/Stress behalten denselben Vorschlagsmix; die rezeptorisch-regulatorische Wahrnehmungsschicht ist diagnostisch sichtbar, aber noch nicht aktive Regulation.
+- `465_SOL2023_NEGATIVE_STRESS_10K_REGULATIONSVORSCHLAG.md`
+  - Liest passive Vorschlagsrichtungen fuer SOL Negative Stress. Ergebnis: Abstand bilden dominiert; Hoeren, Sehen und Kontaktentlastung bleiben sichtbar.
+- `466_SOL2026_SIDEWAYS_10K_REGULATIONSVORSCHLAG.md`
+  - Liest passive Vorschlagsrichtungen fuer SOL Sideways. Ergebnis: ebenfalls deutlicher Abstandszug bei erhaltener Sinnesdifferenzierung.
+- `467_SOL2023_POSITIVE_EXPANSION_10K_REGULATIONSVORSCHLAG.md`
+  - Liest passive Vorschlagsrichtungen fuer SOL Positive Expansion. Ergebnis: Expansion zerlegt die Vorschlagssprache nicht, traegt aber weiter starken Abstandszug.
+- `468_KAS2024_ZEITEBENEN_SINNESACHSEN_EPISODENKARTE.md`
+  - Baut fuer KAS 5m/15m/30m/1h eine lokale Sinnesachsenkarte. Grundlage fuer KAS-Intake-Memory im gleichen Format wie SOL/BTC.
+- `469_KAS2024_ZEITEBENEN_SINNESAUFNAHME_WIEDERERKENNUNG.md`
+  - Verdichtet die KAS-Zeitebenen in wiedererkennbare Aufnahme-Signaturen.
+- `470_KAS2024_ZEITEBENEN_PASSIVE_SINNESAUFNAHME_MEMORY.md`
+  - Baut daraus eine KAS-Sinnesaufnahme-Memory mit 320 Spuren.
+- `471_KAS2024_ZEITEBENEN_REGULATIONSVORSCHLAG.md`
+  - Liest passive Vorschlagsrichtungen aus der KAS-Memory. Ergebnis: gleiche Vorschlagssprache wie SOL/BTC, aber mit deutlichem Abstandszug.
+- `472_SOL_KAS_REGULATIONSVORSCHLAG_SYNTHESE.md`
+  - Vergleicht SOL und KAS gegen die BTC-Vorschlagsschicht. Ergebnis: gleiche Grundsprache der Wahrnehmungsfaehigkeiten, aber andere Gewichtung; aktive Wahrnehmungsanpassung bleibt noch offen.
+- `473_PASSIVE_REGULATIONSVORSCHLAG_FELDTRAGUNG.md`
+  - Prueft passiv, welche Vorschlagsrichtungen vom MCM-Feld eher getragen werden und welche naeher an Druckbearbeitung liegen. Ergebnis: alle Richtungen bleiben feldtragbar, aber `ruhig hinhoeren`, `Sehen schaerfen` und Fokus liegen staerker auf der getragenen Seite; Abstand, weicher aufnehmen und Kontaktentlastung liegen naeher an Entlastung/Druckverarbeitung.
+- `474_ASSET_REGULATIONSVORSCHLAG_FELDTRAGUNG.md`
+  - Trennt die Feldtragung der passiven Vorschlagsrichtungen nach BTC, SOL und KAS. Ergebnis: gleiche Wahrnehmungssprache, aber unterschiedliche Asset-Gewichtung; BTC wirkt balancierter, SOL/KAS zeigen mehr Abstandszug, `ruhig hinhoeren` bleibt uebergreifend am staerksten getragen.
+- `475_ASSET_ORGANISMUSPROFIL.md`
+  - Liest aus 474 ein assetbezogenes Organismusprofil. Ergebnis: Bedarf und Tragung sind getrennt zu lesen; BTC zeigt Fokusoberflaeche, SOL/KAS mehr Abstandszug, aber alle drei Assets werden am staerksten durch ruhiges Hinhoeren getragen.
+- `476_ASSET_ORGANISMUSPROFIL_STABILITAET.md`
+  - Prueft die Assetprofile nach vorhandenen Einzelquellen. Ergebnis: BTC bleibt ueber 5m/1h und Quiet/Stress bei Fokusbedarf und Hoertrag; SOL bleibt ueber Stress, Sideways und Expansion bei Abstandsbedarf und Hoertrag; KAS ist noch nur ein zusammengefasster Zeitebenenblock.
+- `477_KAS2024_EINZELWELTEN_SINNESACHSEN_EPISODENKARTE.md`
+  - Baut fuer KAS 5m, 15m, 30m und 1h eine getrennte lokale Sinnesachsenkarte.
+- `478_KAS2024_EINZELWELTEN_SINNESAUFNAHME_WIEDERERKENNUNG.md`
+  - Verdichtet die getrennten KAS-Einzelwelten in wiedererkennbare Aufnahme-Signaturen.
+- `479_KAS2024_EINZELWELTEN_PASSIVE_SINNESAUFNAHME_MEMORY.md`
+  - Baut daraus eine KAS-Einzelwelt-Memory als Grundlage fuer getrennte Stabilitaetspruefung.
+- `480_KAS2024_EINZELWELTEN_REGULATIONSVORSCHLAG.md`
+  - Liest die KAS-Einzelwelt-Memory als passiven Regulationsvorschlag.
+- `481_KAS2024_5M_REGULATIONSVORSCHLAG.md` bis `484_KAS2024_1H_REGULATIONSVORSCHLAG.md`
+  - Schreiben die vier KAS-Zeitebenen zusaetzlich als echte Einzelquellen fuer den Assetvergleich.
+- `485_ASSET_ORGANISMUSPROFIL_STABILITAET_KAS_EINZELWELTEN.md`
+  - Wiederholt die Assetprofil-Stabilitaet mit getrennten KAS-Einzelquellen. Ergebnis: KAS bleibt ueber 5m/15m/30m/1h stabil bei Abstandsbedarf, Hoertrag und Kontaktentlastungs-Drucknaehe.
+- `486_BTC2025_5M_REGULATIONSVORSCHLAG.md` bis `489_SOL2025_1H_REGULATIONSVORSCHLAG.md`
+  - Schreiben BTC/SOL 2025 als zusaetzliche Jahres-Gegenwelten fuer den Assetprofilvergleich.
+- `490_ASSET_ORGANISMUSPROFIL_STABILITAET_JAHRESERWEITERUNG.md`
+  - Prueft BTC/SOL 2025 gegen die bisherige Assetprofil-Matrix. Ergebnis: Hoertrag bleibt uebergreifend stabil; SOL/KAS bleiben auch im Bedarf abstandsnah, BTC verschiebt den Bedarf in den 2025er Quellen von Fokus zu Abstand.
+- `491_BTC2025_BEDARFSVERSCHIEBUNG_LOKAL.md`
+  - Liest die BTC-2025-Verschiebung lokal gegen BTC-2024. Ergebnis: Die Verschiebung liegt nicht grob in mehr Roh-Abstandsaufnahme; die Sinnesachsen bleiben relativ nah. BTC-2025 bleibt hoergetragen, verarbeitet die Lage aber staerker als Abstand/Kontaktentlastung.
 
 Hinweis:
 
