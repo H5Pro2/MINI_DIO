@@ -38,6 +38,8 @@ def _write_markdown(path: Path, memory: MCMFieldMovementMemory, inputs: list[Pat
     fragmented = [row for row in rows if row["field_memory_quality"] == "recurrently_fragmented"]
     young = [row for row in rows if row["field_memory_quality"] == "young"]
     open_rows = [row for row in rows if row["field_memory_quality"] == "open_drifting"]
+    reconnecting = [row for row in rows if row["field_memory_quality"] == "recurrently_reconnecting"]
+    opening_strain = [row for row in rows if row["field_memory_quality"] == "recurrently_opening_strain"]
     lines: list[str] = [
         "# MCM-Feldbewegungs-Memory Summary",
         "",
@@ -51,7 +53,7 @@ def _write_markdown(path: Path, memory: MCMFieldMovementMemory, inputs: list[Pat
         "## Hierarchie",
         "",
         "1. Grundfrage: Welche gerichteten MCM-Feldbewegungen tragen wiederkehrende Feldwirkung?",
-        "2. Unterpruefung: Welche Bewegungen wirken wiederkehrend getragen, fragmentiert oder offen driftend?",
+        "2. Unterpruefung: Welche Bewegungen wirken wiederkehrend getragen, rekoppelnd, oeffnend, fragmentiert oder offen driftend?",
         "3. Folgeschritt: Diese passive Erinnerung kann spaeter als Innenfeld-Leseschicht dienen, ohne Handlung zu erzwingen.",
         "",
         "## Eingaben",
@@ -75,8 +77,8 @@ def _write_markdown(path: Path, memory: MCMFieldMovementMemory, inputs: list[Pat
             "",
             "## Passive Verdichtung",
             "",
-            "| Bewegung | Beobachtungen | Ereignisse | dominante Tragart | Feldmemory-Qualitaet | Reifungsnotiz | dominante Feldposition | Drift | Quellen |",
-            "|---|---:|---:|---|---|---|---|---|---|",
+            "| Bewegung | Beobachtungen | Ereignisse | dominante Tragart | Bewegungswirkung | Feldmemory-Qualitaet | Reifungsnotiz | Druck | Rekopplung | Strain | Lautheit | Drift |",
+            "|---|---:|---:|---|---|---|---|---:|---:|---:|---:|---|",
         ]
     )
     for row in rows:
@@ -88,11 +90,14 @@ def _write_markdown(path: Path, memory: MCMFieldMovementMemory, inputs: list[Pat
                     str(row["seen_count"]),
                     str(row["total_events"]),
                     str(row["dominant_tragart"]),
+                    str(row.get("dominant_movement_effect", "-")),
                     str(row["field_memory_quality"]),
                     str(row["maturity_note"]),
-                    str(row["dominant_field_position"]),
+                    _fmt(row.get("avg_pressure_delta", 0.0)),
+                    _fmt(row.get("avg_rekopplung_delta", 0.0)),
+                    _fmt(row.get("avg_strain_delta", 0.0)),
+                    _fmt(row.get("avg_loudness_delta", 0.0)),
                     str(row["dominant_drift_label"]),
-                    str(row["sources"]),
                 ]
             )
             + " |"
@@ -107,6 +112,16 @@ def _write_markdown(path: Path, memory: MCMFieldMovementMemory, inputs: list[Pat
             "",
         ]
     )
+    if reconnecting:
+        for row in reconnecting:
+            lines.append(
+                f"- `{row['movement_key']}` wird als wiederkehrend rekoppelnde/entlastende Feldbewegung gelesen."
+            )
+    if opening_strain:
+        for row in opening_strain:
+            lines.append(
+                f"- `{row['movement_key']}` wird als wiederkehrend oeffnende, lautere und strain-naehere Feldbewegung gelesen."
+            )
     if carried:
         for row in carried:
             lines.append(

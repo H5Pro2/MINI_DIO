@@ -1,0 +1,7 @@
+asset,timeframe,transition_count,top_pair,pressure_delta,sharpness_delta,rekopplung_delta
+EXPANSION,AFTER,465,dio_mcm_episode_1t5bcxp->dio_mcm_episode_183drjy (38/465),0.000649,0.003851,0.000340
+EXPANSION,REPRO,465,dio_mcm_episode_1t5bcxp->dio_mcm_episode_183drjy (38/465),0.000649,0.003851,0.000340
+STABLE,AFTER,423,dio_mcm_episode_1t5bcxp->dio_mcm_episode_183drjy (41/423),0.002264,-0.003015,-0.001841
+STABLE,REPRO,423,dio_mcm_episode_1t5bcxp->dio_mcm_episode_183drjy (41/423),0.002264,-0.003015,-0.001841
+STRESS,AFTER,526,dio_mcm_episode_1t5bcxp->dio_mcm_episode_183drjy (36/526),0.001000,-0.007123,-0.001394
+STRESS,REPRO,526,dio_mcm_episode_1t5bcxp->dio_mcm_episode_183drjy (36/526),0.001000,-0.007123,-0.001394

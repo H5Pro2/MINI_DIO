@@ -12,7 +12,7 @@ ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
-from mini_dio.mini_world import build_senses, load_candles
+from mini_dio.mini_world import build_senses, build_senses_world_relative, build_sensory_profile, load_candles
 
 
 DEFAULT_OUT = ROOT / "docs" / "befunde" / "262_WELTUEBERGREIFENDE_INFORMATIONSAUFNAHME_DIAGNOSE.md"
@@ -128,12 +128,16 @@ def _world_state(feature_rows: list[dict[str, object]]) -> str:
     return "reiz_tragbar"
 
 
-def _analyze_world(name: str, path: Path) -> tuple[dict[str, object], list[dict[str, object]]]:
+def _analyze_world(name: str, path: Path, sense_mode: str) -> tuple[dict[str, object], list[dict[str, object]]]:
     candles = load_candles(path)
     raw_stats = _raw_world_stats(candles)
+    profile = build_sensory_profile(candles) if sense_mode == "world_relative" else {}
     feature_values = {feature: [] for feature, _, _ in SENSE_FEATURES}
     for index in range(len(candles)):
-        senses = build_senses(candles, index)
+        if sense_mode == "world_relative":
+            senses = build_senses_world_relative(candles, index, profile=profile)
+        else:
+            senses = build_senses(candles, index)
         for feature, root, key in SENSE_FEATURES:
             source = dict(senses.get(root, {}) or {})
             if root == "mcm_feldwirkung" and key not in source:
@@ -161,6 +165,7 @@ def _analyze_world(name: str, path: Path) -> tuple[dict[str, object], list[dict[
         "world": name,
         "path": str(path.relative_to(ROOT) if path.is_relative_to(ROOT) else path),
         "world_state": _world_state(feature_rows),
+        "sense_mode": sense_mode,
         **raw_stats,
     }
     return summary, feature_rows
@@ -197,6 +202,7 @@ def _write_md(summaries: list[dict[str, object]], feature_rows: list[dict[str, o
         "",
         "Diese Diagnose prueft, ob MINI_DIO Welten ueber Sehen, Hoeren und MCM-Feldwirkung vergleichbar aufnimmt.",
         "Sie liest nicht die MCM-Topologie selbst, sondern den Schritt davor: Rohwelt zu Sinneswerten.",
+        f"Sinnesmodus: `{str(summaries[0].get('sense_mode', '-')) if summaries else '-'}`.",
         "",
         "Wichtig: Das ist keine Handlung, kein Gate und keine Runtime-Regel.",
         "",
@@ -266,7 +272,7 @@ def _write_md(summaries: list[dict[str, object]], feature_rows: list[dict[str, o
             f"Auffaellige Sinnesachsen: {problem_summary or '-'}",
             "",
             "Wenn Welten vor allem durch feste Teiler oder lokale Rohverhaeltnisse uebersetzt werden, kann das MCM-Feld nicht sicher unterscheiden, ob es echte Feldwirkung oder falsche Reizskalierung erlebt.",
-            "Damit ist ein Teil der bisherigen Weltunterschiede moeglicherweise Wahrnehmungsproblem, nicht Topologieproblem.",
+            "Im weltrelativen Modus wird dagegen geprueft, ob die Aufnahme bereits gegen den eigenen Rhythmus der Welt gelesen wird.",
             "",
             "## Grenze",
             "",
@@ -275,7 +281,7 @@ def _write_md(summaries: list[dict[str, object]], feature_rows: list[dict[str, o
             "",
             "## Wie es weitergeht",
             "",
-            "Als naechstes sollte ein weltrelativer Wahrnehmungsadapter entworfen werden: jede Welt wird zuerst gegen ihren eigenen Rhythmus, ihre eigene Lautstaerke und ihre eigene Formspannung gelesen, bevor Werte in das MCM-Feld gehen.",
+            "Als naechstes sollte bei weiterhin auffaelligen Achsen geprueft werden, ob sie echte Weltqualitaet tragen oder ob der Adapter eine feinere Aufnahme braucht.",
             "",
         ]
     )
@@ -293,6 +299,12 @@ def main() -> None:
     )
     parser.add_argument("--out", type=Path, default=DEFAULT_OUT)
     parser.add_argument("--csv-out", type=Path, default=DEFAULT_CSV)
+    parser.add_argument(
+        "--sense-mode",
+        choices=("fixed", "world_relative"),
+        default="world_relative",
+        help="Sensory translation mode used for this diagnostic.",
+    )
     args = parser.parse_args()
 
     worlds = args.world or [
@@ -310,7 +322,7 @@ def main() -> None:
         path = Path(raw_path)
         if not path.is_absolute():
             path = ROOT / path
-        summary, rows = _analyze_world(name, path)
+        summary, rows = _analyze_world(name, path, args.sense_mode)
         summaries.append(summary)
         feature_rows.extend(rows)
 

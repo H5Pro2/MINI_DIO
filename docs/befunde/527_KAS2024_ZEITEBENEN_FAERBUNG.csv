@@ -1,0 +1,5 @@
+timeframe,center_share,open_share,rand_share,center_delta_vs_5m,open_rand_delta_vs_5m,center_family,open_family,rand_family,interpretation
+KAS2024_5M,0.8079,0.1795,0.0125,0.0000,0.0000,dio_104t,dio_00ja,dio_18i0,referenz_stark_zentriert
+KAS2024_15M,0.8099,0.1770,0.0130,0.0020,-0.0020,dio_104t,dio_00ja,dio_18f1,praktisch_gleich
+KAS2024_30M,0.8054,0.1820,0.0125,-0.0025,0.0025,dio_104t,dio_0jkk,dio_0zmn,praktisch_gleich
+KAS2024_1H,0.7914,0.1896,0.0191,-0.0165,0.0165,dio_104t,dio_0jkk,dio_00hc,leicht_offener_randnaeher_kein_bruch

@@ -381,6 +381,54 @@ Besonders relevant fuer den aktuellen Bauplanstand:
   - Liest einen belasteteren BTC-2025-5m-Abschnitt als zweite Abschnittsgegenprobe. Ergebnis: Stress liegt etwas drucknaeher und etwas weniger stabil als Quiet, bleibt aber ebenfalls hoergetragen und abstandsnah.
 - `500_BTC2025_ABSCHNITTSGEGENPROBE.md`
   - Vergleicht BTC-2025-Gesamtquellen mit Quiet-/Stress-Abschnitten. Ergebnis: Die Abstandsnaehe reproduziert sich abschnittsuebergreifend; Kontaktentlastung ist die Druckfaerbung, nicht der dominante Bedarf.
+- `501_BTC2024_2025_ABSCHNITTSVERGLEICH.md`
+  - Vergleicht BTC-2024 und BTC-2025 mit derselben 5m-Quiet-/Stress-Abschnittslogik. Ergebnis: Hoeren bleibt in beiden Jahren getragen; Fokus bleibt vorhanden, aber 2025 steigt Abstand deutlich staerker und wird zur dominanten Bedarfsebene.
+- `502_SOL2024_5M_QUIET_4K_SINNESACHSEN_EPISODENKARTE.md` bis `517_SOL2025_5M_STRESS_4K_REGULATIONSVORSCHLAG.md`
+  - Fuehrt dieselbe passive Abschnittslogik fuer SOL 2024/2025 in 5m Quiet/Stress aus. Ergebnis: Alle vier SOL-Abschnitte bleiben passiv hoergetragen und abstandsnah.
+- `518_SOL2024_2025_ABSCHNITTSVERGLEICH.md`
+  - Vergleicht SOL-2024 und SOL-2025 mit derselben 5m-Quiet-/Stress-Abschnittslogik. Ergebnis: SOL zeigt keine BTC-aehnliche Bedarfskippung von Fokus zu Abstand, sondern eine stabilere abstandsnahe Grundaufnahme.
+- `519_KAS2024_5M_2K_SINNESACHSEN_EPISODENKARTE.md` bis `522_KAS2024_5M_2K_REGULATIONSVORSCHLAG.md`
+  - Fuehrt eine KAS-2024-5m-Gegenprobe mit 2000 Kerzen aus. Ergebnis: KAS bleibt trotz anderem Preismassstab innenfeldstabil; `hoeren_hin` und `sehen_fokus` tragen die staerksten ruhigen Aufnahme-Spuren, `feldinput` bleibt kontaktlastiger.
+- `523_BTC_SOL_KAS_WELTRELATIVE_SINNESAUFNAHME_KONSISTENZ.md`
+  - Vergleicht BTC/SOL/KAS-Rohweltaufnahme im tatsaechlichen `world_relative`-Sinnesmodus. Ergebnis: Alle geprueften Sinnesachsen bleiben tragbar; die vorherige Saettigung war ein Diagnosefehler durch Nutzung der alten fixen Uebersetzung.
+- `524_BTC_SOL_KAS_FIXED_VS_WELTRELATIV_ADAPTER.md`
+  - Vergleicht feste Uebersetzung direkt gegen `world_relative`. Ergebnis: 17 Achsen verbessern sich, 0 verschlechtern sich, 0 bleiben auffaellig. Damit ist der weltrelative Adapter fuer diese Welten klar die sauberere rezeptorische Aufnahme vor dem MCM-Feld.
+- `525_BTC_SOL_KAS_WELTRELATIVE_TOPOLOGIE_MATRIX.md`
+  - Legt die Topologie-Matrix auf BTC2025, SOL2024/2025 und KAS2024 nach korrigierter weltrelativer Aufnahme. Ergebnis: 6 von 7 Welten sind `stark_zentriert_wenig_rand`, eine Welt ist knapp gemischt; Zentrum, offene Variante und kleine Rand-/Kippinseln bleiben getrennt lesbar.
+- `526_KAS2024_ZEITEBENEN_WELTRELATIVE_TOPOLOGIE_MATRIX.md`
+  - Prueft KAS2024 ueber 5m, 15m, 30m und 1h. Ergebnis: KAS bleibt ueber alle Zeitebenen zentrumsnah; 1h wird etwas offener und randnaeher, aber nicht randlastig. Der Zeitrahmen wirkt als Faerbung der Rollenordnung, nicht als Bruch der MCM-Topologie.
+- `527_KAS2024_ZEITEBENEN_FAERBUNG.md`
+  - Liest den 526er Befund als gezielte Zeitebenen-Faerbung. Ergebnis: 5m, 15m und 30m sind praktisch gleich; 1h verschiebt leicht vom Zentrum in offene Variante und Rand/Kippnaehe, ohne die Zentrumssprache `dio_104t` zu brechen.
+- `528_BTC_SOL_KAS_2024_ZEITEBENEN_TOPOLOGIE_MATRIX.md`
+  - Legt die weltrelative Topologie-Matrix auf BTC, SOL und KAS in 5m, 15m und 1h. Ergebnis: alle 9 Welten bleiben `zentrum_mit_rand_und_uebergang`; 1h bricht die Topologie nicht.
+- `529_BTC_SOL_KAS_2024_ZEITEBENEN_VERGLEICH.md`
+  - Liest den 528er Befund assetweise. Ergebnis: BTC reagiert auf 1h am staerksten mit mehr Offenheit/Randnaehe, SOL nur leicht, KAS fast gar nicht. Zeitebene ist damit eher Faerbung der Feldlesung als Topologiebruch.
+- `530_STRESS_SIDEWAYS_EXPANSION_WELTRELATIVE_TOPOLOGIE_MATRIX.md`
+  - Legt die weltrelative Topologie-Matrix auf Ruhe, Stress, negative Stresswelten, Seitwaerts- und Expansionswelten mit je zwei Laeufen. Ergebnis: alle 16 Laeufe bleiben in `zentrum_mit_rand_und_uebergang`.
+- `531_STRESS_SIDEWAYS_EXPANSION_TOPOLOGIE_SYNTHESE.md`
+  - Verdichtet den 530er Befund. Ergebnis: Stress ist nicht gleich Rand; Weltspannung faerbt Zentrum, offene Variante und Rand/Kippnaehe unterschiedlich, aber die Topologie bleibt reproduzierbar stabil.
+- `532_LANGE_10K_STRESS_EXPANSION_WELTRELATIVE_TOPOLOGIE_MATRIX.md`
+  - Legt die weltrelative Topologie-Matrix auf lange 10k-Welten fuer Stable, Stress und Expansion mit After/Repro-Gegenpruefung. Ergebnis: alle 6 Laeufe bleiben in `zentrum_mit_rand_und_uebergang`.
+- `533_LANGE_10K_TOPOLOGIE_REPRODUKTION_SYNTHESE.md`
+  - Verdichtet den 532er Befund. Ergebnis: Stable, Stress und Expansion reproduzieren ihre Rollenanteile exakt; die dominante Preview-Familie ist ueber alle drei 10k-Welten `dio_mcm_episode_183drjy`.
+- `534_PREVIEW_FAMILIE_1T5BCXP_ZEIT_LANGWELT_VERGLEICH.md` und `535_PREVIEW_FAMILIE_183DRJY_ZEIT_LANGWELT_VERGLEICH.md`
+  - Pruefen beide Preview-Familien ueber Zeitebenen- und Langweltquellen. Ergebnis: `1t5bcxp` ist breiter und offener, `183drjy` ist zentrumsnaeher und in 10k-Welten dominant.
+- `536_PREVIEW_FAMILIEN_1T5BCXP_GEGEN_183DRJY_SYNTHESE.md`
+  - Verdichtet den Familienvergleich. Ergebnis: Die beiden Preview-Familien wirken wie unterschiedliche MCM-Bedeutungsraeume innerhalb derselben Grundtopologie, nicht wie austauschbare Namen.
+- `537_PREVIEW_UEBERGANGSPAARE_1T5BCXP_183DRJY_QUELLEN.md`
+  - Erstellt die allgemeinen Preview-Uebergangspaare aus den Zeitebenen- und Langweltquellen als Datenbasis fuer den gezielten Familienvergleich.
+- `538_PREVIEW_UEBERGANG_1T5BCXP_183DRJY_ASYMMETRIE.md`
+  - Liest gezielt die beiden Richtungen `1t5bcxp -> 183drjy` und `183drjy -> 1t5bcxp`. Ergebnis: Hinweg wirkt rekoppelnd, drucksenkend und schaerfend; Rueckweg wirkt oeffnender, lauter und strainnaeher.
+- `539_10K_AFTER_REPRO_PREVIEW_UEBERGANGSPAARE.md`
+  - Erstellt die Uebergangspaar-Datenbasis fuer Stable, Stress und Expansion in 10k-After/Repro-Laeufen.
+- `540_10K_UEBERGANGSASYMMETRIE_REPRODUKTION.md`
+  - Wiederholt die gerichtete Uebergangsfrage auf den 10k-After/Repro-Laeufen. Ergebnis: `1t5bcxp -> 183drjy` bleibt rekoppelnd und drucksenkend, der Rueckweg bleibt oeffnend und strainnaeher; After/Repro reproduziert exakt.
+- `541_MCM_FELDBEWEGUNGS_MEMORY_UEBERGANGSASYMMETRIE.md`
+  - Uebertraegt die 10k-Uebergangsasymmetrie in die passive MCM-Feldbewegungs-Memory. Ergebnis: `1t5bcxp -> 183drjy` wird als `recurrently_reconnecting` gelesen, der Rueckweg als `recurrently_opening_strain`; Druck, Rekopplung, Strain und Lautheit bleiben passive Bewegungsqualitaeten, keine Handlung und kein Gate.
+- `542_MCM_FELDBEWEGUNGS_MEMORY_MEHRQUELLEN_UEBERGANGSRAUM.md`
+  - Laesst allgemeine Uebergangspaare, 10k-After/Repro-Paare und eine junge Late-Shift-Welt gemeinsam durch die passive Feldbewegungs-Memory laufen. Ergebnis: 219 Bewegungsraeume mit getrennten Qualitaeten `recurrently_reconnecting`, `recurrently_opening_strain`, `world_specific` und `young`.
+- `543_MCM_FELDBEWEGUNGS_MEMORY_MEHRQUELLEN_SYNTHESE.md`
+  - Verdichtet den 542er Befund. Ergebnis: `1t5bcxp -> 183drjy` bleibt die staerkste rekoppelnde Bewegung; der Rueckweg bleibt oeffnender, lauter und strainnaeher. Bedeutung liegt damit nicht nur in Inseln, sondern auch in gerichteter Feldbewegung zwischen Inseln.
 
 Hinweis:
 

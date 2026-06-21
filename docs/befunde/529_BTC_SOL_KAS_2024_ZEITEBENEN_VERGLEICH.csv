@@ -1,0 +1,4 @@
+asset,center_5m,center_15m,center_1h,center_delta_1h_vs_5m,open_delta_1h_vs_5m,rand_delta_1h_vs_5m,topology_5m,topology_15m,topology_1h,interpretation
+BTC2024,0.8280,0.8415,0.8119,-0.0160,0.0065,0.0095,zentrum_mit_rand_und_uebergang,zentrum_mit_rand_und_uebergang,zentrum_mit_rand_und_uebergang,1h_offener_randnaeher
+SOL2024,0.8074,0.8059,0.8059,-0.0015,0.0060,-0.0045,zentrum_mit_rand_und_uebergang,zentrum_mit_rand_und_uebergang,zentrum_mit_rand_und_uebergang,1h_stabil_etwas_offener
+KAS2024,0.8004,0.8004,0.7984,-0.0020,-0.0015,0.0035,zentrum_mit_rand_und_uebergang,zentrum_mit_rand_und_uebergang,zentrum_mit_rand_und_uebergang,1h_praktisch_gleich

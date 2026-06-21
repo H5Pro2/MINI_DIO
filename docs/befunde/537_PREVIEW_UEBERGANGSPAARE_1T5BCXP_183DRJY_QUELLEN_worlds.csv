@@ -1,0 +1,13 @@
+asset,timeframe,transition_count,top_pair,pressure_delta,sharpness_delta,rekopplung_delta
+BTC,15M,169,dio_mcm_episode_02xikfk->dio_mcm_episode_1t5bcxp (6/169),0.000792,0.005233,-0.001610
+BTC,1H,134,dio_mcm_episode_183drjy->dio_mcm_episode_1t5bcxp (14/134),0.004392,-0.020124,-0.005149
+BTC,5M,127,dio_mcm_episode_0y50lf3->dio_mcm_episode_17i4j9o (9/127),0.000465,-0.014070,-0.000483
+EXPANSION,10K,465,dio_mcm_episode_1t5bcxp->dio_mcm_episode_183drjy (38/465),0.000649,0.003851,0.000340
+KAS,15M,77,dio_mcm_episode_17i4j9o->dio_mcm_episode_0y50lf3 (3/77),0.004524,-0.000568,-0.003933
+KAS,1H,86,dio_mcm_episode_02xikfk->dio_mcm_episode_1t5bcxp (5/86),0.003770,-0.005031,-0.002017
+KAS,5M,58,dio_mcm_episode_02xikfk->dio_mcm_episode_1t5bcxp (3/58),0.002465,-0.043643,-0.001849
+SOL,15M,131,dio_mcm_episode_1t5bcxp->dio_mcm_episode_183drjy (12/131),0.003544,0.001381,-0.002489
+SOL,1H,171,dio_mcm_episode_1t5bcxp->dio_mcm_episode_183drjy (20/171),0.001408,0.005262,-0.000938
+SOL,5M,110,dio_mcm_episode_1slrx1m->dio_mcm_episode_1t5bcxp (7/110),0.005028,-0.037603,-0.005688
+STABLE,10K,423,dio_mcm_episode_1t5bcxp->dio_mcm_episode_183drjy (41/423),0.002264,-0.003015,-0.001841
+STRESS,10K,526,dio_mcm_episode_1t5bcxp->dio_mcm_episode_183drjy (36/526),0.001000,-0.007123,-0.001394

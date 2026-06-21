@@ -1,0 +1,9 @@
+condition,center_mean,open_mean,rand_mean,reproduction,interpretation
+QUIET2024,0.8085,0.1596,0.0319,identisch,ruhige_referenz_mit_uebergang
+STRESS2024,0.8404,0.1064,0.0532,identisch,mehr_rand_aber_staerker_zentriert
+POS_EXP2023,0.8249,0.1489,0.0262,identisch,expansion_bleibt_getragen
+EXT_EXP2023,0.8119,0.1479,0.0402,sehr_nah,extreme_expansion_erhoeht_rand_moderat
+NEG_STRESS2023,0.8421,0.1278,0.0302,sehr_nah,negativer_stress_rekoppelt_zentral
+NEG_STRESS2024,0.7958,0.1751,0.0292,identisch,negativer_stress_wird_eher_offen
+SIDEWAYS2024,0.8164,0.1585,0.0252,sehr_nah,seitwaerts_bleibt_ruhig_zentriert
+SIDEWAYS2026,0.8224,0.1504,0.0272,sehr_nah,seitwaerts_bleibt_ruhig_zentriert

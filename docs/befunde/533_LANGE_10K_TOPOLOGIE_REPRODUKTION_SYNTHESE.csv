@@ -1,0 +1,4 @@
+world,center_share,open_share,rand_share,after_repro_delta,dominant_preview,interpretation
+STABLE10K,0.8286,0.1279,0.0435,0.0000,dio_mcm_episode_183drjy,stabile_langwelt_exakt_reproduziert
+STRESS10K,0.8318,0.1278,0.0404,0.0000,dio_mcm_episode_183drjy,stress_langwelt_zentriert_reproduziert
+EXPANSION10K,0.8216,0.1390,0.0394,0.0000,dio_mcm_episode_183drjy,expansion_langwelt_etwas_offener_reproduziert

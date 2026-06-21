@@ -309,7 +309,11 @@ def _write_md(role_rows: list[dict[str, object]], summaries: list[dict[str, obje
             + " |"
         )
 
-    center_worlds = sum(1 for item in summaries if str(item["topology_state"]).startswith("zentrum"))
+    center_worlds = sum(
+        1
+        for item in summaries
+        if "zentrum" in str(item["topology_state"]) or "zentriert" in str(item["topology_state"])
+    )
     mixed_worlds = sum(1 for item in summaries if item["topology_state"] == "gemischte_rollenordnung")
     rand_worlds = sum(1 for item in summaries if item["topology_state"] == "randlastig_angespannt")
     lines.extend(
