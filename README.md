@@ -106,6 +106,63 @@ Es fragt zuerst:
 
 Damit ist MINI_DIO zuerst ein Forschungsinstrument für [MCM](https://github.com/H5Pro2/Mental-Core-Matrix-MCM)-basierte Wahrnehmung, kein Ausführungssystem.
 
+## Welche Möglichkeiten Sich Zeigen
+
+MINI_DIO ist noch kein fertiges KI-System. Der aktuelle Stand zeigt aber bereits Eigenschaften, die für MCM-basierte Systeme fachlich relevant sind:
+
+- **Innenfeld statt direkter Output**
+  Weltkontakt wird nicht sofort zu Handlung oder Antwort. Er erzeugt zuerst eine innere Feldlage mit Spannung, Rekopplung, Drift, Zentrum, Randnähe und Nachhall.
+
+- **Bedeutung aus Wiederkehr**
+  Wiederkehrende Weltwirkungen können sich zu Bedeutungsinseln verdichten. Bedeutung entsteht damit nicht nur aus einem externen Label, sondern aus wiederholter Feldwirkung.
+
+- **Getrennte Sinnesachsen**
+  Sehen, Hören und späteres Tasten werden nicht zu einem Datenbrei vermischt. Jede Sinnesachse besitzt eine eigene Aufnahmequalität und wirkt erst über Rezeptoren in das MCM-Feld.
+
+- **Rezeptorischer Feldschutz**
+  Das MCM-Feld wird nicht direkt mit Rohdaten überladen. Die Rezeptorschicht übersetzt Sinnesaufnahme in geordnete Feldwirkung und schützt damit vor Überkopplung.
+
+- **Lesbare Innenordnung**
+  In den bisherigen Welten entstehen zentrumsnahe Bereiche, offene Varianten, Rand-/Kippnähe und rekoppelnde Bewegungen. Diese Rollen werden nicht als feste Zielgeometrie programmiert, sondern nachträglich aus der Feldwirkung gelesen.
+
+- **Eigene Form-/Feldsyntax**
+  Die `dio_*`-Zeichen zeigen, dass MINI_DIO wiederkehrende Innenlagen in eigener Syntax verdichten kann. Besonders interessant ist, dass gleiche Welten reproduzierbare Zeichen- und Familienordnungen erzeugen.
+
+- **Gerichtete Feldbewegung**
+  Bedeutung liegt nicht nur in einzelnen Inseln. Die aktuellen Befunde zeigen auch gerichtete Bewegungen zwischen Inseln, zum Beispiel rekoppelnd/entlastend oder öffnend/belastend.
+
+## Wofür Das Interessant Werden Kann
+
+Die aktuelle Forschung ist nicht auf eine einzelne Datenart beschränkt. Die zeitlichen Kurswelten werden hier genutzt, weil sie Energie, Rhythmus, Bruch, Ruhe, Spannung und Wiederkehr liefern. Der eigentliche Kern ist die MCM-basierte Innenfeldorganisation.
+
+Mögliche Anwendungsrichtungen:
+
+- **Humanoide Robotik**
+  Ein Roboter könnte Kamera, Mikrofon, Drucksensorik, Bewegung und Kontakt nicht nur technisch fusionieren, sondern als innere Feldwirkung ordnen: Was ist gesehen, gehört, berührt, erinnert oder belastend?
+
+- **Adaptive Wahrnehmungssysteme**
+  Systeme könnten lernen, wann sie genauer hinsehen, leiser hören, Abstand bilden, Rauschen dämpfen oder Kontakt intensiver lesen, ohne dass jede Situation hart geregelt wird.
+
+- **Künstliche Körper- und Zustandswahrnehmung**
+  MCM kann als Modell dienen, um Überlastung, Rekopplung, Drift, Stabilität und Randspannung als innere Zustandsqualität lesbar zu machen.
+
+- **Semantische Verdichtung statt Rohdatenspeicher**
+  Ein System müsste nicht jede Einzelinformation gleichwertig speichern, sondern könnte wiederkehrende Feldwirkungen zu Bedeutungsräumen verdichten.
+
+- **Realitätsgebundene Bedeutung**
+  Bedeutung bleibt an Weltkontakt, Rezeptorik und Konsequenz rückgebunden. Das kann langfristig helfen, reine Sprach- oder Symbolbildung von realer Wahrnehmungsbindung zu unterscheiden.
+
+- **Passive Eigenregulation**
+  MINI_DIO zeigt Hinweise darauf, dass Feldordnung und Rekopplung passiv entstehen können. Das ist für Systeme relevant, die nicht nur entscheiden, sondern ihre Wahrnehmung erst tragfähig organisieren müssen.
+
+Die vorsichtige Arbeitsthese lautet:
+
+```text
+MCM kann eine Architektur für weltgekoppelte Innenfeldorganisation sein.
+```
+
+Das ist noch kein Beweis für allgemeine Intelligenz und kein Bewusstseinsnachweis. Es ist aber eine konkrete Forschungsrichtung für Systeme, die Weltkontakt nicht nur berechnen, sondern innerlich ordnen und Bedeutung daraus verdichten.
+
 ## Visuelle Übersicht
 
 Die folgenden Grafiken beschreiben MINI_DIO als Forschungsaufbau: von Wahrnehmungsreduktion über Zeichenbildung und semantische Kandidaten bis zur MCM-Topologie.
@@ -128,22 +185,22 @@ Die folgenden Grafiken beschreiben MINI_DIO als Forschungsaufbau: von Wahrnehmun
 
 MINI_DIO steht nicht isoliert. Es berührt mehrere bekannte Forschungsfelder:
 
-- **Active Inference / Free Energy Principle**  
+- **Active Inference / Free Energy Principle**
   Modelliert Wahrnehmung, Handlung und Selbstorganisation über Vorhersage, Unsicherheit und Minimierung freier Energie.
 
-- **Embodied AI und ökologische Wahrnehmung**  
+- **Embodied AI und ökologische Wahrnehmung**
   Untersucht Systeme, die über Sensorik, Körperbezug und Umweltkontakt lernen.
 
-- **Neuromorphe Systeme und Spiking Neural Networks**  
+- **Neuromorphe Systeme und Spiking Neural Networks**
   Arbeiten mit neuronennaher Verarbeitung, zeitlicher Dynamik und energieeffizienter Aktivität.
 
-- **Kognitive Architekturen wie OpenCog / OpenCog Hyperon**  
+- **Kognitive Architekturen wie OpenCog / OpenCog Hyperon**
   Versuchen künstliche Kognition über kombinierte Wissens-, Denk- und Entscheidungssysteme aufzubauen.
 
-- **Neuronale Simulatoren wie Nengo**  
+- **Neuronale Simulatoren wie Nengo**
   Ermöglichen den Bau großer neuronaler und kognitiver Modelle.
 
-- **Selbstorganisierende adaptive Systeme**  
+- **Selbstorganisierende adaptive Systeme**
   Untersuchen, wie Struktur, Gedächtnis und Verhalten aus interner Dynamik entstehen können.
 
 MINI_DIO ist mit diesen Feldern verwandt, setzt aber einen anderen Schwerpunkt:
@@ -238,6 +295,8 @@ Der aktuelle Forschungsstand zeigt:
 - eine unabhängige 1000er Late-Shift-Welt erzeugt bewusst keine künstlich gereifte Qualität: `02xikfk -> 1t5bcxp` wird als junge, breit driftende Spur gelesen. Das bestätigt die Trennschärfe der Feldbewegungs-Memory: wiederkehrende Bewegung wird verdichtet, Einzelkontakt bleibt jung,
 - die Feldbewegungs-Memory kann jetzt auch die 10k-Übergangsasymmetrie aufnehmen: `1t5bcxp -> 183drjy` wird als `recurrently_reconnecting` gelesen, der Rückweg als `recurrently_opening_strain`. Damit werden Druck, Rekopplung, Strain und Lautheit als passive Bewegungsqualität gespeichert, weiterhin ohne Handlung, Gate oder Strategie,
 - die Mehrquellen-Feldbewegungs-Memory erweitert diese Lesung auf 219 Bewegungsräume: `recurrently_reconnecting`, `recurrently_opening_strain`, `world_specific` und `young` bleiben getrennt sichtbar. Besonders `1t5bcxp -> 183drjy` bleibt als stärkste rekoppelnde Bewegung erhalten, während der Rückweg öffnender und strainnäher bleibt,
+- eine unabhängige 2025-2k-Weltgruppe aus BTC/SOL 5m/1h bestätigt die Rollenordnung, aber nicht dieselben Hauptnamen: alle vier Welten tragen `0e7qvj1` als dominanten Preview-Anker. Damit wird die Trennung klarer: Topologie kann stabil bleiben, während konkrete Syntaxanker weltabhängig entstehen,
+- die 2025-4k-Langweltprüfung bestätigt `0e7qvj1` als lokalen MCM-Bedeutungsanker für BTC/SOL 2025 5m Quiet/Stress: der Anker bleibt in Zentrum, offener Variante und Rand/Kippnähe dominant, während die Bewegungsumgebung breiter und stärker jung/öffnend wird,
 - die Achsen Fokus/Abstand, lauter/leiser, scharf/unscharf und Druck/Entspannung gehören nicht in diese Memory-Schicht; sie bilden eine getrennte rezeptorisch-regulatorische Wahrnehmungsschicht, die beschreibt, wie Informationen unterschiedlicher Asset- und Weltklassen in das MCM-Feld gelangen,
 - ältere Dateien mit `REGULATIONSQUALITAET` im Namen bleiben als Befundhistorie erhalten. Für den aktuellen Bauzustand gilt die neue Trennung: Feldbewegungs-Memory speichert Feldwirkung; rezeptorisch-regulatorische Wahrnehmung beschreibt Aufnahmequalität,
 - die strikte Trennung ist jetzt als Bauprinzip festgehalten: Das MCM-Feld bleibt einfach und behält seine passive Eigenregulation; reguliert wird nur die Aufnahme vor dem Feld, also wie Weltkontakt über Fokus/Abstand, lauter/leiser, scharf/unscharf und Druck/Entspannung am Feld ankommt,
@@ -707,6 +766,11 @@ Der aktuelle Mehrwelt-Vergleich zeigt zusätzlich:
 - Ein unabhängiges 2024-Jahr bestätigt die Trennung: das automatisch extrahierte Stressfenster wird `last_feldzeitnah`, das automatisch extrahierte Ruhefenster ruhenah gelesen.
 - Eine stressartige 2025-Welt enthält lokal beides: ein automatisch extrahiertes Stressfenster wird `lastnah`, ein Ruhefenster aus derselben Welt wird `ruhenah` gelesen.
 - Eine moderate Seitwärtswelt erzeugt keine neue Lastklasse: aktiveres und ruhiges Seitwärtsfenster werden beide `ruhig_feldzeitnah` gelesen.
+- Eine unabhaengige 2025-BTC/SOL-2k-Gegenprobe zeigt: die Topologie bleibt stabil, konkrete Bedeutungsanker koennen aber je Weltgruppe wechseln. In dieser Gruppe wird `dio_mcm_episode_0e7qvj1` sichtbar.
+- Eine laengere 2025-5m-4k-Pruefung mit BTC/SOL zeigt: `0e7qvj1` bleibt in Zentrum, offener Variante und Rand/Kippnaehe dominanter Preview-Anker.
+- Die 2025-SOL-10k-Pruefung verschiebt den Befund weiter: `0e7qvj1` bleibt stabiler lokaler Anker, aber die Bewegungsumgebung wird breiter. Damit wird nicht nur eine Insel sichtbar, sondern gerichtete MCM-Feldbewegung zwischen Inseln.
+- Besonders deutlich ist die Asymmetrie `0e7qvj1 -> 1hdpu9s` gegen `1hdpu9s -> 0e7qvj1`: Hinweg rekoppelt/entlastet, Rueckweg oeffnet/belastet. Das bleibt passive Feldbewegungs-Memory, keine Handlungsschicht.
+- Eine 2024-Gegenprobe mit BTC, SOL und KAS zeigt denselben zentrumsnahen Preview-Anker `0e7qvj1`, aber deutlich weniger gereifte Bewegungsdichte als die 2025-10k-Gruppe. Daraus folgt vorlaeufig: Rollenordnung und Anker koennen wiederkehren, waehrend Feldbewegungsreife von Weltlaenge, Weltgruppe und wiederholten Uebergaengen abhaengt.
 
 Das spricht für weltbezogene Innenfeldordnungen statt wahlloser Speicherung.
 

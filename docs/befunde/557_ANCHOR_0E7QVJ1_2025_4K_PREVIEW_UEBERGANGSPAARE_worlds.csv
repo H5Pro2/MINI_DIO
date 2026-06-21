@@ -1,0 +1,5 @@
+asset,timeframe,transition_count,top_pair,pressure_delta,sharpness_delta,rekopplung_delta
+BTC2025_5M_QUIET_4K,5m,135,dio_mcm_episode_1hdpu9s->dio_mcm_episode_0e7qvj1 (13/135),0.013544,-0.013917,-0.010282
+BTC2025_5M_STRESS_4K,5m,188,dio_mcm_episode_0e7qvj1->dio_mcm_episode_1hdpu9s (8/188),0.004422,0.006079,-0.003149
+SOL2025_5M_QUIET_4K,5m,111,dio_mcm_episode_1rylps5->dio_mcm_episode_0mji3u6 (4/111),0.004861,-0.004064,-0.003367
+SOL2025_5M_STRESS_4K,5m,202,dio_mcm_episode_1hdpu9s->dio_mcm_episode_0e7qvj1 (19/202),0.006010,0.011841,-0.005983

@@ -1,0 +1,4 @@
+asset,timeframe,transition_count,top_pair,pressure_delta,sharpness_delta,rekopplung_delta
+BTC,2024_5M_2K,101,dio_mcm_episode_0mji3u6->dio_mcm_episode_0e7qvj1 (5/101),0.004817,-0.025822,-0.004084
+KAS,2024_5M_2K,68,dio_mcm_episode_1jx2k4i->dio_mcm_episode_1ahj81f (3/68),0.007497,-0.037675,-0.005437
+SOL,2024_5M_2K,72,dio_mcm_episode_0lne9ax->dio_mcm_episode_0jbl5pq (3/72),0.005093,-0.002714,-0.007646

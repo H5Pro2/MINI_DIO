@@ -429,6 +429,46 @@ Besonders relevant fuer den aktuellen Bauplanstand:
   - Laesst allgemeine Uebergangspaare, 10k-After/Repro-Paare und eine junge Late-Shift-Welt gemeinsam durch die passive Feldbewegungs-Memory laufen. Ergebnis: 219 Bewegungsraeume mit getrennten Qualitaeten `recurrently_reconnecting`, `recurrently_opening_strain`, `world_specific` und `young`.
 - `543_MCM_FELDBEWEGUNGS_MEMORY_MEHRQUELLEN_SYNTHESE.md`
   - Verdichtet den 542er Befund. Ergebnis: `1t5bcxp -> 183drjy` bleibt die staerkste rekoppelnde Bewegung; der Rueckweg bleibt oeffnender, lauter und strainnaeher. Bedeutung liegt damit nicht nur in Inseln, sondern auch in gerichteter Feldbewegung zwischen Inseln.
+- `544_INDEPENDENT_BTC2025_5M_2K_FORSCHUNGSKETTE.md` bis `547_INDEPENDENT_SOL2025_1H_2K_FORSCHUNGSKETTE.md`
+  - Fuehren eine unabhaengige kompakte 2025-Weltgruppe mit BTC/SOL in 5m und 1h aus. Ergebnis: Top-Syntax und Top-Familien reproduzieren sich innerhalb jeder Welt exakt zwischen Lauf 1 und Lauf 2.
+- `548_INDEPENDENT_2025_2K_WELTRELATIVE_TOPOLOGIE_MATRIX.md`
+  - Legt die weltrelative Topologie-Matrix auf die unabhaengige 2025-2k-Gruppe. Ergebnis: drei Welten sind `stark_zentriert_wenig_rand`, eine ist `gemischte_rollenordnung`; alle tragen `0e7qvj1` als dominanten Preview-Anker.
+- `549_INDEPENDENT_2025_2K_PREVIEW_UEBERGANGSPAARE.md`
+  - Erstellt die Preview-Uebergangspaare fuer die unabhaengige 2025-2k-Gruppe.
+- `550_INDEPENDENT_2025_2K_MCM_FELDBEWEGUNGS_MEMORY.md`
+  - Fuehrt diese Uebergangspaare durch die passive Feldbewegungs-Memory. Ergebnis: 120 Bewegungsraeume; 63 bleiben jung, 27 werden rekoppelnd gelesen, 23 oeffnend/strainnah und 7 world-specific.
+- `551_UNABHAENGIGE_2025_2K_WELTGRUPPE_SYNTHESE.md`
+  - Verdichtet die unabhaengige Gegenprobe. Ergebnis: Die Topologie bleibt stabil, aber die konkreten Anker wechseln. `0e7qvj1 -> 1hdpu9s` wirkt rekoppelnd, der Rueckweg oeffnend/strainnah. Damit wird sichtbar: Rollenordnung kann stabil bleiben, waehrend konkrete Bedeutungsanker weltabhaengig entstehen.
+- `552_ANCHOR_0E7QVJ1_BTC2025_5M_QUIET_4K_FORSCHUNGSKETTE.md` bis `555_ANCHOR_0E7QVJ1_SOL2025_5M_STRESS_4K_FORSCHUNGSKETTE.md`
+  - Pruefen den lokalen Anker `0e7qvj1` in laengeren BTC/SOL-2025-5m-Quiet-/Stresswelten. Ergebnis: Top-Syntax und Top-Familien reproduzieren sich je Welt erneut exakt.
+- `556_ANCHOR_0E7QVJ1_2025_4K_TOPOLOGIE_MATRIX.md`
+  - Legt die Topologie-Matrix auf die 2025-4k-Ankerwelten. Ergebnis: `0e7qvj1` bleibt in Zentrum, offener Variante und Rand/Kippnaehe dominanter Preview-Anker.
+- `557_ANCHOR_0E7QVJ1_2025_4K_PREVIEW_UEBERGANGSPAARE.md`
+  - Erstellt die Uebergangspaare fuer die 2025-4k-Ankerwelten.
+- `558_ANCHOR_0E7QVJ1_2025_4K_MCM_FELDBEWEGUNGS_MEMORY.md`
+  - Fuehrt die 2025-4k-Uebergaenge durch die passive Feldbewegungs-Memory. Ergebnis: 160 Bewegungsraeume; viele bleiben jung, gleichzeitig bleibt `0e7qvj1 <-> 1hdpu9s` als asymmetrisches Bewegungsfeld sichtbar.
+- `559_ANCHOR_0E7QVJ1_2025_4K_LANGWELT_SYNTHESE.md`
+  - Verdichtet den 4k-Befund. Ergebnis: `0e7qvj1` wirkt nicht wie ein Zufallsname, sondern wie ein lokaler MCM-Bedeutungsanker dieser 2025-5m-Weltgruppe; bei laengerer Welt wird seine Bewegungsumgebung breiter.
+- `560_ANCHOR_2025_MODERATE_POSITIVE_10K_FORSCHUNGSKETTE.md` bis `563_ANCHOR_2025_LATE_NEGATIVE_10K_FORSCHUNGSKETTE.md`
+  - Fuehren vier 2025-SOL-10k-Welten mit zwei reproduzierenden Laeufen aus. Ergebnis: jede Welt reproduziert Top-Syntax und Top-Familien erneut exakt.
+- `564_ANCHOR_2025_10K_TOPOLOGIE_MATRIX.md`
+  - Legt die weltrelative Topologie-Matrix auf die 2025-SOL-10k-Weltgruppe. Ergebnis: alle vier Welten bleiben `stark_zentriert_wenig_rand`; `0e7qvj1` bleibt in Zentrum, offener Variante und Rand/Kippnaehe dominanter Preview-Anker.
+- `565_ANCHOR_2025_10K_PREVIEW_UEBERGANGSPAARE.md`
+  - Erstellt die Preview-Uebergangspaare fuer die 2025-SOL-10k-Weltgruppe.
+- `566_ANCHOR_2025_10K_MCM_FELDBEWEGUNGS_MEMORY.md`
+  - Fuehrt die 2025-SOL-10k-Uebergaenge durch die passive Feldbewegungs-Memory. Ergebnis: 160 Bewegungsraeume; `0e7qvj1 -> 1hdpu9s` wirkt rekoppelnd/entlastend, der Rueckweg oeffnend/belastend.
+- `567_ANCHOR_2025_10K_LANGWELT_SYNTHESE.md`
+  - Verdichtet den 10k-Befund. Ergebnis: `0e7qvj1` bleibt stabiler lokaler Anker, aber seine Bewegungsumgebung wird breiter; MINI_DIO traegt damit nicht nur Inseln, sondern gerichtete Feldbewegung zwischen Inseln.
+- `568_CROSS_ANCHOR_BTC2024_5M_2K_FORSCHUNGSKETTE.md` bis `570_CROSS_ANCHOR_KAS2024_5M_2K_FORSCHUNGSKETTE.md`
+  - Fuehren eine 2024-5m-2k-Gegenprobe mit BTC, SOL und KAS aus. Ergebnis: jede Welt reproduziert Top-Syntax und Top-Familien exakt.
+- `571_CROSS_ANCHOR_2024_5M_2K_TOPOLOGIE_MATRIX.md`
+  - Legt die weltrelative Topologie-Matrix auf BTC/SOL/KAS 2024-5m-2k. Ergebnis: BTC und KAS bleiben `stark_zentriert_wenig_rand`, SOL ist gemischter; `0e7qvj1` erscheint auch 2024 als zentrumsnaher Preview-Anker.
+- `572_CROSS_ANCHOR_2024_5M_2K_PREVIEW_UEBERGANGSPAARE.md`
+  - Erstellt die Preview-Uebergangspaare fuer die 2024-5m-2k-Gegenprobe.
+- `573_CROSS_ANCHOR_2024_5M_2K_MCM_FELDBEWEGUNGS_MEMORY.md`
+  - Fuehrt die 2024-5m-2k-Uebergaenge durch die passive Feldbewegungs-Memory. Ergebnis: viele Spuren bleiben jung, aber zentrale rekoppelnde und oeffnende Bewegungen sind bereits sichtbar.
+- `574_CROSS_ANCHOR_2024_5M_2K_GEGEN_2025_10K_SYNTHESE.md`
+  - Verdichtet 2024 gegen 2025. Ergebnis: Rollenordnung und `0e7qvj1`-Zentrumsanker koennen wiederkehren; die Feldbewegungsreife ist in der laengeren 2025-10k-Gruppe deutlich breiter.
 
 Hinweis:
 
