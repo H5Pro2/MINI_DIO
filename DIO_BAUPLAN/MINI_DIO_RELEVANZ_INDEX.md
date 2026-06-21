@@ -375,6 +375,12 @@ Besonders relevant fuer den aktuellen Bauplanstand:
   - Prueft BTC/SOL 2025 gegen die bisherige Assetprofil-Matrix. Ergebnis: Hoertrag bleibt uebergreifend stabil; SOL/KAS bleiben auch im Bedarf abstandsnah, BTC verschiebt den Bedarf in den 2025er Quellen von Fokus zu Abstand.
 - `491_BTC2025_BEDARFSVERSCHIEBUNG_LOKAL.md`
   - Liest die BTC-2025-Verschiebung lokal gegen BTC-2024. Ergebnis: Die Verschiebung liegt nicht grob in mehr Roh-Abstandsaufnahme; die Sinnesachsen bleiben relativ nah. BTC-2025 bleibt hoergetragen, verarbeitet die Lage aber staerker als Abstand/Kontaktentlastung.
+- `492_BTC2025_5M_QUIET_4K_SINNESACHSEN_EPISODENKARTE.md` bis `495_BTC2025_5M_QUIET_4K_REGULATIONSVORSCHLAG.md`
+  - Liest einen ruhigeren BTC-2025-5m-Abschnitt als Abschnittsgegenprobe. Ergebnis: Die Innenlage bleibt ueberwiegend stabil und hoergetragen; der Bedarf bleibt abstandsnah.
+- `496_BTC2025_5M_STRESS_4K_SINNESACHSEN_EPISODENKARTE.md` bis `499_BTC2025_5M_STRESS_4K_REGULATIONSVORSCHLAG.md`
+  - Liest einen belasteteren BTC-2025-5m-Abschnitt als zweite Abschnittsgegenprobe. Ergebnis: Stress liegt etwas drucknaeher und etwas weniger stabil als Quiet, bleibt aber ebenfalls hoergetragen und abstandsnah.
+- `500_BTC2025_ABSCHNITTSGEGENPROBE.md`
+  - Vergleicht BTC-2025-Gesamtquellen mit Quiet-/Stress-Abschnitten. Ergebnis: Die Abstandsnaehe reproduziert sich abschnittsuebergreifend; Kontaktentlastung ist die Druckfaerbung, nicht der dominante Bedarf.
 
 Hinweis:
 
