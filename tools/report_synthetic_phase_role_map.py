@@ -58,6 +58,11 @@ def _phase_for_tick(tick: int, phases: tuple[tuple[str, int], ...]) -> str:
     return phases[-1][0]
 
 
+def _scale_phases(phases: tuple[tuple[str, int], ...], phase_scale: float) -> tuple[tuple[str, int], ...]:
+    scale = max(0.05, float(phase_scale or 1.0))
+    return tuple((name, max(1, int(round(length * scale)))) for name, length in phases)
+
+
 def _role(row: dict[str, str]) -> str:
     rec = _float(row, "mcm_rekopplung_quality")
     carry = _float(row, "mcm_carry_quality")
@@ -76,8 +81,12 @@ def _avg(values: list[float]) -> float:
     return sum(values) / max(1, len(values))
 
 
-def build_report(episodes_csv: Path, preset: str) -> tuple[list[dict[str, object]], dict[str, Counter]]:
-    phases = PRESETS[preset]
+def build_report(
+    episodes_csv: Path,
+    preset: str,
+    phase_scale: float = 1.0,
+) -> tuple[list[dict[str, object]], dict[str, Counter]]:
+    phases = _scale_phases(PRESETS[preset], phase_scale)
     grouped: dict[str, list[dict[str, str]]] = defaultdict(list)
     with episodes_csv.open(newline="", encoding="utf-8") as handle:
         for row in csv.DictReader(handle):
@@ -150,12 +159,18 @@ def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--episodes", required=True)
     parser.add_argument("--preset", choices=sorted(PRESETS), required=True)
+    parser.add_argument(
+        "--phase-scale",
+        type=float,
+        default=1.0,
+        help="Scale phase lengths to match synthetically compacted or stretched worlds.",
+    )
     parser.add_argument("--out", required=True)
     parser.add_argument("--csv-out", required=True)
     parser.add_argument("--title", default="Synthetische Phasenrollen")
     args = parser.parse_args()
 
-    phase_rows, phase_roles = build_report(Path(args.episodes), args.preset)
+    phase_rows, phase_roles = build_report(Path(args.episodes), args.preset, args.phase_scale)
     write_outputs(phase_rows, phase_roles, Path(args.out), Path(args.csv_out), args.title)
     print(f"wrote {args.out}")
     print(f"wrote {args.csv_out}")

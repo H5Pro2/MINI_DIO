@@ -50,6 +50,17 @@ PRESETS = {
 }
 
 
+def _scale_phases(
+    phases: tuple[tuple[str, int, float, float, float, float], ...],
+    phase_scale: float,
+) -> tuple[tuple[str, int, float, float, float, float], ...]:
+    scale = max(0.05, float(phase_scale or 1.0))
+    return tuple(
+        (name, max(1, int(round(length * scale))), drift, wave, noise, volume_scale)
+        for name, length, drift, wave, noise, volume_scale in phases
+    )
+
+
 def _phase_at(index: int, phases: tuple[tuple[str, int, float, float, float, float], ...]) -> tuple[str, int, float, float, float, float, int]:
     offset = 0
     for phase in phases:
@@ -61,8 +72,15 @@ def _phase_at(index: int, phases: tuple[tuple[str, int, float, float, float, flo
     return name, length, drift, wave, noise, volume_scale, length - 1
 
 
-def build_rows(rows: int, start_price: float, symbol: str, timeframe: str, preset: str) -> list[dict[str, object]]:
-    phases = PRESETS[preset]
+def build_rows(
+    rows: int,
+    start_price: float,
+    symbol: str,
+    timeframe: str,
+    preset: str,
+    phase_scale: float = 1.0,
+) -> list[dict[str, object]]:
+    phases = _scale_phases(PRESETS[preset], phase_scale)
     timestamp = 1_704_067_200_000
     step_ms = 300_000
     price = start_price
@@ -144,10 +162,16 @@ def main() -> int:
     parser.add_argument("--symbol", default="SYNMCM")
     parser.add_argument("--timeframe", default="5m")
     parser.add_argument("--preset", choices=sorted(PRESETS), default="harmonic")
+    parser.add_argument(
+        "--phase-scale",
+        type=float,
+        default=1.0,
+        help="Scale only phase lengths. Use this to build compact/stretched versions of the same form sequence.",
+    )
     parser.add_argument("--output", required=True)
     args = parser.parse_args()
 
-    rows = build_rows(args.rows, args.start_price, args.symbol, args.timeframe, args.preset)
+    rows = build_rows(args.rows, args.start_price, args.symbol, args.timeframe, args.preset, args.phase_scale)
     path = Path(args.output)
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", newline="", encoding="utf-8") as handle:

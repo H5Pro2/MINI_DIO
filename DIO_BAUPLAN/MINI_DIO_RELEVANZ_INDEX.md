@@ -657,6 +657,42 @@ Besonders relevant fuer den aktuellen Bauplanstand:
   - Lesen die korrigierten synthetischen Welten gegen Rezeptorachsen. Ergebnis: Reizlast bleibt sichtbar, wird aber ueber adaptierte Feldaufnahme begrenzt.
 - `693_SYNTH_ADAPTED_FIELD_TOPOLOGIE_SYNTHESE.md`
   - Verdichtet die korrigierte synthetische Pruefung. Ergebnis: Topologie verschwindet nicht; sie wird sauberer als Innenfeldwirkung statt Rohlast gelesen.
+- `694_PAXG2024_5M_10K_ADAPTED_FIELD_FORSCHUNGSKETTE.md`, `695_DOGE2024_5M_10K_ADAPTED_FIELD_FORSCHUNGSKETTE.md` und `696_XRP2024_5M_10K_ADAPTED_FIELD_FORSCHUNGSKETTE.md`
+  - Erweitern die korrigierte Feldkopplung auf weitere Asset-Welten. Ergebnis: PAXG ist deutlich zentrumsnaeher, DOGE/XRP bilden mehr offene Variante, Reproduktion bleibt in Top-Syntax und Top-Familien stabil.
+- `697_ADAPTED_FIELD_ASSET_REZEPTORACHSEN_VERGLEICH.md`
+  - Vergleicht BTC/SOL/KAS/PAXG/DOGE/XRP gegen Rezeptorachsen und Hochlastfenster. Ergebnis: Adaptionsratio bleibt ueber alle geprueften Welten eng bei ca. `0.85`; Hochlast wird nicht geloescht, sondern begrenzt ins Feld uebertragen.
+- `698_ADAPTED_FIELD_ASSET_TOPOLOGIE_MATRIX.md`
+  - Liest dieselben Welten als Rollen-Topologie. Ergebnis: Zentrum, offene Variante und kleine Rand-/Kippbereiche bleiben sichtbar; PAXG ist am staerksten zentriert, DOGE/XRP bleiben gemischt.
+- `699_ADAPTED_FIELD_ASSET_TOPOLOGIE_SYNTHESE.md`
+  - Verdichtet den Cross-Asset-Befund nach adaptierter Feldkopplung. Ergebnis: Die MCM-Topologie bleibt erhalten, aber Rohaufnahme wird nicht mehr direkt als Feldspannung gelesen.
+- `700_SIDEWAYS2024_5M_10K_ADAPTED_FIELD_FORSCHUNGSKETTE.md`, `701_NEGATIVE_STRESS2024_5M_10K_ADAPTED_FIELD_FORSCHUNGSKETTE.md` und `702_POSITIVE_EXPANSION2023_5M_10K_ADAPTED_FIELD_FORSCHUNGSKETTE.md`
+  - Ziehen verschiedene Weltzustaende nach adaptierter Feldkopplung neu nach. Ergebnis: alle drei reproduzieren Top-Syntax und Top-Familien stabil; Sideways zeigt mehr offene Variante, Positive Expansion mehr lokale Kippnaehe.
+- `703_ADAPTED_FIELD_ZUSTANDS_REZEPTORACHSEN_VERGLEICH.md`
+  - Vergleicht Sideways, Negative Stress und Positive Expansion gegen Rezeptorachsen und Hochlastfenster. Ergebnis: Adaptionsratio bleibt eng bei ca. `0.85`; Hochlast bleibt sichtbar, wird aber begrenzt ins Feld uebertragen.
+- `704_ADAPTED_FIELD_ZUSTANDS_TOPOLOGIE_MATRIX.md`
+  - Liest dieselben Weltzustaende als Rollen-Topologie. Ergebnis: Negative Stress ist global am staerksten zentriert, Positive Expansion zeigt im Hochlastfenster die staerkste Rand-/Kippnaehe.
+- `705_ADAPTED_FIELD_ZUSTANDS_TOPOLOGIE_SYNTHESE.md`
+  - Verdichtet den Zustandsbefund. Ergebnis: MINI_DIO liest Weltzustand nicht linear als `Stress = Last`, sondern ueber Achsenkombinationen aus Hoeren, Sehen, Rezeptoraufnahme und adaptierter Feldkopplung.
+- `706_BTC2024_1H_2K_ADAPTED_FIELD_FORSCHUNGSKETTE.md`, `707_SOL2024_1H_2K_ADAPTED_FIELD_FORSCHUNGSKETTE.md` und `708_KAS2024_1H_2K_ADAPTED_FIELD_FORSCHUNGSKETTE.md`
+  - Ziehen BTC/SOL/KAS in 1h-Aufloesung nach adaptierter Feldkopplung nach. Ergebnis: Top-Syntax und Top-Familien bleiben stabil reproduzierbar; 1h veraendert Carry/Rekopplung leicht, aber zerlegt die Topologie nicht.
+- `709_PAXG2024_1H_10K_ADAPTED_FIELD_FORSCHUNGSKETTE.md`, `710_DOGE2024_1H_10K_ADAPTED_FIELD_FORSCHUNGSKETTE.md` und `711_XRP2024_1H_10K_ADAPTED_FIELD_FORSCHUNGSKETTE.md`
+  - Ziehen PAXG/DOGE/XRP in 1h-Aufloesung nach adaptierter Feldkopplung nach. Ergebnis: Reproduktion bleibt stabil; PAXG wird in 1h offener, DOGE bleibt fast unveraendert, XRP wird zentrumsnaeher.
+- `712_ADAPTED_FIELD_ZEITAUFLOESUNG_REZEPTORACHSEN_VERGLEICH.md`
+  - Vergleicht 5m und 1h ueber BTC/SOL/KAS/PAXG/DOGE/XRP gegen Rezeptorachsen. Ergebnis: Adaptionsratio bleibt eng bei ca. `0.85`; Hochlastfenster bleiben sichtbar.
+- `713_ADAPTED_FIELD_ZEITAUFLOESUNG_TOPOLOGIE_MATRIX.md`
+  - Liest 5m und 1h als Rollen-Topologie. Ergebnis: keine pauschale 1h-Verzerrung; Zentrum/Offen/Rand bleiben als Rollenordnung erhalten.
+- `714_ADAPTED_FIELD_ZEITAUFLOESUNG_TOPOLOGIE_SYNTHESE.md`
+  - Verdichtet den Zeitaufloesungsbefund. Ergebnis: Topologie haengt im aktuellen Test nicht direkt an Kerzenfrequenz, sondern an der MCM-Feldwirkung nach Wahrnehmung und Rezeptoradaptation.
+- `715_SYNTH_ZEITDEHNUNG_KOMPAKT_ADAPTED_FIELD_FORSCHUNGSKETTE.md` und `716_SYNTH_ZEITDEHNUNG_GEDEHNT_ADAPTED_FIELD_FORSCHUNGSKETTE.md`
+  - Ziehen dieselbe synthetische Bruch-/Randwelt in kompakter und gedehnter Phasenform nach. Ergebnis: beide Varianten bleiben reproduzierbar, gedehnte Zeit zeigt mehr Carry/Rekopplung.
+- `717_SYNTH_ZEITDEHNUNG_REZEPTORACHSEN_VERGLEICH.md`
+  - Vergleicht kompakte und gedehnte Zeitwelt gegen Rezeptorachsen. Ergebnis: kompakte Zeit erzeugt staerkere offene Hochlastfenster; gedehnte Zeit wird insgesamt zentrumsnaeher aufgenommen.
+- `718_SYNTH_ZEITDEHNUNG_TOPOLOGIE_MATRIX.md`
+  - Liest kompakte und gedehnte Zeitwelt als Rollen-Topologie. Ergebnis: globale Topologie bleibt fast identisch stark zentriert; Zeitdehnung zerlegt die Rollenordnung nicht.
+- `719_SYNTH_ZEITDEHNUNG_KOMPAKT_PHASENROLLEN.md` und `720_SYNTH_ZEITDEHNUNG_GEDEHNT_PHASENROLLEN.md`
+  - Lesen die Zeitwelten phasenweise. Ergebnis: `randflackern` bleibt die aktive offene Phase, wird bei gedehnter Zeit aber deutlich staerker zentrums- und rekopplungsnah integriert.
+- `721_SYNTH_ZEITDEHNUNG_TOPOLOGIE_SYNTHESE.md`
+  - Verdichtet die kontrollierte Zeitdehnungspruefung. Ergebnis: Zeit wirkt im Feld nicht nur als aeussere Abfolge, sondern als Integrationsqualitaet; gedehnte gleiche Form kann mehr Rekopplung und Zentrum tragen.
 
 Hinweis:
 
