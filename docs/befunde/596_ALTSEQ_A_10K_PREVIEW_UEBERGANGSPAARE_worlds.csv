@@ -1,0 +1,4 @@
+asset,timeframe,transition_count,top_pair,pressure_delta,sharpness_delta,rekopplung_delta
+ALTSEQ,2023_A_10K,507,dio_mcm_episode_0e7qvj1->dio_mcm_episode_1hdpu9s (27/507),0.006877,0.009390,-0.005670
+ALTSEQ,2024_A_10K,288,dio_mcm_episode_0gqol8d->dio_mcm_episode_1jwnjz4 (15/288),0.010677,-0.000450,-0.008038
+ALTSEQ,2025_A_10K,389,dio_mcm_episode_1hdpu9s->dio_mcm_episode_0e7qvj1 (17/389),0.009407,-0.011633,-0.007166

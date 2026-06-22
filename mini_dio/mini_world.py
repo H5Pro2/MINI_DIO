@@ -196,10 +196,10 @@ def _build_receptor_senses(sehen: dict, hoeren: dict) -> dict:
         0.0,
         0.42,
     )
-    # This is diagnostic only: the MCM field receives receptor intake, while
-    # organism adaptation stays observable as an ability state.
+    # Raw intake stays diagnostic. The MCM field receives the adapted receptor
+    # intake so world pressure does not enter the field as unfiltered raw load.
     adapted_field_intake_pressure = _clip(raw_field_intake_pressure * (1.0 - adaptation_potential), 0.0, 1.0)
-    field_intake_pressure = raw_field_intake_pressure
+    field_intake_pressure = adapted_field_intake_pressure
     contact_asymmetry = _clip(
         (form_flow * 0.40)
         + (form_change * 0.22)

@@ -469,6 +469,194 @@ Besonders relevant fuer den aktuellen Bauplanstand:
   - Fuehrt die 2024-5m-2k-Uebergaenge durch die passive Feldbewegungs-Memory. Ergebnis: viele Spuren bleiben jung, aber zentrale rekoppelnde und oeffnende Bewegungen sind bereits sichtbar.
 - `574_CROSS_ANCHOR_2024_5M_2K_GEGEN_2025_10K_SYNTHESE.md`
   - Verdichtet 2024 gegen 2025. Ergebnis: Rollenordnung und `0e7qvj1`-Zentrumsanker koennen wiederkehren; die Feldbewegungsreife ist in der laengeren 2025-10k-Gruppe deutlich breiter.
+- `575_CROSS_ANCHOR_2024_MODERATE_SIDEWAYS_10K_FORSCHUNGSKETTE.md` bis `578_CROSS_ANCHOR_2024_LATE_POSITIVE_10K_FORSCHUNGSKETTE.md`
+  - Fuehren vier 2024-SOL-10k-Gegenwelten aus. Ergebnis: alle Welten reproduzieren Top-Syntax und Top-Familien exakt.
+- `579_CROSS_ANCHOR_2024_10K_TOPOLOGIE_MATRIX.md`
+  - Legt die Topologie-Matrix auf die 2024-SOL-10k-Gegenwelten. Ergebnis: alle vier bleiben `stark_zentriert_wenig_rand`; `0e7qvj1` dominiert Zentrum, offene Variante und Rand/Kippnaehe.
+- `580_CROSS_ANCHOR_2024_10K_PREVIEW_UEBERGANGSPAARE.md`
+  - Erstellt die Preview-Uebergangspaare fuer die 2024-SOL-10k-Gegenwelten.
+- `581_CROSS_ANCHOR_2024_10K_MCM_FELDBEWEGUNGS_MEMORY.md`
+  - Fuehrt die 2024-SOL-10k-Uebergaenge durch die passive Feldbewegungs-Memory. Ergebnis: `0e7qvj1 -> 1hdpu9s` wird erneut rekoppelnd/entlastend gelesen, der Rueckweg oeffnend/belastend.
+- `582_CROSS_ANCHOR_2024_10K_GEGEN_2025_10K_SYNTHESE.md`
+  - Verdichtet 2024-10k gegen 2025-10k. Ergebnis: Nicht nur der Anker, sondern auch die gerichtete Feldbewegungsasymmetrie reproduziert sich in SOL-10k-Welten.
+- `583_CROSS_ANCHOR_BTC2024_5M_10K_FORSCHUNGSKETTE.md` und `584_CROSS_ANCHOR_BTC2025_5M_10K_FORSCHUNGSKETTE.md`
+  - Fuehren BTC-2024/2025-5m-10k-Welten aus. Ergebnis: beide Welten reproduzieren Top-Syntax und Top-Familien exakt.
+- `585_CROSS_ANCHOR_BTC_5M_10K_TOPOLOGIE_MATRIX.md`
+  - Legt die Topologie-Matrix auf BTC-5m-10k. Ergebnis: beide BTC-Welten bleiben `stark_zentriert_wenig_rand`; `0e7qvj1` dominiert Zentrum, offene Variante und Rand/Kippnaehe.
+- `586_CROSS_ANCHOR_BTC_5M_10K_PREVIEW_UEBERGANGSPAARE.md`
+  - Erstellt die Preview-Uebergangspaare fuer BTC-5m-10k.
+- `587_CROSS_ANCHOR_BTC_5M_10K_MCM_FELDBEWEGUNGS_MEMORY.md`
+  - Fuehrt BTC-5m-10k durch die passive Feldbewegungs-Memory. Ergebnis: `0e7qvj1` bleibt Anker; BTC koppelt staerker ueber `1jwnjz4`, waehrend `1hdpu9s` als sekundaere Achse sichtbar bleibt.
+- `588_CROSS_ANCHOR_BTC_5M_10K_GEGEN_SOL_10K_SYNTHESE.md`
+  - Verdichtet BTC gegen SOL. Ergebnis: Die MCM-Rollenbewegung bleibt qualitativ stabil, aber die konkrete Nachbarschaft ist assetabhaengig.
+- `589_BTC_SOL_10K_MEHRQUELLEN_MCM_FELDBEWEGUNGS_MEMORY.md`
+  - Verdichtet BTC- und SOL-10k-Uebergangspaare gemeinsam in der passiven Feldbewegungs-Memory. Ergebnis: 339 Bewegungsachsen mit getrennten Qualitaeten `recurrently_reconnecting`, `recurrently_opening_strain`, `young` und `world_specific`.
+- `590_BTC_SOL_10K_MEHRQUELLEN_BEWEGUNGSACHSEN_SYNTHESE.md`
+  - Liest die Mehrquellen-Memory als gerichtete MCM-Bewegungsachsen. Ergebnis: `0e7qvj1 -> 1hdpu9s` bleibt stark rekoppelnd/entlastend, der Rueckweg oeffnend/belastend; `0e7qvj1 <-> 1jwnjz4` zeigt dieselbe Asymmetrie als BTC-naehere Nachbarschaft.
+- `591_BTC_SOL_10K_TOPOLOGISCHE_BEWEGUNGSROLLEN.md`
+  - Liest dieselben BTC/SOL-10k-Uebergaenge als topologische Rollenbewegung. Ergebnis: `zentrum_stabil->zentrum_stabil` ist die haeufigste dominante Bewegungsrolle; belastendere Rueck-/Oeffnungsbewegungen fuehren eher in `zentrum_stabil->offene_variante`.
+- `592_ALTSEQ_2023_A_10K_FORSCHUNGSKETTE.md` bis `594_ALTSEQ_2025_A_10K_FORSCHUNGSKETTE.md`
+  - Fuehren drei bewusst andere Altseq-A-10k-Welten aus. Ergebnis: alle drei Welten reproduzieren Top-Syntax und Top-Familien je Welt exakt.
+- `595_ALTSEQ_A_10K_TOPOLOGIE_MATRIX.md`
+  - Legt die Topologie-Matrix auf Altseq-A-10k. Ergebnis: alle drei Welten bleiben zentrumsnah; `0e7qvj1` dominiert Zentrum, offene Variante und Rand/Kippnaehe.
+- `596_ALTSEQ_A_10K_PREVIEW_UEBERGANGSPAARE.md`
+  - Erstellt die Preview-Uebergangspaare fuer Altseq-A-10k.
+- `597_ALTSEQ_A_10K_MCM_FELDBEWEGUNGS_MEMORY.md`
+  - Fuehrt Altseq-A-10k durch die passive Feldbewegungs-Memory. Ergebnis: `0e7qvj1 -> 1hdpu9s` und der Rueckweg bleiben als rekoppelnde bzw. oeffnende Achsen sichtbar.
+- `598_ALTSEQ_A_10K_TOPOLOGISCHE_BEWEGUNGSROLLEN.md`
+  - Liest Altseq-A-10k als Rollenbewegung. Ergebnis: `zentrum_stabil->zentrum_stabil` bleibt die haeufigste dominante Bewegungsrolle; Altseq wirkt wie Sequenzfaerbung, nicht wie Topologiebruch.
+- `599_ALTSEQ_A_10K_GEGEN_BTC_SOL_10K_ROLLENBEWEGUNG_SYNTHESE.md`
+  - Vergleicht Altseq-A-10k gegen BTC/SOL-10k. Ergebnis: Die gerichtete Rollenasymmetrie bleibt erhalten; der Befund prueft Sequenzvariation, ersetzt aber noch keine dritte laengere Assetklasse.
+- `600_PAXG2024_5M_10K_FORSCHUNGSKETTE.md` und `601_PAXG2025_5M_10K_FORSCHUNGSKETTE.md`
+  - Fuehren PAXG/USDT als goldnahe 5m-10k-Gegenwelt aus. Ergebnis: beide Welten reproduzieren Top-Syntax und Top-Familien exakt und zeigen hoehere Rekopplung sowie weniger Strain als viele BTC/SOL-Welten.
+- `602_PAXG_5M_10K_TOPOLOGIE_MATRIX.md`
+  - Legt die Topologie-Matrix auf PAXG-5m-10k. Ergebnis: PAXG bleibt stark zentrumsnah und bricht die Rollenordnung nicht.
+- `603_PAXG_5M_10K_PREVIEW_UEBERGANGSPAARE.md`
+  - Erstellt die Preview-Uebergangspaare fuer PAXG-5m-10k.
+- `604_PAXG_5M_10K_MCM_FELDBEWEGUNGS_MEMORY.md`
+  - Fuehrt PAXG-5m-10k durch die passive Feldbewegungs-Memory. Ergebnis: `0e7qvj1 -> 1hdpu9s` bleibt rekoppelnd/entlastend, der Rueckweg bleibt oeffnend/belastend.
+- `605_PAXG_5M_10K_TOPOLOGISCHE_BEWEGUNGSROLLEN.md`
+  - Liest PAXG als topologische Rollenbewegung. Ergebnis: PAXG ist ruhiger, zentrumsnaeher und weniger strainlastig, behaelt aber die bekannte Kernasymmetrie.
+- `606_PAXG_5M_10K_GEGEN_BTC_SOL_ALTSEQ_SYNTHESE.md`
+  - Vergleicht PAXG gegen BTC/SOL/Altseq. Ergebnis: PAXG wirkt wie eine ruhigere Zentrumsklasse innerhalb derselben MCM-Rollenordnung, nicht wie ein Topologiebruch.
+- `607_PAXG2024_1H_JAHR_FORSCHUNGSKETTE.md` und `608_PAXG2025_1H_JAHR_FORSCHUNGSKETTE.md`
+  - Fuehren PAXG/USDT als 1h-Jahreswelten aus. Ergebnis: beide Welten reproduzieren Top-Syntax und Top-Familien exakt; Rekopplung und Sinnes-MCM-Kopplung liegen etwas niedriger als bei PAXG 5m, bleiben aber stabil.
+- `609_PAXG_1H_JAHR_TOPOLOGIE_MATRIX.md`
+  - Legt die Topologie-Matrix auf PAXG-1h-Jahreswelten. Ergebnis: PAXG 1h bleibt zentrumsnah, aber offener und spannungsnaeher als PAXG 5m.
+- `610_PAXG_1H_JAHR_PREVIEW_UEBERGANGSPAARE.md`
+  - Erstellt die Preview-Uebergangspaare fuer PAXG 1h.
+- `611_PAXG_1H_JAHR_MCM_FELDBEWEGUNGS_MEMORY.md`
+  - Fuehrt PAXG 1h durch die passive Feldbewegungs-Memory. Ergebnis: `0e7qvj1 -> 1hdpu9s` bleibt rekoppelnd/entlastend, der Rueckweg bleibt oeffnend/belastend.
+- `612_PAXG_1H_JAHR_TOPOLOGISCHE_BEWEGUNGSROLLEN.md`
+  - Liest PAXG 1h als Rollenbewegung. Ergebnis: `zentrum_stabil->zentrum_stabil` bleibt dominant, aber offene Bewegung und Randnaehe nehmen gegenueber PAXG 5m zu.
+- `613_PAXG_5M_GEGEN_1H_ZEITAUFLOESUNG_SYNTHESE.md`
+  - Vergleicht PAXG 5m gegen PAXG 1h. Ergebnis: Zeitaufloesung faerbt die MCM-Rollenordnung, bricht sie aber bisher nicht.
+- `614_DOGE2024_5M_10K_FORSCHUNGSKETTE.md` und `615_DOGE2025_5M_10K_FORSCHUNGSKETTE.md`
+  - Fuehren DOGE/USDT als rauschendere 5m-10k-Gegenwelt aus. Ergebnis: beide Welten reproduzieren Top-Syntax und Top-Familien exakt; DOGE bleibt zentriert, aber tragend-unruhiger als PAXG.
+- `616_DOGE_5M_10K_TOPOLOGIE_MATRIX.md`
+  - Legt die Topologie-Matrix auf DOGE-5m-10k. Ergebnis: beide DOGE-Welten bleiben `stark_zentriert_wenig_rand`.
+- `617_DOGE_5M_10K_PREVIEW_UEBERGANGSPAARE.md`
+  - Erstellt die Preview-Uebergangspaare fuer DOGE-5m-10k.
+- `618_DOGE_5M_10K_MCM_FELDBEWEGUNGS_MEMORY.md`
+  - Fuehrt DOGE durch die passive Feldbewegungs-Memory. Ergebnis: die bekannte Kernasymmetrie bleibt erhalten, aber mit rauschenderer Nachbarschaft.
+- `619_DOGE_5M_10K_TOPOLOGISCHE_BEWEGUNGSROLLEN.md`
+  - Liest DOGE als Rollenbewegung. Ergebnis: Zentrum bleibt dominant; offene Variante ist staerker als bei PAXG, ohne Randkollaps.
+- `620_DOGE_5M_GEGEN_PAXG_BTC_SOL_SYNTHESE.md`
+  - Verdichtet DOGE gegen PAXG/BTC/SOL. Ergebnis: Die Rezeptorschicht wirkt als Anpassung, weil sie Feldueberlagerung verhindert, aber DOGEs unruhigere Weltfaerbung erhaelt.
+- `621_DOGE2024_1H_JAHR_FORSCHUNGSKETTE.md` und `622_DOGE2025_1H_JAHR_FORSCHUNGSKETTE.md`
+  - Fuehren DOGE/USDT als 1h-Jahreswelten aus. Ergebnis: beide Welten reproduzieren Top-Syntax und Top-Familien exakt; 2025 wird etwas kippnaeher und weniger rekoppelnd als 2024.
+- `623_DOGE_1H_JAHR_TOPOLOGIE_MATRIX.md`
+  - Legt die Topologie-Matrix auf DOGE 1h. Ergebnis: beide Welten bleiben `stark_zentriert_wenig_rand`, aber 2025 ist offener und randnaeher.
+- `624_DOGE_1H_JAHR_PREVIEW_UEBERGANGSPAARE.md`
+  - Erstellt die Preview-Uebergangspaare fuer DOGE 1h.
+- `625_DOGE_1H_JAHR_MCM_FELDBEWEGUNGS_MEMORY.md`
+  - Fuehrt DOGE 1h durch die passive Feldbewegungs-Memory. Ergebnis: die bekannte Kernasymmetrie bleibt erhalten.
+- `626_DOGE_1H_JAHR_TOPOLOGISCHE_BEWEGUNGSROLLEN.md`
+  - Liest DOGE 1h als Rollenbewegung. Ergebnis: Zentrum bleibt dominant, offene Bewegung und Randnaehe nehmen leicht zu.
+- `627_DOGE_5M_GEGEN_1H_ZEITAUFLOESUNG_SYNTHESE.md`
+  - Vergleicht DOGE 5m gegen DOGE 1h. Ergebnis: Zeitaufloesung faerbt DOGE offener und spannungsnaeher, bricht die MCM-Rollenordnung bisher aber nicht.
+- `628_ASSET_FAERBUNGSRAUM_PAXG_DOGE_BTC_SOL_SYNTHESE.md`
+  - Verdichtet PAXG, DOGE, BTC und SOL zu einem passiven Asset-Faerbungsraum. Ergebnis: gleiche MCM-Grundordnung, unterschiedliche Weltfaerbung; die Rezeptorschicht schützt vor Rohueberlagerung, ohne Weltqualitaet zu loeschen.
+- `629_XRP2024_5M_10K_FORSCHUNGSKETTE.md` und `630_XRP2025_5M_10K_FORSCHUNGSKETTE.md`
+  - Fuehren XRP/USDT als impulsivere 5m-10k-Gegenwelt aus. Ergebnis: beide Welten reproduzieren Top-Syntax und Top-Familien exakt; XRP 2024 ist kippnaeher, XRP 2025 zentrumsnaeher.
+- `631_XRP_5M_10K_TOPOLOGIE_MATRIX.md`
+  - Legt die Topologie-Matrix auf XRP 5m. Ergebnis: beide Welten bleiben `stark_zentriert_wenig_rand`.
+- `632_XRP_5M_10K_PREVIEW_UEBERGANGSPAARE.md`
+  - Erstellt die Preview-Uebergangspaare fuer XRP 5m.
+- `633_XRP_5M_10K_MCM_FELDBEWEGUNGS_MEMORY.md`
+  - Fuehrt XRP durch die passive Feldbewegungs-Memory. Ergebnis: die bekannte Kernasymmetrie bleibt erhalten.
+- `634_XRP_5M_10K_TOPOLOGISCHE_BEWEGUNGSROLLEN.md`
+  - Liest XRP als Rollenbewegung. Ergebnis: weniger reine Zentrum-Zentrum-Bewegung, mehr Uebergang zwischen Zentrum und offener Variante.
+- `635_XRP_5M_ASSET_FAERBUNGSRAUM_ERWEITERUNG.md`
+  - Ordnet XRP in den Asset-Faerbungsraum ein. Ergebnis: XRP wirkt als Uebergangs-/Impulsfaerbung, nicht als Topologiebruch.
+- `636_XRP2024_1H_JAHR_FORSCHUNGSKETTE.md` und `637_XRP2025_1H_JAHR_FORSCHUNGSKETTE.md`
+  - Fuehren XRP/USDT als 1h-Jahreswelten aus. Ergebnis: beide Welten reproduzieren Top-Syntax und Top-Familien exakt; 2024 wirkt etwas stabiler/rekoppelnder, 2025 etwas offener/kippnaeher.
+- `638_XRP_1H_JAHR_TOPOLOGIE_MATRIX.md`
+  - Legt die Topologie-Matrix auf XRP 1h. Ergebnis: beide Welten bleiben `stark_zentriert_wenig_rand`.
+- `639_XRP_1H_JAHR_PREVIEW_UEBERGANGSPAARE.md`
+  - Erstellt die Preview-Uebergangspaare fuer XRP 1h.
+- `640_XRP_1H_JAHR_MCM_FELDBEWEGUNGS_MEMORY.md`
+  - Fuehrt XRP 1h durch die passive Feldbewegungs-Memory. Ergebnis: die bekannte Kernasymmetrie bleibt erhalten.
+- `641_XRP_1H_JAHR_TOPOLOGISCHE_BEWEGUNGSROLLEN.md`
+  - Liest XRP 1h als Rollenbewegung. Ergebnis: Zentrum bleibt dominant; offene Variante und Spannungsnaehe bleiben sichtbar, ohne Topologiebruch.
+- `642_XRP_5M_GEGEN_1H_ZEITAUFLOESUNG_SYNTHESE.md`
+  - Vergleicht XRP 5m gegen XRP 1h. Ergebnis: XRP bleibt als Uebergangs-/Impulsfaerbung erkennbar, wird in 1h aber geglaetteter gelesen.
+- `643_ASSET_FAERBUNGSRAUM_PAXG_DOGE_XRP_BTC_SOL_SYNTHESE.md`
+  - Aktualisiert den gemeinsamen Asset-Faerbungsraum. Ergebnis: PAXG, DOGE und XRP bilden bisher drei unterscheidbare Faerbungsrichtungen innerhalb derselben MCM-Grundordnung; BTC und SOL bleiben Vergleichsanker fuer Nachbarschaft und Rekopplung.
+- `644_SYNTH_MCM_PHASEN_A_FORSCHUNGSKETTE.md` und `645_SYNTH_MCM_PHASEN_B_FORSCHUNGSKETTE.md`
+  - Fuehren zwei nicht-marktbasierte synthetische MCM-Phasenwelten aus. Ergebnis: beide Welten liefern identische Kernwerte, identische Top-Syntax/Familien und sehr geringe Symbolstreuung.
+- `646_SYNTH_MCM_PHASEN_TOPOLOGIE_MATRIX.md`
+  - Legt die Topologie-Matrix auf die synthetischen Kontrollwelten. Ergebnis: beide Welten sind fast vollstaendig zentrumsnah.
+- `647_SYNTH_MCM_PHASEN_PREVIEW_UEBERGANGSPAARE.md`
+  - Erstellt die Preview-Uebergangspaare fuer die synthetischen Kontrollwelten.
+- `648_SYNTH_MCM_PHASEN_MCM_FELDBEWEGUNGS_MEMORY.md`
+  - Fuehrt die synthetischen Kontrollwelten durch die passive Feldbewegungs-Memory. Ergebnis: nur wenige dominante Bewegungsraeume, ueberwiegend rekoppelnd.
+- `649_SYNTH_MCM_PHASEN_KONTROLLWELT_SYNTHESE.md`
+  - Verdichtet den Kontrollwelt-Befund. Ergebnis: harmonische synthetische Phasenwelt wird als fast reine Zentrum-Stabilitaet gelesen; als naechster Haertefall braucht es eine synthetische Bruch-/Randwelt.
+- `650_SYNTH_BRUCH_RAND_A_FORSCHUNGSKETTE.md` und `651_SYNTH_BRUCH_RAND_B_FORSCHUNGSKETTE.md`
+  - Fuehren zwei synthetische Bruch-/Randwelten aus. Ergebnis: gleiche Reproduzierbarkeit wie bei Harmonie, aber mehr Syntaxvarianz, mehr tragende Unruhe und niedrigere Rekopplung.
+- `652_SYNTH_BRUCH_RAND_TOPOLOGIE_MATRIX.md`
+  - Legt die Topologie-Matrix auf die Bruch-/Randwelten. Ergebnis: beide Welten bleiben zentrumsnah, zeigen aber deutlich mehr offene Variante als die harmonische Kontrollwelt.
+- `653_SYNTH_BRUCH_RAND_PREVIEW_UEBERGANGSPAARE.md`
+  - Erstellt die Preview-Uebergangspaare fuer die Bruch-/Randwelten.
+- `654_SYNTH_BRUCH_RAND_MCM_FELDBEWEGUNGS_MEMORY.md`
+  - Fuehrt die Bruch-/Randwelten durch die passive Feldbewegungs-Memory. Ergebnis: 56 dominante Bewegungsraeume statt 14; mehr oeffnende und spannungsnahe Spuren.
+- `655_SYNTH_BRUCH_RAND_TOPOLOGISCHE_BEWEGUNGSROLLEN.md`
+  - Liest die Bruch-/Randwelt als Rollenbewegung. Ergebnis: zentrumsnaher Kern bleibt, aber spannungsnah-lautere und oeffnend-belastende Bewegungen werden sichtbar.
+- `656_SYNTH_HARMONIE_GEGEN_BRUCH_RAND_SYNTHESE.md`
+  - Vergleicht harmonische Kontrollwelt gegen Bruch-/Randwelt. Ergebnis: synthetische Weltgestaltung faerbt das Innenfeld messbar, ohne die Topologie zu zerlegen.
+- `657_SYNTH_HARMONIE_PHASENROLLEN.md` und `658_SYNTH_BRUCH_RAND_PHASENROLLEN.md`
+  - Lesen synthetische Weltphasen gegen entstehende MCM-Rollen. Ergebnis: Harmonie bleibt in allen Phasen zentrumsnah; Bruch-/Randwelt zeigt eine klare lokale Verschiebung in der Phase `randflackern`.
+- `659_SYNTH_PHASENROLLEN_INNENFELD_ABLEITUNG.md`
+  - Verdichtet die phasengebundene Innenfeldantwort. Ergebnis: `randflackern` kippt stark in offene Variante, waehrend `rekopplung` und `ruhe_nachhall` wieder zentrumsnah werden.
+- `660_SYNTH_RAND_DOMINANZ_A_FORSCHUNGSKETTE.md` und `661_SYNTH_RAND_DOMINANZ_B_FORSCHUNGSKETTE.md`
+  - Fuehren zwei synthetische Randdominanz-Welten aus. Ergebnis: hoehere Syntaxvarianz, mehr tragende Unruhe und mehr Kippnaehe, aber weiterhin exakte A/B-Reproduktion.
+- `662_SYNTH_RAND_DOMINANZ_TOPOLOGIE_MATRIX.md`
+  - Legt die Topologie-Matrix auf Randdominanz. Ergebnis: global weiter `stark_zentriert_wenig_rand`, aber mit hoeherer offener Variante und sichtbarerem Rand/Kipp-Anteil.
+- `663_SYNTH_RAND_DOMINANZ_PREVIEW_UEBERGANGSPAARE.md`
+  - Erstellt die Preview-Uebergangspaare fuer Randdominanz.
+- `664_SYNTH_RAND_DOMINANZ_MCM_FELDBEWEGUNGS_MEMORY.md`
+  - Fuehrt Randdominanz durch die passive Feldbewegungs-Memory. Ergebnis: bekannte rekoppelnde und oeffnende Bewegungen bleiben sichtbar; `0e7qvj1 <-> 0mji3u6` tritt deutlicher hervor.
+- `665_SYNTH_RAND_DOMINANZ_PHASENROLLEN.md`
+  - Liest die Randdominanz-Phasen gegen Innenfeldrollen. Ergebnis: `laute_randphase` erzeugt den bisher deutlichsten lokalen Rand-/Oeffnungsbefund.
+- `666_SYNTH_RAND_DOMINANZ_TOPOLOGISCHE_BEWEGUNGSROLLEN.md`
+  - Liest Randdominanz als Rollenbewegung. Ergebnis: mehr offene und spannungsnahe Bewegungen, aber kein dauerhafter Randkollaps.
+- `667_SYNTH_RAND_DOMINANZ_INNENFELD_ABLEITUNG.md`
+  - Verdichtet den Randdominanz-Befund. Ergebnis: das Feld ist nicht randunfaehig, bildet Rand/Kipp lokal aus, rekoppelt danach aber wieder deutlich in Zentrum.
+- `668_SYNTH_RAND_DOMINANZ_REZEPTORACHSEN_LIMIT.md`
+  - Liest Randdominanz gegen Hoeren, Sehen, Feldinput und Adaptation. Ergebnis: `laute_randphase` koppelt hohe Lautheit, fallende Schaerfe und erhoehten Rohfeldinput; Adaptation begrenzt die Feldaufnahme.
+- `669_SYNTH_HARMONIE_REZEPTORACHSEN_LIMIT.md`
+  - Gegenprobe zur harmonischen Kontrollwelt. Ergebnis: gleiche Achsenlogik, aber sehr geringe Rand-/Oeffnungslast und nur minimale Reduktion.
+- `670_SYNTH_BRUCH_RAND_REZEPTORACHSEN_LIMIT.md`
+  - Gegenprobe zur Bruch-/Randwelt. Ergebnis: `randflackern` liegt zwischen Harmonie und Randdominanz; Oeffnung entsteht lokal, ohne Topologiebruch.
+- `671_SYNTH_REZEPTORACHSEN_LIMIT_SYNTHESE.md`
+  - Verdichtet die Achsendiagnose. Ergebnis: wichtigste Begrenzung ist bisher die rezeptorische Adaptation vor dem MCM-Feld, nicht eine einzelne isolierte Sinnesachse.
+- `672_REZEPTORACHSEN_LIMIT_REALWELTEN_VERGLEICH.md`
+  - Uebertraegt die Achsendiagnose auf echte 5m-Welten mit gueltiger Rezeptorfuellung. Ergebnis: Hochlastfenster werden deutlich offener/randnaeher, waehrend adaptierte Feldaufnahme unter Rohfeldaufnahme bleibt.
+- `673_REZEPTORACHSEN_LIMIT_REAL_GEGEN_SYNTH_SYNTHESE.md`
+  - Vergleicht synthetische und echte Welten. Ergebnis: Realweltbefund stuetzt die synthetische Ableitung, aber BTC/SOL/KAS muessen mit aktuellem Rezeptorstand fuer diese neue Achsenfrage nachgezogen werden.
+- `674_BTC2024_5M_2K_REZEPTOR_LIMIT_FORSCHUNGSKETTE.md`, `675_SOL2024_5M_2K_REZEPTOR_LIMIT_FORSCHUNGSKETTE.md` und `676_KAS2024_5M_2K_REZEPTOR_LIMIT_FORSCHUNGSKETTE.md`
+  - Ziehen BTC/SOL/KAS mit aktuellem Rezeptorstand nach. Ergebnis: gueltige Rezeptorachsen, reproduzierte Top-Syntax/Familien und passive Innenfeldwirkung ohne Handlungsschicht.
+- `677_BTC_SOL_KAS_REZEPTORACHSEN_LIMIT_AKTUELL.md`
+  - Liest die nachgezogenen BTC/SOL/KAS-Laeufe gegen Hochlastfenster. Ergebnis: mehr offene Variante und Rand/Kippnaehe in Hochlastfenstern, aber weiterhin begrenzte adaptierte Feldaufnahme.
+- `678_REZEPTORADAPTATION_AKTUELLER_STAND.md`
+  - Verdichtet den Gesamtbefund. Ergebnis: Rezeptoradaptation ist die aktuell wichtigste bekannte Aufnahmegrenze vor dem MCM-Feld.
+- `REZEPTORADAPTATION_MECHANIK.md`
+  - Bauplan-Datei. Legt fest, welche Informationen vor dem Feld bleiben, welche als adaptierte Feldaufnahme gelten und was als MCM-Feldwirkung oder Nachhall gelesen werden darf.
+- `679_BTC2024_5M_2K_ADAPTED_FIELD_FORSCHUNGSKETTE.md`, `680_SOL2024_5M_2K_ADAPTED_FIELD_FORSCHUNGSKETTE.md` und `681_KAS2024_5M_2K_ADAPTED_FIELD_FORSCHUNGSKETTE.md`
+  - Nachlaeufe nach der korrigierten Feldkopplung. Ergebnis: Reproduktion bleibt stabil; Feldstrain wird reduziert.
+- `682_BTC_SOL_KAS_ADAPTED_FIELD_REZEPTORACHSEN.md`
+  - Liest BTC/SOL/KAS nach adaptierter Feldkopplung gegen Rezeptorachsen. Ergebnis: Hochlastfenster bleiben offen/randnaeher, aber Feldspannung liest die adaptierte Aufnahme.
+- `683_ADAPTIERTE_FELDKOPPLUNG_UMSETZUNG.md`
+  - Dokumentiert die Codekorrektur. Ergebnis: `mcm_feldwirkung.mcm_tension` ist jetzt an adaptierte Feldaufnahme gekoppelt; Rohaufnahme bleibt Diagnose.
+- `684_SYNTH_HARMONIE_ADAPTED_FIELD_FORSCHUNGSKETTE.md`, `685_SYNTH_BRUCH_RAND_ADAPTED_FIELD_FORSCHUNGSKETTE.md` und `686_SYNTH_RAND_DOMINANZ_ADAPTED_FIELD_FORSCHUNGSKETTE.md`
+  - Ziehen die synthetischen Kontrollwelten nach adaptierter Feldkopplung neu nach. Ergebnis: Reproduktion bleibt stabil; Bruch/Rand und Randdominanz bleiben unterscheidbar.
+- `687_SYNTH_HARMONIE_ADAPTED_FIELD_PHASENROLLEN.md`, `688_SYNTH_BRUCH_RAND_ADAPTED_FIELD_PHASENROLLEN.md` und `689_SYNTH_RAND_DOMINANZ_ADAPTED_FIELD_PHASENROLLEN.md`
+  - Lesen die korrigierten synthetischen Welten phasenweise. Ergebnis: Harmonie bleibt zentrumsnah, Bruch/Rand oeffnet lokal, Randdominanz erzeugt die staerkste lokale Oeffnung.
+- `690_SYNTH_HARMONIE_ADAPTED_FIELD_REZEPTOR_LIMIT.md`, `691_SYNTH_BRUCH_RAND_ADAPTED_FIELD_REZEPTOR_LIMIT.md` und `692_SYNTH_RAND_DOMINANZ_ADAPTED_FIELD_REZEPTOR_LIMIT.md`
+  - Lesen die korrigierten synthetischen Welten gegen Rezeptorachsen. Ergebnis: Reizlast bleibt sichtbar, wird aber ueber adaptierte Feldaufnahme begrenzt.
+- `693_SYNTH_ADAPTED_FIELD_TOPOLOGIE_SYNTHESE.md`
+  - Verdichtet die korrigierte synthetische Pruefung. Ergebnis: Topologie verschwindet nicht; sie wird sauberer als Innenfeldwirkung statt Rohlast gelesen.
 
 Hinweis:
 
