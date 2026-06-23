@@ -7,6 +7,7 @@ import csv
 import json
 from pathlib import Path
 
+from mini_dio.action_selection import choose_action
 from mini_dio.config import Config
 from mini_dio.episode_memory import PassiveEpisodeTracker, build_mcm_field_effect
 from mini_dio.mcm_effect_map import (
@@ -34,11 +35,13 @@ from mini_dio.mini_world import (
     load_candles,
 )
 from mini_dio.neuro_state import build_mini_neuro_state
-from mini_dio.semantic_memory import (
-    SemanticMemory,
+from mini_dio.dio_syntax import (
     make_mcm_field_episode_symbol,
     make_syntax_symbol,
     make_syntax_vector,
+)
+from mini_dio.semantic_memory import (
+    SemanticMemory,
 )
 from mini_dio.temporal_memory import MiniTemporalTracker
 
@@ -202,38 +205,6 @@ def _mcm_feldwirkung(senses: dict) -> dict:
     return dict(senses.get("mcm_feldwirkung", {}) or senses.get("fuehlen", {}) or {})
 
 
-def _organic_action_pressure(action: str, base: float, bias: float, readiness: dict) -> dict:
-    """Return soft action pressure without fixed accept/reject thresholds.
-
-    The active core still needs numerical coupling, but this avoids "below X
-    means blocked" logic. Low support becomes a continuous pressure instead of
-    a hard rule.
-    """
-
-    raw_trade_signal = abs(float(base or 0.0) + float(bias or 0.0))
-    best_trade_readiness = max(float(readiness["LONG"]), float(readiness["SHORT"]))
-    trade_support = _positive_band(best_trade_readiness)
-    wait_bias = 0.0
-    trade_caution = 0.0
-    memory_support_pressure = 0.0
-    signal_diffusion_pressure = 0.0
-    if action == "WAIT":
-        wait_bias = (1.0 - trade_support) * 0.045
-    elif action in ("LONG", "SHORT"):
-        action_support = _positive_band(float(readiness[action]))
-        signal_support = _clip(raw_trade_signal / (raw_trade_signal + 0.12), 0.0, 1.0)
-        memory_support_pressure = (1.0 - action_support) * 0.040
-        signal_diffusion_pressure = (1.0 - signal_support) * 0.030
-        trade_caution = memory_support_pressure + signal_diffusion_pressure
-    return {
-        "raw_trade_signal": raw_trade_signal,
-        "wait_bias": wait_bias,
-        "trade_caution": trade_caution,
-        "memory_support_pressure": memory_support_pressure,
-        "signal_diffusion_pressure": signal_diffusion_pressure,
-    }
-
-
 def _observation_recognition_pressure(senses: dict, associative_trade: float, maturity_gap: float) -> float:
     """Soft recognition strength for seen-but-unacted learning.
 
@@ -267,37 +238,6 @@ def _observation_recognition_pressure(senses: dict, associative_trade: float, ma
         1.0,
     )
     return _clip((sensory_presence * 0.72) + (memory_presence * 0.28), 0.0, 1.0)
-
-
-def choose_action(action_scores: dict, memory: SemanticMemory, symbol: str, vector: list[float]) -> tuple[str, dict, dict]:
-    scores = {}
-    diagnostics = {
-        action: memory.action_diagnostics(symbol, action, vector=vector)
-        for action in ACTION_NAMES
-    }
-    readiness = {
-        action: float(diagnostics[action].get("readiness", 0.0) or 0.0)
-        for action in ACTION_NAMES
-    }
-    for action in ACTION_NAMES:
-        base = float(action_scores.get(action, 0.0) or 0.0)
-        bias = float(diagnostics[action].get("action_bias", 0.0) or 0.0)
-        pressure = _organic_action_pressure(action, base, bias, readiness)
-        wait_bias = float(pressure["wait_bias"])
-        raw_trade_signal = float(pressure["raw_trade_signal"])
-        trade_caution = float(pressure["trade_caution"])
-        scores[action] = base + bias + wait_bias - trade_caution
-        diagnostics[action]["base_score"] = base
-        diagnostics[action]["wait_bias"] = wait_bias
-        diagnostics[action]["raw_trade_signal"] = raw_trade_signal
-        diagnostics[action]["immature_memory_pressure"] = float(pressure["memory_support_pressure"])
-        diagnostics[action]["weak_signal_pressure"] = float(pressure["signal_diffusion_pressure"])
-        diagnostics[action]["memory_support_pressure"] = float(pressure["memory_support_pressure"])
-        diagnostics[action]["signal_diffusion_pressure"] = float(pressure["signal_diffusion_pressure"])
-        diagnostics[action]["trade_caution"] = trade_caution
-        diagnostics[action]["final_score"] = scores[action]
-    action = max(scores, key=scores.get)
-    return action, scores, diagnostics
 
 
 def sensory_distance(left: dict, right: dict) -> float:

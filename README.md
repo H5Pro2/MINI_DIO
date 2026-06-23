@@ -30,6 +30,75 @@ Das [MCM-Feld](https://github.com/H5Pro2/Mental-Core-Matrix-MCM) scheint passive
 
 In den bisher geprüften Welten hat MINI_DIO wiederholt eine Feldform ausgebildet, die der hypothetischen MCM-Topologie nahekommt: zentrumsnahe Stabilisierung, offene Brücken, driftende Nähebereiche und belastete Randspannung. Nach erneuter Codeprüfung gibt es aktuell keinen Hinweis darauf, dass diese Form durch eine feste Vorgabe wie "das muss so aussehen" erzeugt wird. Die Topologiebegriffe entstehen in der nachgelagerten Diagnose und Beschreibung; die Laufstruktur selbst arbeitet mit Sehen, Hören, Fühlen, MCM-Feldwirkung und eigener `dio_*`-Syntax. Auch nach mehreren Memory-Neustarts blieb dieser Befund in den geprüften Welten auffällig reproduzierbar.
 
+Der aktuelle gemeinsame Modellstand verbindet vier Mechaniken:
+
+- Rezeptoradaptation als Aufnahmegrenze vor dem Feld,
+- MCM-Topologie als gelesene Rollenordnung,
+- Feldzeit als Integrationsqualität einer gewirkten Weltlage,
+- Nachhall als Sequenzkontext, nicht als Kontrolle.
+
+Kurz gefasst:
+
+```text
+Außenwelt
+  -> Sehen / Hören / Rezeptorkontakt
+  -> rezeptorische Aufnahmebegrenzung
+  -> MCM-Feldwirkung
+  -> Rollen-Topologie
+  -> Bedeutungsverdichtung
+  -> Feldzeit / Nachhall
+  -> passive Innenordnung
+```
+
+Die wichtige Grenze bleibt:
+
+```text
+Nachhall ist Kontext, nicht Kontrolle.
+Feldzeit ist Integrationsqualität, keine hart programmierte Zeitachse.
+```
+
+## Aktueller Forschungsstand Kurz Gefasst
+
+MINI_DIO wird derzeit als passives MCM-Forschungsmodell verstanden. Eine Außenwelt wird als visuelle, tonale und energetische Spur aufgenommen. Daraus entstehen keine direkten Handlungssignale, sondern zuerst Innenfeldreaktionen, eigene `dio_*`-Syntax, Bedeutungsinseln und passive Episoden.
+
+Der wichtigste bisherige Befund lautet:
+
+```text
+MINI_DIO zeigt eine MCM-basierte Innenfeldreaktion
+mit emergenter Bedeutungsverdichtung.
+```
+
+Die bisherigen Ergebnisse lassen sich so einordnen:
+
+- **Mini-DIO als Organismusmodell**
+  MINI_DIO ist aktuell kein Ausführungssystem. Handlung ist nachgeordnet. Im Mittelpunkt steht, wie ein kleines künstliches Innenfeld Weltkontakt aufnimmt, ordnet und erinnert.
+
+- **MCM-Feld als Ordnungsraum**
+  Das Feld wirkt nicht wie ein loser Rohdatenspeicher. Es bildet wiederkehrende Rollen wie Zentrum, Brücke, offene Variante, Randspannung, Drift und Rekopplung. Diese Rollen werden nachträglich aus der Feldwirkung gelesen, nicht als Zielgeometrie vorgegeben.
+
+- **Emergenz als Bedeutungsbildung**
+  Wiederkehrende Welt-/Feldlagen verdichten sich zu eigener Syntax und Bedeutungsinseln. Interessant ist nicht nur Wiederholung, sondern auch Drift, Brückenbildung und Umorganisation zwischen Bedeutungsräumen.
+
+- **Regulation als Wahrnehmungsfähigkeit**
+  Regulation wird nicht als harte Steuerregel verstanden. MINI_DIO bekommt Fähigkeiten wie Fokus/Abstand, lauter/leiser, scharf/unscharf und Druck/Entlastung. Wie diese Fähigkeiten wirken, soll aus Feldreaktion und Erfahrung lesbar werden.
+
+- **Rezeptorschicht als Schutzgrenze**
+  Nicht alles aus der Außenwelt darf direkt in das MCM-Feld. Sehen, Hören und späteres Tasten müssen getrennt aufgenommen und über Rezeptoren in geordnete Feldwirkung übersetzt werden.
+
+- **Feldzeit und Nachhall**
+  Zeit wird nicht nur als Tick oder Index betrachtet. Im Feld zeigt sie sich als Nachhall, Wiederkehr, Nähe/Ferne, Drift und Integrationsqualität einer gewirkten Weltlage.
+
+Architektonisch wird MINI_DIO deshalb schrittweise getrennt in:
+
+```text
+Wahrnehmung
+  -> Rezeptorische Aufnahme
+  -> MCM-Feldreaktion
+  -> Episoden
+  -> Bedeutungsverdichtung
+  -> passive Regulation
+```
+
 ## Warum Das Interessant Ist
 
 Viele technische Systeme speichern Rohdaten, berechnen Merkmale und leiten daraus eine Entscheidung ab. MINI_DIO geht bewusst anders vor.
@@ -338,6 +407,10 @@ Der aktuelle Forschungsstand zeigt:
 - die SOL/KAS-Gegenprüfung zeigt dieselbe Vorschlagssprache, aber mit anderer Gewichtung: SOL Stress, SOL Sideways, SOL Expansion und KAS-Zeitebenen tragen deutlich mehr `Abstand bilden`. Damit wirkt die Schicht nicht fix, sondern welt- und assetabhängig,
 - die erste Feldtragungsprüfung der Vorschläge zeigt: alle Vorschlagsrichtungen bleiben grundsätzlich feldtragbar, aber mit unterschiedlicher Nähe zu Druckbearbeitung. `ruhig hinhoeren`, `Sehen schaerfen` und `Fokus halten / vertiefen` liegen stärker auf der getragenen Seite; `Abstand bilden`, `leiser / weicher aufnehmen` und `Druck / Feldkontakt entlasten` liegen näher an Entlastung und Druckverarbeitung,
 - die MCM-Neuronen, die Episodendistanz, der Beobachtungsdruck, die neurochemische Spiegelung und die interne `dio_*`-Syntax lesen jetzt bevorzugt Rezeptoraufnahme plus MCM-Feldwirkung statt direkter Roh-Sinneswerte. Rohwerte bleiben sichtbar, aber nicht mehr der primäre innere Lernvektor,
+- Zeitdehnungs- und Sequenztests zeigen: Die globale MCM-Topologie bleibt robuster als lokale Phasenrollen; lokale Bedeutung ist aber sequenzsensitiv,
+- Feldzeit wird aktuell als Integrationsqualität der gewirkten Feldlage gelesen: mehr Feldzeit bedeutet mehr Integrationsmöglichkeit, aber nicht automatisch Beruhigung,
+- Nachhall wird als Kontextspur gelesen: Vorzustände färben die aktuelle Lesung, ersetzen aber nicht die aktuelle Weltwirkung,
+- synthetische Gegenproben mit Harmonie, Randdominanz, Bruch/Rand, Rekopplung vor Rand und starker Phasenpermutation stützen bisher das gemeinsame Arbeitsmodell aus Rezeptoradaptation, Topologie, Feldzeit und Nachhall,
 - aktuelle Läufe bleiben bewusst ohne ausführende Handlung.
 
 Beispiel aus dem aktuellen Forschungslauf:

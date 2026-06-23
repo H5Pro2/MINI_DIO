@@ -693,6 +693,146 @@ Besonders relevant fuer den aktuellen Bauplanstand:
   - Lesen die Zeitwelten phasenweise. Ergebnis: `randflackern` bleibt die aktive offene Phase, wird bei gedehnter Zeit aber deutlich staerker zentrums- und rekopplungsnah integriert.
 - `721_SYNTH_ZEITDEHNUNG_TOPOLOGIE_SYNTHESE.md`
   - Verdichtet die kontrollierte Zeitdehnungspruefung. Ergebnis: Zeit wirkt im Feld nicht nur als aeussere Abfolge, sondern als Integrationsqualitaet; gedehnte gleiche Form kann mehr Rekopplung und Zentrum tragen.
+- `722_SYNTH_HARMONIE_ZEITDEHNUNG_KOMPAKT_ADAPTED_FIELD_FORSCHUNGSKETTE.md` und `723_SYNTH_HARMONIE_ZEITDEHNUNG_GEDEHNT_ADAPTED_FIELD_FORSCHUNGSKETTE.md`
+  - Ziehen eine zweite synthetische Grundform (`harmonic`) kompakt und gedehnt nach. Ergebnis: beide Varianten bleiben stark reproduzierbar; gedehnte Harmonie wird noch zentrumsnaeher und leicht tragfaehiger.
+- `724_SYNTH_HARMONIE_ZEITDEHNUNG_REZEPTORACHSEN_VERGLEICH.md`
+  - Vergleicht die Harmonie-Zeitwelten gegen Rezeptorachsen. Ergebnis: kompakte Harmonie erzeugt staerkere Hochlastfenster; gedehnte Harmonie reduziert offene und randnahe Hochlast deutlich.
+- `725_SYNTH_HARMONIE_ZEITDEHNUNG_TOPOLOGIE_MATRIX.md`
+  - Liest die Harmonie-Zeitwelten als Rollen-Topologie. Ergebnis: beide Welten bleiben extrem zentrumsnah; Zeitdehnung zerlegt die Topologie nicht.
+- `726_SYNTH_HARMONIE_ZEITDEHNUNG_KOMPAKT_PHASENROLLEN.md` und `727_SYNTH_HARMONIE_ZEITDEHNUNG_GEDEHNT_PHASENROLLEN.md`
+  - Lesen die Harmonie-Zeitwelten phasenweise. Ergebnis: jede Phase wird durch Dehnung zentrumsnaeher; offene Variante und lokale Uebergangsnaehe nehmen ab.
+- `728_SYNTH_HARMONIE_ZEITDEHNUNG_TOPOLOGIE_SYNTHESE.md`
+  - Verdichtet die zweite Zeitdehnungs-Gegenprobe. Ergebnis: Zeitdehnung wirkt allgemein integrierend; starke lokale Oeffnung entsteht aber nur, wenn die Weltform selbst Rand-/Bruchqualitaet traegt.
+- `729_SYNTH_RAND_DOMINANZ_ZEITDEHNUNG_KOMPAKT_ADAPTED_FIELD_FORSCHUNGSKETTE.md` und `730_SYNTH_RAND_DOMINANZ_ZEITDEHNUNG_GEDEHNT_ADAPTED_FIELD_FORSCHUNGSKETTE.md`
+  - Ziehen den Haertefall `rand_dominanz` kompakt und gedehnt nach. Ergebnis: Reproduktion bleibt stabil; gedehnte Randdominanz erhoeht Carry/Rekopplung, erzeugt aber auch mehr Binnenvarianz.
+- `731_SYNTH_RAND_DOMINANZ_ZEITDEHNUNG_REZEPTORACHSEN_VERGLEICH.md`
+  - Vergleicht die Randdominanz-Zeitwelten gegen Rezeptorachsen. Ergebnis: kompakte Randdominanz erzeugt staerkere offene Hochlast; gedehnte Randdominanz reduziert sie, loescht sie aber nicht.
+- `732_SYNTH_RAND_DOMINANZ_ZEITDEHNUNG_TOPOLOGIE_MATRIX.md`
+  - Liest Randdominanz als Rollen-Topologie. Ergebnis: globale Topologie bleibt zentrumsnah; Offenheit bleibt deutlich hoeher als bei Harmonie.
+- `733_SYNTH_RAND_DOMINANZ_ZEITDEHNUNG_KOMPAKT_PHASENROLLEN.md` und `734_SYNTH_RAND_DOMINANZ_ZEITDEHNUNG_GEDEHNT_PHASENROLLEN.md`
+  - Lesen Randdominanz phasenweise. Ergebnis: `laute_randphase` bleibt offen dominant, bekommt durch Dehnung aber mehr Zentrum und Rekopplungsnaehe.
+- `735_SYNTH_RAND_DOMINANZ_ZEITDEHNUNG_TOPOLOGIE_SYNTHESE.md`
+  - Verdichtet den Haertefall. Ergebnis: Zeitdehnung ist keine pauschale Beruhigung, sondern eine Integrationsachse; starke Randqualitaet bleibt unterscheidbar.
+- `736_SYNTH_ZEITDEHNUNG_FELDZEIT_MECHANIK_SYNTHESE.md`
+  - Fasst `harmonic`, `bruch_rand` und `rand_dominanz` zusammen. Ergebnis: MINI_DIO zeigt Feldzeit als Integrationsqualitaet einer gewirkten Weltlage; Zeit sollte kuenftig aus Innenfeldbewegung gelesen und nicht hart programmiert werden.
+- `737_SYNTH_SEQUENZ_BRUCH_RAND_ORIGINAL_ADAPTED_FIELD_FORSCHUNGSKETTE.md` und `738_SYNTH_SEQUENZ_BRUCH_RAND_PERMUTIERT_ADAPTED_FIELD_FORSCHUNGSKETTE.md`
+  - Vergleichen dieselben `bruch_rand`-Phasen in Originalreihenfolge und mit vertauschtem `randflackern`/`bruch_impuls`. Ergebnis: globale Reproduktion bleibt stabil; permutierte Reihenfolge bildet weniger eindeutige Syntaxsymbole.
+- `739_SYNTH_SEQUENZ_BRUCH_RAND_REZEPTORACHSEN_VERGLEICH.md`
+  - Vergleicht Original und Permutation gegen Rezeptorachsen. Ergebnis: Permutation ist minimal offener, Hochlastfenster werden offener gelesen, Rand/Kippnaehe bleibt niedrig.
+- `740_SYNTH_SEQUENZ_BRUCH_RAND_TOPOLOGIE_MATRIX.md`
+  - Liest Original und Permutation als Rollen-Topologie. Ergebnis: globale Topologie bleibt fast identisch stark zentriert.
+- `741_SYNTH_SEQUENZ_BRUCH_RAND_ORIGINAL_PHASENROLLEN.md` und `742_SYNTH_SEQUENZ_BRUCH_RAND_PERMUTIERT_PHASENROLLEN.md`
+  - Lesen die Sequenzwelten phasenweise. Ergebnis: gleiche Phase bekommt je nach Reihenfolge andere lokale Feldrolle; `randflackern` wird vor `bruch_impuls` offener, der folgende Bruch zentrumsnaeher.
+- `743_SYNTH_SEQUENZ_BRUCH_RAND_NACHHALL_SYNTHESE.md`
+  - Verdichtet die Sequenzpermutation. Ergebnis: MINI_DIO liest nicht nur Dauer, sondern eine kontrollierte Spur von Sequenzordnung und Nachhall im Innenfeld.
+- `744_SYNTH_SEQUENZ_BRUCH_RAND_REKOPPLUNG_VOR_RAND_ADAPTED_FIELD_FORSCHUNGSKETTE.md`
+  - Testet `rekopplung` direkt vor `randflackern`. Ergebnis: globale Reproduktion bleibt stabil; Rekopplung davor federt die Randphase nicht automatisch ab.
+- `745_SYNTH_SEQUENZ_REKOPPLUNG_VOR_RAND_REZEPTORACHSEN_VERGLEICH.md`
+  - Vergleicht Original gegen Rekopplung-vor-Rand auf Rezeptorachsen. Ergebnis: Hochlastfenster werden in Rekopplung-vor-Rand sogar etwas offener und randnaeher gelesen.
+- `746_SYNTH_SEQUENZ_REKOPPLUNG_VOR_RAND_TOPOLOGIE_MATRIX.md`
+  - Liest die Rekopplung-vor-Rand-Variante als Rollen-Topologie. Ergebnis: globale Topologie bleibt stabil zentrumsnah.
+- `747_SYNTH_SEQUENZ_REKOPPLUNG_VOR_RAND_PHASENROLLEN.md`
+  - Liest die lokale Phasenwirkung. Ergebnis: `randflackern` nach Rekopplung wird offener und weniger zentriert als im Original.
+- `748_SYNTH_SEQUENZ_REKOPPLUNG_VOR_RAND_NACHHALL_SYNTHESE.md`
+  - Verdichtet die Gegenprobe. Ergebnis: Nachhall ist keine pauschale Beruhigung; vorherige Feldlage wirkt als Kontextspur, ueberschreibt aber die aktuelle Randqualitaet nicht.
+- `749_SYNTH_SEQUENZ_BRUCH_RAND_REKOPPLUNG_LANG_VOR_RAND_ADAPTED_FIELD_FORSCHUNGSKETTE.md`
+  - Testet eine verlaengerte Rekopplungsphase vor `randflackern`. Ergebnis: globale Rekopplung, Carry und Sinneskopplung steigen; die lokale Randphase bleibt trotzdem offen.
+- `750_SYNTH_SEQUENZ_REKOPPLUNG_LANG_VOR_RAND_REZEPTORACHSEN_VERGLEICH.md`
+  - Vergleicht Original gegen lange Rekopplung-vor-Rand auf Rezeptorachsen. Ergebnis: Zentrum steigt und Offenheit sinkt global, Hochlast-Rand/Kipp bleibt leicht erhoeht.
+- `751_SYNTH_SEQUENZ_REKOPPLUNG_LANG_VOR_RAND_TOPOLOGIE_MATRIX.md`
+  - Liest die lange Rekopplung-vor-Rand-Variante als Rollen-Topologie. Ergebnis: globale Topologie wird etwas zentrumsnaeher und tragfaehiger.
+- `752_SYNTH_SEQUENZ_REKOPPLUNG_LANG_VOR_RAND_PHASENROLLEN.md`
+  - Liest die lokale Phasenwirkung. Ergebnis: `randflackern` ist gegen kurze Rekopplung etwas weniger offen, aber nicht zentrumsnaeher als im Original.
+- `753_SYNTH_SEQUENZ_REKOPPLUNG_LANG_VOR_RAND_NACHHALL_SYNTHESE.md`
+  - Verdichtet den Befund. Ergebnis: Nachhall ist Kontext, nicht Kontrolle; Feldzeit speichert Integrationsgeschichte, aber die Gegenwart bleibt feldwirksam.
+- `754_SYNTH_SEQUENZ_NACHHALL_FELDZEIT_MECHANIK_SYNTHESE.md`
+  - Fasst Original, Rand-vor-Bruch, kurze Rekopplung-vor-Rand und lange Rekopplung-vor-Rand zusammen. Ergebnis: Feldzeit erscheint als Integrationsgeschichte aus Vorzustand, Gegenwart und Nachhall; globale Topologie bleibt stabil, lokale Rollen sind sequenzsensitiv.
+- `755_SYNTH_SEQUENZ_BRUCH_RAND_STARK_PERMUTIERT_ADAPTED_FIELD_FORSCHUNGSKETTE.md`
+  - Testet eine stark neu geordnete `bruch_rand`-Phasenfolge. Ergebnis: Reproduktion bleibt stabil, globale Werte bleiben nahe am Original, Unique Syntax steigt nur minimal.
+- `756_SYNTH_SEQUENZ_STARK_PERMUTIERT_REZEPTORACHSEN_VERGLEICH.md`
+  - Vergleicht Original gegen starke Permutation auf Rezeptorachsen. Ergebnis: stark permutiert wird leicht offener und in Hochlastfenstern randnaeher gelesen.
+- `757_SYNTH_SEQUENZ_STARK_PERMUTIERT_TOPOLOGIE_MATRIX.md`
+  - Liest die stark permutierte Welt als Rollen-Topologie. Ergebnis: globale Topologie bleibt praktisch identisch zentrumsnah.
+- `758_SYNTH_SEQUENZ_STARK_PERMUTIERT_PHASENROLLEN.md`
+  - Liest die stark permutierte Welt phasenweise. Ergebnis: `randflackern` ohne Vorlauf wird deutlich offener, nachfolgende Phasen reorganisieren schnell Richtung Zentrum.
+- `759_SYNTH_SEQUENZ_STARK_PERMUTIERT_NACHHALL_SYNTHESE.md`
+  - Verdichtet die starke Permutation. Ergebnis: Topologie ist robust, lokale Bedeutung ist sequenzsensitiv, Nachhall wirkt als Kontextspur.
+- `760_MINI_DIO_GEMEINSAMES_MCM_MODELL_FORSCHUNGSSTAND.md`
+  - Fasst Rezeptoradaptation, Topologie, Feldzeit und Nachhall zu einem gemeinsamen MINI_DIO-Arbeitsmodell zusammen. Ergebnis: MINI_DIO zeigt ein passives MCM-Feld mit robuster Topologie, feldzeitlicher Integrationsqualitaet und sequenzsensitiver lokaler Bedeutungsbildung.
+- `761_SYNTH_SEQUENZ_BRUCH_RAND_ZUFALLSNAH_ADAPTED_FIELD_FORSCHUNGSKETTE.md`
+  - Fuehrt eine zufallsnahe Phasenfolge derselben `bruch_rand`-Bausteine aus. Ergebnis: interne Reproduktion bleibt vollstaendig stabil; Top-Syntax und Top-Familien ueberlappen jeweils mit `1.0`.
+- `762_SYNTH_SEQUENZ_ZUFALLSNAH_REZEPTORACHSEN_VERGLEICH.md`
+  - Liest die zufallsnahe Sequenz gegen Rezeptorachsen. Ergebnis: globale Aufnahme bleibt begrenzt; Hochlastfenster werden deutlich offener, aber nicht aus dem Feld geloescht.
+- `763_SYNTH_SEQUENZ_ZUFALLSNAH_TOPOLOGIE_MATRIX.md`
+  - Liest die zufallsnahe Sequenz als Rollen-Topologie. Ergebnis: Topologie bleibt `stark_zentriert_wenig_rand`; globale Ordnung zerfaellt durch Sequenzumstellung nicht.
+- `764_SYNTH_SEQUENZ_ZUFALLSNAH_PHASENROLLEN.md`
+  - Liest die zufallsnahe Sequenz phasenweise. Ergebnis: die meisten Phasen werden zentrumsnah integriert, `randflackern` bleibt lokal offen und rekopplungsnah.
+- `765_SYNTH_SEQUENZ_ZUFALLSNAH_NACHHALL_TOPOLOGIE_SYNTHESE.md`
+  - Verdichtet die zufallsnahe Gegenprobe. Ergebnis: robuste globale MCM-Topologie bei lokaler Phasen-/Sequenzsensitivitaet; Nachhall wirkt als Kontext, nicht als Kontrolle.
+- `766_REAL_SEQUENCE_BREAK_SOL_2025_5M_2000_EXTRAKTION.md`
+  - Dokumentiert die Extraktion eines realen belasteten SOL-2025-5m-Fensters. Ergebnis: ein echter Sequenzbruchabschnitt mit negativem Drift, deutlichem Drawdown, vielen Richtungswechseln und hoher Weltspannung.
+- `767_REAL_SEQUENCE_BREAK_SOL_2025_5M_2000_ADAPTED_FIELD_FORSCHUNGSKETTE.md`
+  - Fuehrt die passive MINI_DIO-Kette auf dem realen Sequenzbruchfenster aus. Ergebnis: volle interne Reproduktion bei deutlich mehr `tragend_unruhig`, niedrigerer Rekopplung und hoeherer Syntaxvielfalt.
+- `768_REAL_SEQUENCE_BREAK_SOL_2025_5M_2000_REZEPTORACHSEN_VERGLEICH.md`
+  - Liest die reale Bruchwelt gegen Rezeptorachsen. Ergebnis: Hochlastfenster werden stark offen und randnah, waehrend adaptierte Feldaufnahme unter Rohaufnahme bleibt.
+- `769_REAL_SEQUENCE_BREAK_SOL_2025_5M_2000_TOPOLOGIE_MATRIX.md`
+  - Liest die reale Bruchwelt als Rollen-Topologie. Ergebnis: mehr Offenheit und Randnaehe, aber weiterhin lesbare zentrumsnahe Rollenordnung.
+- `770_REAL_SEQUENCE_BREAK_SOL_2025_5M_2000_SEGMENT_READER.md`
+  - Liest den realen Bruchabschnitt als Kurzsegment. Ergebnis: `gemischt`, mit hoher Feldzeit-/Uebergangsnaehe und getragener Unruhe.
+- `771_REAL_SEQUENCE_BREAK_SOL_2025_5M_2000_TOPOLOGIE_SYNTHESE.md`
+  - Verdichtet die reale Bruch-Gegenprobe. Ergebnis: MINI_DIO liest reale Weltspannung als offene, randnahe und dennoch topologisch gehaltene Innenfeldwirkung.
+- `772_REAL_QUIET_SOL_2025_5M_2000_EXTRAKTION.md`
+  - Dokumentiert ein rohweltlich ruhigeres SOL-2025-5m-Gegenfenster aus derselben Quelle wie der Bruchabschnitt. Ergebnis: deutlich geringere Rohbewegung, fast neutraler Drift und geringerer Drawdown.
+- `773_REAL_QUIET_SOL_2025_5M_2000_ADAPTED_FIELD_FORSCHUNGSKETTE.md`
+  - Fuehrt die passive MINI_DIO-Kette auf dem ruhigen SOL-2025-Fenster aus. Ergebnis: volle interne Reproduktion, weniger Episodenmemory, aber mehr `tragend_unruhig` als im Bruchfenster.
+- `774_REAL_QUIET_SOL_2025_5M_2000_REZEPTORACHSEN_VERGLEICH.md`
+  - Liest das ruhige Fenster gegen Rezeptorachsen. Ergebnis: rohweltliche Ruhe wird nicht automatisch als Innenfeldruhe gelesen; Offenheit und Rand/Kipp bleiben sichtbar.
+- `775_REAL_QUIET_SOL_2025_5M_2000_TOPOLOGIE_MATRIX.md`
+  - Liest das ruhige Fenster als Rollen-Topologie. Ergebnis: Topologie bleibt lesbar, aber als `gemischte_rollenordnung` mit mehr offener Variante.
+- `776_REAL_QUIET_SOL_2025_5M_2000_SEGMENT_READER.md`
+  - Liest das ruhige Fenster als Kurzsegment. Ergebnis: ebenfalls `gemischt`; weniger Memory, aber offene/tragend unruhige Feldfaerbung.
+- `777_REAL_SOL_2025_BRUCH_VS_RUHE_FELDZEIT_VERGLEICH.md`
+  - Vergleicht Bruch und Ruhe innerhalb derselben SOL-2025-Quelle. Ergebnis: Rohweltliche Ruhe ist nicht identisch mit Innenfeldruhe; MINI_DIO liest eine eigene Innenfeldreaktion aus Aufnahme, Topologie, Feldzeit und Nachhall.
+- `778_SOL_2025_FIELD_QUIET_WINDOW_SELECTION.md`
+  - Fuehrt eine zweistufige Quiet-Auswahl ein: erst rohweltlich ruhige Kandidaten, dann MINI_DIO-Lauf und Sortierung nach MCM-Feldruhe. Ergebnis: der feldruhigste Kandidat ist nicht der rohweltlich ruhigste Kandidat.
+- `779_SOL_2025_BRUCH_VS_FIELD_QUIET_REZEPTORACHSEN.md`
+  - Vergleicht reales Bruchfenster und feldruhigsten SOL-2025-Kandidaten auf Rezeptorachsen. Ergebnis: beide bleiben rezeptorisch sehr nah; Feldruhe ist nicht einfach rezeptorische Leisheit.
+- `780_SOL_2025_BRUCH_VS_FIELD_QUIET_TOPOLOGIE_MATRIX.md`
+  - Vergleicht reales Bruchfenster und feldruhigsten SOL-2025-Kandidaten topologisch. Ergebnis: beide bleiben `stark_zentriert_wenig_rand`, der Feldruhe-Kandidat ist minimal randarmer.
+- `781_SOL_2025_FELDRUHE_METHODIK_SYNTHESE.md`
+  - Verdichtet die Methodik. Ergebnis: Quiet-Extraktion muss zweistufig werden; Rohweltlabel, Rezeptoraufnahme, MCM-Feldwirkung, Topologie und Feldzeit/Nachhall bleiben getrennte Ebenen.
+- `782_BTC_2025_FIELD_QUIET_WINDOW_SELECTION.md`
+  - Fuehrt dieselbe zweistufige Feldruhe-Auswahl auf BTC 2025 aus. Ergebnis: auch hier ist der feldruhigste Kandidat nicht der rohweltlich ruhigste Kandidat; die Topologie bleibt ueberwiegend `stark_zentriert_wenig_rand`.
+- `783_BTC_2025_FELDRUHE_METHODIK_SYNTHESE.md`
+  - Verdichtet den BTC-2025-Befund. Ergebnis: BTC bestaetigt die Trennung von Rohruhe und Feldruhe sowie die robuste Zentrum-Peripherie-Lesung.
+- `784_SOL_BTC_2025_FELDRUHE_VERGLEICH.md`
+  - Vergleicht die feldruhigsten SOL- und BTC-2025-Kandidaten. Ergebnis: beide bilden `stark_zentriert_wenig_rand`; BTC ist im besten Kandidaten zentrumsnaeher und randarmer, SOL etwas offener.
+- `785_REAL_SEQUENCE_BREAK_BTC_2025_5M_2000_EXTRAKTION.md`
+  - Dokumentiert ein reales belastetes BTC-2025-5m-Fenster. Ergebnis: negativer Drift, deutlicher Drawdown, viele Richtungswechsel und erhoehte Weltspannung.
+- `786_REAL_SEQUENCE_BREAK_BTC_2025_5M_2000_ADAPTED_FIELD_FORSCHUNGSKETTE.md`
+  - Fuehrt die passive MINI_DIO-Kette auf dem BTC-Bruchfenster aus. Ergebnis: volle interne Reproduktion, mehr `tragend_unruhig` und mehr Kippanteile als in Feldruhe.
+- `787_BTC_2025_BRUCH_VS_FIELD_QUIET_TOPOLOGIE_MATRIX.md`
+  - Vergleicht BTC-Bruch und BTC-Feldruhe topologisch. Ergebnis: beide bleiben `stark_zentriert_wenig_rand`; Bruch ist offener, randnaeher und strainreicher.
+- `788_BTC_2025_BRUCH_VS_FELDRUHE_SYNTHESE.md`
+  - Verdichtet den BTC-Bruch-vs-Feldruhe-Befund. Ergebnis: globale Topologie bleibt robust, lokale Rollenanteile reagieren auf Weltspannung.
+- `789_SEMANTIC_MEMORY_ZERLEGEKARTE.md`
+  - Prüft `semantic_memory.py` gegen die neue Vier-Schichten-Gedächtnisarchitektur. Ergebnis: Wahrnehmungs-, Feld-, Episoden- und Semantikmemory sind funktional vorhanden, aber noch nicht sauber genug modular getrennt.
+- `790_DIO_SYNTAX_AUSLAGERUNG_CHECK.md`
+  - Kontrolliert die erste Code-Auslagerung nach `mini_dio/dio_syntax.py`. Ergebnis: gleiche Episoden, gleiche Top-Syntax-/Top-Familien-Überlappung und gleiche MCM-Kennwerte wie vor dem Umbau.
+- `791_EPISODE_STORE_AUSLAGERUNG_CHECK.md`
+  - Kontrolliert die zweite Code-Auslagerung nach `mini_dio/episode_store.py`. Ergebnis: Episoden- und MCM-Feldepisoden-Persistenz bleibt fachlich stabil; gleiche MCM-Kennwerte und gleiche Reproduktionsnähe wie vor dem Umbau.
+- `792_MCM_FIELD_STORE_AUSLAGERUNG_CHECK.md`
+  - Kontrolliert die dritte Code-Auslagerung nach `mini_dio/mcm_field_memory_store.py`. Ergebnis: MCM-Feldepisoden sind jetzt von konkreten Episoden getrennt; gleiche MCM-Kennwerte und gleiche Reproduktionsnaehe wie vor dem Umbau.
+- `793_PERCEPTION_STORE_AUSLAGERUNG_CHECK.md`
+  - Kontrolliert die vierte Code-Auslagerung nach `mini_dio/perception_memory_store.py`. Ergebnis: temporale Wahrnehmungs-/Primingspuren sind von MCM-Feldwirkung und Semantik getrennt; gleiche MCM-Kennwerte und gleiche Reproduktionsnaehe wie vor dem Umbau.
+- `794_SEMANTIC_MEANING_STORE_AUSLAGERUNG_CHECK.md`
+  - Kontrolliert die fuenfte Code-Auslagerung nach `mini_dio/semantic_meaning_store.py`. Ergebnis: passive Bedeutungsnotizen, Innenfeldkarten und Archetypen-Ablagen sind von den Grundspeichern getrennt; gleiche MCM-Kennwerte und gleiche Reproduktionsnaehe wie vor dem Umbau.
+- `795_PASSIVE_TRACE_STORE_AUSLAGERUNG_CHECK.md`
+  - Kontrolliert die sechste Code-Auslagerung nach `mini_dio/passive_trace_store.py`. Ergebnis: passive Relationen, Kontaktlagen, Satzspuren und Reflexionsmaps sind von aktiver Action-/Observation-Kompatibilitaet getrennt; gleiche MCM-Kennwerte und gleiche Reproduktionsnaehe wie vor dem Umbau.
+- `796_ACTION_MEMORY_STORE_AUSLAGERUNG_CHECK.md`
+  - Kontrolliert die siebte Code-Auslagerung nach `mini_dio/action_memory_store.py`. Ergebnis: aktive Symbol-/Familien-, Action- und Observation-Kompatibilitaet ist aus `semantic_memory.py` gekapselt; gleiche MCM-Kennwerte, gleiche Top-Syntax-/Top-Familien-Ueberlappung und keine fachliche Abweichung im Kontrolllauf.
+- `797_ACTION_SELECTION_AUSLAGERUNG_CHECK.md`
+  - Kontrolliert die achte Code-Auslagerung nach `mini_dio/action_selection.py`. Ergebnis: aktive Aktionsauswahl ist aus `run_mini.py` gekapselt; gleiche MCM-Kennwerte, gleiche Top-Syntax-/Top-Familien-Ueberlappung und keine fachliche Abweichung im Kontrolllauf.
 
 Hinweis:
 

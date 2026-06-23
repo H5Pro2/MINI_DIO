@@ -63,6 +63,41 @@ def _scale_phases(phases: tuple[tuple[str, int], ...], phase_scale: float) -> tu
     return tuple((name, max(1, int(round(length * scale)))) for name, length in phases)
 
 
+def _order_phases(phases: tuple[tuple[str, int], ...], phase_order: str) -> tuple[tuple[str, int], ...]:
+    if not str(phase_order or "").strip():
+        return phases
+    phase_by_name = {name: phase for phase in phases for name in [phase[0]]}
+    ordered_names = [item.strip() for item in str(phase_order).split(",") if item.strip()]
+    missing = [name for name in ordered_names if name not in phase_by_name]
+    if missing:
+        raise ValueError(f"unknown phase names: {', '.join(missing)}")
+    if len(set(ordered_names)) != len(ordered_names):
+        raise ValueError("phase-order contains duplicate phase names")
+    remaining = [phase for phase in phases if phase[0] not in set(ordered_names)]
+    return tuple(phase_by_name[name] for name in ordered_names) + tuple(remaining)
+
+
+def _override_phase_lengths(phases: tuple[tuple[str, int], ...], phase_lengths: str) -> tuple[tuple[str, int], ...]:
+    if not str(phase_lengths or "").strip():
+        return phases
+    overrides: dict[str, int] = {}
+    for item in str(phase_lengths).split(","):
+        if not item.strip():
+            continue
+        if "=" not in item:
+            raise ValueError("phase-lengths entries must use name=length")
+        name, raw_length = item.split("=", 1)
+        name = name.strip()
+        if not name:
+            raise ValueError("phase-lengths contains an empty phase name")
+        overrides[name] = max(1, int(float(raw_length.strip())))
+    known = {phase[0] for phase in phases}
+    missing = [name for name in overrides if name not in known]
+    if missing:
+        raise ValueError(f"unknown phase names: {', '.join(missing)}")
+    return tuple((name, overrides.get(name, length)) for name, length in phases)
+
+
 def _role(row: dict[str, str]) -> str:
     rec = _float(row, "mcm_rekopplung_quality")
     carry = _float(row, "mcm_carry_quality")
@@ -85,8 +120,10 @@ def build_report(
     episodes_csv: Path,
     preset: str,
     phase_scale: float = 1.0,
+    phase_order: str = "",
+    phase_lengths: str = "",
 ) -> tuple[list[dict[str, object]], dict[str, Counter]]:
-    phases = _scale_phases(PRESETS[preset], phase_scale)
+    phases = _override_phase_lengths(_order_phases(_scale_phases(PRESETS[preset], phase_scale), phase_order), phase_lengths)
     grouped: dict[str, list[dict[str, str]]] = defaultdict(list)
     with episodes_csv.open(newline="", encoding="utf-8") as handle:
         for row in csv.DictReader(handle):
@@ -165,12 +202,28 @@ def main() -> int:
         default=1.0,
         help="Scale phase lengths to match synthetically compacted or stretched worlds.",
     )
+    parser.add_argument(
+        "--phase-order",
+        default="",
+        help="Optional comma-separated phase order. Missing phases keep their original order after the listed phases.",
+    )
+    parser.add_argument(
+        "--phase-lengths",
+        default="",
+        help="Optional comma-separated length overrides, for example rekopplung=1400,randflackern=700.",
+    )
     parser.add_argument("--out", required=True)
     parser.add_argument("--csv-out", required=True)
     parser.add_argument("--title", default="Synthetische Phasenrollen")
     args = parser.parse_args()
 
-    phase_rows, phase_roles = build_report(Path(args.episodes), args.preset, args.phase_scale)
+    phase_rows, phase_roles = build_report(
+        Path(args.episodes),
+        args.preset,
+        args.phase_scale,
+        args.phase_order,
+        args.phase_lengths,
+    )
     write_outputs(phase_rows, phase_roles, Path(args.out), Path(args.csv_out), args.title)
     print(f"wrote {args.out}")
     print(f"wrote {args.csv_out}")

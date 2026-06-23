@@ -61,6 +61,50 @@ def _scale_phases(
     )
 
 
+def _order_phases(
+    phases: tuple[tuple[str, int, float, float, float, float], ...],
+    phase_order: str,
+) -> tuple[tuple[str, int, float, float, float, float], ...]:
+    if not str(phase_order or "").strip():
+        return phases
+    phase_by_name = {name: phase for phase in phases for name in [phase[0]]}
+    ordered_names = [item.strip() for item in str(phase_order).split(",") if item.strip()]
+    missing = [name for name in ordered_names if name not in phase_by_name]
+    if missing:
+        raise ValueError(f"unknown phase names: {', '.join(missing)}")
+    if len(set(ordered_names)) != len(ordered_names):
+        raise ValueError("phase-order contains duplicate phase names")
+    remaining = [phase for phase in phases if phase[0] not in set(ordered_names)]
+    return tuple(phase_by_name[name] for name in ordered_names) + tuple(remaining)
+
+
+def _override_phase_lengths(
+    phases: tuple[tuple[str, int, float, float, float, float], ...],
+    phase_lengths: str,
+) -> tuple[tuple[str, int, float, float, float, float], ...]:
+    if not str(phase_lengths or "").strip():
+        return phases
+    overrides: dict[str, int] = {}
+    for item in str(phase_lengths).split(","):
+        if not item.strip():
+            continue
+        if "=" not in item:
+            raise ValueError("phase-lengths entries must use name=length")
+        name, raw_length = item.split("=", 1)
+        name = name.strip()
+        if not name:
+            raise ValueError("phase-lengths contains an empty phase name")
+        overrides[name] = max(1, int(float(raw_length.strip())))
+    known = {phase[0] for phase in phases}
+    missing = [name for name in overrides if name not in known]
+    if missing:
+        raise ValueError(f"unknown phase names: {', '.join(missing)}")
+    return tuple(
+        (name, overrides.get(name, length), drift, wave, noise, volume_scale)
+        for name, length, drift, wave, noise, volume_scale in phases
+    )
+
+
 def _phase_at(index: int, phases: tuple[tuple[str, int, float, float, float, float], ...]) -> tuple[str, int, float, float, float, float, int]:
     offset = 0
     for phase in phases:
@@ -79,8 +123,10 @@ def build_rows(
     timeframe: str,
     preset: str,
     phase_scale: float = 1.0,
+    phase_order: str = "",
+    phase_lengths: str = "",
 ) -> list[dict[str, object]]:
-    phases = _scale_phases(PRESETS[preset], phase_scale)
+    phases = _override_phase_lengths(_order_phases(_scale_phases(PRESETS[preset], phase_scale), phase_order), phase_lengths)
     timestamp = 1_704_067_200_000
     step_ms = 300_000
     price = start_price
@@ -168,10 +214,29 @@ def main() -> int:
         default=1.0,
         help="Scale only phase lengths. Use this to build compact/stretched versions of the same form sequence.",
     )
+    parser.add_argument(
+        "--phase-order",
+        default="",
+        help="Optional comma-separated phase order. Missing phases keep their original order after the listed phases.",
+    )
+    parser.add_argument(
+        "--phase-lengths",
+        default="",
+        help="Optional comma-separated length overrides, for example rekopplung=1400,randflackern=700.",
+    )
     parser.add_argument("--output", required=True)
     args = parser.parse_args()
 
-    rows = build_rows(args.rows, args.start_price, args.symbol, args.timeframe, args.preset, args.phase_scale)
+    rows = build_rows(
+        args.rows,
+        args.start_price,
+        args.symbol,
+        args.timeframe,
+        args.preset,
+        args.phase_scale,
+        args.phase_order,
+        args.phase_lengths,
+    )
     path = Path(args.output)
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", newline="", encoding="utf-8") as handle:

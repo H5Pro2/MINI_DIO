@@ -38,7 +38,7 @@ Stattdessen gilt:
 Aussenwelt
   -> Sehen / Hoeren
   -> Rezeptoren
-  -> Fuehlen
+  -> adaptierte MCM-Feldwirkung
   -> MCM-Feld
 ```
 
@@ -46,8 +46,8 @@ Aussenwelt
 
 - `Sehen` liest Form, Fluss, Stabilitaet und Formwechsel.
 - `Hoeren` liest Energie, Ton, Druckwechsel und rhythmische Spannung.
-- `Rezeptoren` uebersetzen Sinneskontakt in innere Beruehrung.
-- `Fuehlen` meint im aktuellen MINI_DIO-Kontext MCM-Feldwirkung durch Rezeptorkontakt, nicht Hautkontakt.
+- `Rezeptoren` uebersetzen Sinnesaufnahme in geordnete Kontaktqualitaet.
+- `MCM-Feldwirkung` entsteht erst aus Rezeptorkontakt und adaptierter Aufnahme, nicht aus Rohdaten.
 - `MCM-Feld` bildet daraus passive Ordnung, Zentrum, Rand, Uebergang und Rekopplung.
 
 Im Code wird diese Trennung ab jetzt kompatibel gefuehrt:
@@ -65,7 +65,7 @@ Nicht zulaessig als Bauprinzip:
 Aussenwelt -> MCM-Feld
 ```
 
-Das waere fachlich zu roh, weil ein organisches System nicht die ganze Welt direkt fuehlt. Es fuehlt nur das, was ueber seine Rezeptoren als innere Beruehrung ankommt.
+Das waere fachlich zu roh, weil ein organisches System nicht die ganze Welt direkt fuehlt. Es bildet Feldwirkung erst aus kanalgetrennter Sinnesaufnahme, Rezeptorkontakt und adaptierter Aufnahme.
 
 Die Sinnesaufnahme nutzt ab Befund `321` standardmaessig den weltrelativen Modus:
 
@@ -192,6 +192,25 @@ Damit bleibt klar:
 - Sinneswahrnehmung ist der Kanal.
 - Reflektive Innenwahrnehmung ist die innere Lesung.
 - MCM-Feldwirkung ist die Veraenderung der Feldordnung.
+
+## Feldzeit und Nachhall
+
+Aus den aktuellen synthetischen Gegenproben wird folgende Grenze in den Bauplan uebernommen:
+
+```text
+Feldzeit = Integrationsqualitaet einer gewirkten Weltlage.
+Nachhall = Kontextspur, nicht Kontrolle.
+```
+
+Das bedeutet:
+
+- Zeit wird nicht als harte innere Zusatzachse erzwungen.
+- Mehr Feldzeit bedeutet mehr Moeglichkeit zur Integration, aber nicht automatisch Beruhigung.
+- Vorzustaende duerfen spaetere Wahrnehmung faerben.
+- Vorzustaende duerfen die aktuelle Weltwirkung nicht ersetzen.
+- Die globale MCM-Topologie kann stabil bleiben, waehrend lokale Phasenrollen sequenzsensitiv wechseln.
+
+Diese Mechanik bleibt passiv. Sie ist keine Vorhersage, kein Gate und keine Handlungsschicht.
 
 ## Bauplan-Grenze
 

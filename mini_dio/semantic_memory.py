@@ -1,8 +1,9 @@
-"""Semantic episodic memory for the mini DIO core.
+"""Semantic memory facade for the mini DIO core.
 
-The memory stores DIO-owned symbols. Human-readable labels are only generated
-for reports; the decision loop uses the symbols and their learned action
-statistics.
+The facade owns the JSON memory document and preserves the public API used by
+the current runtime. Concrete memory layers live in dedicated store modules so
+passive MCM meaning, episode, field and compatibility action memory stay
+separated.
 """
 
 from __future__ import annotations
@@ -10,448 +11,61 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
-
-ACTION_NAMES = ("WAIT", "LONG", "SHORT")
-
-
-def _clip(value: float, lo: float = -1.0, hi: float = 1.0) -> float:
-    try:
-        value = float(value)
-    except Exception:
-        value = 0.0
-    if value != value:
-        value = 0.0
-    return max(lo, min(hi, value))
-
-
-def _base36(number: int) -> str:
-    alphabet = "0123456789abcdefghijklmnopqrstuvwxyz"
-    number = abs(int(number))
-    if number == 0:
-        return "0"
-    chars = []
-    while number:
-        number, rem = divmod(number, 36)
-        chars.append(alphabet[rem])
-    return "".join(reversed(chars))
-
-
-def _mcm_feldwirkung(senses: dict) -> dict:
-    return dict(senses.get("mcm_feldwirkung", {}) or senses.get("fuehlen", {}) or {})
-
-
-def make_syntax_vector(senses: dict, field_signature: float) -> list[float]:
-    """Return DIO's compact sensory vector.
-
-    This is not a strategy description. It is a normalized form of
-    receptor intake/mcm_feldwirkung plus the current MCM field signature.
-    """
-
-    feldwirkung = _mcm_feldwirkung(senses)
-    rezeptoren = dict(senses.get("rezeptoren", {}) or {})
-    return [
-        _clip(value)
-        for value in [
-            rezeptoren.get("visual_form_salience", 0.0),
-            rezeptoren.get("visual_memory_recall", 0.0),
-            rezeptoren.get("auditory_stimulation", 0.0),
-            rezeptoren.get("direct_contact_pressure", 0.0),
-            rezeptoren.get("field_intake_pressure", 0.0),
-            feldwirkung.get("mcm_coherence", 0.0),
-            feldwirkung.get("mcm_tension", 0.0),
-            feldwirkung.get("mcm_asymmetry", 0.0),
-            field_signature,
-        ]
-    ]
-
-
-def make_syntax_symbol(senses: dict, field_signature: float) -> str:
-    """Create a compact internal symbol from sensed state.
-
-    The buckets are not strategy labels. They only compress receptor intake/
-    mcm_feldwirkung into a repeatable internal word.
-    """
-
-    values = make_syntax_vector(senses, field_signature)
-    buckets = [int(round((_clip(v) + 1.0) * 8.0)) for v in values]
-    hash_value = 2166136261
-    for bucket in buckets:
-        hash_value ^= bucket + 17
-        hash_value = (hash_value * 16777619) & 0xFFFFFFFF
-    return f"dio_{_base36(hash_value).rjust(7, '0')}"
-
-
-def make_contact_lage_symbol(payload: dict) -> str:
-    """Create DIO-owned syntax for a passive contact-lage."""
-
-    state = str(payload.get("contact_lage_state", "") or "")
-    values = [
-        len(state),
-        int(payload.get("runs", 0) or 0),
-        int(payload.get("trades_total", 0) or 0),
-        int(payload.get("direct_positive_action", 0) or 0),
-        int(payload.get("observation_to_positive_action", 0) or 0),
-        int(payload.get("held_observation", 0) or 0),
-        int(round(float(payload.get("contact_reward_sum", 0.0) or 0.0) * 1000.0)),
-    ]
-    hash_value = 2166136261
-    for value in values:
-        hash_value ^= abs(int(value)) + 31
-        hash_value = (hash_value * 16777619) & 0xFFFFFFFF
-    return f"dio_contact_{_base36(hash_value).rjust(7, '0')}"
-
-
-def make_reflection_seed_symbol(payload: dict) -> str:
-    """Create DIO-owned syntax for a passive reflection seed."""
-
-    family = str(payload.get("symbol_family", "") or "")
-    state = str(payload.get("reflection_state", "") or "")
-    values = [
-        len(family),
-        len(state),
-        int(payload.get("prior_observation_count", 0) or 0),
-        int(payload.get("prior_execution_count", 0) or 0),
-        int(payload.get("followup_seen_count", 0) or 0),
-        int(payload.get("followup_executed_aligned_count", 0) or 0),
-        int(round(float(payload.get("prior_execution_reward_sum", 0.0) or 0.0) * 1000.0)),
-        int(round(float(payload.get("followup_executed_reward", 0.0) or 0.0) * 1000.0)),
-    ]
-    hash_value = 2166136261
-    for char in f"{family}|{state}":
-        hash_value ^= ord(char) + 43
-        hash_value = (hash_value * 16777619) & 0xFFFFFFFF
-    for value in values:
-        hash_value ^= abs(int(value)) + 43
-        hash_value = (hash_value * 16777619) & 0xFFFFFFFF
-    return f"dio_reflect_{_base36(hash_value).rjust(7, '0')}"
-
-
-def make_reflection_map_symbol(payload: dict) -> str:
-    """Create DIO-owned syntax for a passive reflection-map snapshot."""
-
-    family = str(payload.get("symbol_family", "") or "")
-    state = str(payload.get("reflection_map_state", "") or "")
-    reason = str(payload.get("reflection_map_reason", "") or "")
-    source_probe = str(payload.get("source_probe", "") or "")
-    values = [
-        len(family),
-        len(state),
-        len(reason),
-        len(source_probe),
-        int(payload.get("seen_count", 0) or 0),
-        int(payload.get("executed_count", 0) or 0),
-        int(payload.get("observed_count", 0) or 0),
-        int(round(float(payload.get("reward_sum", 0.0) or 0.0) * 1000.0)),
-        int(round(float(payload.get("best_reward_sum", 0.0) or 0.0) * 1000.0)),
-    ]
-    hash_value = 2166136261
-    for char in f"{family}|{state}|{reason}|{source_probe}":
-        hash_value ^= ord(char) + 47
-        hash_value = (hash_value * 16777619) & 0xFFFFFFFF
-    for value in values:
-        hash_value ^= abs(int(value)) + 47
-        hash_value = (hash_value * 16777619) & 0xFFFFFFFF
-    return f"dio_rmap_{_base36(hash_value).rjust(7, '0')}"
-
-
-def make_episode_memory_symbol(payload: dict) -> str:
-    """Create DIO-owned syntax for a passive episode trace."""
-
-    duration = int(payload.get("duration", 0) or 0)
-    duration_band = min(5, max(0, duration // 3))
-    values = [
-        str(payload.get("episode_state", "") or ""),
-        str(payload.get("previous_state", "") or ""),
-        str(payload.get("next_state", "") or ""),
-        str(payload.get("transition", "") or ""),
-        str(payload.get("dominant_family", "") or ""),
-        duration_band,
-        int(round(float(payload.get("avg_mcm_carry_quality", 0.0) or 0.0) * 10.0)),
-        int(round(float(payload.get("avg_mcm_strain_quality", 0.0) or 0.0) * 10.0)),
-        int(round(float(payload.get("avg_mcm_rekopplung_quality", 0.0) or 0.0) * 10.0)),
-        int(round(float(payload.get("avg_sensory_coupling", 0.0) or 0.0) * 10.0)),
-    ]
-    hash_value = 2166136261
-    for value in values:
-        for char in str(value):
-            hash_value ^= ord(char) + 53
-            hash_value = (hash_value * 16777619) & 0xFFFFFFFF
-    return f"dio_episode_{_base36(hash_value).rjust(7, '0')}"
-
-
-def make_mcm_field_episode_symbol(payload: dict) -> str:
-    """Create DIO-owned syntax for passive MCM field-effect recurrence.
-
-    This deliberately ignores the dominant syntax family. It asks whether the
-    MCM field effect itself recurs across different surface words/worlds.
-    """
-
-    duration = int(payload.get("duration", 0) or 0)
-    duration_band = min(5, max(0, duration // 3))
-    values = [
-        str(payload.get("episode_state", "") or ""),
-        str(payload.get("previous_state", "") or ""),
-        str(payload.get("next_state", "") or ""),
-        str(payload.get("transition", "") or ""),
-        duration_band,
-        int(round(float(payload.get("avg_mcm_carry_quality", 0.0) or 0.0) * 10.0)),
-        int(round(float(payload.get("avg_mcm_strain_quality", 0.0) or 0.0) * 10.0)),
-        int(round(float(payload.get("avg_mcm_rekopplung_quality", 0.0) or 0.0) * 10.0)),
-        int(round(float(payload.get("avg_sensory_coupling", 0.0) or 0.0) * 10.0)),
-        int(round(float(payload.get("avg_visual_field_gap", 0.0) or 0.0) * 10.0)),
-        int(round(float(payload.get("avg_hearing_field_gap", 0.0) or 0.0) * 10.0)),
-    ]
-    hash_value = 2166136261
-    for value in values:
-        for char in str(value):
-            hash_value ^= ord(char) + 59
-            hash_value = (hash_value * 16777619) & 0xFFFFFFFF
-    return f"dio_mcm_episode_{_base36(hash_value).rjust(7, '0')}"
-
-
-def _vector_distance(left: list[float], right: list[float]) -> float:
-    if not left or not right:
-        return 1.0
-    size = min(len(left), len(right))
-    if size <= 0:
-        return 1.0
-    # Syntax vectors are clipped when they are created or stored. Re-clipping
-    # every coordinate dominates long passive runs without adding information.
-    total = 0.0
-    for i in range(size):
-        total += abs(float(left[i]) - float(right[i]))
-    return total / size
-
-
-def _update_vector(record: dict, vector: list[float], count: int) -> None:
-    if not vector:
-        return
-    previous = record.get("vector")
-    if not isinstance(previous, list) or len(previous) != len(vector):
-        record["vector"] = [_clip(value) for value in vector]
-        return
-    weight_old = max(1, int(count) - 1)
-    weight_new = 1
-    denom = weight_old + weight_new
-    record["vector"] = [
-        _clip(((float(previous[i]) * weight_old) + (_clip(vector[i]) * weight_new)) / denom)
-        for i in range(len(vector))
-    ]
-
-
-def _action_signal(record: dict, action: str) -> float:
-    state = dict(dict(record.get("actions", {}) or {}).get(action, {}) or {})
-    trust = float(state.get("trust", 0.0) or 0.0)
-    caution = float(state.get("caution", 0.0) or 0.0)
-    count = int(state.get("count", 0) or 0)
-    familiarity = min(1.0, count / 6.0)
-    return (trust - caution) * familiarity
-
-
-def _observation_signal(record: dict, action: str) -> float:
-    observations = _ensure_observations(record)
-    state = dict(observations.get(action, {}) or {})
-    count = int(state.get("count", 0) or 0)
-    if count <= 0:
-        return 0.0
-    recognition_avg = float(state.get("recognition_sum", 0.0) or 0.0) / max(1, count)
-    reward_avg = float(state.get("reward_sum", 0.0) or 0.0) / max(1, count)
-    familiarity = min(1.0, count / 8.0)
-    return _clip(recognition_avg * reward_avg * familiarity, -1.0, 1.0)
-
-
-def _associative_signal(records: list[dict], action: str, vector: list[float]) -> float:
-    if not vector:
-        return 0.0
-    # Passive research runs often have many remembered families but no
-    # effective action signal yet. In that case the old path spent most runtime
-    # computing vector distances that can only average back to zero.
-    has_signal = False
-    for record in records:
-        if _action_signal(record, action) != 0.0:
-            has_signal = True
-            break
-    if not has_signal:
-        return 0.0
-    weighted = 0.0
-    weight_sum = 0.0
-    for record in records:
-        record_vector = record.get("vector")
-        if not isinstance(record_vector, list):
-            continue
-        distance = _vector_distance(vector, record_vector)
-        weight = 1.0 / (1.0 + (distance * distance * 12.0))
-        signal = _action_signal(record, action)
-        weighted += signal * weight
-        weight_sum += weight
-    if weight_sum <= 0.0:
-        return 0.0
-    return _clip(weighted / weight_sum, -1.0, 1.0)
-
-
-def _sensor_relation_rank(item: dict) -> tuple:
-    kind = str(item.get("relation_kind", "") or "")
-    return (
-        kind == "same_family_cross_phase",
-        kind == "bearing_sensor_neighbor",
-        float(item.get("sensor_relation_trace", 0.0) or 0.0),
-        int(item.get("left_executed", 0) or 0) + int(item.get("right_executed", 0) or 0),
-        float(item.get("left_reward", 0.0) or 0.0) + float(item.get("right_reward", 0.0) or 0.0),
-    )
-
-
-def _neighbor_consequence_rank(item: dict) -> tuple:
-    state = str(item.get("neighbor_consequence_state", "") or "")
-    return (
-        state == "reifende_verwandtschaft",
-        state == "vorsichtige_verwandtschaft",
-        state == "beobachtete_verwandtschaft",
-        float(item.get("sensor_similarity", 0.0) or 0.0),
-        float(item.get("target_reward_sum", 0.0) or 0.0),
-        float(item.get("reference_reward_sum", 0.0) or 0.0),
-    )
-
-
-def _contact_lage_rank(item: dict) -> tuple:
-    state = str(item.get("contact_lage_state", "") or "")
-    return (
-        state == "exakte_wiederbegegnung",
-        state == "nahe_aehnlichkeit",
-        state == "ferne_aehnlichkeit",
-        float(item.get("contact_reward_sum", 0.0) or 0.0),
-        int(item.get("direct_positive_action", 0) or 0),
-        int(item.get("observation_to_positive_action", 0) or 0),
-        int(item.get("held_observation", 0) or 0),
-    )
-
-
-def _reflection_seed_rank(item: dict) -> tuple:
-    state = str(item.get("reflection_state", "") or "")
-    return (
-        state == "reflection_seed_reconfirmed",
-        state == "reflection_seed_overheld",
-        float(item.get("followup_executed_reward", 0.0) or 0.0),
-        int(item.get("followup_executed_aligned_count", 0) or 0),
-        float(item.get("prior_execution_reward_sum", 0.0) or 0.0),
-        int(item.get("prior_execution_count", 0) or 0),
-    )
-
-
-def _reflection_map_rank(item: dict) -> tuple:
-    state = str(item.get("reflection_map_state", "") or "")
-    return (
-        state == "reflection_memory_reconfirmed",
-        state == "reflection_memory_conflict",
-        state == "reflection_memory_observed",
-        float(item.get("reward_sum", 0.0) or 0.0),
-        int(item.get("seen_count", 0) or 0),
-        int(item.get("executed_count", 0) or 0),
-    )
-
-
-def _temporal_family_rank(item: dict) -> tuple:
-    return (
-        float(item.get("max_temporal_trust_support", 0.0) or 0.0),
-        float(item.get("max_afterimage", 0.0) or 0.0),
-        int(item.get("seen_count", 0) or 0),
-        -float(item.get("max_temporal_caution_support", 0.0) or 0.0),
-    )
-
-
-def _episode_memory_rank(item: dict) -> tuple:
-    return (
-        float(item.get("avg_mcm_rekopplung_quality", 0.0) or 0.0),
-        float(item.get("avg_mcm_carry_quality", 0.0) or 0.0),
-        int(item.get("seen_count", 0) or 0),
-        -float(item.get("avg_mcm_strain_quality", 0.0) or 0.0),
-        int(item.get("duration", 0) or 0),
-    )
-
-
-def _mcm_field_episode_rank(item: dict) -> tuple:
-    return (
-        int(item.get("seen_count", 0) or 0),
-        float(item.get("avg_mcm_rekopplung_quality", 0.0) or 0.0),
-        float(item.get("avg_mcm_carry_quality", 0.0) or 0.0),
-        -float(item.get("avg_mcm_strain_quality", 0.0) or 0.0),
-        int(item.get("duration", 0) or 0),
-    )
-
-
-def _episode_record_rank(item: dict) -> tuple:
-    actions = dict(item.get("actions", {}) or {})
-    observations = dict(item.get("observations", {}) or {})
-    action_count = sum(int(dict(actions.get(action, {}) or {}).get("count", 0) or 0) for action in ACTION_NAMES)
-    observation_count = sum(int(dict(observations.get(action, {}) or {}).get("count", 0) or 0) for action in ACTION_NAMES)
-    action_reward = sum(abs(float(dict(actions.get(action, {}) or {}).get("reward_sum", 0.0) or 0.0)) for action in ACTION_NAMES)
-    observation_reward = sum(
-        abs(float(dict(observations.get(action, {}) or {}).get("reward_sum", 0.0) or 0.0)) for action in ACTION_NAMES
-    )
-    return (
-        int(item.get("count", 0) or 0),
-        action_count + observation_count,
-        action_reward + observation_reward,
-    )
-
-
-def _compact_record(record: dict) -> dict:
-    compact = dict(record)
-    compact.pop("vector", None)
-    return compact
-
-
-def _default_action_map() -> dict:
-    return {
-        action: {
-            "count": 0,
-            "reward_sum": 0.0,
-            "trust": 0.0,
-            "caution": 0.0,
-            "last_reward": 0.0,
-            "timing_improvement_sum": 0.0,
-            "last_timing_improvement": 0.0,
-        }
-        for action in ACTION_NAMES
-    }
-
-
-def _default_observation_map() -> dict:
-    return {
-        action: {
-            "count": 0,
-            "recognition_sum": 0.0,
-            "reward_sum": 0.0,
-            "last_recognition": 0.0,
-            "last_reward": 0.0,
-        }
-        for action in ACTION_NAMES
-    }
-
-
-def _ensure_action_defaults(record: dict) -> dict:
-    actions = record.setdefault("actions", {})
-    defaults = _default_action_map()
-    for action in ACTION_NAMES:
-        state = actions.setdefault(action, {})
-        for key, value in defaults[action].items():
-            state.setdefault(key, value)
-    return actions
-
-
-def _ensure_observations(record: dict) -> dict:
-    observations = record.setdefault("observations", {})
-    for action in ACTION_NAMES:
-        observations.setdefault(
-            action,
-            {
-                "count": 0,
-                "recognition_sum": 0.0,
-                "reward_sum": 0.0,
-                "last_recognition": 0.0,
-                "last_reward": 0.0,
-            },
-        )
-    return observations
+from mini_dio.action_memory_store import (
+    action_bias as action_bias_store,
+    action_diagnostics as action_diagnostics_store,
+    action_readiness as action_readiness_store,
+    compact_record,
+    episode_record_rank,
+    family_record as family_record_store,
+    learn as learn_store,
+    learn_observation as learn_observation_store,
+    symbol_record as symbol_record_store,
+)
+from mini_dio.dio_syntax import (
+    make_reflection_map_symbol,
+    make_reflection_seed_symbol,
+    make_syntax_symbol,
+    make_syntax_vector,
+)
+from mini_dio.episode_store import (
+    compact_episode_memory as compact_episode_memory_store,
+    store_episode_memory as store_episode_memory_trace,
+    top_episode_memory,
+)
+from mini_dio.mcm_field_memory_store import (
+    compact_mcm_field_episode_memory as compact_mcm_field_episode_memory_store,
+    store_mcm_field_episode_memory as store_mcm_field_episode_memory_trace,
+    top_mcm_field_episode_memory,
+)
+from mini_dio.perception_memory_store import (
+    compact_temporal_families as compact_temporal_families_store,
+    store_temporal_family as store_temporal_family_trace,
+)
+from mini_dio.passive_trace_store import (
+    compact_contact_lagen as compact_contact_lagen_store,
+    compact_neighbor_consequences as compact_neighbor_consequences_store,
+    compact_reflection_maps as compact_reflection_maps_store,
+    compact_reflection_seeds as compact_reflection_seeds_store,
+    compact_sensor_relations as compact_sensor_relations_store,
+    compact_sentence_traces as compact_sentence_traces_store,
+    set_neighbor_consequence_summary as set_neighbor_consequence_summary_trace,
+    set_relation_summary as set_relation_summary_trace,
+    set_sensor_relation_summary as set_sensor_relation_summary_trace,
+    store_contact_lage as store_contact_lage_trace,
+    store_reflection_map as store_reflection_map_trace,
+    store_reflection_seed as store_reflection_seed_trace,
+    store_sentence_trace as store_sentence_trace_trace,
+)
+from mini_dio.semantic_meaning_store import (
+    store_passive_inner_effect_meaning_notes as store_passive_inner_effect_meaning_notes_trace,
+    store_passive_inner_effect_reflection_note as store_passive_inner_effect_reflection_note_trace,
+    store_passive_inner_field_archetype_matrix as store_passive_inner_field_archetype_matrix_trace,
+    store_passive_inner_field_archetypes as store_passive_inner_field_archetypes_trace,
+    store_passive_inner_field_bridge_stable_contrast as store_passive_inner_field_bridge_stable_contrast_trace,
+    store_passive_inner_field_map as store_passive_inner_field_map_trace,
+    store_passive_inner_field_map_comparison as store_passive_inner_field_map_comparison_trace,
+)
 
 
 class SemanticMemory:
@@ -525,20 +139,7 @@ class SemanticMemory:
             self.compact_families()
 
     def family_record(self, family: str) -> dict:
-        family = str(family or "-") or "-"
-        families = self.data.setdefault("families", {})
-        record = families.get(family)
-        if not isinstance(record, dict):
-            record = {
-                "family": family,
-                "count": 0,
-                "actions": _default_action_map(),
-                "observations": _default_observation_map(),
-            }
-            families[family] = record
-        _ensure_observations(record)
-        _ensure_action_defaults(record)
-        return record
+        return family_record_store(self.data, family)
 
     def set_relation_summary(self, support_pair: str, summary: dict) -> None:
         """Store passive relation memory.
@@ -547,25 +148,7 @@ class SemanticMemory:
         action_diagnostics, action_bias or action_readiness.
         """
 
-        support_pair = str(support_pair or "-") or "-"
-        if support_pair == "-":
-            return
-        relations = self.data.setdefault("relations", {})
-        relations[support_pair] = {
-            "support_pair": support_pair,
-            "families": list(summary.get("families", []) or []),
-            "phases": list(summary.get("phases", []) or []),
-            "phase_count": int(summary.get("phase_count", 0) or 0),
-            "rows": int(summary.get("rows", 0) or 0),
-            "executed_local_confirmation": int(summary.get("executed_local_confirmation", 0) or 0),
-            "observed_related_potential": int(summary.get("observed_related_potential", 0) or 0),
-            "long_local": int(summary.get("long_local", 0) or 0),
-            "short_local": int(summary.get("short_local", 0) or 0),
-            "avg_local_confirmation": float(summary.get("avg_local_confirmation", 0.0) or 0.0),
-            "max_local_confirmation": float(summary.get("max_local_confirmation", 0.0) or 0.0),
-            "reward_sum": float(summary.get("reward_sum", 0.0) or 0.0),
-            "passive_only": True,
-        }
+        set_relation_summary_trace(self.data, support_pair, summary)
 
     def set_sensor_relation_summary(self, relation_key: str, summary: dict) -> None:
         """Store passive sensor-neighbor relation memory.
@@ -574,28 +157,7 @@ class SemanticMemory:
         which DIO-owned families looked similar across sehen/hoeren/fuehlen.
         """
 
-        relation_key = str(relation_key or "-") or "-"
-        if relation_key == "-":
-            return
-        relations = self.data.setdefault("sensor_relations", {})
-        relations[relation_key] = {
-            "relation_key": relation_key,
-            "left_family": str(summary.get("left_family", "-") or "-"),
-            "right_family": str(summary.get("right_family", "-") or "-"),
-            "left_phase": str(summary.get("left_phase", "-") or "-"),
-            "right_phase": str(summary.get("right_phase", "-") or "-"),
-            "relation_kind": str(summary.get("relation_kind", "-") or "-"),
-            "sensor_relation_trace": float(summary.get("sensor_relation_trace", 0.0) or 0.0),
-            "sensor_distance": float(summary.get("sensor_distance", 0.0) or 0.0),
-            "visual_mcm_gap": float(summary.get("visual_mcm_gap", 0.0) or 0.0),
-            "tone_tension_gap": float(summary.get("tone_tension_gap", 0.0) or 0.0),
-            "left_reward": float(summary.get("left_reward", 0.0) or 0.0),
-            "right_reward": float(summary.get("right_reward", 0.0) or 0.0),
-            "left_executed": int(summary.get("left_executed", 0) or 0),
-            "right_executed": int(summary.get("right_executed", 0) or 0),
-            "passive_only": True,
-        }
-        self.compact_sensor_relations()
+        set_sensor_relation_summary_trace(self.data, relation_key, summary, self.max_sensor_relations)
 
     def set_neighbor_consequence_summary(self, relation_key: str, summary: dict) -> None:
         """Store passive consequence-bound sensor-neighbor memory.
@@ -605,216 +167,61 @@ class SemanticMemory:
         still open.
         """
 
-        relation_key = str(relation_key or "-") or "-"
-        if relation_key == "-":
-            return
-        relations = self.data.setdefault("neighbor_consequences", {})
-        relations[relation_key] = {
-            "relation_key": relation_key,
-            "target_family": str(summary.get("target_family", "-") or "-"),
-            "reference_family": str(summary.get("reference_family", "-") or "-"),
-            "neighbor_consequence_state": str(summary.get("neighbor_consequence_state", "-") or "-"),
-            "sensor_distance": float(summary.get("sensor_distance", 0.0) or 0.0),
-            "sensor_similarity": float(summary.get("sensor_similarity", 0.0) or 0.0),
-            "target_reward_sum": float(summary.get("target_reward_sum", 0.0) or 0.0),
-            "reference_reward_sum": float(summary.get("reference_reward_sum", 0.0) or 0.0),
-            "target_executed_rows": int(summary.get("target_executed_rows", 0) or 0),
-            "target_observed_rows": int(summary.get("target_observed_rows", 0) or 0),
-            "reference_executed_rows": int(summary.get("reference_executed_rows", 0) or 0),
-            "reference_observed_rows": int(summary.get("reference_observed_rows", 0) or 0),
-            "target_class": str(summary.get("target_class", "-") or "-"),
-            "reference_class": str(summary.get("reference_class", "-") or "-"),
-            "target_phases": str(summary.get("target_phases", "-") or "-"),
-            "reference_phases": str(summary.get("reference_phases", "-") or "-"),
-            "passive_only": True,
-        }
-        self.compact_neighbor_consequences()
+        set_neighbor_consequence_summary_trace(self.data, relation_key, summary, self.max_neighbor_consequences)
 
     def compact_neighbor_consequences(self, max_relations: int | None = None) -> dict:
         """Keep the passive neighbor-consequence map compact."""
 
         limit = int(max_relations if max_relations is not None else self.max_neighbor_consequences)
-        limit = max(1, limit)
-        relations = self.data.setdefault("neighbor_consequences", {})
-        if not isinstance(relations, dict):
-            self.data["neighbor_consequences"] = {}
-            return {"before": 0, "after": 0, "removed": 0}
-        before = len(relations)
-        if before <= limit:
-            return {"before": before, "after": before, "removed": 0}
-        sorted_items = sorted(
-            relations.items(),
-            key=lambda item: _neighbor_consequence_rank(dict(item[1] or {})),
-            reverse=True,
-        )
-        kept = dict(sorted_items[:limit])
-        self.data["neighbor_consequences"] = kept
-        after = len(kept)
-        return {"before": before, "after": after, "removed": before - after}
+        return compact_neighbor_consequences_store(self.data, limit)
 
     def compact_sensor_relations(self, max_relations: int | None = None) -> dict:
         """Keep the passive sensor relation map compact."""
 
         limit = int(max_relations if max_relations is not None else self.max_sensor_relations)
-        limit = max(1, limit)
-        relations = self.data.setdefault("sensor_relations", {})
-        if not isinstance(relations, dict):
-            self.data["sensor_relations"] = {}
-            return {"before": 0, "after": 0, "removed": 0}
-        before = len(relations)
-        if before <= limit:
-            return {"before": before, "after": before, "removed": 0}
-        sorted_items = sorted(relations.items(), key=lambda item: _sensor_relation_rank(dict(item[1] or {})), reverse=True)
-        kept = dict(sorted_items[:limit])
-        self.data["sensor_relations"] = kept
-        after = len(kept)
-        return {"before": before, "after": after, "removed": before - after}
+        return compact_sensor_relations_store(self.data, limit)
 
     def compact_contact_lagen(self, max_relations: int | None = None) -> dict:
         """Keep the passive contact-lage map compact."""
 
         limit = int(max_relations if max_relations is not None else self.max_contact_lagen)
-        limit = max(1, limit)
-        relations = self.data.setdefault("contact_lagen", {})
-        if not isinstance(relations, dict):
-            self.data["contact_lagen"] = {}
-            return {"before": 0, "after": 0, "removed": 0}
-        before = len(relations)
-        if before <= limit:
-            return {"before": before, "after": before, "removed": 0}
-        sorted_items = sorted(relations.items(), key=lambda item: _contact_lage_rank(dict(item[1] or {})), reverse=True)
-        kept = dict(sorted_items[:limit])
-        self.data["contact_lagen"] = kept
-        after = len(kept)
-        return {"before": before, "after": after, "removed": before - after}
+        return compact_contact_lagen_store(self.data, limit)
 
     def compact_sentence_traces(self, max_relations: int | None = None) -> dict:
         """Keep the passive sentence trace map compact."""
 
         limit = int(max_relations if max_relations is not None else self.max_sentence_traces)
-        limit = max(1, limit)
-        traces = self.data.setdefault("sentence_traces", {})
-        if not isinstance(traces, dict):
-            self.data["sentence_traces"] = {}
-            return {"before": 0, "after": 0, "removed": 0}
-        before = len(traces)
-        if before <= limit:
-            return {"before": before, "after": before, "removed": 0}
-        sorted_items = sorted(
-            traces.items(),
-            key=lambda item: (
-                float(dict(item[1] or {}).get("reward_sum", 0.0) or 0.0),
-                int(dict(item[1] or {}).get("count", 0) or 0),
-                str(dict(item[1] or {}).get("episode_contact_state", "") or "") == "kontakt_handlung_bestaetigt",
-            ),
-            reverse=True,
-        )
-        kept = dict(sorted_items[:limit])
-        self.data["sentence_traces"] = kept
-        after = len(kept)
-        return {"before": before, "after": after, "removed": before - after}
+        return compact_sentence_traces_store(self.data, limit)
 
     def compact_reflection_seeds(self, max_relations: int | None = None) -> dict:
         """Keep passive reflection seeds compact."""
 
         limit = int(max_relations if max_relations is not None else self.max_reflection_seeds)
-        limit = max(1, limit)
-        seeds = self.data.setdefault("reflection_seeds", {})
-        if not isinstance(seeds, dict):
-            self.data["reflection_seeds"] = {}
-            return {"before": 0, "after": 0, "removed": 0}
-        before = len(seeds)
-        if before <= limit:
-            return {"before": before, "after": before, "removed": 0}
-        sorted_items = sorted(
-            seeds.items(),
-            key=lambda item: _reflection_seed_rank(dict(item[1] or {})),
-            reverse=True,
-        )
-        kept = dict(sorted_items[:limit])
-        self.data["reflection_seeds"] = kept
-        after = len(kept)
-        return {"before": before, "after": after, "removed": before - after}
+        return compact_reflection_seeds_store(self.data, limit)
 
     def compact_episode_memory(self, max_items: int | None = None) -> dict:
         """Keep passive episode memory compact."""
 
         limit = int(max_items if max_items is not None else self.max_episode_memory)
-        limit = max(1, limit)
-        episodes = self.data.setdefault("episode_memory", {})
-        if not isinstance(episodes, dict):
-            self.data["episode_memory"] = {}
-            return {"before": 0, "after": 0, "removed": 0}
-        before = len(episodes)
-        if before <= limit:
-            return {"before": before, "after": before, "removed": 0}
-        sorted_items = sorted(
-            episodes.items(),
-            key=lambda item: _episode_memory_rank(dict(item[1] or {})),
-            reverse=True,
-        )
-        kept = dict(sorted_items[:limit])
-        self.data["episode_memory"] = kept
-        after = len(kept)
-        return {"before": before, "after": after, "removed": before - after}
+        return compact_episode_memory_store(self.data, limit)
 
     def compact_mcm_field_episode_memory(self, max_items: int | None = None) -> dict:
         """Keep passive MCM field episode memory compact."""
 
         limit = int(max_items if max_items is not None else self.max_mcm_field_episode_memory)
-        limit = max(1, limit)
-        episodes = self.data.setdefault("mcm_field_episode_memory", {})
-        if not isinstance(episodes, dict):
-            self.data["mcm_field_episode_memory"] = {}
-            return {"before": 0, "after": 0, "removed": 0}
-        before = len(episodes)
-        if before <= limit:
-            return {"before": before, "after": before, "removed": 0}
-        sorted_items = sorted(
-            episodes.items(),
-            key=lambda item: _mcm_field_episode_rank(dict(item[1] or {})),
-            reverse=True,
-        )
-        kept = dict(sorted_items[:limit])
-        self.data["mcm_field_episode_memory"] = kept
-        after = len(kept)
-        return {"before": before, "after": after, "removed": before - after}
+        return compact_mcm_field_episode_memory_store(self.data, limit)
 
     def compact_reflection_maps(self, max_relations: int | None = None) -> dict:
         """Keep passive reflection-map snapshots compact."""
 
         limit = int(max_relations if max_relations is not None else self.max_reflection_maps)
-        limit = max(1, limit)
-        maps = self.data.setdefault("reflection_maps", {})
-        if not isinstance(maps, dict):
-            self.data["reflection_maps"] = {}
-            return {"before": 0, "after": 0, "removed": 0}
-        before = len(maps)
-        if before <= limit:
-            return {"before": before, "after": before, "removed": 0}
-        sorted_items = sorted(maps.items(), key=lambda item: _reflection_map_rank(dict(item[1] or {})), reverse=True)
-        kept = dict(sorted_items[:limit])
-        self.data["reflection_maps"] = kept
-        after = len(kept)
-        return {"before": before, "after": after, "removed": before - after}
+        return compact_reflection_maps_store(self.data, limit)
 
     def compact_temporal_families(self, max_relations: int | None = None) -> dict:
         """Keep passive temporal family traces compact."""
 
         limit = int(max_relations if max_relations is not None else self.max_temporal_families)
-        limit = max(1, limit)
-        families = self.data.setdefault("temporal_families", {})
-        if not isinstance(families, dict):
-            self.data["temporal_families"] = {}
-            return {"before": 0, "after": 0, "removed": 0}
-        before = len(families)
-        if before <= limit:
-            return {"before": before, "after": before, "removed": 0}
-        sorted_items = sorted(families.items(), key=lambda item: _temporal_family_rank(dict(item[1] or {})), reverse=True)
-        kept = dict(sorted_items[:limit])
-        self.data["temporal_families"] = kept
-        after = len(kept)
-        return {"before": before, "after": after, "removed": before - after}
+        return compact_temporal_families_store(self.data, limit)
 
     def save(self) -> None:
         self.compact_symbols()
@@ -842,7 +249,7 @@ class SemanticMemory:
         before = len(symbols)
         if before <= limit:
             return {"before": before, "after": before, "removed": 0}
-        sorted_items = sorted(symbols.items(), key=lambda item: _episode_record_rank(dict(item[1] or {})), reverse=True)
+        sorted_items = sorted(symbols.items(), key=lambda item: episode_record_rank(dict(item[1] or {})), reverse=True)
         kept = dict(sorted_items[:limit])
         self.data["symbols"] = kept
         return {"before": before, "after": len(kept), "removed": before - len(kept)}
@@ -856,7 +263,7 @@ class SemanticMemory:
         before = len(families)
         if before <= limit:
             return {"before": before, "after": before, "removed": 0}
-        sorted_items = sorted(families.items(), key=lambda item: _episode_record_rank(dict(item[1] or {})), reverse=True)
+        sorted_items = sorted(families.items(), key=lambda item: episode_record_rank(dict(item[1] or {})), reverse=True)
         kept = dict(sorted_items[:limit])
         self.data["families"] = kept
         return {"before": before, "after": len(kept), "removed": before - len(kept)}
@@ -865,84 +272,16 @@ class SemanticMemory:
         self.data["runs"] = int(self.data.get("runs", 0) or 0) + 1
 
     def symbol_record(self, symbol: str) -> dict:
-        symbols = self.data.setdefault("symbols", {})
-        record = symbols.get(symbol)
-        if not isinstance(record, dict):
-            record = {
-                "symbol": symbol,
-                "count": 0,
-                "actions": _default_action_map(),
-                "observations": _default_observation_map(),
-                "syntax_family": symbol[:8],
-            }
-            symbols[symbol] = record
-        _ensure_observations(record)
-        _ensure_action_defaults(record)
-        return record
+        return symbol_record_store(self.data, symbol)
 
     def action_diagnostics(self, symbol: str, action: str, vector: list[float] | None = None) -> dict:
-        record = self.symbol_record(symbol)
-        action_state = record.get("actions", {}).get(action, {})
-        trust = float(action_state.get("trust", 0.0) or 0.0)
-        caution = float(action_state.get("caution", 0.0) or 0.0)
-        count = int(action_state.get("count", 0) or 0)
-        familiarity = min(1.0, count / 8.0)
-        family = str(record.get("syntax_family", symbol[:8]) or symbol[:8])
-        family_state = self.family_record(family).get("actions", {}).get(action, {})
-        family_trust = float(family_state.get("trust", 0.0) or 0.0)
-        family_caution = float(family_state.get("caution", 0.0) or 0.0)
-        family_count = int(family_state.get("count", 0) or 0)
-        family_familiarity = min(1.0, family_count / 6.0)
-        symbol_bias = (trust - caution) * (0.25 + familiarity * 0.45)
-        family_bias = (family_trust - family_caution) * (0.20 + family_familiarity * 0.55)
-        symbol_observation = _observation_signal(record, action)
-        family_observation = _observation_signal(self.family_record(family), action)
-        observation_signal = (symbol_observation * 0.35) + (family_observation * 0.65)
-        family_records = list(self.data.get("families", {}).values())
-        associative_raw = _associative_signal(family_records, action, vector or [])
-        associative_bias = associative_raw * 0.16
-        observation_bias = observation_signal * 0.08
-        readiness = _clip(
-            ((trust - caution) * min(1.0, count / 5.0) * 0.52)
-            + ((family_trust - family_caution) * min(1.0, family_count / 5.0) * 0.41)
-            + (associative_raw * 0.07),
-            -1.0,
-            1.0,
-        )
-        observation_readiness = observation_signal * 0.11
-        readiness = _clip(
-            readiness + observation_readiness,
-            -1.0,
-            1.0,
-        )
-        return {
-            "symbol": symbol,
-            "family": family,
-            "action": action,
-            "symbol_count": count,
-            "family_count": family_count,
-            "symbol_trust": trust,
-            "symbol_caution": caution,
-            "family_trust": family_trust,
-            "family_caution": family_caution,
-            "symbol_bias": symbol_bias,
-            "family_bias": family_bias,
-            "symbol_observation": symbol_observation,
-            "family_observation": family_observation,
-            "observation_signal": observation_signal,
-            "observation_bias": observation_bias,
-            "observation_readiness": observation_readiness,
-            "associative_raw": associative_raw,
-            "associative_bias": associative_bias,
-            "action_bias": symbol_bias + family_bias + associative_bias + observation_bias,
-            "readiness": readiness,
-        }
+        return action_diagnostics_store(self.data, symbol, action, vector=vector)
 
     def action_bias(self, symbol: str, action: str, vector: list[float] | None = None) -> float:
-        return float(self.action_diagnostics(symbol, action, vector=vector).get("action_bias", 0.0) or 0.0)
+        return action_bias_store(self.data, symbol, action, vector=vector)
 
     def action_readiness(self, symbol: str, action: str, vector: list[float] | None = None) -> float:
-        return float(self.action_diagnostics(symbol, action, vector=vector).get("readiness", 0.0) or 0.0)
+        return action_readiness_store(self.data, symbol, action, vector=vector)
 
     def learn(
         self,
@@ -954,81 +293,14 @@ class SemanticMemory:
         vector: list[float] | None = None,
         timing_improvement: float = 0.0,
     ) -> None:
-        action = str(action or "WAIT").upper()
-        if action not in ACTION_NAMES:
-            action = "WAIT"
-        record = self.symbol_record(symbol)
-        record["count"] = int(record.get("count", 0) or 0) + (0 if shadow else 1)
-        _update_vector(record, vector or [], int(record.get("count", 1) or 1))
-        family = str(record.get("syntax_family", symbol[:8]) or symbol[:8])
-        family_record = self.family_record(family)
-        family_record["count"] = int(family_record.get("count", 0) or 0) + (0 if shadow else 1)
-        _update_vector(family_record, vector or [], int(family_record.get("count", 1) or 1))
-        actions = record.setdefault("actions", {})
-        action_state = actions.setdefault(
+        learn_store(
+            self.data,
+            symbol,
             action,
-            {
-                "count": 0,
-                "reward_sum": 0.0,
-                "trust": 0.0,
-                "caution": 0.0,
-                "last_reward": 0.0,
-                "timing_improvement_sum": 0.0,
-                "last_timing_improvement": 0.0,
-            },
-        )
-        family_actions = family_record.setdefault("actions", {})
-        family_action_state = family_actions.setdefault(
-            action,
-            {
-                "count": 0,
-                "reward_sum": 0.0,
-                "trust": 0.0,
-                "caution": 0.0,
-                "last_reward": 0.0,
-                "timing_improvement_sum": 0.0,
-                "last_timing_improvement": 0.0,
-            },
-        )
-        alpha = 0.10 if shadow else 0.18
-        family_alpha = 0.08 if shadow else 0.14
-        reward = _clip(reward, -2.0, 2.0)
-        timing_improvement = _clip(timing_improvement, 0.0, 1.0)
-        action_state["count"] = int(action_state.get("count", 0) or 0) + 1
-        action_state["reward_sum"] = float(action_state.get("reward_sum", 0.0) or 0.0) + reward
-        action_state["last_reward"] = reward
-        action_state["timing_improvement_sum"] = (
-            float(action_state.get("timing_improvement_sum", 0.0) or 0.0) + timing_improvement
-        )
-        action_state["last_timing_improvement"] = timing_improvement
-        family_action_state["count"] = int(family_action_state.get("count", 0) or 0) + 1
-        family_action_state["reward_sum"] = float(family_action_state.get("reward_sum", 0.0) or 0.0) + reward
-        family_action_state["last_reward"] = reward
-        family_action_state["timing_improvement_sum"] = (
-            float(family_action_state.get("timing_improvement_sum", 0.0) or 0.0) + timing_improvement
-        )
-        family_action_state["last_timing_improvement"] = timing_improvement
-        positive = max(0.0, reward)
-        negative = max(0.0, -reward)
-        action_state["trust"] = _clip(
-            (float(action_state.get("trust", 0.0) or 0.0) * (1.0 - alpha)) + (positive * alpha),
-            0.0,
-            1.0,
-        )
-        action_state["caution"] = _clip(
-            (float(action_state.get("caution", 0.0) or 0.0) * (1.0 - alpha)) + (negative * alpha),
-            0.0,
-            1.0,
-        )
-        family_action_state["trust"] = _clip(
-            (float(family_action_state.get("trust", 0.0) or 0.0) * (1.0 - family_alpha)) + (positive * family_alpha),
-            0.0,
-            1.0,
-        )
-        family_action_state["caution"] = _clip(
-            (float(family_action_state.get("caution", 0.0) or 0.0) * (1.0 - family_alpha)) + (negative * family_alpha),
-            0.0,
-            1.0,
+            reward,
+            shadow=shadow,
+            vector=vector,
+            timing_improvement=timing_improvement,
         )
 
     def learn_observation(
@@ -1047,26 +319,14 @@ class SemanticMemory:
         this".
         """
 
-        action = str(action or "WAIT").upper()
-        if action not in ACTION_NAMES:
-            action = "WAIT"
-        recognition = _clip(recognition, 0.0, 1.0)
-        reward = _clip(reward, -2.0, 2.0)
-        if recognition <= 0.0:
-            return
-        record = self.symbol_record(symbol)
-        family = str(record.get("syntax_family", symbol[:8]) or symbol[:8])
-        family_record = self.family_record(family)
-        _update_vector(record, vector or [], int(record.get("count", 0) or 0) + 1)
-        _update_vector(family_record, vector or [], int(family_record.get("count", 0) or 0) + 1)
-        for target in (record, family_record):
-            observations = _ensure_observations(target)
-            state = observations[action]
-            state["count"] = int(state.get("count", 0) or 0) + 1
-            state["recognition_sum"] = float(state.get("recognition_sum", 0.0) or 0.0) + recognition
-            state["reward_sum"] = float(state.get("reward_sum", 0.0) or 0.0) + reward
-            state["last_recognition"] = recognition
-            state["last_reward"] = reward
+        learn_observation_store(
+            self.data,
+            symbol,
+            action,
+            reward,
+            recognition,
+            vector=vector,
+        )
 
     def store_contact_lage(self, contact_id: str, payload: dict) -> None:
         """Store passive contact-lage experience.
@@ -1076,67 +336,12 @@ class SemanticMemory:
         distant similarity.
         """
 
-        contact_id = str(contact_id or "").strip()
-        if not contact_id:
-            return
-        state = str(payload.get("contact_lage_state", "") or "")
-        contact_lagen = self.data.setdefault("contact_lagen", {})
-        current = dict(contact_lagen.get(contact_id, {}) or {})
-        current.update(
-            {
-                "contact_id": contact_id,
-                "contact_symbol": make_contact_lage_symbol(payload),
-                "contact_lage_state": state,
-                "debug_root": str(payload.get("debug_root", "") or ""),
-                "passive_only": 1,
-                "runs": int(payload.get("runs", current.get("runs", 0)) or 0),
-                "trades_total": int(payload.get("trades_total", current.get("trades_total", 0)) or 0),
-                "reward_total": float(payload.get("reward_total", current.get("reward_total", 0.0)) or 0.0),
-                "contact_reward_sum": float(
-                    payload.get("contact_reward_sum", current.get("contact_reward_sum", 0.0)) or 0.0
-                ),
-                "direct_positive_action": int(
-                    payload.get("direct_positive_action", current.get("direct_positive_action", 0)) or 0
-                ),
-                "observation_to_positive_action": int(
-                    payload.get(
-                        "observation_to_positive_action",
-                        current.get("observation_to_positive_action", 0),
-                    )
-                    or 0
-                ),
-                "held_observation": int(payload.get("held_observation", current.get("held_observation", 0)) or 0),
-                "quiet_family": int(payload.get("quiet_family", current.get("quiet_family", 0)) or 0),
-                "top_direct_action": list(payload.get("top_direct_action", current.get("top_direct_action", [])) or []),
-                "top_observation_to_action": list(
-                    payload.get("top_observation_to_action", current.get("top_observation_to_action", [])) or []
-                ),
-            }
-        )
-        contact_lagen[contact_id] = current
+        store_contact_lage_trace(self.data, contact_id, payload)
 
     def store_sentence_trace(self, sentence_symbol: str, payload: dict) -> None:
         """Store a passive DIO sentence trace."""
 
-        sentence_symbol = str(sentence_symbol or "").strip()
-        if not sentence_symbol:
-            return
-        traces = self.data.setdefault("sentence_traces", {})
-        current = dict(traces.get(sentence_symbol, {}) or {})
-        current.update(
-            {
-                "sentence_symbol": sentence_symbol,
-                "contact_symbol": str(payload.get("contact_symbol", "") or ""),
-                "contact_lage_state": str(payload.get("contact_lage_state", "") or ""),
-                "symbol_family": str(payload.get("symbol_family", "") or ""),
-                "episode_contact_state": str(payload.get("episode_contact_state", "") or ""),
-                "count": int(payload.get("count", current.get("count", 0)) or 0),
-                "reward_sum": float(payload.get("reward_sum", current.get("reward_sum", 0.0)) or 0.0),
-                "actions": str(payload.get("actions", current.get("actions", "")) or ""),
-                "passive_only": 1,
-            }
-        )
-        traces[sentence_symbol] = current
+        store_sentence_trace_trace(self.data, sentence_symbol, payload)
 
     def store_reflection_seed(self, reflection_symbol: str, payload: dict) -> None:
         """Store a passive reflection seed.
@@ -1146,62 +351,7 @@ class SemanticMemory:
         reconfirmed in a follow-up world.
         """
 
-        reflection_symbol = str(reflection_symbol or "").strip()
-        if not reflection_symbol:
-            return
-        seeds = self.data.setdefault("reflection_seeds", {})
-        current = dict(seeds.get(reflection_symbol, {}) or {})
-        current.update(
-            {
-                "reflection_symbol": reflection_symbol,
-                "symbol_family": str(payload.get("symbol_family", current.get("symbol_family", "")) or ""),
-                "reflection_state": str(payload.get("reflection_state", current.get("reflection_state", "")) or ""),
-                "prior_observation_count": int(
-                    payload.get("prior_observation_count", current.get("prior_observation_count", 0)) or 0
-                ),
-                "prior_execution_count": int(
-                    payload.get("prior_execution_count", current.get("prior_execution_count", 0)) or 0
-                ),
-                "prior_observation_reward_potential_sum": float(
-                    payload.get(
-                        "prior_observation_reward_potential_sum",
-                        current.get("prior_observation_reward_potential_sum", 0.0),
-                    )
-                    or 0.0
-                ),
-                "prior_execution_reward_sum": float(
-                    payload.get("prior_execution_reward_sum", current.get("prior_execution_reward_sum", 0.0)) or 0.0
-                ),
-                "followup_seen_count": int(
-                    payload.get("followup_seen_count", current.get("followup_seen_count", 0)) or 0
-                ),
-                "followup_executed_aligned_count": int(
-                    payload.get(
-                        "followup_executed_aligned_count",
-                        current.get("followup_executed_aligned_count", 0),
-                    )
-                    or 0
-                ),
-                "followup_executed_reward": float(
-                    payload.get("followup_executed_reward", current.get("followup_executed_reward", 0.0)) or 0.0
-                ),
-                "followup_observed_count": int(
-                    payload.get("followup_observed_count", current.get("followup_observed_count", 0)) or 0
-                ),
-                "followup_observed_potential": float(
-                    payload.get("followup_observed_potential", current.get("followup_observed_potential", 0.0)) or 0.0
-                ),
-                "followup_overheld_count": int(
-                    payload.get("followup_overheld_count", current.get("followup_overheld_count", 0)) or 0
-                ),
-                "followup_overheld_potential": float(
-                    payload.get("followup_overheld_potential", current.get("followup_overheld_potential", 0.0)) or 0.0
-                ),
-                "followup_actions": str(payload.get("followup_actions", current.get("followup_actions", "")) or ""),
-                "passive_only": 1,
-            }
-        )
-        seeds[reflection_symbol] = current
+        store_reflection_seed_trace(self.data, reflection_symbol, payload)
 
     def store_reflection_map(self, reflection_map_symbol: str, payload: dict) -> None:
         """Store a passive reflection-map snapshot.
@@ -1211,36 +361,7 @@ class SemanticMemory:
         conflicted, or unclear in a later world.
         """
 
-        reflection_map_symbol = str(reflection_map_symbol or "").strip()
-        if not reflection_map_symbol:
-            return
-        maps = self.data.setdefault("reflection_maps", {})
-        current = dict(maps.get(reflection_map_symbol, {}) or {})
-        current.update(
-            {
-                "reflection_map_symbol": reflection_map_symbol,
-                "reflection_symbol": str(payload.get("reflection_symbol", current.get("reflection_symbol", "")) or ""),
-                "symbol_family": str(payload.get("symbol_family", current.get("symbol_family", "")) or ""),
-                "reflection_state": str(payload.get("reflection_state", current.get("reflection_state", "")) or ""),
-                "reflection_map_state": str(
-                    payload.get("reflection_map_state", current.get("reflection_map_state", "")) or ""
-                ),
-                "reflection_map_reason": str(
-                    payload.get("reflection_map_reason", current.get("reflection_map_reason", "")) or ""
-                ),
-                "dio_sentence": str(payload.get("dio_sentence", current.get("dio_sentence", "")) or ""),
-                "seen_count": int(payload.get("seen_count", current.get("seen_count", 0)) or 0),
-                "executed_count": int(payload.get("executed_count", current.get("executed_count", 0)) or 0),
-                "observed_count": int(payload.get("observed_count", current.get("observed_count", 0)) or 0),
-                "reward_sum": float(payload.get("reward_sum", current.get("reward_sum", 0.0)) or 0.0),
-                "best_reward_sum": float(payload.get("best_reward_sum", current.get("best_reward_sum", 0.0)) or 0.0),
-                "actions": str(payload.get("actions", current.get("actions", "")) or ""),
-                "runs": str(payload.get("runs", current.get("runs", "")) or ""),
-                "source_probe": str(payload.get("source_probe", current.get("source_probe", "")) or ""),
-                "passive_only": 1,
-            }
-        )
-        maps[reflection_map_symbol] = current
+        store_reflection_map_trace(self.data, reflection_map_symbol, payload)
 
     def store_temporal_family(self, family: str, temporal_state: dict) -> None:
         """Store passive time-depth for a DIO-owned family.
@@ -1250,42 +371,7 @@ class SemanticMemory:
         controlled runs without mixing thought and reality.
         """
 
-        family = str(family or "").strip()
-        if not family:
-            return
-        traces = self.data.setdefault("temporal_families", {})
-        current = dict(traces.get(family, {}) or {})
-        seen_count = int(current.get("seen_count", 0) or 0) + 1
-        trust_support = float(temporal_state.get("mini_temporal_trust_support", 0.0) or 0.0)
-        caution_support = float(temporal_state.get("mini_temporal_caution_support", 0.0) or 0.0)
-        afterimage = float(temporal_state.get("mini_afterimage", 0.0) or 0.0)
-        current.update(
-            {
-                "family": family,
-                "passive_only": 1,
-                "seen_count": seen_count,
-                "last_temporal_state": str(temporal_state.get("mini_temporal_state", "") or ""),
-                "last_family_age": int(temporal_state.get("mini_family_age", 0) or 0),
-                "last_ticks_since_seen": int(temporal_state.get("mini_ticks_since_family_seen", -1) or -1),
-                "last_recurrence_strength": float(temporal_state.get("mini_recurrence_strength", 0.0) or 0.0),
-                "last_afterimage": afterimage,
-                "last_time_distance": float(temporal_state.get("mini_time_distance", 0.0) or 0.0),
-                "last_temporal_form_distance": float(temporal_state.get("mini_temporal_form_distance", 0.0) or 0.0),
-                "last_temporal_trust_support": trust_support,
-                "last_temporal_caution_support": caution_support,
-                "max_afterimage": max(float(current.get("max_afterimage", 0.0) or 0.0), afterimage),
-                "max_temporal_trust_support": max(
-                    float(current.get("max_temporal_trust_support", 0.0) or 0.0),
-                    trust_support,
-                ),
-                "max_temporal_caution_support": max(
-                    float(current.get("max_temporal_caution_support", 0.0) or 0.0),
-                    caution_support,
-                ),
-            }
-        )
-        traces[family] = current
-        self.compact_temporal_families()
+        store_temporal_family_trace(self.data, family, temporal_state, self.max_temporal_families)
 
     def store_episode_memory(self, payload: dict) -> str:
         """Store a passive episode-memory trace.
@@ -1295,52 +381,7 @@ class SemanticMemory:
         motoric code.
         """
 
-        if not isinstance(payload, dict):
-            return ""
-        episode_symbol = make_episode_memory_symbol(payload)
-        episodes = self.data.setdefault("episode_memory", {})
-        current = dict(episodes.get(episode_symbol, {}) or {})
-        seen_count = int(current.get("seen_count", 0) or 0) + 1
-        duration = int(payload.get("duration", current.get("duration", 0)) or 0)
-        def avg(key: str) -> float:
-            previous = float(current.get(key, 0.0) or 0.0)
-            value = float(payload.get(key, 0.0) or 0.0)
-            if seen_count <= 1:
-                return value
-            return ((previous * (seen_count - 1)) + value) / seen_count
-
-        current.update(
-            {
-                "episode_symbol": episode_symbol,
-                "episode_state": str(payload.get("episode_state", "") or ""),
-                "previous_state": str(payload.get("previous_state", "") or ""),
-                "next_state": str(payload.get("next_state", "") or ""),
-                "transition": str(payload.get("transition", "") or ""),
-                "dominant_family": str(payload.get("dominant_family", "") or ""),
-                "family_count": int(payload.get("family_count", current.get("family_count", 0)) or 0),
-                "seen_count": seen_count,
-                "duration": duration,
-                "last_start_tick": int(payload.get("start_tick", 0) or 0),
-                "last_end_tick": int(payload.get("end_tick", 0) or 0),
-                "avg_mcm_carry_quality": avg("avg_mcm_carry_quality"),
-                "avg_mcm_strain_quality": avg("avg_mcm_strain_quality"),
-                "avg_mcm_rekopplung_quality": avg("avg_mcm_rekopplung_quality"),
-                "avg_sensory_coupling": avg("avg_sensory_coupling"),
-                "avg_visual_field_gap": avg("avg_visual_field_gap"),
-                "avg_hearing_field_gap": avg("avg_hearing_field_gap"),
-                "passive_only": 1,
-                "writes_runtime_memory": 0,
-                "read_by_mini_dio": 0,
-                "influences_action": 0,
-                "is_gate": 0,
-                "is_motoric": 0,
-                "is_entry_signal": 0,
-                "is_direction_signal": 0,
-            }
-        )
-        episodes[episode_symbol] = current
-        self.compact_episode_memory()
-        return episode_symbol
+        return store_episode_memory_trace(self.data, payload, self.max_episode_memory)
 
     def store_mcm_field_episode_memory(self, payload: dict) -> str:
         """Store passive MCM field-effect episode recurrence.
@@ -1349,77 +390,23 @@ class SemanticMemory:
         dominant family as identity, only as an example carrier.
         """
 
-        if not isinstance(payload, dict):
-            return ""
-        field_symbol = make_mcm_field_episode_symbol(payload)
-        episodes = self.data.setdefault("mcm_field_episode_memory", {})
-        current = dict(episodes.get(field_symbol, {}) or {})
-        seen_count = int(current.get("seen_count", 0) or 0) + 1
-        duration = int(payload.get("duration", current.get("duration", 0)) or 0)
-
-        def avg(key: str) -> float:
-            previous = float(current.get(key, 0.0) or 0.0)
-            value = float(payload.get(key, 0.0) or 0.0)
-            if seen_count <= 1:
-                return value
-            return ((previous * (seen_count - 1)) + value) / seen_count
-
-        carrier_family = str(payload.get("dominant_family", "") or "")
-        carrier_examples = list(current.get("carrier_families", []) or [])
-        if carrier_family and carrier_family not in carrier_examples:
-            carrier_examples.append(carrier_family)
-        current.update(
-            {
-                "mcm_field_episode_symbol": field_symbol,
-                "episode_state": str(payload.get("episode_state", "") or ""),
-                "previous_state": str(payload.get("previous_state", "") or ""),
-                "next_state": str(payload.get("next_state", "") or ""),
-                "transition": str(payload.get("transition", "") or ""),
-                "seen_count": seen_count,
-                "duration": duration,
-                "last_start_tick": int(payload.get("start_tick", 0) or 0),
-                "last_end_tick": int(payload.get("end_tick", 0) or 0),
-                "carrier_families": carrier_examples[:12],
-                "carrier_family_count": len(carrier_examples),
-                "avg_mcm_carry_quality": avg("avg_mcm_carry_quality"),
-                "avg_mcm_strain_quality": avg("avg_mcm_strain_quality"),
-                "avg_mcm_rekopplung_quality": avg("avg_mcm_rekopplung_quality"),
-                "avg_sensory_coupling": avg("avg_sensory_coupling"),
-                "avg_visual_field_gap": avg("avg_visual_field_gap"),
-                "avg_hearing_field_gap": avg("avg_hearing_field_gap"),
-                "passive_only": 1,
-                "writes_runtime_memory": 0,
-                "read_by_mini_dio": 0,
-                "influences_action": 0,
-                "is_gate": 0,
-                "is_motoric": 0,
-                "is_entry_signal": 0,
-                "is_direction_signal": 0,
-            }
-        )
-        episodes[field_symbol] = current
-        self.compact_mcm_field_episode_memory()
-        return field_symbol
+        return store_mcm_field_episode_memory_trace(self.data, payload, self.max_mcm_field_episode_memory)
 
     def compact_top(self, limit: int = 12) -> list[dict]:
         symbols = list(self.data.get("symbols", {}).values())
         symbols.sort(key=lambda item: int(item.get("count", 0) or 0), reverse=True)
-        return [_compact_record(item) for item in symbols[:limit]]
+        return [compact_record(item) for item in symbols[:limit]]
 
     def compact_top_families(self, limit: int = 12) -> list[dict]:
         families = list(self.data.get("families", {}).values())
         families.sort(key=lambda item: int(item.get("count", 0) or 0), reverse=True)
-        return [_compact_record(item) for item in families[:limit]]
+        return [compact_record(item) for item in families[:limit]]
 
     def compact_top_episode_memory(self, limit: int = 8) -> list[dict]:
-        episodes = list(self.data.get("episode_memory", {}).values())
-        episodes.sort(key=_episode_memory_rank, reverse=True)
-        return episodes[:limit]
+        return top_episode_memory(self.data, limit)
 
     def compact_top_mcm_field_episode_memory(self, limit: int = 8) -> list[dict]:
-        episodes = list(self.data.get("mcm_field_episode_memory", {}).values())
-        episodes.sort(key=_mcm_field_episode_rank, reverse=True)
-        return episodes[:limit]
+        return top_mcm_field_episode_memory(self.data, limit)
 
     def store_passive_inner_effect_reflection_note(self, note: dict, max_notes: int = 64) -> None:
         """Store passive per-run inner effect reflection notes.
@@ -1427,25 +414,7 @@ class SemanticMemory:
         These notes are not consumed by action_diagnostics or choose_action.
         """
 
-        if not isinstance(note, dict):
-            return
-        notes = self.data.setdefault("passive_inner_effect_reflection_notes", [])
-        if not isinstance(notes, list):
-            notes = []
-        item = dict(note)
-        item.update(
-            {
-                "passive_only": 1,
-                "read_by_mini_dio": 0,
-                "influences_action": 0,
-                "is_gate": 0,
-                "is_motoric": 0,
-                "is_entry_signal": 0,
-                "is_direction_signal": 0,
-            }
-        )
-        notes.append(item)
-        self.data["passive_inner_effect_reflection_notes"] = notes[-max(1, int(max_notes)) :]
+        store_passive_inner_effect_reflection_note_trace(self.data, note, max_notes=max_notes)
 
     def store_passive_inner_effect_meaning_notes(self, meaning_notes: list[dict]) -> None:
         """Store passive inner-effect meaning notes.
@@ -1454,24 +423,7 @@ class SemanticMemory:
         consumed by action_diagnostics or choose_action.
         """
 
-        notes = []
-        for note in list(meaning_notes or []):
-            if not isinstance(note, dict):
-                continue
-            item = dict(note)
-            item.update(
-                {
-                    "passive_only": 1,
-                    "read_by_mini_dio": 0,
-                    "influences_action": 0,
-                    "is_gate": 0,
-                    "is_motoric": 0,
-                    "is_entry_signal": 0,
-                    "is_direction_signal": 0,
-                }
-            )
-            notes.append(item)
-        self.data["passive_inner_effect_meaning_notes"] = notes
+        store_passive_inner_effect_meaning_notes_trace(self.data, meaning_notes)
 
     def store_passive_inner_field_map(self, field_map: dict, max_maps: int = 32) -> None:
         """Store passive inner-field maps.
@@ -1480,98 +432,24 @@ class SemanticMemory:
         entries, gates, direction, or motoric behavior.
         """
 
-        if not isinstance(field_map, dict):
-            return
-        maps = self.data.setdefault("passive_inner_field_maps", [])
-        if not isinstance(maps, list):
-            maps = []
-        item = dict(field_map)
-        item.update(
-            {
-                "passive_only": 1,
-                "read_by_mini_dio": 0,
-                "influences_action": 0,
-                "is_gate": 0,
-                "is_motoric": 0,
-                "is_entry_signal": 0,
-                "is_direction_signal": 0,
-            }
-        )
-        maps.append(item)
-        self.data["passive_inner_field_maps"] = maps[-max(1, int(max_maps)) :]
+        store_passive_inner_field_map_trace(self.data, field_map, max_maps=max_maps)
 
     def store_passive_inner_field_map_comparison(self, comparison: dict) -> None:
         """Store passive inner-field map comparison diagnostics."""
 
-        if not isinstance(comparison, dict):
-            return
-        item = dict(comparison)
-        item.update(
-            {
-                "passive_only": 1,
-                "read_by_mini_dio": 0,
-                "influences_action": 0,
-                "is_gate": 0,
-                "is_motoric": 0,
-                "is_entry_signal": 0,
-                "is_direction_signal": 0,
-            }
-        )
-        self.data["passive_inner_field_map_comparison"] = item
+        store_passive_inner_field_map_comparison_trace(self.data, comparison)
 
     def store_passive_inner_field_bridge_stable_contrast(self, contrast: dict) -> None:
         """Store passive contrast between carried-unrest and stable map groups."""
 
-        if not isinstance(contrast, dict):
-            return
-        item = dict(contrast)
-        item.update(
-            {
-                "passive_only": 1,
-                "read_by_mini_dio": 0,
-                "influences_action": 0,
-                "is_gate": 0,
-                "is_motoric": 0,
-                "is_entry_signal": 0,
-                "is_direction_signal": 0,
-            }
-        )
-        self.data["passive_inner_field_bridge_stable_contrast"] = item
+        store_passive_inner_field_bridge_stable_contrast_trace(self.data, contrast)
 
     def store_passive_inner_field_archetypes(self, archetypes: dict) -> None:
         """Store passive inner-field archetype ontology diagnostics."""
 
-        if not isinstance(archetypes, dict):
-            return
-        item = dict(archetypes)
-        item.update(
-            {
-                "passive_only": 1,
-                "read_by_mini_dio": 0,
-                "influences_action": 0,
-                "is_gate": 0,
-                "is_motoric": 0,
-                "is_entry_signal": 0,
-                "is_direction_signal": 0,
-            }
-        )
-        self.data["passive_inner_field_archetypes"] = item
+        store_passive_inner_field_archetypes_trace(self.data, archetypes)
 
     def store_passive_inner_field_archetype_matrix(self, matrix: dict) -> None:
         """Store passive matrix from world profiles to archetype readings."""
 
-        if not isinstance(matrix, dict):
-            return
-        item = dict(matrix)
-        item.update(
-            {
-                "passive_only": 1,
-                "read_by_mini_dio": 0,
-                "influences_action": 0,
-                "is_gate": 0,
-                "is_motoric": 0,
-                "is_entry_signal": 0,
-                "is_direction_signal": 0,
-            }
-        )
-        self.data["passive_inner_field_archetype_matrix"] = item
+        store_passive_inner_field_archetype_matrix_trace(self.data, matrix)
