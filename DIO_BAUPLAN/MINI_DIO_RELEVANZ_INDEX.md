@@ -833,6 +833,8 @@ Besonders relevant fuer den aktuellen Bauplanstand:
   - Kontrolliert die siebte Code-Auslagerung nach `mini_dio/action_memory_store.py`. Ergebnis: aktive Symbol-/Familien-, Action- und Observation-Kompatibilitaet ist aus `semantic_memory.py` gekapselt; gleiche MCM-Kennwerte, gleiche Top-Syntax-/Top-Familien-Ueberlappung und keine fachliche Abweichung im Kontrolllauf.
 - `797_ACTION_SELECTION_AUSLAGERUNG_CHECK.md`
   - Kontrolliert die achte Code-Auslagerung nach `mini_dio/action_selection.py`. Ergebnis: aktive Aktionsauswahl ist aus `run_mini.py` gekapselt; gleiche MCM-Kennwerte, gleiche Top-Syntax-/Top-Familien-Ueberlappung und keine fachliche Abweichung im Kontrolllauf.
+- `798_BLOCK_K_SELBSTREGULATION_THEORIEANKER.md`
+  - Ordnet die MCM-Abhandlung Block K als Theorieanker fuer MINI_DIO ein. Ergebnis: Wahrnehmung, Benennung, Regulation, Integration und Stabilisierung passen als Bauplanfolge zur bisherigen rezeptorischen Aufnahme, `dio_*`-Syntax, MCM-Feldwirkung, passiven Regulation und Bedeutungsverdichtung.
 
 Hinweis:
 

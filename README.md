@@ -57,6 +57,24 @@ Nachhall ist Kontext, nicht Kontrolle.
 Feldzeit ist Integrationsqualität, keine hart programmierte Zeitachse.
 ```
 
+## Theorieanker Selbstregulation
+
+Die MCM-Abhandlung [Block K - Individuelle Selbstregulation im Modell der Mental Core Matrix](https://github.com/H5Pro2/Mental-Core-Matrix-MCM/blob/main/Abhandlungen/MCM%20-%20Hauptabhandlungen/Teil%20II%20-%20Psychologische%20Dynamik%20der%20Mental%20Core%20Matrix/Abhandlung%20Block%20K%20-%20Individuelle%20Selbstregulation%20im%20Modell%20der%20Mental%20Core%20Matrix.pdf) passt auffällig gut zur bisherigen MINI_DIO-Richtung. Sie beschreibt Entwicklung nicht als starre Optimierung, sondern als Selbstregulation über Wahrnehmung, Benennung, Regulation, Integration und Stabilisierung.
+
+Für MINI_DIO ist das ein Theorieanker, kein endgültiger Beweis:
+
+```text
+Weltkontakt
+  -> Wahrnehmung
+  -> eigene Benennung / dio_*-Syntax
+  -> MCM-Feldwirkung
+  -> passive Regulation
+  -> Integration
+  -> stabilere Bedeutungsräume
+```
+
+Damit wird die bisherige Richtung gestützt: Ein DIO soll nicht durch harte Regeln reguliert werden, sondern über Innenfeldreaktion, eigene Syntax, Wiederkehr, Rekopplung und Bedeutungsreifung.
+
 ## Aktueller Forschungsstand Kurz Gefasst
 
 MINI_DIO wird derzeit als passives MCM-Forschungsmodell verstanden. Eine Außenwelt wird als visuelle, tonale und energetische Spur aufgenommen. Daraus entstehen keine direkten Handlungssignale, sondern zuerst Innenfeldreaktionen, eigene `dio_*`-Syntax, Bedeutungsinseln und passive Episoden.

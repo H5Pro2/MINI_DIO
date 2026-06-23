@@ -26,6 +26,44 @@ MINI_DIO bleibt zuerst ein Forschungsprojekt fuer:
 
 Handlung, Entry, Gate, Motorik und Trading-Strategie gehoeren nicht in diesen Bauplan, solange sie nicht aus stabilen passiven Befunden begruendet werden.
 
+## Selbstregulation als Bauplanprinzip
+
+Die MCM-Abhandlung Block K beschreibt individuelle Selbstregulation als dynamischen Prozess:
+
+```text
+Wahrnehmung
+  -> Benennung
+  -> Regulation
+  -> Integration
+  -> Stabilisierung
+```
+
+Diese Kette wird fuer MINI_DIO als Bauplanprinzip uebernommen.
+
+Das bedeutet:
+
+- Weltkontakt wird zuerst wahrgenommen, nicht sofort verwertet.
+- Wiederkehrende Innenlagen duerfen in eigener `dio_*`-Syntax benannt werden.
+- Regulation bedeutet nicht hartes Steuern, sondern Feldlage, Abstand, Rekopplung und Tragfaehigkeit lesen.
+- Integration entsteht erst, wenn wiederkehrende Feldlagen stabil genug in Memory und Bedeutung getragen werden.
+- Stabilisierung ist ein gereifter Bedeutungsraum, keine feste Regel.
+
+Damit bleibt MINI_DIO organisch ausgerichtet:
+
+```text
+Feld reagiert.
+Syntax benennt.
+Memory traegt.
+Regulation liest.
+Bedeutung reift.
+```
+
+Nicht zulaessig als Bauprinzip:
+
+```text
+Regel erkennt Zustand -> Regel erzwingt Handlung.
+```
+
 ## Feste Wahrnehmungsarchitektur
 
 Aus den Befunden `303` bis `308` wird die rezeptorische Trennung als Bauplan-Grundsatz uebernommen.
