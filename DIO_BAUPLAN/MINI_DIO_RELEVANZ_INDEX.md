@@ -975,6 +975,20 @@ Besonders relevant fuer den aktuellen Bauplanstand:
   - Klassenvergleich fuer KAS-Segmente mit Segmentanzahl, Familienbreite, Zentrum, Oeffnung, Rand/Kipp, Rohfeld, Lautheit, Unschaerfe, MCM-Spannung, Strain, Rekopplung und Weltbewegung.
 - `853_THEORIEANKER_KOSMISCHE_MATRIX_UND_VERDICHTUNG.md`
   - Ordnet die bisherigen MINI_DIO-Befunde vorsichtig gegen MCM Block E, E.1, G und G.1 ein. Ergebnis: kein Beweis fuer die kosmologische Theorie, aber ein starkes strukturelles Indiz; Zentrum, Abweichung, Verdichtung, Randnaehe, Rueckfuehrung und Reorganisation sind als pruefbare Feldmechanik im kleinen Modell anschlussfaehig.
+- `854_MCM_VERDICHTUNGSZONEN.md`
+  - Liest vorhandene MINI_DIO-Episoden als passive Verdichtungszonen. Ergebnis: Feldzeichen verteilen sich auf junge Spuren, Rekopplungszonen, Driftzonen, stabile Bedeutungsinseln, hoehere Clusteruebergaenge, offene Bedeutungszonen und wenige randnahe Verdichtungen.
+- `854_MCM_VERDICHTUNGSZONEN.csv`
+  - Verdichtungszonen-Matrix je MCM-Episodentoken mit Beobachtungen, Weltbreite, Rollenanteilen, Nachbarschaft, Rekopplung, Strain, Sinneskopplung, Feldaufnahme, Lautheit und visueller Unschaerfe.
+- `854_MCM_VERDICHTUNGSZONEN_TRANSITIONS.csv`
+  - Staerkste gerichtete Uebergaenge zwischen MCM-Episodentoken als Grundlage fuer Reorganisation, Drift und hoehere Clusterordnung.
+- `855_MCM_VERDICHTUNGSZONEN_FRISCHE_WELTGRUPPE.md`
+  - Wiederholt die Verdichtungszonen-Diagnose auf einer frischen Weltgruppe aus SOL/BTC/KAS/PAXG/DOGE/XRP und synthetischen Gegenwelten. Ergebnis: sehr aehnliche Verteilung der Verdichtungszonen trotz anderer Debuggruppe.
+- `855_MCM_VERDICHTUNGSZONEN_FRISCHE_WELTGRUPPE.csv`
+  - Verdichtungszonen-Matrix der frischen Weltgruppe mit denselben Feldern wie 854.
+- `855_MCM_VERDICHTUNGSZONEN_FRISCHE_WELTGRUPPE_TRANSITIONS.csv`
+  - Staerkste gerichtete Uebergaenge der frischen Weltgruppe.
+- `856_MCM_VERDICHTUNGSZONEN_REPRODUKTION.md`
+  - Vergleicht 854 gegen 855. Ergebnis: Die Klassenverteilung reproduziert sich deutlich; 142 Tokens werden geteilt, 84 behalten dieselbe Verdichtungszone, 15 der Top-20-Tokens ueberlappen. Damit wirkt die Feldordnung stabiler als die konkrete Tokenoberflaeche.
 
 Hinweis:
 
