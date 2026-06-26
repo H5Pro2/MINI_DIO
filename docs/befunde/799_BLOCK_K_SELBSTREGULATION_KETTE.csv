@@ -1,0 +1,7 @@
+stage;evidence;records;events;quality;support;pressure;reading
+wahrnehmung;Sinnesaufnahme-Memory;409;7976;40 wiederkehrende Aufnahmequalitaeten;0.4277137212713936;0.19093754767726162;Weltkontakt wird kanalgetrennt als Aufnahmequalitaet lesbar.
+benennung;dio_*-Syntax / MCM-Preview-Symbole;139;8993;139 benannte Feld-/Preview-Anker;0.0;0.0;Wiederkehrende Feldlagen werden nicht nur als Wert, sondern als eigene Syntax getragen.
+feldwirkung;Rekopplung, Carry, Strain, Feldinput;409;7976;MCM-Feldwirkung aus Rezeptoraufnahme;0.4433424070904646;0.18105633985330072;Aufnahme erzeugt eine innere Feldlage mit Tragung, Druck, Rekopplung und Strain.
+passive_regulation;Regulationsvorschlag-Feldtragung;54;61910;54 getragene Vorschlagsspuren;0.5585983741434868;0.2186179654452945;Regulation erscheint als Wahrnehmungsfaehigkeit vor dem Feld, nicht als Gate.
+integration;MCM-Feldbewegungs-Memory;2;1017;2 wiederkehrende Feldbewegungen;0.5929105;0.687071;Gerichtete Feldbewegungen werden als Innenfeldspur integriert.
+stabilisierung;konsistente Top-Qualitaet / Wiederkehr;2;1017;2 stabilisierte Bewegungsqualitaeten;0.5929105;0.687071;Stabilisierung zeigt sich als gereifte, wiederkehrende Bedeutungsspanne, nicht als starre Regel.

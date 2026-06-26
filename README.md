@@ -4,6 +4,21 @@ MINI_DIO ist ein eigenständiges Forschungsprojekt für ein kleines, [MCM](https
 
 DIO steht für Digitaler Organismus. Aus dem Forschungsprozess heraus entstand die Überlegung, einem solchen Organismus eine kontrollierte Außenwelt zu geben, die energiegeladen, ruhig, rhythmisch, brüchig oder wiederkehrend sein kann. Dafür wird eine zeitliche Datenreihe eines dynamischen Systems nicht als Handlungssignal gelesen, sondern als visuelle, tonale und energetische Spur in eine testbare Welt übersetzt. An dieser Welt kann ein künstliches MCM-Feld passiv reagieren, ordnen und Bedeutung verdichten.
 
+## Projektgrenze
+
+MINI_DIO ist kein Trading-System und soll in diesem Repository auch nicht zu einem Trading-System ausgebaut werden.
+
+Die verwendeten Kurs- und Weltsequenzen sind Studienobjekte. Sie liefern Zeit, Bewegung, Energie, Rhythmus, Bruch, Ruhe, Wiederkehr und Varianz. Daraus wird untersucht, wie ein kleines MCM-Feld Sinnesaufnahme, Rezeptorik, Innenfeldwirkung, Topologie, Feldzeit, Nachhall und Bedeutungsverdichtung ausbildet.
+
+Die Grenze ist verbindlich:
+
+```text
+MINI_DIO = Forschungsmodell fuer MCM-Feld, Wahrnehmung und Bedeutungsverdichtung.
+Trading-System = spaeterer Neuaufbau als eigenes System.
+```
+
+Trading-Logik, Entry-Entscheidung, Orderverwaltung, Risikoausfuehrung und Web-Oberflaeche gehoeren nicht in MINI_DIO. Sie duerfen spaeter aus den stabilen Erkenntnissen von MINI_DIO abgeleitet werden, aber nicht die Forschungsschicht verwässern.
+
 
 ![MINI_DIO](docs/bilder/MINI_DIO.PNG)
 

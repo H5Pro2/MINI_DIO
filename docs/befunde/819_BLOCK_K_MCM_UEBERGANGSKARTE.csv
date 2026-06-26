@@ -1,0 +1,14 @@
+map_role;family;source_role;hits;before_hits;after_hits;stable_share;unrest_share;avg_strain;avg_trust;fieldtime_embedding;bridge_type;trust_delta;strain_delta;interpretation
+randfamilie;dio_1un4;target;238;;;0.0;1.0;0.2249812016806723;0.6067392184873949;0.6498977760504201;randspannung;;;randnahe Spannungsfamilie und Ausgangspunkt der Karte
+beidseitige_bruecke;dio_155c;stabile_bruecke;14;8;6;0.9808575803981623;0.01914241960183767;0.1554488472434916;0.8172482538284839;0.7779957438361408;balancierte_bruecke;0.005335055702188507;-0.005940760420103386;beidseitige stabile Bruecke
+vorfeldanker;dio_0l7p;stabiler_nachbar;13;13;0;1.0;0.0;0.135567192289386;0.8155609771537363;0.7823020907900999;stabiler_nachbar;;;stabiler Vorfeldanker vor der Randfamilie
+vorfeldanker;dio_104t;stabiler_nachbar;13;13;0;0.9854368932038835;0.014563106796116505;0.148518155609493;0.8390560674217907;0.7960932874190939;stabiler_nachbar;;;stabiler Vorfeldanker vor der Randfamilie
+instabile_kontaktzone;dio_0m9z;stabile_bruecke;12;9;3;0.7430167597765364;0.2569832402234637;0.16391623506660938;0.8097980356682424;0.7701819813064031;instabile_kontaktzone;-0.005898871958243346;0.003594216450683918;gemischte Kontaktzone mit instabiler Naehe
+instabile_kontaktzone;dio_04uf;unbestimmt;10;1;9;0.45353982300884954;0.5464601769911505;0.16547117920353982;0.7183749800884955;0.7149118755530973;unbestimmt;;;gemischte Kontaktzone mit instabiler Naehe
+beidseitige_bruecke;dio_17ct;stabile_bruecke;10;1;9;1.0;0.0;0.14674111627906977;0.7576054418604652;0.7418622253977968;balancierte_bruecke;0.028507891945476982;0.0004755038413878643;beidseitige stabile Bruecke
+vorfeldanker;dio_14wj;stabiler_nachbar;8;8;0;1.0;0.0;0.12540642509505703;0.7937361923954372;0.7707500882889734;stabiler_nachbar;;;stabiler Vorfeldanker vor der Randfamilie
+beidseitige_bruecke;dio_0h9h;stabile_bruecke;7;5;2;1.0;0.0;0.13823860382008626;0.7937612649414665;0.765606073629082;balancierte_bruecke;0.014176306046675968;0.0010084599540311212;beidseitige stabile Bruecke
+beidseitige_bruecke;dio_1mwv;stabile_bruecke;5;1;4;1.0;0.0;0.1377777802690583;0.6662397174887893;0.7001449201793722;balancierte_bruecke;0.04301985321100921;0.00026107339449543687;beidseitige stabile Bruecke
+beidseitige_bruecke;dio_0obq;stabile_bruecke;5;3;2;0.9929775280898876;0.007022471910112359;0.15538916151685395;0.7413899452247191;0.7264461649578653;balancierte_bruecke;0.041878545685997026;-0.0014120777934936157;beidseitige stabile Bruecke
+offene_kontaktzone;dio_0u2x;unbestimmt;5;0;5;0.5507246376811594;0.4492753623188406;0.17533484057971013;0.5602685942028985;0.6474872427536231;unbestimmt;;;offene Kontaktzone ohne klare Rollenreife
+randnahe_unruhe;dio_05yg;randnahe_unruhe;5;0;5;0.008350730688935281;0.9916492693110647;0.17600751565762002;0.7195388413361169;0.7113314217118998;randnahe_unruhe;;;weitere randnahe Unruhefamilie

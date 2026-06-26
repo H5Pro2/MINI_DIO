@@ -1,0 +1,14 @@
+map_role;family;source_role;hits;before_hits;after_hits;stable_share;unrest_share;avg_strain;avg_trust;fieldtime_embedding;bridge_type;trust_delta;strain_delta;interpretation
+randfamilie;dio_1yoi;target;254;;;0.0;1.0;0.21371376377952755;0.6177156220472441;0.6572107586614173;randspannung;;;randnahe Spannungsfamilie und Ausgangspunkt der Karte
+beidseitige_bruecke;dio_155c;stabile_bruecke;18;13;5;0.9808575803981623;0.01914241960183767;0.1554488472434916;0.8172482538284839;0.7779957438361408;balancierte_bruecke;0.017614745266855136;-0.004631765998457965;beidseitige stabile Bruecke
+beidseitige_bruecke;dio_17ct;stabile_bruecke;14;6;8;1.0;0.0;0.14674111627906977;0.7576054418604652;0.7418622253977968;balancierte_bruecke;0.017499934620174407;0.0047250660914428255;beidseitige stabile Bruecke
+beidseitige_bruecke;dio_104t;stabile_bruecke;13;11;2;0.9854368932038835;0.014563106796116505;0.148518155609493;0.8390560674217907;0.7960932874190939;balancierte_bruecke;0.0029193431568431683;0.004039083270895749;beidseitige stabile Bruecke
+beidseitige_bruecke;dio_0pz6;stabile_bruecke;11;6;5;1.0;0.0;0.1308542671854734;0.7590802127107653;0.7476500384565501;balancierte_bruecke;-0.002235839114832494;-0.0009273155502392549;beidseitige stabile Bruecke
+randnahe_unruhe;dio_19pg;randnahe_unruhe;10;0;10;0.25164113785557984;0.7483588621444202;0.1580223873085339;0.7186568555798687;0.7139338717724288;randnahe_unruhe;;;weitere randnahe Unruhefamilie
+nachfeldanker;dio_0f4r;stabiler_nachbar;9;0;9;1.0;0.0;0.13701630399999998;0.6313516079999999;0.6870277668;nachfeld_anker;-0.01140103831417627;0.0015965354406130283;stabiler Nachfeldanker nach der Randfamilie
+vorfeldanker;dio_0l7p;stabiler_nachbar;7;7;0;1.0;0.0;0.135567192289386;0.8155609771537363;0.7823020907900999;vorfeld_anker;-0.0013628033838177789;0.0029009013507982073;stabiler Vorfeldanker vor der Randfamilie
+offene_bruecke;dio_0h9h;stabile_bruecke;7;4;3;1.0;0.0;0.13823860382008626;0.7937612649414665;0.765606073629082;offene_bruecke;-0.04234891584158407;-0.0065098235502121515;offene Bruecke mit stabiler Naehe, aber noch offener Rollenbindung
+offene_kontaktzone;dio_04uf;unbestimmt;7;0;7;0.45353982300884954;0.5464601769911505;0.16547117920353982;0.7183749800884955;0.7149118755530973;unbestimmt;;;offene Kontaktzone ohne klare Rollenreife
+vorfeldanker;dio_14wj;stabiler_nachbar;6;6;0;1.0;0.0;0.12540642509505703;0.7937361923954372;0.7707500882889734;stabiler_nachbar;;;stabiler Vorfeldanker vor der Randfamilie
+beidseitige_bruecke;dio_1mwv;stabile_bruecke;5;2;3;1.0;0.0;0.1377777802690583;0.6662397174887893;0.7001449201793722;stabile_bruecke;;;beidseitige stabile Bruecke
+beidseitige_bruecke;dio_0m9z;stabile_bruecke;5;4;1;0.7430167597765364;0.2569832402234637;0.16391623506660938;0.8097980356682424;0.7701819813064031;stabile_bruecke;;;beidseitige stabile Bruecke

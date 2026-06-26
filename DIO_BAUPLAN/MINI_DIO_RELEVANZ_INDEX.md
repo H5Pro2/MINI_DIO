@@ -835,6 +835,104 @@ Besonders relevant fuer den aktuellen Bauplanstand:
   - Kontrolliert die achte Code-Auslagerung nach `mini_dio/action_selection.py`. Ergebnis: aktive Aktionsauswahl ist aus `run_mini.py` gekapselt; gleiche MCM-Kennwerte, gleiche Top-Syntax-/Top-Familien-Ueberlappung und keine fachliche Abweichung im Kontrolllauf.
 - `798_BLOCK_K_SELBSTREGULATION_THEORIEANKER.md`
   - Ordnet die MCM-Abhandlung Block K als Theorieanker fuer MINI_DIO ein. Ergebnis: Wahrnehmung, Benennung, Regulation, Integration und Stabilisierung passen als Bauplanfolge zur bisherigen rezeptorischen Aufnahme, `dio_*`-Syntax, MCM-Feldwirkung, passiven Regulation und Bedeutungsverdichtung.
+- `799_BLOCK_K_SELBSTREGULATION_KETTE.md`
+  - Fuehrt vorhandene MINI_DIO-Befunde zu einer passiven Block-K-Kette zusammen. Ergebnis: Wahrnehmung, Benennung, Feldwirkung, passive Regulation, Integration und Stabilisierung sind als Diagnosefolge sichtbar, aber noch nicht als frischer Mehrweltlauf pro Welt gemessen.
+- `800_BLOCK_K_MEHRWELT_SELBSTREGULATION.md`
+  - Prueft die Block-K-Folge in einem frischen Vier-Welten-Lauf mit jeweils eigener Memory. Ergebnis: Die sechs Stufen bleiben in allen geprueften Welten messbar; die konkrete Syntax ist weltabhaengig, waehrend die dominante Feldklasse stabil bleibt.
+- `801_BLOCK_K_STRESS_MEHRWELT_SELBSTREGULATION.md`
+  - Prueft dieselbe Block-K-Folge gegen stressigere, expansive und spaet negative Welten. Ergebnis: Die Kette bleibt vollstaendig messbar; Stabilisierung sinkt in kuerzeren Stressfenstern, ohne dass die dominante Feldklasse kollabiert.
+- `802_BLOCK_K_NORMAL_VS_STRESS_SYNTHESE.md`
+  - Vergleicht `800` und `801`. Ergebnis: Stress verschiebt Rekopplung, Carry, passive Regulation und Stabilisierung leicht nach unten, aber die Rollenordnung bleibt in dieser Gegenprobe erhalten.
+- `803_BLOCK_K_10K_MEHRWELT_SELBSTREGULATION.md`
+  - Prueft die Block-K-Folge auf laengeren 10k-Welten. Ergebnis: Die dominante Feldklasse bleibt stabil; Rekopplung, Carry, passive Regulation und Stabilisierung liegen hoeher als in den kuerzeren Gruppen.
+- `804_BLOCK_K_KURZ_STRESS_10K_SYNTHESE.md`
+  - Vergleicht kurze normale Welten, Stress-/Expansionswelten und 10k-Welten. Ergebnis: Stress senkt die Stabilisierungslesung leicht, laengere Weltzeit hebt sie deutlich an, ohne die dominante Rollenordnung zu brechen.
+- `805_BLOCK_K_EPISODEN_FELDEPISODEN_LUPE.md`
+  - Prueft, ob die hoehere 10k-Stabilisierung nur Score-Effekt ist oder in Episodenstruktur sichtbar wird. Ergebnis: 10k zeigt deutlich laengere Feldepisoden, wiederkehrende Feldepisoden und hoehere Carry-/Rekopplungswerte bei sauber passiver Kopplung.
+- `806_BLOCK_K_FELDEPISODEN_ZEITREIHE.md`
+  - Zerlegt eine 10k-Stresswelt in MCM-Feldepisoden ueber Zeit. Ergebnis: lange getragene Feldphasen werden nur durch kurze gespannte Bruchpunkte unterbrochen; Nachhall und Feldzeit/Trust steigen in den langen Integrationsphasen sichtbar an.
+- `807_BLOCK_K_STRESS_FELDEPISODEN_ZEITREIHE.md`
+  - Prueft eine kurze Stresswelt als Gegenpol zur 10k-Zeitreihe. Ergebnis: eine stabile, durchgehend getragene Feldphase, aber keine lange Integrationszeit und deutlich niedrigerer Nachhall/Feldzeit-Trust.
+- `808_BLOCK_K_FELDZEIT_10K_VS_STRESS.md`
+  - Vergleicht 10k-Zeitreihe und kurze Stresszeitreihe duration-gewichtet. Ergebnis: 10k traegt laengere Feldintegration, hoeheren Nachhall und hoeheren temporalen Trust; kurze Stresswelt bleibt stabil, reift aber zeitlich weniger tief.
+- `809_BLOCK_K_10K_FELDZEIT_MEHRWELT.md`
+  - Prueft die Feldzeit-Lupe ueber alle vorhandenen 10k-Welten. Ergebnis: alle vier Welten zeigen hohe getragene Tick-Anteile, lange stabile Feldphasen, messbaren Nachhall und hohen temporalen Trust; die konkrete Segmentform variiert weltabhaengig.
+- `810_BLOCK_K_FELDZEIT_KURZ_ASSET_VERGLEICH.md`
+  - Vergleicht kurze Normalwelten, kurze Stresswelten, asset-gemischte 2k-Welten und 10k-Welten. Ergebnis: kurze und asset-gemischte Welten bleiben feldtragend, aber 10k zeigt deutlich tiefere Feldzeit/Trust- und Nachhallwerte; Dauer wirkt hier staerker als Asset-Mischung.
+- `811_BLOCK_K_FELDZEIT_KONTROLLIERTER_NEULAUF.md`
+  - Fuehrt den Feldzeit-Vergleich als frischen Kontrolllauf mit gleicher Gruppengroesse aus: vier 2k-Welten, vier 10k-Welten und vier asset-gemischte 2k-Welten. Ergebnis: 10k bestaetigt deutlich tiefere Feldzeit/Trust- und Nachhallwerte; Asset-Mischung erzeugt Varianz, aber keinen Feldkollaps.
+- `812_BLOCK_K_SEMANTISCHE_VERDICHTUNG_FELDZEIT.md`
+  - Prueft, ob laengere Feldzeit auch semantische Bedeutungsverdichtung vertieft. Ergebnis: 10k erzeugt nicht einfach eine groessere dominante Einzelinsel, sondern deutlich niedrigere Symbol-/Familiendichte und deutlich hoehere Wiederverwendung vorhandener `dio_*`-Familien.
+- `813_BLOCK_K_DIO104T_FAMILIEN_LUPE.md`
+  - Prueft die stabile Top-Familie `dio_104t` als passive Bedeutungsfamilie ueber 2k-, Asset-Mix- und 10k-Gruppen. Ergebnis: Der Anteil bleibt aehnlich, Symbol-Reuse und Feldzeit-Einbettung steigen in 10k; gleichzeitig sinkt die Konzentration auf eine einzelne MCM-Episode, weil die Familie breiter ueber Feldzeit eingebettet wird.
+- `814_BLOCK_K_STABIL_GEGEN_RAND_FAMILIENKONTRAST.md`
+  - Vergleicht die stabile Traegerfamilie `dio_104t` mit der datengetrieben gewaehlten Randfamilie `dio_1un4`. Ergebnis: MINI_DIO trennt stabile Traegerfamilie und unruhige Randfamilie systematisch ueber MCM-Strain, Feldzeit/Trust, Nachhall, Sinnes-Gaps und Einbettung; der Befund bleibt passiv und ohne Handlungsdeutung.
+- `815_BLOCK_K_RANDFAMILIE_FOLGEWELT_REIFUNG.md`
+  - Verfolgt die Randfamilie `dio_1un4` ueber kurze, asset-gemischte und lange Folgewelten. Ergebnis: `dio_1un4` bleibt randnah und `tragend_unruhig`, reift in 10k aber teilweise nach; Trust und Einbettung steigen deutlich, waehrend Strain hoch bleibt und die Nachbarschaften ueberwiegend stabile Bedeutungsraeume beruehren.
+- `816_BLOCK_K_RANDFAMILIE_NACHBARSCHAFT_BRUECKE.md`
+  - Liest die haeufigsten Nachbarn der Randfamilie `dio_1un4`. Ergebnis: `dio_1un4` ist kein isolierter Randpunkt; im Top-N-Feld liegen sechs stabile Brueckenfamilien und nur eine klar randnahe Unruhefamilie. Damit wirkt `dio_1un4` als randnahe Kontakt-/Brueckenfamilie zwischen Spannungsuebergang und stabileren Bedeutungsraeumen.
+- `817_BLOCK_K_BRUECKENFAMILIE_UEBERGANGSSTRUKTUR.md`
+  - Prueft die stabile Brueckenfamilie `dio_155c` direkt neben der Randfamilie `dio_1un4`. Ergebnis: `dio_155c` bleibt in Randnaehe voll stabil, Trust faellt nicht ab und Strain sinkt leicht; die Bruecke beruehrt Randspannung, ohne selbst zur Randfamilie zu kippen.
+- `818_BLOCK_K_BRUECKENTYPEN_VERGLEICH.md`
+  - Vergleicht mehrere stabile Nachbar-/Brueckenfamilien von `dio_1un4`. Ergebnis: fuenf Familien bilden balancierte Bruecken, eine Familie (`dio_0m9z`) wirkt als instabile Kontaktzone; Randnaehe fuehrt also nicht automatisch zu Kollaps, sondern zeigt unterschiedliche Uebergangsarten im MCM-Feld.
+- `819_BLOCK_K_MCM_UEBERGANGSKARTE.md`
+  - Verdichtet die Befunde um `dio_1un4` zu einer passiven MCM-Uebergangskarte. Ergebnis: Um die Randfamilie entsteht eine gegliederte Rollenordnung aus Vorfeldankern, beidseitigen Bruecken, instabilen Kontaktzonen, offener Kontaktzone und weiterer Randunruhe; das Feld wirkt damit topologisch gegliedert statt flach verteilt.
+- `820_BLOCK_K_ZWEITE_RANDFAMILIE_NACHBARSCHAFT.md`
+  - Prueft `dio_1yoi` als zweite datengetriebene Randfamilie. Ergebnis: Auch diese Randfamilie ist nicht isoliert; im Top-N-Umfeld erscheinen sieben stabile Bruecken und eine randnahe Unruhefamilie.
+- `821_BLOCK_K_ZWEITE_RANDFAMILIE_BRUECKENTYPEN.md`
+  - Vergleicht die Brueckentypen um `dio_1yoi`. Ergebnis: mehrere Familien bleiben in Randnaehe stabil; es entstehen balancierte Bruecken, Vorfeld-/Nachfeldanker und eine offene Bruecke.
+- `822_BLOCK_K_ZWEITE_MCM_UEBERGANGSKARTE.md`
+  - Verdichtet `dio_1yoi` zur zweiten passiven Uebergangskarte. Ergebnis: Die Rollenordnung aus Randfamilie, Ankern, Bruecken, offener Kontaktzone und Randunruhe tritt erneut auf; damit ist die Struktur nicht nur spezifisch um `dio_1un4`.
+- `823_BLOCK_K_MCM_UEBERGANGSKARTEN_VERGLEICH.md`
+  - Vergleicht die Uebergangskarten um `dio_1un4` und `dio_1yoi`. Ergebnis: Beide Karten zeigen dieselbe Grundform aus Randfamilie, Ankern, Bruecken und offenen Anschlussbereichen; 5 gemeinsame Familien bleiben rollenstabil, 4 verschieben ihre lokale Rolle. Das stuetzt eine wiederkehrende passive Uebergangstopologie, aber noch keinen universellen Beweis.
+- `824_BLOCK_K_DRITTE_RANDFAMILIE_NACHBARSCHAFT.md`
+  - Prueft `dio_1v2w` als dritte datengetriebene Randfamilie. Ergebnis: Die Familie ist deutlich staerker vertreten als die vorherigen Randfamilien und zeigt erneut stabile Bruecken, aber auch mehrere randnahe Unruhe-Nachbarn.
+- `825_BLOCK_K_DRITTE_RANDFAMILIE_BRUECKENTYPEN.md`
+  - Klassifiziert die Brueckentypen um `dio_1v2w`. Ergebnis: Neben balancierten Bruecken erscheinen offene Bruecken und eine instabile Kontaktzone; die Randnaehe bleibt also gegliedert, aber beweglicher als bei `dio_1yoi`.
+- `826_BLOCK_K_DRITTE_MCM_UEBERGANGSKARTE.md`
+  - Verdichtet `dio_1v2w` zur dritten passiven Uebergangskarte. Ergebnis: Die Grundrollen bleiben sichtbar, die Gewichtung verschiebt sich aber zu mehr Randunruhe und offenen Bruecken.
+- `827_BLOCK_K_DREI_MCM_UEBERGANGSKARTEN_VERGLEICH.md`
+  - Vergleicht die drei Randfamilienkarten `dio_1un4`, `dio_1yoi` und `dio_1v2w`. Ergebnis: Nur eine Familie bleibt kartenuebergreifend rollenstabil, aber die Rollenarchitektur wiederholt sich. Das stuetzt eine bewegliche passive Uebergangstopologie statt einer starren Symbolkopie.
+- `828_BLOCK_K_STRESS_RANDFAMILIE_NACHBARSCHAFT.md`
+  - Prueft mit `dio_0jkk` eine Randfamilie aus einer bewusst anderen Stress-Weltspannung. Ergebnis: Auch unter Stress ist die Randfamilie nicht isoliert; im Umfeld erscheinen stabile Bruecken, randnahe Unruhe und unbestimmte Kontaktzonen.
+- `829_BLOCK_K_STRESS_RANDFAMILIE_BRUECKENTYPEN.md`
+  - Klassifiziert die Bruecken um `dio_0jkk` in der Stresswelt. Ergebnis: balancierte Bruecken bleiben sichtbar, aber offene Bruecken und eine instabile Kontaktzone nehmen zu.
+- `830_BLOCK_K_STRESS_MCM_UEBERGANGSKARTE.md`
+  - Verdichtet `dio_0jkk` zur Stress-Uebergangskarte. Ergebnis: Die Grundarchitektur bleibt erhalten, aber die Gewichtung verschiebt sich zu mehr instabilen Kontaktzonen, offenen Bruecken und randnaher Unruhe.
+- `831_BLOCK_K_STRESS_GEGEN_DREI_UEBERGANGSKARTEN.md`
+  - Legt die Stresskarte gegen die drei vorherigen Randfamilienkarten. Ergebnis: `dio_155c` bleibt kartenuebergreifend stabile Bruecke; insgesamt bleibt die Rollenarchitektur lesbar, waehrend lokale Familienrollen und Belastungsnaehe beweglich bleiben.
+- `832_MARKTMELODIE_TONFOLGE.md`
+  - Fuehrt eine passive Marktmelodie auf einer Stresswelt aus. Ergebnis: 10.000 Weltframes werden in Tonhoehe, Lautstaerke, Rauigkeit, Klangrollen, 926 Melodiephrasen und 41 DIO-Klangtokens uebersetzt. Das ist Hoerwahrnehmung, keine Handlung und keine direkte Feldkopplung.
+- `833_MARKTMELODIE_ARCHITEKTUR.md`
+  - Legt die Architektur der Marktmelodie fest: Weltbewegung wird zu Tonfolge, Tonrolle, Melodiephrase und DIO-Klangtoken. Sprache wird nicht vorgegeben, sondern kann erst aus wiederkehrender Klangfolge plus MCM-Feldlage entstehen.
+- `834_MARKTMELODIE_STRESS2024_TONFOLGE.md`
+  - Erzeugt die Marktmelodie fuer die exakt gleiche 2024-Stresswelt wie der vorhandene MINI_DIO-Episodenlauf. Ergebnis: 10.000 Weltframes, 936 Melodiephrasen und 41 DIO-Klangtokens; die Tonspur ist dadurch zeitlich korrekt gegen die Innenfeldspur pruefbar.
+- `835_MARKTMELODIE_MCM_KOPPLUNG.md`
+  - Koppelt die 2024-Stressmelodie passiv mit den MINI_DIO-MCM-Episoden. Ergebnis: `ruheton` und `trageton` erscheinen relativ tragender, `bruchton` und `spannungston` bleiben offener beziehungsweise belastungsnaeher. Das ist keine Handlung und kein Gate, sondern ein erster Hinweis auf Klang-Innenfeld-Naehe.
+- `836_MARKTMELODIE_STRESS2024_WAV_DEBUG.md`
+  - Rendert die Stress-2024-Marktmelodie als hoerbare Mono-WAV. Ergebnis: 10.000 Melodieframes werden zu einer ca. 250 Sekunden langen Audio-Debugspur. Die WAV ist menschliches Hoer-Debug, keine Handlung und keine direkte MCM-Feldwirkung.
+- `837_MCM_ABHANDLUNGEN_THEMENMATRIX.csv`
+  - Thematische Matrix ueber 56 PDF-Abhandlungen und 21 Python-Beispiele aus `Mental-Core-Matrix-MCM`. Dient als Quellen- und Inspirationskarte, nicht als Runtime-Regelwerk.
+- `837_MCM_ABHANDLUNGEN_ABGLEICH.md`
+  - Vergleicht die Abhandlungen und Codebeispiele mit MINI_DIO. Ergebnis: MINI_DIO deckt bereits Feldtopologie, Feldzeit, Nachhall, Bedeutungsverdichtung, Sinnestrennung, Rezeptorik und passive Eigenregulation ab; offen bleiben vor allem formales Glossar, passive Metaregulator-Zustaende, direkte Kontaktachse, Co-Regulation und Robustheit ausserhalb von Kurswelten.
+- `838_MCM_MECHANIK_PRIORITAETEN.md`
+  - Ordnet die offenen Inspirationsachsen aus dem Abhandlungsabgleich. Prioritaet hat ein formales MCM-Glossar, danach passive metaregulatorische Feldmodi, synthetische Robustheitswelten, Audio/Eigenzeit, direkte Kontaktachse und erst spaeter Co-Regulation.
+- `839_REZEPTOR_MCM_KETTE_AUDIT.md`
+  - Prueft die technische Kette `Aussenwelt -> Sehen / Hoeren / direkter Kontakt -> Rezeptoren -> MCM-Feldwirkung`. Ergebnis: keine direkte Rohdatenflutung, direkter Kontakt in Kurswelten inaktiv, aber doppelte Feldspannung im Mini-MCM-Neuron. Nach Audit bereinigt `mini_dio/mcm_neuron.py` den Feldkern auf reine `mcm_feldwirkung`-Features.
+- `839_REZEPTOR_MCM_KETTE_AUDIT.csv`
+  - Messmatrix ueber SOL/BTC/KAS/PAXG 5m mit Rohaufnahme, adaptierter Feldaufnahme, MCM-Spannung und Kontaktaktivitaet.
+- `840_POST_FEATURE_CLEANUP_TOPOLOGIE_MATRIX.md`
+  - Prueft die passive Topologie nach der Bereinigung der Mini-MCM-Neuron-Features. Ergebnis: Die Rollenordnung bleibt stabil; SOL/BTC/KAS zeigen gemischte Rollenordnung, PAXG ist staerker zentriert. Zentrum bleibt dominant, offene Variante bleibt sichtbar, Rand/Kippnaehe bleibt klein aber erhalten.
+- `840_POST_FEATURE_CLEANUP_TOPOLOGIE_MATRIX.csv`
+  - Rollenmatrix nach Feature-Bereinigung mit Zentrum, offener Variante, Spannungsrand, Rekopplung, Carry, Strain und dominanten Familien je Welt.
+- `841_POST_FEATURE_CLEANUP_LONG_TOPOLOGIE_MATRIX.md`
+  - Prueft die bereinigte Mini-MCM-Neuron-Struktur auf langen Ruhe-, Stress- und Expansionswelten mit je 9.994 Episoden. Ergebnis: Alle drei Welten bleiben in einer gemischten Rollenordnung; Zentrum bleibt dominant, offene Variante bleibt stabil sichtbar, Spannungsrand/Kippnaehe bleibt klein.
+- `841_POST_FEATURE_CLEANUP_LONG_TOPOLOGIE_MATRIX.csv`
+  - Lange Rollenmatrix nach Feature-Bereinigung mit Zentrum, offener Variante, Spannungsrand, Rekopplung, Carry, Strain, Sinneskopplung und dominanten Familien je Welt.
+- `842_POST_FEATURE_CLEANUP_ASSET_TIMEFRAME_MATRIX.md`
+  - Prueft die bereinigte Struktur gegen andere Asset- und Zeitrahmenwelten: BTC 5m, BTC 1h, PAXG 5m, PAXG 1h. Ergebnis: Alle vier Welten bleiben `stark_zentriert_wenig_rand`; PAXG 5m zeigt die staerkste Zentrierung und den kleinsten Spannungsrand.
+- `842_POST_FEATURE_CLEANUP_ASSET_TIMEFRAME_MATRIX.csv`
+  - Asset-/Zeitrahmen-Rollenmatrix nach Feature-Bereinigung mit Zentrum, offener Variante, Spannungsrand, Rekopplung, Carry, Strain, Sinneskopplung und dominanten Familien.
 
 Hinweis:
 
@@ -855,6 +953,8 @@ Diese Bereiche enthielten zu viel alten DIO-Kontext, alte Handlungsvorstellungen
 ## Leitgrenze
 
 MINI_DIO untersucht zuerst, ob ein kleines MCM-Feld passive Innenordnung, Bedeutungsverdichtung, Feldtopologie und Eigenregulation ausbildet.
+
+MINI_DIO ist kein Trading-System. Kurs- und Weltsequenzen sind hier nur kontrollierte Studienobjekte, weil sie Zeit, Bewegung, Energie, Rhythmus, Bruch, Ruhe, Wiederkehr und Varianz enthalten. Entry-Logik, Orderverwaltung, Risikoausfuehrung und Web-Oberflaeche gehoeren in einen spaeteren getrennten Neuaufbau, nicht in dieses Forschungsmodell.
 
 Aktuelle zusaetzliche Leitgrenze:
 
