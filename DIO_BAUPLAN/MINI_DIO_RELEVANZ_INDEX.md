@@ -933,6 +933,48 @@ Besonders relevant fuer den aktuellen Bauplanstand:
   - Prueft die bereinigte Struktur gegen andere Asset- und Zeitrahmenwelten: BTC 5m, BTC 1h, PAXG 5m, PAXG 1h. Ergebnis: Alle vier Welten bleiben `stark_zentriert_wenig_rand`; PAXG 5m zeigt die staerkste Zentrierung und den kleinsten Spannungsrand.
 - `842_POST_FEATURE_CLEANUP_ASSET_TIMEFRAME_MATRIX.csv`
   - Asset-/Zeitrahmen-Rollenmatrix nach Feature-Bereinigung mit Zentrum, offener Variante, Spannungsrand, Rekopplung, Carry, Strain, Sinneskopplung und dominanten Familien.
+- `843_POST_FEATURE_CLEANUP_DIVERSE_RAND_MATRIX.md`
+  - Prueft DOGE, XRP, KAS und eine synthetische Randdominanz-Welt nach der Rezeptor/MCM-Feature-Bereinigung. Ergebnis: DOGE/XRP bleiben stark zentriert, KAS bleibt gemischte Rollenordnung, die synthetische Randwelt wird ueberraschend stark zentriert.
+- `843_POST_FEATURE_CLEANUP_DIVERSE_RAND_MATRIX.csv`
+  - Diverse Asset-/Randrollenmatrix mit Zentrum, offener Variante, Spannungsrand, Rekopplung, Carry, Strain, Sinneskopplung und dominanten Familien.
+- `844_SYNTH_RAND_REZEPTORACHSEN_PRUEFUNG.md`
+  - Vergleicht die synthetische Randdominanz-Welt gegen KAS, DOGE und XRP ueber Rezeptorachsen und Hochlastfenster. Ergebnis: Die synthetische Randwelt ist im Gesamtfeld stark zentriert, zeigt aber im Hochlastfenster deutlich offene Variante; KAS/DOGE/XRP erzeugen in Hochlastfenstern mehr Rand/Kipp-Naehe.
+- `844_SYNTH_RAND_REZEPTORACHSEN_PRUEFUNG.csv`
+  - Weltmatrix mit Rohfeldaufnahme, adaptierter Feldaufnahme, Lautheit, Schaerfe, Reduktion und Hochlast-Rollenanteilen.
+- `845_SYNTH_RAND_DOMINANZ_REZEPTOR_LIMIT.md`
+  - Zerlegt die synthetische Randdominanz-Welt phasenweise. Ergebnis: Rand-/Oeffnungslast entsteht lokal in der `laute_randphase`; die Rezeptorschicht begrenzt Rohfeldaufnahme, danach rekoppelt das Feld wieder stark ins Zentrum.
+- `845_SYNTH_RAND_DOMINANZ_REZEPTOR_LIMIT.csv`
+  - Phasenmatrix der synthetischen Randdominanz-Welt mit Rezeptorachsen, Roh-/Adaptfeld, Druck, MCM-Spannung und Rollenanteilen.
+- `846_SYNTH_BRUCH_RAND_REZEPTOR_LIMIT.md`
+  - Prueft die synthetische Bruch/Rand-Welt phasenweise. Ergebnis: `randflackern` erzeugt eine deutliche offene Variante, aber kaum echte Rand/Kipp-Naehe; Oeffnung und Randspannung muessen getrennt gelesen werden.
+- `846_SYNTH_BRUCH_RAND_REZEPTOR_LIMIT.csv`
+  - Phasenmatrix der Bruch/Rand-Welt mit Rezeptorachsen, Roh-/Adaptfeld, Druck, MCM-Spannung und Rollenanteilen.
+- `847_SYNTH_HARMONIC_REZEPTOR_LIMIT.md`
+  - Prueft die synthetische Harmonie-Welt phasenweise. Ergebnis: Alle Phasen bleiben stark zentriert; selbst `kippnaehe` bleibt nur leicht offen und praktisch randfrei.
+- `847_SYNTH_HARMONIC_REZEPTOR_LIMIT.csv`
+  - Phasenmatrix der Harmonie-Welt mit Rezeptorachsen, Roh-/Adaptfeld, Druck, MCM-Spannung und Rollenanteilen.
+- `848_SYNTH_REZEPTOR_LIMIT_SYNTHESE.md`
+  - Fuehrt Randdominanz, Bruch/Rand und Harmonie zusammen. Ergebnis: MINI_DIO trennt drei rezeptorisch vermittelte Innenfeldlagen: stabile Zentrierung, Oeffnung ohne Randkippung und Oeffnung mit Rand/Kippnaehe.
+- `848_SYNTH_REZEPTOR_LIMIT_SYNTHESE.csv`
+  - Vergleichsmatrix der synthetischen Rezeptor-Limitdiagnosen mit Klassen, Max-Oeffnung, Max-Rand, Rohfeld, Reduktion und Adaptionsratio.
+- `849_REALWELTEN_REZEPTORACHSEN_KLASSENPRUEFUNG.md`
+  - Prueft KAS, PAXG, DOGE und XRP gegen dieselben Rezeptorachsen. Ergebnis: Alle realen Hochlastfenster zeigen starke Oeffnung; KAS erzeugt die staerkste reale Rand/Kipp-Naehe.
+- `849_REALWELTEN_REZEPTORACHSEN_KLASSENPRUEFUNG.csv`
+  - Reale Weltmatrix mit Gesamtrollen, Hochlastrollen, Roh-/Adaptfeld, Lautheit, Schaerfe und Rezeptorreduktion.
+- `850_REAL_GEGEN_SYNTH_REZEPTORKLASSEN.md`
+  - Liest reale Hochlastfenster gegen die synthetischen Rezeptorklassen. Ergebnis: Alle vier Realwelten liegen am naechsten bei `RAND_DOMINANZ`, sind im Hochlastfenster aber teils randnaeher als die synthetische Referenz; KAS wird als reale Randreferenz vorgeschlagen.
+- `850_REAL_GEGEN_SYNTH_REZEPTORKLASSEN.csv`
+  - Vergleichsmatrix Realwelt gegen synthetische Referenzklasse mit High-Offen, High-Rand, High-Rohfeld, High-Reduktion und Abstand zur synthetischen Klasse.
+- `851_KAS_REALE_RANDREFERENZ_SEGMENTLUPE.md`
+  - Isoliert KAS-Hochlastabschnitte als reale Randreferenz. Ergebnis: KAS bildet wenige, aber deutliche reale Randphasen, viele Oeffnungsphasen und gemischte Uebergaenge; Rand/Kipp-Naehe entsteht lokal und nicht als Dauerzustand.
+- `851_KAS_REALE_RANDREFERENZ_SEGMENTLUPE.csv`
+  - Segmentmatrix mit Rollenanteilen, Rezeptorachsen, Roh-/Adaptfeld, Lautheit, Schaerfe, Drift, Range, Richtungswechsel und dominanter Familie je Hochlastsegment.
+- `852_KAS_RAND_GEGEN_OEFFNUNG_KONTRAST.md`
+  - Trennt KAS-Randnaehe von normaler Oeffnung. Ergebnis: Oeffnung ist haeufig, echte Rand/Kipp-Naehe selten, aber deutlich; Randnaehe entsteht aus Zusammenwirkung von Feldoeffnung, erhoehter Rohfeldaufnahme, Lautheit, Unschaerfe, MCM-Spannung, Strain und Rekopplungsverlust.
+- `852_KAS_RAND_GEGEN_OEFFNUNG_KONTRAST.csv`
+  - Klassenvergleich fuer KAS-Segmente mit Segmentanzahl, Familienbreite, Zentrum, Oeffnung, Rand/Kipp, Rohfeld, Lautheit, Unschaerfe, MCM-Spannung, Strain, Rekopplung und Weltbewegung.
+- `853_THEORIEANKER_KOSMISCHE_MATRIX_UND_VERDICHTUNG.md`
+  - Ordnet die bisherigen MINI_DIO-Befunde vorsichtig gegen MCM Block E, E.1, G und G.1 ein. Ergebnis: kein Beweis fuer die kosmologische Theorie, aber ein starkes strukturelles Indiz; Zentrum, Abweichung, Verdichtung, Randnaehe, Rueckfuehrung und Reorganisation sind als pruefbare Feldmechanik im kleinen Modell anschlussfaehig.
 
 Hinweis:
 

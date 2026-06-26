@@ -90,6 +90,14 @@ Weltkontakt
 
 Damit wird die bisherige Richtung gestützt: Ein DIO soll nicht durch harte Regeln reguliert werden, sondern über Innenfeldreaktion, eigene Syntax, Wiederkehr, Rekopplung und Bedeutungsreifung.
 
+## Theorieanker Kosmische Matrix
+
+Die MCM-Abhandlungen [Block E - Die kosmische Matrix](https://github.com/H5Pro2/Mental-Core-Matrix-MCM/blob/main/Abhandlungen/MCM%20-%20Hauptabhandlungen/Teil%20I%20-%20Die%20Mental%20Core%20Matrix%20%E2%80%93%20Strukturmodell/Abhandlung%20Block%20E%20-%20Die%20kosmische%20Matrix.pdf), [Block E.1 - Die polare Entstehung des Universums](https://github.com/H5Pro2/Mental-Core-Matrix-MCM/blob/main/Abhandlungen/MCM%20-%20Hauptabhandlungen/Teil%20I%20-%20Die%20Mental%20Core%20Matrix%20%E2%80%93%20Strukturmodell/Abhandlung%20Block%20E.1%20-%20Die%20polare%20Entstehung%20des%20Universums.pdf), [Block G - Die Multiversen-Matrix](https://github.com/H5Pro2/Mental-Core-Matrix-MCM/blob/main/Abhandlungen/MCM%20-%20Hauptabhandlungen/Teil%20I%20-%20Die%20Mental%20Core%20Matrix%20%E2%80%93%20Strukturmodell/Abhandlung%20Block%20G%20-%20Die%20Multiversen-Matrix.pdf) und [Block G.1 - Reorganisation verdichteter Energie](https://github.com/H5Pro2/Mental-Core-Matrix-MCM/blob/main/Abhandlungen/MCM%20-%20Hauptabhandlungen/Teil%20I%20-%20Die%20Mental%20Core%20Matrix%20%E2%80%93%20Strukturmodell/Abhandlung%20Block%20G.1%20-%20Reorganisation%20verdichteter%20Energie%20in%20einen%20%C3%BCbergeordneten%20Feldbereich.pdf) beschreiben hypothetisch Zentrum, Abweichung, Expansion, Gegenpol, Verdichtung, Rückführung und Reorganisation.
+
+MINI_DIO beweist diese Theorie nicht. Die bisherigen Befunde bilden aber eine starke strukturelle Parallele: Zentrum, offene Variante, Rand/Kippnähe, Rekopplung, Feldzeit, Nachhall und Bedeutungsinseln erscheinen im kleinen Forschungsmodell als messbare Feldrollen. Das ist ein Indiz dafür, dass die MCM-Theorie einen real anschlussfähigen Betrachtungspunkt besitzt.
+
+Ausführlicher festgehalten ist diese Einordnung in [853_THEORIEANKER_KOSMISCHE_MATRIX_UND_VERDICHTUNG.md](docs/befunde/853_THEORIEANKER_KOSMISCHE_MATRIX_UND_VERDICHTUNG.md).
+
 ## Aktueller Forschungsstand Kurz Gefasst
 
 MINI_DIO wird derzeit als passives MCM-Forschungsmodell verstanden. Eine Außenwelt wird als visuelle, tonale und energetische Spur aufgenommen. Daraus entstehen keine direkten Handlungssignale, sondern zuerst Innenfeldreaktionen, eigene `dio_*`-Syntax, Bedeutungsinseln und passive Episoden.

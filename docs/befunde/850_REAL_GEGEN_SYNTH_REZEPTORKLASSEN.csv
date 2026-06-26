@@ -1,0 +1,5 @@
+world,class,nearest_synth,nearest_distance,zentrum,offen,rand_kipp,high_offen,high_rand_kipp,high_raw_field_intake,high_intake_reduction,high_auditory_loudness,rand_over_synth_max,open_over_synth_max
+KAS_2024_5M,reale_starke_rand_oeffnung,RAND_DOMINANZ,0.2141,0.378134,0.444333,0.02006,0.81,0.19,0.293959,0.055315,0.515728,0.16125,0.04875
+PAXG_2025_5M,reale_oeffnung_mit_randanteil,RAND_DOMINANZ,0.161762,0.670903,0.211627,0.010806,0.833,0.099,0.288953,0.053222,0.50198,0.07025,0.07175
+DOGE_2025_5M,reale_starke_rand_oeffnung,RAND_DOMINANZ,0.191011,0.606064,0.261457,0.01621,0.826,0.151,0.293651,0.054664,0.513921,0.12225,0.06475
+XRP_2025_5M,reale_oeffnung_mit_randanteil,RAND_DOMINANZ,0.195754,0.61637,0.256154,0.01611,0.841,0.145,0.297638,0.055659,0.52038,0.11625,0.07975
