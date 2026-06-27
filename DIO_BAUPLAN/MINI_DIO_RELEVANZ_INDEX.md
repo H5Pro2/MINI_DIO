@@ -989,6 +989,112 @@ Besonders relevant fuer den aktuellen Bauplanstand:
   - Staerkste gerichtete Uebergaenge der frischen Weltgruppe.
 - `856_MCM_VERDICHTUNGSZONEN_REPRODUKTION.md`
   - Vergleicht 854 gegen 855. Ergebnis: Die Klassenverteilung reproduziert sich deutlich; 142 Tokens werden geteilt, 84 behalten dieselbe Verdichtungszone, 15 der Top-20-Tokens ueberlappen. Damit wirkt die Feldordnung stabiler als die konkrete Tokenoberflaeche.
+- `857_MCM_VERDICHTUNGSZONEN_DRIFTLUPE.md`
+  - Liest die wechselnden Tokens zwischen 854 und 855 genauer. Ergebnis: 84 von 142 gemeinsamen Tokens bleiben zonenstabil; 26 wechseln in Richtung Reifung/Verdichtung, 24 in Oeffnung/Drift und 8 in Verjuengung/Oberflaeche. Damit wirkt der Wechsel nicht chaotisch, sondern als Mischung aus stabiler Rollenordnung, nachtraeglicher Verdichtung und echter Drift.
+- `857_MCM_VERDICHTUNGSZONEN_DRIFTLUPE.csv`
+  - Tokenweise Driftmatrix mit Basiszone, Folgezone, Bewegungsart, Beobachtungsdelta, Weltbreite, Rollenwechsel, Rekopplung, Strain, Lautheit und visueller Unschaerfe.
+- `858_MCM_VERDICHTUNGSZONEN_TOKENLUPE.md`
+  - Liest die staerksten Zonenwechsel einzeln. Ergebnis: Drift entsteht vor allem dort, wo reale Weltbreite abnimmt, synthetische Randbindung steigt, Lautheit/Unschaerfe zunehmen und Rekopplung faellt. Reifung/Rekopplung entsteht dort, wo Weltbreite erhalten bleibt oder steigt, Zentrum dominant bleibt und die Aufnahme leiser/schaerfer wird. Das stuetzt die Lesart: MCM-Bedeutung ist nicht nur ein Punkt, sondern auch Bewegung im Feld.
+- `859_MCM_TOKEN_ROHWELT_SEGMENTLUPE.md`
+  - Liest konkrete Kontaktsegmente fuer `0v5p8er`, `14l8khu`, `1xx3u1e` und `1q3us3f`. Ergebnis: Lokalkontakte zeigen Vor-/Kontakt-/Nachfenster mit Lautheit, Unschaerfe, Rekopplung und Strain. Besonders `1q3us3f` bestaetigt lokale Rekopplung klar; `14l8khu` zeigt dagegen einen lokalen Gegenbefund zur globalen Drift.
+- `859_MCM_TOKEN_ROHWELT_SEGMENTLUPE.csv`
+  - Segmentmatrix mit Welt, Tickbereich, Kontaktlaenge, Vor-/Kontakt-/Nachrichtung, Sinnesachsen, MCM-Rekopplung, Strain, Spannung und Kopplung.
+- `860_MCM_DRIFT_GEGEN_LOKALKONTAKT.md`
+  - Synthetisiert Driftlupe und Segmentlupe. Ergebnis: Lokaler Kontakt erklaert die unmittelbare Feldlage, globale Zonenbewegung erklaert die Bedeutungsverschiebung. Ein Token kann lokal rekoppeln, aber global driften, wenn Weltbreite und Nachbarschaft kippen. Damit wird MCM-Bedeutung als lokale Wirkung plus zeitlich-raeumliche Feldbewegung lesbar.
+- `861_MCM_TOKEN_NACHBARSCHAFTSLUPE.md`
+  - Liest Tick-Nachbarschaften der vier Ziel-Tokens. Ergebnis: Lange Selbstphasen dominieren stark. Daraus folgt methodisch: fuer echte Nachbarschaftsdiagnose muessen Segmentgrenzen statt Tick-Selbstwiederholung gelesen werden.
+- `861_MCM_TOKEN_NACHBARSCHAFTSLUPE.csv`
+  - Tokenweise Nachbarschaftsmatrix mit dominanten Vor-/Nach-Token, Selbstbindung, Rollen und Achsbewegung zum Nachfolger.
+- `861_MCM_TOKEN_NACHBARSCHAFTSLUPE_DETAILS.csv`
+  - Detailmatrix je Kontakt-Tick fuer die Nachbarschaftslupe.
+- `862_MCM_TOKEN_GRENZLUPE.md`
+  - Liest Eintritt und Austritt der Token-Segmente. Ergebnis: Alle vier Tokens bilden stabile Innenphasen, aber die Austritte wirken im Mittel oeffnend/belastend. `0v5p8er` und `14l8khu` bilden ein gegenseitiges Driftpaar; `1q3us3f` koppelt an `18l3thm`, `1xx3u1e` an `0ybr5e3`.
+- `862_MCM_TOKEN_GRENZLUPE.csv`
+  - Segmentgrenzen-Summary mit Eintritt, Austritt, Rollen, Dauer und Achsbewegung.
+- `862_MCM_TOKEN_GRENZLUPE_DETAILS.csv`
+  - Detailmatrix je Token-Segment mit Start-/End-/Nachfolgerachsen.
+- `863_MCM_VERDICHTUNGSPFADE_KLASSIFIKATION.md`
+  - Verbindet Driftlupe, Segmentlupe und Grenzlupe zu einer ersten Pfadklassifikation. Ergebnis: MCM-Bedeutung entsteht nicht nur durch Wiederkehr, sondern durch wiederkehrende Feldpfade: Kontakt, Innenphase, Austritt, Nachbarschaft und Weltbreite.
+- `864_MCM_PFADKLASSIFIKATION.md`
+  - Erweitert die Pfadklassifikation auf alle 142 gemeinsamen Tokens der Driftmatrix. Ergebnis: 41 rekoppelnde Pfade, 30 junge Oberflaechen, 27 offene Driftpfade, 18 Brueckenpfade, 14 stabile Inseln, 9 gemischte Pfade und 3 Randpfade. Das stuetzt die Lesart einer geordneten Feldbewegung statt zufaelliger Symboloberflaeche.
+- `864_MCM_PFADKLASSIFIKATION.csv`
+  - Tokenweise Pfadmatrix mit Pfadklasse, Basiszone, Folgezone, Bewegung, Beobachtungsdelta, Weltendelta und Klassifikationsgrund.
+- `865_MCM_VERDICHTUNGSZONEN_WEITERE_WELTGRUPPE.md`
+  - Bildet eine weitere Verdichtungszonen-Gruppe aus sieben anderen Episode-Welten. Ergebnis: 193 Zonen-Tokens und 50 gerichtete Uebergaenge.
+- `866_MCM_VERDICHTUNGSZONEN_REPRODUKTION_WEITERE_WELTGRUPPE.md`
+  - Vergleicht 854 gegen 865. Ergebnis: Die Klassenordnung bleibt deutlich aehnlich, obwohl nur 103 Tokens gemeinsam sind und die Tokenoberflaeche staerker wechselt. Damit reproduziert sich eher die Feldrollenstruktur als der starre Name.
+- `867_MCM_VERDICHTUNGSZONEN_DRIFTLUPE_WEITERE_WELTGRUPPE.md`
+  - Driftmatrix zwischen 854 und der weiteren Weltgruppe. Grundlage fuer die zweite Pfadklassifikation.
+- `868_MCM_PFADKLASSIFIKATION_WEITERE_WELTGRUPPE.md`
+  - Zweite Pfadklassifikation gegen die weitere Weltgruppe. Ergebnis: 24 rekoppelnde Pfade, 29 junge Oberflaechen, 16 offene Driftpfade, 19 Brueckenpfade, 11 stabile Inseln, 1 gemischter Pfad und erneut 3 Randpfade.
+- `869_MCM_PFADKLASSIFIKATION_REPRODUKTION.md`
+  - Vergleicht 864 gegen 868. Ergebnis: Randpfade bleiben stabil selten, Brueckenpfade und junge Oberflaechen bleiben fast gleich stark. Die Tokenoberflaeche ist weltabhaengig, die darunterliegende MCM-Rollenordnung wirkt stabiler.
+- `870_MCM_ROLLENREPRODUKTION_LUPE.md`
+  - Prueft die konkrete Rollenwiederkehr einzelner Tokens zwischen 864 und 868. Ergebnis: 47 Tokens bleiben rollenstabil, 12 Brueckenpfade bleiben dieselben Bruecken, alle 3 Randpfade bleiben dieselben Randtokens, 5 junge Oberflaechen reifen in tragendere Rollen. Das stuetzt die Lesart, dass MINI_DIO nicht nur globale Klassen reproduziert, sondern konkrete Feldrollen teilweise tokenstabil wiederholt.
+- `870_MCM_ROLLENREPRODUKTION_LUPE.csv`
+  - Tokenweise Rollenvergleichsmatrix mit Pfadklasse in 864/868, Rollenbeziehung, Zonen, Weltendelta, Rekopplung, Strain, Lautheit und visueller Unschaerfe.
+- `871_MCM_BRUECKENAKTIVIERUNG_LUPE.md`
+  - Isoliert die 12 stabilen Brueckenpfade und vergleicht ihre Kontaktmerkmale mit jungen Oberflaechen. Ergebnis: stabile Bruecken bilden 198 Kontaktsegmente ueber 7 Welten, halten lange Kontaktphasen und zeigen hohe Rekopplung bei stabiler Feldwirkung. Bruecken sind damit nicht einfach mehr Ordnung oder weniger Reiz, sondern gehaltene Uebergangsfunktionen im Feld.
+- `871_MCM_BRUECKENAKTIVIERUNG_LUPE.csv`
+  - Segmentmatrix der Bruecken-, stabil jungen und nachreifenden jungen Tokens mit Sinnesaufnahme, Feldaufnahme, Rekopplung, Strain, Spannung und Sensorik.
+- `872_MCM_BRUECKEN_GRENZLUPE.md`
+  - Liest Eintritt, Innenphase und Austritt der 12 stabilen Brueckenpfade. Ergebnis: Bruecken besitzen erkennbare Grenzprofile; 9 von 12 Austritten wirken oeffnend/belastend, 2 rekoppelnd und 1 gemischt.
+- `872_MCM_BRUECKEN_GRENZLUPE.csv`
+  - Tokenweise Grenzmatrix der stabilen Bruecken mit dominantem Eintritt, Austritt, Rollenprofil und Achsbewegung.
+- `872_MCM_BRUECKEN_GRENZLUPE_DETAILS.csv`
+  - Detailmatrix je Brueckensegment mit Start-/End-/Austrittswerten.
+- `873_MCM_BRUECKEN_UEBERGANGSPRUEFUNG.md`
+  - Synthetisiert die Brueckengrenzen. Ergebnis: Innerhalb der Bruecken steigt Rekopplung im Mittel und Strain/Lautheit fallen; beim Austritt faellt Rekopplung und Strain/Lautheit steigen. Damit wirken stabile Bruecken wie gehaltene Uebergangsphasen zwischen Feldzustaenden.
+- `874_MCM_BRUECKEN_NETZWERK.md`
+  - Liest die stabilen Bruecken als Netzwerk aus Eintritts- und Austrittskanten. Ergebnis: 12 Brueckenknoten, 94 Kanten, davon 18 interne Bruecke-zu-Bruecke-Kanten, 36 Aussen-zu-Bruecke-Kanten und 40 Bruecke-zu-Aussen-Kanten. Das staerkste interne Paar ist `dio_mcm_episode_0e7qvj1` <-> `dio_mcm_episode_18l3thm` mit Kantengewicht 84.
+- `874_MCM_BRUECKEN_NETZWERK.csv`
+  - Kantenmatrix des Brueckennetzes mit Quelle, Ziel, Relation, Kantentyp, Gewicht, Welten, mittlerer Dauer und Austrittsphase.
+- `875_MCM_BRUECKENPAAR_0E7QVJ1_18L3THM.md`
+  - Liest das staerkste Brueckenpaar gezielt. Ergebnis: `0e7qvj1 -> 18l3thm` tritt 46-mal in 5 Welten auf, `18l3thm -> 0e7qvj1` 38-mal in 5 Welten. Das Paar ist gegenseitig gerichtet und wirkt als Rueckbezugsbereich im Brueckennetz.
+- `875_MCM_BRUECKENPAAR_0E7QVJ1_18L3THM.csv`
+  - Gerichtete Paarkanten des staerksten Brueckenpaars mit Welt, Dauer, Innenachsen, Austrittsachsen und Austrittsphase.
+- `875_MCM_BRUECKENPAAR_0E7QVJ1_18L3THM_SUMMARY.csv`
+  - Tokenprofil des staerksten Brueckenpaars mit Segmenten, Welten, Paar-Eintritten, Paar-Austritten und Achsdeltas.
+- `876_MCM_BRUECKENKERNE_VERGLEICH.md`
+  - Vergleicht alle internen Brueckenpaare aus dem Brueckennetz. Ergebnis: ein zentraler Brueckenkern (`0e7qvj1` <-> `18l3thm`, Gewicht 84), zwei sekundaere Brueckenkerne, zwei lokale Brueckenpfade und eine schwache Brueckenkante. Die Brueckentopologie wirkt damit hierarchisch, nicht flach.
+- `876_MCM_BRUECKENKERNE_VERGLEICH.csv`
+  - Paarmatrix der internen Bruecken mit Gewicht, Weltspanne, Richtung, Bidirektionalitaet, Dauer, Austrittsphase und Kernklasse.
+- `877_MCM_ZENTRALER_BRUECKENKERN_ZIELROLLEN.md`
+  - Liest, wohin der zentrale Brueckenkern fuehrt. Ergebnis: Der Kern fuehrt gewichtet am staerksten in stabile Inseln und stabile Bedeutungszonen; direkte Randanschluesse bleiben selten. Damit wirkt der zentrale Kern eher als Zentrum-/Rekopplungsuebergang denn als chaotischer Randkanal.
+- `877_MCM_ZENTRALER_BRUECKENKERN_ZIELROLLEN.csv`
+  - Zielrollenmatrix des zentralen Brueckenkerns mit Richtungstyp, Aussenklasse, Aussenzone, Gewicht, Weltspanne, Austrittsphase und Achsdeltas.
+- `878_MCM_SEKUNDAERER_BRUECKENKERN_0DB07P4_1JOIYC3_ZIELROLLEN.md`
+  - Liest die Zielrollen des sekundaeren Brueckenkerns `0db07p4` / `1joiyc3`. Ergebnis: Dieser Kern fuehrt vor allem in stabile Inseln und wirkt enger als der zentrale Kern; direkte Randanschluesse bleiben selten.
+- `878_MCM_SEKUNDAERER_BRUECKENKERN_0DB07P4_1JOIYC3_ZIELROLLEN.csv`
+  - Zielrollenmatrix des sekundaeren Brueckenkerns `0db07p4` / `1joiyc3`.
+- `879_MCM_SEKUNDAERER_BRUECKENKERN_0E7QVJ1_0MJI3U6_ZIELROLLEN.md`
+  - Liest die Zielrollen des sekundaeren Brueckenkerns `0e7qvj1` / `0mji3u6`. Ergebnis: Der Kern wirkt eher wie ein Seitenarm des zentralen Kerns, weil `0e7qvj1` selbst Teil des zentralen Brueckenkerns ist.
+- `879_MCM_SEKUNDAERER_BRUECKENKERN_0E7QVJ1_0MJI3U6_ZIELROLLEN.csv`
+  - Zielrollenmatrix des sekundaeren Brueckenkerns `0e7qvj1` / `0mji3u6`.
+- `880_MCM_BRUECKENKERNE_ZIELROLLEN_VERGLEICH.md`
+  - Vergleicht zentralen Brueckenkern und sekundaere Brueckenkerne. Ergebnis: Die Brueckentopologie ist hierarchisch lesbar: zentraler Kern, sekundaerer stabiler Anschlusskern und Seitenarm des zentralen Kerns.
+- `881_MCM_BRUECKENKERNE_POSITIONSLUPE.md`
+  - Prueft, ob Brueckenkerne selbst zentrumsnah sind oder nur indirekt durch stabile Inseln zentrumsnah erscheinen. Ergebnis: Die Kern-Tokens tragen selbst `zentrum_stabil`; die Unterschiede liegen in Zonenbewegung und Anschlussfunktion.
+- `881_MCM_BRUECKENKERNE_POSITIONSLUPE.csv`
+  - Positionsmatrix der untersuchten Brueckenkerne mit Rollenlage, Zonenbewegung, Positionslabel und grobem Positionswert.
+- `882_MCM_RANDPFADE_GEGENKERN_LUPE.md`
+  - Prueft, ob Randpfade eigene Gegenkerne bilden. Ergebnis: Randtokens sind in der Pfadklassifikation sichtbar, aber in der verwendeten Nachbarschaftsmatrix nicht abgedeckt; daraus folgt eine methodische Grenze, kein Kontakt-Nullbefund.
+- `882_MCM_RANDPFADE_GEGENKERN_LUPE.csv`
+  - Randpfad-, Oberflaechen- und Driftmatrix mit Datenabdeckungskennzeichnung.
+- `883_MCM_RAND_GEGENKERN_GEGENPRUEFUNG.md`
+  - Gleicht die Randkernfrage mit aelteren Stress-, Rand- und Realweltbefunden ab. Ergebnis: Rand ist reproduzierbar und semantisch sichtbar, bleibt aber bisher duenner und weniger kernbildend als Zentrum/Bruecke.
+- `884_MCM_RANDTOKEN_NACHBARSCHAFTSLUPE.md`
+  - Erzeugt die passende Nachbarschaftsmatrix fuer Rand-, Oberflaechen- und Drift-Tokens aus der aktuellen Pfadgruppe. Ergebnis: 48 Tokens mit 4045 Nachbarschaftskontakten; `0ykar6i` und `1eju9g0` fallen als starke Verdichtungen auf.
+- `884_MCM_RANDTOKEN_NACHBARSCHAFTSLUPE.csv`
+  - Zusammenfassung der Randtoken-Nachbarschaften mit Kontakten, Welten, dominanten Vorgaengern/Nachfolgern, Selbstbindung und Bewegungsachsen.
+- `884_MCM_RANDTOKEN_NACHBARSCHAFTSLUPE_DETAILS.csv`
+  - Detailmatrix aller Randtoken-Kontakte.
+- `885_MCM_RANDPFADE_GEGENKERN_LUPE_MIT_ABDECKUNG.md`
+  - Wiederholt die Rand-Gegenkern-Lupe mit passender Nachbarschaftsabdeckung. Ergebnis: kein klarer Rand-Gegenkern, aber ein starker Driftkern-Kandidat und eine lokale junge Selbstinsel.
+- `885_MCM_RANDPFADE_GEGENKERN_LUPE_MIT_ABDECKUNG.csv`
+  - Klassifikationsmatrix fuer Rand-, Drift- und Oberflaechen-Tokens mit Abdeckung.
+- `886_MCM_RAND_DRIFTKERN_SYNTHESE.md`
+  - Fasst die korrigierte Randpruefung zusammen. Ergebnis: Drift kann starke Selbstverdichtung bilden; Rand bleibt bisher eher Spannungsnaehe ohne klaren Eigenkern.
 
 Hinweis:
 
