@@ -1,0 +1,9 @@
+shift_symbol,short_token,previous_shift_quality,previous_to_nonbridge_class,current_nonbridge_class,current_zone,current_role,current_observations,current_worlds,read_state,note
+dio_shift_1v47ku0,00dz86x,shift_oberflaeche_zu_offen,nichtbruecke_offen,-,-,-,0,0,shift_spur_nicht_sichtbar,Rollenwechselspur wird in der Folgewelt nicht sichtbar.
+dio_shift_074qo7f,00nzcuc,shift_nicht_sichtbar,-,-,-,-,0,0,shift_spur_nicht_sichtbar,Rollenwechselspur wird in der Folgewelt nicht sichtbar.
+dio_shift_13ofdj9,00yl137,shift_verlust_zu_randspur,nichtbruecke_randspannung,-,-,-,0,0,shift_spur_nicht_sichtbar,Rollenwechselspur wird in der Folgewelt nicht sichtbar.
+dio_shift_0s2o4zp,0db07p4,shift_verschwinden_zu_zentrum,nichtbruecke_zentrum_schwach,-,-,-,0,0,shift_spur_nicht_sichtbar,Rollenwechselspur wird in der Folgewelt nicht sichtbar.
+dio_shift_1dj11m9,0om13wf,shift_weltabhaengig_zu_rekopplung,nichtbruecke_rekopplungsfeld,-,-,-,0,0,shift_spur_nicht_sichtbar,Rollenwechselspur wird in der Folgewelt nicht sichtbar.
+dio_shift_01i725o,0z748ck,shift_bruecke_zu_zentrum_getragen,nichtbruecke_zentrum_getragen,-,-,-,0,0,shift_spur_nicht_sichtbar,Rollenwechselspur wird in der Folgewelt nicht sichtbar.
+dio_shift_0lmqn9z,1ahj81f,shift_verschwinden_zu_zentrum,nichtbruecke_zentrum_getragen,-,-,-,0,0,shift_spur_nicht_sichtbar,Rollenwechselspur wird in der Folgewelt nicht sichtbar.
+dio_shift_0ght6xc,1hdpu9s,shift_belastete_reifung_zu_zentrum,nichtbruecke_zentrum_getragen,-,-,-,0,0,shift_spur_nicht_sichtbar,Rollenwechselspur wird in der Folgewelt nicht sichtbar.

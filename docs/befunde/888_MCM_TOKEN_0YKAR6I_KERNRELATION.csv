@@ -1,0 +1,9 @@
+token,relation,neighbor_token,count,is_core_token,neighbor_path_class,neighbor_movement,neighbor_base_zone,neighbor_follow_zone,neighbor_base_role,neighbor_follow_role
+dio_mcm_episode_0ykar6i,exit,dio_mcm_episode_0b7nep9,44,0,brueckenpfad,stabil,hoeherer_cluster_uebergang,hoeherer_cluster_uebergang,zentrum_stabil,zentrum_stabil
+dio_mcm_episode_0ykar6i,entry,dio_mcm_episode_0b7nep9,44,0,brueckenpfad,stabil,hoeherer_cluster_uebergang,hoeherer_cluster_uebergang,zentrum_stabil,zentrum_stabil
+dio_mcm_episode_0ykar6i,entry,dio_mcm_episode_0geqqo3,9,0,-,-,-,-,-,-
+dio_mcm_episode_0ykar6i,exit,dio_mcm_episode_0ybr5e3,9,0,stabile_insel,stabil,stabile_bedeutungsinsel,stabile_bedeutungsinsel,zentrum_stabil,zentrum_stabil
+dio_mcm_episode_0ykar6i,entry,dio_mcm_episode_0ybr5e3,9,0,stabile_insel,stabil,stabile_bedeutungsinsel,stabile_bedeutungsinsel,zentrum_stabil,zentrum_stabil
+dio_mcm_episode_0ykar6i,exit,dio_mcm_episode_0geqqo3,9,0,-,-,-,-,-,-
+dio_mcm_episode_0ykar6i,entry,dio_mcm_episode_1qqnvqf,2,0,-,-,-,-,-,-
+dio_mcm_episode_0ykar6i,exit,dio_mcm_episode_1pmt8u2,1,0,junge_oberflaeche,verjuengung_oberflaeche,rekopplungszone,junge_spur,zentrum_stabil,zentrum_stabil

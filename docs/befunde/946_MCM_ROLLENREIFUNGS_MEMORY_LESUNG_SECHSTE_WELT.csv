@@ -1,0 +1,9 @@
+maturation_symbol,short_token,memory_maturation_quality,memory_segment_quality,memory_field_quality,memory_follow_class,current_class,current_weight,current_world_span,read_state,reason
+dio_mature_0yx0oq2,0z748ck,maturation_reorganisationsbruecke_gehalten,mehrwelt_segmentbruecke,feld_leicht_stabilisierend,lokaler_anschlussanker,lokaler_anschlussanker,12,5,bruecke_gehalten,Reorganisationsbruecke bleibt mindestens lokal sichtbar.
+dio_mature_0eigbm8,00dz86x,maturation_jung_gehalten,segment_nicht_gelesen,feld_unguelesen,schwacher_anschluss,-,0,0,nicht_wiedergefunden,Reifungsspur ist in der Folgewelt nicht sichtbar.
+dio_mature_0bf3x2q,00nzcuc,maturation_jung_gehalten,segment_nicht_gelesen,feld_unguelesen,schwacher_anschluss,-,0,0,nicht_wiedergefunden,Reifungsspur ist in der Folgewelt nicht sichtbar.
+dio_mature_109zkut,00yl137,maturation_reifung,kurze_mehrweltspur,feld_jung_instabiler_austritt,brueckenkern,-,0,0,nicht_wiedergefunden,Reifungsspur ist in der Folgewelt nicht sichtbar.
+dio_mature_1619pcd,0om13wf,maturation_reifung,kurze_mehrweltspur,feld_rekoppelnd_schaerfend,brueckenkern,schwacher_anschluss,3,1,reifung_abgeschwaecht,"Reifung bleibt sichtbar, aber weniger tragend."
+dio_mature_0w1iqyf,1hdpu9s,maturation_rolle_gehalten,lange_mehrweltphase,feld_belastete_kernnaehe,schwacher_anschluss,schwacher_anschluss,11,3,rolle_gehalten_bestaetigt,Rolle bleibt auf gleicher Stufe sichtbar.
+dio_mature_18eoltu,0db07p4,maturation_verschwindet,segment_nicht_gelesen,feld_unguelesen,-,-,0,0,verschwindung_bestaetigt,Memory erwartete/las Verschwinden; Folgewelt zeigt keine sichtbare Rolle.
+dio_mature_0nxg7f6,1ahj81f,maturation_verschwindet,segment_nicht_gelesen,feld_unguelesen,-,-,0,0,verschwindung_bestaetigt,Memory erwartete/las Verschwinden; Folgewelt zeigt keine sichtbare Rolle.

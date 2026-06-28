@@ -1095,6 +1095,376 @@ Besonders relevant fuer den aktuellen Bauplanstand:
   - Klassifikationsmatrix fuer Rand-, Drift- und Oberflaechen-Tokens mit Abdeckung.
 - `886_MCM_RAND_DRIFTKERN_SYNTHESE.md`
   - Fasst die korrigierte Randpruefung zusammen. Ergebnis: Drift kann starke Selbstverdichtung bilden; Rand bleibt bisher eher Spannungsnaehe ohne klaren Eigenkern.
+- `887_MCM_TOKEN_0YKAR6I_ISOLATION.md`
+  - Isoliert den starken Driftkern-Kandidaten `0ykar6i`. Ergebnis: 3556 Kontakte, 4 Welten, 64 Segmente, maximale Segmentdauer 944 und Selbstbindung ca. 0.982; der Token wirkt als starke Eigenphase, aber nicht automatisch als Rand-Gegenkern.
+- `887_MCM_TOKEN_0YKAR6I_ISOLATION_WORLDS.csv`
+  - Weltprofil von `0ykar6i` mit Kontakten, Segmenten, Selbstbindung und Feldachsen.
+- `887_MCM_TOKEN_0YKAR6I_ISOLATION_SEGMENTS.csv`
+  - Segmentprofil von `0ykar6i` mit Eintritt, Austritt, Dauer und Achsprofilen.
+- `888_MCM_TOKEN_0YKAR6I_KERNRELATION.md`
+  - Legt `0ykar6i` gegen den zentralen Brueckenkern `0e7qvj1` / `18l3thm`. Ergebnis: keine direkte Kopplung zum zentralen Kern; `0ykar6i` wirkt eher als lange Seitenphase im selben Topologieraum, vermittelt ueber den stabilen Brueckenpfad `0b7nep9`.
+- `888_MCM_TOKEN_0YKAR6I_KERNRELATION.csv`
+  - Nachbar- und Relationsmatrix von `0ykar6i` gegen Kern- und Brueckennachbarn.
+- `889_MCM_TOKEN_0B7NEP9_NACHBARSCHAFTSLUPE.md`
+  - Erzeugt die passende Nachbarschaft fuer `0b7nep9`. Ergebnis: 7547 Kontakte, 5 Welten und Selbstbindung ca. 0.991; der Token ist ein sehr starker stabiler Brueckenanker.
+- `889_MCM_TOKEN_0B7NEP9_NACHBARSCHAFTSLUPE.csv`
+  - Zusammenfassung der Nachbarschaft von `0b7nep9`.
+- `889_MCM_TOKEN_0B7NEP9_NACHBARSCHAFTSLUPE_DETAILS.csv`
+  - Detailmatrix aller Kontakte von `0b7nep9`.
+- `890_MCM_TOKEN_0B7NEP9_ISOLATION.md`
+  - Isoliert `0b7nep9` als Eigenphase. Ergebnis: 7547 Kontakte, 5 Welten, 70 Segmente, maximale Segmentdauer 1064 und Selbstbindung ca. 0.991.
+- `890_MCM_TOKEN_0B7NEP9_ISOLATION_WORLDS.csv`
+  - Weltprofil von `0b7nep9` mit Kontakten, Segmenten, Selbstbindung und Feldachsen.
+- `890_MCM_TOKEN_0B7NEP9_ISOLATION_SEGMENTS.csv`
+  - Segmentprofil von `0b7nep9` mit Eintritt, Austritt, Dauer und Achsprofilen.
+- `891_MCM_TOKEN_0B7NEP9_KERNRELATION.md`
+  - Legt `0b7nep9` gegen den zentralen Brueckenkern. Ergebnis: keine direkte starke Kopplung zu `0e7qvj1` / `18l3thm`; staerkste Kopplung laeuft bidirektional mit `0ykar6i`.
+- `891_MCM_TOKEN_0B7NEP9_KERNRELATION.csv`
+  - Nachbar- und Relationsmatrix von `0b7nep9`.
+- `892_MCM_BRUECKE_DRIFT_SEITENARM_SYNTHESE.md`
+  - Fasst `0b7nep9` und `0ykar6i` zusammen. Ergebnis: `0b7nep9` wirkt als stabiler Brueckenanker, `0ykar6i` als lange Drift-Eigenphase; zusammen bilden sie eher einen Seitenarm im selben Topologieraum als einen separaten Gegenbereich.
+- `893_MCM_TOKEN_0B7NEP9_BRUECKENANKER_PRUEFUNG.md`
+  - Prueft `0b7nep9` gegen alle bekannten Brueckenkerne aus 876. Ergebnis: `0b7nep9` ist kein Brueckenkernpaar, sondern ein starker Anschlussanker mit mehreren Ein- und Austrittskanten zu nichtzentralen Feldbereichen.
+- `893_MCM_TOKEN_0B7NEP9_BRUECKENANKER_PRUEFUNG.csv`
+  - Netzwerk- und Kantenmatrix von `0b7nep9` mit Richtung, Nachbar, Kantentyp, Gewicht, Weltspanne und Austrittsphase.
+- `894_MCM_BRUECKENANKER_LANDSCHAFT.md`
+  - Gesamtkarte aller Brueckenanker-Rollen. Ergebnis: 65 Bruecken-Tokens, 8 Brueckenkerne, 2 starke Anschlussanker, 5 lokale Anschlussanker und 50 schwache Anschluesse. `0b7nep9` bleibt starker Anschlussanker, ist aber nicht singulaer; `1jx2k4i` bildet eine zweite starke Auspraegung.
+- `894_MCM_BRUECKENANKER_LANDSCHAFT.csv`
+  - Klassifikationsmatrix aller Bruecken-Tokens mit Ankerklasse, Gewicht, Weltspanne, Dauer, Bidirektionalitaet, Rolle und Kantenprofil.
+- `895_MCM_ANSCHLUSSANKER_UNTERROLLEN.md`
+  - Vergleicht die starken Anschlussanker `0b7nep9` und `1jx2k4i`. Ergebnis: `0b7nep9` wirkt als tiefer verteilender Anschlussanker mit vielen Ein-/Austritten und langen Phasen; `1jx2k4i` wirkt als weltbreiter kernnaher Inselanker mit fokussierter Kopplung an den Brueckenkern `1joiyc3`.
+- `895_MCM_ANSCHLUSSANKER_UNTERROLLEN.csv`
+  - Nachbarschaftsmatrix der starken Anschlussanker mit Richtung, Nachbarrolle, Pfadklasse, Gewicht, Weltspanne, Dauer und Austrittsphase.
+- `896_MCM_ANSCHLUSSANKER_FAMILIENKARTE.md`
+  - Ordnet starke und lokale Anschlussanker in Familien. Ergebnis: 4 kernnahe Inselanker, 2 verteilende Anschlussanker und 1 Uebergangsanker. `1jx2k4i`, `1q3us3f`, `0z748ck` und `1hdpu9s` koppeln stabile Inseln an Brueckenkerne; `0b7nep9` und `00nzcuc` bilden die verteilende Anschlussfamilie; `1xx3u1e` bleibt Uebergangsanker.
+- `896_MCM_ANSCHLUSSANKER_FAMILIENKARTE.csv`
+  - Familienmatrix der Anschlussanker mit Ankerklasse, Familie, Gewicht, Weltspanne, Dauer, Pfadklasse, Hauptnachbar und Begruendung.
+- `897_MCM_ANSCHLUSSANKER_FAMILIEN_CROSSWORLD.md`
+  - Prueft die Anschlussanker-Familien gegen aeltere Weltgruppen-Befunde. Ergebnis: Die Token sind nicht identisch, aber Rollenanalogien tauchen wiederholt auf: kernnahe Inselanker, offene Uebergangsanker und instabile/verteilende Kontaktzonen. Damit wirkt die Anschlussanker-Familienkarte plausibler als Topologie-Eigenschaft, nicht nur als lokaler Einzelbefund.
+- `897_MCM_ANSCHLUSSANKER_FAMILIEN_CROSSWORLD.csv`
+  - Crossworld-Matrix mit Quelle, Familie, Brueckentyp, Rollenanalogie, Ticks, Naehe, Stabilitaet, Unruhe, Trust-Delta und Embedding-Delta.
+- `898_MCM_BRUECKEN_GRENZLUPE_VERGLEICHSGRUPPE_864.md`
+  - Erzeugt eine moderne Grenzlupe fuer die Brueckentokens der frueheren Pfadklassifikation 864. Dient als methodisch gleiche Grundlage fuer eine echte Netzwerk-Gegenpruefung.
+- `898_MCM_BRUECKEN_GRENZLUPE_VERGLEICHSGRUPPE_864.csv`
+  - Summary der Grenzlupe mit Segmenten, Welten, dominantem Eintritt/Austritt und Achsbewegungen.
+- `898_MCM_BRUECKEN_GRENZLUPE_VERGLEICHSGRUPPE_864_DETAILS.csv`
+  - Segmentdetails der Grenzlupe mit Eintritt, Austritt, Dauer und Feldachsen pro Welt.
+- `899_MCM_BRUECKEN_NETZWERK_VERGLEICHSGRUPPE_864.md`
+  - Baut aus 898 ein modernes Brueckennetz fuer die Vergleichsgruppe.
+- `899_MCM_BRUECKEN_NETZWERK_VERGLEICHSGRUPPE_864.csv`
+  - Kantenmatrix des Vergleichsnetzwerks mit Quelle, Ziel, Relation, Kantentyp, Gewicht, Weltspanne, Dauer und Austrittsphase.
+- `900_MCM_BRUECKENKERNE_VERGLEICHSGRUPPE_864.md`
+  - Vergleicht die internen Brueckenpaare der Vergleichsgruppe. Ergebnis: mehrere zentrale Brueckenkerne und ein sehr starkes Paar `0b7nep9` <-> `0ykar6i`.
+- `900_MCM_BRUECKENKERNE_VERGLEICHSGRUPPE_864.csv`
+  - Kernpaarmatrix der Vergleichsgruppe mit Gewicht, Weltspanne, Bidirektionalitaet, Dauer und Kernklasse.
+- `901_MCM_BRUECKENANKER_LANDSCHAFT_VERGLEICHSGRUPPE_864.md`
+  - Anschlussanker-Landschaft der Vergleichsgruppe. Ergebnis: 95 Tokens, 15 Brueckenkerne, 4 starke Anschlussanker, 6 lokale Anschlussanker. `0b7nep9`, `0ykar6i` und `1jx2k4i` liegen hier im Kernbereich.
+- `901_MCM_BRUECKENANKER_LANDSCHAFT_VERGLEICHSGRUPPE_864.csv`
+  - Rollenmatrix der Vergleichsgruppe mit Ankerklasse, Gewicht, Weltspanne, Dauer und Pfadprofil.
+- `902_MCM_ANSCHLUSSANKER_ROLLENWANDERUNG.md`
+  - Vergleicht 894 und 901. Ergebnis: Anschlussanker-Rollen sind nicht starr. `0b7nep9` wandert vom verteilenden Anschlussanker in 894 zum Brueckenkern in 901; `1jx2k4i` wandert vom kernnahen Inselanker zum Kernbereich. Das stuetzt die Lesung einer dynamischen Feldordnung statt eines festen Koordinatensystems.
+- `902_MCM_ANSCHLUSSANKER_ROLLENWANDERUNG.csv`
+  - Tokenvergleich 894 vs. 901 mit Basisrolle, Vergleichsrolle, Gewichten, Dauer und Rollenwechsel-Markierung.
+- `903_MCM_0B7NEP9_ROLLENWANDERUNG_URSACHE.md`
+  - Prueft konkret, warum `0b7nep9` zwischen 894 und 901 vom verteilenden Anschlussanker zum Brueckenkern wandert. Ergebnis: In 894 dominiert breite Aussenkopplung; in 901 dominiert die bidirektionale Paarbindung `0b7nep9` <-> `0ykar6i`. Die Rolle kippt also durch Nachbarschaftsorganisation, nicht durch einen isolierten Einzelwert.
+- `903_MCM_0B7NEP9_ROLLENWANDERUNG_SEGMENTE.csv`
+  - Segmentmatrix fuer `0b7nep9` und `0ykar6i` mit Welt, Dauer, direktem Paaranteil, dominantem Eintritt und dominantem Austritt.
+- `903_MCM_0B7NEP9_ROLLENWANDERUNG_KANTEN.csv`
+  - Kantenmatrix der Rollenwanderung mit direkten Paar-Kanten, Aussenkontakten, Gewicht, Weltspanne, Dauer und Austrittsphase.
+- `904_MCM_ROLLENWANDERUNG_KANDIDATEN.md`
+  - Fasst alle Rollenwechsel zwischen 894 und 901 zusammen. Ergebnis: 47 neue Rollen, 34 stabile Rollen, 17 zerfallende Rollen, 12 verdichtende Rollen und 2 entlastende/driftende Rollen. Damit ist `0b7nep9` kein Einzelphaenomen, sondern Teil einer breiteren dynamischen Feldorganisation.
+- `904_MCM_ROLLENWANDERUNG_KANDIDATEN.csv`
+  - Kandidatenmatrix der Rollenwanderung mit Basisrolle, Vergleichsrolle, Migrationstyp, Gewichtsdelta und Dauerdelta.
+- `905_MCM_0YKAR6I_ROLLENWANDERUNG_DEUTUNG.md`
+  - Deutet `0ykar6i` als staerksten Verdichtungskandidaten aus 904. Ergebnis: `0ykar6i` wandert von schwachem Anschluss zu Brueckenkern, weil die Paarbindung zu `0b7nep9` in 901 direkt, bidirektional und wiederholt tragend wird. Das stuetzt die Lesung, dass Mini-DIO Rollenqualitaet und Nachbarschaftsorganisation speichern sollte, nicht nur Tokenhaeufigkeit.
+- `906_MCM_VERDICHTUNGSPFADE.md`
+  - Prueft, ob die Rollenwanderungen aus 904 als Reifepfade lesbar sind. Ergebnis: 4 Vorreifungen schwach -> lokal, 2 Kernverdichtungen stark -> Kern, 2 Kernverdichtungen lokal -> Kern, 2 Spruenge schwach -> stark, 1 Direktsprung schwach -> Kern und 1 Reifung lokal -> stark. Das spricht fuer gerichtete Verdichtungsdynamik, aber noch nicht fuer eine feste Entwicklungsleiter.
+- `906_MCM_VERDICHTUNGSPFADE.csv`
+  - Verdichtungspfadmatrix mit Token, Stufe, Uebergang, Gewichtsdelta und Dauerdelta.
+- `907_MCM_VERDICHTUNGSPFADE_ZEITORDNUNG.md`
+  - Prueft, ob die Verdichtungsstufen aus 906 zeitlich als Folge sichtbar sind. Ergebnis: 3 Tokens sind in beiden Landschaften zeitlich pruefbar, 3 treten erst in der Vergleichslandschaft auf, 6 sind mit diesen Detaildaten nicht zeitlich pruefbar. Die pruefbaren Faelle sprechen eher fuer landschafts- und nachbarschaftsabhaengige Rollenverdichtung als fuer eine starre lineare Entwicklungsleiter.
+- `907_MCM_VERDICHTUNGSPFADE_ZEITORDNUNG.csv`
+  - Zeitordnungs-Matrix der Verdichtungskandidaten mit Basis-/Vergleichssegmenten, ersten Ticks, dominanter Welt und Lesung.
+- `908_MCM_BRUECKEN_GRENZLUPE_VERGLEICHSGRUPPE_868.md`
+  - Erzeugt eine dritte, methodisch gleiche Grenzlupe aus der weiteren Pfadklassifikation 868. Diese dient als Grundlage fuer eine echte Mehrlandschafts-Folge.
+- `908_MCM_BRUECKEN_GRENZLUPE_VERGLEICHSGRUPPE_868.csv`
+  - Summary der dritten Grenzlupe mit Segmenten, Welten, dominantem Eintritt/Austritt und Achsbewegungen.
+- `908_MCM_BRUECKEN_GRENZLUPE_VERGLEICHSGRUPPE_868_DETAILS.csv`
+  - Segmentdetails der dritten Grenzlupe mit Eintritt, Austritt, Dauer und Feldachsen pro Welt.
+- `909_MCM_BRUECKEN_NETZWERK_VERGLEICHSGRUPPE_868.md`
+  - Baut aus 908 das Brueckennetz der dritten Vergleichsgruppe.
+- `909_MCM_BRUECKEN_NETZWERK_VERGLEICHSGRUPPE_868.csv`
+  - Kantenmatrix der dritten Vergleichsgruppe mit Quelle, Ziel, Relation, Kantentyp, Gewicht, Weltspanne, Dauer und Austrittsphase.
+- `910_MCM_BRUECKENKERNE_VERGLEICHSGRUPPE_868.md`
+  - Kernvergleich der dritten Vergleichsgruppe. Ergebnis: zentrale Kerne bleiben um `0e7qvj1` / `18l3thm` und `0e7qvj1` / `0mji3u6`; `0b7nep9` koppelt hier nicht als starkes Kernpaar mit `0ykar6i`, bleibt aber in 911 selbst Kernrolle.
+- `910_MCM_BRUECKENKERNE_VERGLEICHSGRUPPE_868.csv`
+  - Kernpaarmatrix der dritten Vergleichsgruppe mit Gewicht, Weltspanne, Bidirektionalitaet, Dauer und Kernklasse.
+- `911_MCM_BRUECKENANKER_LANDSCHAFT_VERGLEICHSGRUPPE_868.md`
+  - Dritte Anschlussanker-Landschaft. Ergebnis: 104 Tokens, 12 Brueckenkerne, 6 starke Anschlussanker, 7 lokale Anschlussanker. `0b7nep9` bleibt Brueckenkern; `0ykar6i`, `1jwnjz4`, `1xx3u1e`, `1q3us3f`, `1jx2k4i` und `0v5p8er` erscheinen als starke Anschlussanker.
+- `911_MCM_BRUECKENANKER_LANDSCHAFT_VERGLEICHSGRUPPE_868.csv`
+  - Rollenmatrix der dritten Vergleichsgruppe mit Ankerklasse, Gewicht, Weltspanne, Dauer und Pfadprofil.
+- `912_MCM_MEHRLANDSCHAFT_ROLLENFOLGE.md`
+  - Vergleicht 894, 901 und 911 als Rollenfolge. Ergebnis: 61 aufsteigende Verdichtungen, 23 stabile Rollen, 19 Rollendrift-Faelle, 19 absteigende Entlastungen und 11 kernnah gehaltene Tokens. Rollenreife wird damit als dynamischer Verlauf sichtbar, nicht als starre Leiter.
+- `912_MCM_MEHRLANDSCHAFT_ROLLENFOLGE.csv`
+  - Sequenzmatrix pro Token mit Klassenfolge, Gewichtfolge, Weltspanne, Trend und Gesamtbewegung.
+- `913_MCM_ROLLENBEWEGUNGS_MEMORY.md`
+  - Uebersetzt die Mehrlandschafts-Rollenfolge aus 912 in eine passive semantische Memory-Struktur. Gespeichert wird Rollenbewegung, Stabilitaet und Driftqualitaet, nicht eine harte Klasse. Ergebnis: 133 Records, davon 61 `role_condensing`, 23 `role_stable`, 19 `role_drifting`, 19 `role_releasing` und 11 `role_core_near_retained`.
+- `913_MCM_ROLLENBEWEGUNGS_MEMORY.csv`
+  - Passive Rollenbewegungs-Memory als Tabelle mit `dio_role_*` Symbol, Token, Klassenfolge, Bewegungsqualitaet, Stabilitaetsqualitaet und Driftqualitaet.
+- `913_MCM_ROLLENBEWEGUNGS_MEMORY.json`
+  - JSON-Vorschau der passiven Rollenbewegungs-Memory mit Profil und Records.
+- `mini_dio/mcm_role_movement_memory.py`
+  - Neuer passiver Memory-Baustein fuer MCM-Rollenbewegung. Er erzeugt `dio_role_*` Syntax und speichert Rollenbewegung, Stabilitaet und Driftqualitaet mit passiven Sicherheitsflags.
+- `914_MCM_ROLLENFOLGE_TRAINING_894_901.md`
+  - Baut eine Trainings-Rollenfolge nur aus 894 und 901, damit 911 als Folgelandschaft gelesen werden kann, ohne vorher in die Memory eingebaut zu sein.
+- `914_MCM_ROLLENFOLGE_TRAINING_894_901.csv`
+  - Sequenzmatrix der Trainings-Rollenfolge 894 -> 901.
+- `915_MCM_ROLLENBEWEGUNGS_MEMORY_TRAINING_894_901.md`
+  - Passive Rollenbewegungs-Memory aus der Trainingsfolge 894 -> 901.
+- `915_MCM_ROLLENBEWEGUNGS_MEMORY_TRAINING_894_901.csv`
+  - Trainings-Memory mit `dio_role_*` Symbolen, Rollenbewegung, Stabilitaet und Driftqualitaet.
+- `915_MCM_ROLLENBEWEGUNGS_MEMORY_TRAINING_894_901.json`
+  - JSON-Vorschau der Trainings-Memory.
+- `916_MCM_ROLLENBEWEGUNGS_MEMORY_LESUNG_911.md`
+  - Liest die aus 894 -> 901 gebildete Rollenbewegungs-Memory gegen die Folgelandschaft 911. Ergebnis: 112 Rollen-Symbole gelesen; 37 Verdichtungen gehalten, 23 stabile Rollen bestaetigt, 8 Kernnaehen gehalten, 10 Verdichtungen entlastet/driftend, 29 nicht wiedergefunden.
+- `916_MCM_ROLLENBEWEGUNGS_MEMORY_LESUNG_911.csv`
+  - Lesematrix der Trainings-Memory gegen 911 mit aktuellem Rollenstatus, Rangdelta und Lesestatus.
+- `917_MCM_VERDICHTUNGSZONEN_VIERTE_WELTGRUPPE.md`
+  - Baut eine vierte Verdichtungszonen-Gruppe aus adaptierten Real-/Asset-Welten. Ergebnis: 7 Eingabewelten, 196 Zonen-Tokens und 50 gerichtete Uebergaenge.
+- `917_MCM_VERDICHTUNGSZONEN_VIERTE_WELTGRUPPE.csv`
+  - Verdichtungszonen-Matrix der vierten Weltgruppe mit Zonenrolle, Weltbreite, Rekopplung, Strain, Sinneskopplung, Lautheit und visueller Unschaerfe.
+- `917_MCM_VERDICHTUNGSZONEN_VIERTE_WELTGRUPPE_TRANSITIONS.csv`
+  - Staerkste gerichtete Uebergaenge der vierten Weltgruppe.
+- `918_MCM_VERDICHTUNGSZONEN_DRIFTLUPE_VIERTE_WELTGRUPPE.md`
+  - Driftlupe zwischen Basis 854 und der vierten Weltgruppe 917. Grundlage fuer die vierte Pfadklassifikation.
+- `918_MCM_VERDICHTUNGSZONEN_DRIFTLUPE_VIERTE_WELTGRUPPE.csv`
+  - Tokenweise Driftmatrix mit Basiszone, Folgezone, Bewegungsart, Weltbreite, Rollenwechsel und Sinnes-/Feldachsen.
+- `919_MCM_PFADKLASSIFIKATION_VIERTE_WELTGRUPPE.md`
+  - Vierte Pfadklassifikation. Ergebnis: 23 rekoppelnde Pfade, 25 offene Driftpfade, 19 junge Oberflaechen, 16 Brueckenpfade, 11 stabile Inseln, 3 Randpfade und 2 gemischte Pfade.
+- `919_MCM_PFADKLASSIFIKATION_VIERTE_WELTGRUPPE.csv`
+  - Tokenweise Pfadmatrix der vierten Weltgruppe mit Pfadklasse, Bewegung, Zonenwechsel, Weltendelta und Klassifikationsgrund.
+- `920_MCM_BRUECKEN_GRENZLUPE_VIERTE_WELTGRUPPE.md`
+  - Grenzlupe der Brueckentokens aus 919. Dient als methodisch gleiche Grundlage fuer Netzwerk- und Kernanalyse.
+- `920_MCM_BRUECKEN_GRENZLUPE_VIERTE_WELTGRUPPE.csv`
+  - Summary der Brueckengrenzlupe mit Segmenten, Welten, dominantem Eintritt/Austritt und Achsbewegungen.
+- `920_MCM_BRUECKEN_GRENZLUPE_VIERTE_WELTGRUPPE_DETAILS.csv`
+  - Segmentdetails der vierten Brueckengrenzlupe.
+- `921_MCM_BRUECKEN_NETZWERK_VIERTE_WELTGRUPPE.md`
+  - Baut aus 920 das Brueckennetz der vierten Weltgruppe. Ergebnis: 146 Netzwerkkanten.
+- `921_MCM_BRUECKEN_NETZWERK_VIERTE_WELTGRUPPE.csv`
+  - Kantenmatrix der vierten Weltgruppe mit Quelle, Ziel, Relation, Kantentyp, Gewicht, Weltspanne und Dauer.
+- `922_MCM_BRUECKENKERNE_VIERTE_WELTGRUPPE.md`
+  - Kernvergleich der vierten Weltgruppe. Ergebnis: 10 Kernpaare.
+- `922_MCM_BRUECKENKERNE_VIERTE_WELTGRUPPE.csv`
+  - Kernpaarmatrix der vierten Weltgruppe mit Gewicht, Weltspanne, Bidirektionalitaet, Dauer und Kernklasse.
+- `923_MCM_BRUECKENANKER_LANDSCHAFT_VIERTE_WELTGRUPPE.md`
+  - Vierte Anschlussanker-Landschaft. Ergebnis: 90 Tokens, 12 Brueckenkerne, 5 starke Anschlussanker und 6 lokale Anschlussanker.
+- `923_MCM_BRUECKENANKER_LANDSCHAFT_VIERTE_WELTGRUPPE.csv`
+  - Rollenmatrix der vierten Weltgruppe mit Ankerklasse, Gewicht, Weltspanne, Dauer und Pfadprofil.
+- `924_MCM_ROLLENBEWEGUNGS_MEMORY_LESUNG_VIERTE_WELT.md`
+  - Liest die aus 894 -> 901 gebildete Rollenbewegungs-Memory gegen die vierte Folgelandschaft 923. Ergebnis: 112 Rollen-Symbole gelesen; 48 Verdichtungen gehalten, 22 stabile Rollen bestaetigt, 7 Kernnaehen gehalten, 28 nicht wiedergefunden.
+- `924_MCM_ROLLENBEWEGUNGS_MEMORY_LESUNG_VIERTE_WELT.csv`
+  - Lesematrix der Trainings-Memory gegen 923 mit aktuellem Rollenstatus, Rangdelta und Lesestatus.
+- `925_MCM_MEHRLANDSCHAFT_ROLLENFOLGE_VIER_WELTEN.md`
+  - Vergleicht 894, 901, 911 und 923 als Vier-Welten-Folge. Ergebnis: 42 aufsteigende Verdichtungen, 38 Rollendrift-Faelle, 24 absteigende Entlastungen, 20 stabile Rollen und 11 kernnah gehaltene Tokens.
+- `925_MCM_MEHRLANDSCHAFT_ROLLENFOLGE_VIER_WELTEN.csv`
+  - Sequenzmatrix pro Token ueber vier Landschaften mit Klassenfolge, Gewichtfolge, Weltspanne, Trend und Gewichtsdelta.
+- `926_MCM_VIERTE_WELT_ROLLENDIFFERENZIERUNG.md`
+  - Trennt die vierte Landschaft nach Rollenqualitaet. Ergebnis: 77 Rollen werden durch die vorhandene Rollenbewegungs-Memory getragen, 45 sind in der vierten Welt entlastet/nicht sichtbar, 3 zeigen Reorganisation/Drift, 2 sind neue vierte-Welt-Inseln und 2 bleiben als Kernrolle getragen.
+- `926_MCM_VIERTE_WELT_ROLLENDIFFERENZIERUNG.csv`
+  - Tokenweise Differenzierung mit Status, Trend, Memory-Lesung, Klassenfolge, Gewichtfolge und vierter-Welt-Rolle.
+- `927_MCM_REORGANISATIONSACHSEN_VIERTE_WELT.md`
+  - Isoliert neue, entlastende und reorganisierende Tokens der vierten Welt. Ergebnis: Reorganisation ist klein und nicht homogen. Sichtbar werden junge Drift/Oberflaeche, Rollenverlust in stabiler Zone und echte Achsenreorganisation mit sinkender Rekopplung bei steigender Unschaerfe.
+- `927_MCM_REORGANISATIONSACHSEN_VIERTE_WELT.csv`
+  - Achsenmatrix der Reorganisationsgruppe mit Rekopplung, Strain, Sinneskopplung, Spannung, Lautheit und visueller Unschaerfe.
+- `928_MCM_VERDICHTUNGSZONEN_FUENFTE_WELTGRUPPE.md`
+  - Baut eine fuenfte Verdichtungszonen-Gruppe aus Cross-Anchor- und Long-Asset-Welten. Ergebnis: 7 Eingabewelten, 348 Zonen-Tokens und 50 gerichtete Uebergaenge.
+- `928_MCM_VERDICHTUNGSZONEN_FUENFTE_WELTGRUPPE.csv`
+  - Verdichtungszonen-Matrix der fuenften Weltgruppe.
+- `928_MCM_VERDICHTUNGSZONEN_FUENFTE_WELTGRUPPE_TRANSITIONS.csv`
+  - Staerkste gerichtete Uebergaenge der fuenften Weltgruppe.
+- `929_MCM_VERDICHTUNGSZONEN_DRIFTLUPE_FUENFTE_WELTGRUPPE.md`
+  - Driftlupe zwischen Basis 854 und der fuenften Weltgruppe 928. Grundlage fuer die fuenfte Pfadklassifikation.
+- `929_MCM_VERDICHTUNGSZONEN_DRIFTLUPE_FUENFTE_WELTGRUPPE.csv`
+  - Tokenweise Driftmatrix der fuenften Weltgruppe.
+- `930_MCM_PFADKLASSIFIKATION_FUENFTE_WELTGRUPPE.md`
+  - Fuenfte Pfadklassifikation. Ergebnis: 26 rekoppelnde Pfade, 26 offene Driftpfade, 22 Brueckenpfade, 16 junge Oberflaechen, 6 stabile Inseln, 1 gemischter Pfad und 1 Randpfad.
+- `930_MCM_PFADKLASSIFIKATION_FUENFTE_WELTGRUPPE.csv`
+  - Tokenweise Pfadmatrix der fuenften Weltgruppe.
+- `931_MCM_BRUECKEN_GRENZLUPE_FUENFTE_WELTGRUPPE.md`
+  - Grenzlupe der Brueckentokens aus 930.
+- `931_MCM_BRUECKEN_GRENZLUPE_FUENFTE_WELTGRUPPE.csv`
+  - Summary der fuenften Brueckengrenzlupe.
+- `931_MCM_BRUECKEN_GRENZLUPE_FUENFTE_WELTGRUPPE_DETAILS.csv`
+  - Segmentdetails der fuenften Brueckengrenzlupe.
+- `932_MCM_BRUECKEN_NETZWERK_FUENFTE_WELTGRUPPE.md`
+  - Baut aus 931 das Brueckennetz der fuenften Weltgruppe. Ergebnis: 161 Netzwerkkanten.
+- `932_MCM_BRUECKEN_NETZWERK_FUENFTE_WELTGRUPPE.csv`
+  - Kantenmatrix der fuenften Weltgruppe.
+- `933_MCM_BRUECKENKERNE_FUENFTE_WELTGRUPPE.md`
+  - Kernvergleich der fuenften Weltgruppe. Ergebnis: 16 Kernpaare.
+- `933_MCM_BRUECKENKERNE_FUENFTE_WELTGRUPPE.csv`
+  - Kernpaarmatrix der fuenften Weltgruppe.
+- `934_MCM_BRUECKENANKER_LANDSCHAFT_FUENFTE_WELTGRUPPE.md`
+  - Fuenfte Anschlussanker-Landschaft. Ergebnis: 90 Tokens, 18 Brueckenkerne, 2 starke Anschlussanker, 4 lokale Anschlussanker und 66 schwache Anschluesse.
+- `934_MCM_BRUECKENANKER_LANDSCHAFT_FUENFTE_WELTGRUPPE.csv`
+  - Rollenmatrix der fuenften Weltgruppe.
+- `935_MCM_REORGANISATIONSGRUPPE_FOLGEWELT.md`
+  - Liest die in 927 isolierte Reorganisationsgruppe gegen die fuenfte Folgewelt. Ergebnis: 2 junge Spuren bleiben jung, 2 reifen weiter, 2 Rollen werden gehalten und 2 verschwinden.
+- `935_MCM_REORGANISATIONSGRUPPE_FOLGEWELT.csv`
+  - Folgematrix der Reorganisationsgruppe mit vorheriger Achse, Folgerolle und Folgestatus.
+- `936_MCM_REORGANISATION_REIFUNG_SEGMENTLUPE.md`
+  - Segmentlupe fuer die gehaltenen oder weiter reifenden Reorganisationstokens `00yl137`, `0om13wf`, `0z748ck` und `1hdpu9s`. Ergebnis: `00yl137` und `0om13wf` wirken als kurze junge Reifungsspuren, `0z748ck` als gehaltene Reorganisationsbruecke und `1hdpu9s` als belastete lange Kernnaehe.
+- `936_MCM_REORGANISATION_REIFUNG_SEGMENTLUPE.csv`
+  - Summary der Segmentlupe mit Segmenten, Welten, Eintritt, Austritt und Achsbewegung.
+- `936_MCM_REORGANISATION_REIFUNG_SEGMENTLUPE_DETAILS.csv`
+  - Segmentdetails der Reifungsgruppe.
+- `937_MCM_REORGANISATION_REIFUNG_SYNTHESE.md`
+  - Fasst 935 und 936 zusammen. Ergebnis: Reorganisation zerfaellt in Keimspur, gehaltene junge Spur, Reifung zum Brueckenkern, gehaltene Reorganisationsbruecke, belastete Kernnaehe und verschwindende Oberflaeche.
+- `938_MCM_ROLLENREIFUNGS_MEMORY.md`
+  - Uebersetzt Reorganisationsfolge und Segmentlupe in eine passive Rollenreifungs-Memory. Ergebnis: 8 Records mit `dio_mature_*` Syntax; 2 junge gehaltene Spuren, 2 Reifungen, 2 verschwindende Spuren, 1 gehaltene Reorganisationsbruecke und 1 gehaltene belastete Rolle.
+- `938_MCM_ROLLENREIFUNGS_MEMORY.csv`
+  - Passive Reifungs-Memory mit Reifungsqualitaet, Segmentqualitaet, Feldqualitaet und Sicherheitsflags.
+- `938_MCM_ROLLENREIFUNGS_MEMORY.json`
+  - JSON-Vorschau der passiven Rollenreifungs-Memory mit Profil und Records.
+- `mini_dio/mcm_role_maturation_memory.py`
+  - Neuer passiver Memory-Baustein fuer Rollenreifung. Er erzeugt `dio_mature_*` Syntax und speichert Reifungsqualitaet, Segmentqualitaet und Feldqualitaet ohne Handlungseinfluss.
+- `tools/report_mcm_role_maturation_memory.py`
+  - Report-Tool zur Erzeugung der passiven Rollenreifungs-Memory aus Folgeweltlesung und Segmentlupe.
+- `939_MCM_VERDICHTUNGSZONEN_SECHSTE_WELTGRUPPE.md`
+  - Baut eine sechste Verdichtungszonen-Gruppe aus unabhaengigen SOL/BTC-, Quiet- und Intake-Probe-Welten. Ergebnis: 7 Eingabewelten, 137 Zonen-Tokens und 50 gerichtete Uebergaenge.
+- `939_MCM_VERDICHTUNGSZONEN_SECHSTE_WELTGRUPPE.csv`
+  - Verdichtungszonen-Matrix der sechsten Weltgruppe.
+- `939_MCM_VERDICHTUNGSZONEN_SECHSTE_WELTGRUPPE_TRANSITIONS.csv`
+  - Staerkste gerichtete Uebergaenge der sechsten Weltgruppe.
+- `940_MCM_VERDICHTUNGSZONEN_DRIFTLUPE_SECHSTE_WELTGRUPPE.md`
+  - Driftlupe zwischen Basis 854 und der sechsten Weltgruppe 939.
+- `940_MCM_VERDICHTUNGSZONEN_DRIFTLUPE_SECHSTE_WELTGRUPPE.csv`
+  - Tokenweise Driftmatrix der sechsten Weltgruppe.
+- `941_MCM_PFADKLASSIFIKATION_SECHSTE_WELTGRUPPE.md`
+  - Pfadklassifikation der sechsten Weltgruppe als Grundlage fuer die sechste Anschlussanker-Landschaft.
+- `941_MCM_PFADKLASSIFIKATION_SECHSTE_WELTGRUPPE.csv`
+  - Tokenweise Pfadmatrix der sechsten Weltgruppe.
+- `942_MCM_BRUECKEN_GRENZLUPE_SECHSTE_WELTGRUPPE.md`
+  - Grenzlupe der Brueckentokens aus 941.
+- `942_MCM_BRUECKEN_GRENZLUPE_SECHSTE_WELTGRUPPE.csv`
+  - Summary der sechsten Brueckengrenzlupe.
+- `942_MCM_BRUECKEN_GRENZLUPE_SECHSTE_WELTGRUPPE_DETAILS.csv`
+  - Segmentdetails der sechsten Brueckengrenzlupe.
+- `943_MCM_BRUECKEN_NETZWERK_SECHSTE_WELTGRUPPE.md`
+  - Baut aus 942 das Brueckennetz der sechsten Weltgruppe. Ergebnis: 60 Netzwerkkanten.
+- `943_MCM_BRUECKEN_NETZWERK_SECHSTE_WELTGRUPPE.csv`
+  - Kantenmatrix der sechsten Weltgruppe.
+- `944_MCM_BRUECKENKERNE_SECHSTE_WELTGRUPPE.md`
+  - Kernvergleich der sechsten Weltgruppe. Ergebnis: 3 Kernpaare.
+- `944_MCM_BRUECKENKERNE_SECHSTE_WELTGRUPPE.csv`
+  - Kernpaarmatrix der sechsten Weltgruppe.
+- `945_MCM_BRUECKENANKER_LANDSCHAFT_SECHSTE_WELTGRUPPE.md`
+  - Sechste Anschlussanker-Landschaft. Ergebnis: 36 schwache Anschluesse, 4 Brueckenkerne, 4 starke Anschlussanker und 1 lokaler Anschlussanker. Die Landschaft wirkt enger und selektiver als die fuenfte Weltgruppe.
+- `945_MCM_BRUECKENANKER_LANDSCHAFT_SECHSTE_WELTGRUPPE.csv`
+  - Rollenmatrix der sechsten Weltgruppe.
+- `946_MCM_ROLLENREIFUNGS_MEMORY_LESUNG_SECHSTE_WELT.md`
+  - Liest die passive `dio_mature_*` Reifungs-Memory aus 938 gegen die sechste Landschaft. Ergebnis: 3 nicht wiedergefunden, 2 Verschwinden bestaetigt, 1 Bruecke gehalten, 1 Rolle gehalten und 1 Reifung abgeschwaecht.
+- `946_MCM_ROLLENREIFUNGS_MEMORY_LESUNG_SECHSTE_WELT.csv`
+  - Lesematrix der Reifungs-Memory gegen die sechste Weltgruppe.
+- `947_MCM_ROLLENREIFUNG_SECHSTE_WELT_SYNTHESE.md`
+  - Fasst 938 und 946 zusammen. Ergebnis: `0z748ck` bleibt als stabile Reorganisationsbruecke sichtbar; `0om13wf` wird abgeschwaecht, `00yl137` verschwindet, und `0db07p4` / `1ahj81f` bestaetigen ihr Verschwinden.
+- `tools/report_mcm_maturation_memory_reading.py`
+  - Report-Tool zur passiven Lesung von `dio_mature_*` gegen eine Folgelandschaft.
+- `948_MCM_LANGZEIT_REIFUNGSKLASSIFIKATION.md`
+  - Verdichtet die `dio_mature_*` Lesung aus 946 in passive Langzeitklassen. Ergebnis: `0z748ck` ist langfristig getragen, `1hdpu9s` langfristig belastet getragen, `0om13wf` weltabhaengig getragen, `00yl137` abgeschwaecht oder verloren, `00dz86x` / `00nzcuc` kurzfristige Oberflaeche, `0db07p4` / `1ahj81f` bestaetigt verschwunden.
+- `948_MCM_LANGZEIT_REIFUNGSKLASSIFIKATION.csv`
+  - Tokenmatrix der Langzeit-Reifungsklassen.
+- `tools/report_mcm_longterm_maturation_classification.py`
+  - Report-Tool zur passiven Langzeitklassifikation von `dio_mature_*` Befunden.
+- `949_MCM_VERDICHTUNGSZONEN_SIEBTE_WELTGRUPPE.md`
+  - Siebte Weltgruppe aus XRP 2024/2025 5m/1h. Ergebnis: 233 Verdichtungszonen und 50 Uebergaenge.
+- `950_MCM_VERDICHTUNGSZONEN_DRIFTLUPE_SIEBTE_WELTGRUPPE.md`
+  - Driftlupe sechste gegen siebte Weltgruppe.
+- `951_MCM_PFADKLASSIFIKATION_SIEBTE_WELTGRUPPE.md`
+  - Pfadklassifikation der siebten Weltgruppe.
+- `952_MCM_BRUECKEN_GRENZLUPE_SIEBTE_WELTGRUPPE.md`
+  - Grenzlupe der siebten Weltgruppe.
+- `953_MCM_BRUECKEN_NETZWERK_SIEBTE_WELTGRUPPE.md`
+  - Brueckennetz der siebten Weltgruppe. Ergebnis: 0 Brueckenkanten.
+- `954_MCM_BRUECKENKERNE_SIEBTE_WELTGRUPPE.md`
+  - Kernvergleich der siebten Weltgruppe. Ergebnis: 0 Kernpaare.
+- `955_MCM_BRUECKENANKER_LANDSCHAFT_SIEBTE_WELTGRUPPE.md`
+  - Anschlussanker-Landschaft der siebten Weltgruppe. Ergebnis: keine sichtbaren Bruecken-, Kern- oder Anschlussankerrollen nach der bisherigen Brueckenlesung.
+- `956_MCM_LANGZEIT_REIFUNG_LESUNG_SIEBTE_WELT.md`
+  - Liest die Langzeit-Reifung aus 948 gegen die siebte Weltgruppe. Ergebnis: alle bisherigen Reifungstokens werden in der XRP-Brueckenlandschaft nicht wiedergefunden.
+- `957_MCM_SIEBTE_WELT_LANGZEITREIFUNG_SYNTHESE.md`
+  - Synthese der siebten Welt. Ergebnis: Die siebte Welt wirkt als Topologiebruch der bisherigen Brueckenlesung: Verdichtung und Uebergaenge sind vorhanden, aber Brueckenrollen werden nicht ausgebildet.
+- `958_MCM_NICHTBRUECKEN_ORDNUNG_SIEBTE_WELT.md`
+  - Passive Nicht-Bruecken-Lesung der siebten XRP-Weltgruppe. Ergebnis: Die Welt ist nicht ungeordnet; sie bildet 86 schwache Zentrumszeichen, 41 Sinnesrauschen-Zeichen, 36 Randspannungszeichen, 16 zentrumsnah getragene Zeichen, 11 Rekopplungsfelder und weitere offene/mehrdeutige Oberflaechen.
+- `959_MCM_LANGZEITREIFUNG_GEGEN_NICHTBRUECKE_SIEBTE_WELT.md`
+  - Liest die Langzeit-Reifung aus 948 gegen die Nicht-Bruecken-Ordnung aus 958. Ergebnis: 7 von 8 Reifungstokens bleiben sichtbar, aber meist nicht mehr als Bruecke.
+- `960_MCM_ROLLENWECHSEL_STATT_FELDVERLUST_SYNTHESE.md`
+  - Zentrale Synthese der siebten Welt: Nicht-Wiederfinden in der Brueckenlandschaft bedeutet nicht automatisch Feldverlust. Viele Zeichen wechseln Rolle und bleiben als Zentrum, Rekopplungsfeld, Randspannung oder Oberflaeche sichtbar.
+- `961_MCM_ROLLENWECHSEL_MEMORY.md`
+  - Passive `dio_shift_*` Rollenwechsel-Memory. Ergebnis: 8 Rollenwechsel-Records, darunter Bruecke zu Zentrum, belastete Reifung zu Zentrum, weltabhaengige Reifung zu Rekopplungsfeld, Verlust zu Randspur und Verschwinden zu Zentrum.
+- `961_MCM_ROLLENWECHSEL_MEMORY.csv`
+  - Tokenmatrix der Rollenwechsel-Memory.
+- `961_MCM_ROLLENWECHSEL_MEMORY.json`
+  - JSON-Speicherform der Rollenwechsel-Memory.
+- `tools/report_mcm_nonbridge_order_lens.py`
+  - Report-Tool zur passiven Lesung von Ordnung ohne Brueckenlandschaft.
+- `tools/report_mcm_maturation_nonbridge_reading.py`
+  - Report-Tool zur Lesung von `dio_mature_*` gegen Nicht-Bruecken-Ordnung.
+- `mini_dio/mcm_role_shift_memory.py`
+  - Passive Memory-Schicht fuer Rollenwechsel. Speichert `dio_shift_*` ohne Handlungskopplung.
+- `tools/report_mcm_role_shift_memory.py`
+  - Report-Tool zur Erzeugung der `dio_shift_*` Rollenwechsel-Memory aus Nicht-Bruecken-Lesungen.
+- `962_MCM_VERDICHTUNGSZONEN_ACHTE_WELTGRUPPE.md`
+  - Achte Weltgruppe aus SOL 2024/2025 15m/30m. Ergebnis: 5995 Verdichtungszonen, davon 5085 junge Spuren. Die Welt ist stark fragmentiert.
+- `963_MCM_VERDICHTUNGSZONEN_DRIFTLUPE_ACHTE_WELTGRUPPE.md`
+  - Driftlupe siebte gegen achte Weltgruppe.
+- `964_MCM_PFADKLASSIFIKATION_ACHTE_WELTGRUPPE.md`
+  - Pfadklassifikation der achten Weltgruppe. Ergebnis: keine gemeinsamen Pfadklassen sichtbar; Hinweis auf starke Token-/Oberflaechenfragmentierung.
+- `965_MCM_BRUECKEN_GRENZLUPE_ACHTE_WELTGRUPPE.md`
+  - Grenzlupe der achten Weltgruppe.
+- `966_MCM_BRUECKEN_NETZWERK_ACHTE_WELTGRUPPE.md`
+  - Brueckennetz der achten Weltgruppe. Ergebnis: 0 Brueckenkanten.
+- `967_MCM_BRUECKENKERNE_ACHTE_WELTGRUPPE.md`
+  - Kernvergleich der achten Weltgruppe. Ergebnis: 0 Kernpaare.
+- `968_MCM_BRUECKENANKER_LANDSCHAFT_ACHTE_WELTGRUPPE.md`
+  - Anschlussanker-Landschaft der achten Weltgruppe. Ergebnis: keine Bruecken-, Kern- oder Anschlussankerrollen.
+- `969_MCM_NICHTBRUECKEN_ORDNUNG_ACHTE_WELT.md`
+  - Nicht-Bruecken-Lesung der achten Welt. Ergebnis: 2753 offene Nicht-Bruecken-Zeichen, 1672 Randspannungszeichen, 1445 schwache Zentrumszeichen und nur wenige Rekopplungsfelder.
+- `970_MCM_ROLLENWECHSEL_MEMORY_LESUNG_ACHTE_WELT.md`
+  - Liest `dio_shift_*` aus 961 gegen die achte Welt. Ergebnis: 8 von 8 Rollenwechselspuren nicht sichtbar.
+- `971_MCM_ROLLENWECHSEL_MEMORY_ACHTE_WELT_SYNTHESE.md`
+  - Synthese der achten Welt. Ergebnis: Die achte Welt wirkt nicht wie Rollenwechselordnung, sondern wie Fragmentierungsordnung mit vielen jungen Spuren und wenig wiederkehrender Rollenbindung.
+- `972_MCM_FRAGMENTIERUNGS_MEMORY.md`
+  - Passive `dio_frag_*` Fragmentierungs-Memory der achten Welt. Ergebnis: `dio_frag_04wbygy` liest die achte SOL-15m/30m-Welt als `fragmentierung_offen_randnah_jung` mit 5995 Zonen, 5085 jungen Spuren, offener Oberflaeche und Randspannung.
+- `972_MCM_FRAGMENTIERUNGS_MEMORY.csv`
+  - Tokenmatrix der Fragmentierungs-Memory.
+- `972_MCM_FRAGMENTIERUNGS_MEMORY.json`
+  - JSON-Speicherform der Fragmentierungs-Memory.
+- `mini_dio/mcm_fragmentation_memory.py`
+  - Passive Memory-Schicht fuer Oberflaechenfragmentierung. Speichert `dio_frag_*` ohne Handlungskopplung.
+- `tools/report_mcm_fragmentation_memory.py`
+  - Report-Tool zur Erzeugung der `dio_frag_*` Fragmentierungs-Memory aus Nicht-Bruecken- und Verdichtungszonen-Lesungen.
+- `973_MCM_VERDICHTUNGSZONEN_NEUNTE_WELTGRUPPE.md`
+  - Neunte Stable-10k-Repro-Welt. Ergebnis: 111 Verdichtungszonen und 50 Uebergaenge; deutlich kompakter als die achte SOL-Fragmentierungswelt.
+- `974_MCM_NICHTBRUECKEN_ORDNUNG_NEUNTE_WELT.md`
+  - Nicht-Bruecken-Lesung der neunten Welt. Ergebnis: 42 schwache Zentrumszeichen, 37 Randspannungszeichen, 11 mehrdeutige Oberflaechen, 11 offene Zeichen, 7 Driftfelder und 3 Rekopplungsfelder.
+- `975_MCM_FRAGMENTIERUNGS_MEMORY_NEUNTE_WELT.md`
+  - Passive `dio_frag_*` Fragmentierungs-Memory der neunten Welt. Ergebnis: `dio_frag_017pq2v` liest die Welt als `fragmentierung_gemischt`, deutlich kompakter und zentrumsnaeher als 972.
+- `976_MCM_FRAGMENTIERUNG_VERGLEICH_ACHTE_NEUNTE_WELT.md`
+  - Synthese der Fragmentierungs-Memory. Ergebnis: Fragmentierung reproduziert sich nicht als starre Klasse; sie ist eine weltabhaengige Oberflaechenreaktion. Achte Welt = offen-randnah-jung, neunte Welt = gemischt und zentrumsnaeher.
+- `977_MCM_VERDICHTUNGSZONEN_ZEHNTE_STRESSWELT.md`
+  - Zehnte Stress-10k-Repro-Welt. Ergebnis: 146 Verdichtungszonen und 50 Uebergaenge.
+- `978_MCM_NICHTBRUECKEN_ORDNUNG_ZEHNTE_STRESSWELT.md`
+  - Nicht-Bruecken-Lesung der zehnten Stresswelt. Ergebnis: 54 Randspannungszeichen, 44 schwache Zentrumszeichen, 26 offene Zeichen, 13 mehrdeutige Oberflaechen, 5 Driftfelder und 4 Rekopplungsfelder.
+- `979_MCM_FRAGMENTIERUNGS_MEMORY_ZEHNTE_STRESSWELT.md`
+  - Passive `dio_frag_*` Fragmentierungs-Memory der zehnten Stresswelt. Ergebnis: `dio_frag_1mbyh0o` liest die Welt als `fragmentierung_randlastig`.
+- `980_MCM_FRAGMENTIERUNG_DREI_WELTEN_SYNTHESE.md`
+  - Vergleicht achte, neunte und zehnte Welt. Ergebnis: Fragmentierung ist nicht nur viel/wenig, sondern bildet Qualitaeten: offen-randnah-jung, gemischt, randlastig.
+- `981_MCM_FELDMECHANIK_FUNKTIONSABLEITUNG.md`
+  - Haelt die bisher ableitbaren Funktionen der MCM-Feldmechanik fest: passive Ordnungsbildung, Rollenwechsel statt Bedeutungsverlust, Weltqualitaeten, Fragmentierung als Oberflaechenreaktion, passive Eigenregulation und mehrere gleichzeitige Feldordnungen.
+- `tools/report_mcm_role_shift_memory_reading.py`
+  - Report-Tool zur Folgelesung passiver `dio_shift_*` Rollenwechsel-Memory gegen weitere Nicht-Bruecken-Landschaften.
 
 Hinweis:
 

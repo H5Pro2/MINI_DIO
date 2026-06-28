@@ -1,0 +1,2 @@
+passive_only,read_by_mini_dio,influences_action,is_gate,is_motoric,is_entry_signal,is_direction_signal,fragmentation_symbol,world_label,fragmentation_class,zones_total,young_spur_count,dominant_surface_class,secondary_surface_class,open_count,rand_count,weak_center_count,rekopplung_count,drift_count,avg_strain,avg_sensory,avg_rekopplung,memory_note
+1,0,0,0,0,0,0,dio_frag_017pq2v,NEUNTE_STABLE_10K_REPRO,fragmentierung_gemischt,111,45,nichtbruecke_zentrum_schwach,nichtbruecke_randspannung,11,37,42,3,7,0.23958,0.832307,0.628366,Gemischte Fragmentierungsoberflaeche.

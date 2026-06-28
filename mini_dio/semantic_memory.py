@@ -65,6 +65,10 @@ from mini_dio.semantic_meaning_store import (
     store_passive_inner_field_bridge_stable_contrast as store_passive_inner_field_bridge_stable_contrast_trace,
     store_passive_inner_field_map as store_passive_inner_field_map_trace,
     store_passive_inner_field_map_comparison as store_passive_inner_field_map_comparison_trace,
+    store_passive_mcm_fragmentation_memory as store_passive_mcm_fragmentation_memory_trace,
+    store_passive_mcm_role_maturation_memory as store_passive_mcm_role_maturation_memory_trace,
+    store_passive_mcm_role_movement_memory as store_passive_mcm_role_movement_memory_trace,
+    store_passive_mcm_role_shift_memory as store_passive_mcm_role_shift_memory_trace,
 )
 
 
@@ -95,6 +99,10 @@ class SemanticMemory:
             "passive_inner_field_bridge_stable_contrast": {},
             "passive_inner_field_archetypes": {},
             "passive_inner_field_archetype_matrix": {},
+            "passive_mcm_fragmentation_memory": {},
+            "passive_mcm_role_maturation_memory": {},
+            "passive_mcm_role_movement_memory": {},
+            "passive_mcm_role_shift_memory": {},
         }
         self.max_sensor_relations = 128
         self.max_neighbor_consequences = 128
@@ -135,6 +143,10 @@ class SemanticMemory:
             self.data.setdefault("passive_inner_field_bridge_stable_contrast", {})
             self.data.setdefault("passive_inner_field_archetypes", {})
             self.data.setdefault("passive_inner_field_archetype_matrix", {})
+            self.data.setdefault("passive_mcm_fragmentation_memory", {})
+            self.data.setdefault("passive_mcm_role_maturation_memory", {})
+            self.data.setdefault("passive_mcm_role_movement_memory", {})
+            self.data.setdefault("passive_mcm_role_shift_memory", {})
             self.compact_symbols()
             self.compact_families()
 
@@ -453,3 +465,39 @@ class SemanticMemory:
         """Store passive matrix from world profiles to archetype readings."""
 
         store_passive_inner_field_archetype_matrix_trace(self.data, matrix)
+
+    def store_passive_mcm_role_movement_memory(self, role_memory: dict) -> None:
+        """Store passive MCM role-movement memory.
+
+        This stores role movement, stability and drift quality. It is not
+        consumed by action, entries, gates, direction, or motoric behavior.
+        """
+
+        store_passive_mcm_role_movement_memory_trace(self.data, role_memory)
+
+    def store_passive_mcm_fragmentation_memory(self, fragmentation_memory: dict) -> None:
+        """Store passive MCM fragmentation memory.
+
+        This stores surface fragmentation quality. It is not consumed by action,
+        entries, gates, direction, or motoric behavior.
+        """
+
+        store_passive_mcm_fragmentation_memory_trace(self.data, fragmentation_memory)
+
+    def store_passive_mcm_role_maturation_memory(self, maturation_memory: dict) -> None:
+        """Store passive MCM role-maturation memory.
+
+        This stores maturation quality, segment quality and field quality. It is
+        not consumed by action, entries, gates, direction, or motoric behavior.
+        """
+
+        store_passive_mcm_role_maturation_memory_trace(self.data, maturation_memory)
+
+    def store_passive_mcm_role_shift_memory(self, shift_memory: dict) -> None:
+        """Store passive MCM role-shift memory.
+
+        This stores role changes across world orderings. It is not consumed by
+        action, entries, gates, direction, or motoric behavior.
+        """
+
+        store_passive_mcm_role_shift_memory_trace(self.data, shift_memory)

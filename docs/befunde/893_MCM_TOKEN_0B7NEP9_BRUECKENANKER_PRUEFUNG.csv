@@ -1,0 +1,15 @@
+token,direction,neighbor,relation,edge_kind,count,worlds,duration_avg,exit_phase,exit_rekopplung_delta_avg,exit_strain_delta_avg,neighbor_path_class,neighbor_movement
+dio_mcm_episode_0b7nep9,eingehend,dio_mcm_episode_00nzcuc,eintritt,aussen_zu_bruecke,8,2,232.25,oeffnend_belastender_austritt,-0.018757,0.015556,-,-
+dio_mcm_episode_0b7nep9,ausgehend,dio_mcm_episode_00nzcuc,austritt,bruecke_zu_aussen,6,2,3.166667,gemischter_austritt,-0.002783,-0.00111,-,-
+dio_mcm_episode_0b7nep9,ausgehend,dio_mcm_episode_0w4x7xs,austritt,bruecke_zu_aussen,5,1,114.4,rekoppelnder_austritt,0.00628,-0.005428,rekoppelnder_pfad,reifung_oder_verdichtung
+dio_mcm_episode_0b7nep9,eingehend,dio_mcm_episode_0w4x7xs,eintritt,aussen_zu_bruecke,4,1,134.5,gemischter_austritt,-0.179455,-0.034284,rekoppelnder_pfad,reifung_oder_verdichtung
+dio_mcm_episode_0b7nep9,eingehend,dio_mcm_episode_0ykar6i,eintritt,aussen_zu_bruecke,2,2,1036.0,oeffnend_belastender_austritt,-0.172091,0.184253,offener_driftpfad,oeffnung_oder_drift
+dio_mcm_episode_0b7nep9,eingehend,dio_mcm_episode_1f4jh6c,eintritt,aussen_zu_bruecke,2,1,14.5,rekoppelnder_austritt,0.012252,-0.012709,rekoppelnder_pfad,reifung_oder_verdichtung
+dio_mcm_episode_0b7nep9,eingehend,dio_mcm_episode_17c7qwp,eintritt,aussen_zu_bruecke,1,1,1972.0,rekoppelnder_austritt,0.008901,-0.028097,brueckenpfad,reifung_oder_verdichtung
+dio_mcm_episode_0b7nep9,eingehend,dio_mcm_episode_1fej2vb,eintritt,aussen_zu_bruecke,1,1,2034.0,gemischter_austritt,0.030813,0.00773,-,-
+dio_mcm_episode_0b7nep9,ausgehend,dio_mcm_episode_0fljihc,austritt,bruecke_zu_aussen,1,1,931.0,oeffnend_belastender_austritt,-0.177129,0.186092,-,-
+dio_mcm_episode_0b7nep9,ausgehend,dio_mcm_episode_0mm85pw,austritt,bruecke_zu_aussen,1,1,1284.0,oeffnend_belastender_austritt,-0.134429,0.141143,randpfad,stabil
+dio_mcm_episode_0b7nep9,ausgehend,dio_mcm_episode_0mw7rev,austritt,bruecke_zu_aussen,1,1,1141.0,oeffnend_belastender_austritt,-0.167054,0.182414,randpfad,stabil
+dio_mcm_episode_0b7nep9,ausgehend,dio_mcm_episode_0rz7ra9,austritt,bruecke_zu_aussen,1,1,2034.0,gemischter_austritt,0.030813,0.00773,-,-
+dio_mcm_episode_0b7nep9,ausgehend,dio_mcm_episode_0tosxof,austritt,bruecke_zu_aussen,1,1,1972.0,rekoppelnder_austritt,0.008901,-0.028097,junge_oberflaeche,stabil
+dio_mcm_episode_0b7nep9,ausgehend,dio_mcm_episode_0ykar6i,austritt,bruecke_zu_aussen,1,1,27.0,rekoppelnder_austritt,0.015733,-0.026082,offener_driftpfad,oeffnung_oder_drift

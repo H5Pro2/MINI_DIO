@@ -1,0 +1,9 @@
+short_token,previous_status,previous_axis_profile,previous_class,previous_weight,follow_class,follow_weight,follow_world_span,follow_path_class,follow_movement,follow_state,reason
+00dz86x,neue_vierte_welt_insel,neu_ohne_basisdrift,schwacher_anschluss,1,schwacher_anschluss,2,1,-,-,jung_gehalten,"Die junge Spur bleibt sichtbar, reift aber noch nicht weiter."
+00nzcuc,entlastung,neu_ohne_basisdrift,schwacher_anschluss,1,schwacher_anschluss,1,1,-,-,jung_gehalten,"Die junge Spur bleibt sichtbar, reift aber noch nicht weiter."
+00yl137,neue_vierte_welt_insel,junge_drift_oeffnung,schwacher_anschluss,2,brueckenkern,8,1,brueckenpfad,reifung_oder_verdichtung,reift_weiter,Die Spur gewinnt Anschluss- oder Kernnaehe.
+0om13wf,rollendrift,oberflaechen_verjuengung,schwacher_anschluss,3,brueckenkern,15,2,brueckenpfad,stabil,reift_weiter,Die Spur gewinnt Anschluss- oder Kernnaehe.
+0z748ck,reorganisation_oder_drift,rekopplung_verliert_unschaerfe_steigt,lokaler_anschlussanker,12,lokaler_anschlussanker,12,5,rekoppelnder_pfad,reifung_oder_verdichtung,rolle_gehalten,Die Rolle bleibt auf aehnlicher Reifestufe sichtbar.
+1hdpu9s,entlastung,offene_achsenmischung,schwacher_anschluss,11,schwacher_anschluss,11,3,rekoppelnder_pfad,reifung_oder_verdichtung,rolle_gehalten,Die Rolle bleibt auf aehnlicher Reifestufe sichtbar.
+0db07p4,reorganisation_oder_drift,rollenverlust_in_stabiler_zone,schwacher_anschluss,9,-,0,0,-,-,verschwindet,Die Spur ist in der Folgewelt nicht als Anschlussrolle sichtbar.
+1ahj81f,reorganisation_oder_drift,rollenverlust_in_stabiler_zone,schwacher_anschluss,3,-,0,0,-,-,verschwindet,Die Spur ist in der Folgewelt nicht als Anschlussrolle sichtbar.

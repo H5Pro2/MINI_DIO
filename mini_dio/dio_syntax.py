@@ -190,10 +190,109 @@ def make_mcm_field_episode_symbol(payload: dict) -> str:
     return f"dio_mcm_episode_{_base36(hash_value).rjust(7, '0')}"
 
 
+def make_role_movement_symbol(payload: dict) -> str:
+    """Create DIO-owned syntax for passive role-movement memory."""
+
+    values = [
+        str(payload.get("short_token", "") or ""),
+        str(payload.get("class_sequence", "") or ""),
+        str(payload.get("trend", "") or ""),
+        str(payload.get("role_movement_quality", "") or ""),
+        str(payload.get("stability_quality", "") or ""),
+        str(payload.get("drift_quality", "") or ""),
+        int(payload.get("max_rank", 0) or 0),
+        int(round(float(payload.get("weight_delta_total", 0.0) or 0.0))),
+    ]
+    hash_value = 2166136261
+    for value in values:
+        for char in str(value):
+            hash_value ^= ord(char) + 67
+            hash_value = (hash_value * 16777619) & 0xFFFFFFFF
+    return f"dio_role_{_base36(hash_value).rjust(7, '0')}"
+
+
+def make_role_maturation_symbol(payload: dict) -> str:
+    """Create DIO-owned syntax for passive role-maturation memory."""
+
+    values = [
+        str(payload.get("short_token", "") or ""),
+        str(payload.get("previous_axis_profile", "") or ""),
+        str(payload.get("follow_state", "") or ""),
+        str(payload.get("maturation_quality", "") or ""),
+        str(payload.get("segment_quality", "") or ""),
+        str(payload.get("field_quality", "") or ""),
+        str(payload.get("previous_class", "") or ""),
+        str(payload.get("follow_class", "") or ""),
+        int(payload.get("segments", 0) or 0),
+        int(payload.get("worlds", 0) or 0),
+        int(round(float(payload.get("follow_weight", 0.0) or 0.0))),
+    ]
+    hash_value = 2166136261
+    for value in values:
+        for char in str(value):
+            hash_value ^= ord(char) + 71
+            hash_value = (hash_value * 16777619) & 0xFFFFFFFF
+    return f"dio_mature_{_base36(hash_value).rjust(7, '0')}"
+
+
+def make_role_shift_symbol(payload: dict) -> str:
+    """Create DIO-owned syntax for passive role-shift memory."""
+
+    values = [
+        str(payload.get("short_token", "") or ""),
+        str(payload.get("from_longterm_class", "") or ""),
+        str(payload.get("from_role_class", "") or ""),
+        str(payload.get("to_nonbridge_class", "") or ""),
+        str(payload.get("to_zone", "") or ""),
+        str(payload.get("to_dominant_role", "") or ""),
+        str(payload.get("shift_quality", "") or ""),
+        int(payload.get("observations", 0) or 0),
+        int(payload.get("worlds", 0) or 0),
+        int(round(float(payload.get("avg_rekopplung", 0.0) or 0.0) * 1000.0)),
+        int(round(float(payload.get("avg_strain", 0.0) or 0.0) * 1000.0)),
+    ]
+    hash_value = 2166136261
+    for value in values:
+        for char in str(value):
+            hash_value ^= ord(char) + 73
+            hash_value = (hash_value * 16777619) & 0xFFFFFFFF
+    return f"dio_shift_{_base36(hash_value).rjust(7, '0')}"
+
+
+def make_fragmentation_symbol(payload: dict) -> str:
+    """Create DIO-owned syntax for passive field-fragmentation memory."""
+
+    values = [
+        str(payload.get("world_label", "") or ""),
+        str(payload.get("fragmentation_class", "") or ""),
+        str(payload.get("dominant_surface_class", "") or ""),
+        str(payload.get("secondary_surface_class", "") or ""),
+        int(payload.get("zones_total", 0) or 0),
+        int(payload.get("young_spur_count", 0) or 0),
+        int(payload.get("open_count", 0) or 0),
+        int(payload.get("rand_count", 0) or 0),
+        int(payload.get("weak_center_count", 0) or 0),
+        int(payload.get("rekopplung_count", 0) or 0),
+        int(round(float(payload.get("avg_strain", 0.0) or 0.0) * 1000.0)),
+        int(round(float(payload.get("avg_sensory", 0.0) or 0.0) * 1000.0)),
+        int(round(float(payload.get("avg_rekopplung", 0.0) or 0.0) * 1000.0)),
+    ]
+    hash_value = 2166136261
+    for value in values:
+        for char in str(value):
+            hash_value ^= ord(char) + 79
+            hash_value = (hash_value * 16777619) & 0xFFFFFFFF
+    return f"dio_frag_{_base36(hash_value).rjust(7, '0')}"
+
+
 __all__ = [
     "make_contact_lage_symbol",
     "make_episode_memory_symbol",
+    "make_fragmentation_symbol",
     "make_mcm_field_episode_symbol",
+    "make_role_maturation_symbol",
+    "make_role_movement_symbol",
+    "make_role_shift_symbol",
     "make_reflection_map_symbol",
     "make_reflection_seed_symbol",
     "make_syntax_symbol",

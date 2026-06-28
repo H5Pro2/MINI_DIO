@@ -1,0 +1,11 @@
+token_a,token_b,weight,world_span,directions,bidirectional,a_to_b_edges,b_to_a_edges,duration_avg_weighted,exit_rekopplung_delta_avg,exit_strain_delta_avg,dominant_exit_phase,phase_profile,core_class
+dio_mcm_episode_0b7nep9,dio_mcm_episode_0ykar6i,176,4,2,1,2,2,74.022727,-0.018006,0.015494,rekoppelnder_austritt,rekoppelnder_austritt:88; oeffnend_belastender_austritt:88,sekundaerer_brueckenkern
+dio_mcm_episode_0e7qvj1,dio_mcm_episode_18l3thm,110,6,2,1,2,2,61.709091,-0.027442,0.017515,oeffnend_belastender_austritt,oeffnend_belastender_austritt:55; rekoppelnder_austritt:30; gemischter_austritt:25,zentraler_brueckenkern
+dio_mcm_episode_0e7qvj1,dio_mcm_episode_0mji3u6,74,6,2,1,2,2,119.648649,-0.019278,0.006862,oeffnend_belastender_austritt,oeffnend_belastender_austritt:37; rekoppelnder_austritt:37,zentraler_brueckenkern
+dio_mcm_episode_14coypf,dio_mcm_episode_18l3thm,24,3,2,1,2,2,95.291667,-0.043824,0.04414,oeffnend_belastender_austritt,oeffnend_belastender_austritt:12; rekoppelnder_austritt:7; gemischter_austritt:5,lokaler_brueckenpfad
+dio_mcm_episode_0mji3u6,dio_mcm_episode_18n06fj,20,5,1,0,0,2,6.7,-0.004188,-1.4e-05,rekoppelnder_austritt,rekoppelnder_austritt:10; oeffnend_belastender_austritt:10,lokaler_brueckenpfad
+dio_mcm_episode_0jbl5pq,dio_mcm_episode_0qzjuvj,18,6,1,0,2,0,2.611112,-0.005812,0.009103,oeffnend_belastender_austritt,oeffnend_belastender_austritt:9; gemischter_austritt:9,lokaler_brueckenpfad
+dio_mcm_episode_0hjnwsk,dio_mcm_episode_18n06fj,16,4,1,0,2,0,2.8125,0.007237,-0.021212,rekoppelnder_austritt,rekoppelnder_austritt:16,lokaler_brueckenpfad
+dio_mcm_episode_02ujuqf,dio_mcm_episode_1xx3u1e,6,3,1,0,2,0,207.666666,-0.015585,0.018804,oeffnend_belastender_austritt,oeffnend_belastender_austritt:6,schwache_brueckenkante
+dio_mcm_episode_0e7qvj1,dio_mcm_episode_14coypf,4,1,2,1,2,2,15.25,-0.056245,0.057625,oeffnend_belastender_austritt,oeffnend_belastender_austritt:2; rekoppelnder_austritt:1; gemischter_austritt:1,schwache_brueckenkante
+dio_mcm_episode_0hjnwsk,dio_mcm_episode_0qzjuvj,4,2,1,0,0,2,1.5,0.00965,-0.025756,rekoppelnder_austritt,rekoppelnder_austritt:4,schwache_brueckenkante

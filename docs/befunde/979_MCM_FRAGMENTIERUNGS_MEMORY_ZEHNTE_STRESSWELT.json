@@ -1,0 +1,45 @@
+{
+  "profile": {
+    "records": 1,
+    "fragmentation_class": {
+      "fragmentierung_randlastig": 1
+    },
+    "dominant_surface_class": {
+      "nichtbruecke_randspannung": 1
+    },
+    "passive_only": 1,
+    "read_by_mini_dio": 0,
+    "influences_action": 0,
+    "is_gate": 0,
+    "is_motoric": 0,
+    "is_entry_signal": 0,
+    "is_direction_signal": 0
+  },
+  "records": [
+    {
+      "passive_only": 1,
+      "read_by_mini_dio": 0,
+      "influences_action": 0,
+      "is_gate": 0,
+      "is_motoric": 0,
+      "is_entry_signal": 0,
+      "is_direction_signal": 0,
+      "fragmentation_symbol": "dio_frag_1mbyh0o",
+      "world_label": "ZEHNTE_STRESS_10K_REPRO",
+      "fragmentation_class": "fragmentierung_randlastig",
+      "zones_total": 146,
+      "young_spur_count": 68,
+      "dominant_surface_class": "nichtbruecke_randspannung",
+      "secondary_surface_class": "nichtbruecke_zentrum_schwach",
+      "open_count": 26,
+      "rand_count": 54,
+      "weak_center_count": 44,
+      "rekopplung_count": 4,
+      "drift_count": 5,
+      "avg_strain": 0.248151,
+      "avg_sensory": 0.829839,
+      "avg_rekopplung": 0.623146,
+      "memory_note": "Randspannung dominiert die Oberflaeche."
+    }
+  ]
+}
