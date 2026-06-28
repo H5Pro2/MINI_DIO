@@ -68,6 +68,7 @@ from mini_dio.semantic_meaning_store import (
     store_passive_mcm_fragmentation_memory as store_passive_mcm_fragmentation_memory_trace,
     store_passive_mcm_role_maturation_memory as store_passive_mcm_role_maturation_memory_trace,
     store_passive_mcm_role_movement_memory as store_passive_mcm_role_movement_memory_trace,
+    store_passive_mcm_role_network as store_passive_mcm_role_network_trace,
     store_passive_mcm_role_shift_memory as store_passive_mcm_role_shift_memory_trace,
 )
 
@@ -102,6 +103,7 @@ class SemanticMemory:
             "passive_mcm_fragmentation_memory": {},
             "passive_mcm_role_maturation_memory": {},
             "passive_mcm_role_movement_memory": {},
+            "passive_mcm_role_network": {},
             "passive_mcm_role_shift_memory": {},
         }
         self.max_sensor_relations = 128
@@ -146,6 +148,7 @@ class SemanticMemory:
             self.data.setdefault("passive_mcm_fragmentation_memory", {})
             self.data.setdefault("passive_mcm_role_maturation_memory", {})
             self.data.setdefault("passive_mcm_role_movement_memory", {})
+            self.data.setdefault("passive_mcm_role_network", {})
             self.data.setdefault("passive_mcm_role_shift_memory", {})
             self.compact_symbols()
             self.compact_families()
@@ -501,3 +504,13 @@ class SemanticMemory:
         """
 
         store_passive_mcm_role_shift_memory_trace(self.data, shift_memory)
+
+    def store_passive_mcm_role_network(self, role_network: dict) -> None:
+        """Store passive MCM role-network memory.
+
+        This stores node roles, role movement, neighborhood, drift and
+        recoupling as an inner field map. It is not consumed by action,
+        entries, gates, direction, or motoric behavior.
+        """
+
+        store_passive_mcm_role_network_trace(self.data, role_network)

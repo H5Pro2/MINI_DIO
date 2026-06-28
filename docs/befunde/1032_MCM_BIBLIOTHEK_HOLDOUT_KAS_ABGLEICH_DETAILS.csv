@@ -1,0 +1,2 @@
+visual_form,field_quality,source_file,world,pair,typology,chart_zone,dominant_movement,return_pct,range_pct,before_return_pct,after_return_pct,pressure_abs,rekopplung_abs,passive_only,read_by_mini_dio,influences_action,is_gate,is_motoric,is_entry_signal,is_direction_signal
+schmale_offene_transition,schmale_offene_lage,1031_MCM_BIBLIOTHEK_HOLDOUT_KAS_TYPEN_DETAILS.csv,KAS2024_15M_ASSET_PROBE,183drjy->1t5bcxp,konsolidierung_mit_bruchnaehe,ruhige_konsolidierung,bewegungsbruch_zone,0.289687,1.602935,0.8081,0.13481,0.043764,0.002671,1,0,0,0,0,0,0

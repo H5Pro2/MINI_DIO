@@ -1,0 +1,3 @@
+passive_only,read_by_mini_dio,influences_action,is_gate,is_motoric,is_entry_signal,is_direction_signal,state_label,nodes,avg_neighbor_count,edge_count_total,avg_edge_count,avg_rekopplung_delta,avg_strain_delta,dominant_cause,cause_profile
+1,0,0,0,0,0,0,netz_fragmentiert_belastet,28,3.392857,3894,139.071429,-0.058196,0.062059,fragmentierung_durch_aussen_brueckenriss,fragmentierung_durch_aussen_brueckenriss:25 | fragmentierung_offen:3
+1,0,0,0,0,0,0,netz_rekoppelnd_verbunden,32,1.6875,347,10.84375,0.019768,-0.021534,rekopplung_durch_entlastende_bruecke,rekopplung_durch_entlastende_bruecke:28 | rekopplung_durch_phasenwechsel:3 | rekopplung_durch_nachbarschaft:1

@@ -1,0 +1,5 @@
+phase_hint,count,modes,avg_return_pct,avg_range_pct,avg_before_pct,avg_after_pct,avg_pressure_abs,avg_rekopplung_abs,passive_only,read_by_mini_dio,influences_action,is_gate,is_motoric,is_entry_signal,is_direction_signal
+fallende_rekopplung,7,abverkauf_mit_rekopplung:7,-16.343053,26.165717,0.287663,-0.604939,0.051619,0.019111,1,0,0,0,0,0,0
+erholung_nach_abverkauf,4,rekopplung_nach_abverkauf:4,59.870493,91.03631,-4.787495,-1.875831,0.091296,0.02023,1,0,0,0,0,0,0
+fallender_bruch,2,abverkauf_mit_bruch:2,-26.952207,36.754031,-0.232524,-4.59471,0.064318,0.021888,1,0,0,0,0,0,0
+offenes_familienfenster,2,abverkauf_mit_bruch:2,-4.154253,5.655525,-0.46095,0.378286,0.063338,0.01642,1,0,0,0,0,0,0

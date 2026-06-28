@@ -1,0 +1,5 @@
+visual_form,recurrence_count,worlds,typologies,field_qualities,avg_return_pct,avg_range_pct,avg_pressure_abs,avg_rekopplung_abs
+fallende_rueckbindung,0,-,-,-,0.0,0.0,0.0,0.0
+ruhige_gerichtete_rekopplung,0,-,-,-,0.0,0.0,0.0,0.0
+schmale_offene_transition,1,KAS2024_15M_ASSET_PROBE:1,konsolidierung_mit_bruchnaehe:1,schmale_offene_lage:1,0.289687,1.602935,0.043764,0.002671
+weite_aufwaerts_expansion,0,-,-,-,0.0,0.0,0.0,0.0

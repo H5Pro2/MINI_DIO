@@ -1,0 +1,3 @@
+candidate,known_visual_form,world,pair,ticks,chart_zone,dominant_movement,return_pct,range_pct,before_return_pct,after_return_pct,pressure_abs,rekopplung_abs,passive_only,read_by_mini_dio,influences_action,is_gate,is_motoric,is_entry_signal,is_direction_signal
+rekopplung_nach_abverkauf,erholung_nach_vorlast,KAS2024_1H_ASSET_PROBE,183drjy->1t5bcxp,447-1665,rekopplung_nach_abverkauf,bewegungsbruch_zone,48.426102,97.841511,-7.710043,3.31157,0.115673,0.026035,1,0,0,0,0,0,0
+rekopplung_nach_abverkauf,erholung_nach_vorlast,KAS2024_1H_ASSET_PROBE,1t5bcxp->183drjy,444-1656,rekopplung_nach_abverkauf,rekopplungs_uebergang,46.735395,96.131566,-5.669291,-2.74376,0.055481,0.018414,1,0,0,0,0,0,0

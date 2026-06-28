@@ -1,0 +1,8 @@
+passive_only,read_by_mini_dio,influences_action,is_gate,is_motoric,is_entry_signal,is_direction_signal,network_state,early_nodes,late_nodes,node_delta_late_minus_early,early_avg_neighbors,late_avg_neighbors,early_avg_rekopplung,late_avg_rekopplung,early_avg_strain,late_avg_strain,reading
+1,0,0,0,0,0,0,netz_driftend_getragen,22,33,11,2.181818,0.666667,0.024412,0.047962,-0.013821,0.006937,Getragene Drift nimmt zu und wirkt als Folgereifung statt Zerfall.
+1,0,0,0,0,0,0,netz_fragmentiert_belastet,28,17,-11,3.357143,3.764706,-0.059659,-0.061817,0.063822,0.065432,Belastete Fragmentierung nimmt in der spaeten Gruppe ab.
+1,0,0,0,0,0,0,netz_offen_verbunden,32,29,-3,1.6875,1.827586,-0.044234,-0.043888,0.051729,0.048462,"Offene Verbindung bleibt sichtbar, wird aber weniger dominant."
+1,0,0,0,0,0,0,netz_rekoppelnd_einzeln,17,26,9,0.0,0.0,0.0,0.0,0.0,0.0,Einzelrekopplung nimmt zu; Teile loesen sich aus dichter Verbindung.
+1,0,0,0,0,0,0,netz_rekoppelnd_verbunden,28,30,2,1.607143,1.833333,0.041417,0.029334,-0.012833,-0.016203,Rekoppelnde Verbindung bleibt ueber beide Gruppen stabil sichtbar.
+1,0,0,0,0,0,0,netz_zentrum_getragen,0,2,2,0.0,0.0,0.0,0.0,0.0,0.0,Spaete Gruppe bildet zusaetzliche getragene Zentrumsqualitaet.
+1,0,0,0,0,0,0,netz_zentrum_mit_anschluss,8,6,-2,5.625,5.0,0.006569,0.023122,0.006378,0.007736,Zustand nimmt in der spaeten Gruppe ab.

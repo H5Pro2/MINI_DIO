@@ -285,11 +285,37 @@ def make_fragmentation_symbol(payload: dict) -> str:
     return f"dio_frag_{_base36(hash_value).rjust(7, '0')}"
 
 
+def make_role_network_symbol(payload: dict) -> str:
+    """Create DIO-owned syntax for passive role-network memory."""
+
+    values = [
+        str(payload.get("node", "") or ""),
+        str(payload.get("dominant_role", "") or ""),
+        str(payload.get("network_state", "") or ""),
+        str(payload.get("dominant_movement_quality", "") or ""),
+        str(payload.get("dominant_shift_quality", "") or ""),
+        str(payload.get("dominant_stability_quality", "") or ""),
+        str(payload.get("dominant_drift_quality", "") or ""),
+        int(payload.get("observations", 0) or 0),
+        int(payload.get("worlds", 0) or 0),
+        int(payload.get("neighbor_count", 0) or 0),
+        int(round(float(payload.get("avg_rekopplung", 0.0) or 0.0) * 1000.0)),
+        int(round(float(payload.get("avg_strain", 0.0) or 0.0) * 1000.0)),
+    ]
+    hash_value = 2166136261
+    for value in values:
+        for char in str(value):
+            hash_value ^= ord(char) + 83
+            hash_value = (hash_value * 16777619) & 0xFFFFFFFF
+    return f"dio_net_{_base36(hash_value).rjust(7, '0')}"
+
+
 __all__ = [
     "make_contact_lage_symbol",
     "make_episode_memory_symbol",
     "make_fragmentation_symbol",
     "make_mcm_field_episode_symbol",
+    "make_role_network_symbol",
     "make_role_maturation_symbol",
     "make_role_movement_symbol",
     "make_role_shift_symbol",

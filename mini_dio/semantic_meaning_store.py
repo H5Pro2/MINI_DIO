@@ -101,6 +101,12 @@ def store_passive_mcm_role_shift_memory(data: dict, shift_memory: dict) -> None:
     data["passive_mcm_role_shift_memory"] = _passive_item(shift_memory)
 
 
+def store_passive_mcm_role_network(data: dict, role_network: dict) -> None:
+    if not isinstance(role_network, dict):
+        return
+    data["passive_mcm_role_network"] = _passive_item(role_network)
+
+
 __all__ = [
     "store_passive_inner_effect_meaning_notes",
     "store_passive_inner_effect_reflection_note",
@@ -112,5 +118,6 @@ __all__ = [
     "store_passive_mcm_fragmentation_memory",
     "store_passive_mcm_role_maturation_memory",
     "store_passive_mcm_role_movement_memory",
+    "store_passive_mcm_role_network",
     "store_passive_mcm_role_shift_memory",
 ]

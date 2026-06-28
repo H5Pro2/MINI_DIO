@@ -1,0 +1,7 @@
+phase_hint,count,modes,avg_return_pct,avg_range_pct,avg_before_pct,avg_after_pct,avg_pressure_abs,avg_rekopplung_abs,passive_only,read_by_mini_dio,influences_action,is_gate,is_motoric,is_entry_signal,is_direction_signal
+offenes_bull_fenster,6,gerichtete_bewegung_mit_bruch:3 | gerichtete_bewegung_mit_rekopplung:3,-8.161398,16.200134,-0.278062,1.441844,0.057324,0.018547,1,0,0,0,0,0,0
+getragene_expansion,3,getragene_expansion:3,36.527438,47.283178,3.588414,1.696873,0.076593,0.018584,1,0,0,0,0,0,0
+steigende_rekopplung_getragen,3,getragene_expansion:3,23.688985,35.683581,0.323106,1.516698,0.051789,0.021252,1,0,0,0,0,0,0
+steigende_expansion_mit_bruch,2,getragene_expansion:2,26.26195,35.693842,1.348107,3.422595,0.106125,0.024495,1,0,0,0,0,0,0
+steigende_rekopplung,1,gerichtete_bewegung_mit_rekopplung:1,19.822883,30.038966,1.088591,-1.170697,0.052709,0.017809,1,0,0,0,0,0,0
+steigender_bruch,1,gerichtete_bewegung_mit_bruch:1,20.07336,31.890104,0.943739,-1.341639,0.066661,0.021382,1,0,0,0,0,0,0

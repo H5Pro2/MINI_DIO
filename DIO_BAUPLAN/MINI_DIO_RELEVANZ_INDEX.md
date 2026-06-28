@@ -1463,6 +1463,192 @@ Besonders relevant fuer den aktuellen Bauplanstand:
   - Vergleicht achte, neunte und zehnte Welt. Ergebnis: Fragmentierung ist nicht nur viel/wenig, sondern bildet Qualitaeten: offen-randnah-jung, gemischt, randlastig.
 - `981_MCM_FELDMECHANIK_FUNKTIONSABLEITUNG.md`
   - Haelt die bisher ableitbaren Funktionen der MCM-Feldmechanik fest: passive Ordnungsbildung, Rollenwechsel statt Bedeutungsverlust, Weltqualitaeten, Fragmentierung als Oberflaechenreaktion, passive Eigenregulation und mehrere gleichzeitige Feldordnungen.
+- `982_MCM_ROLLENNETZWERK_PASSIVE_FELDKARTE.md`
+  - Fuehrt `MCMRoleNetwork` als passive Feldkarte ein. Ergebnis: Knoten werden nicht nur als Datenpunkte gelesen, sondern als dynamische Rollen im Bedeutungsnetz: zentrumsnah, rekoppelnd, driftend, offen verbunden oder fragmentiert belastet. Keine Handlung, kein Gate, keine Strategie.
+- `983_MCM_ROLLENNETZWERK_BEDINGUNGSDIAGNOSE.md`
+  - Verdichtet die Bedingungen hinter den `dio_net_*` Netzwerkzustaenden. Ergebnis: offene Verbindung, Rekopplung, belastete Fragmentierung, getragene Drift, Einzelrekopplung und Zentrumsnaehe unterscheiden sich durch Nachbarschaft, Rekopplung, Strain, Rollenbewegung, Stabilitaet und Drift.
+- `984_MCM_FRAGMENTIERTE_NETZWERK_RUECKLESUNG.md`
+  - Legt `netz_fragmentiert_belastet` passiv auf Brueckenkanten, Austrittsphasen und Nicht-Bruecken-Rollen zurueck. Ergebnis: 25 von 28 Knoten werden als `fragmentierung_durch_aussen_brueckenriss` gelesen; belastete Fragmentierung ist damit eher eine gespannte Netzwerksituation als einfache Leere.
+- `985_MCM_REKOPPELNDE_NETZWERK_RUECKLESUNG.md`
+  - Legt `netz_rekoppelnd_verbunden` passiv auf Brueckenkanten, Austrittsphasen und Nicht-Bruecken-Rollen zurueck. Ergebnis: 28 von 32 Knoten werden als `rekopplung_durch_entlastende_bruecke` gelesen; ruhige Rekopplung ist damit das Gegenbild zur belasteten Fragmentierung.
+- `986_MCM_NETZWERK_GEGENZUSTAND_SYNTHESE.md`
+  - Fuehrt 984 und 985 zusammen. Ergebnis: Belastete Fragmentierung und ruhige Rekopplung erscheinen als Gegenzustaende derselben sichtbaren Netzwerkverbindung: bei Fragmentierung faellt Rekopplung und Strain steigt; bei Rekopplung steigt Rekopplung und Strain faellt.
+- `987_MCM_ROLLENNETZWERK_REPRO_FRUEHE_GRUPPE.md`
+  - Reproduktionslesung des passiven Rolennetzwerks auf fruehen Weltgruppen. Ergebnis: dieselbe Grundtopologie bleibt sichtbar, aber belastete Fragmentierung ist staerker vertreten.
+- `988_MCM_ROLLENNETZWERK_REPRO_SPAETE_GRUPPE.md`
+  - Reproduktionslesung des passiven Rolennetzwerks auf spaeten Weltgruppen. Ergebnis: dieselbe Grundtopologie bleibt sichtbar, aber getragene Drift und erste getragene Zentrumsqualitaet nehmen zu.
+- `989_MCM_ROLLENNETZWERK_BEDINGUNG_FRUEHE_GRUPPE.md`
+  - Bedingungsdiagnose der fruehen Repro-Gruppe. Ergebnis: offene Verbindung, belastete Fragmentierung und Rekopplung bleiben unterscheidbare passive Feldzustaende.
+- `990_MCM_ROLLENNETZWERK_BEDINGUNG_SPAETE_GRUPPE.md`
+  - Bedingungsdiagnose der spaeten Repro-Gruppe. Ergebnis: getragene Drift wird staerker, `netz_zentrum_getragen` erscheint erstmals als kleine zusaetzliche Zentrumsqualitaet.
+- `991_MCM_ROLLENNETZWERK_REPRO_VERGLEICH.md`
+  - Vergleicht fruehe und spaete Repro-Gruppe. Ergebnis: Das Rolennetzwerk reproduziert sich nicht als starre Kopie, sondern bleibt topologisch aehnlich und verschiebt Last, Drift und Zentrumsnaehe je nach Weltgruppe.
+- `992_MCM_ZENTRUMSQUALITAET_RUECKLESUNG.md`
+  - Legt die in der spaeten Gruppe neu sichtbare `netz_zentrum_getragen`-Qualitaet auf vorhandene Zonen-, Sinnes- und Klangbefunde zurueck. Ergebnis: `1jx2k4i` und `1xx3u1e` sind nicht leer, sondern zeigen hohe Rekopplung, relativ niedrige Strain-Werte und Rueckbindung an stabile Bedeutungsinseln, Sinnesachsen oder Klangkopplung.
+- `993_MCM_ZENTRUMSQUALITAET_FOLGEWELTEN_RUECKLESUNG.md`
+  - Prueft dieselben `netz_zentrum_getragen`-Knoten gegen spaetere Folgebelege. Ergebnis: `1jx2k4i` und `1xx3u1e` erscheinen dort nicht wieder; die Zentrumsqualitaet ist damit nicht als starre Knotenkopie reproduziert, sondern wirkt welt- oder situationsgebunden.
+- `994_MCM_ZENTRUMSVERLAGERUNG_FOLGEWELTEN.md`
+  - Prueft, ob die Folgewelten neue Zentrumsqualitaeten bilden, wenn die alten Zentrumsknoten nicht wieder erscheinen. Ergebnis: Die achte Welt zeigt eher schwache verlegte Mitte, neunte und zehnte Welt zeigen neue getragene Zentrumskandidaten; Mitte wirkt damit als verlegbare Feldrolle, nicht als feste Knotenkopie.
+- `995_MCM_ZENTRUMSVERLAGERUNG_KANDIDATEN_RUECKLESUNG.md`
+  - Liest die staerksten neuen Zentrumskandidaten aus neunter und zehnter Welt einzeln zurueck. Ergebnis: mehrere Kandidaten, besonders `183drjy` und `1t5bcxp`, erscheinen in beiden Welten mit hoher Rekopplung, niedrigerem Strain und Rueckbindung an Zonen; die verlegte Mitte wirkt damit nicht nur lokal, sondern als wiederkehrende Feldrolle.
+- `996_MCM_ZENTRUMSVERLAGERUNG_ACHSENPAARE.md`
+  - Prueft, ob neue Zentrumskandidaten reziproke Achsen bilden. Ergebnis: `183drjy <-> 1t5bcxp` ist mit Abstand die staerkste verlegte Zentrumsachse und bleibt ueber neunte und zehnte Welt sichtbar.
+- `997_MCM_ZENTRUMSACHSE_ROHWELT_RUECKLESUNG.md`
+  - Legt reziproke Zentrumsachsen auf Rohwelt-, Rezeptor- und Feldbewegungsereignisse zurueck. Ergebnis: `183drjy <-> 1t5bcxp` ist nicht nur als Netzwerkkante sichtbar, sondern mit 1944 Ereignistreffern und 26 Paar-Events als weltlich getragene Achse ruecklesbar.
+- `998_MCM_ZENTRUMSACHSE_ZEITLICHE_LOKALISIERUNG.md`
+  - Lokalisiert reziproke Zentrumsachsen in Weltphasen. Ergebnis: In langen Rezeptorwelten erscheinen viele Knotennaehren breit verteilt, waehrend echte Paar-Events vor allem in kontrollierten Uebergangswelten zeitlich verdichtet auftreten; damit trennt sich breite Feldnaehe von lokalisierter Achsenkopplung.
+- `999_MCM_ZENTRUMSACHSE_TOPOLOGIE_ROLLENWECHSEL.md`
+  - Legt zeitlich lokalisierte Zentrumsachsen gegen Topologie-Rollenbewegungen. Ergebnis: `183drjy <-> 1t5bcxp` zeigt zeitliche Achsenlage und angrenzende Rollenbewegung, aber keine starre direkte Topologie-Paarspur; die Achse wirkt damit eher als Feldlage mit Rollennaehe als als fest verdrahtete Kante.
+- `1000_MCM_ZENTRUMSACHSE_LOKALE_KONTAKTSEGMENTE.md`
+  - Liest konkrete Kontaktsegmente der staerksten Zentrumsachse `183drjy <-> 1t5bcxp`. Ergebnis: 1944 Kontaktsegmente, davon 26 echte Paarsegmente; diese trennen breite Knotennaehre von lokaler Achsenkopplung.
+- `1001_MCM_ZENTRUMSACHSE_KONTAKTSEGMENT_WIEDERKEHR.md`
+  - Prueft die Wiederkehr lokaler Achsen-Kontaktsegmente. Ergebnis: Eine rekoppelnde Signatur erscheint 14-mal ueber 4 Welten; die restlichen Signaturen sind ueberwiegend situationsbedingt oder nur lokal wiederholt.
+- `1002_MCM_ZENTRUMSACHSE_SIGNATUR_NACHBARSCHAFT_FELDMITTE.md`
+  - Liest die staerkste wiederkehrende Achsen-Signatur gegen Nachbarschaft und Feldmitte. Ergebnis: `183drjy <-> 1t5bcxp` verbindet ein Rekopplungsfeld mit einer zentrumsnahen stabilen Bedeutungsinsel; die Beziehung wirkt als lokale Mitte-Nachbarschaft, nicht als starre Kante.
+- `1003_MCM_MITTE_NACHBARSCHAFT_FOLGEWELTEN_STABILITAET.md`
+  - Prueft die Mitte-Nachbarschaft `183drjy <-> 1t5bcxp` gegen Folgewelten. Ergebnis: In Welt 7/8 ist die Beziehung nicht als identische Token-Kopie sichtbar; in Welt 9/10 bleibt sie klar erhalten, reziprok und zentrumsnah. Das spricht fuer verlegte Feldrolle statt starre Symbolkopie.
+- `1004_MCM_NICHTBRUECKEN_ORDNUNG_VIERTE_WELT.md`
+  - Erzeugt dieselbe passive Nicht-Bruecken-Lesung fuer die vierte Weltgruppe als Gegenprobe zur Mitte-Nachbarschaft.
+- `1005_MCM_NICHTBRUECKEN_ORDNUNG_FUENFTE_WELT.md`
+  - Erzeugt dieselbe passive Nicht-Bruecken-Lesung fuer die fuenfte Weltgruppe. Ergebnis: `183drjy <-> 1t5bcxp` ist dort bereits reziprok, zentrumsnah und erhalten sichtbar.
+- `1006_MCM_NICHTBRUECKEN_ORDNUNG_SECHSTE_WELT.md`
+  - Erzeugt dieselbe passive Nicht-Bruecken-Lesung fuer die sechste Weltgruppe als weitere Gegenprobe.
+- `1007_MCM_MITTE_NACHBARSCHAFT_ERWEITERTE_FOLGEWELTEN.md`
+  - Liest `183drjy <-> 1t5bcxp` ueber Welt 4 bis 10. Ergebnis: sichtbar in Welt 5, nicht sichtbar in Welt 4/6/7/8, erneut stabil in Welt 9/10. Die Achse wirkt damit intermittierend wiederkehrend, nicht dauerhaft und nicht als starre Kopie.
+- `1008_MCM_MITTE_ACHSE_REGIMEWECHSEL_DIAGNOSE.md`
+  - Liest die Mitte-Nachbarschaft gegen Verdichtungszonen und Transitionen. Ergebnis: aktive Achsenwelten zeigen direkte bidirektionale Wechsel zwischen `183drjy` und `1t5bcxp`; inaktive Welten zeigen keinen direkten Achsenwechsel. Das spricht fuer eine Regime-/Uebergangsbindung der Achse.
+- `1009_MCM_AKTIVE_ACHSEN_CHARTZONEN.md`
+  - Liest aktive Achsen allgemein gegen Tickzonen aus vorhandenen Rohwelt-Ereignissen. Ergebnis: aktive Achsen konzentrieren sich in Rekopplungs-, Druck- und Bewegungsbruchzonen statt gleichmaessig ueber den Verlauf verteilt zu sein.
+- `1010_MCM_AKTIVE_ACHSEN_OHLCV_CHARTFENSTER.md`
+  - Legt aktive Achsenfenster auf echte OHLCV-Kerzen zurueck. Ergebnis: Achsen liegen in lokalisierbaren Chartfenstern wie gerichteter Uebergangsbewegung, getragener Expansion, Abverkauf, Konsolidierung mit Spannung und ruhiger Konsolidierung.
+- `1011_MCM_AKTIVE_ACHSEN_CHARTGRAFIKEN.md`
+  - Erzeugt passive Chartgrafiken mit markierten Achsenfenstern fuer die staerksten Zonen.
+- `1012_MCM_ACHSE_CHARTZONEN_TYPOLOGIE.md`
+  - Verdichtet aktive Achsenfenster in Chart-/MCM-Typen. Ergebnis: wiederkehrende Typen wie gerichtete Bewegung mit Rekopplung, gerichtete Bewegung mit Bruch, Konsolidierung unter Druck, Konsolidierung mit Rekopplung, getragene Expansion und Abverkauf mit Rekopplung oder Bruch.
+- `1013_MCM_ACHSE_TYPEN_WIEDERKEHR_ASSET_ZEIT.md`
+  - Prueft die 1012-Typologie gegen Asset-/Zeitebenen-Welten. Ergebnis: mehrere Referenztypen kehren wieder; zusaetzlich entstehen Erweiterungstypen wie weite Volatilitaetszone, gerichtete Uebergangsbewegung und Rekopplung nach Abverkauf.
+- `1014_MCM_ACHSE_TYPEN_WIEDERKEHR_KAS_GEGENPROBE.md`
+  - Prueft die Typen gegen KAS als Asset-Gegenprobe. Ergebnis: `konsolidierung_mit_bruchnaehe` kehrt wieder; `rekopplung_nach_abverkauf` erscheint erneut als Erweiterungstyp.
+- `1015_MCM_ACHSE_TYPEN_WIEDERKEHR_SYNTHESE.md`
+  - Fasst die Wiederkehrpruefung zusammen. Ergebnis: Die Typologie bleibt teilweise stabil und erweitert sich unter anderen Weltbedingungen; `rekopplung_nach_abverkauf` wird als naechster isolierter Pruefkandidat markiert.
+- `1016_MCM_REKOPPLUNG_NACH_ABVERKAUF_ISOLATION.md`
+  - Breite Isolationspruefung ueber Long-/Quiet-/Stress-Welten 2024/2025. Ergebnis: `rekopplung_nach_abverkauf` erscheint dort nicht als eigener Typ, aber `abverkauf_mit_rekopplung` kehrt 7-mal wieder.
+- `1017_MCM_REKOPPLUNG_NACH_ABVERKAUF_ISOLATIONSBEFUND.md`
+  - Ordnet den Isolationsbefund fachlich ein. Ergebnis: `rekopplung_nach_abverkauf` wirkt aktuell als moegliche Auspraegung der staerker bestaetigten Familie `abverkauf_mit_rekopplung`, nicht als bereits stabiler Einzel-Archetyp.
+- `1018_MCM_ABVERKAUF_REKOPPLUNG_FAMILIE.md`
+  - Liest die Familie Abverkauf/Rekopplung ueber 1013, 1014 und 1016. Ergebnis: drei Formen werden unterscheidbar: fallender Bruch, fallende Rekopplung und Erholung nach vorherigem Abverkauf; `abverkauf_mit_rekopplung` ist aktuell die stabilere Grundfamilie.
+- `1019_MCM_BULL_REKOPPLUNG_FAMILIE.md`
+  - Liest die Bull-/Aufwaertsfamilie ueber dieselben Typologiequellen. Ergebnis: drei Modi werden unterscheidbar: getragene Expansion, gerichtete Bewegung mit Rekopplung und gerichtete Bewegung mit Bruch; die Aufwaertsseite wirkt nicht als einfache Spiegelung des Abverkaufs, sondern als eigene Feldfamilie.
+- `1020_MCM_BULL_SELL_OFF_FAMILIENVERGLEICH.md`
+  - Vergleicht Bull-/Rekopplungsfamilien direkt mit Abverkauf-/Rekopplungsfamilien. Ergebnis: beide Seiten teilen Bruch und Rekopplung, sind aber asymmetrisch; Bull wird eher als Expansion/Fortsetzung gelesen, Abverkauf eher als fallende Rekopplung, Bruch und Erholung nach vorheriger Last.
+- `1021_MCM_BULL_SELLOFF_TOPOLOGIE_ROLLEN.md`
+  - Legt Bull-/Abverkaufsfamilien auf vorhandene Topologie-Rollen zurueck. Ergebnis: alle geprueften Modi liegen auf der gemeinsamen Achse `183drjy<->1t5bcxp`; die Asymmetrie entsteht nicht durch einen anderen Feldort, sondern durch unterschiedliche Weltphasen, Druck, Rekopplung und Bewegungsqualitaet an derselben Achse.
+- `1022_MCM_ACHSE_183DRJY_1T5BCXP_ROLLENQUALITAET.md`
+  - Isoliert die gemeinsame Achse `183drjy<->1t5bcxp` und liest ihre Kippmerkmale. Ergebnis: dieselbe Achse traegt mehrere Rollenqualitaeten wie Bull-Expansion, fallende Rekopplung, Bruch und Erholung nach Abverkauf; sie wirkt damit als Feldkanal, nicht als einzelner Zustand.
+- `1023_MCM_ACHSE_183DRJY_1T5BCXP_CHARTFENSTER.md`
+  - Visualisiert die gemeinsame Achse `183drjy<->1t5bcxp` als echte Chartfenster. Ergebnis: dieselbe Achse erscheint in sichtbar unterschiedlichen Weltformen wie Expansion, Bruch, Rekopplung und Erholung nach Last; die Rollenqualitaet ist damit an konkrete Weltfenster ruecklesbar.
+- `1024_MCM_ACHSE_183DRJY_1T5BCXP_VISUELLE_TYPOLOGIE.md`
+  - Leitet aus den Chartbildern der gemeinsamen Achse eine visuelle Typologie ab. Ergebnis: mindestens vier robuste Bild-/Feldtypen werden sichtbar: weite Aufwaerts-Expansion, fallende Rueckbindung, fallender Strukturbruch und Erholung nach vorheriger Last; dazu kommen schmalere oder gemischte Uebergangsformen.
+- `1025_MCM_VISUELLE_BEDEUTUNGSFORMEN_WIEDERKEHR.md`
+  - Prueft die visuellen Typen aus 1024 gegen weitere Detailwelten. Ergebnis: alle 8 Referenzformen kehren wieder; besonders fallende Rueckbindung, ruhige gerichtete Rekopplung, schmale offene Transition und weite Aufwaerts-Expansion zeigen viele Belege, waehrend gemischte Achsenbewegung und offenes Bullfenster mit Bruch bisher situationsgebundener wirken.
+- `1026_MCM_VISUELLE_BEDEUTUNGSFORMEN_STABILITAET.md`
+  - Sortiert die wiedergefundenen visuellen Bedeutungsformen nach Stabilitaet. Ergebnis: vier robuste Bedeutungsformen, zwei familiengebundene Bedeutungsformen und zwei situationsgebundene Hochspannungszustaende; Mini-DIO bildet damit eine gestufte passive Bedeutungsordnung statt einzelner isolierter Fenster.
+- `1027_MCM_PASSIVE_BEDEUTUNGSBIBLIOTHEK.md`
+  - Baut aus den robusten visuellen Bedeutungsformen eine passive Bedeutungsbibliothek. Ergebnis: vier robuste Bedeutungsformen werden als `dio_meaning_*`-Eintraege mit Weltform, Feldqualitaet, Streuung und offenen Grenzen dokumentiert; keine Handlung, kein Gate, keine Strategie.
+- `1028_MCM_BIBLIOTHEK_HOLDOUT_2024_15M_5M_TYPEN.md`
+  - Erzeugt eine getrennte Holdout-Typologie aus 2024er SOL/BTC-15m/5m-Welten. Ergebnis: 16 Achsenfenster, 6 Typen, davon 9 bekannte Referenzfenster und 7 neue/erweiterte Typfenster.
+- `1029_MCM_BIBLIOTHEK_HOLDOUT_2024_15M_5M_ABGLEICH.md`
+  - Gleicht die passive Bedeutungsbibliothek 1027 gegen die Holdout-Gruppe 1028 ab. Ergebnis: alle vier robusten Bedeutungsformen kehren wieder; die Bibliothek wird damit nicht als starre Kopie, sondern als wiedererkennbare passive Bedeutungsgrundlage bestaetigt.
+- `1030_MCM_BEDEUTUNGSBIBLIOTHEK_HOLDOUT_STABILITAET.md`
+  - Liest die Bibliothek gegen den Holdout nach Stabilitaet, Erweiterung und Offenheit. Ergebnis: `fallende_rueckbindung` und `ruhige_gerichtete_rekopplung` sind stabil bestaetigt, `weite_aufwaerts_expansion` ist bestaetigt mit Erweiterung, `schmale_offene_transition` bleibt duenn bestaetigt und offen.
+- `1031_MCM_BIBLIOTHEK_HOLDOUT_KAS_TYPEN.md`
+  - Erzeugt eine KAS-Holdout-Typologie aus 15m/1h-Gegenwelten. Ergebnis: nur drei Achsenfenster, zwei Typen; `konsolidierung_mit_bruchnaehe` kehrt duenn wieder, `rekopplung_nach_abverkauf` erscheint als neue/erweiterte starke KAS-Form.
+- `1032_MCM_BIBLIOTHEK_HOLDOUT_KAS_ABGLEICH.md`
+  - Gleicht die Bibliothek 1027 gegen die KAS-Holdout-Typen ab. Ergebnis: nur eine Bibliotheksform wird direkt wiedergefunden; KAS wirkt damit als Grenz- und Oeffnungsprobe.
+- `1033_MCM_BEDEUTUNGSBIBLIOTHEK_KAS_STABILITAET.md`
+  - Liest die KAS-Gegenprobe nach Stabilitaet. Ergebnis: drei Bibliotheksformen bleiben in KAS offen/nicht bestaetigt, `schmale_offene_transition` ist duenn bestaetigt; zugleich deutet `rekopplung_nach_abverkauf` auf eine moegliche assetnahe Erweiterungsform.
+- `1034_MCM_REKOPPLUNG_NACH_ABVERKAUF_ERWEITERUNG.md`
+  - Isoliert `rekopplung_nach_abverkauf` als Erweiterungskandidat. Ergebnis: keine robuste Bibliotheksform, aber bereits 1026 als familiengebundene `erholung_nach_vorlast` sichtbar und in KAS erneut aktiviert; fachlich offene Erweiterungsform, keine feste Bedeutungsaufnahme.
+- `1035_PAXG_2024_1H_10K_ZIELACHSEN_SEGMENTE.md`
+  - Extrahiert Zielachsen-Segmente aus einer unabhaengigen PAXG-2024-1h-10k-Probe. Ergebnis: keine direkten Ereignisse auf `183drjy <-> 1t5bcxp`; PAXG bildet in dieser Probe eine andere Ordnung.
+- `1036_MCM_REKOPPLUNG_NACH_ABVERKAUF_PAXG_GEGENPROBE.md`
+  - Dokumentiert die PAXG-Gegenprobe fuer den Kandidaten `rekopplung_nach_abverkauf`. Ergebnis: Kandidat nicht bestaetigt, aber Grenze sichtbar; PAXG zeigt stark stabile Innenfeldlage ohne direkte Zielachse, daher bleibt der Kandidat offen.
+- `1037_PAXG_2025_1H_10K_ZIELACHSEN_SEGMENTE.md`
+  - Extrahiert Zielachsen-Segmente aus einer unabhaengigen PAXG-2025-1h-10k-Probe. Ergebnis: erneut keine direkten Ereignisse auf `183drjy <-> 1t5bcxp`; PAXG 2025 bildet ebenfalls stabile Innenfeldlage ohne diese Zielachse.
+- `1038_MCM_REKOPPLUNG_NACH_ABVERKAUF_PAXG_2025_GEGENPROBE.md`
+  - Dokumentiert die zweite PAXG-Gegenprobe fuer `rekopplung_nach_abverkauf`. Ergebnis: Kandidat bleibt offen und weltabhaengig; KAS/BTC-nahe Aktivierung steht zwei PAXG-Nichtaktivierungen gegenueber.
+- `1039_MCM_AKTUELLER_ERKENNTNISSTAND_BEDEUTUNG_TOPOLOGIE_WELTABHAENGIGKEIT.md`
+  - Fasst den aktuellen Forschungsstand nach Bedeutungsbibliothek, KAS-Holdout und PAXG-Gegenproben zusammen. Ergebnis: Topologie bleibt stabiler als konkrete Syntaxzeichen; Bedeutungsformen sind weltabhaengig und muessen von allgemeineren MCM-Rollen getrennt gelesen werden.
+- `mini_dio/mcm_role_network.py`
+  - Passive Netzwerkschicht fuer Rollenverlauf, Nachbarschaft, Drift, Rekopplung, Weltqualitaet und Reifung.
+- `tools/report_mcm_role_network.py`
+  - Report-Tool zur Erzeugung der passiven `dio_net_*` Rolennetzwerk-Karte.
+- `tools/report_mcm_role_network_conditions.py`
+  - Report-Tool zur passiven Bedingungsdiagnose der `dio_net_*` Netzwerkzustaende.
+- `tools/report_mcm_fragmented_network_backtrace.py`
+  - Report-Tool zur passiven Ruecklesung belastet-fragmentierter Netzwerkknoten auf Kanten, Phasen und Nicht-Bruecken-Rollen.
+- `tools/report_mcm_network_counterstate_synthesis.py`
+  - Report-Tool zur Synthese der Gegenzustaende belastete Fragmentierung und ruhige Rekopplung.
+- `tools/report_mcm_role_network_repro_compare.py`
+  - Report-Tool zum passiven Reproduktionsvergleich frueher und spaeter Rolennetzwerk-Gruppen.
+- `tools/report_mcm_center_quality_backread.py`
+  - Report-Tool zur passiven Ruecklesung getragener Zentrumsqualitaet auf vorhandene Zonen-, Sinnes- und Klangbefunde.
+- `tools/report_mcm_center_shift_follow_worlds.py`
+  - Report-Tool zur passiven Pruefung, ob Zentrumsqualitaet in Folgewelten als alter Knoten reproduziert wird oder sich als neue Feldmitte verlagert.
+- `tools/report_mcm_center_candidate_backread.py`
+  - Report-Tool zur passiven Ruecklesung neuer Zentrumskandidaten auf Wiederkehr, Rekopplung, Strain und vorhandene Feldbelege.
+- `tools/report_mcm_center_axis_pairs.py`
+  - Report-Tool zur passiven Erkennung reziproker Achsen zwischen neuen Zentrumskandidaten.
+- `tools/report_mcm_center_axis_world_backread.py`
+  - Report-Tool zur passiven Ruecklesung reziproker Zentrumsachsen auf Rohwelt-, Rezeptor- und Feldbewegungsereignisse.
+- `tools/report_mcm_center_axis_temporal_localization.py`
+  - Report-Tool zur passiven zeitlichen Lokalisierung reziproker Zentrumsachsen nach Welt, Tickbereich und Weltphase.
+- `tools/report_mcm_axis_topology_role_overlap.py`
+  - Report-Tool zur passiven Gegenlesung zeitlicher Zentrumsachsen gegen direkte und angrenzende Topologie-Rollenbewegungen.
+- `tools/report_mcm_axis_contact_segments.py`
+  - Report-Tool zur passiven Extraktion lokaler Kontaktsegmente einer Zentrumsachse.
+- `tools/report_mcm_axis_segment_recurrence.py`
+  - Report-Tool zur passiven Wiederkehrpruefung lokaler Achsen-Kontaktsegmente.
+- `tools/report_mcm_axis_signature_center_neighborhood.py`
+  - Report-Tool zur passiven Gegenlesung einer wiederkehrenden Achsen-Signatur gegen Zentrum, Nachbarschaft und Feldzonen.
+- `tools/report_mcm_center_neighborhood_followworld_stability.py`
+  - Report-Tool zur passiven Stabilitaetspruefung einer Mitte-Nachbarschaft in mehreren Folgewelten.
+- `tools/report_mcm_axis_regime_switch_diagnosis.py`
+  - Report-Tool zur passiven Diagnose, ob eine Mitte-Nachbarschaft mit Regimewechsel-/Transitionsmerkmalen zusammenhaengt.
+- `tools/report_mcm_active_axes_chart_zones.py`
+  - Report-Tool zur passiven Lokalisierung aktiver Achsen in Tickzonen und Bewegungsarten.
+- `tools/report_mcm_active_axis_ohlcv_windows.py`
+  - Report-Tool zur passiven Gegenlesung aktiver Achsenfenster gegen echte OHLCV-Kerzen.
+- `tools/plot_mcm_active_axis_chart_windows.py`
+  - Plot-Tool fuer passive Chartgrafiken markierter MCM-Achsenfenster.
+- `tools/report_mcm_axis_chart_typology.py`
+  - Report-Tool zur passiven Typologie aktiver Achsenfenster aus Chartzone und MCM-Bewegung.
+- `tools/report_mcm_axis_typology_recurrence.py`
+  - Report-Tool zur passiven Wiederkehrpruefung der Achsentypologie ueber weitere Welten, Assets und Zeitebenen.
+- `tools/report_mcm_selloff_recoupling_family.py`
+  - Report-Tool zur passiven Familienlesung von Abverkauf, Bruch, Rekopplung und Nach-Abverkauf-Erholung.
+- `tools/report_mcm_bull_recoupling_family.py`
+  - Report-Tool zur passiven Familienlesung von Aufwaertsbewegung, Expansion, Rekopplung und steigendem Bruch.
+- `tools/report_mcm_bull_selloff_family_comparison.py`
+  - Report-Tool zum passiven Direktvergleich von Bull-/Rekopplungsfamilien gegen Abverkauf-/Rekopplungsfamilien.
+- `tools/report_mcm_family_topology_role_reading.py`
+  - Report-Tool zur passiven Gegenlesung von Bull-/Abverkaufsfamilien gegen vorhandene Topologie-Rollen.
+- `tools/report_mcm_axis_mode_switch_reading.py`
+  - Report-Tool zur passiven Isolation einer gemeinsamen Achse und ihrer Rollenqualitaet-Kippmerkmale.
+- `tools/plot_mcm_axis_mode_chart_windows.py`
+  - Plot-Tool zur passiven Visualisierung einer Achse in mehreren Rollenqualitaeten gegen echte OHLCV-Weltfenster.
+- `tools/report_mcm_axis_visual_typology.py`
+  - Report-Tool zur passiven Ableitung einer visuellen Typologie aus geplotteten Achsenfenstern.
+- `tools/report_mcm_visual_type_recurrence.py`
+  - Report-Tool zur passiven Wiederkehrpruefung visueller Bedeutungsformen ueber weitere Detailwelten.
+- `tools/report_mcm_visual_type_stability.py`
+  - Report-Tool zur passiven Stabilitaetssortierung visueller Bedeutungsformen.
+- `tools/report_mcm_passive_meaning_library.py`
+  - Report-Tool zur passiven Bedeutungsbibliothek aus robusten visuellen Bedeutungsformen.
+- `tools/report_mcm_meaning_library_holdout_stability.py`
+  - Report-Tool zur passiven Stabilitaetslesung einer Bedeutungsbibliothek gegen eine Holdout-Gruppe.
+- `tools/report_mcm_candidate_meaning_extension.py`
+  - Report-Tool zur passiven Isolation eines Bedeutungs-Erweiterungskandidaten gegen Bibliothek, Vorreife und Holdout-Aktivierung.
 - `tools/report_mcm_role_shift_memory_reading.py`
   - Report-Tool zur Folgelesung passiver `dio_shift_*` Rollenwechsel-Memory gegen weitere Nicht-Bruecken-Landschaften.
 

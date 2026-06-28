@@ -1,0 +1,9 @@
+reading,count,sides,modes,phase_hints,movement_types,avg_return_pct,avg_range_pct,avg_pressure_abs,avg_rekopplung_abs
+bull_expansion,8,bull:8,getragene_expansion:8,getragene_expansion:3 | steigende_rekopplung_getragen:3 | steigende_expansion_mit_bruch:2,rekopplungs_uebergang:3 | bewegungsbruch_zone:2 | offene_uebergangszone:2 | druck_uebergang:1,29.146646,40.035995,0.074675,0.021062
+bull_open_bruch_risk,2,bull:2,gerichtete_bewegung_mit_bruch:2,offenes_bull_fenster:2,bewegungsbruch_zone:2,-24.605691,35.293561,0.058201,0.016481
+falling_bruch,4,selloff:4,abverkauf_mit_bruch:4,fallender_bruch:2 | offenes_familienfenster:2,bewegungsbruch_zone:2 | offene_uebergangszone:2,-15.55323,21.204778,0.063828,0.019154
+falling_rekopplung,7,selloff:7,abverkauf_mit_rekopplung:7,fallende_rekopplung:7,rekopplungs_uebergang:7,-16.343053,26.165717,0.051619,0.019111
+last_rebound_rekopplung,4,selloff:4,rekopplung_nach_abverkauf:4,erholung_nach_abverkauf:4,druck_uebergang:1 | offene_uebergangszone:1 | bewegungsbruch_zone:1 | rekopplungs_uebergang:1,59.870493,91.03631,0.091296,0.02023
+mixed_axis_state,1,bull:1,gerichtete_bewegung_mit_bruch:1,steigender_bruch:1,bewegungsbruch_zone:1,20.07336,31.890104,0.066661,0.021382
+open_transition,1,bull:1,gerichtete_bewegung_mit_bruch:1,offenes_bull_fenster:1,bewegungsbruch_zone:1,1.115271,5.874207,0.069925,0.019541
+quiet_rekopplung,4,bull:4,gerichtete_bewegung_mit_rekopplung:4,offenes_bull_fenster:3 | steigende_rekopplung:1,rekopplungs_uebergang:4,4.737651,12.69461,0.052582,0.019147
