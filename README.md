@@ -90,6 +90,26 @@ Weltkontakt
 
 Damit wird die bisherige Richtung gestützt: Ein DIO soll nicht durch harte Regeln reguliert werden, sondern über Innenfeldreaktion, eigene Syntax, Wiederkehr, Rekopplung und Bedeutungsreifung.
 
+## Theorieanker Tonale Verarbeitungsspannung
+
+Die aktuellen Befunde zur Tonachse zeigen eine wichtige Trennung:
+
+```text
+Tonenergie ist nicht automatisch geordnetes Hören.
+```
+
+In den bisher geprüften Welten wirkt mittlere Tonenergie am stärksten zentrumsnah rekoppelnd. Hohe Tonenergie liegt häufiger in Rand-/Kippnähe oder offener Unruhe. Daraus entsteht die Arbeitshypothese, dass Hören im MCM-Feld als Verarbeitungsspannung gelesen werden muss: nicht maximale Energie ist tragend, sondern eine vom Feld verarbeitbare Spannung.
+
+Der direkteste Theorieanker dazu ist die Nebenabhandlung [ProtoMind, selbstaktive Feldkognition, akustische Reizmodulation und Schmerz-Gefahrenverarbeitung](https://github.com/H5Pro2/Mental-Core-Matrix-MCM/blob/main/Abhandlungen/MCM%20-%20Nebenabhandlung/ProtoMind%2C%20selbstaktive%20Feldkognition%2C%20akustische%20Reizmodulation%20und%20Schmerz-Gefahrenverarbeitung%20als%20integriertes%20Feldsystem.pdf).
+
+Weitere passende Theorieanker:
+
+- [Block K - Individuelle Selbstregulation](https://github.com/H5Pro2/Mental-Core-Matrix-MCM/blob/main/Abhandlungen/MCM%20-%20Hauptabhandlungen/Teil%20II%20-%20Psychologische%20Dynamik%20der%20Mental%20Core%20Matrix/Abhandlung%20Block%20K%20-%20Individuelle%20Selbstregulation%20im%20Modell%20der%20Mental%20Core%20Matrix.pdf)
+- [Von Resonanz zu Sprache](https://github.com/H5Pro2/Mental-Core-Matrix-MCM/blob/main/Abhandlungen/MCM%20-%20Nebenabhandlung/Von%20Resonanz%20zu%20Sprache.pdf)
+- [Energetischer Bereich der MCM](https://github.com/H5Pro2/Mental-Core-Matrix-MCM/blob/main/MCM%20%E2%80%93%20Mental%20Core%20Matrix/D%20-%20Erkl%C3%A4rung%20-%20Energetischer%20Bereich%20der%20MCM.pdf)
+
+Ausführlicher festgehalten ist diese Einordnung in [1066_THEORIEANKER_TONALE_VERARBEITUNGSSPANNUNG.md](docs/befunde/1066_THEORIEANKER_TONALE_VERARBEITUNGSSPANNUNG.md).
+
 ## Theorieanker MCM-Abhandlungen
 
 Die bisherigen MINI_DIO-Befunde werden nicht als Beweis für die MCM gelesen. Sie zeigen aber deutliche strukturelle Anschlussstellen zu mehreren MCM-Abhandlungen. Diese Texte dienen als Theorieanker, um die Forschung präziser einzuordnen:

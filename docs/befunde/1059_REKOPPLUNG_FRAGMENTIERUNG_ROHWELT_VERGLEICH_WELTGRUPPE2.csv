@@ -1,0 +1,12 @@
+passive_only,read_by_mini_dio,influences_action,is_gate,is_motoric,is_entry_signal,is_direction_signal,metric,recoupling_avg,fragmentation_avg,fragmentation_minus_recoupling,reading
+1,0,0,0,0,0,0,delta_seen_stability_vs_world,-0.015266,0.041389,0.056655,Sichtstabilitaet unterscheidet die Zielzustaende sichtbar.
+1,0,0,0,0,0,0,delta_seen_change_vs_world,-0.002686,0.02484,0.027526,Fragmentierung liegt hoeher.
+1,0,0,0,0,0,0,delta_energy_tone_vs_world,-0.016677,0.048985,0.065663,Fragmentierung zeigt vorab deutlich mehr tonale Energie relativ zur Weltbasis.
+1,0,0,0,0,0,0,delta_energy_shift_abs_vs_world,-0.009472,-0.014798,-0.005326,Keine starke mittlere Trennung.
+1,0,0,0,0,0,0,delta_loudness_vs_world,-0.010704,-0.007713,0.002991,Keine starke mittlere Trennung.
+1,0,0,0,0,0,0,delta_visual_sharpness_vs_world,0.011851,0.034784,0.022933,Fragmentierung liegt hoeher.
+1,0,0,0,0,0,0,delta_felt_pressure_vs_world,-0.006953,-0.00788,-0.000926,Keine starke mittlere Trennung.
+1,0,0,0,0,0,0,delta_adapted_field_intake_vs_world,-0.005207,-0.003782,0.001425,Fragmentierung zeigt vorab mehr Feldaufnahme relativ zur Weltbasis.
+1,0,0,0,0,0,0,delta_mcm_tension_vs_world,-0.005207,-0.003782,0.001425,Keine starke mittlere Trennung.
+1,0,0,0,0,0,0,avg_target_rekopplung,0.728635,0.539833,-0.188801,Rekopplungstraeger liegen im Zielzustand deutlich hoeher als Fragmentierung.
+1,0,0,0,0,0,0,avg_target_strain,0.126233,0.337809,0.211576,Fragmentierung liegt im Zielzustand deutlich hoeher in Strain/Last.

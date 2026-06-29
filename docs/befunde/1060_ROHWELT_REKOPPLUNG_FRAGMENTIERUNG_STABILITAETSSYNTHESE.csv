@@ -1,0 +1,6 @@
+passive_only,read_by_mini_dio,influences_action,is_gate,is_motoric,is_entry_signal,is_direction_signal,metric,gruppe1_delta_fragmentierung_minus_rekopplung,gruppe2_delta_fragmentierung_minus_rekopplung,stability_reading
+1,0,0,0,0,0,0,delta_energy_tone_vs_world,0.041169,0.065663,stabil_fragmentierung_tonal_hoeher
+1,0,0,0,0,0,0,delta_loudness_vs_world,0.047788,0.002991,richtung_gleich_aber_gruppe2_schwach
+1,0,0,0,0,0,0,delta_adapted_field_intake_vs_world,0.021916,0.001425,richtung_gleich_aber_weltgruppenabhaengig
+1,0,0,0,0,0,0,avg_target_rekopplung,-0.193461,-0.188801,stabil_rekopplung_im_rekopplungsziel_hoeher
+1,0,0,0,0,0,0,avg_target_strain,0.215656,0.211576,stabil_fragmentierung_im_fragmentierungsziel_hoeher

@@ -1619,6 +1619,68 @@ Besonders relevant fuer den aktuellen Bauplanstand:
   - Liest die vorgelagerte Rezeptor-/Innenfeldseite der Rollenverschiebung. Ergebnis: Belastung wird spaeter nicht harmloser, aber seltener dominant ausgeloest; Rekopplung wird weniger breit, aber sauberer gebunden.
 - `1053_REZEPTOR_INNENFELD_URSACHE_ROLLENVERSCHIEBUNG.csv`
   - Verdichtet fruehe/spaete Netzwerkzustaende zu Rezeptor-/Innenfeldlesungen fuer Fragmentierung, Zentrum, Rekopplung, Drift und Einzelrekopplung.
+- `1054_ROHWELT_RUECKLESUNG_VOR_REKOPPLUNGSBINDUNG.md`
+  - Liest das Vorfenster vor spaeterer Rekopplungsbindung gegen sichtbare Form, Ton-/Energieform und Weltspannung. Ergebnis: Rekopplung folgt in den geprueften Laeufen keiner einzelnen Rohweltgroesse, sondern einem relativ gedaempften Vorfeld aus offener Formaufnahme, gedaempfter Energie und reduzierter Feldaufnahme.
+- `1054_ROHWELT_RUECKLESUNG_VOR_REKOPPLUNGSBINDUNG.csv`
+  - Laufmatrix mit Rekopplungsereignissen, dominanten Vorformen und Delta-Werten gegen die jeweilige Weltbasis.
+- `tools/report_raw_world_before_recoupling.py`
+  - Report-Tool zur passiven Ruecklesung von Weltspannung, Ton-/Energieform und sichtbarer Form im Vorfenster vor Rekopplungsbindung oder belasteter Fragmentierung.
+- `1055_ROHWELT_RUECKLESUNG_VOR_FRAGMENTIERUNG.md`
+  - Liest das Vorfenster vor seltenen belasteten Fragmentierungszustandsmomenten. Ergebnis: Fragmentierung ist deutlich seltener als Rekopplung und zeigt relativ zur Weltbasis mehr tonale Energie, mehr Lautheit, mehr Feldaufnahme und mehr Ziel-Strain.
+- `1055_ROHWELT_RUECKLESUNG_VOR_FRAGMENTIERUNG.csv`
+  - Laufmatrix mit Fragmentierungsereignissen, dominanten Vorformen und Delta-Werten gegen die jeweilige Weltbasis.
+- `1056_REKOPPLUNG_FRAGMENTIERUNG_ROHWELT_VERGLEICH.md`
+  - Legt Rekopplungs- und Fragmentierungsruecklesung direkt nebeneinander. Ergebnis: Rekopplung folgt einem gedaempfteren Vorfeld; Fragmentierung zeigt ein energiereicheres, feldaufnahme-staerkeres Vorfeld.
+- `1056_REKOPPLUNG_FRAGMENTIERUNG_ROHWELT_VERGLEICH.csv`
+  - Metrikmatrix fuer Rekopplung gegen Fragmentierung mit Durchschnittswerten, Delta und passiver Lesung.
+- `tools/report_recoupling_fragmentation_contrast.py`
+  - Report-Tool fuer den direkten passiven Vergleich zweier Rohwelt-Ruecklesungen.
+- `1057_ROHWELT_RUECKLESUNG_VOR_REKOPPLUNGSBINDUNG_WELTGRUPPE2.md`
+  - Wiederholt die Rekopplungs-Ruecklesung auf einer zweiten Weltgruppe aus Real-, Stress-, Expansion-, Seitwaerts- und Field-Quiet-Laeufen. Ergebnis: Rekopplung bleibt breit sichtbar und folgt erneut einem gedaempfteren Vorfeld.
+- `1057_ROHWELT_RUECKLESUNG_VOR_REKOPPLUNGSBINDUNG_WELTGRUPPE2.csv`
+  - Laufmatrix fuer Rekopplungsereignisse der zweiten Weltgruppe.
+- `1058_ROHWELT_RUECKLESUNG_VOR_FRAGMENTIERUNG_WELTGRUPPE2.md`
+  - Wiederholt die Fragmentierungs-Ruecklesung auf der zweiten Weltgruppe. Ergebnis: Fragmentierung bleibt selten und zeigt im Vorfeld erhoehte tonale/energetische Aktivierung.
+- `1058_ROHWELT_RUECKLESUNG_VOR_FRAGMENTIERUNG_WELTGRUPPE2.csv`
+  - Laufmatrix fuer Fragmentierungsereignisse der zweiten Weltgruppe.
+- `1059_REKOPPLUNG_FRAGMENTIERUNG_ROHWELT_VERGLEICH_WELTGRUPPE2.md`
+  - Direkter Vergleich der zweiten Weltgruppe. Ergebnis: Ton-/Energie-Delta bleibt klar trennend; Feldaufnahme trennt nur schwach und ist kontextabhaengiger.
+- `1059_REKOPPLUNG_FRAGMENTIERUNG_ROHWELT_VERGLEICH_WELTGRUPPE2.csv`
+  - Metrikmatrix fuer Rekopplung gegen Fragmentierung in Weltgruppe 2.
+- `1060_ROHWELT_REKOPPLUNG_FRAGMENTIERUNG_STABILITAETSSYNTHESE.md`
+  - Synthese aus beiden Weltgruppen. Ergebnis: Rekopplung und Fragmentierung unterscheiden sich stabil im Zielzustand und in der tonalen/energetischen Voraktivierung; Feldaufnahme und Lautheit sind weniger stabil und weltgruppenabhaengiger.
+- `1060_ROHWELT_REKOPPLUNG_FRAGMENTIERUNG_STABILITAETSSYNTHESE.csv`
+  - Verdichtete Stabilitaetsmatrix der wichtigsten Deltas ueber beide Weltgruppen.
+- `1061_PASSIVE_REZEPTOR_REGULATIONSKARTE.md`
+  - Verdichtet die Rohwelt-Ruecklesungen zu einer passiven Rezeptor-Regulationskarte. Ergebnis: `tonale_energie` ist bisher die robusteste Fragmentierungsnaehe-Achse; Lautheit, Formstabilitaet, Feldaufnahme und Feldspannung sind schwach; Formwechsel, Schaerfe, Druck und tonaler Wechsel bleiben weltabhaengig.
+- `1061_PASSIVE_REZEPTOR_REGULATIONSKARTE.csv`
+  - Lesematrix der Sinnesachsen nach Gruppe-1/Gruppe-2-Delta, Mittelwert und passiver Regulationslesung.
+- `tools/report_passive_receptor_regulation_map.py`
+  - Report-Tool zur passiven Verdichtung von Rekopplungs-/Fragmentierungsvergleichen in Sinnesachsen und Rezeptorachsen.
+- `1062_TONALE_ENERGIE_GEGEN_FELDROLLEN.md`
+  - Prueft Tonenergie gegen vorhandene Feldrollen auf Episodenebene. Ergebnis: hohe Tonenergie traegt schlechter als mittlere Tonenergie; Rohenergie und geordnetes Hinhoeren sind getrennte Ebenen.
+- `1062_TONALE_ENERGIE_GEGEN_FELDROLLEN.csv`
+  - Weltrelative Tonenergie-Baender mit Rekopplung, Strain, Carry, Feldaufnahme, Lautheit, Hinhoeren und Daempfung.
+- `tools/report_tonal_energy_against_field_roles.py`
+  - Report-Tool zur passiven Gegenprobe von Tonenergie gegen Feldrollen und Rezeptorhaltung.
+- `1063_TONALE_ENERGIE_TOPOLOGIE_ROLLEN.md`
+  - Liest Tonenergie-Baender gegen relativ abgeleitete Topologie-Rollen. Ergebnis: mittlere Tonenergie ist am staerksten zentrums-rekoppelnd; hohe Tonenergie liegt am staerksten in Rand/Kipp-Naehe.
+- `1063_TONALE_ENERGIE_TOPOLOGIE_ROLLEN.csv`
+  - Rollenmatrix fuer `tonal_low`, `tonal_mid` und `tonal_high` mit Rekopplung, Strain, Carry, Spannung und Rezeptoraufnahme.
+- `tools/report_tonal_energy_topology_roles.py`
+  - Report-Tool zur passiven Topologielesung von Tonenergie-Baendern ohne globale Schwellenwerte.
+- `1064_TONALE_ENERGIE_TOPOLOGIE_ROLLEN_WEITERE_WELTGRUPPE.md`
+  - Wiederholt die Topologielesung auf synthetischen und Anchor-/Cross-Anchor-Welten. Ergebnis: `tonal_mid` bleibt zentrums-rekoppelnd dominant; `tonal_high` bleibt rand-/kippnaeher und offener.
+- `1064_TONALE_ENERGIE_TOPOLOGIE_ROLLEN_WEITERE_WELTGRUPPE.csv`
+  - Gegenmatrix zur weiteren Weltgruppe mit denselben Rollenmetriken wie 1063.
+- `1065_TONALE_VERARBEITUNGSSPANNUNG_SYNTHESE.md`
+  - Verdichtet 1063 und 1064. Ergebnis: Hoeren wirkt als Verarbeitungsspannung; mittlere Tonenergie ist bisher am feldtragendsten, hohe Tonenergie faerbt eher Rand/Kipp oder offene Unruhe.
+- `1065_TONALE_VERARBEITUNGSSPANNUNG_SYNTHESE.csv`
+  - Kurze Vergleichsmatrix der dominanten Tonband-Rollen ueber Basisgruppe und weitere Weltgruppe.
+- `1066_THEORIEANKER_TONALE_VERARBEITUNGSSPANNUNG.md`
+  - Ordnet die Tonenergie-Befunde gegen ProtoMind, Block K, Von Resonanz zu Sprache und den energetischen Bereich der MCM ein. Ergebnis: Hoeren wird als Verarbeitungsspannung gelesen, nicht als rohe Lautstaerke oder Handlungssignal.
+- `1066_THEORIEANKER_TONALE_VERARBEITUNGSSPANNUNG.csv`
+  - Kurze Theorieanker-Matrix mit Anschluss, MINI_DIO-Befund und wissenschaftlicher Grenze.
 - `mini_dio/mcm_role_network.py`
   - Passive Netzwerkschicht fuer Rollenverlauf, Nachbarschaft, Drift, Rekopplung, Weltqualitaet und Reifung.
 - `tools/report_mcm_role_network.py`
