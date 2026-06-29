@@ -1681,6 +1681,20 @@ Besonders relevant fuer den aktuellen Bauplanstand:
   - Ordnet die Tonenergie-Befunde gegen ProtoMind, Block K, Von Resonanz zu Sprache und den energetischen Bereich der MCM ein. Ergebnis: Hoeren wird als Verarbeitungsspannung gelesen, nicht als rohe Lautstaerke oder Handlungssignal.
 - `1066_THEORIEANKER_TONALE_VERARBEITUNGSSPANNUNG.csv`
   - Kurze Theorieanker-Matrix mit Anschluss, MINI_DIO-Befund und wissenschaftlicher Grenze.
+- `1067_REZEPTORHALTUNG_VON_TONAL_MID.md`
+  - Prueft innerhalb von `tonal_mid`, welche Rezeptorhaltungen zentrumsnahe Rekopplung stabilisieren. Ergebnis: zentrumsnahes `tonal_mid` zeigt mehr visuelle Schaerfe und Hinhoeren, aber weniger Lautheit, Hoerkontakt, Roh-/Adaptfeldaufnahme und visuelle Distanz.
+- `1067_REZEPTORHALTUNG_VON_TONAL_MID.csv`
+  - Rezeptorachsen-Matrix fuer zentrums-rekoppelndes `tonal_mid` gegen uebrige `tonal_mid`-Episoden.
+- `tools/report_tonal_mid_receptor_stabilizers.py`
+  - Report-Tool zur passiven Pruefung der Rezeptorhaltung, die eine Zielrolle innerhalb eines Tonenergie-Bandes unterscheidet.
+- `1068_REZEPTORHALTUNG_VON_TONAL_HIGH_RAND_KIPP.md`
+  - Prueft innerhalb von `tonal_high`, welche Rezeptorhaltungen Rand/Kipp-Naehe begleiten. Ergebnis: Rand/Kipp koppelt an mehr Lautheit, Hoerkontakt, Stimulation, Daempfung, Roh-/Adaptfeldaufnahme und visuelle Distanz bei weniger Hinhoeren und weniger visueller Schaerfe.
+- `1068_REZEPTORHALTUNG_VON_TONAL_HIGH_RAND_KIPP.csv`
+  - Rezeptorachsen-Matrix fuer `tonal_high` und Zielrolle `rand_kipp`.
+- `1069_REZEPTORHALTUNG_VERARBEITUNG_GEGEN_KIPPNAEHE.md`
+  - Verdichtet 1067 und 1068. Ergebnis: tragende Verarbeitung entsteht aus mittlerer Tonspannung, visueller Schaerfe, Hinhoeren und reduzierter Rohlast; Kippnaehe entsteht aus lauterem Kontakt, mehr Stimulation, mehr Feldaufnahme, mehr Distanz und weniger geordnetem Hinhoeren.
+- `1069_REZEPTORHALTUNG_VERARBEITUNG_GEGEN_KIPPNAEHE.csv`
+  - Kurze Vergleichsmatrix der stabilisierenden und belastenden Rezeptorhaltung.
 - `mini_dio/mcm_role_network.py`
   - Passive Netzwerkschicht fuer Rollenverlauf, Nachbarschaft, Drift, Rekopplung, Weltqualitaet und Reifung.
 - `tools/report_mcm_role_network.py`

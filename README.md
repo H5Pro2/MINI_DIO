@@ -8,7 +8,7 @@ Als Studienwelt dienen aktuell Kursverläufe, weil sie Zeit, Bewegung, Energie, 
 
 ## Projektgrenze
 
-MINI_DIO untersucht, wie aus kontrolliertem Weltkontakt eine eigene Innenordnung entsteht.
+Der Fokus liegt darauf, wie aus kontrolliertem Weltkontakt eine eigene Innenordnung entsteht.
 
 Die verwendeten Weltspuren werden nicht als Anweisung gelesen, sondern als transformierbares Reizfeld. Daraus wird untersucht, wie Sinnesaufnahme, Rezeptorik, Innenfeldwirkung, Topologie, Feldzeit, Nachhall und Bedeutungsverdichtung entstehen.
 
@@ -24,7 +24,7 @@ MINI_DIO = Forschungsmodell fuer MCM-Feld, Wahrnehmung und Bedeutungsverdichtung
 
 ## Worum Es Geht
 
-MINI_DIO untersucht eine einfache, aber weitreichende Frage:
+Im Zentrum steht eine einfache, aber weitreichende Frage:
 
 Kann ein künstliches [MCM](https://github.com/H5Pro2/Mental-Core-Matrix-MCM)-Innenfeld aus wiederholtem Weltkontakt eine eigene Ordnung bilden?
 
