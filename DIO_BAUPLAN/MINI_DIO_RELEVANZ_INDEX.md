@@ -1593,6 +1593,32 @@ Besonders relevant fuer den aktuellen Bauplanstand:
   - Prueft `dio_14wj` gegen PAXG 5m und 1h. Ergebnis: Die ruhige Rekopplungsrolle bleibt auch auf 1h sichtbar, verliert dort aber deutlich an Dominanz und Nachhall; `dio_155c` ist haeufiger auf 1h, aber nicht der gleiche Ruhetraeger.
 - `1046_MCM_ABHANDLUNGEN_ABGLEICH_MINI_DIO_ERKENNTNISSE.md`
   - Gleicht aktuelle MINI_DIO-Befunde gegen vorhandene MCM-Abhandlungen ab. Ergebnis: Besonders Block W, Block K, Block D, Von Resonanz zu Sprache, ProtoMind, Pure Emergence/3D und MCM-Robustness passen als Theorieanker; daraus folgt fuer die naechste Pruefung: Rollenqualitaet wichtiger lesen als einzelnes Syntaxzeichen.
+- `1047_DIO14WJ_GEGEN_BTC_SOL_KAS_ROLLENPRUEFUNG.md`
+  - Prueft `dio_14wj` rollenbasiert gegen BTC, SOL und KAS. Ergebnis: `dio_14wj` ist keine PAXG-exklusive Familie, sondern eine allgemeiner auftretende ruhige Rekopplungsrolle; PAXG aktiviert und verbreitert diese Rolle deutlich staerker.
+- `1048_RUHIGE_REKOPPLUNG_ROLLENBIBLIOTHEK.md`
+  - Verdichtet die 1047-Kandidaten zu einer Rollenbibliothek fuer `ruhige_rekopplung`. Ergebnis: Die Rolle ist keine Einzelfamilie, sondern eine wiederkehrende MCM-Feldfunktion, die von mehreren Syntaxfamilien getragen wird.
+- `1048_RUHIGE_REKOPPLUNG_ROLLENBIBLIOTHEK.csv`
+  - Aggregierte Rollenmatrix mit Weltenanzahl, Score, Nachhall, Zeitvertrauen, Kontaktlast und Rollenkategorie.
+- `1049_BRUECKEN_UND_GEGENROLLEN_BIBLIOTHEK.md`
+  - Gegenprobe zu 1048: Prueft offene, rekoppelnde, driftende, fragmentierte und zentrumsnahe Netzrollen. Ergebnis: Rollenbildung ist nicht auf ruhige Rekopplung beschraenkt; MINI_DIO bildet mehrere unterscheidbare passive Feldrollen.
+- `1049_BRUECKEN_UND_GEGENROLLEN_BIBLIOTHEK.csv`
+  - Verdichtete Rollenmatrix aus Netzwerkzustand, Knotenanzahl, Beobachtungen, Rekopplung, Strain, Nachbarschaft und Top-Knoten.
+- `1050_ROLLENUEBERGANG_MATRIX.md`
+  - Prueft passive Nachbarschaftsachsen zwischen Feldrollen. Ergebnis: MINI_DIO bildet nicht nur Rollen, sondern Rollenuebergangsachsen wie Fragmentierung-Selbstbindung, Offenheit-Fragmentierung und Fragmentierung-Zentrum/Rekopplung.
+- `1050_ROLLENUEBERGANG_MATRIX.csv`
+  - Aggregierte Uebergangsmatrix aus Quellenrolle, Zielrolle, Gewicht, Rekopplungs-/Strain-Delta und Beispielkanten.
+- `1051_ROLLENUEBERGANG_WELTGRUPPEN_VERGLEICH.md`
+  - Vergleicht Rollenuebergangsachsen zwischen frueher und spaeter Repro-Gruppe. Ergebnis: Hauptachsen bleiben reproduzierbar, ihre Staerke verschiebt sich aber weltabhaengig; spaeter wird `rekoppelnd -> rekoppelnd` deutlich wichtiger.
+- `1051_ROLLENUEBERGANG_WELTGRUPPEN_VERGLEICH.csv`
+  - Vergleichsmatrix mit Rang, Gewicht, Rekopplungsdelta und Strain-Delta pro Uebergangsachse.
+- `1052_ROLLENUEBERGANG_BEDINGUNGSURSACHE.md`
+  - Liest die interne Feldbedingung hinter der 1051-Verschiebung. Ergebnis: Fragmentierung bleibt strukturell vorhanden, verliert aber Dominanz; rekoppelnde Selbstbindung wird spaeter staerker.
+- `1052_ROLLENUEBERGANG_BEDINGUNGSURSACHE.csv`
+  - Vergleich der fruehen und spaeten Netzwerkzustaende nach Knoten, Beobachtungen, Weltanzahl, Nachbarschaft, Rekopplung, Strain und Rollenprofil.
+- `1053_REZEPTOR_INNENFELD_URSACHE_ROLLENVERSCHIEBUNG.md`
+  - Liest die vorgelagerte Rezeptor-/Innenfeldseite der Rollenverschiebung. Ergebnis: Belastung wird spaeter nicht harmloser, aber seltener dominant ausgeloest; Rekopplung wird weniger breit, aber sauberer gebunden.
+- `1053_REZEPTOR_INNENFELD_URSACHE_ROLLENVERSCHIEBUNG.csv`
+  - Verdichtet fruehe/spaete Netzwerkzustaende zu Rezeptor-/Innenfeldlesungen fuer Fragmentierung, Zentrum, Rekopplung, Drift und Einzelrekopplung.
 - `mini_dio/mcm_role_network.py`
   - Passive Netzwerkschicht fuer Rollenverlauf, Nachbarschaft, Drift, Rekopplung, Weltqualitaet und Reifung.
 - `tools/report_mcm_role_network.py`

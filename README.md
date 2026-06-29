@@ -1,19 +1,21 @@
 ﻿# MINI_DIO
 
-MINI_DIO ist ein eigenständiges Forschungsprojekt für ein kleines, [MCM](https://github.com/H5Pro2/Mental-Core-Matrix-MCM)-basiertes Innenfeldsystem.
+MINI_DIO ist ein eigenständiges Forschungsprojekt für ein [MCM](https://github.com/H5Pro2/Mental-Core-Matrix-MCM)-basiertes Innenfeldsystem.
 
-DIO steht für Digitaler Organismus. Aus dem Forschungsprozess heraus entstand die Überlegung, einem solchen Organismus eine kontrollierte Außenwelt zu geben, die energiegeladen, ruhig, rhythmisch, brüchig oder wiederkehrend sein kann. Dafür werden Chartdaten verwendet, weil sie eine besondere Eigenschaft besitzen: Sie lassen sich als visuelle, tonale, energetische und zeitliche Spur in eine testbare Welt übersetzen. An dieser Welt kann ein künstliches MCM-Feld passiv reagieren, ordnen und Bedeutung verdichten.
+DIO steht für Digitaler Organismus. Aus dem Forschungsprozess heraus entstand die Überlegung, einem solchen Organismus eine kontrollierte Außenwelt zu geben, die energiegeladen, ruhig, rhythmisch, brüchig oder wiederkehrend sein kann.
+
+Als Studienwelt dienen aktuell Kursverläufe, weil sie Zeit, Bewegung, Energie, Rhythmus, Bruch, Ruhe, Wiederkehr und Varianz enthalten. Diese Spur wird in Sehen, Hören, Rezeptorik und Feldwirkung übersetzt. An ihr wird untersucht, ob ein künstliches Innenfeld passiv reagieren, ordnen und Bedeutung verdichten kann.
 
 ## Projektgrenze
 
-MINI_DIO untersucht, wie ein kleines MCM-Feld aus einer kontrollierten Außenwelt Innenordnung bildet.
+MINI_DIO untersucht, wie aus kontrolliertem Weltkontakt eine eigene Innenordnung entsteht.
 
-Chartdaten werden hier nicht als Marktanweisung gelesen, sondern als transformierbare Weltspur. Sie liefern Zeit, Bewegung, Energie, Rhythmus, Bruch, Ruhe, Wiederkehr und Varianz. Daraus wird untersucht, wie ein kleines MCM-Feld Sinnesaufnahme, Rezeptorik, Innenfeldwirkung, Topologie, Feldzeit, Nachhall und Bedeutungsverdichtung ausbildet.
+Die verwendeten Weltspuren werden nicht als Anweisung gelesen, sondern als transformierbares Reizfeld. Daraus wird untersucht, wie Sinnesaufnahme, Rezeptorik, Innenfeldwirkung, Topologie, Feldzeit, Nachhall und Bedeutungsverdichtung entstehen.
 
 Die Grenze ist einfach:
 
 ```text
-Chartdaten = transformierbare Außenwelt.
+Kursverläufe = transformierbare Außenwelt.
 MINI_DIO = Forschungsmodell fuer MCM-Feld, Wahrnehmung und Bedeutungsverdichtung.
 ```
 
@@ -24,7 +26,7 @@ MINI_DIO = Forschungsmodell fuer MCM-Feld, Wahrnehmung und Bedeutungsverdichtung
 
 MINI_DIO untersucht eine einfache, aber weitreichende Frage:
 
-Kann ein kleines künstliches [MCM-Feld](https://github.com/H5Pro2/Mental-Core-Matrix-MCM) aus wiederholtem Weltkontakt eine eigene innere Ordnung bilden?
+Kann ein künstliches [MCM](https://github.com/H5Pro2/Mental-Core-Matrix-MCM)-Innenfeld aus wiederholtem Weltkontakt eine eigene Ordnung bilden?
 
 Der Fokus liegt auf:
 
@@ -146,7 +148,7 @@ mit emergenter Bedeutungsverdichtung.
 Die bisherigen Ergebnisse lassen sich so einordnen:
 
 - **Mini-DIO als Organismusmodell**
-  Im Mittelpunkt steht, wie ein kleines künstliches Innenfeld Weltkontakt aufnimmt, ordnet und erinnert.
+  Im Mittelpunkt steht, wie ein künstliches Innenfeld Weltkontakt aufnimmt, ordnet und erinnert.
 
 - **MCM-Feld als Ordnungsraum**
   Das Feld wirkt nicht wie ein loser Rohdatenspeicher. Es bildet wiederkehrende Rollen wie Zentrum, Brücke, offene Variante, Randspannung, Drift und Rekopplung. Diese Rollen werden nachträglich aus der Feldwirkung gelesen, nicht als Zielgeometrie vorgegeben.
@@ -939,7 +941,7 @@ Die nächsten Diagnosen sollen entlang der natürlichen [MCM-Möglichkeiten](htt
 
 ## Wissenschaftliche Vorsicht
 
-MINI_DIO ist ein kontrollierter Forschungsaufbau, um zu untersuchen, ob ein kleines MCM-Feld reproduzierbare innere Bedeutungsräume aus Weltkontakt bilden kann.
+MINI_DIO ist ein kontrollierter Forschungsaufbau, um zu untersuchen, ob ein MCM-basiertes Innenfeld reproduzierbare Bedeutungsräume aus Weltkontakt bilden kann.
 
 Die bisherigen Ergebnisse sind strukturelle Indizien, keine endgültigen Beweise. Der Wert liegt in reproduzierbaren Befunden, klaren Gegenproben und vorsichtiger Interpretation.
 

@@ -1,0 +1,8 @@
+network_state,early_observations,late_observations,observations_delta,nodes_delta,neighbor_delta,rekopplung_delta,strain_delta,internal_condition_reading,receptor_side_reading
+netz_fragmentiert_belastet,3123,1627,-1496,-11,0.407563,-0.002158,0.00161,"Belastungsraum bleibt qualitativ belastet, wird aber seltener aktiviert.","Rezeptorisch wirkt spaet weniger Ausloesung, nicht weniger Belastungsqualitaet."
+netz_zentrum_mit_anschluss,6819,5634,-1185,-2,-0.625,0.016553,0.001358,"Zentrum wird weniger ueberladen, Rekopplung steigt aber.",Rezeptorisch wirkt spaet zentrumsnaher Kontakt selektiver.
+netz_rekoppelnd_verbunden,499,299,-200,2,0.22619,-0.012083,-0.00337,"Rekopplung sinkt in Menge, gewinnt aber in Nachbarschaft und Strain-Entlastung.","Rezeptorisch wirkt spaet weniger breit, aber sauberer gebunden."
+netz_zentrum_getragen,0,155,155,2,0.0,0.0,0.0,Neue getragene Zentrumsqualitaet erscheint nur spaet.,Rezeptorisch entsteht spaet eine kleine zentrumsnahe Spur ohne starke Nachbarschaft.
+netz_driftend_getragen,974,843,-131,11,-1.515151,0.02355,0.020758,"Drift verteilt sich auf mehr Knoten und bekommt bessere Rekopplung, aber weniger Nachbarschaft.","Rezeptorisch wirkt spaet fragmentaer verteilter, aber feldseitig tragender."
+netz_offen_verbunden,743,619,-124,-3,0.140086,0.000346,-0.003267,"Offenheit bleibt aehnlich, Strain sinkt leicht.",Rezeptorisch wirkt Offenheit spaet etwas weniger belastend.
+netz_rekoppelnd_einzeln,34,85,51,9,0.0,0.0,0.0,Einzelrekopplung nimmt zu.,Rezeptorisch entstehen spaet mehr kleine Entlastungspunkte ohne Netz.
