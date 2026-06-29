@@ -1579,6 +1579,20 @@ Besonders relevant fuer den aktuellen Bauplanstand:
   - Dokumentiert die zweite PAXG-Gegenprobe fuer `rekopplung_nach_abverkauf`. Ergebnis: Kandidat bleibt offen und weltabhaengig; KAS/BTC-nahe Aktivierung steht zwei PAXG-Nichtaktivierungen gegenueber.
 - `1039_MCM_AKTUELLER_ERKENNTNISSTAND_BEDEUTUNG_TOPOLOGIE_WELTABHAENGIGKEIT.md`
   - Fasst den aktuellen Forschungsstand nach Bedeutungsbibliothek, KAS-Holdout und PAXG-Gegenproben zusammen. Ergebnis: Topologie bleibt stabiler als konkrete Syntaxzeichen; Bedeutungsformen sind weltabhaengig und muessen von allgemeineren MCM-Rollen getrennt gelesen werden.
+- `1040_PAXG_EIGENE_BEDEUTUNGSFORMEN_DOMINANZ.md`
+  - Liest PAXG 2024/2025 nicht gegen die fehlende Zielachse, sondern auf eigene dominante Bedeutungsformen. Ergebnis: `dio_104t + dio_mcm_episode_0b7nep9` bildet eine PAXG-stabile Rekopplungskopplung; 2025 erweitert diese Ordnung Richtung `0e7qvj1` und `0ykar6i`.
+- `1041_PAXG_KONTRASTWELT_ROLLENVERGLEICH.md`
+  - Vergleicht PAXG als Kontrastwelt gegen BTC/SOL/KAS anhand von Rekopplung, Strain, Stabilitaet und Kippnaehe. Ergebnis: PAXG ist nicht topologisch fremd, aber feldqualitativ ruhiger und rekoppelnder; die Grundtopologie bleibt, die Bedeutungsachsen verschieben sich.
+- `1042_PAXG_REKOPPLUNGSORDNUNG_ZEIT_JAHR_PRUEFUNG.md`
+  - Prueft die PAXG-Rekopplungsordnung ueber PAXG 5m/1h und 2024/2025. Ergebnis: `dio_104t` bleibt stabile Grundfamilie, `dio_14wj` wirkt als besonders ruhige/rekoppelnde 5m-Erweiterung, `dio_155c` als 1h-nahe Erweiterung.
+- `1043_PAXG_GEGEN_BTC_SOL_KAS_GLEICHGRUPPEN.md`
+  - Vergleicht PAXG gegen BTC, SOL und KAS in gleichlangen Gruppen. Ergebnis: PAXG ist keine andere MCM-Topologie, sondern eine ruhigere Rekopplungs-Ausbildung innerhalb derselben Grundordnung; der Kontrast ist auf 5m deutlich staerker als auf 1h.
+- `1044_PAXG_DIO14WJ_TRAEGERFAMILIE_LUPE.md`
+  - Isoliert `dio_14wj` gegen `dio_104t` in PAXG 2024/2025 5m. Ergebnis: `dio_14wj` wirkt nicht wie eine reine Oberflaechenvariante, sondern wie eine ruhigere PAXG-5m-Rekopplungsfamilie mit weniger Strain, weniger Hoer-/Kontaktlast und stabiler Selbstfolge.
+- `1045_PAXG_DIO14WJ_ZEITAUFLOESUNG_VERGLEICH.md`
+  - Prueft `dio_14wj` gegen PAXG 5m und 1h. Ergebnis: Die ruhige Rekopplungsrolle bleibt auch auf 1h sichtbar, verliert dort aber deutlich an Dominanz und Nachhall; `dio_155c` ist haeufiger auf 1h, aber nicht der gleiche Ruhetraeger.
+- `1046_MCM_ABHANDLUNGEN_ABGLEICH_MINI_DIO_ERKENNTNISSE.md`
+  - Gleicht aktuelle MINI_DIO-Befunde gegen vorhandene MCM-Abhandlungen ab. Ergebnis: Besonders Block W, Block K, Block D, Von Resonanz zu Sprache, ProtoMind, Pure Emergence/3D und MCM-Robustness passen als Theorieanker; daraus folgt fuer die naechste Pruefung: Rollenqualitaet wichtiger lesen als einzelnes Syntaxzeichen.
 - `mini_dio/mcm_role_network.py`
   - Passive Netzwerkschicht fuer Rollenverlauf, Nachbarschaft, Drift, Rekopplung, Weltqualitaet und Reifung.
 - `tools/report_mcm_role_network.py`

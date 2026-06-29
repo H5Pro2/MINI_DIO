@@ -88,6 +88,42 @@ Weltkontakt
 
 Damit wird die bisherige Richtung gestützt: Ein DIO soll nicht durch harte Regeln reguliert werden, sondern über Innenfeldreaktion, eigene Syntax, Wiederkehr, Rekopplung und Bedeutungsreifung.
 
+## Theorieanker MCM-Abhandlungen
+
+Die bisherigen MINI_DIO-Befunde werden nicht als Beweis für die MCM gelesen. Sie zeigen aber deutliche strukturelle Anschlussstellen zu mehreren MCM-Abhandlungen. Diese Texte dienen als Theorieanker, um die Forschung präziser einzuordnen:
+
+- [Block W - Die Mental Core Matrix zwischen Logik und dem Bruch in ein physisches System](https://github.com/H5Pro2/Mental-Core-Matrix-MCM/blob/main/Abhandlungen/MCM%20-%20Hauptabhandlungen/Teil%20III%20-%20Zusammenf%C3%BChrung%20des%20Modells/Abhandlung%20Block%20W%20-%20Die%20Mental%20Core%20Matrix%20zwischen%20Logik%20und%20dem%20Bruch%20in%20ein%20physisches%20System.pdf)
+  - passt zu innerer Zustandsbildung, Rekurrenz, Spuren, Verdichtung und Topologie.
+- [Block D - Die energetische Natur der Zeit](https://github.com/H5Pro2/Mental-Core-Matrix-MCM/blob/main/Abhandlungen/MCM%20-%20Hauptabhandlungen/Teil%20I%20-%20Die%20Mental%20Core%20Matrix%20%E2%80%93%20Strukturmodell/Abhandlung%20Block%20D%20-%20Die%20energetische%20Natur%20der%20Zeit.pdf)
+  - passt zu Feldzeit, Nachhall, Drift, Wiederkehr und Zeit als gewirkte Feldveränderung.
+- [Von Resonanz zu Sprache](https://github.com/H5Pro2/Mental-Core-Matrix-MCM/blob/main/Abhandlungen/MCM%20-%20Nebenabhandlung/Von%20Resonanz%20zu%20Sprache.pdf)
+  - passt zur `dio_*`-Syntax als verdichtete Resonanz- und Bedeutungsform.
+- [ProtoMind, selbstaktive Feldkognition, akustische Reizmodulation und Schmerz-Gefahrenverarbeitung](https://github.com/H5Pro2/Mental-Core-Matrix-MCM/blob/main/Abhandlungen/MCM%20-%20Nebenabhandlung/ProtoMind%2C%20selbstaktive%20Feldkognition%2C%20akustische%20Reizmodulation%20und%20Schmerz-Gefahrenverarbeitung%20als%20integriertes%20Feldsystem.pdf)
+  - passt zur Trennung von Sehen, Hören, Rezeptoraufnahme und MCM-Feldwirkung.
+- [MCM Pure Emergence V2](https://github.com/H5Pro2/Mental-Core-Matrix-MCM/blob/main/MCM%20-%20Code%20Beispiele/MCM%20-%20Emergenze/MCM%20Pure%20Emergence%20V2/MCM%20Pure%20Emergence%20V2.pdf)
+  - passt zur Musterbildung aus lokalen Kräften ohne globale Formvorgabe.
+- [MCM-3D-v3E+ Abhandlung](https://github.com/H5Pro2/Mental-Core-Matrix-MCM/blob/main/MCM%20-%20Code%20Beispiele/MCM%20-%20Emergenze/MCM%20Pure-3D%20Emergence/MCM-3D-v3E%2B%20Abhandlung.pdf)
+  - passt zu Clusterbildung, Dichtezentren, lokalen Kopplungen und nichtlinearer Feldorganisation.
+- [Ausprägung des MCM-Robustness](https://github.com/H5Pro2/Mental-Core-Matrix-MCM/blob/main/MCM%20-%20Code%20Beispiele/MCM%20-%20Emergenze/MCM-Robustness/Auspr%C3%A4gung%20des%20MCM-Robustness.pdf)
+  - passt zu Übergangszonen, stabilen Bezugspunkten, Feldrollen und robuster Ordnung.
+
+Die wichtige Grenze:
+
+```text
+Diese Abhandlungen erklären und rahmen die beobachteten Befunde.
+Sie beweisen die Befunde nicht.
+MINI_DIO prüft weiterhin datengetrieben, ob Rollen, Feldzeit, Rekopplung und Bedeutungsinseln reproduzierbar bleiben.
+```
+
+Aktuell ist daraus besonders relevant:
+
+```text
+Nicht das einzelne Zeichen allein ist entscheidend.
+Entscheidend ist die wiederkehrende Feldrolle.
+```
+
+Ausführlicher festgehalten ist dieser Abgleich in [1046_MCM_ABHANDLUNGEN_ABGLEICH_MINI_DIO_ERKENNTNISSE.md](docs/befunde/1046_MCM_ABHANDLUNGEN_ABGLEICH_MINI_DIO_ERKENNTNISSE.md).
+
 ## Theorieanker Kosmische Matrix
 
 Die MCM-Abhandlungen [Block E - Die kosmische Matrix](https://github.com/H5Pro2/Mental-Core-Matrix-MCM/blob/main/Abhandlungen/MCM%20-%20Hauptabhandlungen/Teil%20I%20-%20Die%20Mental%20Core%20Matrix%20%E2%80%93%20Strukturmodell/Abhandlung%20Block%20E%20-%20Die%20kosmische%20Matrix.pdf), [Block E.1 - Die polare Entstehung des Universums](https://github.com/H5Pro2/Mental-Core-Matrix-MCM/blob/main/Abhandlungen/MCM%20-%20Hauptabhandlungen/Teil%20I%20-%20Die%20Mental%20Core%20Matrix%20%E2%80%93%20Strukturmodell/Abhandlung%20Block%20E.1%20-%20Die%20polare%20Entstehung%20des%20Universums.pdf), [Block G - Die Multiversen-Matrix](https://github.com/H5Pro2/Mental-Core-Matrix-MCM/blob/main/Abhandlungen/MCM%20-%20Hauptabhandlungen/Teil%20I%20-%20Die%20Mental%20Core%20Matrix%20%E2%80%93%20Strukturmodell/Abhandlung%20Block%20G%20-%20Die%20Multiversen-Matrix.pdf) und [Block G.1 - Reorganisation verdichteter Energie](https://github.com/H5Pro2/Mental-Core-Matrix-MCM/blob/main/Abhandlungen/MCM%20-%20Hauptabhandlungen/Teil%20I%20-%20Die%20Mental%20Core%20Matrix%20%E2%80%93%20Strukturmodell/Abhandlung%20Block%20G.1%20-%20Reorganisation%20verdichteter%20Energie%20in%20einen%20%C3%BCbergeordneten%20Feldbereich.pdf) beschreiben hypothetisch Zentrum, Abweichung, Expansion, Gegenpol, Verdichtung, Rückführung und Reorganisation.

@@ -1,0 +1,9 @@
+world,kind,name,count,rekopplung,strain,sensory_coupling,interpretation
+PAXG_2024_1H_10K_PROBE,syntax_family,dio_104t,578,,,,"dominante PAXG-Syntaxfamilie"
+PAXG_2024_1H_10K_PROBE,mcm_episode,dio_mcm_episode_0b7nep9,4368,,,,"dominante PAXG-MCM-Episode"
+PAXG_2024_1H_10K_PROBE,pair,dio_104t+dio_mcm_episode_0b7nep9,286,0.725186,0.149061,0.847434,"starke stabile Rekopplungskopplung"
+PAXG_2025_1H_10K_PROBE,syntax_family,dio_104t,624,,,,"dominante PAXG-Syntaxfamilie"
+PAXG_2025_1H_10K_PROBE,mcm_episode,dio_mcm_episode_0b7nep9,2710,,,,"dominante PAXG-MCM-Episode"
+PAXG_2025_1H_10K_PROBE,mcm_episode,dio_mcm_episode_0e7qvj1,2366,,,,"starke PAXG-2025-Erweiterung"
+PAXG_2025_1H_10K_PROBE,pair,dio_104t+dio_mcm_episode_0b7nep9,183,0.724609,0.149033,0.847920,"starke stabile Rekopplungskopplung"
+PAXG_2025_1H_10K_PROBE,pair,dio_104t+dio_mcm_episode_0e7qvj1,155,0.724578,0.149263,0.847929,"PAXG-2025-Erweiterung mit aehnlicher Feldqualitaet"

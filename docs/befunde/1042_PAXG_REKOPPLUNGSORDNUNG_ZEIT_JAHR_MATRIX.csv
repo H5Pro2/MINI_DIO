@@ -1,0 +1,6 @@
+world,candles,rekopplung,strain,sensory_coupling,stable_share,unrest_share,tilt_share,top_family_1,top_family_1_count,top_family_2,top_family_2_count,top_family_3,top_family_3_count,top_episode_1,top_episode_1_duration,top_episode_2,top_episode_2_duration,data_path
+PAXG_2024_5M_SHORT,2000,0.703694,0.15202,0.851128,0.831494,0.161484,0.007021,dio_104t,125,dio_14wj,109,dio_0l7p,76,dio_mcm_episode_1hdpu9s,970,dio_mcm_episode_10421uv,1023,data\kontrolliert_paxg_2024_5m_test1_2000_PAXGUSDT.csv
+PAXG_2024_5M_10K,10000,0.713904,0.15251,0.854857,0.879628,0.114169,0.006204,dio_104t,732,dio_14wj,530,dio_0m9z,326,dio_mcm_episode_1if9yrh,2048,dio_mcm_episode_1dmnxrw,1860,data\kontrolliert_paxg_2024_5m_10k_PAXGUSDT.csv
+PAXG_2025_5M_10K,10000,0.714382,0.151728,0.85609,0.872524,0.120172,0.007304,dio_104t,860,dio_14wj,708,dio_1fll,364,dio_mcm_episode_0kji539,303,dio_mcm_episode_12sbby1,1,data\kontrolliert_paxg_2025_5m_10k_PAXGUSDT.csv
+PAXG_2024_1H_10K,8784,0.704917,0.153514,0.84119,0.792208,0.201527,0.006266,dio_104t,578,dio_155c,386,dio_0m9z,332,dio_mcm_episode_0qx4uth,2048,dio_mcm_episode_0b7nep9,141,data\kontrolliert_paxg_2024_1h_10k_PAXGUSDT.csv
+PAXG_2025_1H_10K,8760,0.706106,0.151946,0.843674,0.809801,0.185744,0.004455,dio_104t,624,dio_155c,382,dio_0l7p,377,dio_mcm_episode_1wra2fc,1343,dio_mcm_episode_0sjrih9,1,data\kontrolliert_paxg_2025_1h_10k_PAXGUSDT.csv

@@ -1,0 +1,9 @@
+world,candles,rekopplung,strain,sensory_coupling,stable_share,unrest_share,tilt_share,top_family,top_family_count,top_preview_symbol,top_preview_duration,data_path
+BTC_2025_1H,8760,0.706716,0.152034,0.843761,0.807174,0.18483,0.007996,dio_104t,703,dio_mcm_episode_0sjrih9,1,data\1-12_2025_1h_BTCUSDT.csv
+BTC_2025_5M,10000,0.705824,0.152049,0.843302,0.814088,0.179808,0.006104,dio_104t,665,dio_mcm_episode_1wra2fc,2046,data\kontrolliert_btc_2025_5m_10k_BTCUSDT.csv
+SOL_2024_5M,2000,0.693318,0.157341,0.83793,0.754263,0.237212,0.008526,dio_104t,113,dio_mcm_episode_0e7qvj1,218,data\kontrolliert_sol_2024_5m_test1_2000_SOLUSDT.csv
+KAS_2024_5M,2000,0.693981,0.156209,0.840389,0.778335,0.212638,0.009027,dio_104t,111,dio_mcm_episode_1joiyc3,1994,data\kontrolliert_kas_2024_5m_test1_2000_KASUSDT.csv
+PAXG_2024_5M,2000,0.703694,0.15202,0.851128,0.831494,0.161484,0.007021,dio_104t,125,dio_mcm_episode_1hdpu9s,970,data\kontrolliert_paxg_2024_5m_test1_2000_PAXGUSDT.csv
+PAXG_2025_5M,10000,0.715523,0.147859,0.853954,0.851811,0.144587,0.003602,dio_14wj,725,dio_mcm_episode_1mcb4ju,2048,data\kontrolliert_paxg_2025_5m_10k_PAXGUSDT.csv
+PAXG_2024_1H,8784,0.704917,0.153514,0.84119,0.792208,0.201527,0.006266,dio_104t,578,dio_mcm_episode_0qx4uth,2048,data\kontrolliert_paxg_2024_1h_10k_PAXGUSDT.csv
+PAXG_2025_1H,8760,0.706106,0.151946,0.843674,0.809801,0.185744,0.004455,dio_104t,624,dio_mcm_episode_1wra2fc,1343,data\kontrolliert_paxg_2025_1h_10k_PAXGUSDT.csv
