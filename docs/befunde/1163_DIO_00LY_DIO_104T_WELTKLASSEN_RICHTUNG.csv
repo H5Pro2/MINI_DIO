@@ -1,0 +1,9 @@
+world_class,left_family,right_family,left_count,right_count,near_count,near_per_left,near_per_right,forward_dio_00ly_to_dio_104t,forward_dio_104t_to_dio_00ly,direction_balance,world_relation_mode
+PAXG 2024 5m,dio_00ly,dio_104t,62,250,46,0.7419,0.184,24,22,0.9565,balancierter_rueckbezug
+BTC 2024 1h,dio_00ly,dio_104t,76,352,62,0.8158,0.1761,28,34,0.9032,balancierter_rueckbezug
+KAS 2024 5m,dio_00ly,dio_104t,90,222,66,0.7333,0.2973,44,22,0.6667,uebergang_zu_stabilisierung
+Expansion 2023,dio_00ly,dio_104t,22,102,16,0.7273,0.1569,6,10,0.75,stabilisierung_zu_uebergang
+SOL 2026 Seitwaerts,dio_00ly,dio_104t,52,266,42,0.8077,0.1579,22,20,0.9524,balancierter_rueckbezug
+BTC 2024 Quiet 5m,dio_00ly,dio_104t,136,574,102,0.75,0.1777,42,60,0.8235,stabilisierung_zu_uebergang
+Negative Stress 2024,dio_00ly,dio_104t,28,98,18,0.6429,0.1837,14,4,0.4444,uebergang_zu_stabilisierung
+Positive Recovery 2025,dio_00ly,dio_104t,34,106,26,0.7647,0.2453,12,14,0.9231,balancierter_rueckbezug

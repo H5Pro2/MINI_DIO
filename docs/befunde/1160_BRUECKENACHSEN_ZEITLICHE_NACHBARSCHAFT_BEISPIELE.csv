@@ -1,0 +1,239 @@
+world_class,left_family,right_family,left_tick,right_tick,delta_ticks,run,left_field,right_field
+PAXG 2024 5m,dio_00ly,dio_0g2r,378,377,-1,dio_mini_lauf_1,offen,offen
+PAXG 2024 5m,dio_00ly,dio_0g2r,490,482,-8,dio_mini_lauf_1,rekoppelt,offen
+PAXG 2024 5m,dio_00ly,dio_0g2r,691,686,-5,dio_mini_lauf_1,rekoppelt,rekoppelt
+PAXG 2024 5m,dio_00ly,dio_0g2r,1041,1051,10,dio_mini_lauf_1,rekoppelt,offen
+PAXG 2024 5m,dio_00ly,dio_0g2r,1441,1439,-2,dio_mini_lauf_1,rekoppelt,rekoppelt
+PAXG 2024 5m,dio_00ly,dio_0g2r,1539,1538,-1,dio_mini_lauf_1,rekoppelt,offen
+PAXG 2024 5m,dio_00ly,dio_0g2r,1960,1957,-3,dio_mini_lauf_1,offen,kippnah
+PAXG 2024 5m,dio_00ly,dio_0g2r,378,377,-1,dio_mini_lauf_2,offen,offen
+PAXG 2024 5m,dio_0g2r,dio_1ewh,289,297,8,dio_mini_lauf_1,offen,offen
+PAXG 2024 5m,dio_0g2r,dio_1ewh,504,508,4,dio_mini_lauf_1,offen,offen
+PAXG 2024 5m,dio_0g2r,dio_1ewh,515,508,-7,dio_mini_lauf_1,offen,offen
+PAXG 2024 5m,dio_0g2r,dio_1ewh,686,688,2,dio_mini_lauf_1,rekoppelt,kippnah
+PAXG 2024 5m,dio_0g2r,dio_1ewh,833,835,2,dio_mini_lauf_1,offen,offen
+PAXG 2024 5m,dio_0g2r,dio_1ewh,1051,1045,-6,dio_mini_lauf_1,offen,kippnah
+PAXG 2024 5m,dio_0g2r,dio_1ewh,1439,1440,1,dio_mini_lauf_1,rekoppelt,offen
+PAXG 2024 5m,dio_0g2r,dio_1ewh,289,297,8,dio_mini_lauf_2,offen,offen
+PAXG 2024 5m,dio_1ewh,dio_104t,8,12,4,dio_mini_lauf_1,kippnah,kippnah
+PAXG 2024 5m,dio_1ewh,dio_104t,218,212,-6,dio_mini_lauf_1,offen,offen
+PAXG 2024 5m,dio_1ewh,dio_104t,222,212,-10,dio_mini_lauf_1,offen,offen
+PAXG 2024 5m,dio_1ewh,dio_104t,297,307,10,dio_mini_lauf_1,offen,offen
+PAXG 2024 5m,dio_1ewh,dio_104t,305,307,2,dio_mini_lauf_1,offen,offen
+PAXG 2024 5m,dio_1ewh,dio_104t,358,351,-7,dio_mini_lauf_1,offen,rekoppelt
+PAXG 2024 5m,dio_1ewh,dio_104t,396,392,-4,dio_mini_lauf_1,offen,rekoppelt
+PAXG 2024 5m,dio_1ewh,dio_104t,402,411,9,dio_mini_lauf_1,offen,offen
+PAXG 2024 5m,dio_00ly,dio_104t,11,12,1,dio_mini_lauf_1,offen,kippnah
+PAXG 2024 5m,dio_00ly,dio_104t,98,102,4,dio_mini_lauf_1,rekoppelt,rekoppelt
+PAXG 2024 5m,dio_00ly,dio_104t,99,102,3,dio_mini_lauf_1,rekoppelt,rekoppelt
+PAXG 2024 5m,dio_00ly,dio_104t,228,238,10,dio_mini_lauf_1,offen,offen
+PAXG 2024 5m,dio_00ly,dio_104t,352,351,-1,dio_mini_lauf_1,offen,rekoppelt
+PAXG 2024 5m,dio_00ly,dio_104t,378,380,2,dio_mini_lauf_1,offen,kippnah
+PAXG 2024 5m,dio_00ly,dio_104t,432,437,5,dio_mini_lauf_1,offen,offen
+PAXG 2024 5m,dio_00ly,dio_104t,449,450,1,dio_mini_lauf_1,offen,kippnah
+BTC 2024 1h,dio_00ly,dio_0g2r,183,178,-5,dio_mini_lauf_1,offen,offen
+BTC 2024 1h,dio_00ly,dio_0g2r,501,509,8,dio_mini_lauf_1,offen,offen
+BTC 2024 1h,dio_00ly,dio_0g2r,519,509,-10,dio_mini_lauf_1,kippnah,offen
+BTC 2024 1h,dio_00ly,dio_0g2r,973,971,-2,dio_mini_lauf_1,rekoppelt,kippnah
+BTC 2024 1h,dio_00ly,dio_0g2r,1418,1414,-4,dio_mini_lauf_1,kippnah,kippnah
+BTC 2024 1h,dio_00ly,dio_0g2r,1476,1487,11,dio_mini_lauf_1,rekoppelt,kippnah
+BTC 2024 1h,dio_00ly,dio_0g2r,183,178,-5,dio_mini_lauf_2,offen,offen
+BTC 2024 1h,dio_00ly,dio_0g2r,501,509,8,dio_mini_lauf_2,offen,offen
+BTC 2024 1h,dio_0g2r,dio_1ewh,37,35,-2,dio_mini_lauf_1,kippnah,kippnah
+BTC 2024 1h,dio_0g2r,dio_1ewh,509,510,1,dio_mini_lauf_1,offen,offen
+BTC 2024 1h,dio_0g2r,dio_1ewh,1705,1693,-12,dio_mini_lauf_1,kippnah,kippnah
+BTC 2024 1h,dio_0g2r,dio_1ewh,37,35,-2,dio_mini_lauf_2,kippnah,kippnah
+BTC 2024 1h,dio_0g2r,dio_1ewh,509,510,1,dio_mini_lauf_2,offen,offen
+BTC 2024 1h,dio_0g2r,dio_1ewh,1705,1693,-12,dio_mini_lauf_2,kippnah,kippnah
+BTC 2024 1h,dio_1ewh,dio_104t,64,69,5,dio_mini_lauf_1,offen,kippnah
+BTC 2024 1h,dio_1ewh,dio_104t,276,284,8,dio_mini_lauf_1,offen,offen
+BTC 2024 1h,dio_1ewh,dio_104t,347,345,-2,dio_mini_lauf_1,offen,rekoppelt
+BTC 2024 1h,dio_1ewh,dio_104t,445,444,-1,dio_mini_lauf_1,offen,offen
+BTC 2024 1h,dio_1ewh,dio_104t,470,473,3,dio_mini_lauf_1,offen,rekoppelt
+BTC 2024 1h,dio_1ewh,dio_104t,510,507,-3,dio_mini_lauf_1,offen,rekoppelt
+BTC 2024 1h,dio_1ewh,dio_104t,544,542,-2,dio_mini_lauf_1,offen,offen
+BTC 2024 1h,dio_1ewh,dio_104t,620,629,9,dio_mini_lauf_1,offen,rekoppelt
+BTC 2024 1h,dio_00ly,dio_104t,54,52,-2,dio_mini_lauf_1,offen,offen
+BTC 2024 1h,dio_00ly,dio_104t,93,91,-2,dio_mini_lauf_1,offen,offen
+BTC 2024 1h,dio_00ly,dio_104t,183,177,-6,dio_mini_lauf_1,offen,offen
+BTC 2024 1h,dio_00ly,dio_104t,302,295,-7,dio_mini_lauf_1,offen,offen
+BTC 2024 1h,dio_00ly,dio_104t,318,313,-5,dio_mini_lauf_1,offen,rekoppelt
+BTC 2024 1h,dio_00ly,dio_104t,372,371,-1,dio_mini_lauf_1,kippnah,rekoppelt
+BTC 2024 1h,dio_00ly,dio_104t,394,392,-2,dio_mini_lauf_1,kippnah,offen
+BTC 2024 1h,dio_00ly,dio_104t,501,498,-3,dio_mini_lauf_1,offen,rekoppelt
+KAS 2024 5m,dio_00ly,dio_0g2r,546,542,-4,dio_mini_lauf_1,offen,offen
+KAS 2024 5m,dio_00ly,dio_0g2r,548,542,-6,dio_mini_lauf_1,rekoppelt,offen
+KAS 2024 5m,dio_00ly,dio_0g2r,834,832,-2,dio_mini_lauf_1,rekoppelt,offen
+KAS 2024 5m,dio_00ly,dio_0g2r,923,930,7,dio_mini_lauf_1,offen,kippnah
+KAS 2024 5m,dio_00ly,dio_0g2r,1577,1587,10,dio_mini_lauf_1,offen,offen
+KAS 2024 5m,dio_00ly,dio_0g2r,546,542,-4,dio_mini_lauf_2,offen,offen
+KAS 2024 5m,dio_00ly,dio_0g2r,548,542,-6,dio_mini_lauf_2,rekoppelt,offen
+KAS 2024 5m,dio_00ly,dio_0g2r,834,832,-2,dio_mini_lauf_2,offen,offen
+KAS 2024 5m,dio_0g2r,dio_1ewh,7,3,-4,dio_mini_lauf_1,kippnah,kippnah
+KAS 2024 5m,dio_0g2r,dio_1ewh,542,552,10,dio_mini_lauf_1,offen,offen
+KAS 2024 5m,dio_0g2r,dio_1ewh,561,552,-9,dio_mini_lauf_1,offen,offen
+KAS 2024 5m,dio_0g2r,dio_1ewh,930,940,10,dio_mini_lauf_1,kippnah,offen
+KAS 2024 5m,dio_0g2r,dio_1ewh,1035,1033,-2,dio_mini_lauf_1,offen,kippnah
+KAS 2024 5m,dio_0g2r,dio_1ewh,1565,1567,2,dio_mini_lauf_1,offen,offen
+KAS 2024 5m,dio_0g2r,dio_1ewh,1608,1609,1,dio_mini_lauf_1,offen,kippnah
+KAS 2024 5m,dio_0g2r,dio_1ewh,1843,1844,1,dio_mini_lauf_1,kippnah,offen
+KAS 2024 5m,dio_1ewh,dio_104t,3,5,2,dio_mini_lauf_1,kippnah,offen
+KAS 2024 5m,dio_1ewh,dio_104t,136,139,3,dio_mini_lauf_1,kippnah,offen
+KAS 2024 5m,dio_1ewh,dio_104t,197,196,-1,dio_mini_lauf_1,offen,offen
+KAS 2024 5m,dio_1ewh,dio_104t,225,227,2,dio_mini_lauf_1,offen,offen
+KAS 2024 5m,dio_1ewh,dio_104t,249,237,-12,dio_mini_lauf_1,offen,offen
+KAS 2024 5m,dio_1ewh,dio_104t,378,376,-2,dio_mini_lauf_1,kippnah,rekoppelt
+KAS 2024 5m,dio_1ewh,dio_104t,527,531,4,dio_mini_lauf_1,offen,offen
+KAS 2024 5m,dio_1ewh,dio_104t,552,554,2,dio_mini_lauf_1,offen,offen
+KAS 2024 5m,dio_00ly,dio_104t,55,62,7,dio_mini_lauf_1,offen,offen
+KAS 2024 5m,dio_00ly,dio_104t,143,142,-1,dio_mini_lauf_1,kippnah,offen
+KAS 2024 5m,dio_00ly,dio_104t,235,237,2,dio_mini_lauf_1,kippnah,offen
+KAS 2024 5m,dio_00ly,dio_104t,259,263,4,dio_mini_lauf_1,offen,kippnah
+KAS 2024 5m,dio_00ly,dio_104t,260,263,3,dio_mini_lauf_1,rekoppelt,kippnah
+KAS 2024 5m,dio_00ly,dio_104t,357,355,-2,dio_mini_lauf_1,kippnah,rekoppelt
+KAS 2024 5m,dio_00ly,dio_104t,373,376,3,dio_mini_lauf_1,offen,rekoppelt
+KAS 2024 5m,dio_00ly,dio_104t,504,516,12,dio_mini_lauf_1,offen,kippnah
+Expansion 2023,dio_00ly,dio_0g2r,229,221,-8,dio_mini_lauf_1,offen,kippnah
+Expansion 2023,dio_00ly,dio_0g2r,927,926,-1,dio_mini_lauf_1,offen,offen
+Expansion 2023,dio_00ly,dio_0g2r,229,221,-8,dio_mini_lauf_2,offen,kippnah
+Expansion 2023,dio_00ly,dio_0g2r,927,926,-1,dio_mini_lauf_2,offen,offen
+Expansion 2023,dio_0g2r,dio_1ewh,140,144,4,dio_mini_lauf_1,kippnah,kippnah
+Expansion 2023,dio_0g2r,dio_1ewh,552,554,2,dio_mini_lauf_1,offen,kippnah
+Expansion 2023,dio_0g2r,dio_1ewh,140,144,4,dio_mini_lauf_2,kippnah,kippnah
+Expansion 2023,dio_0g2r,dio_1ewh,552,554,2,dio_mini_lauf_2,offen,kippnah
+Expansion 2023,dio_1ewh,dio_104t,168,174,6,dio_mini_lauf_1,kippnah,kippnah
+Expansion 2023,dio_1ewh,dio_104t,188,193,5,dio_mini_lauf_1,offen,offen
+Expansion 2023,dio_1ewh,dio_104t,189,193,4,dio_mini_lauf_1,offen,offen
+Expansion 2023,dio_1ewh,dio_104t,197,193,-4,dio_mini_lauf_1,offen,offen
+Expansion 2023,dio_1ewh,dio_104t,417,425,8,dio_mini_lauf_1,offen,offen
+Expansion 2023,dio_1ewh,dio_104t,418,425,7,dio_mini_lauf_1,offen,offen
+Expansion 2023,dio_1ewh,dio_104t,422,425,3,dio_mini_lauf_1,offen,offen
+Expansion 2023,dio_1ewh,dio_104t,554,559,5,dio_mini_lauf_1,kippnah,rekoppelt
+Expansion 2023,dio_00ly,dio_104t,4,3,-1,dio_mini_lauf_1,kippnah,kippnah
+Expansion 2023,dio_00ly,dio_104t,10,14,4,dio_mini_lauf_1,rekoppelt,offen
+Expansion 2023,dio_00ly,dio_104t,44,34,-10,dio_mini_lauf_1,offen,offen
+Expansion 2023,dio_00ly,dio_104t,120,115,-5,dio_mini_lauf_1,offen,offen
+Expansion 2023,dio_00ly,dio_104t,497,498,1,dio_mini_lauf_1,offen,offen
+Expansion 2023,dio_00ly,dio_104t,715,712,-3,dio_mini_lauf_1,offen,offen
+Expansion 2023,dio_00ly,dio_104t,776,777,1,dio_mini_lauf_1,offen,offen
+Expansion 2023,dio_00ly,dio_104t,927,922,-5,dio_mini_lauf_1,offen,rekoppelt
+SOL 2026 Seitwaerts,dio_00ly,dio_0g2r,237,235,-2,dio_mini_lauf_1,offen,kippnah
+SOL 2026 Seitwaerts,dio_00ly,dio_0g2r,250,246,-4,dio_mini_lauf_1,offen,offen
+SOL 2026 Seitwaerts,dio_00ly,dio_0g2r,237,235,-2,dio_mini_lauf_2,offen,kippnah
+SOL 2026 Seitwaerts,dio_00ly,dio_0g2r,250,246,-4,dio_mini_lauf_2,offen,offen
+SOL 2026 Seitwaerts,dio_0g2r,dio_1ewh,314,310,-4,dio_mini_lauf_1,offen,offen
+SOL 2026 Seitwaerts,dio_0g2r,dio_1ewh,471,473,2,dio_mini_lauf_1,offen,kippnah
+SOL 2026 Seitwaerts,dio_0g2r,dio_1ewh,1097,1096,-1,dio_mini_lauf_1,offen,offen
+SOL 2026 Seitwaerts,dio_0g2r,dio_1ewh,314,310,-4,dio_mini_lauf_2,offen,offen
+SOL 2026 Seitwaerts,dio_0g2r,dio_1ewh,471,473,2,dio_mini_lauf_2,offen,kippnah
+SOL 2026 Seitwaerts,dio_0g2r,dio_1ewh,1097,1096,-1,dio_mini_lauf_2,offen,offen
+SOL 2026 Seitwaerts,dio_1ewh,dio_104t,83,78,-5,dio_mini_lauf_1,kippnah,kippnah
+SOL 2026 Seitwaerts,dio_1ewh,dio_104t,468,474,6,dio_mini_lauf_1,offen,offen
+SOL 2026 Seitwaerts,dio_1ewh,dio_104t,473,474,1,dio_mini_lauf_1,kippnah,offen
+SOL 2026 Seitwaerts,dio_1ewh,dio_104t,612,617,5,dio_mini_lauf_1,offen,offen
+SOL 2026 Seitwaerts,dio_1ewh,dio_104t,786,788,2,dio_mini_lauf_1,offen,rekoppelt
+SOL 2026 Seitwaerts,dio_1ewh,dio_104t,814,816,2,dio_mini_lauf_1,kippnah,offen
+SOL 2026 Seitwaerts,dio_1ewh,dio_104t,960,969,9,dio_mini_lauf_1,offen,offen
+SOL 2026 Seitwaerts,dio_1ewh,dio_104t,1096,1107,11,dio_mini_lauf_1,offen,rekoppelt
+SOL 2026 Seitwaerts,dio_00ly,dio_104t,494,503,9,dio_mini_lauf_1,kippnah,kippnah
+SOL 2026 Seitwaerts,dio_00ly,dio_104t,506,503,-3,dio_mini_lauf_1,offen,kippnah
+SOL 2026 Seitwaerts,dio_00ly,dio_104t,680,673,-7,dio_mini_lauf_1,offen,kippnah
+SOL 2026 Seitwaerts,dio_00ly,dio_104t,766,774,8,dio_mini_lauf_1,rekoppelt,offen
+SOL 2026 Seitwaerts,dio_00ly,dio_104t,794,792,-2,dio_mini_lauf_1,offen,offen
+SOL 2026 Seitwaerts,dio_00ly,dio_104t,798,792,-6,dio_mini_lauf_1,offen,offen
+SOL 2026 Seitwaerts,dio_00ly,dio_104t,809,816,7,dio_mini_lauf_1,offen,offen
+SOL 2026 Seitwaerts,dio_00ly,dio_104t,846,858,12,dio_mini_lauf_1,offen,rekoppelt
+BTC 2024 Quiet 5m,dio_00ly,dio_0g2r,571,566,-5,dio_mini_lauf_1,offen,offen
+BTC 2024 Quiet 5m,dio_00ly,dio_0g2r,1959,1954,-5,dio_mini_lauf_1,rekoppelt,kippnah
+BTC 2024 Quiet 5m,dio_00ly,dio_0g2r,2016,2012,-4,dio_mini_lauf_1,rekoppelt,offen
+BTC 2024 Quiet 5m,dio_00ly,dio_0g2r,2140,2129,-11,dio_mini_lauf_1,rekoppelt,offen
+BTC 2024 Quiet 5m,dio_00ly,dio_0g2r,3741,3734,-7,dio_mini_lauf_1,rekoppelt,offen
+BTC 2024 Quiet 5m,dio_00ly,dio_0g2r,3862,3853,-9,dio_mini_lauf_1,rekoppelt,offen
+BTC 2024 Quiet 5m,dio_00ly,dio_0g2r,571,566,-5,dio_mini_lauf_2,offen,offen
+BTC 2024 Quiet 5m,dio_00ly,dio_0g2r,1959,1954,-5,dio_mini_lauf_2,rekoppelt,kippnah
+BTC 2024 Quiet 5m,dio_0g2r,dio_1ewh,619,615,-4,dio_mini_lauf_1,offen,offen
+BTC 2024 Quiet 5m,dio_0g2r,dio_1ewh,1678,1670,-8,dio_mini_lauf_1,kippnah,kippnah
+BTC 2024 Quiet 5m,dio_0g2r,dio_1ewh,1798,1796,-2,dio_mini_lauf_1,kippnah,kippnah
+BTC 2024 Quiet 5m,dio_0g2r,dio_1ewh,2327,2322,-5,dio_mini_lauf_1,kippnah,kippnah
+BTC 2024 Quiet 5m,dio_0g2r,dio_1ewh,2480,2487,7,dio_mini_lauf_1,offen,offen
+BTC 2024 Quiet 5m,dio_0g2r,dio_1ewh,2885,2889,4,dio_mini_lauf_1,offen,offen
+BTC 2024 Quiet 5m,dio_0g2r,dio_1ewh,2886,2889,3,dio_mini_lauf_1,offen,offen
+BTC 2024 Quiet 5m,dio_0g2r,dio_1ewh,2890,2889,-1,dio_mini_lauf_1,rekoppelt,offen
+BTC 2024 Quiet 5m,dio_1ewh,dio_104t,32,34,2,dio_mini_lauf_1,kippnah,offen
+BTC 2024 Quiet 5m,dio_1ewh,dio_104t,512,513,1,dio_mini_lauf_1,offen,rekoppelt
+BTC 2024 Quiet 5m,dio_1ewh,dio_104t,999,994,-5,dio_mini_lauf_1,offen,rekoppelt
+BTC 2024 Quiet 5m,dio_1ewh,dio_104t,1323,1328,5,dio_mini_lauf_1,offen,rekoppelt
+BTC 2024 Quiet 5m,dio_1ewh,dio_104t,1564,1560,-4,dio_mini_lauf_1,offen,offen
+BTC 2024 Quiet 5m,dio_1ewh,dio_104t,1566,1560,-6,dio_mini_lauf_1,offen,offen
+BTC 2024 Quiet 5m,dio_1ewh,dio_104t,1670,1672,2,dio_mini_lauf_1,kippnah,rekoppelt
+BTC 2024 Quiet 5m,dio_1ewh,dio_104t,1704,1713,9,dio_mini_lauf_1,offen,offen
+BTC 2024 Quiet 5m,dio_00ly,dio_104t,23,20,-3,dio_mini_lauf_1,offen,offen
+BTC 2024 Quiet 5m,dio_00ly,dio_104t,188,192,4,dio_mini_lauf_1,offen,offen
+BTC 2024 Quiet 5m,dio_00ly,dio_104t,190,192,2,dio_mini_lauf_1,offen,offen
+BTC 2024 Quiet 5m,dio_00ly,dio_104t,391,388,-3,dio_mini_lauf_1,offen,offen
+BTC 2024 Quiet 5m,dio_00ly,dio_104t,437,438,1,dio_mini_lauf_1,offen,rekoppelt
+BTC 2024 Quiet 5m,dio_00ly,dio_104t,442,438,-4,dio_mini_lauf_1,rekoppelt,rekoppelt
+BTC 2024 Quiet 5m,dio_00ly,dio_104t,462,463,1,dio_mini_lauf_1,offen,rekoppelt
+BTC 2024 Quiet 5m,dio_00ly,dio_104t,491,494,3,dio_mini_lauf_1,offen,kippnah
+Negative Stress 2024,dio_00ly,dio_0g2r,51,54,3,dio_mini_lauf_1,offen,offen
+Negative Stress 2024,dio_00ly,dio_0g2r,410,407,-3,dio_mini_lauf_1,offen,offen
+Negative Stress 2024,dio_00ly,dio_0g2r,551,559,8,dio_mini_lauf_1,offen,offen
+Negative Stress 2024,dio_00ly,dio_0g2r,51,54,3,dio_mini_lauf_2,offen,offen
+Negative Stress 2024,dio_00ly,dio_0g2r,410,407,-3,dio_mini_lauf_2,offen,offen
+Negative Stress 2024,dio_00ly,dio_0g2r,551,559,8,dio_mini_lauf_2,offen,offen
+Negative Stress 2024,dio_0g2r,dio_1ewh,41,34,-7,dio_mini_lauf_1,kippnah,kippnah
+Negative Stress 2024,dio_0g2r,dio_1ewh,54,64,10,dio_mini_lauf_1,offen,offen
+Negative Stress 2024,dio_0g2r,dio_1ewh,141,142,1,dio_mini_lauf_1,offen,kippnah
+Negative Stress 2024,dio_0g2r,dio_1ewh,419,423,4,dio_mini_lauf_1,offen,offen
+Negative Stress 2024,dio_0g2r,dio_1ewh,494,491,-3,dio_mini_lauf_1,offen,kippnah
+Negative Stress 2024,dio_0g2r,dio_1ewh,957,959,2,dio_mini_lauf_1,offen,offen
+Negative Stress 2024,dio_0g2r,dio_1ewh,41,34,-7,dio_mini_lauf_2,kippnah,kippnah
+Negative Stress 2024,dio_0g2r,dio_1ewh,54,64,10,dio_mini_lauf_2,offen,offen
+Negative Stress 2024,dio_1ewh,dio_104t,34,31,-3,dio_mini_lauf_1,kippnah,offen
+Negative Stress 2024,dio_1ewh,dio_104t,64,57,-7,dio_mini_lauf_1,offen,offen
+Negative Stress 2024,dio_1ewh,dio_104t,142,143,1,dio_mini_lauf_1,kippnah,offen
+Negative Stress 2024,dio_1ewh,dio_104t,274,267,-7,dio_mini_lauf_1,offen,offen
+Negative Stress 2024,dio_1ewh,dio_104t,291,298,7,dio_mini_lauf_1,offen,offen
+Negative Stress 2024,dio_1ewh,dio_104t,385,383,-2,dio_mini_lauf_1,offen,rekoppelt
+Negative Stress 2024,dio_1ewh,dio_104t,423,422,-1,dio_mini_lauf_1,offen,offen
+Negative Stress 2024,dio_1ewh,dio_104t,522,519,-3,dio_mini_lauf_1,offen,offen
+Negative Stress 2024,dio_00ly,dio_104t,14,20,6,dio_mini_lauf_1,offen,kippnah
+Negative Stress 2024,dio_00ly,dio_104t,51,46,-5,dio_mini_lauf_1,offen,offen
+Negative Stress 2024,dio_00ly,dio_104t,233,237,4,dio_mini_lauf_1,offen,offen
+Negative Stress 2024,dio_00ly,dio_104t,321,325,4,dio_mini_lauf_1,offen,offen
+Negative Stress 2024,dio_00ly,dio_104t,369,376,7,dio_mini_lauf_1,rekoppelt,offen
+Negative Stress 2024,dio_00ly,dio_104t,410,415,5,dio_mini_lauf_1,offen,offen
+Negative Stress 2024,dio_00ly,dio_104t,551,553,2,dio_mini_lauf_1,offen,offen
+Negative Stress 2024,dio_00ly,dio_104t,699,703,4,dio_mini_lauf_1,offen,offen
+Positive Recovery 2025,dio_00ly,dio_0g2r,55,65,10,dio_mini_lauf_1,offen,kippnah
+Positive Recovery 2025,dio_00ly,dio_0g2r,618,614,-4,dio_mini_lauf_1,offen,kippnah
+Positive Recovery 2025,dio_00ly,dio_0g2r,692,695,3,dio_mini_lauf_1,offen,kippnah
+Positive Recovery 2025,dio_00ly,dio_0g2r,852,858,6,dio_mini_lauf_1,rekoppelt,offen
+Positive Recovery 2025,dio_00ly,dio_0g2r,906,904,-2,dio_mini_lauf_1,offen,offen
+Positive Recovery 2025,dio_00ly,dio_0g2r,55,65,10,dio_mini_lauf_2,offen,kippnah
+Positive Recovery 2025,dio_00ly,dio_0g2r,618,614,-4,dio_mini_lauf_2,offen,kippnah
+Positive Recovery 2025,dio_00ly,dio_0g2r,692,695,3,dio_mini_lauf_2,offen,kippnah
+Positive Recovery 2025,dio_0g2r,dio_1ewh,65,58,-7,dio_mini_lauf_1,kippnah,kippnah
+Positive Recovery 2025,dio_0g2r,dio_1ewh,602,610,8,dio_mini_lauf_1,offen,offen
+Positive Recovery 2025,dio_0g2r,dio_1ewh,614,610,-4,dio_mini_lauf_1,kippnah,offen
+Positive Recovery 2025,dio_0g2r,dio_1ewh,858,859,1,dio_mini_lauf_1,offen,offen
+Positive Recovery 2025,dio_0g2r,dio_1ewh,904,914,10,dio_mini_lauf_1,offen,offen
+Positive Recovery 2025,dio_0g2r,dio_1ewh,65,58,-7,dio_mini_lauf_2,kippnah,kippnah
+Positive Recovery 2025,dio_0g2r,dio_1ewh,602,610,8,dio_mini_lauf_2,offen,offen
+Positive Recovery 2025,dio_0g2r,dio_1ewh,614,610,-4,dio_mini_lauf_2,kippnah,offen
+Positive Recovery 2025,dio_1ewh,dio_104t,222,219,-3,dio_mini_lauf_1,offen,offen
+Positive Recovery 2025,dio_1ewh,dio_104t,348,345,-3,dio_mini_lauf_1,offen,offen
+Positive Recovery 2025,dio_1ewh,dio_104t,481,485,4,dio_mini_lauf_1,offen,rekoppelt
+Positive Recovery 2025,dio_1ewh,dio_104t,520,529,9,dio_mini_lauf_1,offen,kippnah
+Positive Recovery 2025,dio_1ewh,dio_104t,555,543,-12,dio_mini_lauf_1,offen,rekoppelt
+Positive Recovery 2025,dio_1ewh,dio_104t,610,604,-6,dio_mini_lauf_1,offen,rekoppelt
+Positive Recovery 2025,dio_1ewh,dio_104t,819,820,1,dio_mini_lauf_1,offen,offen
+Positive Recovery 2025,dio_1ewh,dio_104t,859,850,-9,dio_mini_lauf_1,offen,kippnah
+Positive Recovery 2025,dio_00ly,dio_104t,152,155,3,dio_mini_lauf_1,offen,offen
+Positive Recovery 2025,dio_00ly,dio_104t,257,267,10,dio_mini_lauf_1,offen,offen
+Positive Recovery 2025,dio_00ly,dio_104t,346,345,-1,dio_mini_lauf_1,offen,offen
+Positive Recovery 2025,dio_00ly,dio_104t,402,409,7,dio_mini_lauf_1,kippnah,offen
+Positive Recovery 2025,dio_00ly,dio_104t,492,485,-7,dio_mini_lauf_1,offen,rekoppelt
+Positive Recovery 2025,dio_00ly,dio_104t,618,624,6,dio_mini_lauf_1,offen,rekoppelt
+Positive Recovery 2025,dio_00ly,dio_104t,628,627,-1,dio_mini_lauf_1,offen,rekoppelt
+Positive Recovery 2025,dio_00ly,dio_104t,663,675,12,dio_mini_lauf_1,kippnah,offen

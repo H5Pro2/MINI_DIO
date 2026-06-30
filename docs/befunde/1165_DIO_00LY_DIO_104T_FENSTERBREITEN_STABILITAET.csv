@@ -1,0 +1,25 @@
+window_ticks,world_class,left_count,right_count,near_count,near_per_left,forward_dio_00ly_to_dio_104t,forward_dio_104t_to_dio_00ly,same_tick,direction_balance,mode
+6,PAXG 2024 5m,62,250,36,0.5806,16,20,0,0.8889,balanciert
+6,BTC 2024 1h,76,352,54,0.7105,24,30,0,0.8889,balanciert
+6,KAS 2024 5m,90,222,46,0.5111,32,14,0,0.6087,uebergang_zu_stabilisierung
+6,Expansion 2023,22,102,14,0.6364,6,8,0,0.8571,balanciert
+6,SOL 2026 Seitwaerts,52,266,24,0.4615,10,14,0,0.8333,stabilisierung_zu_uebergang
+6,BTC 2024 Quiet 5m,136,574,84,0.6176,34,50,0,0.8095,stabilisierung_zu_uebergang
+6,Negative Stress 2024,28,98,16,0.5714,12,4,0,0.5,uebergang_zu_stabilisierung
+6,Positive Recovery 2025,34,106,16,0.4706,6,10,0,0.75,stabilisierung_zu_uebergang
+12,PAXG 2024 5m,62,250,46,0.7419,24,22,0,0.9565,balanciert
+12,BTC 2024 1h,76,352,62,0.8158,28,34,0,0.9032,balanciert
+12,KAS 2024 5m,90,222,66,0.7333,44,22,0,0.6667,uebergang_zu_stabilisierung
+12,Expansion 2023,22,102,16,0.7273,6,10,0,0.75,stabilisierung_zu_uebergang
+12,SOL 2026 Seitwaerts,52,266,42,0.8077,22,20,0,0.9524,balanciert
+12,BTC 2024 Quiet 5m,136,574,102,0.75,42,60,0,0.8235,stabilisierung_zu_uebergang
+12,Negative Stress 2024,28,98,18,0.6429,14,4,0,0.4444,uebergang_zu_stabilisierung
+12,Positive Recovery 2025,34,106,26,0.7647,12,14,0,0.9231,balanciert
+24,PAXG 2024 5m,62,250,58,0.9355,28,30,0,0.9655,balanciert
+24,BTC 2024 1h,76,352,76,1.0,34,42,0,0.8947,balanciert
+24,KAS 2024 5m,90,222,84,0.9333,52,32,0,0.7619,uebergang_zu_stabilisierung
+24,Expansion 2023,22,102,22,1.0,12,10,0,0.9091,balanciert
+24,SOL 2026 Seitwaerts,52,266,48,0.9231,24,24,0,1.0,balanciert
+24,BTC 2024 Quiet 5m,136,574,124,0.9118,50,74,0,0.8065,stabilisierung_zu_uebergang
+24,Negative Stress 2024,28,98,28,1.0,20,8,0,0.5714,uebergang_zu_stabilisierung
+24,Positive Recovery 2025,34,106,28,0.8235,12,16,0,0.8571,balanciert

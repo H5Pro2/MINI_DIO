@@ -1695,6 +1695,178 @@ Besonders relevant fuer den aktuellen Bauplanstand:
   - Verdichtet 1067 und 1068. Ergebnis: tragende Verarbeitung entsteht aus mittlerer Tonspannung, visueller Schaerfe, Hinhoeren und reduzierter Rohlast; Kippnaehe entsteht aus lauterem Kontakt, mehr Stimulation, mehr Feldaufnahme, mehr Distanz und weniger geordnetem Hinhoeren.
 - `1069_REZEPTORHALTUNG_VERARBEITUNG_GEGEN_KIPPNAEHE.csv`
   - Kurze Vergleichsmatrix der stabilisierenden und belastenden Rezeptorhaltung.
+- `1070_REZEPTORHALTUNG_STABILITAET_WELTGRUPPEN.md`
+  - Prueft, ob tragende Verarbeitung und Kippnaehe ihre Rezeptorachsen ueber Weltgruppen behalten. Ergebnis: Die Grundtrennung bleibt sichtbar; Weltgruppen verschieben die Staerke, aber nicht die passive Rollenlogik.
+- `1070_REZEPTORHALTUNG_STABILITAET_WELTGRUPPEN.csv`
+  - Weltgruppenmatrix fuer tragende Verarbeitung und Kippnaehe gegen Rezeptorachsen.
+- `tools/report_receptor_haltung_world_stability.py`
+  - Report-Tool zur passiven Stabilitaetspruefung von Rezeptorhaltungen ueber Weltgruppen.
+- `1071_REZEPTORHALTUNG_SEMANTISCHE_BINDUNG.md`
+  - Prueft, ob Rezeptorhaltungen in Mini-DIOs eigener Syntax und Bedeutungsstruktur wieder auftauchen. Ergebnis: Bindung ist vor allem in Symbolfamilien sichtbar; explizite Bedeutungszustaende sind noch grob.
+- `1071_REZEPTORHALTUNG_SEMANTISCHE_BINDUNG.csv`
+  - Matrix von Rezeptorhaltung zu Symbolfamilien, Innenfeld-Bedeutungsspalten und Syntax-Coverage.
+- `tools/report_receptor_haltung_semantic_binding.py`
+  - Report-Tool zur passiven Pruefung der Kopplung zwischen Rezeptorhaltung und eigener Form-/Feld-Syntax.
+- `1072_REZEPTORHALTUNG_FAMILIENUEBERLAPPUNG.md`
+  - Prueft, ob tragende Verarbeitung und Kippnaehe getrennte Symbolfamilien bilden oder Bruecken teilen. Ergebnis: Es gibt wenige Brueckenfamilien; Mini-DIO wirkt eher wie ein Feldnetz als wie zwei starre Klassen.
+- `1072_REZEPTORHALTUNG_FAMILIENUEBERLAPPUNG.csv`
+  - Familienueberlappungs-Matrix mit Jaccard-Werten und Brueckenwerten je Weltgruppe.
+- `tools/report_receptor_haltung_family_overlap.py`
+  - Report-Tool zur passiven Pruefung geteilter Symbolfamilien zwischen stabiler Verarbeitung und Kippnaehe.
+- `1073_BRUECKENFAMILIEN_REALITAETSGRENZE.md`
+  - Grenzsynthese zu 1070-1072. Ergebnis: Brueckenfamilien sind vorhanden, aber realweltlich noch schwach; synthetisch erscheint `dio_1fll` dominant, darf aber nicht als fertige starke Brueckenmechanik ueberinterpretiert werden.
+- `1074_PRAEBEWUSSTE_ERGAENZUNG_UND_REALITAETSRUECKKOPPLUNG.md`
+  - Forschungsgrenze zu Musterergaenzung. Ergebnis: Mini-DIO darf innere Naehe und Formergänzung bilden, aber diese bleibt passiv und muss gegen Rohwelt, Rezeptorhaltung und Feldfolge rueckgekoppelt werden, bevor sie als Bedeutungsverdichtung gelesen wird.
+- `1075_BRUECKENFAMILIEN_ROHWELTFENSTER.md`
+  - Liest reale Brueckenfamilien gegen uebersetzte Rohweltfenster aus Sehen, Hoeren, Rezeptoren und MCM-Feldwirkung. Ergebnis: dieselbe Familie wird je nach Welt-/Feldlage tragend oder kippnah rueckgekoppelt.
+- `1075_BRUECKENFAMILIEN_ROHWELTFENSTER.csv`
+  - Aggregierte Rohweltfenster-Matrix fuer reale Brueckenfamilien wie `dio_17ct`, `dio_0g2r`, `dio_1ewh`, `dio_1gp2` und `dio_155c`.
+- `tools/report_bridge_family_rawworld_windows.py`
+  - Report-Tool zur passiven Rohwelt-Ruecklesung ausgewaehlter Brueckenfamilien.
+- `1076_BRUECKENFAMILIE_DIO_17CT_EINZELEREIGNISSE.md`
+  - Einzelereignislesung der Brueckenfamilie `dio_17ct`. Ergebnis: `dio_17ct` ist bei tragender Verarbeitung rekoppelter und weniger belastet, bei Kippnaehe spannungs- und strainnaeher.
+- `1076_BRUECKENFAMILIE_DIO_17CT_EINZELEREIGNISSE.csv`
+  - Einzelereignis-Matrix zu `dio_17ct` mit Vorfenster, Spannung, Rekopplung, Strain, visueller und auditiver Lage.
+- `tools/report_bridge_family_event_examples.py`
+  - Report-Tool zur passiven Einzelereignislesung einer Brueckenfamilie gegen Vorfenster und Feldfolge.
+- `1077_BRUECKENFAMILIE_DIO_17CT_TICKFENSTER.md`
+  - Extrahiert konkrete Vorlauf-/Ereignis-/Nachlauf-Fenster fuer `dio_17ct` in tragender Verarbeitung und Kippnaehe.
+- `1077_BRUECKENFAMILIE_DIO_17CT_TICKFENSTER.csv`
+  - Tickfenster-Matrix mit relativer Position, Feldlabel, Tonlabel, Spannung, Rekopplung, Strain und Feldaufnahme.
+- `tools/extract_bridge_family_tick_windows.py`
+  - Tool zur passiven Extraktion konkreter Tickfenster einer Brueckenfamilie.
+- `1078_FELDFOLGENSIGNATUR_DIO_17CT.md`
+  - Synthese der Tickfenster. Ergebnis: `dio_17ct` ist ein Anker, aber die Feldfolge entscheidet, ob die Familie tragend oder kippnah gelesen wird.
+- `1079_BRUECKENFAMILIE_DIO_0G2R_EINZELEREIGNISSE.md`
+  - Einzelereignislesung der Brueckenfamilie `dio_0g2r`. Ergebnis: Die Familie erscheint ebenfalls in tragender Verarbeitung und Kippnaehe; tragende Lesung zeigt niedrigere Spannung, hoehere Rekopplung und niedrigeren Strain.
+- `1079_BRUECKENFAMILIE_DIO_0G2R_EINZELEREIGNISSE.csv`
+  - Einzelereignis-Matrix zu `dio_0g2r` mit Vorfenster, Spannung, Rekopplung, Strain, visueller und auditiver Lage.
+- `1080_BRUECKENFAMILIE_DIO_0G2R_TICKFENSTER.md`
+  - Extrahiert konkrete Vorlauf-/Ereignis-/Nachlauf-Fenster fuer `dio_0g2r` in tragender Verarbeitung und Kippnaehe.
+- `1080_BRUECKENFAMILIE_DIO_0G2R_TICKFENSTER.csv`
+  - Tickfenster-Matrix mit relativer Position, Feldlabel, Tonlabel, Spannung, Rekopplung, Strain und Feldaufnahme.
+- `1081_FELDFOLGENSIGNATUR_DIO_0G2R.md`
+  - Synthese der zweiten Brueckenfamilie. Ergebnis: `dio_0g2r` bestaetigt das Prinzip `Symbolfamilie = Anker`, `Feldfolge = aktuelle Bedeutung`, `Realitaetsrueckkopplung = Reifung der Lesart`.
+- `1082_BRUECKENFAMILIEN_GRUNDREGEL.md`
+  - Formuliert aus `dio_17ct` und `dio_0g2r` eine passive Arbeitsregel: Brueckenfamilien sind wiederkehrende Anker, deren aktuelle Bedeutung erst durch Feldfolge und Realitaetsrueckkopplung entsteht.
+- `1083_BRUECKENFAMILIE_DIO_1EWH_EINZELEREIGNISSE.md`
+  - Einzelereignislesung der dritten Brueckenfamilie `dio_1ewh`; zeigt deutlich mehr tragende als kippnahe Ereignisse.
+- `1083_BRUECKENFAMILIE_DIO_1EWH_EINZELEREIGNISSE.csv`
+  - Einzelereignis-Matrix zu `dio_1ewh` mit Vorfenster, Spannung, Rekopplung, Strain, visueller und auditiver Lage.
+- `1084_BRUECKENFAMILIE_DIO_1EWH_TICKFENSTER.md`
+  - Extrahiert konkrete Vorlauf-/Ereignis-/Nachlauf-Fenster fuer `dio_1ewh`.
+- `1084_BRUECKENFAMILIE_DIO_1EWH_TICKFENSTER.csv`
+  - Tickfenster-Matrix mit relativer Position, Feldlabel, Tonlabel, Spannung, Rekopplung, Strain und Feldaufnahme.
+- `1085_FELDFOLGENSIGNATUR_DIO_1EWH.md`
+  - Synthese der dritten Brueckenfamilie. Ergebnis: `dio_1ewh` bestaetigt die Grundregel, wirkt aber staerker tragend vorgepraegt als `dio_17ct` und `dio_0g2r`.
+- `1086_BRUECKENFAMILIE_DIO_155C_EINZELEREIGNISSE.md`
+  - Einzelereignislesung einer randnaeheren Brueckenfamilie; zeigt hoehere Spannung bei Kippnaehe und weiter vorhandene Rekopplungsfaehigkeit bei tragender Lesart.
+- `1086_BRUECKENFAMILIE_DIO_155C_EINZELEREIGNISSE.csv`
+  - Einzelereignis-Matrix zu `dio_155c` mit Vorfenster, Spannung, Rekopplung, Strain, visueller und auditiver Lage.
+- `1087_BRUECKENFAMILIE_DIO_155C_TICKFENSTER.md`
+  - Extrahiert konkrete Vorlauf-/Ereignis-/Nachlauf-Fenster fuer `dio_155c`.
+- `1087_BRUECKENFAMILIE_DIO_155C_TICKFENSTER.csv`
+  - Tickfenster-Matrix mit relativer Position, Feldlabel, Tonlabel, Spannung, Rekopplung, Strain und Feldaufnahme.
+- `1088_FELDFOLGENSIGNATUR_DIO_155C.md`
+  - Synthese einer spannungsnahen Brueckenfamilie. Ergebnis: `dio_155c` ist kein reines Rauschen, sondern ein randnaeherer Brueckenanker, der tragend bleibt, wenn Rekopplung gelingt.
+- `1089_BRUECKENFAMILIE_DIO_1GP2_EINZELEREIGNISSE.md`
+  - Einzelereignislesung der balancierteren Brueckenfamilie `dio_1gp2`; zeigt nahezu ausgeglichene tragende und kippnahe Lesarten.
+- `1089_BRUECKENFAMILIE_DIO_1GP2_EINZELEREIGNISSE.csv`
+  - Einzelereignis-Matrix zu `dio_1gp2` mit Vorfenster, Spannung, Rekopplung, Strain, visueller und auditiver Lage.
+- `1090_BRUECKENFAMILIE_DIO_1GP2_TICKFENSTER.md`
+  - Extrahiert konkrete Vorlauf-/Ereignis-/Nachlauf-Fenster fuer `dio_1gp2`.
+- `1090_BRUECKENFAMILIE_DIO_1GP2_TICKFENSTER.csv`
+  - Tickfenster-Matrix mit relativer Position, Feldlabel, Tonlabel, Spannung, Rekopplung, Strain und Feldaufnahme.
+- `1091_FELDFOLGENSIGNATUR_DIO_1GP2.md`
+  - Synthese eines balancierten Brueckenankers. Ergebnis: `dio_1gp2` kippt weniger ueber Form, sondern vor allem ueber Rekopplungsqualitaet und Strain.
+- `1092_BRUECKENFAMILIEN_QUALITAETSKARTE.md`
+  - Gemeinsame passive Sortierung der geprueften Brueckenfamilien. Ergebnis: MINI_DIO bildet ein kleines Bedeutungsnetz aus tragend vorgepraegten, spannungsnahen, balancierten, offenen und feldfolgenabhaengigen Ankern.
+- `1093_BRUECKENFAMILIEN_QUALITAETSKARTE_HOLDOUT.md`
+  - Holdout-Rohweltfenster fuer die geprueften Brueckenfamilien gegen unabhaengige, lange und post-clean Welten.
+- `1093_BRUECKENFAMILIEN_QUALITAETSKARTE_HOLDOUT.csv`
+  - Aggregierte Holdout-Matrix mit Events, Spannung, Rekopplung, Strain und Feldfolge je Familie, Weltgruppe und Lesart.
+- `1094_BRUECKENFAMILIEN_ROLLENSTABILITAET_HOLDOUT.md`
+  - Synthese der Holdout-Pruefung. Ergebnis: Die Qualitaetskarte wird nicht widerlegt; tragende Lesarten bleiben rekoppelter und strainaermer, kippnahe Lesarten bleiben belasteter.
+- `1095_NEUE_BRUECKENFAMILIEN_HOLDOUT.md`
+  - Prueft Holdout-Welten auf Brueckenfamilien ausserhalb der bisherigen Qualitaetskarte. Ergebnis: 66 Familien mit beiden Lesarten; davon 2 starke neue Kandidaten und 10 lokale Kandidaten.
+- `1095_NEUE_BRUECKENFAMILIEN_HOLDOUT.csv`
+  - Kandidatenmatrix mit bekannten Familien, neuen Brueckenkandidaten, schwachen Kontakten, Eventzahlen, Weltgruppen, Rekopplung, Strain und Spannung.
+- `1096_NEUE_BRUECKENKNOTEN_BEDEUTUNGSNETZ.md`
+  - Verdichtet 1095 technisch. Ergebnis: MINI_DIO zeigt ein dynamisches Bedeutungsnetz aus stabilen Kartenfamilien, neuen Kandidaten und schwachen Kontakten, ohne daraus Handlung oder feste Bedeutung abzuleiten.
+- `tools/report_bridge_family_holdout_candidates.py`
+  - Report-Tool zur passiven Suche neuer Brueckenfamilien in Holdout-Welten ausserhalb der bisherigen Qualitaetskarte.
+- `1097_BRUECKENKANDIDAT_DIO_00LY_EINZELEREIGNISSE.md`
+  - Einzelereignis-Lupe fuer den neuen Kandidaten `dio_00ly`. Ergebnis: breit getragene Brueckenaktivitaet mit klarer Trennung zwischen tragender Verarbeitung und kleinerer Kippnaehe.
+- `1098_BRUECKENKANDIDAT_DIO_00LY_TICKFENSTER.md`
+  - Tickfenster fuer `dio_00ly` mit Vorlauf, Ereignispunkt und Nachlauf.
+- `1099_BRUECKENKANDIDAT_DIO_0PQ6_EINZELEREIGNISSE.md`
+  - Einzelereignis-Lupe fuer `dio_0pq6`. Ergebnis: schmalerer, empfindlicher Kandidat mit starker Differenz zwischen tragender und kippnaher Rueckkopplung.
+- `1100_BRUECKENKANDIDAT_DIO_0PQ6_TICKFENSTER.md`
+  - Tickfenster fuer `dio_0pq6` mit sichtbarer Umschaltnaehe zwischen Rekopplung und Belastung.
+- `1101_BRUECKENKANDIDATEN_DIO_00LY_DIO_0PQ6_SYNTHESE.md`
+  - Verdichtet die Kandidatenpruefung. Ergebnis: `dio_00ly` wirkt wie ein breiter neuer Brueckenknoten, `dio_0pq6` wie ein schmaler Umschalt- oder Kontaktkandidat; beide bleiben passiv und benoetigen weitere Weltgruppenpruefung.
+- `1102_BRUECKENKANDIDAT_DIO_00LY_RESEARCH_CHAIN_EINZELEREIGNISSE.md`
+  - Gegenpruefung von `dio_00ly` gegen vorhandene `research_chain_*`-Welten. Ergebnis: keine passenden Ereignisse; der Kandidat ist dort nicht als Brueckenlesart sichtbar.
+- `1103_BRUECKENKANDIDAT_DIO_0PQ6_RESEARCH_CHAIN_EINZELEREIGNISSE.md`
+  - Gegenpruefung von `dio_0pq6` gegen vorhandene `research_chain_*`-Welten. Ergebnis: keine passenden Ereignisse; der Kandidat ist dort nicht als Brueckenlesart sichtbar.
+- `1104_BRUECKENKANDIDATEN_RESEARCH_CHAIN_GRENZE.md`
+  - Synthese der leeren Gegenprobe. Ergebnis: `dio_00ly` und `dio_0pq6` sind aktuell starke Holdout-Kandidaten, aber keine global belegten Grundfamilien.
+- `1105_BRUECKENKANDIDATEN_BINDUNGSMATRIX.md`
+  - Bindungsmatrix der neuen Kandidaten nach Asset, Zeitrahmen, Lesart, Rezeptorhaltung, Tonform und MCM-Feldfolge. Ergebnis: `dio_00ly` ist breit asset-/zeitgebunden, `dio_0pq6` ist schmaler und kippnaeher.
+- `1105_BRUECKENKANDIDATEN_BINDUNGSMATRIX.csv`
+  - Technische Matrix mit Events, Welten, Visual-/Ton-/Feldlabels, Rekopplung, Strain, Hoeren, Schaerfe und Feldaufnahme.
+- `1106_BRUECKENKANDIDATEN_BINDUNGSLESART.md`
+  - Verdichtet 1105. Ergebnis: `dio_00ly` wirkt wie ein nachreifender Brueckenknoten, `dio_0pq6` wie ein empfindlicher Kontakt-/Umschaltkandidat; beide bleiben bis zur Folgeweltpruefung passiv begrenzt.
+- `tools/report_bridge_candidate_binding.py`
+  - Report-Tool zur passiven Bindungslesung neuer Brueckenkandidaten nach Asset, Zeitrahmen, Sinnes-/Rezeptorhaltung und Feldfolge.
+- `1107_DIO_00LY_FRISCHE_PAXG_FOLGEWELT.md`
+  - Einzelereignis-Lupe fuer `dio_00ly` in einer frischen PAXG-5m-Folgewelt. Ergebnis: kleine, aber tragend rekoppelte Wiederkehr.
+- `1108_DIO_0PQ6_FRISCHE_PAXG_FOLGEWELT.md`
+  - Einzelereignis-Lupe fuer `dio_0pq6` in derselben frischen Folgewelt. Ergebnis: kleine kippnahe Wiederkehr.
+- `1109_BRUECKENKANDIDATEN_FRISCHE_FOLGEWELT_BINDUNG.md`
+  - Bindungsmatrix der frischen Folgewelt. Ergebnis: `dio_00ly` erscheint tragend, `dio_0pq6` erscheint kippnah.
+- `1110_BRUECKENKANDIDATEN_FOLGEWELT_ROLLENRICHTUNG.md`
+  - Synthese der Folgeweltpruefung. Ergebnis: keine globale Reife, aber kleine konsistente Rollenrichtung: `dio_00ly` eher tragend, `dio_0pq6` eher kippnah.
+- `1111_DIO_00LY_FRISCHE_BTC_1H_FOLGEWELT.md`
+  - Zweite frische Folgewelt-Lupe fuer `dio_00ly` auf BTC 2024 1h. Ergebnis: 14 tragende rekoppelte Ereignisse.
+- `1112_DIO_0PQ6_FRISCHE_BTC_1H_FOLGEWELT.md`
+  - Zweite frische Folgewelt-Lupe fuer `dio_0pq6` auf BTC 2024 1h. Ergebnis: keine passenden Ereignisse.
+- `1113_BRUECKENKANDIDATEN_ZWEITE_FOLGEWELT_BINDUNG.md`
+  - Bindungsmatrix der zweiten Folgewelt. Ergebnis: `dio_00ly` bleibt tragend rekoppelt, `dio_0pq6` bleibt aus.
+- `1114_BRUECKENKANDIDATEN_REIFEUNTERSCHIED.md`
+  - Verdichtet zwei frische Folgewelten. Ergebnis: `dio_00ly` zeigt beginnende Reifung ueber Folgewelten, `dio_0pq6` bleibt lokaler Kipp-/Kontaktkandidat.
+- `1115_DIO_00LY_FRISCHE_KAS_5M_FOLGEWELT.md`
+  - Dritte frische Folgewelt fuer `dio_00ly` auf KAS 2024 5m. Ergebnis: 26 Ereignisse, tragende Verarbeitung, meist rekoppelt; staerkt die Lesart als nachreifende tragende Brueckenfamilie.
+- `1116_DIO_0PQ6_FRISCHE_KAS_5M_FOLGEWELT.md`
+  - Dritte frische Folgewelt fuer `dio_0pq6` auf KAS 2024 5m. Ergebnis: keine Ereignisse; die Familie bleibt lokal/kontaktgebunden statt breit reifend.
+- `1117_BRUECKENKANDIDATEN_DRITTE_FOLGEWELT_BINDUNG.md`
+  - Bindungsmatrix der dritten Folgewelt. Ergebnis: `dio_00ly` bindet an KAS 5m mit geordnetem Hinhoeren, wechselnder/stabiler Form und rekoppeltem/offenem Feld; `dio_0pq6` bleibt aus.
+- `1118_BRUECKENKANDIDATEN_DREI_FOLGEWELTEN_REIFE.md`
+  - Verdichtet PAXG 5m, BTC 1h und KAS 5m. Ergebnis: `dio_00ly` reift ueber mehrere Folgewelten als tragende Brueckenfamilie; `dio_0pq6` bleibt lokaler Kontakt-/Umschaltkandidat.
+- `1119_DIO_00LY_EXPANSIONSWELT_FOLGEPRUEFUNG.md`
+  - Prueft `dio_00ly` gegen eine positive Expansionswelt. Ergebnis: 6 tragende Ereignisse; die Familie bleibt sichtbar, aber schmaler und haeufiger offen als rekoppelt.
+- `1120_DIO_0PQ6_EXPANSIONSWELT_FOLGEPRUEFUNG.md`
+  - Prueft `dio_0pq6` gegen dieselbe Expansionswelt. Ergebnis: keine Ereignisse; bestaetigt die lokale Begrenzung.
+- `1121_BRUECKENKANDIDATEN_EXPANSIONSWELT_BINDUNG.md`
+  - Bindungsmatrix der Expansionswelt. Ergebnis: `dio_00ly` bindet an geordnetes Hoeren, wechselnde/stabile Form und offenes/rekoppeltes Feld; Breite ist geringer als in KAS 5m.
+- `1122_BRUECKENKANDIDATEN_EXPANSIONSWELT_REIFE.md`
+  - Verdichtet die Expansionspruefung. Ergebnis: Reife ist nicht Starrheit; `dio_00ly` bleibt als tragende Brueckenrolle erkennbar, aber weltklassenabhaengig schmaler.
+- `1123_DIO_00LY_SEITWAERTSWELT_FOLGEPRUEFUNG.md`
+  - Prueft `dio_00ly` gegen eine ruhige Seitwaertswelt. Ergebnis: 12 tragende Ereignisse, meist rekoppelt; die Familie bleibt auch ohne starke gerichtete Weltspannung sichtbar.
+- `1124_DIO_0PQ6_SEITWAERTSWELT_FOLGEPRUEFUNG.md`
+  - Prueft `dio_0pq6` gegen dieselbe Seitwaertswelt. Ergebnis: 2 kippnahe offene Ereignisse; die Familie bleibt duenn und kontaktgebunden.
+- `1125_BRUECKENKANDIDATEN_SEITWAERTSWELT_BINDUNG.md`
+  - Bindungsmatrix der Seitwaertswelt. Ergebnis: `dio_00ly` ist tragend mit geordnetem Hinhoeren und wechselnder Form; `dio_0pq6` bleibt kippnah mit offener Feldbindung.
+- `1126_BRUECKENKANDIDATEN_SEITWAERTSWELT_REIFE.md`
+  - Verdichtet die ruhige Gegenklasse. Ergebnis: Brueckenordnung braucht nicht zwingend starke Bewegung; `dio_00ly` bleibt in ruhiger Weltspannung tragend sichtbar, `dio_0pq6` bleibt lokale Kipp-/Kontaktspur.
+- `1127_DIO_00LY_BTC_QUIET_5M_FOLGEPRUEFUNG.md`
+  - Zweite ruhige Gegenwelt fuer `dio_00ly` auf BTC 2024 5m quiet. Ergebnis: 20 tragende Ereignisse, 18 rekoppelt; staerkt die breite Brueckenrollen-Lesart.
+- `1128_DIO_0PQ6_BTC_QUIET_5M_FOLGEPRUEFUNG.md`
+  - Zweite ruhige Gegenwelt fuer `dio_0pq6`. Ergebnis: 2 tragende Ereignisse im offenen Feld; bleibt sehr duenn und lokal.
+- `1129_BRUECKENKANDIDATEN_BTC_QUIET_BINDUNG.md`
+  - Bindungsmatrix der BTC-quiet-Gegenwelt. Ergebnis: `dio_00ly` bindet tragend an rekoppeltes Feld, geordnetes Hinhoeren und wechselnde/stabile Form; `dio_0pq6` bleibt klein.
+- `1130_BRUECKENKANDIDATEN_ZWEITE_RUHIGE_GEGENWELT.md`
+  - Verdichtet die zweite ruhige Gegenwelt. Ergebnis: `dio_00ly` ist nicht nur Bewegungsraum-Kandidat, sondern breiterer MCM-Brueckenrollen-Kandidat; `dio_0pq6` bleibt lokale Kontaktspur.
 - `mini_dio/mcm_role_network.py`
   - Passive Netzwerkschicht fuer Rollenverlauf, Nachbarschaft, Drift, Rekopplung, Weltqualitaet und Reifung.
 - `tools/report_mcm_role_network.py`
@@ -1767,6 +1939,165 @@ Besonders relevant fuer den aktuellen Bauplanstand:
   - Report-Tool zur passiven Isolation eines Bedeutungs-Erweiterungskandidaten gegen Bibliothek, Vorreife und Holdout-Aktivierung.
 - `tools/report_mcm_role_shift_memory_reading.py`
   - Report-Tool zur Folgelesung passiver `dio_shift_*` Rollenwechsel-Memory gegen weitere Nicht-Bruecken-Landschaften.
+
+## Befund 1131 - Feldtopologische Rolle der Brueckenkandidaten
+
+- `docs/befunde/1131_BRUECKENKANDIDATEN_FELDTOPOLOGISCHE_ROLLE.md`
+  - Synthese der bisherigen Brueckenkandidaten-Pruefungen ueber PAXG 5m, BTC 1h, KAS 5m, Expansionswelt, Seitwaertswelt und BTC quiet.
+  - Kernaussage: `dio_00ly` wirkt als nachreifender MCM-Brueckenrollen-Kandidat; `dio_0pq6` bleibt eine duenne lokale Kontakt-/Umschaltspur.
+  - Wichtig: passive Rollenlesung, keine Handlung, kein Gate, kein Entry-Signal und keine Richtungslogik.
+- `docs/befunde/1131_BRUECKENKANDIDATEN_FELDTOPOLOGISCHE_ROLLE.csv`
+  - Kompakte Rollenmatrix fuer `dio_00ly` und `dio_0pq6`.
+
+## Befund 1132-1135 - Brueckenkandidaten in negativer Stresswelt
+
+- `docs/befunde/1132_DIO_00LY_NEGATIVE_STRESS_FOLGEPRUEFUNG.md`
+  - Einzelereignisse fuer `dio_00ly` in negativer SOL-2024-Stresswelt.
+- `docs/befunde/1133_DIO_0PQ6_NEGATIVE_STRESS_FOLGEPRUEFUNG.md`
+  - Keine passenden Ereignisse fuer `dio_0pq6` in dieser Welt.
+- `docs/befunde/1134_BRUECKENKANDIDATEN_NEGATIVE_STRESS_BINDUNG.md`
+  - Bindungsmatrix: `dio_00ly` erscheint 11-mal, ueberwiegend offen; `dio_0pq6` erscheint nicht.
+- `docs/befunde/1135_BRUECKENKANDIDATEN_NEGATIVE_STRESS_ROLLENMODULATION.md`
+  - Synthese: `dio_00ly` bleibt unter negativer Stresswelt tragend sichtbar, verschiebt sich aber von ueberwiegend rekoppelt zu ueberwiegend offen.
+  - Deutung: gleiche Bedeutungsfamilie, andere Weltspannung, andere Kopplungsqualitaet.
+
+## Befund 1136-1139 - Brueckenrolle zwischen Stress und Recovery
+
+- `docs/befunde/1136_DIO_00LY_POSITIVE_RECOVERY_FOLGEPRUEFUNG.md`
+  - Einzelereignisse fuer `dio_00ly` in positiver Recovery-Welt.
+- `docs/befunde/1137_DIO_0PQ6_POSITIVE_RECOVERY_FOLGEPRUEFUNG.md`
+  - Keine passenden Ereignisse fuer `dio_0pq6` in dieser Recovery-Welt.
+- `docs/befunde/1138_BRUECKENKANDIDATEN_POSITIVE_RECOVERY_BINDUNG.md`
+  - Bindungsmatrix: `dio_00ly` erscheint 6-mal, offen/rekoppelt gemischt.
+- `docs/befunde/1139_BRUECKENKANDIDATEN_STRESS_RECOVERY_VERGLEICH.md`
+  - Vergleich von negativer Stresswelt und positiver Recovery-Welt.
+  - Kernaussage: `dio_00ly` wirkt als tragende Brueckenrolle mit offener bis rekoppelter Modulation, nicht als starre Symbolregel.
+
+## Befund 1140 - Brueckenrollen ueber Weltklassen
+
+- `docs/befunde/1140_BRUECKENROLLEN_WELTKLASSEN_KARTE.md`
+  - Rollenkarte ueber acht Weltklassen: PAXG 5m, BTC 1h, KAS 5m, Expansion, Seitwaerts, BTC quiet, negativer Stress und positive Recovery.
+  - Kernaussage: `dio_00ly` erscheint in 8/8 geprueften Weltklassen als tragende Brueckenrolle mit Kopplungsmodulation; `dio_0pq6` bleibt lokale Kontakt-/Umschaltspur.
+- `docs/befunde/1140_BRUECKENROLLEN_WELTKLASSEN_KARTE.csv`
+  - Kompakte Weltklassen-Matrix fuer die Brueckenrollen.
+
+## Befund 1141-1148 - Suche nach zweiter Brueckenachse
+
+- `docs/befunde/1141_DIO_1EWH_NEGATIVE_STRESS_FOLGEPRUEFUNG.md`
+- `docs/befunde/1142_DIO_1EWH_POSITIVE_RECOVERY_FOLGEPRUEFUNG.md`
+- `docs/befunde/1143_DIO_1EWH_BTC_QUIET_FOLGEPRUEFUNG.md`
+  - `dio_1ewh` zeigt in den neueren Gegenwelten keine breite zweite Achse.
+- `docs/befunde/1144_DIO_104T_NEGATIVE_STRESS_FOLGEPRUEFUNG.md`
+- `docs/befunde/1145_DIO_104T_POSITIVE_RECOVERY_FOLGEPRUEFUNG.md`
+- `docs/befunde/1146_DIO_104T_BTC_QUIET_FOLGEPRUEFUNG.md`
+- `docs/befunde/1147_DIO_104T_DREI_WELTKLASSEN_BINDUNG.md`
+- `docs/befunde/1148_DIO_104T_ZWEITE_BRUECKENACHSE_KANDIDAT.md`
+  - `dio_104t` wirkt als Kandidat einer zweiten Brueckenachse: rekopplungsnah in ruhiger Welt, offen/rekoppelt moduliert in Stress/Recovery.
+  - Naechste Pruefung: gleiche Weltklassenkarte wie fuer `dio_00ly`.
+
+## Befund 1149-1155 - Zwei Brueckenachsen
+
+- `docs/befunde/1149_DIO_104T_PAXG_FOLGEPRUEFUNG.md`
+- `docs/befunde/1150_DIO_104T_BTC_1H_FOLGEPRUEFUNG.md`
+- `docs/befunde/1151_DIO_104T_KAS_FOLGEPRUEFUNG.md`
+- `docs/befunde/1152_DIO_104T_EXPANSION_FOLGEPRUEFUNG.md`
+- `docs/befunde/1153_DIO_104T_SIDEWAYS_FOLGEPRUEFUNG.md`
+- `docs/befunde/1154_DIO_104T_WELTKLASSEN_BINDUNG.md`
+  - `dio_104t` wurde gegen dieselbe Weltklassenbasis wie `dio_00ly` gelesen.
+- `docs/befunde/1155_ZWEI_BRUECKENACHSEN_DIO_00LY_DIO_104T.md`
+  - Kernaussage: `dio_00ly` wirkt als breite Uebergangsbruecke; `dio_104t` wirkt als rekopplungsnahe Stabilitaetsbruecke.
+  - Bedeutung: MINI_DIO zeigt mindestens zwei passive Brueckenrollen im MCM-Bedeutungsnetz.
+
+## Befund 1156-1158 - Nachbarschaft der Brueckenachsen
+
+- `docs/befunde/1156_BRUECKENACHSEN_ZWISCHENFAMILIEN_METRIK.csv`
+  - Erste metrische Distanzrechnung zwischen `dio_00ly` und `dio_104t`.
+  - Hinweis: reine Balance kann schwache Kontakte falsch hochziehen.
+- `docs/befunde/1157_BRUECKENACHSEN_ZWISCHENFAMILIEN_GEFILTERT.csv`
+  - Gefilterte Zwischenfamilien-Metrik: schwache Kontakte und zu weit entfernte Familien werden abgegrenzt.
+- `docs/befunde/1158_BRUECKENACHSEN_NACHBARSCHAFT_UND_ZWISCHENFAMILIEN.md`
+  - Kernaussage: Zwischen den Achsen liegen `dio_0g2r`, `dio_1ewh`, `dio_1o4z` und `dio_0pq6` als moegliche Zwischenkontakte.
+  - Neue Lesart: `dio_0pq6` ist keine breite Hauptachse, sondern eher lokaler Zwischen-/Kippkontakt.
+
+## Befund 1159-1162 - Zeitliche Feldfolge der Brueckenachsen
+
+- `docs/befunde/1159_BRUECKENACHSEN_ZEITLICHE_NACHBARSCHAFT.csv`
+  - Ticknahe Nachbarschaft der Achsenfamilien in acht Weltklassen.
+- `docs/befunde/1160_BRUECKENACHSEN_ZEITLICHE_NACHBARSCHAFT_BEISPIELE.csv`
+  - Beispielhafte Tickfenster fuer Naehe-Ereignisse.
+- `docs/befunde/1161_BRUECKENACHSEN_ZEITLICHE_NACHBARSCHAFT_SUMMARY.csv`
+  - Aggregierte Richtung und Naehe der Paare.
+- `docs/befunde/1162_BRUECKENACHSEN_ZEITLICHE_FELDFOLGE.md`
+  - Kernaussage: Die Beziehung ist nicht nur metrisch. `dio_00ly` und `dio_104t` treten in rund drei Vierteln der `dio_00ly`-Vorkommen zeitlich nahe auf und bilden eher einen gemeinsamen Feldbereich/Rueckbezug als eine einfache lineare Kette.
+
+## Befund 1163-1164 - Weltklassenrichtung der Achsenbeziehung
+
+- `docs/befunde/1163_DIO_00LY_DIO_104T_WELTKLASSEN_RICHTUNG.csv`
+  - Weltklassenweise Richtung der Ticknaehe zwischen `dio_00ly` und `dio_104t`.
+- `docs/befunde/1164_DIO_00LY_DIO_104T_WELTKLASSEN_RICHTUNG.md`
+  - Kernaussage: Die Beziehung ist in allen Weltklassen vorhanden, aber die Richtung ist weltabhaengig.
+  - Balanciert: PAXG 5m, BTC 1h, SOL Seitwaerts, Positive Recovery.
+  - Uebergang zu Stabilisierung: KAS 5m, Negative Stress.
+  - Stabilisierung zu Uebergang: Expansion, BTC quiet.
+
+## Befund 1165-1166 - Fensterbreiten-Stabilitaet der Achsenbeziehung
+
+- `docs/befunde/1165_DIO_00LY_DIO_104T_FENSTERBREITEN_STABILITAET.csv`
+  - Vergleich der Achsennaehe bei 6, 12 und 24 Ticks.
+- `docs/befunde/1166_DIO_00LY_DIO_104T_FENSTERBREITEN_STABILITAET.md`
+  - Kernaussage: Die Beziehung `dio_00ly <-> dio_104t` bleibt ueber verschiedene Fensterbreiten sichtbar.
+  - Die Beziehung ist skalenrobust, aber nicht richtungsstarr.
+  - KAS und Negative Stress zeigen stabil `dio_00ly -> dio_104t`.
+  - BTC quiet zeigt stabil `dio_104t -> dio_00ly`.
+  - PAXG und BTC 1h bleiben balanciert.
+  - Expansion, SOL Seitwaerts und Positive Recovery sind fensterabhaengiger und werden bei groesseren Fenstern eher als gemeinsame Zone lesbar.
+
+## Befund 1167-1169 - Rohwelt-Ruecklesung stabiler Brueckenrichtungen
+
+- `docs/befunde/1167_BRUECKENACHSEN_STABILE_RICHTUNGEN_ROHWELT.csv`
+  - Aggregierte Rohweltwerte fuer stabile Richtungsfaelle.
+- `docs/befunde/1168_BRUECKENACHSEN_STABILE_RICHTUNGEN_BEISPIELE.csv`
+  - Einzelbeispiele der Paarereignisse.
+- `docs/befunde/1169_BRUECKENACHSEN_STABILE_RICHTUNGEN_ROHWELT.md`
+  - Kernaussage: Die Richtungsunterschiede liegen nicht in Feldkollaps, sondern in stabiler Feldlage mit unterschiedlicher Ton-/Energiebewegung.
+  - `dio_00ly -> dio_104t` zeigt in KAS und Negative Stress fallende Tonbewegung.
+  - `dio_104t -> dio_00ly` zeigt in BTC Quiet steigende Tonbewegung.
+  - Die MCM-Feldspannung bleibt dabei relativ stabil.
+  - Lesart: Die Achsenbeziehung ist eine Brueckenmodulation innerhalb eines tragenden Feldbereichs, nicht chaotische Randspannung.
+
+## Befund 1170-1172 - Lokale Segmentfenster der Brueckenachsen
+
+- `docs/befunde/1170_BRUECKENACHSEN_LOKALE_SEGMENTFENSTER.csv`
+  - Lokale Segmentfenster um konkrete Paarereignisse.
+- `docs/befunde/1171_BRUECKENACHSEN_LOKALE_SEGMENTSUMMARY.csv`
+  - Verdichtete Segmentklassen und Deltas pro Weltklasse.
+- `docs/befunde/1172_BRUECKENACHSEN_LOKALE_SEGMENTFENSTER.md`
+  - Kernaussage: Die Aggregation aus 1169 bleibt lokal sichtbar.
+  - `dio_00ly -> dio_104t` zeigt in KAS und Negative Stress fallende Tonbewegung.
+  - `dio_104t -> dio_00ly` zeigt in BTC Quiet steigende Tonbewegung.
+  - Rekopplung und Feldspannung bleiben dabei weitgehend stabil.
+  - Lesart: Die Richtung der Brueckennaehe entsteht als tonale Modulation im stabilen Feld, nicht als Kollaps.
+
+## Befund 1173-1176 - Syntax-Nachbarschaft der Brueckenachsen
+
+- `docs/befunde/1173_BRUECKENACHSEN_SYNTAX_NACHBARSCHAFT_EVENTS.csv`
+  - Ereignisweise Nachbarschaft der `symbol_family`-Syntax um die Brueckenfenster.
+- `docs/befunde/1174_BRUECKENACHSEN_SYNTAX_NACHBARSCHAFT_VERGLEICH.csv`
+  - Vergleich der Nachbarschaftsraeume fuer `dio_00ly -> dio_104t` und `dio_104t -> dio_00ly`.
+- `docs/befunde/1175_BRUECKENACHSEN_SYNTAX_NACHBARSCHAFT_PHASES.csv`
+  - Phasenbezogene Familiennaehe vor, zwischen und nach den Brueckenpaaren.
+- `docs/befunde/1176_BRUECKENACHSEN_SYNTAX_NACHBARSCHAFT.md`
+  - Kernaussage: Die Ton-/Brueckenunterschiede tauchen teilweise in MINI_DIOs eigener Syntax wieder auf, aber nicht als harte getrennte Bedeutungsinseln.
+  - Die Familienraeume haben hohe Cosinusnaehe und deutliche Ueberlappung.
+  - Lesart: gemeinsames Brueckennetz mit richtungsabhaengiger Nachbarschaftsgewichtung.
+  - Kandidaten fuer lokale Gewichtung: unter anderem `dio_00ja`, `dio_1uof`, `dio_0tay`, `dio_1kpz`, `dio_17ct`.
+
+## Befund 1177 - MCM-Innenfeld als Grundlage fuer humanoide Robotik
+
+- `docs/befunde/1177_MCM_INNENFELD_ALS_GRUNDLAGE_FUER_HUMANOIDE_ROBOTIK.md`
+  - Einordnung der bisherigen MINI_DIO-Befunde als moegliche Forschungsgrundlage fuer humanoide Robotik.
+  - Kernaussage: MCM koennte dort relevant werden, wo Bewegung, Kontakt, Varianz, Nachhall und Koerperlage nicht nur berechnet, sondern als Innenfeldwirkung geordnet werden muessen.
+  - Grenze: MINI_DIO ist kein Robotiksystem; es liefert bisher nur eine Forschungsgrundlage fuer MCM-basierte Innenfeldreaktion, Bedeutungsverdichtung und passive Eigenregulation.
 
 Hinweis:
 

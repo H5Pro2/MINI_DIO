@@ -301,10 +301,31 @@ MINI_DIO ist noch kein fertiges KI-System. Der aktuelle Stand zeigt aber bereits
 
 Die aktuelle Forschung ist nicht auf eine einzelne Datenart beschränkt. Die zeitlichen Kurswelten werden hier genutzt, weil sie Energie, Rhythmus, Bruch, Ruhe, Spannung und Wiederkehr liefern. Der eigentliche Kern ist die MCM-basierte Innenfeldorganisation.
 
-Mögliche Anwendungsrichtungen:
+Eine besonders naheliegende spätere Anwendungsrichtung ist humanoide Robotik.
 
-- **Humanoide Robotik**
-  Ein Roboter könnte Kamera, Mikrofon, Drucksensorik, Bewegung und Kontakt nicht nur technisch fusionieren, sondern als innere Feldwirkung ordnen: Was ist gesehen, gehört, berührt, erinnert oder belastend?
+In einem humanoiden System reicht es nicht, Bewegung nur technisch zu berechnen. Der Körper steht in variabler Realität: Untergrund, Last, Berührung, Reibung, Geräusch, optische Nähe, Kippgefahr und Objektkontakt ändern sich fortlaufend.
+
+Klassische Regelung bleibt dafür notwendig. Eine MCM-Schicht würde sie nicht ersetzen. Der mögliche Zusatz wäre eine innere Feldwahrnehmung:
+
+```text
+Sensorischer Kontakt
+  -> Rezeptorische Aufnahme
+  -> MCM-Feldwirkung
+  -> Innenlage
+  -> Wiederkehr / Nachhall / Bedeutung
+  -> passive Regulation
+```
+
+Damit könnte ein späteres System nicht nur wissen, wo ein Arm ist oder wie stark ein Kontakt ist, sondern welche Zustandsqualität entsteht:
+
+- Diese Bewegung trägt.
+- Dieser Kontakt kippt.
+- Diese Last bleibt integrierbar.
+- Diese Oberfläche verlangt vorsichtigere Aufnahme.
+- Dieser Rhythmus passt zur aktuellen Körperlage.
+- Diese Weltlage ist bekannt, aber anders gefärbt.
+
+Weitere mögliche Anwendungsrichtungen:
 
 - **Adaptive Wahrnehmungssysteme**
   Systeme könnten lernen, wann sie genauer hinsehen, leiser hören, Abstand bilden, Rauschen dämpfen oder Kontakt intensiver lesen, ohne dass jede Situation hart geregelt wird.
@@ -328,6 +349,8 @@ MCM kann eine Architektur für weltgekoppelte Innenfeldorganisation sein.
 ```
 
 Das ist noch kein Beweis für allgemeine Intelligenz und kein Bewusstseinsnachweis. Es ist aber eine konkrete Forschungsrichtung für Systeme, die Weltkontakt nicht nur berechnen, sondern innerlich ordnen und Bedeutung daraus verdichten.
+
+Ausführlicher festgehalten ist diese Übertragung in [1177_MCM_INNENFELD_ALS_GRUNDLAGE_FUER_HUMANOIDE_ROBOTIK.md](docs/befunde/1177_MCM_INNENFELD_ALS_GRUNDLAGE_FUER_HUMANOIDE_ROBOTIK.md).
 
 ## Visuelle Übersicht
 

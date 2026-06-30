@@ -1,0 +1,7 @@
+direction,phase,unique_families,total_hits,top_families
+dio_00ly_to_dio_104t,after,74,330,dio_0h9h:22;dio_06s7:18;dio_14wj:18;dio_0l7p:16;dio_155c:16;dio_0m9z:14;dio_1lsu:10;dio_0oc3:10;dio_00ja:8;dio_0g2r:8;dio_02xf:6;dio_0dd2:6
+dio_00ly_to_dio_104t,before,87,342,dio_14wj:16;dio_0m9z:16;dio_155c:16;dio_00ja:14;dio_0l7p:10;dio_0pz6:10;dio_17db:8;dio_0oc3:8;dio_1lsu:8;dio_1uof:8;dio_17ct:6;dio_1mwv:6
+dio_00ly_to_dio_104t,between,73,280,dio_14wj:20;dio_155c:20;dio_0l7p:12;dio_0obq:12;dio_1uof:10;dio_0m9z:8;dio_0nlj:8;dio_1r55:8;dio_00ja:6;dio_1ewh:6;dio_0kx9:6;dio_0h9h:6
+dio_104t_to_dio_00ly,after,92,422,dio_0m9z:28;dio_155c:22;dio_0h9h:20;dio_0l7p:20;dio_14wj:18;dio_0oc3:12;dio_1kpz:12;dio_0pz6:10;dio_0obq:10;dio_06s7:10;dio_12fw:8;dio_0tay:8
+dio_104t_to_dio_00ly,before,110,450,dio_0m9z:24;dio_0l7p:20;dio_155c:18;dio_14wj:14;dio_0oc3:14;dio_17ct:12;dio_1r55:10;dio_1cic:8;dio_19pg:8;dio_1u5i:8;dio_1pij:8;dio_1jc2:8
+dio_104t_to_dio_00ly,between,80,366,dio_155c:22;dio_0l7p:20;dio_0m9z:16;dio_0h9h:16;dio_14wj:16;dio_0oc3:12;dio_0tay:12;dio_169a:12;dio_17ct:10;dio_1r55:10;dio_1lsu:8;dio_0pz6:8

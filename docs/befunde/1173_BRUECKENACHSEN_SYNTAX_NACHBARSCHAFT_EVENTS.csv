@@ -1,0 +1,143 @@
+world,direction,run,source_tick,target_tick,total_window_rows,non_axis_family_count,unique_non_axis_families,top_non_axis_families,dominant_non_axis_family,dominant_non_axis_count
+KAS 2024 5m,dio_00ly_to_dio_104t,dio_mini_lauf_1,55,62,20,17,13,dio_17ct:2;dio_14wj:2;dio_0m9z:2;dio_0l7p:2;dio_0obq:1,dio_17ct,2
+KAS 2024 5m,dio_00ly_to_dio_104t,dio_mini_lauf_1,143,146,16,11,10,dio_0l7p:2;dio_1mjc:1;dio_0z9t:1;dio_14wj:1;dio_155c:1,dio_0l7p,2
+KAS 2024 5m,dio_00ly_to_dio_104t,dio_mini_lauf_1,235,237,15,13,12,dio_0l7p:2;dio_0pz6:1;dio_0h9h:1;dio_1fll:1;dio_14wj:1,dio_0l7p,2
+KAS 2024 5m,dio_00ly_to_dio_104t,dio_mini_lauf_1,259,263,17,14,12,dio_14wj:2;dio_0oc3:2;dio_09bn:1;dio_0nlj:1;dio_17db:1,dio_14wj,2
+KAS 2024 5m,dio_00ly_to_dio_104t,dio_mini_lauf_1,357,364,20,17,16,dio_1q85:2;dio_06s7:1;dio_0m9z:1;dio_17ct:1;dio_0h9h:1,dio_1q85,2
+KAS 2024 5m,dio_00ly_to_dio_104t,dio_mini_lauf_1,373,376,16,14,11,dio_0oc3:2;dio_155c:2;dio_0kx9:2;dio_0fe7:1;dio_14wj:1,dio_0oc3,2
+KAS 2024 5m,dio_00ly_to_dio_104t,dio_mini_lauf_1,504,516,25,22,20,dio_0h9h:3;dio_05mh:1;dio_1uyk:1;dio_1772:1;dio_1r1r:1,dio_0h9h,3
+KAS 2024 5m,dio_00ly_to_dio_104t,dio_mini_lauf_1,546,554,21,17,16,dio_155c:2;dio_0m9z:1;dio_1rqi:1;dio_0g2r:1;dio_16l9:1,dio_155c,2
+KAS 2024 5m,dio_00ly_to_dio_104t,dio_mini_lauf_1,548,555,20,16,14,dio_0g2r:2;dio_155c:2;dio_16l9:1;dio_0bgx:1;dio_00ja:1,dio_0g2r,2
+KAS 2024 5m,dio_00ly_to_dio_104t,dio_mini_lauf_1,663,674,24,21,16,dio_1r55:3;dio_10dv:2;dio_0l7p:2;dio_17db:2;dio_06jk:1,dio_1r55,3
+KAS 2024 5m,dio_00ly_to_dio_104t,dio_mini_lauf_1,1017,1022,18,15,13,dio_155c:2;dio_06s7:2;dio_19pg:1;dio_0bgx:1;dio_0xnz:1,dio_155c,2
+KAS 2024 5m,dio_00ly_to_dio_104t,dio_mini_lauf_1,1392,1394,15,13,12,dio_17ct:2;dio_1492:1;dio_0m9z:1;dio_0pxr:1;dio_06s7:1,dio_17ct,2
+KAS 2024 5m,dio_00ly_to_dio_104t,dio_mini_lauf_1,1813,1816,16,12,11,dio_0l7p:2;dio_1492:1;dio_10dv:1;dio_1lsu:1;dio_07uk:1,dio_0l7p,2
+KAS 2024 5m,dio_00ly_to_dio_104t,dio_mini_lauf_1,1830,1840,23,21,21,dio_0m9z:1;dio_1lsu:1;dio_1pij:1;dio_01hu:1;dio_1u5i:1,dio_0m9z,1
+KAS 2024 5m,dio_00ly_to_dio_104t,dio_mini_lauf_1,1856,1865,22,17,16,dio_0l7p:2;dio_1vdo:1;dio_1mwv:1;dio_1j37:1;dio_1sa0:1,dio_0l7p,2
+KAS 2024 5m,dio_00ly_to_dio_104t,dio_mini_lauf_1,1859,1867,21,16,15,dio_0l7p:2;dio_1sa0:1;dio_04uf:1;dio_1uyk:1;dio_1uof:1,dio_0l7p,2
+KAS 2024 5m,dio_00ly_to_dio_104t,dio_mini_lauf_1,1888,1893,18,15,14,dio_0m9z:2;dio_1pij:1;dio_09bn:1;dio_155c:1;dio_1dln:1,dio_0m9z,2
+KAS 2024 5m,dio_00ly_to_dio_104t,dio_mini_lauf_1,1934,1943,22,16,13,dio_1uof:3;dio_14wj:2;dio_0d46:1;dio_0v2o:1;dio_08l0:1,dio_1uof,3
+KAS 2024 5m,dio_00ly_to_dio_104t,dio_mini_lauf_1,1940,1948,21,13,10,dio_14wj:3;dio_1uof:2;dio_00ja:1;dio_1jc2:1;dio_155c:1,dio_14wj,3
+KAS 2024 5m,dio_00ly_to_dio_104t,dio_mini_lauf_1,1941,1952,24,17,14,dio_14wj:3;dio_1uof:2;dio_00ja:1;dio_1jc2:1;dio_155c:1,dio_14wj,3
+KAS 2024 5m,dio_00ly_to_dio_104t,dio_mini_lauf_1,1951,1961,23,17,16,dio_0l7p:2;dio_1r55:1;dio_1350:1;dio_0dd2:1;dio_1lsu:1,dio_0l7p,2
+KAS 2024 5m,dio_00ly_to_dio_104t,dio_mini_lauf_1,1988,1992,13,10,10,dio_1ewh:1;dio_10dv:1;dio_1e0y:1;dio_1xrt:1;dio_1u5i:1,dio_1ewh,1
+KAS 2024 5m,dio_00ly_to_dio_104t,dio_mini_lauf_2,55,62,20,17,13,dio_17ct:2;dio_14wj:2;dio_0m9z:2;dio_0l7p:2;dio_0obq:1,dio_17ct,2
+KAS 2024 5m,dio_00ly_to_dio_104t,dio_mini_lauf_2,143,146,16,11,10,dio_0l7p:2;dio_1mjc:1;dio_0z9t:1;dio_14wj:1;dio_155c:1,dio_0l7p,2
+KAS 2024 5m,dio_00ly_to_dio_104t,dio_mini_lauf_2,235,237,15,13,12,dio_0l7p:2;dio_0pz6:1;dio_0h9h:1;dio_1fll:1;dio_14wj:1,dio_0l7p,2
+KAS 2024 5m,dio_00ly_to_dio_104t,dio_mini_lauf_2,259,263,17,14,12,dio_14wj:2;dio_0oc3:2;dio_09bn:1;dio_0nlj:1;dio_17db:1,dio_14wj,2
+KAS 2024 5m,dio_00ly_to_dio_104t,dio_mini_lauf_2,357,364,20,17,16,dio_1q85:2;dio_06s7:1;dio_0m9z:1;dio_17ct:1;dio_0h9h:1,dio_1q85,2
+KAS 2024 5m,dio_00ly_to_dio_104t,dio_mini_lauf_2,373,376,16,14,11,dio_0oc3:2;dio_155c:2;dio_0kx9:2;dio_0fe7:1;dio_14wj:1,dio_0oc3,2
+KAS 2024 5m,dio_00ly_to_dio_104t,dio_mini_lauf_2,504,516,25,22,20,dio_0h9h:3;dio_05mh:1;dio_1uyk:1;dio_1772:1;dio_1r1r:1,dio_0h9h,3
+KAS 2024 5m,dio_00ly_to_dio_104t,dio_mini_lauf_2,546,554,21,17,16,dio_155c:2;dio_0m9z:1;dio_1rqi:1;dio_0g2r:1;dio_16l9:1,dio_155c,2
+KAS 2024 5m,dio_00ly_to_dio_104t,dio_mini_lauf_2,548,555,20,16,14,dio_0g2r:2;dio_155c:2;dio_16l9:1;dio_0bgx:1;dio_00ja:1,dio_0g2r,2
+KAS 2024 5m,dio_00ly_to_dio_104t,dio_mini_lauf_2,663,674,24,21,16,dio_1r55:3;dio_10dv:2;dio_0l7p:2;dio_17db:2;dio_06jk:1,dio_1r55,3
+KAS 2024 5m,dio_00ly_to_dio_104t,dio_mini_lauf_2,1017,1022,18,15,13,dio_155c:2;dio_06s7:2;dio_19pg:1;dio_0bgx:1;dio_0xnz:1,dio_155c,2
+KAS 2024 5m,dio_00ly_to_dio_104t,dio_mini_lauf_2,1392,1394,15,13,12,dio_17ct:2;dio_1492:1;dio_0m9z:1;dio_0pxr:1;dio_06s7:1,dio_17ct,2
+KAS 2024 5m,dio_00ly_to_dio_104t,dio_mini_lauf_2,1813,1816,16,12,11,dio_0l7p:2;dio_1492:1;dio_10dv:1;dio_1lsu:1;dio_07uk:1,dio_0l7p,2
+KAS 2024 5m,dio_00ly_to_dio_104t,dio_mini_lauf_2,1830,1840,23,21,21,dio_0m9z:1;dio_1lsu:1;dio_1pij:1;dio_01hu:1;dio_1u5i:1,dio_0m9z,1
+KAS 2024 5m,dio_00ly_to_dio_104t,dio_mini_lauf_2,1856,1865,22,17,16,dio_0l7p:2;dio_1vdo:1;dio_1mwv:1;dio_1j37:1;dio_1sa0:1,dio_0l7p,2
+KAS 2024 5m,dio_00ly_to_dio_104t,dio_mini_lauf_2,1859,1867,21,16,15,dio_0l7p:2;dio_1sa0:1;dio_04uf:1;dio_1uyk:1;dio_1uof:1,dio_0l7p,2
+KAS 2024 5m,dio_00ly_to_dio_104t,dio_mini_lauf_2,1888,1893,18,15,14,dio_0m9z:2;dio_1pij:1;dio_09bn:1;dio_155c:1;dio_1dln:1,dio_0m9z,2
+KAS 2024 5m,dio_00ly_to_dio_104t,dio_mini_lauf_2,1934,1943,22,16,13,dio_1uof:3;dio_14wj:2;dio_0d46:1;dio_0v2o:1;dio_08l0:1,dio_1uof,3
+KAS 2024 5m,dio_00ly_to_dio_104t,dio_mini_lauf_2,1940,1948,21,13,10,dio_14wj:3;dio_1uof:2;dio_00ja:1;dio_1jc2:1;dio_155c:1,dio_14wj,3
+KAS 2024 5m,dio_00ly_to_dio_104t,dio_mini_lauf_2,1941,1952,24,17,14,dio_14wj:3;dio_1uof:2;dio_00ja:1;dio_1jc2:1;dio_155c:1,dio_14wj,3
+KAS 2024 5m,dio_00ly_to_dio_104t,dio_mini_lauf_2,1951,1961,23,17,16,dio_0l7p:2;dio_1r55:1;dio_1350:1;dio_0dd2:1;dio_1lsu:1,dio_0l7p,2
+KAS 2024 5m,dio_00ly_to_dio_104t,dio_mini_lauf_2,1988,1992,13,10,10,dio_1ewh:1;dio_10dv:1;dio_1e0y:1;dio_1xrt:1;dio_1u5i:1,dio_1ewh,1
+Negative Stress 2024,dio_00ly_to_dio_104t,dio_mini_lauf_1,14,20,19,17,16,dio_155c:2;dio_0h6t:1;dio_00ja:1;dio_00pl:1;dio_16l9:1,dio_155c,2
+Negative Stress 2024,dio_00ly_to_dio_104t,dio_mini_lauf_1,51,56,18,14,14,dio_14wj:1;dio_0kx9:1;dio_1waj:1;dio_00x9:1;dio_1v2w:1,dio_14wj,1
+Negative Stress 2024,dio_00ly_to_dio_104t,dio_mini_lauf_1,233,237,17,15,14,dio_0h9h:2;dio_0d03:1;dio_0m9z:1;dio_0pz6:1;dio_1q85:1,dio_0h9h,2
+Negative Stress 2024,dio_00ly_to_dio_104t,dio_mini_lauf_1,321,325,17,15,15,dio_07uk:1;dio_0l7p:1;dio_14wj:1;dio_1lsu:1;dio_0nx9:1,dio_07uk,1
+Negative Stress 2024,dio_00ly_to_dio_104t,dio_mini_lauf_1,369,376,20,18,15,dio_0pz6:3;dio_06s7:2;dio_1le1:1;dio_0jsd:1;dio_1o4z:1,dio_0pz6,3
+Negative Stress 2024,dio_00ly_to_dio_104t,dio_mini_lauf_1,410,415,18,14,13,dio_0g2r:2;dio_17db:1;dio_1cic:1;dio_1xrt:1;dio_0l7p:1,dio_0g2r,2
+Negative Stress 2024,dio_00ly_to_dio_104t,dio_mini_lauf_1,551,553,15,12,10,dio_00ja:2;dio_0m9z:2;dio_0c76:1;dio_0oc3:1;dio_1kpz:1,dio_00ja,2
+Negative Stress 2024,dio_00ly_to_dio_104t,dio_mini_lauf_1,699,703,17,15,14,dio_155c:2;dio_0h6t:1;dio_0jkk:1;dio_11g7:1;dio_0kx9:1,dio_155c,2
+Negative Stress 2024,dio_00ly_to_dio_104t,dio_mini_lauf_1,884,887,16,12,12,dio_09bn:1;dio_0nlj:1;dio_1oye:1;dio_18po:1;dio_0pz6:1,dio_09bn,1
+Negative Stress 2024,dio_00ly_to_dio_104t,dio_mini_lauf_2,14,20,19,17,16,dio_155c:2;dio_0h6t:1;dio_00ja:1;dio_00pl:1;dio_16l9:1,dio_155c,2
+Negative Stress 2024,dio_00ly_to_dio_104t,dio_mini_lauf_2,51,56,18,14,14,dio_14wj:1;dio_0kx9:1;dio_1waj:1;dio_00x9:1;dio_1v2w:1,dio_14wj,1
+Negative Stress 2024,dio_00ly_to_dio_104t,dio_mini_lauf_2,233,237,17,15,14,dio_0h9h:2;dio_0d03:1;dio_0m9z:1;dio_0pz6:1;dio_1q85:1,dio_0h9h,2
+Negative Stress 2024,dio_00ly_to_dio_104t,dio_mini_lauf_2,321,325,17,15,15,dio_07uk:1;dio_0l7p:1;dio_14wj:1;dio_1lsu:1;dio_0nx9:1,dio_07uk,1
+Negative Stress 2024,dio_00ly_to_dio_104t,dio_mini_lauf_2,369,376,20,18,15,dio_0pz6:3;dio_06s7:2;dio_1le1:1;dio_0jsd:1;dio_1o4z:1,dio_0pz6,3
+Negative Stress 2024,dio_00ly_to_dio_104t,dio_mini_lauf_2,410,415,18,14,13,dio_0g2r:2;dio_17db:1;dio_1cic:1;dio_1xrt:1;dio_0l7p:1,dio_0g2r,2
+Negative Stress 2024,dio_00ly_to_dio_104t,dio_mini_lauf_2,551,553,15,12,10,dio_00ja:2;dio_0m9z:2;dio_0c76:1;dio_0oc3:1;dio_1kpz:1,dio_00ja,2
+Negative Stress 2024,dio_00ly_to_dio_104t,dio_mini_lauf_2,699,703,17,15,14,dio_155c:2;dio_0h6t:1;dio_0jkk:1;dio_11g7:1;dio_0kx9:1,dio_155c,2
+Negative Stress 2024,dio_00ly_to_dio_104t,dio_mini_lauf_2,884,887,16,12,12,dio_09bn:1;dio_0nlj:1;dio_1oye:1;dio_18po:1;dio_0pz6:1,dio_09bn,1
+BTC 2024 Quiet 5m,dio_104t_to_dio_00ly,dio_mini_lauf_1,20,23,16,14,13,dio_155c:2;dio_04me:1;dio_1v53:1;dio_0jkk:1;dio_0pq6:1,dio_155c,2
+BTC 2024 Quiet 5m,dio_104t_to_dio_00ly,dio_mini_lauf_1,179,188,22,18,15,dio_0m9z:4;dio_06s7:1;dio_0pz6:1;dio_0l7p:1;dio_14wj:1,dio_0m9z,4
+BTC 2024 Quiet 5m,dio_104t_to_dio_00ly,dio_mini_lauf_1,388,391,16,13,13,dio_0g3b:1;dio_1uof:1;dio_1okj:1;dio_00ja:1;dio_1kpz:1,dio_0g3b,1
+BTC 2024 Quiet 5m,dio_104t_to_dio_00ly,dio_mini_lauf_1,425,437,25,18,14,dio_0l7p:3;dio_0tay:2;dio_0dd2:2;dio_1cic:1;dio_1xrt:1,dio_0l7p,3
+BTC 2024 Quiet 5m,dio_104t_to_dio_00ly,dio_mini_lauf_1,434,442,21,17,12,dio_06s7:3;dio_0dd2:2;dio_0l7p:2;dio_17db:2;dio_03yt:1,dio_06s7,3
+BTC 2024 Quiet 5m,dio_104t_to_dio_00ly,dio_mini_lauf_1,457,462,18,15,13,dio_14wj:2;dio_0l7p:2;dio_1r55:1;dio_07uk:1;dio_155c:1,dio_14wj,2
+BTC 2024 Quiet 5m,dio_104t_to_dio_00ly,dio_mini_lauf_1,487,491,17,13,11,dio_0l7p:2;dio_1fll:2;dio_14d9:1;dio_1gp2:1;dio_1u5i:1,dio_0l7p,2
+BTC 2024 Quiet 5m,dio_104t_to_dio_00ly,dio_mini_lauf_1,965,969,17,14,12,dio_17ct:2;dio_0m9z:2;dio_1lsu:1;dio_0z3k:1;dio_1350:1,dio_17ct,2
+BTC 2024 Quiet 5m,dio_104t_to_dio_00ly,dio_mini_lauf_1,994,1005,24,19,16,dio_0l7p:4;dio_0nlj:1;dio_0pq6:1;dio_0oc3:1;dio_17ct:1,dio_0l7p,4
+BTC 2024 Quiet 5m,dio_104t_to_dio_00ly,dio_mini_lauf_1,1010,1011,14,8,8,dio_1lsu:1;dio_1o0u:1;dio_0obq:1;dio_0l7p:1;dio_0m9z:1,dio_1lsu,1
+BTC 2024 Quiet 5m,dio_104t_to_dio_00ly,dio_mini_lauf_1,1016,1017,14,7,6,dio_155c:2;dio_1u5i:1;dio_05ap:1;dio_1cic:1;dio_01hu:1,dio_155c,2
+BTC 2024 Quiet 5m,dio_104t_to_dio_00ly,dio_mini_lauf_1,1019,1025,19,12,9,dio_155c:2;dio_01hu:2;dio_0h9h:2;dio_05ap:1;dio_1cic:1,dio_155c,2
+BTC 2024 Quiet 5m,dio_104t_to_dio_00ly,dio_mini_lauf_1,1043,1047,17,14,13,dio_0l7p:2;dio_17ct:1;dio_17rn:1;dio_155c:1;dio_1pij:1,dio_0l7p,2
+BTC 2024 Quiet 5m,dio_104t_to_dio_00ly,dio_mini_lauf_1,1127,1137,23,18,16,dio_155c:2;dio_14wj:2;dio_17qz:1;dio_1xrt:1;dio_13zi:1,dio_155c,2
+BTC 2024 Quiet 5m,dio_104t_to_dio_00ly,dio_mini_lauf_1,1135,1142,20,16,14,dio_1u5i:2;dio_14wj:2;dio_09bn:1;dio_1jc2:1;dio_169a:1,dio_1u5i,2
+BTC 2024 Quiet 5m,dio_104t_to_dio_00ly,dio_mini_lauf_1,1212,1220,21,19,15,dio_0m9z:5;dio_0pz6:1;dio_0une:1;dio_17ct:1;dio_161t:1,dio_0m9z,5
+BTC 2024 Quiet 5m,dio_104t_to_dio_00ly,dio_mini_lauf_1,1241,1247,19,17,16,dio_0h9h:2;dio_161t:1;dio_1ysl:1;dio_1i76:1;dio_1t9l:1,dio_0h9h,2
+BTC 2024 Quiet 5m,dio_104t_to_dio_00ly,dio_mini_lauf_1,1343,1345,15,13,12,dio_05yg:2;dio_0ly7:1;dio_0xvx:1;dio_0bgx:1;dio_19pg:1,dio_05yg,2
+BTC 2024 Quiet 5m,dio_104t_to_dio_00ly,dio_mini_lauf_1,1442,1448,19,15,15,dio_1ba6:1;dio_15yz:1;dio_03za:1;dio_1915:1;dio_02vn:1,dio_1ba6,1
+BTC 2024 Quiet 5m,dio_104t_to_dio_00ly,dio_mini_lauf_1,1478,1487,22,18,14,dio_0m9z:3;dio_0oc3:2;dio_155c:2;dio_17dc:1;dio_0h9h:1,dio_0m9z,3
+BTC 2024 Quiet 5m,dio_104t_to_dio_00ly,dio_mini_lauf_1,1520,1531,24,22,18,dio_1492:3;dio_0dd2:2;dio_14wj:2;dio_06qi:1;dio_0fl2:1,dio_1492,3
+BTC 2024 Quiet 5m,dio_104t_to_dio_00ly,dio_mini_lauf_1,1958,1959,14,12,12,dio_1rqi:1;dio_1jc2:1;dio_0g2r:1;dio_0oc3:1;dio_19pg:1,dio_1rqi,1
+BTC 2024 Quiet 5m,dio_104t_to_dio_00ly,dio_mini_lauf_1,2135,2140,18,16,15,dio_0jkk:2;dio_0g2r:1;dio_155c:1;dio_09bn:1;dio_1nv4:1,dio_0jkk,2
+BTC 2024 Quiet 5m,dio_104t_to_dio_00ly,dio_mini_lauf_1,2233,2236,16,12,12,dio_0v65:1;dio_0m9z:1;dio_01q0:1;dio_1uof:1;dio_1o0u:1,dio_0v65,1
+BTC 2024 Quiet 5m,dio_104t_to_dio_00ly,dio_mini_lauf_1,2417,2428,24,22,20,dio_04uf:2;dio_1kpz:2;dio_0u2x:1;dio_0m9z:1;dio_16l9:1,dio_04uf,2
+BTC 2024 Quiet 5m,dio_104t_to_dio_00ly,dio_mini_lauf_1,2536,2546,23,19,17,dio_0m9z:2;dio_0oc3:2;dio_0dd2:1;dio_0fl2:1;dio_1jc2:1,dio_0m9z,2
+BTC 2024 Quiet 5m,dio_104t_to_dio_00ly,dio_mini_lauf_1,2909,2915,19,17,15,dio_06er:2;dio_05yg:2;dio_1r55:1;dio_15ux:1;dio_0tay:1,dio_06er,2
+BTC 2024 Quiet 5m,dio_104t_to_dio_00ly,dio_mini_lauf_1,3082,3092,23,18,15,dio_0oc3:3;dio_14wj:2;dio_1pij:1;dio_1r55:1;dio_110p:1,dio_0oc3,3
+BTC 2024 Quiet 5m,dio_104t_to_dio_00ly,dio_mini_lauf_1,3087,3094,20,14,11,dio_0oc3:3;dio_14wj:2;dio_06qi:1;dio_1q85:1;dio_169a:1,dio_0oc3,3
+BTC 2024 Quiet 5m,dio_104t_to_dio_00ly,dio_mini_lauf_1,3113,3124,24,19,14,dio_1r55:4;dio_14wj:2;dio_06jk:2;dio_1feg:1;dio_0l7p:1,dio_1r55,4
+BTC 2024 Quiet 5m,dio_104t_to_dio_00ly,dio_mini_lauf_1,3176,3181,18,16,15,dio_0m9z:2;dio_0pz6:1;dio_1u5i:1;dio_0obq:1;dio_1ewh:1,dio_0m9z,2
+BTC 2024 Quiet 5m,dio_104t_to_dio_00ly,dio_mini_lauf_1,3240,3244,17,12,10,dio_0z9t:2;dio_1r55:2;dio_0nx9:1;dio_17qz:1;dio_1pij:1,dio_0z9t,2
+BTC 2024 Quiet 5m,dio_104t_to_dio_00ly,dio_mini_lauf_1,3254,3263,22,19,14,dio_155c:3;dio_1r55:2;dio_14fv:2;dio_03uk:2;dio_02n3:1,dio_155c,3
+BTC 2024 Quiet 5m,dio_104t_to_dio_00ly,dio_mini_lauf_1,3365,3366,14,12,11,dio_14wj:2;dio_0nmc:1;dio_16yy:1;dio_1lsu:1;dio_1cmd:1,dio_14wj,2
+BTC 2024 Quiet 5m,dio_104t_to_dio_00ly,dio_mini_lauf_1,3390,3395,18,15,12,dio_0oc3:2;dio_09bn:2;dio_155c:2;dio_0dzc:1;dio_06jk:1,dio_0oc3,2
+BTC 2024 Quiet 5m,dio_104t_to_dio_00ly,dio_mini_lauf_1,3593,3594,14,12,11,dio_04uf:2;dio_06s7:1;dio_0raa:1;dio_19pg:1;dio_0h9h:1,dio_04uf,2
+BTC 2024 Quiet 5m,dio_104t_to_dio_00ly,dio_mini_lauf_1,3667,3669,15,12,11,dio_1ewh:2;dio_1ba6:1;dio_17ct:1;dio_17db:1;dio_0d46:1,dio_1ewh,2
+BTC 2024 Quiet 5m,dio_104t_to_dio_00ly,dio_mini_lauf_1,3790,3792,15,13,13,dio_07o8:1;dio_0obq:1;dio_06s7:1;dio_1cic:1;dio_13o0:1,dio_07o8,1
+BTC 2024 Quiet 5m,dio_104t_to_dio_00ly,dio_mini_lauf_1,3852,3862,23,20,19,dio_1kpz:2;dio_00p1:1;dio_0sxm:1;dio_0h0h:1;dio_0nlj:1,dio_1kpz,2
+BTC 2024 Quiet 5m,dio_104t_to_dio_00ly,dio_mini_lauf_1,3916,3924,21,19,16,dio_0h9h:3;dio_0l7p:2;dio_1jc2:1;dio_0m9z:1;dio_06fh:1,dio_0h9h,3
+BTC 2024 Quiet 5m,dio_104t_to_dio_00ly,dio_mini_lauf_2,20,23,16,14,13,dio_155c:2;dio_04me:1;dio_1v53:1;dio_0jkk:1;dio_0pq6:1,dio_155c,2
+BTC 2024 Quiet 5m,dio_104t_to_dio_00ly,dio_mini_lauf_2,179,188,22,18,15,dio_0m9z:4;dio_06s7:1;dio_0pz6:1;dio_0l7p:1;dio_14wj:1,dio_0m9z,4
+BTC 2024 Quiet 5m,dio_104t_to_dio_00ly,dio_mini_lauf_2,388,391,16,13,13,dio_0g3b:1;dio_1uof:1;dio_1okj:1;dio_00ja:1;dio_1kpz:1,dio_0g3b,1
+BTC 2024 Quiet 5m,dio_104t_to_dio_00ly,dio_mini_lauf_2,425,437,25,18,14,dio_0l7p:3;dio_0tay:2;dio_0dd2:2;dio_1cic:1;dio_1xrt:1,dio_0l7p,3
+BTC 2024 Quiet 5m,dio_104t_to_dio_00ly,dio_mini_lauf_2,434,442,21,17,12,dio_06s7:3;dio_0dd2:2;dio_0l7p:2;dio_17db:2;dio_03yt:1,dio_06s7,3
+BTC 2024 Quiet 5m,dio_104t_to_dio_00ly,dio_mini_lauf_2,457,462,18,15,13,dio_14wj:2;dio_0l7p:2;dio_1r55:1;dio_07uk:1;dio_155c:1,dio_14wj,2
+BTC 2024 Quiet 5m,dio_104t_to_dio_00ly,dio_mini_lauf_2,487,491,17,13,11,dio_0l7p:2;dio_1fll:2;dio_14d9:1;dio_1gp2:1;dio_1u5i:1,dio_0l7p,2
+BTC 2024 Quiet 5m,dio_104t_to_dio_00ly,dio_mini_lauf_2,965,969,17,14,12,dio_17ct:2;dio_0m9z:2;dio_1lsu:1;dio_0z3k:1;dio_1350:1,dio_17ct,2
+BTC 2024 Quiet 5m,dio_104t_to_dio_00ly,dio_mini_lauf_2,994,1005,24,19,16,dio_0l7p:4;dio_0nlj:1;dio_0pq6:1;dio_0oc3:1;dio_17ct:1,dio_0l7p,4
+BTC 2024 Quiet 5m,dio_104t_to_dio_00ly,dio_mini_lauf_2,1010,1011,14,8,8,dio_1lsu:1;dio_1o0u:1;dio_0obq:1;dio_0l7p:1;dio_0m9z:1,dio_1lsu,1
+BTC 2024 Quiet 5m,dio_104t_to_dio_00ly,dio_mini_lauf_2,1016,1017,14,7,6,dio_155c:2;dio_1u5i:1;dio_05ap:1;dio_1cic:1;dio_01hu:1,dio_155c,2
+BTC 2024 Quiet 5m,dio_104t_to_dio_00ly,dio_mini_lauf_2,1019,1025,19,12,9,dio_155c:2;dio_01hu:2;dio_0h9h:2;dio_05ap:1;dio_1cic:1,dio_155c,2
+BTC 2024 Quiet 5m,dio_104t_to_dio_00ly,dio_mini_lauf_2,1043,1047,17,14,13,dio_0l7p:2;dio_17ct:1;dio_17rn:1;dio_155c:1;dio_1pij:1,dio_0l7p,2
+BTC 2024 Quiet 5m,dio_104t_to_dio_00ly,dio_mini_lauf_2,1127,1137,23,18,16,dio_155c:2;dio_14wj:2;dio_17qz:1;dio_1xrt:1;dio_13zi:1,dio_155c,2
+BTC 2024 Quiet 5m,dio_104t_to_dio_00ly,dio_mini_lauf_2,1135,1142,20,16,14,dio_1u5i:2;dio_14wj:2;dio_09bn:1;dio_1jc2:1;dio_169a:1,dio_1u5i,2
+BTC 2024 Quiet 5m,dio_104t_to_dio_00ly,dio_mini_lauf_2,1212,1220,21,19,15,dio_0m9z:5;dio_0pz6:1;dio_0une:1;dio_17ct:1;dio_161t:1,dio_0m9z,5
+BTC 2024 Quiet 5m,dio_104t_to_dio_00ly,dio_mini_lauf_2,1241,1247,19,17,16,dio_0h9h:2;dio_161t:1;dio_1ysl:1;dio_1i76:1;dio_1t9l:1,dio_0h9h,2
+BTC 2024 Quiet 5m,dio_104t_to_dio_00ly,dio_mini_lauf_2,1343,1345,15,13,12,dio_05yg:2;dio_0ly7:1;dio_0xvx:1;dio_0bgx:1;dio_19pg:1,dio_05yg,2
+BTC 2024 Quiet 5m,dio_104t_to_dio_00ly,dio_mini_lauf_2,1442,1448,19,15,15,dio_1ba6:1;dio_15yz:1;dio_03za:1;dio_1915:1;dio_02vn:1,dio_1ba6,1
+BTC 2024 Quiet 5m,dio_104t_to_dio_00ly,dio_mini_lauf_2,1478,1487,22,18,14,dio_0m9z:3;dio_0oc3:2;dio_155c:2;dio_17dc:1;dio_0h9h:1,dio_0m9z,3
+BTC 2024 Quiet 5m,dio_104t_to_dio_00ly,dio_mini_lauf_2,1520,1531,24,22,18,dio_1492:3;dio_0dd2:2;dio_14wj:2;dio_06qi:1;dio_0fl2:1,dio_1492,3
+BTC 2024 Quiet 5m,dio_104t_to_dio_00ly,dio_mini_lauf_2,1958,1959,14,12,12,dio_1rqi:1;dio_1jc2:1;dio_0g2r:1;dio_0oc3:1;dio_19pg:1,dio_1rqi,1
+BTC 2024 Quiet 5m,dio_104t_to_dio_00ly,dio_mini_lauf_2,2135,2140,18,16,15,dio_0jkk:2;dio_0g2r:1;dio_155c:1;dio_09bn:1;dio_1nv4:1,dio_0jkk,2
+BTC 2024 Quiet 5m,dio_104t_to_dio_00ly,dio_mini_lauf_2,2233,2236,16,12,12,dio_0v65:1;dio_0m9z:1;dio_01q0:1;dio_1uof:1;dio_1o0u:1,dio_0v65,1
+BTC 2024 Quiet 5m,dio_104t_to_dio_00ly,dio_mini_lauf_2,2417,2428,24,22,20,dio_04uf:2;dio_1kpz:2;dio_0u2x:1;dio_0m9z:1;dio_16l9:1,dio_04uf,2
+BTC 2024 Quiet 5m,dio_104t_to_dio_00ly,dio_mini_lauf_2,2536,2546,23,19,17,dio_0m9z:2;dio_0oc3:2;dio_0dd2:1;dio_0fl2:1;dio_1jc2:1,dio_0m9z,2
+BTC 2024 Quiet 5m,dio_104t_to_dio_00ly,dio_mini_lauf_2,2909,2915,19,17,15,dio_06er:2;dio_05yg:2;dio_1r55:1;dio_15ux:1;dio_0tay:1,dio_06er,2
+BTC 2024 Quiet 5m,dio_104t_to_dio_00ly,dio_mini_lauf_2,3082,3092,23,18,15,dio_0oc3:3;dio_14wj:2;dio_1pij:1;dio_1r55:1;dio_110p:1,dio_0oc3,3
+BTC 2024 Quiet 5m,dio_104t_to_dio_00ly,dio_mini_lauf_2,3087,3094,20,14,11,dio_0oc3:3;dio_14wj:2;dio_06qi:1;dio_1q85:1;dio_169a:1,dio_0oc3,3
+BTC 2024 Quiet 5m,dio_104t_to_dio_00ly,dio_mini_lauf_2,3113,3124,24,19,14,dio_1r55:4;dio_14wj:2;dio_06jk:2;dio_1feg:1;dio_0l7p:1,dio_1r55,4
+BTC 2024 Quiet 5m,dio_104t_to_dio_00ly,dio_mini_lauf_2,3176,3181,18,16,15,dio_0m9z:2;dio_0pz6:1;dio_1u5i:1;dio_0obq:1;dio_1ewh:1,dio_0m9z,2
+BTC 2024 Quiet 5m,dio_104t_to_dio_00ly,dio_mini_lauf_2,3240,3244,17,12,10,dio_0z9t:2;dio_1r55:2;dio_0nx9:1;dio_17qz:1;dio_1pij:1,dio_0z9t,2
+BTC 2024 Quiet 5m,dio_104t_to_dio_00ly,dio_mini_lauf_2,3254,3263,22,19,14,dio_155c:3;dio_1r55:2;dio_14fv:2;dio_03uk:2;dio_02n3:1,dio_155c,3
+BTC 2024 Quiet 5m,dio_104t_to_dio_00ly,dio_mini_lauf_2,3365,3366,14,12,11,dio_14wj:2;dio_0nmc:1;dio_16yy:1;dio_1lsu:1;dio_1cmd:1,dio_14wj,2
+BTC 2024 Quiet 5m,dio_104t_to_dio_00ly,dio_mini_lauf_2,3390,3395,18,15,12,dio_0oc3:2;dio_09bn:2;dio_155c:2;dio_0dzc:1;dio_06jk:1,dio_0oc3,2
+BTC 2024 Quiet 5m,dio_104t_to_dio_00ly,dio_mini_lauf_2,3593,3594,14,12,11,dio_04uf:2;dio_06s7:1;dio_0raa:1;dio_19pg:1;dio_0h9h:1,dio_04uf,2
+BTC 2024 Quiet 5m,dio_104t_to_dio_00ly,dio_mini_lauf_2,3667,3669,15,12,11,dio_1ewh:2;dio_1ba6:1;dio_17ct:1;dio_17db:1;dio_0d46:1,dio_1ewh,2
+BTC 2024 Quiet 5m,dio_104t_to_dio_00ly,dio_mini_lauf_2,3790,3792,15,13,13,dio_07o8:1;dio_0obq:1;dio_06s7:1;dio_1cic:1;dio_13o0:1,dio_07o8,1
+BTC 2024 Quiet 5m,dio_104t_to_dio_00ly,dio_mini_lauf_2,3852,3862,23,20,19,dio_1kpz:2;dio_00p1:1;dio_0sxm:1;dio_0h0h:1;dio_0nlj:1,dio_1kpz,2
+BTC 2024 Quiet 5m,dio_104t_to_dio_00ly,dio_mini_lauf_2,3916,3924,21,19,16,dio_0h9h:3;dio_0l7p:2;dio_1jc2:1;dio_0m9z:1;dio_06fh:1,dio_0h9h,3

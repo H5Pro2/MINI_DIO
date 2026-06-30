@@ -1,0 +1,5 @@
+left_family,right_family,worlds_checked,left_total,right_total,near_total,near_per_left,near_per_right,forward_left_to_right,forward_right_to_left,direction_balance,dominant_direction
+dio_00ly,dio_0g2r,8,500,262,72,0.144,0.2748,20,52,0.5556,dio_0g2r->dio_00ly
+dio_0g2r,dio_1ewh,8,262,390,90,0.3435,0.2308,52,38,0.8444,dio_0g2r->dio_1ewh
+dio_1ewh,dio_104t,8,390,1970,288,0.7385,0.1462,164,124,0.8611,dio_1ewh->dio_104t
+dio_00ly,dio_104t,8,500,1970,378,0.756,0.1919,192,186,0.9841,dio_00ly->dio_104t

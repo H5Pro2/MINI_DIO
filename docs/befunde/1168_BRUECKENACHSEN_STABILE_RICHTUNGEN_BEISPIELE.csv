@@ -1,0 +1,25 @@
+world,direction,run,source_tick,target_tick,distance,source_family,target_family,source_field,target_field,source_tone,target_tone,source_tension,target_tension,source_rekopplung,target_rekopplung,source_hearing,target_hearing
+KAS 2024 5m,dio_00ly_to_dio_104t,dio_mini_lauf_1,55,62,7,dio_00ly,dio_104t,stabil,stabil,focus_tone,focus_tone,0.083414,0.085523,0.696702,0.692309,-0.178505,-0.211561
+KAS 2024 5m,dio_00ly_to_dio_104t,dio_mini_lauf_1,143,146,3,dio_00ly,dio_104t,stabil,stabil,focus_tone,focus_tone,0.096751,0.075231,0.700067,0.716493,0.133199,-0.170868
+KAS 2024 5m,dio_00ly_to_dio_104t,dio_mini_lauf_1,235,237,2,dio_00ly,dio_104t,stabil,stabil,focus_tone,focus_tone,0.096849,0.079656,0.700033,0.71734,0.201193,-0.134264
+KAS 2024 5m,dio_00ly_to_dio_104t,dio_mini_lauf_1,259,263,4,dio_00ly,dio_104t,stabil,stabil,focus_tone,focus_tone,0.082408,0.094123,0.712158,0.716112,-0.103759,-0.280016
+KAS 2024 5m,dio_00ly_to_dio_104t,dio_mini_lauf_1,357,364,7,dio_00ly,dio_104t,stabil,stabil,focus_tone,focus_tone,0.095436,0.063755,0.701423,0.717514,0.225913,-0.120679
+KAS 2024 5m,dio_00ly_to_dio_104t,dio_mini_lauf_1,373,376,3,dio_00ly,dio_104t,stabil,stabil,focus_tone,focus_tone,0.087201,0.067436,0.713907,0.72023,0.185137,-0.157856
+KAS 2024 5m,dio_00ly_to_dio_104t,dio_mini_lauf_1,504,516,12,dio_00ly,dio_104t,stabil,stabil,focus_tone,focus_tone,0.066878,0.09633,0.713955,0.712564,-0.176852,-0.239481
+KAS 2024 5m,dio_00ly_to_dio_104t,dio_mini_lauf_1,546,554,8,dio_00ly,dio_104t,stabil,stabil,focus_tone,focus_tone,0.070329,0.068754,0.719132,0.716925,-0.124289,-0.040863
+KAS 2024 5m,dio_00ly_to_dio_104t,dio_mini_lauf_1,548,555,7,dio_00ly,dio_104t,stabil,stabil,focus_tone,focus_tone,0.073443,0.078066,0.722454,0.7225,0.063746,-0.246136
+KAS 2024 5m,dio_00ly_to_dio_104t,dio_mini_lauf_1,663,674,11,dio_00ly,dio_104t,stabil,stabil,focus_tone,focus_tone,0.073668,0.087757,0.722258,0.718748,0.031306,-0.250487
+KAS 2024 5m,dio_00ly_to_dio_104t,dio_mini_lauf_1,1017,1022,5,dio_00ly,dio_104t,stabil,stabil,focus_tone,focus_tone,0.08961,0.068837,0.714066,0.719442,-0.281314,-0.202043
+KAS 2024 5m,dio_00ly_to_dio_104t,dio_mini_lauf_1,1392,1394,2,dio_00ly,dio_104t,stabil,stabil,focus_tone,focus_tone,0.067593,0.064146,0.724517,0.722536,0.052153,-0.174655
+KAS 2024 5m,dio_00ly_to_dio_104t,dio_mini_lauf_1,1813,1816,3,dio_00ly,dio_104t,stabil,stabil,focus_tone,focus_tone,0.067663,0.072386,0.731765,0.718512,0.193189,0.058295
+KAS 2024 5m,dio_00ly_to_dio_104t,dio_mini_lauf_1,1830,1840,10,dio_00ly,dio_104t,stabil,stabil,focus_tone,focus_tone,0.074621,0.07282,0.722567,0.72909,-0.014496,-0.168332
+KAS 2024 5m,dio_00ly_to_dio_104t,dio_mini_lauf_1,1856,1865,9,dio_00ly,dio_104t,stabil,stabil,focus_tone,focus_tone,0.068486,0.081299,0.726564,0.726152,0.007805,-0.170123
+KAS 2024 5m,dio_00ly_to_dio_104t,dio_mini_lauf_1,1859,1867,8,dio_00ly,dio_104t,stabil,stabil,focus_tone,focus_tone,0.087782,0.078138,0.725766,0.729545,0.02812,0.123193
+KAS 2024 5m,dio_00ly_to_dio_104t,dio_mini_lauf_1,1888,1893,5,dio_00ly,dio_104t,stabil,stabil,focus_tone,focus_tone,0.073526,0.086692,0.73055,0.722112,0.099267,-0.162018
+KAS 2024 5m,dio_00ly_to_dio_104t,dio_mini_lauf_1,1934,1943,9,dio_00ly,dio_104t,stabil,stabil,focus_tone,focus_tone,0.081292,0.074414,0.711962,0.71788,-0.147232,-0.155814
+KAS 2024 5m,dio_00ly_to_dio_104t,dio_mini_lauf_1,1940,1948,8,dio_00ly,dio_104t,stabil,stabil,focus_tone,focus_tone,0.087824,0.067264,0.722785,0.730898,-0.123501,-0.207556
+KAS 2024 5m,dio_00ly_to_dio_104t,dio_mini_lauf_1,1941,1952,11,dio_00ly,dio_104t,stabil,stabil,focus_tone,focus_tone,0.071106,0.090195,0.729326,0.71883,-0.121436,-0.156507
+KAS 2024 5m,dio_00ly_to_dio_104t,dio_mini_lauf_1,1951,1961,10,dio_00ly,dio_104t,stabil,stabil,focus_tone,focus_tone,0.065193,0.063613,0.734571,0.729788,0.214078,-0.081478
+KAS 2024 5m,dio_00ly_to_dio_104t,dio_mini_lauf_1,1988,1992,4,dio_00ly,dio_104t,stabil,stabil,focus_tone,focus_tone,0.093008,0.079071,0.719705,0.722234,0.170813,0.081698
+KAS 2024 5m,dio_00ly_to_dio_104t,dio_mini_lauf_2,55,62,7,dio_00ly,dio_104t,stabil,stabil,focus_tone,focus_tone,0.083414,0.085523,0.694549,0.689966,-0.178505,-0.211561
+KAS 2024 5m,dio_00ly_to_dio_104t,dio_mini_lauf_2,143,146,3,dio_00ly,dio_104t,stabil,stabil,focus_tone,focus_tone,0.096751,0.075231,0.6983,0.715974,0.133199,-0.170868
