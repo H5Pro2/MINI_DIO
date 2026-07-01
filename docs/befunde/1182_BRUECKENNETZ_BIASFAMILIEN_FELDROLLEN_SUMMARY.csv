@@ -1,0 +1,6 @@
+field_role_reading,families,events,families_list,avg_tension,avg_rekopplung,avg_carry,avg_strain
+gemischte_nachbarschaft,3,106,dio_00ja;dio_1uof;dio_1lsu,0.08234,0.699477,0.529324,0.152755
+stabilisierende_rueckbindung,2,74,dio_06s7;dio_1kpz,0.052657,0.721654,0.546382,0.121961
+spannungsnahe_belastung,1,60,dio_0oc3,0.170348,0.696192,0.528448,0.169176
+kohaerente_bruecke,2,58,dio_17ct;dio_0tay,0.093016,0.712573,0.540048,0.139369
+uebergang_oeffnung,1,42,dio_1r55,0.134295,0.708967,0.535012,0.149405

@@ -31,6 +31,33 @@ MCM-Feldzeit bezeichnet hier nicht Uhrzeit, Takt oder reine Sequenznummer.
 
 MCM-Feldzeit bezeichnet die im Feld entstehende zeitliche Qualitaet einer wiederkehrenden Weltlage.
 
+## 0-Punkt als gravitative Feldfunktion
+
+Aktuelle Arbeitshypothese:
+
+```text
+Der 0-Punkt uebernimmt im MCM-Feld eine gravitative Funktion.
+```
+
+Das meint keine physikalische Gleichsetzung mit Gravitation.
+
+Gemeint ist eine rueckfuehrende Feldfunktion:
+
+- Der 0-Punkt wirkt als Bezugspunkt der Feldrueckfuehrung.
+- Drift, Spannung, Abweichung und Rekopplung werden zu diesem Bezug lesbar.
+- Bedeutungsinseln koennen als lokale Verdichtungen wiederkehrender Feldwirkung gelesen werden.
+- Solche Inseln sind dann keine Kopien des 0-Punkts, sondern gravitative Varianzen innerhalb des MCM-Feldes.
+
+Damit ergaenzt diese Lesart die Feldzeit-Mechanik:
+
+```text
+Wiederkehrende Weltwirkung
+  -> lokale Verdichtung
+  -> Inselbildung
+  -> Rueckbindung zum 0-Punkt
+  -> Feldzeit als Tiefenwirkung dieser Rueckbindung
+```
+
 Sie kann mehrere Formen annehmen:
 
 ```text

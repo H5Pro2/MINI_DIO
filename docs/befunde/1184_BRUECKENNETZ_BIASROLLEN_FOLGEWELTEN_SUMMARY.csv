@@ -1,0 +1,10 @@
+family,baseline_role,worlds,active_worlds,stable_worlds,shifted_worlds,thin_or_missing_worlds,stability_ratio_active,observed_role_profile,state_profile,events
+dio_06s7,stabilisierende_rueckbindung,8,8,8,0,0,1.0,stabilisierende_rueckbindung:8,stabil:8,226
+dio_0oc3,spannungsnahe_belastung,8,8,8,0,0,1.0,spannungsnahe_belastung:8,stabil:8,222
+dio_1kpz,stabilisierende_rueckbindung,8,8,6,2,0,0.75,stabilisierende_rueckbindung:6;gemischte_nachbarschaft:1;uebergang_oeffnung:1,stabil:6;gekippt:2,154
+dio_1r55,uebergang_oeffnung,8,7,4,1,3,0.571429,uebergang_oeffnung:4;spannungsnahe_belastung:3;nicht_aufgetreten:1,stabil:4;zu_duenn:2;nicht_aufgetreten:1;gekippt:1,82
+dio_0tay,kohaerente_bruecke,8,8,4,4,0,0.5,kohaerente_bruecke:4;uebergang_oeffnung:2;stabilisierende_rueckbindung:1;gemischte_nachbarschaft:1,stabil:4;gekippt:4,113
+dio_17ct,kohaerente_bruecke,8,8,3,5,0,0.375,uebergang_oeffnung:5;kohaerente_bruecke:3,gekippt:5;stabil:3,200
+dio_00ja,gemischte_nachbarschaft,8,8,0,8,0,0.0,uebergang_oeffnung:8,gekippt:8,241
+dio_1lsu,gemischte_nachbarschaft,8,8,0,8,0,0.0,uebergang_oeffnung:8,gekippt:8,202
+dio_1uof,gemischte_nachbarschaft,8,8,0,7,1,0.0,uebergang_oeffnung:7;spannungsnahe_belastung:1,gekippt:7;zu_duenn:1,93

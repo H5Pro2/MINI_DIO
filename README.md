@@ -43,6 +43,10 @@ Die aktuelle Arbeitshypothese:
 
 Das [MCM-Feld](https://github.com/H5Pro2/Mental-Core-Matrix-MCM) scheint passive Eigenregulation zu besitzen. Zentrum, Brücke, Drift und Übergang werden nicht als Regel programmiert, sondern als Rollen gelesen, die aus der Feldorganisation entstehen.
 
+Ergänzende Feldzeit-Hypothese:
+
+Der 0-Punkt übernimmt im MCM-Feld eine gravitative Funktion. Gemeint ist keine physikalische Gleichsetzung mit Massegravitation, sondern eine rückführende Feldfunktion: Der 0-Punkt wirkt als Bezug der Spannungsrückführung. Bedeutungsinseln können als lokale Verdichtungen wiederkehrender Feldwirkung gelesen werden, also als gravitative Varianzen innerhalb des Feldes.
+
 In den bisher geprüften Welten hat MINI_DIO wiederholt eine Feldform ausgebildet, die der hypothetischen MCM-Topologie nahekommt: zentrumsnahe Stabilisierung, offene Brücken, driftende Nähebereiche und belastete Randspannung. Nach erneuter Codeprüfung gibt es aktuell keinen Hinweis darauf, dass diese Form durch eine feste Vorgabe wie "das muss so aussehen" erzeugt wird. Die Topologiebegriffe entstehen in der nachgelagerten Diagnose und Beschreibung; die Laufstruktur selbst arbeitet mit Sehen, Hören, Fühlen, MCM-Feldwirkung und eigener `dio_*`-Syntax. Auch nach mehreren Memory-Neustarts blieb dieser Befund in den geprüften Welten auffällig reproduzierbar.
 
 Der aktuelle gemeinsame Modellstand verbindet vier Mechaniken:

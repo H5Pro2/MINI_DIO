@@ -2099,6 +2099,322 @@ Besonders relevant fuer den aktuellen Bauplanstand:
   - Kernaussage: MCM koennte dort relevant werden, wo Bewegung, Kontakt, Varianz, Nachhall und Koerperlage nicht nur berechnet, sondern als Innenfeldwirkung geordnet werden muessen.
   - Grenze: MINI_DIO ist kein Robotiksystem; es liefert bisher nur eine Forschungsgrundlage fuer MCM-basierte Innenfeldreaktion, Bedeutungsverdichtung und passive Eigenregulation.
 
+## Befund 1178-1181 - Brueckennetz: Kopplung, Teilung oder Drift
+
+- `docs/befunde/1178_BRUECKENNETZ_KOPPLUNG_TEILUNG_DRIFT_MEHRWELTEN.csv`
+  - Prueft die Achsenbeziehung `dio_00ly <-> dio_104t` in zehn weiteren Asset-/Zeitwelten.
+- `docs/befunde/1179_BRUECKENNETZ_KANDIDATEN_MEHRWELTEN.csv`
+  - Rohzaehlung der Kandidatenfamilien im Brueckenumfeld.
+- `docs/befunde/1180_BRUECKENNETZ_KANDIDATEN_NORMALISIERT.csv`
+  - Kandidatengewichtung normalisiert pro Paarereignis.
+- `docs/befunde/1181_BRUECKENNETZ_KOPPLUNG_TEILUNG_DRIFT_MEHRWELTEN.md`
+  - Kernaussage: In allen zehn geprueften Welten bleibt das Brueckennetz als `kopplung_geteilter_raum` sichtbar.
+  - Es gibt Drift und Richtungsgewichtung, aber keine Teilung in getrennte Inseln.
+  - Staerker bei `dio_104t -> dio_00ly`: `dio_1kpz`, `dio_0tay`, `dio_0oc3`.
+  - Staerker bei `dio_00ly -> dio_104t`: `dio_1uof`, `dio_06s7`, `dio_1lsu`, `dio_17ct`, `dio_1r55`, `dio_00ja`.
+  - Lesart: gemeinsames Brueckennetz mit richtungsabhaengiger Drift, nicht starre Symboltabelle.
+
+## Befund 1182-1183 - Brueckennetz Biasfamilien: Feldrollen
+
+- `docs/befunde/1182_BRUECKENNETZ_BIASFAMILIEN_FELDROLLEN.csv`
+  - Feldrollen-Auswertung der Biasfamilien aus dem Brueckennetz.
+- `docs/befunde/1182_BRUECKENNETZ_BIASFAMILIEN_FELDROLLEN_SUMMARY.csv`
+  - Verdichtete Rollenuebersicht.
+- `docs/befunde/1183_BRUECKENNETZ_BIASFAMILIEN_FELDROLLEN.md`
+  - Kernaussage: Die Biasfamilien sind nicht nur Oberflaechen-Nachbarn.
+  - Sie fallen in unterscheidbare Feldrollen:
+    - `stabilisierende_rueckbindung`: `dio_06s7`, `dio_1kpz`
+    - `kohaerente_bruecke`: `dio_17ct`, `dio_0tay`
+    - `spannungsnahe_belastung`: `dio_0oc3`
+    - `uebergang_oeffnung`: `dio_1r55`
+    - `gemischte_nachbarschaft`: `dio_00ja`, `dio_1uof`, `dio_1lsu`
+  - Lesart: Innerhalb des gemeinsamen Brueckennetzes entstehen lokale Feldrollen. Das ist staerker als reine Symbolueberlappung, bleibt aber passive Diagnose.
+
+## Befund 1184-1185 - Biasrollen in Folgewelten
+
+- `docs/befunde/1184_BRUECKENNETZ_BIASROLLEN_FOLGEWELTEN.csv`
+  - Prueft die Feldrollen der Biasfamilien in acht weiteren Folge-/Gegenwelten.
+- `docs/befunde/1184_BRUECKENNETZ_BIASROLLEN_FOLGEWELTEN_SUMMARY.csv`
+  - Verdichtete Stabilitaetsuebersicht pro Familie.
+- `docs/befunde/1185_BRUECKENNETZ_BIASROLLEN_FOLGEWELTEN.md`
+  - Kernaussage: Nicht alle Rollen verhalten sich gleich.
+  - Stabil in Folgewelten:
+    - `dio_06s7` als `stabilisierende_rueckbindung`
+    - `dio_0oc3` als `spannungsnahe_belastung`
+    - `dio_1kpz` ueberwiegend als `stabilisierende_rueckbindung`
+  - Kippend / weltspannungsabhaengig:
+    - `dio_00ja`, `dio_1lsu`, `dio_1uof` kippen aus `gemischte_nachbarschaft` haeufig in `uebergang_oeffnung`.
+    - `dio_17ct` kippt haeufig aus `kohaerente_bruecke` in `uebergang_oeffnung`.
+  - Lesart: Das Brueckennetz enthaelt robuste Feldfunktionen und bewegliche Rollen. Dadurch wirkt es eher wie ein dynamisches Rollenfeld als wie eine feste Symboltabelle.
+
+## Befund 1186-1187 - Brueckenrollen Rohweltfenster
+
+- `docs/befunde/1186_BRUECKENROLLEN_ROHWELTFENSTER_EVENTS.csv`
+  - Ereignisgenaue Rueckbindung der Rollenfamilien an lokale OHLCV-Fenster.
+- `docs/befunde/1186_BRUECKENROLLEN_ROHWELTFENSTER_SUMMARY.csv`
+  - Verdichtete Rohwelt-/MCM-Merkmale pro Familie und Rollenstatus.
+- `docs/befunde/1187_BRUECKENROLLEN_ROHWELTFENSTER.md`
+  - Kernaussage: Stabile und kippende Rollen unterscheiden sich nicht nur im Zeichen, sondern in der Kombination aus Weltfenster, Ton, Form, Rezeptoraufnahme und Feldwirkung.
+  - Stabile Rueckbindungen zeigen hohe Rekopplung und niedrige Strain-/Tensionwerte, zum Beispiel `dio_06s7` und `dio_1kpz`.
+  - `dio_0oc3` bleibt trotz anderer Lage als spannungsnahe Belastung stabil.
+  - Kippende Rollen wie `dio_00ja`, `dio_1lsu`, `dio_1uof` und `dio_17ct` verschieben ihre lokale Bedeutung haeufig in `uebergang_oeffnung`.
+  - Lesart: Eine Bedeutung haengt nicht nur am Symbol, sondern an Rohweltfenster und MCM-Feldwirkung. Das stuetzt die Sicht auf ein dynamisches Rollenfeld.
+
+## Befund 1188-1189 - Passive MCM-Rollenkarte
+
+- `docs/befunde/1188_PASSIVE_MCM_ROLLENKARTE.csv`
+  - Verdichtet die stabilen und kippenden Brueckenrollen zu passiven Feldzonen.
+- `docs/befunde/1189_PASSIVE_MCM_ROLLENKARTE.md`
+  - Kernaussage: Aus den Brueckenrollen entstehen fuenf passive Feldzonen:
+    - `zone_uebergangsoeffnung`
+    - `zone_stabile_rueckbindung`
+    - `zone_belastete_randnaehe`
+    - `zone_kohaerente_bruecke`
+    - `zone_gemischte_nachbarschaft`
+  - `zone_uebergangsoeffnung` ist die groesste Zone und wirkt als wiederkehrende Rollenverschiebung, nicht als reine Stoerung.
+  - Rueckbindung und Randnaehe bleiben klar unterscheidbar:
+    - Rueckbindung: hohe Rekopplung, niedrige Spannung.
+    - Randnaehe: hohe Spannung und hoher Strain.
+  - Lesart: MINI_DIOs MCM-Feld wird als dynamische Zonenkonfiguration lesbar. Bedeutung liegt nicht nur im Symbol, sondern in Feldlage, Sinnesaufnahme, Weltfenster und Nachbarschaft.
+
+## Befund 1190 - 0-Punkt als gravitative Feldfunktion
+
+- `docs/befunde/1190_NULLPUNKT_GRAVITATIVE_FELDFUNKTION.md`
+  - Haelt die neue Arbeitshypothese fest: Der 0-Punkt uebernimmt im MCM-Feld eine gravitative Funktion.
+  - Gemeint ist keine physikalische Gleichsetzung, sondern eine rueckfuehrende Feldfunktion.
+  - Die Rollenkarte 1189 passt dazu: Rueckbindung zeigt hohe Rekopplung und niedrige Spannung; Randnaehe zeigt hoehere Spannung und hoehere Strainwerte.
+  - Lesart: Inseln koennen als lokale Verdichtungen wiederkehrender Feldwirkung gelesen werden, Bruecken als Uebergaenge zwischen Verdichtungen und Randnaehe als belastete oder driftende Abweichung.
+
+## Befund 1191-1192 - 0-Punkt-Hypothese in der Mehrweltpruefung
+
+- `docs/befunde/1191_NULLPUNKT_GRAVITATIVE_FELDFUNKTION_MEHRWELTEN_MATRIX.md`
+  - Legt die weltrelative Topologie-Matrix auf 12 vorhandene Welten: Assets, Stress, Expansion, Sideways und synthetische Kontrollwelten.
+- `docs/befunde/1191_NULLPUNKT_GRAVITATIVE_FELDFUNKTION_MEHRWELTEN_MATRIX.csv`
+  - Rollenwerte fuer Zentrum, offene Variante und Rand/Kippnaehe je Welt.
+- `docs/befunde/1192_NULLPUNKT_GRAVITATIVE_FELDFUNKTION_MEHRWELTEN_BEWERTUNG.md`
+  - Kernaussage: Die 0-Punkt-Hypothese wird im bisherigen Datenraum gestuetzt.
+  - `zentrum_stabil` traegt im Mittel hoehere Rekopplung, hoeheren Carry, niedrigeren Strain und staerkere Sinneskopplung.
+  - `spannungsrand_kippnaehe` ist selten, aber konsequent strainstaerker, rekopplungsschwaecher und belasteter.
+  - Lesart: Zentrum wirkt als Naehe zur rueckfuehrenden Feldfunktion; Rand/Kippnaehe als belastete oder entfernte Abweichung; offene Variante als Uebergangsraum.
+
+## Befund 1193-1194 - Rand-/Kipp-Gegenprobe
+
+- `data/synthetic_mcm_rand_kipp_gegenprobe_9000_5m.csv`
+  - Synthetische Gegenwelt mit bewusst staerkerer Rand-/Kippbelastung.
+- `debug/1193_rand_kipp_gegenprobe/dio_mini_lauf_2/`
+  - Frischer Memory-Lauf im Modus `world_relative`.
+- `docs/befunde/1193_RAND_KIPP_GEGENPROBE_TOPOLOGIE_MATRIX.md`
+  - Weltrelative Rollenmatrix der Gegenprobe.
+- `docs/befunde/1194_RAND_KIPP_GEGENPROBE_BEWERTUNG.md`
+  - Kernaussage: Auch eine bewusst randlastige Welt wird ueberwiegend als `zentrum_stabil` und `tragend_unruhig` integriert.
+  - `zentrum_stabil` liegt bei etwa `90.33%`, `offene_variante` bei etwa `9.61%`, `spannungsrand_kippnaehe` nur bei etwa `0.07%`.
+  - Lesart: Mehr Rohspannung reicht nicht aus, um Randdominanz zu erzwingen. Die Rezeptorik und weltrelative Aufnahme wirken als Integrationsschicht; das MCM-Feld zeigt starke Rueckfuehrungsordnung.
+  - Naechster Haertetest: nicht nur lautere Welt, sondern desynchronisierte Sinnesachsen.
+
+## Befund 1195-1196 - Desynchronisierte Sinnesachsen
+
+- `data_builder/synthetic_desync_world_builder.py`
+  - Neuer kontrollierter Weltbuilder fuer widerspruechliche Sinnesachsen.
+  - Erzeugt ruhige Form mit lauter Energie, klare Form mit leiser Energie, bruechige Bewegung mit gedämpfter Lautheit und lauten Nachhall ohne starke Formbewegung.
+- `data/synthetic_mcm_desync_axes_8500_5m.csv`
+  - Synthetische Desync-Welt mit `8500` Kerzen.
+- `debug/1195_desync_axes/dio_mini_lauf_2/`
+  - Frischer Memory-Lauf im Modus `world_relative`.
+- `docs/befunde/1195_DESYNC_AXES_TOPOLOGIE_MATRIX.md`
+  - Rollenmatrix der Desync-Gegenprobe.
+- `docs/befunde/1196_DESYNCHRONISIERTE_SINNESACHSEN_BEWERTUNG.md`
+  - Kernaussage: Desynchronisation erzeugt mehr Rand-/Kippnaehe als reine Lautstaerke, aber keinen Feldkollaps.
+  - `zentrum_stabil` liegt bei etwa `98.03%`, `spannungsrand_kippnaehe` bei etwa `0.92%`.
+  - Lesart: Randnaehe entsteht eher durch fehlende Passung der Sinnesachsen als durch absolute Rohspannung.
+  - Naechster Schritt: Desync in Teilvarianten zerlegen: `Sehen stabil / Hoeren chaotisch` und `Sehen chaotisch / Hoeren stabil`.
+
+## Befund 1197-1198 - Getrennte Desync-Teilwelten
+
+- `data/synthetic_mcm_visual_stable_hearing_chaotic_5m.csv`
+  - Teilwelt: stabile visuelle Form, chaotischere Hoer-/Energieachse.
+- `data/synthetic_mcm_visual_chaotic_hearing_stable_5m.csv`
+  - Teilwelt: unruhigere visuelle Form, stabile/gedaempfte Hoerachse.
+- `docs/befunde/1197_GETRENNTE_DESYNC_TEILWELTEN_TOPOLOGIE_MATRIX.md`
+  - Rollenmatrix der beiden Teilwelten plus Gesamt-Desync.
+- `docs/befunde/1198_DESYNC_TEILWELTEN_SINNESACHSEN_BEWERTUNG.md`
+  - Kernaussage: Chaotisches Hoeren bei stabiler Form erzeugt deutlich mehr Rand-/Kippnaehe als chaotischere visuelle Form bei stabilem Hoeren.
+  - `Sehen stabil / Hoeren chaotisch`: `zentrum_stabil` ca. `95.13%`, `spannungsrand_kippnaehe` ca. `2.43%`.
+  - `Sehen chaotisch / Hoeren stabil`: `zentrum_stabil` ca. `99.97%`, praktisch keine Rand-/Kippnaehe.
+  - Lesart: Hoeren traegt im aktuellen MINI_DIO-Aufbau die staerkere energetische Stimulation; Sehen wirkt eher als Form- und Strukturaufnahme.
+  - Naechster Schritt: reine Hoer-Gegenprobe mit stabiler Form und steigender, fallender oder pulsierender Energie.
+
+## Befund 1199-1200 - Reine Hoergegenprobe
+
+- `data/synthetic_mcm_pure_hearing_5m.csv`
+  - Teilwelt mit stabiler visueller Form und variierter Hoer-/Energieachse: steigend, fallend, pulsierend, still und impulsartig.
+- `debug/1199_pure_hearing/dio_mini_lauf_2/`
+  - Frischer Memory-Lauf im Modus `world_relative`.
+- `docs/befunde/1199_REINE_HOERGEGENPROBE_TOPOLOGIE_MATRIX.md`
+  - Rollenmatrix der reinen Hoerwelt im Vergleich zu den Desync-Teilwelten.
+- `docs/befunde/1200_REINE_HOERGEGENPROBE_BEWERTUNG.md`
+  - Kernaussage: Reine Hoervariation erzeugt vor allem Uebergangsraum, nicht breiten Kollaps.
+  - `SYNTH_PURE_HEARING`: `zentrum_stabil` ca. `94.90%`, `offene_variante` ca. `4.42%`, `spannungsrand_kippnaehe` ca. `0.68%`.
+  - Lesart: Hoeren wirkt als eigene energetische Wahrnehmungsachse. Steigende/fallende/pulsierende Energie erzeugt eher offene Variante; impulsiver Widerspruch erzeugt staerkere Rand-/Kippnaehe.
+  - Naechster Schritt: Hoerwelt zeitlich aufloesen und pruefen, welche Phasen offene Variante oder Rand/Kippnaehe erzeugen.
+
+## Befund 1201-1202 - Reine Hoerwelt zeitlich rueckgelesen
+
+- `docs/befunde/1201_REINE_HOERWELT_PHASEN_RUECKLESUNG.md`
+  - Phasenmatrix der reinen Hoerwelt: ruhiger Ton, steigender Ton, fallender Ton, pulsierender Ton, Stille, Doppelimpuls, Schlussrekopplung.
+- `docs/befunde/1202_REINE_HOERWELT_PHASEN_BEWERTUNG.md`
+  - Kernaussage: Hoeren wirkt nicht nur ueber Lautheit, sondern ueber zeitliche Tonform.
+  - `hoeren_pulsierend_form_stabil`: offene Variante ca. `19.69%`, Rand/Kipp ca. `0.00%`.
+  - `hoeren_doppelimpuls_form_stabil`: offene Variante ca. `4.67%`, Rand/Kipp ca. `4.58%`.
+  - `schluss_rekopplung`: Zentrum ca. `100.00%`.
+  - Lesart: Puls erzeugt Uebergangsraum; Doppelimpuls erzeugt Randnaehe; danach kann das Feld wieder voll rekoppeln.
+  - Naechster Schritt: gegen Desync-Teilwelten pruefen, ob Rand/Kippnaehe aus Hoerimpuls allein oder aus Sinneswiderspruch entsteht.
+
+## Befund 1203-1204 - Hoerimpuls und Sinneswiderspruch
+
+- `docs/befunde/1203_VIS_STABIL_HOER_CHAOTISCH_PHASEN_RUECKLESUNG.md`
+  - Phasenruecklesung fuer stabile Form mit chaotischer Hoerachse.
+- `docs/befunde/1203_VIS_CHAOTISCH_HOER_STABIL_PHASEN_RUECKLESUNG.md`
+  - Phasenruecklesung fuer unruhigere/chaotische Form mit stabiler Hoerachse.
+- `docs/befunde/1204_DESYNC_TEILWELTEN_PHASEN_VERGLEICH.md`
+  - Kernaussage: Rand/Kippnaehe entsteht nicht einfach durch mehr Bewegung oder mehr Lautheit.
+  - Reine Hoerwelt: Puls oeffnet Uebergangsraum; Doppelimpuls erzeugt Randnaehe.
+  - Stabile Form plus chaotisches Hoeren: offene Variante und Rand/Kippnaehe treten zusammen auf.
+  - Chaotische Form plus stabiles Hoeren: bleibt fast vollstaendig zentriert.
+  - Lesart: Hoeren ist eine eigene zeitliche Stimulationsachse; Sinneswiderspruch ist feldwirksamer als reine visuelle Unruhe.
+  - Naechster Schritt: stabile Tonform mit gezielten visuellen Formbruechen pruefen.
+
+## Befund 1205-1206 - Stabile Tonform als Feldanker
+
+- `data/synthetic_mcm_visual_breaks_stable_pulse_5m.csv`
+  - Synthetische Welt mit gezielten visuellen Formbruechen bei stabil-pulsierender Hoerachse.
+- `debug/1205_visual_breaks_stable_pulse/dio_mini_lauf_2/`
+  - Frischer Memory-Lauf im Modus `world_relative`.
+- `docs/befunde/1205_VISUELLE_BRUECHE_STABILER_PULS_TOPOLOGIE_MATRIX.md`
+  - Topologiematrix der neuen Gegenprobe.
+- `docs/befunde/1205_VISUELLE_BRUECHE_STABILER_PULS_PHASEN_RUECKLESUNG.md`
+  - Phasenruecklesung der visuellen Brueche und Rekopplungsphasen.
+- `docs/befunde/1206_STABILE_TONFORM_ALS_FELDANKER.md`
+  - Kernaussage: Stabile Tonform kann als passiver Feldanker wirken.
+  - Gesamt: `zentrum_stabil` ca. `98.48%`, `offene_variante` ca. `1.49%`, `spannungsrand_kippnaehe` ca. `0.03%`.
+  - Erster visueller Bruch: offene Variante ca. `6.79%`.
+  - Zweiter visueller Bruch: fast vollstaendige Zentrierung ca. `99.93%`.
+  - Lesart: Wiederholte visuelle Brueche werden bei stabiler Tonform weniger stoerend gelesen. Das Feld organisiert sich sequenziell, statt jeden Bruch isoliert als Randereignis zu behandeln.
+  - Naechster Schritt: Gegenrichtung testen: chaotische Tonform bei klarer visueller Rekopplung.
+
+## Befund 1207-1208 - Chaoston gegen visuelle Rekopplung
+
+- `data/synthetic_mcm_visual_recoupling_chaotic_tone_5m.csv`
+  - Synthetische Gegenwelt mit klarer visueller Rekopplung und chaotisch/impulsiver Hoerachse.
+- `debug/1207_visual_recoupling_chaotic_tone/dio_mini_lauf_2/`
+  - Frischer Memory-Lauf im Modus `world_relative`.
+- `docs/befunde/1207_VISUELLE_REKOPPLUNG_CHAOSTON_TOPOLOGIE_MATRIX.md`
+  - Topologiematrix der Gegenrichtung.
+- `docs/befunde/1207_VISUELLE_REKOPPLUNG_CHAOSTON_PHASEN_RUECKLESUNG.md`
+  - Phasenruecklesung der visuellen Rekopplung bei chaotischer Tonform.
+- `docs/befunde/1208_CHAOSTON_GEGEN_VISUELLE_REKOPPLUNG.md`
+  - Kernaussage: Visuelle Ordnung kann Chaoston teilweise integrieren, aber nicht so stark wie stabile Tonform visuelle Brueche abfedert.
+  - Gesamt: `zentrum_stabil` ca. `94.84%`, `offene_variante` ca. `2.85%`, `spannungsrand_kippnaehe` ca. `2.31%`.
+  - Lautimpulsphase: offene Variante ca. `6.50%`, Rand/Kipp ca. `6.50%`.
+  - Vergleich: stabile Tonform gegen visuelle Brueche hatte nur ca. `0.03%` Rand/Kipp.
+  - Lesart: Hoeren bleibt die staerkere Randachse; Sehen wirkt eher als strukturelle Einordnung.
+  - Naechster Schritt: kompakte Vergleichsmatrix ueber die vier Sinnesachsen-Gegenproben.
+
+## Befund 1209 - Vergleichsmatrix der Sinnesachsen-Gegenproben
+
+- `docs/befunde/1209_SINNESACHSEN_GEGENPROBEN_VERGLEICHSMATRIX.md`
+  - Verdichtet die kontrollierten Gegenproben zu einer Matrix.
+  - Reine Hoerwelt: Zentrum ca. `94.90%`, Offen ca. `4.42%`, Rand/Kipp ca. `0.68%`.
+  - Stabile Form / chaotisches Hoeren: Zentrum ca. `95.13%`, Rand/Kipp ca. `2.43%`.
+  - Chaotische Form / stabiles Hoeren: Zentrum ca. `99.97%`, praktisch keine Randnaehe.
+  - Visuelle Brueche / stabile Tonform: Zentrum ca. `98.48%`, Rand/Kipp ca. `0.03%`.
+  - Visuelle Rekopplung / Chaoston: Zentrum ca. `94.84%`, Rand/Kipp ca. `2.31%`.
+  - Kernaussage: Hoeren wirkt als MCM-naehere zeitliche Stimulationsachse; Sehen wirkt staerker als Form- und Strukturordnung.
+  - Naechster Schritt: gegen reale Weltfenster pruefen, ob diese Sinnesachsenrollen dort ebenfalls sichtbar werden.
+
+## Befund 1210-1211 - Reale Sinnesachsen-Weltfenster
+
+- `docs/befunde/1210_REALE_SINNESACHSEN_WELTFENSTER_MATRIX.md`
+  - Vergleicht reale 5m-Weltfenster fuer `SOL`, `BTC`, `KAS` und `PAXG` ueber Rezeptorachsen, Hochlastfenster und MCM-Rollen.
+  - Alle vier Welten zeigen deutlich mehr `offene_variante` als die synthetischen Gegenwelten.
+  - `Rand/Kipp` bleibt dennoch begrenzt: gesamt ca. `1.65%` bis `2.16%`, im Hochlastfenster ca. `16.50%` bis `19.50%`.
+  - Lesart: reale Weltfolgen erzeugen vor allem Uebergangsraum, nicht automatisch Feldkollaps.
+- `docs/befunde/1211_REALE_SINNESACHSEN_GEGEN_SYNTH_BEWERTUNG.md`
+  - Bewertet die realen Weltfenster gegen die synthetische Sinnesachsen-Matrix.
+  - Kernaussage: Synthetische Welten zeigen Achsenwirkung sauber; reale Welten zeigen Achsenwirkung als Mischfeld.
+  - Rezeptoradaptation bleibt zentral, weil Rohweltspannung nicht direkt als Feldspannung uebernommen werden darf.
+  - Naechster Schritt: konkrete Hochlastfenster ruecklesen, getrennt nach `high_offen` und `high_rand_kipp`.
+
+## Befund 1212-1213 - Reale Hochlast-Rohwelt-Ruecklesung
+
+- `docs/befunde/1212_REALE_HOCHLAST_ROHWELT_RUECKLESUNG.md`
+  - Trennt reale Hochlastfenster nach Feldrolle: `offene_variante`, `spannungsrand_kippnaehe`, vereinzelt `rekopplungsnaehe`.
+  - Hochlast-Offenheit tritt deutlich haeufiger auf als Rand/Kipp.
+  - Rand/Kipp zeigt hoehere Rohaufnahme, hoehere Lautheit, hoeheren Druck, niedrigere Rekopplung und hoeheren Strain.
+  - Lesart: reale Weltspannung erzeugt zuerst Uebergangsraum; Randnaehe ist ein speziellerer Zustand.
+- `docs/befunde/1213_REALE_HOCHLAST_CHARTFENSTER.md`
+  - Plottet konkrete Chartfenster um die staerksten offenen und randnahen Hochlast-Ereignisse.
+  - Bilddateien liegen unter `docs/bilder/1213_*.png`.
+  - Zweck: Feldrollen an sichtbare Weltform zurueckbinden, ohne daraus Handlung oder Strategie abzuleiten.
+- `docs/befunde/1214_HOCHLAST_CHARTFENSTER_QUALITATIVE_LESUNG.md`
+  - Qualitative Lesung der geplotteten Hochlastfenster.
+  - `offene_variante` erscheint als Uebergangsraum: kleinteilig, wechselhaft, aber nicht kollabierend.
+  - `spannungsrand_kippnaehe` erscheint als belastete Rekopplungsgrenze: hohe Aufnahme, hohe Lautheit, hoeherer Druck, schwaechere Rekopplung.
+  - Naechster Schritt: pruefen, ob Offenheit zeitlich vor Rand/Kipp liegt oder ob beide Rollen unabhaengige Feldantworten sind.
+
+## Befund 1215-1217 - Offenheit und Randnaehe als Feldphasen
+
+- `docs/befunde/1215_REALE_ROLLEN_PHASENUEBERGAENGE.md`
+  - Segmentiert reale Weltfenster nach MCM-Rollen und zaehlt Uebergaenge.
+  - Rand/Kipp hat in `78%` bis `92%` der Randsegmente eine offene Vorgeschichte innerhalb der letzten Rollen.
+  - Direkte Uebergaenge: `Offen -> Rand` = `67`, `Rand -> Offen` = `120`.
+- `docs/befunde/1216_DIREKTE_ROLLENUEBERGANG_CHARTFENSTER.md`
+  - Plottet direkte Uebergaenge `Offen -> Rand` und `Rand -> Offen`.
+  - Bilddateien liegen unter `docs/bilder/1216_*.png`.
+- `docs/befunde/1217_OFFEN_RAND_FELDPHASEN_BEWERTUNG.md`
+  - Kernaussage: Offenheit ist eine tragende Zwischenphase, Rand/Kipp eine belastete Rekopplungsgrenze.
+  - Rueckuebergaenge `Rand -> Offen` zeigen Entlastung ohne sofortige Zentrierung.
+  - MCM-Lesart: Feldrollen sind nicht nur Orte, sondern Phasen einer Feldbewegung.
+
+## Befund 1218 - MCM-Feldphasen-Matrix
+
+- `docs/befunde/1218_MCM_FELDPHASEN_MATRIX.md`
+  - Verdichtet `zentrum_stabil`, `rekopplungsnaehe`, `offene_variante` und `spannungsrand_kippnaehe` zu einer passiven Feldphasen-Matrix.
+  - `offene_variante` erscheint als zentrale Bewegungsphase zwischen Zentrum, Rekopplungsnaehe und Rand/Kipp.
+  - Lesart: Das Feld reguliert nicht durch harte Gates, sondern durch Phasenbewegung, Rekopplung und Entlastung.
+  - Naechster Schritt: gegen weitere Welten pruefen, ob `offene_variante` die zentrale Bewegungsphase bleibt oder neue Feldphasen entstehen.
+
+## Befund 1219-1220 - Feldphasen-Matrix ueber mehrere Welten
+
+- `docs/befunde/1219_FELDPHASEN_MATRIX_MEHRWELTEN_GEGENPRUEFUNG.md`
+  - Prueft die Feldphasen-Matrix gegen 11 Weltarten: 5m, 1h, 10k-Assets, Stress, Expansion und Seitwaerts.
+  - `Rand nach Offen` bleibt in allen Welten hoch: ca. `0.75` bis `0.92`.
+  - Direkte Uebergaenge ueber alle Welten: `Offen -> Rand` = `355`, `Rand -> Offen` = `817`.
+- `docs/befunde/1220_FELDPHASEN_MATRIX_MEHRWELTEN_BEWERTUNG.md`
+  - Bewertung: Es entsteht keine neue dominante Feldphase.
+  - `offene_variante` bleibt die zentrale Bewegungsphase.
+  - Die Matrix wirkt derzeit wie eine robuste passive MCM-Ordnungsform.
+  - Naechster Schritt: synthetische Extremwelten gegenpruefen.
+
+## Befund 1221-1222 - Feldphasen-Matrix gegen synthetische Extremwelten
+
+- `docs/befunde/1221_FELDPHASEN_MATRIX_SYNTH_EXTREMWELTEN.md`
+  - Prueft Harmonie, Rand-Dominanz, Bruchfolgen und Zeitdehnung gegen die Feldphasen-Matrix.
+  - Auch synthetische Grenzfaelle erzeugen keine neue dominante Feldphase.
+  - Direkte Uebergaenge: `Offen -> Rand` = `30`, `Rand -> Offen` = `149`.
+- `docs/befunde/1222_SYNTH_EXTREMWELTEN_FELDPHASEN_BEWERTUNG.md`
+  - Kernaussage: Rand/Kipp bleibt selbst in Rand-Dominanz-Welten kurz und wird nicht zur stabilen Grundphase.
+  - Zeitdehnung vertieft Feldphasen, ersetzt aber die Topologie nicht.
+  - Die Feldphasen-Matrix wirkt robust gegen reale und synthetische Grenzfaelle.
+  - Naechster Schritt: Phasenordnung als eigene Mechanikdatei dokumentieren.
+
+## Mechanik 001 - MCM-Feldphasen-Ordnung
+
+- `docs/mechanik/001_MCM_FELDPHASEN_ORDNUNG.md`
+  - Verdichtet die Befunde `1218` bis `1222` zu einem passiven Arbeitsmodell der MCM-Feldbewegung.
+  - Feldphasen: Zentrum, Rekopplungsnaehe, offene Variante, Spannungsrand/Kippnaehe.
+  - Kernaussage: Das Feld reguliert nicht zuerst durch harte Regeln, sondern durch Phasenbewegung, Rekopplung, Entlastung und Rueckkehr.
+  - Klare Grenze: keine Handlungslogik, kein Gate, keine Strategie.
+
 Hinweis:
 
 Dateien mit `REGULATIONSQUALITAET` im Namen bleiben historische Befunddateien. Fuer den aktuellen Bauzustand gilt die fachliche Trennung: Feldbewegungs-Memory speichert gewachsene MCM-Feldwirkung; rezeptorisch-regulatorische Wahrnehmung beschreibt Aufnahmequalitaet vor dem Feld.
