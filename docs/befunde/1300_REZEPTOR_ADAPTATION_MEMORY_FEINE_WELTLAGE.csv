@@ -1,0 +1,9 @@
+adaptation_label,worlds,known_ticks,applied_ticks,dominant_outcome,adaptation_quality,avg_delta_zentrum,avg_delta_rand,avg_delta_rekopplung,avg_delta_strain,avg_delta_raw_field,avg_delta_auditory,avg_delta_visual,outcome_counts,passive_only,influences_action
+achsenweise_rezeptorhaltung_normale_weltspannung,16,64825,64825,beruhigend,1.0,0.007184,-0.003981,0.001,-0.001373,-0.004817,-0.005531,0.005093,beruhigend:16,1,0
+achsenweise_rezeptorhaltung_offen_suchend,5,9451,9451,beruhigend,1.0,0.01146,-0.00372,0.001139,-0.001556,-0.00544,-0.006262,0.00622,beruhigend:5,1,0
+achsenweise_rezeptorhaltung_ruhig_zentrumsnah,1,1160,1160,neutral,0.35,0.005,-0.001,0.000626,-0.000864,-0.003684,-0.004193,0.002757,neutral:1,1,0
+achsenweise_rezeptorhaltung_ueberstabil_extrem_leise_scharf,1,6392,6392,neutral,0.35,0.0,0.0,2e-06,1e-06,-1e-05,-1.3e-05,0.000125,neutral:1,1,0
+achsenweise_rezeptorhaltung_ueberstabil_gemischt,1,3181,3181,neutral,0.35,0.000152,-0.000303,9e-06,-9e-06,-5.6e-05,-5.7e-05,0.000123,neutral:1,1,0
+achsenweise_rezeptorhaltung_ueberstabil_leise_scharf,2,14178,14178,neutral,0.35,0.0,-0.004353,0.000161,-0.000242,-0.001017,-0.000914,0.000134,neutral:2,1,0
+achsenweise_rezeptorhaltung_ueberstabil_mit_randreiz,2,11305,11305,neutral,0.525,0.0,-0.012111,0.000469,-0.000711,-0.002953,-0.002633,0.000206,neutral:1;stabil_leicht:1,1,0
+achsenweise_rezeptorhaltung_ueberstabil_visuell_weicher,1,7929,7929,neutral,0.35,0.003778,-0.000445,0.000503,-0.000642,-0.001874,-0.002319,0.003256,neutral:1,1,0

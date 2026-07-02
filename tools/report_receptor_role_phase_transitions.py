@@ -178,7 +178,7 @@ def _write_markdown(world_summaries: list[dict[str, object]], transition_rows: l
         "",
         "## Weltuebersicht",
         "",
-        "| Welt | Segmente | Randsegmente | Rand nach Offen | Quote | Ø Offen-Dauer vor Rand |",
+        "| Welt | Segmente | Randsegmente | Rand nach Offen | Quote | Durchschnitt Offen-Dauer vor Rand |",
         "|---|---:|---:|---:|---:|---:|",
     ]
     for summary in world_summaries:

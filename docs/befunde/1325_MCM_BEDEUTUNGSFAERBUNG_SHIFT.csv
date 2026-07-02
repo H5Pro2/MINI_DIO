@@ -1,0 +1,5 @@
+asset,shift_label,base_sequence,holdout_sequence,delta_auditory,delta_visual,delta_pressure,delta_range,passive_only,influences_action
+BTC,hoerbarer_schmaler_folgeschift,offen_suchend->offen_suchend,lauter_feldkontakt->lauter_feldkontakt,0.052998,0.02554,0.009889,-0.076172,1,0
+DOGE,oberflaeche_veraendert,normale_weltspannung->normale_weltspannung,normale_weltspannung->normale_weltspannung,-0.016541,-0.012711,-0.003692,-0.14488,1,0
+PAXG,druck_entlasteter_normalisierungsshift,ruhig_zentrumsnah->normale_weltspannung,normale_weltspannung->normale_weltspannung,-0.020367,0.008735,-0.00668,0.010812,1,0
+SOL,stabil,normale_weltspannung->normale_weltspannung,normale_weltspannung->normale_weltspannung,0.020319,0.025421,0.003283,-0.00118,1,0

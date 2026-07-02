@@ -2415,6 +2415,680 @@ Besonders relevant fuer den aktuellen Bauplanstand:
   - Kernaussage: Das Feld reguliert nicht zuerst durch harte Regeln, sondern durch Phasenbewegung, Rekopplung, Entlastung und Rueckkehr.
   - Klare Grenze: keine Handlungslogik, kein Gate, keine Strategie.
 
+## Befund 1223-1224 - Stress-/Quiet-Feldphasen 2024 5m
+
+- `docs/befunde/1223_STRESS_QUIET_FELDPHASEN_VERGLEICH_2024_5M.md`
+  - Vergleicht SOL/BTC in ruhigen und belasteten 5m-Fenstern gegen die Feldphasenordnung.
+  - Direkte Uebergaenge: `Offen -> Rand/Kipp` = `807`, `Rand/Kipp -> Offen` = `821`.
+- `docs/befunde/1224_STRESS_QUIET_FELDPHASEN_BEWERTUNG.md`
+  - Bewertung: Stress/Quiet erzeugt keine neue Feldrolle, sondern bestaetigt die Pendelbewegung zwischen Offenheit und Rand/Kipp.
+  - Grenze: Aeltere 4000er Debugs enthalten nicht alle aktuellen Rezeptorachsen; Rohaufnahme/Lautheit sind hier nicht als Ursache zu lesen.
+  - Naechster Schritt: aktuelle Rezeptorlaeufe fuer dieselben Stress-/Quiet-Welten erzeugen.
+
+## Befund 1225-1226 - Aktuelle Rezeptorschicht Stress-/Quiet 2024 5m
+
+- `docs/befunde/1225_AKTUELLE_REZEPTORSCHICHT_STRESS_QUIET_FELDPHASEN.md`
+  - Neue Laeufe mit aktueller Rezeptorschicht und `world_relative`.
+  - Direkte Uebergaenge: `Offen -> Rand/Kipp` = `102`, `Rand/Kipp -> Offen` = `211`.
+  - Zentrum und Rekopplungsnaehe werden wieder deutlich sichtbar.
+- `docs/befunde/1226_AKTUELLE_REZEPTORSCHICHT_STRESS_QUIET_BEWERTUNG.md`
+  - Bewertung: Die Rezeptorschicht erzeugt keine neue Mechanik, sondern macht die vorhandene Feldphasenordnung klarer lesbar.
+  - Rand/Kipp bleibt kurz; Offenheit bleibt Bewegungs- und Entlastungsraum.
+  - Naechster Schritt: dieselbe aktuelle Rezeptorpruefung auf 1h-Welten.
+
+## Befund 1227-1228 - Aktuelle Rezeptorschicht Stress-/Quiet 2024 1h
+
+- `docs/befunde/1227_AKTUELLE_REZEPTORSCHICHT_STRESS_QUIET_FELDPHASEN_1H.md`
+  - Gleiche Pruefung wie 1225, aber auf SOL/BTC 1h Stress-/Quiet-Welten.
+  - Direkte Uebergaenge: `Offen -> Rand/Kipp` = `105`, `Rand/Kipp -> Offen` = `264`.
+  - Die Entlastungsrichtung bleibt erhalten: Rand/Kipp geht deutlich haeufiger in Offenheit zurueck.
+- `docs/befunde/1228_AKTUELLE_REZEPTORSCHICHT_1H_BEWERTUNG.md`
+  - Bewertung: Die Feldphasenordnung ist nicht nur 5m-kompatibel.
+  - Zentrum, Rekopplung, Offenheit und Rand/Kipp bleiben auch in 1h-Welten klar getrennt.
+  - BTC 1h zeigt etwas staerkere Zentrumsnaehe als SOL 1h; die Rezeptorschicht normalisiert also nicht platt, sondern erhaelt Weltunterschiede.
+
+## Befund 1229-1230 - Synthetische Sinnesachsen-Stresspruefung
+
+- `docs/befunde/1229_SYNTHETISCHE_SINNESACHSEN_STRESS_FELDPHASEN.md`
+  - Vergleicht synthetische Achsenbelastungen: desynchronisierte Achsen, Rand/Kipp-Gegenprobe, chaotisches Sehen bei stabilem Hoeren und stabiles Sehen bei chaotischem Hoeren.
+  - `SYNTH_VISUAL_CHAOTIC_HEARING_STABLE` bildet keinen Rand/Kipp aus.
+  - `SYNTH_VISUAL_STABLE_HEARING_CHAOTIC` bildet deutlich Rand/Kipp aus.
+- `docs/befunde/1230_SYNTHETISCHE_SINNESACHSEN_STRESS_BEWERTUNG.md`
+  - Bewertung: Die Topologie kollabiert nicht, aber die Hoerachse wirkt staerker randbildend als visuelle Unruhe.
+  - Relevanz: Sehen, Hoeren und Rezeptorkontakt muessen getrennt bleiben. Das Feld soll keine Rohdaten uebernehmen, sondern kanalgetrennte Feldwirkung bilden.
+
+## Befund 1231-1232 - Synthetische Offen/Rand-Chartfenster
+
+- `docs/befunde/1231_SYNTHETISCHE_SINNESACHSEN_OFFEN_RAND_CHARTFENSTER.md`
+  - Zeigt konkrete Rohweltfenster um direkte `Offen -> Rand/Kipp` und `Rand/Kipp -> Offen` Uebergaenge.
+  - Die Beispiele zeigen eher Spannungs-/Lautheitsblocks als einfache visuelle Trendformen.
+- `docs/befunde/1232_SYNTHETISCHE_SINNESACHSEN_OFFEN_RAND_BEWERTUNG.md`
+  - Bewertung: Rand/Kipp entsteht in diesen synthetischen Fenstern eher aus Hoer-/Energiebelastung bei weiter lesbarer Form.
+  - Relevanz: Staerkt die Trennung zwischen Sehen als Formachse und Hoeren als Feldreizachse.
+
+## Befund 1233-1234 - Reale Stress/Quiet Offen/Rand-Chartfenster 5m
+
+- `docs/befunde/1233_REALE_STRESS_QUIET_OFFEN_RAND_CHARTFENSTER_5M.md`
+  - Zeigt reale SOL/BTC 5m-Fenster um direkte `Offen -> Rand/Kipp` und `Rand/Kipp -> Offen` Uebergaenge.
+  - Die Uebergaenge liegen oft an echten Bewegungsimpulsen oder Bewegungsbruechen.
+- `docs/befunde/1234_REALE_STRESS_QUIET_OFFEN_RAND_BEWERTUNG_5M.md`
+  - Bewertung: Reale Rand/Kipp-Rollen sind multisensorisch gekoppelt: sichtbare Formbewegung, Lautheit/Energie, Rekopplungsabfall und Strain-Anstieg wirken zusammen.
+  - Relevanz: Synthetik zeigt die Kanalwirkung; reale Welten zeigen die gekoppelte Feldlage.
+
+## Befund 1235-1236 - Real/Synthetisch Rollenprofil Vergleich
+
+- `docs/befunde/1235_REAL_SYNTH_ROLLENPROFIL_VERGLEICH.md`
+  - Fuehrt reale 5m-Segmentrollen und synthetische Sinnesachsenrollen in einer Vergleichsmatrix zusammen.
+  - Trennt diagnostisch `hoerlast_bei_lesbarer_form`, `gekoppelte_feldlast`, `rekopplung_zentrumsnah`, `ruhige_feldnaehe` und `gemischte_feldlage`.
+- `docs/befunde/1236_REAL_SYNTH_ROLLENPROFIL_BEWERTUNG.md`
+  - Bewertung: Synthetische Rand/Kipp-Rollen koennen als Hoerlast bei lesbarer Form auftreten; reale Rand/Kipp-Rollen liegen naeher an gekoppelter Feldlast.
+  - Relevanz: Dieselbe Feldrolle kann unterschiedliche Ursachen tragen, waehrend die Ursache ueber Sinnesachsen und Rezeptorprofil ruecklesbar bleibt.
+
+## Befund 1237-1238 - Reale gekoppelte Feldlast Rollenfolge 5m
+
+- `docs/befunde/1237_REALE_GEKOPPELTE_FELDLAST_ROHWELTFENSTER_5M.md`
+  - Isoliert die 80 lautesten realen Rand/Kipp-Segmente und bindet sie an OHLCV-Rohweltfenster zurueck.
+  - Ergebnis: Alle 80 staerksten Fenster fallen als `bewegungsbruch` aus.
+- `docs/befunde/1238_REALE_GEKOPPELTE_FELDLAST_ROLLENFOLGE_BEWERTUNG.md`
+  - Bewertung: Die haeufigste Sequenz ist `zentrum_stabil -> spannungsrand_kippnaehe -> offene_variante`.
+  - Relevanz: Reale Feldlast wirkt wie kurzer Bruchpunkt zwischen zentrumsnaher Ordnung und offenem Neuordnungsraum.
+
+## Befund 1239-1240 - Reale gekoppelte Feldlast Rollenfolge 1h
+
+- `docs/befunde/1239_REALE_GEKOPPELTE_FELDLAST_ROHWELTFENSTER_1H.md`
+  - Wiederholt die 5m-Rohweltfenster-Pruefung auf SOL/BTC 1h Stress-/Quiet-Welten.
+  - Ergebnis: Auch 1h zeigt bei den 80 staerksten Rand/Kipp-Segmenten `bewegungsbruch` in 80 von 80 Faellen.
+- `docs/befunde/1240_REALE_GEKOPPELTE_FELDLAST_1H_BEWERTUNG.md`
+  - Bewertung: Die Sequenz `zentrum_stabil -> spannungsrand_kippnaehe -> offene_variante` bleibt fast deckungsgleich erhalten.
+  - Relevanz: Die reale Feldlast-Rollenfolge ist nicht nur ein 5m-Artefakt, sondern bleibt in groberer Weltzeit sichtbar.
+
+## Befund 1241 - Field Phase Memory Bestandspruefung
+
+- `docs/befunde/1241_FIELD_PHASE_MEMORY_BESTANDSPRUEFUNG.md`
+  - Prueft, ob MINI_DIO bereits eine eigene `field_phase_memory` besitzt.
+  - Ergebnis: Feldphasen werden derzeit ueber Episoden, Feldkarten, Rollenbewegung und Feldbewegung verteilt getragen, aber noch nicht als eigener passiver Phasenspeicher.
+  - Relevanz: Die Sequenz `previous_role -> current_role -> next_role` sollte als naechste Tiefenschicht passiv speicherbar werden, ohne Handlung, Gate oder Strategie daraus zu machen.
+
+## Befund 1242 - MCM-Feldphasen-Memory
+
+- `mini_dio/mcm_field_phase_memory.py`
+  - Fuehrt eine passive Feldphasen-Memory ein.
+  - Speichert Phasenfamilien als `previous_role -> current_role -> next_role`.
+  - Bleibt passiv: keine Handlung, kein Gate, keine Richtung, keine Motorik.
+- `tools/report_mcm_field_phase_memory.py`
+  - Verdichtet vorhandene Feldphasen-Transitionen in CSV/JSON/Markdown.
+- `docs/befunde/1242_MCM_FELDPHASEN_MEMORY.md`
+  - Erster Lauf: `35` Phasenfamilien.
+  - Staerkste Familien liegen in Zentrum/Offenheit/Rekopplung, nicht in dauerhafter Randspannung.
+  - Relevanz: MINI_DIO kann Feldrollen jetzt als wiederkehrende Bewegungsfolgen lesen, nicht nur als Einzelzustand.
+
+## Befund 1243-1244 - MCM-Feldphasen-Memory Mehrwelt
+
+- `docs/befunde/1243_MCM_FELDPHASEN_MEMORY_MEHRWELT.md`
+  - Liest alle vorhandenen `*TRANSITIONS.csv` Dateien.
+  - Nach Artefaktfilter: `16` Eingaben, `36` echte Feldphasenfamilien.
+- `docs/befunde/1244_MCM_FELDPHASEN_MEMORY_MEHRWELT_BEWERTUNG.md`
+  - Bewertung: Die Ordnung bleibt stabil; dominante Phasen liegen in Zentrum/Offenheit/Rekopplung.
+  - Rand/Kipp bleibt sichtbar, aber eher als kurzer Grenzimpuls mit Entlastung in Offenheit.
+  - Relevanz: Neue Welten erweitern die Feldphasenordnung, ohne sie sofort zu zerlegen.
+
+## Befund 1245 - MCM-Feldphasen-Klassen
+
+- `tools/report_mcm_field_phase_classes.py`
+  - Klassifiziert die Feldphasen-Memory relativ zur Mehrwelt-Matrix.
+  - Keine festen Regeln fuer MINI_DIO; nur Diagnose.
+- `docs/befunde/1245_MCM_FELDPHASEN_KLASSEN.md`
+  - Ergebnis: `12` allgemeine Feldphasen, `14` breit getragene Feldphasen, `3` Grenzphasen mit Entlastung, `5` weltgebundene Feldphasen, `1` lokale/driftende Phase, `1` junge Phasenspur.
+  - Relevanz: Die Feldphasen-Memory wirkt geschichtet, nicht beliebig gesammelt.
+  - Wichtig: Der stabile Kern liegt in Zentrum/Offenheit/Rekopplung; Rand/Kipp erscheint als Randkopplung, Grenzimpuls oder weltgebundene Spur.
+
+## Befund 1246-1247 - MCM-Feldphasen Weltarten-Trigger
+
+- `tools/report_mcm_field_phase_world_triggers.py`
+  - Liest weltgebundene, lokale, junge und grenznahe Feldphasen gegen Weltarten zurueck.
+- `docs/befunde/1246_MCM_FELDPHASEN_WELTARTEN_TRIGGER.md`
+  - Ergebnis: `10` situative Phasen untersucht.
+  - Grenzphasen liegen dort, wo Rand/Kipp mit Offenheit, Zentrum oder Rekopplung gekoppelt wird.
+- `docs/befunde/1247_MCM_FELDPHASEN_WELTARTEN_TRIGGER_BEWERTUNG.md`
+  - Bewertung: Situative Phasen sind keine zweite Grundordnung, sondern Weltreaktionen.
+  - Grenze: Weltarten sind aus Namen gelesen; naechster Schritt ist Rohwelt-Rueckbindung ueber Bewegungsbruch, Lautheitslast, Zeitrahmen und Assetcharakter.
+
+## Befund 1248 - MCM-Feldphasen Rohfeld-Kopplung
+
+- `tools/report_mcm_field_phase_raw_coupling.py`
+  - Liest situative Feldphasen gegen aggregierte Rohfeld-/Sensorikwerte.
+- `docs/befunde/1248_MCM_FELDPHASEN_ROHFELD_KOPPLUNG.md`
+  - Ergebnis: `7` von `10` situativen Randphasen zeigen `last_mit_entlastender_folge`.
+  - Kernaussage: Rand/Kipp als Zustand ist nicht automatisch Kollaps; entscheidend ist, ob danach Rekopplung steigt und Strain faellt.
+  - Grenze: Diese Diagnose nutzt aggregierte Feldphasenwerte. Fuer volle Rohwelt-Erklaerung braucht es spaeter echte OHLCV-/Ton-/Rezeptor-Fenster pro Phase.
+
+## Befund 1249-1250 - MCM-Feldphasen Fensterlupe
+
+- `tools/report_mcm_field_phase_window_loupe.py`
+  - Liest situative Feldphasen als konkrete Drei-Fenster-Sequenz: vorherige Rolle, aktuelle Rolle, folgende Rolle.
+  - Keine Handlung, keine Strategie, keine neue Regulation; reine Feldbewegungsdiagnose.
+- `docs/befunde/1249_MCM_FELDPHASEN_FENSTERLUPE.md`
+  - Ergebnis: `2655` Fenster ueber `10` Zielphasenfamilien.
+  - Dominante Lesart: `2077` Fenster zeigen `lastkontakt_entlastet`.
+  - Kernaussage: Viele Rand-/Kippkontakte wirken nicht als dauerhafter Kollaps, sondern als kurzer Lastkontakt mit anschliessender Entlastung.
+- `docs/befunde/1250_MCM_FELDPHASEN_FENSTERLUPE_BEWERTUNG.md`
+  - Trennt Unterformen: entlastender Lastkontakt, Rekopplung vor neuer Last, gemischtes Fenster.
+  - Wichtig: Nicht der Einzelzustand entscheidet, sondern die Feldfolge danach.
+  - Grenze: Noch keine direkte OHLCV-Rohweltlupe; naechster Schritt ist Phase + Kerzenbereich + Tonprofil + Rezeptorprofil in einer Zeile.
+
+## Befund 1251-1252 - MCM-Feldphasen Rohwelt-Fensterlupe
+
+- `tools/report_mcm_field_phase_raw_window_loupe.py`
+  - Koppelt die Feldphasen-Fenster aus `1249` mit eindeutig zuordenbaren Rohwelt-CSV-Dateien.
+  - Synthetische und unklare historische Weltlabels werden bewusst nicht erzwungen gemappt.
+- `docs/befunde/1251_MCM_FELDPHASEN_ROHWELT_FENSTERLUPE.md`
+  - Ergebnis: `256` Rohweltfenster gekoppelt.
+  - Bewegungsarten: `255` Fenster `bewegungsbruch`, `1` Fenster `gemischte_rohwelt`.
+  - Feldlesart: `253` Fenster `lastkontakt_entlastet`, `3` Fenster `rekopplung_bricht_in_last`.
+- `docs/befunde/1252_MCM_FELDPHASEN_ROHWELT_FENSTERLUPE_BEWERTUNG.md`
+  - Bewertung: Situative Rand-/Kipp-Phasen sind in den eindeutig gekoppelten Rohfenstern meist Reaktionen auf Rohwelt-Bruch.
+  - Kernaussage: Das Feld reagiert nicht nur auf Richtung, sondern auf Umordnung.
+  - Naechste Pruefung: Assetvergleich von `bewegungsbruch -> lastkontakt_entlastet`.
+
+## Befund 1253-1254 - MCM Asset-Feldantwort auf Bewegungsbruch
+
+- `tools/report_mcm_asset_field_response.py`
+  - Verdichtet die Rohwelt-Fensterlupe assetweise.
+  - Keine Handlung, keine Strategie; nur passive Feldantwort auf gleiche Rohweltklasse.
+- `docs/befunde/1253_MCM_ASSET_FELDANTWORT_BEWEGUNGSBRUCH.md`
+  - Ergebnis: `6` Assetgruppen, alle in `entlastender_bruchkontakt`.
+  - Gemeinsame Grundform: `bewegungsbruch -> Randkontakt -> Entlastung`.
+  - Unterschiede liegen in Lautheit, Expansion, Strain und Entlastungsdelta.
+- `docs/befunde/1254_MCM_ASSET_FELDANTWORT_BEWERTUNG.md`
+  - Bewertung: gleiche MCM-Grundordnung, unterschiedliche Assetfaerbung.
+  - Wichtig: Die Topologie wirkt dadurch nicht assetblind, sondern weltfaerbend.
+  - Grenze: Stichprobe ungleich verteilt; naechste Pruefung braucht gleich grosse Samples pro Asset.
+
+## Befund 1255-1256 - MCM Asset-Feldantwort Balanced
+
+- `tools/report_mcm_asset_balanced_response.py`
+  - Liest pro Asset die gleiche Anzahl Rohweltfenster aus `1251`.
+  - Methodisch kleiner, aber sauberer gegen SOL-Dominanz.
+- `docs/befunde/1255_MCM_ASSET_FELDANTWORT_BALANCED.md`
+  - Ergebnis: `6` Assetgruppen mit je `9` Fenstern.
+  - Alle Assets bleiben bei `bewegungsbruch` und `lastkontakt_entlastet`.
+  - Antwortklassen: `3` stark entlastend, `3` entlastend.
+- `docs/befunde/1256_MCM_ASSET_FELDANTWORT_BALANCED_BEWERTUNG.md`
+  - Bewertung: Die gemeinsame MCM-Grundform bleibt erhalten, die Assetfaerbung bleibt unterschiedlich.
+  - Staffelung: SOL/DOGE/PAXG staerker entlastend, KAS leiser und schwaecher entlastend.
+  - Grenze: strenge Gleichverteilung ist klein; naechste Pruefung braucht mehr gekoppelte Fenster pro Asset.
+
+## Befund 1257-1259 - Erweiterte Rohwelt- und Asset-Feldantwort
+
+- `docs/befunde/1257_MCM_FELDPHASEN_ROHWELT_FENSTERLUPE_ERWEITERT.md`
+  - Erzeugt eine erweiterte Rohwelt-Fensterlupe mit hoeherem Limit.
+  - Ergebnis: `903` eindeutig gekoppelte Rohfenster.
+  - Bewegungsarten: `895` Bewegungsbruch, `7` gemischte Rohwelt, `1` Bruch-Koerperlast.
+- `docs/befunde/1258_MCM_ASSET_FELDANTWORT_BALANCED_ERWEITERT.md`
+  - Balanciert die erweiterte Rohlupe auf `36` Fenster pro Asset.
+  - Ergebnis: alle `6` Assets bleiben bei `bewegungsbruch` und `lastkontakt_entlastet`.
+- `docs/befunde/1259_MCM_ASSET_FELDANTWORT_BALANCED_ERWEITERT_BEWERTUNG.md`
+  - Bewertung: Die Grundform `Rohweltbruch -> Randkontakt -> Entlastung` bleibt bei mehr Fenstern pro Asset erhalten.
+  - Nebenbefund: Bewegungsbruch fuehrt nicht immer zur Entlastung; kleinere Gegenformen sind `rekopplung_bricht_in_last`, `gemischtes_fenster` und `rekopplung_vor_neuer_last`.
+  - Naechste Pruefung: Wann kippt Bewegungsbruch in Nachlast statt Entlastung?
+
+## Befund 1260-1261 - MCM Bewegungsbruch Folgeformen
+
+- `tools/report_mcm_break_followup_contrast.py`
+  - Vergleicht die Folgeformen innerhalb der erweiterten Rohwelt-Fensterlupe.
+  - Trennt Hauptform und Gegenformen nach Folgequalitaet.
+- `docs/befunde/1260_MCM_BEWEGUNGSBRUCH_FOLGEFORMEN.md`
+  - Ergebnis: `811` lastkontakt_entlastet, `61` rekopplung_bricht_in_last, `21` gemischtes_fenster, `9` rekopplung_vor_neuer_last, `1` lastkontakt_bleibt.
+  - Alle relevanten Formen liegen weiter ueberwiegend auf `bewegungsbruch`.
+- `docs/befunde/1261_MCM_BEWEGUNGSBRUCH_FOLGEFORMEN_BEWERTUNG.md`
+  - Bewertung: Rohweltbruch ist Ausloeser, Feldfolge ist Bedeutung.
+  - Hauptform: Rekopplung steigt deutlich und Strain faellt deutlich.
+  - Gegenformen: Rekopplung steigt nur schwach, faellt oder kippt vor neuer Last.
+  - Kernaussage: Das Feld liest nicht nur Aussenbewegung, sondern ob danach wieder tragender Anschluss entsteht.
+
+## Befund 1262-1263 - MCM Gegenformen Tickfenster
+
+- `tools/report_mcm_counterform_windows.py`
+  - Isoliert konkrete Tickfenster, in denen Bewegungsbruch nicht zu voller Entlastung fuehrt.
+  - Sortiert nach Nachlast-/Rueckfall-Schaerfe.
+- `docs/befunde/1262_MCM_GEGENFORMEN_TICKFENSTER.md`
+  - Ergebnis: `92` Gegenfenster.
+  - Arten: `61` schwache Entlastung/gebrochene Rekopplung, `14` aktive Nachlast, `9` Rueckfall nach kurzer Rekopplung, `7` gemischte Gegenform, `1` Last bleibt.
+  - Staerkste Rueckfaelle liegen meist in `spannungsrand_kippnaehe -> zentrum_stabil -> spannungsrand_kippnaehe`.
+- `docs/befunde/1263_MCM_GEGENFORMEN_TICKFENSTER_BEWERTUNG.md`
+  - Bewertung: Zentrum ist nicht automatisch stabile Ordnung; Rekopplung ist nicht automatisch Entlastung.
+  - Kernaussage: Ordnung braucht Folgehalt.
+  - Naechste Pruefung: passive Diagnose fuer Folgehalt nach Randkontakt.
+
+## Befund 1264-1265 - MCM Folgehalt nach Randkontakt
+
+- `tools/report_mcm_followhold_after_rand.py`
+  - Liest Segmentfolgen nach `spannungsrand_kippnaehe`.
+  - Prueft passiv, ob Folgephasen tragen oder direkt wieder in Rand/Kipp zurueckfallen.
+- `docs/befunde/1264_MCM_FOLGEHALT_NACH_RANDKONTAKT.md`
+  - Ergebnis: `2962` Randkontakte gelesen.
+  - Davon `1056` mit direktem Rueckfall in Rand/Kipp nach der Folgephase und `1906` ohne direkten Rueckfall im naechsten Segment.
+  - Direkte Folgerollen: `2325` offene Variante, `430` Zentrum, `207` Rekopplungsnaehe.
+- `docs/befunde/1265_MCM_FOLGEHALT_NACH_RANDKONTAKT_BEWERTUNG.md`
+  - Bewertung: Die MCM-Topologie wirkt nicht nur ueber Positionen, sondern ueber gehaltene Folgen.
+  - Kernaussage: Bedeutung entsteht aus Feldfolge plus Folgehalt.
+  - Naechste Pruefung: Folgehalt mit Rohweltspannung koppeln.
+
+## Befund 1266-1267 - MCM Folgehalt Rohwelt-Kopplung
+
+- `tools/report_mcm_followhold_raw_coupling.py`
+  - Koppelt Folgehalt nach Randkontakt mit eindeutig zuordenbaren Rohweltfenstern.
+  - Nutzt dieselbe Rohwelt-Fensterlogik wie die vorherige Rohweltlupe.
+- `docs/befunde/1266_MCM_FOLGEHALT_ROHWELT_KOPPLUNG.md`
+  - Ergebnis: `1021` gekoppelte Fenster, `1941` korrekt ausgelassen wegen nicht eindeutiger Rohwelt.
+  - Rohbewegungen: `1011` Bewegungsbruch, `9` gemischte Rohwelt, `1` Bruch-Koerperlast.
+  - Folgehalt-Arten: `740` offene Variante entlastend gehalten, `113` Rekopplungsnaehe entlastend gehalten, `83` Zentrum stabil entlastend gehalten, `75` Offenheit kurz getragen dann Rueckfall.
+- `docs/befunde/1267_MCM_FOLGEHALT_ROHWELT_KOPPLUNG_BEWERTUNG.md`
+  - Bewertung: Die Aussenweltform ist Ausloeser, aber nicht fertige Bedeutung.
+  - Kernaussage: Weltspannung wird als Randkontakt verarbeitet und danach als Folgehalt, Rueckfall oder gemischte Weitertragung lesbar.
+  - Naechste Pruefung: nach Asset/Weltart trennen.
+
+## Befund 1268-1269 - MCM Folgehalt nach Weltart und Asset
+
+- `tools/report_mcm_followhold_world_split.py`
+  - Trennt die Folgehalt-Rohwelt-Kopplung nach Asset, Weltfamilie und Einzelwelt.
+  - Prueft, ob die gleiche Feldantwort bei unterschiedlicher Weltmelodie erhalten bleibt.
+- `docs/befunde/1268_MCM_FOLGEHALT_WELTART_ASSET_SPLIT.md`
+  - Ergebnis: `1021` gekoppelte Fenster, `6` Assetgruppen, `5` Weltfamilien, `11` Einzelwelten.
+  - Assetgruppen: SOL `516`, XRP `162`, DOGE `139`, PAXG `87`, BTC `80`, KAS `37`.
+  - Grundmechanik bleibt sichtbar: Randkontakt fuehrt ueberwiegend zu entlastendem Folgehalt.
+  - Faerbung unterscheidet sich: PAXG/BTC/XRP expansionsnaeher, KAS leiser, SOL datenstark und stabil.
+- `docs/befunde/1269_MCM_FOLGEHALT_WELTART_ASSET_SPLIT_BEWERTUNG.md`
+  - Bewertung: Die Folgehalt-Mechanik bleibt ueber unterschiedliche Welten lesbar, aber Intensitaet und Rueckfallnaehe faerben sich durch Asset und Weltart.
+  - Kernaussage: keine reine Assetregel, sondern Grundtopologie mit weltabhaengiger Faerbung.
+  - Naechste Pruefung: Rueckfallgruppe isolieren.
+
+## Befund 1270-1271 - MCM Folgehalt Rueckfallprofil
+
+- `tools/report_mcm_followhold_fallback_profile.py`
+  - Isoliert Rueckfallfenster aus der Folgehalt-Rohwelt-Kopplung.
+  - Vergleicht Rueckfall gegen getragenen Folgehalt.
+- `docs/befunde/1270_MCM_FOLGEHALT_RUECKFALLPROFIL.md`
+  - Ergebnis: `83` Rueckfallfenster aus `1021` gekoppelten Fenstern.
+  - Rueckfallarten: `75` Offenheit kurz getragen dann Rueckfall, `7` Zentrum kurz getragen dann Rueckfall, `1` Rekopplung kurz getragen dann Rueckfall.
+  - Rueckfall-Rohformen: `43` starker Bruchimpuls, `40` Bewegungsbruch.
+- `docs/befunde/1271_MCM_FOLGEHALT_RUECKFALLPROFIL_BEWERTUNG.md`
+  - Bewertung: Rueckfall entsteht nicht, weil das Feld keine Entlastung kann.
+  - Kernaussage: Rueckfall entsteht, wenn Entlastung gegen weiter aktive Weltspannung nicht lange getragen wird.
+  - Naechste Pruefung: Vorwarnspur vor Rueckfall messen.
+
+## Befund 1272-1273 - Sinnesaufnahme Selbstregulation Bestand
+
+- `tools/report_sensory_self_regulation_readiness.py`
+  - Liest SOL, BTC, KAS und PAXG in 5m/1h erneut durch die aktuelle `mini_world`-Rezeptorschicht.
+  - Trennt Hoeren, Sehen und Fuehlen vor dem MCM-Feld.
+  - Prueft Lautheit, Schaerfe, Feldkontakt, Rohfeldaufnahme, adaptierte Feldaufnahme und passive Anpassung.
+- `docs/befunde/1272_SINNESAUFNAHME_SELBSTREGULATION_BESTAND.md`
+  - Ergebnis: Mini-DIO nimmt Welten nicht gleich auf.
+  - PAXG 5m war leiser, aber visuell schaerfer.
+  - SOL 5m war lauter und feldkontaktstaerker.
+  - KAS war in dieser Stichprobe nicht pauschal zu leise, sondern 5m mittig und 1h daempfungsnah.
+- `docs/befunde/1273_SINNESAUFNAHME_SELBSTREGULATION_BESTAND_BEWERTUNG.md`
+  - Bewertung: Die rezeptorische Vorregulation ist sichtbar, aber noch nicht voll selbstlernend.
+  - Kernaussage: Das MCM-Feld bleibt einfach; die Anpassung gehoert vor das Feld in die Sinnesaufnahme.
+  - Naechste Pruefung: Sinnesaufnahme gegen Topologie lesen.
+
+## Befund 1274-1275 - Sinnesaufnahme gegen Topologie
+
+- `tools/report_sensory_topology_coupling.py`
+  - Liest vorhandene Feldphasen-Segmente und koppelt Topologie-Rollen gegen Hoeren, Sehen und Fuehlen.
+  - Bleibt passiv: keine Handlung, kein Gate, keine Richtung.
+- `docs/befunde/1274_SINNESAUFNAHME_TOPOLOGIE_KOPPLUNG.md`
+  - Ergebnis: Feldrollen tragen unterschiedliche Sinnesprofile.
+  - `zentrum_stabil`: leise, scharf, feldduenn, getragen.
+  - `rekopplungsnaehe`: mittlere Lautheit, mittlere Sicht, feldmittel, getragen.
+  - `offene_variante`: lauter, unschaerfer, feldmittel bis feldstark, offen.
+  - `spannungsrand_kippnaehe`: laut, feldstark, angespannt.
+- `docs/befunde/1275_SINNESAUFNAHME_TOPOLOGIE_KOPPLUNG_BEWERTUNG.md`
+  - Bewertung: Topologie ist nicht nur Symbolklasse, sondern mit Aufnahmequalitaet gekoppelt.
+  - Kernaussage: Regulation gehoert vor das Feld in die lernbare Rezeptorschicht.
+  - Naechste Pruefung: passive Sinnesaufnahme-Memory.
+
+## Befund 1276 - Sinnesaufnahme Topologie Memory
+
+- `mini_dio/sensory_topology_memory.py`
+  - Fuehrt eine kleine passive Memory fuer Sinnes-Signatur, Feldrolle, Tragqualitaet und achsenspezifische Rezeptorpraeferenz ein.
+  - Keine Handlung, kein Gate, keine Richtung.
+- `tools/report_sensory_topology_memory.py`
+  - Verdichtet die Kopplungsmatrix aus `1274` zu Signatur-Familien.
+- `docs/befunde/1276_SINNESAUFNAHME_TOPOLOGIE_MEMORY.md`
+  - Ergebnis: `leise_scharf_feldduenn_getragen` koppelt dominant an `zentrum_stabil`.
+  - `mittelton_mittelsicht_feldmittel_getragen` koppelt dominant an `rekopplungsnaehe`.
+  - `laut_*_feldstark_angespannt` koppelt dominant an `spannungsrand_kippnaehe`.
+  - Kernaussage: Sinnesaufnahme kann als passive Bedeutungsnaehe gespeichert werden, nicht als Rohdatenstrom.
+  - Achsenpraeferenzen: Hoeren, Sehen und Fuehlen werden getrennt als `up`, `down`, `hold` oder `soften` gelesen.
+- `docs/befunde/1277_ACHENSPEZIFISCHE_REZEPTORPRAEFERENZ_BEWERTUNG.md`
+  - Bewertung: Regulation ist jetzt als gelernte Anpassung vorbereitet, aber noch nicht als aktive Steuerung eingesetzt.
+  - Kernaussage: Mini-DIO regelt nicht global, sondern sinnesabhaengig.
+  - Naechste Pruefung: Reproduzieren ueber neue Welten, danach isolierter A/B-Lauf mit sanfter Rezeptorhaltung.
+
+## Befund 1278-1280 - Sinnes-Topologie-Reproduktion
+
+- `docs/befunde/1278_SINNESAUFNAHME_TOPOLOGIE_REPRO_KOPPLUNG.md`
+  - Erweitert die Kopplungspruefung auf Mehrweltenmatrix, synthetische Extremwelten, Stress/Quiet und aktuelle Rezeptorschicht.
+- `docs/befunde/1279_SINNESAUFNAHME_TOPOLOGIE_REPRO_MEMORY.md`
+  - Ergebnis: Die Kernsignatur `leise_scharf_feldduenn_getragen -> zentrum_stabil` waechst von `6886` auf `23893` Segmente.
+  - `mittelton_mittelsicht_feldmittel_getragen -> rekopplungsnaehe` bleibt ebenfalls stabil.
+  - Neue Mischsignaturen entstehen vor allem in Offenheit und Rand/Kipp.
+- `docs/befunde/1280_SINNES_TOPOLOGIE_REPRO_BEWERTUNG.md`
+  - Bewertung: Der Kern ist reproduzierbar, die Rand-/Offenheitslagen differenzieren sich.
+  - Kernaussage: laute/feldstarke Spannung verlangt andere Rezeptorpraeferenz als duenne/unscharfe Spannung.
+  - Methodische Grenze: historische Segmentdateien mit Nullwerten fuer Rohfeldaufnahme nicht als echte Feldlosigkeit ueberinterpretieren.
+  - Naechste Pruefung: isolierter A/B-Test ohne und mit sanfter achsenspezifischer Rezeptorhaltung.
+
+## Befund 1281-1282 - Rezeptorhaltung A/B-Test
+
+- `tools/report_receptor_preference_ab_test.py`
+  - Fuehrt einen isolierten A/B-Test aus.
+  - A: bisherige Sinnesaufnahme.
+  - B: sanfte achsenspezifische Rezeptorhaltung aus `1279`.
+  - Keine Runtime-Aenderung, keine Handlung, kein Gate.
+- `docs/befunde/1281_REZEPTORHALTUNG_AB_TEST.md`
+  - Ergebnis ueber SOL, BTC, KAS und PAXG: Zentrum steigt leicht, Rand/Kipp sinkt leicht, Strain sinkt leicht.
+  - Hoerlast und Rohfeldaufnahme sinken sanft, Sichtqualitaet steigt leicht.
+- `docs/befunde/1282_REZEPTORHALTUNG_AB_TEST_BEWERTUNG.md`
+  - Bewertung: Die Rezeptorhaltung wirkt nicht wie ein harter Filter, sondern wie eine kleine Aufnahmehaltung vor dem MCM-Feld.
+  - Kernaussage: `Sinnesaufnahme -> Rezeptorhaltung -> MCM-Feld` ist fachlich sauberer als Rohdaten direkt ins Feld.
+  - Grenze: weiterhin passiv-diagnostisch; noch keine aktive Selbststeuerung.
+  - Naechste Pruefung: neue Welten und laengere Sequenzen, um zu sehen, ob die Topologie stabil bleibt.
+
+## Befund 1283-1284 - Rezeptorhaltung ueber laengere Mehrwelten
+
+- `docs/befunde/1283_REZEPTORHALTUNG_AB_TEST_MEHRWELTEN.md`
+  - Erweitert den A/B-Test auf laengere SOL-Regimewelten sowie BTC, DOGE, XRP und PAXG.
+  - Ergebnis: Die Rezeptorhaltung wirkt ueber alle Welten gleich gerichtet.
+  - Zentrum steigt leicht, Rand/Kipp sinkt leicht, Rekopplung steigt minimal, Strain sinkt minimal.
+- `docs/befunde/1284_REZEPTORHALTUNG_MEHRWELTEN_BEWERTUNG.md`
+  - Bewertung: Die Rezeptorhaltung ist keine globale Normalisierung, sondern eine plausible organische Vorstufe.
+  - Kernaussage: Die Topologie wird nicht neu erfunden, sondern leicht klarer.
+  - Grenze: noch keine aktive Selbststeuerung; die Haltung ist rueckwirkend/passiv getestet.
+  - Naechste Pruefung: passive `receptor_adaptation_memory`, die Folgen der Sinneshaltung auf die Feldordnung speichert.
+
+## Befund 1285 - Passive Rezeptor-Adaptationsmemory
+
+- `mini_dio/receptor_adaptation_memory.py`
+  - Neue passive Memory fuer die Folgen einer Sinneshaltung auf die MCM-Feldordnung.
+  - Speichert nicht die Regel selbst, sondern die beobachtete Folge: beruhigend, neutral oder verschiebend.
+  - Keine Handlung, kein Gate, keine aktive Steuerung.
+- `tools/report_receptor_adaptation_memory.py`
+  - Verdichtet die A/B-Befunde aus `1281` und `1283`.
+- `docs/befunde/1285_REZEPTOR_ADAPTATION_MEMORY.md`
+  - Ergebnis: `14` Welten, `48353` bekannte Ticks, `48353` angewendete Rezeptorhaltungen.
+  - Folge: `beruhigend` mit `13` beruhigenden und `1` neutralen Welt.
+  - Durchschnitt: Zentrum `+0.0080`, Rand/Kipp `-0.0034`, Rekopplung `+0.0010`, Strain `-0.0014`.
+  - Kernaussage: Die achsenweise Rezeptorhaltung hat bisher eine kleine, stabile Beruhigungsfolge ohne Topologiebruch.
+  - Naechste Pruefung: neue Welten hinzufuegen und beobachten, ob die Folge stabil bleibt oder driftet.
+
+## Befund 1286-1288 - Erweiterte Rezeptor-Adaptationsmemory
+
+- `docs/befunde/1286_REZEPTORHALTUNG_AB_TEST_NEUE_WELTEN.md`
+  - Fuehrt den A/B-Test auf weiteren SOL/BTC/DOGE/XRP/PAXG/KAS-Welten aus.
+- `docs/befunde/1287_REZEPTOR_ADAPTATION_MEMORY_ERWEITERT.md`
+  - Verdichtet `1281`, `1283` und `1286` gemeinsam.
+- `docs/befunde/1288_REZEPTOR_ADAPTATION_MEMORY_ERWEITERT_BEWERTUNG.md`
+  - Ergebnis: `22` Welten, `75436` bekannte Ticks, `21` beruhigende und `1` neutrale Folge.
+  - Durchschnitt: Zentrum `+0.0081`, Rand/Kipp `-0.0038`, Rekopplung `+0.0010`, Strain `-0.0014`.
+  - Kernaussage: Die Rezeptorhaltung bleibt ueber neue Assets und Zeitrahmen klein, stabil und beruhigend.
+  - Grenze: noch keine aktive Selbstregulation; weiterhin passiv gelesene Aufnahmehaltung.
+  - Naechste Pruefung: Gegenprobe mit widerspruechlichen Sinneswelten, um Glaettung von organischer Adaptation zu trennen.
+
+## Befund 1289-1292 - Rezeptorhaltung in widerspruechlichen Sinneswelten
+
+- `docs/befunde/1289_REZEPTORHALTUNG_AB_TEST_WIDERSPRUCH.md`
+  - Testet die Rezeptorhaltung gegen synthetische Widerspruchswelten: Desynchronisation, reine Hoerwelt, chaotisches Hoeren/Sehen und Rand/Kipp.
+- `docs/befunde/1290_REZEPTOR_ADAPTATION_MEMORY_WIDERSPRUCH.md`
+  - Separate Verdichtung der Widerspruchswelten.
+  - Ergebnis: `7` Welten, `6` neutrale Folgen, `1` stabil leichte Folge, keine verschiebende Folge.
+- `docs/befunde/1291_REZEPTOR_ADAPTATION_MEMORY_GESAMT.md`
+  - Gesamtverdichtung ueber alle A/B-Welten.
+  - Ergebnis: `29` Welten, `118421` bekannte Ticks, `21` beruhigende, `7` neutrale und `1` stabil leichte Folge.
+- `docs/befunde/1292_REZEPTOR_ADAPTATION_WIDERSPRUCH_BEWERTUNG.md`
+  - Bewertung: Die Rezeptorhaltung glaettet widerspruechliche Welten nicht blind.
+  - Kernaussage: In realen/normalen Weltspuren wirkt sie leicht beruhigend; in widerspruechlichen Sinneswelten bleibt sie ueberwiegend neutral.
+  - Naechste Pruefung: Rezeptor-Adaptationsmemory nach Weltart oder Sinneswiderspruch trennen.
+
+## Befund 1293-1294 - Rezeptor-Adaptation nach Weltart
+
+- `tools/report_receptor_adaptation_memory.py`
+  - Erweitert um `--group-by-world-kind`.
+  - Gruppiert die passive Rezeptorfolge nach Weltart, aktuell heuristisch aus Weltnamen gelesen.
+- `docs/befunde/1293_REZEPTOR_ADAPTATION_MEMORY_WELTARTEN.md`
+  - Ergebnis: Markt-, Stress-, Ruhe- und leise Assetwelten bleiben beruhigend.
+  - `sinneswiderspruch` bleibt ueberwiegend neutral.
+  - `gold_kontrast` bleibt beruhigend, aber schwaecher als die uebrigen Realweltgruppen.
+- `docs/befunde/1294_REZEPTOR_ADAPTATION_WELTARTEN_BEWERTUNG.md`
+  - Bewertung: Die Rezeptorhaltung wirkt nicht als allgemeiner Glattmacher.
+  - Kernaussage: normale/tragende Weltlagen werden leicht beruhigt; widerspruechliche Sinneslagen werden nicht kuenstlich geordnet.
+  - Grenze: Weltart ist noch aus Dateinamen gelesen.
+  - Naechste Pruefung: Weltlagen-Klassifizierer aus Hoeren, Sehen, Feldkontakt, Strain und Rekopplung.
+
+## Befund 1295-1296 - Weltlage aus Messwerten
+
+- `mini_dio/worldlage_classifier.py`
+  - Neuer passiver Weltlagen-Leser.
+  - Nutzt Zentrum, Rand/Kipp, Rekopplung, Strain, Rohfeld, Ton und Sicht.
+  - Nutzt keine Dateinamen, Assetnamen, Richtung, Handlung oder Outcomes.
+- `tools/report_worldlage_receptor_effect.py`
+  - Liest die A/B-Welten und ordnet sie nach gemessener Weltlage.
+- `docs/befunde/1295_WELTLAGE_REZEPTORWIRKUNG.md`
+  - Ergebnis: `normale_weltspannung` und `offen_suchend` wirken beruhigend.
+  - `ueberstabil_sinnesdominant` wirkt neutral.
+  - `ueberstabil_mit_randreiz` wirkt stabil leicht bis neutral.
+- `docs/befunde/1296_WELTLAGE_REZEPTORWIRKUNG_BEWERTUNG.md`
+  - Bewertung: Der Dateiname ist nicht mehr noetig, um den Grundbefund zu reproduzieren.
+  - Kernaussage: Rezeptor-Adaptation kann spaeter nach erlebter Lage statt externer Weltart lernen.
+  - Grenze: Klassifizierer ist noch grob und diagnostisch.
+  - Naechste Pruefung: `receptor_adaptation_memory` direkt nach gemessener Weltlage verdichten.
+
+## Befund 1297-1298 - Rezeptor-Adaptationsmemory nach gemessener Weltlage
+
+- `tools/report_receptor_adaptation_memory.py`
+  - Erweitert um `--group-by-measured-worldlage`.
+  - Nutzt `mini_dio/worldlage_classifier.py`, um die Memory nach gemessener Lage zu verdichten.
+- `docs/befunde/1297_REZEPTOR_ADAPTATION_MEMORY_GEMESSENE_WELTLAGE.md`
+  - Ergebnis: `normale_weltspannung` und `offen_suchend` sind beruhigend.
+  - `ruhig_zentrumsnah`, `ueberstabil_mit_randreiz` und `ueberstabil_sinnesdominant` bleiben neutral.
+- `docs/befunde/1298_REZEPTOR_ADAPTATION_GEMESSENE_WELTLAGE_BEWERTUNG.md`
+  - Bewertung: Die Rezeptorhaltung wird lagebezogen lesbar.
+  - Kernaussage: Nicht "diese Haltung ist immer gut", sondern "diese Haltung traegt in dieser gemessenen Lage".
+  - Grenze: Weltlagen-Leser noch grob.
+  - Naechste Pruefung: `ueberstabil_sinnesdominant` feiner trennen in echte Ruhe, synthetische Ueberstabilitaet und Sinneswiderspruch.
+
+## Befund 1299-1301 - Feintrennung ueberstabiler Weltlagen
+
+- `mini_dio/worldlage_classifier.py`
+  - Trennt die fruehere Sammelklasse `ueberstabil_sinnesdominant` feiner.
+  - Neue Unterformen: `ueberstabil_extrem_leise_scharf`, `ueberstabil_leise_scharf`, `ueberstabil_visuell_weicher`, `ueberstabil_gemischt`, `ueberstabil_mit_randreiz`.
+- `docs/befunde/1299_WELTLAGE_REZEPTORWIRKUNG_FEIN.md`
+  - Neuer Weltlagenreport mit feinerer Trennung.
+- `docs/befunde/1300_REZEPTOR_ADAPTATION_MEMORY_FEINE_WELTLAGE.md`
+  - Rezeptor-Adaptationsmemory nach feiner gemessener Weltlage.
+- `docs/befunde/1301_WELTLAGE_FEINTRENNUNG_BEWERTUNG.md`
+  - Ergebnis: `normale_weltspannung` und `offen_suchend` bleiben klar beruhigend.
+  - Ueberstabile Lagen bleiben neutral oder stabil leicht.
+  - Kernaussage: Die Rezeptorhaltung wirkt vor allem dort, wo die Weltlage offen oder normal dynamisch ist. Bereits ruhige oder ueberstabile Lagen brauchen kaum Eingriff.
+  - Naechste Pruefung: Weltlagen-Memory mit Lagefolgen statt nur Mittelwerten.
+
+## Befund 1302-1304 - Weltlagen-Folgememory
+
+- `mini_dio/worldlage_sequence_memory.py`
+  - Neue passive Memory fuer gemessene Lagefolgen.
+  - Speichert `vorherige Weltlage -> aktuelle Weltlage -> Feldfolge nach Rezeptorhaltung`.
+  - Keine Handlung, kein Gate, keine aktive Steuerung.
+- `tools/report_worldlage_sequence_memory.py`
+  - Erzeugt Blockfolgen aus Weltsequenzen.
+  - Aggregiert pro Block eine gemessene Weltlage und vergleicht A/B-Feldfolgen.
+- `docs/befunde/1302_WELTLAGEN_FOLGEMEMORY.md`
+  - Erster Standardlauf.
+  - Ruhige/stabile Folgen bleiben meist neutral.
+  - Randnahe Folgen zeigen haeufiger Beruhigung.
+- `docs/befunde/1303_WELTLAGEN_FOLGEMEMORY_MEHRWELTEN.md`
+  - Breiter Mehrweltenlauf.
+  - `normale_weltspannung -> normale_weltspannung`: `83` Vorkommen, ueberwiegend neutral.
+  - `ueberstabil_extrem_leise_scharf -> ueberstabil_extrem_leise_scharf`: `75` Vorkommen, neutral.
+  - `randlastige_sinneslage -> randlastige_sinneslage`: `25` Vorkommen, klar beruhigend.
+  - Keine verschiebenden Folgeklassen im Mehrweltenlauf.
+- `docs/befunde/1304_WELTLAGEN_FOLGEMEMORY_BEWERTUNG.md`
+  - Bewertung: Aufnahmequalitaet wird zeitlich lesbar.
+  - Kernaussage: Die Wirkung der Rezeptorhaltung haengt nicht nur von einer Lage ab, sondern von der Lagefolge.
+  - Naechste Pruefung: Stabilitaet der Lagefolgen bei anderer Blockgroesse.
+- `docs/befunde/1305_WELTLAGEN_FOLGEMEMORY_BLOCK100.md`
+  - Mehrweltenlauf mit feinerer Blockgroesse `100`.
+  - Ergebnis: Hauptfolgen bleiben sichtbar, aber die meisten Folgeklassen bleiben neutral.
+- `docs/befunde/1306_WELTLAGEN_FOLGEMEMORY_BLOCK400.md`
+  - Mehrweltenlauf mit groberer Blockgroesse `400`.
+  - Ergebnis: Hauptfolgen bleiben sichtbar; offene und normale Folgen werden haeufiger beruhigend.
+- `docs/befunde/1307_WELTLAGEN_FOLGEMEMORY_BLOCKGROESSE_BEWERTUNG.md`
+  - Bewertung: Die Lagefolge bleibt stabil, aber ihre Wirkung ist zeitlich skalenabhaengig.
+  - Kernaussage: Kurze Lagebewegung, mittlere Lagefolge und laengere Feldphase zeigen verschiedene Aspekte derselben Feldordnung.
+- `tools/report_worldlage_multiscale_sequence.py`
+  - Neue passive Mehrskalen-Auswertung fuer Weltlagen-Folgen.
+  - Vergleicht Block `100`, `200` und `400` als kurze Lagebewegung, mittlere Lagefolge und laengere Feldphase.
+- `docs/befunde/1308_WELTLAGEN_FOLGEMEMORY_MEHRSKALIG.md`
+  - Ergebnis: `32` stabil neutrale Folgen, `14` skalenabhaengige neutral/beruhigende Folgen, `9` stabil beruhigende Folgen.
+  - Kernaussage: Manche Lagefolgen sind robuste Feldzeit-Ordnungen, andere werden erst ueber Dauer beruhigend lesbar.
+
+## Befund 1309-1312 - Mehrskalige Lagefolgen und Rohweltfenster
+
+- `tools/report_worldlage_multiscale_raw_windows.py`
+  - Liest mehrskalige Lagefolgeprofile gegen konkrete Rohweltfenster zurueck.
+  - Verdichtet Bewegung, Range, Hoeren, Sicht und Felddruck pro Lagefolge und Skala.
+- `docs/befunde/1309_WELTLAGEN_MEHRSKALIG_ROHWELTFENSTER.md`
+  - Prueft skalenabhaengige neutral/beruhigende Folgen.
+  - Ergebnis: `965` Fenster, ueberwiegend gemischte Rohwelt, mit bewegungsreichen Anteilen in groberen Skalen.
+- `docs/befunde/1310_WELTLAGEN_STABIL_NEUTRAL_ROHWELTFENSTER.md`
+  - Prueft stabil neutrale Folgen.
+  - Ergebnis: im Mittel leiser, schaerfer und druckaermer.
+- `docs/befunde/1311_WELTLAGEN_STABIL_BERUHIGEND_ROHWELTFENSTER.md`
+  - Prueft stabil beruhigende Folgen.
+  - Ergebnis: deutlich bewegungsreicher, aber nicht extrem druckvoll.
+- `docs/befunde/1312_WELTLAGEN_ROHWELT_PROFILE_VERGLEICH.md`
+  - Bewertung: Stabil neutral, stabil beruhigend und skalenabhaengig unterscheiden sich in der Rohweltkopplung.
+  - Kernaussage: Gemischte Welt braucht zeitliche Tiefe; manche Feldwirkungen werden erst ueber Dauer eindeutig.
+- `tools/report_worldlage_multiscale_asset_distribution.py`
+  - Verdichtet skalenabhaengige Zwischenlagen nach Asset, Welt und Skala.
+- `docs/befunde/1313_WELTLAGEN_ZWISCHENLAGEN_ASSET_VERTEILUNG.md`
+  - Ergebnis: Zwischenlagen treten breit ueber reale Assetwelten auf; synthetische Welten sind nur schwach beteiligt.
+- `docs/befunde/1314_ZWISCHENLAGEN_ASSETFAERBUNG_BEWERTUNG.md`
+  - Bewertung: Die Zwischenlage ist keine einzelne Asset-Artefaktspur.
+  - Kernaussage: Es gibt eine gemeinsame MCM-Feldform mit assetbezogener Faerbung.
+- `tools/report_worldlage_multiscale_asset_balanced.py`
+  - Erzeugt eine balancierte Assetpruefung fuer skalenabhaengige Zwischenlagen.
+  - Nutzt gleiche Skalenquote pro reales Asset: Block `100`, `200`, `400`.
+- `docs/befunde/1315_WELTLAGEN_ZWISCHENLAGEN_ASSET_BALANCED.md`
+  - Ergebnis: alle realen Assets bleiben in `gemischte_rohwelt`.
+  - Skalenquote: `32/23/15` Fenster pro Asset fuer Block `100/200/400`.
+- `docs/befunde/1316_BALANCIERTE_ZWISCHENLAGEN_BEWERTUNG.md`
+  - Bewertung: Die Zwischenlage bleibt nach Mengen- und Skalenbalance erhalten.
+  - Kernaussage: gemeinsame Feldform, aber assetbezogene Faerbung.
+
+## Befund 1317-1318 - Passive MCM-Bedeutungsstruktur
+
+- `mini_dio/mcm_meaning_structure_memory.py`
+  - Neue passive Memory fuer zusammengesetzte MCM-Bedeutungen.
+  - Speichert Feldform, Assetfaerbung, dominante Lagefolge, Rohweltprofil, Skalenprofil und Sinnesprofil getrennt.
+  - Keine Handlung, kein Gate, keine Richtung.
+- `tools/report_mcm_meaning_structure_memory.py`
+  - Erzeugt aus der balancierten Zwischenlagenpruefung eine passive Bedeutungsstruktur.
+- `docs/befunde/1317_MCM_BEDEUTUNGSSTRUKTUR_MEMORY.md`
+  - Ergebnis: eine gemeinsame Feldform `zwischenlage_gemischte_rohwelt` mit fuenf Assetfaerbungen.
+- `docs/befunde/1318_MCM_BEDEUTUNGSSTRUKTUR_BEWERTUNG.md`
+  - Bewertung: MINI_DIO kann Feldform und Weltfaerbung getrennt halten.
+  - Kernaussage: MCM-Bedeutung wirkt wie getragene Feldform mit variabler Oberflaeche, nicht wie starres Label.
+
+## Befund 1319-1324 - Holdout-Wiedererkennung der Bedeutungsstruktur
+
+- `docs/befunde/1319_HOLDOUT_WELTLAGEN_BLOCK100.md`
+  - Holdout-Lauf mit neuen Weltfenstern bei Block `100`.
+- `docs/befunde/1319_HOLDOUT_WELTLAGEN_BLOCK200.md`
+  - Holdout-Lauf mit neuen Weltfenstern bei Block `200`.
+- `docs/befunde/1319_HOLDOUT_WELTLAGEN_BLOCK400.md`
+  - Holdout-Lauf mit neuen Weltfenstern bei Block `400`.
+- `docs/befunde/1320_HOLDOUT_WELTLAGEN_MEHRSKALIG.md`
+  - Mehrskalige Verdichtung der Holdout-Lagefolgen.
+  - Ergebnis: `17` stabil neutrale Folgen, `14` skalenabhaengige neutral/beruhigende Folgen, `5` stabil beruhigende Folgen und `1` skalenabhaengige Verschiebungsvariante.
+- `docs/befunde/1321_HOLDOUT_WELTLAGEN_ROHWELTFENSTER.md`
+  - Rohwelt-Ruecklesung der Holdout-Zwischenlagen.
+- `docs/befunde/1322_HOLDOUT_ZWISCHENLAGEN_ASSET_BALANCED.md`
+  - Balancierte Holdout-Assetstruktur.
+- `docs/befunde/1323_HOLDOUT_MCM_BEDEUTUNGSSTRUKTUR_MEMORY.md`
+  - Holdout-Bedeutungsstruktur.
+  - Ergebnis: gleiche Feldform `zwischenlage_gemischte_rohwelt`, aber veraenderte Assetfaerbungen.
+- `tools/report_mcm_meaning_structure_comparison.py`
+  - Vergleicht Basis-Bedeutungsstruktur gegen Holdout-Bedeutungsstruktur.
+- `docs/befunde/1324_MCM_BEDEUTUNGSSTRUKTUR_HOLDOUT_VERGLEICH.md`
+  - Ergebnis: `2` stabil wiedererkannt, `2` Feldform wiedererkannt mit veraenderter Faerbung, `1` neue Assetfaerbung, `1` nicht wieder aufgetreten.
+  - Kernaussage: Die Feldform bleibt wiedererkennbar, aber die Faerbung ist nicht starr.
+  - Bedeutung: MINI_DIO erfindet nicht alles neu und nagelt Bedeutung nicht fest; die Struktur bleibt passiv beweglich.
+- `tools/report_mcm_meaning_coloring_shift.py`
+  - Vergleicht Basis- und Holdout-Assetfaerbung ueber Folge, Hoeren, Sicht, Felddruck und Range.
+- `docs/befunde/1325_MCM_BEDEUTUNGSFAERBUNG_SHIFT.md`
+  - Ergebnis: BTC zeigt `hoerbarer_schmaler_folgeschift`, PAXG `druck_entlasteter_normalisierungsshift`, DOGE `oberflaeche_veraendert`, SOL `stabil`.
+  - Kernaussage: Die gemeinsame Feldform bleibt, aber Faerbung verschiebt sich ueber konkrete Rohwelt-/Sinnesmerkmale.
+
+## Befund 1326-1333 - Zweiter Holdout und Reproduktionspruefung der Faerbung
+
+- `docs/befunde/1326_SECOND_HOLDOUT_WELTLAGEN_BLOCK100.md`
+  - Zweiter Holdout-Lauf mit neuen Weltfenstern bei Block `100`.
+- `docs/befunde/1326_SECOND_HOLDOUT_WELTLAGEN_BLOCK200.md`
+  - Zweiter Holdout-Lauf mit neuen Weltfenstern bei Block `200`.
+- `docs/befunde/1326_SECOND_HOLDOUT_WELTLAGEN_BLOCK400.md`
+  - Zweiter Holdout-Lauf mit neuen Weltfenstern bei Block `400`.
+- `docs/befunde/1327_SECOND_HOLDOUT_WELTLAGEN_MEHRSKALIG.md`
+  - Ergebnis: `21` stabil neutrale Folgen, `13` skalenabhaengige neutral/beruhigende Folgen, `6` stabil beruhigende Folgen.
+  - Kernaussage: Die zweite Holdout-Gruppe bleibt mehrskaliger und ruhiger als die erste.
+- `docs/befunde/1328_SECOND_HOLDOUT_WELTLAGEN_ROHWELTFENSTER.md`
+  - Rohwelt-Ruecklesung der zweiten Holdout-Folgen.
+- `docs/befunde/1329_SECOND_HOLDOUT_ZWISCHENLAGEN_ASSET_BALANCED.md`
+  - Balancierte Assetstruktur der zweiten Holdout-Gruppe.
+  - Ergebnis: gemeinsame Rohklasse `gemischte_rohwelt`, aber unterschiedliche Assetfaerbungen ueber Folge, Range, Hoeren, Sicht und Felddruck.
+- `docs/befunde/1330_SECOND_HOLDOUT_MCM_BEDEUTUNGSSTRUKTUR_MEMORY.md`
+  - Zweite Holdout-Bedeutungsstruktur.
+  - Ergebnis: gemeinsame Feldform `zwischenlage_gemischte_rohwelt`.
+- `docs/befunde/1331_SECOND_HOLDOUT_MCM_BEDEUTUNGSSTRUKTUR_VERGLEICH.md`
+  - Ergebnis: `4` stabil wiedererkannt, `1` Feldform wiedererkannt mit veraenderter Faerbung.
+  - Kernaussage: Die gemeinsame Feldform bleibt robust; BTC veraendert die Folge, die anderen Assets bleiben stabil.
+- `docs/befunde/1332_SECOND_HOLDOUT_BEDEUTUNGSFAERBUNG_SHIFT.md`
+  - Ergebnis: BTC zeigt `folgefaerbung_veraendert`; DOGE, PAXG, SOL und XRP bleiben `stabil`.
+- `docs/befunde/1333_SHIFT_TYPEN_REPRO_BEWERTUNG.md`
+  - Bewertung: Die starken Shift-Typen aus `1325` sind noch keine global bestaetigten Klassen.
+  - Kernaussage: Stabil ist bisher vor allem die gemeinsame Feldform; Sonderfaerbungen bleiben lokale Ereignisse, bis sie in weiteren Kontrastwelten wiederkehren.
+
+## Befund 1334-1341 - Kontrast-Holdout der Shift-Typen
+
+- `docs/befunde/1334_CONTRAST_HOLDOUT_WELTLAGEN_BLOCK100.md`
+  - Kontrast-Holdout bei Block `100`.
+- `docs/befunde/1334_CONTRAST_HOLDOUT_WELTLAGEN_BLOCK200.md`
+  - Kontrast-Holdout bei Block `200`.
+- `docs/befunde/1334_CONTRAST_HOLDOUT_WELTLAGEN_BLOCK400.md`
+  - Kontrast-Holdout bei Block `400`.
+- `docs/befunde/1335_CONTRAST_HOLDOUT_WELTLAGEN_MEHRSKALIG.md`
+  - Ergebnis: `18` skalenabhaengige neutral/beruhigende Folgen, `15` stabil neutrale Folgen, `6` stabil beruhigende Folgen.
+- `docs/befunde/1336_CONTRAST_HOLDOUT_WELTLAGEN_ROHWELTFENSTER.md`
+  - Rohwelt-Ruecklesung der Kontrast-Folgen.
+- `docs/befunde/1337_CONTRAST_HOLDOUT_ZWISCHENLAGEN_ASSET_BALANCED.md`
+  - Balancierte Assetstruktur der Kontrastgruppe.
+- `docs/befunde/1338_CONTRAST_HOLDOUT_MCM_BEDEUTUNGSSTRUKTUR_MEMORY.md`
+  - Kontrast-Bedeutungsstruktur.
+- `docs/befunde/1339_CONTRAST_HOLDOUT_MCM_BEDEUTUNGSSTRUKTUR_VERGLEICH.md`
+  - Ergebnis: `3` Feldform wiedererkannt mit veraenderter Faerbung, `2` stabil wiedererkannt.
+- `docs/befunde/1340_CONTRAST_HOLDOUT_BEDEUTUNGSFAERBUNG_SHIFT.md`
+  - Ergebnis: PAXG zeigt erneut `druck_entlasteter_normalisierungsshift`, XRP `oberflaeche_veraendert`, BTC/DOGE einfache Folgefaerbung, SOL stabil.
+- `docs/befunde/1341_KONTRAST_SHIFT_TYPEN_BEWERTUNG.md`
+  - Kernaussage: Die gemeinsame Feldform bleibt stabil, Sonderfaerbungen koennen unter Kontrastwelt wiederkehren.
+  - Bedeutung: MINI_DIO zeigt keine starre Symboltabelle, sondern eine stabile Innenform mit beweglicher, weltabhaengiger Faerbung.
+- `tools/report_mcm_shift_trigger_profiles.py`
+  - Fuehrt Shift-Typen aus mehreren Holdouts auf konkrete Rohwelt- und Sinnesprofile zurueck.
+- `docs/befunde/1342_MCM_SHIFT_TRIGGERPROFILE.md`
+  - Ergebnis: `druck_entlasteter_normalisierungsshift` und `oberflaeche_veraendert` sind bisher reproduziert.
+  - Ergebnis: `hoerbarer_schmaler_folgeschift` bleibt ein einzelner starker BTC-Befund und ist noch nicht reproduziert.
+  - Kernaussage: Sonderrollen entstehen nicht beliebig, sondern an messbaren Aenderungen von Hoeren, Sicht, Felddruck und Range.
+
 Hinweis:
 
 Dateien mit `REGULATIONSQUALITAET` im Namen bleiben historische Befunddateien. Fuer den aktuellen Bauzustand gilt die fachliche Trennung: Feldbewegungs-Memory speichert gewachsene MCM-Feldwirkung; rezeptorisch-regulatorische Wahrnehmung beschreibt Aufnahmequalitaet vor dem Feld.
@@ -2429,7 +3103,7 @@ Folgende kopierte Altbereiche wurden entfernt:
 
 Grund:
 
-Diese Bereiche enthielten zu viel alten DIO-Kontext, alte Handlungsvorstellungen, alte Strategie-/Regulationssprache und lange Arbeitsverlaeufe. Fuer das neue MINI_DIO-Projekt waere das fachlich verwässernd.
+Diese Bereiche enthielten zu viel alten DIO-Kontext, alte Handlungsvorstellungen, alte Strategie-/Regulationssprache und lange Arbeitsverlaeufe. Fuer das neue MINI_DIO-Projekt waere das fachlich verwaessernd.
 
 ## Leitgrenze
 

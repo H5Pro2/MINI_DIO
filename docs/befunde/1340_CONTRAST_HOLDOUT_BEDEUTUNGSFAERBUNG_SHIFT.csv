@@ -1,0 +1,6 @@
+asset,shift_label,base_sequence,holdout_sequence,delta_auditory,delta_visual,delta_pressure,delta_range,passive_only,influences_action
+BTC,folgefaerbung_veraendert,offen_suchend->offen_suchend,normale_weltspannung->normale_weltspannung,0.02068,0.017254,0.003464,-0.033624,1,0
+DOGE,folgefaerbung_veraendert,normale_weltspannung->normale_weltspannung,offen_suchend->offen_suchend,-0.010962,-0.010657,-0.001998,-0.133502,1,0
+PAXG,druck_entlasteter_normalisierungsshift,ruhig_zentrumsnah->normale_weltspannung,normale_weltspannung->normale_weltspannung,-0.024152,0.003014,-0.007246,0.027129,1,0
+SOL,stabil,normale_weltspannung->normale_weltspannung,normale_weltspannung->normale_weltspannung,0.000126,0.000536,-2e-06,-0.003193,1,0
+XRP,oberflaeche_veraendert,normale_weltspannung->normale_weltspannung,normale_weltspannung->normale_weltspannung,-0.017393,-0.00391,-0.003054,-0.19885,1,0

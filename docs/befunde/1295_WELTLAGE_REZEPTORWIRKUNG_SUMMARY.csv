@@ -1,0 +1,6 @@
+worldlage,worlds,dominant_outcome,outcome_counts,avg_delta_zentrum,avg_delta_rand,avg_delta_rekopplung,avg_delta_strain,avg_base_zentrum,avg_base_rand,avg_base_rekopplung,avg_base_strain
+normale_weltspannung,16,beruhigend,beruhigend:16,0.007184,-0.003981,0.001,-0.001373,0.723851,0.007018,0.710544,0.150591
+offen_suchend,5,beruhigend,beruhigend:5,0.01146,-0.00372,0.001139,-0.001556,0.68448,0.00628,0.709079,0.152634
+ruhig_zentrumsnah,1,neutral,neutral:1,0.005,-0.001,0.000626,-0.000864,0.8305,0.002,0.717055,0.141289
+ueberstabil_mit_randreiz,2,stabil_leicht,stabil_leicht:1;neutral:1,0.0,-0.012111,0.000469,-0.000712,0.940801,0.023813,0.734086,0.120228
+ueberstabil_sinnesdominant,5,neutral,neutral:5,0.000786,-0.001891,0.000167,-0.000227,0.944131,0.003341,0.735087,0.118335

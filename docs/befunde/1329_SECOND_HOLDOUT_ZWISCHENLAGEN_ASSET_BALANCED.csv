@@ -1,0 +1,6 @@
+group_type,group,count,share,dominant_raw_class,raw_class_counts,dominant_sequence,sequence_count,scale_counts,avg_price_move_pct,avg_range_pct,avg_auditory,avg_visual_sharpness,avg_field_pressure,passive_only,influences_action
+asset,BTC,73,0.2,gemischte_rohwelt,gemischte_rohwelt:62;bewegungsreiche_rohwelt:10;laute_oder_druckvolle_rohwelt:1,normale_weltspannung->normale_weltspannung,15,100:39;200:20;400:14,-0.111013,0.212498,0.409472,0.648991,0.104609,1,0
+asset,DOGE,73,0.2,gemischte_rohwelt,gemischte_rohwelt:39;bewegungsreiche_rohwelt:31;laute_oder_druckvolle_rohwelt:3,normale_weltspannung->normale_weltspannung,20,100:39;200:20;400:14,0.405149,0.434093,0.436682,0.660127,0.109639,1,0
+asset,PAXG,73,0.2,gemischte_rohwelt,gemischte_rohwelt:65;laute_oder_druckvolle_rohwelt:8,ruhig_zentrumsnah->normale_weltspannung,21,100:39;200:20;400:14,-0.123977,0.078859,0.426199,0.654889,0.11076,1,0
+asset,SOL,73,0.2,gemischte_rohwelt,gemischte_rohwelt:55;bewegungsreiche_rohwelt:17;laute_oder_druckvolle_rohwelt:1,normale_weltspannung->normale_weltspannung,13,100:39;200:20;400:14,-0.185112,0.298037,0.416599,0.647485,0.105952,1,0
+asset,XRP,73,0.2,gemischte_rohwelt,gemischte_rohwelt:48;bewegungsreiche_rohwelt:25,normale_weltspannung->normale_weltspannung,24,100:39;200:20;400:14,0.888634,0.449628,0.426366,0.658634,0.107367,1,0

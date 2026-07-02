@@ -1,0 +1,6 @@
+adaptation_label,worlds,known_ticks,applied_ticks,dominant_outcome,adaptation_quality,avg_delta_zentrum,avg_delta_rand,avg_delta_rekopplung,avg_delta_strain,avg_delta_raw_field,avg_delta_auditory,avg_delta_visual,outcome_counts,passive_only,influences_action
+achsenweise_rezeptorhaltung_normale_weltspannung,16,64825,64825,beruhigend,1.0,0.007184,-0.003981,0.001,-0.001373,-0.004817,-0.005531,0.005093,beruhigend:16,1,0
+achsenweise_rezeptorhaltung_offen_suchend,5,9451,9451,beruhigend,1.0,0.01146,-0.00372,0.001139,-0.001556,-0.00544,-0.006262,0.00622,beruhigend:5,1,0
+achsenweise_rezeptorhaltung_ruhig_zentrumsnah,1,1160,1160,neutral,0.35,0.005,-0.001,0.000626,-0.000864,-0.003684,-0.004193,0.002757,neutral:1,1,0
+achsenweise_rezeptorhaltung_ueberstabil_mit_randreiz,2,11305,11305,neutral,0.525,0.0,-0.012111,0.000469,-0.000711,-0.002953,-0.002633,0.000206,neutral:1;stabil_leicht:1,1,0
+achsenweise_rezeptorhaltung_ueberstabil_sinnesdominant,5,31680,31680,neutral,0.35,0.000786,-0.001891,0.000167,-0.000227,-0.000795,-0.000843,0.000754,neutral:5,1,0

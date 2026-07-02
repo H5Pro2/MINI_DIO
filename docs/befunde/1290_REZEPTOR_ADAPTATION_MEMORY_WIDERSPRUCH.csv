@@ -1,0 +1,2 @@
+adaptation_label,worlds,known_ticks,applied_ticks,dominant_outcome,adaptation_quality,avg_delta_zentrum,avg_delta_rand,avg_delta_rekopplung,avg_delta_strain,avg_delta_raw_field,avg_delta_auditory,avg_delta_visual,outcome_counts,passive_only,influences_action
+achsenweise_rezeptorhaltung,7,42985,42985,neutral,0.4,0.000561,-0.004811,0.000253,-0.000365,-0.001411,-0.001355,0.000598,neutral:6;stabil_leicht:1,1,0

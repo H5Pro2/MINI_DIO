@@ -1,0 +1,13 @@
+source,role,segments,duration,avg_raw_field_intake,avg_auditory_loudness,avg_visual_sharpness,avg_rekopplung,avg_strain,sensory_signature
+REAL_1H_RECEPTOR,offene_variante,2744,5380,0.17059,0.290912,0.611969,0.670266,0.17503,laut_unscharf_feldmittel_offen
+REAL_1H_RECEPTOR,rekopplungsnaehe,1768,2132,0.107045,0.17765,0.662494,0.705515,0.143316,mittelton_mittelsicht_feldmittel_getragen
+REAL_1H_RECEPTOR,spannungsrand_kippnaehe,313,334,0.391136,0.685344,0.554811,0.588323,0.276854,laut_unscharf_feldstark_angespannt
+REAL_1H_RECEPTOR,zentrum_stabil,2851,8130,0.090534,0.148743,0.679021,0.721693,0.139142,leise_scharf_feldduenn_getragen
+REAL_5M_RECEPTOR,offene_variante,2912,5672,0.168778,0.286447,0.614566,0.671341,0.173679,laut_unscharf_feldmittel_offen
+REAL_5M_RECEPTOR,rekopplungsnaehe,1866,2222,0.108433,0.179471,0.664418,0.70549,0.143009,mittelton_mittelsicht_feldmittel_getragen
+REAL_5M_RECEPTOR,spannungsrand_kippnaehe,258,281,0.387651,0.67572,0.558666,0.58526,0.279633,laut_unscharf_feldstark_angespannt
+REAL_5M_RECEPTOR,zentrum_stabil,2978,7801,0.090757,0.14934,0.68576,0.721354,0.13822,leise_scharf_feldduenn_getragen
+SYNTH_SENSORY_AXES,offene_variante,693,1385,0.194704,0.335861,0.628868,0.67245,0.183162,laut_mittelsicht_feldstark_offen
+SYNTH_SENSORY_AXES,rekopplungsnaehe,592,720,0.107395,0.17343,0.663577,0.705942,0.149318,mittelton_mittelsicht_feldmittel_getragen
+SYNTH_SENSORY_AXES,spannungsrand_kippnaehe,391,395,0.486044,0.821331,0.731126,0.617937,0.282768,laut_scharf_feldstark_angespannt
+SYNTH_SENSORY_AXES,zentrum_stabil,1057,28776,0.028279,0.037405,0.828409,0.756617,0.121788,leise_scharf_feldduenn_getragen
