@@ -3328,6 +3328,14 @@ Besonders relevant fuer den aktuellen Bauplanstand:
   - Haelt `Feldbewusstsein` als Hypothesenbegriff fest.
   - Abgrenzung: kein menschliches Ich-Bewusstsein, keine Sprache, kein wissendes Selbstmodell.
   - Kernaussage: Gemeint ist ein praesprachlicher Feldvorgang, bei dem Nachhall, Naehe, Drift und Kopplung eine bekannte innere Spur in veraenderter Form erneut aktivieren.
+- `DIO_BAUPLAN/BEDEUTUNGSNETZ_MECHANIK.md`
+  - Beschreibt die passive Bedeutungsnetz-Schicht.
+  - Knoten: wiederkehrende Feldspuren aus Unterform, Feldwirkung, Preview/Familie, Rolle und Nachhall-/Rekopplungsqualitaet.
+  - Kanten: wiederkehrende Naehe/Kopplung zwischen Feldspuren, ohne Handlung, Gate oder Richtung.
+- `docs/befunde/1389_BEDEUTUNGSNETZ_AUS_WIEDERKEHR.md`
+  - Baut aus `1387` ein erstes passives MCM-Bedeutungsnetz.
+  - Ergebnis: `18` Knoten, `48` Kanten, davon `29` semantisch gebunden und `19` reine Oberflaechenkanten.
+  - Kernaussage: Semantisch gebundene Kanten sind deutlich staerker gewichtet als reine Oberflaechenkanten (`0.816355` gegen `0.416144`) und zeigen geringeren Folge-Strain sowie weniger Rekopplungsverlust.
 
 Hinweis:
 

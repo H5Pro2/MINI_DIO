@@ -1,0 +1,4 @@
+role_family,windows,avg_range_pct,avg_direction_changes,avg_tone_shift_abs,tensions,directions,name_assessment
+gerichtete_spannungsrolle,3,3.871200,47.666667,0.007985,enge_unruhige_spannung:2 | weite_unruhige_spannung:1,fallend:3,name_derzeit_plausibel
+offene_nachbarschaftsrolle,1,2.399862,0.000000,0.000909,ruhige_bis_mittlere_spannung:1,steigend:1,nicht_genug_daten
+weite_weltspannungsnaehe,9,3.493333,47.333333,0.000726,enge_unruhige_spannung:5 | weite_unruhige_spannung:2 | weite_gerichtete_spannung:1 | ruhige_bis_mittlere_spannung:1,fallend:5 | steigend:3 | seitwaerts:1,name_zu_eng_unruhe_statt_weite

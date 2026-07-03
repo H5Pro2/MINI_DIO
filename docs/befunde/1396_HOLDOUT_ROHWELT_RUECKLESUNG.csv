@@ -1,0 +1,14 @@
+world,start_tick,end_tick,nearest_role_family,nearest_node,nearest_similarity,effect,world_tension,raw_direction,raw_net_pct,raw_range_pct,raw_avg_body_pct,raw_direction_changes,tone,shift,tension
+HOLDOUT_2024_BRIDGE_TEST1,401,500,gerichtete_spannungsrolle,dio_meaning_node_b7394769,0.600000,stabil,weite_unruhige_spannung,fallend,-6.464208,8.060738,0.303948,49,0.011467,0.009385,0.110678
+HOLDOUT_2024_BRIDGE_TEST2,501,600,weite_weltspannungsnaehe,dio_meaning_node_119d9d87,0.600000,stabil,weite_unruhige_spannung,fallend,-3.400801,6.164595,0.268160,47,-0.007136,-0.000443,0.100103
+HOLDOUT_2024_BRIDGE_TEST2,601,700,weite_weltspannungsnaehe,dio_meaning_node_119d9d87,0.600000,stabil,weite_unruhige_spannung,seitwaerts,0.202106,4.265504,0.247952,46,-0.005095,0.000986,0.111139
+HOLDOUT_2024_BRIDGE_TEST2,901,994,weite_weltspannungsnaehe,dio_meaning_node_119d9d87,0.600000,stabil,weite_gerichtete_spannung,fallend,-4.216993,4.664723,0.207360,44,-0.002482,-0.000732,0.106685
+HOLDOUT_QUIET_SOL2025,101,200,weite_weltspannungsnaehe,dio_meaning_node_119d9d87,0.600000,stabil,enge_unruhige_spannung,steigend,0.925170,2.462585,0.115782,47,-0.009410,-0.000783,0.107198
+HOLDOUT_QUIET_SOL2025,601,700,weite_weltspannungsnaehe,dio_meaning_node_119d9d87,0.600000,stabil,enge_unruhige_spannung,fallend,-1.288276,3.495824,0.164045,45,-0.014245,-0.000734,0.110150
+HOLDOUT_QUIET_SOL2025,701,800,gerichtete_spannungsrolle,dio_meaning_node_b7394769,0.600000,stabil,enge_unruhige_spannung,fallend,-0.360703,1.547744,0.091487,48,0.002586,0.007006,0.106569
+HOLDOUT_QUIET_SOL2025,901,1000,weite_weltspannungsnaehe,dio_meaning_node_119d9d87,0.600000,stabil,enge_unruhige_spannung,fallend,-2.580774,3.655543,0.128574,59,-0.010922,0.000906,0.103984
+HOLDOUT_QUIET_SOL2025,1301,1400,weite_weltspannungsnaehe,dio_meaning_node_119d9d87,0.600000,stabil,enge_unruhige_spannung,steigend,0.474995,1.011061,0.062699,47,-0.006201,-0.000912,0.108556
+HOLDOUT_QUIET_SOL2025,1401,1500,weite_weltspannungsnaehe,dio_meaning_node_119d9d87,0.600000,stabil,enge_unruhige_spannung,steigend,2.384008,3.586142,0.100223,47,-0.008336,-0.000743,0.121488
+HOLDOUT_SMOOTH_CONTROL,301,400,offene_nachbarschaftsrolle,dio_meaning_node_5495a55c,0.600000,stabil,ruhige_bis_mittlere_spannung,steigend,2.308423,2.399862,0.023084,0,-0.001544,-0.000909,0.015878
+HOLDOUT_POSITIVE_EXPANSION,501,600,weite_weltspannungsnaehe,dio_meaning_node_119d9d87,0.600000,stabil,ruhige_bis_mittlere_spannung,fallend,-0.512164,2.134016,0.111822,44,-0.013497,0.000292,0.092599
+HOLDOUT_POSITIVE_EXPANSION,701,800,gerichtete_spannungsrolle,dio_meaning_node_b7394769,0.600000,stabil,enge_unruhige_spannung,fallend,-0.426621,2.005119,0.130119,46,0.003383,0.007565,0.105411
