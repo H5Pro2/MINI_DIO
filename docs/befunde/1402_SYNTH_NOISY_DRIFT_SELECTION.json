@@ -1,0 +1,35 @@
+{
+  "best": {
+    "avg_abs_return": 0.0002915765776171993,
+    "avg_range": 0.0022353027466775624,
+    "avg_volume": 160776.36052810002,
+    "direction_changes": 21.0,
+    "drift": 0.12884308628184235,
+    "end": 1000.0,
+    "max_abs_return": 0.0007586810297158157,
+    "max_drawdown": 0.07332824136571878,
+    "quiet_score": 0.2638638475027208,
+    "return_volatility": 0.00032967784953844004,
+    "start": 0.0
+  },
+  "bottom_windows": [
+    {
+      "avg_abs_return": 0.0002915765776171993,
+      "avg_range": 0.0022353027466775624,
+      "avg_volume": 160776.36052810002,
+      "direction_changes": 21.0,
+      "drift": 0.12884308628184235,
+      "end": 1000.0,
+      "max_abs_return": 0.0007586810297158157,
+      "max_drawdown": 0.07332824136571878,
+      "quiet_score": 0.2638638475027208,
+      "return_volatility": 0.00032967784953844004,
+      "start": 0.0
+    }
+  ],
+  "evaluated_windows": 1,
+  "out": "data\\synthetic_1402_noisy_drift_check_1000_5m.csv",
+  "source": "data\\synthetic_1402_noisy_drift_1000_5m.csv",
+  "step": 100,
+  "window_size": 1000
+}

@@ -12,3 +12,4 @@ HOLDOUT_QUIET_SOL2025,1401,1500,weite_weltspannungsnaehe,dio_meaning_node_119d9d
 HOLDOUT_SMOOTH_CONTROL,301,400,offene_nachbarschaftsrolle,dio_meaning_node_5495a55c,0.600000,stabil,ruhige_bis_mittlere_spannung,steigend,2.308423,2.399862,0.023084,0,-0.001544,-0.000909,0.015878
 HOLDOUT_POSITIVE_EXPANSION,501,600,weite_weltspannungsnaehe,dio_meaning_node_119d9d87,0.600000,stabil,ruhige_bis_mittlere_spannung,fallend,-0.512164,2.134016,0.111822,44,-0.013497,0.000292,0.092599
 HOLDOUT_POSITIVE_EXPANSION,701,800,gerichtete_spannungsrolle,dio_meaning_node_b7394769,0.600000,stabil,enge_unruhige_spannung,fallend,-0.426621,2.005119,0.130119,46,0.003383,0.007565,0.105411
+HOLDOUT_MEDIUM_QUIET_DRIFT,301,400,offene_nachbarschaftsrolle,dio_meaning_node_5495a55c,0.600000,stabil,ruhige_bis_mittlere_spannung,steigend,3.173365,3.248066,0.031734,0,-0.001636,-0.000801,0.012856

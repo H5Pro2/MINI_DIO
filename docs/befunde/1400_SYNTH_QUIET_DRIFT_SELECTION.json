@@ -1,0 +1,35 @@
+{
+  "best": {
+    "avg_abs_return": 0.00018526670344438674,
+    "avg_range": 0.0011851033170002141,
+    "avg_volume": 147251.30025479998,
+    "direction_changes": 5.0,
+    "drift": 0.02034142948579984,
+    "end": 1000.0,
+    "max_abs_return": 0.0004020448064491783,
+    "max_drawdown": 0.07915181821798763,
+    "quiet_score": 0.1499417388685978,
+    "return_volatility": 0.00020924058076527202,
+    "start": 0.0
+  },
+  "bottom_windows": [
+    {
+      "avg_abs_return": 0.00018526670344438674,
+      "avg_range": 0.0011851033170002141,
+      "avg_volume": 147251.30025479998,
+      "direction_changes": 5.0,
+      "drift": 0.02034142948579984,
+      "end": 1000.0,
+      "max_abs_return": 0.0004020448064491783,
+      "max_drawdown": 0.07915181821798763,
+      "quiet_score": 0.1499417388685978,
+      "return_volatility": 0.00020924058076527202,
+      "start": 0.0
+    }
+  ],
+  "evaluated_windows": 1,
+  "out": "data\\synthetic_1400_quiet_drift_check_1000_5m.csv",
+  "source": "data\\synthetic_1400_quiet_drift_1000_5m.csv",
+  "step": 100,
+  "window_size": 1000
+}

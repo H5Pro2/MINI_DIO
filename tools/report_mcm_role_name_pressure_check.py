@@ -82,6 +82,8 @@ def main() -> None:
         "`weite_weltspannungsnaehe` ist als Name wahrscheinlich zu eng.",
         "Die Rolle wird im Kontrast-Holdout auch durch enge, aber stark wechselnde Weltspannung beruehrt.",
         "Der synthetisch glatte Kontrolllauf beruehrt diese Rolle nicht stark, sondern landet bei `offene_nachbarschaftsrolle`.",
+        "Die ruhige Driftwelt bleibt ebenfalls nur schwach bei `offene_nachbarschaftsrolle` und bildet keine starke Spannungsnaehe.",
+        "Die High-Noisy-Drift beruehrt Spannungsnaehe nur schwach. Mehr Rauschen allein reicht also nicht aus, um eine starke Spannungsnaehe zu erzeugen.",
         "Fachlich genauer waere vorerst `unruhige_spannungsnaehe`: eine Feldrolle, die nicht nur grosse Range, sondern allgemein unruhige Spannungsdichte traegt.",
         "",
         "## Grenze",
@@ -91,7 +93,7 @@ def main() -> None:
         "",
         "## Wie es weitergeht",
         "",
-        "Als naechstes sollte eine ruhige Driftwelt geprueft werden. Entscheidend ist, ob ruhige gerichtete Bewegung bei `offene_nachbarschaftsrolle` bleibt oder als eigene Zwischenrolle sichtbar wird.",
+        "Als naechstes sollte eine kombinierte Stresswelt geprueft werden: groessere Range, dichtere Wechsel und staerkere Ton-/Rezeptorverdichtung gemeinsam. Entscheidend ist, ob erst die Kopplung mehrerer Belastungsqualitaeten Spannungsnaehe aktiviert.",
     ]
     OUT_MD.write_text("\n".join(lines) + "\n", encoding="utf-8")
 

@@ -15,6 +15,10 @@ EPISODE_FILES = {
     "HOLDOUT_QUIET_SOL2025": ROOT / "debug" / "1397_holdout_quiet_sol2025" / "dio_mini_lauf_2" / "episodes.csv",
     "HOLDOUT_SMOOTH_CONTROL": ROOT / "debug" / "1398_holdout_smooth_control" / "dio_mini_lauf_2" / "episodes.csv",
     "HOLDOUT_POSITIVE_EXPANSION": ROOT / "debug" / "1399_holdout_positive_expansion" / "dio_mini_lauf_2" / "episodes.csv",
+    "HOLDOUT_QUIET_DRIFT": ROOT / "debug" / "1400_holdout_quiet_drift" / "dio_mini_lauf_2" / "episodes.csv",
+    "HOLDOUT_MEDIUM_QUIET_DRIFT": ROOT / "debug" / "1401_holdout_medium_quiet_drift" / "dio_mini_lauf_2" / "episodes.csv",
+    "HOLDOUT_NOISY_DRIFT": ROOT / "debug" / "1402_holdout_noisy_drift" / "dio_mini_lauf_2" / "episodes.csv",
+    "HOLDOUT_HIGH_NOISY_DRIFT": ROOT / "debug" / "1403_holdout_high_noisy_drift" / "dio_mini_lauf_2" / "episodes.csv",
 }
 OUT_CSV = ROOT / "docs" / "befunde" / "1395_HOLDOUT_FELDROLLEN_STABILITAET.csv"
 OUT_MD = ROOT / "docs" / "befunde" / "1395_HOLDOUT_FELDROLLEN_STABILITAET.md"
@@ -198,7 +202,7 @@ def main() -> None:
         "",
         "## Wie es weitergeht",
         "",
-        "Als naechstes sollte eine ruhige Driftwelt gegen Smooth und Expansion gestellt werden. Entscheidend ist, ob ruhige Bewegung weiter bei `offene_nachbarschaftsrolle` bleibt oder langsam in Spannungsnaehe wandert.",
+        "Als naechstes sollte nicht nur mehr Rauschen geprueft werden. Entscheidend ist die Kombination aus Range, Wechselrate, Tonverdichtung und Rezeptoraufnahme: dort liegt vermutlich die Schwelle, ab der stabile Oberflaechenvarianz in echte Spannungsnaehe kippt.",
     ]
     OUT_MD.write_text("\n".join(lines) + "\n", encoding="utf-8")
 

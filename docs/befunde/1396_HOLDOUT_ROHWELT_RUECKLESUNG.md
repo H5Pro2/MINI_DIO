@@ -6,10 +6,10 @@ Diese Diagnose liest die starken Holdout-Nachbarschaften aus `1395` in die konkr
 
 ## Befund
 
-- starke Holdout-Fenster: `13`
-- Rollen: `weite_weltspannungsnaehe:9, gerichtete_spannungsrolle:3, offene_nachbarschaftsrolle:1`
-- Weltspannungen: `enge_unruhige_spannung:7, weite_unruhige_spannung:3, ruhige_bis_mittlere_spannung:2, weite_gerichtete_spannung:1`
-- Richtungen: `fallend:8, steigend:4, seitwaerts:1`
+- starke Holdout-Fenster: `14`
+- Rollen: `weite_weltspannungsnaehe:9, gerichtete_spannungsrolle:3, offene_nachbarschaftsrolle:2`
+- Weltspannungen: `enge_unruhige_spannung:7, weite_unruhige_spannung:3, ruhige_bis_mittlere_spannung:3, weite_gerichtete_spannung:1`
+- Richtungen: `fallend:8, steigend:5, seitwaerts:1`
 
 ## Fenster
 
@@ -26,6 +26,7 @@ Diese Diagnose liest die starken Holdout-Nachbarschaften aus `1395` in die konkr
 - `HOLDOUT_SMOOTH_CONTROL:301-400` -> `offene_nachbarschaftsrolle`, Spannung `ruhige_bis_mittlere_spannung`, Richtung `steigend`, Range `2.399862`, Tonshift `-0.000909`
 - `HOLDOUT_POSITIVE_EXPANSION:501-600` -> `weite_weltspannungsnaehe`, Spannung `ruhige_bis_mittlere_spannung`, Richtung `fallend`, Range `2.134016`, Tonshift `0.000292`
 - `HOLDOUT_POSITIVE_EXPANSION:701-800` -> `gerichtete_spannungsrolle`, Spannung `enge_unruhige_spannung`, Richtung `fallend`, Range `2.005119`, Tonshift `0.007565`
+- `HOLDOUT_MEDIUM_QUIET_DRIFT:301-400` -> `offene_nachbarschaftsrolle`, Spannung `ruhige_bis_mittlere_spannung`, Richtung `steigend`, Range `3.248066`, Tonshift `-0.000801`
 
 ## Lesung
 
@@ -38,4 +39,4 @@ Damit wird `weite_weltspannungsnaehe` als Name fraglich: die Rolle scheint eher 
 
 ## Wie es weitergeht
 
-Als naechstes sollte eine ruhige Driftwelt geprueft werden. Sie trennt reine Glattheit von gerichteter Expansion.
+Als naechstes sollte eine kombinierte Stresswelt geprueft werden: nicht nur Rauschen, sondern zugleich groessere Range, dichtere Wechsel und staerkere Ton-/Rezeptorverdichtung. Damit laesst sich pruefen, wann stabile Oberflaechenvarianz in Spannungsnaehe kippt.

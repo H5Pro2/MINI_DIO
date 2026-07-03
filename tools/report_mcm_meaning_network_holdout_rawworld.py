@@ -18,6 +18,10 @@ REPORTS = {
     "HOLDOUT_QUIET_SOL2025": ROOT / "debug" / "1397_holdout_quiet_sol2025" / "dio_mini_lauf_2" / "mini_report.json",
     "HOLDOUT_SMOOTH_CONTROL": ROOT / "debug" / "1398_holdout_smooth_control" / "dio_mini_lauf_2" / "mini_report.json",
     "HOLDOUT_POSITIVE_EXPANSION": ROOT / "debug" / "1399_holdout_positive_expansion" / "dio_mini_lauf_2" / "mini_report.json",
+    "HOLDOUT_QUIET_DRIFT": ROOT / "debug" / "1400_holdout_quiet_drift" / "dio_mini_lauf_2" / "mini_report.json",
+    "HOLDOUT_MEDIUM_QUIET_DRIFT": ROOT / "debug" / "1401_holdout_medium_quiet_drift" / "dio_mini_lauf_2" / "mini_report.json",
+    "HOLDOUT_NOISY_DRIFT": ROOT / "debug" / "1402_holdout_noisy_drift" / "dio_mini_lauf_2" / "mini_report.json",
+    "HOLDOUT_HIGH_NOISY_DRIFT": ROOT / "debug" / "1403_holdout_high_noisy_drift" / "dio_mini_lauf_2" / "mini_report.json",
 }
 
 
@@ -168,7 +172,7 @@ def main() -> None:
         "",
         "## Wie es weitergeht",
         "",
-        "Als naechstes sollte eine ruhige Driftwelt geprueft werden. Sie trennt reine Glattheit von gerichteter Expansion.",
+        "Als naechstes sollte eine kombinierte Stresswelt geprueft werden: nicht nur Rauschen, sondern zugleich groessere Range, dichtere Wechsel und staerkere Ton-/Rezeptorverdichtung. Damit laesst sich pruefen, wann stabile Oberflaechenvarianz in Spannungsnaehe kippt.",
     ]
     OUT_MD.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
