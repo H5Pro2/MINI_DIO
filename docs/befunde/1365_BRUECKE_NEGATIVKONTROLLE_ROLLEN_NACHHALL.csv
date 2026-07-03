@@ -1,0 +1,3 @@
+phase_role,windows,preview_pre_carry,preview_post_carry,family_pre_carry,family_post_carry,avg_during_rekopplung,avg_post_rekopplung,avg_post_rekopplung_delta,avg_during_strain,avg_post_strain,avg_post_strain_delta
+rueckbindung_in_normale_weltspannung,17,12,12,12,13,0.708256,0.706547,-0.001709,0.155069,0.156863,0.001794
+unklare_mikrophase,3,3,2,1,1,0.709965,0.713367,0.003402,0.157344,0.152432,-0.004912

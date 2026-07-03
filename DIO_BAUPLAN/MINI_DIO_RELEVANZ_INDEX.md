@@ -3088,6 +3088,246 @@ Besonders relevant fuer den aktuellen Bauplanstand:
   - Ergebnis: `druck_entlasteter_normalisierungsshift` und `oberflaeche_veraendert` sind bisher reproduziert.
   - Ergebnis: `hoerbarer_schmaler_folgeschift` bleibt ein einzelner starker BTC-Befund und ist noch nicht reproduziert.
   - Kernaussage: Sonderrollen entstehen nicht beliebig, sondern an messbaren Aenderungen von Hoeren, Sicht, Felddruck und Range.
+- `docs/befunde/1343_BTC_CANDIDATE_WELTLAGEN_BLOCK100.md`
+  - BTC-Kandidatenwelten bei Blockgroesse `100`.
+- `docs/befunde/1343_BTC_CANDIDATE_WELTLAGEN_BLOCK200.md`
+  - BTC-Kandidatenwelten bei Blockgroesse `200`.
+- `docs/befunde/1343_BTC_CANDIDATE_WELTLAGEN_BLOCK400.md`
+  - BTC-Kandidatenwelten bei Blockgroesse `400`.
+- `docs/befunde/1344_BTC_CANDIDATE_WELTLAGEN_MEHRSKALIG.md`
+  - Mehrskalige Verdichtung der BTC-Kandidatenwelten.
+- `docs/befunde/1345_BTC_CANDIDATE_WELTLAGEN_ROHWELTFENSTER.md`
+  - Rohweltfenster fuer BTC-Kandidaten.
+- `docs/befunde/1346_BTC_CANDIDATE_WELTVERTEILUNG.md`
+  - Ergebnis: BTC-Kandidaten verdichten global weiterhin zu `gemischte_rohwelt` und meist `normale_weltspannung->normale_weltspannung`.
+  - Bedeutung: Der bisher einzelne `hoerbarer_schmaler_folgeschift` wird auf ganzer Welt-/Assetebene nicht dominant reproduziert.
+- `docs/befunde/1347_HOERBARER_SCHMALER_SHIFT_KANDIDATEN.md`
+  - Ergebnis: `95` lokale Kandidatenfenster tragen das Rohprofil des `hoerbarer_schmaler_folgeschift`.
+  - Kernaussage: Der hoerbare-schmale Shift ist als Mikrofenster klar vorhanden, aber noch keine stabile ganze Weltfaerbung.
+  - Bedeutung: Die richtige Pruefebene ist hier Mikrofenster-Holdout, nicht Weltmittelung.
+- `tools/report_mcm_hoerbarer_shift_holdout.py`
+  - Prueft den hoerbaren-schmale Shift assetrelativ gegen die jeweilige Asset-Basis.
+- `docs/befunde/1348_HOERBARER_SCHMALER_SHIFT_ASSETRELATIVER_HOLDOUT.md`
+  - Ergebnis: `84` assetrelative Kandidatenfenster.
+  - Verteilung: SOL `41`, BTC `32`, DOGE `5`, XRP `4`, PAXG `2`.
+  - Kernaussage: Das Profil ist nicht BTC-exklusiv, sondern erscheint als wiederkehrende lokale Mikrophase in mehreren Assets.
+  - Grenze: Es ist weiter keine stabile ganze Weltfaerbung, sondern eine phasenabhaengige Sinnes-/Feldkonstellation.
+- `tools/report_mcm_hoerbarer_shift_multi_holdout.py`
+  - Prueft den hoerbaren-schmale Shift gegen mehrere unabhaengige Rohweltfenster-Gruppen.
+- `docs/befunde/1349_HOERBARER_SCHMALER_SHIFT_MULTI_HOLDOUT.md`
+  - Ergebnis: `299` Kandidatenfenster ueber drei Kontrollgruppen.
+  - Gruppen: CONTRAST `125`, HOLDOUT2 `102`, HOLDOUT1 `72`.
+  - Verteilung: SOL `157`, BTC `105`, DOGE `19`, XRP `13`, PAXG `5`.
+  - Kernaussage: Der Shift ist als wiederkehrendes Mikrofensterprofil bestaetigt, aber noch nicht als eigenstaendige stabile Topologierolle.
+- `tools/report_mcm_hoerbarer_shift_rawworld_loupe.py`
+  - Liest starke Mikrofenster gegen konkrete Rohweltabschnitte zurueck.
+- `docs/befunde/1350_HOERBARER_SCHMALER_SHIFT_ROHWELTLUPE.md`
+  - Ergebnis: `17` konkrete Fenster gelesen.
+  - Ergebnis: Hoeren steigt in `17/17`, Felddruck steigt in `17/17`, Range wird in `12/17` enger.
+  - Kernaussage: Die Mikrophase besitzt eine konkrete Rohweltform: weniger aeussere Ausdehnung bei staerkerer Ton-/Druckwirkung.
+  - Bedeutung: Das spricht fuer eine komprimierte Sinnesphase, noch nicht fuer eine eigenstaendige stabile Topologierolle.
+- `tools/report_mcm_hoerbarer_shift_role_reading.py`
+  - Liest die komprimierte Sinnesphase aus `1350` gegen passive Feldrollen.
+- `docs/befunde/1351_HOERBARER_SCHMALER_SHIFT_ROLLELESUNG.md`
+  - Ergebnis: `17` Fenster gelesen, davon `12` als komprimierte Sinnesphase.
+  - Rollen: Zentrumskontakt mit Hoeranstieg `5`, randnaher Kontaktdruck `5`, Brueckenuebergang zum lauten Kontakt `4`, aktivierter Zentrumskontakt `2`.
+  - Kernaussage: Die Mikrophase ist keine einzelne feste Rolle, sondern eine lokale Feldfunktion.
+  - Bedeutung: Je nach Lagefolge kann sie Bruecke, Randnaehe oder aktivierten Zentrumskontakt tragen.
+- `tools/report_mcm_hoerbarer_shift_symbol_coupling.py`
+  - Koppelt die in `1351` gefundenen Mikrofenster passiv gegen vorhandene `episodes.csv`-Laeufe.
+- `docs/befunde/1352_HOERBARER_SCHMALER_SHIFT_SYMBOLKOPPLUNG.md`
+  - Ergebnis: `17/17` Fenster wurden mit Episodenspuren gemappt.
+  - Top-Symbolfamilien: `dio_104t` `8`, `dio_0m9z` `5`, danach kleinere Familien.
+  - Top-Bedeutungszustand: `meaning_stable_inner_field` in `16/17` Fenstern.
+  - Rollenbezogen: Brueckenuebergang, Randdruck und Zentrumskontakt koppeln an unterschiedliche MCM-Preview-Symbole.
+  - Kernaussage: Die komprimierte Hoer-/Druckphase ist nicht nur Rohweltmessung, sondern taucht in Mini-DIOs eigener Syntax und MCM-Bedeutung wieder auf.
+  - Grenze: Noch fehlt eine Kontrollgruppe ohne Hoeranstieg, um Spezifitaet gegen normale Weltfenster abzugrenzen.
+- `tools/report_mcm_hoerbarer_shift_control_coupling.py`
+  - Erstellt eine Kontrollgruppe aus denselben Quellen und Fensterbreiten wie `1351`, aber ohne Hoeranstieg.
+- `docs/befunde/1353_HOERBARER_SCHMALER_SHIFT_KONTROLLKOPPLUNG.md`
+  - Ergebnis: `17/17` Kontrollfenster wurden mit Episodenspuren gemappt.
+  - Top-Symbolfamilien: `dio_104t` `8`, `dio_0l7p` `2`, `dio_0m9z` `2`, danach kleinere Familien.
+  - Top-Bedeutungszustand: `meaning_stable_inner_field` ebenfalls in `16/17` Fenstern.
+  - Kernaussage: Das reine Stabilitaetslabel ist nicht spezifisch fuer Hoeranstieg; Spezifik muss ueber Rollen-/Preview-Verschiebung gelesen werden.
+- `tools/report_mcm_hoerbarer_shift_difference_profile.py`
+  - Vergleicht `1352` und `1353` als direktes Differenzprofil.
+- `docs/befunde/1354_HOERBARER_SCHMALER_SHIFT_DIFFERENZPROFIL.md`
+  - Rekopplung: Shift `0.700793` gegen Kontrolle `0.685519`.
+  - Strain: Shift `0.157629` gegen Kontrolle `0.160042`.
+  - Sinneskopplung: Shift `0.849641` gegen Kontrolle `0.842174`.
+  - Spezifisch auffaellig: `dio_mcm_episode_14coypf`, `dio_mcm_episode_0lfde2c`, `dio_mcm_episode_0b7nep9` treten im Shift staerker auf.
+  - Kontrollnah: `dio_mcm_episode_1joiyc3` tritt in der Kontrollgruppe staerker auf.
+  - Kernaussage: Die Information liegt nicht im allgemeinen stabilen Innenfeldlabel, sondern in Preview-Symbolen, Feldrolle und lokaler Rekopplungsverschiebung.
+- `tools/report_mcm_hoerbarer_shift_temporal_carry.py`
+  - Prueft Vorfenster, Trefferfenster und Folgefenster fuer die Shiftfenster aus `1351`.
+- `docs/befunde/1355_HOERBARER_SCHMALER_SHIFT_NACHHALLSPUR.md`
+  - Ergebnis: `17` Fenster gelesen.
+  - Preview traegt aus Vorfenster in Trefferfenster: `11/17`.
+  - Preview traegt aus Trefferfenster in Folgefenster: `15/17`.
+  - Symbolfamilie traegt aus Trefferfenster in Folgefenster: `6/17`.
+  - Rekopplung Folge minus Treffer: `-0.039116`.
+  - Strain Folge minus Treffer: `-0.011221`.
+  - Kernaussage: Die Shift-Preview bleibt haeufig kurzfristig erhalten, aber die grobe Symbolfamilie weniger. Das spricht fuer Nachhall-/Uebergangsspur, nicht fuer starre Symbolkopie.
+- `tools/report_mcm_hoerbarer_shift_role_carry.py`
+  - Liest die Nachhallspur aus `1355` getrennt nach Feldrollen.
+- `docs/befunde/1356_HOERBARER_SCHMALER_SHIFT_ROLLEN_NACHHALL.md`
+  - Brueckenuebergang: Preview weiter `4/4`, Rekopplung Delta `+0.003469`, Strain Delta `-0.003952`.
+  - Zentrumskontakt mit Hoeranstieg: Preview weiter `5/5`, Rekopplung Delta `+0.000913`, Strain Delta nahezu neutral.
+  - Randnaher Kontaktdruck: Preview weiter `4/5`, aber Rekopplung Delta `-0.138072`, Strain Delta `-0.036498`.
+  - Kernaussage: Bruecke und Zentrum wirken als stabile kurze Nachhallspuren; Randdruck wirkt eher wie Entlastungs- oder Abflusskontakt.
+- `docs/befunde/1357_HOERBARER_SCHMALER_SHIFT_ERWEITERTE_ROHWELTLUPE.md`
+  - Erweiterte Stichprobe aus `1349` mit `41` gelesenen Fenstern.
+  - Ergebnis: Hoeren steigt in `38/41`, Felddruck steigt in `38/41`, Range wird in `29/41` enger.
+  - Kernaussage: Die kompakte Hoer-/Druckphase bleibt auch bei groesserer Stichprobe sichtbar.
+- `docs/befunde/1358_HOERBARER_SCHMALER_SHIFT_ERWEITERTE_ROLLELESUNG.md`
+  - Rollenverteilung: Randdruck `11`, Brueckenuebergang `10`, Zentrumskontakt mit Hoeranstieg `7`, Rueckbindung `5`, offener lauter Kontakt `4`.
+  - Kernaussage: Die Brueckenlinie ist mit `10` Fenstern ausreichend fuer eine gezieltere Nachhallpruefung.
+- `docs/befunde/1359_HOERBARER_SCHMALER_SHIFT_ERWEITERTE_NACHHALLSPUR.md`
+  - Ergebnis: `36` gemappte Fenster.
+  - Preview traegt aus Trefferfenster in Folgefenster: `28/36`.
+  - Symbolfamilie traegt aus Trefferfenster in Folgefenster: `14/36`.
+  - Rekopplung Folge minus Treffer: `-0.057703`, Strain Folge minus Treffer: `-0.014062`.
+  - Kernaussage: Preview-Nachhall bleibt haeufig erhalten; grobe Familienbindung ist schwächer.
+- `docs/befunde/1360_HOERBARER_SCHMALER_SHIFT_ERWEITERTER_ROLLEN_NACHHALL.md`
+  - Brueckenuebergang: `10` Fenster, Preview weiter `8/10`, Familienbindung weiter `4/10`.
+  - Brueckenuebergang: Rekopplung Delta `+0.001448`, Strain Delta `-0.001295`.
+  - Randnaher Kontaktdruck: Rekopplung Delta `-0.263374`, Strain Delta `-0.062453`.
+  - Zentrumskontakt mit Hoeranstieg: Preview weiter `7/7`, Rekopplung Delta `+0.001345`.
+  - Kernaussage: Bruecken- und Zentrumsrollen tragen als stabile kurze Nachhallfunktionen; Randdruck bleibt eher Entlastungs-/Abflusskontakt.
+- `tools/report_mcm_bridge_negative_control_selection.py`
+  - Waehlt Kontrollfenster mit aehnlicher Hoer-/Druckstaerke wie Brueckenfenster, aber ohne Lagefolge `->lauter_feldkontakt`.
+- `docs/befunde/1361_BRUECKE_NEGATIVKONTROLLE_AUSWAHL.md`
+  - Ergebnis: `20` Kontrollfenster.
+  - Assets: BTC `5`, SOL `14`, XRP `1`.
+  - Lagefolgen fuehren nicht in `lauter_feldkontakt`.
+  - Zweck: pruefen, ob Bruecke aus Sinnesstaerke allein entsteht oder aus Lagefolge.
+- `docs/befunde/1362_BRUECKE_NEGATIVKONTROLLE_ROHWELTLUPE.md`
+  - Ergebnis: `20` Fenster gelesen.
+  - Hoeren steigt in `16/20`, Felddruck steigt in `16/20`, Range enger in `15/20`.
+  - Kernaussage: Die Kontrollgruppe ist sensorisch stark genug, aber ohne Brueckenlagefolge.
+- `docs/befunde/1363_BRUECKE_NEGATIVKONTROLLE_ROLLELESUNG.md`
+  - Ergebnis: `0` Brueckennaehe trotz `12` kompakten Sinnesphasen.
+  - Rollen: Rueckbindung in normale Weltspannung `17`, unklare Mikrophase `3`.
+  - Kernaussage: Brueckenrolle entsteht nicht aus Hoer-/Druckstaerke allein.
+- `docs/befunde/1364_BRUECKE_NEGATIVKONTROLLE_NACHHALLSPUR.md`
+  - Ergebnis: Preview traegt weiter in `14/20`, Symbolfamilie weiter in `14/20`.
+  - Rekopplung Delta `-0.000942`, Strain Delta `+0.000788`.
+  - Kernaussage: Nachhall existiert auch in der Kontrolle, aber als andere Feldfunktion.
+- `docs/befunde/1365_BRUECKE_NEGATIVKONTROLLE_ROLLEN_NACHHALL.md`
+  - Rueckbindung in normale Weltspannung: `17` Fenster, Preview weiter `12/17`, Familienbindung weiter `13/17`.
+  - Rekopplung Delta `-0.001709`, Strain Delta `+0.001794`.
+  - Kernaussage: Die Negativkontrolle bestaetigt die Trennung: starke Sinnesaktivierung kann Nachhall tragen, aber keine Brueckenfunktion ohne passende Lagefolge.
+- `docs/befunde/1366_BRUECKENFUNKTION_PASSIVE_FELDFUNKTION.md`
+  - Verdichtet `1357` bis `1365` zu einer passiven Feldfunktionsbeschreibung.
+  - Positivprofil: Brueckenfenster `10`, Preview weiter `8/10`, Rekopplung leicht positiv, Strain leicht sinkend.
+  - Negativprofil: aehnliche Sinnesstaerke ohne `->lauter_feldkontakt` erzeugt `0` Brueckenfaelle und stattdessen Rueckbindung in normale Weltspannung.
+  - Abgrenzung: Randdruck wirkt eher als Abfluss/Entlastung; Zentrumskontakt als stabiler aktivierter Kontakt.
+  - Kernaussage: Brueckenfunktion = Lagefolge + Sinnesaktivierung + kurzer MCM-Nachhall. Reizstaerke allein reicht nicht.
+- `tools/report_mcm_center_negative_control_selection.py`
+  - Waehlt Kontrollfenster fuer Zentrumskontakt.
+  - Zwei Gegenproben: gleicher Zielkontakt ohne zentrumsnahen Ausgang und gleicher zentrumsnaher Ausgang ohne lauten Zielkontakt.
+- `docs/befunde/1367_ZENTRUM_NEGATIVKONTROLLE_AUSWAHL.md`
+  - Ergebnis: `19` Kontrollfenster.
+  - Referenz: `9` Zentrumfenster, Hoeren `0.477092`, Druck `0.118239`, Range `0.125133`.
+  - Kontrolltypen: `12` gleicher Zielkontakt ohne Zentrumsausgang, `7` gleicher Zentrumsausgang ohne lauten Zielkontakt.
+- `docs/befunde/1368_ZENTRUM_NEGATIVKONTROLLE_ROHWELTLUPE.md`
+  - Ergebnis: `19` Fenster gelesen.
+  - Hoeren steigt in `18/19`, Felddruck steigt in `18/19`, Range enger in `14/19`.
+  - Kernaussage: Die Kontrolle ist sensorisch stark genug.
+- `docs/befunde/1369_ZENTRUM_NEGATIVKONTROLLE_ROLLELESUNG.md`
+  - Ergebnis: `0` Zentrumskontakt trotz `13` kompakten Sinnesphasen.
+  - Rollen: Bruecke `7`, Rueckbindung `7`, offener lauter Uebergang `4`, lauter Kontakt bleibt offen `1`.
+  - Kernaussage: Zentrumskontakt entsteht nicht aus Hoer-/Druckstaerke allein.
+- `docs/befunde/1370_ZENTRUM_NEGATIVKONTROLLE_NACHHALLSPUR.md`
+  - Ergebnis: Preview traegt weiter in `13/19`, Symbolfamilie weiter in `15/19`.
+  - Rekopplung Delta `-0.000878`, Strain Delta `+0.000266`.
+  - Kernaussage: Nachhall existiert, aber verteilt sich auf andere Rollen.
+- `docs/befunde/1371_ZENTRUM_NEGATIVKONTROLLE_ROLLEN_NACHHALL.md`
+  - Rollen-Nachhall der Zentrumskontrollgruppe.
+  - Brueckenuebergang: `7` Fenster, Preview weiter `4/7`, Familie weiter `4/7`.
+  - Rueckbindung: `7` Fenster, Preview weiter `6/7`, Familie weiter `6/7`.
+  - Kernaussage: Die Kontrolle traegt Nachhall, aber nicht als Zentrumskontakt.
+- `docs/befunde/1372_ZENTRUMSKONTAKT_PASSIVE_FELDFUNKTION.md`
+  - Verdichtet `1360` sowie `1367` bis `1371`.
+  - Positivprofil: Zentrumskontakt mit Hoeranstieg `7`, Preview weiter `7/7`, Rekopplung leicht positiv, Strain leicht sinkend.
+  - Negativprofil: sensorisch aehnliche Kontrollfenster erzeugen `0` Zentrumskontakt.
+  - Kernaussage: Zentrumskontakt = zentrumsnahe Lagefolge + Sinnesaktivierung + stabiler MCM-Nachhall.
+- `tools/report_mcm_edge_pressure_negative_control_selection.py`
+  - Waehlt Kontrollfenster fuer randnahen Kontaktdruck.
+  - Zwei Gegenproben: fortgesetzter lauter Kontakt ohne druckvolle Rohweltklasse und druckvolle Rohweltklasse ohne fortgesetzten lauten Kontakt.
+- `docs/befunde/1373_RANDDRUCK_NEGATIVKONTROLLE_AUSWAHL.md`
+  - Ergebnis: `6` Kontrollfenster.
+  - Referenz: `11` Randdruckfenster, Hoeren `0.560215`, Druck `0.136674`, Range `0.069175`.
+  - Kontrolltypen: `4` gleicher lauter Kontakt ohne Rohwelt-Druckklasse, `2` gleiche Rohwelt-Druckklasse ohne laute Kontaktschleife.
+- `docs/befunde/1374_RANDDRUCK_NEGATIVKONTROLLE_ROLLELESUNG.md`
+  - Ergebnis: `0` Randnaehe.
+  - Rollen: offener lauter Kontakt `4`, Brueckenuebergang `2`.
+  - Kernaussage: Wenn eine Randdruck-Komponente fehlt, kippt die Lesung in andere Feldrollen.
+- `docs/befunde/1375_RANDDRUCK_NEGATIVKONTROLLE_NACHHALLSPUR.md`
+  - Ergebnis: Preview traegt weiter in `6/6`, Symbolfamilie weiter in `1/6`.
+  - Rekopplung Delta `+0.000508`, Strain Delta `+0.000624`.
+  - Kernaussage: Die Kontrolle traegt Nachhall, aber nicht als Randdruck-Entlastungsspur.
+- `docs/befunde/1376_RANDDRUCK_NEGATIVKONTROLLE_ROLLEN_NACHHALL.md`
+  - Brueckenuebergang: `2` Fenster, Preview weiter `2/2`, Familie weiter `1/2`.
+  - Offener lauter Kontakt: `4` Fenster, Preview weiter `4/4`, Familie weiter `0/4`.
+  - Kernaussage: Die Kontrollgruppe bleibt offen oder brueckenhaft; Randdruck entsteht nicht.
+- `docs/befunde/1377_RANDDRUCK_PASSIVE_FELDFUNKTION.md`
+  - Verdichtet `1360` sowie `1373` bis `1376`.
+  - Positivprofil: Randdruck `8`, Rekopplung stark fallend, Strain fallend.
+  - Negativprofil: aehnliche Teilbedingungen erzeugen `0` Randdruck.
+  - Kernaussage: Randdruck = fortgesetzter lauter Feldkontakt + druckvolle Rohweltklasse + entlastender MCM-Nachhall.
+- `docs/befunde/1378_PASSIVE_MCM_FELDFUNKTIONSKARTE.md`
+  - Fasst Bruecke, Zentrumskontakt und Randdruck als passive MCM-Feldfunktionskarte zusammen.
+  - Kernaussage: Reizstaerke allein reicht nicht; Feldfunktion entsteht aus Lagefolge, Sinnesaktivierung und MCM-Nachhall.
+  - Methodischer Wert: Weitere Welten sollen nicht fragmentiert nach Einzelkandidaten, sondern nach stabilen/driftenden Feldrollen gelesen werden.
+- `tools/report_mcm_fieldfunction_world_distribution.py`
+  - Liest die passive Feldfunktionskarte gegen die vorhandenen erweiterten Weltfenster.
+  - Zweck: pruefen, ob Bruecke, Zentrumskontakt und Randdruck nur lokale Einzelbefunde sind oder ueber mehrere Welten/Assets verteilt auftreten.
+- `docs/befunde/1379_FELDFUNKTIONSKARTE_WELTVERTEILUNG.md`
+  - Ergebnis: `30` Feldfunktionsfenster aus `41` Rollenfenstern.
+  - Bruecke: `10` Fenster ueber BTC, DOGE, SOL, XRP.
+  - Zentrumskontakt: `9` Fenster ueber DOGE, SOL, XRP.
+  - Randdruck: `11` Fenster, stark BTC-lastig, zusaetzlich PAXG und SOL.
+  - Kernaussage: Die Karte wirkt nicht wie eine reine Einzelwelt-Artefaktliste, ist aber rollenabhaengig ungleich verteilt.
+- `docs/befunde/1380_FELDFUNKTIONSKARTE_GLOBALISIERUNG_PRUEFPLAN.md`
+  - Haelt die methodische Grenze fuer die naechste Stufe fest.
+  - Kernaussage: Bekannte Rollen duerfen nicht direkt hart auf alle Episoden uebertragen werden; erst rollenneutrale Feldphasen lesen, dann Rollennaehe pruefen.
+- `tools/report_mcm_fieldfunction_global_probe.py`
+  - Liest groessere vorhandene `episodes.csv` rollenneutral in lokale Feldphasen.
+  - Nutzt relative Weltkalibrierung statt feste absolute Schwellwerte.
+  - Markiert nur passive Naehe zu Bruecke, Zentrum, Randdruck, Entlastung oder Mischrolle.
+- `docs/befunde/1381_FELDFUNKTIONSKARTE_GLOBALE_PROBE.md`
+  - Ergebnis: `340` Weltfenster.
+  - `keine_naehe`: `171`, Brueckennaehe `67`, Bruecke/Zentrum-Mischrolle `65`, Zentrumsnaehe `21`, Entlastungsnaehe `7`, Randdrucknaehe `5`.
+  - Kernaussage: Bruecke wirkt am allgemeinsten, Zentrum erscheint oft mit Uebergangsnaehe verschraenkt, Randdruck bleibt spezieller.
+- `docs/befunde/1382_FELDFUNKTIONSKARTE_ROHWELT_RUECKLESUNG.md`
+  - Liest Rollennaehe aus `1381` gegen konkrete Rohweltfenster zurueck.
+  - Staerkste Kopplung: Bruecke/Zentrum-Mischrolle + gemischte Rohwelt mit `48` Fenstern.
+  - Kernaussage: Rollennaehe entsteht nicht nur aus Lautstaerke oder Druck, sondern aus einer Kopplung von Rohweltform, Sinnesfolge und Innenfeldlage.
+- `docs/befunde/1383_BRUECKE_ZENTRUM_MISCHROLLE_ROHWELTLINIE.md`
+  - Isoliert die staerkste Linie aus `1382`.
+  - Ergebnis: `48` Fenster, `42/48` Preview-Folgecarry, Effekte durchgehend `stabil`.
+  - Kernaussage: Die Mischrolle wirkt wie ein Feldzustand, in dem Uebergang und Zentrumsnaehe gleichzeitig getragen werden; noch kein Beweis, aber ein starker Kandidat fuer eine eigene passive Feldlinie.
+- `docs/befunde/1384_FELDFUNKTIONSROLLEN_VERGLEICH.md`
+  - Vergleicht Bruecke-only, Zentrum-only und Bruecke/Zentrum-Mischrolle.
+  - Ergebnis: Bruecke `67` Fenster mit `0.865672` Folgecarry, Zentrum `21` Fenster mit `0.666667`, Mischrolle `65` Fenster mit `0.861538`.
+  - Kernaussage: Die Mischrolle ist nicht nur Zentrum plus Bruecke. Sie traegt eine eigene passive Kopplungslinie mit hoher Carry-Naehe, starker Bindung an gemischte Rohwelt und geringerer Richtungswechselquote.
+- `docs/befunde/1385_BRUECKE_ZENTRUM_MISCHROLLE_UNTERFORMEN.md`
+  - Zerlegt die staerkste Mischrolle relativ in Ton-, Sicht-, Bewegungs- und Feldkontakt-Unterformen.
+  - Ergebnis: `48` Fenster; visuell ueberwiegend stabile Form (`37/48`), aber tonal und feldkontaktlich mehrere Varianten.
+  - Kernaussage: Stabil wirkt nicht die Oberflaeche, sondern die Kopplungsfunktion. Die Rolle kann mehrere Unterformen tragen, ohne ihre passive Feldfunktion zu verlieren.
+- `docs/befunde/1386_BRUECKE_ZENTRUM_UNTERFORMEN_WIEDERKEHR.md`
+  - Prueft, ob Unterformen der Bruecke/Zentrum-Mischrolle auch ausserhalb der Referenzrolle wieder auftauchen.
+  - Ergebnis: `48` Wiederkehrfenster ausserhalb der Referenz, davon `12` starke Referenzsignaturen; vor allem in Brueckennaehe, aber auch Zentrum, Randdruck und Bruecke/Entlastung.
+  - Kernaussage: Unterformen koennen rollenuebergreifend wiederkehren. MINI_DIO liest damit nicht nur feste Namen, sondern Feldfunktionsnaehen und Oberflaechenverwandtschaften.
+- `docs/befunde/1387_UNTERFORMEN_SEMANTISCHE_WIEDERKEHR.md`
+  - Prueft, ob wiederkehrende Unterformen auch an denselben Familien- oder Preview-Kern koppeln.
+  - Ergebnis: `48` Wiederkehrfenster ausserhalb der Referenz; `29` mit semantischer Kopplung, davon `16` family, `9` preview, `4` family_and_preview.
+  - Kernaussage: Ein grosser Teil der Unterformenwiederkehr ist nicht nur sensorisch aehnlich, sondern in MINI_DIOs eigener Syntax semantisch gebunden.
+- `docs/befunde/1388_FELDBEWUSSTSEIN_ALS_MCM_FELDNATUR.md`
+  - Haelt `Feldbewusstsein` als Hypothesenbegriff fest.
+  - Abgrenzung: kein menschliches Ich-Bewusstsein, keine Sprache, kein wissendes Selbstmodell.
+  - Kernaussage: Gemeint ist ein praesprachlicher Feldvorgang, bei dem Nachhall, Naehe, Drift und Kopplung eine bekannte innere Spur in veraenderter Form erneut aktivieren.
 
 Hinweis:
 

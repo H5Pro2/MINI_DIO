@@ -1,0 +1,6 @@
+phase_role,windows,preview_pre_carry,preview_post_carry,family_pre_carry,family_post_carry,avg_during_rekopplung,avg_post_rekopplung,avg_post_rekopplung_delta,avg_during_strain,avg_post_strain,avg_post_strain_delta
+brueckenuebergang_zum_lauten_kontakt,4,4,4,3,2,0.707504,0.710973,0.003469,0.155009,0.151057,-0.003952
+lauter_kontakt_bleibt_offen,1,1,1,0,0,0.708659,0.710814,0.002155,0.150725,0.151194,0.000469
+randnaher_kontaktdruck,5,2,4,2,2,0.694182,0.556110,-0.138072,0.167970,0.131472,-0.036498
+zentrumskontakt_mit_hoeranstieg,5,3,5,2,2,0.714447,0.715359,0.000913,0.148325,0.148331,0.000006
+zentrumskontakt_wird_aktiviert,2,1,1,1,0,0.665833,0.668225,0.002393,0.163725,0.167244,0.003518

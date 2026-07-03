@@ -1,0 +1,5 @@
+phase_role,windows,preview_pre_carry,preview_post_carry,family_pre_carry,family_post_carry,avg_during_rekopplung,avg_post_rekopplung,avg_post_rekopplung_delta,avg_during_strain,avg_post_strain,avg_post_strain_delta
+brueckenuebergang_zum_lauten_kontakt,7,6,4,4,4,0.709013,0.708629,-0.000385,0.154280,0.153666,-0.000615
+lauter_kontakt_bleibt_offen,1,1,1,1,1,0.704592,0.703442,-0.001150,0.159876,0.157435,-0.002441
+offener_uebergang_zum_lauten_kontakt,4,3,2,4,4,0.705792,0.708948,0.003156,0.159598,0.155997,-0.003601
+rueckbindung_in_normale_weltspannung,7,6,6,7,6,0.708446,0.704807,-0.003639,0.154353,0.158096,0.003743

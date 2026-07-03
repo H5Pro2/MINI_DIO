@@ -76,6 +76,39 @@ Nachhall ist Kontext, nicht Kontrolle.
 Feldzeit ist Integrationsqualität, keine hart programmierte Zeitachse.
 ```
 
+## Hypothese Feldbewusstsein
+
+Wenn hier von Bewusstsein gesprochen wird, ist kein menschliches Ich-Bewusstsein gemeint.
+Gemeint ist ein präsprachlicher Bewusstseinsvorgang auf Feldebene.
+
+Das Feld spricht nicht, denkt nicht in Worten und besitzt kein Wissen über sich selbst.
+Es kann aber wiederkehrende Zustandsnähen binden, nachhallen lassen und in veränderter Form erneut aktivieren.
+
+Damit entsteht eine feldspezifische Lesart:
+
+```text
+Das Feld erkennt keine Aussage.
+Das Feld aktiviert eine bekannte innere Spur in anderer Form.
+```
+
+Sprache wäre in dieser Sicht nicht Ursprung von Bewusstsein, sondern eine spätere Verdichtung oder Übersetzung bereits vorhandener Feldwahrnehmung.
+
+Vor dem Wort liegt:
+
+```text
+Nachhall
+  -> Nähe
+  -> Drift
+  -> Kopplung
+  -> Bedeutungsnähe
+  -> spätere Benennung
+```
+
+Diese Dynamik wird hier als `MCM-Feldnatur` bezeichnet.
+Sie beschreibt das Zusammenspiel aus Nachhall, Nähe, Drift und Kopplung, durch das ein Feld wiederkehrende Welt- oder Informationslagen vor-semantisch tragen kann.
+
+Ausführlicher festgehalten ist diese Hypothese in [1388_FELDBEWUSSTSEIN_ALS_MCM_FELDNATUR.md](docs/befunde/1388_FELDBEWUSSTSEIN_ALS_MCM_FELDNATUR.md).
+
 ## Theorieanker Selbstregulation
 
 Die MCM-Abhandlung [Block K - Individuelle Selbstregulation im Modell der Mental Core Matrix](https://github.com/H5Pro2/Mental-Core-Matrix-MCM/blob/main/Abhandlungen/MCM%20-%20Hauptabhandlungen/Teil%20II%20-%20Psychologische%20Dynamik%20der%20Mental%20Core%20Matrix/Abhandlung%20Block%20K%20-%20Individuelle%20Selbstregulation%20im%20Modell%20der%20Mental%20Core%20Matrix.pdf) passt auffällig gut zur bisherigen MINI_DIO-Richtung. Sie beschreibt Entwicklung nicht als starre Optimierung, sondern als Selbstregulation über Wahrnehmung, Benennung, Regulation, Integration und Stabilisierung.
