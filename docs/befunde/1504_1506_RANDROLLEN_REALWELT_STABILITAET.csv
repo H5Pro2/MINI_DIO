@@ -1,0 +1,5 @@
+welt,data_path,welt_typ,asset,top_family,dio_1wdi_family,dio_0l7p_family,dio_14wj_family,dio_0l7p_symbol,dio_14wj_symbol,unique_symbols,stable_count,carried_unrest_count,avg_rekopplung_quality,avg_afterimage,focus_tone,observation_tone,episode_carrier,stable_ratio,carried_unrest_ratio,deutung
+1503,data/kontrolliert_sol_2025_5m_test1_2000_SOLUSDT.csv,basis,SOL,dio_104t,0,144,0,72,0,351,1503,477,0.691874,0.122426,1988,6,dio_104t,0.754263,0.238716,dio_0l7p_real_mitlaufend
+1504,data/kontrolliert_real_quiet_sol_2025_5m_2000.csv,ruhig,SOL,dio_104t,0,140,72,70,36,337,1536,437,0.693132,0.131243,1987,7,dio_104t,0.770311,0.219157,dio_0l7p_stabil_dio_14wj_zusatz
+1505,data/kontrolliert_long_sol_2025_5m_stress_4000.csv,stress,SOL,dio_104t,0,282,170,141,85,467,3150,812,0.699641,0.162519,3980,14,dio_104t,0.788683,0.203305,dio_0l7p_skaliert_mit_laengerer_stresswelt
+1506,data/kontrolliert_btc_2025_5m_test1_2000_BTCUSDT.csv,andere_assetwelt,BTC,dio_104t,0,126,72,63,36,367,1589,388,0.693158,0.135689,1984,10,dio_155c,0.796891,0.194584,dio_0l7p_assetuebergreifend_sichtbar

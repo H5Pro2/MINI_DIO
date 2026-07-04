@@ -1,0 +1,4 @@
+welt,struktur,amplitude,dominant_symbol,dominant_count,dio_0v65_count,dio_0ein_count,dio_1fll_count,dio_0jt7_count,symbole,stabil,tragend_unruhig,rekopplung,nachhall,focus_tone,observation_tone,befund
+1487_ALTBROKEN120,alternate_pulse_stutter_break,0.00120,dio_1fllaqz,170,104,161,170,112,56,1141,53,0.732514,0.540666,988,206,0v65_nicht_hauptanker
+1488_ALTBROKEN135,alternate_pulse_stutter_break,0.00135,dio_1fllaqz,174,109,155,174,108,65,1129,65,0.731083,0.533827,1015,179,0v65_nicht_hauptanker
+1489_ALTBROKEN150,alternate_pulse_stutter_break,0.00150,dio_1fllaqz,174,109,147,174,106,73,1125,69,0.729769,0.521901,1022,172,0v65_nicht_hauptanker

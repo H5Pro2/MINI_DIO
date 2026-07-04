@@ -1,0 +1,7 @@
+{
+  "id": 1496,
+  "source": "data/synthetic_1496_melody_edge_break_volume_perturb_bs13_from1492_1200_5m.csv",
+  "base_source": "data/synthetic_1492_melody_edge_break_bs13_amp120_driftctrl_1200_5m.csv",
+  "variant": "edge_break_volume_perturb",
+  "perturbation": "volume_only_1_5_percent_sine"
+}

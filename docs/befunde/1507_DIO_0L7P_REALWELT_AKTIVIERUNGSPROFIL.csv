@@ -1,0 +1,5 @@
+welt,typ,count,avg_abs_ret,avg_range,edge_share_delta,reversal_share_delta,focus_delta,observation_delta,afterimage_delta,visual_gap_delta,hearing_gap_delta,rekopplung_delta,strain_delta,stable_share,unrest_share
+1503,basis_sol,72,0.000796,0.001764,-0.0159,0.0800,0.0488,0.0769,0.1952,0.0171,-0.0724,0.0316,-0.0219,1.0000,0.0000
+1504,quiet_sol,70,0.000643,0.001395,-0.0280,0.0694,0.0471,0.0690,0.1728,0.0185,-0.0715,0.0303,-0.0219,1.0000,0.0000
+1505,stress_sol,141,0.001066,0.002518,-0.0692,0.0941,0.0413,0.0719,0.1995,0.0170,-0.0688,0.0280,-0.0191,1.0000,0.0000
+1506,btc,63,0.000381,0.000695,-0.0548,0.1194,0.0500,0.0741,0.1849,0.0217,-0.0703,0.0300,-0.0214,1.0000,0.0000

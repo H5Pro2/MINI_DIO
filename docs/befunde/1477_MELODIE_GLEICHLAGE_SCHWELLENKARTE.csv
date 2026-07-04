@@ -1,0 +1,5 @@
+bereich,amplitude_von,amplitude_bis,blockgroesse,feldlesung,dio_0ein_count,dio_1fll_count,differenz_typ,befund
+untere_randzone,0.00108,0.00111,13,dio_0ein_nah,174-175,173-174,+1_bis_+2,dio_0ein bleibt minimal vorne
+gleichlagenplateau,0.00112,0.00114,13,balance,173,173,0,dio_0ein und dio_1fll liegen gleich
+obere_kante,0.00115,0.00117,13,dio_1fll_nah,171-172,173,-1_bis_-2,dio_1fll uebernimmt minimal
+staerkere_lautstaerke,0.00120,0.00135,13,dio_1fll_dominanz,159-169,172-173,-4_bis_-13,dio_1fll wird deutlicher dominant

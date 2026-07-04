@@ -1,0 +1,7 @@
+welt,pruefung,top_symbol,top_count,dio_1wdik71,unique_symbols,avg_rekopplung_quality,avg_afterimage,focus_tone,observation_tone,deutung
+1492,referenz_randbruch_beidseitig,dio_1wdik71,220,220,56,0.727416,0.551470,734,460,referenzanker
+1496,1492_mit_volumenstoerung,dio_1wdik71,217,217,55,0.727439,0.550461,748,446,stabil_bei_enger_stoerung
+1497,1492_mit_minimaler_preisstoerung,dio_1wdik71,220,220,55,0.727448,0.551289,742,452,stabil_bei_enger_stoerung
+1493,anders_gebauter_start_randbruch,dio_0l7pvdk,179,0,64,0.719484,0.355713,1069,125,nicht_allgemeiner_randbruch
+1494,anders_gebauter_end_randbruch,dio_0l7pvdk,180,0,66,0.719440,0.350116,1085,109,nicht_allgemeiner_randbruch
+1495,anders_gebauter_beidseitiger_randbruch,dio_14wjmk5,144,0,54,0.719000,0.385335,1064,130,nicht_allgemeiner_randbruch

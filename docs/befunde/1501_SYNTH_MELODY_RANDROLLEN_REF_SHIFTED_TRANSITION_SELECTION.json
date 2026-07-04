@@ -1,0 +1,28 @@
+{
+  "id": 1501,
+  "source": "data/synthetic_1501_melody_randrollen_ref_shifted_transition_1200_5m.csv",
+  "variant": "randrollen_ref_shifted_transition",
+  "description": "edge_ref into shifted bilateral edge tension, expected role competition 1wdi versus 14wj",
+  "source_segments": [
+    [
+      "edge_ref",
+      0,
+      400
+    ],
+    [
+      "shifted",
+      400,
+      800
+    ],
+    [
+      "edge_ref",
+      800,
+      1200
+    ]
+  ],
+  "drift_after_control": 0.0008727790000000457,
+  "direction_changes": 475,
+  "avg_abs_return": 0.0006699433357301762,
+  "avg_range": 0.004370740895468476,
+  "max_drawdown": 0.13230327097388592
+}

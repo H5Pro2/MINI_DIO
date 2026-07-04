@@ -1,0 +1,28 @@
+{
+  "source_file": "data/synthetic_1492_melody_edge_break_bs13_amp120_driftctrl_1200_5m.csv",
+  "rows": 1200,
+  "base_phases": [
+    "block",
+    "wave_up",
+    "regular",
+    "wave_down",
+    "regular",
+    "block"
+  ],
+  "break_kind": "edge",
+  "break_segments": [
+    0,
+    5
+  ],
+  "block_size": 13,
+  "amplitude": 0.0012,
+  "amplitude_label": "amp120",
+  "interpolation_t": 0.5714285714285712,
+  "drift_adjustment": -8.860470141764297e-05,
+  "direction_changes": 623,
+  "avg_abs_return": 0.0008142304420113841,
+  "avg_range": 0.0046846818936024,
+  "drift": -0.0005066669115913669,
+  "max_drawdown": 0.1304209975172691,
+  "quiet_score": 0.4016599480513445
+}

@@ -1,0 +1,4 @@
+bruchtyp,beispiel_welten,dominanter_anker,anker_bedingung,nachhallbereich,rekopplungsbereich,unruhebereich,lesung
+mirror_phase_order,1478-1480,dio_0ein/dio_1fll,spiegelung_ohne_echten_bruch,0.570747-0.571776,0.732233-0.732594,55-57,gleichlagenplateau_bleibt_erhalten
+irregular_middle_break,1481-1486,dio_0v65_ab_mittlerer_lautstaerke,bruch_mit_richtungsumkehrender_mitte,0.509364-0.539627,0.728812-0.732478,73-87,bruchanker_entsteht_bei_ausreichender_lautstaerke
+pulse_stutter_break,1487-1489,dio_1fll,pulse_stutter_stoerung,0.521901-0.540666,0.729769-0.732514,53-69,bruch_bleibt_bei_dio_1fll_gebunden

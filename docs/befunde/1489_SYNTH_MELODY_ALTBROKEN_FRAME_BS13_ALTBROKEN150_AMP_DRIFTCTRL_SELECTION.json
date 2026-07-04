@@ -1,0 +1,24 @@
+{
+  "source_file": "data/synthetic_1489_melody_altbroken_frame_bs13_altbroken150_amp_driftctrl_1200_5m.csv",
+  "rows": 1200,
+  "phases": [
+    "block",
+    "pulse_break",
+    "regular",
+    "wave_down",
+    "stutter_break",
+    "block"
+  ],
+  "structure": "alternate_pulse_stutter_break",
+  "block_size": 13,
+  "amplitude": 0.0015,
+  "amplitude_label": "altbroken150",
+  "interpolation_t": 1.0,
+  "drift_adjustment": 6.072640363087257e-05,
+  "direction_changes": 439,
+  "avg_abs_return": 0.001106756562449698,
+  "avg_range": 0.004941906108451881,
+  "drift": -0.000935036796723665,
+  "max_drawdown": 0.09753007486660183,
+  "quiet_score": 0.5398320511677736
+}

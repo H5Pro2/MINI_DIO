@@ -1,0 +1,33 @@
+{
+  "id": 1502,
+  "source": "data/synthetic_1502_melody_randrollen_full_mosaic_1200_5m.csv",
+  "variant": "randrollen_full_mosaic",
+  "description": "mosaic of all known edge-role carriers",
+  "source_segments": [
+    [
+      "edge_ref",
+      0,
+      300
+    ],
+    [
+      "start",
+      300,
+      600
+    ],
+    [
+      "shifted",
+      600,
+      900
+    ],
+    [
+      "end",
+      900,
+      1200
+    ]
+  ],
+  "drift_after_control": 0.0033431870000000252,
+  "direction_changes": 418,
+  "avg_abs_return": 0.0005090014750302283,
+  "avg_range": 0.0038066699666648974,
+  "max_drawdown": 0.11979738447886924
+}

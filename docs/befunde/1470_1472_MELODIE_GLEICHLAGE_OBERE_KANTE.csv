@@ -1,0 +1,4 @@
+welt,blockgroesse,amplitude,dio_0ein_count,dio_1fll_count,differenz,dominanz,symbole,stabil,tragend_unruhig,rekopplung,nachhall,focus_tone,observation_tone
+1470_BS13_EDGE115_AMP_DRIFTCTRL,13,0.00115,172,173,-1,dio_1fll,52,1138,56,0.732185,0.570749,995,199
+1471_BS13_EDGE116_AMP_DRIFTCTRL,13,0.00116,172,173,-1,dio_1fll,52,1137,57,0.732065,0.569554,996,198
+1472_BS13_EDGE117_AMP_DRIFTCTRL,13,0.00117,171,173,-2,dio_1fll,52,1137,57,0.731945,0.567226,1000,194

@@ -1,0 +1,28 @@
+{
+  "id": 1500,
+  "source": "data/synthetic_1500_melody_randrollen_start_end_bridge_1200_5m.csv",
+  "variant": "randrollen_start_end_bridge",
+  "description": "start/end focused edge mixture, expected dio_0l7p continuity",
+  "source_segments": [
+    [
+      "start",
+      0,
+      400
+    ],
+    [
+      "end",
+      400,
+      800
+    ],
+    [
+      "start",
+      800,
+      1200
+    ]
+  ],
+  "drift_after_control": 0.002036530599999864,
+  "direction_changes": 371,
+  "avg_abs_return": 0.0004101168954683918,
+  "avg_range": 0.0032489053258199824,
+  "max_drawdown": 0.10969176402145185
+}

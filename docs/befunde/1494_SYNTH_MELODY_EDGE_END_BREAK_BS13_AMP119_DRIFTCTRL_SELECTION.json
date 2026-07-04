@@ -1,0 +1,16 @@
+{
+  "id": 1494,
+  "source": "data/synthetic_1494_melody_edge_end_break_bs13_amp119_driftctrl_1200_5m.csv",
+  "variant": "edge_end_break",
+  "break_segments": [
+    5
+  ],
+  "block_size": 13,
+  "amplitude": 0.0012,
+  "input_shift": 0.0,
+  "drift_after_control": 0.0023169004999998855,
+  "direction_changes": 371,
+  "avg_abs_return": 0.00040928828025669925,
+  "avg_range": 0.0033788792308422646,
+  "max_drawdown": 0.11025144328247238
+}

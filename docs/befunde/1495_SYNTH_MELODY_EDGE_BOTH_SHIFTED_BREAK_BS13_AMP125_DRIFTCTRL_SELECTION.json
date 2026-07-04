@@ -1,0 +1,17 @@
+{
+  "id": 1495,
+  "source": "data/synthetic_1495_melody_edge_both_shifted_break_bs13_amp125_driftctrl_1200_5m.csv",
+  "variant": "edge_both_shifted_break",
+  "break_segments": [
+    0,
+    5
+  ],
+  "block_size": 13,
+  "amplitude": 0.00125,
+  "input_shift": 3.7e-05,
+  "drift_after_control": 0.005600872299999837,
+  "direction_changes": 493,
+  "avg_abs_return": 0.0005273246147538596,
+  "avg_range": 0.0039159218082055565,
+  "max_drawdown": 0.1156058252750226
+}

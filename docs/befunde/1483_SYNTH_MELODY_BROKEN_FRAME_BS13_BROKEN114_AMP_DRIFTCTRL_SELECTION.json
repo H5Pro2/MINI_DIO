@@ -1,0 +1,24 @@
+{
+  "source_file": "data/synthetic_1483_melody_broken_frame_bs13_broken114_amp_driftctrl_1200_5m.csv",
+  "rows": 1200,
+  "phases": [
+    "block",
+    "irregular",
+    "regular",
+    "wave_down",
+    "irregular",
+    "block"
+  ],
+  "structure": "broken_irregular_middle",
+  "block_size": 13,
+  "amplitude": 0.00114,
+  "amplitude_label": "broken114",
+  "interpolation_t": 0.4857142857142856,
+  "drift_adjustment": 6.57533140651902e-05,
+  "direction_changes": 419,
+  "avg_abs_return": 0.0008712443255619126,
+  "avg_range": 0.004590580526419935,
+  "drift": -0.0005612931587074854,
+  "max_drawdown": 0.06933892236689534,
+  "quiet_score": 0.4279697374488955
+}

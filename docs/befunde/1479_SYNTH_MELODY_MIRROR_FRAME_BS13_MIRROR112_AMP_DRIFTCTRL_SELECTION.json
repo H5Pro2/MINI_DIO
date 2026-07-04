@@ -1,0 +1,23 @@
+{
+  "source_file": "data/synthetic_1479_melody_mirror_frame_bs13_mirror112_amp_driftctrl_1200_5m.csv",
+  "rows": 1200,
+  "phases": [
+    "block",
+    "wave_down",
+    "regular",
+    "wave_up",
+    "regular",
+    "block"
+  ],
+  "phase_order_source": "mirror_reordered_from_quiet_loud_reference_bs13",
+  "block_size": 13,
+  "amplitude": 0.00112,
+  "amplitude_label": "mirror112",
+  "interpolation_t": 0.45714285714285696,
+  "direction_changes": 455,
+  "avg_abs_return": 0.0008854356259746639,
+  "avg_range": 0.00434143562624799,
+  "drift": 0.0012438649297057225,
+  "max_drawdown": 0.08156940484061566,
+  "quiet_score": 0.43354789009955486
+}

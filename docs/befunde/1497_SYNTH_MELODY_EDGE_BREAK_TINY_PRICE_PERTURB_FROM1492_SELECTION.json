@@ -1,0 +1,7 @@
+{
+  "id": 1497,
+  "source": "data/synthetic_1497_melody_edge_break_tiny_price_perturb_bs13_from1492_1200_5m.csv",
+  "base_source": "data/synthetic_1492_melody_edge_break_bs13_amp120_driftctrl_1200_5m.csv",
+  "variant": "edge_break_tiny_price_perturb",
+  "perturbation": "price_wick_tiny_sine_under_0_002_percent"
+}

@@ -233,6 +233,34 @@ Wahrnehmung
   -> passive Regulation
 ```
 
+### Aktueller Zusatzbefund: Randrollen und Geschwisterrollen
+
+Die jüngsten Befunde erweitern die Topologie-Lesung um feinere Rand- und Rekopplungsrollen.
+
+Besonders wichtig sind derzeit zwei wiederkehrende Symbolfamilien:
+
+- `dio_0l7p`: fokussierte Rekopplungs- und Wechselnähe.
+- `dio_14wj`: ruhige sensorische Rekopplungsnähe mit niedriger Feldspannung.
+
+Beide Rollen bleiben in mehreren realen Welten stabil und rekoppelt, aber sie tragen unterschiedliche Feldqualitäten. `dio_0l7p` erscheint eher dort, wo lokale Wechselnähe und Nachhall stärker wirken. `dio_14wj` erscheint eher als hörnahe, spannungsarme Kopplungsrolle. In PAXG-2024 wird `dio_14wj` sogar stärker sichtbar als in SOL-Welten, ohne in Instabilität zu driften.
+
+Damit entsteht ein wichtiger Zwischenstand:
+
+```text
+Topologie ist nicht nur Zentrum / Rand.
+Innerhalb stabiler Rekopplung entstehen Unterrollen.
+Die Welt färbt die Rollen, bricht sie aber bisher nicht.
+```
+
+Ausführlicher dokumentiert ist diese Forschungsstrecke in:
+
+- [1499_MCM_RANDROLLENKARTE.md](docs/befunde/1499_MCM_RANDROLLENKARTE.md)
+- [1507_DIO_0L7P_REALWELT_AKTIVIERUNGSPROFIL.md](docs/befunde/1507_DIO_0L7P_REALWELT_AKTIVIERUNGSPROFIL.md)
+- [1508_DIO_14WJ_REALWELT_AKTIVIERUNGSPROFIL.md](docs/befunde/1508_DIO_14WJ_REALWELT_AKTIVIERUNGSPROFIL.md)
+- [1509_DIO_0L7P_DIO_14WJ_GESCHWISTERROLLEN_VERGLEICH.md](docs/befunde/1509_DIO_0L7P_DIO_14WJ_GESCHWISTERROLLEN_VERGLEICH.md)
+- [1510_SOL2024_GESCHWISTERROLLEN_REALWELT_PROFIL.md](docs/befunde/1510_SOL2024_GESCHWISTERROLLEN_REALWELT_PROFIL.md)
+- [1511_PAXG2024_GESCHWISTERROLLEN_ASSETGEGENPRUEFUNG.md](docs/befunde/1511_PAXG2024_GESCHWISTERROLLEN_ASSETGEGENPRUEFUNG.md)
+
 ## Warum Das Interessant Ist
 
 Viele technische Systeme speichern Rohdaten, berechnen Merkmale und leiten daraus eine Entscheidung ab. MINI_DIO geht bewusst anders vor.

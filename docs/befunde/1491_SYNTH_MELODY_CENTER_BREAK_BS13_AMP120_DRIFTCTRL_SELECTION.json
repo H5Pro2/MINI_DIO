@@ -1,0 +1,28 @@
+{
+  "source_file": "data/synthetic_1491_melody_center_break_bs13_amp120_driftctrl_1200_5m.csv",
+  "rows": 1200,
+  "base_phases": [
+    "block",
+    "wave_up",
+    "regular",
+    "wave_down",
+    "regular",
+    "block"
+  ],
+  "break_kind": "center",
+  "break_segments": [
+    2,
+    3
+  ],
+  "block_size": 13,
+  "amplitude": 0.0012,
+  "amplitude_label": "amp120",
+  "interpolation_t": 0.5714285714285712,
+  "drift_adjustment": -3.349132158528643e-05,
+  "direction_changes": 479,
+  "avg_abs_return": 0.0009255480045707561,
+  "avg_range": 0.004684681893602398,
+  "drift": -0.0006309428978707388,
+  "max_drawdown": 0.07452717201879198,
+  "quiet_score": 0.4538189051641638
+}
