@@ -30,6 +30,7 @@ Damit soll verhindert werden, dass jede neue Einzelfamilie isoliert betrachtet w
 | Nachhallender Randbruch | `dio_1wdi` | spezifische Randbruch-Gestalt mit hoher Nachhall- und Beobachtungsnähe | hoher Nachhall, hoher Beobachtungston, enge Störung | bisher stärker synthetisch/diagnostisch gesichert |
 | Fokussierte Rekopplungs-/Wechselnähe | `dio_0l7p` | stabile Rekopplungsrolle mit lokaler Umkehr- und Wechselnähe | hoher Fokus, niedrige Hör-Feldlücke, erhöhte Rekopplung, stable share 1.0 in Realwelten | nicht als Preisrand misslesen |
 | Ruhige sensorische Rekopplungsnähe | `dio_14wj` | ruhige, hörnahe Rekopplung mit niedriger Feldspannung | niedrige Hör-Feldlücke, niedriger Strain, stabile Treffer, in PAXG stärker gewichtet | weltabhängige Dominanz, nicht starre Bedeutung |
+| Synthetische Randdominanz-Tragung | `dio_1fll` | starke synthetische Randdominanz mit hoher Tragung und hohem Nachhall | sehr hoher Count, hoher Nachhall, sehr stabile Innenfeldwirkung, kaum Kippanteil | Rolle noch jung; gegen weitere Rand-/Bruchwelten prüfen |
 | Lokale Randdominanz | synthetische Randphasen | starke lokale Öffnung und begrenzte Rand/Kippnähe | Rand/Kipp steigt lokal, global bleibt Zentrum oft erhalten | kein globaler Kollaps, sondern phasische Last |
 | Harmonische Weltordnung | synthetische Harmonie | stark zentrumsnahe Innenfeldordnung | sehr niedrige Fragmentierung, klare Zentrumslage | Gegenprobe zu Assetwelten, nicht mit Realwelt gleichsetzen |
 
@@ -89,6 +90,7 @@ Er beschreibt den aktuellen Forschungsstand in den geprüften Welten. Die Begrif
 - [1510_SOL2024_GESCHWISTERROLLEN_REALWELT_PROFIL.md](1510_SOL2024_GESCHWISTERROLLEN_REALWELT_PROFIL.md)
 - [1511_PAXG2024_GESCHWISTERROLLEN_ASSETGEGENPRUEFUNG.md](1511_PAXG2024_GESCHWISTERROLLEN_ASSETGEGENPRUEFUNG.md)
 - [1513_DOGE2025_RANDROLLEN_STRESSGEGENPRUEFUNG.md](1513_DOGE2025_RANDROLLEN_STRESSGEGENPRUEFUNG.md)
+- [1514_SYNTH_RANDDOMINANZ_DIO14WJ_HAERTEFALL.md](1514_SYNTH_RANDDOMINANZ_DIO14WJ_HAERTEFALL.md)
 
 ## Wie es weitergeht
 

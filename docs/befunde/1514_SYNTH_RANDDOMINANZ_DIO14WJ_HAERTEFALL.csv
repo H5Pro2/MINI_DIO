@@ -1,0 +1,15 @@
+kennwert,lauf_1,lauf_2
+unique_symbols,226,226
+avg_mcm_carry_quality,0.5904,0.5906
+avg_mcm_rekopplung_quality,0.7411,0.7410
+avg_mcm_strain_quality,0.1298,0.1297
+avg_mini_afterimage,0.6477,0.6477
+inner_effect_stable_ratio,0.9314,0.9312
+inner_effect_carried_unrest_ratio,0.0679,0.0681
+inner_effect_strained_ratio,0.0001,0.0001
+inner_effect_tipping_ratio,0.0006,0.0006
+dio_0l7p_count,0,0
+dio_14wj_count,0,0
+dio_1wdi_count,0,0
+dio_1fll_count,3695,7390
+dio_1fll_top_symbol_count,3695,3695
