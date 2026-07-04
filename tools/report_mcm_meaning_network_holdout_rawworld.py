@@ -22,6 +22,16 @@ REPORTS = {
     "HOLDOUT_MEDIUM_QUIET_DRIFT": ROOT / "debug" / "1401_holdout_medium_quiet_drift" / "dio_mini_lauf_2" / "mini_report.json",
     "HOLDOUT_NOISY_DRIFT": ROOT / "debug" / "1402_holdout_noisy_drift" / "dio_mini_lauf_2" / "mini_report.json",
     "HOLDOUT_HIGH_NOISY_DRIFT": ROOT / "debug" / "1403_holdout_high_noisy_drift" / "dio_mini_lauf_2" / "mini_report.json",
+    "HOLDOUT_COMBINED_STRESS": ROOT / "debug" / "1404_holdout_combined_stress" / "dio_mini_lauf_2" / "mini_report.json",
+    "HOLDOUT_HIGH_FREQUENCY_SWITCH": ROOT / "debug" / "1405_holdout_high_frequency_switch" / "dio_mini_lauf_2" / "mini_report.json",
+    "HOLDOUT_FREQ25": ROOT / "debug" / "1406_holdout_freq25" / "dio_mini_lauf_2" / "mini_report.json",
+    "HOLDOUT_FREQ50": ROOT / "debug" / "1407_holdout_freq50" / "dio_mini_lauf_2" / "mini_report.json",
+    "HOLDOUT_FREQ75": ROOT / "debug" / "1408_holdout_freq75" / "dio_mini_lauf_2" / "mini_report.json",
+    "HOLDOUT_FREQ100": ROOT / "debug" / "1409_holdout_freq100" / "dio_mini_lauf_2" / "mini_report.json",
+    "HOLDOUT_RHYTHM_REGULAR": ROOT / "debug" / "1410_holdout_rhythm_regular" / "dio_mini_lauf_2" / "mini_report.json",
+    "HOLDOUT_RHYTHM_BLOCK": ROOT / "debug" / "1411_holdout_rhythm_block" / "dio_mini_lauf_2" / "mini_report.json",
+    "HOLDOUT_RHYTHM_IRREGULAR": ROOT / "debug" / "1412_holdout_rhythm_irregular" / "dio_mini_lauf_2" / "mini_report.json",
+    "HOLDOUT_RHYTHM_WAVE": ROOT / "debug" / "1413_holdout_rhythm_wave" / "dio_mini_lauf_2" / "mini_report.json",
 }
 
 
@@ -118,6 +128,7 @@ def main() -> None:
                 "nearest_node": row["nearest_node"],
                 "nearest_similarity": row["nearest_similarity"],
                 "effect": row["effect"],
+                "effect_mix": row.get("effect_mix", row["effect"]),
                 "world_tension": _world_tension(stats),
                 "raw_direction": str(stats["raw_direction"]),
                 "raw_net_pct": f"{float(stats['raw_net_pct']):.6f}",
@@ -157,7 +168,7 @@ def main() -> None:
         "## Fenster",
         "",
         *[
-            f"- `{row['world']}:{row['start_tick']}-{row['end_tick']}` -> `{row['nearest_role_family']}`, Spannung `{row['world_tension']}`, Richtung `{row['raw_direction']}`, Range `{row['raw_range_pct']}`, Tonshift `{row['shift']}`"
+            f"- `{row['world']}:{row['start_tick']}-{row['end_tick']}` -> `{row['nearest_role_family']}`, Spannung `{row['world_tension']}`, Richtung `{row['raw_direction']}`, Range `{row['raw_range_pct']}`, Tonshift `{row['shift']}`, Wirkung `{row['effect_mix']}`"
             for row in out_rows
         ],
         "",

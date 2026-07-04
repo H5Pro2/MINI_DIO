@@ -1,0 +1,35 @@
+{
+  "best": {
+    "avg_abs_return": 0.0006873920920370458,
+    "avg_range": 0.004622807827698469,
+    "avg_volume": 229654.9662791,
+    "direction_changes": 60.0,
+    "drift": 0.0071675467785445555,
+    "end": 1000.0,
+    "max_abs_return": 0.0014379031733856439,
+    "max_drawdown": 0.015801700002296706,
+    "quiet_score": 0.22858115693981734,
+    "return_volatility": 0.0007769038460907941,
+    "start": 0.0
+  },
+  "bottom_windows": [
+    {
+      "avg_abs_return": 0.0006873920920370458,
+      "avg_range": 0.004622807827698469,
+      "avg_volume": 229654.9662791,
+      "direction_changes": 60.0,
+      "drift": 0.0071675467785445555,
+      "end": 1000.0,
+      "max_abs_return": 0.0014379031733856439,
+      "max_drawdown": 0.015801700002296706,
+      "quiet_score": 0.22858115693981734,
+      "return_volatility": 0.0007769038460907941,
+      "start": 0.0
+    }
+  ],
+  "evaluated_windows": 1,
+  "out": "data\\synthetic_1413_rhythm_wave_check_1000_5m.csv",
+  "source": "data\\synthetic_1413_rhythm_wave_1000_5m.csv",
+  "step": 100,
+  "window_size": 1000
+}

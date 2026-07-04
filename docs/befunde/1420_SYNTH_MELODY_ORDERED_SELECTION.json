@@ -1,0 +1,22 @@
+{
+  "id": "1420",
+  "label": "melody_ordered",
+  "data_path": "data/synthetic_1420_melody_ordered_1200_5m.csv",
+  "best": {
+    "rows": 1200,
+    "phases": [
+      "rest",
+      "wave_up",
+      "block",
+      "wave_down",
+      "regular",
+      "rest"
+    ],
+    "direction_changes": 267,
+    "avg_abs_return": 0.0005787902895927271,
+    "avg_range": 0.004034790289912395,
+    "drift": 0.02605596950000006,
+    "max_drawdown": 0.06930023914493705,
+    "quiet_score": 0.7765609463064392
+  }
+}

@@ -1,0 +1,5 @@
+welt,blockgroesse,amplitude,amplitude_label,richtungswechsel,drift,quiet_score,symbole,stabil,tragend_unruhig,dominant,dominant_count,zweit_symbol,zweit_count,carry,rekopplung,strain,kopplung,nachhall,focus_tone,observation_tone
+1452_BS12_MIDLOW_AMP_DRIFTCTRL,12,0.00095,midlow,458,0.0010456781,0.370324,47,1146,48,dio_0eindxe,188,dio_1fllaqz,173,0.578592,0.733961,0.127825,0.879497,0.582416,909,285
+1453_BS13_MIDLOW_AMP_DRIFTCTRL,13,0.00095,midlow,455,0.0010456050,0.369996,46,1150,44,dio_0eindxe,186,dio_1fllaqz,173,0.578827,0.734215,0.127610,0.880114,0.584327,898,296
+1454_BS12_MIDHIGH_AMP_DRIFTCTRL,12,0.00105,midhigh,458,0.0011655087,0.407741,48,1140,54,dio_0eindxe,181,dio_1fllaqz,174,0.577095,0.732953,0.128475,0.878064,0.573465,966,228
+1455_BS13_MIDHIGH_AMP_DRIFTCTRL,13,0.00105,midhigh,455,0.0011654092,0.407380,48,1144,50,dio_0eindxe,179,dio_1fllaqz,174,0.577303,0.733182,0.128256,0.878691,0.574922,952,242

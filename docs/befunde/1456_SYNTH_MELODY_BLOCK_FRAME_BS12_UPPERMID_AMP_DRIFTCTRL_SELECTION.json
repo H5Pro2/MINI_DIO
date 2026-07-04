@@ -1,0 +1,23 @@
+{
+  "source_file": "data/synthetic_1456_melody_block_frame_bs12_uppermid_amp_driftctrl_1200_5m.csv",
+  "rows": 1200,
+  "phases": [
+    "block",
+    "wave_up",
+    "regular",
+    "wave_down",
+    "regular",
+    "block"
+  ],
+  "block_size": 12,
+  "amplitude": 0.0012,
+  "amplitude_label": "uppermid",
+  "interpolation_source": "quiet_loud_reference_same_block_size",
+  "interpolation_t": 0.5714285714285712,
+  "direction_changes": 458,
+  "avg_abs_return": 0.0009495562213983901,
+  "avg_range": 0.004405556222167774,
+  "drift": 0.0013281807523365784,
+  "max_drawdown": 0.08685747573874467,
+  "quiet_score": 0.4638679548537511
+}

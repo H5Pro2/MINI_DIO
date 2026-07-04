@@ -1,0 +1,35 @@
+{
+  "best": {
+    "avg_abs_return": 0.0013263165911487304,
+    "avg_range": 0.01162905494350955,
+    "avg_volume": 285824.6409401,
+    "direction_changes": 23.0,
+    "drift": 0.027062452674186516,
+    "end": 1000.0,
+    "max_abs_return": 0.0032135245300030607,
+    "max_drawdown": 0.4381121522586348,
+    "quiet_score": 0.9244488914510488,
+    "return_volatility": 0.0016115936056912378,
+    "start": 0.0
+  },
+  "bottom_windows": [
+    {
+      "avg_abs_return": 0.0013263165911487304,
+      "avg_range": 0.01162905494350955,
+      "avg_volume": 285824.6409401,
+      "direction_changes": 23.0,
+      "drift": 0.027062452674186516,
+      "end": 1000.0,
+      "max_abs_return": 0.0032135245300030607,
+      "max_drawdown": 0.4381121522586348,
+      "quiet_score": 0.9244488914510488,
+      "return_volatility": 0.0016115936056912378,
+      "start": 0.0
+    }
+  ],
+  "evaluated_windows": 1,
+  "out": "data\\synthetic_1404_combined_stress_check_1000_5m.csv",
+  "source": "data\\synthetic_1404_combined_stress_1000_5m.csv",
+  "step": 100,
+  "window_size": 1000
+}

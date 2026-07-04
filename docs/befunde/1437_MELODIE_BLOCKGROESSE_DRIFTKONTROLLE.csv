@@ -1,0 +1,5 @@
+label,block_size,drift,unique,stable,unrest,dominant_symbol,second_symbol,carry,rekopplung,strain,coupling,afterimage,focus,observation,top_symbols
+1435_BS4_NEGATIVE_DRIFT,4,-0.018699,53,1072,122,dio_0eindxe,dio_1fllaqz,0.566670,0.726805,0.130942,0.864521,0.456621,957,237,dio_0eindxe:212|dio_1fllaqz:171|dio_0v65ujo:160|dio_1kuey2k:68|dio_0jt7iub:58|dio_13s036n:55|dio_1uofb8f:45|dio_1wdik71:41
+1437_BS4_NEUTRAL_DRIFT,4,-0.000172,54,1078,116,dio_0eindxe,dio_1fllaqz,0.566291,0.726725,0.130621,0.864813,0.452784,958,236,dio_0eindxe:210|dio_1fllaqz:168|dio_0v65ujo:163|dio_1kuey2k:66|dio_0jt7iub:58|dio_13s036n:51|dio_1uofb8f:48|dio_1wdik71:40
+1434_BS8_NEUTRAL_DRIFT,8,-0.000464,52,1115,79,dio_0eindxe,dio_1fllaqz,0.573485,0.730320,0.130022,0.872960,0.545979,1020,174,dio_0eindxe:183|dio_1fllaqz:171|dio_0v65ujo:148|dio_13s036n:108|dio_0jt7iub:93|dio_15vu68q:40|dio_1kuey2k:33|dio_1le1nvy:31
+1436_BS16_NEUTRAL_DRIFT,16,-0.000476,49,1142,52,dio_1fllaqz,dio_0eindxe,0.577496,0.732936,0.128885,0.878344,0.584819,978,216,dio_1fllaqz:173|dio_0eindxe:171|dio_0v65ujo:141|dio_13s036n:131|dio_0jt7iub:104|dio_15vu68q:55|dio_13o0i6x:45|dio_0n0i1kn:34

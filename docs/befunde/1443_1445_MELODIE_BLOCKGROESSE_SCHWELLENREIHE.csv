@@ -1,0 +1,4 @@
+welt,blockgroesse,richtungswechsel,drift,quiet_score,symbole,stabil,tragend_unruhig,dominant,dominant_count,zweit_symbol,zweit_count,carry,rekopplung,strain,kopplung,nachhall,focus_tone,observation_tone
+1443_BS11_DRIFTCTRL,11,464,0.0000000001,0.380424,52,1137,57,dio_0eindxe,178,dio_1fllaqz,176,0.575357,0.731755,0.129185,0.876276,0.562592,1006,188
+1444_BS12_DRIFTCTRL,12,458,0.0000000000,0.388424,53,1133,61,dio_0eindxe,175,dio_1fllaqz,174,0.575627,0.731866,0.129285,0.876614,0.568198,1004,190
+1445_BS13_DRIFTCTRL,13,455,0.0000000000,0.392424,52,1137,57,dio_1fllaqz,173,dio_0eindxe,172,0.575961,0.732131,0.129039,0.877238,0.569523,995,199

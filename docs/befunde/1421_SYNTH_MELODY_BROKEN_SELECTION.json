@@ -1,0 +1,22 @@
+{
+  "id": "1421",
+  "label": "melody_broken",
+  "data_path": "data/synthetic_1421_melody_broken_1200_5m.csv",
+  "best": {
+    "rows": 1200,
+    "phases": [
+      "regular",
+      "wave_down",
+      "rest",
+      "block",
+      "wave_up",
+      "irregular"
+    ],
+    "direction_changes": 363,
+    "avg_abs_return": 0.0007475011561968801,
+    "avg_range": 0.004203501156254771,
+    "drift": 0.022070375800000052,
+    "max_drawdown": 0.07016023216028411,
+    "quiet_score": 0.7243545772308118
+  }
+}

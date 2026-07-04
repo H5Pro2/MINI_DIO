@@ -1,0 +1,18 @@
+{
+  "source_file": "data/synthetic_1432_melody_double_irregular_with_rest_1200_5m.csv",
+  "rows": 1200,
+  "phases": [
+    "rest",
+    "irregular",
+    "wave_down",
+    "irregular",
+    "regular",
+    "rest"
+  ],
+  "direction_changes": 447,
+  "avg_abs_return": 0.0006960457989194688,
+  "avg_range": 0.004151542427415493,
+  "drift": -0.059490006719381865,
+  "max_drawdown": 0.07565898091408976,
+  "quiet_score": 0.6934309854802121
+}

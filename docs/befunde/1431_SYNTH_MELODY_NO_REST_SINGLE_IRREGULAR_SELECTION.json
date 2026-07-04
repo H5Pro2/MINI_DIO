@@ -1,0 +1,18 @@
+{
+  "source_file": "data/synthetic_1431_melody_no_rest_single_irregular_1200_5m.csv",
+  "rows": 1200,
+  "phases": [
+    "block",
+    "wave_up",
+    "block",
+    "wave_down",
+    "irregular",
+    "regular"
+  ],
+  "direction_changes": 383,
+  "avg_abs_return": 0.0009096394405548858,
+  "avg_range": 0.004365916408686568,
+  "drift": 0.026239958871082148,
+  "max_drawdown": 0.07246332041700065,
+  "quiet_score": 0.709154167987234
+}

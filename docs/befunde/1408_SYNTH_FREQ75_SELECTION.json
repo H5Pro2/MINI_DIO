@@ -1,0 +1,35 @@
+{
+  "best": {
+    "avg_abs_return": 0.0011447403074527744,
+    "avg_range": 0.005464751289390867,
+    "avg_volume": 241390.5977411,
+    "direction_changes": 748.0,
+    "drift": -0.001305219197922305,
+    "end": 1000.0,
+    "max_abs_return": 0.001923169157468801,
+    "max_drawdown": 0.05284298295454548,
+    "quiet_score": 0.665805435889419,
+    "return_volatility": 0.0011920632525851732,
+    "start": 0.0
+  },
+  "bottom_windows": [
+    {
+      "avg_abs_return": 0.0011447403074527744,
+      "avg_range": 0.005464751289390867,
+      "avg_volume": 241390.5977411,
+      "direction_changes": 748.0,
+      "drift": -0.001305219197922305,
+      "end": 1000.0,
+      "max_abs_return": 0.001923169157468801,
+      "max_drawdown": 0.05284298295454548,
+      "quiet_score": 0.665805435889419,
+      "return_volatility": 0.0011920632525851732,
+      "start": 0.0
+    }
+  ],
+  "evaluated_windows": 1,
+  "out": "data\\synthetic_1408_freq75_check_1000_5m.csv",
+  "source": "data\\synthetic_1408_freq75_1000_5m.csv",
+  "step": 100,
+  "window_size": 1000
+}

@@ -1,0 +1,18 @@
+{
+  "source_file": "data/synthetic_1433_melody_block_frame_no_double_irregular_1200_5m.csv",
+  "rows": 1200,
+  "phases": [
+    "block",
+    "wave_up",
+    "regular",
+    "wave_down",
+    "regular",
+    "block"
+  ],
+  "direction_changes": 474,
+  "avg_abs_return": 0.0009012635778778826,
+  "avg_range": 0.004357547524949853,
+  "drift": 0.026251810950799034,
+  "max_drawdown": 0.07041478905081561,
+  "quiet_score": 0.36747289407839867
+}

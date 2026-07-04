@@ -1,0 +1,22 @@
+{
+  "source_file": "data/synthetic_1450_melody_block_frame_bs12_loud_amp_driftctrl_1200_5m.csv",
+  "rows": 1200,
+  "phases": [
+    "block",
+    "wave_up",
+    "regular",
+    "wave_down",
+    "regular",
+    "block"
+  ],
+  "block_size": 12,
+  "amplitude": 0.0015,
+  "amplitude_label": "loud",
+  "drift_input": -2.797727092350422e-05,
+  "direction_changes": 458,
+  "avg_abs_return": 0.0011869483106028843,
+  "avg_range": 0.004642948312368766,
+  "drift": 9.984112998298413e-11,
+  "max_drawdown": 0.10740954235600385,
+  "quiet_score": 0.4593290975996705
+}

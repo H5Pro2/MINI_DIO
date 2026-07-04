@@ -1,0 +1,18 @@
+{
+  "source_file": "data/synthetic_1430_melody_threshold_mid_1200_5m.csv",
+  "rows": 1200,
+  "phases": [
+    "rest",
+    "block",
+    "wave_down",
+    "irregular",
+    "regular",
+    "rest"
+  ],
+  "direction_changes": 361,
+  "avg_abs_return": 0.0006933296489885746,
+  "avg_range": 0.004148828539563122,
+  "drift": -0.05079383126752346,
+  "max_drawdown": 0.07071942040953458,
+  "quiet_score": 0.7298384154465156
+}

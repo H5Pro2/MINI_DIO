@@ -1,0 +1,18 @@
+{
+  "source_file": "data/synthetic_1428_melody_strongly_broken_1200_5m.csv",
+  "rows": 1200,
+  "phases": [
+    "block",
+    "irregular",
+    "regular",
+    "wave_down",
+    "irregular",
+    "block"
+  ],
+  "direction_changes": 484,
+  "avg_abs_return": 0.0010196845267663628,
+  "avg_range": 0.004475869789313673,
+  "drift": -0.050533539044506776,
+  "max_drawdown": 0.0773062098177704,
+  "quiet_score": 0.6643186165683438
+}

@@ -1,0 +1,3 @@
+welt,blockgroesse,phasenfolge,richtungswechsel,drift,quiet_score,symbole,stabil,tragend_unruhig,dominant,dominant_count,zweit_symbol,zweit_count,carry,rekopplung,strain,kopplung,nachhall,focus_tone,observation_tone
+1446_BS12_MIRROR_DRIFTCTRL,12,"block,wave_down,regular,wave_up,regular,block",456,0.0000000001,0.378335,53,1133,61,dio_0eindxe,176,dio_1fllaqz,174,0.576107,0.732058,0.129207,0.876645,0.571860,1012,182
+1447_BS13_MIRROR_DRIFTCTRL,13,"block,wave_down,regular,wave_up,regular,block",455,0.0000000000,0.378110,49,1137,57,dio_1fllaqz,174,dio_0eindxe,173,0.576746,0.732471,0.128897,0.877371,0.575547,1002,192

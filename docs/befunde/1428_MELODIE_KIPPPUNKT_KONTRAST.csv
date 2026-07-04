@@ -1,0 +1,5 @@
+label,unique,stable,unrest,dominant_symbol,dominant_family,carry,rekopplung,strain,coupling,afterimage,focus,observation,top_symbols
+ORDERED_ORIG,55,1159,35,dio_1fllaqz,-,0.583581,0.739912,0.124333,0.894058,0.624498,686,508,dio_1fllaqz:509|dio_0eindxe:94|dio_0v65ujo:78|dio_0jt7iub:73|dio_13s036n:58|dio_02n3w6a:33|dio_1492fc4:33|dio_13o0i6x:29
+ORDERED_VARIANT,59,1151,43,dio_1fllaqz,-,0.583025,0.740631,0.122323,0.896905,0.6061,691,503,dio_1fllaqz:509|dio_0jt7iub:73|dio_0eindxe:68|dio_13s036n:58|dio_0v65ujo:54|dio_02n3w6a:33|dio_1492fc4:33|dio_1wdik71:30
+REORDERED,55,1147,47,dio_1fllaqz,-,0.583858,0.741103,0.121816,0.897276,0.607947,693,501,dio_1fllaqz:499|dio_0jt7iub:71|dio_0eindxe:66|dio_13s036n:63|dio_0v65ujo:50|dio_13o0i6x:39|dio_1ba6gh7:30|dio_1wdik71:29
+STRONGLY_BROKEN,47,1102,92,dio_0eindxe,-,0.572284,0.72933,0.130062,0.8677,0.518075,1079,115,dio_0eindxe:197|dio_0v65ujo:146|dio_13s036n:102|dio_0jt7iub:93|dio_1fllaqz:84|dio_1wdik71:82|dio_1ba6gh7:80|dio_1kuey2k:51

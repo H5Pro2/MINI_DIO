@@ -1,0 +1,14 @@
+{
+  "id": "1416",
+  "label": "regular_highamp",
+  "data_path": "data/synthetic_1416_rhythm_regular_highamp_1000_5m.csv",
+  "best": {
+    "rows": 1000,
+    "direction_changes": 999,
+    "avg_abs_return": 0.00202393561295206,
+    "avg_range": 0.005959935609304091,
+    "drift": 0.0034787421999999423,
+    "max_drawdown": 0.012742292360202218,
+    "quiet_score": 0.31536819664751975
+  }
+}

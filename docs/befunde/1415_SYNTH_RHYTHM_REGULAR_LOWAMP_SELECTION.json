@@ -1,0 +1,14 @@
+{
+  "id": "1415",
+  "label": "regular_lowamp",
+  "data_path": "data/synthetic_1415_rhythm_regular_lowamp_1000_5m.csv",
+  "best": {
+    "rows": 1000,
+    "direction_changes": 999,
+    "avg_abs_return": 0.000505983899225075,
+    "avg_range": 0.0044419839027370865,
+    "drift": 0.0012673117999999306,
+    "max_drawdown": 0.0028613708524429723,
+    "quiet_score": 0.46198415061098475
+  }
+}

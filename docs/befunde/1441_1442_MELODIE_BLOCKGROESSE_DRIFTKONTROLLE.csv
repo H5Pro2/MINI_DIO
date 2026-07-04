@@ -1,0 +1,5 @@
+welt,blockgroesse,richtungswechsel,drift,max_drawdown,quiet_score,unique_symbols,stabil,tragend_unruhig,dominant_symbol,dominant_count,second_symbol,second_count,carry,rekopplung,strain,kopplung,nachhall,fokus,beobachtung
+1438_BS10_ORIGINAL,10,463,-0.018699,0.084180,0.382152,53,1127,67,dio_0eindxe,178,dio_1fllaqz,171,0.574855,0.731283,0.129639,0.875252,0.562161,1017,177
+1441_BS10_DRIFTCTRL,10,463,-0.000016,0.074686,0.381758,53,1135,59,dio_0eindxe,179,dio_1fllaqz,174,0.574543,0.731305,0.129184,0.875611,0.553188,1021,173
+1440_BS14_ORIGINAL,14,454,-0.009630,0.083787,0.394162,53,1139,55,dio_0eindxe,173,dio_1fllaqz,173,0.576394,0.732420,0.128969,0.877734,0.574251,999,195
+1442_BS14_DRIFTCTRL,14,456,-0.000057,0.079460,0.391091,52,1141,53,dio_1fllaqz,176,dio_0eindxe,173,0.576781,0.732613,0.128915,0.877878,0.576467,997,197

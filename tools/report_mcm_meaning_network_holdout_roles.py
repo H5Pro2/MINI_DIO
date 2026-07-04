@@ -19,6 +19,16 @@ EPISODE_FILES = {
     "HOLDOUT_MEDIUM_QUIET_DRIFT": ROOT / "debug" / "1401_holdout_medium_quiet_drift" / "dio_mini_lauf_2" / "episodes.csv",
     "HOLDOUT_NOISY_DRIFT": ROOT / "debug" / "1402_holdout_noisy_drift" / "dio_mini_lauf_2" / "episodes.csv",
     "HOLDOUT_HIGH_NOISY_DRIFT": ROOT / "debug" / "1403_holdout_high_noisy_drift" / "dio_mini_lauf_2" / "episodes.csv",
+    "HOLDOUT_COMBINED_STRESS": ROOT / "debug" / "1404_holdout_combined_stress" / "dio_mini_lauf_2" / "episodes.csv",
+    "HOLDOUT_HIGH_FREQUENCY_SWITCH": ROOT / "debug" / "1405_holdout_high_frequency_switch" / "dio_mini_lauf_2" / "episodes.csv",
+    "HOLDOUT_FREQ25": ROOT / "debug" / "1406_holdout_freq25" / "dio_mini_lauf_2" / "episodes.csv",
+    "HOLDOUT_FREQ50": ROOT / "debug" / "1407_holdout_freq50" / "dio_mini_lauf_2" / "episodes.csv",
+    "HOLDOUT_FREQ75": ROOT / "debug" / "1408_holdout_freq75" / "dio_mini_lauf_2" / "episodes.csv",
+    "HOLDOUT_FREQ100": ROOT / "debug" / "1409_holdout_freq100" / "dio_mini_lauf_2" / "episodes.csv",
+    "HOLDOUT_RHYTHM_REGULAR": ROOT / "debug" / "1410_holdout_rhythm_regular" / "dio_mini_lauf_2" / "episodes.csv",
+    "HOLDOUT_RHYTHM_BLOCK": ROOT / "debug" / "1411_holdout_rhythm_block" / "dio_mini_lauf_2" / "episodes.csv",
+    "HOLDOUT_RHYTHM_IRREGULAR": ROOT / "debug" / "1412_holdout_rhythm_irregular" / "dio_mini_lauf_2" / "episodes.csv",
+    "HOLDOUT_RHYTHM_WAVE": ROOT / "debug" / "1413_holdout_rhythm_wave" / "dio_mini_lauf_2" / "episodes.csv",
 }
 OUT_CSV = ROOT / "docs" / "befunde" / "1395_HOLDOUT_FELDROLLEN_STABILITAET.csv"
 OUT_MD = ROOT / "docs" / "befunde" / "1395_HOLDOUT_FELDROLLEN_STABILITAET.md"
@@ -85,6 +95,7 @@ def _windows(world: str, rows: list[dict[str, str]]) -> list[dict[str, float | s
         chunk = rows[start : start + WINDOW]
         if not chunk:
             continue
+        effect_counts = Counter(row.get("passive_mcm_effect_class", "") for row in chunk)
         out.append(
             {
                 "world": world,
@@ -98,7 +109,8 @@ def _windows(world: str, rows: list[dict[str, str]]) -> list[dict[str, float | s
                 "carry": mean(_float(row, "mcm_carry_quality") for row in chunk),
                 "strain": mean(_float(row, "mcm_strain_quality") for row in chunk),
                 "rekopplung": mean(_float(row, "mcm_rekopplung_quality") for row in chunk),
-                "effect": Counter(row.get("passive_mcm_effect_class", "") for row in chunk).most_common(1)[0][0],
+                "effect": effect_counts.most_common(1)[0][0],
+                "effect_mix": "|".join(f"{key}:{value}" for key, value in effect_counts.most_common() if key),
                 "family": Counter(row.get("symbol_family", "") for row in chunk).most_common(1)[0][0],
             }
         )
@@ -146,6 +158,7 @@ def main() -> None:
                     "nearest_role_family": role,
                     "nearest_similarity": f"{nearest_similarity:.6f}",
                     "effect": str(win["effect"]),
+                    "effect_mix": str(win["effect_mix"]),
                     "family": str(win["family"]),
                     "carry": f"{float(win['carry']):.6f}",
                     "strain": f"{float(win['strain']):.6f}",
@@ -169,7 +182,7 @@ def main() -> None:
     effect_counts = Counter(row["effect"] for row in out_rows)
     world_counts = Counter(f"{row['world']}:{row['holdout_state']}" for row in out_rows)
     strong_lines = [
-            f"- `{row['world']}:{row['start_tick']}-{row['end_tick']}` -> `{row['nearest_role_family']}` / `{row['holdout_state']}` / Naehe `{row['nearest_similarity']}` / Wirkung `{row['effect']}`"
+            f"- `{row['world']}:{row['start_tick']}-{row['end_tick']}` -> `{row['nearest_role_family']}` / `{row['holdout_state']}` / Naehe `{row['nearest_similarity']}` / Wirkung `{row['effect']}` / Mix `{row['effect_mix']}`"
         for row in out_rows
         if row["holdout_state"] in {"rolle_exakt_wiedergefunden", "rolle_als_nachbarschaft"}
     ]

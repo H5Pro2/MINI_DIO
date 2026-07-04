@@ -1,0 +1,19 @@
+{
+  "source_file": "data/synthetic_1434_melody_block_frame_neutral_drift_1200_5m.csv",
+  "rows": 1200,
+  "phases": [
+    "block",
+    "wave_up",
+    "regular",
+    "wave_down",
+    "regular",
+    "block"
+  ],
+  "drift_input": -2.2e-05,
+  "direction_changes": 474,
+  "avg_abs_return": 0.0009005114600841017,
+  "avg_range": 0.004356777698130539,
+  "drift": -0.00046447863606393085,
+  "max_drawdown": 0.0836796930447622,
+  "quiet_score": 0.36747289407839867
+}

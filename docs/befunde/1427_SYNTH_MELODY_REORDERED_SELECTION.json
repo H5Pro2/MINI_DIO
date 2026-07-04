@@ -1,0 +1,18 @@
+{
+  "source_file": "data/synthetic_1427_melody_reordered_1200_5m.csv",
+  "rows": 1200,
+  "phases": [
+    "rest",
+    "block",
+    "wave_down",
+    "irregular",
+    "wave_up",
+    "rest"
+  ],
+  "direction_changes": 173,
+  "avg_abs_return": 0.0005758391768425396,
+  "avg_range": 0.004031435976077373,
+  "drift": 0.025971546717701945,
+  "max_drawdown": 0.07071942040953458,
+  "quiet_score": 0.8321194206367802
+}

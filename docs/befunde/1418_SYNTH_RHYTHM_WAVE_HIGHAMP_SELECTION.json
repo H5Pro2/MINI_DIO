@@ -1,0 +1,14 @@
+{
+  "id": "1418",
+  "label": "wave_highamp",
+  "data_path": "data/synthetic_1418_rhythm_wave_highamp_1000_5m.csv",
+  "best": {
+    "rows": 1000,
+    "direction_changes": 60,
+    "avg_abs_return": 0.0013139599475173777,
+    "avg_range": 0.005249959946639331,
+    "drift": 0.013490431299999984,
+    "max_drawdown": 0.030239026257232494,
+    "quiet_score": 0.7958571980848487
+  }
+}
