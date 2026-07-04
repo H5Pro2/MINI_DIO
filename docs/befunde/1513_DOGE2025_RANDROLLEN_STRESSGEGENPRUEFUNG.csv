@@ -1,0 +1,14 @@
+kennwert,lauf_1,lauf_2
+unique_symbols,673,673
+avg_mcm_carry_quality,0.5368,0.5372
+avg_mcm_rekopplung_quality,0.7052,0.7048
+avg_mcm_strain_quality,0.1529,0.1526
+avg_mcm_sensory_coupling,0.8422,0.8418
+inner_effect_stable_ratio,0.8018,0.8012
+inner_effect_carried_unrest_ratio,0.1915,0.1921
+inner_effect_strained_ratio,0.0007,0.0006
+inner_effect_tipping_ratio,0.0060,0.0061
+dio_0l7p_count,394,788
+dio_14wj_count,243,486
+dio_0l7pvdk_top_symbol_count,394,394
+dio_14wjmk5_top_symbol_count,243,243
