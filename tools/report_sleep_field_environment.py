@@ -41,7 +41,14 @@ def _sleep_state(afterimage_abs: float, signature_abs: float, active_count: int)
     return "sleep_resonance"
 
 
-def run_environment(memory_path: Path, ticks: int, intensity: float, role_limit: int, max_active_roles: int) -> tuple[dict, list[dict]]:
+def run_environment(
+    memory_path: Path,
+    ticks: int,
+    intensity: float,
+    role_limit: int,
+    max_active_roles: int,
+    activation_floor: float,
+) -> tuple[dict, list[dict]]:
     roles = load_mcm_episode_roles(memory_path, limit=role_limit)
     field = MiniMCMField(neuron_count=getattr(Config, "DIO_MINI_MCM_NEURON_COUNT", 12))
     rows: list[dict] = []
@@ -56,6 +63,7 @@ def run_environment(memory_path: Path, ticks: int, intensity: float, role_limit:
             tick=tick,
             intensity=intensity,
             max_active_roles=max_active_roles,
+            activation_floor=activation_floor,
         )
         field_state = field.step(senses)
         signature = float(field_state["signature"])
@@ -89,11 +97,14 @@ def run_environment(memory_path: Path, ticks: int, intensity: float, role_limit:
         "intensity": float(intensity),
         "role_limit": int(role_limit),
         "max_active_roles": int(max_active_roles),
+        "activation_floor": float(activation_floor),
         "sleep_unique_symbols": len(symbol_counter),
         "sleep_top_symbol": symbol_counter.most_common(1)[0][0] if symbol_counter else "-",
         "sleep_top_symbol_count": symbol_counter.most_common(1)[0][1] if symbol_counter else 0,
         "state_counts": dict(state_counter),
         "top_active_roles": dict(role_counter.most_common(8)),
+        "active_role_set_count": len(Counter(row["active_roles"] for row in rows)),
+        "avg_active_role_count": _mean([float(row["active_role_count"]) for row in rows]),
         "avg_afterimage_abs": _mean([float(row["afterimage_abs"]) for row in rows]),
         "final_afterimage_abs": float(rows[-1]["afterimage_abs"]) if rows else 0.0,
         "avg_signature_abs": _mean([abs(float(row["signature"])) for row in rows]),
@@ -109,6 +120,7 @@ def main() -> int:
     parser.add_argument("--intensity", type=float, default=0.42)
     parser.add_argument("--role-limit", type=int, default=24)
     parser.add_argument("--max-active-roles", type=int, default=5)
+    parser.add_argument("--activation-floor", type=float, default=0.82)
     parser.add_argument("--out-dir", default="debug/sleep_field_environment")
     args = parser.parse_args()
 
@@ -124,6 +136,7 @@ def main() -> int:
         intensity=args.intensity,
         role_limit=args.role_limit,
         max_active_roles=args.max_active_roles,
+        activation_floor=args.activation_floor,
     )
     (out_dir / "sleep_field_environment_summary.json").write_text(
         json.dumps(summary, indent=2, ensure_ascii=False),

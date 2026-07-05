@@ -248,6 +248,11 @@ Die bisherigen Ergebnisse lassen sich so einordnen:
 
   Siehe dazu [1536 Sleep Binding Follow-up Prüfung](docs/befunde/1536_SLEEP_BINDING_FOLLOWUP_PRUEFUNG.md).
 
+- **Phasische Episodenresonanz**
+  Das Sleep-Environment kann Episodenrollen jetzt phasisch unterschiedlich aktivieren, ohne eine feste Sequenz zu erzwingen. SOL 2024 bildete 4 aktive Rollensets, Stress 2023 dagegen 25. Das Sleep-Symbol blieb `dio_019bn1b`; es wurde weiterhin nicht als reales Weltsymbol wiedergefunden. Der stärkere Befund liegt darunter: alte rekopplungstragende Rollen werden differenzierter wieder berührt.
+
+  Siehe dazu [1537 Phasische Episodenresonanz](docs/befunde/1537_SLEEP_PHASISCHE_EPISODENRESONANZ.md).
+
 - **Memory-Wiederverwendung**
   Bei erneutem Kontakt mit derselben strukturierten Welt erzeugt MINI_DIO keine neue Symbolstreuung. Die bekannten Rollen bleiben erhalten, und die Bedeutungsanzeige wird aktiv. Eine verwandte Holdout-Welt koppelt ebenfalls an dieselben Kernrollen an, jedoch mit geringerer Feldzeit und geringerem Nachhall. Das spricht für wiederverwendete Bedeutungsrollen statt bloßer Neubenennung.
 

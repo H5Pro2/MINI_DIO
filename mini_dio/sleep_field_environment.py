@@ -88,9 +88,14 @@ def _role_resonance(role: dict, current_signature: float, tick: int) -> float:
 
     signature_distance = abs(float(current_signature) - float(role.get("signature_proxy", 0.0) or 0.0))
     proximity = max(0.0, 1.0 - min(1.0, signature_distance))
-    # Gentle, deterministic breathing keeps this a milieu, not a fixed order.
-    breathing = 0.88 + (((tick + len(str(role.get("symbol", "")))) % 7) / 6.0) * 0.12
-    return float(role.get("base_weight", 0.0) or 0.0) * proximity * breathing
+    # Gentle, deterministic role breathing keeps this a milieu, not a fixed order.
+    symbol = str(role.get("symbol", "") or "")
+    phase_seed = sum((index + 1) * ord(char) for index, char in enumerate(symbol)) % 29
+    slow_phase = ((tick + phase_seed) % 11) / 10.0
+    fast_phase = ((tick * 3 + phase_seed) % 7) / 6.0
+    breathing = 0.72 + (slow_phase * 0.20) + (fast_phase * 0.08)
+    field_fit = 1.0 - min(1.0, abs(float(role.get("tension_proxy", 0.0) or 0.0) - abs(float(current_signature))))
+    return float(role.get("base_weight", 0.0) or 0.0) * proximity * field_fit * breathing
 
 
 def build_sleep_environment_senses(
@@ -99,6 +104,7 @@ def build_sleep_environment_senses(
     tick: int,
     intensity: float = 0.42,
     max_active_roles: int = 5,
+    activation_floor: float = 0.82,
 ) -> tuple[dict, list[dict]]:
     """Build passive MCM-field senses from resonating episode roles."""
 
@@ -110,7 +116,15 @@ def build_sleep_environment_senses(
         if score > 0.0:
             scored.append((score, role))
     scored.sort(key=lambda item: item[0], reverse=True)
-    active = scored[: max(1, int(max_active_roles))]
+    top_score = scored[0][0] if scored else 0.0
+    floor = max(0.0, min(0.99, float(activation_floor)))
+    active = [
+        (score, role)
+        for score, role in scored[: max(1, int(max_active_roles))]
+        if top_score <= 0.0 or score >= top_score * floor
+    ]
+    if not active and scored:
+        active = [scored[0]]
     total = sum(score for score, _role in active) or 1.0
     coherence = sum((score / total) * float(role["signature_proxy"]) for score, role in active)
     tension = sum((score / total) * float(role["tension_proxy"]) for score, role in active)
