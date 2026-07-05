@@ -1,0 +1,4 @@
+lauf,welt,daten,candles,unique_symbols,stable_ratio,carried_unrest_ratio,tipping_ratio,avg_afterimage,avg_temporal_trust,avg_temporal_caution,display_found,display_unavailable,dio_0l7p,dio_1wdi,dio_14wj,dio_1fll,befund
+A_1525_fresh,strukturierte_mosaikwelt,data/synthetic_1525_melody_randrollen_interwoven_mosaic_2400_5m.csv,2400,97,0.8759,0.1236,0.000418,0.4053,0.7784,0.1124,0,2394,256,195,134,77,frische_memory_reproduziert_bekannte_rollenlandschaft
+B_1525_reuse,strukturierte_mosaikwelt_gleiche_memory,data/synthetic_1525_melody_randrollen_interwoven_mosaic_2400_5m.csv,2400,97,0.8759,0.1236,0.000418,0.4053,0.7784,0.1124,2098,296,512,390,268,154,memory_wird_wiederverwendet_ohne_neue_symbolstreuung
+C_holdout_1502,verwandte_holdout_welt_gleiche_memory,data/synthetic_1502_melody_randrollen_full_mosaic_1200_5m.csv,1200,85,0.8719,0.1281,0.000000,0.3666,0.7318,0.1272,1041,153,646,484,333,194,verwandte_welt_koppelt_an_bekannte_rollen_an_mit_leicht_geringerem_nachhall

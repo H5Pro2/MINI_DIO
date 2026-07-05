@@ -238,6 +238,11 @@ Die bisherigen Ergebnisse lassen sich so einordnen:
 
   Siehe dazu [1528 Feldzeit, Stress und Pareidolie-Grenze](docs/befunde/1528_FELDZEIT_STRESS_UND_PAREIDOLIE_GRENZE.md).
 
+- **Memory-Wiederverwendung**
+  Bei erneutem Kontakt mit derselben strukturierten Welt erzeugt MINI_DIO keine neue Symbolstreuung. Die bekannten Rollen bleiben erhalten, und die Bedeutungsanzeige wird aktiv. Eine verwandte Holdout-Welt koppelt ebenfalls an dieselben Kernrollen an, jedoch mit geringerer Feldzeit und geringerem Nachhall. Das spricht für wiederverwendete Bedeutungsrollen statt bloßer Neubenennung.
+
+  Siehe dazu [1529 Memory-Wiederverwendung und Feldzeit-Test](docs/befunde/1529_MEMORY_WIEDERVERWENDUNG_FELDZEIT_TEST.md).
+
 - **Feldzeit und Nachhall**
   Zeit wird nicht nur als Tick oder Index betrachtet. Im Feld zeigt sie sich als Nachhall, Wiederkehr, Nähe/Ferne, Drift und Integrationsqualität einer gewirkten Weltlage.
 
