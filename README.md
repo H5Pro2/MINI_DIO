@@ -368,6 +368,11 @@ Die bisherigen Ergebnisse lassen sich so einordnen:
 
   Siehe dazu [1586 Weltarten 500er Fenster](docs/befunde/1586_FELDKLASSEN_FENSTERSUCHE_WELTARTEN_500.md), [1587 Weltarten 2000er Fenster](docs/befunde/1587_FELDKLASSEN_FENSTERSUCHE_WELTARTEN_2000.md) und [1588 Fensterbreite und Feldklassen-Verdichtung](docs/befunde/1588_FENSTERBREITE_UND_FELDKLASSEN_VERDICHTUNG.md).
 
+- **Selektive Offline-Reorganisation**
+  Der 2000er-Mehrrollen-Kandidat `SYNTH_RAND_KIPP start0` wurde reproduziert. Real A und Real B blieben praktisch identisch: 1994 Episoden, 109 Syntaxzeichen, 5 Feldepisoden und vollständige Top-Syntax-/Top-Familien-Überlappung. Die Sleep-Spur war jedoch selektiv: 4 von 5 Rollen und 6 von 10 Kombinationen wurden voll reaktiviert. Damit wirkt Offline-Feld-Reorganisation nicht als pauschale Verstärkung, sondern als selektive Rückkopplung vorhandener Rollen.
+
+  Siehe dazu [1589 SYNTH_RAND_KIPP 2000 Mehrrollen-Repro](docs/befunde/1589_SYNTH_RAND_KIPP_2000_MEHRROLLEN_REPRO.md) und [1590 SYNTH_RAND_KIPP Mehrrollen-Repro Synthese](docs/befunde/1590_SYNTH_RAND_KIPP_MEHRROLLEN_REPRO_SYNTHESE.md).
+
 - **Memory-Wiederverwendung**
   Bei erneutem Kontakt mit derselben strukturierten Welt erzeugt MINI_DIO keine neue Symbolstreuung. Die bekannten Rollen bleiben erhalten, und die Bedeutungsanzeige wird aktiv. Eine verwandte Holdout-Welt koppelt ebenfalls an dieselben Kernrollen an, jedoch mit geringerer Feldzeit und geringerem Nachhall. Das spricht für wiederverwendete Bedeutungsrollen statt bloßer Neubenennung.
 
