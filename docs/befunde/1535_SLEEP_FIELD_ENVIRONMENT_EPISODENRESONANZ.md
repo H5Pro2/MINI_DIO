@@ -13,6 +13,17 @@ gespeicherte MCM-Episodenrollen als passiver Resonanzraum
 
 Damit wird Schlaf nicht als Ablaufprogramm behandelt, sondern als entkoppeltes Innenfeldmilieu.
 
+Der Zweck ist rein forschend:
+
+```text
+Bleibt im entkoppelten MCM-Feld Aktivitaet sichtbar?
+Welche Erlebnisspuren werden verarbeitet?
+Welche davon tragen Bedeutung?
+Kann daraus spaeter eine neue semantische Bindung entstehen?
+```
+
+Die Staerke der Aktivitaet ist dabei nachrangig. Zuerst zaehlt, ob Aktivitaet stabil messbar ist und ob sie an gespeicherte Feldspuren gebunden bleibt.
+
 ## Umsetzung
 
 Neu hinzugefuegt wurden:
@@ -62,6 +73,13 @@ Das ist kein Beleg fuer getrennte Traumbedeutung.
 Es ist zuerst ein Befund stabiler Offline-Rekopplung aus Episodenresonanz.
 ```
 
+Damit ist es auch noch kein Beleg fuer neue weltunabhaengige Bedeutung. Sichtbar ist bisher:
+
+```text
+alte Episodenrollen bleiben offline aktivierbar
+und koennen als gemeinsames Rekopplungsmilieu wirken.
+```
+
 ## Grenze
 
 Aktuell ist die Episodenresonanz noch sehr glatt:
@@ -95,4 +113,3 @@ Die offene Frage ist:
 Kann das Offline-Milieu Rollen phasisch differenzieren,
 ohne daraus eine feste Sequenz oder kuenstliche Stoerung zu machen?
 ```
-

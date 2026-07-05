@@ -4,6 +4,8 @@
 
 Diese Datei legt die Schlaf-/Offline-Mechanik für MINI_DIO als organische Designgrenze fest.
 
+Diese Mechanik ist zuerst ein Forschungsinstrument. Sie soll zeigen, ob im entkoppelten MCM-Feld Aktivität sichtbar bleibt, welche gespeicherten Erlebnisspuren Bedeutung tragen und ob daraus neue semantische Bindungen entstehen können.
+
 Schlaf wird nicht als feste Ablaufkette verstanden, sondern als Feldmilieu:
 
 ```text
@@ -164,6 +166,8 @@ keine harte Sequenz
 ```
 
 Der erste Befund ist in [1535_SLEEP_FIELD_ENVIRONMENT_EPISODENRESONANZ.md](../befunde/1535_SLEEP_FIELD_ENVIRONMENT_EPISODENRESONANZ.md) dokumentiert.
+
+Die präzisere Forschungsgrenze ist in [003_MCM_SCHLAFREGULATION_FORSCHUNGSGRENZE.md](003_MCM_SCHLAFREGULATION_FORSCHUNGSGRENZE.md) beschrieben.
 
 ## Kurzform
 
