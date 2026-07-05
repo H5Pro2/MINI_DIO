@@ -258,6 +258,11 @@ Die bisherigen Ergebnisse lassen sich so einordnen:
 
   Siehe dazu [1538 Sleep Rollen Carryover](docs/befunde/1538_SLEEP_ROLLEN_CARRYOVER.md).
 
+- **Sleep-Rollen-Selektivität**
+  Die Gegenprüfung zeigt: Sleep aktiviert nicht einfach alle vorhandenen Rollen. In SOL 2024 und Stress 2023 wurden alle rekopplungstragenden Rollen aktiv, während offene/ungeklärte Rollen inaktiv blieben. Das stützt die Lesart, dass MCM-Schlafregulation im aktuellen Stand bevorzugt tragende Rekopplungsrollen festigt.
+
+  Siehe dazu [1539 Sleep Rollen Selektivität](docs/befunde/1539_SLEEP_ROLLEN_SELEKTIVITAET.md).
+
 - **Memory-Wiederverwendung**
   Bei erneutem Kontakt mit derselben strukturierten Welt erzeugt MINI_DIO keine neue Symbolstreuung. Die bekannten Rollen bleiben erhalten, und die Bedeutungsanzeige wird aktiv. Eine verwandte Holdout-Welt koppelt ebenfalls an dieselben Kernrollen an, jedoch mit geringerer Feldzeit und geringerem Nachhall. Das spricht für wiederverwendete Bedeutungsrollen statt bloßer Neubenennung.
 
