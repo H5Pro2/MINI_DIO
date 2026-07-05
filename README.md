@@ -228,6 +228,11 @@ Die bisherigen Ergebnisse lassen sich so einordnen:
 
   Siehe dazu [1519-1521 MCM-Feldraum in Mischwelten](docs/befunde/1519_1521_MCM_FELDRAUM_MISCHWELTEN.md), [1522-1523 MCM-Mosaik Variantenprüfung](docs/befunde/1522_1523_MCM_MOSAIK_VARIANTENPRUEFUNG.md), [1524 MCM-Mosaik Folgewelt 3600](docs/befunde/1524_MCM_MOSAIK_FOLGEWELT_3600.md) und [1525 MCM-Mosaik Varianz und Nebelzone](docs/befunde/1525_MCM_MOSAIK_VARIANZ_UND_NEBELZONE.md).
 
+- **Anti-Pareidolie-Prüfung**
+  Um menschliche Musterdeutung von echter Feldordnung zu trennen, wurden Nullwelten erzeugt: zerstörte Reihenfolge und randomisierte Richtungen. Diese Kontrollen erzeugten deutlich mehr Symbolstreuung, niedrigeren Nachhall und andere Toprollen. Damit ist Pareidolie nicht endgültig ausgeschlossen, aber der aktuelle Befund spricht gegen reine Zufallsdeutung.
+
+  Siehe dazu [1526-1527 Anti-Pareidolie Nullkontrollen](docs/befunde/1526_1527_ANTI_PAREIDOLIE_NULLKONTROLLEN.md).
+
 - **Feldzeit und Nachhall**
   Zeit wird nicht nur als Tick oder Index betrachtet. Im Feld zeigt sie sich als Nachhall, Wiederkehr, Nähe/Ferne, Drift und Integrationsqualität einer gewirkten Weltlage.
 
