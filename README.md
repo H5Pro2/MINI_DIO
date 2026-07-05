@@ -288,6 +288,11 @@ Die bisherigen Ergebnisse lassen sich so einordnen:
 
   Siehe dazu [1549 Sleep-Ruecklesung Stress-, Ruhe- und Mischwelten](docs/befunde/1549_SLEEP_RUECKLESUNG_STRESS_RUHE_MISCHWELTEN.md).
 
+- **Sleep-Kombinationsruecklesung**
+  Sleep markiert jetzt nicht nur einzelne beruehrte Rollen, sondern auch gemeinsame Rollennaehen. Bei gleicher Welt wurden 3/3 Kombinationen voll reaktiviert, bei ruhiger Folgewelt 1/3 voll und 2/3 teilweise, bei Mosaikwelt 0/3. Damit wird messbar, ob Offline-Naehe spaeter realen Anschluss findet oder zerfaellt.
+
+  Siehe dazu [1553 Sleep-Kombinationsruecklesung Synthese](docs/befunde/1553_SLEEP_KOMBINATIONS_RUECKLESUNG_SYNTHESE.md).
+
 - **Memory-Wiederverwendung**
   Bei erneutem Kontakt mit derselben strukturierten Welt erzeugt MINI_DIO keine neue Symbolstreuung. Die bekannten Rollen bleiben erhalten, und die Bedeutungsanzeige wird aktiv. Eine verwandte Holdout-Welt koppelt ebenfalls an dieselben Kernrollen an, jedoch mit geringerer Feldzeit und geringerem Nachhall. Das spricht für wiederverwendete Bedeutungsrollen statt bloßer Neubenennung.
 

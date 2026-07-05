@@ -102,6 +102,7 @@ def _read_sleep_reorganization_followup(before_path: Path, after_path: Path) -> 
     before_episodes = dict(before.get("mcm_field_episode_memory", {}) or {})
     after_episodes = dict(after.get("mcm_field_episode_memory", {}) or {})
     role_rows = []
+    role_delta_by_name = {}
     reactivated = 0
     unchanged = 0
     missing = 0
@@ -116,6 +117,7 @@ def _read_sleep_reorganization_followup(before_path: Path, after_path: Path) -> 
         before_seen = int(before_entry.get("seen_count", 0) or 0)
         after_seen = int(after_entry.get("seen_count", 0) or 0)
         delta = after_seen - before_seen
+        role_delta_by_name[role] = delta
         if not after_entry:
             state = "sleep_role_missing_after_follow_world"
             missing += 1
@@ -142,6 +144,41 @@ def _read_sleep_reorganization_followup(before_path: Path, after_path: Path) -> 
             }
         )
     total = len(role_rows)
+    combination_rows = []
+    full_combination_reactivation = 0
+    partial_combination_reactivation = 0
+    for item in sleep_memory.get("combination_traces", []) or []:
+        if not isinstance(item, dict):
+            continue
+        roles = [str(role or "") for role in (item.get("roles", []) or []) if str(role or "")]
+        if len(roles) < 2:
+            continue
+        deltas = [int(role_delta_by_name.get(role, 0) or 0) for role in roles]
+        active_count = sum(1 for delta in deltas if delta > 0)
+        if active_count == len(roles):
+            state = "sleep_combination_fully_reactivated"
+            full_combination_reactivation += 1
+        elif active_count > 0:
+            state = "sleep_combination_partly_reactivated"
+            partial_combination_reactivation += 1
+        else:
+            state = "sleep_combination_not_reactivated"
+        combination_rows.append(
+            {
+                "pair_key": str(item.get("pair_key", "|".join(roles)) or "|".join(roles)),
+                "roles": roles,
+                "followup_state": state,
+                "role_seen_deltas": deltas,
+                "co_touch_count": int(item.get("co_touch_count", 0) or 0),
+                "co_touch_ratio": float(item.get("co_touch_ratio", 0.0) or 0.0),
+                "avg_pair_sleep_resonance": float(item.get("avg_pair_sleep_resonance", 0.0) or 0.0),
+                "combination_state": str(item.get("combination_state", "") or ""),
+                "passive_only": 1,
+                "influences_action": 0,
+                "is_gate": 0,
+                "is_motoric": 0,
+            }
+        )
     if total <= 0:
         followup_state = "sleep_followup_unavailable"
     elif reactivated == total:
@@ -161,6 +198,11 @@ def _read_sleep_reorganization_followup(before_path: Path, after_path: Path) -> 
         "missing_role_count": missing,
         "reactivation_ratio": round(reactivated / max(1, total), 6),
         "roles": role_rows,
+        "combination_trace_count": len(combination_rows),
+        "combination_fully_reactivated_count": full_combination_reactivation,
+        "combination_partly_reactivated_count": partial_combination_reactivation,
+        "combination_reactivation_ratio": round(full_combination_reactivation / max(1, len(combination_rows)), 6),
+        "combination_traces": combination_rows,
         "passive_only": 1,
         "influences_action": 0,
         "is_gate": 0,
@@ -323,6 +365,8 @@ def _write_markdown(path: Path, summary: dict) -> None:
         f"- mittlerer Nachhall: `{round(float(sleep.get('avg_afterimage_abs', 0.0) or 0.0), 6)}`",
         f"- passive Sleep-Memory geschrieben: `{bool(summary.get('sleep_memory_reorganization_written', False))}`",
         f"- Sleep-Rollen-Reaktivierung: `{sleep_followup.get('reactivated_role_count', 0)}` / `{sleep_followup.get('touched_role_count', 0)}`",
+        f"- Sleep-Kombinationen voll reaktiviert: `{sleep_followup.get('combination_fully_reactivated_count', 0)}` / `{sleep_followup.get('combination_trace_count', 0)}`",
+        f"- Sleep-Kombinationen teilweise reaktiviert: `{sleep_followup.get('combination_partly_reactivated_count', 0)}` / `{sleep_followup.get('combination_trace_count', 0)}`",
         f"- Sleep-Follow-up-Zustand: `{sleep_followup.get('followup_state', '-')}`",
         "",
         "Sleep-Zustaende:",
@@ -336,6 +380,12 @@ def _write_markdown(path: Path, summary: dict) -> None:
             lines.append(
                 f"- `{role.get('role', '-')}`: `{role.get('followup_state', '-')}` "
                 f"(`{role.get('seen_before_follow', 0)}` -> `{role.get('seen_after_follow', 0)}`)"
+            )
+        lines.extend(["", "Sleep-Kombinationen im Real-B-Follow-up:", ""])
+        for item in sleep_followup.get("combination_traces", [])[:12] or []:
+            lines.append(
+                f"- `{item.get('pair_key', '-')}`: `{item.get('followup_state', '-')}` "
+                f"(delta `{item.get('role_seen_deltas', [])}`)"
             )
     lines.extend(
         [

@@ -9,6 +9,7 @@ from __future__ import annotations
 
 import json
 from collections import Counter
+from itertools import combinations
 from pathlib import Path
 
 
@@ -51,14 +52,26 @@ def build_sleep_reorganization_memory(memory: dict, sleep_summary: dict, sleep_r
     role_counter: Counter[str] = Counter()
     role_resonance_sum: Counter[str] = Counter()
     role_states: dict[str, Counter[str]] = {}
+    pair_counter: Counter[tuple[str, str]] = Counter()
+    pair_resonance_sum: Counter[tuple[str, str]] = Counter()
+    pair_states: dict[tuple[str, str], Counter[str]] = {}
     for row in sleep_rows or []:
         roles = _split_pipe(str(row.get("active_roles", "") or ""))
         resonances = [_safe_float(item) for item in _split_pipe(str(row.get("active_role_resonance", "") or ""))]
+        state = str(row.get("sleep_state", "") or "-")
         for index, role in enumerate(roles):
             role_counter[role] += 1
             role_resonance_sum[role] += resonances[index] if index < len(resonances) else 0.0
-            state = str(row.get("sleep_state", "") or "-")
             role_states.setdefault(role, Counter())[state] += 1
+        indexed_resonance = {
+            role: resonances[index] if index < len(resonances) else 0.0
+            for index, role in enumerate(roles)
+        }
+        for left, right in combinations(sorted(set(roles)), 2):
+            pair = (left, right)
+            pair_counter[pair] += 1
+            pair_resonance_sum[pair] += (indexed_resonance.get(left, 0.0) + indexed_resonance.get(right, 0.0)) / 2.0
+            pair_states.setdefault(pair, Counter())[state] += 1
 
     field_episodes = dict(memory.get("mcm_field_episode_memory", {}) or {})
     touched_roles = []
@@ -78,6 +91,39 @@ def build_sleep_reorganization_memory(memory: dict, sleep_summary: dict, sleep_r
                 "source_rekopplung": round(_safe_float(source.get("avg_mcm_rekopplung_quality", 0.0)), 6),
                 "source_carry": round(_safe_float(source.get("avg_mcm_carry_quality", 0.0)), 6),
                 "source_strain": round(_safe_float(source.get("avg_mcm_strain_quality", 0.0)), 6),
+                **PASSIVE_SLEEP_FLAGS,
+            }
+        )
+
+    combination_traces = []
+    for pair, count in pair_counter.most_common():
+        avg_pair_resonance = float(pair_resonance_sum[pair]) / max(1, int(count))
+        left, right = pair
+        left_source = dict(field_episodes.get(left, {}) or {})
+        right_source = dict(field_episodes.get(right, {}) or {})
+        same_source_state = str(left_source.get("episode_state", "") or "") == str(
+            right_source.get("episode_state", "") or ""
+        )
+        same_transition = str(left_source.get("transition", "") or "") == str(right_source.get("transition", "") or "")
+        if same_transition and same_source_state:
+            combination_state = "sleep_same_role_family_combination"
+        elif same_source_state:
+            combination_state = "sleep_same_state_combination"
+        else:
+            combination_state = "sleep_cross_state_combination"
+        combination_traces.append(
+            {
+                "roles": [left, right],
+                "pair_key": f"{left}|{right}",
+                "co_touch_count": int(count),
+                "co_touch_ratio": round(int(count) / max(1, _safe_int(sleep_summary.get("ticks", 0))), 6),
+                "avg_pair_sleep_resonance": round(avg_pair_resonance, 6),
+                "combination_state": combination_state,
+                "sleep_states": dict(sorted(pair_states.get(pair, Counter()).items())),
+                "left_source_episode_state": str(left_source.get("episode_state", "") or ""),
+                "right_source_episode_state": str(right_source.get("episode_state", "") or ""),
+                "left_source_transition": str(left_source.get("transition", "") or ""),
+                "right_source_transition": str(right_source.get("transition", "") or ""),
                 **PASSIVE_SLEEP_FLAGS,
             }
         )
@@ -106,8 +152,11 @@ def build_sleep_reorganization_memory(memory: dict, sleep_summary: dict, sleep_r
         "active_role_set_count": role_set_count,
         "touched_role_count": touched_count,
         "touched_roles": touched_roles[:24],
+        "combination_trace_count": len(combination_traces),
+        "combination_traces": combination_traces[:32],
         "interpretation_boundary": (
             "Passive Sleep-Reorganisation markiert beruehrte bestehende Rollen. "
+            "Kombinationsspuren beschreiben nur gemeinsame Offline-Beruehrung. "
             "Sie erzeugt keine neue Weltbedeutung und steuert keine Handlung."
         ),
         **PASSIVE_SLEEP_FLAGS,
