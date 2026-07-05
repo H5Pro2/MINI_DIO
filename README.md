@@ -328,6 +328,11 @@ Die bisherigen Ergebnisse lassen sich so einordnen:
 
   Siehe dazu [1570 PAXG1000 Sleep-Zwischenrollen Abgleich](docs/befunde/1570_PAXG1000_SLEEP_ZWISCHENROLLEN_ABGLEICH.md).
 
+- **Welt-Entwicklungsreichtum**
+  Eine neue passive Diagnose misst, wie viel Bewegung, Spannungswechsel, Rhythmus, Bruch und Drift eine Welt vor der MCM-Feldbildung anbietet. In der ersten Vergleichsgruppe liegt KAS rohweltlich am staerksten, PAXG wirkt weniger bewegungsreich, aber rhythmischer. Die KAS-Gegenprobe zeigt zugleich: hoher Rohwelt-Entwicklungsreichtum erzeugt nicht automatisch Zwischenrollen; entscheidend ist, ob daraus mehrrollige MCM-Feldnaehe entsteht.
+
+  Siehe dazu [1571 Welt-Entwicklungsreichtum Diagnose](docs/befunde/1571_WELT_ENTWICKLUNGSREICHTUM_DIAGNOSE.md) und [1572 KAS1000 Sleep-Zwischenrollen Abgleich](docs/befunde/1572_KAS1000_SLEEP_ZWISCHENROLLEN_ABGLEICH.md).
+
 - **Memory-Wiederverwendung**
   Bei erneutem Kontakt mit derselben strukturierten Welt erzeugt MINI_DIO keine neue Symbolstreuung. Die bekannten Rollen bleiben erhalten, und die Bedeutungsanzeige wird aktiv. Eine verwandte Holdout-Welt koppelt ebenfalls an dieselben Kernrollen an, jedoch mit geringerer Feldzeit und geringerem Nachhall. Das spricht für wiederverwendete Bedeutungsrollen statt bloßer Neubenennung.
 
