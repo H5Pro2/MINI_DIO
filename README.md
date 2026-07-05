@@ -283,6 +283,11 @@ Die bisherigen Ergebnisse lassen sich so einordnen:
 
   Siehe dazu [1545 Sleep-Reorganisation Folgewelten Synthese](docs/befunde/1545_SLEEP_REORGANISATION_FOLGEWELTEN_SYNTHESE.md).
 
+- **Selektive Sleep-Ruecklesung**
+  Die Erweiterung gegen Stress-, Ruhe- und Mischwelten zeigt: Sleep-Rollen reaktivieren sich nicht automatisch. Die Ruhewelt koppelte 2/3 Rollen wieder an, Stress- und Mosaikwelt dagegen 0/3. Gleichzeitig blieben Bedeutungsfamilien teilweise erhalten. Das spricht fuer selektive Feldnaehe statt beliebiger Wiedererkennung.
+
+  Siehe dazu [1549 Sleep-Ruecklesung Stress-, Ruhe- und Mischwelten](docs/befunde/1549_SLEEP_RUECKLESUNG_STRESS_RUHE_MISCHWELTEN.md).
+
 - **Memory-Wiederverwendung**
   Bei erneutem Kontakt mit derselben strukturierten Welt erzeugt MINI_DIO keine neue Symbolstreuung. Die bekannten Rollen bleiben erhalten, und die Bedeutungsanzeige wird aktiv. Eine verwandte Holdout-Welt koppelt ebenfalls an dieselben Kernrollen an, jedoch mit geringerer Feldzeit und geringerem Nachhall. Das spricht für wiederverwendete Bedeutungsrollen statt bloßer Neubenennung.
 
