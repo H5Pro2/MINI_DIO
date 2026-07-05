@@ -268,6 +268,11 @@ Die bisherigen Ergebnisse lassen sich so einordnen:
 
   Siehe dazu [1540 Sleep offene Rollen Berührung](docs/befunde/1540_SLEEP_OFFENE_ROLLEN_BERUEHRUNG.md) und [004 Real Sleep Real Testprotokoll](docs/mechanik/004_REAL_SLEEP_REAL_TESTPROTOKOLL.md).
 
+- **Real-Sleep-Real Baseline**
+  Die erste Real-Sleep-Real-Kette trennt Real-A, entkoppeltes Sleep-Milieu und Real-B. In der Baseline schreibt Sleep noch keine Memory um. Real-A und Real-B bleiben auf SOL 2024 nahezu identisch; Top-Syntax und Top-Familien ueberlappen jeweils vollstaendig. Damit ist der Nullpunkt fuer spaetere Sleep-Reorganisation gesetzt.
+
+  Siehe dazu [1541 Real-Sleep-Real Baseline](docs/befunde/1541_REAL_SLEEP_REAL_BASELINE.md).
+
 - **Memory-Wiederverwendung**
   Bei erneutem Kontakt mit derselben strukturierten Welt erzeugt MINI_DIO keine neue Symbolstreuung. Die bekannten Rollen bleiben erhalten, und die Bedeutungsanzeige wird aktiv. Eine verwandte Holdout-Welt koppelt ebenfalls an dieselben Kernrollen an, jedoch mit geringerer Feldzeit und geringerem Nachhall. Das spricht für wiederverwendete Bedeutungsrollen statt bloßer Neubenennung.
 
