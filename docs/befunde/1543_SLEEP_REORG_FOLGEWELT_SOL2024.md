@@ -1,0 +1,58 @@
+# Real-Sleep-Real Passive Reorganisation
+
+Stand: 2026-07-05 15:21:39
+
+## Zweck
+
+Diese Kette prueft, was sich zwischen zwei Real-Welt-Beruehrungen veraendert,
+wenn dazwischen eine entkoppelte MCM-Schlafdiagnose liegt. Real-B kann dieselbe oder eine andere Welt sein.
+
+Wichtig: In diesem Lauf schreibt die Schlafphase eine passive Reorganisationsspur.
+Diese Spur markiert nur beruehrte bestehende Rollen; sie erzeugt keine neue Weltbedeutung,
+keine Richtung, kein Gate und keine Handlung.
+
+## Kette
+
+- Real A Welt: `data\kontrolliert_sol_2024_5m_test1_2000_SOLUSDT.csv`
+- Real B Welt: `data\kontrolliert_2024_bridge_test1_1000_5m_SOLUSDT.csv`
+- gleiche Welt: `False`
+- Real A Memory: `memory\real_sleep_real\sol2024_sleep_reorg_to_bridge2024\memory_A_real_run.json`
+- Sleep Diagnose: `debug\real_sleep_real\sol2024_sleep_reorg_to_bridge2024\sleep`
+- Memory nach Sleep: `memory\real_sleep_real\sol2024_sleep_reorg_to_bridge2024\memory_A_after_sleep.json`
+- Real B Memory: `memory\real_sleep_real\sol2024_sleep_reorg_to_bridge2024\memory_B_real_run_after_sleep.json`
+
+## Real A -> Real B
+
+- Episoden: `1994.0` -> `994.0`
+- Unique Syntax: `351.0` -> `253.0`
+- geschriebene Feldepisoden: `5.0` -> `3.0`
+- MCM-Tragqualitaet: `0.509901` -> `0.497263`
+- MCM-Rekopplung: `0.693318` -> `0.686759`
+- MCM-Sinneskopplung: `0.83793` -> `0.837519`
+- Top-Syntax-Ueberlappung: `0.6`
+- Top-Familien-Ueberlappung: `1.0`
+
+## Sleep Diagnose
+
+- Sleep Ticks: `300`
+- Rollen im Sleep-Pool: `5`
+- aktive Rollensets: `3`
+- Sleep Unique Syntax: `1`
+- mittlerer Nachhall: `0.027274`
+- passive Sleep-Memory geschrieben: `True`
+
+Sleep-Zustaende:
+
+- `sleep_rekopplung`: `300`
+
+## Bewertung
+
+Diese Stufe ist noch kein Nachweis fuer veraendertes Weltverhalten durch Schlaf.
+Sie zeigt aber, dass Sleep bestehende Rollen passiv markieren kann, ohne Welt-Symbole neu zu erfinden.
+Damit ist der naechste Schritt sauber messbar: eine spaetere Leseschicht darf pruefen,
+ob diese passive Reorganisationsspur bei erneutem Weltkontakt wieder auftaucht oder neutral bleibt.
+
+## Wie es weitergeht
+
+Als naechstes wird die passive Sleep-Reorganisationsspur gegen weitere Welten geprueft.
+Dann wird sichtbar, ob sie nur eine lokale Markierung bleibt oder als wiederkehrende Innenfeldspur tragfaehig ist.

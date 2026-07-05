@@ -278,6 +278,11 @@ Die bisherigen Ergebnisse lassen sich so einordnen:
 
   Siehe dazu [1542 Sleep Memory Reorganisation](docs/befunde/1542_SLEEP_MEMORY_REORGANISATION.md).
 
+- **Sleep-Reorganisation in Folgewelten**
+  Die markierten Sleep-Rollen bleiben in verwandten und assetuebergreifenden Folgewelten anschlussfaehig. Eine SOL-Folgewelt behielt alle Top-Familien, BTC 2024 behielt 7 von 8 Top-Familien. Das zeigt Offline-Rollenberuehrung mit spaeterer Anschlussnaehe, aber noch keine bewiesene neue Schlaf-Kontextbildung.
+
+  Siehe dazu [1545 Sleep-Reorganisation Folgewelten Synthese](docs/befunde/1545_SLEEP_REORGANISATION_FOLGEWELTEN_SYNTHESE.md).
+
 - **Memory-Wiederverwendung**
   Bei erneutem Kontakt mit derselben strukturierten Welt erzeugt MINI_DIO keine neue Symbolstreuung. Die bekannten Rollen bleiben erhalten, und die Bedeutungsanzeige wird aktiv. Eine verwandte Holdout-Welt koppelt ebenfalls an dieselben Kernrollen an, jedoch mit geringerer Feldzeit und geringerem Nachhall. Das spricht für wiederverwendete Bedeutungsrollen statt bloßer Neubenennung.
 

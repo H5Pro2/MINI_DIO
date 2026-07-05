@@ -197,8 +197,8 @@ def _write_markdown(path: Path, summary: dict) -> None:
         "",
         "## Zweck",
         "",
-        "Diese Kette prueft, was sich zwischen zwei gleichen Real-Welt-Beruehrungen veraendert,",
-        "wenn dazwischen eine entkoppelte MCM-Schlafdiagnose liegt.",
+        "Diese Kette prueft, was sich zwischen zwei Real-Welt-Beruehrungen veraendert,",
+        "wenn dazwischen eine entkoppelte MCM-Schlafdiagnose liegt. Real-B kann dieselbe oder eine andere Welt sein.",
         "",
         (
             "Wichtig: In der Baseline schreibt die Schlafphase noch keine Memory um."
@@ -218,7 +218,9 @@ def _write_markdown(path: Path, summary: dict) -> None:
         "",
         "## Kette",
         "",
-        f"- Welt: `{summary['data_path']}`",
+        f"- Real A Welt: `{summary['data_path']}`",
+        f"- Real B Welt: `{summary['follow_data_path']}`",
+        f"- gleiche Welt: `{bool(summary.get('same_world_followup', False))}`",
         f"- Real A Memory: `{summary['memory_a_real']}`",
         f"- Sleep Diagnose: `{summary['sleep_debug_root']}`",
         f"- Memory nach Sleep: `{summary['memory_after_sleep']}`",
@@ -296,6 +298,7 @@ def _write_markdown(path: Path, summary: dict) -> None:
 
 def run_chain(
     data_path: Path,
+    follow_data_path: Path | None,
     label: str,
     debug_root: Path,
     memory_root: Path,
@@ -309,6 +312,9 @@ def run_chain(
     write_sleep_memory: bool,
 ) -> dict:
     data_path = data_path if data_path.is_absolute() else ROOT / data_path
+    if follow_data_path is None:
+        follow_data_path = data_path
+    follow_data_path = follow_data_path if follow_data_path.is_absolute() else ROOT / follow_data_path
     debug_root = debug_root if debug_root.is_absolute() else ROOT / debug_root
     memory_root = memory_root if memory_root.is_absolute() else ROOT / memory_root
     out_path = out_path if out_path.is_absolute() else ROOT / out_path
@@ -359,13 +365,15 @@ def run_chain(
         _write_json(sleep_debug / "sleep_reorganization_memory.json", sleep_reorganization_memory)
 
     shutil.copy2(memory_after_sleep, memory_b)
-    _run_mini(data_path, memory_b, real_b_debug, runs=1, reset_memory=False, sense_mode=sense_mode)
+    _run_mini(follow_data_path, memory_b, real_b_debug, runs=1, reset_memory=False, sense_mode=sense_mode)
     real_b_report = _load_json(_report_path(real_b_debug, 2))
 
     comparison = _compare_reports(real_a_report, real_b_report)
     summary = {
         "created_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
         "data_path": _rel(data_path),
+        "follow_data_path": _rel(follow_data_path),
+        "same_world_followup": _rel(data_path) == _rel(follow_data_path),
         "label": label,
         "sense_mode": sense_mode,
         "sleep_is_diagnostic_only": not bool(write_sleep_memory),
@@ -393,6 +401,7 @@ def run_chain(
 def main() -> int:
     parser = argparse.ArgumentParser(description="Run Real-Sleep-Real baseline for MINI_DIO.")
     parser.add_argument("--data", default=getattr(Config, "DIO_MINI_CONTROLLED_WORLD_PATH"))
+    parser.add_argument("--follow-data", default="")
     parser.add_argument("--label", default="real_sleep_real_baseline")
     parser.add_argument("--debug-root", default="debug/real_sleep_real")
     parser.add_argument("--memory-root", default="memory/real_sleep_real")
@@ -411,6 +420,7 @@ def main() -> int:
     args = parser.parse_args()
     summary = run_chain(
         data_path=Path(args.data),
+        follow_data_path=Path(args.follow_data) if args.follow_data else None,
         label=str(args.label),
         debug_root=Path(args.debug_root),
         memory_root=Path(args.memory_root),
