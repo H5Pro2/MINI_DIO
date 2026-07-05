@@ -136,6 +136,35 @@ Diese Schicht soll:
 5. Bildet sich neue Offline-Bedeutung ohne Außenwelt?
 6. Oder bleibt der Schlafmodus primär zentrumsrückführend?
 
+## Umgesetzter Baustein
+
+Die erste passive Umsetzung liegt in:
+
+- `mini_dio/sleep_field_environment.py`
+- `tools/report_sleep_field_environment.py`
+
+Diese Schicht erzeugt kein neues Weltfenster und spielt keine feste Reihenfolge ab. Sie liest gespeicherte `mcm_field_episode_memory`-Rollen und macht sie als passiven Resonanzraum verfügbar.
+
+Der aktuelle Feldzustand bestimmt, welche Episodenqualitäten stärker ankoppeln:
+
+```text
+Episodenrolle
+  -> Feldnähe
+  -> Resonanzgewicht
+  -> passives Innenfeldmilieu
+```
+
+Damit bleibt die Grenze erhalten:
+
+```text
+keine neue Außenwelt
+keine künstlichen Zusatzreize
+keine Handlung
+keine harte Sequenz
+```
+
+Der erste Befund ist in [1535_SLEEP_FIELD_ENVIRONMENT_EPISODENRESONANZ.md](../befunde/1535_SLEEP_FIELD_ENVIRONMENT_EPISODENRESONANZ.md) dokumentiert.
+
 ## Kurzform
 
 ```text

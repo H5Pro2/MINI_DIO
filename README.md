@@ -238,6 +238,11 @@ Die bisherigen Ergebnisse lassen sich so einordnen:
 
   Siehe dazu [1528 Feldzeit, Stress und Pareidolie-Grenze](docs/befunde/1528_FELDZEIT_STRESS_UND_PAREIDOLIE_GRENZE.md).
 
+- **Schlaf-Feldmilieu aus Episodenresonanz**
+  MINI_DIO kann gespeicherte MCM-Episodenrollen ohne neue Außenwelt als passives Innenfeldmilieu aktivieren. Erste Prüfungen mit SOL-2024- und Stress-2023-Speichern führten stabil zu `sleep_rekopplung` und `dio_019bn1b`. Der Stressspeicher zeigte leicht höheren Nachhall. Damit ist Offline-Rekopplung sichtbar, aber noch keine getrennte Offline-Semantik.
+
+  Siehe dazu [1535 Sleep Field Environment und Episodenresonanz](docs/befunde/1535_SLEEP_FIELD_ENVIRONMENT_EPISODENRESONANZ.md).
+
 - **Memory-Wiederverwendung**
   Bei erneutem Kontakt mit derselben strukturierten Welt erzeugt MINI_DIO keine neue Symbolstreuung. Die bekannten Rollen bleiben erhalten, und die Bedeutungsanzeige wird aktiv. Eine verwandte Holdout-Welt koppelt ebenfalls an dieselben Kernrollen an, jedoch mit geringerer Feldzeit und geringerem Nachhall. Das spricht für wiederverwendete Bedeutungsrollen statt bloßer Neubenennung.
 
