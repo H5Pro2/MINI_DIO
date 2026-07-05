@@ -253,6 +253,11 @@ Die bisherigen Ergebnisse lassen sich so einordnen:
 
   Siehe dazu [1537 Phasische Episodenresonanz](docs/befunde/1537_SLEEP_PHASISCHE_EPISODENRESONANZ.md).
 
+- **Sleep-Rollen-Crossover**
+  Die Rollen-Crossover-Prüfung zeigt: Alle phasisch aktiven Sleep-Rollen der geprüften SOL- und Stress-Läufe tragen in realen Folge-Memories `cross_memory_rekopplung`. Das spricht nicht für neue Offline-Semantik, sondern für Musterfestigung alter rekopplungstragender Feldrollen.
+
+  Siehe dazu [1538 Sleep Rollen Carryover](docs/befunde/1538_SLEEP_ROLLEN_CARRYOVER.md).
+
 - **Memory-Wiederverwendung**
   Bei erneutem Kontakt mit derselben strukturierten Welt erzeugt MINI_DIO keine neue Symbolstreuung. Die bekannten Rollen bleiben erhalten, und die Bedeutungsanzeige wird aktiv. Eine verwandte Holdout-Welt koppelt ebenfalls an dieselben Kernrollen an, jedoch mit geringerer Feldzeit und geringerem Nachhall. Das spricht für wiederverwendete Bedeutungsrollen statt bloßer Neubenennung.
 
