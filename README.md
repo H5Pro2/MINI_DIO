@@ -224,7 +224,9 @@ Die bisherigen Ergebnisse lassen sich so einordnen:
 
   In der verlängerten 3600er Folgewelt blieb diese Rollenlandschaft proportional erhalten, während der Nachhall stieg. Das stützt die Lesung: Wiederkehr verdichtet nicht zwingend zu einer Einzelrolle, sondern kann einen verteilten Feldraum zeitlich vertiefen.
 
-  Siehe dazu [1519-1521 MCM-Feldraum in Mischwelten](docs/befunde/1519_1521_MCM_FELDRAUM_MISCHWELTEN.md), [1522-1523 MCM-Mosaik Variantenprüfung](docs/befunde/1522_1523_MCM_MOSAIK_VARIANTENPRUEFUNG.md) und [1524 MCM-Mosaik Folgewelt 3600](docs/befunde/1524_MCM_MOSAIK_FOLGEWELT_3600.md).
+  Eine neu verschränkte Mosaikvariante erhöhte die Symbolbreite und erzeugte minimale Kippnähe, ohne die tragenden Rollen aufzulösen. Das ist aktuell der sauberste Hinweis auf eine Nebelzone: mehr Oberflächenvarianz bei erhaltener Feldordnung.
+
+  Siehe dazu [1519-1521 MCM-Feldraum in Mischwelten](docs/befunde/1519_1521_MCM_FELDRAUM_MISCHWELTEN.md), [1522-1523 MCM-Mosaik Variantenprüfung](docs/befunde/1522_1523_MCM_MOSAIK_VARIANTENPRUEFUNG.md), [1524 MCM-Mosaik Folgewelt 3600](docs/befunde/1524_MCM_MOSAIK_FOLGEWELT_3600.md) und [1525 MCM-Mosaik Varianz und Nebelzone](docs/befunde/1525_MCM_MOSAIK_VARIANZ_UND_NEBELZONE.md).
 
 - **Feldzeit und Nachhall**
   Zeit wird nicht nur als Tick oder Index betrachtet. Im Feld zeigt sie sich als Nachhall, Wiederkehr, Nähe/Ferne, Drift und Integrationsqualität einer gewirkten Weltlage.
