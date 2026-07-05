@@ -263,6 +263,11 @@ Die bisherigen Ergebnisse lassen sich so einordnen:
 
   Siehe dazu [1539 Sleep Rollen Selektivität](docs/befunde/1539_SLEEP_ROLLEN_SELEKTIVITAET.md).
 
+- **Offene Rollen im Sleep-Milieu**
+  Eine weichere Sleep-Nähe berührt auch offene/ungeklärte Rollen, ohne eine feste Rolle zu erzwingen. SOL 2024 aktivierte bei `activation_floor=0.45` alle 5 Rollen, darunter 2 offene. Stress 2023 aktivierte bei `activation_floor=0.65` alle 7 Rollen, darunter 1 offene. Damit ist offene Rollenberührung möglich, aber noch keine neue Offline-Semantik gezeigt.
+
+  Siehe dazu [1540 Sleep offene Rollen Berührung](docs/befunde/1540_SLEEP_OFFENE_ROLLEN_BERUEHRUNG.md) und [004 Real Sleep Real Testprotokoll](docs/mechanik/004_REAL_SLEEP_REAL_TESTPROTOKOLL.md).
+
 - **Memory-Wiederverwendung**
   Bei erneutem Kontakt mit derselben strukturierten Welt erzeugt MINI_DIO keine neue Symbolstreuung. Die bekannten Rollen bleiben erhalten, und die Bedeutungsanzeige wird aktiv. Eine verwandte Holdout-Welt koppelt ebenfalls an dieselben Kernrollen an, jedoch mit geringerer Feldzeit und geringerem Nachhall. Das spricht für wiederverwendete Bedeutungsrollen statt bloßer Neubenennung.
 
