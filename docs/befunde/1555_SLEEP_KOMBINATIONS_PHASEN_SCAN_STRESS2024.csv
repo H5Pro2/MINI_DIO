@@ -1,0 +1,4 @@
+phase,activation_floor,active_role_set_count,touched_role_count,combination_trace_count,shared_with_phase_1,new_vs_phase_1,missing_vs_phase_1,jaccard_vs_phase_1,sleep_top_symbol,sleep_state,phase_reading
+1,0.75,1,1,0,0,0,0,1.0,dio_019bn1b,sleep_rekopplung:300,referenz_phase
+2,0.65,1,1,0,0,0,0,1.0,dio_019bn1b,sleep_rekopplung:300,sleep_combination_stable
+3,0.45,1,1,0,0,0,0,1.0,dio_019bn1b,sleep_rekopplung:300,sleep_combination_stable

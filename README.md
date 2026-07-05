@@ -293,6 +293,11 @@ Die bisherigen Ergebnisse lassen sich so einordnen:
 
   Siehe dazu [1553 Sleep-Kombinationsruecklesung Synthese](docs/befunde/1553_SLEEP_KOMBINATIONS_RUECKLESUNG_SYNTHESE.md).
 
+- **Sleep-Kombinationsphasen**
+  Bei SOL 2024 bleiben enge und normale Sleep-Naehe stabil bei 3 Kombinationen. Weichere Naehe erweitert auf 10 Kombinationen, ohne die urspruenglichen drei zu verlieren. Bei Stress 2024 bleibt Sleep dagegen eine Einzel-Rekopplung ohne Kombinationsfeld. Das zeigt: Offline-Kombinationsausbreitung ist weltabhaengig, nicht automatisch.
+
+  Siehe dazu [1556 Sleep-Kombinationsphasen Synthese](docs/befunde/1556_SLEEP_KOMBINATIONS_PHASEN_SYNTHESE.md).
+
 - **Memory-Wiederverwendung**
   Bei erneutem Kontakt mit derselben strukturierten Welt erzeugt MINI_DIO keine neue Symbolstreuung. Die bekannten Rollen bleiben erhalten, und die Bedeutungsanzeige wird aktiv. Eine verwandte Holdout-Welt koppelt ebenfalls an dieselben Kernrollen an, jedoch mit geringerer Feldzeit und geringerem Nachhall. Das spricht für wiederverwendete Bedeutungsrollen statt bloßer Neubenennung.
 
