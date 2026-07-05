@@ -333,6 +333,11 @@ Die bisherigen Ergebnisse lassen sich so einordnen:
 
   Siehe dazu [1571 Welt-Entwicklungsreichtum Diagnose](docs/befunde/1571_WELT_ENTWICKLUNGSREICHTUM_DIAGNOSE.md) und [1572 KAS1000 Sleep-Zwischenrollen Abgleich](docs/befunde/1572_KAS1000_SLEEP_ZWISCHENROLLEN_ABGLEICH.md).
 
+- **Kombinationsfeld vs Einzel-Rekopplung**
+  Der direkte Vergleich von SOL/BTC-Kombinationsfeldern mit PAXG/KAS-Einzel-Rekopplung zeigt: Rohwelt-Varianz liefert Material, aber sie erzeugt nicht automatisch mehrrollige Offline-Kombination. Entscheidend ist, ob mehrere MCM-Feldrollen im Innenfeld nahe genug gleichzeitig beruehrt werden. KAS kann also rohweltlich reich sein und dennoch auf eine dominante Feldrolle gebunden bleiben.
+
+  Siehe dazu [1573 Sleep-Kombination vs Einzel-Rekopplung](docs/befunde/1573_SLEEP_KOMBI_VS_EINZEL_REKOPPLUNG_FELDMERKMALE.md).
+
 - **Memory-Wiederverwendung**
   Bei erneutem Kontakt mit derselben strukturierten Welt erzeugt MINI_DIO keine neue Symbolstreuung. Die bekannten Rollen bleiben erhalten, und die Bedeutungsanzeige wird aktiv. Eine verwandte Holdout-Welt koppelt ebenfalls an dieselben Kernrollen an, jedoch mit geringerer Feldzeit und geringerem Nachhall. Das spricht für wiederverwendete Bedeutungsrollen statt bloßer Neubenennung.
 
