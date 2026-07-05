@@ -3,11 +3,16 @@ from __future__ import annotations
 import argparse
 import csv
 import json
+import sys
 from datetime import datetime
 from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
+
+from mini_dio.sleep_intermediate_memory import update_sleep_intermediate_memory_file
 
 
 def _rel(path: Path) -> str:
@@ -125,12 +130,17 @@ def _write_markdown(path: Path, summary: dict) -> None:
             "",
             summary["interpretation"],
             "",
-            "## Grenze",
-            "",
-            "Diese Kandidaten sind keine Handlung und keine sichere neue Semantik. Sie sind eine passive Messspur fuer Offline-Kombinationen, die spaeter teilweise wieder Weltnaehe finden.",
-            "",
-            "## Wie es weitergeht",
-            "",
+        "## Grenze",
+        "",
+        "Diese Kandidaten sind keine Handlung und keine sichere neue Semantik. Sie sind eine passive Messspur fuer Offline-Kombinationen, die spaeter teilweise wieder Weltnaehe finden.",
+        "",
+        "## Passiver Speicher",
+        "",
+        f"- Speicher: `{summary['intermediate_memory_path']}`",
+        f"- gespeicherte Kandidaten gesamt: `{summary['intermediate_memory_candidate_count']}`",
+        "",
+        "## Wie es weitergeht",
+        "",
             "Als naechstes sollte ein eigener passiver Speicher fuer solche Zwischenrollen-Kandidaten vorbereitet werden. Dieser Speicher darf nur dokumentieren, ob Kandidaten ueber mehrere Ketten stabil bleiben, driftend werden oder verschwinden.",
             "",
         ]
@@ -145,6 +155,7 @@ def analyze(
     stress_label: str,
     mosaic_label: str,
     out_path: Path,
+    memory_path: Path,
 ) -> dict:
     same = _combination_state_by_pair(_load_summary(same_label))
     quiet = _combination_state_by_pair(_load_summary(quiet_label))
@@ -207,12 +218,18 @@ def analyze(
         "rows": rows,
         "candidate_counts": counts,
         "interpretation": interpretation,
+        "intermediate_memory_path": "",
+        "intermediate_memory_candidate_count": 0,
         "passive_only": 1,
         "influences_action": 0,
         "is_gate": 0,
         "is_motoric": 0,
     }
     out_path = out_path if out_path.is_absolute() else ROOT / out_path
+    memory_path = memory_path if memory_path.is_absolute() else ROOT / memory_path
+    intermediate_memory = update_sleep_intermediate_memory_file(memory_path, summary)
+    summary["intermediate_memory_path"] = _rel(memory_path)
+    summary["intermediate_memory_candidate_count"] = int(intermediate_memory.get("candidate_count", 0) or 0)
     _write_csv(out_path.with_suffix(".csv"), rows)
     _write_markdown(out_path, summary)
     debug_path = ROOT / "debug" / "sleep_intermediate_candidates" / "sleep_intermediate_candidates.json"
@@ -228,6 +245,7 @@ def main() -> int:
     parser.add_argument("--stress-label", default="sol2024_soft_sleep_combo_stress2024")
     parser.add_argument("--mosaic-label", default="sol2024_soft_sleep_combo_mosaic1525")
     parser.add_argument("--out", default="docs/befunde/1562_SLEEP_ZWISCHENROLLEN_KANDIDATEN.md")
+    parser.add_argument("--memory", default="memory/sleep_intermediate_candidates/passive_sleep_intermediate_candidates.json")
     args = parser.parse_args()
     summary = analyze(
         same_label=str(args.same_label),
@@ -235,6 +253,7 @@ def main() -> int:
         stress_label=str(args.stress_label),
         mosaic_label=str(args.mosaic_label),
         out_path=Path(args.out),
+        memory_path=Path(args.memory),
     )
     print(json.dumps(summary, indent=2, sort_keys=True, ensure_ascii=False))
     return 0

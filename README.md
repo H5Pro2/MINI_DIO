@@ -304,7 +304,7 @@ Die bisherigen Ergebnisse lassen sich so einordnen:
   Siehe dazu [1561 Weiche Sleep-Kombinationen Ruecklesung Synthese](docs/befunde/1561_SOFT_SLEEP_KOMBI_RUECKLESUNG_SYNTHESE.md).
 
 - **Sleep-Zwischenrollen-Kandidaten**
-  Aus den 10 weichen Sleep-Kombinationen wurden 7 als passive Zwischenrollen-Kandidaten gelesen: voll ruecklesbar in der Ursprungswelt und mindestens teilweise anschlussfaehig in der ruhigen Folgewelt. 3 Kombinationen blieben dagegen nur ursprungsgebunden. Das ist noch keine neue autonome Semantik, aber eine messbare Zwischenstufe.
+  Aus den 10 weichen Sleep-Kombinationen wurden 7 als passive Zwischenrollen-Kandidaten gelesen: voll ruecklesbar in der Ursprungswelt und mindestens teilweise anschlussfaehig in der ruhigen Folgewelt. 3 Kombinationen blieben dagegen nur ursprungsgebunden. Das Tool schreibt zusaetzlich einen lokalen passiven Speicher unter `memory/sleep_intermediate_candidates/`; dieser Speicher bleibt vom Repository ausgeschlossen.
 
   Siehe dazu [1562 Sleep-Zwischenrollen Kandidaten](docs/befunde/1562_SLEEP_ZWISCHENROLLEN_KANDIDATEN.md).
 

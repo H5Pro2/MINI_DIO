@@ -1,6 +1,6 @@
 # Sleep-Zwischenrollen Kandidaten
 
-Stand: 2026-07-05 19:39:24
+Stand: 2026-07-05 19:56:04
 
 ## Zweck
 
@@ -42,6 +42,11 @@ Die weiche Sleep-Ausbreitung enthaelt Kandidaten fuer Zwischenrollen: Kombinatio
 ## Grenze
 
 Diese Kandidaten sind keine Handlung und keine sichere neue Semantik. Sie sind eine passive Messspur fuer Offline-Kombinationen, die spaeter teilweise wieder Weltnaehe finden.
+
+## Passiver Speicher
+
+- Speicher: `memory\sleep_intermediate_candidates\passive_sleep_intermediate_candidates.json`
+- gespeicherte Kandidaten gesamt: `7`
 
 ## Wie es weitergeht
 
