@@ -253,6 +253,11 @@ Die bisherigen Ergebnisse lassen sich so einordnen:
 
   Siehe dazu [1531 Schlaf-/Offline-Nachhall-Test](docs/befunde/1531_SCHLAF_OFFLINE_NACHHALL_TEST.md).
 
+- **Offline-Restreiz**
+  Wird die letzte Weltlage nach Kontakt gedämpft weitergeführt, bleibt die Symbolik ebenfalls stabil. Restreiz verlängert den Nachhall; bei vorheriger Stresswelt entsteht kurz Restunruhe. Das Feld driftet aber nicht frei, sondern rekoppelt weiter zentrumsnah.
+
+  Siehe dazu [1532 Offline-Restreiz und unterbewusste Verarbeitung](docs/befunde/1532_OFFLINE_RESTREIZ_UNTERBEWUSSTE_VERARBEITUNG.md).
+
 - **Feldzeit und Nachhall**
   Zeit wird nicht nur als Tick oder Index betrachtet. Im Feld zeigt sie sich als Nachhall, Wiederkehr, Nähe/Ferne, Drift und Integrationsqualität einer gewirkten Weltlage.
 

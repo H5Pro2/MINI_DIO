@@ -36,6 +36,16 @@ def _afterimages(field: MiniMCMField) -> list[float]:
     return [float(neuron.afterimage) for neuron in field.neurons]
 
 
+def _scale_senses(value, scale: float):
+    if isinstance(value, dict):
+        return {key: _scale_senses(item, scale) for key, item in value.items()}
+    if isinstance(value, bool):
+        return value
+    if isinstance(value, (int, float)):
+        return float(value) * scale
+    return value
+
+
 def _state_from_afterimage(afterimage_abs: float, signature_abs: float, drift: float) -> str:
     if afterimage_abs < 0.012 and signature_abs < 0.010:
         return "offline_center_quiet"
@@ -54,6 +64,9 @@ def run_sleep_test(
     sleep_ticks: int,
     sense_mode: str,
     label: str,
+    offline_mode: str,
+    sleep_decay: float,
+    sleep_intensity: float,
 ) -> tuple[dict, list[dict]]:
     candles = load_candles(data_path)
     if not candles:
@@ -66,12 +79,14 @@ def run_sleep_test(
     contact_symbols: Counter[str] = Counter()
     contact_signatures: list[float] = []
     contact_afterimages: list[float] = []
+    last_senses = _empty_senses()
 
     for index in range(1, contact_limit + 1):
         if sense_mode == "world_relative":
             senses = build_senses_world_relative(candles, index, profile=profile)
         else:
             senses = build_senses(candles, index)
+        last_senses = senses
         field_state = field.step(senses)
         symbol = make_syntax_symbol(senses, float(field_state["signature"]))
         contact_symbols[symbol] += 1
@@ -85,9 +100,16 @@ def run_sleep_test(
     first_sleep_afterimage = previous_afterimage
     first_sleep_signature = previous_signature
     empty_senses = _empty_senses()
+    offline_mode = str(offline_mode or "empty").strip().lower()
 
     for sleep_tick in range(1, max(1, int(sleep_ticks)) + 1):
-        field_state = field.step(empty_senses)
+        if offline_mode == "damped":
+            rest_scale = max(0.0, float(sleep_intensity)) * (max(0.0, float(sleep_decay)) ** (sleep_tick - 1))
+            sleep_senses = _scale_senses(last_senses, rest_scale)
+        else:
+            rest_scale = 0.0
+            sleep_senses = empty_senses
+        field_state = field.step(sleep_senses)
         signature = float(field_state["signature"])
         signature_abs = abs(signature)
         afterimage_abs = _mean_abs(_afterimages(field))
@@ -106,6 +128,8 @@ def run_sleep_test(
                 "afterimage_abs": f"{afterimage_abs:.9f}",
                 "signature_drift": f"{drift:.9f}",
                 "afterimage_delta": f"{afterimage_delta:.9f}",
+                "offline_mode": offline_mode,
+                "rest_scale": f"{rest_scale:.9f}",
                 "sleep_state": state,
                 "sleep_symbol": symbol,
             }
@@ -126,6 +150,9 @@ def run_sleep_test(
         "contact_ticks": contact_limit,
         "sleep_ticks": len(sleep_rows),
         "sense_mode": sense_mode,
+        "offline_mode": offline_mode,
+        "sleep_decay": float(sleep_decay),
+        "sleep_intensity": float(sleep_intensity),
         "contact_unique_symbols": len(contact_symbols),
         "contact_top_symbol": contact_symbols.most_common(1)[0][0] if contact_symbols else "-",
         "contact_top_symbol_count": contact_symbols.most_common(1)[0][1] if contact_symbols else 0,
@@ -155,6 +182,9 @@ def main() -> int:
     parser.add_argument("--contact-ticks", type=int, default=2000)
     parser.add_argument("--sleep-ticks", type=int, default=300)
     parser.add_argument("--sense-mode", choices=("fixed", "world_relative"), default="world_relative")
+    parser.add_argument("--offline-mode", choices=("empty", "damped"), default="empty")
+    parser.add_argument("--sleep-decay", type=float, default=0.92)
+    parser.add_argument("--sleep-intensity", type=float, default=0.35)
     parser.add_argument("--out-dir", default="debug/sleep_offline_test")
     args = parser.parse_args()
 
@@ -175,6 +205,9 @@ def main() -> int:
             sleep_ticks=args.sleep_ticks,
             sense_mode=args.sense_mode,
             label=label,
+            offline_mode=args.offline_mode,
+            sleep_decay=args.sleep_decay,
+            sleep_intensity=args.sleep_intensity,
         )
         summaries.append(summary)
         rows.extend(sleep_rows)

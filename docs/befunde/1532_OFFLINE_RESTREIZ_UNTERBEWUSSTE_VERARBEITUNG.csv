@@ -1,0 +1,7 @@
+world,offline_mode,sleep_intensity,sleep_decay,start_afterimage,end_afterimage,afterimage_release_ratio,center_rekopplung_ratio,residual_unrest_ratio,sleep_unique_symbols,sleep_top_symbol
+synthetic_1525,empty,0.00,0.00,0.119672558,0.000000000,1.000000000,0.976666667,0.000000000,1,dio_14wanbg
+synthetic_1525,damped_soft,0.35,0.92,0.119672558,0.000000000,1.000000000,0.970000000,0.000000000,1,dio_14wanbg
+synthetic_1525,damped_heavy,0.80,0.98,0.119672558,0.000177784,0.998514413,0.913333333,0.000000000,1,dio_14wanbg
+positive_stress_2024,empty,0.00,0.00,0.118786732,0.000000000,1.000000000,0.976666667,0.000000000,1,dio_14wanbg
+positive_stress_2024,damped_soft,0.35,0.92,0.118786732,0.000000000,1.000000000,0.953333333,0.000000000,1,dio_14wanbg
+positive_stress_2024,damped_heavy,0.80,0.98,0.118786732,0.000422763,0.996440991,0.773333333,0.056666667,1,dio_14wanbg
