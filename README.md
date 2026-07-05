@@ -343,6 +343,11 @@ Die bisherigen Ergebnisse lassen sich so einordnen:
 
   Siehe dazu [1574 Real-A-Mehrrollen-Kandidaten](docs/befunde/1574_REAL_A_MEHRROLLEN_KANDIDATEN.md) und [1575 SOL2024 Mehrrollen-Repro Fresh](docs/befunde/1575_SOL2024_MEHRROLLEN_REPRO_FRESH.md).
 
+- **Abstufung der Feldnaehe**
+  Der zweite frische Repro-Lauf mit BTC-1000 zeigt eine schmalere, aber ebenfalls reproduzierbare Zwischenklasse: 3 Real-A-Rollen, 2 lange tragende Rollen, 1 kurzer Strain-Kontakt, 3 Sleep-Kombinationen und 3 voll reaktivierte Kombinationen. Zusammen mit PAXG/KAS als Einzelrekopplung entsteht derzeit eine dreistufige Lesung: Einzelrolle, Uebergangsfeld, breites Mehrrollenfeld.
+
+  Siehe dazu [1576 BTC1000 Mehrrollen-Repro Fresh](docs/befunde/1576_BTC1000_MEHRROLLEN_REPRO_FRESH.md) und [1577 Mehrrollenfeld/Uebergangsfeld/Einzelrekopplung Synthese](docs/befunde/1577_MEHRROLLENFELD_UEBERGANGSFELD_EINZELREKOPPLUNG_SYNTHESE.md).
+
 - **Memory-Wiederverwendung**
   Bei erneutem Kontakt mit derselben strukturierten Welt erzeugt MINI_DIO keine neue Symbolstreuung. Die bekannten Rollen bleiben erhalten, und die Bedeutungsanzeige wird aktiv. Eine verwandte Holdout-Welt koppelt ebenfalls an dieselben Kernrollen an, jedoch mit geringerer Feldzeit und geringerem Nachhall. Das spricht für wiederverwendete Bedeutungsrollen statt bloßer Neubenennung.
 

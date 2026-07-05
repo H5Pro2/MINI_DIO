@@ -253,7 +253,7 @@ def _write_md(rows: list[dict[str, object]], path: Path) -> None:
             "",
             "## Wie es weitergeht",
             "",
-            "Als naechstes sollte ein zweiter, nicht identischer Mehrrollen-Kandidat mit frischem Memory geprueft werden. Entscheidend ist, ob mehrrollige Feldnaehe auch ausserhalb des SOL-2024-Referenzfensters reproduzierbar Sleep-Kombinationen traegt.",
+            "Als naechstes sollte aus SOL-Mehrrollenfeld, BTC-Uebergangsfeld und PAXG/KAS-Einzelrekopplung eine Klassensynthese gebaut werden. Entscheidend ist, ob sich daraus eine stabile Abstufung der MCM-Feldnaehe ergibt.",
             "",
         ]
     )

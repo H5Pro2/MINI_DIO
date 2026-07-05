@@ -1,6 +1,6 @@
 # Real-A-Mehrrollen-Kandidaten
 
-Stand: 2026-07-05 22:59:53
+Stand: 2026-07-05 23:10:40
 
 ## Grundfrage
 
@@ -39,6 +39,7 @@ Bewertet wird passiv:
 | sol2024_sleep_reorg_to_mosaic1525 | real_a_mehrrollen_ohne_sleep_nachweis | 5 | 3 | 3 | 2 | 0.9990 | 0.5878 | 0 | dio_mcm_episode_1k2bqha:field_carried:1172; dio_mcm_episode_1wra2fc:field_carried:602; dio_mcm_episode_0e7qvj1:field_carried:218; dio_mcm_episode_0eghs1d:field_strained:1; dio_mcm_episode_0qrlave:field_strained:1 |
 | sol2024_sleep_reorg_to_quiet2025 | real_a_mehrrollen_ohne_sleep_nachweis | 5 | 3 | 3 | 2 | 0.9990 | 0.5878 | 0 | dio_mcm_episode_1k2bqha:field_carried:1172; dio_mcm_episode_1wra2fc:field_carried:602; dio_mcm_episode_0e7qvj1:field_carried:218; dio_mcm_episode_0eghs1d:field_strained:1; dio_mcm_episode_0qrlave:field_strained:1 |
 | sol2024_sleep_reorg_to_stress2024 | real_a_mehrrollen_ohne_sleep_nachweis | 5 | 3 | 3 | 2 | 0.9990 | 0.5878 | 0 | dio_mcm_episode_1k2bqha:field_carried:1172; dio_mcm_episode_1wra2fc:field_carried:602; dio_mcm_episode_0e7qvj1:field_carried:218; dio_mcm_episode_0eghs1d:field_strained:1; dio_mcm_episode_0qrlave:field_strained:1 |
+| btc1000_multirole_repro_fresh | uebergang_mit_randkontakt | 3 | 2 | 2 | 1 | 0.9990 | 0.8068 | 3 | dio_mcm_episode_1k2bqha:field_carried:802; dio_mcm_episode_0e7qvj1:field_carried:191; dio_mcm_episode_0sjrih9:field_strained:1 |
 | btc1000_soft_sleep_combo_btc1h | uebergang_mit_randkontakt | 3 | 2 | 2 | 1 | 0.9990 | 0.8068 | 3 | dio_mcm_episode_1k2bqha:field_carried:802; dio_mcm_episode_0e7qvj1:field_carried:191; dio_mcm_episode_0sjrih9:field_strained:1 |
 | btc1000_soft_sleep_combo_btc2025 | uebergang_mit_randkontakt | 3 | 2 | 2 | 1 | 0.9990 | 0.8068 | 3 | dio_mcm_episode_1k2bqha:field_carried:802; dio_mcm_episode_0e7qvj1:field_carried:191; dio_mcm_episode_0sjrih9:field_strained:1 |
 | btc1000_soft_sleep_combo_mosaic_altseq | uebergang_mit_randkontakt | 3 | 2 | 2 | 1 | 0.9990 | 0.8068 | 3 | dio_mcm_episode_1k2bqha:field_carried:802; dio_mcm_episode_0e7qvj1:field_carried:191; dio_mcm_episode_0sjrih9:field_strained:1 |
@@ -54,8 +55,8 @@ Bewertet wird passiv:
 
 ## Lesung
 
-Mehrrollige Real-A-Kandidaten: `19` von `31`.
-Welten mit anschliessender Sleep-Kombination: `16` von `31`.
+Mehrrollige Real-A-Kandidaten: `19` von `32`.
+Welten mit anschliessender Sleep-Kombination: `17` von `32`.
 
 Der wichtige Punkt ist die Trennung zwischen kurzer Randberuehrung und wirklich getragener Mehrrollennaehe.
 Eine Welt kann mehrere Rollen erzeugen, ohne dass daraus automatisch eine Offline-Kombination entsteht.
@@ -67,4 +68,4 @@ Das ist eine Kandidatenkarte, kein Beweis. Sie nutzt vorhandene Laeufe und erzeu
 
 ## Wie es weitergeht
 
-Als naechstes sollte ein zweiter, nicht identischer Mehrrollen-Kandidat mit frischem Memory geprueft werden. Entscheidend ist, ob mehrrollige Feldnaehe auch ausserhalb des SOL-2024-Referenzfensters reproduzierbar Sleep-Kombinationen traegt.
+Als naechstes sollte aus SOL-Mehrrollenfeld, BTC-Uebergangsfeld und PAXG/KAS-Einzelrekopplung eine Klassensynthese gebaut werden. Entscheidend ist, ob sich daraus eine stabile Abstufung der MCM-Feldnaehe ergibt.
