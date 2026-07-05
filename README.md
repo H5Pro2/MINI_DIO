@@ -233,6 +233,11 @@ Die bisherigen Ergebnisse lassen sich so einordnen:
 
   Siehe dazu [1526-1527 Anti-Pareidolie Nullkontrollen](docs/befunde/1526_1527_ANTI_PAREIDOLIE_NULLKONTROLLEN.md).
 
+- **Feldzeit als Belastungsprüfung**
+  Die Feldzeitwerte unterscheiden strukturierte Welt, Nullwelt und Stresswelt messbar. In der strukturierten Mosaikwelt sind Nachhall und Feldzeit-Trust hoch. In Nullwelten sinken beide, während Symbolstreuung zunimmt. In der realen Stresswelt steigen Unrest und Kippnähe, Feldzeit-Trust fällt weiter ab. Das ist aktuell die stärkste methodische Grenze gegen reine Pareidolie.
+
+  Siehe dazu [1528 Feldzeit, Stress und Pareidolie-Grenze](docs/befunde/1528_FELDZEIT_STRESS_UND_PAREIDOLIE_GRENZE.md).
+
 - **Feldzeit und Nachhall**
   Zeit wird nicht nur als Tick oder Index betrachtet. Im Feld zeigt sie sich als Nachhall, Wiederkehr, Nähe/Ferne, Drift und Integrationsqualität einer gewirkten Weltlage.
 
