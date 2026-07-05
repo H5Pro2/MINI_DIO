@@ -353,6 +353,11 @@ Die bisherigen Ergebnisse lassen sich so einordnen:
 
   Siehe dazu [1580 DOGE/XRP 1000 Einzelrekopplung Gegenprobe](docs/befunde/1580_DOGE_XRP_1000_EINZELREKOPPLUNG_GEGENPROBE.md).
 
+- **Fensterabhängige Feldklassen**
+  Die Startfenster allein waren zu grob. Eine 30-Fenster-Suche über DOGE, XRP und BTC zeigt: Feldklassen sind nicht asset-fest, sondern lokal fensterabhängig. Aus 30 Fenstern entstanden 13 Einzelrekopplungen, 13 Übergangsfelder und 4 Mehrrollen-Kandidaten. DOGE und XRP können also im Startfenster Einzelrekopplung zeigen, später aber Übergang oder Mehrrollennähe ausbilden. Der XRP-Mehrrollen-Kandidat wurde anschließend reproduziert: Top-Syntax, Top-Familien und alle Sleep-Rollenkombinationen wurden im Folgelauf wiedergefunden.
+
+  Siehe dazu [1581 Mehrrollen-Fenstersuche DOGE/XRP/BTC](docs/befunde/1581_MEHRROLLEN_FENSTERSUCHE_DOGE_XRP_BTC.md), [1582 XRP1000 Mehrrollen-Repro](docs/befunde/1582_XRP1000_SCAN_START1000_MEHRROLLEN_REPRO.md) und [1583 Fensterabhängige Feldklassen](docs/befunde/1583_FENSTERABHAENGIGE_FELDKLASSEN_SYNTHESE.md).
+
 - **Memory-Wiederverwendung**
   Bei erneutem Kontakt mit derselben strukturierten Welt erzeugt MINI_DIO keine neue Symbolstreuung. Die bekannten Rollen bleiben erhalten, und die Bedeutungsanzeige wird aktiv. Eine verwandte Holdout-Welt koppelt ebenfalls an dieselben Kernrollen an, jedoch mit geringerer Feldzeit und geringerem Nachhall. Das spricht für wiederverwendete Bedeutungsrollen statt bloßer Neubenennung.
 
