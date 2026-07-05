@@ -243,6 +243,11 @@ Die bisherigen Ergebnisse lassen sich so einordnen:
 
   Siehe dazu [1529 Memory-Wiederverwendung und Feldzeit-Test](docs/befunde/1529_MEMORY_WIEDERVERWENDUNG_FELDZEIT_TEST.md).
 
+- **Stress-Memory**
+  Unter Stress bleibt die Bedeutungswiederverwendung ebenfalls messbar. Die Stresswelt wird aber nicht beruhigt oder umgedeutet: Nachhall und Feldzeit bleiben niedriger, Unruhe und Kippnähe höher. Memory macht die Lastlage wiedererkennbar, hebt sie aber nicht auf.
+
+  Siehe dazu [1530 Stress-Memory-Wiederverwendung](docs/befunde/1530_STRESS_MEMORY_WIEDERVERWENDUNG.md).
+
 - **Feldzeit und Nachhall**
   Zeit wird nicht nur als Tick oder Index betrachtet. Im Feld zeigt sie sich als Nachhall, Wiederkehr, Nähe/Ferne, Drift und Integrationsqualität einer gewirkten Weltlage.
 
