@@ -1,0 +1,7 @@
+welt,run,candles,unique_symbols,avg_mcm_carry_quality,avg_mcm_rekopplung_quality,avg_mcm_strain_quality,avg_afterimage,stable_ratio,carried_unrest_ratio,top_symbol,top_symbol_count,dio_0l7p_count,dio_1wdi_count,dio_14wj_count,dio_1fll_count,map_similarity
+1519_rekopplung_vor_rand,lauf_1,6100,174,0.5980,0.7461,0.1250,0.6954,0.9541,0.0450,dio_1fllaqz,3321,0,0,0,3321,0
+1519_rekopplung_vor_rand,lauf_2,6100,174,0.5982,0.7460,0.1249,0.6954,0.9541,0.0450,dio_1fllaqz,3321,0,0,0,6642,1
+1520_rekopplung_lang_vor_rand,lauf_1,7500,175,0.6028,0.7485,0.1241,0.7321,0.9590,0.0403,dio_1fllaqz,4361,0,0,0,4361,0
+1520_rekopplung_lang_vor_rand,lauf_2,7500,175,0.6029,0.7484,0.1240,0.7321,0.9590,0.0403,dio_1fllaqz,4361,0,0,0,8722,1
+1521_randrollen_full_mosaic,lauf_1,1200,85,0.5443,0.7169,0.1406,0.3666,0.8719,0.1281,dio_0l7pvdk,134,134,94,65,40,0
+1521_randrollen_full_mosaic,lauf_2,1200,85,0.5447,0.7165,0.1404,0.3666,0.8719,0.1281,dio_0l7pvdk,134,268,188,130,80,1
