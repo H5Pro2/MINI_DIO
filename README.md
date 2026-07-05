@@ -338,6 +338,11 @@ Die bisherigen Ergebnisse lassen sich so einordnen:
 
   Siehe dazu [1573 Sleep-Kombination vs Einzel-Rekopplung](docs/befunde/1573_SLEEP_KOMBI_VS_EINZEL_REKOPPLUNG_FELDMERKMALE.md).
 
+- **Real-A-Mehrrollen-Reproduktion**
+  Eine Kandidatenkarte ueber die vorhandenen Real-Sleep-Real-Laeufe trennt kurze Randberuehrung von getragener Mehrrollennaehe. Der staerkste SOL-2024-Kandidat wurde mit frischem Memory erneut ausgefuehrt und reproduzierte dieselbe Rollenstruktur: 5 Real-A-Rollen, davon 3 lange tragende Rollen, 2 kurze Strain-Kontakte, 10 Sleep-Kombinationen und 10 voll reaktivierte Kombinationen im Folgelauf. Damit wird die SOL-Mehrrollennaehe aktuell als reproduzierbarer Feldbefund lesbar.
+
+  Siehe dazu [1574 Real-A-Mehrrollen-Kandidaten](docs/befunde/1574_REAL_A_MEHRROLLEN_KANDIDATEN.md) und [1575 SOL2024 Mehrrollen-Repro Fresh](docs/befunde/1575_SOL2024_MEHRROLLEN_REPRO_FRESH.md).
+
 - **Memory-Wiederverwendung**
   Bei erneutem Kontakt mit derselben strukturierten Welt erzeugt MINI_DIO keine neue Symbolstreuung. Die bekannten Rollen bleiben erhalten, und die Bedeutungsanzeige wird aktiv. Eine verwandte Holdout-Welt koppelt ebenfalls an dieselben Kernrollen an, jedoch mit geringerer Feldzeit und geringerem Nachhall. Das spricht für wiederverwendete Bedeutungsrollen statt bloßer Neubenennung.
 
