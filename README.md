@@ -363,6 +363,11 @@ Die bisherigen Ergebnisse lassen sich so einordnen:
 
   Siehe dazu [1584 Feldklassen-Fenstersuche Weltarten](docs/befunde/1584_FELDKLASSEN_FENSTERSUCHE_WELTARTEN.md) und [1585 Weltarten-Fensterklassen](docs/befunde/1585_WELTARTEN_FENSTERKLASSEN_SYNTHESE.md).
 
+- **Fensterbreite als Feldzeit-Verdichtung**
+  Die 7/2-Struktur der 1000er-Fenster ist keine feste Regel. Bei 500er-Fenstern dominiert Einzelrekopplung stärker (62 von 72), bei 2000er-Fenstern nehmen Übergänge zu und ein synthetischer Rand-/Kipp-Ausschnitt bildet Mehrrollen-Nähe. Damit wird Feldklasse als Weltphase über Feldzeit lesbar: kurze Fenster zeigen eher Momentdominanz, längere Fenster tragen mehr Nachhall, Rollenwechsel und Verdichtung.
+
+  Siehe dazu [1586 Weltarten 500er Fenster](docs/befunde/1586_FELDKLASSEN_FENSTERSUCHE_WELTARTEN_500.md), [1587 Weltarten 2000er Fenster](docs/befunde/1587_FELDKLASSEN_FENSTERSUCHE_WELTARTEN_2000.md) und [1588 Fensterbreite und Feldklassen-Verdichtung](docs/befunde/1588_FENSTERBREITE_UND_FELDKLASSEN_VERDICHTUNG.md).
+
 - **Memory-Wiederverwendung**
   Bei erneutem Kontakt mit derselben strukturierten Welt erzeugt MINI_DIO keine neue Symbolstreuung. Die bekannten Rollen bleiben erhalten, und die Bedeutungsanzeige wird aktiv. Eine verwandte Holdout-Welt koppelt ebenfalls an dieselben Kernrollen an, jedoch mit geringerer Feldzeit und geringerem Nachhall. Das spricht für wiederverwendete Bedeutungsrollen statt bloßer Neubenennung.
 
