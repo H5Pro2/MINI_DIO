@@ -1,11 +1,11 @@
 # Real-Sleep-Real Passive Reorganisation
 
-Stand: 2026-07-05 15:10:32
+Stand: 2026-07-05 15:53:15
 
 ## Zweck
 
-Diese Kette prueft, was sich zwischen zwei gleichen Real-Welt-Beruehrungen veraendert,
-wenn dazwischen eine entkoppelte MCM-Schlafdiagnose liegt.
+Diese Kette prueft, was sich zwischen zwei Real-Welt-Beruehrungen veraendert,
+wenn dazwischen eine entkoppelte MCM-Schlafdiagnose liegt. Real-B kann dieselbe oder eine andere Welt sein.
 
 Wichtig: In diesem Lauf schreibt die Schlafphase eine passive Reorganisationsspur.
 Diese Spur markiert nur beruehrte bestehende Rollen; sie erzeugt keine neue Weltbedeutung,
@@ -13,7 +13,9 @@ keine Richtung, kein Gate und keine Handlung.
 
 ## Kette
 
-- Welt: `data\kontrolliert_sol_2024_5m_test1_2000_SOLUSDT.csv`
+- Real A Welt: `data\kontrolliert_sol_2024_5m_test1_2000_SOLUSDT.csv`
+- Real B Welt: `data\kontrolliert_sol_2024_5m_test1_2000_SOLUSDT.csv`
+- gleiche Welt: `True`
 - Real A Memory: `memory\real_sleep_real\sol2024_5m_2000_sleep_reorg\memory_A_real_run.json`
 - Sleep Diagnose: `debug\real_sleep_real\sol2024_5m_2000_sleep_reorg\sleep`
 - Memory nach Sleep: `memory\real_sleep_real\sol2024_5m_2000_sleep_reorg\memory_A_after_sleep.json`
@@ -38,10 +40,18 @@ keine Richtung, kein Gate und keine Handlung.
 - Sleep Unique Syntax: `1`
 - mittlerer Nachhall: `0.027274`
 - passive Sleep-Memory geschrieben: `True`
+- Sleep-Rollen-Reaktivierung: `3` / `3`
+- Sleep-Follow-up-Zustand: `sleep_roles_fully_reactivated`
 
 Sleep-Zustaende:
 
 - `sleep_rekopplung`: `300`
+
+Sleep-Rollen im Real-B-Follow-up:
+
+- `dio_mcm_episode_1k2bqha`: `sleep_role_reactivated_in_follow_world` (`1` -> `2`)
+- `dio_mcm_episode_0e7qvj1`: `sleep_role_reactivated_in_follow_world` (`1` -> `2`)
+- `dio_mcm_episode_1wra2fc`: `sleep_role_reactivated_in_follow_world` (`1` -> `2`)
 
 ## Bewertung
 

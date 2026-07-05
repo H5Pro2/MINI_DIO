@@ -92,6 +92,82 @@ def _summarize_memory(memory_path: Path) -> dict:
     }
 
 
+def _read_sleep_reorganization_followup(before_path: Path, after_path: Path) -> dict:
+    """Passively read whether sleep-touched roles recur in the follow world."""
+
+    before = _load_json(before_path)
+    after = _load_json(after_path)
+    sleep_memory = dict(before.get("passive_sleep_reorganization_memory", {}) or {})
+    touched = list(sleep_memory.get("touched_roles", []) or [])
+    before_episodes = dict(before.get("mcm_field_episode_memory", {}) or {})
+    after_episodes = dict(after.get("mcm_field_episode_memory", {}) or {})
+    role_rows = []
+    reactivated = 0
+    unchanged = 0
+    missing = 0
+    for item in touched:
+        if not isinstance(item, dict):
+            continue
+        role = str(item.get("role", "") or "")
+        if not role:
+            continue
+        before_entry = dict(before_episodes.get(role, {}) or {})
+        after_entry = dict(after_episodes.get(role, {}) or {})
+        before_seen = int(before_entry.get("seen_count", 0) or 0)
+        after_seen = int(after_entry.get("seen_count", 0) or 0)
+        delta = after_seen - before_seen
+        if not after_entry:
+            state = "sleep_role_missing_after_follow_world"
+            missing += 1
+        elif delta > 0:
+            state = "sleep_role_reactivated_in_follow_world"
+            reactivated += 1
+        else:
+            state = "sleep_role_unchanged_in_follow_world"
+            unchanged += 1
+        role_rows.append(
+            {
+                "role": role,
+                "followup_state": state,
+                "seen_before_follow": before_seen,
+                "seen_after_follow": after_seen,
+                "seen_delta": delta,
+                "source_episode_state": str(item.get("source_episode_state", "") or ""),
+                "source_transition": str(item.get("source_transition", "") or ""),
+                "avg_sleep_resonance": float(item.get("avg_sleep_resonance", 0.0) or 0.0),
+                "passive_only": 1,
+                "influences_action": 0,
+                "is_gate": 0,
+                "is_motoric": 0,
+            }
+        )
+    total = len(role_rows)
+    if total <= 0:
+        followup_state = "sleep_followup_unavailable"
+    elif reactivated == total:
+        followup_state = "sleep_roles_fully_reactivated"
+    elif reactivated > 0:
+        followup_state = "sleep_roles_partly_reactivated"
+    elif unchanged == total:
+        followup_state = "sleep_roles_not_reactivated"
+    else:
+        followup_state = "sleep_roles_mixed_or_missing"
+    return {
+        "kind": "passive_sleep_reorganization_followup",
+        "followup_state": followup_state,
+        "touched_role_count": total,
+        "reactivated_role_count": reactivated,
+        "unchanged_role_count": unchanged,
+        "missing_role_count": missing,
+        "reactivation_ratio": round(reactivated / max(1, total), 6),
+        "roles": role_rows,
+        "passive_only": 1,
+        "influences_action": 0,
+        "is_gate": 0,
+        "is_motoric": 0,
+    }
+
+
 def _run_mini(data_path: Path, memory_path: Path, debug_root: Path, runs: int, reset_memory: bool, sense_mode: str) -> None:
     command = [
         sys.executable,
@@ -185,6 +261,7 @@ def _write_markdown(path: Path, summary: dict) -> None:
     comparison = summary["comparison"]
     metrics = comparison["metrics"]
     sleep = summary["sleep_summary"]
+    sleep_followup = dict(summary.get("sleep_reorganization_followup", {}) or {})
     title = (
         "Real-Sleep-Real Passive Reorganisation"
         if bool(summary.get("sleep_memory_reorganization_written", False))
@@ -245,12 +322,21 @@ def _write_markdown(path: Path, summary: dict) -> None:
         f"- Sleep Unique Syntax: `{sleep.get('sleep_unique_symbols', 0)}`",
         f"- mittlerer Nachhall: `{round(float(sleep.get('avg_afterimage_abs', 0.0) or 0.0), 6)}`",
         f"- passive Sleep-Memory geschrieben: `{bool(summary.get('sleep_memory_reorganization_written', False))}`",
+        f"- Sleep-Rollen-Reaktivierung: `{sleep_followup.get('reactivated_role_count', 0)}` / `{sleep_followup.get('touched_role_count', 0)}`",
+        f"- Sleep-Follow-up-Zustand: `{sleep_followup.get('followup_state', '-')}`",
         "",
         "Sleep-Zustaende:",
         "",
     ]
     for key, value in sorted((sleep.get("state_counts", {}) or {}).items()):
         lines.append(f"- `{key}`: `{value}`")
+    if sleep_followup:
+        lines.extend(["", "Sleep-Rollen im Real-B-Follow-up:", ""])
+        for role in sleep_followup.get("roles", []) or []:
+            lines.append(
+                f"- `{role.get('role', '-')}`: `{role.get('followup_state', '-')}` "
+                f"(`{role.get('seen_before_follow', 0)}` -> `{role.get('seen_after_follow', 0)}`)"
+            )
     lines.extend(
         [
             "",
@@ -367,6 +453,7 @@ def run_chain(
     shutil.copy2(memory_after_sleep, memory_b)
     _run_mini(follow_data_path, memory_b, real_b_debug, runs=1, reset_memory=False, sense_mode=sense_mode)
     real_b_report = _load_json(_report_path(real_b_debug, 2))
+    sleep_reorganization_followup = _read_sleep_reorganization_followup(memory_after_sleep, memory_b)
 
     comparison = _compare_reports(real_a_report, real_b_report)
     summary = {
@@ -389,9 +476,11 @@ def run_chain(
         "memory_b_summary": _summarize_memory(memory_b),
         "sleep_summary": sleep_summary,
         "sleep_reorganization_memory": sleep_reorganization_memory,
+        "sleep_reorganization_followup": sleep_reorganization_followup,
         "comparison": comparison,
     }
     _write_json(run_debug_root / "real_sleep_real_summary.json", summary)
+    _write_json(run_debug_root / "sleep_reorganization_followup.json", sleep_reorganization_followup)
     _write_compare_csv(run_debug_root / "real_sleep_real_compare.csv", comparison)
     _write_compare_csv(out_path.with_suffix(".csv"), comparison)
     _write_markdown(out_path, summary)

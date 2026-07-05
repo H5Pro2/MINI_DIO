@@ -1,6 +1,6 @@
 # Real-Sleep-Real Passive Reorganisation
 
-Stand: 2026-07-05 15:21:43
+Stand: 2026-07-05 15:53:16
 
 ## Zweck
 
@@ -40,10 +40,18 @@ keine Richtung, kein Gate und keine Handlung.
 - Sleep Unique Syntax: `1`
 - mittlerer Nachhall: `0.027274`
 - passive Sleep-Memory geschrieben: `True`
+- Sleep-Rollen-Reaktivierung: `2` / `3`
+- Sleep-Follow-up-Zustand: `sleep_roles_partly_reactivated`
 
 Sleep-Zustaende:
 
 - `sleep_rekopplung`: `300`
+
+Sleep-Rollen im Real-B-Follow-up:
+
+- `dio_mcm_episode_1k2bqha`: `sleep_role_reactivated_in_follow_world` (`1` -> `2`)
+- `dio_mcm_episode_0e7qvj1`: `sleep_role_reactivated_in_follow_world` (`1` -> `2`)
+- `dio_mcm_episode_1wra2fc`: `sleep_role_unchanged_in_follow_world` (`1` -> `1`)
 
 ## Bewertung
 

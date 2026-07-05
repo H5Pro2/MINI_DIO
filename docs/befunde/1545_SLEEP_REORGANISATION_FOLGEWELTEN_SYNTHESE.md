@@ -22,11 +22,11 @@ Diese Spur markiert beruehrte bestehende Rollen. Sie erzeugt keine neue Weltbede
 
 ## Ergebnisuebersicht
 
-| Pruefung | Real B Welt | Top-Syntax | Top-Familien | MCM-Tragqualitaet | MCM-Rekopplung | Lesung |
-|---|---|---:|---:|---:|---:|---|
-| 1541 Baseline | gleiche SOL-Welt | 1.000000 | 1.000000 | 0.510684 | 0.692524 | Wiederholung bleibt stabil |
-| 1543 SOL-Folgewelt | SOL Bridge 2024 | 0.600000 | 1.000000 | 0.497263 | 0.686759 | Familien bleiben, Oberflaeche verschiebt |
-| 1544 BTC-Gegenpruefung | BTC 2024 | 0.777778 | 0.777778 | 0.513118 | 0.695028 | assetuebergreifende Teilankopplung |
+| Pruefung | Real B Welt | Top-Syntax | Top-Familien | Sleep-Rollen reaktiviert | MCM-Tragqualitaet | MCM-Rekopplung | Lesung |
+|---|---|---:|---:|---:|---:|---:|---|
+| 1542 gleiche Welt | gleiche SOL-Welt | 1.000000 | 1.000000 | 3/3 | 0.510684 | 0.692524 | Wiederholung bleibt stabil |
+| 1543 SOL-Folgewelt | SOL Bridge 2024 | 0.600000 | 1.000000 | 2/3 | 0.497263 | 0.686759 | Familien bleiben, Oberflaeche verschiebt |
+| 1544 BTC-Gegenpruefung | BTC 2024 | 0.777778 | 0.777778 | 2/3 | 0.513118 | 0.695028 | assetuebergreifende Teilankopplung |
 
 ## Schlafspur
 
@@ -51,6 +51,16 @@ sleep_focused_role_touch
 ```
 
 gelesen.
+
+Die passive Ruecklesung im Real-B-Lauf zeigt:
+
+```text
+gleiche Welt:       3/3 Sleep-Rollen reaktiviert
+SOL-Folgewelt:      2/3 Sleep-Rollen reaktiviert
+BTC-Gegenpruefung:  2/3 Sleep-Rollen reaktiviert
+```
+
+Damit ist die Sleep-Spur nicht nur eine isolierte Offline-Markierung. Sie bleibt bei spaeterem Weltkontakt messbar anschlussfaehig. Die Anschlussfaehigkeit ist aber gestuft: voll bei gleicher Welt, teilweise bei verwandter oder assetuebergreifender Folgewelt.
 
 ## Fachliche Lesung
 
@@ -82,6 +92,19 @@ assetuebergreifende Feldnaehe
 
 Es ist aber noch kein Beweis, dass Sleep diese Naehe verursacht. Die Sleep-Spur wird aktuell gespeichert, aber noch nicht als aktive Leseschicht verwendet.
 
+Neu nach passiver Ruecklesung:
+
+```text
+Die im Schlaf beruehrten Rollen tauchen im Real-B-Lauf teilweise wieder auf.
+```
+
+Das ist staerker als reine Dokumentation, aber schwaecher als aktive Kontextbildung. Fachlich sauber ist daher:
+
+```text
+Offline beruehrte Feldrollen koennen bei spaeterem Weltkontakt wieder anschliessen.
+Ob daraus neue Kontexte entstehen, ist noch offen.
+```
+
 ## Grenze
 
 Die aktuelle Stufe trennt sauber:
@@ -110,4 +133,4 @@ Tauchen im Schlaf beruehrte Rollen im Real-Lauf wieder auf?
 Werden sie klarer, driftender oder bleiben sie neutral?
 ```
 
-Erst danach kann sinnvoll geprueft werden, ob Sleep mehr ist als Rollenmarkierung.
+Der erste Teil ist jetzt technisch umgesetzt: Die beruehrten Rollen werden passiv rueckgelesen. Als naechstes muss diese Ruecklesung ueber mehr Welten laufen, besonders Stress-, Ruhe- und Mischwelten.
