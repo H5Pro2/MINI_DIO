@@ -243,6 +243,11 @@ Die bisherigen Ergebnisse lassen sich so einordnen:
 
   Siehe dazu [1535 Sleep Field Environment und Episodenresonanz](docs/befunde/1535_SLEEP_FIELD_ENVIRONMENT_EPISODENRESONANZ.md).
 
+- **Sleep-Binding-Follow-up**
+  Die erste Folgeprüfung trennt Offline-Rekopplung von neuer Bedeutung. `dio_019bn1b` tauchte in den geprüften realen Memories nicht als normales Weltsymbol wieder auf. Wiedergefunden wurden dagegen aktive Episodenrollen. Aktuell spricht das eher für Festigung oder Wiederberührung alter Muster als für eine neue weltunabhängige Offline-Semantik.
+
+  Siehe dazu [1536 Sleep Binding Follow-up Prüfung](docs/befunde/1536_SLEEP_BINDING_FOLLOWUP_PRUEFUNG.md).
+
 - **Memory-Wiederverwendung**
   Bei erneutem Kontakt mit derselben strukturierten Welt erzeugt MINI_DIO keine neue Symbolstreuung. Die bekannten Rollen bleiben erhalten, und die Bedeutungsanzeige wird aktiv. Eine verwandte Holdout-Welt koppelt ebenfalls an dieselben Kernrollen an, jedoch mit geringerer Feldzeit und geringerem Nachhall. Das spricht für wiederverwendete Bedeutungsrollen statt bloßer Neubenennung.
 
