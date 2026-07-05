@@ -323,6 +323,11 @@ Die bisherigen Ergebnisse lassen sich so einordnen:
 
   Siehe dazu [1569 BTC1000 Sleep-Zwischenrollen Kandidaten](docs/befunde/1569_BTC1000_SLEEP_ZWISCHENROLLEN_KANDIDATEN.md).
 
+- **PAXG-Zwischenrollen-Abgleich**
+  PAXG-2024-5m mit 1000 Zeilen wurde als dritte Ausgangswelt gegen denselben Speicher geprueft. In diesem Fenster entstand nur eine rekopplungstragende Offline-Rolle und keine Kombination. Der Zwischenrollen-Speicher blieb bei `9` Kandidaten. Damit waechst der Speicher nicht automatisch bei jeder neuen Welt; er erweitert sich nur, wenn die Offline-Feldlage mehrere gemeinsam ruecklesbare Rollen bildet.
+
+  Siehe dazu [1570 PAXG1000 Sleep-Zwischenrollen Abgleich](docs/befunde/1570_PAXG1000_SLEEP_ZWISCHENROLLEN_ABGLEICH.md).
+
 - **Memory-Wiederverwendung**
   Bei erneutem Kontakt mit derselben strukturierten Welt erzeugt MINI_DIO keine neue Symbolstreuung. Die bekannten Rollen bleiben erhalten, und die Bedeutungsanzeige wird aktiv. Eine verwandte Holdout-Welt koppelt ebenfalls an dieselben Kernrollen an, jedoch mit geringerer Feldzeit und geringerem Nachhall. Das spricht für wiederverwendete Bedeutungsrollen statt bloßer Neubenennung.
 
