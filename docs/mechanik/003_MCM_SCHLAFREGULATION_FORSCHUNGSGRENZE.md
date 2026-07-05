@@ -66,13 +66,13 @@ Die neue Bedeutung entsteht nicht aus neuer Aussenwelt,
 sondern aus der inneren Rekombination bereits erlebter Feldspuren.
 ```
 
-Eine solche Bedeutung waere erst dann relevant, wenn sie spaeter bei realem Weltkontakt wieder erkennbar wird:
+Eine solche Bedeutung bleibt eine offene Forschungsvariante. Geprueft werden kann, ob sie spaeter in realer Lage wieder auftaucht oder ob alte Muster sichtbar gefestigt werden.
 
 ```text
-Offline entstandene Bindung
-  -> spaeterer Weltkontakt
-  -> "das kenne ich" im Feld
-  -> wiedererkennbare MCM-Rolle
+unterbewusst entstandenes oder verarbeitetes Muster
+  -> spaetere reale Lage
+  -> aehnliche MCM-Rolle taucht wieder auf
+  -> alte Muster werden gefestigt oder neu verbunden
 ```
 
 ## Was Gemessen Werden Soll
@@ -87,7 +87,8 @@ Sie soll messen:
 - Nachhall,
 - Spannungsrest,
 - neue Symbolbindung,
-- Wiedererkennung spaeterer Weltkontakte,
+- Wiederauftauchen spaeterer realer Lagen,
+- Festigung alter Muster,
 - Trennung zwischen alter Spur und neuer Bindung.
 
 ## Harte Grenze
@@ -103,9 +104,9 @@ Richtung ableiten
 Offline-Bedeutung als Realitaet behandeln
 ```
 
-Eine Offline-Bedeutung ist erst eine innere Bindung.
+Eine Offline-Bedeutung ist zuerst nur eine innere Bindung.
 
-Sie wird nur dann wichtiger, wenn sie spaeter durch Weltkontakt wieder getragen wird.
+Ob sie spaeter Bedeutung im realen Kontakt traegt, ist keine Vorgabe, sondern eine eigene Prueffrage.
 
 ## Kurzform
 
@@ -113,6 +114,5 @@ Sie wird nur dann wichtiger, wenn sie spaeter durch Weltkontakt wieder getragen 
 MCM-Schlafregulation untersucht Aktivitaet im entkoppelten Feld.
 Sie fragt, welche Erlebnisspuren Bedeutung tragen.
 Sie prueft, ob daraus neue semantische Bindungen entstehen.
-Diese Bindungen muessen spaeter an realem Weltkontakt rueckgekoppelt werden.
+Eine moegliche Folgepruefung ist, ob solche Muster spaeter in realer Lage wieder auftauchen oder alte Muster festigen.
 ```
-

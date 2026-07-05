@@ -20,6 +20,8 @@ Bleibt im entkoppelten MCM-Feld Aktivitaet sichtbar?
 Welche Erlebnisspuren werden verarbeitet?
 Welche davon tragen Bedeutung?
 Kann daraus spaeter eine neue semantische Bindung entstehen?
+Taucht ein so verarbeitetes Muster spaeter in realer Lage wieder auf?
+Festigen sich alte Muster?
 ```
 
 Die Staerke der Aktivitaet ist dabei nachrangig. Zuerst zaehlt, ob Aktivitaet stabil messbar ist und ob sie an gespeicherte Feldspuren gebunden bleibt.
