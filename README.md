@@ -258,6 +258,11 @@ Die bisherigen Ergebnisse lassen sich so einordnen:
 
   Siehe dazu [1532 Offline-Restreiz und unterbewusste Verarbeitung](docs/befunde/1532_OFFLINE_RESTREIZ_UNTERBEWUSSTE_VERARBEITUNG.md).
 
+- **Zyklische Offlinephase**
+  Eine wiederholte Offlinefolge aus Restreiz, Leerphase, Memory-Restreiz und Leer-Rekopplung aktiviert alte Feldspuren erneut, ohne neue Außenwelt. Bisher entsteht dabei keine neue Symbolstreuung; Stressrest bleibt länger aktiv, wird aber weiter rekoppelnd gehalten.
+
+  Siehe dazu [1533 Zyklische Offlinephase](docs/befunde/1533_ZYKLISCHE_OFFLINEPHASE_RESTREIZ_MEMORY.md).
+
 - **Feldzeit und Nachhall**
   Zeit wird nicht nur als Tick oder Index betrachtet. Im Feld zeigt sie sich als Nachhall, Wiederkehr, Nähe/Ferne, Drift und Integrationsqualität einer gewirkten Weltlage.
 

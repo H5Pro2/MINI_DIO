@@ -67,6 +67,8 @@ def run_sleep_test(
     offline_mode: str,
     sleep_decay: float,
     sleep_intensity: float,
+    cycle_ticks: int,
+    memory_rest_multiplier: float,
 ) -> tuple[dict, list[dict]]:
     candles = load_candles(data_path)
     if not candles:
@@ -106,9 +108,36 @@ def run_sleep_test(
         if offline_mode == "damped":
             rest_scale = max(0.0, float(sleep_intensity)) * (max(0.0, float(sleep_decay)) ** (sleep_tick - 1))
             sleep_senses = _scale_senses(last_senses, rest_scale)
+            offline_phase = "restreiz"
+        elif offline_mode == "cyclic":
+            cycle = max(4, int(cycle_ticks))
+            quarter = max(1, cycle // 4)
+            phase_tick = (sleep_tick - 1) % cycle
+            phase_index = phase_tick % quarter
+            if phase_tick < quarter:
+                offline_phase = "restreiz"
+                rest_scale = max(0.0, float(sleep_intensity)) * (max(0.0, float(sleep_decay)) ** phase_index)
+                sleep_senses = _scale_senses(last_senses, rest_scale)
+            elif phase_tick < quarter * 2:
+                offline_phase = "leerphase"
+                rest_scale = 0.0
+                sleep_senses = empty_senses
+            elif phase_tick < quarter * 3:
+                offline_phase = "memory_restreiz"
+                rest_scale = (
+                    max(0.0, float(sleep_intensity))
+                    * max(0.0, float(memory_rest_multiplier))
+                    * (max(0.0, float(sleep_decay)) ** phase_index)
+                )
+                sleep_senses = _scale_senses(last_senses, rest_scale)
+            else:
+                offline_phase = "leer_rekopplung"
+                rest_scale = 0.0
+                sleep_senses = empty_senses
         else:
             rest_scale = 0.0
             sleep_senses = empty_senses
+            offline_phase = "leer"
         field_state = field.step(sleep_senses)
         signature = float(field_state["signature"])
         signature_abs = abs(signature)
@@ -129,6 +158,7 @@ def run_sleep_test(
                 "signature_drift": f"{drift:.9f}",
                 "afterimage_delta": f"{afterimage_delta:.9f}",
                 "offline_mode": offline_mode,
+                "offline_phase": offline_phase,
                 "rest_scale": f"{rest_scale:.9f}",
                 "sleep_state": state,
                 "sleep_symbol": symbol,
@@ -138,6 +168,7 @@ def run_sleep_test(
         previous_afterimage = afterimage_abs
 
     state_counter = Counter(row["sleep_state"] for row in sleep_rows)
+    phase_counter = Counter(row["offline_phase"] for row in sleep_rows)
     final_afterimage = float(sleep_rows[-1]["afterimage_abs"])
     final_signature = float(sleep_rows[-1]["signature"])
     final_signature_abs = abs(final_signature)
@@ -153,6 +184,8 @@ def run_sleep_test(
         "offline_mode": offline_mode,
         "sleep_decay": float(sleep_decay),
         "sleep_intensity": float(sleep_intensity),
+        "cycle_ticks": int(cycle_ticks),
+        "memory_rest_multiplier": float(memory_rest_multiplier),
         "contact_unique_symbols": len(contact_symbols),
         "contact_top_symbol": contact_symbols.most_common(1)[0][0] if contact_symbols else "-",
         "contact_top_symbol_count": contact_symbols.most_common(1)[0][1] if contact_symbols else 0,
@@ -171,6 +204,7 @@ def run_sleep_test(
         "center_rekopplung_ratio": center_ticks / max(1, len(sleep_rows)),
         "residual_unrest_ratio": residual_ticks / max(1, len(sleep_rows)),
         "sleep_state_counts": dict(state_counter),
+        "offline_phase_counts": dict(phase_counter),
     }
     return summary, sleep_rows
 
@@ -182,9 +216,11 @@ def main() -> int:
     parser.add_argument("--contact-ticks", type=int, default=2000)
     parser.add_argument("--sleep-ticks", type=int, default=300)
     parser.add_argument("--sense-mode", choices=("fixed", "world_relative"), default="world_relative")
-    parser.add_argument("--offline-mode", choices=("empty", "damped"), default="empty")
+    parser.add_argument("--offline-mode", choices=("empty", "damped", "cyclic"), default="empty")
     parser.add_argument("--sleep-decay", type=float, default=0.92)
     parser.add_argument("--sleep-intensity", type=float, default=0.35)
+    parser.add_argument("--cycle-ticks", type=int, default=80)
+    parser.add_argument("--memory-rest-multiplier", type=float, default=0.55)
     parser.add_argument("--out-dir", default="debug/sleep_offline_test")
     args = parser.parse_args()
 
@@ -208,6 +244,8 @@ def main() -> int:
             offline_mode=args.offline_mode,
             sleep_decay=args.sleep_decay,
             sleep_intensity=args.sleep_intensity,
+            cycle_ticks=args.cycle_ticks,
+            memory_rest_multiplier=args.memory_rest_multiplier,
         )
         summaries.append(summary)
         rows.extend(sleep_rows)

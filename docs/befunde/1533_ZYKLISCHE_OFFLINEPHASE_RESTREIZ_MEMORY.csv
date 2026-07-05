@@ -1,0 +1,3 @@
+world,offline_mode,cycle_ticks,sleep_intensity,sleep_decay,memory_rest_multiplier,sleep_unique_symbols,sleep_top_symbol,center_rekopplung_ratio,residual_unrest_ratio,final_afterimage_abs,avg_sleep_signature_drift
+synthetic_1525,cyclic,80,0.55,0.94,0.55,1,dio_14wanbg,0.965625000,0.000000000,0.000685990,0.000069937
+positive_stress_2024,cyclic,80,0.55,0.94,0.55,1,dio_14wanbg,0.793750000,0.000000000,0.001633255,0.000134485

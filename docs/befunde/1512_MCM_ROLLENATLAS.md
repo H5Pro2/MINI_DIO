@@ -103,6 +103,7 @@ Er beschreibt den aktuellen Forschungsstand in den geprüften Welten. Die Begrif
 - [1530_STRESS_MEMORY_WIEDERVERWENDUNG.md](1530_STRESS_MEMORY_WIEDERVERWENDUNG.md)
 - [1531_SCHLAF_OFFLINE_NACHHALL_TEST.md](1531_SCHLAF_OFFLINE_NACHHALL_TEST.md)
 - [1532_OFFLINE_RESTREIZ_UNTERBEWUSSTE_VERARBEITUNG.md](1532_OFFLINE_RESTREIZ_UNTERBEWUSSTE_VERARBEITUNG.md)
+- [1533_ZYKLISCHE_OFFLINEPHASE_RESTREIZ_MEMORY.md](1533_ZYKLISCHE_OFFLINEPHASE_RESTREIZ_MEMORY.md)
 
 ## Schlaf-/Offline-Rolle
 
@@ -121,6 +122,7 @@ Vorläufige Lesung:
 - Danach rekoppelt das Feld zum Zentrum.
 - Es entsteht keine freie Drift und keine neue Scheinbedeutung.
 - Gedämpfter Restreiz verlängert diese Phase; Stressrest kann kurz Restunruhe halten, ohne die Offline-Rolle aufzulösen.
+- Zyklische Restreize können dieselbe Feldspur erneut aktivieren, bleiben bisher aber an `dio_14wanbg` gebunden.
 
 ## Wie es weitergeht
 
