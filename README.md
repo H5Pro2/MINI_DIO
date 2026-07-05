@@ -378,6 +378,11 @@ Die bisherigen Ergebnisse lassen sich so einordnen:
 
   Siehe dazu [1591 RUHIG_SIDEWAYS 2000 Übergang-Repro](docs/befunde/1591_RUHIG_SIDEWAYS_2000_UEBERGANG_REPRO.md) und [1592 Reale Übergangswelt Sleep-Repro Synthese](docs/befunde/1592_REALE_UEBERGANGSWELT_SLEEP_REPRO_SYNTHESE.md).
 
+- **Rollenbreite und Offline-Reorganisation**
+  Eine zweite reale 2000er-Übergangswelt (`EXPANSION_POSITIV_2023 start2000`) bestätigt die fokussierte Rekopplung: 3 von 3 Rollen und 3 von 3 Kombinationen wurden vollständig reaktiviert. Im Vergleich dazu bleibt `SYNTH_RAND_KIPP start0` breiter und selektiver: 5 Rollen, 10 Kombinationen, aber nur 4 von 5 Rollen und 6 von 10 Kombinationen voll reaktiviert. Damit wird Rollenbreite als nächste Prüfachse sichtbar.
+
+  Siehe dazu [1593 EXPANSION_POSITIV 2000 Übergang-Repro](docs/befunde/1593_EXPANSION_POSITIV_2000_UEBERGANG_REPRO.md) und [1594 Reale Übergänge vs synthetische Mehrrollennähe](docs/befunde/1594_REALE_UEBERGAENGE_VS_SYNTH_MEHRROLLEN_SLEEP.md).
+
 - **Memory-Wiederverwendung**
   Bei erneutem Kontakt mit derselben strukturierten Welt erzeugt MINI_DIO keine neue Symbolstreuung. Die bekannten Rollen bleiben erhalten, und die Bedeutungsanzeige wird aktiv. Eine verwandte Holdout-Welt koppelt ebenfalls an dieselben Kernrollen an, jedoch mit geringerer Feldzeit und geringerem Nachhall. Das spricht für wiederverwendete Bedeutungsrollen statt bloßer Neubenennung.
 
