@@ -348,6 +348,11 @@ Die bisherigen Ergebnisse lassen sich so einordnen:
 
   Siehe dazu [1576 BTC1000 Mehrrollen-Repro Fresh](docs/befunde/1576_BTC1000_MEHRROLLEN_REPRO_FRESH.md) und [1577 Mehrrollenfeld/Uebergangsfeld/Einzelrekopplung Synthese](docs/befunde/1577_MEHRROLLENFELD_UEBERGANGSFELD_EINZELREKOPPLUNG_SYNTHESE.md).
 
+- **DOGE/XRP-Gegenprobe**
+  DOGE-1000 und XRP-1000 wurden als weitere Nicht-SOL-Fenster mit frischem Memory geprüft. Beide blieben in diesen Startfenstern bei Einzelrekopplung: eine dominante Feldrolle, keine Strain-Rolle und keine Sleep-Kombination. Damit wird BTC als Übergangsfeld spezifischer; Zwischenbildung scheint nicht automatisch aus anderer Asset-Färbung zu entstehen.
+
+  Siehe dazu [1580 DOGE/XRP 1000 Einzelrekopplung Gegenprobe](docs/befunde/1580_DOGE_XRP_1000_EINZELREKOPPLUNG_GEGENPROBE.md).
+
 - **Memory-Wiederverwendung**
   Bei erneutem Kontakt mit derselben strukturierten Welt erzeugt MINI_DIO keine neue Symbolstreuung. Die bekannten Rollen bleiben erhalten, und die Bedeutungsanzeige wird aktiv. Eine verwandte Holdout-Welt koppelt ebenfalls an dieselben Kernrollen an, jedoch mit geringerer Feldzeit und geringerem Nachhall. Das spricht für wiederverwendete Bedeutungsrollen statt bloßer Neubenennung.
 

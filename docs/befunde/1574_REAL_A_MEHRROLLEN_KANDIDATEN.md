@@ -1,6 +1,6 @@
 # Real-A-Mehrrollen-Kandidaten
 
-Stand: 2026-07-05 23:10:40
+Stand: 2026-07-05 23:31:45
 
 ## Grundfrage
 
@@ -44,6 +44,7 @@ Bewertet wird passiv:
 | btc1000_soft_sleep_combo_btc2025 | uebergang_mit_randkontakt | 3 | 2 | 2 | 1 | 0.9990 | 0.8068 | 3 | dio_mcm_episode_1k2bqha:field_carried:802; dio_mcm_episode_0e7qvj1:field_carried:191; dio_mcm_episode_0sjrih9:field_strained:1 |
 | btc1000_soft_sleep_combo_mosaic_altseq | uebergang_mit_randkontakt | 3 | 2 | 2 | 1 | 0.9990 | 0.8068 | 3 | dio_mcm_episode_1k2bqha:field_carried:802; dio_mcm_episode_0e7qvj1:field_carried:191; dio_mcm_episode_0sjrih9:field_strained:1 |
 | btc1000_soft_sleep_combo_same | uebergang_mit_randkontakt | 3 | 2 | 2 | 1 | 0.9990 | 0.8068 | 3 | dio_mcm_episode_1k2bqha:field_carried:802; dio_mcm_episode_0e7qvj1:field_carried:191; dio_mcm_episode_0sjrih9:field_strained:1 |
+| doge1000_multirole_probe_fresh | einzelrolle_oder_spikefeld | 1 | 1 | 1 | 0 | 1.0000 | 1.0000 | 0 | dio_mcm_episode_1joiyc3:field_carried:994 |
 | kas1000_soft_sleep_combo_kas15m | einzelrolle_oder_spikefeld | 1 | 1 | 1 | 0 | 1.0000 | 1.0000 | 0 | dio_mcm_episode_1joiyc3:field_carried:994 |
 | kas1000_soft_sleep_combo_kas1h | einzelrolle_oder_spikefeld | 1 | 1 | 1 | 0 | 1.0000 | 1.0000 | 0 | dio_mcm_episode_1joiyc3:field_carried:994 |
 | kas1000_soft_sleep_combo_paxg | einzelrolle_oder_spikefeld | 1 | 1 | 1 | 0 | 1.0000 | 1.0000 | 0 | dio_mcm_episode_1joiyc3:field_carried:994 |
@@ -52,11 +53,12 @@ Bewertet wird passiv:
 | paxg1000_soft_sleep_combo_paxg1h | einzelrolle_oder_spikefeld | 1 | 1 | 1 | 0 | 1.0000 | 1.0000 | 0 | dio_mcm_episode_1joiyc3:field_carried:994 |
 | paxg1000_soft_sleep_combo_paxg2025 | einzelrolle_oder_spikefeld | 1 | 1 | 1 | 0 | 1.0000 | 1.0000 | 0 | dio_mcm_episode_1joiyc3:field_carried:994 |
 | paxg1000_soft_sleep_combo_same | einzelrolle_oder_spikefeld | 1 | 1 | 1 | 0 | 1.0000 | 1.0000 | 0 | dio_mcm_episode_1joiyc3:field_carried:994 |
+| xrp1000_multirole_probe_fresh | einzelrolle_oder_spikefeld | 1 | 1 | 1 | 0 | 1.0000 | 1.0000 | 0 | dio_mcm_episode_1joiyc3:field_carried:994 |
 
 ## Lesung
 
-Mehrrollige Real-A-Kandidaten: `19` von `32`.
-Welten mit anschliessender Sleep-Kombination: `17` von `32`.
+Mehrrollige Real-A-Kandidaten: `19` von `34`.
+Welten mit anschliessender Sleep-Kombination: `17` von `34`.
 
 Der wichtige Punkt ist die Trennung zwischen kurzer Randberuehrung und wirklich getragener Mehrrollennaehe.
 Eine Welt kann mehrere Rollen erzeugen, ohne dass daraus automatisch eine Offline-Kombination entsteht.
