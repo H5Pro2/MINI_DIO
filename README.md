@@ -269,7 +269,7 @@ Die bisherigen Ergebnisse lassen sich so einordnen:
   Siehe dazu [1534 Doppelspur-Offlinephase](docs/befunde/1534_DOPPELSPUR_OFFLINE_MEMORY.md).
 
 - **Schlaf als Innenfeldmilieu**
-  Schlaf wird ab jetzt nicht als starre Ablaufkette verstanden. Außenwelt wird entkoppelt oder gedämpft, das Innenfeld bleibt aktiv, alte Episodenrollen können über Nachhall, Feldnähe und Spannung wieder ankoppeln. Wichtig: MINI_DIO bekommt keine künstliche Dauerstörung und keine Tinnitus-artige Überreizung.
+  Schlaf wird ab jetzt nicht als starre Ablaufkette verstanden. Außenwelt wird entkoppelt oder gedämpft, das Innenfeld bleibt aktiv, alte Episodenrollen können über Nachhall, Feldnähe und Spannung wieder ankoppeln. Wichtig: MINI_DIO bekommt keine künstlichen Zusatzreize und keine erzwungene Störung.
 
   Siehe dazu [002 Schlaf als entkoppeltes Innenfeldmilieu](docs/mechanik/002_SCHLAF_INNENFELD_MILIEU.md).
 

@@ -23,14 +23,14 @@ nicht: Phase 1 -> Phase 2 -> Phase 3 -> Phase 4
 nicht: Replay einer festen Datenfolge
 nicht: künstliches Dauerrauschen
 nicht: erzwungene Störung
-nicht: Tinnitus-artige Überreizung
+nicht: künstliche Zusatzreize
 ```
 
 Wichtig:
 
 ```text
-Tinnitus bleibt nur ein menschlicher Vergleich des Nutzers.
-MINI_DIO bekommt keine künstliche Dauerstörung.
+MINI_DIO bekommt keine künstlichen Zusatzreize.
+MINI_DIO bekommt keine absichtlich erzeugte Störung.
 ```
 
 Der Schlafzustand soll regenerativ und feldgetragen sein, nicht belastend simuliert.
@@ -82,7 +82,7 @@ Es wird nicht programmiert:
 "sortiere jetzt Memory"
 "träume jetzt Variante Y"
 "erzeuge absichtlich Rauschen"
-"simuliere Tinnitus"
+"simuliere eine Störung"
 ```
 
 Stattdessen wird nur ein Milieu bereitgestellt:
@@ -121,7 +121,7 @@ sleep_field_environment
 Diese Schicht soll:
 
 - keine neue Außenwelt einspeisen;
-- keine künstliche Dauerstörung erzeugen;
+- keine künstlichen Zusatzreize erzeugen;
 - gespeicherte MCM-Episodenrollen passiv verfügbar machen;
 - Nachhall und Feldnähe als Aktivierungsgrund lesen;
 - Spannung, Rekopplung und Entlastung messen;
@@ -142,6 +142,5 @@ Diese Schicht soll:
 Schlaf ist keine Sequenz.
 Schlaf ist ein entkoppeltes Innenfeldmilieu.
 Das Feld darf alte Spuren passiv wieder berühren.
-MINI_DIO bekommt keine künstliche Dauerstörung.
+MINI_DIO bekommt keine künstlichen Zusatzreize.
 ```
-
