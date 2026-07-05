@@ -60,7 +60,9 @@ def _state_from_afterimage(afterimage_abs: float, signature_abs: float, drift: f
 
 def run_sleep_test(
     data_path: Path,
+    second_data_path: Path | None,
     contact_ticks: int,
+    second_contact_ticks: int,
     sleep_ticks: int,
     sense_mode: str,
     label: str,
@@ -73,15 +75,22 @@ def run_sleep_test(
     candles = load_candles(data_path)
     if not candles:
         raise ValueError(f"no candles loaded: {data_path}")
+    second_candles = load_candles(second_data_path) if second_data_path else []
 
     field = MiniMCMField(neuron_count=getattr(Config, "DIO_MINI_MCM_NEURON_COUNT", 12))
     contact_limit = min(max(1, int(contact_ticks)), max(1, len(candles) - 1))
+    second_contact_limit = (
+        min(max(1, int(second_contact_ticks)), max(1, len(second_candles) - 1)) if second_candles else 0
+    )
     sense_mode = str(sense_mode or "world_relative").strip().lower()
     profile = build_sensory_profile(candles) if sense_mode == "world_relative" else {}
+    second_profile = build_sensory_profile(second_candles) if second_candles and sense_mode == "world_relative" else {}
     contact_symbols: Counter[str] = Counter()
+    second_contact_symbols: Counter[str] = Counter()
     contact_signatures: list[float] = []
     contact_afterimages: list[float] = []
     last_senses = _empty_senses()
+    first_last_senses = _empty_senses()
 
     for index in range(1, contact_limit + 1):
         if sense_mode == "world_relative":
@@ -92,6 +101,19 @@ def run_sleep_test(
         field_state = field.step(senses)
         symbol = make_syntax_symbol(senses, float(field_state["signature"]))
         contact_symbols[symbol] += 1
+        contact_signatures.append(float(field_state["signature"]))
+        contact_afterimages.append(_mean_abs(_afterimages(field)))
+    first_last_senses = last_senses
+
+    for index in range(1, second_contact_limit + 1):
+        if sense_mode == "world_relative":
+            senses = build_senses_world_relative(second_candles, index, profile=second_profile)
+        else:
+            senses = build_senses(second_candles, index)
+        last_senses = senses
+        field_state = field.step(senses)
+        symbol = make_syntax_symbol(senses, float(field_state["signature"]))
+        second_contact_symbols[symbol] += 1
         contact_signatures.append(float(field_state["signature"]))
         contact_afterimages.append(_mean_abs(_afterimages(field)))
 
@@ -129,7 +151,8 @@ def run_sleep_test(
                     * max(0.0, float(memory_rest_multiplier))
                     * (max(0.0, float(sleep_decay)) ** phase_index)
                 )
-                sleep_senses = _scale_senses(last_senses, rest_scale)
+                memory_source = first_last_senses if second_candles else last_senses
+                sleep_senses = _scale_senses(memory_source, rest_scale)
             else:
                 offline_phase = "leer_rekopplung"
                 rest_scale = 0.0
@@ -151,6 +174,7 @@ def run_sleep_test(
             {
                 "label": label,
                 "source_file": str(data_path),
+                "second_source_file": str(second_data_path or ""),
                 "sleep_tick": sleep_tick,
                 "signature": f"{signature:.9f}",
                 "signature_abs": f"{signature_abs:.9f}",
@@ -178,7 +202,9 @@ def run_sleep_test(
     summary = {
         "label": label,
         "source_file": str(data_path),
+        "second_source_file": str(second_data_path or ""),
         "contact_ticks": contact_limit,
+        "second_contact_ticks": second_contact_limit,
         "sleep_ticks": len(sleep_rows),
         "sense_mode": sense_mode,
         "offline_mode": offline_mode,
@@ -189,6 +215,9 @@ def run_sleep_test(
         "contact_unique_symbols": len(contact_symbols),
         "contact_top_symbol": contact_symbols.most_common(1)[0][0] if contact_symbols else "-",
         "contact_top_symbol_count": contact_symbols.most_common(1)[0][1] if contact_symbols else 0,
+        "second_contact_unique_symbols": len(second_contact_symbols),
+        "second_contact_top_symbol": second_contact_symbols.most_common(1)[0][0] if second_contact_symbols else "-",
+        "second_contact_top_symbol_count": second_contact_symbols.most_common(1)[0][1] if second_contact_symbols else 0,
         "contact_signature_mean": _mean(contact_signatures),
         "contact_afterimage_mean": _mean(contact_afterimages),
         "sleep_unique_symbols": len(sleep_symbols),
@@ -212,8 +241,10 @@ def run_sleep_test(
 def main() -> int:
     parser = argparse.ArgumentParser(description="Run passive MINI_DIO sleep/offline afterimage diagnostics.")
     parser.add_argument("--data", action="append", required=True, help="CSV world path. Can be supplied multiple times.")
+    parser.add_argument("--second-data", action="append", help="Optional second contact world per --data.")
     parser.add_argument("--label", action="append", help="Optional label per --data.")
     parser.add_argument("--contact-ticks", type=int, default=2000)
+    parser.add_argument("--second-contact-ticks", type=int, default=1000)
     parser.add_argument("--sleep-ticks", type=int, default=300)
     parser.add_argument("--sense-mode", choices=("fixed", "world_relative"), default="world_relative")
     parser.add_argument("--offline-mode", choices=("empty", "damped", "cyclic"), default="empty")
@@ -228,16 +259,24 @@ def main() -> int:
     out_dir = root / args.out_dir
     out_dir.mkdir(parents=True, exist_ok=True)
     labels = list(args.label or [])
+    second_items = list(args.second_data or [])
     summaries: list[dict] = []
     rows: list[dict] = []
     for index, item in enumerate(args.data):
         data_path = Path(item)
         if not data_path.is_absolute():
             data_path = root / data_path
+        second_data_path = None
+        if index < len(second_items):
+            second_data_path = Path(second_items[index])
+            if not second_data_path.is_absolute():
+                second_data_path = root / second_data_path
         label = labels[index] if index < len(labels) else data_path.stem
         summary, sleep_rows = run_sleep_test(
             data_path=data_path,
+            second_data_path=second_data_path,
             contact_ticks=args.contact_ticks,
+            second_contact_ticks=args.second_contact_ticks,
             sleep_ticks=args.sleep_ticks,
             sense_mode=args.sense_mode,
             label=label,

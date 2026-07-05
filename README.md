@@ -263,6 +263,11 @@ Die bisherigen Ergebnisse lassen sich so einordnen:
 
   Siehe dazu [1533 Zyklische Offlinephase](docs/befunde/1533_ZYKLISCHE_OFFLINEPHASE_RESTREIZ_MEMORY.md).
 
+- **Doppelspur-Offlinephase**
+  Zwei Kontaktwelten nacheinander werden in der Kontaktphase klar unterschieden. Offline verdichten sie sich aktuell aber wieder auf dieselbe Rekopplungsrolle `dio_14wanbg`. Das zeigt eine Grenze: Die Schlafschicht beruhigt und rekoppelt bisher stärker, als sie getrennte alte Spuren neu kombiniert.
+
+  Siehe dazu [1534 Doppelspur-Offlinephase](docs/befunde/1534_DOPPELSPUR_OFFLINE_MEMORY.md).
+
 - **Feldzeit und Nachhall**
   Zeit wird nicht nur als Tick oder Index betrachtet. Im Feld zeigt sie sich als Nachhall, Wiederkehr, Nähe/Ferne, Drift und Integrationsqualität einer gewirkten Weltlage.
 

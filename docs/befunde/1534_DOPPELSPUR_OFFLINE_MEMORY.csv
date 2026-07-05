@@ -1,0 +1,3 @@
+label,contact_a,contact_b,a_unique,a_top,b_unique,b_top,sleep_unique,sleep_top,center_rekopplung_ratio,residual_unrest_ratio,final_afterimage_abs,avg_sleep_signature_drift
+structured_then_stress,synthetic_1525,positive_stress_2024,88,dio_0l7pvdk,203,dio_104t4us,1,dio_14wanbg,0.956250000,0.000000000,0.001192915,0.000138327
+stress_then_structured,positive_stress_2024,synthetic_1525,274,dio_104t4us,78,dio_1wdik71,1,dio_14wanbg,0.943750000,0.006250000,0.001078938,0.000159965
