@@ -12,6 +12,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_OUT = ROOT / "docs" / "befunde" / "1581_MEHRROLLEN_FENSTERSUCHE_DOGE_XRP_BTC.md"
 DEFAULT_CSV = ROOT / "docs" / "befunde" / "1581_MEHRROLLEN_FENSTERSUCHE_DOGE_XRP_BTC.csv"
+DEFAULT_TITLE = "Mehrrollen-Fenstersuche DOGE/XRP/BTC"
+DEFAULT_QUESTION = "In welchen Fenstern kippt Einzelrekopplung in Uebergang oder breitere Mehrrollennaehe?"
 
 
 DEFAULT_WORLD_SPECS = [
@@ -26,6 +28,24 @@ def _path(value: str | Path) -> Path:
     if not path.is_absolute():
         path = ROOT / path
     return path
+
+
+def _safe_label(value: str) -> str:
+    result = []
+    for char in value.lower():
+        if char.isalnum():
+            result.append(char)
+        elif result and result[-1] != "-":
+            result.append("-")
+    return "".join(result).strip("-") or "welt"
+
+
+def _parse_world_spec(value: str) -> tuple[str, str]:
+    if "=" not in value:
+        path = Path(value)
+        return path.stem.upper(), value
+    name, path_text = value.split("=", 1)
+    return name.strip(), path_text.strip()
 
 
 def _float(value: object) -> float:
@@ -125,7 +145,7 @@ def _scan_world(name: str, source: Path, starts: list[int], size: int) -> list[d
         window = source_rows[start : start + size]
         if len(window) < size:
             continue
-        safe_name = name.lower().replace("_", "-")
+        safe_name = _safe_label(name)
         label = f"{safe_name}_start{start}_size{size}"
         data_path = ROOT / "data" / f"scan_{label}.csv"
         debug_root = ROOT / "debug" / "multirole_window_scan" / label
@@ -194,7 +214,14 @@ def _fmt(value: object, digits: int = 4) -> str:
     return f"{_float(value):.{digits}f}"
 
 
-def _write_md(rows: list[dict[str, object]], path: Path) -> None:
+def _write_md(
+    rows: list[dict[str, object]],
+    path: Path,
+    *,
+    title: str = DEFAULT_TITLE,
+    question: str = DEFAULT_QUESTION,
+    world_description: str = "Aus DOGE, XRP und BTC 2024 5m 10k wurden mehrere 1000er-Fenster passiv geschnitten und mit frischem Memory gelesen.",
+) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     ordered = sorted(
         rows,
@@ -210,17 +237,17 @@ def _write_md(rows: list[dict[str, object]], path: Path) -> None:
         key = str(row.get("class") or "-")
         class_counts[key] = class_counts.get(key, 0) + 1
     lines = [
-        "# Mehrrollen-Fenstersuche DOGE/XRP/BTC",
+        f"# {title}",
         "",
         f"Stand: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}",
         "",
         "## Grundfrage",
         "",
-        "In welchen Fenstern kippt Einzelrekopplung in Uebergang oder breitere Mehrrollennaehe?",
+        question,
         "",
         "## Unterpruefung",
         "",
-        "Aus DOGE, XRP und BTC 2024 5m 10k wurden mehrere 1000er-Fenster passiv geschnitten und mit frischem Memory gelesen.",
+        world_description,
         "Die Diagnose ist passiv und erzeugt keine Handlung.",
         "",
         "## Klassenverteilung",
@@ -279,13 +306,36 @@ def main() -> int:
     parser.add_argument("--starts", default="0,1000,2000,3000,4000,5000,6000,7000,8000,9000")
     parser.add_argument("--out", type=Path, default=DEFAULT_OUT)
     parser.add_argument("--csv-out", type=Path, default=DEFAULT_CSV)
+    parser.add_argument("--title", default=DEFAULT_TITLE)
+    parser.add_argument("--question", default=DEFAULT_QUESTION)
+    parser.add_argument("--world-description", default=None)
+    parser.add_argument(
+        "--world",
+        action="append",
+        default=[],
+        help="Weltangabe als NAME=pfad.csv. Ohne --world werden DOGE/XRP/BTC genutzt.",
+    )
     args = parser.parse_args()
     starts = [_int(item.strip()) for item in str(args.starts).split(",") if item.strip()]
+    world_specs = [_parse_world_spec(item) for item in args.world] if args.world else DEFAULT_WORLD_SPECS
     rows: list[dict[str, object]] = []
-    for name, path_text in DEFAULT_WORLD_SPECS:
+    for name, path_text in world_specs:
         rows.extend(_scan_world(name, _path(path_text), starts, args.window_size))
     _write_csv(rows, args.csv_out if args.csv_out.is_absolute() else ROOT / args.csv_out)
-    _write_md(rows, args.out if args.out.is_absolute() else ROOT / args.out)
+    world_description = args.world_description
+    if not world_description:
+        world_names = ", ".join(name for name, _ in world_specs)
+        world_description = (
+            f"Aus {world_names} wurden mehrere {args.window_size}er-Fenster passiv geschnitten "
+            "und mit frischem Memory gelesen."
+        )
+    _write_md(
+        rows,
+        args.out if args.out.is_absolute() else ROOT / args.out,
+        title=args.title,
+        question=args.question,
+        world_description=world_description,
+    )
     print(json.dumps({"rows": len(rows), "out": str(args.out), "csv": str(args.csv_out)}, indent=2))
     return 0
 

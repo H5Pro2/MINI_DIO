@@ -358,6 +358,11 @@ Die bisherigen Ergebnisse lassen sich so einordnen:
 
   Siehe dazu [1581 Mehrrollen-Fenstersuche DOGE/XRP/BTC](docs/befunde/1581_MEHRROLLEN_FENSTERSUCHE_DOGE_XRP_BTC.md), [1582 XRP1000 Mehrrollen-Repro](docs/befunde/1582_XRP1000_SCAN_START1000_MEHRROLLEN_REPRO.md) und [1583 Fensterabhängige Feldklassen](docs/befunde/1583_FENSTERABHAENGIGE_FELDKLASSEN_SYNTHESE.md).
 
+- **Weltarten-Fensterklassen**
+  Dieselbe Fensterlogik wurde auf ruhige Seitwärtswelt, negative Stresswelt, positive Expansionswelt und eine synthetische Rand-/Kipp-Kontrollwelt angewendet. In 36 Fenstern entstanden 28 Einzelrekopplungen und 8 Übergänge mit Randkontakt; breite Mehrrollen-Kandidaten traten dort nicht auf. Auffällig ist: Jede Weltart bildete 7 Einzelrekopplungen und 2 Übergänge. Das spricht für lokale Feldphasen, muss aber gegen Fensterbreite und Klassifikationslogik weiter geprüft werden.
+
+  Siehe dazu [1584 Feldklassen-Fenstersuche Weltarten](docs/befunde/1584_FELDKLASSEN_FENSTERSUCHE_WELTARTEN.md) und [1585 Weltarten-Fensterklassen](docs/befunde/1585_WELTARTEN_FENSTERKLASSEN_SYNTHESE.md).
+
 - **Memory-Wiederverwendung**
   Bei erneutem Kontakt mit derselben strukturierten Welt erzeugt MINI_DIO keine neue Symbolstreuung. Die bekannten Rollen bleiben erhalten, und die Bedeutungsanzeige wird aktiv. Eine verwandte Holdout-Welt koppelt ebenfalls an dieselben Kernrollen an, jedoch mit geringerer Feldzeit und geringerem Nachhall. Das spricht für wiederverwendete Bedeutungsrollen statt bloßer Neubenennung.
 
