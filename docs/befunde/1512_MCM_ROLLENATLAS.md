@@ -101,6 +101,24 @@ Er beschreibt den aktuellen Forschungsstand in den geprüften Welten. Die Begrif
 - [1528_FELDZEIT_STRESS_UND_PAREIDOLIE_GRENZE.md](1528_FELDZEIT_STRESS_UND_PAREIDOLIE_GRENZE.md)
 - [1529_MEMORY_WIEDERVERWENDUNG_FELDZEIT_TEST.md](1529_MEMORY_WIEDERVERWENDUNG_FELDZEIT_TEST.md)
 - [1530_STRESS_MEMORY_WIEDERVERWENDUNG.md](1530_STRESS_MEMORY_WIEDERVERWENDUNG.md)
+- [1531_SCHLAF_OFFLINE_NACHHALL_TEST.md](1531_SCHLAF_OFFLINE_NACHHALL_TEST.md)
+
+## Schlaf-/Offline-Rolle
+
+Der Schlaf-/Offline-Test ergänzt eine eigene passive Rollenqualität:
+
+```text
+Nachhall -> Rekopplung -> Ruhe
+```
+
+Ohne neue Außenwelt entsteht keine neue Symbolstreuung. Das Feld bildet im aktuellen Test ein einzelnes Offline-Symbol `dio_14wanbg` und klingt zentrumsnah aus. Diese Rolle ist keine Weltrolle im engeren Sinn, sondern eine Nachhall-/Rekopplungsrolle des Feldes selbst.
+
+Vorläufige Lesung:
+
+- Kontaktwelt erzeugt Afterimage.
+- Offlinephase hält den Nachhall kurz.
+- Danach rekoppelt das Feld zum Zentrum.
+- Es entsteht keine freie Drift und keine neue Scheinbedeutung.
 
 ## Wie es weitergeht
 

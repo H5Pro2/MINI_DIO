@@ -248,6 +248,11 @@ Die bisherigen Ergebnisse lassen sich so einordnen:
 
   Siehe dazu [1530 Stress-Memory-Wiederverwendung](docs/befunde/1530_STRESS_MEMORY_WIEDERVERWENDUNG.md).
 
+- **Schlaf-/Offline-Nachhall**
+  Wenn nach einer Kontaktphase keine neue Außenwelt mehr einwirkt, läuft das MCM-Feld nicht chaotisch weiter. Im ersten Offline-Test klingt das Afterimage geordnet aus, rekoppelt zentrumsnah und erzeugt keine neue Symbolstreuung. Das ist eine technische Schlaf-Analogie: alter Weltkontakt bleibt kurz als Feldspur aktiv, wird aber ohne neue Reize ruhig.
+
+  Siehe dazu [1531 Schlaf-/Offline-Nachhall-Test](docs/befunde/1531_SCHLAF_OFFLINE_NACHHALL_TEST.md).
+
 - **Feldzeit und Nachhall**
   Zeit wird nicht nur als Tick oder Index betrachtet. Im Feld zeigt sie sich als Nachhall, Wiederkehr, Nähe/Ferne, Drift und Integrationsqualität einer gewirkten Weltlage.
 

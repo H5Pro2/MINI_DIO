@@ -1,0 +1,3 @@
+label,source_file,contact_ticks,sleep_ticks,contact_unique_symbols,contact_top_symbol,contact_top_symbol_count,first_sleep_afterimage_abs,final_sleep_afterimage_abs,afterimage_release_ratio,center_rekopplung_ratio,residual_unrest_ratio,sleep_unique_symbols,sleep_top_symbol,sleep_top_symbol_count,avg_sleep_signature_drift
+synthetic_1525,data/synthetic_1525_melody_randrollen_interwoven_mosaic_2400_5m.csv,2000,300,94,dio_0l7pvdk,198,0.119672558,0.000000000,1.000000000,0.976666667,0.000000000,1,dio_14wanbg,300,0.000020611
+positive_stress_2024,data/kontrolliert_2024_positive_stress_test1_2000_5m_SOLUSDT.csv,1999,300,346,dio_0m9zys3,122,0.118786732,0.000000000,1.000000000,0.976666667,0.000000000,1,dio_14wanbg,300,0.000029709
