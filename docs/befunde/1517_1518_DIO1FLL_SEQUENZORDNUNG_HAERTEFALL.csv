@@ -1,0 +1,5 @@
+welt,run,candles,unique_symbols,avg_mcm_carry_quality,avg_mcm_rekopplung_quality,avg_mcm_strain_quality,avg_afterimage,stable_ratio,carried_unrest_ratio,strained_ratio,tipping_ratio,top_symbol,top_symbol_count,dio_1fll_count,dio_0l7p_count,dio_14wj_count,dio_1wdi_count,map_similarity,archetype_matrix
+1517_stark_permutiert,lauf_1,6100,173,0.5982,0.7460,0.1249,0.6963,0.9539,0.0455,0.0002,0.0005,dio_1fllaqz,3089,3089,0,0,0,0,inner_field_archetype_matrix_single_island
+1517_stark_permutiert,lauf_2,6100,173,0.5983,0.7459,0.1248,0.6963,0.9539,0.0455,0.0002,0.0005,dio_1fllaqz,3089,6178,0,0,0,1,inner_field_archetype_matrix_single_island
+1518_zufallsnah,lauf_1,5800,167,0.5972,0.7456,0.1251,0.6883,0.9517,0.0473,0.0002,0.0009,dio_1fllaqz,3030,3030,0,0,0,0,inner_field_archetype_matrix_single_island
+1518_zufallsnah,lauf_2,5800,167,0.5974,0.7455,0.1250,0.6883,0.9517,0.0473,0.0002,0.0009,dio_1fllaqz,3030,6060,0,0,0,1,inner_field_archetype_matrix_single_island
