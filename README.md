@@ -298,6 +298,11 @@ Die bisherigen Ergebnisse lassen sich so einordnen:
 
   Siehe dazu [1556 Sleep-Kombinationsphasen Synthese](docs/befunde/1556_SLEEP_KOMBINATIONS_PHASEN_SYNTHESE.md).
 
+- **Weiche Sleep-Kombinationen**
+  Die weiche SOL-Sleep-Ausbreitung wurde gegen Real-B rueckgelesen. Bei gleicher Welt reaktivieren 10/10 Kombinationen voll, bei ruhiger Folgewelt 1/10 voll und 6/10 teilweise, bei Stress- und Mosaikwelt 0/10. Das zeigt selektive Anschlussnaehe: Offline-Kombinationen sind ruecklesbar, aber nur bei passender Weltnaehe.
+
+  Siehe dazu [1561 Weiche Sleep-Kombinationen Ruecklesung Synthese](docs/befunde/1561_SOFT_SLEEP_KOMBI_RUECKLESUNG_SYNTHESE.md).
+
 - **Memory-Wiederverwendung**
   Bei erneutem Kontakt mit derselben strukturierten Welt erzeugt MINI_DIO keine neue Symbolstreuung. Die bekannten Rollen bleiben erhalten, und die Bedeutungsanzeige wird aktiv. Eine verwandte Holdout-Welt koppelt ebenfalls an dieselben Kernrollen an, jedoch mit geringerer Feldzeit und geringerem Nachhall. Das spricht für wiederverwendete Bedeutungsrollen statt bloßer Neubenennung.
 
