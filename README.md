@@ -313,6 +313,11 @@ Die bisherigen Ergebnisse lassen sich so einordnen:
 
   Siehe dazu [1568 Sleep-Zwischenrollen Stabilitaet R2](docs/befunde/1568_SLEEP_ZWISCHENROLLEN_STABILITAET_R2_SYNTHESE.md).
 
+- **Offline-Feld-Reorganisation**
+  Die Sleep-/Offline-Linie wird als passive Offline-Feld-Reorganisation gefasst: bestehende MCM-Rollen, Rekopplungsnaehen und Nachhallspuren koennen ohne neuen direkten Aussenweltkontakt erneut beruehrt, kombiniert oder teilweise stabilisiert werden. Das ist keine Handlung und keine neue Strategie, sondern eine messbare innere Ordnungsbewegung des Feldes.
+
+  Siehe dazu [005 Offline-Feld-Reorganisation](docs/mechanik/005_OFFLINE_FELD_REORGANISATION.md).
+
 - **Memory-Wiederverwendung**
   Bei erneutem Kontakt mit derselben strukturierten Welt erzeugt MINI_DIO keine neue Symbolstreuung. Die bekannten Rollen bleiben erhalten, und die Bedeutungsanzeige wird aktiv. Eine verwandte Holdout-Welt koppelt ebenfalls an dieselben Kernrollen an, jedoch mit geringerer Feldzeit und geringerem Nachhall. Das spricht für wiederverwendete Bedeutungsrollen statt bloßer Neubenennung.
 
