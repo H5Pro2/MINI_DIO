@@ -1,0 +1,142 @@
+"""Passive sleep-memory reorganization for MINI_DIO.
+
+Sleep reorganization is intentionally narrow: it marks which stored MCM-field
+episode roles were touched in an offline field milieu. It does not create world
+symbols, directions, entries, gates, or motoric signals.
+"""
+
+from __future__ import annotations
+
+import json
+from collections import Counter
+from pathlib import Path
+
+
+PASSIVE_SLEEP_FLAGS = {
+    "passive_only": 1,
+    "read_by_mini_dio": 0,
+    "influences_action": 0,
+    "is_gate": 0,
+    "is_motoric": 0,
+    "is_entry_signal": 0,
+    "is_direction_signal": 0,
+    "writes_runtime_memory": 0,
+}
+
+
+def _split_pipe(value: str) -> list[str]:
+    return [part for part in str(value or "").split("|") if part]
+
+
+def _safe_float(value: object) -> float:
+    try:
+        result = float(value)
+    except Exception:
+        result = 0.0
+    if result != result:
+        return 0.0
+    return result
+
+
+def _safe_int(value: object) -> int:
+    try:
+        return int(float(value))
+    except Exception:
+        return 0
+
+
+def build_sleep_reorganization_memory(memory: dict, sleep_summary: dict, sleep_rows: list[dict]) -> dict:
+    """Build a passive sleep reorganization artifact from sleep ticks."""
+
+    role_counter: Counter[str] = Counter()
+    role_resonance_sum: Counter[str] = Counter()
+    role_states: dict[str, Counter[str]] = {}
+    for row in sleep_rows or []:
+        roles = _split_pipe(str(row.get("active_roles", "") or ""))
+        resonances = [_safe_float(item) for item in _split_pipe(str(row.get("active_role_resonance", "") or ""))]
+        for index, role in enumerate(roles):
+            role_counter[role] += 1
+            role_resonance_sum[role] += resonances[index] if index < len(resonances) else 0.0
+            state = str(row.get("sleep_state", "") or "-")
+            role_states.setdefault(role, Counter())[state] += 1
+
+    field_episodes = dict(memory.get("mcm_field_episode_memory", {}) or {})
+    touched_roles = []
+    for role, count in role_counter.most_common():
+        source = dict(field_episodes.get(role, {}) or {})
+        avg_resonance = float(role_resonance_sum[role]) / max(1, int(count))
+        touched_roles.append(
+            {
+                "role": role,
+                "touch_count": int(count),
+                "touch_ratio": round(int(count) / max(1, _safe_int(sleep_summary.get("ticks", 0))), 6),
+                "avg_sleep_resonance": round(avg_resonance, 6),
+                "sleep_states": dict(sorted(role_states.get(role, Counter()).items())),
+                "source_episode_state": str(source.get("episode_state", "") or ""),
+                "source_transition": str(source.get("transition", "") or ""),
+                "source_seen_count": _safe_int(source.get("seen_count", 0)),
+                "source_rekopplung": round(_safe_float(source.get("avg_mcm_rekopplung_quality", 0.0)), 6),
+                "source_carry": round(_safe_float(source.get("avg_mcm_carry_quality", 0.0)), 6),
+                "source_strain": round(_safe_float(source.get("avg_mcm_strain_quality", 0.0)), 6),
+                **PASSIVE_SLEEP_FLAGS,
+            }
+        )
+
+    role_set_count = _safe_int(sleep_summary.get("active_role_set_count", 0))
+    touched_count = len(touched_roles)
+    if touched_count <= 0:
+        reorganization_state = "sleep_no_touch"
+    elif role_set_count <= 1:
+        reorganization_state = "sleep_single_rekopplung_trace"
+    elif touched_count <= 3:
+        reorganization_state = "sleep_focused_role_touch"
+    else:
+        reorganization_state = "sleep_broad_role_touch"
+
+    return {
+        "version": 1,
+        "kind": "passive_sleep_reorganization_memory",
+        "reorganization_state": reorganization_state,
+        "sleep_symbol": str(sleep_summary.get("sleep_top_symbol", "") or ""),
+        "sleep_unique_symbols": _safe_int(sleep_summary.get("sleep_unique_symbols", 0)),
+        "sleep_ticks": _safe_int(sleep_summary.get("ticks", 0)),
+        "sleep_state_counts": dict(sleep_summary.get("state_counts", {}) or {}),
+        "avg_afterimage_abs": round(_safe_float(sleep_summary.get("avg_afterimage_abs", 0.0)), 6),
+        "avg_signature_abs": round(_safe_float(sleep_summary.get("avg_signature_abs", 0.0)), 6),
+        "active_role_set_count": role_set_count,
+        "touched_role_count": touched_count,
+        "touched_roles": touched_roles[:24],
+        "interpretation_boundary": (
+            "Passive Sleep-Reorganisation markiert beruehrte bestehende Rollen. "
+            "Sie erzeugt keine neue Weltbedeutung und steuert keine Handlung."
+        ),
+        **PASSIVE_SLEEP_FLAGS,
+    }
+
+
+def apply_sleep_reorganization_to_memory_file(
+    memory_path: Path,
+    sleep_summary: dict,
+    sleep_rows: list[dict],
+) -> dict:
+    """Write passive sleep reorganization into an existing memory file."""
+
+    memory_path = Path(memory_path)
+    memory = json.loads(memory_path.read_text(encoding="utf-8"))
+    sleep_memory = build_sleep_reorganization_memory(memory, sleep_summary, sleep_rows)
+    history = memory.setdefault("passive_sleep_reorganization_history", [])
+    if not isinstance(history, list):
+        history = []
+    history.append(sleep_memory)
+    memory["passive_sleep_reorganization_history"] = history[-16:]
+    memory["passive_sleep_reorganization_memory"] = sleep_memory
+    temp_path = memory_path.with_suffix(memory_path.suffix + ".tmp")
+    temp_path.write_text(json.dumps(memory, indent=2, sort_keys=True, ensure_ascii=False), encoding="utf-8")
+    temp_path.replace(memory_path)
+    return sleep_memory
+
+
+__all__ = [
+    "apply_sleep_reorganization_to_memory_file",
+    "build_sleep_reorganization_memory",
+]

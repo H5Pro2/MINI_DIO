@@ -105,6 +105,8 @@ class SemanticMemory:
             "passive_mcm_role_movement_memory": {},
             "passive_mcm_role_network": {},
             "passive_mcm_role_shift_memory": {},
+            "passive_sleep_reorganization_memory": {},
+            "passive_sleep_reorganization_history": [],
         }
         self.max_sensor_relations = 128
         self.max_neighbor_consequences = 128
@@ -150,6 +152,8 @@ class SemanticMemory:
             self.data.setdefault("passive_mcm_role_movement_memory", {})
             self.data.setdefault("passive_mcm_role_network", {})
             self.data.setdefault("passive_mcm_role_shift_memory", {})
+            self.data.setdefault("passive_sleep_reorganization_memory", {})
+            self.data.setdefault("passive_sleep_reorganization_history", [])
             self.compact_symbols()
             self.compact_families()
 

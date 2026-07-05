@@ -1,13 +1,13 @@
 # Real-Sleep-Real Baseline
 
-Stand: 2026-07-05 15:04:27
+Stand: 2026-07-05 15:10:32
 
 ## Zweck
 
 Diese Kette prueft, was sich zwischen zwei gleichen Real-Welt-Beruehrungen veraendert,
 wenn dazwischen eine entkoppelte MCM-Schlafdiagnose liegt.
 
-Wichtig: In dieser Baseline schreibt die Schlafphase noch keine Memory um.
+Wichtig: In der Baseline schreibt die Schlafphase noch keine Memory um.
 Sie erzeugt nur Diagnoseartefakte. Dadurch bleibt sichtbar, was Wiederholung mit gleicher Memory leistet,
 bevor spaeter echte Schlaf-Reorganisation erlaubt wird.
 
@@ -37,6 +37,7 @@ bevor spaeter echte Schlaf-Reorganisation erlaubt wird.
 - aktive Rollensets: `3`
 - Sleep Unique Syntax: `1`
 - mittlerer Nachhall: `0.027274`
+- passive Sleep-Memory geschrieben: `False`
 
 Sleep-Zustaende:
 

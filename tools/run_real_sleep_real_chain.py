@@ -14,6 +14,7 @@ if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
 from mini_dio.config import Config
+from mini_dio.sleep_memory_reorganization import apply_sleep_reorganization_to_memory_file
 from tools.report_sleep_field_environment import run_environment as run_sleep_environment
 
 
@@ -82,6 +83,11 @@ def _summarize_memory(memory_path: Path) -> dict:
         "mcm_field_episode_memory": _memory_key_count(memory, "mcm_field_episode_memory"),
         "passive_inner_field_maps": _memory_key_count(memory, "passive_inner_field_maps"),
         "passive_mcm_role_network": _memory_key_count(memory, "passive_mcm_role_network"),
+        "passive_sleep_reorganization_history": _memory_key_count(memory, "passive_sleep_reorganization_history"),
+        "passive_sleep_reorganization_state": str(
+            dict(memory.get("passive_sleep_reorganization_memory", {}) or {}).get("reorganization_state", "")
+            or ""
+        ),
         "field_roles": dict(sorted(role_counter.items())),
     }
 
@@ -179,8 +185,13 @@ def _write_markdown(path: Path, summary: dict) -> None:
     comparison = summary["comparison"]
     metrics = comparison["metrics"]
     sleep = summary["sleep_summary"]
+    title = (
+        "Real-Sleep-Real Passive Reorganisation"
+        if bool(summary.get("sleep_memory_reorganization_written", False))
+        else "Real-Sleep-Real Baseline"
+    )
     lines = [
-        "# Real-Sleep-Real Baseline",
+        f"# {title}",
         "",
         f"Stand: {summary['created_at']}",
         "",
@@ -189,9 +200,21 @@ def _write_markdown(path: Path, summary: dict) -> None:
         "Diese Kette prueft, was sich zwischen zwei gleichen Real-Welt-Beruehrungen veraendert,",
         "wenn dazwischen eine entkoppelte MCM-Schlafdiagnose liegt.",
         "",
-        "Wichtig: In dieser Baseline schreibt die Schlafphase noch keine Memory um.",
-        "Sie erzeugt nur Diagnoseartefakte. Dadurch bleibt sichtbar, was Wiederholung mit gleicher Memory leistet,",
-        "bevor spaeter echte Schlaf-Reorganisation erlaubt wird.",
+        (
+            "Wichtig: In der Baseline schreibt die Schlafphase noch keine Memory um."
+            if not bool(summary.get("sleep_memory_reorganization_written", False))
+            else "Wichtig: In diesem Lauf schreibt die Schlafphase eine passive Reorganisationsspur."
+        ),
+        (
+            "Sie erzeugt nur Diagnoseartefakte. Dadurch bleibt sichtbar, was Wiederholung mit gleicher Memory leistet,"
+            if not bool(summary.get("sleep_memory_reorganization_written", False))
+            else "Diese Spur markiert nur beruehrte bestehende Rollen; sie erzeugt keine neue Weltbedeutung,"
+        ),
+        (
+            "bevor spaeter echte Schlaf-Reorganisation erlaubt wird."
+            if not bool(summary.get("sleep_memory_reorganization_written", False))
+            else "keine Richtung, kein Gate und keine Handlung."
+        ),
         "",
         "## Kette",
         "",
@@ -219,6 +242,7 @@ def _write_markdown(path: Path, summary: dict) -> None:
         f"- aktive Rollensets: `{sleep.get('active_role_set_count', 0)}`",
         f"- Sleep Unique Syntax: `{sleep.get('sleep_unique_symbols', 0)}`",
         f"- mittlerer Nachhall: `{round(float(sleep.get('avg_afterimage_abs', 0.0) or 0.0), 6)}`",
+        f"- passive Sleep-Memory geschrieben: `{bool(summary.get('sleep_memory_reorganization_written', False))}`",
         "",
         "Sleep-Zustaende:",
         "",
@@ -230,15 +254,39 @@ def _write_markdown(path: Path, summary: dict) -> None:
             "",
             "## Bewertung",
             "",
-            "Diese Baseline ist noch kein Nachweis fuer schlafbedingtes Lernen.",
-            "Sie trennt aber die drei Ebenen: erste Weltberuehrung, entkoppelte Feldaktivitaet, zweite Weltberuehrung.",
-            "Damit ist der naechste Schritt sauber messbar: Schlaf darf spaeter begrenzt Memory-Reorganisation schreiben,",
-            "und die zweite Weltberuehrung kann gegen diese Baseline verglichen werden.",
+            (
+                "Diese Baseline ist noch kein Nachweis fuer schlafbedingtes Lernen."
+                if not bool(summary.get("sleep_memory_reorganization_written", False))
+                else "Diese Stufe ist noch kein Nachweis fuer veraendertes Weltverhalten durch Schlaf."
+            ),
+            (
+                "Sie trennt aber die drei Ebenen: erste Weltberuehrung, entkoppelte Feldaktivitaet, zweite Weltberuehrung."
+                if not bool(summary.get("sleep_memory_reorganization_written", False))
+                else "Sie zeigt aber, dass Sleep bestehende Rollen passiv markieren kann, ohne Welt-Symbole neu zu erfinden."
+            ),
+            (
+                "Damit ist der naechste Schritt sauber messbar: Schlaf darf spaeter begrenzt Memory-Reorganisation schreiben,"
+                if not bool(summary.get("sleep_memory_reorganization_written", False))
+                else "Damit ist der naechste Schritt sauber messbar: eine spaetere Leseschicht darf pruefen,"
+            ),
+            (
+                "und die zweite Weltberuehrung kann gegen diese Baseline verglichen werden."
+                if not bool(summary.get("sleep_memory_reorganization_written", False))
+                else "ob diese passive Reorganisationsspur bei erneutem Weltkontakt wieder auftaucht oder neutral bleibt."
+            ),
             "",
             "## Wie es weitergeht",
             "",
-            "Als naechstes wird dieselbe Kette mit aktiver, aber klar begrenzter Sleep-Memory-Reorganisation vorbereitet.",
-            "Dann pruefen wir, ob im Schlaf beruehrte Rollen im zweiten Real-Lauf stabiler, klarer oder driftender wieder auftauchen.",
+            (
+                "Als naechstes wird dieselbe Kette mit aktiver, aber klar begrenzter Sleep-Memory-Reorganisation vorbereitet."
+                if not bool(summary.get("sleep_memory_reorganization_written", False))
+                else "Als naechstes wird die passive Sleep-Reorganisationsspur gegen weitere Welten geprueft."
+            ),
+            (
+                "Dann pruefen wir, ob im Schlaf beruehrte Rollen im zweiten Real-Lauf stabiler, klarer oder driftender wieder auftauchen."
+                if not bool(summary.get("sleep_memory_reorganization_written", False))
+                else "Dann wird sichtbar, ob sie nur eine lokale Markierung bleibt oder als wiederkehrende Innenfeldspur tragfaehig ist."
+            ),
             "",
         ]
     )
@@ -258,6 +306,7 @@ def run_chain(
     max_active_roles: int,
     activation_floor: float,
     sense_mode: str,
+    write_sleep_memory: bool,
 ) -> dict:
     data_path = data_path if data_path.is_absolute() else ROOT / data_path
     debug_root = debug_root if debug_root.is_absolute() else ROOT / debug_root
@@ -300,6 +349,14 @@ def run_chain(
             writer = csv.DictWriter(handle, fieldnames=list(sleep_rows[0].keys()))
             writer.writeheader()
             writer.writerows(sleep_rows)
+    sleep_reorganization_memory = {}
+    if write_sleep_memory:
+        sleep_reorganization_memory = apply_sleep_reorganization_to_memory_file(
+            memory_after_sleep,
+            sleep_summary=sleep_summary,
+            sleep_rows=sleep_rows,
+        )
+        _write_json(sleep_debug / "sleep_reorganization_memory.json", sleep_reorganization_memory)
 
     shutil.copy2(memory_after_sleep, memory_b)
     _run_mini(data_path, memory_b, real_b_debug, runs=1, reset_memory=False, sense_mode=sense_mode)
@@ -311,7 +368,8 @@ def run_chain(
         "data_path": _rel(data_path),
         "label": label,
         "sense_mode": sense_mode,
-        "sleep_is_diagnostic_only": True,
+        "sleep_is_diagnostic_only": not bool(write_sleep_memory),
+        "sleep_memory_reorganization_written": bool(write_sleep_memory),
         "memory_a_real": _rel(memory_a),
         "memory_after_sleep": _rel(memory_after_sleep),
         "memory_b_real": _rel(memory_b),
@@ -322,6 +380,7 @@ def run_chain(
         "memory_after_sleep_summary": _summarize_memory(memory_after_sleep),
         "memory_b_summary": _summarize_memory(memory_b),
         "sleep_summary": sleep_summary,
+        "sleep_reorganization_memory": sleep_reorganization_memory,
         "comparison": comparison,
     }
     _write_json(run_debug_root / "real_sleep_real_summary.json", summary)
@@ -343,6 +402,7 @@ def main() -> int:
     parser.add_argument("--role-limit", type=int, default=24)
     parser.add_argument("--max-active-roles", type=int, default=5)
     parser.add_argument("--activation-floor", type=float, default=0.65)
+    parser.add_argument("--write-sleep-memory", action="store_true")
     parser.add_argument(
         "--sense-mode",
         choices=("fixed", "world_relative"),
@@ -361,6 +421,7 @@ def main() -> int:
         max_active_roles=args.max_active_roles,
         activation_floor=args.activation_floor,
         sense_mode=args.sense_mode,
+        write_sleep_memory=bool(args.write_sleep_memory),
     )
     print(json.dumps(summary, indent=2, sort_keys=True, ensure_ascii=False))
     return 0

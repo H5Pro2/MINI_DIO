@@ -273,6 +273,11 @@ Die bisherigen Ergebnisse lassen sich so einordnen:
 
   Siehe dazu [1541 Real-Sleep-Real Baseline](docs/befunde/1541_REAL_SLEEP_REAL_BASELINE.md).
 
+- **Passive Sleep-Reorganisation**
+  Sleep kann jetzt eine getrennte `passive_sleep_reorganization_memory` schreiben. Diese Spur markiert nur, welche bestehenden MCM-Feldrollen im entkoppelten Sleep-Milieu beruehrt wurden. Sie erzeugt keine neue Weltbedeutung und steuert keine Handlung. Im ersten SOL-2024-Lauf wurden drei Rollen als `sleep_focused_role_touch` markiert; Real-B blieb gegenueber der Baseline nahezu unveraendert.
+
+  Siehe dazu [1542 Sleep Memory Reorganisation](docs/befunde/1542_SLEEP_MEMORY_REORGANISATION.md).
+
 - **Memory-Wiederverwendung**
   Bei erneutem Kontakt mit derselben strukturierten Welt erzeugt MINI_DIO keine neue Symbolstreuung. Die bekannten Rollen bleiben erhalten, und die Bedeutungsanzeige wird aktiv. Eine verwandte Holdout-Welt koppelt ebenfalls an dieselben Kernrollen an, jedoch mit geringerer Feldzeit und geringerem Nachhall. Das spricht für wiederverwendete Bedeutungsrollen statt bloßer Neubenennung.
 
