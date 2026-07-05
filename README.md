@@ -222,7 +222,9 @@ Die bisherigen Ergebnisse lassen sich so einordnen:
 - **Mosaikrollen als Feldraum**
   Die aktuellen Mosaikprüfungen zeigen, dass Varianten derselben Grundwelt nicht beliebig streuen. Eine Start-End-Brücke rekoppelt stärker über `dio_0l7p` und `dio_14wj`; ein verschobener Übergang aktiviert eher `dio_1wdi` und `dio_1fll`. Damit wird die MCM-Topologie nicht nur als Punktmodell gelesen, sondern als Rollenraum aus Zentrum, Brücke, Rand, Nebelzone und Nachhall.
 
-  Siehe dazu [1519-1521 MCM-Feldraum in Mischwelten](docs/befunde/1519_1521_MCM_FELDRAUM_MISCHWELTEN.md) und [1522-1523 MCM-Mosaik Variantenprüfung](docs/befunde/1522_1523_MCM_MOSAIK_VARIANTENPRUEFUNG.md).
+  In der verlängerten 3600er Folgewelt blieb diese Rollenlandschaft proportional erhalten, während der Nachhall stieg. Das stützt die Lesung: Wiederkehr verdichtet nicht zwingend zu einer Einzelrolle, sondern kann einen verteilten Feldraum zeitlich vertiefen.
+
+  Siehe dazu [1519-1521 MCM-Feldraum in Mischwelten](docs/befunde/1519_1521_MCM_FELDRAUM_MISCHWELTEN.md), [1522-1523 MCM-Mosaik Variantenprüfung](docs/befunde/1522_1523_MCM_MOSAIK_VARIANTENPRUEFUNG.md) und [1524 MCM-Mosaik Folgewelt 3600](docs/befunde/1524_MCM_MOSAIK_FOLGEWELT_3600.md).
 
 - **Feldzeit und Nachhall**
   Zeit wird nicht nur als Tick oder Index betrachtet. Im Feld zeigt sie sich als Nachhall, Wiederkehr, Nähe/Ferne, Drift und Integrationsqualität einer gewirkten Weltlage.
