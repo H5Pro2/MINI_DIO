@@ -1,0 +1,5 @@
+welt,run,unique_symbols,avg_mcm_carry_quality,avg_mcm_rekopplung_quality,avg_mcm_strain_quality,avg_afterimage,stable_ratio,carried_unrest_ratio,strained_ratio,tipping_ratio,top_symbol,top_symbol_count,dio_1fll_count,dio_0l7p_count,dio_14wj_count,dio_1wdi_count
+1515_randdominanz_b,lauf_1,226,0.5904,0.7411,0.1298,0.6477,0.9314,0.0679,0.0001,0.0006,dio_1fllaqz,3695,3695,0,0,0
+1515_randdominanz_b,lauf_2,226,0.5906,0.7410,0.1297,0.6477,0.9312,0.0681,0.0001,0.0006,dio_1fllaqz,3695,7390,0,0,0
+1516_bruch_rand_a,lauf_1,170,0.5980,0.7460,0.1251,0.6943,0.9531,0.0464,0.0002,0.0002,dio_1fllaqz,3236,3236,0,0,0
+1516_bruch_rand_a,lauf_2,170,0.5981,0.7459,0.1250,0.6943,0.9531,0.0464,0.0002,0.0002,dio_1fllaqz,3236,6472,0,0,0
