@@ -308,6 +308,11 @@ Die bisherigen Ergebnisse lassen sich so einordnen:
 
   Siehe dazu [1562 Sleep-Zwischenrollen Kandidaten](docs/befunde/1562_SLEEP_ZWISCHENROLLEN_KANDIDATEN.md).
 
+- **Zwischenrollen-Stabilitaet**
+  Eine zweite Real-Sleep-Real-Kette erzeugte dieselben 7 Zwischenrollen-Kandidaten. Im lokalen passiven Speicher stieg `seen_count` fuer alle 7 Kandidaten auf 2. Das spricht fuer reproduzierbare Zwischenrollen-Kandidaten innerhalb dieser Pruefkette, nicht fuer einmalige Streuung.
+
+  Siehe dazu [1568 Sleep-Zwischenrollen Stabilitaet R2](docs/befunde/1568_SLEEP_ZWISCHENROLLEN_STABILITAET_R2_SYNTHESE.md).
+
 - **Memory-Wiederverwendung**
   Bei erneutem Kontakt mit derselben strukturierten Welt erzeugt MINI_DIO keine neue Symbolstreuung. Die bekannten Rollen bleiben erhalten, und die Bedeutungsanzeige wird aktiv. Eine verwandte Holdout-Welt koppelt ebenfalls an dieselben Kernrollen an, jedoch mit geringerer Feldzeit und geringerem Nachhall. Das spricht für wiederverwendete Bedeutungsrollen statt bloßer Neubenennung.
 
