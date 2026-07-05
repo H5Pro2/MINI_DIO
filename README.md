@@ -219,6 +219,11 @@ Die bisherigen Ergebnisse lassen sich so einordnen:
 - **Rezeptorschicht als Schutzgrenze**
   Nicht alles aus der Außenwelt darf direkt in das MCM-Feld. Sehen, Hören und späteres Tasten müssen getrennt aufgenommen und über Rezeptoren in geordnete Feldwirkung übersetzt werden.
 
+- **Mosaikrollen als Feldraum**
+  Die aktuellen Mosaikprüfungen zeigen, dass Varianten derselben Grundwelt nicht beliebig streuen. Eine Start-End-Brücke rekoppelt stärker über `dio_0l7p` und `dio_14wj`; ein verschobener Übergang aktiviert eher `dio_1wdi` und `dio_1fll`. Damit wird die MCM-Topologie nicht nur als Punktmodell gelesen, sondern als Rollenraum aus Zentrum, Brücke, Rand, Nebelzone und Nachhall.
+
+  Siehe dazu [1519-1521 MCM-Feldraum in Mischwelten](docs/befunde/1519_1521_MCM_FELDRAUM_MISCHWELTEN.md) und [1522-1523 MCM-Mosaik Variantenprüfung](docs/befunde/1522_1523_MCM_MOSAIK_VARIANTENPRUEFUNG.md).
+
 - **Feldzeit und Nachhall**
   Zeit wird nicht nur als Tick oder Index betrachtet. Im Feld zeigt sie sich als Nachhall, Wiederkehr, Nähe/Ferne, Drift und Integrationsqualität einer gewirkten Weltlage.
 
