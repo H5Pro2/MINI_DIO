@@ -318,6 +318,11 @@ Die bisherigen Ergebnisse lassen sich so einordnen:
 
   Siehe dazu [005 Offline-Feld-Reorganisation](docs/mechanik/005_OFFLINE_FELD_REORGANISATION.md).
 
+- **BTC-Zwischenrollen-Erweiterung**
+  Eine andere Ausgangswelt wurde gegen denselben Zwischenrollen-Speicher geprueft. BTC-2024-5m mit 1000 Zeilen erzeugte 3 breite Zwischenrollen-Kandidaten. Einer davon war bereits aus der SOL-Pruefkette bekannt und stieg im lokalen Speicher von `seen_count=2` auf `seen_count=3`; zwei neue BTC-nahe Kandidaten kamen hinzu. Damit wirken die bisherigen 7 Kandidaten nicht rein SOL-isoliert, sondern mindestens teilweise anschlussfaehig ueber eine andere Welt.
+
+  Siehe dazu [1569 BTC1000 Sleep-Zwischenrollen Kandidaten](docs/befunde/1569_BTC1000_SLEEP_ZWISCHENROLLEN_KANDIDATEN.md).
+
 - **Memory-Wiederverwendung**
   Bei erneutem Kontakt mit derselben strukturierten Welt erzeugt MINI_DIO keine neue Symbolstreuung. Die bekannten Rollen bleiben erhalten, und die Bedeutungsanzeige wird aktiv. Eine verwandte Holdout-Welt koppelt ebenfalls an dieselben Kernrollen an, jedoch mit geringerer Feldzeit und geringerem Nachhall. Das spricht für wiederverwendete Bedeutungsrollen statt bloßer Neubenennung.
 
