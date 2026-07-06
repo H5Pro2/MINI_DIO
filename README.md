@@ -412,7 +412,9 @@ Die bisherigen Ergebnisse lassen sich so einordnen:
 
   Die methodische Gegenprobe zeigt zugleich eine Grenze: Im `fixed`-Sinnesmodus rekoppeln 1650 und 1700 vollständig. Die Selektivität entsteht also im Zusammenspiel aus Endrand und `world_relative`-Rezeptorprofil. Für Milieu-Forschung ist das relevant; für streng kausale Tick-Deutung braucht es zusätzlich eine rollierende Rezeptor-Normierung.
 
-  Siehe dazu [1622 Endrand und selektive Offline-Reorganisation](docs/befunde/1622_SYNTH_RAND_KIPP_ENDRAND_TRAEGT_SELEKTIVITAET.md), [1629 Endrand-Schwelle](docs/befunde/1629_SYNTH_RAND_KIPP_ENDRAND_SCHWELLE.md), [1630 Schwellenzone 1650-1700](docs/befunde/1630_SYNTH_RAND_KIPP_SCHWELLENZONE_1650_1700.md) und [1633 WORLD_RELATIVE Methodengrenze](docs/befunde/1633_WORLD_RELATIVE_ENDRAND_METHODENGRENZE.md).
+  Die erste `rolling_relative`-Gegenprobe liest kausaler, kollabiert aber die breite 5-Rollen-Struktur zu einer einzigen tragenden Grundrolle. Damit wird eine Zwischenform sichtbar: Das Feld braucht Milieu-Tiefe, aber für spätere Laufzeitmechanik sollte diese Tiefe aus begrenzter Vergangenheit und Nachhall entstehen, nicht aus einer vollständigen Gesamtwelt.
+
+  Siehe dazu [1622 Endrand und selektive Offline-Reorganisation](docs/befunde/1622_SYNTH_RAND_KIPP_ENDRAND_TRAEGT_SELEKTIVITAET.md), [1629 Endrand-Schwelle](docs/befunde/1629_SYNTH_RAND_KIPP_ENDRAND_SCHWELLE.md), [1630 Schwellenzone 1650-1700](docs/befunde/1630_SYNTH_RAND_KIPP_SCHWELLENZONE_1650_1700.md), [1633 WORLD_RELATIVE Methodengrenze](docs/befunde/1633_WORLD_RELATIVE_ENDRAND_METHODENGRENZE.md) und [1636 ROLLING_RELATIVE Rezeptor-Diagnose](docs/befunde/1636_ROLLING_RELATIVE_REZEPTOR_DIAGNOSE.md).
 
 - **Memory-Wiederverwendung**
   Bei erneutem Kontakt mit derselben strukturierten Welt erzeugt MINI_DIO keine neue Symbolstreuung. Die bekannten Rollen bleiben erhalten, und die Bedeutungsanzeige wird aktiv. Eine verwandte Holdout-Welt koppelt ebenfalls an dieselben Kernrollen an, jedoch mit geringerer Feldzeit und geringerem Nachhall. Das spricht für wiederverwendete Bedeutungsrollen statt bloßer Neubenennung.
