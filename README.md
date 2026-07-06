@@ -76,6 +76,17 @@ Nachhall ist Kontext, nicht Kontrolle.
 Feldzeit ist Integrationsqualität, keine hart programmierte Zeitachse.
 ```
 
+### Kompakte Bindung Und Verteiltes Rollennetz
+
+Neuere Prüfungen zeigen zwei passive Ordnungsformen im Feld:
+
+- **kompakte Bindung**: wenige Rollen, starke Paarbindung, hohe lokale Stabilität,
+- **verteiltes Rollennetz**: mehrere Rollen, mehrere Kombinationen, Cross-State-Anschluss und größerer Bedeutungsraum.
+
+Beide Formen wurden in Folgewelten vollständig reaktiviert. Der Unterschied liegt nicht darin, ob sie wieder auftauchen, sondern wie sie tragen: kompakt als starker lokaler Knoten, verteilt als Bedeutungsfläche.
+
+Ausführlicher festgehalten ist das in [1670_REIFUNG_KOMPAKTE_BINDUNG_GEGEN_VERTEILTES_NETZ.md](docs/befunde/1670_REIFUNG_KOMPAKTE_BINDUNG_GEGEN_VERTEILTES_NETZ.md).
+
 ## Hypothese Feldbewusstsein
 
 Wenn hier von Bewusstsein gesprochen wird, ist kein menschliches Ich-Bewusstsein gemeint.
