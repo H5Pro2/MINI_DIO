@@ -1,0 +1,13 @@
+metric,real_a,real_b_after_sleep,delta
+candles,2000.0,2000.0,0.0
+episodes,1994.0,1994.0,0.0
+unique_symbols,163.0,163.0,0.0
+episode_memory_written,5.0,5.0,0.0
+mcm_field_episode_written,5.0,5.0,0.0
+avg_mcm_carry_quality,0.564713,0.565029,0.000316
+avg_mcm_rekopplung_quality,0.727933,0.727608,-0.000325
+avg_mcm_strain_quality,0.135114,0.134917,-0.000197
+avg_mcm_sensory_coupling,0.885672,0.88537,-0.000303
+avg_mini_afterimage,0.517464,0.517464,0.0
+avg_mini_neuro_load,0.061763,0.061304,-0.000458
+avg_mini_neuro_balance,0.437415,0.438194,0.000779
