@@ -169,6 +169,24 @@ def _write_csv(rows: list[dict[str, object]], path: Path) -> None:
 
 def _write_md(rows: list[dict[str, object]], path: Path) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
+    full_breadths = sorted(
+        {
+            (_int(row.get("touched_role_count")), _int(row.get("combination_trace_count")))
+            for row in rows
+            if row["reactivation_class"] == "voll_fokussiert"
+        }
+    )
+    selective_breadths = sorted(
+        {
+            (_int(row.get("touched_role_count")), _int(row.get("combination_trace_count")))
+            for row in rows
+            if row["reactivation_class"] == "selektiv_breit"
+        }
+    )
+    full_line = ", ".join(f"{roles} Rollen / {combos} Kombinationen" for roles, combos in full_breadths) or "-"
+    selective_line = (
+        ", ".join(f"{roles} Rollen / {combos} Kombinationen" for roles, combos in selective_breadths) or "-"
+    )
     lines = [
         "# Sleep-Rollenbreiten-Karte",
         "",
@@ -222,11 +240,11 @@ def _write_md(rows: list[dict[str, object]], path: Path) -> None:
             "Die aktuelle Stichprobe zeigt keine lineare Regel nach Fensterlaenge, sondern eine Rollenbreiten-Trennung:",
             "",
             "```text",
-            "3 Rollen / 3 Kombinationen -> voll fokussierte Rekopplung.",
-            "5 Rollen / 10 Kombinationen -> selektive breite Reorganisation.",
+            f"{full_line} -> voll fokussierte Rekopplung.",
+            f"{selective_line} -> selektive breite Reorganisation.",
             "```",
             "",
-            "Der sichtbare Kipppunkt liegt damit in dieser Stichprobe nicht bei Weltlaenge, sondern bei der inneren Rollenbreite und Kombinationszahl.",
+            "Der sichtbare Kipppunkt liegt damit in dieser Stichprobe nicht bei Weltlaenge, sondern bei der inneren Rollenbreite, Kombinationszahl und Strain-Verteilung.",
             "",
             "## Grenze",
             "",
