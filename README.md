@@ -87,6 +87,16 @@ Beide Formen wurden in Folgewelten vollständig reaktiviert. Der Unterschied lie
 
 Ausführlicher festgehalten ist das in [1670_REIFUNG_KOMPAKTE_BINDUNG_GEGEN_VERTEILTES_NETZ.md](docs/befunde/1670_REIFUNG_KOMPAKTE_BINDUNG_GEGEN_VERTEILTES_NETZ.md).
 
+### Nachbarforschungen Und Unabhängige Entstehung
+
+MINI_DIO berührt Themen, die auch in Neural Fields, Active Inference, Self-Organizing Maps, Reservoir Computing, Neural Cellular Automata, World Models und neuromorphen Systemen vorkommen.
+
+Wichtig ist die Entstehungsrichtung: Die MCM/DIO-Forschung wurde nicht aus diesen Forschungsfeldern abgeleitet. Sie entstand aus eigener MCM-Hypothesenarbeit, einer Bild-/Kunstform-Beobachtung als Formanker, der Idee eines Digitalen Organismus und späteren MINI_DIO-Experimenten. Die Nähe zu bestehenden Forschungsrichtungen wurde erst nachträglich sichtbar.
+
+Damit ist MINI_DIO nicht aus dem Nichts, aber auch keine Kopie bestehender Modelle. Die aktuelle Eigenständigkeit liegt in der Verbindung aus Sinnesaufnahme, Rezeptorik, MCM-Feldwirkung, Topologie, Feldzeit, Nachhall, eigener `dio_*`-Syntax, Bedeutungsinseln und passiver Offline-Feld-Reorganisation.
+
+Ausführlicher festgehalten ist das in [1671_NACHBARFORSCHUNGEN_UND_UNABHAENGIGE_ENTSTEHUNG.md](docs/befunde/1671_NACHBARFORSCHUNGEN_UND_UNABHAENGIGE_ENTSTEHUNG.md).
+
 ## Hypothese Feldbewusstsein
 
 Wenn hier von Bewusstsein gesprochen wird, ist kein menschliches Ich-Bewusstsein gemeint.
