@@ -388,6 +388,11 @@ Die bisherigen Ergebnisse lassen sich so einordnen:
 
   Siehe dazu [1595 Sleep-Rollenbreiten-Karte](docs/befunde/1595_SLEEP_ROLLENBREITEN_KARTE.md), [1598 4-Rollen-Zwischenprüfung](docs/befunde/1598_ROLLE4_ZWISCHENPRUEFUNG_SLEEP_REKOPPLUNG.md), [1600 Reales 5-Rollen-Fenster gegen synthetisches Kippmilieu](docs/befunde/1600_REALES_ROLLE5_FENSTER_GEGEN_SYNTH_KIPP.md) und [1603 Reale 5-Rollen-Reproduktion gegen synthetische Selektivität](docs/befunde/1603_REALE_5_ROLLEN_REPRODUKTION_GEGEN_SYNTH_SELECTIVITAET.md).
 
+- **Nachhall und Selektivität**
+  Eine synthetische Hoch-Nachhall-Gegenprobe (`BRUCH_RAND_A start0`) rekoppelte trotz sehr hohem Nachhall vollständig: 3 von 3 Rollen und 3 von 3 Kombinationen. Damit reicht Nachhall allein nicht als Erklärung für selektive Offline-Reorganisation. Selektivität entsteht bisher eher dort, wo hoher Nachhall zusätzlich auf breitere Rand-/Kippnähe und mehr Co-Touch-Kombinationen trifft.
+
+  Siehe dazu [1604 Synthetische Milieu-Nachhall-Fenstersuche](docs/befunde/1604_SYNTH_MILIEU_NACHHALL_FENSTERSUCHE.md), [1605 Synth BRUCH_RAND_A Hoch-Nachhall-Repro](docs/befunde/1605_SYNTH_BRUCH_RAND_A_2000_HIGH_AFTERIMAGE_REPRO.md) und [1606 Nachhall allein reicht nicht](docs/befunde/1606_NACHHALL_ALLEIN_REICHT_NICHT_SYNTH_GEGENPROBE.md).
+
 - **Memory-Wiederverwendung**
   Bei erneutem Kontakt mit derselben strukturierten Welt erzeugt MINI_DIO keine neue Symbolstreuung. Die bekannten Rollen bleiben erhalten, und die Bedeutungsanzeige wird aktiv. Eine verwandte Holdout-Welt koppelt ebenfalls an dieselben Kernrollen an, jedoch mit geringerer Feldzeit und geringerem Nachhall. Das spricht für wiederverwendete Bedeutungsrollen statt bloßer Neubenennung.
 
