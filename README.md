@@ -383,6 +383,11 @@ Die bisherigen Ergebnisse lassen sich so einordnen:
 
   Siehe dazu [1593 EXPANSION_POSITIV 2000 Übergang-Repro](docs/befunde/1593_EXPANSION_POSITIV_2000_UEBERGANG_REPRO.md) und [1594 Reale Übergänge vs synthetische Mehrrollennähe](docs/befunde/1594_REALE_UEBERGAENGE_VS_SYNTH_MEHRROLLEN_SLEEP.md).
 
+- **Rollenbreiten-Karte**
+  Die erste passive Rollenbreiten-Karte ordnet diese Befunde als prüfbare Achse: 3 Rollen mit 3 Kombinationen rekoppeln in den beiden realen Übergangswelten vollständig, während 5 Rollen mit 10 Kombinationen im synthetischen Rand-/Kippfenster selektiv bleiben. Der aktuelle Kipppunkt liegt damit nicht bei Fensterlänge, sondern bei innerer Rollenbreite, Kombinationszahl und Strain-Kontakt.
+
+  Siehe dazu [1595 Sleep-Rollenbreiten-Karte](docs/befunde/1595_SLEEP_ROLLENBREITEN_KARTE.md).
+
 - **Memory-Wiederverwendung**
   Bei erneutem Kontakt mit derselben strukturierten Welt erzeugt MINI_DIO keine neue Symbolstreuung. Die bekannten Rollen bleiben erhalten, und die Bedeutungsanzeige wird aktiv. Eine verwandte Holdout-Welt koppelt ebenfalls an dieselben Kernrollen an, jedoch mit geringerer Feldzeit und geringerem Nachhall. Das spricht für wiederverwendete Bedeutungsrollen statt bloßer Neubenennung.
 
