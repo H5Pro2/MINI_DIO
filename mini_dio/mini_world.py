@@ -353,6 +353,78 @@ def build_sensory_profile(candles: list[dict], window: int = 5) -> dict:
     }
 
 
+def build_adaptive_sensory_profiles(
+    candles: list[dict],
+    window: int = 5,
+    horizon: int = 512,
+    alpha: float = 0.04,
+) -> list[dict]:
+    """Build causal profiles with bounded past and slow receptor adaptation.
+
+    This passive diagnostic bridge sits between ``world_relative`` and
+    ``rolling_relative``. It never reads future candles. Each tick receives a
+    profile from a limited past horizon, blended with the previous profile so
+    the receptor layer carries short field-time memory instead of resetting.
+    """
+
+    horizon = max(8, int(horizon or 512))
+    alpha = max(0.001, min(1.0, float(alpha or 0.04)))
+    primitive_rows: list[dict] = []
+    profiles: list[dict] = []
+    current: dict | None = None
+    fallback = build_sensory_profile(candles[: min(len(candles), max(window + 1, 32))], window=window)
+
+    for index in range(len(candles)):
+        start = max(0, index - window + 1)
+        sample = candles[start : index + 1]
+        if len(sample) >= 2:
+            primitive_rows.append(_sample_primitives(sample))
+        rows = primitive_rows[-horizon:]
+        if rows:
+            raw = {
+                "direction_scale": _robust_scale([row["direction"] for row in rows], fallback=0.003),
+                "change_scale": _robust_scale([row["change"] for row in rows], fallback=0.002),
+                "range_shift_scale": _robust_scale([row["range_shift"] for row in rows], fallback=0.35),
+                "volume_shift_scale": _robust_scale([row["volume_shift"] for row in rows], fallback=0.50),
+                "energy_shift_scale": _robust_scale([row["energy_shift"] for row in rows], fallback=0.35),
+                "sample_count": len(rows),
+            }
+        else:
+            raw = dict(fallback)
+
+        if current is None:
+            current = dict(raw)
+        else:
+            for key in [
+                "direction_scale",
+                "change_scale",
+                "range_shift_scale",
+                "volume_shift_scale",
+                "energy_shift_scale",
+            ]:
+                current[key] = (float(current.get(key, raw[key]) or raw[key]) * (1.0 - alpha)) + (
+                    float(raw[key] or 0.0) * alpha
+                )
+            current["sample_count"] = raw.get("sample_count", 0)
+
+        profile = dict(current)
+        profile.update(
+            {
+                "adaptive_horizon": horizon,
+                "adaptive_alpha": alpha,
+                "passive_only": True,
+                "influences_action": False,
+                "is_gate": False,
+                "is_motoric": False,
+                "is_entry_signal": False,
+                "is_direction_signal": False,
+            }
+        )
+        profiles.append(profile)
+
+    return profiles
+
+
 def build_senses(candles: list[dict], index: int, window: int = 5) -> dict:
     start = max(0, index - window + 1)
     sample = candles[start : index + 1]

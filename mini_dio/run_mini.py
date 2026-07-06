@@ -27,6 +27,7 @@ from mini_dio.mcm_effect_map import (
 from mini_dio.mcm_neuron import ACTION_NAMES, MiniMCMField
 from mini_dio.mini_world import (
     best_future_action,
+    build_adaptive_sensory_profiles,
     build_senses,
     build_senses_world_relative,
     build_sensory_profile,
@@ -322,9 +323,18 @@ def run_once(
 ) -> dict:
     candles = load_candles(data_path)
     sense_mode = str(sense_mode or "fixed").strip().lower()
-    if sense_mode not in {"fixed", "world_relative", "rolling_relative"}:
+    if sense_mode not in {"fixed", "world_relative", "rolling_relative", "adaptive_relative"}:
         raise ValueError(f"unknown sense_mode: {sense_mode}")
     sensory_profile = build_sensory_profile(candles) if sense_mode == "world_relative" else {}
+    adaptive_profiles = (
+        build_adaptive_sensory_profiles(
+            candles,
+            horizon=getattr(Config, "DIO_MINI_ADAPTIVE_PROFILE_HORIZON", 512),
+            alpha=getattr(Config, "DIO_MINI_ADAPTIVE_PROFILE_ALPHA", 0.04),
+        )
+        if sense_mode == "adaptive_relative"
+        else []
+    )
     field = MiniMCMField(neuron_count=getattr(Config, "DIO_MINI_MCM_NEURON_COUNT", 12))
     debug_dir = debug_root / f"dio_mini_lauf_{run_index}"
     debug_dir.mkdir(parents=True, exist_ok=True)
@@ -391,6 +401,8 @@ def run_once(
         elif sense_mode == "rolling_relative":
             rolling_profile = build_sensory_profile(candles[: index + 1])
             senses = build_senses_world_relative(candles, index, profile=rolling_profile)
+        elif sense_mode == "adaptive_relative":
+            senses = build_senses_world_relative(candles, index, profile=adaptive_profiles[index])
         else:
             senses = build_senses(candles, index)
         field_state = field.step(senses)
@@ -879,7 +891,7 @@ def main() -> None:
     parser.add_argument("--world-label", default="")
     parser.add_argument(
         "--sense-mode",
-        choices=("fixed", "world_relative", "rolling_relative"),
+        choices=("fixed", "world_relative", "rolling_relative", "adaptive_relative"),
         default=getattr(Config, "DIO_MINI_SENSE_MODE", "world_relative"),
     )
     args = parser.parse_args()

@@ -553,7 +553,7 @@ def main() -> int:
     parser.add_argument("--write-sleep-memory", action="store_true")
     parser.add_argument(
         "--sense-mode",
-        choices=("fixed", "world_relative", "rolling_relative"),
+        choices=("fixed", "world_relative", "rolling_relative", "adaptive_relative"),
         default=getattr(Config, "DIO_MINI_SENSE_MODE", "world_relative"),
     )
     args = parser.parse_args()
