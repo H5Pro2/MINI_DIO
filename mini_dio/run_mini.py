@@ -29,11 +29,13 @@ from mini_dio.mini_world import (
     best_future_action,
     build_adaptive_sensory_profiles,
     build_senses,
+    build_senses_with_phase_afterimage,
     build_senses_world_relative,
     build_sensory_profile,
     evaluate_future,
     evaluate_trade_event,
     load_candles,
+    update_phase_afterimage,
 )
 from mini_dio.neuro_state import build_mini_neuro_state
 from mini_dio.dio_syntax import (
@@ -323,16 +325,30 @@ def run_once(
 ) -> dict:
     candles = load_candles(data_path)
     sense_mode = str(sense_mode or "fixed").strip().lower()
-    if sense_mode not in {"fixed", "world_relative", "rolling_relative", "adaptive_relative"}:
+    if sense_mode not in {
+        "fixed",
+        "world_relative",
+        "rolling_relative",
+        "adaptive_relative",
+        "calibrated_relative",
+        "phase_afterimage_relative",
+    }:
         raise ValueError(f"unknown sense_mode: {sense_mode}")
     sensory_profile = build_sensory_profile(candles) if sense_mode == "world_relative" else {}
+    calibrated_profile = (
+        build_sensory_profile(
+            candles[: max(2, min(len(candles), int(getattr(Config, "DIO_MINI_CALIBRATION_PROFILE_HORIZON", 512) or 512)))]
+        )
+        if sense_mode == "calibrated_relative"
+        else {}
+    )
     adaptive_profiles = (
         build_adaptive_sensory_profiles(
             candles,
             horizon=getattr(Config, "DIO_MINI_ADAPTIVE_PROFILE_HORIZON", 512),
             alpha=getattr(Config, "DIO_MINI_ADAPTIVE_PROFILE_ALPHA", 0.04),
         )
-        if sense_mode == "adaptive_relative"
+        if sense_mode in {"adaptive_relative", "phase_afterimage_relative"}
         else []
     )
     field = MiniMCMField(neuron_count=getattr(Config, "DIO_MINI_MCM_NEURON_COUNT", 12))
@@ -395,6 +411,7 @@ def run_once(
     horizon = 5
     temporal_tracker = MiniTemporalTracker()
     episode_tracker = PassiveEpisodeTracker(max_ticks=getattr(Config, "DIO_MINI_EPISODE_MEMORY_MAX_TICKS", 12))
+    phase_afterimage = {}
     while index < max(1, len(candles) - horizon):
         if sense_mode == "world_relative":
             senses = build_senses_world_relative(candles, index, profile=sensory_profile)
@@ -403,9 +420,24 @@ def run_once(
             senses = build_senses_world_relative(candles, index, profile=rolling_profile)
         elif sense_mode == "adaptive_relative":
             senses = build_senses_world_relative(candles, index, profile=adaptive_profiles[index])
+        elif sense_mode == "calibrated_relative":
+            senses = build_senses_world_relative(candles, index, profile=calibrated_profile)
+        elif sense_mode == "phase_afterimage_relative":
+            base_senses = build_senses_world_relative(candles, index, profile=adaptive_profiles[index])
+            senses = build_senses_with_phase_afterimage(
+                base_senses,
+                phase_afterimage,
+                strength=getattr(Config, "DIO_MINI_PHASE_AFTERIMAGE_STRENGTH", 0.22),
+            )
         else:
             senses = build_senses(candles, index)
         field_state = field.step(senses)
+        if sense_mode == "phase_afterimage_relative":
+            phase_afterimage = update_phase_afterimage(
+                phase_afterimage,
+                senses,
+                alpha=getattr(Config, "DIO_MINI_PHASE_AFTERIMAGE_ALPHA", 0.08),
+            )
         syntax_vector = make_syntax_vector(senses, field_state["signature"])
         symbol = make_syntax_symbol(senses, field_state["signature"])
         action, scores, diagnostics = choose_action(field_state["action_scores"], memory, symbol, syntax_vector)
@@ -891,7 +923,14 @@ def main() -> None:
     parser.add_argument("--world-label", default="")
     parser.add_argument(
         "--sense-mode",
-        choices=("fixed", "world_relative", "rolling_relative", "adaptive_relative"),
+        choices=(
+            "fixed",
+            "world_relative",
+            "rolling_relative",
+            "adaptive_relative",
+            "calibrated_relative",
+            "phase_afterimage_relative",
+        ),
         default=getattr(Config, "DIO_MINI_SENSE_MODE", "world_relative"),
     )
     args = parser.parse_args()

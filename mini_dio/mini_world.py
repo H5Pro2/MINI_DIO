@@ -264,6 +264,85 @@ def _build_receptor_senses(sehen: dict, hoeren: dict) -> dict:
     }
 
 
+def build_senses_with_phase_afterimage(current_senses: dict, phase_afterimage: dict, strength: float = 0.22) -> dict:
+    """Blend current causal senses with prior sensory phase afterimage.
+
+    The afterimage is not a world-normalizer and has no future access. It only
+    lets the previous visual/acoustic sensory phase remain weakly active before
+    receptor translation rebuilds the MCM field effect.
+    """
+
+    strength = _clip(strength, 0.0, 0.65)
+    if strength <= 0.0 or not phase_afterimage:
+        senses = dict(current_senses or {})
+        senses["phase_afterimage_state"] = {
+            "phase_afterimage_active": False,
+            "phase_afterimage_strength": 0.0,
+            "passive_only": True,
+            "influences_action": False,
+        }
+        return senses
+
+    current_sehen = dict((current_senses or {}).get("sehen", {}) or {})
+    current_hoeren = dict((current_senses or {}).get("hoeren", {}) or {})
+    prior_sehen = dict((phase_afterimage or {}).get("sehen", {}) or {})
+    prior_hoeren = dict((phase_afterimage or {}).get("hoeren", {}) or {})
+
+    def _blend_axis(current_axis: dict, prior_axis: dict) -> dict:
+        blended = {}
+        for key, value in current_axis.items():
+            if isinstance(value, bool):
+                blended[key] = value
+                continue
+            try:
+                current_value = float(value)
+            except Exception:
+                blended[key] = value
+                continue
+            try:
+                prior_value = float(prior_axis.get(key, current_value))
+            except Exception:
+                prior_value = current_value
+            blended[key] = _clip((current_value * (1.0 - strength)) + (prior_value * strength))
+        return blended
+
+    senses = _build_receptor_senses(
+        _blend_axis(current_sehen, prior_sehen),
+        _blend_axis(current_hoeren, prior_hoeren),
+    )
+    senses["phase_afterimage_state"] = {
+        "phase_afterimage_active": True,
+        "phase_afterimage_strength": strength,
+        "passive_only": True,
+        "influences_action": False,
+    }
+    return senses
+
+
+def update_phase_afterimage(phase_afterimage: dict, senses: dict, alpha: float = 0.08) -> dict:
+    """Update a causal sensory afterimage from the current processed senses."""
+
+    alpha = _clip(alpha, 0.0, 1.0)
+    previous = dict(phase_afterimage or {})
+    updated = {"sehen": {}, "hoeren": {}}
+    for axis in ("sehen", "hoeren"):
+        current_axis = dict((senses or {}).get(axis, {}) or {})
+        previous_axis = dict(previous.get(axis, {}) or {})
+        for key, value in current_axis.items():
+            if isinstance(value, bool):
+                continue
+            try:
+                current_value = float(value)
+            except Exception:
+                continue
+            try:
+                previous_value = float(previous_axis.get(key, current_value))
+            except Exception:
+                previous_value = current_value
+            updated[axis][key] = _clip((previous_value * (1.0 - alpha)) + (current_value * alpha))
+    return updated
+
+
 def load_candles(path: str | Path) -> list[dict]:
     candles = []
     with Path(path).open(newline="", encoding="utf-8") as handle:
