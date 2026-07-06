@@ -1,6 +1,6 @@
 # Sleep-Rollenbreiten-Karte
 
-Stand: 2026-07-06 09:16:53
+Stand: 2026-07-06 09:57:51
 
 ## Grundfrage
 
@@ -19,10 +19,12 @@ Verglichen werden Real-Sleep-Real-Laeufe mit 2000er-Fenstern. Die Diagnose ist p
 | expansion_positiv_2000_start2000_transition_repro | voll_fokussiert | 3 | 3 | 3 (1.0000) | 3 (1.0000) | 0 (0.0000) | 1 (0.3333) | 0.1440 | 0.6958 | 0.5111 | 0.1553 |
 | xrp2024_2000_start2000_role4_repro | voll_fokussiert | 4 | 6 | 4 (1.0000) | 6 (1.0000) | 0 (0.0000) | 1 (0.2500) | 0.1433 | 0.6954 | 0.5110 | 0.1553 |
 | xrp2024_2000_start0_role5_repro | voll_fokussiert | 5 | 10 | 5 (1.0000) | 10 (1.0000) | 0 (0.0000) | 2 (0.4000) | 0.1458 | 0.6955 | 0.5117 | 0.1556 |
+| doge2024_2000_start0_role5_repro | voll_fokussiert | 5 | 10 | 5 (1.0000) | 10 (1.0000) | 0 (0.0000) | 2 (0.4000) | 0.1432 | 0.6944 | 0.5111 | 0.1566 |
+| doge2024_2000_start8000_role5_repro | voll_fokussiert | 5 | 10 | 5 (1.0000) | 10 (1.0000) | 0 (0.0000) | 2 (0.4000) | 0.1407 | 0.6956 | 0.5111 | 0.1548 |
 
 ## Befund
 
-- Voll fokussierte Rekopplung: `4` Fenster.
+- Voll fokussierte Rekopplung: `6` Fenster.
 - Selektiv breite Reorganisation: `1` Fenster.
 
 Die aktuelle Stichprobe zeigt keine lineare Regel nach Fensterlaenge. Rollenbreite allein erklaert die Reaktivierung ebenfalls nicht vollstaendig:
@@ -42,4 +44,4 @@ Das ist eine kleine Diagnosekarte, kein Beweis. Sie definiert aber eine pruefbar
 
 ## Wie es weitergeht
 
-Als naechstes sollten die realen 5-Rollen-Fenster `DOGE_2024_5M start0` und `DOGE_2024_5M start8000` reproduziert werden. Ziel ist zu pruefen, ob reale 5-Rollen-Fenster generell voll rekoppeln und ob Selektivitaet vor allem am synthetischen Rand-/Kippmilieu haengt.
+Als naechstes sollte gezielt das Feldmilieu isoliert werden: reale Fenster mit hoeherem Nachhall und synthetische Fenster mit niedrigerem Nachhall. Ziel ist zu pruefen, ob Selektivitaet vor allem aus synthetischer Rand-/Kippnaehe, hohem Nachhall oder einer bestimmten Co-Touch-Qualitaet entsteht.
