@@ -408,7 +408,11 @@ Die bisherigen Ergebnisse lassen sich so einordnen:
 
   Die Schwellenprüfung grenzt den Effekt weiter ein: `250-1850` und `250-1900` rekoppeln noch vollständig, `250-1950` kippt erstmals selektiv. Damit liegt die beobachtete Kippschwelle in dieser Prüfreihe zwischen 1650 und 1700 Zeilen.
 
-  Siehe dazu [1622 Endrand und selektive Offline-Reorganisation](docs/befunde/1622_SYNTH_RAND_KIPP_ENDRAND_TRAEGT_SELEKTIVITAET.md) und [1629 Endrand-Schwelle](docs/befunde/1629_SYNTH_RAND_KIPP_ENDRAND_SCHWELLE.md).
+  Die Schwellenzone zeigt: Die langen tragenden Rollen bleiben stabil. Die Selektivität erscheint zuerst an einem dünnen Strain-/Übergangsmarker, der nach zusätzlichem Endrand nicht erneut anschließt. Das stützt die Lesart, dass der Endrand Feldgeschichte und Nachhall moduliert, statt selbst die Rollenbreite zu erzeugen.
+
+  Die methodische Gegenprobe zeigt zugleich eine Grenze: Im `fixed`-Sinnesmodus rekoppeln 1650 und 1700 vollständig. Die Selektivität entsteht also im Zusammenspiel aus Endrand und `world_relative`-Rezeptorprofil. Für Milieu-Forschung ist das relevant; für streng kausale Tick-Deutung braucht es zusätzlich eine rollierende Rezeptor-Normierung.
+
+  Siehe dazu [1622 Endrand und selektive Offline-Reorganisation](docs/befunde/1622_SYNTH_RAND_KIPP_ENDRAND_TRAEGT_SELEKTIVITAET.md), [1629 Endrand-Schwelle](docs/befunde/1629_SYNTH_RAND_KIPP_ENDRAND_SCHWELLE.md), [1630 Schwellenzone 1650-1700](docs/befunde/1630_SYNTH_RAND_KIPP_SCHWELLENZONE_1650_1700.md) und [1633 WORLD_RELATIVE Methodengrenze](docs/befunde/1633_WORLD_RELATIVE_ENDRAND_METHODENGRENZE.md).
 
 - **Memory-Wiederverwendung**
   Bei erneutem Kontakt mit derselben strukturierten Welt erzeugt MINI_DIO keine neue Symbolstreuung. Die bekannten Rollen bleiben erhalten, und die Bedeutungsanzeige wird aktiv. Eine verwandte Holdout-Welt koppelt ebenfalls an dieselben Kernrollen an, jedoch mit geringerer Feldzeit und geringerem Nachhall. Das spricht für wiederverwendete Bedeutungsrollen statt bloßer Neubenennung.
