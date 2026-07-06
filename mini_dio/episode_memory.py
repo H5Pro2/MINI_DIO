@@ -149,6 +149,8 @@ class PassiveEpisodeTracker:
         denom = max(1, self.count)
         return {
             "episode_state": self.active_state,
+            "base_field_effect_state": str(self.sums.get("base_field_effect_state", "") or ""),
+            "passive_mcm_effect_class": str(self.sums.get("passive_mcm_effect_class", "") or ""),
             "previous_state": self.previous_state or "start",
             "next_state": next_state or "",
             "transition": transition,
@@ -174,7 +176,7 @@ class PassiveEpisodeTracker:
         }
 
     def step(self, tick: int, symbol_family: str, effect: dict) -> dict | None:
-        state = str(effect.get("field_effect_state", "") or "field_mixed")
+        state = str(effect.get("field_episode_role", "") or effect.get("field_effect_state", "") or "field_mixed")
         tick = int(tick)
         if not self.active_state:
             self._reset(state, tick)
@@ -188,7 +190,11 @@ class PassiveEpisodeTracker:
         family = str(symbol_family or "-") or "-"
         self.family_counts[family] = int(self.family_counts.get(family, 0) or 0) + 1
         for key in self.sums:
+            if key in {"base_field_effect_state", "passive_mcm_effect_class"}:
+                continue
             self.sums[key] += float(effect.get(key, 0.0) or 0.0)
+        self.sums["base_field_effect_state"] = str(effect.get("field_effect_state", "") or "")
+        self.sums["passive_mcm_effect_class"] = str(effect.get("passive_mcm_effect_class", "") or "")
         self.count += 1
         return payload
 

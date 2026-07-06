@@ -66,6 +66,8 @@ def store_mcm_field_episode_memory(data: dict, payload: dict, max_items: int) ->
         {
             "mcm_field_episode_symbol": field_symbol,
             "episode_state": str(payload.get("episode_state", "") or ""),
+            "base_field_effect_state": str(payload.get("base_field_effect_state", "") or ""),
+            "passive_mcm_effect_class": str(payload.get("passive_mcm_effect_class", "") or ""),
             "previous_state": str(payload.get("previous_state", "") or ""),
             "next_state": str(payload.get("next_state", "") or ""),
             "transition": str(payload.get("transition", "") or ""),

@@ -550,6 +550,9 @@ def run_once(
         mcm_field_effect = build_mcm_field_effect(senses, reflection_context, temporal_state, neuro_state)
         mcm_effect_state = str(mcm_field_effect["field_effect_state"])
         passive_mcm_effect_class = classify_current_mcm_effect(mcm_field_effect)
+        field_episode_role = f"field_{passive_mcm_effect_class}"
+        mcm_field_effect["passive_mcm_effect_class"] = passive_mcm_effect_class
+        mcm_field_effect["field_episode_role"] = field_episode_role
         passive_inner_effect_awareness = build_passive_inner_effect_awareness(
             mcm_field_effect,
             passive_mcm_effect_class,
@@ -574,7 +577,7 @@ def run_once(
         passive_mcm_effect_class_counter[passive_mcm_effect_class] = (
             int(passive_mcm_effect_class_counter.get(passive_mcm_effect_class, 0) or 0) + 1
         )
-        episode_memory_counter[mcm_effect_state] = int(episode_memory_counter.get(mcm_effect_state, 0) or 0) + 1
+        episode_memory_counter[field_episode_role] = int(episode_memory_counter.get(field_episode_role, 0) or 0) + 1
         mcm_carry_quality_values.append(float(mcm_field_effect["mcm_carry_quality"]))
         mcm_strain_quality_values.append(float(mcm_field_effect["mcm_strain_quality"]))
         mcm_rekopplung_quality_values.append(float(mcm_field_effect["mcm_rekopplung_quality"]))
@@ -610,6 +613,7 @@ def run_once(
                 "reflection_world_support": f"{float(reflection_context['reflection_world_support']):.6f}",
                 "reflection_current_support": f"{float(reflection_context['reflection_current_support']):.6f}",
                 "mcm_field_effect_state": mcm_effect_state,
+                "mcm_field_episode_role": field_episode_role,
                 "passive_mcm_effect_class": passive_mcm_effect_class,
                 "passive_inner_effect_awareness_state": passive_inner_effect_awareness_state,
                 "passive_inner_effect_rekopplung": f"{float(passive_inner_effect_awareness['passive_inner_effect_rekopplung']):.6f}",
