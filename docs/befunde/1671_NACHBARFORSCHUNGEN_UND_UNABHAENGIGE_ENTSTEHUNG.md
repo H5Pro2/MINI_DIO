@@ -10,7 +10,8 @@ Wichtig:
 
 ```text
 Die MCM/DIO-Forschung entstand nicht als Nachbau dieser Forschungsfelder.
-Sie entstand aus eigener Hypothesenarbeit, aus Bild-/Kunstform-Beobachtung,
+Sie entstand aus eigener Hypothesenarbeit, aus der Bild-/Kunstform-Beobachtung
+[The Last Supper und die der Anfang der MCM](https://github.com/H5Pro2/Mental-Core-Matrix-MCM/blob/main/Abhandlungen/Anfang%20der%20MCM/The%20Last%20Supper%20und%20die%20der%20Anfang%20der%20MCM.pdf),
 aus MCM-Theoriearbeit und aus anschließenden MINI_DIO-Experimenten.
 ```
 
@@ -23,7 +24,7 @@ Der Ausgangspunkt war kein klassisches Machine-Learning-Architekturmodell.
 Der Forschungsweg begann aus:
 
 - einer hypothetischen MCM-Feldvorstellung,
-- einer Bild-/Kunstform-Beobachtung als Formanker,
+- der Bild-/Kunstform-Beobachtung [The Last Supper und die der Anfang der MCM](https://github.com/H5Pro2/Mental-Core-Matrix-MCM/blob/main/Abhandlungen/Anfang%20der%20MCM/The%20Last%20Supper%20und%20die%20der%20Anfang%20der%20MCM.pdf) als Formanker,
 - der Idee eines Digitalen Organismus,
 - der Frage, ob ein kleines Feld durch Weltkontakt eigene Innenordnung bilden kann,
 - der späteren technischen Prüfung über kontrollierte Weltspuren.

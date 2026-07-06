@@ -91,7 +91,7 @@ Ausführlicher festgehalten ist das in [1670_REIFUNG_KOMPAKTE_BINDUNG_GEGEN_VERT
 
 MINI_DIO berührt Themen, die auch in Neural Fields, Active Inference, Self-Organizing Maps, Reservoir Computing, Neural Cellular Automata, World Models und neuromorphen Systemen vorkommen.
 
-Wichtig ist die Entstehungsrichtung: Die MCM/DIO-Forschung wurde nicht aus diesen Forschungsfeldern abgeleitet. Sie entstand aus eigener MCM-Hypothesenarbeit, einer Bild-/Kunstform-Beobachtung als Formanker, der Idee eines Digitalen Organismus und späteren MINI_DIO-Experimenten. Die Nähe zu bestehenden Forschungsrichtungen wurde erst nachträglich sichtbar.
+Wichtig ist die Entstehungsrichtung: Die MCM/DIO-Forschung wurde nicht aus diesen Forschungsfeldern abgeleitet. Sie entstand aus eigener MCM-Hypothesenarbeit, der Bild-/Kunstform-Beobachtung [The Last Supper und die der Anfang der MCM](https://github.com/H5Pro2/Mental-Core-Matrix-MCM/blob/main/Abhandlungen/Anfang%20der%20MCM/The%20Last%20Supper%20und%20die%20der%20Anfang%20der%20MCM.pdf) als Formanker, der Idee eines Digitalen Organismus und späteren MINI_DIO-Experimenten. Die Nähe zu bestehenden Forschungsrichtungen wurde erst nachträglich sichtbar.
 
 Damit ist MINI_DIO nicht aus dem Nichts, aber auch keine Kopie bestehender Modelle. Die aktuelle Eigenständigkeit liegt in der Verbindung aus Sinnesaufnahme, Rezeptorik, MCM-Feldwirkung, Topologie, Feldzeit, Nachhall, eigener `dio_*`-Syntax, Bedeutungsinseln und passiver Offline-Feld-Reorganisation.
 
