@@ -398,6 +398,16 @@ Die bisherigen Ergebnisse lassen sich so einordnen:
 
   Siehe dazu [1608 Gedaempfte 5-Rollen-Nachhall-Suche](docs/befunde/1608_SYNTH_GEDAEMPFT_5ROLLEN_NACHHALL_SUCHLAUF.md), [1609 Synth Randdominanz gedaempft Role5 Repro](docs/befunde/1609_SYNTH_RAND_DOMINANZ_GEDAEMPFT_2000_ROLE5_REPRO.md), [1610 Selektivität ist Feldmilieu](docs/befunde/1610_SELEKTIVITAET_IST_FELDMILIEU_NICHT_ROLLENBREITE.md) und [1612 Rand-Kipp-Varianten und Selektivität](docs/befunde/1612_SYNTH_RAND_KIPP_VARIANTEN_SELEKTIVITAET.md).
 
+- **Rollenbildung und selektive Weiterentwicklung**
+  Die Segmentanalyse des bekannten `SYNTH_RAND_KIPP start0`-Fensters trennt zwei Vorgänge: 5 Rollen und 10 Kombinationen entstehen bereits im mittleren 1500er-Binnenraum und rekoppeln dort vollständig. Das volle 2000er-Fenster bleibt bei gleicher Rollenbreite selektiv. Damit entsteht Rollenbreite im Binnenraum, während Randmilieu und Nachhall offenbar bestimmen, welche Rollen offline vollständig weitertragen.
+
+  Siehe dazu [1618 Binnensegmente, Rollenbreite und Selektivität](docs/befunde/1618_SYNTH_RAND_KIPP_BINNENSEGMENTE_ROLLENBREITE_SELEKTIVITAET.md).
+
+- **Endrand als Selektivitätsmodulator**
+  Zwei 1750er-Kompositionsfenster zeigen den Unterschied genauer: `0-1750` ohne Endrand rekoppelt 5/5 Rollen und 10/10 Kombinationen vollständig. `250-2000` ohne Anfangsrand bleibt dagegen selektiv wie das volle 2000er-Fenster. Damit liegt die selektive Offline-Reorganisation wahrscheinlich nicht im Rollenraum selbst, sondern in der späten Rand-/Nachhallphase.
+
+  Siehe dazu [1622 Endrand und selektive Offline-Reorganisation](docs/befunde/1622_SYNTH_RAND_KIPP_ENDRAND_TRAEGT_SELEKTIVITAET.md).
+
 - **Memory-Wiederverwendung**
   Bei erneutem Kontakt mit derselben strukturierten Welt erzeugt MINI_DIO keine neue Symbolstreuung. Die bekannten Rollen bleiben erhalten, und die Bedeutungsanzeige wird aktiv. Eine verwandte Holdout-Welt koppelt ebenfalls an dieselben Kernrollen an, jedoch mit geringerer Feldzeit und geringerem Nachhall. Das spricht für wiederverwendete Bedeutungsrollen statt bloßer Neubenennung.
 
