@@ -1,6 +1,6 @@
 # Sleep-Rollenbreiten-Karte
 
-Stand: 2026-07-06 11:28:55
+Stand: 2026-07-06 11:43:13
 
 ## Grundfrage
 
@@ -18,6 +18,9 @@ Verglichen werden Real-Sleep-Real-Laeufe mit 2000er-Fenstern. Die Diagnose ist p
 | synth_rand_kipp_ohne_anfangsrand_1750_role5_repro | selektiv_breit | 5 | 10 | 4 (0.8000) | 6 (0.6000) | 4 (0.4000) | 2 (0.4000) | 0.6142 | 0.7318 | 0.5764 | 0.1371 |
 | synth_rand_kipp_ohne_endrand_1750_role5_repro | voll_fokussiert | 5 | 10 | 5 (1.0000) | 10 (1.0000) | 0 (0.0000) | 2 (0.4000) | 0.6899 | 0.7391 | 0.5863 | 0.1311 |
 | synth_rand_kipp_start0_segment1500_start250_role5_repro | voll_fokussiert | 5 | 10 | 5 (1.0000) | 10 (1.0000) | 0 (0.0000) | 2 (0.4000) | 0.6619 | 0.7364 | 0.5816 | 0.1324 |
+| synth_rand_kipp_start250_size1600_role5_repro | voll_fokussiert | 5 | 10 | 5 (1.0000) | 10 (1.0000) | 0 (0.0000) | 2 (0.4000) | 0.6451 | 0.7347 | 0.5799 | 0.1345 |
+| synth_rand_kipp_start250_size1650_role5_repro | voll_fokussiert | 5 | 10 | 5 (1.0000) | 10 (1.0000) | 0 (0.0000) | 2 (0.4000) | 0.6320 | 0.7336 | 0.5784 | 0.1354 |
+| synth_rand_kipp_start250_size1700_role5_repro | selektiv_breit | 5 | 10 | 4 (0.8000) | 6 (0.6000) | 4 (0.4000) | 2 (0.4000) | 0.6251 | 0.7327 | 0.5776 | 0.1364 |
 | synth_bruch_rand_a_2000_start0_high_afterimage_repro | voll_fokussiert | 3 | 3 | 3 (1.0000) | 3 (1.0000) | 0 (0.0000) | 1 (0.3333) | 0.7645 | 0.7509 | 0.6048 | 0.1218 |
 | synth_rand_dominanz_gedaempft_2000_start0_role5_repro | voll_fokussiert | 5 | 10 | 5 (1.0000) | 10 (1.0000) | 0 (0.0000) | 2 (0.4000) | 0.5175 | 0.7279 | 0.5647 | 0.1351 |
 | synth_rand_kipp_short_start4000_transition_repro | voll_fokussiert | 3 | 3 | 3 (1.0000) | 3 (1.0000) | 0 (0.0000) | 1 (0.3333) | 0.7126 | 0.7456 | 0.5963 | 0.1259 |
@@ -30,8 +33,8 @@ Verglichen werden Real-Sleep-Real-Laeufe mit 2000er-Fenstern. Die Diagnose ist p
 
 ## Befund
 
-- Voll fokussierte Rekopplung: `11` Fenster.
-- Selektiv breite Reorganisation: `2` Fenster.
+- Voll fokussierte Rekopplung: `13` Fenster.
+- Selektiv breite Reorganisation: `3` Fenster.
 
 Die aktuelle Stichprobe zeigt keine lineare Regel nach Fensterlaenge. Rollenbreite allein erklaert die Reaktivierung ebenfalls nicht vollstaendig:
 

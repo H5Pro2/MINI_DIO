@@ -406,7 +406,9 @@ Die bisherigen Ergebnisse lassen sich so einordnen:
 - **Endrand als Selektivitätsmodulator**
   Zwei 1750er-Kompositionsfenster zeigen den Unterschied genauer: `0-1750` ohne Endrand rekoppelt 5/5 Rollen und 10/10 Kombinationen vollständig. `250-2000` ohne Anfangsrand bleibt dagegen selektiv wie das volle 2000er-Fenster. Damit liegt die selektive Offline-Reorganisation wahrscheinlich nicht im Rollenraum selbst, sondern in der späten Rand-/Nachhallphase.
 
-  Siehe dazu [1622 Endrand und selektive Offline-Reorganisation](docs/befunde/1622_SYNTH_RAND_KIPP_ENDRAND_TRAEGT_SELEKTIVITAET.md).
+  Die Schwellenprüfung grenzt den Effekt weiter ein: `250-1850` und `250-1900` rekoppeln noch vollständig, `250-1950` kippt erstmals selektiv. Damit liegt die beobachtete Kippschwelle in dieser Prüfreihe zwischen 1650 und 1700 Zeilen.
+
+  Siehe dazu [1622 Endrand und selektive Offline-Reorganisation](docs/befunde/1622_SYNTH_RAND_KIPP_ENDRAND_TRAEGT_SELEKTIVITAET.md) und [1629 Endrand-Schwelle](docs/befunde/1629_SYNTH_RAND_KIPP_ENDRAND_SCHWELLE.md).
 
 - **Memory-Wiederverwendung**
   Bei erneutem Kontakt mit derselben strukturierten Welt erzeugt MINI_DIO keine neue Symbolstreuung. Die bekannten Rollen bleiben erhalten, und die Bedeutungsanzeige wird aktiv. Eine verwandte Holdout-Welt koppelt ebenfalls an dieselben Kernrollen an, jedoch mit geringerer Feldzeit und geringerem Nachhall. Das spricht für wiederverwendete Bedeutungsrollen statt bloßer Neubenennung.
