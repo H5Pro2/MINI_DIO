@@ -1,6 +1,6 @@
 # Sleep-Rollenbreiten-Karte
 
-Stand: 2026-07-06 10:17:28
+Stand: 2026-07-06 10:32:24
 
 ## Grundfrage
 
@@ -17,6 +17,7 @@ Verglichen werden Real-Sleep-Real-Laeufe mit 2000er-Fenstern. Die Diagnose ist p
 | synth_rand_kipp_2000_start0_multirole_repro | selektiv_breit | 5 | 10 | 4 (0.8000) | 6 (0.6000) | 4 (0.4000) | 2 (0.4000) | 0.6412 | 0.7346 | 0.5809 | 0.1353 |
 | synth_bruch_rand_a_2000_start0_high_afterimage_repro | voll_fokussiert | 3 | 3 | 3 (1.0000) | 3 (1.0000) | 0 (0.0000) | 1 (0.3333) | 0.7645 | 0.7509 | 0.6048 | 0.1218 |
 | synth_rand_dominanz_gedaempft_2000_start0_role5_repro | voll_fokussiert | 5 | 10 | 5 (1.0000) | 10 (1.0000) | 0 (0.0000) | 2 (0.4000) | 0.5175 | 0.7279 | 0.5647 | 0.1351 |
+| synth_rand_kipp_short_start4000_transition_repro | voll_fokussiert | 3 | 3 | 3 (1.0000) | 3 (1.0000) | 0 (0.0000) | 1 (0.3333) | 0.7126 | 0.7456 | 0.5963 | 0.1259 |
 | ruhig_sideways_2000_start6000_transition_repro | voll_fokussiert | 3 | 3 | 3 (1.0000) | 3 (1.0000) | 0 (0.0000) | 1 (0.3333) | 0.1481 | 0.6948 | 0.5120 | 0.1569 |
 | expansion_positiv_2000_start2000_transition_repro | voll_fokussiert | 3 | 3 | 3 (1.0000) | 3 (1.0000) | 0 (0.0000) | 1 (0.3333) | 0.1440 | 0.6958 | 0.5111 | 0.1553 |
 | xrp2024_2000_start2000_role4_repro | voll_fokussiert | 4 | 6 | 4 (1.0000) | 6 (1.0000) | 0 (0.0000) | 1 (0.2500) | 0.1433 | 0.6954 | 0.5110 | 0.1553 |
@@ -26,7 +27,7 @@ Verglichen werden Real-Sleep-Real-Laeufe mit 2000er-Fenstern. Die Diagnose ist p
 
 ## Befund
 
-- Voll fokussierte Rekopplung: `8` Fenster.
+- Voll fokussierte Rekopplung: `9` Fenster.
 - Selektiv breite Reorganisation: `1` Fenster.
 
 Die aktuelle Stichprobe zeigt keine lineare Regel nach Fensterlaenge. Rollenbreite allein erklaert die Reaktivierung ebenfalls nicht vollstaendig:
@@ -36,9 +37,9 @@ Die aktuelle Stichprobe zeigt keine lineare Regel nach Fensterlaenge. Rollenbrei
 5 Rollen / 10 Kombinationen -> selektive breite Reorganisation.
 ```
 
-Wichtig ist: 5 Rollen / 10 Kombinationen koennen in realen Fenstern voll rekoppeln. Auch ein synthetisch gedaempftes Randdominanz-Fenster mit 5 Rollen / 10 Kombinationen rekoppelt voll. Das urspruengliche synthetische Rand-/Kippfenster bleibt dagegen bei derselben Rollenbreite selektiv.
+Wichtig ist: 5 Rollen / 10 Kombinationen koennen in realen XRP- und DOGE-Fenstern sowie in einer gedaempften synthetischen Randdominanz-Welt voll rekoppeln, waehrend das urspruengliche synthetische Rand-/Kippfenster bei derselben Rollenbreite selektiv bleibt.
 
-Der sichtbare Unterschied liegt daher nicht in Rollenbreite allein und auch nicht in Nachhall allein, sondern im Feldmilieu: Rand-/Kippnaehe, Nachhallstaerke, Co-Touch-Qualitaet und Strain-Verteilung muessen gemeinsam gelesen werden.
+Der sichtbare Unterschied liegt daher nicht in Rollenbreite allein, sondern im Feldmilieu: Nachhall, synthetische Randnaehe, Co-Touch-Qualitaet und Strain-Verteilung muessen gemeinsam gelesen werden.
 
 ## Grenze
 
@@ -46,4 +47,4 @@ Das ist eine kleine Diagnosekarte, kein Beweis. Sie definiert aber eine pruefbar
 
 ## Wie es weitergeht
 
-Als naechstes sollte die selektive Rand-/Kippwelt gezielt variiert werden: gleiche Rollenbreite, aber veraenderte Randphase, veraenderte Co-Touch-Qualitaet oder veraenderte Strain-Verteilung. Ziel ist zu isolieren, welche Feldmilieu-Komponente die selektive Offline-Reorganisation ausloest.
+Als naechstes sollte das urspruengliche `SYNTH_RAND_KIPP start0` segmentweise zerlegt werden. Ziel ist zu erkennen, an welcher Binnenstelle Rollenbreite und selektive Rekopplung entstehen.

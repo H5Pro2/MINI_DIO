@@ -244,7 +244,7 @@ def _write_md(rows: list[dict[str, object]], path: Path) -> None:
             f"{selective_line} -> selektive breite Reorganisation.",
             "```",
             "",
-            "Wichtig ist: 5 Rollen / 10 Kombinationen koennen in einem realen XRP-Fenster voll rekoppeln, waehrend das synthetische Rand-/Kippfenster bei derselben Rollenbreite selektiv bleibt.",
+            "Wichtig ist: 5 Rollen / 10 Kombinationen koennen in realen XRP- und DOGE-Fenstern sowie in einer gedaempften synthetischen Randdominanz-Welt voll rekoppeln, waehrend das urspruengliche synthetische Rand-/Kippfenster bei derselben Rollenbreite selektiv bleibt.",
             "",
             "Der sichtbare Unterschied liegt daher nicht in Rollenbreite allein, sondern im Feldmilieu: Nachhall, synthetische Randnaehe, Co-Touch-Qualitaet und Strain-Verteilung muessen gemeinsam gelesen werden.",
             "",
@@ -254,7 +254,7 @@ def _write_md(rows: list[dict[str, object]], path: Path) -> None:
             "",
             "## Wie es weitergeht",
             "",
-            "Als naechstes sollten die realen 5-Rollen-Fenster `DOGE_2024_5M start0` und `DOGE_2024_5M start8000` reproduziert werden. Ziel ist zu pruefen, ob reale 5-Rollen-Fenster generell voll rekoppeln und ob Selektivitaet vor allem am synthetischen Rand-/Kippmilieu haengt.",
+            "Als naechstes sollte das urspruengliche `SYNTH_RAND_KIPP start0` segmentweise zerlegt werden. Ziel ist zu erkennen, an welcher Binnenstelle Rollenbreite und selektive Rekopplung entstehen.",
             "",
         ]
     )
