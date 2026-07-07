@@ -39,6 +39,27 @@ def _clean(value: object, fallback: str = "-") -> str:
     return text or fallback
 
 
+def _clip01(value: object) -> float:
+    return max(0.0, min(1.0, _safe_float(value)))
+
+
+def _pressure(value: object, scale: float = 1.0) -> float:
+    amount = max(0.0, _safe_float(value))
+    return amount / (amount + max(0.000001, scale))
+
+
+def _mean(*values: object) -> float:
+    clean = [_clip01(value) for value in values]
+    return sum(clean) / max(1, len(clean))
+
+
+def _dominant_label(scores: dict[str, float], default: str) -> str:
+    clean = {key: _clip01(value) for key, value in scores.items()}
+    if not clean:
+        return default
+    return max(clean, key=clean.get)
+
+
 def _phase_effect(from_role: str, current_role: str, next_role: str) -> str:
     sequence = (from_role, current_role, next_role)
     if sequence == ("zentrum_stabil", "spannungsrand_kippnaehe", "offene_variante"):
@@ -155,19 +176,24 @@ class FieldPhaseRecord:
         return self.effect_counts.most_common(1)[0][0]
 
     def phase_memory_quality(self) -> str:
-        if self.seen_count <= 1:
-            return "young_phase_trace"
-        if len(self.world_counts) > 1 and self.seen_count >= 3:
-            if self.dominant_effect() in {
-                "rand_entlastet_in_offenheit",
-                "zentrumsbruch_in_offenheit",
-                "rekopplung_findet_zentrum",
-            }:
-                return "cross_world_phase_family"
-            return "cross_world_open_phase"
-        if self.seen_count >= 3:
-            return "recurrent_world_phase"
-        return "local_phase_trace"
+        seen_pressure = _pressure(self.seen_count, 1.0)
+        world_pressure = _pressure(len(self.world_counts), 1.0)
+        duration_pressure = _pressure(self.total_current_duration, max(1.0, float(self.seen_count)))
+        binding_effect = 1.0 if self.dominant_effect() in {
+            "rand_entlastet_in_offenheit",
+            "zentrumsbruch_in_offenheit",
+            "rekopplung_findet_zentrum",
+        } else 0.0
+        return _dominant_label(
+            {
+                "young_phase_trace": 1.0 - seen_pressure,
+                "cross_world_phase_family": _mean(world_pressure, seen_pressure, binding_effect),
+                "cross_world_open_phase": _mean(world_pressure, seen_pressure, 1.0 - binding_effect),
+                "recurrent_world_phase": _mean(seen_pressure, duration_pressure, 1.0 - world_pressure),
+                "local_phase_trace": _mean(seen_pressure, 1.0 - world_pressure, 1.0 - duration_pressure),
+            },
+            default="local_phase_trace",
+        )
 
     def phase_note(self) -> str:
         effect = self.dominant_effect()

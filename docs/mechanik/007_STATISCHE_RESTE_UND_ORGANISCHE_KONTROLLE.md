@@ -327,6 +327,97 @@ world_specific
 entstehen aus Exposition, Dominanz, Varianz, Assetnaehe und Zeitrahmennaehe.
 ```
 
+## Sechste Bereinigung
+
+Feldphase, Rollenbewegung, Feldzeit und Offline-Reorganisation wurden von festen Reife- und Naehefenstern getrennt.
+
+### Feldphase
+
+Vorher:
+
+```text
+seen_count <= 1       -> young_phase_trace
+world_count > 1
+seen_count >= 3       -> cross_world_phase_family
+```
+
+Jetzt:
+
+```text
+young_phase_trace
+cross_world_phase_family
+cross_world_open_phase
+recurrent_world_phase
+local_phase_trace
+
+entstehen aus Seen-Druck, Weltdruck, Dauer und bindender Phasenwirkung.
+```
+
+### Rollenbewegung
+
+Vorher:
+
+```text
+max_rank >= 4
+ranks[-1] >= 3
+weights[-1] > weights[0]
+```
+
+Jetzt:
+
+```text
+stable_core
+core_near_retained
+stable_surface
+gaining_weight
+losing_role_weight
+variable_but_carried
+
+entstehen aus Rangdruck, Stabilitaetsdruck, Gewichtsdruck und Driftspanne.
+```
+
+### Feldzeit
+
+Vorher:
+
+```text
+ticks_since_seen <= 1 -> immediate_afterimage
+ticks_since_seen <= 8 -> near_return
+sonst                 -> far_return
+```
+
+Jetzt:
+
+```text
+temporal_first_contact
+temporal_immediate_afterimage
+temporal_near_return
+temporal_far_return
+
+entstehen aus Zeitdruck, Nachhall, Wiederkehr und Formdistanz.
+```
+
+### Offline-Feld-Reorganisation
+
+Vorher:
+
+```text
+touched_count <= 0
+role_set_count <= 1
+touched_count <= 3
+```
+
+Jetzt:
+
+```text
+sleep_no_touch
+sleep_single_rekopplung_trace
+sleep_focused_role_touch
+sleep_broad_role_touch
+
+entstehen aus Beruehrungsdruck, Rollenset-Druck und Fokus/Breite der Offline-Aktivierung.
+```
+
 ## Noch vorhandene statische Bereiche
 
 ### Diagnose

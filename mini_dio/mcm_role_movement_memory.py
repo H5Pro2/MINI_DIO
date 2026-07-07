@@ -45,6 +45,27 @@ def _safe_float(value: object) -> float:
     return 0.0 if result != result else result
 
 
+def _clip01(value: object) -> float:
+    return max(0.0, min(1.0, _safe_float(value)))
+
+
+def _pressure(value: object, scale: float = 1.0) -> float:
+    amount = max(0.0, _safe_float(value))
+    return amount / (amount + max(0.000001, scale))
+
+
+def _mean(*values: object) -> float:
+    clean = [_clip01(value) for value in values]
+    return sum(clean) / max(1, len(clean))
+
+
+def _dominant_label(scores: dict[str, float], default: str) -> str:
+    clean = {key: _clip01(value) for key, value in scores.items()}
+    if not clean:
+        return default
+    return max(clean, key=clean.get)
+
+
 def _split_sequence(value: object) -> list[str]:
     text = str(value or "").strip()
     if not text:
@@ -75,17 +96,25 @@ def _stability_quality(classes: list[str], weights: list[int]) -> str:
     visible = [rank for rank in ranks if rank > 0]
     if not visible:
         return "not_visible"
-    if len(set(ranks)) == 1 and max(ranks) >= 4:
-        return "stable_core"
-    if max(ranks) >= 4 and ranks[-1] >= 3:
-        return "core_near_retained"
-    if len(set(ranks)) == 1:
-        return "stable_surface"
-    if weights and weights[-1] > weights[0] and ranks[-1] >= ranks[0]:
-        return "gaining_weight"
-    if ranks[-1] < ranks[0]:
-        return "losing_role_weight"
-    return "variable_but_carried"
+    rank_span = max(ranks) - min(ranks)
+    max_rank_pressure = _pressure(max(ranks), 3.0)
+    stability_pressure = 1.0 - _pressure(rank_span, 1.0)
+    retained_pressure = _mean(max_rank_pressure, _pressure(ranks[-1], 2.0))
+    weight_gain = (weights[-1] - weights[0]) if weights else 0
+    weight_gain_pressure = _pressure(weight_gain, 1.0)
+    rank_gain_pressure = _pressure(ranks[-1] - ranks[0], 1.0)
+    rank_loss_pressure = _pressure(ranks[0] - ranks[-1], 1.0)
+    return _dominant_label(
+        {
+            "stable_core": _mean(stability_pressure, max_rank_pressure),
+            "core_near_retained": retained_pressure,
+            "stable_surface": _mean(stability_pressure, 1.0 - max_rank_pressure),
+            "gaining_weight": _mean(weight_gain_pressure, rank_gain_pressure),
+            "losing_role_weight": rank_loss_pressure,
+            "variable_but_carried": _mean(1.0 - stability_pressure, retained_pressure),
+        },
+        default="variable_but_carried",
+    )
 
 
 def _drift_quality(classes: list[str], trend: str) -> str:
@@ -94,11 +123,17 @@ def _drift_quality(classes: list[str], trend: str) -> str:
         return "explicit_role_drift"
     if trend == "absteigende_entlastung":
         return "role_releasing_or_fading"
-    if len(set(ranks)) > 1 and max(ranks) >= 4:
-        return "core_boundary_movement"
-    if len(set(ranks)) > 1:
-        return "surface_role_movement"
-    return "low_drift"
+    rank_span = max(ranks, default=0) - min(ranks, default=0)
+    drift_pressure = _pressure(rank_span, 1.0)
+    core_pressure = _pressure(max(ranks, default=0), 3.0)
+    return _dominant_label(
+        {
+            "core_boundary_movement": _mean(drift_pressure, core_pressure),
+            "surface_role_movement": _mean(drift_pressure, 1.0 - core_pressure),
+            "low_drift": 1.0 - drift_pressure,
+        },
+        default="low_drift",
+    )
 
 
 def _memory_note(row: dict[str, str], classes: list[str]) -> str:

@@ -30,6 +30,23 @@ def _vector_distance(left: list[float], right: list[float]) -> float:
     return _clip(sum(abs(_signed_clip(left[i]) - _signed_clip(right[i])) for i in range(size)) / size)
 
 
+def _pressure(value: float, scale: float = 1.0) -> float:
+    amount = max(0.0, float(value or 0.0))
+    return amount / (amount + max(0.000001, scale))
+
+
+def _mean(*values: float) -> float:
+    clean = [_clip(float(value or 0.0)) for value in values]
+    return sum(clean) / max(1, len(clean))
+
+
+def _dominant_label(scores: dict[str, float], default: str) -> str:
+    clean = {key: _clip(value) for key, value in scores.items()}
+    if not clean:
+        return default
+    return max(clean, key=clean.get)
+
+
 class MiniTemporalTracker:
     """In-run temporal trace for DIO-owned symbol families."""
 
@@ -48,20 +65,30 @@ class MiniTemporalTracker:
         family_age = max(0, tick - first_seen_tick)
         previous_vector = list(previous.get("vector", []) or [])
         form_distance = _vector_distance(vector, previous_vector) if seen_before > 0 else 1.0
-        temporal_distance = _clip((ticks_since_seen if ticks_since_seen >= 0 else 999.0) / 24.0)
+        elapsed_ticks = max(0, ticks_since_seen)
+        temporal_distance = _pressure(elapsed_ticks, 12.0) if seen_before > 0 else 1.0
         recurrence_strength = _clip(seen_before / (seen_before + 5.0)) if seen_before > 0 else 0.0
-        if ticks_since_seen < 0:
-            contact_state = "temporal_first_contact"
-            contact_pressure = 0.0
-        elif ticks_since_seen <= 1:
-            contact_state = "temporal_immediate_afterimage"
-            contact_pressure = 0.90
-        elif ticks_since_seen <= 8:
-            contact_state = "temporal_near_return"
-            contact_pressure = _clip(1.0 - (ticks_since_seen / 10.0))
-        else:
-            contact_state = "temporal_far_return"
-            contact_pressure = _clip(1.0 / (1.0 + ticks_since_seen / 8.0))
+        first_pressure = 1.0 if seen_before <= 0 else 0.0
+        immediate_pressure = _pressure(1.0, 1.0 + elapsed_ticks) if seen_before > 0 else 0.0
+        near_pressure = _mean(_pressure(8.0, 1.0 + elapsed_ticks), recurrence_strength) if seen_before > 0 else 0.0
+        far_pressure = _mean(temporal_distance, recurrence_strength, 1.0 - immediate_pressure) if seen_before > 0 else 0.0
+        contact_state = _dominant_label(
+            {
+                "temporal_first_contact": first_pressure,
+                "temporal_immediate_afterimage": immediate_pressure,
+                "temporal_near_return": near_pressure,
+                "temporal_far_return": far_pressure,
+            },
+            default="temporal_first_contact",
+        )
+        contact_pressure = _clip(
+            {
+                "temporal_first_contact": 0.0,
+                "temporal_immediate_afterimage": immediate_pressure,
+                "temporal_near_return": near_pressure,
+                "temporal_far_return": far_pressure,
+            }.get(contact_state, 0.0)
+        )
         previous_afterimage = float(previous.get("afterimage", 0.0) or 0.0)
         afterimage = _clip((previous_afterimage * self.afterimage_decay) + (contact_pressure * (1.0 - self.afterimage_decay)))
         temporal_fit = _clip((1.0 - form_distance) * 0.58 + afterimage * 0.24 + recurrence_strength * 0.18)

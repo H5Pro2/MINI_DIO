@@ -46,6 +46,27 @@ def _safe_int(value: object) -> int:
         return 0
 
 
+def _clip01(value: object) -> float:
+    return max(0.0, min(1.0, _safe_float(value)))
+
+
+def _pressure(value: object, scale: float = 1.0) -> float:
+    amount = max(0.0, _safe_float(value))
+    return amount / (amount + max(0.000001, scale))
+
+
+def _mean(*values: object) -> float:
+    clean = [_clip01(value) for value in values]
+    return sum(clean) / max(1, len(clean))
+
+
+def _dominant_label(scores: dict[str, float], default: str) -> str:
+    clean = {key: _clip01(value) for key, value in scores.items()}
+    if not clean:
+        return default
+    return max(clean, key=clean.get)
+
+
 def build_sleep_reorganization_memory(memory: dict, sleep_summary: dict, sleep_rows: list[dict]) -> dict:
     """Build a passive sleep reorganization artifact from sleep ticks."""
 
@@ -130,14 +151,19 @@ def build_sleep_reorganization_memory(memory: dict, sleep_summary: dict, sleep_r
 
     role_set_count = _safe_int(sleep_summary.get("active_role_set_count", 0))
     touched_count = len(touched_roles)
-    if touched_count <= 0:
-        reorganization_state = "sleep_no_touch"
-    elif role_set_count <= 1:
-        reorganization_state = "sleep_single_rekopplung_trace"
-    elif touched_count <= 3:
-        reorganization_state = "sleep_focused_role_touch"
-    else:
-        reorganization_state = "sleep_broad_role_touch"
+    touch_pressure = _pressure(touched_count, 1.0)
+    role_set_pressure = _pressure(role_set_count, 1.0)
+    focus_pressure = _mean(touch_pressure, 1.0 - role_set_pressure)
+    broad_pressure = _mean(touch_pressure, role_set_pressure)
+    reorganization_state = _dominant_label(
+        {
+            "sleep_no_touch": 1.0 - touch_pressure,
+            "sleep_single_rekopplung_trace": _mean(touch_pressure, 1.0 - role_set_pressure),
+            "sleep_focused_role_touch": focus_pressure,
+            "sleep_broad_role_touch": broad_pressure,
+        },
+        default="sleep_no_touch",
+    )
 
     return {
         "version": 1,
