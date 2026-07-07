@@ -184,6 +184,8 @@ Eine erste Repro-Pruefung mit frischer Memory bestaetigt fuer SOL-Stress und die
 
 Eine weitere Asset-Pruefung ueber PAXG, XRP und DOGE mit je 10k Weltzeilen zeigt: lokaler Randdruck bleibt sichtbar, aber global dominiert Rekopplungsnaehe. PAXG rekoppelt staerker und daempft weniger, XRP und DOGE liegen naeher beieinander. Siehe [1723_ASSET_RANDDRUCK_UND_REKOPPLUNGSNAEHE_10K.md](docs/befunde/1723_ASSET_RANDDRUCK_UND_REKOPPLUNGSNAEHE_10K.md).
 
+Der anschliessende 1h-Vergleich zeigt, dass Weltzeit nicht nur dieselbe Form groesser skaliert. PAXG verliert bei 1h Rekopplung und gewinnt Daempfung, waehrend XRP und DOGE naeher an ihrer 5m-Form bleiben. Damit wird Feldzeit als aktive Qualitaet der Weltaufnahme sichtbarer.
+
 ## Hypothese Feldbewusstsein
 
 Wenn hier von Bewusstsein gesprochen wird, ist kein menschliches Ich-Bewusstsein gemeint.

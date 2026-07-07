@@ -38,6 +38,43 @@ reports/world_relative_topology_assets_10k.md
 | XRP 2024 5m 10k | 2278 | gemischte_rollenordnung | 1.0000 |
 | DOGE 2024 5m 10k | 2274 | gemischte_rollenordnung | 1.0000 |
 
+## Zeitmass-Vergleich 5m gegen 1h
+
+Als Folgeschritt wurden dieselben Assetklassen als 1h-Welten geprueft.
+
+Berichte:
+
+```text
+reports/relative_rand_pressure_assets_1h_10k.md
+reports/world_relative_topology_assets_1h_10k.md
+```
+
+| Welt | Episoden | Randdruck | Offen | Rekopplung | Daempfung |
+|---|---:|---:|---:|---:|---:|
+| PAXG 2024 1h 10k | 8778 | 0.4147 | 0.1486 | 0.3268 | 0.1099 |
+| XRP 2024 1h 10k | 8778 | 0.4255 | 0.1343 | 0.3370 | 0.1032 |
+| DOGE 2024 1h 10k | 8778 | 0.4232 | 0.1342 | 0.3308 | 0.1118 |
+
+Auch die 1h-Topologie-Matrix liest alle drei Welten als
+`gemischte_rollenordnung` mit dominanter Rekopplungsnaehe.
+
+Die wichtigste Verschiebung:
+
+```text
+PAXG 5m:
+  Rekopplung 0.3566
+  Daempfung 0.0743
+
+PAXG 1h:
+  Rekopplung 0.3268
+  Daempfung 0.1099
+```
+
+PAXG bleibt also nicht einfach gleich. Bei groberer Weltzeit wird die
+Rekopplung schwaecher und Daempfung deutlicher.
+
+XRP und DOGE bleiben dagegen naeher an ihrer 5m-Form.
+
 ## Interpretation
 
 Alle drei Asset-Welten zeigen lokalen Randdruck, aber global keine harte
@@ -60,6 +97,13 @@ XRP / DOGE:
 
 Damit wirkt PAXG nicht einfach "ruhig" oder "schwach", sondern anders
 gebunden. XRP und DOGE wirken in dieser Pruefung naeher beieinander.
+
+Der 1h-Vergleich zeigt zusaetzlich:
+
+```text
+Weltzeit veraendert Feldqualitaet.
+Sie skaliert nicht nur dieselbe Form groesser oder kleiner.
+```
 
 ## Bedeutung fuer die MCM-Lesung
 
@@ -87,6 +131,6 @@ Beide Diagnosen sollten zusammen gelesen werden.
 
 ## Wie es weitergeht
 
-Als naechstes sollte dieselbe Pruefung auf 1h-Welten laufen.
-Entscheidend ist, ob die Rekopplungsnaehe bei groberer Weltzeit erhalten
-bleibt oder ob PAXG, XRP und DOGE dann staerker auseinanderlaufen.
+Als naechstes sollte die 5m/1h-Differenz fuer PAXG genauer rueckgelesen werden.
+Entscheidend ist, welche Weltabschnitte Daempfung erhoehen und Rekopplung
+reduzieren.
