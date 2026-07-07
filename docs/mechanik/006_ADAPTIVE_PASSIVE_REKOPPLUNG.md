@@ -346,6 +346,36 @@ MINI_DIO bildet keine starre Symboltabelle.
 
 Der Befund liegt in [1691_ADAPTIVE_MILIEU_2024_2025_VERGLEICH.md](../befunde/1691_ADAPTIVE_MILIEU_2024_2025_VERGLEICH.md).
 
+## Wiederkehrende Einzelfamilien
+
+Die naechste Ruecklesung verfolgt gleiche Familie plus gleiche Wechselrichtung ueber 2024 und 2025.
+
+Der Befund:
+
+```text
+gleiche Familie plus gleicher Wechsel: 111
+```
+
+Die Hauptspuren liegen wieder in:
+
+```text
+offen_und_gereift -> nur_gereift
+nur_gereift -> offen_und_gereift
+```
+
+Das ist wichtig, weil hier nicht nur eine Gesamtverteilung wiederkehrt. Einzelne Familien geraten in unterschiedlichen Weltjahren erneut in dieselbe Milieu-Bewegung.
+
+Lesung:
+
+```text
+Familie ist wiedererkennbar.
+Milieu bleibt beweglich.
+Wechselrichtung kann wiederkehren.
+Rohweltnaehe muss weiter geprueft werden.
+```
+
+Der Befund liegt in [1692_ADAPTIVE_MILIEU_WIEDERKEHRFAMILIEN_2024_2025.md](../befunde/1692_ADAPTIVE_MILIEU_WIEDERKEHRFAMILIEN_2024_2025.md).
+
 ## Forschungsgrenze
 
 Aus dieser Mechanik folgt noch nicht:
