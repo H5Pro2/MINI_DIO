@@ -97,6 +97,8 @@ Die Nähe zu bestehenden Forschungsrichtungen wird deshalb als nachträgliche wi
 
 Ausführlicher festgehalten ist das in [1671_NACHBARFORSCHUNGEN_UND_UNABHAENGIGE_ENTSTEHUNG.md](docs/befunde/1671_NACHBARFORSCHUNGEN_UND_UNABHAENGIGE_ENTSTEHUNG.md).
 
+Die derzeit stärkste wissenschaftliche Anschlussstelle ist Feldzeit/Nachhall als methodische Prüfachse gegen reine Projektion. Topologie ist die breiteste reproduzierte Feldordnung, verteilte Rollennetze sind die stärkste Bedeutungsstruktur, und Offline-Feld-Reorganisation ist die eigenständigste Zukunftsachse. Diese Priorisierung ist in [1672_WISSENSCHAFTLICHE_ANSCHLUSSSTELLEN_PRIORITAET.md](docs/befunde/1672_WISSENSCHAFTLICHE_ANSCHLUSSSTELLEN_PRIORITAET.md) festgehalten.
+
 ## Hypothese Feldbewusstsein
 
 Wenn hier von Bewusstsein gesprochen wird, ist kein menschliches Ich-Bewusstsein gemeint.
