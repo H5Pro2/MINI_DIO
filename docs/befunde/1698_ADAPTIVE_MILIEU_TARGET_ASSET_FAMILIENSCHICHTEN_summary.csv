@@ -1,0 +1,5 @@
+world,ticks,families,shared_families,open_only_families,mature_only_families,shared_family_ratio,open_ticks,mature_ticks,untrained_ticks,open_tick_ratio,mature_tick_ratio
+BTC_2024_5M,4994,512,177,72,261,0.345703,2134,2841,19,0.427313,0.568883
+DOGE_2024_5M,4994,523,187,76,259,0.357553,2169,2813,12,0.434321,0.563276
+XRP_2024_5M,4994,529,170,71,288,0.321361,2114,2874,6,0.423308,0.575491
+PAXG_2024_5M,4994,474,182,61,231,0.383966,2190,2798,6,0.438526,0.560272

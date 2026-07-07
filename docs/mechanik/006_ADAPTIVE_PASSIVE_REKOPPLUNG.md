@@ -452,6 +452,38 @@ Die Berichte:
 - [1696_ADAPTIVE_MILIEU_DRITTPERIODE_ROHWELT_LUPE.md](../befunde/1696_ADAPTIVE_MILIEU_DRITTPERIODE_ROHWELT_LUPE.md)
 - [1697_ADAPTIVE_MILIEU_LUPENPROFILE.md](../befunde/1697_ADAPTIVE_MILIEU_LUPENPROFILE.md)
 
+## Ziel-Familien gegen Assetfenster
+
+Die `milieu_umlagert_nahe`-Familien aus 1697 wurden danach gegen BTC, DOGE, XRP und PAXG gelesen.
+
+Der Befund:
+
+```text
+Zielzeilen aus 1697:                         5
+Exakte Treffer in anderen Assetfenstern:     3
+Ziel-Familien mit irgendeinem Relationswechsel: 4
+Asset-Relationswechsel gesamt:             399
+```
+
+Besonders relevant:
+
+```text
+dio_0ly7  nur_gereift -> offen_und_gereift
+dio_01hu  nur_gereift -> offen_und_gereift
+```
+
+Beide zeigen dieselbe Bewegungsrichtung ausserhalb der 2023-Pruefung erneut.
+
+Lesung:
+
+```text
+Das spricht fuer wiederkehrende innere Milieu-Bewegung.
+Es beweist noch keine feste Bedeutung.
+Es trennt robuste Kandidaten von nur lokalen Drittperioden-Erscheinungen.
+```
+
+Der Befund liegt in [1700_ADAPTIVE_MILIEU_ZIELFAMILIEN_ASSET_GEGENPROBE.md](../befunde/1700_ADAPTIVE_MILIEU_ZIELFAMILIEN_ASSET_GEGENPROBE.md).
+
 ## Forschungsgrenze
 
 Aus dieser Mechanik folgt noch nicht:

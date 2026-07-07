@@ -1,0 +1,6 @@
+family,target_transition,target_world,target_profile,exact_asset_hit_count,exact_asset_worlds,family_asset_relation_count,family_asset_transitions,family_asset_worlds
+dio_0dd2,nur_gereift->offen_und_gereift,NEG_STRESS_2023,milieu_umlagert_nahe,0,-,1,offen_und_gereift->nur_gereift,BTC_2024_5M
+dio_0ly7,nur_gereift->offen_und_gereift,ALTSEQ_2023,milieu_umlagert_nahe,3,"BTC_2024_5M, DOGE_2024_5M, PAXG_2024_5M",4,"nur_gereift->offen_und_gereift, offen_und_gereift->nur_gereift","BTC_2024_5M, DOGE_2024_5M, PAXG_2024_5M, XRP_2024_5M"
+dio_01hu,nur_gereift->offen_und_gereift,MOD_NEG_2023,milieu_umlagert_nahe,2,"DOGE_2024_5M, XRP_2024_5M",2,nur_gereift->offen_und_gereift,"DOGE_2024_5M, XRP_2024_5M"
+dio_10dv,nur_gereift->offen_und_gereift,MOD_NEG_2023,milieu_umlagert_nahe,0,-,0,-,-
+dio_01hu,nur_gereift->offen_und_gereift,ALTSEQ_2023,milieu_umlagert_nahe,2,"DOGE_2024_5M, XRP_2024_5M",2,nur_gereift->offen_und_gereift,"DOGE_2024_5M, XRP_2024_5M"
