@@ -418,6 +418,74 @@ sleep_broad_role_touch
 entstehen aus Beruehrungsdruck, Rollenset-Druck und Fokus/Breite der Offline-Aktivierung.
 ```
 
+## Siebte Bereinigung und Gesamtaudit
+
+Der Suchlauf ueber `mini_dio/` zeigt nach den Bereinigungen drei Restgruppen.
+
+### Technische Schutzlogik
+
+Diese Stellen bleiben erlaubt, weil sie keine Bedeutung setzen:
+
+```text
+Division durch 0 vermeiden
+leere Listen pruefen
+Frame-Laenge pruefen
+ungueltige Preise oder Distanzen abfangen
+Indexzugriff absichern
+```
+
+Beispiele:
+
+```text
+weight_sum <= 0
+seen_count <= 1
+frame_samples <= 1
+entry_price <= 0
+len(sample) < 2
+```
+
+Das sind technische Stabilitaetsbedingungen, keine MCM-Regulation.
+
+### Passive Diagnose und Bericht
+
+Diese Stellen bleiben ebenfalls erlaubt, solange sie nur auswerten:
+
+```text
+seltene Innenfeldzustaende
+Top-Ratio eines Reports
+Karten-Aehnlichkeit
+Clusteranzahl
+Archetypen-Sichtbarkeit
+Sleep-Topscore-Auswahl
+```
+
+Sie erzeugen Befundsprache, aber keine Feldsteuerung.
+
+### Getrennte Lern- und Konsequenzkompatibilitaet
+
+Einige Stellen gehoeren nicht zum passiven MCM-Forschungskern:
+
+```text
+mini_dio/mcm_neuron.py
+mini_dio/mini_world.py
+mini_dio/run_mini.py
+mini_dio/action_memory_store.py
+```
+
+Sie enthalten einfache Konsequenz-, Aktions- oder Testweltlogik.
+Diese Logik darf nicht als MCM-Feldmechanik gelesen werden.
+
+Fuer den Forschungskern gilt:
+
+```text
+MCM-Feldordnung, Sinnesaufnahme, Feldzeit, Nachhall, Topologie,
+Rekopplung, Fragmentierung, Rollenreifung und Offline-Reorganisation
+laufen jetzt ueber relative Druckprofile statt harte Runtime-Grenzen.
+```
+
+Wenn spaeter ein reines Forschungsprofil ohne Aktionskompatibilitaet entstehen soll,
+muessen diese Kompatibilitaetsdateien getrennt oder deaktivierbar gemacht werden.
+
 ## Noch vorhandene statische Bereiche
 
 ### Diagnose
@@ -481,4 +549,4 @@ erfahrungsgewichteter Rueckfuehrung
 
 ## Wie es weitergeht
 
-Als naechstes sollte ein gezielter Suchlauf ueber `mini_dio/` zeigen, wo noch Zahlen als Runtime-Entscheidung wirken und wo sie nur Bericht, Format, Skala oder Kompatibilitaet sind. Erst danach sollten weitere Stellen umgebaut werden.
+Als naechstes sollte ein kurzer Kontrolllauf mit bestehenden Welten zeigen, ob die weichere Drucklogik die bisherigen Topologie- und Bedeutungsbefunde stabil haelt oder ob sich neue Varianz bildet.

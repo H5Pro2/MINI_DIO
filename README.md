@@ -170,6 +170,8 @@ Eine zweite Realwelt-Familie, `dio_01hu`, wurde gegen dieselbe Zweierkopplung ge
 
 Die naechste Bereinigung trennt statische Diagnose von organischer Feldkontrolle. Erste Runtime-Reste wurden auf weiche Druckvergleiche umgestellt: adaptive Rekopplung, rezeptorische Achsenpraeferenz, MCM-Wirkungskarte, Weltlage, Fragmentierung, Rollenreifung, Sinnesaufnahme, Feldbewegung, Feldphase, Rollenbewegung, Feldzeit und Offline-Reorganisation werden nicht mehr ueber feste Grenzwert-Kaskaden benannt, sondern ueber dominante innere Tendenzen, relative Feldprofile und konkurrierende Evidenzdruecke. Siehe [007_STATISCHE_RESTE_UND_ORGANISCHE_KONTROLLE.md](docs/mechanik/007_STATISCHE_RESTE_UND_ORGANISCHE_KONTROLLE.md).
 
+Ein anschliessender Gesamtaudit trennt die verbleibenden Zahlenstellen in technische Schutzlogik, passive Diagnose und getrennte Lern-/Konsequenzkompatibilitaet. Damit bleibt der MCM-Forschungskern frei von harten Runtime-Gates; Zahlen dienen dort als Skalen, Gewichte oder Berichtswerte.
+
 ## Hypothese Feldbewusstsein
 
 Wenn hier von Bewusstsein gesprochen wird, ist kein menschliches Ich-Bewusstsein gemeint.

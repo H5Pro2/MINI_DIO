@@ -241,14 +241,14 @@ def build_mcm_field_effect(senses: dict, reflection_context: dict, temporal_stat
         + ((1.0 - mcm_strain_quality) * 0.20)
         + (sensory_coupling * 0.14)
     )
-    if mcm_carry_quality >= mcm_strain_quality and sensory_coupling >= (1.0 - sensory_coupling):
-        field_effect_state = "field_carried"
-    elif mcm_strain_quality > mcm_carry_quality and sensory_coupling < (1.0 - sensory_coupling):
-        field_effect_state = "field_fragmented"
-    elif mcm_strain_quality > mcm_carry_quality:
-        field_effect_state = "field_strained"
-    else:
-        field_effect_state = "field_mixed"
+    field_effect_state = _dominant_label(
+        {
+            "field_carried": _clip((mcm_carry_quality * 0.46) + (sensory_coupling * 0.34) + ((1.0 - mcm_strain_quality) * 0.20)),
+            "field_fragmented": _clip((mcm_strain_quality * 0.42) + ((1.0 - sensory_coupling) * 0.34) + (visual_field_gap * 0.12) + (hearing_field_gap * 0.12)),
+            "field_strained": _clip((mcm_strain_quality * 0.52) + (tension * 0.22) + (neuro_load * 0.16) + ((1.0 - mcm_carry_quality) * 0.10)),
+            "field_mixed": _clip((1.0 - abs(mcm_carry_quality - mcm_strain_quality)) * 0.48 + (1.0 - abs(sensory_coupling - 0.5)) * 0.32 + (recurrence * 0.20)),
+        }
+    )
     return {
         "field_effect_state": field_effect_state,
         "mcm_carry_quality": mcm_carry_quality,
