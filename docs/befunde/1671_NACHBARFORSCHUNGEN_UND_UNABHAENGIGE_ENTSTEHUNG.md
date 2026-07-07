@@ -4,18 +4,11 @@ Stand: 2026-07-07
 
 ## Zweck
 
-Diese Einordnung beschreibt, in welchem Verhältnis MINI_DIO und die MCM/DIO-Forschung zu bestehenden Forschungsrichtungen stehen.
+Diese Einordnung beschreibt das Verhältnis von MINI_DIO und MCM/DIO-Forschung zu bestehenden Forschungsrichtungen.
 
-Wichtig:
+Die MCM/DIO-Forschung entstand nicht als Nachbau dieser Forschungsfelder. Ihr Ursprung liegt in eigener Hypothesenarbeit, MCM-Theorie, der Bild-/Kunstform-Beobachtung [The Last Supper und die der Anfang der MCM](https://github.com/H5Pro2/Mental-Core-Matrix-MCM/blob/main/Abhandlungen/Anfang%20der%20MCM/The%20Last%20Supper%20und%20die%20der%20Anfang%20der%20MCM.pdf) als Formanker und anschließenden MINI_DIO-Experimenten.
 
-```text
-Die MCM/DIO-Forschung entstand nicht als Nachbau dieser Forschungsfelder.
-Sie entstand aus eigener Hypothesenarbeit, aus der Bild-/Kunstform-Beobachtung
-[The Last Supper und die der Anfang der MCM](https://github.com/H5Pro2/Mental-Core-Matrix-MCM/blob/main/Abhandlungen/Anfang%20der%20MCM/The%20Last%20Supper%20und%20die%20der%20Anfang%20der%20MCM.pdf),
-aus MCM-Theoriearbeit und aus anschließenden MINI_DIO-Experimenten.
-```
-
-Die später sichtbaren Ähnlichkeiten zu bestehenden Forschungsrichtungen sind deshalb als nachträgliche Anschlussstellen zu lesen, nicht als Ursprung der Arbeit.
+Ähnlichkeiten zu bestehenden Forschungsrichtungen werden deshalb als nachträgliche Anschlussstellen gelesen, nicht als Ursprung der Arbeit.
 
 ## Ursprung Der Richtung
 
@@ -29,8 +22,7 @@ Der Forschungsweg begann aus:
 - der Frage, ob ein kleines Feld durch Weltkontakt eigene Innenordnung bilden kann,
 - der späteren technischen Prüfung über kontrollierte Weltspuren.
 
-Die Bild-/Kunstform-Beobachtung war dabei kein Beweis.
-Sie wirkte als Formanker und Denkimpuls:
+Die Bild-/Kunstform-Beobachtung ist kein Beweis. Sie wird als Formanker behandelt:
 
 ```text
 Zentrum
@@ -180,7 +172,7 @@ Die gesamte Kombination ist in dieser Form eigenständig.
 
 ## Bedeutung Der Unabhängigen Entstehung
 
-Dass die MCM/DIO-Richtung aus Unwissen dieser Nachbarfelder entstanden ist, ist methodisch relevant.
+Die unabhängige Entstehung ist methodisch relevant.
 
 Es bedeutet:
 
@@ -189,8 +181,7 @@ Die Richtung wurde nicht aus vorhandener Terminologie konstruiert.
 Die Terminologie wurde erst nachträglich mit bekannten Forschungsfeldern abgeglichen.
 ```
 
-Damit wird die Arbeit nicht automatisch richtiger.
-Aber es macht die Konvergenz interessanter:
+Das macht die Arbeit nicht automatisch richtiger. Es macht aber die Konvergenz prüfbar:
 
 ```text
 Eine eigene Feldhypothese

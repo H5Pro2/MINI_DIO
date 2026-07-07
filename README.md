@@ -89,11 +89,11 @@ Ausführlicher festgehalten ist das in [1670_REIFUNG_KOMPAKTE_BINDUNG_GEGEN_VERT
 
 ### Nachbarforschungen Und Unabhängige Entstehung
 
-MINI_DIO berührt Themen, die auch in Neural Fields, Active Inference, Self-Organizing Maps, Reservoir Computing, Neural Cellular Automata, World Models und neuromorphen Systemen vorkommen.
+MINI_DIO hat methodische Nähe zu Neural Fields, Active Inference, Self-Organizing Maps, Reservoir Computing, Neural Cellular Automata, World Models und neuromorphen Systemen.
 
-Wichtig ist die Entstehungsrichtung: Die MCM/DIO-Forschung wurde nicht aus diesen Forschungsfeldern abgeleitet. Sie entstand aus eigener MCM-Hypothesenarbeit, der Bild-/Kunstform-Beobachtung [The Last Supper und die der Anfang der MCM](https://github.com/H5Pro2/Mental-Core-Matrix-MCM/blob/main/Abhandlungen/Anfang%20der%20MCM/The%20Last%20Supper%20und%20die%20der%20Anfang%20der%20MCM.pdf) als Formanker, der Idee eines Digitalen Organismus und späteren MINI_DIO-Experimenten. Die Nähe zu bestehenden Forschungsrichtungen wurde erst nachträglich sichtbar.
+Die MCM/DIO-Forschung wurde jedoch nicht aus diesen Feldern abgeleitet. Ihr Ausgangspunkt waren eigene MCM-Hypothesen, die Bild-/Kunstform-Beobachtung [The Last Supper und die der Anfang der MCM](https://github.com/H5Pro2/Mental-Core-Matrix-MCM/blob/main/Abhandlungen/Anfang%20der%20MCM/The%20Last%20Supper%20und%20die%20der%20Anfang%20der%20MCM.pdf) als Formanker, die Idee eines Digitalen Organismus und spätere MINI_DIO-Experimente.
 
-Damit ist MINI_DIO nicht aus dem Nichts, aber auch keine Kopie bestehender Modelle. Die aktuelle Eigenständigkeit liegt in der Verbindung aus Sinnesaufnahme, Rezeptorik, MCM-Feldwirkung, Topologie, Feldzeit, Nachhall, eigener `dio_*`-Syntax, Bedeutungsinseln und passiver Offline-Feld-Reorganisation.
+Die Nähe zu bestehenden Forschungsrichtungen wird deshalb als nachträgliche wissenschaftliche Anschlussstelle gelesen, nicht als Ursprung. Eigenständig ist aktuell vor allem die Verbindung aus Sinnesaufnahme, Rezeptorik, MCM-Feldwirkung, Topologie, Feldzeit, Nachhall, eigener `dio_*`-Syntax, Bedeutungsinseln und passiver Offline-Feld-Reorganisation.
 
 Ausführlicher festgehalten ist das in [1671_NACHBARFORSCHUNGEN_UND_UNABHAENGIGE_ENTSTEHUNG.md](docs/befunde/1671_NACHBARFORSCHUNGEN_UND_UNABHAENGIGE_ENTSTEHUNG.md).
 
