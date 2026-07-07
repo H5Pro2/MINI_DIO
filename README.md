@@ -182,6 +182,8 @@ Eine erweiterte Mehrwelt-Lupe gegen ruhige SOL-/BTC-Fenster, stressige SOL-/BTC-
 
 Eine erste Repro-Pruefung mit frischer Memory bestaetigt fuer SOL-Stress und die synthetische Rekopplungs-Randwelt dieselben Randdruckprofile und dieselben Spitzenbereiche. Das staerkt die Randdruck-Lupe methodisch, bleibt aber bewusst auf diese geprueften Welten begrenzt. Siehe [relative_rand_pressure_repro.md](reports/relative_rand_pressure_repro.md).
 
+Eine weitere Asset-Pruefung ueber PAXG, XRP und DOGE mit je 10k Weltzeilen zeigt: lokaler Randdruck bleibt sichtbar, aber global dominiert Rekopplungsnaehe. PAXG rekoppelt staerker und daempft weniger, XRP und DOGE liegen naeher beieinander. Siehe [1723_ASSET_RANDDRUCK_UND_REKOPPLUNGSNAEHE_10K.md](docs/befunde/1723_ASSET_RANDDRUCK_UND_REKOPPLUNGSNAEHE_10K.md).
+
 ## Hypothese Feldbewusstsein
 
 Wenn hier von Bewusstsein gesprochen wird, ist kein menschliches Ich-Bewusstsein gemeint.
