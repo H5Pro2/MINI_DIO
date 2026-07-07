@@ -795,6 +795,41 @@ Die Berichte:
 - [1710_DIO_0LY7_SYNTHETISCHE_BRUCHURSACHEN.md](../befunde/1710_DIO_0LY7_SYNTHETISCHE_BRUCHURSACHEN.md)
 - [1711_DIO_0LY7_SYNTHETISCHE_BRUCHURSACHEN_KLASSEN.md](../befunde/1711_DIO_0LY7_SYNTHETISCHE_BRUCHURSACHEN_KLASSEN.md)
 
+## Range-Aufweitung real gegen synthetisch
+
+Die naechste Pruefung trennt Range-Aufweitung von echter Lastumkehr.
+
+Ergebnis:
+
+```text
+reale Welten:
+  10x Entlastung ohne Range-Aufweitung
+  2x Range-Aufweitung aber Entlastung
+
+synthetische Welten:
+  10x Lastanstieg mit Range-Aufweitung
+```
+
+Lesung:
+
+```text
+Range-Aufweitung allein reicht nicht aus.
+In realen PAXG-Welten bleibt dio_0ly7 trotz leichter Range-Aufweitung entlastend.
+In synthetischen Welten koppelt Range-Aufweitung mit Hoer- und Spannungsanstieg.
+Der Bruch ist deshalb eine Kombinationswirkung, nicht nur ein Range-Effekt.
+```
+
+Damit wird die Ursache enger:
+
+```text
+Bruch von dio_0ly7 =
+  Range-Aufweitung
+  + Hoeranstieg
+  + Spannungsanstieg
+```
+
+Der Bericht liegt in [1712_DIO_0LY7_RANGE_AUFWEITUNG_REAL_GEGEN_SYNTHETISCH.md](../befunde/1712_DIO_0LY7_RANGE_AUFWEITUNG_REAL_GEGEN_SYNTHETISCH.md).
+
 ## Forschungsgrenze
 
 Aus dieser Mechanik folgt noch nicht:

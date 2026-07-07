@@ -158,6 +158,8 @@ Die Bruchklassifikation zeigt den Unterschied genauer: `dio_0ly7` bleibt in den 
 
 Eine isolierte Zusatzpruefung von `dio_0ly7` gegen weitere synthetische Varianten bestaetigt diese Bruchklasse: Randdominanz, Bruch/Rand, Originalsequenz, Permutation, Zufallsnaehe und lange Rekopplung vor Rand landen jeweils in `bruch_mit_range_aufweitung`. Der Bruch scheint damit nicht nur an einer einzelnen synthetischen Datei zu haengen. Siehe [1710_DIO_0LY7_SYNTHETISCHE_BRUCHURSACHEN.md](docs/befunde/1710_DIO_0LY7_SYNTHETISCHE_BRUCHURSACHEN.md) und [1711_DIO_0LY7_SYNTHETISCHE_BRUCHURSACHEN_KLASSEN.md](docs/befunde/1711_DIO_0LY7_SYNTHETISCHE_BRUCHURSACHEN_KLASSEN.md).
 
+Die folgende Real-gegen-Synthetik-Pruefung zeigt die Ursache schärfer: Range-Aufweitung allein kippt `dio_0ly7` nicht. In realen PAXG-Welten bleibt die Form trotz leichter Range-Aufweitung entlastend. Erst in synthetischen Welten koppelt Range-Aufweitung mit Hoer- und Spannungsanstieg. Der Bruch ist damit eine Kombinationswirkung. Siehe [1712_DIO_0LY7_RANGE_AUFWEITUNG_REAL_GEGEN_SYNTHETISCH.md](docs/befunde/1712_DIO_0LY7_RANGE_AUFWEITUNG_REAL_GEGEN_SYNTHETISCH.md).
+
 ## Hypothese Feldbewusstsein
 
 Wenn hier von Bewusstsein gesprochen wird, ist kein menschliches Ich-Bewusstsein gemeint.
