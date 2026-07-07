@@ -28,6 +28,86 @@ def _mcm_feldwirkung(senses: dict) -> dict:
     return dict(senses.get("mcm_feldwirkung", {}) or senses.get("fuehlen", {}) or {})
 
 
+def _weighted_episode_average(episodes: list[dict], key: str) -> float:
+    weighted_sum = 0.0
+    total_weight = 0.0
+    for item in episodes:
+        seen = max(1.0, float(item.get("seen_count", 1.0) or 1.0))
+        weighted_sum += _clip(item.get(key, 0.0)) * seen
+        total_weight += seen
+    if total_weight <= 0.0:
+        return 0.0
+    return _clip(weighted_sum / total_weight)
+
+
+def build_adaptive_rekopplung_state(field_effect: dict, memory_data: dict | None, symbol_family: str = "") -> dict:
+    """Build a passive experience-weighted recoupling reading.
+
+    The original ``mcm_rekopplung_quality`` stays as the stable reference. This
+    adaptive reading lets previous passive episode traces shift how carry,
+    alignment, strain relief and sensory coupling are weighted.
+    """
+
+    episodes = list(dict((memory_data or {}).get("episode_memory", {}) or {}).values())
+    same_family = [
+        dict(item or {})
+        for item in episodes
+        if symbol_family and str((item or {}).get("dominant_family", "") or "") == symbol_family
+    ]
+    candidates = same_family or [dict(item or {}) for item in episodes]
+    if not candidates:
+        return {
+            "mcm_adaptive_rekopplung_quality": _clip(field_effect.get("mcm_rekopplung_quality", 0.0)),
+            "mcm_adaptive_rekopplung_state": "adaptive_untrained",
+            "mcm_adaptive_rekopplung_experience": 0.0,
+            "mcm_adaptive_weight_carry": 0.42,
+            "mcm_adaptive_weight_alignment": 0.24,
+            "mcm_adaptive_weight_strain_relief": 0.20,
+            "mcm_adaptive_weight_sensory": 0.14,
+        }
+
+    total_seen = sum(max(1.0, float(item.get("seen_count", 1.0) or 1.0)) for item in candidates)
+    experience = _clip(total_seen / 18.0)
+    carry_memory = _weighted_episode_average(candidates, "avg_mcm_carry_quality")
+    strain_memory = _weighted_episode_average(candidates, "avg_mcm_strain_quality")
+    rekopplung_memory = _weighted_episode_average(candidates, "avg_mcm_rekopplung_quality")
+    sensory_memory = _weighted_episode_average(candidates, "avg_sensory_coupling")
+
+    raw_weights = {
+        "carry": 0.24 + (carry_memory * 0.30) + (rekopplung_memory * 0.10),
+        "alignment": 0.16 + (rekopplung_memory * 0.26),
+        "strain_relief": 0.14 + ((1.0 - strain_memory) * 0.34),
+        "sensory": 0.10 + (sensory_memory * 0.28),
+    }
+    total = sum(raw_weights.values()) or 1.0
+    weights = {key: _clip(value / total) for key, value in raw_weights.items()}
+    adaptive = _clip(
+        (_clip(field_effect.get("mcm_carry_quality", 0.0)) * weights["carry"])
+        + (_clip(field_effect.get("reflection_alignment", 0.0)) * weights["alignment"])
+        + ((1.0 - _clip(field_effect.get("mcm_strain_quality", 0.0))) * weights["strain_relief"])
+        + (_clip(field_effect.get("sensory_coupling", 0.0)) * weights["sensory"])
+    )
+    static = _clip(field_effect.get("mcm_rekopplung_quality", 0.0))
+    delta = adaptive - static
+    if experience < 0.20:
+        state = "adaptive_jung"
+    elif delta > 0.025:
+        state = "adaptive_rekopplung_angehoben"
+    elif delta < -0.025:
+        state = "adaptive_rekopplung_gedaempft"
+    else:
+        state = "adaptive_rekopplung_nahe_statisch"
+    return {
+        "mcm_adaptive_rekopplung_quality": adaptive,
+        "mcm_adaptive_rekopplung_state": state,
+        "mcm_adaptive_rekopplung_experience": experience,
+        "mcm_adaptive_weight_carry": weights["carry"],
+        "mcm_adaptive_weight_alignment": weights["alignment"],
+        "mcm_adaptive_weight_strain_relief": weights["strain_relief"],
+        "mcm_adaptive_weight_sensory": weights["sensory"],
+    }
+
+
 def build_mcm_field_effect(senses: dict, reflection_context: dict, temporal_state: dict, neuro_state: dict) -> dict:
     """Return a compact passive MCM-field effect.
 
@@ -96,6 +176,7 @@ def build_mcm_field_effect(senses: dict, reflection_context: dict, temporal_stat
         "mcm_strain_quality": mcm_strain_quality,
         "mcm_rekopplung_quality": rekopplung_quality,
         "sensory_coupling": sensory_coupling,
+        "reflection_alignment": reflection_alignment,
         "visual_field_gap": visual_field_gap,
         "hearing_field_gap": hearing_field_gap,
         "passive_only": True,
@@ -131,6 +212,8 @@ class PassiveEpisodeTracker:
             "mcm_carry_quality": 0.0,
             "mcm_strain_quality": 0.0,
             "mcm_rekopplung_quality": 0.0,
+            "mcm_adaptive_rekopplung_quality": 0.0,
+            "mcm_adaptive_rekopplung_experience": 0.0,
             "sensory_coupling": 0.0,
             "visual_field_gap": 0.0,
             "hearing_field_gap": 0.0,
@@ -162,6 +245,8 @@ class PassiveEpisodeTracker:
             "avg_mcm_carry_quality": self.sums["mcm_carry_quality"] / denom,
             "avg_mcm_strain_quality": self.sums["mcm_strain_quality"] / denom,
             "avg_mcm_rekopplung_quality": self.sums["mcm_rekopplung_quality"] / denom,
+            "avg_mcm_adaptive_rekopplung_quality": self.sums["mcm_adaptive_rekopplung_quality"] / denom,
+            "avg_mcm_adaptive_rekopplung_experience": self.sums["mcm_adaptive_rekopplung_experience"] / denom,
             "avg_sensory_coupling": self.sums["sensory_coupling"] / denom,
             "avg_visual_field_gap": self.sums["visual_field_gap"] / denom,
             "avg_hearing_field_gap": self.sums["hearing_field_gap"] / denom,

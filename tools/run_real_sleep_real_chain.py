@@ -252,6 +252,8 @@ def _compare_reports(real_a: dict, real_b: dict) -> dict:
         "mcm_field_episode_written",
         "avg_mcm_carry_quality",
         "avg_mcm_rekopplung_quality",
+        "avg_mcm_adaptive_rekopplung_quality",
+        "avg_mcm_adaptive_rekopplung_experience",
         "avg_mcm_strain_quality",
         "avg_mcm_sensory_coupling",
         "avg_mini_afterimage",
@@ -276,6 +278,8 @@ def _compare_reports(real_a: dict, real_b: dict) -> dict:
         "top_family_overlap": _overlap(a_families, b_families),
         "real_a_effect_classes": real_a.get("passive_mcm_effect_classes", {}),
         "real_b_effect_classes": real_b.get("passive_mcm_effect_classes", {}),
+        "real_a_adaptive_rekopplung_states": real_a.get("adaptive_rekopplung_states", {}),
+        "real_b_adaptive_rekopplung_states": real_b.get("adaptive_rekopplung_states", {}),
         "real_a_episode_states": real_a.get("episode_memory_states", {}),
         "real_b_episode_states": real_b.get("episode_memory_states", {}),
     }

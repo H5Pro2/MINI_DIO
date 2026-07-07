@@ -55,6 +55,7 @@ Der aktuelle gemeinsame Modellstand verbindet vier Mechaniken:
 - MCM-Topologie als gelesene Rollenordnung,
 - Feldzeit als Integrationsqualität einer gewirkten Weltlage,
 - Nachhall als Sequenzkontext, nicht als Kontrolle.
+- passive adaptive Rekopplung als erfahrungsgewichtete Rückführung neben der stabilen Referenzmessung.
 
 Kurz gefasst:
 
@@ -75,6 +76,12 @@ Die wichtige Grenze bleibt:
 Nachhall ist Kontext, nicht Kontrolle.
 Feldzeit ist Integrationsqualität, keine hart programmierte Zeitachse.
 ```
+
+### Passive Adaptive Rekopplung
+
+Die ursprüngliche Rekopplungsqualität bleibt als statischer Vergleichswert erhalten. Ergänzend liest MINI_DIO jetzt eine passive adaptive Rekopplung: frühere Episoden verschieben, wie stark Tragen, Alignment, Strain-Entlastung und Sinneskopplung in die aktuelle Rückführung eingehen.
+
+Diese adaptive Lesung ist keine Handlung, kein Gate und keine Vorgabe. Sie zeigt nur, ob das Feld aus eigener Erfahrung anders rekoppelt als die statische Grundmessung. Festgehalten ist die Mechanik in [006_ADAPTIVE_PASSIVE_REKOPPLUNG.md](docs/mechanik/006_ADAPTIVE_PASSIVE_REKOPPLUNG.md).
 
 ### Kompakte Bindung Und Verteiltes Rollennetz
 

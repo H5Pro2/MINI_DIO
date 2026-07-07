@@ -12,6 +12,7 @@ from mini_dio.dio_syntax import make_episode_memory_symbol
 def episode_memory_rank(item: dict) -> tuple:
     return (
         float(item.get("avg_mcm_rekopplung_quality", 0.0) or 0.0),
+        float(item.get("avg_mcm_adaptive_rekopplung_quality", 0.0) or 0.0),
         float(item.get("avg_mcm_carry_quality", 0.0) or 0.0),
         int(item.get("seen_count", 0) or 0),
         -float(item.get("avg_mcm_strain_quality", 0.0) or 0.0),
@@ -75,6 +76,18 @@ def store_episode_memory(data: dict, payload: dict, max_items: int) -> str:
             "avg_mcm_carry_quality": _avg(current, payload, "avg_mcm_carry_quality", seen_count),
             "avg_mcm_strain_quality": _avg(current, payload, "avg_mcm_strain_quality", seen_count),
             "avg_mcm_rekopplung_quality": _avg(current, payload, "avg_mcm_rekopplung_quality", seen_count),
+            "avg_mcm_adaptive_rekopplung_quality": _avg(
+                current,
+                payload,
+                "avg_mcm_adaptive_rekopplung_quality",
+                seen_count,
+            ),
+            "avg_mcm_adaptive_rekopplung_experience": _avg(
+                current,
+                payload,
+                "avg_mcm_adaptive_rekopplung_experience",
+                seen_count,
+            ),
             "avg_sensory_coupling": _avg(current, payload, "avg_sensory_coupling", seen_count),
             "avg_visual_field_gap": _avg(current, payload, "avg_visual_field_gap", seen_count),
             "avg_hearing_field_gap": _avg(current, payload, "avg_hearing_field_gap", seen_count),

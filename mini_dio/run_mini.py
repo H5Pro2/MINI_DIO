@@ -9,7 +9,7 @@ from pathlib import Path
 
 from mini_dio.action_selection import choose_action
 from mini_dio.config import Config
-from mini_dio.episode_memory import PassiveEpisodeTracker, build_mcm_field_effect
+from mini_dio.episode_memory import PassiveEpisodeTracker, build_adaptive_rekopplung_state, build_mcm_field_effect
 from mini_dio.mcm_effect_map import (
     build_passive_inner_effect_awareness,
     build_passive_inner_field_bridge_stable_contrast,
@@ -397,6 +397,9 @@ def run_once(
     mcm_carry_quality_values = []
     mcm_strain_quality_values = []
     mcm_rekopplung_quality_values = []
+    mcm_adaptive_rekopplung_quality_values = []
+    mcm_adaptive_rekopplung_experience_values = []
+    adaptive_rekopplung_counter = {}
     sensory_coupling_values = []
     symbol_counter = {}
     active_phase = {
@@ -548,6 +551,16 @@ def run_once(
         reflection_strain_values.append(float(reflection_context["reflection_context_strain"]))
         reflection_alignment_values.append(float(reflection_context["reflection_context_alignment"]))
         mcm_field_effect = build_mcm_field_effect(senses, reflection_context, temporal_state, neuro_state)
+        adaptive_rekopplung_state = build_adaptive_rekopplung_state(
+            mcm_field_effect,
+            memory.data,
+            symbol_family=symbol_family,
+        )
+        mcm_field_effect.update(adaptive_rekopplung_state)
+        adaptive_state_name = str(adaptive_rekopplung_state["mcm_adaptive_rekopplung_state"])
+        adaptive_rekopplung_counter[adaptive_state_name] = (
+            int(adaptive_rekopplung_counter.get(adaptive_state_name, 0) or 0) + 1
+        )
         mcm_effect_state = str(mcm_field_effect["field_effect_state"])
         passive_mcm_effect_class = classify_current_mcm_effect(mcm_field_effect)
         field_episode_role = f"field_{passive_mcm_effect_class}"
@@ -581,6 +594,8 @@ def run_once(
         mcm_carry_quality_values.append(float(mcm_field_effect["mcm_carry_quality"]))
         mcm_strain_quality_values.append(float(mcm_field_effect["mcm_strain_quality"]))
         mcm_rekopplung_quality_values.append(float(mcm_field_effect["mcm_rekopplung_quality"]))
+        mcm_adaptive_rekopplung_quality_values.append(float(mcm_field_effect["mcm_adaptive_rekopplung_quality"]))
+        mcm_adaptive_rekopplung_experience_values.append(float(mcm_field_effect["mcm_adaptive_rekopplung_experience"]))
         sensory_coupling_values.append(float(mcm_field_effect["sensory_coupling"]))
         episode_payload = episode_tracker.step(index, symbol_family, mcm_field_effect)
         episode_memory_symbol = "-"
@@ -631,6 +646,13 @@ def run_once(
                 "mcm_carry_quality": f"{float(mcm_field_effect['mcm_carry_quality']):.6f}",
                 "mcm_strain_quality": f"{float(mcm_field_effect['mcm_strain_quality']):.6f}",
                 "mcm_rekopplung_quality": f"{float(mcm_field_effect['mcm_rekopplung_quality']):.6f}",
+                "mcm_adaptive_rekopplung_quality": f"{float(mcm_field_effect['mcm_adaptive_rekopplung_quality']):.6f}",
+                "mcm_adaptive_rekopplung_state": str(mcm_field_effect["mcm_adaptive_rekopplung_state"]),
+                "mcm_adaptive_rekopplung_experience": f"{float(mcm_field_effect['mcm_adaptive_rekopplung_experience']):.6f}",
+                "mcm_adaptive_weight_carry": f"{float(mcm_field_effect['mcm_adaptive_weight_carry']):.6f}",
+                "mcm_adaptive_weight_alignment": f"{float(mcm_field_effect['mcm_adaptive_weight_alignment']):.6f}",
+                "mcm_adaptive_weight_strain_relief": f"{float(mcm_field_effect['mcm_adaptive_weight_strain_relief']):.6f}",
+                "mcm_adaptive_weight_sensory": f"{float(mcm_field_effect['mcm_adaptive_weight_sensory']):.6f}",
                 "mcm_sensory_coupling": f"{float(mcm_field_effect['sensory_coupling']):.6f}",
                 "mcm_visual_field_gap": f"{float(mcm_field_effect['visual_field_gap']):.6f}",
                 "mcm_hearing_field_gap": f"{float(mcm_field_effect['hearing_field_gap']):.6f}",
@@ -798,6 +820,7 @@ def run_once(
         "reflection_contexts": dict(sorted(reflection_context_counter.items())),
         "episode_memory_states": dict(sorted(episode_memory_counter.items())),
         "passive_mcm_effect_classes": dict(sorted(passive_mcm_effect_class_counter.items())),
+        "adaptive_rekopplung_states": dict(sorted(adaptive_rekopplung_counter.items())),
         "passive_inner_effect_awareness_states": dict(sorted(passive_inner_effect_awareness_counter.items())),
         "passive_inner_effect_meaning_display_states": dict(
             sorted(passive_inner_effect_meaning_display_counter.items())
@@ -853,6 +876,16 @@ def run_once(
         "max_mcm_strain_quality": max(mcm_strain_quality_values) if mcm_strain_quality_values else 0.0,
         "avg_mcm_rekopplung_quality": sum(mcm_rekopplung_quality_values) / max(1, len(mcm_rekopplung_quality_values)),
         "max_mcm_rekopplung_quality": max(mcm_rekopplung_quality_values) if mcm_rekopplung_quality_values else 0.0,
+        "avg_mcm_adaptive_rekopplung_quality": sum(mcm_adaptive_rekopplung_quality_values)
+        / max(1, len(mcm_adaptive_rekopplung_quality_values)),
+        "max_mcm_adaptive_rekopplung_quality": max(mcm_adaptive_rekopplung_quality_values)
+        if mcm_adaptive_rekopplung_quality_values
+        else 0.0,
+        "avg_mcm_adaptive_rekopplung_experience": sum(mcm_adaptive_rekopplung_experience_values)
+        / max(1, len(mcm_adaptive_rekopplung_experience_values)),
+        "max_mcm_adaptive_rekopplung_experience": max(mcm_adaptive_rekopplung_experience_values)
+        if mcm_adaptive_rekopplung_experience_values
+        else 0.0,
         "avg_mcm_sensory_coupling": sum(sensory_coupling_values) / max(1, len(sensory_coupling_values)),
         "max_mcm_sensory_coupling": max(sensory_coupling_values) if sensory_coupling_values else 0.0,
         "mini_neuro_tones": dict(sorted(neuro_tone_counter.items())),
