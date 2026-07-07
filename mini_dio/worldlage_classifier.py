@@ -17,29 +17,22 @@ def classify_worldlage(row: dict[str, object]) -> str:
     auditory = _to_float(row.get("avg_auditory"))
     visual = _to_float(row.get("avg_visual"))
 
-    if zentrum >= 0.88 and rekopplung >= 0.727:
-        if rand >= 0.015:
-            return "ueberstabil_mit_randreiz"
-        if raw_field <= 0.03 and auditory <= 0.03 and visual >= 0.82 and strain <= 0.11:
-            return "ueberstabil_extrem_leise_scharf"
-        if visual < 0.79:
-            return "ueberstabil_visuell_weicher"
-        if raw_field <= 0.065 and auditory <= 0.10 and visual >= 0.82 and strain <= 0.12:
-            return "ueberstabil_leise_scharf"
-        return "ueberstabil_gemischt"
-    if rand >= 0.015:
-        return "randlastige_sinneslage"
-    if zentrum >= 0.78 and strain <= 0.145:
-        return "ruhig_zentrumsnah"
-    if raw_field <= 0.11 and auditory <= 0.19:
-        if visual >= 0.66:
-            return "leise_scharf_duenn"
-        return "leise_duenn"
-    if auditory >= 0.23 or raw_field >= 0.15:
-        return "lauter_feldkontakt"
-    if zentrum < 0.70 or rekopplung < 0.709:
-        return "offen_suchend"
-    return "normale_weltspannung"
+    return _dominant_label(
+        {
+            "ueberstabil_mit_randreiz": _mean(zentrum, rekopplung, rand),
+            "ueberstabil_extrem_leise_scharf": _mean(zentrum, rekopplung, 1.0 - raw_field, 1.0 - auditory, visual, 1.0 - strain),
+            "ueberstabil_visuell_weicher": _mean(zentrum, rekopplung, 1.0 - visual),
+            "ueberstabil_leise_scharf": _mean(zentrum, rekopplung, 1.0 - raw_field, 1.0 - auditory, visual, 1.0 - strain),
+            "ueberstabil_gemischt": _mean(zentrum, rekopplung),
+            "randlastige_sinneslage": rand,
+            "ruhig_zentrumsnah": _mean(zentrum, 1.0 - strain, rekopplung),
+            "leise_scharf_duenn": _mean(1.0 - raw_field, 1.0 - auditory, visual),
+            "leise_duenn": _mean(1.0 - raw_field, 1.0 - auditory, 1.0 - visual),
+            "lauter_feldkontakt": _mean(auditory, raw_field),
+            "offen_suchend": _mean(1.0 - zentrum, 1.0 - rekopplung),
+            "normale_weltspannung": _mean(1.0 - rand, 1.0 - strain, 1.0 - raw_field, 1.0 - auditory),
+        }
+    )
 
 
 def classify_adaptation_delta(base: dict[str, object], adapted: dict[str, object]) -> dict[str, object]:
@@ -47,17 +40,18 @@ def classify_adaptation_delta(base: dict[str, object], adapted: dict[str, object
     delta_rand = _to_float(adapted.get("rand_ratio")) - _to_float(base.get("rand_ratio"))
     delta_rekopplung = _to_float(adapted.get("avg_rekopplung")) - _to_float(base.get("avg_rekopplung"))
     delta_strain = _to_float(adapted.get("avg_strain")) - _to_float(base.get("avg_strain"))
-    if abs(delta_zentrum) > 0.04 or abs(delta_rekopplung) > 0.015:
-        outcome = "verschiebend"
-    elif delta_rand < -0.001 and delta_strain < -0.0005 and delta_zentrum > -0.01 and delta_rekopplung > -0.002:
-        if delta_zentrum >= 0.003 or delta_rekopplung >= 0.0005:
-            outcome = "beruhigend"
-        else:
-            outcome = "stabil_leicht"
-    elif delta_rand > 0.002 or delta_strain > 0.001:
-        outcome = "verschiebend"
-    else:
-        outcome = "neutral"
+    shift_pressure = _mean(abs(delta_zentrum), abs(delta_rekopplung), max(0.0, delta_rand), max(0.0, delta_strain))
+    calming_pressure = _mean(max(0.0, -delta_rand), max(0.0, -delta_strain), max(0.0, delta_zentrum), max(0.0, delta_rekopplung))
+    light_stability_pressure = _mean(max(0.0, -delta_rand), max(0.0, -delta_strain), 1.0 - abs(delta_zentrum), 1.0 - abs(delta_rekopplung))
+    neutral_pressure = _mean(1.0 - abs(delta_zentrum), 1.0 - abs(delta_rand), 1.0 - abs(delta_rekopplung), 1.0 - abs(delta_strain))
+    outcome = _dominant_label(
+        {
+            "verschiebend": shift_pressure,
+            "beruhigend": calming_pressure,
+            "stabil_leicht": light_stability_pressure,
+            "neutral": neutral_pressure,
+        }
+    )
     return {
         "delta_zentrum": round(delta_zentrum, 6),
         "delta_rand": round(delta_rand, 6),
@@ -76,3 +70,19 @@ def _to_float(value: object) -> float:
     except (TypeError, ValueError):
         return 0.0
     return 0.0 if number != number else number
+
+
+def _clip01(value: object) -> float:
+    return max(0.0, min(1.0, _to_float(value)))
+
+
+def _mean(*values: object) -> float:
+    clean = [_clip01(value) for value in values]
+    return sum(clean) / max(1, len(clean))
+
+
+def _dominant_label(scores: dict[str, float]) -> str:
+    clean = {key: _clip01(value) for key, value in scores.items()}
+    if not clean:
+        return "normale_weltspannung"
+    return max(clean, key=clean.get)

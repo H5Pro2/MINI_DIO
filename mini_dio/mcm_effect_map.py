@@ -17,6 +17,57 @@ def _safe_float(value: object, default: float = 0.0) -> float:
     return result
 
 
+def _clip01(value: object) -> float:
+    return max(0.0, min(1.0, _safe_float(value)))
+
+
+def _dominant_label(scores: dict[str, float]) -> str:
+    clean = {key: _clip01(value) for key, value in scores.items()}
+    if not clean:
+        return "diffus"
+    return max(clean, key=clean.get)
+
+
+def _effect_scores(
+    *,
+    transition: str = "",
+    state: str = "",
+    rekopplung: float,
+    carry: float,
+    strain: float,
+    sensory: float,
+    gap: float,
+) -> dict[str, float]:
+    """Return competing passive effect pressures.
+
+    The labels stay stable for reports, but no single fixed threshold decides
+    the class. The strongest current pressure names the passive field effect.
+    """
+
+    rekopplung = _clip01(rekopplung)
+    carry = _clip01(carry)
+    strain = _clip01(strain)
+    sensory = _clip01(sensory)
+    gap = _clip01(gap)
+    transition_recoupling = 1.0 if "field_strained->field_carried" in str(transition) else 0.0
+    transition_tipping = 1.0 if "field_carried->field_strained" in str(transition) else 0.0
+    strained_state = 1.0 if str(state) == "field_strained" else 0.0
+    stability_pressure = (rekopplung * 0.34) + (carry * 0.22) + ((1.0 - strain) * 0.20) + (sensory * 0.16) + ((1.0 - gap) * 0.08)
+    unrest_pressure = (rekopplung * 0.32) + ((1.0 - strain) * 0.22) + (gap * 0.18) + ((1.0 - carry) * 0.14) + (sensory * 0.14)
+    tipping_pressure = (strain * 0.34) + (gap * 0.30) + ((1.0 - rekopplung) * 0.18) + transition_tipping * 0.18
+    strained_pressure = (strain * 0.42) + ((1.0 - rekopplung) * 0.26) + (gap * 0.18) + strained_state * 0.14
+    recoupling_pressure = transition_recoupling * 0.42 + rekopplung * 0.28 + ((1.0 - strain) * 0.18) + carry * 0.12
+    diffuse_pressure = ((1.0 - rekopplung) * 0.28) + ((1.0 - sensory) * 0.24) + ((1.0 - carry) * 0.22) + (gap * 0.16) + (strain * 0.10)
+    return {
+        "rekoppelnd": recoupling_pressure,
+        "kippend": tipping_pressure,
+        "gespannt": strained_pressure,
+        "stabil": stability_pressure,
+        "tragend_unruhig": unrest_pressure,
+        "diffus": diffuse_pressure,
+    }
+
+
 def classify_mcm_field_episode(episode: dict) -> str:
     """Classify a passive MCM field episode into a coarse Wirkung class."""
 
@@ -31,17 +82,17 @@ def classify_mcm_field_episode(episode: dict) -> str:
         + _safe_float(episode.get("avg_hearing_field_gap"))
     ) * 0.5
 
-    if "field_strained->field_carried" in transition:
-        return "rekoppelnd"
-    if "field_carried->field_strained" in transition:
-        return "kippend"
-    if state == "field_strained":
-        return "gespannt"
-    if rekopplung >= 0.62 and carry >= 0.32 and strain <= 0.22 and sensory >= 0.80 and gap <= 0.18:
-        return "stabil"
-    if rekopplung >= 0.58 and strain <= 0.28:
-        return "tragend_unruhig"
-    return "diffus"
+    return _dominant_label(
+        _effect_scores(
+            transition=transition,
+            state=state,
+            rekopplung=rekopplung,
+            carry=carry,
+            strain=strain,
+            sensory=sensory,
+            gap=gap,
+        )
+    )
 
 
 def classify_current_mcm_effect(effect: dict) -> str:
@@ -54,17 +105,16 @@ def classify_current_mcm_effect(effect: dict) -> str:
     sensory = _safe_float(effect.get("sensory_coupling"))
     gap = (_safe_float(effect.get("visual_field_gap")) + _safe_float(effect.get("hearing_field_gap"))) * 0.5
 
-    if state == "field_strained":
-        if rekopplung >= 0.58 and strain <= 0.32:
-            return "rekoppelnd"
-        return "gespannt"
-    if rekopplung >= 0.62 and carry >= 0.32 and strain <= 0.22 and sensory >= 0.80 and gap <= 0.18:
-        return "stabil"
-    if rekopplung >= 0.58 and strain <= 0.28:
-        return "tragend_unruhig"
-    if strain >= 0.28 or gap >= 0.22:
-        return "kippend"
-    return "diffus"
+    return _dominant_label(
+        _effect_scores(
+            state=state,
+            rekopplung=rekopplung,
+            carry=carry,
+            strain=strain,
+            sensory=sensory,
+            gap=gap,
+        )
+    )
 
 
 def build_passive_inner_effect_awareness(effect: dict, effect_class: str | None = None) -> dict:
@@ -77,18 +127,13 @@ def build_passive_inner_effect_awareness(effect: dict, effect_class: str | None 
     sensory = _safe_float(effect.get("sensory_coupling"))
     visual_gap = _safe_float(effect.get("visual_field_gap"))
     hearing_gap = _safe_float(effect.get("hearing_field_gap"))
-    if effect_class == "stabil":
-        awareness_state = "inner_effect_stable"
-    elif effect_class == "tragend_unruhig":
-        awareness_state = "inner_effect_carried_unrest"
-    elif effect_class == "kippend":
-        awareness_state = "inner_effect_tipping"
-    elif effect_class == "gespannt":
-        awareness_state = "inner_effect_strained"
-    elif effect_class == "rekoppelnd":
-        awareness_state = "inner_effect_recoupling"
-    else:
-        awareness_state = "inner_effect_diffuse"
+    awareness_state = {
+        "stabil": "inner_effect_stable",
+        "tragend_unruhig": "inner_effect_carried_unrest",
+        "kippend": "inner_effect_tipping",
+        "gespannt": "inner_effect_strained",
+        "rekoppelnd": "inner_effect_recoupling",
+    }.get(effect_class, "inner_effect_diffuse")
     return {
         "passive_inner_effect_awareness_state": awareness_state,
         "passive_inner_effect_class": effect_class,

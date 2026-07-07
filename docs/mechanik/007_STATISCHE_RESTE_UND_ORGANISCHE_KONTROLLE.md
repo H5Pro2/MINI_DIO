@@ -84,6 +84,65 @@ Fuehlen:
 Die jeweilige Achse wird nicht mehr durch eine harte Bedingung gesetzt.
 Die dominante innere Tendenz bestimmt die passive Praeferenz.
 
+## Zweite Bereinigung
+
+Zwei weitere Benennungsbereiche wurden von festen Grenzwert-Kaskaden auf Druckmodelle umgestellt.
+
+### MCM-Wirkungskarte
+
+Vorher:
+
+```text
+field_strained -> gespannt
+rekopplung >= X und strain <= Y -> stabil / tragend_unruhig
+bestimmter Uebergang -> rekoppelnd / kippend
+```
+
+Jetzt:
+
+```text
+rekoppelnd
+kippend
+gespannt
+stabil
+tragend_unruhig
+diffus
+
+entstehen als konkurrierende Feldwirkungsdruecke.
+Die staerkste passive Wirkung benennt die aktuelle MCM-Lage.
+```
+
+### Weltlage
+
+Vorher:
+
+```text
+zentrum >= X
+rand >= Y
+raw_field <= Z
+auditory >= A
+visual < B
+```
+
+Jetzt:
+
+```text
+ueberstabil_mit_randreiz
+ueberstabil_leise_scharf
+ueberstabil_visuell_weicher
+randlastige_sinneslage
+ruhig_zentrumsnah
+leise_scharf_duenn
+lauter_feldkontakt
+offen_suchend
+normale_weltspannung
+
+entstehen als relative Weltlage-Profile.
+Eine Weltlage wird nicht durch einen einzelnen festen Grenzwert entschieden,
+sondern durch die staerkste Kombination aus Zentrum, Rand, Rekopplung,
+Strain, Hoeren, Sehen und Rohfeld.
+```
+
 ## Noch vorhandene statische Bereiche
 
 ### Diagnose
@@ -99,14 +158,22 @@ Rand / Zentrum / Bruecke
 
 Das ist akzeptabel, solange diese Werte nur Berichte erzeugen.
 
+Auch `mini_dio/mcm_effect_map.py` enthaelt weiterhin reine Berichtswerte fuer:
+
+```text
+seltene Innenfeldzustaende
+Vergleichsaehnlichkeit zwischen Feldkarten
+Archetypen-Reife in Auswertungen
+```
+
+Diese Werte sind Diagnose und duerfen nicht als Feldsteuerung gelesen werden.
+
 ### Benennung
 
 Einige Runtime-Dateien benennen Feldrollen noch mit festen Klassifikationen.
 Diese Bereiche sind als naechste Kandidaten zu pruefen:
 
 ```text
-mini_dio/mcm_effect_map.py
-mini_dio/worldlage_classifier.py
 mini_dio/mcm_fragmentation_memory.py
 mini_dio/mcm_role_maturation_memory.py
 ```
@@ -143,4 +210,4 @@ erfahrungsgewichteter Rueckfuehrung
 
 ## Wie es weitergeht
 
-Als naechstes sollten `mcm_effect_map.py` und `worldlage_classifier.py` geprueft werden. Dort sitzen noch feste Feldrollen-Klassifikationen, die wahrscheinlich in relative Feldrollen oder druckbasierte Lesungen ueberfuehrt werden sollten.
+Als naechstes sollten `mcm_fragmentation_memory.py` und `mcm_role_maturation_memory.py` geprueft werden. Dort sitzen noch Reife- und Fragmentationslesungen, die daraufhin getrennt werden muessen: Diagnose darf feste Befundwerte nutzen, Runtime-Bedeutung soll weiter aus relativer Feldwirkung entstehen.
