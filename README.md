@@ -150,6 +150,8 @@ Eine frische 10k-Pruefung gegen BTC, DOGE, XRP und PAXG stuetzt diese Arbeitsfor
 
 Die gleiche 10k-Pruefung in 2025 bestaetigt die Entlastungsform jahresuebergreifend: 2024 zeigt aggregiert `Delta Hoeren -0.0415`, `Delta Spannung -0.0409`; 2025 zeigt `Delta Hoeren -0.0391`, `Delta Spannung -0.0394`. Besonders `dio_0ly7` bleibt nahezu identisch. Siehe [1704_ADAPTIVE_MILIEU_OEFFNUNGS_VORFORM_2025_10K.md](docs/befunde/1704_ADAPTIVE_MILIEU_OEFFNUNGS_VORFORM_2025_10K.md) und [1705_ADAPTIVE_MILIEU_OEFFNUNGS_VORFORM_JAHRESVERGLEICH.md](docs/befunde/1705_ADAPTIVE_MILIEU_OEFFNUNGS_VORFORM_JAHRESVERGLEICH.md).
 
+Eine zusaetzliche 2023-Pruefung gegen vier SOL-Regimewelten erweitert diese Lesung: Auch dort bleiben Hoeren, Spannung und Range im Treffer niedriger als im Vorfenster. Der Dreijahresvergleich 2023/2024/2025 zeigt damit eine robuste passive Oeffnungsform. Wichtig bleibt die Grenze: Das ist eine Entlastungslesung im Feld, keine Handlungsregel. Siehe [1706_ADAPTIVE_MILIEU_OEFFNUNGS_VORFORM_2023_10K.md](docs/befunde/1706_ADAPTIVE_MILIEU_OEFFNUNGS_VORFORM_2023_10K.md) und [1707_ADAPTIVE_MILIEU_OEFFNUNGS_VORFORM_DREIJAHRESVERGLEICH.md](docs/befunde/1707_ADAPTIVE_MILIEU_OEFFNUNGS_VORFORM_DREIJAHRESVERGLEICH.md).
+
 ## Hypothese Feldbewusstsein
 
 Wenn hier von Bewusstsein gesprochen wird, ist kein menschliches Ich-Bewusstsein gemeint.

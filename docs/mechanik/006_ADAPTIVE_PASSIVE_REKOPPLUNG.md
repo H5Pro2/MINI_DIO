@@ -614,6 +614,59 @@ Die Berichte:
 - [1704_ADAPTIVE_MILIEU_OEFFNUNGS_VORFORM_2025_10K.md](../befunde/1704_ADAPTIVE_MILIEU_OEFFNUNGS_VORFORM_2025_10K.md)
 - [1705_ADAPTIVE_MILIEU_OEFFNUNGS_VORFORM_JAHRESVERGLEICH.md](../befunde/1705_ADAPTIVE_MILIEU_OEFFNUNGS_VORFORM_JAHRESVERGLEICH.md)
 
+## Dreijahresvergleich
+
+Die 2023-Pruefung wurde gegen vier SOL-Regimewelten ausgefuehrt:
+
+```text
+SOL_2023_NEG_STRESS_10K
+SOL_2023_POS_EXPANSION_10K
+SOL_2023_MOD_NEG_10K
+SOL_2023_EXT_EXPANSION_10K
+```
+
+Aggregiert:
+
+```text
+2023: Delta Hoeren -0.0339, Delta Spannung -0.0352, Delta Range -0.0359
+2024: Delta Hoeren -0.0415, Delta Spannung -0.0409, Delta Range -0.0174
+2025: Delta Hoeren -0.0391, Delta Spannung -0.0394, Delta Range -0.0222
+```
+
+Familienlesung:
+
+```text
+dio_01hu:
+  bleibt in allen drei Jahren negativ
+  driftet etwas staerker als dio_0ly7
+
+dio_0ly7:
+  bleibt in allen drei Jahren negativ
+  haelt Hoeren und Spannung besonders stabil
+```
+
+Lesung:
+
+```text
+milieu_oeffnet_nach_entlastung
+  ist 2023, 2024 und 2025 sichtbar
+  zeigt keine positive Umkehr in Hoeren oder Spannung
+  wirkt deshalb nicht wie ein einzelnes Fensterartefakt
+```
+
+Grenze:
+
+```text
+negatives Delta = Zielzeichen tritt nach hoeherer Vorlast auf
+das ist eine passive Entlastungslesung
+es ist keine Handlungsregel
+```
+
+Die Berichte:
+
+- [1706_ADAPTIVE_MILIEU_OEFFNUNGS_VORFORM_2023_10K.md](../befunde/1706_ADAPTIVE_MILIEU_OEFFNUNGS_VORFORM_2023_10K.md)
+- [1707_ADAPTIVE_MILIEU_OEFFNUNGS_VORFORM_DREIJAHRESVERGLEICH.md](../befunde/1707_ADAPTIVE_MILIEU_OEFFNUNGS_VORFORM_DREIJAHRESVERGLEICH.md)
+
 ## Forschungsgrenze
 
 Aus dieser Mechanik folgt noch nicht:
