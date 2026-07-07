@@ -577,6 +577,43 @@ milieu_oeffnet_nach_entlastung
 
 Der Bericht liegt in [1703_ADAPTIVE_MILIEU_OEFFNUNGS_VORFORM_10K.md](../befunde/1703_ADAPTIVE_MILIEU_OEFFNUNGS_VORFORM_10K.md).
 
+## Jahresvergleich der Oeffnungs-Vorform
+
+Die 10k-Pruefung wurde danach mit 2025 wiederholt.
+
+Aggregiert:
+
+```text
+2024: Delta Hoeren -0.0415, Delta Spannung -0.0409
+2025: Delta Hoeren -0.0391, Delta Spannung -0.0394
+```
+
+Familiengetrennt:
+
+```text
+dio_01hu:
+  2024 Delta Hoeren -0.0302, Delta Spannung -0.0307
+  2025 Delta Hoeren -0.0246, Delta Spannung -0.0271
+
+dio_0ly7:
+  2024 Delta Hoeren -0.0500, Delta Spannung -0.0485
+  2025 Delta Hoeren -0.0500, Delta Spannung -0.0486
+```
+
+Lesung:
+
+```text
+milieu_oeffnet_nach_entlastung
+  ist in 2024 und 2025 sichtbar
+  bleibt bei dio_0ly7 nahezu identisch
+  driftet bei dio_01hu leicht, bricht aber nicht
+```
+
+Die Berichte:
+
+- [1704_ADAPTIVE_MILIEU_OEFFNUNGS_VORFORM_2025_10K.md](../befunde/1704_ADAPTIVE_MILIEU_OEFFNUNGS_VORFORM_2025_10K.md)
+- [1705_ADAPTIVE_MILIEU_OEFFNUNGS_VORFORM_JAHRESVERGLEICH.md](../befunde/1705_ADAPTIVE_MILIEU_OEFFNUNGS_VORFORM_JAHRESVERGLEICH.md)
+
 ## Forschungsgrenze
 
 Aus dieser Mechanik folgt noch nicht:

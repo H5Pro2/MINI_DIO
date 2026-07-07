@@ -148,6 +148,8 @@ Die Rohweltfenster dieser beiden Kandidaten zeigen eine erste moegliche Oeffnung
 
 Eine frische 10k-Pruefung gegen BTC, DOGE, XRP und PAXG stuetzt diese Arbeitsform weiter: Ueber 304 Vorkommen der Ziel-Familien bleibt der Unterschied negativ. Vor dem Zielzeichen sind Hoeren-Gap und Feldspannung hoeher, im Zielzeichen fallen beide ab. Damit wirkt `milieu_oeffnet_nach_entlastung` nicht nur wie ein 5000er-Split-Effekt, sondern wie eine stabilere passive Feldbewegung. Siehe [1703_ADAPTIVE_MILIEU_OEFFNUNGS_VORFORM_10K.md](docs/befunde/1703_ADAPTIVE_MILIEU_OEFFNUNGS_VORFORM_10K.md).
 
+Die gleiche 10k-Pruefung in 2025 bestaetigt die Entlastungsform jahresuebergreifend: 2024 zeigt aggregiert `Delta Hoeren -0.0415`, `Delta Spannung -0.0409`; 2025 zeigt `Delta Hoeren -0.0391`, `Delta Spannung -0.0394`. Besonders `dio_0ly7` bleibt nahezu identisch. Siehe [1704_ADAPTIVE_MILIEU_OEFFNUNGS_VORFORM_2025_10K.md](docs/befunde/1704_ADAPTIVE_MILIEU_OEFFNUNGS_VORFORM_2025_10K.md) und [1705_ADAPTIVE_MILIEU_OEFFNUNGS_VORFORM_JAHRESVERGLEICH.md](docs/befunde/1705_ADAPTIVE_MILIEU_OEFFNUNGS_VORFORM_JAHRESVERGLEICH.md).
+
 ## Hypothese Feldbewusstsein
 
 Wenn hier von Bewusstsein gesprochen wird, ist kein menschliches Ich-Bewusstsein gemeint.
