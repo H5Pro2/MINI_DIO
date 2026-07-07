@@ -1,0 +1,4 @@
+family,windows,pre_range,pre_hearing,pre_tension,open_range,open_hearing,open_tension,range_delta_open_minus_pre,hearing_delta_open_minus_pre,tension_delta_open_minus_pre
+ALLE,5,0.110046,0.095840,0.099460,0.097423,0.055577,0.059359,-0.012623,-0.040263,-0.040101
+dio_01hu,2,0.123798,0.098231,0.100477,0.101994,0.070672,0.072410,-0.021804,-0.027559,-0.028068
+dio_0ly7,3,0.100878,0.094246,0.098782,0.094376,0.045514,0.050659,-0.006502,-0.048732,-0.048123

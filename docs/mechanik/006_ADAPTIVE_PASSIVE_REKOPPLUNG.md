@@ -484,6 +484,55 @@ Es trennt robuste Kandidaten von nur lokalen Drittperioden-Erscheinungen.
 
 Der Befund liegt in [1700_ADAPTIVE_MILIEU_ZIELFAMILIEN_ASSET_GEGENPROBE.md](../befunde/1700_ADAPTIVE_MILIEU_ZIELFAMILIEN_ASSET_GEGENPROBE.md).
 
+## Oeffnungs-Vorform
+
+`dio_0ly7` und `dio_01hu` wurden in ihren Asset-Folgefenstern tiefer gelesen.
+
+Aggregiert ueber fuenf Treffer:
+
+```text
+Vorfenster:
+  Range      0.1100
+  Hoeren     0.0958
+  Spannung   0.0995
+
+Oeffnungsfamilie:
+  Range      0.0974
+  Hoeren     0.0556
+  Spannung   0.0594
+```
+
+Damit faellt in der Oeffnungsfamilie vor allem Hoeren-Gap und Feldspannung ab.
+
+Vorlaeufige Arbeitslesung:
+
+```text
+milieu_oeffnet_nach_entlastung
+```
+
+Gemeint ist:
+
+```text
+moderate Vorlast
+  -> geringerer Hoer-Gap
+  -> geringere Feldspannung
+  -> gleiche Familienbewegung in mehreren Welten
+```
+
+Das spricht eher fuer eine Rekopplungs-/Entlastungsbewegung als fuer ein reines Stress- oder Rangeereignis.
+
+Grenze:
+
+```text
+Die Stichprobe ist klein.
+Die Kandidaten sind robust, aber noch keine feste Bedeutungsdefinition.
+```
+
+Die Berichte:
+
+- [1701_ADAPTIVE_MILIEU_ZIELFAMILIEN_ROHWELTFENSTER.md](../befunde/1701_ADAPTIVE_MILIEU_ZIELFAMILIEN_ROHWELTFENSTER.md)
+- [1702_ADAPTIVE_MILIEU_OEFFNUNGS_VORFORM.md](../befunde/1702_ADAPTIVE_MILIEU_OEFFNUNGS_VORFORM.md)
+
 ## Forschungsgrenze
 
 Aus dieser Mechanik folgt noch nicht:

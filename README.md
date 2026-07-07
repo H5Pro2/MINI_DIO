@@ -144,6 +144,8 @@ Die Rohwelt-Lupe der naechsten Pruefung trennt diese Treffer weiter: Ein Teil wi
 
 Eine Gegenprobe gegen BTC, DOGE, XRP und PAXG zeigt danach: Drei der fuenf `milieu_umlagert_nahe`-Zielzeilen erscheinen auch in anderen Assetfenstern mit gleicher Familie und gleicher Wechselrichtung. Besonders `dio_0ly7` und `dio_01hu` werden dadurch zu robusteren Kandidaten fuer innere Milieu-Bewegung. Siehe [1698_ADAPTIVE_MILIEU_TARGET_ASSET_FAMILIENSCHICHTEN.md](docs/befunde/1698_ADAPTIVE_MILIEU_TARGET_ASSET_FAMILIENSCHICHTEN.md), [1699_ADAPTIVE_MILIEU_TARGET_ASSET_RELATIONSWECHSEL.md](docs/befunde/1699_ADAPTIVE_MILIEU_TARGET_ASSET_RELATIONSWECHSEL.md) und [1700_ADAPTIVE_MILIEU_ZIELFAMILIEN_ASSET_GEGENPROBE.md](docs/befunde/1700_ADAPTIVE_MILIEU_ZIELFAMILIEN_ASSET_GEGENPROBE.md).
 
+Die Rohweltfenster dieser beiden Kandidaten zeigen eine erste moegliche Oeffnungs-Vorform: Vor der erneuten Oeffnung liegen Hoeren-Gap und Feldspannung moderat hoeher, in der Oeffnungsfamilie selbst fallen beide ab. Vorlaeufig wird das als `milieu_oeffnet_nach_entlastung` gelesen. Siehe [1701_ADAPTIVE_MILIEU_ZIELFAMILIEN_ROHWELTFENSTER.md](docs/befunde/1701_ADAPTIVE_MILIEU_ZIELFAMILIEN_ROHWELTFENSTER.md) und [1702_ADAPTIVE_MILIEU_OEFFNUNGS_VORFORM.md](docs/befunde/1702_ADAPTIVE_MILIEU_OEFFNUNGS_VORFORM.md).
+
 ## Hypothese Feldbewusstsein
 
 Wenn hier von Bewusstsein gesprochen wird, ist kein menschliches Ich-Bewusstsein gemeint.
