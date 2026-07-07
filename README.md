@@ -140,6 +140,8 @@ Die anschliessende Familienverfolgung isoliert 111 Faelle, in denen dieselbe Fam
 
 Eine Drittperiodenpruefung gegen 2023 bestaetigt diese Linie teilweise: Von 111 Wiederkehr-Kandidaten aus 2024/2025 erscheinen 55 mit gleicher Familie und gleicher Wechselrichtung erneut. Die Treffer verteilen sich auf `offen_und_gereift -> nur_gereift` und `nur_gereift -> offen_und_gereift`. Das ist kein Ursachebeweis, aber ein staerkerer Hinweis auf wiederkehrende Familien-/Milieu-Bewegung als eine reine Gesamtverteilung. Siehe [1693_ADAPTIVE_MILIEU_FAMILIENSCHICHTEN_2023.md](docs/befunde/1693_ADAPTIVE_MILIEU_FAMILIENSCHICHTEN_2023.md), [1694_ADAPTIVE_MILIEU_RELATIONSWECHSEL_ROHWELT_2023.md](docs/befunde/1694_ADAPTIVE_MILIEU_RELATIONSWECHSEL_ROHWELT_2023.md) und [1695_ADAPTIVE_MILIEU_DRITTPERIODE_TREFFER.md](docs/befunde/1695_ADAPTIVE_MILIEU_DRITTPERIODE_TREFFER.md).
 
+Die Rohwelt-Lupe der naechsten Pruefung trennt diese Treffer weiter: Ein Teil wirkt wie `milieu_umlagert_nahe`, also gleiche Familienbewegung bei relativ naher Hoer- und Spannungsumgebung. Andere Treffer sind eher rangegetrieben oder hoerprofilbedingt. Damit wird die naechste Forschungsfrage praeziser: Welche Familien bewegen sich innerfeldnah, und welche werden durch klare Weltveraenderung umgefaerbt? Siehe [1696_ADAPTIVE_MILIEU_DRITTPERIODE_ROHWELT_LUPE.md](docs/befunde/1696_ADAPTIVE_MILIEU_DRITTPERIODE_ROHWELT_LUPE.md) und [1697_ADAPTIVE_MILIEU_LUPENPROFILE.md](docs/befunde/1697_ADAPTIVE_MILIEU_LUPENPROFILE.md).
+
 ## Hypothese Feldbewusstsein
 
 Wenn hier von Bewusstsein gesprochen wird, ist kein menschliches Ich-Bewusstsein gemeint.

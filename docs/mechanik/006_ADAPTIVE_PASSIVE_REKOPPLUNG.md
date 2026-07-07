@@ -414,6 +414,44 @@ Die wichtigsten Berichte:
 - [1694_ADAPTIVE_MILIEU_RELATIONSWECHSEL_ROHWELT_2023.md](../befunde/1694_ADAPTIVE_MILIEU_RELATIONSWECHSEL_ROHWELT_2023.md)
 - [1695_ADAPTIVE_MILIEU_DRITTPERIODE_TREFFER.md](../befunde/1695_ADAPTIVE_MILIEU_DRITTPERIODE_TREFFER.md)
 
+## Rohwelt-Lupe der Treffer
+
+Die rohweltnaechsten Treffer aus 1695 wurden anschliessend in ihren Episodenabschnitten gelesen.
+
+Die Top-20-Treffer teilen sich relativ zum eigenen Datensatz in:
+
+```text
+rangegetriebene_umgebung  9
+hoerprofil_entlastet      5
+milieu_umlagert_nahe      5
+hoerprofil_springt_hoch   1
+```
+
+Die wichtigste Arbeitsklasse ist `milieu_umlagert_nahe`.
+
+Lesung:
+
+```text
+Familie und Wechselrichtung wiederholen sich.
+Vorfenster und Folgephase bleiben in Hoeren und Spannung relativ nah.
+Die Milieuschicht verschiebt sich, ohne dass ein komplett neuer Rohreiz sichtbar sein muss.
+```
+
+Das trennt zwei weitere Prueffragen:
+
+```text
+Innerfeldnahe Umlagerung:
+  aehnliche Welt-/Feldlage, andere Milieuschicht.
+
+Weltgetriebene Umfaerbung:
+  Range, Hoeren oder Feldspannung veraendern die Familienlage sichtbar.
+```
+
+Die Berichte:
+
+- [1696_ADAPTIVE_MILIEU_DRITTPERIODE_ROHWELT_LUPE.md](../befunde/1696_ADAPTIVE_MILIEU_DRITTPERIODE_ROHWELT_LUPE.md)
+- [1697_ADAPTIVE_MILIEU_LUPENPROFILE.md](../befunde/1697_ADAPTIVE_MILIEU_LUPENPROFILE.md)
+
 ## Forschungsgrenze
 
 Aus dieser Mechanik folgt noch nicht:
