@@ -98,6 +98,35 @@ adaptive_rekopplung_angehoben 689
 
 Das ist noch kein abschliessender Befund. Es zeigt aber, dass die adaptive Rekopplung technisch greift und nicht nur als leerer Platzhalter geschrieben wird.
 
+## Erster Mehrwelt-Befund
+
+Eine erste Mehrweltpruefung ueber BTC, DOGE, XRP, Seitwaerts, Stress und Expansion zeigte:
+
+```text
+Adaptive Rekopplung ist in allen Welten aktiv.
+Die Anhebung gegenueber der statischen Referenz ist aber noch relativ gleichfoermig.
+```
+
+Das bedeutet:
+
+```text
+Die Rueckfuehrung ist lernbar gemacht.
+Die Feinselektion nach Symbolfamilie und Weltmilieu muss noch staerker untersucht werden.
+```
+
+Der zugehoerige Befund liegt in [1680_ADAPTIVE_REKOPPLUNG_MEHRWELT_ACHSENREPORT.md](../befunde/1680_ADAPTIVE_REKOPPLUNG_MEHRWELT_ACHSENREPORT.md).
+
+Die Gewichtsstreuung war in dieser ersten Pruefung noch sehr gering:
+
+```text
+carry         Spanne 0.0022
+alignment     Spanne 0.0006
+strain_relief Spanne 0.0016
+sensory       Spanne 0.0007
+```
+
+Das ist fachlich wichtig: Die Schicht funktioniert, aber sie differenziert noch nicht ausreichend nach Feldrolle.
+
 ## Forschungsgrenze
 
 Aus dieser Mechanik folgt noch nicht:

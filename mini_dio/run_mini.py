@@ -399,6 +399,10 @@ def run_once(
     mcm_rekopplung_quality_values = []
     mcm_adaptive_rekopplung_quality_values = []
     mcm_adaptive_rekopplung_experience_values = []
+    mcm_adaptive_weight_carry_values = []
+    mcm_adaptive_weight_alignment_values = []
+    mcm_adaptive_weight_strain_relief_values = []
+    mcm_adaptive_weight_sensory_values = []
     adaptive_rekopplung_counter = {}
     sensory_coupling_values = []
     symbol_counter = {}
@@ -596,6 +600,10 @@ def run_once(
         mcm_rekopplung_quality_values.append(float(mcm_field_effect["mcm_rekopplung_quality"]))
         mcm_adaptive_rekopplung_quality_values.append(float(mcm_field_effect["mcm_adaptive_rekopplung_quality"]))
         mcm_adaptive_rekopplung_experience_values.append(float(mcm_field_effect["mcm_adaptive_rekopplung_experience"]))
+        mcm_adaptive_weight_carry_values.append(float(mcm_field_effect["mcm_adaptive_weight_carry"]))
+        mcm_adaptive_weight_alignment_values.append(float(mcm_field_effect["mcm_adaptive_weight_alignment"]))
+        mcm_adaptive_weight_strain_relief_values.append(float(mcm_field_effect["mcm_adaptive_weight_strain_relief"]))
+        mcm_adaptive_weight_sensory_values.append(float(mcm_field_effect["mcm_adaptive_weight_sensory"]))
         sensory_coupling_values.append(float(mcm_field_effect["sensory_coupling"]))
         episode_payload = episode_tracker.step(index, symbol_family, mcm_field_effect)
         episode_memory_symbol = "-"
@@ -886,6 +894,14 @@ def run_once(
         "max_mcm_adaptive_rekopplung_experience": max(mcm_adaptive_rekopplung_experience_values)
         if mcm_adaptive_rekopplung_experience_values
         else 0.0,
+        "avg_mcm_adaptive_weight_carry": sum(mcm_adaptive_weight_carry_values)
+        / max(1, len(mcm_adaptive_weight_carry_values)),
+        "avg_mcm_adaptive_weight_alignment": sum(mcm_adaptive_weight_alignment_values)
+        / max(1, len(mcm_adaptive_weight_alignment_values)),
+        "avg_mcm_adaptive_weight_strain_relief": sum(mcm_adaptive_weight_strain_relief_values)
+        / max(1, len(mcm_adaptive_weight_strain_relief_values)),
+        "avg_mcm_adaptive_weight_sensory": sum(mcm_adaptive_weight_sensory_values)
+        / max(1, len(mcm_adaptive_weight_sensory_values)),
         "avg_mcm_sensory_coupling": sum(sensory_coupling_values) / max(1, len(sensory_coupling_values)),
         "max_mcm_sensory_coupling": max(sensory_coupling_values) if sensory_coupling_values else 0.0,
         "mini_neuro_tones": dict(sorted(neuro_tone_counter.items())),

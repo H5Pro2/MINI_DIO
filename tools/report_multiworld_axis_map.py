@@ -173,6 +173,12 @@ def _row_from_summary(summary: dict, group: str) -> dict[str, object]:
         "field_carried": _int(states.get("field_carried")),
         "field_strained": _int(states.get("field_strained")),
         "rekopplung": _metric(summary, "avg_mcm_rekopplung_quality"),
+        "adaptive_rekopplung": _metric(summary, "avg_mcm_adaptive_rekopplung_quality"),
+        "adaptive_rekopplung_experience": _metric(summary, "avg_mcm_adaptive_rekopplung_experience"),
+        "adaptive_weight_carry": _metric(summary, "avg_mcm_adaptive_weight_carry"),
+        "adaptive_weight_alignment": _metric(summary, "avg_mcm_adaptive_weight_alignment"),
+        "adaptive_weight_strain_relief": _metric(summary, "avg_mcm_adaptive_weight_strain_relief"),
+        "adaptive_weight_sensory": _metric(summary, "avg_mcm_adaptive_weight_sensory"),
         "carry": _metric(summary, "avg_mcm_carry_quality"),
         "strain": _metric(summary, "avg_mcm_strain_quality"),
         "sensory": _metric(summary, "avg_mcm_sensory_coupling"),
@@ -180,6 +186,7 @@ def _row_from_summary(summary: dict, group: str) -> dict[str, object]:
         "neuro_load": _metric(summary, "avg_mini_neuro_load"),
         "neuro_balance": _metric(summary, "avg_mini_neuro_balance"),
     }
+    row["adaptive_rekopplung_delta"] = _float(row["adaptive_rekopplung"]) - _float(row["rekopplung"])
     row["rollenbreite_klasse"] = _classify_width(role_count, combo_count)
     row["achsenklasse"] = _classify_axis(row)
     return row
@@ -256,6 +263,13 @@ def _write_csv(rows: list[dict[str, object]], path: Path) -> None:
         "field_carried",
         "field_strained",
         "rekopplung",
+        "adaptive_rekopplung",
+        "adaptive_rekopplung_delta",
+        "adaptive_rekopplung_experience",
+        "adaptive_weight_carry",
+        "adaptive_weight_alignment",
+        "adaptive_weight_strain_relief",
+        "adaptive_weight_sensory",
         "carry",
         "strain",
         "sensory",
@@ -277,6 +291,25 @@ def _write_markdown(rows: list[dict[str, object]], path: Path, csv_path: Path) -
     for row in rows:
         key = str(row.get("achsenklasse", "-"))
         class_counts[key] = class_counts.get(key, 0) + 1
+    adaptive_deltas = [_float(row.get("adaptive_rekopplung_delta")) for row in rows]
+    adaptive_experience = [_float(row.get("adaptive_rekopplung_experience")) for row in rows]
+    adaptive_weights = {
+        "carry": [_float(row.get("adaptive_weight_carry")) for row in rows],
+        "alignment": [_float(row.get("adaptive_weight_alignment")) for row in rows],
+        "strain_relief": [_float(row.get("adaptive_weight_strain_relief")) for row in rows],
+        "sensory": [_float(row.get("adaptive_weight_sensory")) for row in rows],
+    }
+    weight_spreads = {
+        key: (max(values) - min(values)) if values else 0.0
+        for key, values in adaptive_weights.items()
+    }
+    max_weight_spread = max(weight_spreads.values()) if weight_spreads else 0.0
+    if adaptive_deltas and max_weight_spread <= 0.01:
+        adaptive_reading = "adaptive_rekopplung_aktiv_aber_gewichte_noch_gleichfoermig"
+    elif adaptive_deltas:
+        adaptive_reading = "adaptive_rekopplung_aktiv_und_gewichte_differenzieren"
+    else:
+        adaptive_reading = "adaptive_rekopplung_nicht_gelesen"
     lines = [
         "# Automatisierter Mehrwelt-Achsenreport",
         "",
@@ -299,8 +332,8 @@ def _write_markdown(rows: list[dict[str, object]], path: Path, csv_path: Path) -
         "",
         "## Achsentabelle",
         "",
-        "| Label | Welt | Achsenklasse | Breite | Rollen | Kombis | Cross | Same | Rekopplung | Nachhall | Stabil | Unruhig | Kippend | Gespannt |",
-        "|---|---|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|",
+        "| Label | Welt | Achsenklasse | Breite | Rollen | Kombis | Cross | Same | Rekopplung | Adaptiv | Delta | Erfahrung | Nachhall | Stabil | Unruhig | Kippend | Gespannt |",
+        "|---|---|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|",
     ]
     for row in rows:
         lines.append(
@@ -316,6 +349,9 @@ def _write_markdown(rows: list[dict[str, object]], path: Path, csv_path: Path) -
                     str(row["cross_state"]),
                     str(row["same_state"]),
                     _fmt(row["rekopplung"]),
+                    _fmt(row["adaptive_rekopplung"]),
+                    _fmt(row["adaptive_rekopplung_delta"]),
+                    _fmt(row["adaptive_rekopplung_experience"]),
                     _fmt(row["nachhall"]),
                     str(row["stabil"]),
                     str(row["tragend_unruhig"]),
@@ -331,6 +367,23 @@ def _write_markdown(rows: list[dict[str, object]], path: Path, csv_path: Path) -
     lines.extend(
         [
             "",
+            "## Adaptive Rekopplung",
+            "",
+            f"Lesung: `{adaptive_reading}`",
+            "",
+            "| Messung | Minimum | Maximum | Spanne |",
+            "|---|---:|---:|---:|",
+            f"| Delta adaptiv-statisch | {_fmt(min(adaptive_deltas) if adaptive_deltas else 0.0)} | {_fmt(max(adaptive_deltas) if adaptive_deltas else 0.0)} | {_fmt((max(adaptive_deltas) - min(adaptive_deltas)) if adaptive_deltas else 0.0)} |",
+            f"| Erfahrung | {_fmt(min(adaptive_experience) if adaptive_experience else 0.0)} | {_fmt(max(adaptive_experience) if adaptive_experience else 0.0)} | {_fmt((max(adaptive_experience) - min(adaptive_experience)) if adaptive_experience else 0.0)} |",
+        ]
+    )
+    for key, values in adaptive_weights.items():
+        lines.append(
+            f"| Gewicht {key} | {_fmt(min(values) if values else 0.0)} | {_fmt(max(values) if values else 0.0)} | {_fmt(weight_spreads.get(key, 0.0))} |"
+        )
+    lines.extend(
+        [
+            "",
             "## Befund",
             "",
             "Der Report macht sichtbar, ob eine Weltphase kompakt gebunden, verteilt offen, verteilt rekoppelnd, nachhallend kompakt oder rand-/kippnah wirkt.",
@@ -343,6 +396,10 @@ def _write_markdown(rows: list[dict[str, object]], path: Path, csv_path: Path) -
             "Topologie allein reicht nicht.",
             "Erst die gemeinsame Achsenlage beschreibt das Feldmilieu.",
             "```",
+            "",
+            "Die adaptive Rekopplung wird als passive Zusatzlesung ausgewiesen. Sie zeigt, ob Erfahrung die Rueckfuehrung gegenueber der statischen Referenz anhebt, daempft oder nahe am Grundwert haelt.",
+            "",
+            "Wenn die adaptiven Gewichte nur sehr wenig streuen, ist die Schicht technisch aktiv, aber noch nicht stark welt- oder familienselektiv. Dann liegt die naechste Arbeit nicht in mehr Daten, sondern in genauerer Erfahrungskopplung pro Feldrolle.",
             "",
             "## Grenze",
             "",

@@ -120,6 +120,8 @@ Eine echte 5000er-Halbfensterpruefung bestaetigt diesen Befund ohne Selbstgegenp
 
 Die gleiche Halbfensterlogik fuer XRP und PAXG erweitert den Befund: Auch diese beiden 2024-5m-Assets werden bei laengerer Lesetiefe `rand_kippnah`. Die Binnenqualitaet bleibt jedoch verschieden: XRP wirkt unruhiger und kippnaeher, PAXG stabiler und same-state-lastiger. Siehe [1679_XRP_PAXG_5000_HALBFENSTER_ACHSENREPORT.md](docs/befunde/1679_XRP_PAXG_5000_HALBFENSTER_ACHSENREPORT.md).
 
+Eine erste Mehrweltpruefung der adaptiven Rekopplung zeigt: Die neue passive Schicht greift technisch, hebt die Rueckfuehrung aber noch relativ gleichfoermig an. Die naechste Frage ist deshalb nicht, ob adaptive Rekopplung existiert, sondern ob sie pro Symbolfamilie und Weltmilieu selektiver werden kann. Siehe [1680_ADAPTIVE_REKOPPLUNG_MEHRWELT_ACHSENREPORT.md](docs/befunde/1680_ADAPTIVE_REKOPPLUNG_MEHRWELT_ACHSENREPORT.md).
+
 ## Hypothese Feldbewusstsein
 
 Wenn hier von Bewusstsein gesprochen wird, ist kein menschliches Ich-Bewusstsein gemeint.
