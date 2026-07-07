@@ -154,6 +154,8 @@ Eine zusaetzliche 2023-Pruefung gegen vier SOL-Regimewelten erweitert diese Lesu
 
 Die synthetische Gegenpruefung bricht diese Entlastungsform bewusst auf: In vier kuenstlichen Rand-/Bruch-/Permutationswelten kippen Hoeren und Spannung aggregiert positiv. Damit wird die reale Dreijahresform nicht automatisch ueberall reproduziert. Das ist wichtig: Die Form wirkt weltabhaengig und struktursensitiv, nicht wie eine fest eingebaute Ausgabeschablone. Siehe [1708_ADAPTIVE_MILIEU_OEFFNUNGS_VORFORM_SYNTHETISCHE_KONTROLLWELTEN.md](docs/befunde/1708_ADAPTIVE_MILIEU_OEFFNUNGS_VORFORM_SYNTHETISCHE_KONTROLLWELTEN.md).
 
+Die Bruchklassifikation zeigt den Unterschied genauer: `dio_0ly7` bleibt in den synthetischen Welten sichtbar, aber die reale Entlastungsrichtung kehrt sich dort in `bruch_mit_range_aufweitung` um. Das Feldzeichen verschwindet also nicht; seine Wirkung kippt unter anderer Weltstruktur. Siehe [1709_ADAPTIVE_MILIEU_SYNTHETISCHE_BRUCHKLASSEN.md](docs/befunde/1709_ADAPTIVE_MILIEU_SYNTHETISCHE_BRUCHKLASSEN.md).
+
 ## Hypothese Feldbewusstsein
 
 Wenn hier von Bewusstsein gesprochen wird, ist kein menschliches Ich-Bewusstsein gemeint.

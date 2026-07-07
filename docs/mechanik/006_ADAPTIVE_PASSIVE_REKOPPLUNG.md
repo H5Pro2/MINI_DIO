@@ -717,6 +717,43 @@ Es zeigt aber, dass die Feldform nicht nur als festes Ausgabemuster erscheint.
 
 Der Bericht liegt in [1708_ADAPTIVE_MILIEU_OEFFNUNGS_VORFORM_SYNTHETISCHE_KONTROLLWELTEN.md](../befunde/1708_ADAPTIVE_MILIEU_OEFFNUNGS_VORFORM_SYNTHETISCHE_KONTROLLWELTEN.md).
 
+## Bruchklasse der synthetischen Welten
+
+Die synthetische Gegenprobe wurde anschliessend nach Stoerform klassifiziert.
+
+Ergebnis:
+
+```text
+dio_0ly7:
+  SYN_RAND_DOMINANZ_A       -> bruch_mit_range_aufweitung
+  SYN_BRUCH_RAND_A          -> bruch_mit_range_aufweitung
+  SYN_REKOPPLUNG_VOR_RAND   -> bruch_mit_range_aufweitung
+  SYN_STARK_PERMUTIERT      -> bruch_mit_range_aufweitung
+
+dio_01hu:
+  in dieser Gegenprobe zu duenn
+```
+
+Lesung:
+
+```text
+dio_0ly7 verschwindet nicht
+aber seine reale Entlastungsrichtung kippt
+synthetisch wird daraus Lastanstieg mit Range-Aufweitung
+```
+
+Damit wird die Form fachlich interessanter:
+
+```text
+reale Welten:
+  dio_0ly7 = Oeffnung nach Vorlast
+
+synthetische Rand-/Bruchwelten:
+  dio_0ly7 = Bruch mit Range-Aufweitung
+```
+
+Der Bericht liegt in [1709_ADAPTIVE_MILIEU_SYNTHETISCHE_BRUCHKLASSEN.md](../befunde/1709_ADAPTIVE_MILIEU_SYNTHETISCHE_BRUCHKLASSEN.md).
+
 ## Forschungsgrenze
 
 Aus dieser Mechanik folgt noch nicht:
