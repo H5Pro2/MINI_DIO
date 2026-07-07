@@ -218,6 +218,38 @@ offene Varianz
 
 Der Befund liegt in [1684_ADAPTIVE_MILIEU_LANGFENSTER_VERGLEICH.md](../befunde/1684_ADAPTIVE_MILIEU_LANGFENSTER_VERGLEICH.md).
 
+## Familienlagen-Befund
+
+Eine weitere Pruefung trennt die Milieus nicht nur nach Tick-Anteilen, sondern nach Symbolfamilien.
+
+Die Grundfrage war:
+
+```text
+Ist `milieu_offen` eine getrennte Schicht oder ein Vorraum gereifter Familien?
+```
+
+Der Befund ueber DOGE, XRP, PAXG und Stress:
+
+```text
+DOGE   226 von 621 Familien beruehren offen und gereift
+XRP    256 von 700 Familien beruehren offen und gereift
+PAXG   197 von 496 Familien beruehren offen und gereift
+Stress 114 von 411 Familien beruehren offen und gereift
+```
+
+Damit ist Offenheit nicht einfach ein unreifer Restbereich. Ein relevanter Teil der Familien taucht sowohl offen als auch gereift auf. Besonders PAXG zeigt eine hohe Familienueberlappung, waehrend die Stresswelt staerker trennt.
+
+Fachlich wird `milieu_offen` deshalb vorerst so gelesen:
+
+```text
+offene Varianzschicht
+  -> kann getrennt bleiben
+  -> kann dieselbe Familie spaeter gereift beruehren
+  -> ist nicht automatisch Fehler, Rauschen oder fehlende Reifung
+```
+
+Der Befund liegt in [1685_ADAPTIVE_MILIEU_FAMILIENSCHICHTEN.md](../befunde/1685_ADAPTIVE_MILIEU_FAMILIENSCHICHTEN.md).
+
 ## Forschungsgrenze
 
 Aus dieser Mechanik folgt noch nicht:
@@ -236,4 +268,4 @@ MINI_DIO kann passive Rueckfuehrung erfahrungsgewichtet sichtbar machen.
 
 ## Wie es weitergeht
 
-Als naechstes wird geprueft, ob offene Milieus in spaeteren Segmenten dieselben Familien tragen oder ob sie als wechselnde Varianzschicht ueber stabilen Rollenfamilien liegen.
+Als naechstes wird geprueft, ob diese offenen Familienlagen ueber Folgewelten stabil bleiben, in gereifte Milieus uebergehen oder als eigenstaendige Varianzschicht weiterdriften.
