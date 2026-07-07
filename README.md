@@ -180,6 +180,8 @@ Diese Lupe ist jetzt als passives Werkzeug vorhanden: `tools/report_relative_ran
 
 Eine erweiterte Mehrwelt-Lupe gegen ruhige SOL-/BTC-Fenster, stressige SOL-/BTC-Fenster und zwei synthetische Randwelten bestaetigt diese Schichtung. Reale Welten bleiben im lokalen Randdruck eng beieinander, synthetische Randwelten zeigen hoeheren Randdruck und staerkere Rekopplung. Damit wirkt Rand nicht als einfache Klasse, sondern als lokaler Druckraum innerhalb einer global oft zentrumsnahen Feldordnung. Siehe [1722_RELATIVE_RANDDRUCK_LUPE_MEHRWELT.md](docs/befunde/1722_RELATIVE_RANDDRUCK_LUPE_MEHRWELT.md) und [relative_rand_pressure_loupe_probe2.md](reports/relative_rand_pressure_loupe_probe2.md).
 
+Eine erste Repro-Pruefung mit frischer Memory bestaetigt fuer SOL-Stress und die synthetische Rekopplungs-Randwelt dieselben Randdruckprofile und dieselben Spitzenbereiche. Das staerkt die Randdruck-Lupe methodisch, bleibt aber bewusst auf diese geprueften Welten begrenzt. Siehe [relative_rand_pressure_repro.md](reports/relative_rand_pressure_repro.md).
+
 ## Hypothese Feldbewusstsein
 
 Wenn hier von Bewusstsein gesprochen wird, ist kein menschliches Ich-Bewusstsein gemeint.

@@ -103,9 +103,42 @@ Das ist fuer die weitere Forschung zentral, weil MINI_DIO dadurch nicht nur
 fragt, welche Rolle dominiert, sondern wo innerhalb einer stabilen Rolle
 lokaler Druck entsteht.
 
+## Reproduzierbarkeit mit frischer Memory
+
+Zwei Kontrollfaelle wurden mit frischer Memory erneut ausgefuehrt:
+
+- SOL Stress 4000,
+- synthetische Rekopplungs-Randwelt 8000.
+
+Der Repro-Bericht liegt unter:
+
+```text
+reports/relative_rand_pressure_repro.md
+```
+
+Die Kurzprofile waren identisch:
+
+| Welt | Episoden | Randdruck | Offen | Rekopplung | Daempfung |
+|---|---:|---:|---:|---:|---:|
+| SOL Stress 4000 Erstlauf | 3994 | 0.4044 | 0.1547 | 0.3082 | 0.1327 |
+| SOL Stress 4000 Repro | 3994 | 0.4044 | 0.1547 | 0.3082 | 0.1327 |
+| Synth Rekopplung 8000 Erstlauf | 7994 | 0.4400 | 0.0962 | 0.4067 | 0.0572 |
+| Synth Rekopplung 8000 Repro | 7994 | 0.4400 | 0.0962 | 0.4067 | 0.0572 |
+
+Auch die Randdruck-Spitzen erschienen an denselben Ticks.
+
+Das bedeutet vorsichtig:
+
+```text
+Die lokale Randdruck-Lesung ist in diesen geprueften Welten reproduzierbar.
+Sie ist nicht nur eine nachtraegliche Einzelinterpretation eines einmaligen Laufs.
+```
+
+Die Aussage bleibt begrenzt auf diese Welten und diese Diagnose.
+Sie beweist keine allgemeine Topologie, aber sie staerkt die Methode.
+
 ## Wie es weitergeht
 
-Als naechstes sollte die Lupe ueber dieselben Welten mit mehreren
-Memory-Neustarts laufen. Entscheidend ist, ob die lokalen Randdruck-Spitzen
-bei aehnlichen Weltstellen wieder auftauchen oder ob nur die Gesamtprofile
-stabil bleiben.
+Als naechstes sollte die Lupe gegen ein anderes Asset und gegen laengere
+Folgewelten laufen. Entscheidend ist, ob Randdruck dort neue lokale
+Druckinseln bildet oder ob dieselben Rekopplungsmuster erneut dominieren.
