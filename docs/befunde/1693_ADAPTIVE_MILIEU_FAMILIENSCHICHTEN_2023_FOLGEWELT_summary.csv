@@ -1,0 +1,5 @@
+world,ticks,families,shared_families,open_only_families,mature_only_families,shared_family_ratio,open_ticks,mature_ticks,untrained_ticks,open_tick_ratio,mature_tick_ratio
+NEG_STRESS_2023_FOLLOW,4994,484,174,71,239,0.359504,2105,2885,4,0.421506,0.577693
+EXPANSION_2023_FOLLOW,4994,512,188,67,257,0.367188,2258,2732,4,0.452143,0.547056
+MOD_NEG_2023_FOLLOW,4994,510,189,68,252,0.370588,2144,2844,6,0.429315,0.569483
+ALTSEQ_2023_FOLLOW,4994,524,173,92,259,0.330153,1968,3024,2,0.394073,0.605527

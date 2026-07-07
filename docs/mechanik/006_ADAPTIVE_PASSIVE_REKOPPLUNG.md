@@ -376,6 +376,44 @@ Rohweltnaehe muss weiter geprueft werden.
 
 Der Befund liegt in [1692_ADAPTIVE_MILIEU_WIEDERKEHRFAMILIEN_2024_2025.md](../befunde/1692_ADAPTIVE_MILIEU_WIEDERKEHRFAMILIEN_2024_2025.md).
 
+## Drittperiodenpruefung
+
+Die 2024/2025-Kandidaten wurden danach gegen eine dritte Periode gelesen.
+
+Geprueft wurden vier 2023-Welten:
+
+```text
+NEG_STRESS_2023
+EXPANSION_2023
+MOD_NEG_2023
+ALTSEQ_2023
+```
+
+Die Relationswechsel bleiben sichtbar:
+
+```text
+nur_gereift -> offen_und_gereift       155
+offen_und_gereift -> nur_gereift       138
+nur_offen -> offen_und_gereift          34
+offen_und_gereift -> nur_offen          34
+```
+
+Von den `111` Wiederkehr-Kandidaten aus 2024/2025 tauchen `55` in 2023 erneut mit gleicher Familie und gleicher Wechselrichtung auf.
+
+Lesung:
+
+```text
+Die Milieu-Bewegung ist nicht nur eine 2024/2025-Einzelerscheinung.
+Etwa die Haelfte der isolierten Kandidaten findet eine Drittperioden-Entsprechung.
+Die Bewegung bleibt aber weltgefaerbt und nicht deterministisch.
+```
+
+Die wichtigsten Berichte:
+
+- [1693_ADAPTIVE_MILIEU_FAMILIENSCHICHTEN_2023.md](../befunde/1693_ADAPTIVE_MILIEU_FAMILIENSCHICHTEN_2023.md)
+- [1694_ADAPTIVE_MILIEU_RELATIONSWECHSEL_ROHWELT_2023.md](../befunde/1694_ADAPTIVE_MILIEU_RELATIONSWECHSEL_ROHWELT_2023.md)
+- [1695_ADAPTIVE_MILIEU_DRITTPERIODE_TREFFER.md](../befunde/1695_ADAPTIVE_MILIEU_DRITTPERIODE_TREFFER.md)
+
 ## Forschungsgrenze
 
 Aus dieser Mechanik folgt noch nicht:

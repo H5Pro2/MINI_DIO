@@ -138,6 +138,8 @@ Ein 2025-Gegenlauf zeigt dieselbe Wechselarchitektur mit anderer Gewichtung. Die
 
 Die anschliessende Familienverfolgung isoliert 111 Faelle, in denen dieselbe Familie in 2024 und 2025 mit gleicher Wechselrichtung wiederkehrt. Besonders sichtbar sind die beiden Hauptbewegungen `offen_und_gereift -> nur_gereift` und `nur_gereift -> offen_und_gereift`. Das stuetzt die Lesung einer beweglichen, aber nicht beliebigen Familien-/Milieu-Ordnung. Siehe [1692_ADAPTIVE_MILIEU_WIEDERKEHRFAMILIEN_2024_2025.md](docs/befunde/1692_ADAPTIVE_MILIEU_WIEDERKEHRFAMILIEN_2024_2025.md).
 
+Eine Drittperiodenpruefung gegen 2023 bestaetigt diese Linie teilweise: Von 111 Wiederkehr-Kandidaten aus 2024/2025 erscheinen 55 mit gleicher Familie und gleicher Wechselrichtung erneut. Die Treffer verteilen sich auf `offen_und_gereift -> nur_gereift` und `nur_gereift -> offen_und_gereift`. Das ist kein Ursachebeweis, aber ein staerkerer Hinweis auf wiederkehrende Familien-/Milieu-Bewegung als eine reine Gesamtverteilung. Siehe [1693_ADAPTIVE_MILIEU_FAMILIENSCHICHTEN_2023.md](docs/befunde/1693_ADAPTIVE_MILIEU_FAMILIENSCHICHTEN_2023.md), [1694_ADAPTIVE_MILIEU_RELATIONSWECHSEL_ROHWELT_2023.md](docs/befunde/1694_ADAPTIVE_MILIEU_RELATIONSWECHSEL_ROHWELT_2023.md) und [1695_ADAPTIVE_MILIEU_DRITTPERIODE_TREFFER.md](docs/befunde/1695_ADAPTIVE_MILIEU_DRITTPERIODE_TREFFER.md).
+
 ## Hypothese Feldbewusstsein
 
 Wenn hier von Bewusstsein gesprochen wird, ist kein menschliches Ich-Bewusstsein gemeint.

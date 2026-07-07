@@ -1,0 +1,5 @@
+world,ticks,families,shared_families,open_only_families,mature_only_families,shared_family_ratio,open_ticks,mature_ticks,untrained_ticks,open_tick_ratio,mature_tick_ratio
+NEG_STRESS_2023,4994,518,182,73,263,0.351351,2061,2924,9,0.412695,0.585503
+EXPANSION_2023,4994,510,165,83,262,0.323529,2046,2946,2,0.409692,0.589908
+MOD_NEG_2023,4994,496,179,75,242,0.360887,2119,2867,8,0.424309,0.574089
+ALTSEQ_2023,4994,513,166,76,271,0.323587,2120,2872,2,0.424509,0.575090
