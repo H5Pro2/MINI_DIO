@@ -172,6 +172,8 @@ Die naechste Bereinigung trennt statische Diagnose von organischer Feldkontrolle
 
 Ein anschliessender Gesamtaudit trennt die verbleibenden Zahlenstellen in technische Schutzlogik, passive Diagnose und getrennte Lern-/Konsequenzkompatibilitaet. Damit bleibt der MCM-Forschungskern frei von harten Runtime-Gates; Zahlen dienen dort als Skalen, Gewichte oder Berichtswerte.
 
+Ein erster Kontrollsatz nach dieser Bereinigung ueber SOL Real, SOL Stress, SOL Expansion und KAS 5m blieb in allen vier Welten `stark_zentriert_wenig_rand`. Kleine offene Varianten blieben sichtbar, Rand-/Kippnaehe wurde nicht kuenstlich uebersteuert. Der Befund ist in [007_STATISCHE_RESTE_UND_ORGANISCHE_KONTROLLE.md](docs/mechanik/007_STATISCHE_RESTE_UND_ORGANISCHE_KONTROLLE.md) ergaenzt.
+
 ## Hypothese Feldbewusstsein
 
 Wenn hier von Bewusstsein gesprochen wird, ist kein menschliches Ich-Bewusstsein gemeint.

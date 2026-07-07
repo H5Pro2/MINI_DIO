@@ -486,6 +486,91 @@ laufen jetzt ueber relative Druckprofile statt harte Runtime-Grenzen.
 Wenn spaeter ein reines Forschungsprofil ohne Aktionskompatibilitaet entstehen soll,
 muessen diese Kompatibilitaetsdateien getrennt oder deaktivierbar gemacht werden.
 
+## Kontrolllauf nach der Bereinigung
+
+Nach der Umstellung auf Druckprofile wurde ein frischer Kontrollsatz mit
+`world_relative`-Sinnesmodus ausgefuehrt.
+
+Gepruefte Welten:
+
+```text
+CTRL_SOL_REAL_1000
+CTRL_SOL_STRESS_1000
+CTRL_SOL_EXPANSION_1000
+CTRL_KAS_5M_2000
+```
+
+### Innenfeldwirkung
+
+Alle vier Laeufe blieben stabil und schrieben MCM-Feldepisoden.
+
+| Welt | Episoden | Symbole | Feldepisoden | Rekopplung | Carry | Strain | Sinneskopplung |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| CTRL_SOL_REAL_1000 | 994 | 261 | 29 | 0.6911 | 0.5027 | 0.1634 | 0.8437 |
+| CTRL_SOL_STRESS_1000 | 994 | 235 | 25 | 0.6924 | 0.5074 | 0.1634 | 0.8412 |
+| CTRL_SOL_EXPANSION_1000 | 994 | 249 | 19 | 0.6904 | 0.5034 | 0.1641 | 0.8392 |
+| CTRL_KAS_5M_2000 | 1994 | 350 | 31 | 0.6951 | 0.5193 | 0.1663 | 0.8399 |
+
+Die dominierende Innenwirkung war in allen vier Welten `inner_effect_stable`.
+Eine kleine Nebenwirkung blieb als `inner_effect_carried_unrest` sichtbar:
+
+```text
+SOL Real:      972 stabil / 22 tragend_unruhig
+SOL Stress:    981 stabil / 13 tragend_unruhig
+SOL Expansion: 982 stabil / 12 tragend_unruhig
+KAS 5m:       1973 stabil / 21 tragend_unruhig
+```
+
+### Topologie-Matrix
+
+Die nachgelagerte Topologie-Diagnose liest alle vier Kontrollwelten als:
+
+```text
+stark_zentriert_wenig_rand
+```
+
+Zentrumsanteil:
+
+```text
+SOL Real:      0.9779
+SOL Stress:    0.9869
+SOL Expansion: 0.9879
+KAS 5m:        0.9895
+```
+
+Rand/Kippnaehe blieb in diesem Kontrollsatz bei `0.0000`.
+Die offene Variante blieb klein, aber sichtbar:
+
+```text
+SOL Real:      0.0221
+SOL Stress:    0.0131
+SOL Expansion: 0.0121
+KAS 5m:        0.0105
+```
+
+### Interpretation
+
+Die Bereinigung harter Runtime-Grenzen hat in diesem Kontrollsatz keinen
+Feldkollaps erzeugt.
+
+Der aktuelle Befund spricht dafuer:
+
+```text
+Die weichere Drucklogik erhaelt die zentrumsnahe Topologie.
+Sie erzeugt keine kuenstliche Randuebersteuerung.
+Sie laesst kleine offene Varianten weiterhin sichtbar.
+```
+
+Das ist noch kein Beweis fuer allgemeine Stabilitaet.
+Es ist ein Kontrollpunkt nach der Architektur-Bereinigung.
+
+Wichtig:
+
+```text
+Die Topologiebegriffe bleiben Diagnose.
+Die Runtime bekommt daraus keine Handlung, kein Gate und keine feste Geometrie.
+```
+
 ## Noch vorhandene statische Bereiche
 
 ### Diagnose
@@ -549,4 +634,5 @@ erfahrungsgewichteter Rueckfuehrung
 
 ## Wie es weitergeht
 
-Als naechstes sollte ein kurzer Kontrolllauf mit bestehenden Welten zeigen, ob die weichere Drucklogik die bisherigen Topologie- und Bedeutungsbefunde stabil haelt oder ob sich neue Varianz bildet.
+Als naechstes sollte die Drucklogik gegen laengere und bewusst randlastige Welten geprueft werden.
+Ziel ist nicht mehr nur Startbarkeit, sondern die Frage, ob Rand/Kippnaehe unter echter Belastung wieder sichtbar wird, ohne in harte Grenzwertlogik zurueckzufallen.
