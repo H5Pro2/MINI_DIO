@@ -99,6 +99,8 @@ Ausführlicher festgehalten ist das in [1671_NACHBARFORSCHUNGEN_UND_UNABHAENGIGE
 
 Die derzeit stärkste wissenschaftliche Anschlussstelle ist Feldzeit/Nachhall als methodische Prüfachse gegen reine Projektion. Topologie ist die breiteste reproduzierte Feldordnung, verteilte Rollennetze sind die stärkste Bedeutungsstruktur, und Offline-Feld-Reorganisation ist die eigenständigste Zukunftsachse. Diese Priorisierung ist in [1672_WISSENSCHAFTLICHE_ANSCHLUSSSTELLEN_PRIORITAET.md](docs/befunde/1672_WISSENSCHAFTLICHE_ANSCHLUSSSTELLEN_PRIORITAET.md) festgehalten.
 
+Die kombinierte Mehrwelt-Achsenprüfung zeigt zusätzlich: Topologie, Feldzeit, Nachhall und Rollenbreite tragen gemeinsam, aber keine dieser Achsen erklärt das Feld allein. Nachhall ist nicht einfach Breite, Stabilität ist nicht automatisch Enge, und Weltklassen besitzen Binnenphasen. Siehe [1673_MEHRWELT_ACHSENPRUEFUNG_TOPOLOGIE_FELDZEIT_NACHHALL.md](docs/befunde/1673_MEHRWELT_ACHSENPRUEFUNG_TOPOLOGIE_FELDZEIT_NACHHALL.md).
+
 ## Hypothese Feldbewusstsein
 
 Wenn hier von Bewusstsein gesprochen wird, ist kein menschliches Ich-Bewusstsein gemeint.
