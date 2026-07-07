@@ -754,6 +754,47 @@ synthetische Rand-/Bruchwelten:
 
 Der Bericht liegt in [1709_ADAPTIVE_MILIEU_SYNTHETISCHE_BRUCHKLASSEN.md](../befunde/1709_ADAPTIVE_MILIEU_SYNTHETISCHE_BRUCHKLASSEN.md).
 
+## Isolierte Bruchursache bei dio_0ly7
+
+`dio_0ly7` wurde danach allein gegen weitere synthetische Varianten gelesen:
+
+```text
+SYN_RAND_DOMINANZ_B
+SYN_BRUCH_RAND_B
+SYN_SEQ_ORIGINAL
+SYN_SEQ_PERMUTIERT
+SYN_SEQ_ZUFALLSNAH
+SYN_REKOPPLUNG_LANG_VOR_RAND
+```
+
+Aggregiert:
+
+```text
+Vorkommen: 417
+Delta Hoeren:   +0.0159
+Delta Spannung: +0.0126
+Delta Range:    +0.0639
+```
+
+Alle sechs Varianten landen in:
+
+```text
+bruch_mit_range_aufweitung
+```
+
+Lesung:
+
+```text
+Der synthetische Bruch von dio_0ly7 ist robust.
+Er entsteht nicht nur durch eine einzelne Datei.
+Er koppelt Hoeranstieg, Spannungsanstieg und Range-Aufweitung.
+```
+
+Die Berichte:
+
+- [1710_DIO_0LY7_SYNTHETISCHE_BRUCHURSACHEN.md](../befunde/1710_DIO_0LY7_SYNTHETISCHE_BRUCHURSACHEN.md)
+- [1711_DIO_0LY7_SYNTHETISCHE_BRUCHURSACHEN_KLASSEN.md](../befunde/1711_DIO_0LY7_SYNTHETISCHE_BRUCHURSACHEN_KLASSEN.md)
+
 ## Forschungsgrenze
 
 Aus dieser Mechanik folgt noch nicht:

@@ -156,6 +156,8 @@ Die synthetische Gegenpruefung bricht diese Entlastungsform bewusst auf: In vier
 
 Die Bruchklassifikation zeigt den Unterschied genauer: `dio_0ly7` bleibt in den synthetischen Welten sichtbar, aber die reale Entlastungsrichtung kehrt sich dort in `bruch_mit_range_aufweitung` um. Das Feldzeichen verschwindet also nicht; seine Wirkung kippt unter anderer Weltstruktur. Siehe [1709_ADAPTIVE_MILIEU_SYNTHETISCHE_BRUCHKLASSEN.md](docs/befunde/1709_ADAPTIVE_MILIEU_SYNTHETISCHE_BRUCHKLASSEN.md).
 
+Eine isolierte Zusatzpruefung von `dio_0ly7` gegen weitere synthetische Varianten bestaetigt diese Bruchklasse: Randdominanz, Bruch/Rand, Originalsequenz, Permutation, Zufallsnaehe und lange Rekopplung vor Rand landen jeweils in `bruch_mit_range_aufweitung`. Der Bruch scheint damit nicht nur an einer einzelnen synthetischen Datei zu haengen. Siehe [1710_DIO_0LY7_SYNTHETISCHE_BRUCHURSACHEN.md](docs/befunde/1710_DIO_0LY7_SYNTHETISCHE_BRUCHURSACHEN.md) und [1711_DIO_0LY7_SYNTHETISCHE_BRUCHURSACHEN_KLASSEN.md](docs/befunde/1711_DIO_0LY7_SYNTHETISCHE_BRUCHURSACHEN_KLASSEN.md).
+
 ## Hypothese Feldbewusstsein
 
 Wenn hier von Bewusstsein gesprochen wird, ist kein menschliches Ich-Bewusstsein gemeint.

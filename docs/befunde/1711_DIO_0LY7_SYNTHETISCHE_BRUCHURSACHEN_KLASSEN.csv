@@ -1,0 +1,7 @@
+world,family,occurrences,hearing_delta,tension_delta,range_delta,break_class
+SYN_RAND_DOMINANZ_B,dio_0ly7,58,0.012586,0.008914,0.164518,bruch_mit_range_aufweitung
+SYN_BRUCH_RAND_B,dio_0ly7,76,0.017137,0.013788,0.046207,bruch_mit_range_aufweitung
+SYN_SEQ_ORIGINAL,dio_0ly7,75,0.017047,0.013703,0.04753,bruch_mit_range_aufweitung
+SYN_SEQ_PERMUTIERT,dio_0ly7,76,0.016553,0.013182,0.044203,bruch_mit_range_aufweitung
+SYN_SEQ_ZUFALLSNAH,dio_0ly7,66,0.014014,0.011086,0.037506,bruch_mit_range_aufweitung
+SYN_REKOPPLUNG_LANG_VOR_RAND,dio_0ly7,66,0.01823,0.014781,0.043485,bruch_mit_range_aufweitung

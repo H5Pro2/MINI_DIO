@@ -63,8 +63,15 @@ def _fmt(value: object) -> str:
 
 def _write_md(path: Path, rows: list[dict[str, object]], source: Path) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
+    title_prefix = path.stem.split("_", 1)[0]
+    title = (
+        f"# {title_prefix} - Synthetische Bruchklassen der Oeffnungs-Vorform"
+        if title_prefix.isdigit()
+        else "# Synthetische Bruchklassen der Oeffnungs-Vorform"
+    )
+    families = sorted({str(row.get("family", "")) for row in rows if row.get("family")})
     lines: list[str] = []
-    lines.append("# 1709 - Synthetische Bruchklassen der Oeffnungs-Vorform")
+    lines.append(title)
     lines.append("")
     lines.append(f"Stand: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     lines.append("")
@@ -109,8 +116,9 @@ def _write_md(path: Path, rows: list[dict[str, object]], source: Path) -> None:
         "Hoeren und Spannung steigen im Zielzeichen. Das spricht fuer eine struktursensitive Feldform."
     )
     lines.append("")
-    lines.append("`dio_01hu` ist in dieser Gegenprobe zu selten und wird deshalb nicht hart gelesen.")
-    lines.append("")
+    if "dio_01hu" in families:
+        lines.append("`dio_01hu` ist in dieser Gegenprobe zu selten und wird deshalb nicht hart gelesen.")
+        lines.append("")
     lines.append("## Grenze")
     lines.append("")
     lines.append("```text")
