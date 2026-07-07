@@ -40,6 +40,27 @@ def _load_csv(path: Path) -> list[dict[str, str]]:
         return list(csv.DictReader(handle))
 
 
+def _clip01(value: object) -> float:
+    return max(0.0, min(1.0, _safe_float(value)))
+
+
+def _mean(*values: object) -> float:
+    clean = [_clip01(value) for value in values]
+    return sum(clean) / max(1, len(clean))
+
+
+def _pressure(value: object, scale: float = 1.0) -> float:
+    amount = max(0.0, _safe_float(value))
+    return amount / (amount + max(0.000001, scale))
+
+
+def _dominant_label(scores: dict[str, float], default: str) -> str:
+    clean = {key: _clip01(value) for key, value in scores.items()}
+    if not clean:
+        return default
+    return max(clean, key=clean.get)
+
+
 def _segment_by_short(rows: list[dict[str, str]]) -> dict[str, dict[str, str]]:
     out: dict[str, dict[str, str]] = {}
     for row in rows:
@@ -72,15 +93,20 @@ def _segment_quality(segment: dict[str, str] | None) -> str:
     segments = _safe_int(segment.get("segments"))
     worlds = _safe_int(segment.get("worlds"))
     duration = _safe_float(segment.get("duration_avg"))
-    if segments >= 80 and worlds >= 5 and duration >= 10.0:
-        return "lange_mehrweltphase"
-    if segments >= 20 and worlds >= 4:
-        return "mehrwelt_segmentbruecke"
-    if segments >= 4 and worlds >= 3:
-        return "kurze_mehrweltspur"
-    if segments > 0:
-        return "kurze_einzelspur"
-    return "segment_nicht_gelesen"
+    segment_presence = _pressure(segments, 1.0)
+    multiworld_pressure = _pressure(worlds, 2.0)
+    duration_pressure = _pressure(duration, 6.0)
+    compact_pressure = 1.0 - multiworld_pressure
+    return _dominant_label(
+        {
+            "lange_mehrweltphase": _mean(_pressure(segments, 40.0), multiworld_pressure, duration_pressure),
+            "mehrwelt_segmentbruecke": _mean(_pressure(segments, 14.0), multiworld_pressure, 1.0 - duration_pressure),
+            "kurze_mehrweltspur": _mean(segment_presence, multiworld_pressure, compact_pressure),
+            "kurze_einzelspur": _mean(segment_presence, 1.0 - multiworld_pressure, 1.0 - duration_pressure),
+            "segment_nicht_gelesen": 1.0 - segment_presence,
+        },
+        default="segment_nicht_gelesen",
+    )
 
 
 def _field_quality(segment: dict[str, str] | None) -> str:
@@ -95,17 +121,28 @@ def _field_quality(segment: dict[str, str] | None) -> str:
     exit_loud = _safe_float(segment.get("exit_loudness_delta"))
     exit_tension = _safe_float(segment.get("exit_tension_delta"))
 
-    if within_rek > 0.0 and within_strain < 0.0 and within_blur < 0.0 and exit_rek >= 0.0:
-        return "feld_rekoppelnd_schaerfend"
-    if within_rek > 0.0 and within_strain < 0.0 and exit_blur > 0.05:
-        return "feld_jung_instabiler_austritt"
-    if exit_strain > 0.02 or exit_loud > 0.08 or exit_tension > 0.05:
-        return "feld_belastete_kernnaehe"
-    if within_rek >= 0.0 and within_strain <= 0.0:
-        return "feld_leicht_stabilisierend"
-    if exit_rek < 0.0 and exit_strain > 0.0:
-        return "feld_austritt_belastet"
-    return "feld_gemischt"
+    rek_up = _pressure(within_rek, 0.02)
+    rek_down = _pressure(-within_rek, 0.02)
+    strain_down = _pressure(-within_strain, 0.02)
+    strain_up = _pressure(within_strain, 0.02)
+    blur_down = _pressure(-within_blur, 0.02)
+    blur_up = _pressure(within_blur, 0.02)
+    exit_rek_up = _pressure(exit_rek, 0.02)
+    exit_rek_down = _pressure(-exit_rek, 0.02)
+    exit_strain_up = _pressure(exit_strain, 0.02)
+    exit_loud_up = _pressure(exit_loud, 0.05)
+    exit_tension_up = _pressure(exit_tension, 0.04)
+    return _dominant_label(
+        {
+            "feld_rekoppelnd_schaerfend": _mean(rek_up, strain_down, blur_down, exit_rek_up),
+            "feld_jung_instabiler_austritt": _mean(rek_up, strain_down, blur_up),
+            "feld_belastete_kernnaehe": _mean(exit_strain_up, exit_loud_up, exit_tension_up),
+            "feld_leicht_stabilisierend": _mean(rek_up, strain_down, 1.0 - blur_up, 1.0 - exit_loud_up),
+            "feld_austritt_belastet": _mean(exit_rek_down, exit_strain_up, strain_up),
+            "feld_gemischt": _mean(1.0 - rek_up, 1.0 - rek_down, 1.0 - strain_up, 1.0 - strain_down),
+        },
+        default="feld_gemischt",
+    )
 
 
 def _memory_note(maturation_quality: str, segment_quality: str, field_quality: str) -> str:

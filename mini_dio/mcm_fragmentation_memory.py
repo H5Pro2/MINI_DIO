@@ -39,6 +39,22 @@ def _avg(rows: list[dict[str, str]], key: str) -> float:
     return sum(_safe_float(row.get(key)) for row in rows) / len(rows)
 
 
+def _clip01(value: object) -> float:
+    return max(0.0, min(1.0, _safe_float(value)))
+
+
+def _mean(*values: object) -> float:
+    clean = [_clip01(value) for value in values]
+    return sum(clean) / max(1, len(clean))
+
+
+def _dominant_label(scores: dict[str, float], default: str = "fragmentierung_gemischt") -> str:
+    clean = {key: _clip01(value) for key, value in scores.items()}
+    if not clean:
+        return default
+    return max(clean, key=clean.get)
+
+
 def _classify_fragmentation(
     zones_total: int,
     young_spur_count: int,
@@ -50,19 +66,17 @@ def _classify_fragmentation(
     weak_center_share = class_counts.get("nichtbruecke_zentrum_schwach", 0) / max(1, zones_total)
     rekopplung_share = class_counts.get("nichtbruecke_rekopplungsfeld", 0) / max(1, zones_total)
 
-    if young_share >= 0.75 and open_share >= 0.35 and rand_share >= 0.20:
-        return "fragmentierung_offen_randnah_jung"
-    if young_share >= 0.70 and weak_center_share >= 0.20:
-        return "fragmentierung_jung_mit_schwachem_zentrum"
-    if rand_share >= 0.35:
-        return "fragmentierung_randlastig"
-    if open_share >= 0.45:
-        return "fragmentierung_offene_oberflaeche"
-    if rekopplung_share >= 0.10:
-        return "fragmentierung_mit_rekopplungsresten"
-    if young_share >= 0.60:
-        return "fragmentierung_jung"
-    return "fragmentierung_gemischt"
+    return _dominant_label(
+        {
+            "fragmentierung_offen_randnah_jung": _mean(young_share, open_share, rand_share),
+            "fragmentierung_jung_mit_schwachem_zentrum": _mean(young_share, weak_center_share, 1.0 - rand_share),
+            "fragmentierung_randlastig": _mean(rand_share, young_share, 1.0 - rekopplung_share),
+            "fragmentierung_offene_oberflaeche": _mean(open_share, young_share, 1.0 - rand_share),
+            "fragmentierung_mit_rekopplungsresten": _mean(rekopplung_share, 1.0 - weak_center_share, 1.0 - rand_share),
+            "fragmentierung_jung": _mean(young_share, 1.0 - open_share, 1.0 - rand_share, 1.0 - weak_center_share),
+            "fragmentierung_gemischt": _mean(1.0 - young_share, 1.0 - open_share, 1.0 - rand_share, 1.0 - weak_center_share),
+        }
+    )
 
 
 def _note(fragmentation_class: str) -> str:

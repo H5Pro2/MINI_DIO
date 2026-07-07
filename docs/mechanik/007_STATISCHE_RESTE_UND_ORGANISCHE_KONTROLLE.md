@@ -143,6 +143,67 @@ sondern durch die staerkste Kombination aus Zentrum, Rand, Rekopplung,
 Strain, Hoeren, Sehen und Rohfeld.
 ```
 
+## Dritte Bereinigung
+
+Fragmentierung und Rollenreifung wurden ebenfalls von festen Schwellenketten getrennt.
+
+### Fragmentierung
+
+Vorher:
+
+```text
+junge_spur >= X
+offene_oberflaeche >= Y
+randspannung >= Z
+```
+
+Jetzt:
+
+```text
+fragmentierung_offen_randnah_jung
+fragmentierung_jung_mit_schwachem_zentrum
+fragmentierung_randlastig
+fragmentierung_offene_oberflaeche
+fragmentierung_mit_rekopplungsresten
+fragmentierung_jung
+fragmentierung_gemischt
+
+entstehen aus konkurrierenden Oberflaechendruecken.
+Die Fragmentierung wird als relative Lage gelesen, nicht als Grenzwert-Sprung.
+```
+
+### Rollenreifung
+
+Vorher:
+
+```text
+segments >= X
+worlds >= Y
+duration >= Z
+exit_strain > A
+exit_loud > B
+```
+
+Jetzt:
+
+```text
+Segmentqualitaet:
+  lange_mehrweltphase
+  mehrwelt_segmentbruecke
+  kurze_mehrweltspur
+  kurze_einzelspur
+
+Feldqualitaet:
+  feld_rekoppelnd_schaerfend
+  feld_jung_instabiler_austritt
+  feld_belastete_kernnaehe
+  feld_leicht_stabilisierend
+  feld_austritt_belastet
+  feld_gemischt
+
+entstehen aus weichen Evidenzdruecken.
+```
+
 ## Noch vorhandene statische Bereiche
 
 ### Diagnose
@@ -170,13 +231,9 @@ Diese Werte sind Diagnose und duerfen nicht als Feldsteuerung gelesen werden.
 
 ### Benennung
 
-Einige Runtime-Dateien benennen Feldrollen noch mit festen Klassifikationen.
-Diese Bereiche sind als naechste Kandidaten zu pruefen:
-
-```text
-mini_dio/mcm_fragmentation_memory.py
-mini_dio/mcm_role_maturation_memory.py
-```
+Die bisher geprueften Benennungsbereiche wurden auf Druckvergleiche umgestellt.
+Weitere Kandidaten muessen bei Bedarf gezielt gesucht werden, statt pauschal
+alle Zahlen im Projekt zu entfernen.
 
 ### Kompatibilitaet
 
@@ -210,4 +267,4 @@ erfahrungsgewichteter Rueckfuehrung
 
 ## Wie es weitergeht
 
-Als naechstes sollten `mcm_fragmentation_memory.py` und `mcm_role_maturation_memory.py` geprueft werden. Dort sitzen noch Reife- und Fragmentationslesungen, die daraufhin getrennt werden muessen: Diagnose darf feste Befundwerte nutzen, Runtime-Bedeutung soll weiter aus relativer Feldwirkung entstehen.
+Als naechstes sollte ein gezielter Suchlauf ueber `mini_dio/` zeigen, wo noch Zahlen als Runtime-Entscheidung wirken und wo sie nur Bericht, Format, Skala oder Kompatibilitaet sind. Erst danach sollten weitere Stellen umgebaut werden.
