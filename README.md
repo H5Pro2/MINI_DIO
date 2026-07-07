@@ -109,6 +109,8 @@ Eine verschobene Assetpruefung zeigt danach: Die Achsenklasse ist nicht assetfes
 
 Eine laengere BTC-/DOGE-Pruefung mit 4000er-Fenstern und tieferer 1000-Tick-Lesung zeigt eine weitere Ebene: Kurzfenster koennen kompakt, offen oder verteilt-rekoppelnd wirken, waehrend die laengere Weltphase rand-/kippnah gelesen wird. Siehe [1677_BTC_DOGE_LANGFENSTER_ACHSENREPORT.md](docs/befunde/1677_BTC_DOGE_LANGFENSTER_ACHSENREPORT.md).
 
+Eine echte 5000er-Halbfensterpruefung bestaetigt diesen Befund ohne Selbstgegenprobe: BTC und DOGE bleiben auch bei `0-5000 -> 5000-10000` rand-/kippnah. Damit unterscheiden sich lokale Rollenform und uebergeordnetes Feldmilieu methodisch klarer. Siehe [1678_BTC_DOGE_5000_HALBFENSTER_ACHSENREPORT.md](docs/befunde/1678_BTC_DOGE_5000_HALBFENSTER_ACHSENREPORT.md).
+
 ## Hypothese Feldbewusstsein
 
 Wenn hier von Bewusstsein gesprochen wird, ist kein menschliches Ich-Bewusstsein gemeint.
