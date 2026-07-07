@@ -667,6 +667,56 @@ Die Berichte:
 - [1706_ADAPTIVE_MILIEU_OEFFNUNGS_VORFORM_2023_10K.md](../befunde/1706_ADAPTIVE_MILIEU_OEFFNUNGS_VORFORM_2023_10K.md)
 - [1707_ADAPTIVE_MILIEU_OEFFNUNGS_VORFORM_DREIJAHRESVERGLEICH.md](../befunde/1707_ADAPTIVE_MILIEU_OEFFNUNGS_VORFORM_DREIJAHRESVERGLEICH.md)
 
+## Synthetische Gegenpruefung
+
+Die gleiche Zielpruefung wurde danach gegen synthetische Kontrollwelten gehalten:
+
+```text
+SYN_RAND_DOMINANZ_A
+SYN_BRUCH_RAND_A
+SYN_REKOPPLUNG_VOR_RAND
+SYN_STARK_PERMUTIERT
+```
+
+Aggregiert:
+
+```text
+synthetisch:
+  Delta Hoeren +0.0118
+  Delta Spannung +0.0073
+  Delta Range -0.0109
+
+dio_0ly7:
+  Delta Hoeren +0.0161
+  Delta Spannung +0.0128
+  Delta Range +0.0735
+
+dio_01hu:
+  nur 4 Vorkommen
+  zu duenn fuer harte Lesung
+```
+
+Lesung:
+
+```text
+reale 2023/2024/2025-Welten:
+  Oeffnungs-Vorform bleibt negativ
+
+synthetische Rand-/Bruchwelten:
+  Oeffnungs-Vorform kippt bei Hoeren und Spannung positiv
+```
+
+Das ist eine wichtige Gegenprobe. Die Oeffnungsform wird nicht automatisch in jeder Welt erzeugt. Sie haengt an der Weltstruktur und reagiert auf synthetische Störung anders.
+
+Forschungsgrenze:
+
+```text
+Das beweist keine Absicht und keine Handlung.
+Es zeigt aber, dass die Feldform nicht nur als festes Ausgabemuster erscheint.
+```
+
+Der Bericht liegt in [1708_ADAPTIVE_MILIEU_OEFFNUNGS_VORFORM_SYNTHETISCHE_KONTROLLWELTEN.md](../befunde/1708_ADAPTIVE_MILIEU_OEFFNUNGS_VORFORM_SYNTHETISCHE_KONTROLLWELTEN.md).
+
 ## Forschungsgrenze
 
 Aus dieser Mechanik folgt noch nicht:

@@ -189,12 +189,23 @@ def _write_csv(rows: list[dict[str, object]], out_path: Path) -> None:
     if not rows:
         csv_path.write_text("", encoding="utf-8")
         return
-    fields = list(rows[0].keys())
+    fields: list[str] = []
+    seen: set[str] = set()
+    for row in rows:
+        for key in row.keys():
+            if key not in seen:
+                seen.add(key)
+                fields.append(key)
     with csv_path.open("w", newline="", encoding="utf-8") as handle:
         writer = csv.DictWriter(handle, fieldnames=fields)
         writer.writeheader()
         for row in rows:
-            writer.writerow({key: _fmt(value, 6) if isinstance(value, float) else value for key, value in row.items()})
+            writer.writerow(
+                {
+                    key: _fmt(row.get(key), 6) if isinstance(row.get(key), float) else row.get(key, "")
+                    for key in fields
+                }
+            )
 
 
 def _write_md(rows: list[dict[str, object]], summary: list[dict[str, object]], out_path: Path) -> None:

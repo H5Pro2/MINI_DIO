@@ -152,6 +152,8 @@ Die gleiche 10k-Pruefung in 2025 bestaetigt die Entlastungsform jahresuebergreif
 
 Eine zusaetzliche 2023-Pruefung gegen vier SOL-Regimewelten erweitert diese Lesung: Auch dort bleiben Hoeren, Spannung und Range im Treffer niedriger als im Vorfenster. Der Dreijahresvergleich 2023/2024/2025 zeigt damit eine robuste passive Oeffnungsform. Wichtig bleibt die Grenze: Das ist eine Entlastungslesung im Feld, keine Handlungsregel. Siehe [1706_ADAPTIVE_MILIEU_OEFFNUNGS_VORFORM_2023_10K.md](docs/befunde/1706_ADAPTIVE_MILIEU_OEFFNUNGS_VORFORM_2023_10K.md) und [1707_ADAPTIVE_MILIEU_OEFFNUNGS_VORFORM_DREIJAHRESVERGLEICH.md](docs/befunde/1707_ADAPTIVE_MILIEU_OEFFNUNGS_VORFORM_DREIJAHRESVERGLEICH.md).
 
+Die synthetische Gegenpruefung bricht diese Entlastungsform bewusst auf: In vier kuenstlichen Rand-/Bruch-/Permutationswelten kippen Hoeren und Spannung aggregiert positiv. Damit wird die reale Dreijahresform nicht automatisch ueberall reproduziert. Das ist wichtig: Die Form wirkt weltabhaengig und struktursensitiv, nicht wie eine fest eingebaute Ausgabeschablone. Siehe [1708_ADAPTIVE_MILIEU_OEFFNUNGS_VORFORM_SYNTHETISCHE_KONTROLLWELTEN.md](docs/befunde/1708_ADAPTIVE_MILIEU_OEFFNUNGS_VORFORM_SYNTHETISCHE_KONTROLLWELTEN.md).
+
 ## Hypothese Feldbewusstsein
 
 Wenn hier von Bewusstsein gesprochen wird, ist kein menschliches Ich-Bewusstsein gemeint.
