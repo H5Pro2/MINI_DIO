@@ -399,11 +399,14 @@ def run_once(
     mcm_rekopplung_quality_values = []
     mcm_adaptive_rekopplung_quality_values = []
     mcm_adaptive_rekopplung_experience_values = []
+    mcm_adaptive_role_experience_values = []
+    mcm_adaptive_path_experience_values = []
     mcm_adaptive_weight_carry_values = []
     mcm_adaptive_weight_alignment_values = []
     mcm_adaptive_weight_strain_relief_values = []
     mcm_adaptive_weight_sensory_values = []
     adaptive_rekopplung_counter = {}
+    adaptive_milieu_counter = {}
     sensory_coupling_values = []
     symbol_counter = {}
     active_phase = {
@@ -555,21 +558,26 @@ def run_once(
         reflection_strain_values.append(float(reflection_context["reflection_context_strain"]))
         reflection_alignment_values.append(float(reflection_context["reflection_context_alignment"]))
         mcm_field_effect = build_mcm_field_effect(senses, reflection_context, temporal_state, neuro_state)
+        mcm_effect_state = str(mcm_field_effect["field_effect_state"])
+        passive_mcm_effect_class = classify_current_mcm_effect(mcm_field_effect)
+        field_episode_role = f"field_{passive_mcm_effect_class}"
+        mcm_field_effect["passive_mcm_effect_class"] = passive_mcm_effect_class
+        mcm_field_effect["field_episode_role"] = field_episode_role
+        field_transition_hint = f"{episode_tracker.previous_state or 'start'}->{field_episode_role}"
         adaptive_rekopplung_state = build_adaptive_rekopplung_state(
             mcm_field_effect,
             memory.data,
             symbol_family=symbol_family,
+            field_role=field_episode_role,
+            field_transition=field_transition_hint,
         )
         mcm_field_effect.update(adaptive_rekopplung_state)
         adaptive_state_name = str(adaptive_rekopplung_state["mcm_adaptive_rekopplung_state"])
         adaptive_rekopplung_counter[adaptive_state_name] = (
             int(adaptive_rekopplung_counter.get(adaptive_state_name, 0) or 0) + 1
         )
-        mcm_effect_state = str(mcm_field_effect["field_effect_state"])
-        passive_mcm_effect_class = classify_current_mcm_effect(mcm_field_effect)
-        field_episode_role = f"field_{passive_mcm_effect_class}"
-        mcm_field_effect["passive_mcm_effect_class"] = passive_mcm_effect_class
-        mcm_field_effect["field_episode_role"] = field_episode_role
+        adaptive_milieu_state = str(adaptive_rekopplung_state["mcm_adaptive_milieu_state"])
+        adaptive_milieu_counter[adaptive_milieu_state] = int(adaptive_milieu_counter.get(adaptive_milieu_state, 0) or 0) + 1
         passive_inner_effect_awareness = build_passive_inner_effect_awareness(
             mcm_field_effect,
             passive_mcm_effect_class,
@@ -600,6 +608,8 @@ def run_once(
         mcm_rekopplung_quality_values.append(float(mcm_field_effect["mcm_rekopplung_quality"]))
         mcm_adaptive_rekopplung_quality_values.append(float(mcm_field_effect["mcm_adaptive_rekopplung_quality"]))
         mcm_adaptive_rekopplung_experience_values.append(float(mcm_field_effect["mcm_adaptive_rekopplung_experience"]))
+        mcm_adaptive_role_experience_values.append(float(mcm_field_effect["mcm_adaptive_role_experience"]))
+        mcm_adaptive_path_experience_values.append(float(mcm_field_effect["mcm_adaptive_path_experience"]))
         mcm_adaptive_weight_carry_values.append(float(mcm_field_effect["mcm_adaptive_weight_carry"]))
         mcm_adaptive_weight_alignment_values.append(float(mcm_field_effect["mcm_adaptive_weight_alignment"]))
         mcm_adaptive_weight_strain_relief_values.append(float(mcm_field_effect["mcm_adaptive_weight_strain_relief"]))
@@ -657,6 +667,9 @@ def run_once(
                 "mcm_adaptive_rekopplung_quality": f"{float(mcm_field_effect['mcm_adaptive_rekopplung_quality']):.6f}",
                 "mcm_adaptive_rekopplung_state": str(mcm_field_effect["mcm_adaptive_rekopplung_state"]),
                 "mcm_adaptive_rekopplung_experience": f"{float(mcm_field_effect['mcm_adaptive_rekopplung_experience']):.6f}",
+                "mcm_adaptive_role_experience": f"{float(mcm_field_effect['mcm_adaptive_role_experience']):.6f}",
+                "mcm_adaptive_path_experience": f"{float(mcm_field_effect['mcm_adaptive_path_experience']):.6f}",
+                "mcm_adaptive_milieu_state": str(mcm_field_effect["mcm_adaptive_milieu_state"]),
                 "mcm_adaptive_weight_carry": f"{float(mcm_field_effect['mcm_adaptive_weight_carry']):.6f}",
                 "mcm_adaptive_weight_alignment": f"{float(mcm_field_effect['mcm_adaptive_weight_alignment']):.6f}",
                 "mcm_adaptive_weight_strain_relief": f"{float(mcm_field_effect['mcm_adaptive_weight_strain_relief']):.6f}",
@@ -894,6 +907,17 @@ def run_once(
         "max_mcm_adaptive_rekopplung_experience": max(mcm_adaptive_rekopplung_experience_values)
         if mcm_adaptive_rekopplung_experience_values
         else 0.0,
+        "avg_mcm_adaptive_role_experience": sum(mcm_adaptive_role_experience_values)
+        / max(1, len(mcm_adaptive_role_experience_values)),
+        "max_mcm_adaptive_role_experience": max(mcm_adaptive_role_experience_values)
+        if mcm_adaptive_role_experience_values
+        else 0.0,
+        "avg_mcm_adaptive_path_experience": sum(mcm_adaptive_path_experience_values)
+        / max(1, len(mcm_adaptive_path_experience_values)),
+        "max_mcm_adaptive_path_experience": max(mcm_adaptive_path_experience_values)
+        if mcm_adaptive_path_experience_values
+        else 0.0,
+        "mcm_adaptive_milieus": dict(sorted(adaptive_milieu_counter.items())),
         "avg_mcm_adaptive_weight_carry": sum(mcm_adaptive_weight_carry_values)
         / max(1, len(mcm_adaptive_weight_carry_values)),
         "avg_mcm_adaptive_weight_alignment": sum(mcm_adaptive_weight_alignment_values)

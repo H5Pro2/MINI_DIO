@@ -88,6 +88,18 @@ def store_episode_memory(data: dict, payload: dict, max_items: int) -> str:
                 "avg_mcm_adaptive_rekopplung_experience",
                 seen_count,
             ),
+            "avg_mcm_adaptive_role_experience": _avg(
+                current,
+                payload,
+                "avg_mcm_adaptive_role_experience",
+                seen_count,
+            ),
+            "avg_mcm_adaptive_path_experience": _avg(
+                current,
+                payload,
+                "avg_mcm_adaptive_path_experience",
+                seen_count,
+            ),
             "avg_sensory_coupling": _avg(current, payload, "avg_sensory_coupling", seen_count),
             "avg_visual_field_gap": _avg(current, payload, "avg_visual_field_gap", seen_count),
             "avg_hearing_field_gap": _avg(current, payload, "avg_hearing_field_gap", seen_count),

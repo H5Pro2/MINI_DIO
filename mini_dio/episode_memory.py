@@ -40,7 +40,25 @@ def _weighted_episode_average(episodes: list[dict], key: str) -> float:
     return _clip(weighted_sum / total_weight)
 
 
-def build_adaptive_rekopplung_state(field_effect: dict, memory_data: dict | None, symbol_family: str = "") -> dict:
+def _seen_sum(episodes: list[dict]) -> float:
+    return sum(max(1.0, float(item.get("seen_count", 1.0) or 1.0)) for item in episodes)
+
+
+def _blend_memory(global_value: float, role_value: float, path_value: float, role_experience: float, path_experience: float) -> float:
+    role_weight = role_experience * 0.38
+    path_weight = path_experience * 0.24
+    global_weight = max(0.20, 1.0 - role_weight - path_weight)
+    total = global_weight + role_weight + path_weight
+    return _clip(((global_value * global_weight) + (role_value * role_weight) + (path_value * path_weight)) / total)
+
+
+def build_adaptive_rekopplung_state(
+    field_effect: dict,
+    memory_data: dict | None,
+    symbol_family: str = "",
+    field_role: str = "",
+    field_transition: str = "",
+) -> dict:
     """Build a passive experience-weighted recoupling reading.
 
     The original ``mcm_rekopplung_quality`` stays as the stable reference. This
@@ -55,23 +73,66 @@ def build_adaptive_rekopplung_state(field_effect: dict, memory_data: dict | None
         if symbol_family and str((item or {}).get("dominant_family", "") or "") == symbol_family
     ]
     candidates = same_family or [dict(item or {}) for item in episodes]
+    role_candidates = [
+        dict(item or {})
+        for item in candidates
+        if field_role
+        and (
+            str((item or {}).get("episode_state", "") or "") == field_role
+            or str((item or {}).get("passive_mcm_effect_class", "") or "") == field_role.replace("field_", "", 1)
+        )
+    ]
+    path_candidates = [
+        dict(item or {})
+        for item in candidates
+        if field_transition and str((item or {}).get("transition", "") or "") == field_transition
+    ]
     if not candidates:
         return {
             "mcm_adaptive_rekopplung_quality": _clip(field_effect.get("mcm_rekopplung_quality", 0.0)),
             "mcm_adaptive_rekopplung_state": "adaptive_untrained",
             "mcm_adaptive_rekopplung_experience": 0.0,
+            "mcm_adaptive_role_experience": 0.0,
+            "mcm_adaptive_path_experience": 0.0,
+            "mcm_adaptive_milieu_state": "milieu_untrained",
             "mcm_adaptive_weight_carry": 0.42,
             "mcm_adaptive_weight_alignment": 0.24,
             "mcm_adaptive_weight_strain_relief": 0.20,
             "mcm_adaptive_weight_sensory": 0.14,
         }
 
-    total_seen = sum(max(1.0, float(item.get("seen_count", 1.0) or 1.0)) for item in candidates)
+    total_seen = _seen_sum(candidates)
     experience = _clip(total_seen / 18.0)
+    role_experience = _clip(_seen_sum(role_candidates) / 12.0) if role_candidates else 0.0
+    path_experience = _clip(_seen_sum(path_candidates) / 8.0) if path_candidates else 0.0
     carry_memory = _weighted_episode_average(candidates, "avg_mcm_carry_quality")
     strain_memory = _weighted_episode_average(candidates, "avg_mcm_strain_quality")
     rekopplung_memory = _weighted_episode_average(candidates, "avg_mcm_rekopplung_quality")
     sensory_memory = _weighted_episode_average(candidates, "avg_sensory_coupling")
+    role_carry_memory = _weighted_episode_average(role_candidates or candidates, "avg_mcm_carry_quality")
+    role_strain_memory = _weighted_episode_average(role_candidates or candidates, "avg_mcm_strain_quality")
+    role_rekopplung_memory = _weighted_episode_average(role_candidates or candidates, "avg_mcm_rekopplung_quality")
+    role_sensory_memory = _weighted_episode_average(role_candidates or candidates, "avg_sensory_coupling")
+    path_carry_memory = _weighted_episode_average(path_candidates or candidates, "avg_mcm_carry_quality")
+    path_strain_memory = _weighted_episode_average(path_candidates or candidates, "avg_mcm_strain_quality")
+    path_rekopplung_memory = _weighted_episode_average(path_candidates or candidates, "avg_mcm_rekopplung_quality")
+    path_sensory_memory = _weighted_episode_average(path_candidates or candidates, "avg_sensory_coupling")
+    carry_memory = _blend_memory(carry_memory, role_carry_memory, path_carry_memory, role_experience, path_experience)
+    strain_memory = _blend_memory(strain_memory, role_strain_memory, path_strain_memory, role_experience, path_experience)
+    rekopplung_memory = _blend_memory(
+        rekopplung_memory,
+        role_rekopplung_memory,
+        path_rekopplung_memory,
+        role_experience,
+        path_experience,
+    )
+    sensory_memory = _blend_memory(
+        sensory_memory,
+        role_sensory_memory,
+        path_sensory_memory,
+        role_experience,
+        path_experience,
+    )
 
     raw_weights = {
         "carry": 0.24 + (carry_memory * 0.30) + (rekopplung_memory * 0.10),
@@ -97,10 +158,21 @@ def build_adaptive_rekopplung_state(field_effect: dict, memory_data: dict | None
         state = "adaptive_rekopplung_gedaempft"
     else:
         state = "adaptive_rekopplung_nahe_statisch"
+    if role_experience >= 0.55 and path_experience >= 0.35:
+        milieu_state = "milieu_rolle_und_pfad_getragen"
+    elif role_experience >= 0.55:
+        milieu_state = "milieu_rollennah"
+    elif path_experience >= 0.35:
+        milieu_state = "milieu_pfadnah"
+    else:
+        milieu_state = "milieu_offen"
     return {
         "mcm_adaptive_rekopplung_quality": adaptive,
         "mcm_adaptive_rekopplung_state": state,
         "mcm_adaptive_rekopplung_experience": experience,
+        "mcm_adaptive_role_experience": role_experience,
+        "mcm_adaptive_path_experience": path_experience,
+        "mcm_adaptive_milieu_state": milieu_state,
         "mcm_adaptive_weight_carry": weights["carry"],
         "mcm_adaptive_weight_alignment": weights["alignment"],
         "mcm_adaptive_weight_strain_relief": weights["strain_relief"],
@@ -214,6 +286,8 @@ class PassiveEpisodeTracker:
             "mcm_rekopplung_quality": 0.0,
             "mcm_adaptive_rekopplung_quality": 0.0,
             "mcm_adaptive_rekopplung_experience": 0.0,
+            "mcm_adaptive_role_experience": 0.0,
+            "mcm_adaptive_path_experience": 0.0,
             "sensory_coupling": 0.0,
             "visual_field_gap": 0.0,
             "hearing_field_gap": 0.0,
@@ -247,6 +321,8 @@ class PassiveEpisodeTracker:
             "avg_mcm_rekopplung_quality": self.sums["mcm_rekopplung_quality"] / denom,
             "avg_mcm_adaptive_rekopplung_quality": self.sums["mcm_adaptive_rekopplung_quality"] / denom,
             "avg_mcm_adaptive_rekopplung_experience": self.sums["mcm_adaptive_rekopplung_experience"] / denom,
+            "avg_mcm_adaptive_role_experience": self.sums["mcm_adaptive_role_experience"] / denom,
+            "avg_mcm_adaptive_path_experience": self.sums["mcm_adaptive_path_experience"] / denom,
             "avg_sensory_coupling": self.sums["sensory_coupling"] / denom,
             "avg_visual_field_gap": self.sums["visual_field_gap"] / denom,
             "avg_hearing_field_gap": self.sums["hearing_field_gap"] / denom,
