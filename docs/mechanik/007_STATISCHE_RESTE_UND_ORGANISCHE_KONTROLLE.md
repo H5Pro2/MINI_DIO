@@ -642,6 +642,53 @@ Wird dieser Randdruck aufgenommen, gedaempft, rekoppelt oder semantisch verdicht
 Damit wird der naechste Schritt eine relative Randdruck-Lupe,
 nicht eine weitere harte Topologieklasse.
 
+## Relative Randdruck-Lupe
+
+Die relative Randdruck-Lupe wurde als passives Diagnosewerkzeug ergaenzt:
+
+```text
+tools/report_relative_rand_pressure_loupe.py
+```
+
+Sie liest pro Welt vier konkurrierende Profile:
+
+```text
+randdruck
+offene_variante
+rekopplung
+daempfung
+```
+
+Dabei werden keine universellen MCM-Grenzen gesetzt.
+Die Lupe vergleicht nur innerhalb der jeweiligen Welt,
+welche Druckform lokal dominiert.
+
+Erster Bericht:
+
+```text
+reports/relative_rand_pressure_loupe.md
+```
+
+Die CSV-Einzeldaten koennen bei Bedarf vom Werkzeug neu erzeugt werden,
+werden aber nicht als Standardbefund versioniert.
+
+Der Bericht trennt jetzt zwei Ebenen:
+
+```text
+Gesamttopologie:
+  Das Feld kann insgesamt stark zentriert bleiben.
+
+Lokaler Randdruck:
+  Innerhalb dieser zentrierten Welt koennen trotzdem Randdruckzonen entstehen.
+```
+
+Damit ist der vorherige Widerspruch aufgeloest:
+
+```text
+Rand ist nicht verschwunden.
+Rand wird im Gesamtfeld haeufig rekoppelt und bleibt lokal als Druckprofil lesbar.
+```
+
 ## Noch vorhandene statische Bereiche
 
 ### Diagnose
@@ -705,5 +752,5 @@ erfahrungsgewichteter Rueckfuehrung
 
 ## Wie es weitergeht
 
-Als naechstes sollte eine relative Randdruck-Lupe gebaut werden.
-Sie soll innerhalb jeder Welt lesen, wo Randdruck, offene Variante, Rekopplung und Daempfung entstehen, ohne daraus eine starre Klasse oder Runtime-Regel zu machen.
+Als naechstes sollte die relative Randdruck-Lupe gegen weitere reale Stressfenster, ruhige Fenster und synthetische Randfenster laufen.
+Entscheidend ist, ob lokale Randdruckzonen nur kurz aufflackern oder ob sie sich zu wiederkehrenden offenen Bedeutungsinseln verdichten.

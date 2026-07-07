@@ -176,6 +176,8 @@ Ein erster Kontrollsatz nach dieser Bereinigung ueber SOL Real, SOL Stress, SOL 
 
 Ein laengerer Haertetest gegen Stable, Stress, Expansion und eine synthetische Rand/Kipp-Welt zeigt danach eine Methodengrenze: Die aktuelle Aufnahme und Topologie-Diagnose rekoppeln sehr stark zentrumsnah. Selbst Rand/Kipp-Input erscheint eher als kleine offene Nebenvariante statt als eigene Randrolle. Der naechste Schritt ist deshalb eine relative Randdruck-Lupe statt einer weiteren harten Topologieklasse.
 
+Diese Lupe ist jetzt als passives Werkzeug vorhanden: `tools/report_relative_rand_pressure_loupe.py`. Der erste Bericht zeigt die wichtige Trennung: Eine Welt kann gesamt-topologisch zentriert bleiben und trotzdem lokale Randdruckzonen enthalten. Rand ist damit nicht verschwunden, sondern wird im Gesamtfeld haeufig rekoppelt und lokal als Druckprofil lesbar. Siehe [relative_rand_pressure_loupe.md](reports/relative_rand_pressure_loupe.md).
+
 ## Hypothese Feldbewusstsein
 
 Wenn hier von Bewusstsein gesprochen wird, ist kein menschliches Ich-Bewusstsein gemeint.
