@@ -130,6 +130,8 @@ Die anschliessende Langfensterpruefung zeigt: Mehr Feldzeit macht offene Milieus
 
 Die darauf folgende Familienlagenpruefung zeigt: `milieu_offen` ist nicht nur ein getrennter Restbereich. In DOGE, XRP, PAXG und Stress beruehrt ein relevanter Anteil der Symbolfamilien sowohl offene als auch gereifte Milieus. Offenheit wird deshalb vorerst als Varianzschicht gelesen, die ueber stabilen Rollenfamilien liegen kann, statt als blosser Fehler oder fehlende Reifung. Siehe [1685_ADAPTIVE_MILIEU_FAMILIENSCHICHTEN.md](docs/befunde/1685_ADAPTIVE_MILIEU_FAMILIENSCHICHTEN.md).
 
+Eine Folgeweltpruefung bestaetigt diese Lesung weiter: In spaeteren Segmenten bleiben gemeinsame Familienkerne sichtbar, aber ihre Milieu-Relation verschiebt sich. DOGE und XRP verlieren etwas Offen/Gereift-Ueberlappung, PAXG bleibt fast gleich stark, Stress nimmt leicht zu. Das spricht gegen eine starre Kopie und fuer eine dynamische Varianzschicht, die je nach Weltkontakt anders ueber denselben Familien liegt. Siehe [1686_ADAPTIVE_MILIEU_FAMILIENSCHICHTEN_FOLGEWELT.md](docs/befunde/1686_ADAPTIVE_MILIEU_FAMILIENSCHICHTEN_FOLGEWELT.md) und [1687_ADAPTIVE_MILIEU_FOLGEWELT_VERGLEICH.md](docs/befunde/1687_ADAPTIVE_MILIEU_FOLGEWELT_VERGLEICH.md).
+
 ## Hypothese Feldbewusstsein
 
 Wenn hier von Bewusstsein gesprochen wird, ist kein menschliches Ich-Bewusstsein gemeint.

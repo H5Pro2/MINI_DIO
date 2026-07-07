@@ -250,6 +250,35 @@ offene Varianzschicht
 
 Der Befund liegt in [1685_ADAPTIVE_MILIEU_FAMILIENSCHICHTEN.md](../befunde/1685_ADAPTIVE_MILIEU_FAMILIENSCHICHTEN.md).
 
+## Folgewelt-Befund
+
+Eine Folgeweltpruefung mit spaeteren Segmenten derselben Weltquellen zeigt:
+
+```text
+DOGE   Familienueberlappung 0.5120, Offen+Gereift -0.0559
+XRP    Familienueberlappung 0.4356, Offen+Gereift -0.0339
+PAXG   Familienueberlappung 0.5702, Offen+Gereift -0.0083
+Stress Familienueberlappung 0.4901, Offen+Gereift +0.0135
+```
+
+Damit bleibt ein gemeinsamer Familienkern sichtbar, aber die Milieu-Relationen verschieben sich.
+
+Die Lesung:
+
+```text
+Familie bleibt erkennbar
+  -> Milieu kann sich verschieben
+  -> Offenheit ist dynamische Varianzschicht
+  -> Reifung ist keine starre Endform
+```
+
+Besonders wichtig ist der Unterschied zwischen PAXG und Stress. PAXG haelt die Offen/Gereift-Ueberlappung fast stabil, waehrend Stress trotz kuerzerem Fenster leicht mehr gemeinsame Offen/Gereift-Familien bildet. Das spricht dafuer, dass Weltkontakt nicht nur Familien erzeugt, sondern auch ihre Milieu-Lage verschiebt.
+
+Die Befunde liegen in:
+
+- [1686_ADAPTIVE_MILIEU_FAMILIENSCHICHTEN_FOLGEWELT.md](../befunde/1686_ADAPTIVE_MILIEU_FAMILIENSCHICHTEN_FOLGEWELT.md)
+- [1687_ADAPTIVE_MILIEU_FOLGEWELT_VERGLEICH.md](../befunde/1687_ADAPTIVE_MILIEU_FOLGEWELT_VERGLEICH.md)
+
 ## Forschungsgrenze
 
 Aus dieser Mechanik folgt noch nicht:
@@ -268,4 +297,4 @@ MINI_DIO kann passive Rueckfuehrung erfahrungsgewichtet sichtbar machen.
 
 ## Wie es weitergeht
 
-Als naechstes wird geprueft, ob diese offenen Familienlagen ueber Folgewelten stabil bleiben, in gereifte Milieus uebergehen oder als eigenstaendige Varianzschicht weiterdriften.
+Als naechstes werden Familien mit starkem Relationswechsel gegen konkrete Rohweltphasen gelesen. Wichtig sind besonders Wechsel von `offen_und_gereift` nach `nur_gereift` und von `nur_offen` nach `offen_und_gereift`.
