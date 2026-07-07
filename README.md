@@ -166,6 +166,8 @@ Die direkte Gegenueberstellung verdichtet den Befund: Einzelachsenstoerung bleib
 
 Die Zweierkopplung macht die Bruchlinie genauer: Range+Hoeren und Range+Spannung kippen `dio_0ly7` in `bruch_mit_range_aufweitung`, waehrend Hoeren+Spannung getragen bleibt. Damit wirkt nicht jede gekoppelte Last gleich. Vorlaeufig liegt die kritische Qualitaet bei Range-Kopplung. Siehe [1716_DIO_0LY7_ZWEIERKOPPLUNG.md](docs/befunde/1716_DIO_0LY7_ZWEIERKOPPLUNG.md), [1717_DIO_0LY7_ZWEIERKOPPLUNG_KLASSEN.md](docs/befunde/1717_DIO_0LY7_ZWEIERKOPPLUNG_KLASSEN.md) und [1718_DIO_0LY7_KOPPLUNGSHIERARCHIE.md](docs/befunde/1718_DIO_0LY7_KOPPLUNGSHIERARCHIE.md).
 
+Eine zweite Realwelt-Familie, `dio_01hu`, wurde gegen dieselbe Zweierkopplung gehalten. Dort war sie mit nur zwei Vorkommen zu duenn fuer eine harte Kopplungslesung. Damit trennt sich Realwelt-Robustheit von synthetischer Kopplungssichtbarkeit: nicht jede robuste Familie wird durch jede kuenstliche Stoerform dicht aktiviert. Siehe [1719_DIO_01HU_ZWEIERKOPPLUNG.md](docs/befunde/1719_DIO_01HU_ZWEIERKOPPLUNG.md), [1720_DIO_01HU_ZWEIERKOPPLUNG_KLASSEN.md](docs/befunde/1720_DIO_01HU_ZWEIERKOPPLUNG_KLASSEN.md) und [1721_DIO_0LY7_DIO_01HU_KOPPLUNGSVERGLEICH.md](docs/befunde/1721_DIO_0LY7_DIO_01HU_KOPPLUNGSVERGLEICH.md).
+
 ## Hypothese Feldbewusstsein
 
 Wenn hier von Bewusstsein gesprochen wird, ist kein menschliches Ich-Bewusstsein gemeint.

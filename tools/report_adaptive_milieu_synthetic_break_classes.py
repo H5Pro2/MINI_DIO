@@ -76,6 +76,7 @@ def _write_md(path: Path, rows: list[dict[str, object]], source: Path) -> None:
         else f"# {report_name}"
     )
     families = sorted({str(row.get("family", "")) for row in rows if row.get("family")})
+    family_label = ", ".join(families) if families else "Ziel-Familie"
     visible_rows = [row for row in rows if int(row.get("occurrences", 0) or 0) >= 10]
     carried = [row for row in visible_rows if row.get("break_class") == "oeffnung_getragen"]
     broken = [
@@ -137,28 +138,25 @@ def _write_md(path: Path, rows: list[dict[str, object]], source: Path) -> None:
     lines.append("")
     if carried and not broken:
         lines.append(
-            "In dieser Pruefung bleibt `dio_0ly7` dort sichtbar, wo die Achsenkopplung eine "
+            f"In dieser Pruefung bleibt `{family_label}` dort sichtbar, wo die Achsenkopplung eine "
             "Entlastungsbewegung traegt: Hoeren und Spannung fallen im Zielzeichen. "
             "Die reine Einzelachsen-Stoerung reicht hier nicht aus, um die Form zu brechen."
         )
     elif broken and not carried:
         lines.append(
-            "`dio_0ly7` bleibt sichtbar, aber die Entlastungsrichtung kippt: Hoeren oder Spannung "
+            f"`{family_label}` bleibt sichtbar, aber die Entlastungsrichtung kippt: Hoeren oder Spannung "
             "steigen im Zielzeichen. Das spricht fuer eine struktursensitive Bruchform."
         )
     elif carried and broken:
         lines.append(
-            "`dio_0ly7` zeigt gemischte Reaktion: einige Welten tragen die Entlastung, andere brechen sie. "
+            f"`{family_label}` zeigt gemischte Reaktion: einige Welten tragen die Entlastung, andere brechen sie. "
             "Damit ist die Form achsensensitiv und muss je Stoerklasse getrennt gelesen werden."
         )
     else:
         lines.append(
-            "`dio_0ly7` ist in dieser Pruefung zu selten sichtbar. Die Achsenwirkung bleibt deshalb offen."
+            f"`{family_label}` ist in dieser Pruefung zu selten sichtbar. Die Achsenwirkung bleibt deshalb offen."
         )
     lines.append("")
-    if "dio_01hu" in families:
-        lines.append("`dio_01hu` ist in dieser Gegenprobe zu selten und wird deshalb nicht hart gelesen.")
-        lines.append("")
     lines.append("## Grenze")
     lines.append("")
     lines.append("```text")
@@ -176,7 +174,7 @@ def _write_md(path: Path, rows: list[dict[str, object]], source: Path) -> None:
     if is_pair_report:
         lines.append(
             "Als naechstes sollte die Zweierkopplung direkt gegen Einzelachsen und volle Dreierlast "
-            "verdichtet werden: welche Kopplungsqualitaet bricht `dio_0ly7` wirklich?"
+            f"verdichtet werden: welche Kopplungsqualitaet bricht `{family_label}` wirklich?"
         )
     else:
         lines.append(

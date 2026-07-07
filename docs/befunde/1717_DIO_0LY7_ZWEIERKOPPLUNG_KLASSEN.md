@@ -1,6 +1,6 @@
 # 1717 - Synthetische Zweierkopplungs-Bruchklassen der Oeffnungs-Vorform
 
-Stand: 2026-07-07 23:20:25
+Stand: 2026-07-07 23:29:14
 
 ## Zweck
 

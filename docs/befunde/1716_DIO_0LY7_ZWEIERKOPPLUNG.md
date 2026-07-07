@@ -1,6 +1,6 @@
 # 1716 - Synthetische Zweierkopplung der Oeffnungs-Vorform
 
-Stand: 2026-07-07 23:20:27
+Stand: 2026-07-07 23:29:14
 
 ## Zweck
 

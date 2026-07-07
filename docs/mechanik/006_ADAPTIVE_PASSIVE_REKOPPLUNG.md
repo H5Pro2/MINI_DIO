@@ -965,6 +965,29 @@ Die Berichte:
 - [1717_DIO_0LY7_ZWEIERKOPPLUNG_KLASSEN.md](../befunde/1717_DIO_0LY7_ZWEIERKOPPLUNG_KLASSEN.md)
 - [1718_DIO_0LY7_KOPPLUNGSHIERARCHIE.md](../befunde/1718_DIO_0LY7_KOPPLUNGSHIERARCHIE.md)
 
+## Zweite Familie als Gegenpruefung
+
+`dio_01hu` wurde als zweite Realwelt-Familie gegen dieselbe Zweierkopplung gelesen.
+
+Ergebnis:
+
+```text
+dio_01hu:
+  Range + Hoeren      -> 0 Vorkommen
+  Range + Spannung    -> 1 Vorkommen
+  Hoeren + Spannung   -> 1 Vorkommen
+```
+
+Damit ist `dio_01hu` in dieser synthetischen Kopplungsdiagnose zu duenn.
+Das widerspricht nicht der Realwelt-Robustheit.
+Es zeigt nur, dass Realwelt-Wiederkehr und synthetische Kopplungssichtbarkeit getrennte Eigenschaften sind.
+
+Die Berichte:
+
+- [1719_DIO_01HU_ZWEIERKOPPLUNG.md](../befunde/1719_DIO_01HU_ZWEIERKOPPLUNG.md)
+- [1720_DIO_01HU_ZWEIERKOPPLUNG_KLASSEN.md](../befunde/1720_DIO_01HU_ZWEIERKOPPLUNG_KLASSEN.md)
+- [1721_DIO_0LY7_DIO_01HU_KOPPLUNGSVERGLEICH.md](../befunde/1721_DIO_0LY7_DIO_01HU_KOPPLUNGSVERGLEICH.md)
+
 ## Forschungsgrenze
 
 Aus dieser Mechanik folgt noch nicht:

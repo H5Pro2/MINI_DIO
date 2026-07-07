@@ -1,0 +1,4 @@
+world,family,occurrences,hearing_delta,tension_delta,range_delta,break_class
+SYN_PAIR_RANGE_HEARING,dio_01hu,0,0.0,0.0,0.0,zu_duenn
+SYN_PAIR_RANGE_TENSION,dio_01hu,1,0.048061,0.024218,0.033716,zu_duenn
+SYN_PAIR_HEARING_TENSION,dio_01hu,1,0.043054,0.026957,-0.017231,zu_duenn
