@@ -213,7 +213,41 @@ def _write_md(rows: list[dict[str, object]], summary: list[dict[str, object]], o
     summary_path = out_path.with_name(out_path.stem + "_summary.csv")
     _write_csv(summary, summary_path)
     title_prefix = out_path.stem.split("_", 1)[0]
-    title = f"# {title_prefix} - 10k-Pruefung der Oeffnungs-Vorform" if title_prefix.isdigit() else "# 10k-Pruefung der Oeffnungs-Vorform"
+    is_axis_report = "ACHSENISOLATION" in out_path.stem.upper()
+    report_name = (
+        "Synthetische Achsenisolation der Oeffnungs-Vorform"
+        if is_axis_report
+        else "10k-Pruefung der Oeffnungs-Vorform"
+    )
+    title = f"# {title_prefix} - {report_name}" if title_prefix.isdigit() else f"# {report_name}"
+    if is_axis_report:
+        purpose = (
+            "Diese Diagnose prueft, ob die Oeffnungs-Vorform bei isolierten synthetischen "
+            "Sinnesachsen sichtbar bleibt oder erst durch gekoppelte Last bricht."
+        )
+        hierarchy = [
+            "1. Grundfrage: Traegt `dio_0ly7` unter einzelner Achsenstoerung weiter?",
+            "2. Unterpruefung: Hoer-, Spannungs- und Range-Delta je isolierter Welt lesen.",
+            "3. Folgeschritt: Gegen gekoppelte Lastwelten vergleichen.",
+        ]
+        next_step = (
+            "Als naechstes sollte die Achsenisolation gegen gekoppelte Lastwelten gehalten werden: "
+            "kippt `dio_0ly7` erst, wenn Range, Hoeren und Spannung gemeinsam steigen?"
+        )
+    else:
+        purpose = (
+            "Diese Diagnose prueft, ob die in 1702 beschriebene Entlastungsbewegung in "
+            "durchlaufenden 10k-Welten wiederkehrt."
+        )
+        hierarchy = [
+            "1. Grundfrage: Ist `milieu_oeffnet_nach_entlastung` auch ohne 5000er Split sichtbar?",
+            "2. Unterpruefung: `dio_0ly7` und `dio_01hu` in frischen 10k-Welten gegen Vorfenster lesen.",
+            "3. Folgeschritt: Falls stabil, laengere Weltgruppen und weitere Jahre pruefen.",
+        ]
+        next_step = (
+            "Als naechstes sollte der Befund gegen andere Jahre und gegen synthetische Kontrollwelten "
+            "gehalten werden, falls die 10k-Pruefung die Entlastungsform traegt."
+        )
     lines = [
         title,
         "",
@@ -221,14 +255,12 @@ def _write_md(rows: list[dict[str, object]], summary: list[dict[str, object]], o
         "",
         "## Zweck",
         "",
-        "Diese Diagnose prueft, ob die in 1702 beschriebene Entlastungsbewegung in durchlaufenden 10k-Welten wiederkehrt.",
+        purpose,
         "Sie bleibt passiv: keine Handlung, kein Gate, keine Richtung.",
         "",
         "## Hierarchie",
         "",
-        "1. Grundfrage: Ist `milieu_oeffnet_nach_entlastung` auch ohne 5000er Split sichtbar?",
-        "2. Unterpruefung: `dio_0ly7` und `dio_01hu` in frischen 10k-Welten gegen Vorfenster lesen.",
-        "3. Folgeschritt: Falls stabil, laengere Weltgruppen und weitere Jahre pruefen.",
+        *hierarchy,
         "",
         "## Aggregat",
         "",
@@ -290,7 +322,7 @@ def _write_md(rows: list[dict[str, object]], summary: list[dict[str, object]], o
             "",
             "## Wie es weitergeht",
             "",
-            "Als naechstes sollte der Befund gegen andere Jahre und gegen synthetische Kontrollwelten gehalten werden, falls die 10k-Pruefung die Entlastungsform traegt.",
+            next_step,
             "",
         ]
     )

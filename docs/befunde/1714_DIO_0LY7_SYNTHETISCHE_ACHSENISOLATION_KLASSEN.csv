@@ -1,0 +1,7 @@
+world,family,occurrences,hearing_delta,tension_delta,range_delta,break_class
+SYN_PURE_HEARING,dio_0ly7,0,0.0,0.0,0.0,zu_duenn
+SYN_VISUAL_BREAKS_STABLE_PULSE,dio_0ly7,76,-0.093455,-0.08822,0.05724,oeffnung_getragen
+SYN_VISUAL_STABLE_HEARING_CHAOTIC,dio_0ly7,0,0.0,0.0,0.0,zu_duenn
+SYN_VISUAL_CHAOTIC_HEARING_STABLE,dio_0ly7,0,0.0,0.0,0.0,zu_duenn
+SYN_VISUAL_RECOUPLING_CHAOTIC_TONE,dio_0ly7,61,-0.01726,-0.01618,0.294084,oeffnung_getragen
+SYN_DESYNC_AXES,dio_0ly7,0,0.0,0.0,0.0,zu_duenn

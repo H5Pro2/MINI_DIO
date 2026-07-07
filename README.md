@@ -160,6 +160,8 @@ Eine isolierte Zusatzpruefung von `dio_0ly7` gegen weitere synthetische Variante
 
 Die folgende Real-gegen-Synthetik-Pruefung zeigt die Ursache schärfer: Range-Aufweitung allein kippt `dio_0ly7` nicht. In realen PAXG-Welten bleibt die Form trotz leichter Range-Aufweitung entlastend. Erst in synthetischen Welten koppelt Range-Aufweitung mit Hoer- und Spannungsanstieg. Der Bruch ist damit eine Kombinationswirkung. Siehe [1712_DIO_0LY7_RANGE_AUFWEITUNG_REAL_GEGEN_SYNTHETISCH.md](docs/befunde/1712_DIO_0LY7_RANGE_AUFWEITUNG_REAL_GEGEN_SYNTHETISCH.md).
 
+Die Achsenisolation stuetzt diese Lesung weiter. In sechs synthetischen Einzelachsenwelten erscheint `dio_0ly7` nur in zwei Welten ausreichend sichtbar; dort bleibt die Form entlastend, obwohl Range teils deutlich steigt. Einzelne Hoer-, Sicht- oder Desynchronisationsstoerung reicht damit bisher nicht, um die Form zu brechen. Der Bruch bleibt eine gekoppelte Wirkung aus Range-Aufweitung, Hoeranstieg und Spannungsanstieg. Siehe [1713_DIO_0LY7_SYNTHETISCHE_ACHSENISOLATION.md](docs/befunde/1713_DIO_0LY7_SYNTHETISCHE_ACHSENISOLATION.md) und [1714_DIO_0LY7_SYNTHETISCHE_ACHSENISOLATION_KLASSEN.md](docs/befunde/1714_DIO_0LY7_SYNTHETISCHE_ACHSENISOLATION_KLASSEN.md).
+
 ## Hypothese Feldbewusstsein
 
 Wenn hier von Bewusstsein gesprochen wird, ist kein menschliches Ich-Bewusstsein gemeint.

@@ -830,6 +830,56 @@ Bruch von dio_0ly7 =
 
 Der Bericht liegt in [1712_DIO_0LY7_RANGE_AUFWEITUNG_REAL_GEGEN_SYNTHETISCH.md](../befunde/1712_DIO_0LY7_RANGE_AUFWEITUNG_REAL_GEGEN_SYNTHETISCH.md).
 
+## Synthetische Achsenisolation
+
+Danach wurde `dio_0ly7` gegen sechs synthetische Einzelachsenwelten gelesen:
+
+```text
+reines Hoeren
+visuelle Brueche bei stabilem Puls
+stabile Sicht bei chaotischem Hoeren
+chaotische Sicht bei stabilem Hoeren
+visuelle Rekopplung bei chaotischem Ton
+desynchronisierte Achsen
+```
+
+Ergebnis:
+
+```text
+sichtbar genug: 2 Welten
+zu duenn:       4 Welten
+
+sichtbare Welten:
+  Delta Hoeren   negativ
+  Delta Spannung negativ
+  Delta Range    positiv
+```
+
+Lesung:
+
+```text
+Einzelachsenstoerung bricht dio_0ly7 bisher nicht.
+Wenn die Form sichtbar bleibt, bleibt sie entlastend.
+Range-Aufweitung allein oder isolierte Sinnesstoerung reicht nicht aus.
+Der Bruch braucht die gekoppelte Last aus Range, Hoeren und Spannung.
+```
+
+Damit wird die vorherige Formel enger:
+
+```text
+Bruch von dio_0ly7 =
+  nicht Einzelachse
+  sondern gekoppelte Last:
+    Range-Aufweitung
+    + Hoeranstieg
+    + Spannungsanstieg
+```
+
+Die Berichte:
+
+- [1713_DIO_0LY7_SYNTHETISCHE_ACHSENISOLATION.md](../befunde/1713_DIO_0LY7_SYNTHETISCHE_ACHSENISOLATION.md)
+- [1714_DIO_0LY7_SYNTHETISCHE_ACHSENISOLATION_KLASSEN.md](../befunde/1714_DIO_0LY7_SYNTHETISCHE_ACHSENISOLATION_KLASSEN.md)
+
 ## Forschungsgrenze
 
 Aus dieser Mechanik folgt noch nicht:

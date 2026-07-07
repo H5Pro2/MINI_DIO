@@ -70,6 +70,13 @@ def _write_md(path: Path, rows: list[dict[str, object]], source: Path) -> None:
         else "# Synthetische Bruchklassen der Oeffnungs-Vorform"
     )
     families = sorted({str(row.get("family", "")) for row in rows if row.get("family")})
+    visible_rows = [row for row in rows if int(row.get("occurrences", 0) or 0) >= 10]
+    carried = [row for row in visible_rows if row.get("break_class") == "oeffnung_getragen"]
+    broken = [
+        row
+        for row in visible_rows
+        if str(row.get("break_class", "")).startswith("bruch") or row.get("break_class") == "teilbruch"
+    ]
     lines: list[str] = []
     lines.append(title)
     lines.append("")
@@ -111,10 +118,26 @@ def _write_md(path: Path, rows: list[dict[str, object]], source: Path) -> None:
     lines.append("")
     lines.append("## Lesung")
     lines.append("")
-    lines.append(
-        "`dio_0ly7` bleibt in den synthetischen Welten sichtbar, aber die Entlastungsrichtung kehrt sich um: "
-        "Hoeren und Spannung steigen im Zielzeichen. Das spricht fuer eine struktursensitive Feldform."
-    )
+    if carried and not broken:
+        lines.append(
+            "In dieser Pruefung bleibt `dio_0ly7` dort sichtbar, wo die Achsenkopplung eine "
+            "Entlastungsbewegung traegt: Hoeren und Spannung fallen im Zielzeichen. "
+            "Die reine Einzelachsen-Stoerung reicht hier nicht aus, um die Form zu brechen."
+        )
+    elif broken and not carried:
+        lines.append(
+            "`dio_0ly7` bleibt sichtbar, aber die Entlastungsrichtung kippt: Hoeren oder Spannung "
+            "steigen im Zielzeichen. Das spricht fuer eine struktursensitive Bruchform."
+        )
+    elif carried and broken:
+        lines.append(
+            "`dio_0ly7` zeigt gemischte Reaktion: einige Welten tragen die Entlastung, andere brechen sie. "
+            "Damit ist die Form achsensensitiv und muss je Stoerklasse getrennt gelesen werden."
+        )
+    else:
+        lines.append(
+            "`dio_0ly7` ist in dieser Pruefung zu selten sichtbar. Die Achsenwirkung bleibt deshalb offen."
+        )
     lines.append("")
     if "dio_01hu" in families:
         lines.append("`dio_01hu` ist in dieser Gegenprobe zu selten und wird deshalb nicht hart gelesen.")
@@ -134,7 +157,8 @@ def _write_md(path: Path, rows: list[dict[str, object]], source: Path) -> None:
     lines.append("## Wie es weitergeht")
     lines.append("")
     lines.append(
-        "Als naechstes sollte `dio_0ly7` gegen weitere synthetische Varianten gehalten werden, um Range-Aufweitung von reiner Laststeigerung zu trennen."
+        "Als naechstes sollte die Achsenisolation gegen weitere Weltfenster gehalten werden: "
+        "bleibt die Form bei Einzelstoerung getragen, aber kippt bei gekoppelter Last?"
     )
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
