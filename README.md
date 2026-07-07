@@ -178,6 +178,8 @@ Ein laengerer Haertetest gegen Stable, Stress, Expansion und eine synthetische R
 
 Diese Lupe ist jetzt als passives Werkzeug vorhanden: `tools/report_relative_rand_pressure_loupe.py`. Der erste Bericht zeigt die wichtige Trennung: Eine Welt kann gesamt-topologisch zentriert bleiben und trotzdem lokale Randdruckzonen enthalten. Rand ist damit nicht verschwunden, sondern wird im Gesamtfeld haeufig rekoppelt und lokal als Druckprofil lesbar. Siehe [relative_rand_pressure_loupe.md](reports/relative_rand_pressure_loupe.md).
 
+Eine erweiterte Mehrwelt-Lupe gegen ruhige SOL-/BTC-Fenster, stressige SOL-/BTC-Fenster und zwei synthetische Randwelten bestaetigt diese Schichtung. Reale Welten bleiben im lokalen Randdruck eng beieinander, synthetische Randwelten zeigen hoeheren Randdruck und staerkere Rekopplung. Damit wirkt Rand nicht als einfache Klasse, sondern als lokaler Druckraum innerhalb einer global oft zentrumsnahen Feldordnung. Siehe [1722_RELATIVE_RANDDRUCK_LUPE_MEHRWELT.md](docs/befunde/1722_RELATIVE_RANDDRUCK_LUPE_MEHRWELT.md) und [relative_rand_pressure_loupe_probe2.md](reports/relative_rand_pressure_loupe_probe2.md).
+
 ## Hypothese Feldbewusstsein
 
 Wenn hier von Bewusstsein gesprochen wird, ist kein menschliches Ich-Bewusstsein gemeint.
