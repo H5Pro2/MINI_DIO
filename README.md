@@ -146,6 +146,8 @@ Eine Gegenprobe gegen BTC, DOGE, XRP und PAXG zeigt danach: Drei der fuenf `mili
 
 Die Rohweltfenster dieser beiden Kandidaten zeigen eine erste moegliche Oeffnungs-Vorform: Vor der erneuten Oeffnung liegen Hoeren-Gap und Feldspannung moderat hoeher, in der Oeffnungsfamilie selbst fallen beide ab. Vorlaeufig wird das als `milieu_oeffnet_nach_entlastung` gelesen. Siehe [1701_ADAPTIVE_MILIEU_ZIELFAMILIEN_ROHWELTFENSTER.md](docs/befunde/1701_ADAPTIVE_MILIEU_ZIELFAMILIEN_ROHWELTFENSTER.md) und [1702_ADAPTIVE_MILIEU_OEFFNUNGS_VORFORM.md](docs/befunde/1702_ADAPTIVE_MILIEU_OEFFNUNGS_VORFORM.md).
 
+Eine frische 10k-Pruefung gegen BTC, DOGE, XRP und PAXG stuetzt diese Arbeitsform weiter: Ueber 304 Vorkommen der Ziel-Familien bleibt der Unterschied negativ. Vor dem Zielzeichen sind Hoeren-Gap und Feldspannung hoeher, im Zielzeichen fallen beide ab. Damit wirkt `milieu_oeffnet_nach_entlastung` nicht nur wie ein 5000er-Split-Effekt, sondern wie eine stabilere passive Feldbewegung. Siehe [1703_ADAPTIVE_MILIEU_OEFFNUNGS_VORFORM_10K.md](docs/befunde/1703_ADAPTIVE_MILIEU_OEFFNUNGS_VORFORM_10K.md).
+
 ## Hypothese Feldbewusstsein
 
 Wenn hier von Bewusstsein gesprochen wird, ist kein menschliches Ich-Bewusstsein gemeint.

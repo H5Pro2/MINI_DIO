@@ -533,6 +533,50 @@ Die Berichte:
 - [1701_ADAPTIVE_MILIEU_ZIELFAMILIEN_ROHWELTFENSTER.md](../befunde/1701_ADAPTIVE_MILIEU_ZIELFAMILIEN_ROHWELTFENSTER.md)
 - [1702_ADAPTIVE_MILIEU_OEFFNUNGS_VORFORM.md](../befunde/1702_ADAPTIVE_MILIEU_OEFFNUNGS_VORFORM.md)
 
+## 10k-Pruefung der Oeffnungs-Vorform
+
+Die gleiche Arbeitsform wurde danach in frischen durchlaufenden 10k-Welten gelesen.
+
+Geprueft:
+
+```text
+BTC 2024 5m 10k
+DOGE 2024 5m 10k
+XRP 2024 5m 10k
+PAXG 2024 5m 10k
+```
+
+Aggregat ueber 304 Vorkommen:
+
+```text
+Vorfenster Hoeren     0.0985
+Zielzeichen Hoeren    0.0570
+Delta Hoeren         -0.0415
+
+Vorfenster Spannung   0.1016
+Zielzeichen Spannung  0.0607
+Delta Spannung       -0.0409
+```
+
+Damit bleibt die Entlastungsbewegung auch ohne reine 5000er Basis/Folge-Splittung sichtbar.
+
+Familiengetrennt:
+
+```text
+dio_01hu: Delta Hoeren -0.0302, Delta Spannung -0.0307
+dio_0ly7: Delta Hoeren -0.0500, Delta Spannung -0.0485
+```
+
+Lesung:
+
+```text
+milieu_oeffnet_nach_entlastung
+  bleibt als passive Arbeitsform tragfaehig
+  ist aber noch keine feste Bedeutungsdefinition
+```
+
+Der Bericht liegt in [1703_ADAPTIVE_MILIEU_OEFFNUNGS_VORFORM_10K.md](../befunde/1703_ADAPTIVE_MILIEU_OEFFNUNGS_VORFORM_10K.md).
+
 ## Forschungsgrenze
 
 Aus dieser Mechanik folgt noch nicht:
