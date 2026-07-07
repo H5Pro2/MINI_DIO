@@ -197,6 +197,27 @@ Feldrolle
 
 Der Befund liegt in [1683_ADAPTIVE_MILIEU_MEHRWELT_VERGLEICH.md](../befunde/1683_ADAPTIVE_MILIEU_MEHRWELT_VERGLEICH.md).
 
+## Langfenster-Befund
+
+Eine laengere Pruefung ueber DOGE, XRP, PAXG und Stress zeigt:
+
+```text
+Mehr Feldzeit macht offene Milieus nicht automatisch geschlossen.
+```
+
+In allen Langfenstern bleibt `milieu_offen` deutlich vorhanden. Gleichzeitig wachsen rollennahe und gemeinsam getragene Milieus mit.
+
+Damit wird Reifung nicht als Verschwinden von Offenheit gelesen, sondern als Koexistenz:
+
+```text
+offene Varianz
+  + rollennahe Erfahrung
+  + pfadnahe Teilspur
+  + gemeinsam getragene Rekopplungsnaehe
+```
+
+Der Befund liegt in [1684_ADAPTIVE_MILIEU_LANGFENSTER_VERGLEICH.md](../befunde/1684_ADAPTIVE_MILIEU_LANGFENSTER_VERGLEICH.md).
+
 ## Forschungsgrenze
 
 Aus dieser Mechanik folgt noch nicht:
@@ -215,4 +236,4 @@ MINI_DIO kann passive Rueckfuehrung erfahrungsgewichtet sichtbar machen.
 
 ## Wie es weitergeht
 
-Als naechstes wird geprueft, ob diese Milieus ueber laengere Fenster stabil bleiben oder ob sich offene Milieus mit wachsender Feldzeit in rollennahe, pfadnahe oder gemeinsam getragene Milieus verschieben.
+Als naechstes wird geprueft, ob offene Milieus in spaeteren Segmenten dieselben Familien tragen oder ob sie als wechselnde Varianzschicht ueber stabilen Rollenfamilien liegen.

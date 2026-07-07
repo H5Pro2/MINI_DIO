@@ -126,6 +126,8 @@ Die anschliessende Rollen-/Familienpruefung trennt diese Frage feiner. BTC und D
 
 Eine weitere Mehrweltpruefung ueber DOGE, XRP, PAXG und Stress zeigt: Die Milieu-Lesung bleibt nicht BTC-spezifisch. Adaptive Rekopplung liegt in allen vier Welten ueber der statischen Referenz, waehrend `milieu_offen`, `milieu_rollennah`, `milieu_pfadnah` und `milieu_rolle_und_pfad_getragen` unterschiedlich verteilt sind. Damit wird sichtbar, dass gleiche Symbolfamilien je nach Weltkontakt anders rekoppeln koennen. Siehe [1683_ADAPTIVE_MILIEU_MEHRWELT_VERGLEICH.md](docs/befunde/1683_ADAPTIVE_MILIEU_MEHRWELT_VERGLEICH.md).
 
+Die anschliessende Langfensterpruefung zeigt: Mehr Feldzeit macht offene Milieus nicht automatisch geschlossen. `milieu_offen` bleibt in DOGE, XRP, PAXG und Stress deutlich vorhanden, waehrend rollennahe und gemeinsam getragene Milieus mitwachsen. Reifung wird hier deshalb als Koexistenz aus offener Varianz und getragener Rekopplungsnaehe gelesen. Siehe [1684_ADAPTIVE_MILIEU_LANGFENSTER_VERGLEICH.md](docs/befunde/1684_ADAPTIVE_MILIEU_LANGFENSTER_VERGLEICH.md).
+
 ## Hypothese Feldbewusstsein
 
 Wenn hier von Bewusstsein gesprochen wird, ist kein menschliches Ich-Bewusstsein gemeint.
