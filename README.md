@@ -162,6 +162,8 @@ Die folgende Real-gegen-Synthetik-Pruefung zeigt die Ursache schärfer: Range-Au
 
 Die Achsenisolation stuetzt diese Lesung weiter. In sechs synthetischen Einzelachsenwelten erscheint `dio_0ly7` nur in zwei Welten ausreichend sichtbar; dort bleibt die Form entlastend, obwohl Range teils deutlich steigt. Einzelne Hoer-, Sicht- oder Desynchronisationsstoerung reicht damit bisher nicht, um die Form zu brechen. Der Bruch bleibt eine gekoppelte Wirkung aus Range-Aufweitung, Hoeranstieg und Spannungsanstieg. Siehe [1713_DIO_0LY7_SYNTHETISCHE_ACHSENISOLATION.md](docs/befunde/1713_DIO_0LY7_SYNTHETISCHE_ACHSENISOLATION.md) und [1714_DIO_0LY7_SYNTHETISCHE_ACHSENISOLATION_KLASSEN.md](docs/befunde/1714_DIO_0LY7_SYNTHETISCHE_ACHSENISOLATION_KLASSEN.md).
 
+Die direkte Gegenueberstellung verdichtet den Befund: Einzelachsenstoerung bleibt, wenn sichtbar, `oeffnung_getragen`; gekoppelte synthetische Last kippt 6 von 6 sichtbar gewordenen Welten in `bruch_mit_range_aufweitung`. Daraus folgt vorlaeufig: MCM-Bedeutung liegt nicht nur in der Symbolfamilie, sondern in Familie plus Weltmilieu plus Feldwirkung. Siehe [1715_DIO_0LY7_EINZELACHSE_GEGEN_GEKOUPPELTE_LAST.md](docs/befunde/1715_DIO_0LY7_EINZELACHSE_GEGEN_GEKOUPPELTE_LAST.md).
+
 ## Hypothese Feldbewusstsein
 
 Wenn hier von Bewusstsein gesprochen wird, ist kein menschliches Ich-Bewusstsein gemeint.

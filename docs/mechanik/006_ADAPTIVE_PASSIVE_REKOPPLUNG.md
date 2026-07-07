@@ -880,6 +880,34 @@ Die Berichte:
 - [1713_DIO_0LY7_SYNTHETISCHE_ACHSENISOLATION.md](../befunde/1713_DIO_0LY7_SYNTHETISCHE_ACHSENISOLATION.md)
 - [1714_DIO_0LY7_SYNTHETISCHE_ACHSENISOLATION_KLASSEN.md](../befunde/1714_DIO_0LY7_SYNTHETISCHE_ACHSENISOLATION_KLASSEN.md)
 
+## Einzelachse gegen gekoppelte Last
+
+Die direkte Gegenueberstellung trennt die Befunde:
+
+```text
+Einzelachsenstoerung:
+  2 von 6 sichtbar genug
+  2 von 2 oeffnung_getragen
+
+gekoppelte synthetische Last:
+  6 von 6 sichtbar genug
+  6 von 6 bruch_mit_range_aufweitung
+```
+
+Damit wird die adaptive Milieulesung praeziser:
+
+```text
+MCM-Bedeutung =
+  Symbolfamilie
+  + Weltmilieu
+  + gekoppelte Feldwirkung
+```
+
+Die Symbolfamilie allein ist nicht ausreichend.
+`dio_0ly7` kann unter Entlastung getragen bleiben und unter gekoppelter Last kippen.
+
+Der Bericht liegt in [1715_DIO_0LY7_EINZELACHSE_GEGEN_GEKOUPPELTE_LAST.md](../befunde/1715_DIO_0LY7_EINZELACHSE_GEGEN_GEKOUPPELTE_LAST.md).
+
 ## Forschungsgrenze
 
 Aus dieser Mechanik folgt noch nicht:
