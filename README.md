@@ -164,6 +164,8 @@ Die Achsenisolation stuetzt diese Lesung weiter. In sechs synthetischen Einzelac
 
 Die direkte Gegenueberstellung verdichtet den Befund: Einzelachsenstoerung bleibt, wenn sichtbar, `oeffnung_getragen`; gekoppelte synthetische Last kippt 6 von 6 sichtbar gewordenen Welten in `bruch_mit_range_aufweitung`. Daraus folgt vorlaeufig: MCM-Bedeutung liegt nicht nur in der Symbolfamilie, sondern in Familie plus Weltmilieu plus Feldwirkung. Siehe [1715_DIO_0LY7_EINZELACHSE_GEGEN_GEKOUPPELTE_LAST.md](docs/befunde/1715_DIO_0LY7_EINZELACHSE_GEGEN_GEKOUPPELTE_LAST.md).
 
+Die Zweierkopplung macht die Bruchlinie genauer: Range+Hoeren und Range+Spannung kippen `dio_0ly7` in `bruch_mit_range_aufweitung`, waehrend Hoeren+Spannung getragen bleibt. Damit wirkt nicht jede gekoppelte Last gleich. Vorlaeufig liegt die kritische Qualitaet bei Range-Kopplung. Siehe [1716_DIO_0LY7_ZWEIERKOPPLUNG.md](docs/befunde/1716_DIO_0LY7_ZWEIERKOPPLUNG.md), [1717_DIO_0LY7_ZWEIERKOPPLUNG_KLASSEN.md](docs/befunde/1717_DIO_0LY7_ZWEIERKOPPLUNG_KLASSEN.md) und [1718_DIO_0LY7_KOPPLUNGSHIERARCHIE.md](docs/befunde/1718_DIO_0LY7_KOPPLUNGSHIERARCHIE.md).
+
 ## Hypothese Feldbewusstsein
 
 Wenn hier von Bewusstsein gesprochen wird, ist kein menschliches Ich-Bewusstsein gemeint.

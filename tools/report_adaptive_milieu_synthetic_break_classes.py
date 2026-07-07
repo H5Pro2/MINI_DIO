@@ -64,10 +64,16 @@ def _fmt(value: object) -> str:
 def _write_md(path: Path, rows: list[dict[str, object]], source: Path) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     title_prefix = path.stem.split("_", 1)[0]
+    is_pair_report = "ZWEIERKOPPLUNG" in path.stem.upper() or "PAIR_" in str(source).upper()
+    report_name = (
+        "Synthetische Zweierkopplungs-Bruchklassen der Oeffnungs-Vorform"
+        if is_pair_report
+        else "Synthetische Bruchklassen der Oeffnungs-Vorform"
+    )
     title = (
-        f"# {title_prefix} - Synthetische Bruchklassen der Oeffnungs-Vorform"
+        f"# {title_prefix} - {report_name}"
         if title_prefix.isdigit()
-        else "# Synthetische Bruchklassen der Oeffnungs-Vorform"
+        else f"# {report_name}"
     )
     families = sorted({str(row.get("family", "")) for row in rows if row.get("family")})
     visible_rows = [row for row in rows if int(row.get("occurrences", 0) or 0) >= 10]
@@ -84,16 +90,27 @@ def _write_md(path: Path, rows: list[dict[str, object]], source: Path) -> None:
     lines.append("")
     lines.append("## Zweck")
     lines.append("")
-    lines.append(
-        "Diese Diagnose klassifiziert, welche synthetischen Stoerformen die reale Oeffnungs-Vorform brechen."
-    )
+    if is_pair_report:
+        lines.append(
+            "Diese Diagnose klassifiziert, welche synthetischen Zweierkopplungen die reale "
+            "Oeffnungs-Vorform tragen oder brechen."
+        )
+    else:
+        lines.append(
+            "Diese Diagnose klassifiziert, welche synthetischen Stoerformen die reale Oeffnungs-Vorform brechen."
+        )
     lines.append("Sie bleibt passiv: keine Handlung, kein Gate, keine Richtung.")
     lines.append("")
     lines.append("## Hierarchie")
     lines.append("")
-    lines.append("1. Grundfrage: Welche Stoerform bricht die Oeffnungs-Vorform?")
-    lines.append("2. Unterpruefung: Hoer-, Spannungs- und Range-Delta je Welt/Familie lesen.")
-    lines.append("3. Folgeschritt: Bruchklassen gegen weitere synthetische Varianten halten.")
+    if is_pair_report:
+        lines.append("1. Grundfrage: Welche Zweierkopplung bricht die Oeffnungs-Vorform?")
+        lines.append("2. Unterpruefung: Range+Hoeren, Range+Spannung und Hoeren+Spannung getrennt lesen.")
+        lines.append("3. Folgeschritt: Gegen Einzelachsen und volle Dreierlast verdichten.")
+    else:
+        lines.append("1. Grundfrage: Welche Stoerform bricht die Oeffnungs-Vorform?")
+        lines.append("2. Unterpruefung: Hoer-, Spannungs- und Range-Delta je Welt/Familie lesen.")
+        lines.append("3. Folgeschritt: Bruchklassen gegen weitere synthetische Varianten halten.")
     lines.append("")
     lines.append("## Klassifikation")
     lines.append("")
@@ -156,10 +173,16 @@ def _write_md(path: Path, rows: list[dict[str, object]], source: Path) -> None:
     lines.append("")
     lines.append("## Wie es weitergeht")
     lines.append("")
-    lines.append(
-        "Als naechstes sollte die Achsenisolation gegen weitere Weltfenster gehalten werden: "
-        "bleibt die Form bei Einzelstoerung getragen, aber kippt bei gekoppelter Last?"
-    )
+    if is_pair_report:
+        lines.append(
+            "Als naechstes sollte die Zweierkopplung direkt gegen Einzelachsen und volle Dreierlast "
+            "verdichtet werden: welche Kopplungsqualitaet bricht `dio_0ly7` wirklich?"
+        )
+    else:
+        lines.append(
+            "Als naechstes sollte die Achsenisolation gegen weitere Weltfenster gehalten werden: "
+            "bleibt die Form bei Einzelstoerung getragen, aber kippt bei gekoppelter Last?"
+        )
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 

@@ -213,12 +213,15 @@ def _write_md(rows: list[dict[str, object]], summary: list[dict[str, object]], o
     summary_path = out_path.with_name(out_path.stem + "_summary.csv")
     _write_csv(summary, summary_path)
     title_prefix = out_path.stem.split("_", 1)[0]
-    is_axis_report = "ACHSENISOLATION" in out_path.stem.upper()
-    report_name = (
-        "Synthetische Achsenisolation der Oeffnungs-Vorform"
-        if is_axis_report
-        else "10k-Pruefung der Oeffnungs-Vorform"
-    )
+    stem_upper = out_path.stem.upper()
+    is_axis_report = "ACHSENISOLATION" in stem_upper
+    is_pair_report = "ZWEIERKOPPLUNG" in stem_upper
+    if is_axis_report:
+        report_name = "Synthetische Achsenisolation der Oeffnungs-Vorform"
+    elif is_pair_report:
+        report_name = "Synthetische Zweierkopplung der Oeffnungs-Vorform"
+    else:
+        report_name = "10k-Pruefung der Oeffnungs-Vorform"
     title = f"# {title_prefix} - {report_name}" if title_prefix.isdigit() else f"# {report_name}"
     if is_axis_report:
         purpose = (
@@ -233,6 +236,20 @@ def _write_md(rows: list[dict[str, object]], summary: list[dict[str, object]], o
         next_step = (
             "Als naechstes sollte die Achsenisolation gegen gekoppelte Lastwelten gehalten werden: "
             "kippt `dio_0ly7` erst, wenn Range, Hoeren und Spannung gemeinsam steigen?"
+        )
+    elif is_pair_report:
+        purpose = (
+            "Diese Diagnose prueft, ob die Oeffnungs-Vorform bei synthetischen Zweierkopplungen "
+            "getragen bleibt oder bereits vor der vollen Dreierlast kippt."
+        )
+        hierarchy = [
+            "1. Grundfrage: Welche gekoppelte Stoerung bricht `dio_0ly7`?",
+            "2. Unterpruefung: Range+Hoeren, Range+Spannung und Hoeren+Spannung getrennt lesen.",
+            "3. Folgeschritt: Gegen Einzelachsen und volle gekoppelte Last verdichten.",
+        ]
+        next_step = (
+            "Als naechstes sollte die Zweierkopplung direkt gegen Einzelachsen und Dreierlast "
+            "zusammengefasst werden: ist Range der kritische Kopplungsanteil?"
         )
     else:
         purpose = (
@@ -317,8 +334,17 @@ def _write_md(rows: list[dict[str, object]], summary: list[dict[str, object]], o
             "",
             "## Lesung",
             "",
-            "Wenn Delta Hoeren und Delta Spannung negativ bleiben, stuetzt das die Entlastungslesung aus 1702.",
-            "Wenn sie kippen oder verschwinden, war die 5000er-Oeffnungsform eher fensterspezifisch.",
+            (
+                "Wenn Range+Hoeren oder Range+Spannung kippen, aber Hoeren+Spannung getragen bleibt, "
+                "spricht das fuer Range als kritischen Kopplungsanteil."
+                if is_pair_report
+                else "Wenn Delta Hoeren und Delta Spannung negativ bleiben, stuetzt das die Entlastungslesung aus 1702."
+            ),
+            (
+                "Die Form wird dann nicht durch jede Zweierlast gebrochen, sondern durch bestimmte Kopplungsqualitaeten."
+                if is_pair_report
+                else "Wenn sie kippen oder verschwinden, war die 5000er-Oeffnungsform eher fensterspezifisch."
+            ),
             "",
             "## Wie es weitergeht",
             "",

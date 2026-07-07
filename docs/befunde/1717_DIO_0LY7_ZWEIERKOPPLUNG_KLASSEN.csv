@@ -1,0 +1,4 @@
+world,family,occurrences,hearing_delta,tension_delta,range_delta,break_class
+SYN_PAIR_RANGE_HEARING,dio_0ly7,58,0.007884,0.007187,0.011778,bruch_mit_range_aufweitung
+SYN_PAIR_RANGE_TENSION,dio_0ly7,27,0.002677,0.003837,0.005169,bruch_mit_range_aufweitung
+SYN_PAIR_HEARING_TENSION,dio_0ly7,10,-0.016061,-0.011666,0.002629,oeffnung_getragen

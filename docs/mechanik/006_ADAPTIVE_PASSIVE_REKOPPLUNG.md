@@ -908,6 +908,63 @@ Die Symbolfamilie allein ist nicht ausreichend.
 
 Der Bericht liegt in [1715_DIO_0LY7_EINZELACHSE_GEGEN_GEKOUPPELTE_LAST.md](../befunde/1715_DIO_0LY7_EINZELACHSE_GEGEN_GEKOUPPELTE_LAST.md).
 
+## Zweierkopplung
+
+Danach wurde die gekoppelte Last feiner zerlegt:
+
+```text
+Range + Hoeren
+Range + Spannung
+Hoeren + Spannung
+```
+
+Ergebnis:
+
+```text
+Range + Hoeren:
+  bruch_mit_range_aufweitung
+
+Range + Spannung:
+  bruch_mit_range_aufweitung
+
+Hoeren + Spannung:
+  oeffnung_getragen
+```
+
+Damit wird die Bruchlinie enger:
+
+```text
+Einzelachsen:
+  nicht ausreichend
+
+Hoeren + Spannung:
+  bisher getragen
+
+Range + Hoeren oder Range + Spannung:
+  Bruch sichtbar
+
+Range + Hoeren + Spannung:
+  Bruch stabil sichtbar
+```
+
+Die vorlaeufige Lesung lautet:
+
+```text
+MCM-Bedeutung =
+  Symbolfamilie
+  + Weltmilieu
+  + Feldwirkung
+  + Kopplungsgrad
+```
+
+Die kritische Qualitaet liegt bisher nicht in Last allgemein, sondern in Range-Kopplung.
+
+Die Berichte:
+
+- [1716_DIO_0LY7_ZWEIERKOPPLUNG.md](../befunde/1716_DIO_0LY7_ZWEIERKOPPLUNG.md)
+- [1717_DIO_0LY7_ZWEIERKOPPLUNG_KLASSEN.md](../befunde/1717_DIO_0LY7_ZWEIERKOPPLUNG_KLASSEN.md)
+- [1718_DIO_0LY7_KOPPLUNGSHIERARCHIE.md](../befunde/1718_DIO_0LY7_KOPPLUNGSHIERARCHIE.md)
+
 ## Forschungsgrenze
 
 Aus dieser Mechanik folgt noch nicht:
