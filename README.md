@@ -105,6 +105,8 @@ Für neue Läufe gibt es dafür einen automatisierten Mehrwelt-Achsenreport: [16
 
 Eine erste Anwendung auf BTC, DOGE, XRP, PAXG und eine synthetische Rand-/Kipp-Welt zeigt: reale Assetfenster liegen hier zwischen `rand_kippnah` und `mittlere_uebergangsphase`, während die synthetische Kontrollwelt breit und nachhallstark bleibt, aber selektiv rekoppelt. Siehe [1675_ASSET_UND_SYNTH_MEHRWELT_ACHSENREPORT.md](docs/befunde/1675_ASSET_UND_SYNTH_MEHRWELT_ACHSENREPORT.md).
 
+Eine verschobene Assetpruefung zeigt danach: Die Achsenklasse ist nicht assetfest. BTC 2024 5m kann von kompakter Bindung in verteilte Rekopplung wechseln, DOGE kann ein verteilt-offenes Zwischenfenster bilden, waehrend XRP und PAXG in den geprueften Fenstern eher mittlere Uebergangsphasen halten. Siehe [1676_ASSET_SHIFT_MEHRWELT_ACHSENREPORT.md](docs/befunde/1676_ASSET_SHIFT_MEHRWELT_ACHSENREPORT.md).
+
 ## Hypothese Feldbewusstsein
 
 Wenn hier von Bewusstsein gesprochen wird, ist kein menschliches Ich-Bewusstsein gemeint.
