@@ -132,6 +132,8 @@ Die darauf folgende Familienlagenpruefung zeigt: `milieu_offen` ist nicht nur ei
 
 Eine Folgeweltpruefung bestaetigt diese Lesung weiter: In spaeteren Segmenten bleiben gemeinsame Familienkerne sichtbar, aber ihre Milieu-Relation verschiebt sich. DOGE und XRP verlieren etwas Offen/Gereift-Ueberlappung, PAXG bleibt fast gleich stark, Stress nimmt leicht zu. Das spricht gegen eine starre Kopie und fuer eine dynamische Varianzschicht, die je nach Weltkontakt anders ueber denselben Familien liegt. Siehe [1686_ADAPTIVE_MILIEU_FAMILIENSCHICHTEN_FOLGEWELT.md](docs/befunde/1686_ADAPTIVE_MILIEU_FAMILIENSCHICHTEN_FOLGEWELT.md) und [1687_ADAPTIVE_MILIEU_FOLGEWELT_VERGLEICH.md](docs/befunde/1687_ADAPTIVE_MILIEU_FOLGEWELT_VERGLEICH.md).
 
+Die Relationswechsel wurden danach gegen konkrete Rohweltphasen zurueckgelesen. In DOGE, XRP, PAXG und Stress tritt besonders haeufig `offen_und_gereift -> nur_gereift` auf: eine Familie bleibt sichtbar, verliert aber ihre offene Schicht und wird enger gereift gelesen. Das ist eine Kopplungsdiagnose, kein Ursachebeweis. Siehe [1688_ADAPTIVE_MILIEU_RELATIONSWECHSEL_ROHWELT.md](docs/befunde/1688_ADAPTIVE_MILIEU_RELATIONSWECHSEL_ROHWELT.md).
+
 ## Hypothese Feldbewusstsein
 
 Wenn hier von Bewusstsein gesprochen wird, ist kein menschliches Ich-Bewusstsein gemeint.

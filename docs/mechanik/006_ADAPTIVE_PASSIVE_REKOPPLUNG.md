@@ -279,6 +279,43 @@ Die Befunde liegen in:
 - [1686_ADAPTIVE_MILIEU_FAMILIENSCHICHTEN_FOLGEWELT.md](../befunde/1686_ADAPTIVE_MILIEU_FAMILIENSCHICHTEN_FOLGEWELT.md)
 - [1687_ADAPTIVE_MILIEU_FOLGEWELT_VERGLEICH.md](../befunde/1687_ADAPTIVE_MILIEU_FOLGEWELT_VERGLEICH.md)
 
+## Relationswechsel und Rohweltphasen
+
+Die naechste Pruefung liest starke Milieu-Relationswechsel gegen konkrete Rohweltphasen zurueck.
+
+Geprueft wurden DOGE, XRP, PAXG und Stress. Der staerkste Wechsel ist:
+
+```text
+offen_und_gereift -> nur_gereift
+```
+
+Das bedeutet:
+
+```text
+Eine Familie bleibt in der Folgewelt sichtbar.
+Die offene Schicht nimmt ab.
+Die gereifte Lesung bleibt oder wird enger.
+```
+
+Kompakt:
+
+```text
+offen_und_gereift -> nur_gereift       215
+nur_gereift -> offen_und_gereift       108
+offen_und_gereift -> nur_offen          33
+nur_offen -> offen_und_gereift          26
+```
+
+Die Rohweltspalten zeigen Nettoverlauf, Range, Hoer-Gap und Feldspannung der jeweiligen Episodenphase.
+
+Wichtig:
+
+```text
+Das ist Ruecklesung, kein Ursachebeweis.
+```
+
+Der Befund liegt in [1688_ADAPTIVE_MILIEU_RELATIONSWECHSEL_ROHWELT.md](../befunde/1688_ADAPTIVE_MILIEU_RELATIONSWECHSEL_ROHWELT.md).
+
 ## Forschungsgrenze
 
 Aus dieser Mechanik folgt noch nicht:
@@ -297,4 +334,4 @@ MINI_DIO kann passive Rueckfuehrung erfahrungsgewichtet sichtbar machen.
 
 ## Wie es weitergeht
 
-Als naechstes werden Familien mit starkem Relationswechsel gegen konkrete Rohweltphasen gelesen. Wichtig sind besonders Wechsel von `offen_und_gereift` nach `nur_gereift` und von `nur_offen` nach `offen_und_gereift`.
+Als naechstes werden die haeufigsten Wechsel-Familien ueber weitere Folgewelten verfolgt. Entscheidend ist, ob dieselbe Familie wiederholt unter aehnlicher Rohweltspannung reift, oeffnet oder ihre Milieu-Lage verschiebt.
