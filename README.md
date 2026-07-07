@@ -101,6 +101,8 @@ Die derzeit stärkste wissenschaftliche Anschlussstelle ist Feldzeit/Nachhall al
 
 Die kombinierte Mehrwelt-Achsenprüfung zeigt zusätzlich: Topologie, Feldzeit, Nachhall und Rollenbreite tragen gemeinsam, aber keine dieser Achsen erklärt das Feld allein. Nachhall ist nicht einfach Breite, Stabilität ist nicht automatisch Enge, und Weltklassen besitzen Binnenphasen. Siehe [1673_MEHRWELT_ACHSENPRUEFUNG_TOPOLOGIE_FELDZEIT_NACHHALL.md](docs/befunde/1673_MEHRWELT_ACHSENPRUEFUNG_TOPOLOGIE_FELDZEIT_NACHHALL.md).
 
+Für neue Läufe gibt es dafür einen automatisierten Mehrwelt-Achsenreport: [1674_AUTOMATISIERTER_MEHRWELT_ACHSENREPORT.md](docs/befunde/1674_AUTOMATISIERTER_MEHRWELT_ACHSENREPORT.md). Das zugehörige Werkzeug liegt unter `tools/report_multiworld_axis_map.py`.
+
 ## Hypothese Feldbewusstsein
 
 Wenn hier von Bewusstsein gesprochen wird, ist kein menschliches Ich-Bewusstsein gemeint.
