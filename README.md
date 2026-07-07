@@ -124,6 +124,8 @@ Eine erste Mehrweltpruefung der adaptiven Rekopplung zeigt: Die neue passive Sch
 
 Die anschliessende Rollen-/Familienpruefung trennt diese Frage feiner. BTC und DOGE zeigen beginnende Gewichtsdifferenzierung, XRP bleibt flacher. Daraufhin wurde die adaptive Rekopplung um Rollen- und Pfaderfahrung erweitert: MINI_DIO liest nun passiv, ob eine Lage nur allgemein bekannt ist, rollennah getragen wird, pfadnah getragen wird oder Rolle und Pfad gemeinsam tragen. Ein BTC-Kontrolllauf schrieb dabei unterscheidbare Milieus wie `milieu_offen`, `milieu_rollennah`, `milieu_pfadnah` und `milieu_rolle_und_pfad_getragen`. Siehe [1681_ADAPTIVE_REKOPPLUNG_ROLLEN_FAMILIEN_BTC.md](docs/befunde/1681_ADAPTIVE_REKOPPLUNG_ROLLEN_FAMILIEN_BTC.md) und [1682_ADAPTIVE_REKOPPLUNG_MILIEU_BTC_KONTROLLLAUF.md](docs/befunde/1682_ADAPTIVE_REKOPPLUNG_MILIEU_BTC_KONTROLLLAUF.md).
 
+Eine weitere Mehrweltpruefung ueber DOGE, XRP, PAXG und Stress zeigt: Die Milieu-Lesung bleibt nicht BTC-spezifisch. Adaptive Rekopplung liegt in allen vier Welten ueber der statischen Referenz, waehrend `milieu_offen`, `milieu_rollennah`, `milieu_pfadnah` und `milieu_rolle_und_pfad_getragen` unterschiedlich verteilt sind. Damit wird sichtbar, dass gleiche Symbolfamilien je nach Weltkontakt anders rekoppeln koennen. Siehe [1683_ADAPTIVE_MILIEU_MEHRWELT_VERGLEICH.md](docs/befunde/1683_ADAPTIVE_MILIEU_MEHRWELT_VERGLEICH.md).
+
 ## Hypothese Feldbewusstsein
 
 Wenn hier von Bewusstsein gesprochen wird, ist kein menschliches Ich-Bewusstsein gemeint.

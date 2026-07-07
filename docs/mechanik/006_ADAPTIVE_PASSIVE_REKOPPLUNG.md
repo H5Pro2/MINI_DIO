@@ -170,6 +170,33 @@ Die zugehoerigen Befunde liegen in:
 - [1681_ADAPTIVE_REKOPPLUNG_ROLLEN_FAMILIEN_XRP.md](../befunde/1681_ADAPTIVE_REKOPPLUNG_ROLLEN_FAMILIEN_XRP.md)
 - [1682_ADAPTIVE_REKOPPLUNG_MILIEU_BTC_KONTROLLLAUF.md](../befunde/1682_ADAPTIVE_REKOPPLUNG_MILIEU_BTC_KONTROLLLAUF.md)
 
+## Erweiterter Mehrwelt-Befund
+
+Eine Folgepruefung ueber DOGE, XRP, PAXG und eine Stress-Gegenwelt bestaetigt, dass die Milieu-Lesung nicht auf BTC beschraenkt ist.
+
+Kompakt:
+
+```text
+DOGE   statisch 0.685038 -> adaptiv 0.729084
+XRP    statisch 0.676695 -> adaptiv 0.721852
+PAXG   statisch 0.700467 -> adaptiv 0.743298
+Stress statisch 0.686648 -> adaptiv 0.731231
+```
+
+Die gleichen Symbolfamilien koennen dabei je nach Weltmilieu anders gelesen werden. Eine Familie kann in einer Welt rollennah, in einer anderen offen oder pfadnah erscheinen.
+
+Damit ist die adaptive Rekopplung nicht nur eine globale Anhebung. Sie wird als passive Milieulesung lesbar:
+
+```text
+Feldrolle
+  -> Uebergangspfad
+  -> Erfahrungsnaehe
+  -> Milieu
+  -> adaptive Rekopplungsqualitaet
+```
+
+Der Befund liegt in [1683_ADAPTIVE_MILIEU_MEHRWELT_VERGLEICH.md](../befunde/1683_ADAPTIVE_MILIEU_MEHRWELT_VERGLEICH.md).
+
 ## Forschungsgrenze
 
 Aus dieser Mechanik folgt noch nicht:
@@ -188,4 +215,4 @@ MINI_DIO kann passive Rueckfuehrung erfahrungsgewichtet sichtbar machen.
 
 ## Wie es weitergeht
 
-Als naechstes wird geprueft, ob dieselbe Milieu-Lesung in weiteren Welten stabil bleibt oder ob andere Assets andere Rollen-/Pfadprofile bilden.
+Als naechstes wird geprueft, ob diese Milieus ueber laengere Fenster stabil bleiben oder ob sich offene Milieus mit wachsender Feldzeit in rollennahe, pfadnahe oder gemeinsam getragene Milieus verschieben.
