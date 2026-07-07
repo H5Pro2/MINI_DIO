@@ -281,6 +281,52 @@ young_intake_trace
 entstehen aus Gedächtnis-, Welt-, Balance-, Drift- und Felddruck.
 ```
 
+## Fuenfte Bereinigung
+
+Die Feldbewegungs-Memory wurde von harten Vorzeichen- und Zaehlwertketten geloest.
+
+### Feldbewegung
+
+Vorher:
+
+```text
+rekopplung_delta > 0 und pressure_delta < 0 -> rekoppelnd_entlastend
+rekopplung_delta < 0 und pressure_delta > 0 -> oeffnend_belastend
+seen_count > 1 oder total_events > 1       -> recurrent
+dominant_count == seen_count               -> consistent
+```
+
+Jetzt:
+
+```text
+rekoppelnd_entlastend
+oeffnend_belastend
+rekoppelnd
+spannungsnah
+bewegung_offen
+
+entstehen aus Bewegungsdruecken:
+Rekopplung, Druck, Entlastung, Spannung, Lautheit und Schaerfebewegung
+wirken relativ zusammen.
+```
+
+Auch die Speicherqualitaet wurde umgestellt:
+
+```text
+young
+recurrently_reconnecting
+recurrently_opening_strain
+mixed_unstable
+recurrently_carried
+recurrently_fragmented
+open_drifting
+asset_sensitive
+timeframe_sensitive
+world_specific
+
+entstehen aus Exposition, Dominanz, Varianz, Assetnaehe und Zeitrahmennaehe.
+```
+
 ## Noch vorhandene statische Bereiche
 
 ### Diagnose
