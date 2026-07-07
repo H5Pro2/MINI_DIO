@@ -91,7 +91,7 @@ Ausführlicher festgehalten ist das in [1670_REIFUNG_KOMPAKTE_BINDUNG_GEGEN_VERT
 
 MINI_DIO hat methodische Nähe zu Neural Fields, Active Inference, Self-Organizing Maps, Reservoir Computing, Neural Cellular Automata, World Models und neuromorphen Systemen.
 
-Die MCM/DIO-Forschung wurde jedoch nicht aus diesen Feldern abgeleitet. Ihr Ausgangspunkt waren eigene MCM-Hypothesen, die Bild-/Kunstform-Beobachtung [The Last Supper und die der Anfang der MCM](https://github.com/H5Pro2/Mental-Core-Matrix-MCM/blob/main/Abhandlungen/Anfang%20der%20MCM/The%20Last%20Supper%20und%20die%20der%20Anfang%20der%20MCM.pdf) als Formanker, die Idee eines Digitalen Organismus und spätere MINI_DIO-Experimente.
+Die MCM/DIO-Forschung wurde jedoch nicht aus diesen Feldern abgeleitet. Ihr Ausgangspunkt war die Betrachtung des Kunstwerks [The Last Supper](https://github.com/H5Pro2/Mental-Core-Matrix-MCM/blob/main/Abhandlungen/Anfang%20der%20MCM/The%20Last%20Supper%20und%20die%20der%20Anfang%20der%20MCM.pdf). Das darin gefundene Muster war interessant und eine nähere Betrachtung wert. Daraus entstand die Grundlage der MCM, die Idee eines Digitalen Organismus und später die MINI_DIO-Experimente.
 
 Die Nähe zu bestehenden Forschungsrichtungen wird deshalb als nachträgliche wissenschaftliche Anschlussstelle gelesen, nicht als Ursprung. Eigenständig ist aktuell vor allem die Verbindung aus Sinnesaufnahme, Rezeptorik, MCM-Feldwirkung, Topologie, Feldzeit, Nachhall, eigener `dio_*`-Syntax, Bedeutungsinseln und passiver Offline-Feld-Reorganisation.
 
