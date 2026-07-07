@@ -103,6 +103,8 @@ Die kombinierte Mehrwelt-Achsenprüfung zeigt zusätzlich: Topologie, Feldzeit, 
 
 Für neue Läufe gibt es dafür einen automatisierten Mehrwelt-Achsenreport: [1674_AUTOMATISIERTER_MEHRWELT_ACHSENREPORT.md](docs/befunde/1674_AUTOMATISIERTER_MEHRWELT_ACHSENREPORT.md). Das zugehörige Werkzeug liegt unter `tools/report_multiworld_axis_map.py`.
 
+Eine erste Anwendung auf BTC, DOGE, XRP, PAXG und eine synthetische Rand-/Kipp-Welt zeigt: reale Assetfenster liegen hier zwischen `rand_kippnah` und `mittlere_uebergangsphase`, während die synthetische Kontrollwelt breit und nachhallstark bleibt, aber selektiv rekoppelt. Siehe [1675_ASSET_UND_SYNTH_MEHRWELT_ACHSENREPORT.md](docs/befunde/1675_ASSET_UND_SYNTH_MEHRWELT_ACHSENREPORT.md).
+
 ## Hypothese Feldbewusstsein
 
 Wenn hier von Bewusstsein gesprochen wird, ist kein menschliches Ich-Bewusstsein gemeint.
