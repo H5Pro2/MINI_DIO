@@ -571,6 +571,77 @@ Die Topologiebegriffe bleiben Diagnose.
 Die Runtime bekommt daraus keine Handlung, kein Gate und keine feste Geometrie.
 ```
 
+## Laengerer Haertetest
+
+Danach wurde die gleiche Drucklogik gegen laengere und bewusst belastendere
+Welten gelegt.
+
+Gepruefte Welten:
+
+```text
+PRESSURE_LONG_STABLE_10K
+PRESSURE_LONG_STRESS_10K
+PRESSURE_LONG_EXPANSION_10K
+PRESSURE_SYNTH_RAND_KIPP_9K
+```
+
+### Befund
+
+Auch diese vier Welten wurden von der aktuellen Topologie-Diagnose als
+`stark_zentriert_wenig_rand` gelesen.
+
+| Welt | Episoden | Zentrum | Offen | Rand/Kipp | Rekopplung | Carry | Strain | Sinneskopplung |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| PRESSURE_LONG_STABLE_10K | 9994 | 0.9909 | 0.0091 | 0.0000 | 0.7079 | 0.5541 | 0.1702 | 0.8416 |
+| PRESSURE_LONG_STRESS_10K | 9994 | 0.9907 | 0.0093 | 0.0000 | 0.7076 | 0.5535 | 0.1708 | 0.8402 |
+| PRESSURE_LONG_EXPANSION_10K | 9994 | 0.9891 | 0.0109 | 0.0000 | 0.7070 | 0.5522 | 0.1708 | 0.8410 |
+| PRESSURE_SYNTH_RAND_KIPP_9K | 8994 | 0.9992 | 0.0008 | 0.0000 | 0.7383 | 0.5910 | 0.1384 | 0.8883 |
+
+Das ist methodisch wichtig:
+
+```text
+Sogar die synthetische Rand/Kipp-Welt wird aktuell zentrumsnah rekoppelt.
+```
+
+Eine Gegenmessung derselben synthetischen Welt im `fixed`-Sinnesmodus zeigte:
+
+```text
+world_relative: 8987 stabil / 7 tragend_unruhig
+fixed:          8773 stabil / 221 tragend_unruhig
+```
+
+Damit ist die offene/unruhige Spur im `fixed`-Modus deutlich sichtbarer,
+aber auch dort wird keine eigenstaendige Rand/Kipp-Rolle gelesen.
+
+### Interpretation
+
+Der Haertetest spricht nicht fuer einen Feldkollaps.
+Er zeigt aber eine neue Methodengrenze:
+
+```text
+Die aktuelle Rezeptoraufnahme und die aktuelle Topologie-Diagnose sind stark rekoppelnd.
+Rand/Kippnaehe kann dadurch als offene Nebenvariante erscheinen,
+ohne als eigene Randrolle sichtbar zu werden.
+```
+
+Das ist kein Fehlerbeweis, aber ein klarer Pruefpunkt.
+
+Die naechste Diagnostik darf deshalb nicht nur fragen:
+
+```text
+Welche Klasse hat die Welt?
+```
+
+sondern:
+
+```text
+Wo entsteht relativer Randdruck innerhalb der Welt?
+Wird dieser Randdruck aufgenommen, gedaempft, rekoppelt oder semantisch verdichtet?
+```
+
+Damit wird der naechste Schritt eine relative Randdruck-Lupe,
+nicht eine weitere harte Topologieklasse.
+
 ## Noch vorhandene statische Bereiche
 
 ### Diagnose
@@ -634,5 +705,5 @@ erfahrungsgewichteter Rueckfuehrung
 
 ## Wie es weitergeht
 
-Als naechstes sollte die Drucklogik gegen laengere und bewusst randlastige Welten geprueft werden.
-Ziel ist nicht mehr nur Startbarkeit, sondern die Frage, ob Rand/Kippnaehe unter echter Belastung wieder sichtbar wird, ohne in harte Grenzwertlogik zurueckzufallen.
+Als naechstes sollte eine relative Randdruck-Lupe gebaut werden.
+Sie soll innerhalb jeder Welt lesen, wo Randdruck, offene Variante, Rekopplung und Daempfung entstehen, ohne daraus eine starre Klasse oder Runtime-Regel zu machen.

@@ -174,6 +174,8 @@ Ein anschliessender Gesamtaudit trennt die verbleibenden Zahlenstellen in techni
 
 Ein erster Kontrollsatz nach dieser Bereinigung ueber SOL Real, SOL Stress, SOL Expansion und KAS 5m blieb in allen vier Welten `stark_zentriert_wenig_rand`. Kleine offene Varianten blieben sichtbar, Rand-/Kippnaehe wurde nicht kuenstlich uebersteuert. Der Befund ist in [007_STATISCHE_RESTE_UND_ORGANISCHE_KONTROLLE.md](docs/mechanik/007_STATISCHE_RESTE_UND_ORGANISCHE_KONTROLLE.md) ergaenzt.
 
+Ein laengerer Haertetest gegen Stable, Stress, Expansion und eine synthetische Rand/Kipp-Welt zeigt danach eine Methodengrenze: Die aktuelle Aufnahme und Topologie-Diagnose rekoppeln sehr stark zentrumsnah. Selbst Rand/Kipp-Input erscheint eher als kleine offene Nebenvariante statt als eigene Randrolle. Der naechste Schritt ist deshalb eine relative Randdruck-Lupe statt einer weiteren harten Topologieklasse.
+
 ## Hypothese Feldbewusstsein
 
 Wenn hier von Bewusstsein gesprochen wird, ist kein menschliches Ich-Bewusstsein gemeint.
