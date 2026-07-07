@@ -107,6 +107,8 @@ Eine erste Anwendung auf BTC, DOGE, XRP, PAXG und eine synthetische Rand-/Kipp-W
 
 Eine verschobene Assetpruefung zeigt danach: Die Achsenklasse ist nicht assetfest. BTC 2024 5m kann von kompakter Bindung in verteilte Rekopplung wechseln, DOGE kann ein verteilt-offenes Zwischenfenster bilden, waehrend XRP und PAXG in den geprueften Fenstern eher mittlere Uebergangsphasen halten. Siehe [1676_ASSET_SHIFT_MEHRWELT_ACHSENREPORT.md](docs/befunde/1676_ASSET_SHIFT_MEHRWELT_ACHSENREPORT.md).
 
+Eine laengere BTC-/DOGE-Pruefung mit 4000er-Fenstern und tieferer 1000-Tick-Lesung zeigt eine weitere Ebene: Kurzfenster koennen kompakt, offen oder verteilt-rekoppelnd wirken, waehrend die laengere Weltphase rand-/kippnah gelesen wird. Siehe [1677_BTC_DOGE_LANGFENSTER_ACHSENREPORT.md](docs/befunde/1677_BTC_DOGE_LANGFENSTER_ACHSENREPORT.md).
+
 ## Hypothese Feldbewusstsein
 
 Wenn hier von Bewusstsein gesprochen wird, ist kein menschliches Ich-Bewusstsein gemeint.
