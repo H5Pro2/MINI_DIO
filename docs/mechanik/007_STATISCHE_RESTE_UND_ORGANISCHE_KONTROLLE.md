@@ -204,6 +204,83 @@ Feldqualitaet:
 entstehen aus weichen Evidenzdruecken.
 ```
 
+## Vierte Bereinigung
+
+Die Sinnesaufnahme wurde ebenfalls von festen Klassifikationsgrenzen getrennt.
+
+### Marktmelodie
+
+Vorher:
+
+```text
+relative_energy >= X -> spannungston
+roughness >= Y       -> bruchton
+direction > Z        -> aufhellungston
+direction < Z        -> abdunklungston
+```
+
+Jetzt:
+
+```text
+bruchton
+spannungston
+ruheton
+aufhellungston
+abdunklungston
+trageton
+
+entstehen aus konkurrierenden Ton- und Energiedruecken.
+Hoeren liest damit relative Klangwirkung statt feste Lautheitsgrenzen.
+```
+
+### Rezeptor-Adaptation
+
+Vorher:
+
+```text
+delta_rand < X
+delta_strain < Y
+delta_zentrum > Z
+delta_rekopplung > A
+```
+
+Jetzt:
+
+```text
+verschiebend
+beruhigend
+stabil_leicht
+neutral
+
+entstehen aus Adaptionsdruecken:
+Verschiebung, Beruhigung, Stabilitaet und Neutralitaet konkurrieren.
+```
+
+### Sinnesaufnahme-Gedaechtnis
+
+Vorher:
+
+```text
+world_count >= X
+total_events >= Y
+avg_balance >= Z
+avg_strain >= A
+```
+
+Jetzt:
+
+```text
+reproduced_quiet_intake
+recurrently_carried_intake
+contact_loaded_intake
+strained_intake
+drifting_intake
+open_recurrent_intake
+young_intake_trace
+
+entstehen aus Gedächtnis-, Welt-, Balance-, Drift- und Felddruck.
+```
+
 ## Noch vorhandene statische Bereiche
 
 ### Diagnose

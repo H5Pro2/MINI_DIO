@@ -43,6 +43,27 @@ def _most_common(counter: Counter[str]) -> tuple[str, int]:
     return value or "-", int(count)
 
 
+def _clip01(value: object) -> float:
+    return max(0.0, min(1.0, _safe_float(value)))
+
+
+def _mean(*values: object) -> float:
+    clean = [_clip01(value) for value in values]
+    return sum(clean) / max(1, len(clean))
+
+
+def _pressure(value: object, scale: float = 1.0) -> float:
+    amount = max(0.0, _safe_float(value))
+    return amount / (amount + max(0.000001, scale))
+
+
+def _dominant_label(scores: dict[str, float], default: str) -> str:
+    clean = {key: _clip01(value) for key, value in scores.items()}
+    if not clean:
+        return default
+    return max(clean, key=clean.get)
+
+
 @dataclass
 class SensoryIntakeObservation:
     axis: str
@@ -134,28 +155,41 @@ class SensoryIntakeRecord:
         avg_strain = self._avg(self.strain_sum)
         avg_field_input = self._avg(self.field_input_sum)
         avg_stdev = self._avg(self.stdev_sum)
-        if label == "reproduzierte_ruhige_aufnahme" and self.max_world_count >= 4:
-            return "reproduced_quiet_intake"
-        if label == "wiederkehrend_tragend" and avg_balance >= 0.45:
-            return "recurrently_carried_intake"
-        if label == "wiederkehrend_kontaktlastig" or avg_field_input >= 0.20:
-            return "contact_loaded_intake"
-        if avg_strain >= 0.24 or avg_balance <= 0.25:
-            return "strained_intake"
-        if avg_stdev >= 0.025:
-            return "drifting_intake"
-        if self.max_world_count >= 3:
-            return "open_recurrent_intake"
-        return "young_intake_trace"
+        world_pressure = _pressure(self.max_world_count, 2.0)
+        event_pressure = _pressure(self.total_events, 60.0)
+        balance_pressure = _clip01(avg_balance)
+        strain_pressure = _clip01(avg_strain)
+        field_pressure = _clip01(avg_field_input)
+        drift_pressure = _pressure(avg_stdev, 0.02)
+        quiet_label = 1.0 if label == "reproduzierte_ruhige_aufnahme" else 0.0
+        carried_label = 1.0 if label == "wiederkehrend_tragend" else 0.0
+        loaded_label = 1.0 if label == "wiederkehrend_kontaktlastig" else 0.0
+        return _dominant_label(
+            {
+                "reproduced_quiet_intake": _mean(quiet_label, world_pressure, 1.0 - strain_pressure, balance_pressure),
+                "recurrently_carried_intake": _mean(carried_label, balance_pressure, world_pressure),
+                "contact_loaded_intake": _mean(loaded_label, field_pressure, event_pressure),
+                "strained_intake": _mean(strain_pressure, 1.0 - balance_pressure, field_pressure),
+                "drifting_intake": _mean(drift_pressure, world_pressure, 1.0 - balance_pressure),
+                "open_recurrent_intake": _mean(world_pressure, event_pressure, 1.0 - max(strain_pressure, field_pressure)),
+                "young_intake_trace": _mean(1.0 - world_pressure, 1.0 - event_pressure),
+            },
+            default="young_intake_trace",
+        )
 
     def maturity_note(self) -> str:
-        if self.max_world_count >= 4 and self.total_events >= 100:
-            return "multi_world_recurrent"
-        if self.max_world_count >= 3:
-            return "cross_world_visible"
-        if self.seen_count <= 1:
-            return "single_observation"
-        return "weak_recurrence"
+        world_pressure = _pressure(self.max_world_count, 2.0)
+        event_pressure = _pressure(self.total_events, 60.0)
+        seen_pressure = _pressure(self.seen_count, 1.0)
+        return _dominant_label(
+            {
+                "multi_world_recurrent": _mean(world_pressure, event_pressure),
+                "cross_world_visible": world_pressure,
+                "single_observation": 1.0 - seen_pressure,
+                "weak_recurrence": _mean(seen_pressure, 1.0 - world_pressure),
+            },
+            default="weak_recurrence",
+        )
 
     def to_row(self) -> dict[str, object]:
         return {

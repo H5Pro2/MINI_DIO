@@ -61,6 +61,23 @@ def _clamp(value: float, low: float = 0.0, high: float = 1.0) -> float:
     return max(low, min(high, value))
 
 
+def _pressure(value: float, scale: float = 1.0) -> float:
+    amount = max(0.0, float(value or 0.0))
+    return amount / (amount + max(0.000001, scale))
+
+
+def _mean(*values: float) -> float:
+    clean = [_clamp(float(value or 0.0)) for value in values]
+    return sum(clean) / max(1, len(clean))
+
+
+def _dominant_label(scores: dict[str, float], default: str) -> str:
+    clean = {key: _clamp(float(value or 0.0)) for key, value in scores.items()}
+    if not clean:
+        return default
+    return max(clean, key=clean.get)
+
+
 def _hash_symbol(prefix: str, text: str, length: int = 7) -> str:
     digest = hashlib.blake2s(text.encode("utf-8"), digest_size=8).hexdigest()
     return f"{prefix}_{digest[:length]}"
@@ -111,21 +128,36 @@ def _note_from_pitch(pitch_hz: float, config: MelodyConfig) -> tuple[str, int]:
 
 
 def _tone_role(relative_energy: float, direction: float, roughness: float) -> str:
-    if roughness >= 0.70 and relative_energy >= 1.30:
-        return "bruchton"
-    if relative_energy >= 1.55:
-        return "spannungston"
-    if relative_energy <= 0.72 and roughness <= 0.28:
-        return "ruheton"
-    if direction > 0.0008:
-        return "aufhellungston"
-    if direction < -0.0008:
-        return "abdunklungston"
-    return "trageton"
+    energy_up = _pressure(relative_energy, 1.0)
+    energy_down = 1.0 - energy_up
+    rough = _pressure(roughness, 0.5)
+    smooth = 1.0 - rough
+    up = _pressure(direction, 0.001)
+    down = _pressure(-direction, 0.001)
+    carried = 1.0 - abs(energy_up - smooth)
+    return _dominant_label(
+        {
+            "bruchton": _mean(rough, energy_up),
+            "spannungston": _mean(energy_up, 1.0 - smooth),
+            "ruheton": _mean(energy_down, smooth),
+            "aufhellungston": _mean(up, smooth, energy_up),
+            "abdunklungston": _mean(down, smooth, energy_up),
+            "trageton": _mean(carried, smooth, 1.0 - max(up, down)),
+        },
+        default="trageton",
+    )
 
 
 def _speech_token(tone_role: str, note: str, octave: int, relative_energy: float) -> str:
-    band = "leise" if relative_energy < 0.85 else "mittel" if relative_energy < 1.25 else "laut"
+    energy_up = _pressure(relative_energy, 1.0)
+    band = _dominant_label(
+        {
+            "leise": 1.0 - energy_up,
+            "mittel": 1.0 - abs(energy_up - 0.5),
+            "laut": energy_up,
+        },
+        default="mittel",
+    )
     return _hash_symbol("dio_snd", f"{tone_role}|{note}|{octave}|{band}", length=6)
 
 

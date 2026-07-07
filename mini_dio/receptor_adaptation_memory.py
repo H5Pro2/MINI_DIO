@@ -109,19 +109,39 @@ def classify_adaptation_outcome(deltas: dict[str, float]) -> str:
     delta_zentrum = float(deltas.get("zentrum", 0.0))
     delta_rekopplung = float(deltas.get("rekopplung", 0.0))
 
-    calming = delta_rand < -0.001 and delta_strain < -0.0005
-    preserving = delta_zentrum > -0.01 and delta_rekopplung > -0.002
-    strong_shift = abs(delta_zentrum) > 0.04 or abs(delta_rekopplung) > 0.015
-
-    if strong_shift:
-        return "verschiebend"
-    if calming and preserving and (delta_zentrum >= 0.003 or delta_rekopplung >= 0.0005):
-        return "beruhigend"
-    if calming and preserving:
-        return "stabil_leicht"
-    if delta_rand > 0.002 or delta_strain > 0.001:
-        return "verschiebend"
-    return "neutral"
+    calming_pressure = _mean(
+        _pressure(-delta_rand, 0.002),
+        _pressure(-delta_strain, 0.002),
+        _pressure(delta_zentrum, 0.01),
+        _pressure(delta_rekopplung, 0.004),
+    )
+    stability_pressure = _mean(
+        _pressure(-delta_rand, 0.002),
+        _pressure(-delta_strain, 0.002),
+        1.0 - _pressure(abs(delta_zentrum), 0.02),
+        1.0 - _pressure(abs(delta_rekopplung), 0.008),
+    )
+    shift_pressure = _mean(
+        _pressure(abs(delta_zentrum), 0.02),
+        _pressure(abs(delta_rekopplung), 0.008),
+        _pressure(delta_rand, 0.002),
+        _pressure(delta_strain, 0.002),
+    )
+    neutral_pressure = _mean(
+        1.0 - _pressure(abs(delta_zentrum), 0.02),
+        1.0 - _pressure(abs(delta_rekopplung), 0.008),
+        1.0 - _pressure(abs(delta_rand), 0.002),
+        1.0 - _pressure(abs(delta_strain), 0.002),
+    )
+    return _dominant_label(
+        {
+            "verschiebend": shift_pressure,
+            "beruhigend": calming_pressure,
+            "stabil_leicht": stability_pressure,
+            "neutral": neutral_pressure,
+        },
+        default="neutral",
+    )
 
 
 def _to_float(value: object) -> float:
@@ -137,3 +157,24 @@ def _to_int(value: object) -> int:
         return int(float(value or 0))
     except (TypeError, ValueError):
         return 0
+
+
+def _clip01(value: object) -> float:
+    return max(0.0, min(1.0, _to_float(value)))
+
+
+def _mean(*values: object) -> float:
+    clean = [_clip01(value) for value in values]
+    return sum(clean) / max(1, len(clean))
+
+
+def _pressure(value: object, scale: float = 1.0) -> float:
+    amount = max(0.0, _to_float(value))
+    return amount / (amount + max(0.000001, scale))
+
+
+def _dominant_label(scores: dict[str, float], default: str) -> str:
+    clean = {key: _clip01(value) for key, value in scores.items()}
+    if not clean:
+        return default
+    return max(clean, key=clean.get)
