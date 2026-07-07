@@ -1,0 +1,5 @@
+world,ticks,families,shared_families,open_only_families,mature_only_families,shared_family_ratio,open_ticks,mature_ticks,untrained_ticks,open_tick_ratio,mature_tick_ratio
+DOGE_2025_FOLLOW,4994,522,175,64,283,0.335249,2178,2805,11,0.436123,0.561674
+XRP_2025_FOLLOW,4994,512,152,72,288,0.296875,2153,2833,8,0.431117,0.567281
+PAXG_2025_FOLLOW,4994,496,158,67,271,0.318548,1998,2985,11,0.400080,0.597717
+STRESS_2025_FOLLOW,4994,534,195,70,269,0.365169,2142,2846,6,0.428915,0.569884

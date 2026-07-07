@@ -134,6 +134,8 @@ Eine Folgeweltpruefung bestaetigt diese Lesung weiter: In spaeteren Segmenten bl
 
 Die Relationswechsel wurden danach gegen konkrete Rohweltphasen zurueckgelesen. In DOGE, XRP, PAXG und Stress tritt besonders haeufig `offen_und_gereift -> nur_gereift` auf: eine Familie bleibt sichtbar, verliert aber ihre offene Schicht und wird enger gereift gelesen. Das ist eine Kopplungsdiagnose, kein Ursachebeweis. Siehe [1688_ADAPTIVE_MILIEU_RELATIONSWECHSEL_ROHWELT.md](docs/befunde/1688_ADAPTIVE_MILIEU_RELATIONSWECHSEL_ROHWELT.md).
 
+Ein 2025-Gegenlauf zeigt dieselbe Wechselarchitektur mit anderer Gewichtung. Die vier Relationswechsel bleiben sichtbar, aber `nur_gereift -> offen_und_gereift` waechst deutlich mit. Zwischen 2024 und 2025 ueberlappen 155 Wechsel-Familien (`Jaccard 0.4454`). Das spricht fuer wiederkehrende Familienkerne mit beweglicher Milieu-Lage, nicht fuer eine starre Symboltabelle. Siehe [1691_ADAPTIVE_MILIEU_2024_2025_VERGLEICH.md](docs/befunde/1691_ADAPTIVE_MILIEU_2024_2025_VERGLEICH.md).
+
 ## Hypothese Feldbewusstsein
 
 Wenn hier von Bewusstsein gesprochen wird, ist kein menschliches Ich-Bewusstsein gemeint.

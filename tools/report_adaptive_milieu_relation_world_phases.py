@@ -184,8 +184,14 @@ def _write_md(rows: list[dict[str, object]], out_path: Path) -> None:
     for row in rows:
         by_transition[str(row["transition"])].append(row)
 
+    title_prefix = out_path.stem.split("_", 1)[0]
+    title = (
+        f"# {title_prefix} - Milieu-Relationswechsel und Rohweltphasen"
+        if title_prefix.isdigit()
+        else "# Milieu-Relationswechsel und Rohweltphasen"
+    )
     lines = [
-        "# 1688 - Milieu-Relationswechsel und Rohweltphasen",
+        title,
         "",
         f"Stand: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}",
         "",

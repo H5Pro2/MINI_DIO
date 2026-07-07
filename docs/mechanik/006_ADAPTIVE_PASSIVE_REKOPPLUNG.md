@@ -316,6 +316,36 @@ Das ist Ruecklesung, kein Ursachebeweis.
 
 Der Befund liegt in [1688_ADAPTIVE_MILIEU_RELATIONSWECHSEL_ROHWELT.md](../befunde/1688_ADAPTIVE_MILIEU_RELATIONSWECHSEL_ROHWELT.md).
 
+## Jahresvergleich
+
+Ein 2025-Gegenlauf mit DOGE, XRP, PAXG und Stress zeigt dieselben vier Relationswechsel:
+
+```text
+offen_und_gereift -> nur_gereift
+nur_gereift -> offen_und_gereift
+offen_und_gereift -> nur_offen
+nur_offen -> offen_und_gereift
+```
+
+Die Gewichtung verschiebt sich:
+
+```text
+2024: offen_und_gereift -> nur_gereift dominiert staerker.
+2025: nur_gereift -> offen_und_gereift waechst deutlich mit.
+```
+
+Zwischen beiden Jahren ueberlappen `155` Wechsel-Familien.
+
+Lesung:
+
+```text
+Die Wechselarchitektur bleibt sichtbar.
+Die einzelne Milieu-Lage bleibt beweglich.
+MINI_DIO bildet keine starre Symboltabelle.
+```
+
+Der Befund liegt in [1691_ADAPTIVE_MILIEU_2024_2025_VERGLEICH.md](../befunde/1691_ADAPTIVE_MILIEU_2024_2025_VERGLEICH.md).
+
 ## Forschungsgrenze
 
 Aus dieser Mechanik folgt noch nicht:
