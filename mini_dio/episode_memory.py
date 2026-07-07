@@ -52,6 +52,13 @@ def _blend_memory(global_value: float, role_value: float, path_value: float, rol
     return _clip(((global_value * global_weight) + (role_value * role_weight) + (path_value * path_weight)) / total)
 
 
+def _dominant_label(items: dict[str, float]) -> str:
+    clean = {key: _clip(value) for key, value in items.items()}
+    if not clean:
+        return "unknown"
+    return max(clean, key=clean.get)
+
+
 def build_adaptive_rekopplung_state(
     field_effect: dict,
     memory_data: dict | None,
@@ -150,22 +157,22 @@ def build_adaptive_rekopplung_state(
     )
     static = _clip(field_effect.get("mcm_rekopplung_quality", 0.0))
     delta = adaptive - static
-    if experience < 0.20:
-        state = "adaptive_jung"
-    elif delta > 0.025:
-        state = "adaptive_rekopplung_angehoben"
-    elif delta < -0.025:
-        state = "adaptive_rekopplung_gedaempft"
-    else:
-        state = "adaptive_rekopplung_nahe_statisch"
-    if role_experience >= 0.55 and path_experience >= 0.35:
-        milieu_state = "milieu_rolle_und_pfad_getragen"
-    elif role_experience >= 0.55:
-        milieu_state = "milieu_rollennah"
-    elif path_experience >= 0.35:
-        milieu_state = "milieu_pfadnah"
-    else:
-        milieu_state = "milieu_offen"
+    state = _dominant_label(
+        {
+            "adaptive_jung": 1.0 - experience,
+            "adaptive_rekopplung_angehoben": _clip(delta, 0.0, 1.0) * experience,
+            "adaptive_rekopplung_gedaempft": _clip(-delta, 0.0, 1.0) * experience,
+            "adaptive_rekopplung_nahe_statisch": (1.0 - _clip(abs(delta), 0.0, 1.0)) * experience,
+        }
+    )
+    milieu_state = _dominant_label(
+        {
+            "milieu_rolle_und_pfad_getragen": role_experience * path_experience,
+            "milieu_rollennah": role_experience * (1.0 - path_experience),
+            "milieu_pfadnah": path_experience * (1.0 - role_experience),
+            "milieu_offen": (1.0 - role_experience) * (1.0 - path_experience),
+        }
+    )
     return {
         "mcm_adaptive_rekopplung_quality": adaptive,
         "mcm_adaptive_rekopplung_state": state,

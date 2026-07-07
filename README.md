@@ -168,6 +168,8 @@ Die Zweierkopplung macht die Bruchlinie genauer: Range+Hoeren und Range+Spannung
 
 Eine zweite Realwelt-Familie, `dio_01hu`, wurde gegen dieselbe Zweierkopplung gehalten. Dort war sie mit nur zwei Vorkommen zu duenn fuer eine harte Kopplungslesung. Damit trennt sich Realwelt-Robustheit von synthetischer Kopplungssichtbarkeit: nicht jede robuste Familie wird durch jede kuenstliche Stoerform dicht aktiviert. Siehe [1719_DIO_01HU_ZWEIERKOPPLUNG.md](docs/befunde/1719_DIO_01HU_ZWEIERKOPPLUNG.md), [1720_DIO_01HU_ZWEIERKOPPLUNG_KLASSEN.md](docs/befunde/1720_DIO_01HU_ZWEIERKOPPLUNG_KLASSEN.md) und [1721_DIO_0LY7_DIO_01HU_KOPPLUNGSVERGLEICH.md](docs/befunde/1721_DIO_0LY7_DIO_01HU_KOPPLUNGSVERGLEICH.md).
 
+Die naechste Bereinigung trennt statische Diagnose von organischer Feldkontrolle. Erste Runtime-Reste wurden auf weiche Druckvergleiche umgestellt: adaptive Rekopplung und rezeptorische Achsenpraeferenz werden nicht mehr ueber feste Grenzwerte benannt, sondern ueber dominante innere Tendenzen. Siehe [007_STATISCHE_RESTE_UND_ORGANISCHE_KONTROLLE.md](docs/mechanik/007_STATISCHE_RESTE_UND_ORGANISCHE_KONTROLLE.md).
+
 ## Hypothese Feldbewusstsein
 
 Wenn hier von Bewusstsein gesprochen wird, ist kein menschliches Ich-Bewusstsein gemeint.

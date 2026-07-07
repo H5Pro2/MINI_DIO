@@ -147,46 +147,50 @@ def _axis_preferences(
     """
 
     tokens = set(str(signature).split("_"))
-    overloaded = role == "spannungsrand_kippnaehe" or strain >= 0.24 or raw_field >= 0.34
-    thin = "feldduenn" in tokens or raw_field <= 0.08
-    carried = carrying_quality >= 0.74 and not overloaded
-    open_state = role == "offene_variante"
+    overload_pressure = _clamp01(max(
+        strain,
+        raw_field,
+        1.0 if role == "spannungsrand_kippnaehe" else 0.0,
+    ))
+    thin_pressure = _clamp01(max(
+        1.0 - raw_field,
+        1.0 if "feldduenn" in tokens else 0.0,
+    ))
+    carry_pressure = _clamp01(carrying_quality * (1.0 - overload_pressure))
+    open_pressure = 1.0 if role == "offene_variante" else 0.0
 
-    hearing = "hold"
-    vision = "hold"
-    feeling = "hold"
-    reason = "tragende_aufnahme_halten"
-
-    if overloaded:
-        if "laut" in tokens:
-            hearing = "down"
-        if "unscharf" in tokens:
-            vision = "up"
-        elif "scharf" in tokens and raw_field >= 0.42:
-            vision = "soften"
-        if "feldstark" in tokens:
-            feeling = "down"
-        reason = "ueberlastung_achsenweise_daempfen"
-    elif thin and not carried:
-        if "leise" in tokens:
-            hearing = "up"
-        if "unscharf" in tokens:
-            vision = "up"
-        if "feldduenn" in tokens:
-            feeling = "up"
-        reason = "aufnahme_zu_duenn_achsenweise_verstaerken"
-    elif open_state:
-        if "laut" in tokens:
-            hearing = "down"
-        if "unscharf" in tokens:
-            vision = "up"
-        if "feldstark" in tokens:
-            feeling = "soften"
-        elif "feldmittel" in tokens:
-            feeling = "hold"
-        reason = "offene_lage_feiner_ausrichten"
-    elif carried:
-        reason = "tragende_sinneshaltung_stabilisieren"
+    hearing = _dominant_axis_state(
+        {
+            "up": (1.0 if "leise" in tokens else 0.0) * thin_pressure,
+            "down": (1.0 if "laut" in tokens else 0.0) * max(overload_pressure, open_pressure),
+            "soften": 0.0,
+            "hold": carry_pressure,
+        }
+    )
+    vision = _dominant_axis_state(
+        {
+            "up": (1.0 if "unscharf" in tokens else 0.0) * max(thin_pressure, open_pressure, overload_pressure),
+            "down": 0.0,
+            "soften": (1.0 if "scharf" in tokens else 0.0) * max(raw_field, overload_pressure),
+            "hold": carry_pressure,
+        }
+    )
+    feeling = _dominant_axis_state(
+        {
+            "up": (1.0 if "feldduenn" in tokens else 0.0) * thin_pressure,
+            "down": (1.0 if "feldstark" in tokens else 0.0) * overload_pressure,
+            "soften": (1.0 if "feldstark" in tokens else 0.0) * open_pressure,
+            "hold": max(carry_pressure, 1.0 if "feldmittel" in tokens else 0.0),
+        }
+    )
+    reason = _dominant_reason(
+        {
+            "ueberlastung_achsenweise_daempfen": overload_pressure,
+            "aufnahme_zu_duenn_achsenweise_verstaerken": thin_pressure * (1.0 - carry_pressure),
+            "offene_lage_feiner_ausrichten": open_pressure,
+            "tragende_sinneshaltung_stabilisieren": carry_pressure,
+        }
+    )
 
     return {
         "hearing": hearing,
@@ -194,3 +198,27 @@ def _axis_preferences(
         "feeling": feeling,
         "reason": reason,
     }
+
+
+def _dominant_axis_state(items: dict[str, float]) -> str:
+    clean = {key: _clamp01(value) for key, value in items.items()}
+    if not clean:
+        return "hold"
+    return max(clean, key=clean.get)
+
+
+def _dominant_reason(items: dict[str, float]) -> str:
+    clean = {key: _clamp01(value) for key, value in items.items()}
+    if not clean:
+        return "tragende_sinneshaltung_stabilisieren"
+    return max(clean, key=clean.get)
+
+
+def _clamp01(value: object) -> float:
+    try:
+        number = float(value or 0.0)
+    except (TypeError, ValueError):
+        number = 0.0
+    if number != number:
+        number = 0.0
+    return max(0.0, min(1.0, number))
