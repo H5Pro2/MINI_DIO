@@ -125,6 +125,22 @@ Diese Testform macht die bisherige Forschung belastbarer:
 - Bedeutungsinseln werden nicht als fertige Wörter behandelt, sondern gegen Wiederkehr, Drift und Weltfenster geprüft.
 - Rollentaxonomie wird nicht nur aggregiert, sondern gegen konkrete Tickfenster und Mehrwelt-Rücklesung kontrolliert.
 
+## Erster durchgeführter Test
+
+Der erste explizite Stress-Test prüft Rückführungsdämpfung gegen Topologie-Stabilität.
+
+Ergebnis in Kurzform:
+
+- milde Dämpfung hält die gelesene Topologie stabil,
+- stärkere Dämpfung verschiebt reale Weltfenster deutlicher in Offenheit und Diffusität,
+- synthetische Rekopplungsfenster weichen geordneter über Zentrum und Offenheit aus,
+- Familien-Wiedererkennbarkeit sinkt bei starker Dämpfung, verschwindet aber nicht in allen Quellen gleich.
+
+Siehe:
+
+- [1820_RUECKFUEHRUNG_DAEMPFUNG_STRESSTEST.md](../befunde/1820_RUECKFUEHRUNG_DAEMPFUNG_STRESSTEST.md)
+- [1821_RUECKFUEHRUNG_DAEMPFUNG_REAL_SYN_GEGENPROBE.md](../befunde/1821_RUECKFUEHRUNG_DAEMPFUNG_REAL_SYN_GEGENPROBE.md)
+
 ## Regel für zukünftige Befunde
 
 Jeder neue größere Befund sollte nach Möglichkeit eine Wenn-Dann-Form bekommen:
@@ -137,4 +153,4 @@ Danach wird geprüft:
 
 ## Wie es weitergeht
 
-Als nächstes sollte ein erster expliziter Stress-Test nach diesem Schema formuliert werden: Rückführungsdämpfung gegen Topologie-Stabilität.
+Als nächstes sollte dieselbe Stress-Test-Logik gegen eine Null-/Rauschwelt und danach gegen echte Laufvarianten geprüft werden. Erst dann ist klarer, ob die Rückführungsdämpfung nur die Lesung verschiebt oder die Feldorganisation selbst stabil umordnet.

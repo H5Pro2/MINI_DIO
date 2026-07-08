@@ -45,6 +45,8 @@ Das [MCM-Feld](https://github.com/H5Pro2/Mental-Core-Matrix-MCM) scheint passive
 
 Methodisch wird diese Hypothese zunehmend über Wenn-Dann-Stress-Tests geprüft: Eine Feldbedingung wird gezielt verändert, danach wird gemessen, ob Topologie, Feldzeit, Nachhall, Rollenbreite und Bedeutungsinseln stabil bleiben, driften, kollabieren oder neue geordnete Varianten bilden. Siehe [008_WENN_DANN_STRESS_TESTS.md](docs/mechanik/008_WENN_DANN_STRESS_TESTS.md).
 
+Der erste konkrete Stress-Test dämpft die Rückführungs-/Rekopplungsachse in der Auswertung. Bei milder Dämpfung bleibt die Topologie stabil. Bei stärkerer Dämpfung verschieben reale Weltfenster deutlicher in Offenheit und Diffusität, während synthetische Rekopplungsfenster eher geordnet über Zentrum und Offenheit ausweichen. Dokumentiert ist das in [1820_RUECKFUEHRUNG_DAEMPFUNG_STRESSTEST.md](docs/befunde/1820_RUECKFUEHRUNG_DAEMPFUNG_STRESSTEST.md) und [1821_RUECKFUEHRUNG_DAEMPFUNG_REAL_SYN_GEGENPROBE.md](docs/befunde/1821_RUECKFUEHRUNG_DAEMPFUNG_REAL_SYN_GEGENPROBE.md).
+
 Ergänzende Feldzeit-Hypothese:
 
 Der 0-Punkt übernimmt im MCM-Feld eine gravitative Funktion. Gemeint ist keine physikalische Gleichsetzung mit Massegravitation, sondern eine rückführende Feldfunktion: Der 0-Punkt wirkt als Bezug der Spannungsrückführung. Bedeutungsinseln können als lokale Verdichtungen wiederkehrender Feldwirkung gelesen werden, also als gravitative Varianzen innerhalb des Feldes.
