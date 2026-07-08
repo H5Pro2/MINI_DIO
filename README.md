@@ -234,6 +234,8 @@ Eine anschließende Real-Drift-Prüfung über vier SOL-2023-Fenster zeigt diesel
 
 Eine DOGE/XRP-2025-Gegenprobe trennt die Übergangsfrage weiter. DOGE 2025 bleibt `kompakt_nachhallend`, während XRP 2025 wieder eine `mittlere_uebergangsphase` bildet. Damit ist Übergang nicht nur SOL-spezifisch, aber auch nicht automatisch jedes 2025-Fenster. Er wirkt bisher wie eine weltphasen- und assetmilieuabhängige Feldbreite innerhalb stabiler Zentrumstopologie. Siehe [1748_DOGE_XRP_2025_UEBERGANGSPHASE_SUCHE.md](docs/befunde/1748_DOGE_XRP_2025_UEBERGANGSPHASE_SUCHE.md), [real_drift_asset_doge_xrp_2025_topology.md](reports/real_drift_asset_doge_xrp_2025_topology.md), [real_drift_asset_doge_xrp_2025_randdruck.md](reports/real_drift_asset_doge_xrp_2025_randdruck.md) und [real_drift_asset_doge_xrp_2025_axis_map.md](reports/real_drift_asset_doge_xrp_2025_axis_map.md).
 
+Die Rücklesung dieser Übergangsphase zeigt: XRP 2025 unterscheidet sich nicht durch globalen Randbruch, sondern durch mehr Rollen und mehr Cross-State-Kombinationen. Offene Varianten tragen dort erhöhte Hörverschiebung, größeren Sicht-/Hör-Gap, höheren Rezeptordruck und größere Roh-Range. Siehe [1749_XRP_2025_UEBERGANGSPHASE_ROHWELT_LUPE.md](docs/befunde/1749_XRP_2025_UEBERGANGSPHASE_ROHWELT_LUPE.md) und [xrp_2025_uebergangsphase_rohwelt_lupe.md](reports/xrp_2025_uebergangsphase_rohwelt_lupe.md).
+
 ## Hypothese Feldbewusstsein
 
 Wenn hier von Bewusstsein gesprochen wird, ist kein menschliches Ich-Bewusstsein gemeint.
@@ -1461,6 +1463,7 @@ Der aktuelle Mehrwelt-Vergleich zeigt zusätzlich:
 - Eine Real-Drift-Jahresgegenprobe mit SOL 2024/2025 bestätigt die robuste Grundordnung: alle vier Fenster bleiben global `stark_zentriert_wenig_rand`. Der Unterschied liegt nicht im Topologiebruch, sondern im Feldmilieu: 2024 wirkt `kompakt_nachhallend`, 2025 zeigt eine `mittlere_uebergangsphase`. Drift erscheint damit als Rollenbreiten-, Nachhall- und Übergangsphänomen, nicht als Kollaps der MCM-Feldordnung.
 - Eine DOGE/XRP-2024-Gegenprobe liest beide Assets ebenfalls als `kompakt_nachhallend`. Damit wirkt diese Achsenklasse assetübergreifend plausibel, während `mittlere_uebergangsphase` bisher eher als besondere Weltphase oder Jahresfärbung sichtbar wird. Lokale Randdruckspitzen bleiben vorhanden, brechen aber die globale Zentrumstopologie nicht.
 - Eine DOGE/XRP-2025-Gegenprobe zeigt die Übergangsphase differenzierter: DOGE 2025 bleibt kompakt-nachhallend, XRP 2025 wird mittlere Übergangsphase. Damit wird Übergang als lokale Welt-/Milieuqualität lesbar, nicht als einfacher Jahres- oder Asseteffekt.
+- Die XRP-2025-Rücklesung zeigt als wahrscheinliche Träger der Übergangsbreite: höhere Roh-Range, stärkere Hörverschiebung, größere Sicht-/Hör-Gaps, höheren Rezeptordruck und mehr Cross-State-Kombinationen bei stabiler globaler Zentrumstopologie.
 
 Das spricht für weltbezogene Innenfeldordnungen statt wahlloser Speicherung.
 
