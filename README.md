@@ -1470,6 +1470,7 @@ Der aktuelle Mehrwelt-Vergleich zeigt zusätzlich:
 - Die XRP-2025-Rücklesung zeigt als wahrscheinliche Träger der Übergangsbreite: höhere Roh-Range, stärkere Hörverschiebung, größere Sicht-/Hör-Gaps, höheren Rezeptordruck und mehr Cross-State-Kombinationen bei stabiler globaler Zentrumstopologie.
 - Eine 1000er-Teilfensterprüfung zeigt danach: lokale Mehrrollenbildung kommt auch in DOGE 2025 vor. Die mittlere Übergangsphase liegt daher nicht nur in lokalen Rollen, sondern in der Folgewelt-/Offline-Kombinationsqualität.
 - Eine lokale Real-Sleep-Real-Gegenprüfung zeigt XRP stärker verteilt als DOGE: XRP bildet im Kandidaten `verteilt_offen`, DOGE bleibt im vergleichbaren Kandidaten mittlere Übergangsphase.
+- Das zweite lokale Anschlussfenster schärft diesen Befund: XRP bleibt in `6000-7000 -> 7000-8000` verteilt offen (`6` Rollen, `13` Kombinationen), während DOGE im gleichen Anschluss auf `kompakt_nachhallend` zurückfällt. Damit wirkt XRP 2025 in diesem Bereich wie eine länger getragene offene Übergangsphase, nicht nur wie ein einzelnes lokales Aufblitzen. Siehe [1752_XRP_DOGE_2025_ZWEITES_LOKALES_FENSTER.md](docs/befunde/1752_XRP_DOGE_2025_ZWEITES_LOKALES_FENSTER.md).
 
 Das spricht für weltbezogene Innenfeldordnungen statt wahlloser Speicherung.
 
