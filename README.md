@@ -238,6 +238,8 @@ Die Rücklesung dieser Übergangsphase zeigt: XRP 2025 unterscheidet sich nicht 
 
 Eine folgende 1000er-Teilfensterprüfung zeigt: Mehrrollenfähigkeit ist nicht XRP-exklusiv. Auch DOGE 2025 bildet in lokalen Teilfenstern häufig mehrere stabile Feldrollen. Die mittlere Übergangsphase muss deshalb präziser als Rollenbreite plus reaktivierte Kombinationsqualität gelesen werden, nicht nur als lokales Segmentmerkmal. Siehe [1750_XRP_DOGE_2025_TEILFENSTER_MEHRROLLEN.md](docs/befunde/1750_XRP_DOGE_2025_TEILFENSTER_MEHRROLLEN.md) und [xrp_doge_2025_teilfenster_mehrrollen_scan.md](reports/xrp_doge_2025_teilfenster_mehrrollen_scan.md).
 
+Eine lokale Real-Sleep-Real-Gegenprüfung schärft diesen Befund: XRP 2025 `0-1000` im Folgefenster wird `verteilt_offen` mit 6 Rollen, 15 Kombinationen und 9 Cross-State-Verbindungen. Ein vergleichbarer DOGE-Kandidat wird `mittlere_uebergangsphase` mit 4 Rollen und 6 Kombinationen. Damit kann XRP die breitere Rollenvernetzung auch lokal tragen, nicht nur im 5000er-Gesamtkontext. Siehe [1751_XRP_DOGE_2025_LOKALE_REALSLEEPREAL_GEGENPRUEFUNG.md](docs/befunde/1751_XRP_DOGE_2025_LOKALE_REALSLEEPREAL_GEGENPRUEFUNG.md) und [xrp_doge_2025_lokale_realsleepreal_achsen.md](reports/xrp_doge_2025_lokale_realsleepreal_achsen.md).
+
 ## Hypothese Feldbewusstsein
 
 Wenn hier von Bewusstsein gesprochen wird, ist kein menschliches Ich-Bewusstsein gemeint.
@@ -1467,6 +1469,7 @@ Der aktuelle Mehrwelt-Vergleich zeigt zusätzlich:
 - Eine DOGE/XRP-2025-Gegenprobe zeigt die Übergangsphase differenzierter: DOGE 2025 bleibt kompakt-nachhallend, XRP 2025 wird mittlere Übergangsphase. Damit wird Übergang als lokale Welt-/Milieuqualität lesbar, nicht als einfacher Jahres- oder Asseteffekt.
 - Die XRP-2025-Rücklesung zeigt als wahrscheinliche Träger der Übergangsbreite: höhere Roh-Range, stärkere Hörverschiebung, größere Sicht-/Hör-Gaps, höheren Rezeptordruck und mehr Cross-State-Kombinationen bei stabiler globaler Zentrumstopologie.
 - Eine 1000er-Teilfensterprüfung zeigt danach: lokale Mehrrollenbildung kommt auch in DOGE 2025 vor. Die mittlere Übergangsphase liegt daher nicht nur in lokalen Rollen, sondern in der Folgewelt-/Offline-Kombinationsqualität.
+- Eine lokale Real-Sleep-Real-Gegenprüfung zeigt XRP stärker verteilt als DOGE: XRP bildet im Kandidaten `verteilt_offen`, DOGE bleibt im vergleichbaren Kandidaten mittlere Übergangsphase.
 
 Das spricht für weltbezogene Innenfeldordnungen statt wahlloser Speicherung.
 
