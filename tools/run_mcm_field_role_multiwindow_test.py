@@ -62,14 +62,14 @@ def _run_mini(data_path: Path, memory_path: Path, debug_root: Path, label: str) 
     subprocess.run(cmd, cwd=ROOT, check=True, stdout=subprocess.DEVNULL)
 
 
-def _ensure_worlds(asset: str, source: Path, start: int, rows: int, seed: int, data_dir: Path) -> dict[str, Path]:
-    stem = f"kontrolliert_1845_{_safe_name(asset)}_start{start}_rows{rows}"
+def _ensure_worlds(asset: str, source: Path, start: int, rows: int, seed: int, data_dir: Path, tag: str) -> dict[str, Path]:
+    stem = f"kontrolliert_{_safe_name(tag)}_{_safe_name(asset)}_start{start}_rows{rows}"
     real_path = data_dir / f"{stem}.csv"
     if not real_path.exists():
         result = create_slice(source, real_path, start=start, rows=rows)
         if int(result["rows_written"]) != rows:
             raise ValueError(f"{source} schrieb {result['rows_written']} statt {rows} Zeilen")
-    null_prefix = data_dir / f"synthetic_1845_{_safe_name(asset)}_start{start}_rows{rows}_null"
+    null_prefix = data_dir / f"synthetic_{_safe_name(tag)}_{_safe_name(asset)}_start{start}_rows{rows}_null"
     random_path = null_prefix.with_name(f"{null_prefix.name}_random_sign_{rows}.csv")
     shuffle_path = null_prefix.with_name(f"{null_prefix.name}_shuffle_order_{rows}.csv")
     if not random_path.exists() or not shuffle_path.exists():
@@ -170,9 +170,15 @@ def _asset_window_summary(summary_rows: list[dict[str, object]]) -> list[dict[st
     return out
 
 
-def _write_md(path: Path, summary_rows: list[dict[str, object]], kind_rows: list[dict[str, object]], window_rows: list[dict[str, object]]) -> None:
+def _write_md(
+    path: Path,
+    summary_rows: list[dict[str, object]],
+    kind_rows: list[dict[str, object]],
+    window_rows: list[dict[str, object]],
+    title: str,
+) -> None:
     lines = [
-        "# 1845 - MCM-Feldrollen-Memory: automatischer Mehrfenster-Test",
+        f"# {title}",
         "",
         "## Grundfrage",
         "",
@@ -253,6 +259,8 @@ def main() -> int:
     parser.add_argument("--data-dir", default="data/1845_multiwindow")
     parser.add_argument("--out-md", default="docs/befunde/1845_MCM_FELDROLLEN_MEHRFENSTER_TEST.md")
     parser.add_argument("--out-csv", default="docs/befunde/1845_MCM_FELDROLLEN_MEHRFENSTER_TEST.csv")
+    parser.add_argument("--title", default="1845 - MCM-Feldrollen-Memory: automatischer Mehrfenster-Test")
+    parser.add_argument("--tag", default="1845")
     args = parser.parse_args()
 
     specs = args.world or [(asset, _resolve(path)) for asset, path in DEFAULT_SPECS]
@@ -266,7 +274,15 @@ def main() -> int:
     starts = args.start or [0, 17000, 34000]
     for asset, source in specs:
         for start in starts:
-            worlds = _ensure_worlds(asset, source, start=start, rows=args.rows, seed=184500 + start + len(asset), data_dir=data_dir)
+            worlds = _ensure_worlds(
+                asset,
+                source,
+                start=start,
+                rows=args.rows,
+                seed=184500 + start + len(asset),
+                data_dir=data_dir,
+                tag=args.tag,
+            )
             for kind, path in worlds.items():
                 label = f"{asset.lower()}_start{start}_{kind}_{args.rows}"
                 run_root = debug_root / label
@@ -293,7 +309,7 @@ def main() -> int:
         + [{**row, "row_type": "detail"} for row in detail_rows]
     )
     _write_csv(_resolve(args.out_csv), csv_rows)
-    _write_md(_resolve(args.out_md), summary_rows, kind_rows, window_rows)
+    _write_md(_resolve(args.out_md), summary_rows, kind_rows, window_rows, args.title)
     print(f"wrote {args.out_md}")
     print(f"wrote {args.out_csv}")
     return 0

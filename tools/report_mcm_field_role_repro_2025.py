@@ -1,11 +1,20 @@
 from __future__ import annotations
 
 import csv
+import sys
 from collections import Counter, defaultdict
 from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
+
+_field_limit = sys.maxsize
+while True:
+    try:
+        csv.field_size_limit(_field_limit)
+        break
+    except OverflowError:
+        _field_limit //= 10
 
 SOURCE_2024 = ROOT / "docs/befunde/1840_MCM_REIFUNGSBAHN_PHASENGEBUNDENE_FAMILIEN.csv"
 OUT_CSV = ROOT / "docs/befunde/1841_MCM_FELDROLLEN_MEMORY_REPRO_2025.csv"
