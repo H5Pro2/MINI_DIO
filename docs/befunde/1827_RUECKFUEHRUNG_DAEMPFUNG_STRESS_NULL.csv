@@ -1,0 +1,13 @@
+world,source,rekopplung_factor,candles,unique_symbols,episodes,dominant_effect_class,dominant_episode_state,unique_episode_families,top_family_count,avg_mcm_carry_quality,avg_mcm_strain_quality,avg_mcm_rekopplung_quality,avg_mcm_adaptive_rekopplung_quality,avg_mcm_sensory_coupling,avg_mini_afterimage,avg_mini_temporal_trust_support,avg_mini_temporal_caution_support
+NULL_RANDOM_2400,data/synthetic_1527_null_random_sign_2400_5m.csv,1.0,2400,221,2394,stabil,-,221,205,0.543672,0.152092,0.712321,0.717427,0.855439,0.51122,0.750814,0.168385
+NULL_RANDOM_2400,data/synthetic_1527_null_random_sign_2400_5m.csv,0.5,2400,221,2394,stabil,-,221,205,0.543672,0.152092,0.356161,0.656495,0.855439,0.51122,0.750814,0.168385
+NULL_RANDOM_2400,data/synthetic_1527_null_random_sign_2400_5m.csv,0.3,2400,221,2394,stabil,-,221,205,0.543672,0.152092,0.213696,0.640276,0.855439,0.51122,0.750814,0.168385
+NULL_SHUFFLE_2400,data/synthetic_1526_null_shuffle_order_2400_5m.csv,1.0,2400,224,2394,stabil,-,222,140,0.534597,0.165282,0.7028,0.707808,0.844419,0.510674,0.744528,0.191694
+NULL_SHUFFLE_2400,data/synthetic_1526_null_shuffle_order_2400_5m.csv,0.5,2400,224,2394,stabil,-,222,140,0.534597,0.165282,0.3514,0.635303,0.844419,0.510674,0.744528,0.191694
+NULL_SHUFFLE_2400,data/synthetic_1526_null_shuffle_order_2400_5m.csv,0.3,2400,224,2394,stabil,-,222,140,0.534597,0.165282,0.21084,0.723943,0.844419,0.510674,0.744528,0.191694
+SOL_EXPANSION_2023_10K,data/kontrolliert_2023_positive_expansion_10k_5m_SOLUSDT.csv,1.0,10000,668,9994,stabil,-,664,602,0.552171,0.170777,0.707035,0.742298,0.841006,0.657648,0.818977,0.17953
+SOL_EXPANSION_2023_10K,data/kontrolliert_2023_positive_expansion_10k_5m_SOLUSDT.csv,0.5,10000,668,9994,stabil,-,664,602,0.552171,0.170777,0.353517,0.741112,0.841006,0.657648,0.818977,0.17953
+SOL_EXPANSION_2023_10K,data/kontrolliert_2023_positive_expansion_10k_5m_SOLUSDT.csv,0.3,10000,668,9994,stabil,-,664,602,0.552171,0.170777,0.21211,0.74294,0.841006,0.657648,0.818977,0.17953
+SOL_NEG_STRESS_2023_10K,data/kontrolliert_2023_negative_stress_10k_5m_SOLUSDT.csv,1.0,10000,641,9994,stabil,-,638,695,0.553464,0.17076,0.707597,0.742726,0.840159,0.665656,0.824271,0.176938
+SOL_NEG_STRESS_2023_10K,data/kontrolliert_2023_negative_stress_10k_5m_SOLUSDT.csv,0.5,10000,641,9994,stabil,-,638,695,0.553464,0.17076,0.353798,0.741184,0.840159,0.665656,0.824271,0.176938
+SOL_NEG_STRESS_2023_10K,data/kontrolliert_2023_negative_stress_10k_5m_SOLUSDT.csv,0.3,10000,641,9994,stabil,-,638,695,0.553464,0.17076,0.212279,0.74206,0.840159,0.665656,0.824271,0.176938
