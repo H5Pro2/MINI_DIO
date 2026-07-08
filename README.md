@@ -1457,6 +1457,7 @@ Der aktuelle Mehrwelt-Vergleich zeigt zusätzlich:
 - Die Codekopplung wurde entsprechend geschärft: `mcm_feldwirkung.mcm_tension` liest jetzt die adaptierte Feldaufnahme, während die Rohfeldaufnahme Diagnose bleibt. Damit wirkt Weltspannung nicht mehr ungefiltert als MCM-Feldspannung.
 - Die synthetischen Kontrollwelten wurden nach dieser Korrektur erneut geprüft. Die Abstufung bleibt erhalten: Harmonie bleibt zentrumsnah, Bruch/Rand öffnet lokal, Randdominanz erzeugt starke lokale Öffnung und begrenzte Rand/Kippnähe. Damit verschwindet die Topologie nicht; sie wird sauberer als Innenfeldwirkung statt Rohlast gelesen.
 - Eine Real-Drift-Jahresgegenprobe mit SOL 2024/2025 bestätigt die robuste Grundordnung: alle vier Fenster bleiben global `stark_zentriert_wenig_rand`. Der Unterschied liegt nicht im Topologiebruch, sondern im Feldmilieu: 2024 wirkt `kompakt_nachhallend`, 2025 zeigt eine `mittlere_uebergangsphase`. Drift erscheint damit als Rollenbreiten-, Nachhall- und Übergangsphänomen, nicht als Kollaps der MCM-Feldordnung.
+- Eine DOGE/XRP-2024-Gegenprobe liest beide Assets ebenfalls als `kompakt_nachhallend`. Damit wirkt diese Achsenklasse assetübergreifend plausibel, während `mittlere_uebergangsphase` bisher eher als besondere Weltphase oder Jahresfärbung sichtbar wird. Lokale Randdruckspitzen bleiben vorhanden, brechen aber die globale Zentrumstopologie nicht.
 
 Das spricht für weltbezogene Innenfeldordnungen statt wahlloser Speicherung.
 
