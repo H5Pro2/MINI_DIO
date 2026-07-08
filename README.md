@@ -224,6 +224,8 @@ Ein längeres PAXG-2025-Fenster löst diese Drift genauer auf. 5m, 15m und 1h bl
 
 Ein direkter BTC/PAXG-2025-Langfenstervergleich bestätigt danach die robuste Grundtopologie. Alle sechs geprüften Achsen bleiben `stark_zentriert_wenig_rand`. Der Unterschied liegt nicht im Bruch der Topologie, sondern in der Feldfärbung: PAXG zeigt in 5m und 1h mehr offene Variante, BTC bleibt enger zentrumsstabil. Siehe [1741_BTC_PAXG_2025_LANGFENSTER_VERGLEICH.md](docs/befunde/1741_BTC_PAXG_2025_LANGFENSTER_VERGLEICH.md) und [btc_paxg_2025_long_topology.md](reports/btc_paxg_2025_long_topology.md).
 
+Eine DOGE/BTC/PAXG-Langfenster-Matrix erweitert diesen Befund. Alle zwölf geprüften Welten bleiben `stark_zentriert_wenig_rand`. DOGE liegt dabei sehr nah an BTC: kompakt zentrumsstabil, wenig offen, kein globaler Randbruch. PAXG bleibt der offenere und phasenreichere Pol. Damit trennt sich die robuste Feldordnung noch klarer von der lokalen Weltfärbung. Siehe [1742_DOGE_BTC_PAXG_LANGFENSTER_MATRIX.md](docs/befunde/1742_DOGE_BTC_PAXG_LANGFENSTER_MATRIX.md) und [doge_btc_paxg_long_topology.md](reports/doge_btc_paxg_long_topology.md).
+
 ## Hypothese Feldbewusstsein
 
 Wenn hier von Bewusstsein gesprochen wird, ist kein menschliches Ich-Bewusstsein gemeint.
