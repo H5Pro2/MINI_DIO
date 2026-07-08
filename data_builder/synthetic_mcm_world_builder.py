@@ -43,10 +43,25 @@ RAND_DOMINANCE_PHASES = (
 )
 
 
+RECOUPLING_WIDTH_PHASES = (
+    ("ruhig_basis", 700, 0.00002, 0.0025, 0.0010, 0.95),
+    ("oeffnung_a", 650, 0.00038, 0.0080, 0.0044, 1.55),
+    ("rekopplung_a", 850, 0.00022, 0.0060, 0.0028, 1.25),
+    ("oeffnung_b", 650, -0.00018, 0.0090, 0.0048, 1.70),
+    ("rekopplung_b", 850, 0.00026, 0.0064, 0.0030, 1.30),
+    ("gegenpol_weich", 600, 0.00078, 0.0115, 0.0065, 2.05),
+    ("rekopplung_c", 900, 0.00018, 0.0058, 0.0026, 1.20),
+    ("randimpuls_kurz", 360, -0.00048, 0.0135, 0.0072, 2.25),
+    ("rekopplung_d", 900, 0.00024, 0.0062, 0.0029, 1.28),
+    ("ruhe_nachhall", 700, 0.00001, 0.0030, 0.0014, 1.02),
+)
+
+
 PRESETS = {
     "harmonic": HARMONIC_PHASES,
     "bruch_rand": BREAK_RAND_PHASES,
     "rand_dominanz": RAND_DOMINANCE_PHASES,
+    "rekopplungsbreite": RECOUPLING_WIDTH_PHASES,
 }
 
 
@@ -116,6 +131,16 @@ def _phase_at(index: int, phases: tuple[tuple[str, int, float, float, float, flo
     return name, length, drift, wave, noise, volume_scale, length - 1
 
 
+def _phase_family(phase_name: str) -> str:
+    if phase_name.startswith("oeffnung_"):
+        return "oeffnung"
+    if phase_name.startswith("rekopplung_"):
+        return "rekopplung"
+    if phase_name.startswith("randimpuls_"):
+        return "randimpuls"
+    return phase_name
+
+
 def build_rows(
     rows: int,
     start_price: float,
@@ -138,24 +163,29 @@ def build_rows(
         fast = math.sin((local_t * 7.0 + i * 0.013) * math.tau)
         micro = math.sin((i * 0.173) + math.cos(i * 0.019))
         ret = drift + (slow * wave * 0.12) + (fast * noise * 0.06) + (micro * noise * 0.035)
-        if phase_name == "kippnaehe":
+        phase_family = _phase_family(phase_name)
+        if phase_family == "kippnaehe":
             ret += -abs(fast) * noise * 0.09
-        if phase_name in {"bruch_impuls", "zweiter_kippimpuls"}:
+        if phase_family in {"bruch_impuls", "zweiter_kippimpuls"}:
             ret += -abs(fast) * noise * 0.20
-        if phase_name in {"asymmetrischer_bruch", "zweiter_randstoss"}:
+        if phase_family in {"asymmetrischer_bruch", "zweiter_randstoss"}:
             ret += -abs(fast) * noise * 0.32
-        if phase_name == "laute_randphase":
+        if phase_family == "laute_randphase":
             ret += math.sin(i * 1.37) * noise * 0.30
-        if phase_name == "randflackern":
+        if phase_family == "randflackern":
             ret += math.sin(i * 0.91) * noise * 0.18
-        if phase_name in {"gegenpol", "gegenzerrung"}:
+        if phase_family in {"gegenpol", "gegenzerrung", "gegenpol_weich"}:
             ret += abs(fast) * noise * 0.12
-        if phase_name == "ueberreizter_nachhall":
+        if phase_family == "ueberreizter_nachhall":
             ret += math.sin(i * 0.53) * noise * 0.14
-        if phase_name == "rekopplung":
+        if phase_family == "rekopplung":
             ret += (0.5 - abs(local_t - 0.5)) * wave * 0.08
-        if phase_name == "zweite_rekopplung":
+        if phase_family == "zweite_rekopplung":
             ret += (0.5 - abs(local_t - 0.5)) * wave * 0.10
+        if phase_family == "oeffnung":
+            ret += math.sin(i * 0.43) * noise * 0.06
+        if phase_family == "randimpuls":
+            ret += -abs(fast) * noise * 0.11 + math.sin(i * 0.77) * noise * 0.07
 
         open_price = price
         close = max(0.01, open_price * (1.0 + ret))
@@ -166,7 +196,7 @@ def build_rows(
         low = min(open_price, close) - phase_range * (0.45 + 0.35 * (1.0 - wick_bias))
         low = max(0.01, low)
         range_boost = 1.0
-        if phase_name in {
+        if phase_family in {
             "bruch_impuls",
             "randflackern",
             "zweiter_kippimpuls",
@@ -176,9 +206,10 @@ def build_rows(
             "gegenzerrung",
             "ueberreizter_nachhall",
             "zweiter_randstoss",
+            "randimpuls",
         }:
             range_boost = 1.65
-        if phase_name in {"laute_randphase", "zweiter_randstoss"}:
+        if phase_family in {"laute_randphase", "zweiter_randstoss"}:
             range_boost = 2.45
         high = max(open_price, close) + (high - max(open_price, close)) * range_boost
         low = min(open_price, close) - (min(open_price, close) - low) * range_boost
