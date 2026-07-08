@@ -210,6 +210,8 @@ Eine KAS-Zeitachsenprüfung über 5m, 15m, 30m und 1h bestätigt die robuste Rol
 
 Eine PAXG-Zeitachsenprüfung über 5m, 15m und 1h ergänzt den Kontrast: PAXG bleibt ebenfalls `stark_zentriert_wenig_rand`, trägt aber die stärkste Rekopplung und die geringste Dämpfung, besonders in 5m. 15m und 1h glätten lokal, ohne die Topologie zu brechen. Siehe [1734_PAXG_ZEITACHSEN_MATRIX.md](docs/befunde/1734_PAXG_ZEITACHSEN_MATRIX.md) und [paxg_time_axis_matrix.md](reports/paxg_time_axis_matrix.md).
 
+Die gemeinsame Asset-Zeitachsen-Synthese trennt den Befund nun klarer: Topologie bleibt bisher stabil zentrumsnah, Assetmilieu färbt Rekopplung/Dämpfung/Offenheit, und das Zeitmaß färbt graduell, ohne bisher einen Bruch zu erzwingen. Siehe [1735_ASSET_ZEITACHSEN_SYNTHESE.md](docs/befunde/1735_ASSET_ZEITACHSEN_SYNTHESE.md) und [asset_time_axis_synthesis.md](reports/asset_time_axis_synthesis.md).
+
 ## Hypothese Feldbewusstsein
 
 Wenn hier von Bewusstsein gesprochen wird, ist kein menschliches Ich-Bewusstsein gemeint.
