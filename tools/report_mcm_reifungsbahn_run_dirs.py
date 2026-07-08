@@ -12,6 +12,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 
 DEFAULT_RUNS = [
+    ("BTC_2024_5M_10K", "realwelt_2024", "debug/cross_anchor_btc2024_5m_10k/dio_mini_lauf_1"),
     ("DOGE_2024_5M_10K", "realwelt_2024", "debug/doge_2024_5m_10k/dio_mini_lauf_1"),
     ("PAXG_2024_5M_10K", "realwelt_2024", "debug/paxg_2024_5m_10k/dio_mini_lauf_1"),
     ("XRP_2024_5M_10K", "realwelt_2024", "debug/xrp_2024_5m_10k/dio_mini_lauf_1"),
@@ -242,12 +243,13 @@ def _write_md(path: Path, rows: list[dict[str, float | str]]) -> None:
         "",
         "Gelesen wurden vorhandene MINI_DIO-Läufe, ohne neue Handlung, Gate-Logik oder Strategie:",
         "",
+        "- BTC 2024 5m 10k",
         "- DOGE 2024 5m 10k",
         "- PAXG 2024 5m 10k",
         "- XRP 2024 5m 10k",
         "- zwei Nullwelten aus der 1831-Kontrollfläche",
         "",
-        "BTC 2024 5m 10k wurde in diesem Schritt nicht aufgenommen, weil kein gleichartig benannter 10k-Lauf im aktuellen Debugbestand vorliegt. Das ist eine Datenlücke, kein Negativbefund.",
+        "Die Nullwelten sind in diesem Schritt noch 2400 Kerzen lang und dienen als vorhandene Kontrollfläche. Das ist methodisch schwächer als gleichlange Nullwelten, aber ausreichend für eine erste 2024-Gegenprüfung.",
         "",
         "## Reifeprofile",
         "",
@@ -291,11 +293,11 @@ def _write_md(path: Path, rows: list[dict[str, float | str]]) -> None:
             "",
             "## Grenze",
             "",
-            "Die Prüfung nutzt vorhandene 2024-Läufe und keine neu erzeugte vollständige 2024-Dämpfungsreihe. Für eine härtere Aussage sollte dieselbe Logik mit BTC 2024 10k, 2024-Nullwelten gleicher Länge und größeren Fenstern wiederholt werden.",
+            "Die Prüfung nutzt vorhandene 2024-Läufe und keine neu erzeugte vollständige 2024-Dämpfungsreihe. Für eine härtere Aussage sollte dieselbe Logik mit 2024-Nullwelten gleicher Länge und größeren Fenstern wiederholt werden.",
             "",
             "## Wie es weitergeht",
             "",
-            "Als nächstes sollte ein sauberer 2024-10k-Satz mit BTC, DOGE, PAXG, XRP und längengleichen Nullwelten erzeugt werden. Danach kann geprüft werden, ob `feldzeit_reif` über Assets, Jahre und Nullweltformen stabil unterscheidet.",
+            "Als nächstes sollten längengleiche 2024-Nullwelten erzeugt werden. Danach kann geprüft werden, ob `feldzeit_reif` über Assets, Jahre und Nullweltformen stabil unterscheidet.",
             "",
         ]
     )

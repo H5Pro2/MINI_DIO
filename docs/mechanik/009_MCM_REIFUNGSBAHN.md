@@ -108,7 +108,7 @@ Der erste passive Reife-Report ist umgesetzt: [1833_MCM_REIFUNGSBAHN_ASSET10K_NU
 
 Aus diesen Werten entsteht zuerst nur ein Reifeprofil. Keine Handlung, kein Gate, keine Strategie.
 
-Eine erste 2024-Gegenprüfung ist ebenfalls vorhanden: [1834_MCM_REIFUNGSBAHN_2024_GEGENPRUEFUNG.md](../befunde/1834_MCM_REIFUNGSBAHN_2024_GEGENPRUEFUNG.md). Dort wiederholen DOGE, PAXG und XRP in vorhandenen 10k-Läufen den Zustand `feldzeit_reif`, während die Nullwelten `nullweltnah` gelesen werden.
+Eine erste 2024-Gegenprüfung ist ebenfalls vorhanden: [1834_MCM_REIFUNGSBAHN_2024_GEGENPRUEFUNG.md](../befunde/1834_MCM_REIFUNGSBAHN_2024_GEGENPRUEFUNG.md). Dort wiederholen BTC, DOGE, PAXG und XRP in vorhandenen 10k-Läufen den Zustand `feldzeit_reif`, während die Nullwelten `nullweltnah` gelesen werden.
 
 ## Wie es weitergeht
 
