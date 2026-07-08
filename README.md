@@ -222,6 +222,8 @@ Ein verschobenes PAXG-2025-Folgefenster bestätigt die Topologie erneut, zeigt a
 
 Ein längeres PAXG-2025-Fenster löst diese Drift genauer auf. 5m, 15m und 1h bleiben ebenfalls `stark_zentriert_wenig_rand`; bei 5m und 1h werden aber mehr offene Varianten und kleine Kippanteile sichtbar. Die lokale Dämpfung aus dem Folgefenster wirkt damit eher wie eine Phase innerhalb einer weiter rekopplungsstarken PAXG-Welt. Siehe [1740_PAXG_2025_LANGFENSTER_FELDZEIT.md](docs/befunde/1740_PAXG_2025_LANGFENSTER_FELDZEIT.md) und [paxg_2025_long_window_summary.md](reports/paxg_2025_long_window_summary.md).
 
+Ein direkter BTC/PAXG-2025-Langfenstervergleich bestätigt danach die robuste Grundtopologie. Alle sechs geprüften Achsen bleiben `stark_zentriert_wenig_rand`. Der Unterschied liegt nicht im Bruch der Topologie, sondern in der Feldfärbung: PAXG zeigt in 5m und 1h mehr offene Variante, BTC bleibt enger zentrumsstabil. Siehe [1741_BTC_PAXG_2025_LANGFENSTER_VERGLEICH.md](docs/befunde/1741_BTC_PAXG_2025_LANGFENSTER_VERGLEICH.md) und [btc_paxg_2025_long_topology.md](reports/btc_paxg_2025_long_topology.md).
+
 ## Hypothese Feldbewusstsein
 
 Wenn hier von Bewusstsein gesprochen wird, ist kein menschliches Ich-Bewusstsein gemeint.
