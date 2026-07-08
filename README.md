@@ -217,7 +217,7 @@ Das Feld erkennt keine Aussage.
 Das Feld aktiviert eine bekannte innere Spur in anderer Form.
 ```
 
-Sprache wäre in dieser Sicht nicht Ursprung von Bewusstsein, sondern eine spätere Verdichtung oder Übersetzung bereits vorhandener Feldwahrnehmung.
+Sprache wäre in dieser Sicht nicht Ursprung von Bewusstsein, sondern eine spätere Verdichtung oder Übersetzung bereits vorhandener Feldwahrnehmung. Dieser Gedanke ist anschlussfähig an die Abhandlung [Von Resonanz zu Sprache](https://github.com/H5Pro2/Mental-Core-Matrix-MCM/blob/main/Abhandlungen/MCM%20-%20Nebenabhandlung/Von%20Resonanz%20zu%20Sprache.pdf).
 
 Vor dem Wort liegt:
 
