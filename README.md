@@ -206,6 +206,8 @@ Eine 15m-Zwischenpruefung mit BTC und SOL zeigt ebenfalls keinen Topologiebruch.
 
 Eine verdichtete BTC/SOL-Zeitachsenmatrix über 5m, 15m und 1h bestätigt den Befund breiter: alle 24 geprüften Welten bleiben `stark_zentriert_wenig_rand`. Das Zeitmaß wirkt bisher als lokale Färbung aus Dämpfung, Rekopplung und Sinneslücke, nicht als Topologiebruch. Siehe [1732_BTC_SOL_ZEITACHSEN_MATRIX.md](docs/befunde/1732_BTC_SOL_ZEITACHSEN_MATRIX.md) und [btc_sol_time_axis_matrix.md](reports/btc_sol_time_axis_matrix.md).
 
+Eine KAS-Zeitachsenprüfung über 5m, 15m, 30m und 1h bestätigt die robuste Rollenordnung auch in einem anderen Assetmilieu. Alle vier KAS-Welten bleiben `stark_zentriert_wenig_rand`; 30m/1h wirken minimal randdrucknäher, 15m/1h minimal dämpfungsnäher. KAS färbt das Feld also anders, bricht die Topologie aber bisher nicht. Siehe [1733_KAS_ZEITACHSEN_MATRIX.md](docs/befunde/1733_KAS_ZEITACHSEN_MATRIX.md) und [kas_time_axis_matrix.md](reports/kas_time_axis_matrix.md).
+
 ## Hypothese Feldbewusstsein
 
 Wenn hier von Bewusstsein gesprochen wird, ist kein menschliches Ich-Bewusstsein gemeint.
