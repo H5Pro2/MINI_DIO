@@ -194,6 +194,8 @@ Ein Recheck gegen PAXG, XRP, DOGE und BTC in 2025 stuetzt die Skizze: global ble
 
 Eine gezielte PAXG-Milieupruefung ueber vier 5k-Fenster zeigt danach: Die globale Rekopplungsnaehe bleibt stabil, aber die lokale Staerke schwankt je Weltmilieu. PAXG wirkt damit nicht als einzelner Zufallsbefund, sondern als stabile Rekopplungsneigung mit milieuspezifischer Auspraegung. Siehe [1727_PAXG_MILIEU_REKOPPLUNGSPRUEFUNG.md](docs/befunde/1727_PAXG_MILIEU_REKOPPLUNGSPRUEFUNG.md).
 
+Die gleiche Milieulogik fuer XRP und DOGE bestaetigt die globale Rollenform, zeigt aber niedrigere Rekopplung und hoehere Daempfung als PAXG. Damit wird die Lesung konkreter: dieselbe Topologie kann unterschiedliche lokale Assetqualitaeten tragen. Siehe [1728_XRP_DOGE_MILIEU_REKOPPLUNGSPRUEFUNG.md](docs/befunde/1728_XRP_DOGE_MILIEU_REKOPPLUNGSPRUEFUNG.md).
+
 ## Hypothese Feldbewusstsein
 
 Wenn hier von Bewusstsein gesprochen wird, ist kein menschliches Ich-Bewusstsein gemeint.
