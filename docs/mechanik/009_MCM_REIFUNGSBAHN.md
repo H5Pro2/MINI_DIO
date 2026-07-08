@@ -112,6 +112,8 @@ Eine erste 2024-Gegenprüfung ist ebenfalls vorhanden: [1834_MCM_REIFUNGSBAHN_20
 
 Die längengleiche 10k-Gegenprüfung [1835_MCM_REIFUNGSBAHN_2024_NULL10K.md](../befunde/1835_MCM_REIFUNGSBAHN_2024_NULL10K.md) schärft diese Lesung. 10k-Nullwelten können selbst breit und stabil wirken. Reife darf deshalb nicht über Stabilität allein gelesen werden, sondern über das Zusammenspiel aus Bedeutungsbreite, Rollenvarianz, Feldzeitdruck, adaptiver Rekopplung und Nullwelt-Abstand.
 
+Die assetnahe Gegenprüfung [1836_MCM_REIFUNGSBAHN_ASSETNAHE_NULL10K.md](../befunde/1836_MCM_REIFUNGSBAHN_ASSETNAHE_NULL10K.md) prüft jede Realwelt gegen eigene Nullformen. Auch diese Nullwelten können stabile und breite Innenfeldlagen bilden. Trotzdem bleiben die realen 10k-Weltspuren in der Reifungsbahn unterscheidbar. Damit wird die Reifeprüfung strenger: Stabilität ist nur Grundbedingung, aber nicht der eigentliche Befund. Entscheidend ist die Kombination aus Bedeutungsbreite, Rollenvarianz, Feldzeitdruck, adaptiver Rekopplung und assetnahem Nullwelt-Abstand.
+
 ## Wie es weitergeht
 
-Als nächstes sollten asseteigene 10k-Nullwelten für DOGE, PAXG und XRP erzeugt werden. Entscheidend ist, ob `feldzeit_reif` auch gegen assetnahe Nullformen stabil unterscheidet oder ob weitere Reifezustände nötig werden.
+Als nächstes sollten größere Weltfenster mit derselben assetnahen Nullweltlogik geprüft werden. Entscheidend ist, ob Feldzeitreife mit wachsender Weltlänge stabiler wird oder ob Nullwelten bei sehr langen Sequenzen ähnliche Rollenbreite ausbilden.

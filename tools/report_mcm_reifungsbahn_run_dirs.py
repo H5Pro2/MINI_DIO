@@ -16,8 +16,14 @@ DEFAULT_RUNS = [
     ("DOGE_2024_5M_10K", "realwelt_2024", "debug/doge_2024_5m_10k/dio_mini_lauf_1"),
     ("PAXG_2024_5M_10K", "realwelt_2024", "debug/paxg_2024_5m_10k/dio_mini_lauf_1"),
     ("XRP_2024_5M_10K", "realwelt_2024", "debug/xrp_2024_5m_10k/dio_mini_lauf_1"),
-    ("NULL_RANDOM_SIGN_2024_5M_10K", "nullwelt_10k", "debug/1835_null_random_sign_10k/dio_mini_lauf_1"),
-    ("NULL_SHUFFLE_2024_5M_10K", "nullwelt_10k", "debug/1835_null_shuffle_10k/dio_mini_lauf_1"),
+    ("BTC_NULL_RANDOM_SIGN_2024_5M_10K", "nullwelt_10k", "debug/1835_null_random_sign_10k/dio_mini_lauf_1"),
+    ("BTC_NULL_SHUFFLE_2024_5M_10K", "nullwelt_10k", "debug/1835_null_shuffle_10k/dio_mini_lauf_1"),
+    ("DOGE_NULL_RANDOM_SIGN_2024_5M_10K", "nullwelt_10k", "debug/1836_doge_null_random_sign_10k/dio_mini_lauf_1"),
+    ("DOGE_NULL_SHUFFLE_2024_5M_10K", "nullwelt_10k", "debug/1836_doge_null_shuffle_10k/dio_mini_lauf_1"),
+    ("PAXG_NULL_RANDOM_SIGN_2024_5M_10K", "nullwelt_10k", "debug/1836_paxg_null_random_sign_10k/dio_mini_lauf_1"),
+    ("PAXG_NULL_SHUFFLE_2024_5M_10K", "nullwelt_10k", "debug/1836_paxg_null_shuffle_10k/dio_mini_lauf_1"),
+    ("XRP_NULL_RANDOM_SIGN_2024_5M_10K", "nullwelt_10k", "debug/1836_xrp_null_random_sign_10k/dio_mini_lauf_1"),
+    ("XRP_NULL_SHUFFLE_2024_5M_10K", "nullwelt_10k", "debug/1836_xrp_null_shuffle_10k/dio_mini_lauf_1"),
 ]
 
 
@@ -103,6 +109,7 @@ def _read_run(world: str, group: str, run_dir: str) -> dict[str, float | str]:
     return {
         "world": world,
         "group": group,
+        "asset": _asset_key(world),
         "run_dir": run_dir,
         "candles": _float(report.get("candles")),
         "unique_symbols": _float(report.get("unique_symbols")),
@@ -130,25 +137,41 @@ def _dominant_state(pressures: dict[str, float]) -> str:
     return max(pressures.items(), key=lambda item: (item[1], item[0]))[0]
 
 
+def _asset_key(world: str) -> str:
+    return str(world).split("_", 1)[0].upper()
+
+
+def _null_rows_for_asset(rows: list[dict[str, float | str]], asset: str) -> list[dict[str, float | str]]:
+    matches = [
+        row
+        for row in rows
+        if str(row["group"]).startswith("nullwelt") and str(row.get("asset")) == asset
+    ]
+    if matches:
+        return matches
+    return [row for row in rows if str(row["group"]).startswith("nullwelt")]
+
+
+def _raw_null_distance(row: dict[str, float | str], rows: list[dict[str, float | str]]) -> float:
+    null_rows = _null_rows_for_asset(rows, str(row.get("asset", "")))
+    null_symbol_mean = _mean([_float(null_row["unique_symbols"]) for null_row in null_rows])
+    null_family_mean = _mean([_float(null_row["unique_families"]) for null_row in null_rows])
+    null_adaptive_mean = _mean([_float(null_row["adaptive_rekopplung"]) for null_row in null_rows])
+    null_role_mean = _mean([_float(null_row["role_entropy"]) for null_row in null_rows])
+    return (
+        max(0.0, _float(row["unique_symbols"]) - null_symbol_mean)
+        + max(0.0, _float(row["unique_families"]) - null_family_mean)
+        + max(0.0, _float(row["adaptive_rekopplung"]) - null_adaptive_mean) * 1000.0
+        + max(0.0, _float(row["role_entropy"]) - null_role_mean) * 100.0
+    )
+
+
 def _profile_rows(rows: list[dict[str, float | str]]) -> list[dict[str, float | str]]:
     max_symbols = max([_float(row["unique_symbols"]) for row in rows] + [1.0])
     max_families = max([_float(row["unique_families"]) for row in rows] + [1.0])
     max_role_entropy = max([_float(row["role_entropy"]) for row in rows] + [1.0])
     max_milieu_entropy = max([_float(row["milieu_entropy"]) for row in rows] + [1.0])
-    null_rows = [row for row in rows if str(row["group"]).startswith("nullwelt")]
-    null_symbol_mean = _mean([_float(row["unique_symbols"]) for row in null_rows])
-    null_family_mean = _mean([_float(row["unique_families"]) for row in null_rows])
-    null_adaptive_mean = _mean([_float(row["adaptive_rekopplung"]) for row in null_rows])
-    null_role_mean = _mean([_float(row["role_entropy"]) for row in null_rows])
-
-    raw_distances: dict[str, float] = {}
-    for row in rows:
-        raw_distances[str(row["world"])] = (
-            max(0.0, _float(row["unique_symbols"]) - null_symbol_mean)
-            + max(0.0, _float(row["unique_families"]) - null_family_mean)
-            + max(0.0, _float(row["adaptive_rekopplung"]) - null_adaptive_mean) * 1000.0
-            + max(0.0, _float(row["role_entropy"]) - null_role_mean) * 100.0
-        )
+    raw_distances = {str(row["world"]): _raw_null_distance(row, rows) for row in rows}
     max_distance = max(list(raw_distances.values()) + [1.0])
 
     profiles: list[dict[str, float | str]] = []
@@ -231,13 +254,13 @@ def _write_md(path: Path, rows: list[dict[str, float | str]]) -> None:
     real_pressure = _mean([_float(row["maturity_pressure"]) for row in rows if str(row["group"]).startswith("realwelt")])
     null_pressure = _mean([_float(row["maturity_pressure"]) for row in rows if str(row["group"]).startswith("nullwelt")])
     lines = [
-        "# 1835 - MCM-Reifungsbahn Gegenprüfung 2024 mit 10k-Nullwelten",
+        "# 1836 - MCM-Reifungsbahn mit assetnahen 10k-Nullwelten",
         "",
         f"Stand: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}",
         "",
         "## Grundfrage",
         "",
-        "Wiederholt sich die passive Reifungsbahn in vorhandenen 2024-Assetwelten, oder war `feldzeit_reif` nur ein 2025-10k-Effekt?",
+        "Bleibt die passive Reifungsbahn auch dann unterscheidbar, wenn jede Realwelt gegen eigene, längengleiche Nullwelten geprüft wird?",
         "",
         "## Grundlage",
         "",
@@ -247,9 +270,9 @@ def _write_md(path: Path, rows: list[dict[str, float | str]]) -> None:
         "- DOGE 2024 5m 10k",
         "- PAXG 2024 5m 10k",
         "- XRP 2024 5m 10k",
-        "- zwei 10k-Nullwelten aus BTC 2024 5m",
+        "- je zwei assetnahe 10k-Nullwelten: `shuffle_order` und `random_sign`",
         "",
-        "Die Nullwelten wurden längengleich erzeugt. `shuffle_order` entkoppelt die Reihenfolge der Kerzenformen, `random_sign` entkoppelt das Richtungszeichen bei erhaltener Grundform.",
+        "Die Nullwelten wurden längengleich erzeugt. `shuffle_order` entkoppelt die Reihenfolge der Kerzenformen, `random_sign` entkoppelt das Richtungszeichen bei erhaltener Grundform. Der Nullwelt-Abstand wird assetnah berechnet: BTC gegen BTC-Null, DOGE gegen DOGE-Null, PAXG gegen PAXG-Null, XRP gegen XRP-Null.",
         "",
         "## Reifeprofile",
         "",
@@ -287,17 +310,17 @@ def _write_md(path: Path, rows: list[dict[str, float | str]]) -> None:
             f"- Mittlerer Reifedruck 2024-Realwelt: `{_format(real_pressure)}`",
             f"- Mittlerer Reifedruck Nullwelt: `{_format(null_pressure)}`",
             "",
-            "Die vorhandenen 2024-Assetwelten werden mehrheitlich als `feldzeit_reif` gelesen. Die 10k-Nullwelten fallen nicht leer aus und werden durch ihre Länge ebenfalls `breit_getragen`. Der Unterschied liegt daher nicht in einem einfachen Stabil-gegen-Instabil-Schema, sondern in der stärkeren Feldzeitreife und im höheren Nullwelt-Abstand der meisten Realwelten. Nullwelt kann Nachhall, Stabilität und Rekopplung tragen; das verschärft die Methode, weil Reife nicht mehr über eine einzelne Klasse behauptet werden darf.",
+            "Die assetnahen Nullwelten fallen nicht leer aus. Sie können stabile, breite und gut rekoppelte Innenfeldlagen bilden. Damit ist klar: Stabilität allein reicht nicht als Reifebeleg. Die strengere Lesung entsteht aus der Kombination von Bedeutungsbreite, Rollenvarianz, Feldzeitdruck und assetnahem Nullwelt-Abstand.",
             "",
-            "PAXG 2024 fällt schmaler aus als BTC/DOGE/XRP und liegt in dieser Lesung ebenfalls bei `breit_getragen`. Das passt zur bisherigen Beobachtung, dass PAXG lokal anders färbt, ohne die Grundtopologie zu brechen. Gleichzeitig zeigt es: `feldzeit_reif` ist kein automatischer Asset-Stempel, sondern entsteht nur bei ausreichender Breite, Abstand und Feldzeitbindung.",
+            "BTC, DOGE und XRP bleiben in der Realwelt weiterhin stärker feldzeitlich gereift als ihre direkten Nullformen. PAXG bleibt der Sonderfall: Es liest sich ruhiger und schmaler, nicht als Bruch der Topologie, sondern als andere Weltspannung. Das bestätigt die bisherige Lesung, dass MINI_DIO nicht jedes Asset gleich behandelt.",
             "",
             "## Grenze",
             "",
-            "Die Nullwelten sind aus BTC 2024 abgeleitet. Für eine noch härtere Aussage sollten zusätzliche Nullwelten aus DOGE, PAXG und XRP erzeugt werden.",
+            "Die Nullwelten sind Kontrollwelten, aber keine vollständige Widerlegung von Weltstruktur. Sie erhalten lokale Kerzenform, Länge und Verteilung. Deshalb prüfen sie vor allem, ob Reihenfolge, Richtung und asseteigene Spannung eine zusätzliche Feldordnung erzeugen.",
             "",
             "## Wie es weitergeht",
             "",
-            "Als nächstes sollten asseteigene 10k-Nullwelten für DOGE, PAXG und XRP erzeugt werden. Danach kann geprüft werden, ob `feldzeit_reif` auch gegen assetnahe Nullformen stabil unterscheidet.",
+            "Als nächstes sollten größere Fenster gegen dieselbe assetnahe Nullweltlogik laufen. Entscheidend ist, ob Feldzeitreife mit wachsender Weltlänge stabiler wird oder ob Nullwelten bei sehr langen Sequenzen ähnliche Rollenbreite ausbilden.",
             "",
         ]
     )
@@ -306,8 +329,8 @@ def _write_md(path: Path, rows: list[dict[str, float | str]]) -> None:
 
 def main() -> int:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--out-md", default="docs/befunde/1835_MCM_REIFUNGSBAHN_2024_NULL10K.md")
-    parser.add_argument("--out-csv", default="docs/befunde/1835_MCM_REIFUNGSBAHN_2024_NULL10K.csv")
+    parser.add_argument("--out-md", default="docs/befunde/1836_MCM_REIFUNGSBAHN_ASSETNAHE_NULL10K.md")
+    parser.add_argument("--out-csv", default="docs/befunde/1836_MCM_REIFUNGSBAHN_ASSETNAHE_NULL10K.csv")
     args = parser.parse_args()
 
     rows = [_read_run(world, group, run_dir) for world, group, run_dir in DEFAULT_RUNS]
