@@ -133,12 +133,26 @@ def _asset_window_summary(summary_rows: list[dict[str, object]]) -> list[dict[st
         kern_edge = _float(real.get("source_kern_overlap")) - max(_float(row.get("source_kern_overlap")) for row in nulls)
         after_edge = _float(real.get("avg_afterimage_delta")) - max(_float(row.get("avg_afterimage_delta")) for row in nulls)
         temporal_edge = _float(real.get("avg_temporal_delta")) - max(_float(row.get("avg_temporal_delta")) for row in nulls)
+        field_edge_score = (
+            (source_edge * 0.25)
+            + (kern_edge * 0.45)
+            + (after_edge * 0.15)
+            + (temporal_edge * 0.15)
+        )
         if kern_edge > 0.04 and temporal_edge >= 0.0:
             state = "realwelt_kernnaehe_staerker"
         elif source_edge > 0.04 and after_edge >= 0.0:
             state = "realwelt_anschluss_staerker"
         elif kern_edge < -0.04 and source_edge < -0.04:
             state = "nullwelt_staerker"
+        elif field_edge_score > 0.025 and kern_edge > 0.0:
+            state = "graduell_realnaeher_kern"
+        elif field_edge_score < -0.025:
+            state = "graduell_nullnaeher"
+        elif after_edge > 0.0 and temporal_edge > 0.0 and kern_edge <= 0.0:
+            state = "graduell_realer_nachhall_ohne_kern"
+        elif kern_edge > 0.0 and (after_edge < 0.0 or temporal_edge < 0.0):
+            state = "graduell_kernnaehe_ohne_feldzeitvorsprung"
         else:
             state = "graduell_gemischt"
         out.append(
@@ -149,6 +163,7 @@ def _asset_window_summary(summary_rows: list[dict[str, object]]) -> list[dict[st
                 "kern_edge": kern_edge,
                 "afterimage_edge": after_edge,
                 "temporal_edge": temporal_edge,
+                "field_edge_score": field_edge_score,
                 "reading": state,
             }
         )
@@ -186,15 +201,15 @@ def _write_md(path: Path, summary_rows: list[dict[str, object]], kind_rows: list
             "",
             "## Fensterlesung",
             "",
-            "| Asset | Start | Quellenvorsprung | Kernvorsprung | Nachhallvorsprung | Feldzeitvorsprung | Lesung |",
-            "|---|---:|---:|---:|---:|---:|---|",
+            "| Asset | Start | Quellenvorsprung | Kernvorsprung | Nachhallvorsprung | Feldzeitvorsprung | Feldvorsprung | Lesung |",
+            "|---|---:|---:|---:|---:|---:|---:|---|",
         ]
     )
     for row in window_rows:
         lines.append(
             f"| {row['asset']} | {row['window_start']} | {_float(row['source_edge']):.4f} | "
             f"{_float(row['kern_edge']):.4f} | {_float(row['afterimage_edge']):.4f} | "
-            f"{_float(row['temporal_edge']):.4f} | `{row['reading']}` |"
+            f"{_float(row['temporal_edge']):.4f} | {_float(row['field_edge_score']):.4f} | `{row['reading']}` |"
         )
     state_counts = Counter(str(row["reading"]) for row in window_rows)
     lines.extend(

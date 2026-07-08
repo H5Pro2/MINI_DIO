@@ -21,20 +21,23 @@ Bleibt der Realwelt-Vorsprung ueber mehrere Startpunkte hinweg sichtbar, oder is
 
 ## Fensterlesung
 
-| Asset | Start | Quellenvorsprung | Kernvorsprung | Nachhallvorsprung | Feldzeitvorsprung | Lesung |
-|---|---:|---:|---:|---:|---:|---|
-| BTC | 0 | 0.0357 | 0.1200 | 0.0021 | 0.0016 | `realwelt_kernnaehe_staerker` |
-| BTC | 17000 | 0.0000 | 0.0207 | -0.0082 | -0.0043 | `graduell_gemischt` |
-| BTC | 34000 | 0.0343 | 0.0492 | -0.0035 | -0.0020 | `graduell_gemischt` |
-| SOL | 0 | 0.0000 | -0.0345 | 0.0086 | 0.0036 | `graduell_gemischt` |
-| SOL | 17000 | 0.0343 | 0.1538 | -0.0020 | -0.0005 | `graduell_gemischt` |
-| SOL | 34000 | 0.0000 | -0.0826 | -0.0046 | -0.0022 | `graduell_gemischt` |
+| Asset | Start | Quellenvorsprung | Kernvorsprung | Nachhallvorsprung | Feldzeitvorsprung | Feldvorsprung | Lesung |
+|---|---:|---:|---:|---:|---:|---:|---|
+| BTC | 0 | 0.0357 | 0.1200 | 0.0021 | 0.0016 | 0.0635 | `realwelt_kernnaehe_staerker` |
+| BTC | 17000 | 0.0000 | 0.0207 | -0.0082 | -0.0043 | 0.0075 | `graduell_kernnaehe_ohne_feldzeitvorsprung` |
+| BTC | 34000 | 0.0343 | 0.0492 | -0.0035 | -0.0020 | 0.0299 | `graduell_realnaeher_kern` |
+| SOL | 0 | 0.0000 | -0.0345 | 0.0086 | 0.0036 | -0.0137 | `graduell_realer_nachhall_ohne_kern` |
+| SOL | 17000 | 0.0343 | 0.1538 | -0.0020 | -0.0005 | 0.0774 | `graduell_realnaeher_kern` |
+| SOL | 34000 | 0.0000 | -0.0826 | -0.0046 | -0.0022 | -0.0382 | `graduell_nullnaeher` |
 
 ## Befund
 
 Fensterzustände:
-- `graduell_gemischt`: 5
+- `graduell_realnaeher_kern`: 2
 - `realwelt_kernnaehe_staerker`: 1
+- `graduell_kernnaehe_ohne_feldzeitvorsprung`: 1
+- `graduell_realer_nachhall_ohne_kern`: 1
+- `graduell_nullnaeher`: 1
 
 Der Test trennt Reifung nicht mehr an einem einzelnen Lauf.
 Er liest, ob Realwelt-Vorsprung als wiederkehrender Fenstereffekt erscheint oder ob Nullwelten gleich stark anschließen.
