@@ -230,6 +230,8 @@ Eine synthetische Strukturqualitätsprüfung legt dieselbe Lesung auf kontrollie
 
 Eine Repro-Prüfung mit frischer Memory bestätigt diese drei synthetischen Strukturqualitäten exakt. Ruhe, Bruch/Rand und Expansion bilden dieselben Topologie- und Randdruckprofile erneut. Damit wirkt die gelesene Feldordnung nicht wie ein einzelner Zufallslauf, sondern wie eine reproduzierbare Reaktion auf die jeweilige Weltspur. Siehe [1744_SYNTHETISCHE_STRUKTURQUALITAET_REPRO.md](docs/befunde/1744_SYNTHETISCHE_STRUKTURQUALITAET_REPRO.md), [synthetische_strukturqualitaet_repro_topology.md](reports/synthetische_strukturqualitaet_repro_topology.md) und [synthetische_strukturqualitaet_repro_randdruck.md](reports/synthetische_strukturqualitaet_repro_randdruck.md).
 
+Eine anschließende Real-Drift-Prüfung über vier SOL-2023-Fenster zeigt dieselbe Grundordnung mit mehr lokaler Varianz. Alle Fenster bleiben `stark_zentriert_wenig_rand`, werden aber in offenen Varianten, Randdruck-Spitzen und Rollenbreite unterschiedlich gefärbt. Beide Driftpaare liegen als Achsenklasse in `mittlere_uebergangsphase`. Siehe [1745_REAL_DRIFT_2023_REPRO_UND_ACHSEN.md](docs/befunde/1745_REAL_DRIFT_2023_REPRO_UND_ACHSEN.md), [real_drift_2023_topology.md](reports/real_drift_2023_topology.md), [real_drift_2023_randdruck.md](reports/real_drift_2023_randdruck.md) und [real_drift_2023_axis_map.md](reports/real_drift_2023_axis_map.md).
+
 ## Hypothese Feldbewusstsein
 
 Wenn hier von Bewusstsein gesprochen wird, ist kein menschliches Ich-Bewusstsein gemeint.
