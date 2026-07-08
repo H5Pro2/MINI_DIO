@@ -110,6 +110,8 @@ Aus diesen Werten entsteht zuerst nur ein Reifeprofil. Keine Handlung, kein Gate
 
 Eine erste 2024-Gegenprüfung ist ebenfalls vorhanden: [1834_MCM_REIFUNGSBAHN_2024_GEGENPRUEFUNG.md](../befunde/1834_MCM_REIFUNGSBAHN_2024_GEGENPRUEFUNG.md). Dort wiederholen BTC, DOGE, PAXG und XRP in vorhandenen 10k-Läufen den Zustand `feldzeit_reif`, während die Nullwelten `nullweltnah` gelesen werden.
 
+Die längengleiche 10k-Gegenprüfung [1835_MCM_REIFUNGSBAHN_2024_NULL10K.md](../befunde/1835_MCM_REIFUNGSBAHN_2024_NULL10K.md) schärft diese Lesung. 10k-Nullwelten können selbst breit und stabil wirken. Reife darf deshalb nicht über Stabilität allein gelesen werden, sondern über das Zusammenspiel aus Bedeutungsbreite, Rollenvarianz, Feldzeitdruck, adaptiver Rekopplung und Nullwelt-Abstand.
+
 ## Wie es weitergeht
 
-Als nächstes sollte ein sauberer gleichlanger 2024-10k-Satz mit BTC, DOGE, PAXG, XRP und passenden Nullwelten erzeugt werden. Entscheidend ist, ob `feldzeit_reif` bei echten Weltspuren wiederkehrt und ob Nullwelten eher `nachhallend_offen`, `nullweltnah` oder anders gelesen werden.
+Als nächstes sollten asseteigene 10k-Nullwelten für DOGE, PAXG und XRP erzeugt werden. Entscheidend ist, ob `feldzeit_reif` auch gegen assetnahe Nullformen stabil unterscheidet oder ob weitere Reifezustände nötig werden.

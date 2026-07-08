@@ -71,6 +71,8 @@ Ein erster passiver Reife-Report wendet diese Bahn auf die 10k-Asset-/Nullweltpr
 
 Eine 2024-Gegenprüfung mit vorhandenen BTC-, DOGE-, PAXG- und XRP-10k-Läufen wiederholt die Richtung: die Assetwelten werden `feldzeit_reif`, die Nullwelten `nullweltnah`. Damit erscheint die Reifungsbahn nicht nur als 2025-Effekt, sondern als wiederkehrende Trennung zwischen echter Weltspur und Kontrollfläche. Siehe [1834_MCM_REIFUNGSBAHN_2024_GEGENPRUEFUNG.md](docs/befunde/1834_MCM_REIFUNGSBAHN_2024_GEGENPRUEFUNG.md).
 
+Eine strengere Gegenprüfung mit längengleichen 10k-Nullwelten präzisiert diesen Befund. Die Nullwelten sind nicht leer und können selbst `breit_getragen` werden. Der Unterschied liegt dadurch nicht in einem einfachen Stabilitätsbruch, sondern in Feldzeitreife, Nullwelt-Abstand und assetübergreifender Bedeutungsbreite. Siehe [1835_MCM_REIFUNGSBAHN_2024_NULL10K.md](docs/befunde/1835_MCM_REIFUNGSBAHN_2024_NULL10K.md).
+
 Ergänzende Feldzeit-Hypothese:
 
 Der 0-Punkt übernimmt im MCM-Feld eine gravitative Funktion. Gemeint ist keine physikalische Gleichsetzung mit Massegravitation, sondern eine rückführende Feldfunktion: Der 0-Punkt wirkt als Bezug der Spannungsrückführung. Bedeutungsinseln können als lokale Verdichtungen wiederkehrender Feldwirkung gelesen werden, also als gravitative Varianzen innerhalb des Feldes.
