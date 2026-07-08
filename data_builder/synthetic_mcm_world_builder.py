@@ -57,10 +57,22 @@ RECOUPLING_WIDTH_PHASES = (
 )
 
 
+RECOUPLING_CONTRAST_PHASES = (
+    ("ruhe_start", 700, 0.00002, 0.0024, 0.0010, 0.95),
+    ("klare_oeffnung", 1300, 0.00055, 0.0115, 0.0068, 1.95),
+    ("offene_varianz", 900, -0.00010, 0.0125, 0.0078, 2.10),
+    ("lange_rekopplung", 1800, 0.00020, 0.0060, 0.0026, 1.22),
+    ("unruhiger_nachhall", 900, 0.00002, 0.0070, 0.0045, 1.45),
+    ("zweite_rekopplung", 1400, 0.00024, 0.0056, 0.0024, 1.18),
+    ("ruhe_rueckbindung", 900, 0.00001, 0.0030, 0.0013, 1.00),
+)
+
+
 PRESETS = {
     "harmonic": HARMONIC_PHASES,
     "bruch_rand": BREAK_RAND_PHASES,
     "rand_dominanz": RAND_DOMINANCE_PHASES,
+    "rekopplungsbreite_kontrast": RECOUPLING_CONTRAST_PHASES,
     "rekopplungsbreite": RECOUPLING_WIDTH_PHASES,
 }
 
@@ -136,6 +148,12 @@ def _phase_family(phase_name: str) -> str:
         return "oeffnung"
     if phase_name.startswith("rekopplung_"):
         return "rekopplung"
+    if phase_name in {"lange_rekopplung", "zweite_rekopplung", "ruhe_rueckbindung"}:
+        return "rekopplung"
+    if phase_name in {"klare_oeffnung", "offene_varianz"}:
+        return "oeffnung"
+    if phase_name == "unruhiger_nachhall":
+        return "unruhiger_nachhall"
     if phase_name.startswith("randimpuls_"):
         return "randimpuls"
     return phase_name
@@ -184,6 +202,8 @@ def build_rows(
             ret += (0.5 - abs(local_t - 0.5)) * wave * 0.10
         if phase_family == "oeffnung":
             ret += math.sin(i * 0.43) * noise * 0.06
+        if phase_family == "unruhiger_nachhall":
+            ret += math.sin(i * 0.31) * noise * 0.08 + math.cos(i * 0.097) * noise * 0.05
         if phase_family == "randimpuls":
             ret += -abs(fast) * noise * 0.11 + math.sin(i * 0.77) * noise * 0.07
 
@@ -205,6 +225,7 @@ def build_rows(
             "asymmetrischer_bruch",
             "gegenzerrung",
             "ueberreizter_nachhall",
+            "unruhiger_nachhall",
             "zweiter_randstoss",
             "randimpuls",
         }:
