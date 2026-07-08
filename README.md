@@ -43,6 +43,8 @@ Die aktuelle Arbeitshypothese:
 
 Das [MCM-Feld](https://github.com/H5Pro2/Mental-Core-Matrix-MCM) scheint passive Eigenregulation zu besitzen. Zentrum, Brücke, Drift und Übergang werden nicht als Regel programmiert, sondern als Rollen gelesen, die aus der Feldorganisation entstehen.
 
+Methodisch wird diese Hypothese zunehmend über Wenn-Dann-Stress-Tests geprüft: Eine Feldbedingung wird gezielt verändert, danach wird gemessen, ob Topologie, Feldzeit, Nachhall, Rollenbreite und Bedeutungsinseln stabil bleiben, driften, kollabieren oder neue geordnete Varianten bilden. Siehe [008_WENN_DANN_STRESS_TESTS.md](docs/mechanik/008_WENN_DANN_STRESS_TESTS.md).
+
 Ergänzende Feldzeit-Hypothese:
 
 Der 0-Punkt übernimmt im MCM-Feld eine gravitative Funktion. Gemeint ist keine physikalische Gleichsetzung mit Massegravitation, sondern eine rückführende Feldfunktion: Der 0-Punkt wirkt als Bezug der Spannungsrückführung. Bedeutungsinseln können als lokale Verdichtungen wiederkehrender Feldwirkung gelesen werden, also als gravitative Varianzen innerhalb des Feldes.
@@ -1535,4 +1537,6 @@ Die nächsten Diagnosen sollen entlang der natürlichen [MCM-Möglichkeiten](htt
 MINI_DIO ist ein kontrollierter Forschungsaufbau, um zu untersuchen, ob ein MCM-basiertes Innenfeld reproduzierbare Bedeutungsräume aus Weltkontakt bilden kann.
 
 Die bisherigen Ergebnisse sind strukturelle Indizien, keine endgültigen Beweise. Der Wert liegt in reproduzierbaren Befunden, klaren Gegenproben und vorsichtiger Interpretation.
+
+Ein zentraler methodischer Schutz ist die explizite Wenn-Dann-Prüfung: Wenn eine angenommene Feldmechanik trägt, muss eine gezielte Veränderung eine beobachtbare, dokumentierbare Reaktion erzeugen. Bleibt diese aus oder entsteht eine andere stabile Variante, wird die Hypothese angepasst. Dadurch wird MINI_DIO als experimentelle Feldtheorie behandelt, nicht als reine Deutung.
 
