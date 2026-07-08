@@ -144,6 +144,7 @@ Siehe:
 - [1823_RUECKFUEHRUNG_DAEMPFUNG_DIREKTER_LAUFTEST.md](../befunde/1823_RUECKFUEHRUNG_DAEMPFUNG_DIREKTER_LAUFTEST.md)
 - [1824_RUECKFUEHRUNG_DAEMPFUNG_LANGFENSTER_KIPPPUNKT.md](../befunde/1824_RUECKFUEHRUNG_DAEMPFUNG_LANGFENSTER_KIPPPUNKT.md)
 - [1825_RUECKFUEHRUNG_DAEMPFUNG_UNTER_07.md](../befunde/1825_RUECKFUEHRUNG_DAEMPFUNG_UNTER_07.md)
+- [1826_RUECKFUEHRUNG_DAEMPFUNG_UNTER_05.md](../befunde/1826_RUECKFUEHRUNG_DAEMPFUNG_UNTER_05.md)
 
 Die Null-/Rausch-Gegenprobe zeigt eine wichtige Grenze: Nullwelten verhalten sich nicht wie reines Beliebigkeitsrauschen, aber bei starker Daempfung oeffnen sie staerker und werden diffuser. Damit bleibt die Topologie-Lesung geordnet, waehrend zerstoerte Weltordnung als Grenzfall sichtbar bleibt.
 
@@ -152,6 +153,8 @@ Der direkte Lauf-Stresstest zeigt danach: Wird die Daempfung im isolierten Lauf 
 Die Langfenster-Pruefung mit BTC und PAXG zeigt anschliessend keinen harten Kipppunkt im Bereich `1.0` bis `0.7`. Die statische Rekopplung sinkt graduell, adaptive Rekopplung bleibt hoch, Strain und Sinneskopplung bleiben stabil und die dominante Feldklasse bleibt `stabil`. Damit wirkt Daempfung hier nicht wie ein Topologiebruch, sondern wie veraenderte Rekopplungsnaehe innerhalb einer getragenen Ordnung.
 
 Die Unter-`0.7`-Pruefung bestaetigt die Richtung bis Faktor `0.5`: statische Rekopplung sinkt weiter, aber Feldklasse, Strain, Sinneskopplung und Bedeutungsbreite bleiben stabil. Damit ist bisher kein linearer Zusammenhang zwischen statischer Rekopplungszahl und Topologiebruch sichtbar.
+
+Die Unter-`0.5`-Pruefung verstaerkt das: selbst bis Faktor `0.3` bleibt die dominante Feldklasse stabil. Die Feldordnung scheint in BTC/PAXG nicht von einer einzelnen statischen Rueckfuehrungszahl abzuhaengen, sondern von mehreren gemeinsam tragenden Feldanteilen.
 
 ## Regel für zukünftige Befunde
 
@@ -165,4 +168,4 @@ Danach wird geprüft:
 
 ## Wie es weitergeht
 
-Als naechstes sollte der Bereich unter `0.5` gezielt geprueft werden, zum Beispiel `0.45`, `0.4`, `0.35` und `0.3`. Zuerst auf BTC und PAXG, danach gegen Stress-, Expansions- und Nullwelten.
+Als naechstes sollte dieselbe direkte Daempfung gegen Stress-, Expansions- und Nullwelten geprueft werden. Entscheidend ist, ob die Robustheit nur in BTC/PAXG sichtbar ist oder weltuebergreifend bestehen bleibt.

@@ -55,6 +55,8 @@ Die Langfenster-Gegenprüfung auf BTC und PAXG bestätigt diesen Befund robuster
 
 Auch unter `0.7` bleibt der Befund zunächst stabil. Bis Faktor `0.5` sinkt die statische Rekopplung weiter, aber Carry, Strain, Sinneskopplung, Syntaxbreite und dominante Feldklasse bleiben in BTC/PAXG stabil. Damit hängt die beobachtete Topologie in diesen Welten nicht linear an der statischen Rekopplungszahl. Siehe [1825_RUECKFUEHRUNG_DAEMPFUNG_UNTER_07.md](docs/befunde/1825_RUECKFUEHRUNG_DAEMPFUNG_UNTER_07.md).
 
+Eine noch tiefere Prüfung bis Faktor `0.3` verstärkt diese Lesung. Die statische Rekopplung wird stark reduziert, aber die dominante Feldklasse bleibt stabil, Strain steigt nicht und die Bedeutungsbreite bleibt erhalten. Das spricht dafür, dass die Feldordnung nicht von einer einzelnen Rückführungszahl gehalten wird. Siehe [1826_RUECKFUEHRUNG_DAEMPFUNG_UNTER_05.md](docs/befunde/1826_RUECKFUEHRUNG_DAEMPFUNG_UNTER_05.md).
+
 Ergänzende Feldzeit-Hypothese:
 
 Der 0-Punkt übernimmt im MCM-Feld eine gravitative Funktion. Gemeint ist keine physikalische Gleichsetzung mit Massegravitation, sondern eine rückführende Feldfunktion: Der 0-Punkt wirkt als Bezug der Spannungsrückführung. Bedeutungsinseln können als lokale Verdichtungen wiederkehrender Feldwirkung gelesen werden, also als gravitative Varianzen innerhalb des Feldes.
