@@ -212,6 +212,8 @@ Eine PAXG-Zeitachsenprüfung über 5m, 15m und 1h ergänzt den Kontrast: PAXG bl
 
 Die gemeinsame Asset-Zeitachsen-Synthese trennt den Befund nun klarer: Topologie bleibt bisher stabil zentrumsnah, Assetmilieu färbt Rekopplung/Dämpfung/Offenheit, und das Zeitmaß färbt graduell, ohne bisher einen Bruch zu erzwingen. Siehe [1735_ASSET_ZEITACHSEN_SYNTHESE.md](docs/befunde/1735_ASSET_ZEITACHSEN_SYNTHESE.md) und [asset_time_axis_synthesis.md](reports/asset_time_axis_synthesis.md).
 
+Eine erste Holdout-Gegenprobe mit BTC/SOL 2025 über 5m, 15m, 30m und 1h bestätigt diese Trennung. Alle acht Welten bleiben `stark_zentriert_wenig_rand`; lokal verschieben sich aber offene Variante und Rekopplungsprofil. Damit bleibt die Rollenordnung reproduzierbar, während die Feldfärbung variabel bleibt. Siehe [1736_HOLDOUT_2025_BTC_SOL_ZEITACHSEN.md](docs/befunde/1736_HOLDOUT_2025_BTC_SOL_ZEITACHSEN.md) und [holdout_2025_btc_sol_matrix.md](reports/holdout_2025_btc_sol_matrix.md).
+
 ## Hypothese Feldbewusstsein
 
 Wenn hier von Bewusstsein gesprochen wird, ist kein menschliches Ich-Bewusstsein gemeint.
