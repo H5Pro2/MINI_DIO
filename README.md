@@ -226,6 +226,8 @@ Ein direkter BTC/PAXG-2025-Langfenstervergleich bestätigt danach die robuste Gr
 
 Eine DOGE/BTC/PAXG-Langfenster-Matrix erweitert diesen Befund. Alle zwölf geprüften Welten bleiben `stark_zentriert_wenig_rand`. DOGE liegt dabei sehr nah an BTC: kompakt zentrumsstabil, wenig offen, kein globaler Randbruch. PAXG bleibt der offenere und phasenreichere Pol. Damit trennt sich die robuste Feldordnung noch klarer von der lokalen Weltfärbung. Siehe [1742_DOGE_BTC_PAXG_LANGFENSTER_MATRIX.md](docs/befunde/1742_DOGE_BTC_PAXG_LANGFENSTER_MATRIX.md) und [doge_btc_paxg_long_topology.md](reports/doge_btc_paxg_long_topology.md).
 
+Eine synthetische Strukturqualitätsprüfung legt dieselbe Lesung auf kontrollierte Ruhe, Bruch/Rand und Expansion. Auch dort bleibt die globale Topologie zentrumsnah. Der Unterschied liegt lokal: Ruhe bindet fast vollständig, Bruch/Rand erzeugt Randdruck mit starker Rekopplung, Expansion erhöht Offenheit und Strain. Siehe [1743_SYNTHETISCHE_STRUKTURQUALITAET_TOPOLOGIE.md](docs/befunde/1743_SYNTHETISCHE_STRUKTURQUALITAET_TOPOLOGIE.md), [synthetische_strukturqualitaet_topology.md](reports/synthetische_strukturqualitaet_topology.md) und [synthetische_strukturqualitaet_randdruck.md](reports/synthetische_strukturqualitaet_randdruck.md).
+
 ## Hypothese Feldbewusstsein
 
 Wenn hier von Bewusstsein gesprochen wird, ist kein menschliches Ich-Bewusstsein gemeint.
