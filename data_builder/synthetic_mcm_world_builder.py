@@ -126,11 +126,27 @@ RECOUPLING_FINE_MILIEU_PHASES = (
 )
 
 
+RECOUPLING_FINE_DIFFERENCE_PHASES = (
+    ("ruhe_feinbasis", 800, 0.00001, 0.0014, 0.00055, 0.90),
+    ("mikro_impuls_links", 900, 0.00011, 0.0023, 0.00090, 1.02),
+    ("leiser_gegenzug", 850, -0.00007, 0.0022, 0.00086, 1.00),
+    ("feine_driftbindung", 1100, 0.00003, 0.0018, 0.00062, 0.94),
+    ("range_puls_kurz", 700, 0.00002, 0.0032, 0.00115, 1.12),
+    ("ruhige_rollennaehe", 1100, 0.00006, 0.0021, 0.00076, 0.97),
+    ("mikro_impuls_rechts", 900, -0.00009, 0.0025, 0.00095, 1.04),
+    ("sanfte_rekopplung", 1300, 0.00008, 0.0017, 0.00055, 0.92),
+    ("nachhallbindung", 1000, 0.00002, 0.0015, 0.00050, 0.90),
+    ("zweite_feinbindung", 1000, 0.00007, 0.0019, 0.00066, 0.94),
+    ("ruhe_rueckbindung", 800, 0.00001, 0.0013, 0.00048, 0.88),
+)
+
+
 PRESETS = {
     "harmonic": HARMONIC_PHASES,
     "bruch_rand": BREAK_RAND_PHASES,
     "rand_dominanz": RAND_DOMINANCE_PHASES,
     "rekopplungsbreite_koaktiv": RECOUPLING_COACTIVE_PHASES,
+    "rekopplungsbreite_feindifferenz": RECOUPLING_FINE_DIFFERENCE_PHASES,
     "rekopplungsbreite_feinmilieu": RECOUPLING_FINE_MILIEU_PHASES,
     "rekopplungsbreite_versatz": RECOUPLING_OFFSET_PHASES,
     "rekopplungsbreite_pakete": RECOUPLING_PACKET_PHASES,
@@ -206,6 +222,8 @@ def _phase_at(index: int, phases: tuple[tuple[str, int, float, float, float, flo
 
 
 def _phase_family(phase_name: str) -> str:
+    if phase_name in {"mikro_impuls_links", "mikro_impuls_rechts", "range_puls_kurz"}:
+        return "feindifferenz"
     if phase_name in {"feine_annaherung", "leiser_gegenzug", "feine_driftbindung", "ruhige_rollennaehe", "zweite_feinbindung"}:
         return "feinmilieu"
     if phase_name in {"sanfte_rekopplung", "nachhallbindung"}:
@@ -302,6 +320,10 @@ def build_rows(
             ret += math.sin(i * 0.041) * wave * 0.045
             ret += math.cos(i * 0.067) * noise * 0.035
             ret += (0.5 - abs(local_t - 0.5)) * wave * 0.030
+        if phase_family == "feindifferenz":
+            ret += math.sin(i * 0.113) * wave * 0.080
+            ret += math.cos(i * 0.181) * noise * 0.060
+            ret += math.sin(local_t * math.tau * 3.0) * wave * 0.050
         if phase_family == "feinrekopplung":
             ret += (0.5 - abs(local_t - 0.5)) * wave * 0.075
             ret += math.sin(i * 0.029) * noise * 0.020
