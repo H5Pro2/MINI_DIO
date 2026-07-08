@@ -1,0 +1,6 @@
+gruppe,quelle,klasse,n,rollen,kombinationen,cross_state,rekopplung,adaptive_rekopplung,erfahrung,nachhall,energie_delta,drift_delta,range_delta,folge_richtungswechsel,kernbefund
+BTC_2025,real,verteilt_rekoppelnd,3,5.3333,11.6667,4.3333,0.695374,0.734048,0.434440,0.345590,-2.0798,0.0669,-0.001651,0.5160,"zeitmaßnah und phasisch; Drift nimmt zu, Range komprimiert"
+PAXG_2024,real,verteilt_rekoppelnd,1,5.0000,10.0000,6.0000,0.707040,0.742225,0.120333,0.377034,0.0893,0.0090,0.000045,0.2435,"ruhige rekoppelnde Breite; Energie und Drift steigen fein"
+PAXG_2025,real,verteilt_rekoppelnd,3,8.0000,20.0000,10.0000,0.704207,0.736206,0.295160,0.375269,0.4147,0.0009,0.000352,0.3046,"breite Rollenbildung mit Rekopplung und höherem Nachhall"
+SYN1787,synthetisch,kompakt_nachhallend,2,2.0000,1.0000,0.0000,0.751620,0.762727,0.017535,0.807929,0.0000,0.0000,0.000000,,"sehr hohe Bindung, aber keine Rollenbreite"
+SYN1788,synthetisch,kompakt_nachhallend,2,2.0000,1.0000,0.0000,0.751073,0.766265,0.023882,0.800341,0.0000,0.0000,0.000000,,"sehr hohe Bindung, aber keine verteilte Feldfunktion"
