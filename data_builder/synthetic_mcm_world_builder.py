@@ -113,11 +113,25 @@ RECOUPLING_COACTIVE_PHASES = (
 )
 
 
+RECOUPLING_FINE_MILIEU_PHASES = (
+    ("ruhe_feinbasis", 900, 0.00001, 0.0014, 0.00055, 0.90),
+    ("feine_annaherung", 1000, 0.00006, 0.0018, 0.00065, 0.94),
+    ("leiser_gegenzug", 900, -0.00004, 0.0019, 0.00072, 0.96),
+    ("feine_driftbindung", 1200, 0.00003, 0.0017, 0.00060, 0.93),
+    ("ruhige_rollennaehe", 1300, 0.00005, 0.0019, 0.00066, 0.95),
+    ("sanfte_rekopplung", 1500, 0.00008, 0.0016, 0.00052, 0.91),
+    ("nachhallbindung", 1200, 0.00002, 0.0015, 0.00050, 0.90),
+    ("zweite_feinbindung", 1200, 0.00007, 0.0017, 0.00058, 0.92),
+    ("ruhe_rueckbindung", 900, 0.00001, 0.0013, 0.00048, 0.88),
+)
+
+
 PRESETS = {
     "harmonic": HARMONIC_PHASES,
     "bruch_rand": BREAK_RAND_PHASES,
     "rand_dominanz": RAND_DOMINANCE_PHASES,
     "rekopplungsbreite_koaktiv": RECOUPLING_COACTIVE_PHASES,
+    "rekopplungsbreite_feinmilieu": RECOUPLING_FINE_MILIEU_PHASES,
     "rekopplungsbreite_versatz": RECOUPLING_OFFSET_PHASES,
     "rekopplungsbreite_pakete": RECOUPLING_PACKET_PHASES,
     "rekopplungsbreite_kontrast": RECOUPLING_CONTRAST_PHASES,
@@ -192,6 +206,10 @@ def _phase_at(index: int, phases: tuple[tuple[str, int, float, float, float, flo
 
 
 def _phase_family(phase_name: str) -> str:
+    if phase_name in {"feine_annaherung", "leiser_gegenzug", "feine_driftbindung", "ruhige_rollennaehe", "zweite_feinbindung"}:
+        return "feinmilieu"
+    if phase_name in {"sanfte_rekopplung", "nachhallbindung"}:
+        return "feinrekopplung"
     if phase_name in {"offene_ueberlagerung", "gegenpol_ueberlagerung", "koaktive_beruehrung", "zweite_koaktive_beruehrung"}:
         return "koaktiv"
     if phase_name in {"zentrum_puls", "versetzte_rekopplung", "spaete_bindung"}:
@@ -280,6 +298,13 @@ def build_rows(
             ret += math.sin(i * 0.29) * noise * 0.13
             ret += math.cos(i * 0.071) * wave * 0.075
             ret += math.sin(local_t * math.tau * 2.0) * wave * 0.055
+        if phase_family == "feinmilieu":
+            ret += math.sin(i * 0.041) * wave * 0.045
+            ret += math.cos(i * 0.067) * noise * 0.035
+            ret += (0.5 - abs(local_t - 0.5)) * wave * 0.030
+        if phase_family == "feinrekopplung":
+            ret += (0.5 - abs(local_t - 0.5)) * wave * 0.075
+            ret += math.sin(i * 0.029) * noise * 0.020
         if phase_family == "randimpuls":
             ret += -abs(fast) * noise * 0.11 + math.sin(i * 0.77) * noise * 0.07
 
