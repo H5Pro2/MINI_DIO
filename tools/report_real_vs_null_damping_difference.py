@@ -187,10 +187,12 @@ def _write_md(
     differences: list[dict[str, float]],
     source_csv: str,
     debug_root: str,
+    title: str,
+    real_group_label: str,
 ) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     lines = [
-        "# 1828 - Differenzreport: reale Weltordnung gegen Nullwelt",
+        f"# {title}",
         "",
         f"Stand: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}",
         "",
@@ -202,7 +204,7 @@ def _write_md(
         "",
         f"- Summenquelle: `{source_csv}`",
         f"- Episodenquelle: `{debug_root}`",
-        "- Gruppen: `realwelt` = Stress/Expansion, `nullwelt` = Shuffle/Random",
+        f"- Gruppen: `realwelt` = {real_group_label}, `nullwelt` = Shuffle/Random",
         "",
         "## Gruppenmittel",
         "",
@@ -292,6 +294,8 @@ def main() -> int:
     parser.add_argument("--debug-root", default="debug/1827_rekopplung_damping_stress_null")
     parser.add_argument("--out-md", default="docs/befunde/1828_REALWELT_NULLWELT_DAEMPFUNG_DIFFERENZREPORT.md")
     parser.add_argument("--out-csv", default="docs/befunde/1828_REALWELT_NULLWELT_DAEMPFUNG_DIFFERENZREPORT.csv")
+    parser.add_argument("--title", default="1828 - Differenzreport: reale Weltordnung gegen Nullwelt")
+    parser.add_argument("--real-group-label", default="Stress/Expansion")
     args = parser.parse_args()
 
     source_csv = _resolve(args.source_csv)
@@ -300,7 +304,15 @@ def main() -> int:
     grouped = _group_rows(rows)
     differences = _difference_rows(grouped)
     _write_csv(_resolve(args.out_csv), differences)
-    _write_md(_resolve(args.out_md), grouped, differences, args.source_csv, args.debug_root)
+    _write_md(
+        _resolve(args.out_md),
+        grouped,
+        differences,
+        args.source_csv,
+        args.debug_root,
+        str(args.title),
+        str(args.real_group_label),
+    )
     print({"out_md": args.out_md, "out_csv": args.out_csv, "rows": len(differences)})
     return 0
 

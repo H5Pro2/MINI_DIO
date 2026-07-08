@@ -147,6 +147,8 @@ Siehe:
 - [1826_RUECKFUEHRUNG_DAEMPFUNG_UNTER_05.md](../befunde/1826_RUECKFUEHRUNG_DAEMPFUNG_UNTER_05.md)
 - [1827_RUECKFUEHRUNG_DAEMPFUNG_STRESS_NULL.md](../befunde/1827_RUECKFUEHRUNG_DAEMPFUNG_STRESS_NULL.md)
 - [1828_REALWELT_NULLWELT_DAEMPFUNG_DIFFERENZREPORT.md](../befunde/1828_REALWELT_NULLWELT_DAEMPFUNG_DIFFERENZREPORT.md)
+- [1829_DAEMPFUNG_REAL_NULL_ERWEITERTE_WELTEN.md](../befunde/1829_DAEMPFUNG_REAL_NULL_ERWEITERTE_WELTEN.md)
+- [1830_REAL_NULL_DIFFERENZ_ERWEITERTE_WELTEN.md](../befunde/1830_REAL_NULL_DIFFERENZ_ERWEITERTE_WELTEN.md)
 
 Die Null-/Rausch-Gegenprobe zeigt eine wichtige Grenze: Nullwelten verhalten sich nicht wie reines Beliebigkeitsrauschen, aber bei starker Daempfung oeffnen sie staerker und werden diffuser. Damit bleibt die Topologie-Lesung geordnet, waehrend zerstoerte Weltordnung als Grenzfall sichtbar bleibt.
 
@@ -162,6 +164,8 @@ Die Gegenprobe mit Stress-, Expansions- und Nullwelten zeigt danach: Auch dort b
 
 Der anschliessende Differenzreport macht diese Trennung messbarer: Reale Welten tragen bei gleicher Daempfung deutlich mehr Symbole, mehr Episodenfamilien, staerkeren Nachhall und mehr Rollenvarianz als Nullwelten. Die dominante Feldklasse ist deshalb nur eine grobe Oberflaeche; belastbarer wird die Lesung durch Bedeutungsbreite plus Rueckfuehrungsqualitaet.
 
+Die erweiterte Gegenprobe mit Ruhe, Seitwaerts, Stress und Expansion praezisiert das: reale Welten bleiben bedeutungsbreiter und adaptiv staerker, aber Nullwelten koennen mehr Nachhall tragen. Nachhall allein ist deshalb kein Qualitaetsmerkmal. Tragfaehiger wird die Lesung erst durch die Kopplung aus Bedeutungsbreite, Rollenvarianz, adaptiver Rekopplung und Nachhall.
+
 ## Regel für zukünftige Befunde
 
 Jeder neue größere Befund sollte nach Möglichkeit eine Wenn-Dann-Form bekommen:
@@ -174,4 +178,4 @@ Danach wird geprüft:
 
 ## Wie es weitergeht
 
-Als naechstes sollte diese Differenzlogik auf weitere Null-, Ruhe-, Stress- und Assetwelten angewendet werden. Entscheidend ist, ob Bedeutungsbreite und adaptive Rekopplung dauerhaft besser trennen als die dominante Feldklasse.
+Als naechstes sollte diese Differenzlogik auf laengere Assetfenster angewendet werden. Entscheidend ist, ob Bedeutungsbreite und adaptive Rekopplung auch bei groesserer Feldzeit besser trennen als die dominante Feldklasse.

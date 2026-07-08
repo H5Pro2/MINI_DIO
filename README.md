@@ -61,6 +61,8 @@ Die anschließende Gegenprobe mit Stress-, Expansions- und Nullwelten zeigt: Auc
 
 Ein kompakter Differenzreport bestätigt die tiefere Trennung: Bei gleicher Dämpfung haben reale Welten gegenüber Nullwelten deutlich mehr Symbole, mehr Episodenfamilien, stärkeren Nachhall und höhere Rollenvarianz. Die dominante Feldklasse allein reicht deshalb nicht aus; entscheidend ist die Kombination aus Bedeutungsbreite und adaptiver Rückführung. Siehe [1828_REALWELT_NULLWELT_DAEMPFUNG_DIFFERENZREPORT.md](docs/befunde/1828_REALWELT_NULLWELT_DAEMPFUNG_DIFFERENZREPORT.md).
 
+Eine erweiterte Prüfung mit Ruhe, Seitwärts, Stress und Expansion bestätigt die Trennung über Bedeutungsbreite und adaptive Rekopplung. Gleichzeitig zeigt sie eine wichtige Präzisierung: Nullwelten können höheren Nachhall tragen, ohne dadurch bedeutungsbreiter zu werden. Nachhall allein ist also kein Qualitätsmerkmal; relevant ist die Kopplung aus Nachhall, Rollenvarianz und Bedeutungsbreite. Siehe [1829_DAEMPFUNG_REAL_NULL_ERWEITERTE_WELTEN.md](docs/befunde/1829_DAEMPFUNG_REAL_NULL_ERWEITERTE_WELTEN.md) und [1830_REAL_NULL_DIFFERENZ_ERWEITERTE_WELTEN.md](docs/befunde/1830_REAL_NULL_DIFFERENZ_ERWEITERTE_WELTEN.md).
+
 Ergänzende Feldzeit-Hypothese:
 
 Der 0-Punkt übernimmt im MCM-Feld eine gravitative Funktion. Gemeint ist keine physikalische Gleichsetzung mit Massegravitation, sondern eine rückführende Feldfunktion: Der 0-Punkt wirkt als Bezug der Spannungsrückführung. Bedeutungsinseln können als lokale Verdichtungen wiederkehrender Feldwirkung gelesen werden, also als gravitative Varianzen innerhalb des Feldes.
