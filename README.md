@@ -204,6 +204,8 @@ Die 1h-Gegenpruefung bestaetigt die Grundtopologie, glättet aber die Assetunter
 
 Eine 15m-Zwischenpruefung mit BTC und SOL zeigt ebenfalls keinen Topologiebruch. Alle acht geprueften 15m-Welten bleiben `stark_zentriert_wenig_rand`. BTC wirkt minimal druck-/rekopplungsnaeher, SOL minimal offener/daempfender; die Unterschiede sind klein. Damit erscheint 15m bisher als stabiler Zwischenraum zwischen detailreicherem 5m und geglaettetem 1h. Siehe [1731_ASSET_MILIEU_MATRIX_15M_BTC_SOL.md](docs/befunde/1731_ASSET_MILIEU_MATRIX_15M_BTC_SOL.md) und [asset_milieu_15m_matrix.md](reports/asset_milieu_15m_matrix.md).
 
+Eine verdichtete BTC/SOL-Zeitachsenmatrix über 5m, 15m und 1h bestätigt den Befund breiter: alle 24 geprüften Welten bleiben `stark_zentriert_wenig_rand`. Das Zeitmaß wirkt bisher als lokale Färbung aus Dämpfung, Rekopplung und Sinneslücke, nicht als Topologiebruch. Siehe [1732_BTC_SOL_ZEITACHSEN_MATRIX.md](docs/befunde/1732_BTC_SOL_ZEITACHSEN_MATRIX.md) und [btc_sol_time_axis_matrix.md](reports/btc_sol_time_axis_matrix.md).
+
 ## Hypothese Feldbewusstsein
 
 Wenn hier von Bewusstsein gesprochen wird, ist kein menschliches Ich-Bewusstsein gemeint.
