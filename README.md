@@ -75,6 +75,8 @@ Eine strengere Gegenprüfung mit längengleichen 10k-Nullwelten präzisiert dies
 
 Die assetnahe 10k-Gegenprüfung verschärft den Test weiter. Für BTC, DOGE, PAXG und XRP wurden jeweils eigene Nullwelten erzeugt. Ergebnis: Nullwelten können stabile und breite Innenfeldlagen ausbilden, bleiben aber in der Reifungsbahn von den realen Weltspuren unterscheidbar. Die Trennung liegt nicht in bloßer Stabilität, sondern in Bedeutungsbreite, Rollenvarianz, Feldzeitdruck und assetnahem Nullwelt-Abstand. Siehe [1836_MCM_REIFUNGSBAHN_ASSETNAHE_NULL10K.md](docs/befunde/1836_MCM_REIFUNGSBAHN_ASSETNAHE_NULL10K.md).
 
+Die größere 17k-Prüfung bestätigt diese Richtung. BTC, DOGE, PAXG und XRP bleiben als Realwelten `feldzeit_reif`, während die assetnahen Nullwelten trotz stabiler Breite `breit_getragen` bleiben. Damit wird die Trennung nicht schwächer, sondern methodisch präziser: Nullwelten können Ordnung tragen, aber die reale Weltspur erzeugt stärkeren Reifedruck und größeren Nullwelt-Abstand. Siehe [1837_MCM_REIFUNGSBAHN_ASSETNAHE_NULL17K.md](docs/befunde/1837_MCM_REIFUNGSBAHN_ASSETNAHE_NULL17K.md).
+
 Ergänzende Feldzeit-Hypothese:
 
 Der 0-Punkt übernimmt im MCM-Feld eine gravitative Funktion. Gemeint ist keine physikalische Gleichsetzung mit Massegravitation, sondern eine rückführende Feldfunktion: Der 0-Punkt wirkt als Bezug der Spannungsrückführung. Bedeutungsinseln können als lokale Verdichtungen wiederkehrender Feldwirkung gelesen werden, also als gravitative Varianzen innerhalb des Feldes.

@@ -114,6 +114,8 @@ Die längengleiche 10k-Gegenprüfung [1835_MCM_REIFUNGSBAHN_2024_NULL10K.md](../
 
 Die assetnahe Gegenprüfung [1836_MCM_REIFUNGSBAHN_ASSETNAHE_NULL10K.md](../befunde/1836_MCM_REIFUNGSBAHN_ASSETNAHE_NULL10K.md) prüft jede Realwelt gegen eigene Nullformen. Auch diese Nullwelten können stabile und breite Innenfeldlagen bilden. Trotzdem bleiben die realen 10k-Weltspuren in der Reifungsbahn unterscheidbar. Damit wird die Reifeprüfung strenger: Stabilität ist nur Grundbedingung, aber nicht der eigentliche Befund. Entscheidend ist die Kombination aus Bedeutungsbreite, Rollenvarianz, Feldzeitdruck, adaptiver Rekopplung und assetnahem Nullwelt-Abstand.
 
+Die größere 17k-Gegenprüfung [1837_MCM_REIFUNGSBAHN_ASSETNAHE_NULL17K.md](../befunde/1837_MCM_REIFUNGSBAHN_ASSETNAHE_NULL17K.md) bestätigt diese Richtung. Alle vier Realwelten werden weiterhin als `feldzeit_reif` gelesen, alle assetnahen Nullwelten als `breit_getragen`. Der mittlere Reifedruck liegt bei den Realwelten höher. Damit bleibt die Differenz auch bei längerer Weltzeit sichtbar, obwohl Nullwelten selbst stabile Innenfeldordnung bilden können.
+
 ## Wie es weitergeht
 
-Als nächstes sollten größere Weltfenster mit derselben assetnahen Nullweltlogik geprüft werden. Entscheidend ist, ob Feldzeitreife mit wachsender Weltlänge stabiler wird oder ob Nullwelten bei sehr langen Sequenzen ähnliche Rollenbreite ausbilden.
+Als nächstes sollte geprüft werden, ob 10k- und 17k-Reifeprofile dieselben Topfamilien und Feldrollen tragen oder ob mit wachsender Länge neue Rand- und Brückenrollen entstehen.

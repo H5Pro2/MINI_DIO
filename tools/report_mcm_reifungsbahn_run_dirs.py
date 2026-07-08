@@ -26,6 +26,42 @@ DEFAULT_RUNS = [
     ("XRP_NULL_SHUFFLE_2024_5M_10K", "nullwelt_10k", "debug/1836_xrp_null_shuffle_10k/dio_mini_lauf_1"),
 ]
 
+ASSET17K_RUNS = [
+    ("BTC_2024_5M_17K", "realwelt_2024", "debug/1837_btc_17k/dio_mini_lauf_1"),
+    ("DOGE_2024_5M_17K", "realwelt_2024", "debug/1837_doge_17k/dio_mini_lauf_1"),
+    ("PAXG_2024_5M_17K", "realwelt_2024", "debug/1837_paxg_17k/dio_mini_lauf_1"),
+    ("XRP_2024_5M_17K", "realwelt_2024", "debug/1837_xrp_17k/dio_mini_lauf_1"),
+    ("BTC_NULL_RANDOM_SIGN_2024_5M_17K", "nullwelt_17k", "debug/1837_btc_null_random_17k/dio_mini_lauf_1"),
+    ("BTC_NULL_SHUFFLE_2024_5M_17K", "nullwelt_17k", "debug/1837_btc_null_shuffle_17k/dio_mini_lauf_1"),
+    ("DOGE_NULL_RANDOM_SIGN_2024_5M_17K", "nullwelt_17k", "debug/1837_doge_null_random_17k/dio_mini_lauf_1"),
+    ("DOGE_NULL_SHUFFLE_2024_5M_17K", "nullwelt_17k", "debug/1837_doge_null_shuffle_17k/dio_mini_lauf_1"),
+    ("PAXG_NULL_RANDOM_SIGN_2024_5M_17K", "nullwelt_17k", "debug/1837_paxg_null_random_17k/dio_mini_lauf_1"),
+    ("PAXG_NULL_SHUFFLE_2024_5M_17K", "nullwelt_17k", "debug/1837_paxg_null_shuffle_17k/dio_mini_lauf_1"),
+    ("XRP_NULL_RANDOM_SIGN_2024_5M_17K", "nullwelt_17k", "debug/1837_xrp_null_random_17k/dio_mini_lauf_1"),
+    ("XRP_NULL_SHUFFLE_2024_5M_17K", "nullwelt_17k", "debug/1837_xrp_null_shuffle_17k/dio_mini_lauf_1"),
+]
+
+PRESETS = {
+    "asset10k": {
+        "runs": DEFAULT_RUNS,
+        "out_md": "docs/befunde/1836_MCM_REIFUNGSBAHN_ASSETNAHE_NULL10K.md",
+        "out_csv": "docs/befunde/1836_MCM_REIFUNGSBAHN_ASSETNAHE_NULL10K.csv",
+        "title": "1836 - MCM-Reifungsbahn mit assetnahen 10k-Nullwelten",
+        "question": "Bleibt die passive Reifungsbahn auch dann unterscheidbar, wenn jede Realwelt gegen eigene, längengleiche Nullwelten geprüft wird?",
+        "basis": "BTC, DOGE, PAXG und XRP wurden als 10k-Realwelten gegen je zwei assetnahe 10k-Nullwelten gelesen.",
+        "next": "Als nächstes sollten größere Fenster gegen dieselbe assetnahe Nullweltlogik laufen. Entscheidend ist, ob Feldzeitreife mit wachsender Weltlänge stabiler wird oder ob Nullwelten bei sehr langen Sequenzen ähnliche Rollenbreite ausbilden.",
+    },
+    "asset17k": {
+        "runs": ASSET17K_RUNS,
+        "out_md": "docs/befunde/1837_MCM_REIFUNGSBAHN_ASSETNAHE_NULL17K.md",
+        "out_csv": "docs/befunde/1837_MCM_REIFUNGSBAHN_ASSETNAHE_NULL17K.csv",
+        "title": "1837 - MCM-Reifungsbahn mit assetnahen 17k-Nullwelten",
+        "question": "Verstärkt ein längeres gemeinsames Weltfenster die Trennung zwischen Realwelt und assetnaher Nullwelt?",
+        "basis": "BTC, DOGE, PAXG und XRP wurden als 17k-Realwelten gegen je zwei assetnahe 17k-Nullwelten gelesen. DOGE, PAXG und XRP wurden dafür aus den vorhandenen 2024-01/2024-02-Rohmonaten normalisiert.",
+        "next": "Als nächstes sollte geprüft werden, ob die 17k-Reifeprofile dieselben Topfamilien und Feldrollen tragen wie die 10k-Profile oder ob mit wachsender Länge neue Rand- und Brückenrollen entstehen.",
+    },
+}
+
 
 def _resolve(path_text: str | Path) -> Path:
     path = Path(path_text)
@@ -249,28 +285,25 @@ def _write_csv(path: Path, rows: list[dict[str, float | str]]) -> None:
         writer.writerows(rows)
 
 
-def _write_md(path: Path, rows: list[dict[str, float | str]]) -> None:
+def _write_md(path: Path, rows: list[dict[str, float | str]], preset: dict[str, object]) -> None:
     state_counter = Counter(str(row["dominant_reifezustand"]) for row in rows)
     real_pressure = _mean([_float(row["maturity_pressure"]) for row in rows if str(row["group"]).startswith("realwelt")])
     null_pressure = _mean([_float(row["maturity_pressure"]) for row in rows if str(row["group"]).startswith("nullwelt")])
     lines = [
-        "# 1836 - MCM-Reifungsbahn mit assetnahen 10k-Nullwelten",
+        f"# {preset['title']}",
         "",
         f"Stand: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}",
         "",
         "## Grundfrage",
         "",
-        "Bleibt die passive Reifungsbahn auch dann unterscheidbar, wenn jede Realwelt gegen eigene, längengleiche Nullwelten geprüft wird?",
+        str(preset["question"]),
         "",
         "## Grundlage",
         "",
         "Gelesen wurden vorhandene MINI_DIO-Läufe, ohne neue Handlung, Gate-Logik oder Strategie:",
         "",
-        "- BTC 2024 5m 10k",
-        "- DOGE 2024 5m 10k",
-        "- PAXG 2024 5m 10k",
-        "- XRP 2024 5m 10k",
-        "- je zwei assetnahe 10k-Nullwelten: `shuffle_order` und `random_sign`",
+        f"- {preset['basis']}",
+        "- je Realwelt zwei assetnahe Nullwelten: `shuffle_order` und `random_sign`",
         "",
         "Die Nullwelten wurden längengleich erzeugt. `shuffle_order` entkoppelt die Reihenfolge der Kerzenformen, `random_sign` entkoppelt das Richtungszeichen bei erhaltener Grundform. Der Nullwelt-Abstand wird assetnah berechnet: BTC gegen BTC-Null, DOGE gegen DOGE-Null, PAXG gegen PAXG-Null, XRP gegen XRP-Null.",
         "",
@@ -320,7 +353,7 @@ def _write_md(path: Path, rows: list[dict[str, float | str]]) -> None:
             "",
             "## Wie es weitergeht",
             "",
-            "Als nächstes sollten größere Fenster gegen dieselbe assetnahe Nullweltlogik laufen. Entscheidend ist, ob Feldzeitreife mit wachsender Weltlänge stabiler wird oder ob Nullwelten bei sehr langen Sequenzen ähnliche Rollenbreite ausbilden.",
+            str(preset["next"]),
             "",
         ]
     )
@@ -329,15 +362,19 @@ def _write_md(path: Path, rows: list[dict[str, float | str]]) -> None:
 
 def main() -> int:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--out-md", default="docs/befunde/1836_MCM_REIFUNGSBAHN_ASSETNAHE_NULL10K.md")
-    parser.add_argument("--out-csv", default="docs/befunde/1836_MCM_REIFUNGSBAHN_ASSETNAHE_NULL10K.csv")
+    parser.add_argument("--preset", choices=sorted(PRESETS), default="asset10k")
+    parser.add_argument("--out-md")
+    parser.add_argument("--out-csv")
     args = parser.parse_args()
+    preset = PRESETS[args.preset]
+    out_md = args.out_md or str(preset["out_md"])
+    out_csv = args.out_csv or str(preset["out_csv"])
 
-    rows = [_read_run(world, group, run_dir) for world, group, run_dir in DEFAULT_RUNS]
+    rows = [_read_run(world, group, run_dir) for world, group, run_dir in preset["runs"]]
     profiles = _profile_rows(rows)
-    _write_csv(_resolve(args.out_csv), profiles)
-    _write_md(_resolve(args.out_md), profiles)
-    print({"out_md": args.out_md, "out_csv": args.out_csv, "rows": len(profiles)})
+    _write_csv(_resolve(out_csv), profiles)
+    _write_md(_resolve(out_md), profiles, preset)
+    print({"preset": args.preset, "out_md": out_md, "out_csv": out_csv, "rows": len(profiles)})
     return 0
 
 
