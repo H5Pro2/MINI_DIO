@@ -36,6 +36,50 @@ Daempfung != Kontaktverlust
 Rekopplung != nur Zentrum
 ```
 
+## Bezug zur frueheren Bildtopologie
+
+Auch nach der dynamischen Erweiterung bleibt die fruehere Topologie in etwa
+erkennbar:
+
+```text
+Zentrum / 0-Punkt
+seitliche Brueckenraeume
+offene obere/untere Varianten
+aeusserer Spannungsrand
+Nachhall als Feldtiefe
+```
+
+Der Unterschied liegt nicht darin, dass die alte Form verschwindet.
+Der Unterschied liegt in der Lesetiefe:
+
+```text
+Frueher:
+  Form als sichtbare Topologie.
+
+Jetzt:
+  Form als dynamischer Rollenraum.
+```
+
+Damit wird dieselbe Grundform nicht mehr nur als Bild gelesen, sondern als
+Zusammenspiel aus:
+
+```text
+globaler Rollenform
+lokalem Randdruck
+Rekopplungsbruecken
+Daempfung / Schutzabstand
+offenen Bedeutungsraeumen
+Feldzeit / Nachhall
+milieuspezifischer Gewichtung
+```
+
+Die aktuelle Aussage lautet daher:
+
+```text
+Die vorherige Topologie bleibt erkennbar.
+Die dynamische Erweiterung gibt ihr eine tiefere Feldlesung.
+```
+
 ## Kompakte Rollenform
 
 ```mermaid
@@ -148,6 +192,8 @@ Aus den bisherigen Befunden wirkt stabil:
 - Daempfung kann Kontakt erhalten statt Kontakt zu verlieren.
 - Weltzeit veraendert Feldqualitaet.
 - Die Topologie ist eher Netzwerk/Rollenraum als starre Symboltabelle.
+- Die fruehere Bildtopologie bleibt als Grundform erkennbar, wird aber tiefer
+  als dynamische Rollenordnung gelesen.
 
 ## Was noch offen ist
 

@@ -190,6 +190,8 @@ Eine Ruecklesung von PAXG zeigt danach: mehr Daempfung bedeutet hier nicht autom
 
 Aus diesen Befunden wurde eine kompakte aktuelle Topologie-Skizze abgeleitet: lokaler Randdruck, offene Varianten, Rekopplungsbruecken, Daempfung, Zentrum/0-Punkt und Nachhall/Feldzeit als Rollenraum. Die Skizze ist keine Runtime-Regel, sondern eine nachgelagerte Lesart der bisherigen Feldbefunde. Siehe [1725_AKTUELLE_MCM_TOPOLOGIE_SKIZZE.md](docs/befunde/1725_AKTUELLE_MCM_TOPOLOGIE_SKIZZE.md).
 
+Wichtig ist dabei: Auch nach der dynamischen Erweiterung bleibt die fruehere Bildtopologie in etwa erkennbar. Sie wird jetzt jedoch tiefer gelesen: nicht nur als Zentrum, Bruecken, Rand und Inseln, sondern als dynamischer Rollenraum aus lokaler Druckbildung, Rekopplung, Daempfung, offenen Bedeutungsraeumen, Nachhall und milieuspezifischer Gewichtung.
+
 Ein Recheck gegen PAXG, XRP, DOGE und BTC in 2025 stuetzt die Skizze: global bleibt `gemischte_rollenordnung` mit dominanter Rekopplungsnaehe, lokal unterscheiden sich die Assetqualitaeten. PAXG erscheint erneut staerker rekoppelnd und weniger daempfend. Siehe [1726_TOPOLOGIE_SKIZZE_RECHECK_2025.md](docs/befunde/1726_TOPOLOGIE_SKIZZE_RECHECK_2025.md).
 
 Eine gezielte PAXG-Milieupruefung ueber vier 5k-Fenster zeigt danach: Die globale Rekopplungsnaehe bleibt stabil, aber die lokale Staerke schwankt je Weltmilieu. PAXG wirkt damit nicht als einzelner Zufallsbefund, sondern als stabile Rekopplungsneigung mit milieuspezifischer Auspraegung. Siehe [1727_PAXG_MILIEU_REKOPPLUNGSPRUEFUNG.md](docs/befunde/1727_PAXG_MILIEU_REKOPPLUNGSPRUEFUNG.md).
