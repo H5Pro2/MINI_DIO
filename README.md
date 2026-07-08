@@ -228,6 +228,8 @@ Eine DOGE/BTC/PAXG-Langfenster-Matrix erweitert diesen Befund. Alle zwölf gepr�
 
 Eine synthetische Strukturqualitätsprüfung legt dieselbe Lesung auf kontrollierte Ruhe, Bruch/Rand und Expansion. Auch dort bleibt die globale Topologie zentrumsnah. Der Unterschied liegt lokal: Ruhe bindet fast vollständig, Bruch/Rand erzeugt Randdruck mit starker Rekopplung, Expansion erhöht Offenheit und Strain. Siehe [1743_SYNTHETISCHE_STRUKTURQUALITAET_TOPOLOGIE.md](docs/befunde/1743_SYNTHETISCHE_STRUKTURQUALITAET_TOPOLOGIE.md), [synthetische_strukturqualitaet_topology.md](reports/synthetische_strukturqualitaet_topology.md) und [synthetische_strukturqualitaet_randdruck.md](reports/synthetische_strukturqualitaet_randdruck.md).
 
+Eine Repro-Prüfung mit frischer Memory bestätigt diese drei synthetischen Strukturqualitäten exakt. Ruhe, Bruch/Rand und Expansion bilden dieselben Topologie- und Randdruckprofile erneut. Damit wirkt die gelesene Feldordnung nicht wie ein einzelner Zufallslauf, sondern wie eine reproduzierbare Reaktion auf die jeweilige Weltspur. Siehe [1744_SYNTHETISCHE_STRUKTURQUALITAET_REPRO.md](docs/befunde/1744_SYNTHETISCHE_STRUKTURQUALITAET_REPRO.md), [synthetische_strukturqualitaet_repro_topology.md](reports/synthetische_strukturqualitaet_repro_topology.md) und [synthetische_strukturqualitaet_repro_randdruck.md](reports/synthetische_strukturqualitaet_repro_randdruck.md).
+
 ## Hypothese Feldbewusstsein
 
 Wenn hier von Bewusstsein gesprochen wird, ist kein menschliches Ich-Bewusstsein gemeint.
