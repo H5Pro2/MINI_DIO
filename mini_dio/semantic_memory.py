@@ -66,6 +66,7 @@ from mini_dio.semantic_meaning_store import (
     store_passive_inner_field_map as store_passive_inner_field_map_trace,
     store_passive_inner_field_map_comparison as store_passive_inner_field_map_comparison_trace,
     store_passive_mcm_fragmentation_memory as store_passive_mcm_fragmentation_memory_trace,
+    store_passive_mcm_field_role_memory as store_passive_mcm_field_role_memory_trace,
     store_passive_mcm_role_maturation_memory as store_passive_mcm_role_maturation_memory_trace,
     store_passive_mcm_role_movement_memory as store_passive_mcm_role_movement_memory_trace,
     store_passive_mcm_role_network as store_passive_mcm_role_network_trace,
@@ -101,6 +102,7 @@ class SemanticMemory:
             "passive_inner_field_archetypes": {},
             "passive_inner_field_archetype_matrix": {},
             "passive_mcm_fragmentation_memory": {},
+            "passive_mcm_field_role_memory": {},
             "passive_mcm_role_maturation_memory": {},
             "passive_mcm_role_movement_memory": {},
             "passive_mcm_role_network": {},
@@ -148,6 +150,7 @@ class SemanticMemory:
             self.data.setdefault("passive_inner_field_archetypes", {})
             self.data.setdefault("passive_inner_field_archetype_matrix", {})
             self.data.setdefault("passive_mcm_fragmentation_memory", {})
+            self.data.setdefault("passive_mcm_field_role_memory", {})
             self.data.setdefault("passive_mcm_role_maturation_memory", {})
             self.data.setdefault("passive_mcm_role_movement_memory", {})
             self.data.setdefault("passive_mcm_role_network", {})
@@ -490,6 +493,16 @@ class SemanticMemory:
         """
 
         store_passive_mcm_fragmentation_memory_trace(self.data, fragmentation_memory)
+
+    def store_passive_mcm_field_role_memory(self, field_role_memory: dict) -> None:
+        """Store passive MCM field-role memory.
+
+        This stores how families keep or shift their field role across world
+        phases. It is not consumed by action, entries, gates, direction, or
+        motoric behavior.
+        """
+
+        store_passive_mcm_field_role_memory_trace(self.data, field_role_memory)
 
     def store_passive_mcm_role_maturation_memory(self, maturation_memory: dict) -> None:
         """Store passive MCM role-maturation memory.

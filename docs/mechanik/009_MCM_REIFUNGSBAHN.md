@@ -120,6 +120,8 @@ Der Familienvergleich [1838_MCM_REIFUNGSBAHN_FAMILIENWACHSTUM.md](../befunde/183
 
 Die Phasensegmentierung [1839_MCM_REIFUNGSBAHN_17K_PHASENSEGMENTE.md](../befunde/1839_MCM_REIFUNGSBAHN_17K_PHASENSEGMENTE.md) liest die 17k-Realwelten in Früh-, Mittel- und Spätphase. Dort wird sichtbar: Reife entsteht nicht als einmaliger Umschlag. Familien bleiben über Phasen anschlussfähig, während Nachhall und Feldzeitqualität deutlich zunehmen. Das stützt die Lesung einer haltbaren Drift mit späterer Verdichtung.
 
+Die phasengebundene Familienlesung [1840_MCM_REIFUNGSBAHN_PHASENGEBUNDENE_FAMILIEN.md](../befunde/1840_MCM_REIFUNGSBAHN_PHASENGEBUNDENE_FAMILIEN.md) führt daraus eine erste organische Erweiterung ab: eine passive Feldrollen-Memory. Diese Memory speichert keine Handlung und kein Gate, sondern die Bewegungsqualität einer Familie über Weltphasen. Damit kann MINI_DIO Feldrollen als gewachsene Innenordnung tragen: anschlussfähig, verdichtend, brückenbildend, randnah oder nachhallend.
+
 ## Wie es weitergeht
 
-Als nächstes sollten die Familien mit hoher Phasenbindung einzeln gelesen werden: Welche Familien bleiben Kern, welche wandern an den Rand und welche bilden Brückenrollen?
+Als nächstes sollte geprüft werden, ob die passive Feldrollen-Memory bei neuen 17k-Welten wieder anschlussfähige und verdichtende Rollen erkennt oder ob sie nur die aktuelle Weltgruppe abbildet.
