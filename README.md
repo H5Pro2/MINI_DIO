@@ -186,6 +186,8 @@ Eine weitere Asset-Pruefung ueber PAXG, XRP und DOGE mit je 10k Weltzeilen zeigt
 
 Der anschliessende 1h-Vergleich zeigt, dass Weltzeit nicht nur dieselbe Form groesser skaliert. PAXG verliert bei 1h Rekopplung und gewinnt Daempfung, waehrend XRP und DOGE naeher an ihrer 5m-Form bleiben. Damit wird Feldzeit als aktive Qualitaet der Weltaufnahme sichtbarer.
 
+Eine Ruecklesung von PAXG zeigt danach: mehr Daempfung bedeutet hier nicht automatisch verlorene Kopplung. In der 1h-Welt treten haeufiger Episoden auf, in denen Daempfung dominiert und Rekopplung trotzdem hoch bleibt. Das spricht fuer gedämpfte Rekopplung als Schutz-/Abstandsform. Siehe [1724_PAXG_FELDZEIT_DAEMPFUNG_REKOPPLUNG.md](docs/befunde/1724_PAXG_FELDZEIT_DAEMPFUNG_REKOPPLUNG.md).
+
 ## Hypothese Feldbewusstsein
 
 Wenn hier von Bewusstsein gesprochen wird, ist kein menschliches Ich-Bewusstsein gemeint.
