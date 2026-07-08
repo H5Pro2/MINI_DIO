@@ -95,9 +95,9 @@ Die MCM-Reifungsbahn gibt MINI_DIO eine Entwicklungsmöglichkeit:
 
 Das ist der eigentliche Evolutionssprung: nicht mehr nur Feldlage lesen, sondern Feldlagen über Zeit zu reiferen Bedeutungsräumen verdichten.
 
-## Nächster Umsetzungsschritt
+## Erster Umsetzungsstand
 
-Als nächstes sollte ein passiver Reife-Report gebaut werden. Er liest aus bestehenden Berichten und Episoden:
+Der erste passive Reife-Report ist umgesetzt: [1833_MCM_REIFUNGSBAHN_ASSET10K_NULLWELT.md](../befunde/1833_MCM_REIFUNGSBAHN_ASSET10K_NULLWELT.md). Er liest aus bestehenden Berichten und Episoden:
 
 - Bedeutungsbreite,
 - Rollenvarianz,
@@ -107,3 +107,7 @@ Als nächstes sollte ein passiver Reife-Report gebaut werden. Er liest aus beste
 - Feldzeitlänge.
 
 Aus diesen Werten entsteht zuerst nur ein Reifeprofil. Keine Handlung, kein Gate, keine Strategie.
+
+## Wie es weitergeht
+
+Als nächstes sollte derselbe Reife-Report auf 2024-Assetfenster, größere Weltfenster und weitere Nullweltformen angewendet werden. Entscheidend ist, ob `feldzeit_reif` bei echten Weltspuren wiederkehrt und ob Nullwelten eher `nachhallend_offen`, `nullweltnah` oder anders gelesen werden.

@@ -172,6 +172,8 @@ Die 10k-Assetpruefung mit BTC, DOGE, PAXG und XRP zeigt danach wieder eine staer
 
 Aus dieser Testreihe ergibt sich die MCM-Reifungsbahn: Reife wird nicht aus einer einzelnen stabilen Klasse gelesen, sondern aus Bedeutungsbreite, Rollenvarianz, adaptiver Rekopplung, Nachhall/Feldzeit und Abstand zu Nullwelten. Festgehalten ist das in [009_MCM_REIFUNGSBAHN.md](009_MCM_REIFUNGSBAHN.md).
 
+Der erste passive Reife-Report zeigt darauf aufbauend: Assetwelten und Nullwelten können beide Nachhall tragen, aber sie werden nicht gleich reif gelesen. Die 10k-Assetwelten erscheinen `feldzeit_reif`, die Nullwelten `nachhallend_offen`. Siehe [1833_MCM_REIFUNGSBAHN_ASSET10K_NULLWELT.md](../befunde/1833_MCM_REIFUNGSBAHN_ASSET10K_NULLWELT.md).
+
 ## Regel für zukünftige Befunde
 
 Jeder neue größere Befund sollte nach Möglichkeit eine Wenn-Dann-Form bekommen:

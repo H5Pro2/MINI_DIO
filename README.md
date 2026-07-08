@@ -67,6 +67,8 @@ Die 10k-Assetprüfung mit BTC, DOGE, PAXG und XRP trennt Realwelt und Nullwelt w
 
 Aus diesen Dämpfungs- und Nullweltprüfungen wurde die [MCM-Reifungsbahn](docs/mechanik/009_MCM_REIFUNGSBAHN.md) abgeleitet. Sie beschreibt keine Handlungsschicht, sondern eine innere Entwicklungsbahn: Außenwelt, Sinnesaufnahme, MCM-Feldwirkung, Nachhall, Feldzeit, Bedeutungsverdichtung, adaptive Rekopplung und Nullwelt-Abstand werden zusammen als Reifeprofil gelesen.
 
+Ein erster passiver Reife-Report wendet diese Bahn auf die 10k-Asset-/Nullweltprüfung an. Ergebnis: Die Assetwelten werden als `feldzeit_reif` gelesen, während die Nullwelten `nachhallend_offen` bleiben. Damit trennt der Report nicht über eine harte stabile Klasse, sondern über Reifedruck, Bedeutungsbreite, Rollenvarianz, Feldzeitdruck und Nullwelt-Abstand. Siehe [1833_MCM_REIFUNGSBAHN_ASSET10K_NULLWELT.md](docs/befunde/1833_MCM_REIFUNGSBAHN_ASSET10K_NULLWELT.md).
+
 Ergänzende Feldzeit-Hypothese:
 
 Der 0-Punkt übernimmt im MCM-Feld eine gravitative Funktion. Gemeint ist keine physikalische Gleichsetzung mit Massegravitation, sondern eine rückführende Feldfunktion: Der 0-Punkt wirkt als Bezug der Spannungsrückführung. Bedeutungsinseln können als lokale Verdichtungen wiederkehrender Feldwirkung gelesen werden, also als gravitative Varianzen innerhalb des Feldes.
