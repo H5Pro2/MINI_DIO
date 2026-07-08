@@ -47,6 +47,8 @@ Methodisch wird diese Hypothese zunehmend über Wenn-Dann-Stress-Tests geprüft:
 
 Der erste konkrete Stress-Test dämpft die Rückführungs-/Rekopplungsachse in der Auswertung. Bei milder Dämpfung bleibt die Topologie stabil. Bei stärkerer Dämpfung verschieben reale Weltfenster deutlicher in Offenheit und Diffusität, während synthetische Rekopplungsfenster eher geordnet über Zentrum und Offenheit ausweichen. Dokumentiert ist das in [1820_RUECKFUEHRUNG_DAEMPFUNG_STRESSTEST.md](docs/befunde/1820_RUECKFUEHRUNG_DAEMPFUNG_STRESSTEST.md) und [1821_RUECKFUEHRUNG_DAEMPFUNG_REAL_SYN_GEGENPROBE.md](docs/befunde/1821_RUECKFUEHRUNG_DAEMPFUNG_REAL_SYN_GEGENPROBE.md).
 
+Die anschließende Null-/Rausch-Gegenprobe ergänzt diesen Befund: auch Nullwelten kollabieren unter der Auswertungsdämpfung nicht beliebig, zeigen aber bei starker Dämpfung mehr Offenheit und Diffusität als die ruhige Kontrollwelt. Damit wird die Prüfung methodisch schärfer: Die Feldlesung reagiert geordnet, während zerstörte Weltordnung als Grenzfall sichtbar bleibt. Siehe [1822_RUECKFUEHRUNG_DAEMPFUNG_NULL_RAUSCH_GEGENPROBE.md](docs/befunde/1822_RUECKFUEHRUNG_DAEMPFUNG_NULL_RAUSCH_GEGENPROBE.md).
+
 Ergänzende Feldzeit-Hypothese:
 
 Der 0-Punkt übernimmt im MCM-Feld eine gravitative Funktion. Gemeint ist keine physikalische Gleichsetzung mit Massegravitation, sondern eine rückführende Feldfunktion: Der 0-Punkt wirkt als Bezug der Spannungsrückführung. Bedeutungsinseln können als lokale Verdichtungen wiederkehrender Feldwirkung gelesen werden, also als gravitative Varianzen innerhalb des Feldes.

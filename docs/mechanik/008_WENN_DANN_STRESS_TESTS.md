@@ -140,6 +140,9 @@ Siehe:
 
 - [1820_RUECKFUEHRUNG_DAEMPFUNG_STRESSTEST.md](../befunde/1820_RUECKFUEHRUNG_DAEMPFUNG_STRESSTEST.md)
 - [1821_RUECKFUEHRUNG_DAEMPFUNG_REAL_SYN_GEGENPROBE.md](../befunde/1821_RUECKFUEHRUNG_DAEMPFUNG_REAL_SYN_GEGENPROBE.md)
+- [1822_RUECKFUEHRUNG_DAEMPFUNG_NULL_RAUSCH_GEGENPROBE.md](../befunde/1822_RUECKFUEHRUNG_DAEMPFUNG_NULL_RAUSCH_GEGENPROBE.md)
+
+Die Null-/Rausch-Gegenprobe zeigt eine wichtige Grenze: Nullwelten verhalten sich nicht wie reines Beliebigkeitsrauschen, aber bei starker Daempfung oeffnen sie staerker und werden diffuser. Damit bleibt die Topologie-Lesung geordnet, waehrend zerstoerte Weltordnung als Grenzfall sichtbar bleibt.
 
 ## Regel für zukünftige Befunde
 
