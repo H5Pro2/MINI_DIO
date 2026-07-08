@@ -59,6 +59,8 @@ Eine noch tiefere Prüfung bis Faktor `0.3` verstärkt diese Lesung. Die statisc
 
 Die anschließende Gegenprobe mit Stress-, Expansions- und Nullwelten zeigt: Auch dort kollabiert die dominante Feldklasse unter Dämpfung bis `0.3` nicht. Reale Stress-/Expansionswelten halten aber deutlich breitere Bedeutungsräume und stabilere adaptive Rekopplung als Nullwelten. Die Trennung liegt deshalb eher in Bedeutungsbreite und adaptiver Rückführung als in einem einfachen Topologiebruch. Siehe [1827_RUECKFUEHRUNG_DAEMPFUNG_STRESS_NULL.md](docs/befunde/1827_RUECKFUEHRUNG_DAEMPFUNG_STRESS_NULL.md).
 
+Ein kompakter Differenzreport bestätigt die tiefere Trennung: Bei gleicher Dämpfung haben reale Welten gegenüber Nullwelten deutlich mehr Symbole, mehr Episodenfamilien, stärkeren Nachhall und höhere Rollenvarianz. Die dominante Feldklasse allein reicht deshalb nicht aus; entscheidend ist die Kombination aus Bedeutungsbreite und adaptiver Rückführung. Siehe [1828_REALWELT_NULLWELT_DAEMPFUNG_DIFFERENZREPORT.md](docs/befunde/1828_REALWELT_NULLWELT_DAEMPFUNG_DIFFERENZREPORT.md).
+
 Ergänzende Feldzeit-Hypothese:
 
 Der 0-Punkt übernimmt im MCM-Feld eine gravitative Funktion. Gemeint ist keine physikalische Gleichsetzung mit Massegravitation, sondern eine rückführende Feldfunktion: Der 0-Punkt wirkt als Bezug der Spannungsrückführung. Bedeutungsinseln können als lokale Verdichtungen wiederkehrender Feldwirkung gelesen werden, also als gravitative Varianzen innerhalb des Feldes.
