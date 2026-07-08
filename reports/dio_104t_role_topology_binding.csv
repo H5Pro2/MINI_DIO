@@ -1,0 +1,9 @@
+role_reading,family_count,avg_co_memory_count,avg_neighbor_count_sum,avg_cosine,avg_distance,topology_binding,top_families,avg_delta_mcm_kohaerenz,avg_delta_hoeren_stimulation,avg_delta_sehen_form_salience,avg_delta_mcm_asymmetrie,avg_delta_feldaufnahme_druck,avg_delta_mcm_spannung,avg_delta_kontakt_druck
+asymmetrie_plus,22,151.9091,3498.1364,0.958366,0.227805,rand_polarisierend,dio_0kx9;dio_0nlj;dio_0n0i;dio_1kpz;dio_04q7;dio_087m;dio_00ly;dio_09bn,0.032853,0.003982,0.045157,0.168627,0.001879,0.001879,0.0
+kohaerenz_hoeher,17,155.4118,4624.4118,0.979158,0.190965,zentrum_stabilisierend,dio_1fll;dio_06er;dio_1492;dio_0pz6;dio_1ygx;dio_0ly7;dio_1350;dio_05ap,0.137025,-0.009079,-0.049898,-0.028336,-0.009418,-0.009418,0.0
+sehen_schaerfer,15,147.4667,3613.0667,0.965864,0.183878,sehen_formbindend,dio_19pg;dio_02xf;dio_1uof;dio_00ja;dio_1gp2;dio_0ein;dio_1j37;dio_1o4z,-0.053678,-0.00124,0.128821,-0.01998,0.003383,0.003383,0.0
+asymmetrie_minus,9,152.4444,5955.3333,0.972406,0.21336,rand_polarisierend,dio_13o0;dio_06s7;dio_17ct;dio_1rqi;dio_155c;dio_1mwv;dio_1xrt;dio_1jsj,0.078849,0.021032,0.028266,-0.154912,0.00744,0.00744,0.0
+hoeren_staerker,8,146.375,5989.875,0.939149,0.248009,nachhall_aktivierend,dio_0m9z;dio_0u1o;dio_169a;dio_0obq;dio_1r55;dio_1oye;dio_0oc3;dio_1pij,-0.046533,0.176373,0.007399,-0.069676,0.077092,0.077092,0.0
+hoeren_leiser,5,150.4,6244.2,0.976407,0.150021,nachhall_daempfend,dio_14wj;dio_1u5i;dio_1jc2;dio_1wdi;dio_02n3,-0.020588,-0.104593,0.00282,0.004941,-0.043794,-0.043794,0.0
+zielnahe_mitrolle,3,154.0,14360.3333,0.9935,0.083028,bruecke_zielnah,dio_0l7p;dio_0h9h;dio_1ewh,-0.019199,-0.019976,0.014065,-0.027901,-0.007156,-0.007156,0.0
+kohaerenz_niedriger,1,147.0,3469.0,0.991665,0.104414,bruecke_zielnah,dio_1cic,-0.065627,-0.065529,0.03071,0.006495,-0.022039,-0.022039,0.0
