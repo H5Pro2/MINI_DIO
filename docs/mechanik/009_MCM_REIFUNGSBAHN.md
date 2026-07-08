@@ -116,6 +116,8 @@ Die assetnahe Gegenprüfung [1836_MCM_REIFUNGSBAHN_ASSETNAHE_NULL10K.md](../befu
 
 Die größere 17k-Gegenprüfung [1837_MCM_REIFUNGSBAHN_ASSETNAHE_NULL17K.md](../befunde/1837_MCM_REIFUNGSBAHN_ASSETNAHE_NULL17K.md) bestätigt diese Richtung. Alle vier Realwelten werden weiterhin als `feldzeit_reif` gelesen, alle assetnahen Nullwelten als `breit_getragen`. Der mittlere Reifedruck liegt bei den Realwelten höher. Damit bleibt die Differenz auch bei längerer Weltzeit sichtbar, obwohl Nullwelten selbst stabile Innenfeldordnung bilden können.
 
+Der Familienvergleich [1838_MCM_REIFUNGSBAHN_FAMILIENWACHSTUM.md](../befunde/1838_MCM_REIFUNGSBAHN_FAMILIENWACHSTUM.md) zeigt die nächste Präzisierung: Top-Familien können zwischen 10k und 17k anschlussfähig bleiben, und einige Symbolfamilien tauchen auch in Nullwelten auf. Deshalb darf Reife nicht aus dem Namen einer Familie allein gelesen werden. Reife entsteht erst als Profil aus Wiederkehr, Rolle, Nachhall, Feldzeit, Kopplungsqualität und Nullabstand.
+
 ## Wie es weitergeht
 
-Als nächstes sollte geprüft werden, ob 10k- und 17k-Reifeprofile dieselben Topfamilien und Feldrollen tragen oder ob mit wachsender Länge neue Rand- und Brückenrollen entstehen.
+Als nächstes sollten die Familienrollen innerhalb der 17k-Realwelten zeitlich segmentiert werden: frühe Phase, Mittelphase, späte Phase. Dann wird sichtbar, ob Reife aus Stabilität, Drift oder Brückenbildung entsteht.

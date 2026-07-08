@@ -77,6 +77,8 @@ Die assetnahe 10k-Gegenprüfung verschärft den Test weiter. Für BTC, DOGE, PAX
 
 Die größere 17k-Prüfung bestätigt diese Richtung. BTC, DOGE, PAXG und XRP bleiben als Realwelten `feldzeit_reif`, während die assetnahen Nullwelten trotz stabiler Breite `breit_getragen` bleiben. Damit wird die Trennung nicht schwächer, sondern methodisch präziser: Nullwelten können Ordnung tragen, aber die reale Weltspur erzeugt stärkeren Reifedruck und größeren Nullwelt-Abstand. Siehe [1837_MCM_REIFUNGSBAHN_ASSETNAHE_NULL17K.md](docs/befunde/1837_MCM_REIFUNGSBAHN_ASSETNAHE_NULL17K.md).
 
+Der anschließende 10k/17k-Familienvergleich präzisiert diesen Punkt weiter. Mehrere Top-Familien bleiben bei längeren Weltfenstern anschlussfähig, aber die reine Familien-Syntax trennt Realwelt und Nullwelt nicht ausreichend. Lesbar wird Reife erst über das Profil aus Wiederkehr, Rolle, Nachhall, Feldzeit, Kopplung und Nullabstand. Siehe [1838_MCM_REIFUNGSBAHN_FAMILIENWACHSTUM.md](docs/befunde/1838_MCM_REIFUNGSBAHN_FAMILIENWACHSTUM.md).
+
 Ergänzende Feldzeit-Hypothese:
 
 Der 0-Punkt übernimmt im MCM-Feld eine gravitative Funktion. Gemeint ist keine physikalische Gleichsetzung mit Massegravitation, sondern eine rückführende Feldfunktion: Der 0-Punkt wirkt als Bezug der Spannungsrückführung. Bedeutungsinseln können als lokale Verdichtungen wiederkehrender Feldwirkung gelesen werden, also als gravitative Varianzen innerhalb des Feldes.
