@@ -1,0 +1,11 @@
+quelle,gruppe,klassen,n,rollen,kombinationen,rekopplung,erfahrung,nachhall,lesung
+btc_paxg_signatur,BTC_2025_verteilt_rekoppelnd,verteilt_rekoppelnd,3.0,5.333333333333333,11.666666666666666,0.6953736666666667,0.4344403333333333,0.3455896666666667,rekoppelnder_referenzpol
+btc_paxg_signatur,PAXG_5m_verteilt_rekoppelnd,verteilt_rekoppelnd,4.0,7.25,17.5,0.7049155,0.25145325,0.37571,rekoppelnder_referenzpol
+btc_paxg_signatur,PAXG_offene_Breite,verteilt_offen,11.0,6.818181818181818,17.90909090909091,0.6912003636363637,0.46799972727272726,0.3044542727272727,offene_breite_gegenfolie
+btc_doge_xrp_2025_late_5m,BTC,"verteilt_offen, mittlere_uebergangsphase, verteilt_offen, verteilt_offen",4.0,5.0,10.25,0.6863215,0.52849025,0.2693745,keine_rekopplung_trotz_breite
+btc_doge_xrp_2025_late_5m,DOGE,"verteilt_offen, mittlere_uebergangsphase, verteilt_offen, verteilt_offen",4.0,5.5,13.5,0.6867785,0.509362,0.2852995,keine_rekopplung_trotz_breite
+btc_doge_xrp_2025_late_5m,XRP,"verteilt_offen, verteilt_offen, verteilt_offen, verteilt_offen",4.0,8.0,21.25,0.68716625,0.49635324999999997,0.29077525,keine_rekopplung_trotz_breite
+btc_doge_xrp_2025_1h,BTC,"mittlere_uebergangsphase, verteilt_offen, verteilt_rekoppelnd, mittlere_uebergangsphase",4.0,4.5,8.5,0.69457,0.505198,0.34034549999999997,rekopplung_lokal
+btc_doge_xrp_2025_1h,DOGE,"mittlere_uebergangsphase, verteilt_offen, mittlere_uebergangsphase, kompakt_nachhallend",4.0,3.25,4.75,0.69324675,0.54337125,0.3347255,keine_rekopplung_trotz_breite
+btc_doge_xrp_2025_1h,XRP,"verteilt_offen, mittlere_uebergangsphase, verteilt_offen, kompakt_nachhallend",4.0,4.5,9.0,0.6926885,0.5841575,0.3354685,keine_rekopplung_trotz_breite
+synthetische_kontrolle,synthetische_randrollen_kontrolle,kompakt_nachhallend,6,1.5,0.5,0.7225060000000001,0.004003,0.5648776666666667,kompakt_nachhallend_keine_rekopplung
