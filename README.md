@@ -202,6 +202,8 @@ Eine gemeinsame Asset-Milieu-Matrix fuehrt PAXG, XRP, DOGE und BTC zusammen. PAX
 
 Die 1h-Gegenpruefung bestaetigt die Grundtopologie, glättet aber die Assetunterschiede. Alle 16 geprueften 1h-Welten bleiben `stark_zentriert_wenig_rand`. PAXG bleibt rekopplungsstaerkster und daempfungsaermster 1h-Pol, aber weniger stark abgesetzt als bei 5m; XRP und DOGE zeigen im 1h-Raum mehr Randdruck. Das spricht fuer Zeitmass als lokale Milieu-Faerbung, nicht als Topologiebruch. Siehe [1730_ASSET_MILIEU_MATRIX_1H.md](docs/befunde/1730_ASSET_MILIEU_MATRIX_1H.md) und [asset_milieu_1h_matrix.md](reports/asset_milieu_1h_matrix.md).
 
+Eine 15m-Zwischenpruefung mit BTC und SOL zeigt ebenfalls keinen Topologiebruch. Alle acht geprueften 15m-Welten bleiben `stark_zentriert_wenig_rand`. BTC wirkt minimal druck-/rekopplungsnaeher, SOL minimal offener/daempfender; die Unterschiede sind klein. Damit erscheint 15m bisher als stabiler Zwischenraum zwischen detailreicherem 5m und geglaettetem 1h. Siehe [1731_ASSET_MILIEU_MATRIX_15M_BTC_SOL.md](docs/befunde/1731_ASSET_MILIEU_MATRIX_15M_BTC_SOL.md) und [asset_milieu_15m_matrix.md](reports/asset_milieu_15m_matrix.md).
+
 ## Hypothese Feldbewusstsein
 
 Wenn hier von Bewusstsein gesprochen wird, ist kein menschliches Ich-Bewusstsein gemeint.
