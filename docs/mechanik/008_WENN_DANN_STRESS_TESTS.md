@@ -170,6 +170,8 @@ Die erweiterte Gegenprobe mit Ruhe, Seitwaerts, Stress und Expansion praezisiert
 
 Die 10k-Assetpruefung mit BTC, DOGE, PAXG und XRP zeigt danach wieder eine staerkere Realwelttrennung: Assetwelten tragen deutlich mehr Symbole, mehr Episodenfamilien, hoehere adaptive Rekopplung, mehr Rollenvarianz und hier auch mehr Nachhall. Nachhall muss deshalb feldzeitlich gelesen werden: Als Restspur allein ist er mehrdeutig, in Verbindung mit Bedeutungsbreite und Rollenvarianz wird er tragender.
 
+Aus dieser Testreihe ergibt sich die MCM-Reifungsbahn: Reife wird nicht aus einer einzelnen stabilen Klasse gelesen, sondern aus Bedeutungsbreite, Rollenvarianz, adaptiver Rekopplung, Nachhall/Feldzeit und Abstand zu Nullwelten. Festgehalten ist das in [009_MCM_REIFUNGSBAHN.md](009_MCM_REIFUNGSBAHN.md).
+
 ## Regel für zukünftige Befunde
 
 Jeder neue größere Befund sollte nach Möglichkeit eine Wenn-Dann-Form bekommen:

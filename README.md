@@ -65,6 +65,8 @@ Eine erweiterte Prüfung mit Ruhe, Seitwärts, Stress und Expansion bestätigt d
 
 Die 10k-Assetprüfung mit BTC, DOGE, PAXG und XRP trennt Realwelt und Nullwelt wieder stärker. Bei gleicher Dämpfung tragen die Assetwelten deutlich mehr Symbole, mehr Episodenfamilien, höhere adaptive Rekopplung, mehr Rollenvarianz und hier auch stärkeren Nachhall. Damit wird klarer: Nachhall ist nur im Verbund mit Feldzeit und Bedeutungsbreite sinnvoll lesbar. Siehe [1831_DAEMPFUNG_ASSET10K_NULLWELTEN.md](docs/befunde/1831_DAEMPFUNG_ASSET10K_NULLWELTEN.md) und [1832_ASSET10K_NULLWELT_DIFFERENZREPORT.md](docs/befunde/1832_ASSET10K_NULLWELT_DIFFERENZREPORT.md).
 
+Aus diesen Dämpfungs- und Nullweltprüfungen wurde die [MCM-Reifungsbahn](docs/mechanik/009_MCM_REIFUNGSBAHN.md) abgeleitet. Sie beschreibt keine Handlungsschicht, sondern eine innere Entwicklungsbahn: Außenwelt, Sinnesaufnahme, MCM-Feldwirkung, Nachhall, Feldzeit, Bedeutungsverdichtung, adaptive Rekopplung und Nullwelt-Abstand werden zusammen als Reifeprofil gelesen.
+
 Ergänzende Feldzeit-Hypothese:
 
 Der 0-Punkt übernimmt im MCM-Feld eine gravitative Funktion. Gemeint ist keine physikalische Gleichsetzung mit Massegravitation, sondern eine rückführende Feldfunktion: Der 0-Punkt wirkt als Bezug der Spannungsrückführung. Bedeutungsinseln können als lokale Verdichtungen wiederkehrender Feldwirkung gelesen werden, also als gravitative Varianzen innerhalb des Feldes.
