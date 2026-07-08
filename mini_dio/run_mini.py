@@ -322,6 +322,7 @@ def run_once(
     passive_world_state: dict | None = None,
     passive_inner_awareness_by_family: dict | None = None,
     sense_mode: str = "fixed",
+    mcm_rekopplung_factor: float = 1.0,
 ) -> dict:
     candles = load_candles(data_path)
     sense_mode = str(sense_mode or "fixed").strip().lower()
@@ -557,7 +558,13 @@ def run_once(
         reflection_carry_values.append(float(reflection_context["reflection_context_carry"]))
         reflection_strain_values.append(float(reflection_context["reflection_context_strain"]))
         reflection_alignment_values.append(float(reflection_context["reflection_context_alignment"]))
-        mcm_field_effect = build_mcm_field_effect(senses, reflection_context, temporal_state, neuro_state)
+        mcm_field_effect = build_mcm_field_effect(
+            senses,
+            reflection_context,
+            temporal_state,
+            neuro_state,
+            rekopplung_factor=mcm_rekopplung_factor,
+        )
         mcm_effect_state = str(mcm_field_effect["field_effect_state"])
         passive_mcm_effect_class = classify_current_mcm_effect(mcm_field_effect)
         field_episode_role = f"field_{passive_mcm_effect_class}"
@@ -897,6 +904,7 @@ def run_once(
         "max_mcm_strain_quality": max(mcm_strain_quality_values) if mcm_strain_quality_values else 0.0,
         "avg_mcm_rekopplung_quality": sum(mcm_rekopplung_quality_values) / max(1, len(mcm_rekopplung_quality_values)),
         "max_mcm_rekopplung_quality": max(mcm_rekopplung_quality_values) if mcm_rekopplung_quality_values else 0.0,
+        "mcm_rekopplung_factor": mcm_rekopplung_factor,
         "avg_mcm_adaptive_rekopplung_quality": sum(mcm_adaptive_rekopplung_quality_values)
         / max(1, len(mcm_adaptive_rekopplung_quality_values)),
         "max_mcm_adaptive_rekopplung_quality": max(mcm_adaptive_rekopplung_quality_values)
@@ -999,6 +1007,12 @@ def main() -> None:
     parser.add_argument("--inner-awareness-memory", default="")
     parser.add_argument("--world-label", default="")
     parser.add_argument(
+        "--mcm-rekopplung-factor",
+        type=float,
+        default=getattr(Config, "DIO_MINI_MCM_REKOPPLUNG_FACTOR", 1.0),
+        help="Isolierte Testbedingung: Faktor fuer die passive MCM-Rekopplung. Standard 1.0.",
+    )
+    parser.add_argument(
         "--sense-mode",
         choices=(
             "fixed",
@@ -1037,6 +1051,7 @@ def main() -> None:
             passive_world_state=passive_world_state,
             passive_inner_awareness_by_family=passive_inner_awareness_by_family,
             sense_mode=args.sense_mode,
+            mcm_rekopplung_factor=args.mcm_rekopplung_factor,
         )
         reports.append(report)
         memory.save()

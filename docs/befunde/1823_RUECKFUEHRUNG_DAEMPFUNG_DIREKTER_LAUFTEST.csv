@@ -1,0 +1,13 @@
+world,source,rekopplung_factor,candles,unique_symbols,episodes,dominant_effect_class,dominant_episode_state,unique_episode_families,top_family_count,avg_mcm_carry_quality,avg_mcm_strain_quality,avg_mcm_rekopplung_quality,avg_mcm_adaptive_rekopplung_quality,avg_mcm_sensory_coupling,avg_mini_afterimage,avg_mini_temporal_trust_support,avg_mini_temporal_caution_support
+noisy_drift,data/synthetic_1402_noisy_drift_1000_5m.csv,1.0,1000,10,994,stabil,-,10,329,0.60818,0.117934,0.753924,0.753924,0.916409,0.788596,0.918877,0.033816
+noisy_drift,data/synthetic_1402_noisy_drift_1000_5m.csv,0.75,1000,10,994,stabil,-,10,329,0.60818,0.117934,0.565443,0.565443,0.916409,0.788596,0.918877,0.033816
+noisy_drift,data/synthetic_1402_noisy_drift_1000_5m.csv,0.5,1000,10,994,stabil,-,10,329,0.60818,0.117934,0.376962,0.376962,0.916409,0.788596,0.918877,0.033816
+null_random,data/synthetic_1527_null_random_sign_2400_5m.csv,1.0,2400,221,2394,stabil,-,221,205,0.543672,0.152092,0.712321,0.717427,0.855439,0.51122,0.750814,0.168385
+null_random,data/synthetic_1527_null_random_sign_2400_5m.csv,0.75,2400,221,2394,stabil,-,221,205,0.543672,0.152092,0.534241,0.698994,0.855439,0.51122,0.750814,0.168385
+null_random,data/synthetic_1527_null_random_sign_2400_5m.csv,0.5,2400,221,2394,stabil,-,221,205,0.543672,0.152092,0.356161,0.656495,0.855439,0.51122,0.750814,0.168385
+null_shuffle,data/synthetic_1526_null_shuffle_order_2400_5m.csv,1.0,2400,224,2394,stabil,-,222,140,0.534597,0.165282,0.7028,0.707808,0.844419,0.510674,0.744528,0.191694
+null_shuffle,data/synthetic_1526_null_shuffle_order_2400_5m.csv,0.75,2400,224,2394,stabil,-,222,140,0.534597,0.165282,0.5271,0.557838,0.844419,0.510674,0.744528,0.191694
+null_shuffle,data/synthetic_1526_null_shuffle_order_2400_5m.csv,0.5,2400,224,2394,stabil,-,222,140,0.534597,0.165282,0.3514,0.635303,0.844419,0.510674,0.744528,0.191694
+smooth_control,data/kontrolliert_1398_smooth_sol2025_1000_5m.csv,1.0,1000,253,994,stabil,-,251,53,0.502598,0.163571,0.689689,0.729152,0.84091,0.293926,0.562865,0.283943
+smooth_control,data/kontrolliert_1398_smooth_sol2025_1000_5m.csv,0.75,1000,253,994,stabil,-,251,53,0.502598,0.163571,0.517267,0.729934,0.84091,0.293926,0.562865,0.283943
+smooth_control,data/kontrolliert_1398_smooth_sol2025_1000_5m.csv,0.5,1000,253,994,stabil,-,251,53,0.502598,0.163571,0.344845,0.727238,0.84091,0.293926,0.562865,0.283943

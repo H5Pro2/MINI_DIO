@@ -187,7 +187,13 @@ def build_adaptive_rekopplung_state(
     }
 
 
-def build_mcm_field_effect(senses: dict, reflection_context: dict, temporal_state: dict, neuro_state: dict) -> dict:
+def build_mcm_field_effect(
+    senses: dict,
+    reflection_context: dict,
+    temporal_state: dict,
+    neuro_state: dict,
+    rekopplung_factor: float = 1.0,
+) -> dict:
     """Return a compact passive MCM-field effect.
 
     The values describe how current perception appears to affect the inner
@@ -235,12 +241,14 @@ def build_mcm_field_effect(senses: dict, reflection_context: dict, temporal_stat
         + (hearing_field_gap * 0.10)
         + (afterimage * 0.04)
     )
-    rekopplung_quality = _clip(
+    base_rekopplung_quality = _clip(
         (mcm_carry_quality * 0.42)
         + (reflection_alignment * 0.24)
         + ((1.0 - mcm_strain_quality) * 0.20)
         + (sensory_coupling * 0.14)
     )
+    rekopplung_factor = _clip(rekopplung_factor, 0.0, 2.0)
+    rekopplung_quality = _clip(base_rekopplung_quality * rekopplung_factor)
     field_effect_state = _dominant_label(
         {
             "field_carried": _clip((mcm_carry_quality * 0.46) + (sensory_coupling * 0.34) + ((1.0 - mcm_strain_quality) * 0.20)),
@@ -254,6 +262,8 @@ def build_mcm_field_effect(senses: dict, reflection_context: dict, temporal_stat
         "mcm_carry_quality": mcm_carry_quality,
         "mcm_strain_quality": mcm_strain_quality,
         "mcm_rekopplung_quality": rekopplung_quality,
+        "mcm_base_rekopplung_quality": base_rekopplung_quality,
+        "mcm_rekopplung_factor": rekopplung_factor,
         "sensory_coupling": sensory_coupling,
         "reflection_alignment": reflection_alignment,
         "visual_field_gap": visual_field_gap,

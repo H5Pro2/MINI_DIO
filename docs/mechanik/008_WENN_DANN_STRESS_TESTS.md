@@ -141,8 +141,11 @@ Siehe:
 - [1820_RUECKFUEHRUNG_DAEMPFUNG_STRESSTEST.md](../befunde/1820_RUECKFUEHRUNG_DAEMPFUNG_STRESSTEST.md)
 - [1821_RUECKFUEHRUNG_DAEMPFUNG_REAL_SYN_GEGENPROBE.md](../befunde/1821_RUECKFUEHRUNG_DAEMPFUNG_REAL_SYN_GEGENPROBE.md)
 - [1822_RUECKFUEHRUNG_DAEMPFUNG_NULL_RAUSCH_GEGENPROBE.md](../befunde/1822_RUECKFUEHRUNG_DAEMPFUNG_NULL_RAUSCH_GEGENPROBE.md)
+- [1823_RUECKFUEHRUNG_DAEMPFUNG_DIREKTER_LAUFTEST.md](../befunde/1823_RUECKFUEHRUNG_DAEMPFUNG_DIREKTER_LAUFTEST.md)
 
 Die Null-/Rausch-Gegenprobe zeigt eine wichtige Grenze: Nullwelten verhalten sich nicht wie reines Beliebigkeitsrauschen, aber bei starker Daempfung oeffnen sie staerker und werden diffuser. Damit bleibt die Topologie-Lesung geordnet, waehrend zerstoerte Weltordnung als Grenzfall sichtbar bleibt.
+
+Der direkte Lauf-Stresstest zeigt danach: Wird die Daempfung im isolierten Lauf wirksam, sinkt die statische Rekopplung erwartbar. Die dominante Feldklasse bleibt in den vier kurzen Testwelten aber stabil. Adaptive Rekopplung faellt nicht ueberall gleich stark mit; sie wirkt hier als passive Kompensationslesung, nicht als Gate.
 
 ## Regel für zukünftige Befunde
 

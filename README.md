@@ -49,6 +49,8 @@ Der erste konkrete Stress-Test dämpft die Rückführungs-/Rekopplungsachse in d
 
 Die anschließende Null-/Rausch-Gegenprobe ergänzt diesen Befund: auch Nullwelten kollabieren unter der Auswertungsdämpfung nicht beliebig, zeigen aber bei starker Dämpfung mehr Offenheit und Diffusität als die ruhige Kontrollwelt. Damit wird die Prüfung methodisch schärfer: Die Feldlesung reagiert geordnet, während zerstörte Weltordnung als Grenzfall sichtbar bleibt. Siehe [1822_RUECKFUEHRUNG_DAEMPFUNG_NULL_RAUSCH_GEGENPROBE.md](docs/befunde/1822_RUECKFUEHRUNG_DAEMPFUNG_NULL_RAUSCH_GEGENPROBE.md).
 
+Ein erster direkter Lauf-Stresstest setzt die Dämpfung anschließend nicht nur in der Auswertung, sondern im isolierten MINI_DIO-Lauf selbst an. Ergebnis: Die statische Rekopplung sinkt erwartbar, aber die dominante Feldklasse bleibt in den geprüften Welten stabil. Die adaptive Rekopplung fällt nicht überall gleich stark mit, was auf eine passive Kompensationslesung hinweist. Siehe [1823_RUECKFUEHRUNG_DAEMPFUNG_DIREKTER_LAUFTEST.md](docs/befunde/1823_RUECKFUEHRUNG_DAEMPFUNG_DIREKTER_LAUFTEST.md).
+
 Ergänzende Feldzeit-Hypothese:
 
 Der 0-Punkt übernimmt im MCM-Feld eine gravitative Funktion. Gemeint ist keine physikalische Gleichsetzung mit Massegravitation, sondern eine rückführende Feldfunktion: Der 0-Punkt wirkt als Bezug der Spannungsrückführung. Bedeutungsinseln können als lokale Verdichtungen wiederkehrender Feldwirkung gelesen werden, also als gravitative Varianzen innerhalb des Feldes.
