@@ -94,6 +94,11 @@ def _run_one(label: str, world_path: Path, factor: float, debug_root: Path, memo
     run_label = f"{label}_factor_{str(factor).replace('.', 'p')}"
     run_debug = debug_root / run_label
     run_memory = memory_root / f"{run_label}.json"
+    report_path = run_debug / "dio_mini_lauf_1" / "mini_report.json"
+    episodes_path = run_debug / "dio_mini_lauf_1" / "episodes.csv"
+    if report_path.exists() and episodes_path.exists():
+        report = json.loads(report_path.read_text(encoding="utf-8"))
+        return report, episodes_path
     if run_debug.exists():
         shutil.rmtree(run_debug)
     if run_memory.exists():
@@ -124,9 +129,8 @@ def _run_one(label: str, world_path: Path, factor: float, debug_root: Path, memo
         print(result.stdout)
         print(result.stderr)
         result.check_returncode()
-    report_path = run_debug / "dio_mini_lauf_1" / "mini_report.json"
     report = json.loads(report_path.read_text(encoding="utf-8"))
-    return report, run_debug / "dio_mini_lauf_1" / "episodes.csv"
+    return report, episodes_path
 
 
 def _summarize_episode_rows(episode_path: Path) -> dict[str, object]:
@@ -178,7 +182,7 @@ def _write_csv(path: Path, rows: list[dict[str, object]]) -> None:
         writer.writerows(rows)
 
 
-def _write_md(path: Path, rows: list[dict[str, object]], factors: list[float]) -> None:
+def _write_md(path: Path, rows: list[dict[str, object]], factors: list[float], title: str) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     base = _baseline(rows)
     lowest = min(factors)
@@ -188,7 +192,7 @@ def _write_md(path: Path, rows: list[dict[str, object]], factors: list[float]) -
     avg_low_families = _mean([_float(row["unique_episode_families"]) for row in low_rows])
 
     lines = [
-        "# 1823 - Direkter Lauf-Stresstest: Rueckfuehrungsdaempfung",
+        f"# {title}",
         "",
         f"Stand: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}",
         "",
@@ -253,6 +257,7 @@ def main() -> int:
     parser.add_argument("--memory-root", default="memory/1823_rekopplung_damping_runtime")
     parser.add_argument("--out-md", default="docs/befunde/1823_RUECKFUEHRUNG_DAEMPFUNG_DIREKTER_LAUFTEST.md")
     parser.add_argument("--out-csv", default="docs/befunde/1823_RUECKFUEHRUNG_DAEMPFUNG_DIREKTER_LAUFTEST.csv")
+    parser.add_argument("--title", default="1823 - Direkter Lauf-Stresstest: Rueckfuehrungsdaempfung")
     args = parser.parse_args()
 
     factors = _parse_factors(args.factors)
@@ -271,7 +276,7 @@ def main() -> int:
 
     rows.sort(key=lambda row: (str(row["world"]), -_float(row["rekopplung_factor"])))
     _write_csv(_resolve(args.out_csv), rows)
-    _write_md(_resolve(args.out_md), rows, factors)
+    _write_md(_resolve(args.out_md), rows, factors, str(args.title))
     print({"out_md": args.out_md, "out_csv": args.out_csv, "rows": len(rows)})
     return 0
 

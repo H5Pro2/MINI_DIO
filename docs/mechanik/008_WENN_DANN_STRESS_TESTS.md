@@ -142,10 +142,13 @@ Siehe:
 - [1821_RUECKFUEHRUNG_DAEMPFUNG_REAL_SYN_GEGENPROBE.md](../befunde/1821_RUECKFUEHRUNG_DAEMPFUNG_REAL_SYN_GEGENPROBE.md)
 - [1822_RUECKFUEHRUNG_DAEMPFUNG_NULL_RAUSCH_GEGENPROBE.md](../befunde/1822_RUECKFUEHRUNG_DAEMPFUNG_NULL_RAUSCH_GEGENPROBE.md)
 - [1823_RUECKFUEHRUNG_DAEMPFUNG_DIREKTER_LAUFTEST.md](../befunde/1823_RUECKFUEHRUNG_DAEMPFUNG_DIREKTER_LAUFTEST.md)
+- [1824_RUECKFUEHRUNG_DAEMPFUNG_LANGFENSTER_KIPPPUNKT.md](../befunde/1824_RUECKFUEHRUNG_DAEMPFUNG_LANGFENSTER_KIPPPUNKT.md)
 
 Die Null-/Rausch-Gegenprobe zeigt eine wichtige Grenze: Nullwelten verhalten sich nicht wie reines Beliebigkeitsrauschen, aber bei starker Daempfung oeffnen sie staerker und werden diffuser. Damit bleibt die Topologie-Lesung geordnet, waehrend zerstoerte Weltordnung als Grenzfall sichtbar bleibt.
 
 Der direkte Lauf-Stresstest zeigt danach: Wird die Daempfung im isolierten Lauf wirksam, sinkt die statische Rekopplung erwartbar. Die dominante Feldklasse bleibt in den vier kurzen Testwelten aber stabil. Adaptive Rekopplung faellt nicht ueberall gleich stark mit; sie wirkt hier als passive Kompensationslesung, nicht als Gate.
+
+Die Langfenster-Pruefung mit BTC und PAXG zeigt anschliessend keinen harten Kipppunkt im Bereich `1.0` bis `0.7`. Die statische Rekopplung sinkt graduell, adaptive Rekopplung bleibt hoch, Strain und Sinneskopplung bleiben stabil und die dominante Feldklasse bleibt `stabil`. Damit wirkt Daempfung hier nicht wie ein Topologiebruch, sondern wie veraenderte Rekopplungsnaehe innerhalb einer getragenen Ordnung.
 
 ## Regel für zukünftige Befunde
 
@@ -159,4 +162,4 @@ Danach wird geprüft:
 
 ## Wie es weitergeht
 
-Als nächstes sollte dieselbe Stress-Test-Logik gegen eine Null-/Rauschwelt und danach gegen echte Laufvarianten geprüft werden. Erst dann ist klarer, ob die Rückführungsdämpfung nur die Lesung verschiebt oder die Feldorganisation selbst stabil umordnet.
+Als naechstes sollte der Bereich unter `0.7` gezielt geprueft werden, zum Beispiel `0.65`, `0.6`, `0.55` und `0.5`. Zuerst auf BTC und PAXG, danach gegen Stress- und Nullwelten.

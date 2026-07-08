@@ -51,6 +51,8 @@ Die anschließende Null-/Rausch-Gegenprobe ergänzt diesen Befund: auch Nullwelt
 
 Ein erster direkter Lauf-Stresstest setzt die Dämpfung anschließend nicht nur in der Auswertung, sondern im isolierten MINI_DIO-Lauf selbst an. Ergebnis: Die statische Rekopplung sinkt erwartbar, aber die dominante Feldklasse bleibt in den geprüften Welten stabil. Die adaptive Rekopplung fällt nicht überall gleich stark mit, was auf eine passive Kompensationslesung hinweist. Siehe [1823_RUECKFUEHRUNG_DAEMPFUNG_DIREKTER_LAUFTEST.md](docs/befunde/1823_RUECKFUEHRUNG_DAEMPFUNG_DIREKTER_LAUFTEST.md).
 
+Die Langfenster-Gegenprüfung auf BTC und PAXG bestätigt diesen Befund robuster. Im Bereich `1.0` bis `0.7` entsteht kein harter Kipppunkt: die statische Rekopplung sinkt graduell, adaptive Rekopplung bleibt hoch, Strain und Sinneskopplung bleiben stabil und die dominante Feldklasse bleibt `stabil`. Siehe [1824_RUECKFUEHRUNG_DAEMPFUNG_LANGFENSTER_KIPPPUNKT.md](docs/befunde/1824_RUECKFUEHRUNG_DAEMPFUNG_LANGFENSTER_KIPPPUNKT.md).
+
 Ergänzende Feldzeit-Hypothese:
 
 Der 0-Punkt übernimmt im MCM-Feld eine gravitative Funktion. Gemeint ist keine physikalische Gleichsetzung mit Massegravitation, sondern eine rückführende Feldfunktion: Der 0-Punkt wirkt als Bezug der Spannungsrückführung. Bedeutungsinseln können als lokale Verdichtungen wiederkehrender Feldwirkung gelesen werden, also als gravitative Varianzen innerhalb des Feldes.

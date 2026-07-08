@@ -1,0 +1,9 @@
+world,source,rekopplung_factor,candles,unique_symbols,episodes,dominant_effect_class,dominant_episode_state,unique_episode_families,top_family_count,avg_mcm_carry_quality,avg_mcm_strain_quality,avg_mcm_rekopplung_quality,avg_mcm_adaptive_rekopplung_quality,avg_mcm_sensory_coupling,avg_mini_afterimage,avg_mini_temporal_trust_support,avg_mini_temporal_caution_support
+BTC_2025_5M_10K,data/kontrolliert_btc_2025_5m_10k_BTCUSDT.csv,1.0,10000,677,9994,stabil,-,674,665,0.552888,0.1698,0.707487,0.742768,0.842395,0.659037,0.819309,0.179513
+BTC_2025_5M_10K,data/kontrolliert_btc_2025_5m_10k_BTCUSDT.csv,0.9,10000,677,9994,stabil,-,674,665,0.552888,0.1698,0.636738,0.742331,0.842395,0.659037,0.819309,0.179513
+BTC_2025_5M_10K,data/kontrolliert_btc_2025_5m_10k_BTCUSDT.csv,0.8,10000,677,9994,stabil,-,674,665,0.552888,0.1698,0.565989,0.741893,0.842395,0.659037,0.819309,0.179513
+BTC_2025_5M_10K,data/kontrolliert_btc_2025_5m_10k_BTCUSDT.csv,0.7,10000,677,9994,stabil,-,674,665,0.552888,0.1698,0.495241,0.741448,0.842395,0.659037,0.819309,0.179513
+PAXG_2024_5M_10K,data/kontrolliert_paxg_2024_5m_10k_PAXGUSDT.csv,1.0,10000,520,9994,stabil,-,516,620,0.556354,0.166791,0.716769,0.751996,0.851705,0.686865,0.840761,0.168696
+PAXG_2024_5M_10K,data/kontrolliert_paxg_2024_5m_10k_PAXGUSDT.csv,0.9,10000,520,9994,stabil,-,516,620,0.556354,0.166791,0.645092,0.751004,0.851705,0.686865,0.840761,0.168696
+PAXG_2024_5M_10K,data/kontrolliert_paxg_2024_5m_10k_PAXGUSDT.csv,0.8,10000,520,9994,stabil,-,516,620,0.556354,0.166791,0.573415,0.750026,0.851705,0.686865,0.840761,0.168696
+PAXG_2024_5M_10K,data/kontrolliert_paxg_2024_5m_10k_PAXGUSDT.csv,0.7,10000,520,9994,stabil,-,516,620,0.556354,0.166791,0.501739,0.749008,0.851705,0.686865,0.840761,0.168696
