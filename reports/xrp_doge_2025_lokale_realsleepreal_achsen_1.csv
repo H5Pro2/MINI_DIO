@@ -1,0 +1,3 @@
+label,weltgruppe,data_path,follow_data_path,achsenklasse,rollenbreite_klasse,rollen,kombinationen,cross_state,same_state,rekopplung,adaptive_rekopplung,adaptive_rekopplung_delta,adaptive_rekopplung_experience,nachhall,stabil,tragend_unruhig,kippend,gespannt
+XRP_2025_FOLLOW_0_1000,XRP_2025_LOCAL,data\xrp_2025_follow_candidate_5000_6000.csv,data\xrp_2025_follow_candidate_6000_7000.csv,verteilt_offen,verteilt,6,15,9,6,0.6892,0.7238,0.0346,0.4494,0.3101,977,17,0,0
+DOGE_2025_FOLLOW_0_1000,DOGE_2025_LOCAL,data\doge_2025_follow_candidate_5000_6000.csv,data\doge_2025_follow_candidate_6000_7000.csv,mittlere_uebergangsphase,mittel,4,6,4,2,0.6897,0.7195,0.0299,0.3812,0.3039,977,17,0,0
