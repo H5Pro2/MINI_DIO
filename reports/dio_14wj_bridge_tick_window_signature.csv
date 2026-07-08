@@ -1,0 +1,4 @@
+family,pattern,phase,rows,visual,tone,field,avg_tension,avg_rekopplung,avg_strain,avg_raw_intake,avg_adapted_intake,sequence_reading
+dio_14wj,tragende_verarbeitung,vorlauf,32,wechselnde_form,geordnetes_hinhoeren,offen,0.0705,0.718772,0.135626,0.080696,0.0705,rekopplungspunkt_mit_nachhallpruefung
+dio_14wj,tragende_verarbeitung,ereignis,4,stabile_scharfe_form,geordnetes_hinhoeren,rekoppelt,0.014949,0.755055,0.10953,0.016468,0.014949,rekopplungspunkt_mit_nachhallpruefung
+dio_14wj,tragende_verarbeitung,nachlauf,32,wechselnde_form,geordnetes_hinhoeren_mit_wechsel,offen,0.119112,0.702717,0.148207,0.138797,0.119112,rekopplungspunkt_mit_nachhallpruefung

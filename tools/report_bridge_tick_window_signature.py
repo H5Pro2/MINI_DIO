@@ -43,6 +43,14 @@ def _write_csv(path: Path, rows: list[dict[str, object]]) -> None:
         writer.writerows(rows)
 
 
+def _report_title(path: Path, fallback: str) -> str:
+    stem = path.stem
+    if "_" in stem and stem.split("_", 1)[0].isdigit():
+        number, rest = stem.split("_", 1)
+        return f"{number} - {rest.replace('_', ' ').title()}"
+    return fallback
+
+
 def _dominant(rows: list[dict[str, str]], key: str) -> str:
     counter = Counter(str(row.get(key) or "-") for row in rows)
     return counter.most_common(1)[0][0] if counter else "-"
@@ -67,11 +75,11 @@ def _classify(pattern: str, phase_rows: dict[str, list[dict[str, str]]]) -> str:
 
 def _write_md(path: Path, source: str, rows: list[dict[str, object]], family: str) -> None:
     lines = [
-        f"# 1802 - `{family}` Feldfolgen-Signatur",
+        f"# {_report_title(path, f'{family} Feldfolgen-Signatur')}",
         "",
         "## Grundfrage",
         "",
-        "Die Prüfung verdichtet die Tickfenster aus 1801 zu einer kompakten Feldfolgen-Signatur.",
+        "Die Prüfung verdichtet Tickfenster zu einer kompakten Feldfolgen-Signatur.",
         "",
         "Gelesen werden Vorlauf, Ereignis und Nachlauf getrennt. Die Diagnose bleibt passiv.",
         "",
@@ -93,16 +101,16 @@ def _write_md(path: Path, source: str, rows: list[dict[str, object]], family: st
             "",
             "## Befund",
             "",
-            f"`{family}` zeigt in den geprüften Fenstern zwei verschiedene Feldfolgen:",
+            f"`{family}` zeigt in den geprüften Fenstern die folgenden Feldfolgen:",
             "",
             "- tragende Verarbeitung: Vorlauf offen/wechselnd, Ereignis rekoppelt, Nachlauf prüft weiter zwischen offen, rekoppelt und belastet.",
             "- Kippnähe: Ereignis bleibt offen, der Nachlauf trägt eher offene Spannung als stabile Rekopplung.",
             "",
-            "Damit ist `dio_0l7p` nicht einfach ein einzelnes Symbol. Es wirkt wie ein Brückenträger, dessen konkrete Lesart aus der Feldfolge entsteht.",
+            f"Damit ist `{family}` nicht einfach ein einzelnes Symbol. Die konkrete Lesart entsteht aus Feldfolge, Weltfenster und Nachbarschaft.",
             "",
             "## Wie es weitergeht",
             "",
-            "Als nächstes sollte geprüft werden, ob `dio_104t` eine ähnliche Feldfolgen-Signatur zeigt oder ob es stärker als Anschluss-/Kohärenzknoten wirkt.",
+            "Als nächstes sollte diese Signatur mit der bisherigen Rollentaxonomie verglichen werden.",
         ]
     )
     path.parent.mkdir(parents=True, exist_ok=True)
