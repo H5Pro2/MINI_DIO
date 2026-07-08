@@ -218,6 +218,8 @@ Eine PAXG-2025-Holdout-Prüfung über 5m, 15m und 1h ergänzt den Gegencheck. Al
 
 Der direkte PAXG-2024/2025-Vergleich zeigt danach: PAXG wird nicht identisch kopiert, bleibt aber als Milieu wiedererkennbar. Alle sechs Zeitachsen bleiben `stark_zentriert_wenig_rand`; 2025 färbt besonders 5m stärker rekoppelnd und weniger gedämpft. Das stützt die Lesart `Stabilität ohne starre Kopie, Varianz ohne Topologiebruch`. Siehe [1738_PAXG_2024_2025_DIREKTVERGLEICH.md](docs/befunde/1738_PAXG_2024_2025_DIREKTVERGLEICH.md) und [paxg_2024_2025_direct_compare.md](reports/paxg_2024_2025_direct_compare.md).
 
+Ein verschobenes PAXG-2025-Folgefenster bestätigt die Topologie erneut, zeigt aber lokale Drift. 5m, 15m und 1h bleiben `stark_zentriert_wenig_rand`; gleichzeitig sinkt die Rekopplung leicht und die Dämpfung steigt. PAXG bleibt damit als Milieu wiedererkennbar, wird aber im Folgefenster schutz-/abstandsnäher gelesen. Siehe [1739_PAXG_2025_FOLGEFENSTER_DRIFT.md](docs/befunde/1739_PAXG_2025_FOLGEFENSTER_DRIFT.md) und [paxg_2025_holdout_shift_compare.md](reports/paxg_2025_holdout_shift_compare.md).
+
 ## Hypothese Feldbewusstsein
 
 Wenn hier von Bewusstsein gesprochen wird, ist kein menschliches Ich-Bewusstsein gemeint.
