@@ -69,6 +69,8 @@ Aus diesen Dämpfungs- und Nullweltprüfungen wurde die [MCM-Reifungsbahn](docs/
 
 Ein erster passiver Reife-Report wendet diese Bahn auf die 10k-Asset-/Nullweltprüfung an. Ergebnis: Die Assetwelten werden als `feldzeit_reif` gelesen, während die Nullwelten `nachhallend_offen` bleiben. Damit trennt der Report nicht über eine harte stabile Klasse, sondern über Reifedruck, Bedeutungsbreite, Rollenvarianz, Feldzeitdruck und Nullwelt-Abstand. Siehe [1833_MCM_REIFUNGSBAHN_ASSET10K_NULLWELT.md](docs/befunde/1833_MCM_REIFUNGSBAHN_ASSET10K_NULLWELT.md).
 
+Eine 2024-Gegenprüfung mit vorhandenen DOGE-, PAXG- und XRP-10k-Läufen wiederholt die Richtung: die Assetwelten werden `feldzeit_reif`, die Nullwelten `nullweltnah`. Damit erscheint die Reifungsbahn nicht nur als 2025-Effekt, sondern als wiederkehrende Trennung zwischen echter Weltspur und Kontrollfläche. Siehe [1834_MCM_REIFUNGSBAHN_2024_GEGENPRUEFUNG.md](docs/befunde/1834_MCM_REIFUNGSBAHN_2024_GEGENPRUEFUNG.md).
+
 Ergänzende Feldzeit-Hypothese:
 
 Der 0-Punkt übernimmt im MCM-Feld eine gravitative Funktion. Gemeint ist keine physikalische Gleichsetzung mit Massegravitation, sondern eine rückführende Feldfunktion: Der 0-Punkt wirkt als Bezug der Spannungsrückführung. Bedeutungsinseln können als lokale Verdichtungen wiederkehrender Feldwirkung gelesen werden, also als gravitative Varianzen innerhalb des Feldes.
