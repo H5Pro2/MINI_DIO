@@ -190,6 +190,8 @@ Eine Ruecklesung von PAXG zeigt danach: mehr Daempfung bedeutet hier nicht autom
 
 Aus diesen Befunden wurde eine kompakte aktuelle Topologie-Skizze abgeleitet: lokaler Randdruck, offene Varianten, Rekopplungsbruecken, Daempfung, Zentrum/0-Punkt und Nachhall/Feldzeit als Rollenraum. Die Skizze ist keine Runtime-Regel, sondern eine nachgelagerte Lesart der bisherigen Feldbefunde. Siehe [1725_AKTUELLE_MCM_TOPOLOGIE_SKIZZE.md](docs/befunde/1725_AKTUELLE_MCM_TOPOLOGIE_SKIZZE.md).
 
+Ein Recheck gegen PAXG, XRP, DOGE und BTC in 2025 stuetzt die Skizze: global bleibt `gemischte_rollenordnung` mit dominanter Rekopplungsnaehe, lokal unterscheiden sich die Assetqualitaeten. PAXG erscheint erneut staerker rekoppelnd und weniger daempfend. Siehe [1726_TOPOLOGIE_SKIZZE_RECHECK_2025.md](docs/befunde/1726_TOPOLOGIE_SKIZZE_RECHECK_2025.md).
+
 ## Hypothese Feldbewusstsein
 
 Wenn hier von Bewusstsein gesprochen wird, ist kein menschliches Ich-Bewusstsein gemeint.
