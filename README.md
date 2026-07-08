@@ -192,6 +192,8 @@ Aus diesen Befunden wurde eine kompakte aktuelle Topologie-Skizze abgeleitet: lo
 
 Ein Recheck gegen PAXG, XRP, DOGE und BTC in 2025 stuetzt die Skizze: global bleibt `gemischte_rollenordnung` mit dominanter Rekopplungsnaehe, lokal unterscheiden sich die Assetqualitaeten. PAXG erscheint erneut staerker rekoppelnd und weniger daempfend. Siehe [1726_TOPOLOGIE_SKIZZE_RECHECK_2025.md](docs/befunde/1726_TOPOLOGIE_SKIZZE_RECHECK_2025.md).
 
+Eine gezielte PAXG-Milieupruefung ueber vier 5k-Fenster zeigt danach: Die globale Rekopplungsnaehe bleibt stabil, aber die lokale Staerke schwankt je Weltmilieu. PAXG wirkt damit nicht als einzelner Zufallsbefund, sondern als stabile Rekopplungsneigung mit milieuspezifischer Auspraegung. Siehe [1727_PAXG_MILIEU_REKOPPLUNGSPRUEFUNG.md](docs/befunde/1727_PAXG_MILIEU_REKOPPLUNGSPRUEFUNG.md).
+
 ## Hypothese Feldbewusstsein
 
 Wenn hier von Bewusstsein gesprochen wird, ist kein menschliches Ich-Bewusstsein gemeint.
