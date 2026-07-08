@@ -118,6 +118,8 @@ Die größere 17k-Gegenprüfung [1837_MCM_REIFUNGSBAHN_ASSETNAHE_NULL17K.md](../
 
 Der Familienvergleich [1838_MCM_REIFUNGSBAHN_FAMILIENWACHSTUM.md](../befunde/1838_MCM_REIFUNGSBAHN_FAMILIENWACHSTUM.md) zeigt die nächste Präzisierung: Top-Familien können zwischen 10k und 17k anschlussfähig bleiben, und einige Symbolfamilien tauchen auch in Nullwelten auf. Deshalb darf Reife nicht aus dem Namen einer Familie allein gelesen werden. Reife entsteht erst als Profil aus Wiederkehr, Rolle, Nachhall, Feldzeit, Kopplungsqualität und Nullabstand.
 
+Die Phasensegmentierung [1839_MCM_REIFUNGSBAHN_17K_PHASENSEGMENTE.md](../befunde/1839_MCM_REIFUNGSBAHN_17K_PHASENSEGMENTE.md) liest die 17k-Realwelten in Früh-, Mittel- und Spätphase. Dort wird sichtbar: Reife entsteht nicht als einmaliger Umschlag. Familien bleiben über Phasen anschlussfähig, während Nachhall und Feldzeitqualität deutlich zunehmen. Das stützt die Lesung einer haltbaren Drift mit späterer Verdichtung.
+
 ## Wie es weitergeht
 
-Als nächstes sollten die Familienrollen innerhalb der 17k-Realwelten zeitlich segmentiert werden: frühe Phase, Mittelphase, späte Phase. Dann wird sichtbar, ob Reife aus Stabilität, Drift oder Brückenbildung entsteht.
+Als nächstes sollten die Familien mit hoher Phasenbindung einzeln gelesen werden: Welche Familien bleiben Kern, welche wandern an den Rand und welche bilden Brückenrollen?

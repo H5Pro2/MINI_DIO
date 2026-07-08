@@ -79,6 +79,8 @@ Die größere 17k-Prüfung bestätigt diese Richtung. BTC, DOGE, PAXG und XRP bl
 
 Der anschließende 10k/17k-Familienvergleich präzisiert diesen Punkt weiter. Mehrere Top-Familien bleiben bei längeren Weltfenstern anschlussfähig, aber die reine Familien-Syntax trennt Realwelt und Nullwelt nicht ausreichend. Lesbar wird Reife erst über das Profil aus Wiederkehr, Rolle, Nachhall, Feldzeit, Kopplung und Nullabstand. Siehe [1838_MCM_REIFUNGSBAHN_FAMILIENWACHSTUM.md](docs/befunde/1838_MCM_REIFUNGSBAHN_FAMILIENWACHSTUM.md).
 
+Die zeitliche Segmentierung der 17k-Realwelten zeigt anschließend, wie diese Reife entsteht. Die frühen Phasen tragen mehr offene Familienbreite, während Mittel- und Spätphasen höheren Nachhall und stärkeren Feldzeit-Trust ausbilden. Die Topfamilien bleiben meist anschlussfähig, verschieben aber ihre Feldqualität. Das wirkt wie haltbare Drift mit späterer Verdichtung. Siehe [1839_MCM_REIFUNGSBAHN_17K_PHASENSEGMENTE.md](docs/befunde/1839_MCM_REIFUNGSBAHN_17K_PHASENSEGMENTE.md).
+
 Ergänzende Feldzeit-Hypothese:
 
 Der 0-Punkt übernimmt im MCM-Feld eine gravitative Funktion. Gemeint ist keine physikalische Gleichsetzung mit Massegravitation, sondern eine rückführende Feldfunktion: Der 0-Punkt wirkt als Bezug der Spannungsrückführung. Bedeutungsinseln können als lokale Verdichtungen wiederkehrender Feldwirkung gelesen werden, also als gravitative Varianzen innerhalb des Feldes.
