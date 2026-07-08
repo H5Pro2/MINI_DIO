@@ -68,10 +68,28 @@ RECOUPLING_CONTRAST_PHASES = (
 )
 
 
+RECOUPLING_PACKET_PHASES = (
+    ("ruhe_start", 650, 0.00002, 0.0024, 0.0010, 0.95),
+    ("paket_a_oeffnung", 900, 0.00055, 0.0115, 0.0068, 1.95),
+    ("paket_a_varianz", 650, -0.00010, 0.0125, 0.0078, 2.10),
+    ("paket_a_rekopplung", 950, 0.00020, 0.0060, 0.0026, 1.22),
+    ("ruhe_abstand_a", 600, 0.00001, 0.0030, 0.0013, 1.00),
+    ("paket_b_oeffnung", 900, -0.00045, 0.0120, 0.0072, 2.00),
+    ("paket_b_varianz", 650, 0.00016, 0.0130, 0.0080, 2.15),
+    ("paket_b_rekopplung", 950, 0.00023, 0.0058, 0.0025, 1.20),
+    ("unruhiger_nachhall", 700, 0.00002, 0.0070, 0.0045, 1.45),
+    ("paket_c_oeffnung", 900, 0.00062, 0.0110, 0.0065, 1.90),
+    ("paket_c_varianz", 650, -0.00022, 0.0128, 0.0078, 2.10),
+    ("paket_c_rekopplung", 950, 0.00019, 0.0056, 0.0024, 1.18),
+    ("ruhe_rueckbindung", 700, 0.00001, 0.0030, 0.0013, 1.00),
+)
+
+
 PRESETS = {
     "harmonic": HARMONIC_PHASES,
     "bruch_rand": BREAK_RAND_PHASES,
     "rand_dominanz": RAND_DOMINANCE_PHASES,
+    "rekopplungsbreite_pakete": RECOUPLING_PACKET_PHASES,
     "rekopplungsbreite_kontrast": RECOUPLING_CONTRAST_PHASES,
     "rekopplungsbreite": RECOUPLING_WIDTH_PHASES,
 }
@@ -144,6 +162,12 @@ def _phase_at(index: int, phases: tuple[tuple[str, int, float, float, float, flo
 
 
 def _phase_family(phase_name: str) -> str:
+    if "_oeffnung" in phase_name:
+        return "oeffnung"
+    if "_varianz" in phase_name:
+        return "oeffnung"
+    if "_rekopplung" in phase_name:
+        return "rekopplung"
     if phase_name.startswith("oeffnung_"):
         return "oeffnung"
     if phase_name.startswith("rekopplung_"):
