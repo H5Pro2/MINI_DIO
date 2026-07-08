@@ -149,6 +149,8 @@ Siehe:
 - [1828_REALWELT_NULLWELT_DAEMPFUNG_DIFFERENZREPORT.md](../befunde/1828_REALWELT_NULLWELT_DAEMPFUNG_DIFFERENZREPORT.md)
 - [1829_DAEMPFUNG_REAL_NULL_ERWEITERTE_WELTEN.md](../befunde/1829_DAEMPFUNG_REAL_NULL_ERWEITERTE_WELTEN.md)
 - [1830_REAL_NULL_DIFFERENZ_ERWEITERTE_WELTEN.md](../befunde/1830_REAL_NULL_DIFFERENZ_ERWEITERTE_WELTEN.md)
+- [1831_DAEMPFUNG_ASSET10K_NULLWELTEN.md](../befunde/1831_DAEMPFUNG_ASSET10K_NULLWELTEN.md)
+- [1832_ASSET10K_NULLWELT_DIFFERENZREPORT.md](../befunde/1832_ASSET10K_NULLWELT_DIFFERENZREPORT.md)
 
 Die Null-/Rausch-Gegenprobe zeigt eine wichtige Grenze: Nullwelten verhalten sich nicht wie reines Beliebigkeitsrauschen, aber bei starker Daempfung oeffnen sie staerker und werden diffuser. Damit bleibt die Topologie-Lesung geordnet, waehrend zerstoerte Weltordnung als Grenzfall sichtbar bleibt.
 
@@ -166,6 +168,8 @@ Der anschliessende Differenzreport macht diese Trennung messbarer: Reale Welten 
 
 Die erweiterte Gegenprobe mit Ruhe, Seitwaerts, Stress und Expansion praezisiert das: reale Welten bleiben bedeutungsbreiter und adaptiv staerker, aber Nullwelten koennen mehr Nachhall tragen. Nachhall allein ist deshalb kein Qualitaetsmerkmal. Tragfaehiger wird die Lesung erst durch die Kopplung aus Bedeutungsbreite, Rollenvarianz, adaptiver Rekopplung und Nachhall.
 
+Die 10k-Assetpruefung mit BTC, DOGE, PAXG und XRP zeigt danach wieder eine staerkere Realwelttrennung: Assetwelten tragen deutlich mehr Symbole, mehr Episodenfamilien, hoehere adaptive Rekopplung, mehr Rollenvarianz und hier auch mehr Nachhall. Nachhall muss deshalb feldzeitlich gelesen werden: Als Restspur allein ist er mehrdeutig, in Verbindung mit Bedeutungsbreite und Rollenvarianz wird er tragender.
+
 ## Regel für zukünftige Befunde
 
 Jeder neue größere Befund sollte nach Möglichkeit eine Wenn-Dann-Form bekommen:
@@ -178,4 +182,4 @@ Danach wird geprüft:
 
 ## Wie es weitergeht
 
-Als naechstes sollte diese Differenzlogik auf laengere Assetfenster angewendet werden. Entscheidend ist, ob Bedeutungsbreite und adaptive Rekopplung auch bei groesserer Feldzeit besser trennen als die dominante Feldklasse.
+Als naechstes sollte dieselbe Asset-10k-Logik auf 2024 wiederholt werden. Entscheidend ist, ob Bedeutungsbreite, adaptive Rekopplung und Nachhall auch jahruebergreifend Realwelt und Nullwelt trennen.

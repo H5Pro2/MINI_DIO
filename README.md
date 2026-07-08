@@ -63,6 +63,8 @@ Ein kompakter Differenzreport bestätigt die tiefere Trennung: Bei gleicher Däm
 
 Eine erweiterte Prüfung mit Ruhe, Seitwärts, Stress und Expansion bestätigt die Trennung über Bedeutungsbreite und adaptive Rekopplung. Gleichzeitig zeigt sie eine wichtige Präzisierung: Nullwelten können höheren Nachhall tragen, ohne dadurch bedeutungsbreiter zu werden. Nachhall allein ist also kein Qualitätsmerkmal; relevant ist die Kopplung aus Nachhall, Rollenvarianz und Bedeutungsbreite. Siehe [1829_DAEMPFUNG_REAL_NULL_ERWEITERTE_WELTEN.md](docs/befunde/1829_DAEMPFUNG_REAL_NULL_ERWEITERTE_WELTEN.md) und [1830_REAL_NULL_DIFFERENZ_ERWEITERTE_WELTEN.md](docs/befunde/1830_REAL_NULL_DIFFERENZ_ERWEITERTE_WELTEN.md).
 
+Die 10k-Assetprüfung mit BTC, DOGE, PAXG und XRP trennt Realwelt und Nullwelt wieder stärker. Bei gleicher Dämpfung tragen die Assetwelten deutlich mehr Symbole, mehr Episodenfamilien, höhere adaptive Rekopplung, mehr Rollenvarianz und hier auch stärkeren Nachhall. Damit wird klarer: Nachhall ist nur im Verbund mit Feldzeit und Bedeutungsbreite sinnvoll lesbar. Siehe [1831_DAEMPFUNG_ASSET10K_NULLWELTEN.md](docs/befunde/1831_DAEMPFUNG_ASSET10K_NULLWELTEN.md) und [1832_ASSET10K_NULLWELT_DIFFERENZREPORT.md](docs/befunde/1832_ASSET10K_NULLWELT_DIFFERENZREPORT.md).
+
 Ergänzende Feldzeit-Hypothese:
 
 Der 0-Punkt übernimmt im MCM-Feld eine gravitative Funktion. Gemeint ist keine physikalische Gleichsetzung mit Massegravitation, sondern eine rückführende Feldfunktion: Der 0-Punkt wirkt als Bezug der Spannungsrückführung. Bedeutungsinseln können als lokale Verdichtungen wiederkehrender Feldwirkung gelesen werden, also als gravitative Varianzen innerhalb des Feldes.
