@@ -1456,6 +1456,7 @@ Der aktuelle Mehrwelt-Vergleich zeigt zusätzlich:
 - BTC/SOL/KAS wurden mit aktuellem Rezeptorstand nachgezogen. Auch dort zeigen Hochlastfenster mehr offene Variante und Rand/Kippnähe, während die Adaptionsratio eng um etwa `0.85` bleibt. Damit verdichtet sich der aktuelle Befund: Rezeptoradaptation ist die wichtigste bekannte Aufnahmegrenze vor dem MCM-Feld.
 - Die Codekopplung wurde entsprechend geschärft: `mcm_feldwirkung.mcm_tension` liest jetzt die adaptierte Feldaufnahme, während die Rohfeldaufnahme Diagnose bleibt. Damit wirkt Weltspannung nicht mehr ungefiltert als MCM-Feldspannung.
 - Die synthetischen Kontrollwelten wurden nach dieser Korrektur erneut geprüft. Die Abstufung bleibt erhalten: Harmonie bleibt zentrumsnah, Bruch/Rand öffnet lokal, Randdominanz erzeugt starke lokale Öffnung und begrenzte Rand/Kippnähe. Damit verschwindet die Topologie nicht; sie wird sauberer als Innenfeldwirkung statt Rohlast gelesen.
+- Eine Real-Drift-Jahresgegenprobe mit SOL 2024/2025 bestätigt die robuste Grundordnung: alle vier Fenster bleiben global `stark_zentriert_wenig_rand`. Der Unterschied liegt nicht im Topologiebruch, sondern im Feldmilieu: 2024 wirkt `kompakt_nachhallend`, 2025 zeigt eine `mittlere_uebergangsphase`. Drift erscheint damit als Rollenbreiten-, Nachhall- und Übergangsphänomen, nicht als Kollaps der MCM-Feldordnung.
 
 Das spricht für weltbezogene Innenfeldordnungen statt wahlloser Speicherung.
 
