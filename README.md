@@ -220,6 +220,8 @@ Der direkte PAXG-2024/2025-Vergleich zeigt danach: PAXG wird nicht identisch kop
 
 Ein verschobenes PAXG-2025-Folgefenster bestätigt die Topologie erneut, zeigt aber lokale Drift. 5m, 15m und 1h bleiben `stark_zentriert_wenig_rand`; gleichzeitig sinkt die Rekopplung leicht und die Dämpfung steigt. PAXG bleibt damit als Milieu wiedererkennbar, wird aber im Folgefenster schutz-/abstandsnäher gelesen. Siehe [1739_PAXG_2025_FOLGEFENSTER_DRIFT.md](docs/befunde/1739_PAXG_2025_FOLGEFENSTER_DRIFT.md) und [paxg_2025_holdout_shift_compare.md](reports/paxg_2025_holdout_shift_compare.md).
 
+Ein längeres PAXG-2025-Fenster löst diese Drift genauer auf. 5m, 15m und 1h bleiben ebenfalls `stark_zentriert_wenig_rand`; bei 5m und 1h werden aber mehr offene Varianten und kleine Kippanteile sichtbar. Die lokale Dämpfung aus dem Folgefenster wirkt damit eher wie eine Phase innerhalb einer weiter rekopplungsstarken PAXG-Welt. Siehe [1740_PAXG_2025_LANGFENSTER_FELDZEIT.md](docs/befunde/1740_PAXG_2025_LANGFENSTER_FELDZEIT.md) und [paxg_2025_long_window_summary.md](reports/paxg_2025_long_window_summary.md).
+
 ## Hypothese Feldbewusstsein
 
 Wenn hier von Bewusstsein gesprochen wird, ist kein menschliches Ich-Bewusstsein gemeint.
