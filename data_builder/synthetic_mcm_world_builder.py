@@ -85,10 +85,26 @@ RECOUPLING_PACKET_PHASES = (
 )
 
 
+RECOUPLING_OFFSET_PHASES = (
+    ("ruhe_start", 650, 0.00002, 0.0022, 0.0010, 0.94),
+    ("tragendes_paket_oeffnung", 950, 0.00050, 0.0105, 0.0058, 1.75),
+    ("tragendes_paket_rekopplung", 1050, 0.00024, 0.0054, 0.0022, 1.14),
+    ("abstand_nachhall", 650, 0.00001, 0.0034, 0.0015, 1.02),
+    ("drift_paket_oeffnung", 900, -0.00055, 0.0138, 0.0088, 2.25),
+    ("drift_paket_varianz", 850, 0.00008, 0.0150, 0.0100, 2.45),
+    ("drift_paket_offen", 750, -0.00018, 0.0125, 0.0082, 2.05),
+    ("verzoegerter_nachhall", 850, 0.00000, 0.0068, 0.0048, 1.48),
+    ("spaete_rekopplung_anstieg", 900, 0.00026, 0.0060, 0.0028, 1.22),
+    ("spaete_rekopplung_bindung", 1100, 0.00018, 0.0048, 0.0020, 1.08),
+    ("ruhe_rueckbindung", 800, 0.00001, 0.0028, 0.0012, 0.98),
+)
+
+
 PRESETS = {
     "harmonic": HARMONIC_PHASES,
     "bruch_rand": BREAK_RAND_PHASES,
     "rand_dominanz": RAND_DOMINANCE_PHASES,
+    "rekopplungsbreite_versatz": RECOUPLING_OFFSET_PHASES,
     "rekopplungsbreite_pakete": RECOUPLING_PACKET_PHASES,
     "rekopplungsbreite_kontrast": RECOUPLING_CONTRAST_PHASES,
     "rekopplungsbreite": RECOUPLING_WIDTH_PHASES,
@@ -162,6 +178,14 @@ def _phase_at(index: int, phases: tuple[tuple[str, int, float, float, float, flo
 
 
 def _phase_family(phase_name: str) -> str:
+    if phase_name.startswith("tragendes_paket"):
+        return "tragendes_paket"
+    if phase_name.startswith("drift_paket"):
+        return "drift_paket"
+    if phase_name.startswith("spaete_rekopplung"):
+        return "rekopplung"
+    if phase_name == "verzoegerter_nachhall":
+        return "verzoegerter_nachhall"
     if "_oeffnung" in phase_name:
         return "oeffnung"
     if "_varianz" in phase_name:
@@ -228,6 +252,12 @@ def build_rows(
             ret += math.sin(i * 0.43) * noise * 0.06
         if phase_family == "unruhiger_nachhall":
             ret += math.sin(i * 0.31) * noise * 0.08 + math.cos(i * 0.097) * noise * 0.05
+        if phase_family == "tragendes_paket":
+            ret += (0.5 - abs(local_t - 0.5)) * wave * 0.09 + math.sin(i * 0.19) * noise * 0.025
+        if phase_family == "drift_paket":
+            ret += math.sin(i * 0.37) * noise * 0.11 - abs(math.sin(i * 0.11)) * noise * 0.055
+        if phase_family == "verzoegerter_nachhall":
+            ret += math.sin(i * 0.17) * noise * 0.10 + math.cos(i * 0.061) * noise * 0.06
         if phase_family == "randimpuls":
             ret += -abs(fast) * noise * 0.11 + math.sin(i * 0.77) * noise * 0.07
 
@@ -250,6 +280,8 @@ def build_rows(
             "gegenzerrung",
             "ueberreizter_nachhall",
             "unruhiger_nachhall",
+            "verzoegerter_nachhall",
+            "drift_paket",
             "zweiter_randstoss",
             "randimpuls",
         }:
