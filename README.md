@@ -200,6 +200,8 @@ Die gleiche Milieulogik fuer XRP und DOGE bestaetigt die globale Rollenform, zei
 
 Eine gemeinsame Asset-Milieu-Matrix fuehrt PAXG, XRP, DOGE und BTC zusammen. PAXG trennt sich bisher als rekopplungsstaerkstes und daempfungsaermstes Asset, waehrend BTC/XRP/DOGE enger beieinander liegen und mehr Schutzabstand zeigen. Damit wird die Topologie als Rollenraum mit assettypischer lokaler Gewichtung sichtbar. Siehe [1729_ASSET_MILIEU_MATRIX.md](docs/befunde/1729_ASSET_MILIEU_MATRIX.md) und [asset_milieu_matrix.md](reports/asset_milieu_matrix.md).
 
+Die 1h-Gegenpruefung bestaetigt die Grundtopologie, glättet aber die Assetunterschiede. Alle 16 geprueften 1h-Welten bleiben `stark_zentriert_wenig_rand`. PAXG bleibt rekopplungsstaerkster und daempfungsaermster 1h-Pol, aber weniger stark abgesetzt als bei 5m; XRP und DOGE zeigen im 1h-Raum mehr Randdruck. Das spricht fuer Zeitmass als lokale Milieu-Faerbung, nicht als Topologiebruch. Siehe [1730_ASSET_MILIEU_MATRIX_1H.md](docs/befunde/1730_ASSET_MILIEU_MATRIX_1H.md) und [asset_milieu_1h_matrix.md](reports/asset_milieu_1h_matrix.md).
+
 ## Hypothese Feldbewusstsein
 
 Wenn hier von Bewusstsein gesprochen wird, ist kein menschliches Ich-Bewusstsein gemeint.
