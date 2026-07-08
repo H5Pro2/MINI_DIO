@@ -1,0 +1,7 @@
+family,pattern,phase,rows,visual,tone,field,avg_tension,avg_rekopplung,avg_strain,avg_raw_intake,avg_adapted_intake,sequence_reading
+dio_104t,kippnaehe,vorlauf,24,wechselnde_form,geordnetes_hinhoeren_mit_wechsel,offen,0.112212,0.671009,0.16074,0.129863,0.112212,offene_kippnaehe_mit_nachlaufspannung
+dio_104t,kippnaehe,ereignis,4,wechselnde_form,geordnetes_hinhoeren_mit_wechsel,offen,0.08218,0.661925,0.169041,0.093981,0.08218,offene_kippnaehe_mit_nachlaufspannung
+dio_104t,kippnaehe,nachlauf,32,wechselnde_form,geordnetes_hinhoeren_mit_wechsel,offen,0.113366,0.661821,0.170887,0.134798,0.113366,offene_kippnaehe_mit_nachlaufspannung
+dio_104t,tragende_verarbeitung,vorlauf,32,wechselnde_form,geordnetes_hinhoeren_mit_wechsel,offen,0.108672,0.711421,0.152576,0.126692,0.108672,rekopplungspunkt_mit_nachhallpruefung
+dio_104t,tragende_verarbeitung,ereignis,4,wechselnde_form,geordnetes_hinhoeren_mit_wechsel,rekoppelt,0.065593,0.753815,0.131754,0.074539,0.065593,rekopplungspunkt_mit_nachhallpruefung
+dio_104t,tragende_verarbeitung,nachlauf,32,wechselnde_form,geordnetes_hinhoeren,rekoppelt,0.078438,0.729946,0.13544,0.089709,0.078438,rekopplungspunkt_mit_nachhallpruefung
