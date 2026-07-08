@@ -1,0 +1,4 @@
+phase,zeitmass,label,rollen,kombinationen,cross_state,same_state,rekopplung,adaptive_rekopplung,adaptive_rekopplung_experience,nachhall,syntax,stabil,tragend_unruhig,data_path,follow_data_path
+1782_zone,1h,BTC_2025_1H_CORE_2000_3000,5,10,4,6,0.695555,0.737,0.443215,0.351238,229,984,10,data\btc_2025_1h_follow_candidate_2000_3000.csv,data\btc_2025_1h_follow_candidate_3000_4000.csv
+1782_zone,15m,BTC_2025_15M_ZONE_9000_10000,5,10,4,3,0.695155,0.727188,0.424939,0.338826,235,984,10,data\btc_2025_15m_zone_9000_10000.csv,data\btc_2025_15m_zone_10000_11000.csv
+1783_shift,30m,BTC_2025_30M_SHIFT_8000_9000,6,15,5,6,0.695411,0.737957,0.435167,0.346705,224,984,10,data\btc_2025_30m_shiftzone_8000_9000.csv,data\btc_2025_30m_shiftzone_9000_10000.csv
