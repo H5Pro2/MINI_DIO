@@ -214,6 +214,8 @@ Die gemeinsame Asset-Zeitachsen-Synthese trennt den Befund nun klarer: Topologie
 
 Eine erste Holdout-Gegenprobe mit BTC/SOL 2025 über 5m, 15m, 30m und 1h bestätigt diese Trennung. Alle acht Welten bleiben `stark_zentriert_wenig_rand`; lokal verschieben sich aber offene Variante und Rekopplungsprofil. Damit bleibt die Rollenordnung reproduzierbar, während die Feldfärbung variabel bleibt. Siehe [1736_HOLDOUT_2025_BTC_SOL_ZEITACHSEN.md](docs/befunde/1736_HOLDOUT_2025_BTC_SOL_ZEITACHSEN.md) und [holdout_2025_btc_sol_matrix.md](reports/holdout_2025_btc_sol_matrix.md).
 
+Eine PAXG-2025-Holdout-Prüfung über 5m, 15m und 1h ergänzt den Gegencheck. Alle drei Welten bleiben `stark_zentriert_wenig_rand`; PAXG trägt weiter starke Rekopplung, während gröbere Zeitachsen mehr Dämpfung und Sinneslücke zeigen. Damit bleibt die Topologie stabil, aber die lokale Feldfärbung zeitabhängig. Siehe [1737_HOLDOUT_2025_PAXG_ZEITACHSEN.md](docs/befunde/1737_HOLDOUT_2025_PAXG_ZEITACHSEN.md) und [holdout_2025_paxg_matrix.md](reports/holdout_2025_paxg_matrix.md).
+
 ## Hypothese Feldbewusstsein
 
 Wenn hier von Bewusstsein gesprochen wird, ist kein menschliches Ich-Bewusstsein gemeint.
