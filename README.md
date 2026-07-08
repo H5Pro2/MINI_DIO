@@ -232,6 +232,8 @@ Eine Repro-Prüfung mit frischer Memory bestätigt diese drei synthetischen Stru
 
 Eine anschließende Real-Drift-Prüfung über vier SOL-2023-Fenster zeigt dieselbe Grundordnung mit mehr lokaler Varianz. Alle Fenster bleiben `stark_zentriert_wenig_rand`, werden aber in offenen Varianten, Randdruck-Spitzen und Rollenbreite unterschiedlich gefärbt. Beide Driftpaare liegen als Achsenklasse in `mittlere_uebergangsphase`. Siehe [1745_REAL_DRIFT_2023_REPRO_UND_ACHSEN.md](docs/befunde/1745_REAL_DRIFT_2023_REPRO_UND_ACHSEN.md), [real_drift_2023_topology.md](reports/real_drift_2023_topology.md), [real_drift_2023_randdruck.md](reports/real_drift_2023_randdruck.md) und [real_drift_2023_axis_map.md](reports/real_drift_2023_axis_map.md).
 
+Eine DOGE/XRP-2025-Gegenprobe trennt die Übergangsfrage weiter. DOGE 2025 bleibt `kompakt_nachhallend`, während XRP 2025 wieder eine `mittlere_uebergangsphase` bildet. Damit ist Übergang nicht nur SOL-spezifisch, aber auch nicht automatisch jedes 2025-Fenster. Er wirkt bisher wie eine weltphasen- und assetmilieuabhängige Feldbreite innerhalb stabiler Zentrumstopologie. Siehe [1748_DOGE_XRP_2025_UEBERGANGSPHASE_SUCHE.md](docs/befunde/1748_DOGE_XRP_2025_UEBERGANGSPHASE_SUCHE.md), [real_drift_asset_doge_xrp_2025_topology.md](reports/real_drift_asset_doge_xrp_2025_topology.md), [real_drift_asset_doge_xrp_2025_randdruck.md](reports/real_drift_asset_doge_xrp_2025_randdruck.md) und [real_drift_asset_doge_xrp_2025_axis_map.md](reports/real_drift_asset_doge_xrp_2025_axis_map.md).
+
 ## Hypothese Feldbewusstsein
 
 Wenn hier von Bewusstsein gesprochen wird, ist kein menschliches Ich-Bewusstsein gemeint.
@@ -1458,6 +1460,7 @@ Der aktuelle Mehrwelt-Vergleich zeigt zusätzlich:
 - Die synthetischen Kontrollwelten wurden nach dieser Korrektur erneut geprüft. Die Abstufung bleibt erhalten: Harmonie bleibt zentrumsnah, Bruch/Rand öffnet lokal, Randdominanz erzeugt starke lokale Öffnung und begrenzte Rand/Kippnähe. Damit verschwindet die Topologie nicht; sie wird sauberer als Innenfeldwirkung statt Rohlast gelesen.
 - Eine Real-Drift-Jahresgegenprobe mit SOL 2024/2025 bestätigt die robuste Grundordnung: alle vier Fenster bleiben global `stark_zentriert_wenig_rand`. Der Unterschied liegt nicht im Topologiebruch, sondern im Feldmilieu: 2024 wirkt `kompakt_nachhallend`, 2025 zeigt eine `mittlere_uebergangsphase`. Drift erscheint damit als Rollenbreiten-, Nachhall- und Übergangsphänomen, nicht als Kollaps der MCM-Feldordnung.
 - Eine DOGE/XRP-2024-Gegenprobe liest beide Assets ebenfalls als `kompakt_nachhallend`. Damit wirkt diese Achsenklasse assetübergreifend plausibel, während `mittlere_uebergangsphase` bisher eher als besondere Weltphase oder Jahresfärbung sichtbar wird. Lokale Randdruckspitzen bleiben vorhanden, brechen aber die globale Zentrumstopologie nicht.
+- Eine DOGE/XRP-2025-Gegenprobe zeigt die Übergangsphase differenzierter: DOGE 2025 bleibt kompakt-nachhallend, XRP 2025 wird mittlere Übergangsphase. Damit wird Übergang als lokale Welt-/Milieuqualität lesbar, nicht als einfacher Jahres- oder Asseteffekt.
 
 Das spricht für weltbezogene Innenfeldordnungen statt wahlloser Speicherung.
 
