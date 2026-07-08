@@ -1,0 +1,4 @@
+asset,count,klassen,rollen,kombinationen,rekopplung,adaptive_rekopplung,adaptive_rekopplung_experience,nachhall,syntax
+BTC,4,"mittlere_uebergangsphase, verteilt_offen, verteilt_rekoppelnd, mittlere_uebergangsphase",4.5,8.5,0.69457,0.73389125,0.505198,0.34034549999999997,233.5
+DOGE,4,"mittlere_uebergangsphase, verteilt_offen, mittlere_uebergangsphase, kompakt_nachhallend",3.25,4.75,0.69324675,0.733842,0.54337125,0.3347255,232.75
+XRP,4,"verteilt_offen, mittlere_uebergangsphase, verteilt_offen, kompakt_nachhallend",4.5,9.0,0.6926885,0.7297395,0.5841575,0.3354685,235.75
