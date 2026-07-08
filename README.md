@@ -216,6 +216,8 @@ Eine erste Holdout-Gegenprobe mit BTC/SOL 2025 über 5m, 15m, 30m und 1h bestät
 
 Eine PAXG-2025-Holdout-Prüfung über 5m, 15m und 1h ergänzt den Gegencheck. Alle drei Welten bleiben `stark_zentriert_wenig_rand`; PAXG trägt weiter starke Rekopplung, während gröbere Zeitachsen mehr Dämpfung und Sinneslücke zeigen. Damit bleibt die Topologie stabil, aber die lokale Feldfärbung zeitabhängig. Siehe [1737_HOLDOUT_2025_PAXG_ZEITACHSEN.md](docs/befunde/1737_HOLDOUT_2025_PAXG_ZEITACHSEN.md) und [holdout_2025_paxg_matrix.md](reports/holdout_2025_paxg_matrix.md).
 
+Der direkte PAXG-2024/2025-Vergleich zeigt danach: PAXG wird nicht identisch kopiert, bleibt aber als Milieu wiedererkennbar. Alle sechs Zeitachsen bleiben `stark_zentriert_wenig_rand`; 2025 färbt besonders 5m stärker rekoppelnd und weniger gedämpft. Das stützt die Lesart `Stabilität ohne starre Kopie, Varianz ohne Topologiebruch`. Siehe [1738_PAXG_2024_2025_DIREKTVERGLEICH.md](docs/befunde/1738_PAXG_2024_2025_DIREKTVERGLEICH.md) und [paxg_2024_2025_direct_compare.md](reports/paxg_2024_2025_direct_compare.md).
+
 ## Hypothese Feldbewusstsein
 
 Wenn hier von Bewusstsein gesprochen wird, ist kein menschliches Ich-Bewusstsein gemeint.
