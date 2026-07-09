@@ -154,6 +154,8 @@ Die Schnittmengen-Lesung [1865_LOKALE_REIFEGRUPPE_HARTER_KERN.md](../befunde/186
 
 Die erste Weltlagenreaktion [1868_SOL_HARTKERN_WELTLAGENREAKTION.md](../befunde/1868_SOL_HARTKERN_WELTLAGENREAKTION.md) prüft nur den SOL-Anteil dieses harten Kerns. Von `27` SOL-Kernpaaren reproduzieren sich `18` unter ruhiger Weltlage, `20` unter Stresswelt und `18` unter Expansionswelt. Das spricht nicht für einen Kollaps des Kerns. Die Randantwort unterscheidet sich aber: Stress hält hier etwas mehr direkte lokale Reproduktion, Expansion erzeugt mehr Nachhall-/Offenverschiebung.
 
+Der assetübergreifende Vergleich [1873_HARTKERN_ASSET_WELTLAGEN_VERGLEICH.md](../befunde/1873_HARTKERN_ASSET_WELTLAGEN_VERGLEICH.md) erweitert diese Lesung. BTC und XRP halten ähnlich starke Kernanteile wie SOL. DOGE bleibt teilweise reproduzierbar, aber offener. PAXG ist der deutliche Gegenfall: Viele Kernpaare fehlen oder wechseln in offene/kernnahe Qualität. Damit wird die lokale Reifegruppe nicht als starres Archiv gelesen, sondern als Feldgruppe mit haltbarem Kern und assetabhängiger Peripherie.
+
 ## Wie es weitergeht
 
-Als nächstes sollte dieselbe Weltlagenreaktion für BTC, DOGE, PAXG und XRP geprüft werden. Erst danach ist klar, ob die beobachtete SOL-Antwort asset-spezifisch ist oder zur allgemeinen Hartkern-Peripherie gehört.
+Als nächstes sollte PAXG genauer untersucht werden. Entscheidend ist, ob PAXG eine andere Feldordnung trägt oder ob die geprüfte 2024-Realwelt nur ein ungünstiges Fenster für den bisherigen Hartkern ist.

@@ -116,16 +116,16 @@ def _write_csv(path: Path, rows: list[dict[str, str]]) -> None:
         writer.writerows(rows)
 
 
-def _write_md(path: Path, summary_rows: list[dict[str, str]], detail_rows: list[dict[str, str]]) -> None:
+def _write_md(path: Path, summary_rows: list[dict[str, str]], detail_rows: list[dict[str, str]], asset: str) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     by_condition: defaultdict[str, list[dict[str, str]]] = defaultdict(list)
     for row in detail_rows:
         by_condition[row["condition"]].append(row)
     lines = [
-        "# 1868 - SOL-Hartkern: Weltlagenreaktion",
+        f"# {asset}-Hartkern: Weltlagenreaktion",
         "",
-        "Diese Prüfung liest nur die SOL-Paare aus dem harten Kern der lokalen Reifegruppe.",
-        "Damit wird nicht mehr die ganze Baseline verglichen, sondern die Frage: Wie reagiert der harte SOL-Kern unter ruhiger Welt, Stresswelt und Expansionswelt?",
+        f"Diese Prüfung liest nur die {asset}-Paare aus dem harten Kern der lokalen Reifegruppe.",
+        f"Damit wird nicht mehr die ganze Baseline verglichen, sondern die Frage: Wie reagiert der harte {asset}-Kern unter den geprüften Weltlagen?",
         "",
         "## Ergebnis",
         "",
@@ -149,7 +149,7 @@ def _write_md(path: Path, summary_rows: list[dict[str, str]], detail_rows: list[
             "",
             "## Wie es weitergeht",
             "",
-            "Als nächstes sollte dieselbe Weltlagenreaktion für BTC, DOGE, PAXG und XRP geprüft werden. Erst dann ist klar, ob die beobachtete Stress-/Expansionsantwort SOL-spezifisch ist oder zur allgemeinen Hartkern-Peripherie gehört.",
+            "Als nächstes sollten die Einzelberichte assetübergreifend zusammengeführt werden. Erst dann ist klar, welche Hartkernantwort allgemein ist und welche asset-spezifisch bleibt.",
             "",
         ]
     )
@@ -167,7 +167,7 @@ def main() -> int:
 
     summary_rows, detail_rows = build_rows(_resolve(args.core), args.followup, args.asset.upper())
     _write_csv(_resolve(args.out_csv), summary_rows + detail_rows)
-    _write_md(_resolve(args.out_md), summary_rows, detail_rows)
+    _write_md(_resolve(args.out_md), summary_rows, detail_rows, args.asset.upper())
     print({"summaries": summary_rows, "details": len(detail_rows)})
     return 0
 

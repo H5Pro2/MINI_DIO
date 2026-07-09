@@ -1,7 +1,7 @@
-# 1868 - SOL-Hartkern: Weltlagenreaktion
+# SOL-Hartkern: Weltlagenreaktion
 
 Diese Prüfung liest nur die SOL-Paare aus dem harten Kern der lokalen Reifegruppe.
-Damit wird nicht mehr die ganze Baseline verglichen, sondern die Frage: Wie reagiert der harte SOL-Kern unter ruhiger Welt, Stresswelt und Expansionswelt?
+Damit wird nicht mehr die ganze Baseline verglichen, sondern die Frage: Wie reagiert der harte SOL-Kern unter den geprüften Weltlagen?
 
 ## Ergebnis
 
@@ -21,4 +21,4 @@ Wichtig: Das ist weiterhin eine passive Feldlesung. Es wird keine Handlung, kein
 
 ## Wie es weitergeht
 
-Als nächstes sollte dieselbe Weltlagenreaktion für BTC, DOGE, PAXG und XRP geprüft werden. Erst dann ist klar, ob die beobachtete Stress-/Expansionsantwort SOL-spezifisch ist oder zur allgemeinen Hartkern-Peripherie gehört.
+Als nächstes sollten die Einzelberichte assetübergreifend zusammengeführt werden. Erst dann ist klar, welche Hartkernantwort allgemein ist und welche asset-spezifisch bleibt.
