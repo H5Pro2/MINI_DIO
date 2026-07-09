@@ -123,6 +123,100 @@ def _field_function_reading(
     }
 
 
+def _world_kind(world: str) -> str:
+    name = str(world or "").upper()
+    if not name or name == "-":
+        return "unknown"
+    if "NULL" in name or "SHUFFLE" in name or "RANDOM_SIGN" in name:
+        return "null_control"
+    if "SYNTHETIC" in name:
+        return "synthetic"
+    return "real_world"
+
+
+def _world_binding_reading(
+    *,
+    worlds: dict,
+    depth_score: float,
+    field_function_confidence: float,
+) -> dict:
+    """Read whether an anchor is real-world bound, null-bound or mixed.
+
+    This is a passive provenance signal. It does not validate truth and does
+    not influence action. It only prevents field-internal order from being read
+    too quickly as real-world carried meaning.
+    """
+
+    real_observations = 0
+    null_observations = 0
+    synthetic_observations = 0
+    unknown_observations = 0
+    real_worlds: set[str] = set()
+    null_worlds: set[str] = set()
+    synthetic_worlds: set[str] = set()
+    for world, raw_count in dict(worlds or {}).items():
+        try:
+            observations = int(raw_count or 0)
+        except Exception:
+            observations = 0
+        kind = _world_kind(str(world))
+        if kind == "real_world":
+            real_observations += observations
+            real_worlds.add(str(world))
+        elif kind == "null_control":
+            null_observations += observations
+            null_worlds.add(str(world))
+        elif kind == "synthetic":
+            synthetic_observations += observations
+            synthetic_worlds.add(str(world))
+        else:
+            unknown_observations += observations
+
+    total = max(1, real_observations + null_observations + synthetic_observations + unknown_observations)
+    real_share = _clip(real_observations / total)
+    null_share = _clip(null_observations / total)
+    synthetic_share = _clip(synthetic_observations / total)
+    unknown_share = _clip(unknown_observations / total)
+    real_breadth = _clip(len(real_worlds) / 6.0)
+    null_breadth = _clip(len(null_worlds) / 6.0)
+    synthetic_breadth = _clip(len(synthetic_worlds) / 6.0)
+    confidence = _clip(field_function_confidence)
+
+    real_score = _clip((real_share * 0.44) + (real_breadth * 0.24) + (depth_score * 0.18) + (confidence * 0.14))
+    null_score = _clip((null_share * 0.50) + (null_breadth * 0.24) + (depth_score * 0.14) + (confidence * 0.12))
+    synthetic_score = _clip((synthetic_share * 0.46) + (synthetic_breadth * 0.24) + (depth_score * 0.16) + (confidence * 0.14))
+    mixed_score = _clip(
+        ((1.0 - abs(real_share - null_share)) * 0.32)
+        + (min(real_breadth, null_breadth) * 0.24)
+        + (depth_score * 0.20)
+        + (confidence * 0.16)
+        + (synthetic_share * 0.08)
+    )
+    scores = {
+        "realworld_bound": real_score,
+        "field_internal_null_order": null_score,
+        "synthetic_bound": synthetic_score,
+        "mixed_binding": mixed_score,
+    }
+    quality = max(scores, key=scores.get)
+    quality_confidence = scores[quality]
+    if quality_confidence < 0.34:
+        quality = "unclear_binding"
+
+    return {
+        "world_binding_quality": quality,
+        "world_binding_confidence": round(quality_confidence, 6),
+        "world_binding_scores": {key: round(value, 6) for key, value in scores.items()},
+        "real_world_count": len(real_worlds),
+        "null_world_count": len(null_worlds),
+        "synthetic_world_count": len(synthetic_worlds),
+        "real_observation_share": round(real_share, 6),
+        "null_observation_share": round(null_share, 6),
+        "synthetic_observation_share": round(synthetic_share, 6),
+        "unknown_observation_share": round(unknown_share, 6),
+    }
+
+
 def store_passive_mcm_preview_anchor_depth(
     data: dict,
     payload: dict,
@@ -185,6 +279,11 @@ def store_passive_mcm_preview_anchor_depth(
         avg_strain=avg_strain,
         avg_sensory=avg_sensory,
     )
+    world_binding = _world_binding_reading(
+        worlds=worlds,
+        depth_score=depth_score,
+        field_function_confidence=float(field_function.get("field_function_confidence", 0.0) or 0.0),
+    )
 
     item = {
         **PASSIVE_FLAGS,
@@ -207,6 +306,7 @@ def store_passive_mcm_preview_anchor_depth(
         "depth_score": round(depth_score, 6),
         "depth_state": state,
         **field_function,
+        **world_binding,
     }
     memory[symbol] = item
     data["passive_mcm_preview_anchor_depth_memory"] = _trim_mapping(memory, max_items)

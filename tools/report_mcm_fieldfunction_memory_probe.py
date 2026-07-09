@@ -81,6 +81,14 @@ def build_report(memory_path: Path, out_prefix: str, known_symbols: list[str]) -
                 "avg_strain": item.get("avg_strain", 0.0),
                 "avg_sensory_coupling": item.get("avg_sensory_coupling", 0.0),
                 "last_world": item.get("last_world", "-"),
+                "world_binding_quality": item.get("world_binding_quality", "-"),
+                "world_binding_confidence": item.get("world_binding_confidence", 0.0),
+                "real_world_count": item.get("real_world_count", 0),
+                "null_world_count": item.get("null_world_count", 0),
+                "synthetic_world_count": item.get("synthetic_world_count", 0),
+                "real_observation_share": item.get("real_observation_share", 0.0),
+                "null_observation_share": item.get("null_observation_share", 0.0),
+                "synthetic_observation_share": item.get("synthetic_observation_share", 0.0),
                 "worlds": _top_counts(Counter(dict(item.get("worlds", {}) or {}))),
                 "effects": _top_counts(Counter(dict(item.get("effects", {}) or {}))),
                 "passive_only": item.get("passive_only", 1),
@@ -96,6 +104,7 @@ def build_report(memory_path: Path, out_prefix: str, known_symbols: list[str]) -
 
     class_counts = Counter(str(item.get("field_function_class", "-")) for item in with_function)
     variant_counts = Counter(str(item.get("field_function_variant", "-")) for item in with_function)
+    binding_counts = Counter(str(item.get("world_binding_quality", "-")) for item in with_function)
     known_lines = []
     by_symbol = {str(item.get("preview_symbol", "")): item for item in with_function}
     for symbol in known_symbols:
@@ -109,6 +118,8 @@ def build_report(memory_path: Path, out_prefix: str, known_symbols: list[str]) -
                 "depth": item.get("depth_score", "-"),
                 "world_count": item.get("world_count", "-"),
                 "count": item.get("count", "-"),
+                "binding": item.get("world_binding_quality", "-"),
+                "binding_confidence": item.get("world_binding_confidence", "-"),
                 "last_world": item.get("last_world", "-"),
             }
         )
@@ -143,12 +154,16 @@ def build_report(memory_path: Path, out_prefix: str, known_symbols: list[str]) -
     lines.extend(["", "## Varianten", ""])
     for key, value in variant_counts.most_common():
         lines.append(f"- `{key}`: `{value}`")
+    lines.extend(["", "## Weltbindung", ""])
+    for key, value in binding_counts.most_common():
+        lines.append(f"- `{key}`: `{value}`")
 
     lines.extend(["", "## Bekannte Referenzrollen", ""])
     for row in known_lines:
         lines.append(
             f"- `{row['symbol']}`: `{row['class']}` / `{row['variant']}`, "
             f"Konfidenz `{row['confidence']}`, Depth `{row['depth']}`, "
+            f"Bindung `{row['binding']}` (`{row['binding_confidence']}`), "
             f"Welten `{row['world_count']}`, Count `{row['count']}`, Last `{row['last_world']}`"
         )
 
@@ -157,6 +172,7 @@ def build_report(memory_path: Path, out_prefix: str, known_symbols: list[str]) -
         lines.append(
             f"- `{row['preview_symbol']}`: `{row['field_function_class']}` / "
             f"`{row['field_function_variant']}`, Depth `{row['depth_score']}`, "
+            f"Bindung `{row['world_binding_quality']}`, "
             f"Welten `{row['world_count']}`, Count `{row['count']}`"
         )
 
@@ -168,12 +184,12 @@ def build_report(memory_path: Path, out_prefix: str, known_symbols: list[str]) -
             "Die neue Memory-Lesung erzeugt keine reine Symboltabelle.",
             "Sie zeigt, ob ein Symbol im aktuellen Mehrwelt-Kontext eher als Milieuinsel, aktive Rekopplung oder offene Oberfläche getragen wird.",
             "",
-            "Wichtig ist die Kontextabhängigkeit: Eine Rolle kann in einer engen Weltprüfung wie Milieu wirken und in breiterer Mehrweltprüfung als aktive Rekopplung gelesen werden.",
-            "Damit bleibt die Qualität feldbezogen statt namensfixiert.",
+            "Die Weltbindungsqualität ergänzt diese Lesung um Herkunft: realweltlich gebunden, nullweltlich/feldintern, synthetisch oder gemischt.",
+            "Damit bleibt die Qualität feldbezogen statt namensfixiert und Feldordnung wird nicht automatisch als Realweltbindung gelesen.",
             "",
             "## Wie es weitergeht",
             "",
-            "Als nächstes sollte dieselbe Auswertung mit frischer Memory gegen kontrollierte Nullwelten laufen. Dann wird sichtbar, ob die Feldfunktionslesung reale Weltstruktur braucht oder auch in entkoppelten Kontrollwelten ähnlich stark entsteht.",
+            "Als nächstes sollten Realwelt- und Nullweltläufe mit frischer Memory getrennt geprüft werden. Entscheidend ist, ob die Feldfunktion ähnlich entstehen darf, die Weltbindungsqualität aber sauber unterscheidet.",
         ]
     )
     out_md.write_text("\n".join(lines) + "\n", encoding="utf-8")
