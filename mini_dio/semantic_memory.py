@@ -42,6 +42,10 @@ from mini_dio.mcm_preview_anchor_depth_memory import (
     store_passive_mcm_preview_anchor_depth as store_passive_mcm_preview_anchor_depth_trace,
     top_preview_anchor_depth as top_preview_anchor_depth_trace,
 )
+from mini_dio.mcm_field_phase_signature_memory import (
+    store_passive_mcm_field_phase_signature as store_passive_mcm_field_phase_signature_trace,
+    top_passive_mcm_field_phase_signatures as top_passive_mcm_field_phase_signatures_trace,
+)
 from mini_dio.perception_memory_store import (
     compact_temporal_families as compact_temporal_families_store,
     store_temporal_family as store_temporal_family_trace,
@@ -112,6 +116,7 @@ class SemanticMemory:
             "passive_mcm_role_network": {},
             "passive_mcm_role_shift_memory": {},
             "passive_mcm_preview_anchor_depth_memory": {},
+            "passive_mcm_field_phase_signature_memory": {},
             "passive_sleep_reorganization_memory": {},
             "passive_sleep_reorganization_history": [],
         }
@@ -161,6 +166,7 @@ class SemanticMemory:
             self.data.setdefault("passive_mcm_role_network", {})
             self.data.setdefault("passive_mcm_role_shift_memory", {})
             self.data.setdefault("passive_mcm_preview_anchor_depth_memory", {})
+            self.data.setdefault("passive_mcm_field_phase_signature_memory", {})
             self.data.setdefault("passive_sleep_reorganization_memory", {})
             self.data.setdefault("passive_sleep_reorganization_history", [])
             self.compact_symbols()
@@ -549,3 +555,16 @@ class SemanticMemory:
 
     def compact_top_preview_anchor_depth(self, limit: int = 12) -> list[dict]:
         return top_preview_anchor_depth_trace(self.data, limit=limit)
+
+    def store_passive_mcm_field_phase_signature(self, payload: dict) -> dict:
+        """Store passive MCM field-phase signature quality.
+
+        This stores recurring field-quality vectors, carrier roles, drift and
+        world binding. It is not consumed by action, entries, gates, direction,
+        or motoric behavior.
+        """
+
+        return store_passive_mcm_field_phase_signature_trace(self.data, payload)
+
+    def compact_top_field_phase_signatures(self, limit: int = 12) -> list[dict]:
+        return top_passive_mcm_field_phase_signatures_trace(self.data, limit=limit)

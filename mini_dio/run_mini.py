@@ -412,6 +412,9 @@ def run_once(
     preview_anchor_depth_counter = {}
     preview_anchor_depth_values = []
     preview_anchor_profile_values = []
+    field_phase_signature_counter = {}
+    field_phase_signature_depth_values = []
+    field_phase_signature_drift_values = []
     symbol_counter = {}
     active_phase = {
         "action": "WAIT",
@@ -636,6 +639,9 @@ def run_once(
         preview_anchor_depth_state = "-"
         preview_anchor_depth_score = 0.0
         preview_anchor_world_count = 0
+        field_phase_signature_state = "-"
+        field_phase_signature_depth = 0.0
+        field_phase_signature_drift = 0.0
         if mcm_field_episode_preview_symbol != "-":
             preview_anchor_profile_proximity = _clip(
                 (float(mcm_field_effect["sensory_coupling"]) * 0.20)
@@ -670,6 +676,42 @@ def run_once(
             )
             preview_anchor_depth_values.append(preview_anchor_depth_score)
             preview_anchor_profile_values.append(preview_anchor_profile_proximity)
+            field_phase_signature = memory.store_passive_mcm_field_phase_signature(
+                {
+                    "preview_symbol": mcm_field_episode_preview_symbol,
+                    "world": passive_world_label or "-",
+                    "tick": index,
+                    "effect": passive_mcm_effect_class,
+                    "symbol_family": symbol_family,
+                    "field_function_class": preview_anchor_depth.get("field_function_class", "-"),
+                    "field_function_variant": preview_anchor_depth.get("field_function_variant", "-"),
+                    "world_binding_quality": preview_anchor_depth.get("world_binding_quality", "-"),
+                    "depth_score": preview_anchor_depth_score,
+                    "carry": mcm_field_effect["mcm_carry_quality"],
+                    "strain": mcm_field_effect["mcm_strain_quality"],
+                    "rekopplung": mcm_field_effect["mcm_rekopplung_quality"],
+                    "sensory_coupling": mcm_field_effect["sensory_coupling"],
+                    "visual_gap": mcm_field_effect["visual_field_gap"],
+                    "hearing_gap": mcm_field_effect["hearing_field_gap"],
+                    "coherence": senses["mcm_feldwirkung"]["mcm_coherence"],
+                    "tension": senses["mcm_feldwirkung"]["mcm_tension"],
+                    "asymmetry": senses["mcm_feldwirkung"]["mcm_asymmetry"],
+                }
+            )
+            field_phase_signature_state = str(
+                field_phase_signature.get("phase_quality_state", "-") or "-"
+            )
+            field_phase_signature_depth = float(
+                field_phase_signature.get("phase_quality_depth", 0.0) or 0.0
+            )
+            field_phase_signature_drift = float(
+                field_phase_signature.get("last_phase_drift", 0.0) or 0.0
+            )
+            field_phase_signature_counter[field_phase_signature_state] = (
+                int(field_phase_signature_counter.get(field_phase_signature_state, 0) or 0) + 1
+            )
+            field_phase_signature_depth_values.append(field_phase_signature_depth)
+            field_phase_signature_drift_values.append(field_phase_signature_drift)
         if episode_payload:
             episode_memory_symbol = memory.store_episode_memory(episode_payload)
             mcm_field_episode_symbol = memory.store_mcm_field_episode_memory(episode_payload)
@@ -732,6 +774,9 @@ def run_once(
                 "mcm_preview_anchor_depth_score": f"{preview_anchor_depth_score:.6f}",
                 "mcm_preview_anchor_world_count": int(preview_anchor_world_count),
                 "mcm_preview_anchor_profile_proximity": f"{preview_anchor_profile_proximity:.6f}",
+                "mcm_field_phase_signature_state": field_phase_signature_state,
+                "mcm_field_phase_signature_depth": f"{field_phase_signature_depth:.6f}",
+                "mcm_field_phase_signature_drift": f"{field_phase_signature_drift:.6f}",
                 "action": action,
                 "raw_action": raw_action,
                 "phase_active": int(phase_active),
@@ -906,6 +951,18 @@ def run_once(
         "max_preview_anchor_depth_score": max(preview_anchor_depth_values) if preview_anchor_depth_values else 0.0,
         "avg_preview_anchor_profile_proximity": sum(preview_anchor_profile_values) / max(1, len(preview_anchor_profile_values)),
         "top_preview_anchor_depth": memory.compact_top_preview_anchor_depth(12),
+        "field_phase_signature_states": dict(sorted(field_phase_signature_counter.items())),
+        "avg_field_phase_signature_depth": sum(field_phase_signature_depth_values)
+        / max(1, len(field_phase_signature_depth_values)),
+        "max_field_phase_signature_depth": max(field_phase_signature_depth_values)
+        if field_phase_signature_depth_values
+        else 0.0,
+        "avg_field_phase_signature_drift": sum(field_phase_signature_drift_values)
+        / max(1, len(field_phase_signature_drift_values)),
+        "max_field_phase_signature_drift": max(field_phase_signature_drift_values)
+        if field_phase_signature_drift_values
+        else 0.0,
+        "top_field_phase_signatures": memory.compact_top_field_phase_signatures(12),
         "avg_reflection_context_carry": sum(reflection_carry_values) / max(1, len(reflection_carry_values)),
         "max_reflection_context_carry": max(reflection_carry_values) if reflection_carry_values else 0.0,
         "avg_reflection_context_strain": sum(reflection_strain_values) / max(1, len(reflection_strain_values)),
