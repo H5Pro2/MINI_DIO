@@ -1,0 +1,6 @@
+world,episode_path,rows,target_profile_hits,target_profile_share,unique_profile_count,top_profile,top_profile_count,top_profile_share,status
+SIDEWAYS,debug\world_relative_topology_sideways\dio_mini_lauf_1\episodes.csv,1994,316,0.158475,56,offene_formaufnahme / gedaempfte_energie / rekoppelnd_entlastet,511,0.256269,gescannt
+EXPANSION10K_AFTER,debug\world_relative_topology_expansion_10k_after\dio_mini_lauf_1\episodes.csv,9994,1366,0.136682,70,offene_formaufnahme / gedaempfte_energie / rekoppelnd_entlastet,2741,0.274265,gescannt
+STABLE10K_AFTER,debug\world_relative_topology_stable_10k_after\dio_mini_lauf_1\episodes.csv,9994,1330,0.133080,70,offene_formaufnahme / gedaempfte_energie / rekoppelnd_entlastet,3096,0.309786,gescannt
+STRESS10K_AFTER,debug\world_relative_topology_stress_10k_after\dio_mini_lauf_1\episodes.csv,9994,1341,0.134181,70,offene_formaufnahme / gedaempfte_energie / rekoppelnd_entlastet,2743,0.274465,gescannt
+EXPANSION10K_REPRO,debug\world_relative_topology_expansion_10k_repro\dio_mini_lauf_1\episodes.csv,9994,1366,0.136682,70,offene_formaufnahme / gedaempfte_energie / rekoppelnd_entlastet,2741,0.274265,gescannt
