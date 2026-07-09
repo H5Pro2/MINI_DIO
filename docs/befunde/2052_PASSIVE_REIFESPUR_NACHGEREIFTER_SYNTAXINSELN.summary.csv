@@ -1,0 +1,6 @@
+matured_trace_class,families,origin_present_in,follow_fields,max_follow_events
+nachgereift_multi_zu_folgewelt,6,multi_only:6,tragende_rekopplung:4;offene_rekopplung:2,6
+nachgereift_offen,5,xrp_only:5,offene_rekopplung:5,34
+nachgereift_schwach,44,xrp_only:44,tragende_rekopplung:33;offene_rekopplung:11,18
+nachgereift_spannungsnah,13,xrp_only:13,spannungsnahe_oeffnung:13,18
+nachgereift_tragend,4,xrp_only:4,tragende_rekopplung:4,32
