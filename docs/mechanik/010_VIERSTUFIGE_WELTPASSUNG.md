@@ -180,8 +180,10 @@ Das verhindert eine wichtige Fehlinterpretation:
 Nicht jede Aktivität im Feld ist Reife.
 Reife muss sich an der Beziehung zwischen Weltform und gereiftem Innenkern zeigen.
 
-Der Hartkern-Brillen-Vergleich [1922_SYN_B_FOCUS_HARTKERNBRILLEN_VERGLEICH.md](../befunde/1922_SYN_B_FOCUS_HARTKERNBRILLEN_VERGLEICH.md) präzisiert diese Beziehung:
-Dieselbe synthetische B-Fokuswelt erzeugt bei DOGE kleine Restkopplung, bei SOL und BTC aber vollständige Ausblendung.
+Der korrigierte Hartkern-Brillen-Vergleich [1929_B_FOCUS_HARTKERNBRILLEN_KORRIGIERTE_EINORDNUNG.md](../befunde/1929_B_FOCUS_HARTKERNBRILLEN_KORRIGIERTE_EINORDNUNG.md) präzisiert diese Beziehung:
+Dieselbe synthetische B-Fokuswelt erzeugt bei DOGE, SOL und BTC Restkopplung, wenn sie mit passendem Weltlabel neu durch MINI_DIO läuft.
+Die Restkopplung ist aber je Hartkern unterschiedlich verteilt.
+Besonders `3000_4500` trägt SOL und BTC stärker als DOGE.
 
 ```text
 Weltform + Hartkern-Brille -> Passungsprofil
@@ -189,7 +191,7 @@ Weltform + Hartkern-Brille -> Passungsprofil
 
 Damit ist Weltpassung relational:
 Sie liegt nicht nur in der Welt und nicht nur im Speicher.
-Sie entsteht aus der Passung zwischen Innenkern und Außenform.
+Sie entsteht aus der Passung zwischen Innenkern, Außenform und korrekt erzeugter Wahrnehmungskette.
 
 ## Forschungsnutzen
 

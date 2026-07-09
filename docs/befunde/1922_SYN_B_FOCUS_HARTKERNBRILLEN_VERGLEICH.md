@@ -1,5 +1,14 @@
 # 1922 - B-Fokusfenster: Hartkern-Brillen-Vergleich
 
+## Methodischer Hinweis
+
+Dieser Bericht ist durch die korrigierte Nachprüfung [1929_B_FOCUS_HARTKERNBRILLEN_KORRIGIERTE_EINORDNUNG.md](1929_B_FOCUS_HARTKERNBRILLEN_KORRIGIERTE_EINORDNUNG.md) überholt.
+
+Grund:
+Die erste SOL/BTC-Gegenlesung verwendete DOGE-gelabelte Folgefenster.
+Dadurch fehlten SOL- und BTC-Kernpaare konstruktionsbedingt.
+Die korrigierte Prüfung lässt dieselben B-Fokuswelten separat mit SOL- und BTC-Weltlabel durch MINI_DIO laufen.
+
 ## Grundfrage
 
 Ist die Restkopplung der B-Fokusfenster eine Eigenschaft der synthetischen Weltform selbst, oder hängt sie von der gewählten Hartkern-Brille ab?
