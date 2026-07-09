@@ -160,6 +160,8 @@ Die PAXG-Nachprüfung [1877_PAXG_HARTKERN_EINORDNUNG.md](../befunde/1877_PAXG_HA
 
 Die Weltpassungs-Metrik [1878_WELTPASSUNG_METRIK.md](../befunde/1878_WELTPASSUNG_METRIK.md) macht diese Beziehung explizit. Sie liest pro Weltlage, ob der harte Kern getragen, geöffnet, verschoben oder ausgeblendet wird. BTC-Stress, SOL-Stress und XRP-2024 tragen den Kern am stärksten. PAXG-2024-5m ist der schwächste Fall und blendet den bisherigen Kern überwiegend aus. Damit wird Reife nicht als Eigenschaft einer Familie allein gelesen, sondern als Beziehung zwischen Hartkern und Weltlage.
 
+In [1879_PASSIVE_WELTPASSUNG_MEMORY.md](../befunde/1879_PASSIVE_WELTPASSUNG_MEMORY.md) wird diese Weltpassung in die passive Feldrollen-Memory übernommen. Sie speichert aktuell `kern_getragen: 9` und `kern_ausgeblendet: 3`. Diese Struktur bleibt vollständig passiv: keine Handlung, kein Gate, keine Richtung. Ihre Funktion ist Erfahrung darüber, welche Weltlagen den gereiften Innenkern tragen, öffnen, verschieben oder ausblenden.
+
 ## Wie es weitergeht
 
-Als nächstes sollte diese Weltpassung in die passive Feldrollen-Memory übernommen werden. Nicht als Steuerung, sondern als Erfahrungsqualität: welche Weltlagen tragen welchen Kern, und welche lösen Randdrift aus?
+Als nächstes sollte geprüft werden, ob diese Weltpassungs-Memory über neue Weltfenster stabil mitwächst oder ob sie neue Weltlagen als eigene Passungsgruppen bildet.

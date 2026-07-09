@@ -20,6 +20,7 @@ ATTACHMENT_SOURCES = [
 ]
 FAMILY_ATTACHMENT_SOURCE = ROOT / "docs/befunde/1851_FAMILIEN_ANSCHLUSSQUALITAET.csv"
 LOCAL_PHASE_REPRO_SOURCE = ROOT / "docs/befunde/1861_PHASENLOKALE_FAMILIEN_REPRO_FOLGEFENSTER.csv"
+WORLD_FIT_SOURCE = ROOT / "docs/befunde/1878_WELTPASSUNG_METRIK.csv"
 MEMORY_PATH = ROOT / Config.DIO_MINI_EPISODIC_MEMORY_PATH
 
 PASSIVE_FLAGS = {
@@ -276,6 +277,61 @@ def build_local_phase_maturity_group_memory(rows: list[dict[str, str]]) -> dict:
     }
 
 
+def build_world_fit_quality_memory(rows: list[dict[str, str]]) -> dict:
+    if not rows:
+        return {
+            **PASSIVE_FLAGS,
+            "kind": "passive_mcm_world_fit_quality",
+            "source": str(WORLD_FIT_SOURCE.relative_to(ROOT)),
+            "memory_state": "world_fit_quality_not_available",
+            "description": "Passive Weltpassung ist noch nicht erzeugt.",
+            "reading_counts": {},
+            "asset_counts": {},
+            "world_fit_profiles": [],
+        }
+
+    metric_rows = [row for row in rows if row.get("row_type") == "world_fit_metric"]
+    reading_counts = Counter(str(row.get("world_fit_reading") or "-") for row in metric_rows)
+    asset_counts = Counter(str(row.get("asset") or "-") for row in metric_rows)
+    condition_counts = Counter(str(row.get("condition") or "-") for row in metric_rows)
+
+    def profile(row: dict[str, str]) -> dict:
+        return {
+            **PASSIVE_FLAGS,
+            "asset": str(row.get("asset") or ""),
+            "condition": str(row.get("condition") or ""),
+            "core_pairs": int(_float(row.get("core_pairs"))),
+            "carried_count": int(_float(row.get("carried_count"))),
+            "opened_count": int(_float(row.get("opened_count"))),
+            "shifted_count": int(_float(row.get("shifted_count"))),
+            "hidden_count": int(_float(row.get("hidden_count"))),
+            "carried_share": round(_float(row.get("carried_share")), 6),
+            "opened_share": round(_float(row.get("opened_share")), 6),
+            "shifted_share": round(_float(row.get("shifted_share")), 6),
+            "hidden_share": round(_float(row.get("hidden_share")), 6),
+            "world_fit_score": round(_float(row.get("world_fit_score")), 6),
+            "world_fit_reading": str(row.get("world_fit_reading") or ""),
+        }
+
+    profiles = [profile(row) for row in metric_rows]
+    profiles.sort(key=lambda row: float(row["world_fit_score"]), reverse=True)
+    return {
+        **PASSIVE_FLAGS,
+        "kind": "passive_mcm_world_fit_quality",
+        "source": str(WORLD_FIT_SOURCE.relative_to(ROOT)),
+        "memory_state": "world_fit_quality_from_hard_core_response",
+        "description": (
+            "Passive Weltpassung des harten lokalen Reifekerns. Speichert, "
+            "ob eine Weltlage den Kern traegt, oeffnet, verschiebt oder ausblendet. "
+            "Keine Handlung, kein Gate, keine Richtung."
+        ),
+        "reading_counts": dict(reading_counts.most_common()),
+        "asset_counts": dict(asset_counts.most_common()),
+        "condition_counts": dict(condition_counts.most_common()),
+        "world_fit_profiles": profiles,
+    }
+
+
 def build_field_role_memory(rows: list[dict[str, str]]) -> dict:
     items = []
     for row in rows:
@@ -312,6 +368,7 @@ def build_field_role_memory(rows: list[dict[str, str]]) -> dict:
     attachment_memory = build_attachment_quality_memory(_read_attachment_rows())
     family_attachment_memory = build_family_attachment_quality_memory(_read_optional_rows(FAMILY_ATTACHMENT_SOURCE))
     local_phase_maturity_group = build_local_phase_maturity_group_memory(_read_optional_rows(LOCAL_PHASE_REPRO_SOURCE))
+    world_fit_quality = build_world_fit_quality_memory(_read_optional_rows(WORLD_FIT_SOURCE))
     return {
         **PASSIVE_FLAGS,
         "kind": "passive_mcm_field_role_memory",
@@ -326,6 +383,7 @@ def build_field_role_memory(rows: list[dict[str, str]]) -> dict:
         "attachment_quality": attachment_memory,
         "family_attachment_quality": family_attachment_memory,
         "local_phase_maturity_group": local_phase_maturity_group,
+        "world_fit_quality": world_fit_quality,
         "top_roles": items[:48],
     }
 
@@ -343,6 +401,7 @@ def main() -> int:
     print(f"attachment_quality={role_memory['attachment_quality']['quality_counts']}")
     print(f"family_attachment_quality={role_memory['family_attachment_quality']['state_counts']}")
     print(f"local_phase_maturity_group={role_memory['local_phase_maturity_group']['repro_counts']}")
+    print(f"world_fit_quality={role_memory['world_fit_quality']['reading_counts']}")
     return 0
 
 
