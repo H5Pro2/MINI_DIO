@@ -550,6 +550,8 @@ def _write_markdown(
         f"- Assets: `{';'.join(sorted({asset for asset, _, _ in worlds}))}`",
         f"- Startpunkte pro Asset: `{starts}`",
         f"- Beobachtungen pro Welt: `{rows_per_world}` Rohzeilen",
+        "- veroeffentlichtes Weltarchiv: `data/2070_role_family_followworlds.zip`",
+        "- entpackte Weltdateien und Debug-Ausgaben bleiben lokal und werden nicht gepusht",
         "- pro Welt ein Lauf mit frischer episodischer Memory",
         "- Wahrnehmungsmodus: `world_relative`",
         "- keine Nullwelt in diesem Durchlauf; geprueft wird die reale spaete Anschlussfaehigkeit",
@@ -654,7 +656,7 @@ def main() -> int:
     parser.add_argument("--world", action="append", type=_parse_world, default=None, help="ASSET=CSV")
     parser.add_argument("--start", action="append", type=int, default=None)
     parser.add_argument("--rows", type=int, default=1000)
-    parser.add_argument("--data-dir", default="data/2070_role_family_followworlds")
+    parser.add_argument("--data-dir", default="data/generated/2070_role_family_followworlds")
     parser.add_argument("--debug-root", default="debug/2070_role_family_followworlds")
     parser.add_argument("--out-prefix", default="2070_ROLLENFAMILIEN_GLEICHE_SYMBOLBASIS_FOLGEWELTEN")
     args = parser.parse_args()

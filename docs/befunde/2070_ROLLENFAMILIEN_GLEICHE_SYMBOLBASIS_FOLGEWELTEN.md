@@ -12,6 +12,8 @@ Die Symbolbasis wird nicht neu gruppiert. Geprueft werden exakt die in 2066 gebi
 - Assets: `BTC;DOGE;PAXG;SOL;XRP`
 - Startpunkte pro Asset: `[5000, 6000, 7000]`
 - Beobachtungen pro Welt: `1000` Rohzeilen
+- veroeffentlichtes Weltarchiv: `data/2070_role_family_followworlds.zip`
+- entpackte Weltdateien und Debug-Ausgaben bleiben lokal und werden nicht gepusht
 - pro Welt ein Lauf mit frischer episodischer Memory
 - Wahrnehmungsmodus: `world_relative`
 - keine Nullwelt in diesem Durchlauf; geprueft wird die reale spaete Anschlussfaehigkeit

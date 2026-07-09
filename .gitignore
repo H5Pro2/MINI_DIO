@@ -12,3 +12,6 @@ bot_memory/*
 
 memory/*
 !memory/README.md
+
+# Generated research worlds stay local; publish explicit archives instead.
+data/generated/
