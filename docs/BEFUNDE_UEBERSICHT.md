@@ -96,8 +96,9 @@ Die aktuelle Kette untersucht, ob einzelne Rollen als Familienräume weiterleben
 - [2070: Erste drei Familien auf gleicher Symbolbasis](befunde/2001-3000/2070_ROLLENFAMILIEN_GLEICHE_SYMBOLBASIS_FOLGEWELTEN.md)
 - [2071: Numerische Folgeweltkontinuität und Rollendrift](befunde/2001-3000/2071_PASSIVE_ROLLENFAMILIEN_MEMORY_FOLGEWELTDRIFT.md)
 - [2072: Fünf bisher ungelesene Familien in denselben Folgewelten](befunde/2001-3000/2072_OFFENE_ROLLENFAMILIEN_GLEICHE_SYMBOLBASIS_FOLGEWELTEN.md)
+- [2073: Rollenfamilien im Real-/Nullwelt-Kontrast](befunde/2001-3000/2073_ROLLENFAMILIEN_REAL_NULL_KONTRAST.md)
 
-Kurzbefund: Alle acht Familien besitzen nun reale Folgeweltevidenz. `rf_07` und `rf_08` tragen besonders dichte Kontinuität. Andere Familien bleiben verteilt, reorganisieren ihre Dominanz oder sind noch zu ereignisarm für eine belastbare Stabilitätsaussage.
+Kurzbefund: Alle acht Familien besitzen reale Folgeweltevidenz, aber der Kontrollvergleich begrenzt deren Bedeutung deutlich. Shuffle erreicht im Mittel höhere Kontinuität als Realwelt, Random Sign liegt etwa auf Realniveau. Nur `rf_05` liegt im Gruppenprofil gleichzeitig bei Kontinuität, Ereignisanteil und Mitgliederabdeckung über beiden Kontrollen. Die Familien belegen damit feldinterne relationale Wiederkehr, aber noch keine breit nachgewiesene realweltspezifische Bedeutung.
 
 ## 8. Methodische Grenzen Und Gegenproben
 

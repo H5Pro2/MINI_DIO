@@ -323,16 +323,15 @@ Das ist kein Nachweis allgemeiner Intelligenz und kein Bewusstseinsbeweis. Es is
 
 ## Aktueller Forschungsstand In Kurzform
 
-Die jüngste Forschung verdichtet einzelne `dio_*`-Rollen zu passiven Rollenfamilien. Acht Familien mit 29 Mitgliedern werden inzwischen als kontinuierliche Erfahrungsräume getragen. In Folgewelten zeigt sich kein einheitlicher Familientyp:
+Die jüngste Forschung verdichtet einzelne `dio_*`-Rollen zu passiven Rollenfamilien. Acht Familien mit 29 Mitgliedern wurden in realen Folgewelten und anschließend gegen zeitstrukturzerstörte Kontrollwelten gelesen. Dabei zeigt sich kein einheitlich realweltgebundener Familientyp:
 
-- `rf_07` bleibt dicht und nahezu verteilungsstabil.
-- `rf_21` bleibt als Familie erhalten, reorganisiert aber seine innere Dominanz.
-- `rf_05` bleibt breit anschlussfähig und lokal verteilt.
-- `rf_08` zeigt bei den zuvor ungelesenen Familien die stärkste Folgeweltkontinuität.
-- `rf_06`, `rf_13` und `rf_10` sind anschlussfähig, aber deutlich fragmentierter.
-- `rf_17` ist noch zu ereignisarm für eine belastbare Stabilitätslesung.
+- `rf_05` liegt als einzige Familie zugleich bei Kontinuität, Ereignisanteil und Mitgliederabdeckung über beiden Kontrollgruppen.
+- `rf_07` trägt einen höheren realen Ereignisanteil, ist aber auch in beiden Kontrollformen vollständig abgedeckt und dort leicht kontinuierlicher.
+- `rf_08` liegt bei Kontinuität und Abdeckung über beiden Kontrollen, nicht jedoch beim Ereignisanteil.
+- `rf_17` wird durch Shuffle deutlich stärker gelesen als durch die reale Zeitfolge.
+- Über alle acht Familien liegt Shuffle bei mittlerer Kontinuität über Realwelt; Random Sign liegt etwa auf Realniveau.
 
-Die Memory speichert dafür nur Identität, Herkunft und numerische Evidenz. Begriffe wie stabil, reorganisierend oder fragmentiert bleiben nachgelagerte Forschungssprache und werden nicht als Regeln in den Organismus geschrieben.
+Die Memory speichert dafür nur Identität, Herkunft und numerische Evidenz. Begriffe wie stabil, reorganisierend oder fragmentiert bleiben nachgelagerte Forschungssprache und werden nicht als Regeln in den Organismus geschrieben. Die Anschlussfähigkeit aus realen Folgewelten ist damit zunächst ein Befund feldinterner Wiederkehr und noch kein allgemeiner Nachweis realweltspezifischer Bedeutung.
 
 Die thematisch geordnete Kurzfassung mit direkten Links liegt in der [Befundübersicht](docs/BEFUNDE_UEBERSICHT.md).
 
@@ -343,6 +342,7 @@ Aktuelle Befundkette:
 - [2070: Rollenfamilien in gleichen realen Folgewelten](docs/befunde/2001-3000/2070_ROLLENFAMILIEN_GLEICHE_SYMBOLBASIS_FOLGEWELTEN.md)
 - [2071: Folgeweltkontinuität und Rollendrift in der Memory](docs/befunde/2001-3000/2071_PASSIVE_ROLLENFAMILIEN_MEMORY_FOLGEWELTDRIFT.md)
 - [2072: Bisher ungelesene Rollenfamilien in Folgewelten](docs/befunde/2001-3000/2072_OFFENE_ROLLENFAMILIEN_GLEICHE_SYMBOLBASIS_FOLGEWELTEN.md)
+- [2073: Rollenfamilien im Real-/Nullwelt-Kontrast](docs/befunde/2001-3000/2073_ROLLENFAMILIEN_REAL_NULL_KONTRAST.md)
 
 ## Visueller Forschungsweg
 
@@ -404,7 +404,3 @@ Die Forschungsqualität hängt deshalb an Gegenproben, Nullwelten, unabhängigen
 - [Von Resonanz zu Sprache](https://github.com/H5Pro2/Mental-Core-Matrix-MCM/blob/main/Abhandlungen/MCM%20-%20Nebenabhandlung/Von%20Resonanz%20zu%20Sprache.pdf)
 - [Die energetische Natur der Zeit](https://github.com/H5Pro2/Mental-Core-Matrix-MCM/blob/main/Abhandlungen/MCM%20-%20Hauptabhandlungen/Teil%20I%20-%20Die%20Mental%20Core%20Matrix%20%E2%80%93%20Strukturmodell/Abhandlung%20Block%20D%20-%20Die%20energetische%20Natur%20der%20Zeit.pdf)
 - [Individuelle Selbstregulation im Modell der MCM](https://github.com/H5Pro2/Mental-Core-Matrix-MCM/blob/main/Abhandlungen/MCM%20-%20Hauptabhandlungen/Teil%20II%20-%20Psychologische%20Dynamik%20der%20Mental%20Core%20Matrix/Abhandlung%20Block%20K%20-%20Individuelle%20Selbstregulation%20im%20Modell%20der%20MCM.pdf)
-
-## Nächster Forschungsschritt
-
-Die vollständigen Folgeweltprofile der acht Rollenfamilien sollen als gemeinsame numerische Evidenz in die passive Rollenfamilien-Memory zurückgeführt werden. Dabei bleiben Rohprofil, Weltpräsenz, Abdeckung, Nachhall, Feldzeit und Drift erhalten, ohne daraus feste Familientypen oder Handlungsregeln zu machen.
