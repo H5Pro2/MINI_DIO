@@ -59,6 +59,70 @@ def _depth_state(depth_score: float, world_count: int, profile: float, afterimag
     return "surface_anchor"
 
 
+def _field_function_reading(
+    *,
+    count: int,
+    world_count: int,
+    avg_profile: float,
+    avg_afterimage: float,
+    avg_recurrence: float,
+    avg_rekopplung: float,
+    avg_strain: float,
+    avg_sensory: float,
+) -> dict:
+    """Read passive field-function quality from an anchor profile.
+
+    This is not a gate and not action logic. It only stores whether a recurring
+    anchor currently behaves more like a milieu island, active recoupling, or
+    an open surface trace.
+    """
+
+    count_scale = _clip(count / 256.0)
+    breadth = _clip(world_count / 6.0)
+    continuity = _clip((avg_afterimage * 0.50) + (avg_recurrence * 0.50))
+    carried = _clip((avg_profile * 0.34) + (avg_rekopplung * 0.34) + ((1.0 - avg_strain) * 0.16) + (avg_sensory * 0.16))
+    calm_depth = _clip((continuity * 0.42) + (carried * 0.34) + (count_scale * 0.16) + ((1.0 - breadth) * 0.08))
+    active_rekopplung = _clip((breadth * 0.30) + (carried * 0.28) + ((1.0 - continuity) * 0.18) + (avg_sensory * 0.14) + (count_scale * 0.10))
+    open_surface = _clip(((1.0 - carried) * 0.36) + ((1.0 - continuity) * 0.28) + (avg_strain * 0.24) + ((1.0 - count_scale) * 0.12))
+
+    scores = {
+        "milieu_island": calm_depth,
+        "active_recoupling": active_rekopplung,
+        "open_surface": open_surface,
+    }
+    function_class = max(scores, key=scores.get)
+    confidence = scores[function_class]
+    if confidence < 0.36:
+        function_class = "undetermined"
+
+    if function_class == "milieu_island":
+        if continuity >= 0.72 and carried >= 0.58:
+            variant = "quiet_deep_recoupling"
+        else:
+            variant = "local_milieu_seed"
+    elif function_class == "active_recoupling":
+        if breadth >= 0.50 and continuity < 0.62:
+            variant = "distributed_active_recoupling"
+        elif carried >= 0.62:
+            variant = "compact_carried_recoupling"
+        else:
+            variant = "active_recoupling_seed"
+    elif function_class == "open_surface":
+        if avg_strain >= 0.50:
+            variant = "strained_open_surface"
+        else:
+            variant = "unsettled_surface_trace"
+    else:
+        variant = "not_yet_readable"
+
+    return {
+        "field_function_class": function_class,
+        "field_function_variant": variant,
+        "field_function_confidence": round(confidence, 6),
+        "field_function_scores": {key: round(value, 6) for key, value in scores.items()},
+    }
+
+
 def store_passive_mcm_preview_anchor_depth(
     data: dict,
     payload: dict,
@@ -111,6 +175,16 @@ def store_passive_mcm_preview_anchor_depth(
         + (avg_sensory * 0.03)
     )
     state = _depth_state(depth_score, world_count, avg_profile, avg_afterimage, avg_recurrence)
+    field_function = _field_function_reading(
+        count=count + 1,
+        world_count=world_count,
+        avg_profile=avg_profile,
+        avg_afterimage=avg_afterimage,
+        avg_recurrence=avg_recurrence,
+        avg_rekopplung=avg_rekopplung,
+        avg_strain=avg_strain,
+        avg_sensory=avg_sensory,
+    )
 
     item = {
         **PASSIVE_FLAGS,
@@ -132,6 +206,7 @@ def store_passive_mcm_preview_anchor_depth(
         "avg_sensory_coupling": round(avg_sensory, 6),
         "depth_score": round(depth_score, 6),
         "depth_state": state,
+        **field_function,
     }
     memory[symbol] = item
     data["passive_mcm_preview_anchor_depth_memory"] = _trim_mapping(memory, max_items)
