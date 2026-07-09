@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import argparse
 import csv
 from collections import Counter, defaultdict
 from pathlib import Path
@@ -11,8 +12,16 @@ BASELINE_CSV = ROOT / "docs/befunde/1858_PHASENLOKALE_FAMILIENSTABILITAET.csv"
 FOLLOWUP_CSV = ROOT / "docs/befunde/1860_PHASENLOKALE_FAMILIEN_FOLGEFENSTER.csv"
 OUT_CSV = ROOT / "docs/befunde/1861_PHASENLOKALE_FAMILIEN_REPRO_FOLGEFENSTER.csv"
 OUT_MD = ROOT / "docs/befunde/1861_PHASENLOKALE_FAMILIEN_REPRO_FOLGEFENSTER.md"
+TITLE = "1861 - Phasenlokale Familien-Reproduktion in Folgefenstern"
 
 PHASES = ("frueh", "mitte", "spaet")
+
+
+def _resolve(value: str | Path) -> Path:
+    path = Path(value)
+    if not path.is_absolute():
+        path = ROOT / path
+    return path
 
 
 def _read(path: Path) -> list[dict[str, str]]:
@@ -275,7 +284,7 @@ def write_md(summary: list[dict[str, object]], state_rows: list[dict[str, object
     item = summary[0]
     sample = details[:30]
     lines = [
-        "# 1861 - Phasenlokale Familien-Reproduktion in Folgefenstern",
+        f"# {TITLE}",
         "",
         "## Grundfrage",
         "",
@@ -340,6 +349,19 @@ def write_md(summary: list[dict[str, object]], state_rows: list[dict[str, object
 
 
 def main() -> int:
+    global BASELINE_CSV, FOLLOWUP_CSV, OUT_CSV, OUT_MD, TITLE
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--baseline", default=str(BASELINE_CSV.relative_to(ROOT)))
+    parser.add_argument("--followup", default=str(FOLLOWUP_CSV.relative_to(ROOT)))
+    parser.add_argument("--out-csv", default=str(OUT_CSV.relative_to(ROOT)))
+    parser.add_argument("--out-md", default=str(OUT_MD.relative_to(ROOT)))
+    parser.add_argument("--title", default=TITLE)
+    args = parser.parse_args()
+    BASELINE_CSV = _resolve(args.baseline)
+    FOLLOWUP_CSV = _resolve(args.followup)
+    OUT_CSV = _resolve(args.out_csv)
+    OUT_MD = _resolve(args.out_md)
+    TITLE = str(args.title)
     summary, state_rows, details = build_rows()
     _write_csv(OUT_CSV, summary + state_rows + details)
     write_md(summary, state_rows, details)

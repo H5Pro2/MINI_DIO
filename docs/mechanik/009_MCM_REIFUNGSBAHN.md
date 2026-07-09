@@ -148,6 +148,8 @@ Die Folgefensterprüfung [1860_PHASENLOKALE_FAMILIEN_FOLGEFENSTER.md](../befunde
 
 Aus diesen `254` reproduzierten lokalen Qualitäten wurde in [1862_PASSIVE_LOKALE_REIFEGRUPPE.md](../befunde/1862_PASSIVE_LOKALE_REIFEGRUPPE.md) eine passive lokale Reifegruppe in die Feldrollen-Memory übernommen. Sie speichert Familie, Asset, Phase, lokale Anschlussqualität und die zugehörigen Rekopplungs-, Nachhall- und Temporal-Edges. Diese Gruppe bleibt vollständig passiv. Sie steuert keine Handlung und wirkt nicht als Gate. Ihre Funktion ist methodisch: Sie trennt Namenswiederkehr von lokaler Qualitätswiederkehr.
 
+Die weitere Folgeprüfung [1863_LOKALE_REIFEGRUPPE_WEITERE_FOLGEFENSTER.md](../befunde/1863_LOKALE_REIFEGRUPPE_WEITERE_FOLGEFENSTER.md) nutzt andere Startpunkte und eine andere Fensterlänge. Der Reproduktionsbericht [1864_LOKALE_REIFEGRUPPE_REPRO_WEITERE_FENSTER.md](../befunde/1864_LOKALE_REIFEGRUPPE_REPRO_WEITERE_FENSTER.md) zeigt: Der stabile lokale Kern bleibt sichtbar, aber schwächer. Von den phasenlokal eigenständigen Baseline-Paaren reproduzieren `220` dieselbe lokale Qualität. Gegenüber `254` in 1861 ist das weniger, aber weiterhin deutlich. Das spricht für eine Reifegruppe mit Kern und Randdrift: ein Teil bleibt feldnah stabil, ein Teil öffnet sich, wird nullnah, nachhallnah oder kippt in andere lokale Qualität.
+
 ## Wie es weitergeht
 
-Als nächstes sollte diese passive Reifegruppe gegen weitere Weltfenster geprüft werden. Entscheidend ist, ob die stabilen lokalen Qualitäten erneut stabil bleiben, sich teilen oder in neue Feldrollen übergehen.
+Als nächstes sollte aus 1861 und 1864 eine Schnittmengen-Lesung gebaut werden. Entscheidend ist, welche Familien-Phasen-Paare in beiden Folgeprüfungen dieselbe lokale Qualität halten. Das wäre der härtere Kern der passiven lokalen Reifegruppe.
