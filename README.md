@@ -87,6 +87,34 @@ MINI_DIO speichert Bedeutung nicht als starre Zuordnung von Zeichen zu Begriffen
 
 Dadurch entsteht eher ein dynamisches Bedeutungsnetz als eine Liste fester Definitionen. Sprache wird in dieser Sicht nicht als Ursprung von Wahrnehmung verstanden, sondern als mögliche spätere Verdichtung oder Übersetzung einer bereits entstandenen Feldordnung. Dazu passt die MCM-Abhandlung [Von Resonanz zu Sprache](https://github.com/H5Pro2/Mental-Core-Matrix-MCM/blob/main/Abhandlungen/MCM%20-%20Nebenabhandlung/Von%20Resonanz%20zu%20Sprache.pdf).
 
+## MCM, DIO Und Der Größere Forschungsrahmen
+
+MINI_DIO ist die kleine experimentelle Forschungsumgebung innerhalb der weiter gefassten MCM- und DIO-Fragestellung. Die MCM/DIO-Forschung entstand nicht aus einer bestehenden KI-Architektur. Ihr Ausgangspunkt war die Betrachtung des Kunstwerks [The Last Supper und der Anfang der MCM](https://github.com/H5Pro2/Mental-Core-Matrix-MCM/blob/main/Abhandlungen/Anfang%20der%20MCM/The%20Last%20Supper%20und%20die%20der%20Anfang%20der%20MCM.pdf), daraus die MCM und später die Idee eines Digitalen Organismus.
+
+![DOLU-Relevanz, MINI_DIO und MCM](docs/bilder/04_DOLU_RELEVANZ_MINI_DIO_UND_MCM.PNG)
+
+MINI_DIO hat methodische Nähe zu Neural Fields, Active Inference, Reservoir Computing, Self-Organizing Maps, Embodied Cognition, Predictive Processing und neuromorphen Systemen. Diese Nähe wird als wissenschaftliche Anschlussstelle gelesen, nicht als Ursprung des Projekts.
+
+## Nachhall, Feldzeit Und Reifung
+
+Nachhall ist keine versteckte Steuerung. Er ist eine Kontextspur: Vorzustände färben die aktuelle Lesung, ersetzen aber nicht die aktuelle Weltwirkung.
+
+Feldzeit ist keine hart programmierte Uhr. Sie wird als Integrationsqualität gelesen: Wie lange und wie zusammenhängend kann eine Weltwirkung im Feld getragen, gekoppelt oder weiter verdichtet werden?
+
+```text
+Nachhall ist Kontext, nicht Kontrolle.
+Feldzeit ist Integrationsqualität, keine starre Zeitachse.
+```
+
+![Emergenzpfad](docs/bilder/05_EMERGENZPFAD.PNG)
+
+Die bisherigen Prüfungen zeigen zwei wichtige Ordnungsformen:
+
+- **Kompakte Bindung:** wenige Rollen, starke lokale Kopplung und hohe Knotendichte.
+- **Verteiltes Rollennetz:** mehrere Rollen, Kombinationen und größere Bedeutungsflächen.
+
+Beide Formen können in Folgewelten wiederkehren. Der Unterschied liegt nicht nur darin, ob sie auftreten, sondern wie sie tragen, driften, rekoppeln und reifen.
+
 ## Die Besonderheit Der MCM-Topologie
 
 Einer der auffälligsten Befunde ist eine wiederkehrende Rollenordnung aus Zentrum, offenen Brücken, driftenden Nähebereichen und belasteten Rändern.
@@ -112,34 +140,6 @@ Zentrale Nachweise:
 - [108: Reproduzierte MCM-Topologie und Rollenkarte](docs/befunde/100-1000/100-500/108_REPRODUZIERTE_MCM_TOPOLOGIE_ROLLENKARTE.md)
 - [270: Weltrelative Topologie](docs/befunde/100-1000/100-500/270_AKTUELLER_STAND_WELTRELATIVE_TOPOLOGIE.md)
 - [1744: Reproduktion synthetischer Strukturqualitäten](docs/befunde/1001-2000/1501-1750/1744_SYNTHETISCHE_STRUKTURQUALITAET_REPRO.md)
-
-## Nachhall, Feldzeit Und Reifung
-
-Nachhall ist keine versteckte Steuerung. Er ist eine Kontextspur: Vorzustände färben die aktuelle Lesung, ersetzen aber nicht die aktuelle Weltwirkung.
-
-Feldzeit ist keine hart programmierte Uhr. Sie wird als Integrationsqualität gelesen: Wie lange und wie zusammenhängend kann eine Weltwirkung im Feld getragen, gekoppelt oder weiter verdichtet werden?
-
-```text
-Nachhall ist Kontext, nicht Kontrolle.
-Feldzeit ist Integrationsqualität, keine starre Zeitachse.
-```
-
-![Emergenzpfad](docs/bilder/05_EMERGENZPFAD.PNG)
-
-Die bisherigen Prüfungen zeigen zwei wichtige Ordnungsformen:
-
-- **Kompakte Bindung:** wenige Rollen, starke lokale Kopplung und hohe Knotendichte.
-- **Verteiltes Rollennetz:** mehrere Rollen, Kombinationen und größere Bedeutungsflächen.
-
-Beide Formen können in Folgewelten wiederkehren. Der Unterschied liegt nicht nur darin, ob sie auftreten, sondern wie sie tragen, driften, rekoppeln und reifen.
-
-## MCM, DIO Und Der Größere Forschungsrahmen
-
-MINI_DIO ist die kleine experimentelle Forschungsumgebung innerhalb der weiter gefassten MCM- und DIO-Fragestellung. Die MCM/DIO-Forschung entstand nicht aus einer bestehenden KI-Architektur. Ihr Ausgangspunkt war die Betrachtung des Kunstwerks [The Last Supper und der Anfang der MCM](https://github.com/H5Pro2/Mental-Core-Matrix-MCM/blob/main/Abhandlungen/Anfang%20der%20MCM/The%20Last%20Supper%20und%20die%20der%20Anfang%20der%20MCM.pdf), daraus die MCM und später die Idee eines Digitalen Organismus.
-
-![DOLU-Relevanz, MINI_DIO und MCM](docs/bilder/04_DOLU_RELEVANZ_MINI_DIO_UND_MCM.PNG)
-
-MINI_DIO hat methodische Nähe zu Neural Fields, Active Inference, Reservoir Computing, Self-Organizing Maps, Embodied Cognition, Predictive Processing und neuromorphen Systemen. Diese Nähe wird als wissenschaftliche Anschlussstelle gelesen, nicht als Ursprung des Projekts.
 
 ## Warum Das Interessant Ist
 
