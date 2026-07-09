@@ -185,3 +185,7 @@ Wie es weitergeht: Als nächstes sollte ein anderes fragiles Asset geprüft werd
 Die DOGE-Timeframe-Prüfung [1899_DOGE_TIMEFRAME_KERNPASSUNG_EINORDNUNG.md](../befunde/1899_DOGE_TIMEFRAME_KERNPASSUNG_EINORDNUNG.md) zeigt anschließend eine andere Randantwort. DOGE-1h wiederholt `kern_verschoben` nicht, sondern bildet einmal `kern_geoeffnet`, während zwei Fenster `kern_getragen` bleiben. Die Memory wächst auf `kern_getragen: 15`, `kern_ausgeblendet: 9`, `kern_verschoben: 1`, `kern_geoeffnet: 1`. Damit wird die Weltpassung vierstufiger lesbar: getragen, geöffnet, verschoben, ausgeblendet.
 
 Wie es weitergeht: Als nächstes sollte geprüft werden, ob `kern_geoeffnet` in weiteren DOGE-Fenstern wiederkehrt oder ob es eine einzelne Übergangslage war.
+
+Die erweiterte DOGE-Serie [1904_DOGE_GEOEFFNET_UND_VERSCHOBEN_EINORDNUNG.md](../befunde/1904_DOGE_GEOEFFNET_UND_VERSCHOBEN_EINORDNUNG.md) zeigt danach: `kern_geoeffnet` bleibt in dieser Serie ein einzelner Öffnungspunkt, aber `kern_verschoben` taucht später ebenfalls bei DOGE-1h auf. Damit ist `kern_verschoben` nicht mehr nur eine PAXG-5m-Speziallage, sondern eine seltene Randpassungsqualität. Die Memory wächst auf `kern_getragen: 16`, `kern_ausgeblendet: 9`, `kern_verschoben: 2`, `kern_geoeffnet: 1`.
+
+Wie es weitergeht: Als nächstes sollte die vierstufige Weltpassung als eigener Mechanikabschnitt verdichtet werden: getragen, geöffnet, verschoben, ausgeblendet.
