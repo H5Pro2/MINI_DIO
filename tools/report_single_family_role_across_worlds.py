@@ -115,7 +115,7 @@ def _md_table(rows: list[dict[str, object]], fields: list[str]) -> list[str]:
 
 def _write_markdown(path: Path, detail: list[dict[str, object]], summary: dict[str, object]) -> None:
     lines = [
-        f"# 2058 - Einzelrolle {summary['symbol_family']} über weitere Assets",
+        f"# Einzelrolle {summary['symbol_family']} über geprüfte Welten",
         "",
         "## Zweck",
         "",

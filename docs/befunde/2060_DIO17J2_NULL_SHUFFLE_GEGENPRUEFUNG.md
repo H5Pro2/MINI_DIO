@@ -10,22 +10,24 @@ Die Prüfung bleibt passiv. Sie erzeugt keine Handlung, keine Richtung, kein Gat
 
 - Syntaxfamilie: `dio_17j2`
 - Rollenstatus: `weltuebergreifende_grundrolle`
-- Welten mit Wiederfund: `5`
-- Feldzeilen: `5`
-- Ereignisse: `46`
-- Feldrollen: `tragende_rekopplung:5`
+- Welten mit Wiederfund: `7`
+- Feldzeilen: `7`
+- Ereignisse: `26`
+- Feldrollen: `tragende_rekopplung:7`
 - Brückenreife: `weltuebergreifend_feldstabil`
-- Brücken-MCM Carry/Strain/Rekopplung: `0.503/0.132/0.706`
+- Brücken-MCM Carry/Strain/Rekopplung: `0.491/0.138/0.699`
 
 ## Detail nach Welt
 
 | holdout_label | field_contact_class | events | distinct_symbols | avg_carry | avg_strain | avg_rekopplung |
 | --- | --- | --- | --- | --- | --- | --- |
-| doge_real | tragende_rekopplung | 4 | 1 | 0.477 | 0.141 | 0.694 |
-| kas_equal | tragende_rekopplung | 4 | 1 | 0.505 | 0.134 | 0.703 |
-| paxg_real | tragende_rekopplung | 10 | 1 | 0.503 | 0.131 | 0.707 |
-| xrp_adapted | tragende_rekopplung | 14 | 1 | 0.515 | 0.125 | 0.712 |
-| xrp_real | tragende_rekopplung | 14 | 1 | 0.513 | 0.128 | 0.711 |
+| btc_random | tragende_rekopplung | 3 | 1 | 0.490 | 0.141 | 0.698 |
+| btc_shuffle | tragende_rekopplung | 2 | 1 | 0.485 | 0.134 | 0.695 |
+| doge_random | tragende_rekopplung | 2 | 1 | 0.479 | 0.139 | 0.696 |
+| doge_shuffle | tragende_rekopplung | 1 | 1 | 0.456 | 0.151 | 0.678 |
+| paxg_random | tragende_rekopplung | 13 | 1 | 0.544 | 0.137 | 0.724 |
+| paxg_shuffle | tragende_rekopplung | 3 | 1 | 0.498 | 0.131 | 0.701 |
+| xrp_random | tragende_rekopplung | 2 | 1 | 0.483 | 0.135 | 0.699 |
 
 ## Interpretation
 
