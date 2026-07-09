@@ -128,6 +128,8 @@ Diese Anschlussqualität bleibt ausdrücklich eine Reifungsbeschreibung. Sie ste
 
 Die Folgeprüfung [1848_ANSCHLUSSQUALITAET_NEUE_FENSTER.md](../befunde/1848_ANSCHLUSSQUALITAET_NEUE_FENSTER.md) zeigt diese Qualitäten in neuen Fenstern erneut. Daraus wurde in [1849_MEHRQUELLEN_ANSCHLUSSQUALITAET_MEMORY.md](../befunde/1849_MEHRQUELLEN_ANSCHLUSSQUALITAET_MEMORY.md) eine Mehrquellen-Lesung gebaut. Die Feldrollen-Memory liest Anschlussqualität damit nicht mehr aus einer Einzelprüfung, sondern aus mehreren passiven Fensterprüfungen.
 
+Die Schärfungsprüfung [1850_ANSCHLUSSQUALITAET_SCHAERFUNG.md](../befunde/1850_ANSCHLUSSQUALITAET_SCHAERFUNG.md) vergleicht die alte Feldrollenbeschreibung mit der erweiterten Anschlussqualität. Die Basislesung enthält zwei Rollenklassen; mit Anschlussqualität entstehen sechs unterscheidbare passive Beschreibungen. Das ist ein Informationsgewinn, aber noch grob, weil die Anschlussqualität aktuell asset- und fensterbasiert aggregiert wird. Der nächste Schritt ist deshalb eine familiengenauere Prüfung.
+
 ## Wie es weitergeht
 
 Als nächstes sollte geprüft werden, ob die neue Anschlussqualität über weitere Welten stabil bleibt und ob sie die passive Rollenbeschreibung verbessert, ohne eine Steuerungslogik zu werden.
