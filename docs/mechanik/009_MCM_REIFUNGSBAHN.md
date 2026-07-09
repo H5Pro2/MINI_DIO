@@ -142,6 +142,8 @@ Die phasengenaue Baseline-Prüfung [1856_FAMILIEN_ANSCHLUSS_PHASE_BASELINE.md](.
 
 Die phasenlokale Anschlussprüfung [1857_PHASENLOKALE_ANSCHLUSSQUALITAET.md](../befunde/1857_PHASENLOKALE_ANSCHLUSSQUALITAET.md) setzt genau das um. Jede Realwelt-Familie wird pro Phase gegen `null_random` und `null_shuffle` derselben Quelle, desselben Assets, desselben Fensters und derselben Familie gelesen. Ergebnis: Von `3240` Phasenzeilen unterscheiden sich `2623` von der geerbten Fensterqualität. Das ist ein deutlicher Hinweis, dass Fensterqualität, Familienrolle und Phasenlage nicht dieselbe Bedeutung tragen. Reife wird damit mehrdimensionaler: Eine Familie kann im Gesamtfenster kernnah wirken, lokal aber offen, nullnah oder nachhallnah erscheinen.
 
+Die darauf folgende Familienstabilitätsprüfung [1858_PHASENLOKALE_FAMILIENSTABILITAET.md](../befunde/1858_PHASENLOKALE_FAMILIENSTABILITAET.md) gruppiert diese Lesung nach Asset/Familie/Phase. Von `651` Familien-Phasen-Paaren werden `446` als `phasenlokal_eigenstaendig` gelesen, `47` als `fenstergetragen_stabil`, `101` als `geteilt_offen` und `57` als `einzelbeleg`. Damit wird die Reifungsbahn präziser: Einige Familien wirken tatsächlich als lokale Phasenanker. Andere sind stabil, aber stärker vom Gesamtfenster getragen. Bedeutung entsteht also nicht nur aus Wiederkehr eines Namens, sondern aus wiederkehrender lokaler Qualität.
+
 ## Wie es weitergeht
 
-Als nächstes sollte geprüft werden, welche Familien phasenlokal stabil bleiben und welche nur durch die Fensterqualität mitgezogen wurden. Daraus lässt sich eine sauberere passive Bedeutungsreife ableiten: Familie + Phase + Nullwelt-Abstand statt Familie + Fenster allein.
+Als nächstes sollte geprüft werden, ob diese phasenlokal eigenständigen Familien über neue Weltfenster wiederkehren. Entscheidend ist nicht nur, ob ein Name wieder auftaucht, sondern ob dieselbe lokale Phasenqualität wieder auftaucht.
