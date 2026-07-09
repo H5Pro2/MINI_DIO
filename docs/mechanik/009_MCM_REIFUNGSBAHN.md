@@ -126,6 +126,8 @@ Die Mehrfenster- und Mehrasset-Gegenprüfungen [1845_MCM_FELDROLLEN_MEHRFENSTER_
 
 Diese Anschlussqualität bleibt ausdrücklich eine Reifungsbeschreibung. Sie steuert keine Handlung, erzeugt kein Gate und entscheidet keine Richtung. Sie erlaubt nur, dass die Feldrollen-Memory später tiefer lesen kann, ob eine Rolle eher aus Kernnähe, Nachhall, Feldzeit oder offener Mischung getragen wird.
 
+Die Folgeprüfung [1848_ANSCHLUSSQUALITAET_NEUE_FENSTER.md](../befunde/1848_ANSCHLUSSQUALITAET_NEUE_FENSTER.md) zeigt diese Qualitäten in neuen Fenstern erneut. Daraus wurde in [1849_MEHRQUELLEN_ANSCHLUSSQUALITAET_MEMORY.md](../befunde/1849_MEHRQUELLEN_ANSCHLUSSQUALITAET_MEMORY.md) eine Mehrquellen-Lesung gebaut. Die Feldrollen-Memory liest Anschlussqualität damit nicht mehr aus einer Einzelprüfung, sondern aus mehreren passiven Fensterprüfungen.
+
 ## Wie es weitergeht
 
 Als nächstes sollte geprüft werden, ob die neue Anschlussqualität über weitere Welten stabil bleibt und ob sie die passive Rollenbeschreibung verbessert, ohne eine Steuerungslogik zu werden.

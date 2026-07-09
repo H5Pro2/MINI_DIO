@@ -14,7 +14,10 @@ from mini_dio.config import Config
 from mini_dio.semantic_memory import SemanticMemory
 
 SOURCE_CSV = ROOT / "docs/befunde/1840_MCM_REIFUNGSBAHN_PHASENGEBUNDENE_FAMILIEN.csv"
-ATTACHMENT_CSV = ROOT / "docs/befunde/1846_MCM_FELDROLLEN_MEHRASSET_ZWISCHENLAGEN.csv"
+ATTACHMENT_SOURCES = [
+    ROOT / "docs/befunde/1846_MCM_FELDROLLEN_MEHRASSET_ZWISCHENLAGEN.csv",
+    ROOT / "docs/befunde/1848_ANSCHLUSSQUALITAET_NEUE_FENSTER.csv",
+]
 MEMORY_PATH = ROOT / Config.DIO_MINI_EPISODIC_MEMORY_PATH
 
 PASSIVE_FLAGS = {
@@ -45,7 +48,10 @@ def _read_optional_rows(path: Path) -> list[dict[str, str]]:
     if not path.exists():
         return []
     with path.open(newline="", encoding="utf-8") as handle:
-        return list(csv.DictReader(handle))
+        rows = list(csv.DictReader(handle))
+    for row in rows:
+        row["source_report"] = str(path.relative_to(ROOT))
+    return rows
 
 
 def _quality(row: dict[str, str]) -> float:
@@ -88,6 +94,13 @@ def _attachment_quality(reading: str) -> str:
     return "offen_gemischt"
 
 
+def _read_attachment_rows() -> list[dict[str, str]]:
+    rows: list[dict[str, str]] = []
+    for source in ATTACHMENT_SOURCES:
+        rows.extend(_read_optional_rows(source))
+    return rows
+
+
 def build_attachment_quality_memory(rows: list[dict[str, str]]) -> dict:
     windows = [row for row in rows if row.get("row_type") == "window_summary"]
     items = []
@@ -97,6 +110,7 @@ def build_attachment_quality_memory(rows: list[dict[str, str]]) -> dict:
         items.append(
             {
                 **PASSIVE_FLAGS,
+                "source_report": str(row.get("source_report") or ""),
                 "asset": str(row.get("asset") or ""),
                 "window_start": int(_float(row.get("window_start"))),
                 "attachment_quality": quality,
@@ -110,17 +124,19 @@ def build_attachment_quality_memory(rows: list[dict[str, str]]) -> dict:
         )
     quality_counts = Counter(str(item["attachment_quality"]) for item in items)
     asset_counts = Counter(str(item["asset"]) for item in items)
+    source_counts = Counter(str(item["source_report"]) for item in items)
     return {
         **PASSIVE_FLAGS,
         "kind": "passive_mcm_field_role_attachment_quality",
-        "source": str(ATTACHMENT_CSV.relative_to(ROOT)),
-        "memory_state": "field_role_attachment_quality_from_real_null_windows",
+        "sources": [str(source.relative_to(ROOT)) for source in ATTACHMENT_SOURCES if source.exists()],
+        "memory_state": "field_role_attachment_quality_from_multi_source_real_null_windows",
         "description": (
-            "Passive Reifungsqualitaet aus Realwelt/Nullwelt-Zwischenlagen. "
+            "Passive Reifungsqualitaet aus mehreren Realwelt/Nullwelt-Zwischenlagen. "
             "Speichert Kernnaehe, Nachhallnaehe, Feldzeitnaehe, offene Mischung oder Nullnaehe."
         ),
         "quality_counts": dict(quality_counts.most_common()),
         "asset_counts": dict(asset_counts.most_common()),
+        "source_counts": dict(source_counts.most_common()),
         "window_readings": items,
     }
 
@@ -158,7 +174,7 @@ def build_field_role_memory(rows: list[dict[str, str]]) -> dict:
     )
     state_counts = Counter(str(item["field_role_state"]) for item in items)
     asset_counts = Counter(str(item["asset"]) for item in items)
-    attachment_memory = build_attachment_quality_memory(_read_optional_rows(ATTACHMENT_CSV))
+    attachment_memory = build_attachment_quality_memory(_read_attachment_rows())
     return {
         **PASSIVE_FLAGS,
         "kind": "passive_mcm_field_role_memory",
