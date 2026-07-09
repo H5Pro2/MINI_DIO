@@ -1,0 +1,4 @@
+row_type,asset,condition,source_label,core_pairs,carried_count,opened_count,shifted_count,hidden_count,carried_share,opened_share,shifted_share,hidden_share,world_fit_score,world_fit_reading
+world_fit_metric,DOGE,d25_1h_0_1000,DOGE_1H_A,34,12,6,9,7,0.35294117647058826,0.17647058823529413,0.2647058823529412,0.20588235294117646,0.3382352941176471,kern_getragen
+world_fit_metric,DOGE,d25_1h_1000_2000,DOGE_1H_B,34,8,13,5,8,0.23529411764705882,0.38235294117647056,0.14705882352941177,0.23529411764705882,0.19117647058823528,kern_geoeffnet
+world_fit_metric,DOGE,d25_1h_2000_3000,DOGE_1H_C,34,16,4,4,10,0.47058823529411764,0.11764705882352941,0.11764705882352941,0.29411764705882354,0.3382352941176471,kern_getragen

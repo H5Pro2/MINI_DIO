@@ -181,3 +181,7 @@ Wie es weitergeht: Als nächstes sollte dieselbe Übergangsprüfung mit einem an
 Die Timeframe-Prüfung [1894_PAXG_TIMEFRAME_KERNPASSUNG_EINORDNUNG.md](../befunde/1894_PAXG_TIMEFRAME_KERNPASSUNG_EINORDNUNG.md) zeigt danach: PAXG-1h blendet den bisherigen lokalen Kern in allen vier geprüften Fenstern aus. Die Memory wächst auf `kern_getragen: 13`, `kern_ausgeblendet: 9`, `kern_verschoben: 1`. Damit bleibt `kern_verschoben` zunächst eine seltene 5m-Übergangslage. Weltpassung ist also nicht nur assetabhängig, sondern auch timeframe- und fensterabhängig.
 
 Wie es weitergeht: Als nächstes sollte ein anderes fragiles Asset geprüft werden, um zu klären, ob `kern_verschoben` eine allgemeine Randpassungsqualität oder eine PAXG-5m-Speziallage ist.
+
+Die DOGE-Timeframe-Prüfung [1899_DOGE_TIMEFRAME_KERNPASSUNG_EINORDNUNG.md](../befunde/1899_DOGE_TIMEFRAME_KERNPASSUNG_EINORDNUNG.md) zeigt anschließend eine andere Randantwort. DOGE-1h wiederholt `kern_verschoben` nicht, sondern bildet einmal `kern_geoeffnet`, während zwei Fenster `kern_getragen` bleiben. Die Memory wächst auf `kern_getragen: 15`, `kern_ausgeblendet: 9`, `kern_verschoben: 1`, `kern_geoeffnet: 1`. Damit wird die Weltpassung vierstufiger lesbar: getragen, geöffnet, verschoben, ausgeblendet.
+
+Wie es weitergeht: Als nächstes sollte geprüft werden, ob `kern_geoeffnet` in weiteren DOGE-Fenstern wiederkehrt oder ob es eine einzelne Übergangslage war.
