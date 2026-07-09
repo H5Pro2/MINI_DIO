@@ -528,6 +528,9 @@ def _write_markdown(
     targets: dict[str, list[str]],
     starts: list[int],
     rows_per_world: int,
+    report_number: str,
+    report_title: str,
+    world_archive: str,
 ) -> None:
     worlds = sorted(
         {(str(row["asset"]), _safe_int(row["window_start"]), str(row["world_label"])) for row in world_rows},
@@ -537,12 +540,13 @@ def _write_markdown(
         (str(row["world_label"]), str(row["role_family"])): row
         for row in world_rows
     }
+    target_names = "`, `".join(targets)
     lines = [
-        "# 2070 - Rollenfamilien in neuen Folgewelten auf gleicher Symbolbasis",
+        f"# {report_number} - {report_title}",
         "",
         "## Zweck",
         "",
-        "Diese Auswertung startet neue reale Folgeweltlaeufe und liest die vollstaendigen Mitglieder von `rf_07`, `rf_21` und `rf_05` direkt aus der passiven Rollenfamilien-Memory 2069 zurueck.",
+        f"Diese Auswertung startet neue reale Folgeweltlaeufe und liest die vollstaendigen Mitglieder von `{target_names}` direkt aus der angegebenen passiven Rollenfamilien-Memory zurueck.",
         "",
         "Die Symbolbasis wird nicht neu gruppiert. Geprueft werden exakt die in 2066 gebildeten `dio_*`-Mitglieder.",
         "",
@@ -552,7 +556,7 @@ def _write_markdown(
         f"- Assets: `{';'.join(sorted({asset for asset, _, _ in worlds}))}`",
         f"- Startpunkte pro Asset: `{starts}`",
         f"- Beobachtungen pro Welt: `{rows_per_world}` Rohzeilen",
-        "- veroeffentlichtes Weltarchiv: `data/2070_role_family_followworlds.zip`",
+        f"- Weltbasis (Archiv): `{world_archive}`",
         "- entpackte Weltdateien und Debug-Ausgaben bleiben lokal und werden nicht gepusht",
         "- pro Welt ein Lauf mit frischer episodischer Memory",
         "- Wahrnehmungsmodus: `world_relative`",
@@ -578,7 +582,9 @@ def _write_markdown(
             "",
             "Die Verteilungsdrift vergleicht die Ereignisanteile der Mitglieder zwischen 2066 und den neuen Folgewelten. `0` bedeutet gleiche Verteilung, `1` vollstaendige Verschiebung.",
             "",
-            "| role_family | Dominanz 2066 | Dominanz 2070 | Verteilungsdrift | innere Lesung | Profil 2066 | Profil 2070 |",
+            "Diese relationale Lesung muss immer zusammen mit Ereigniszahl, Weltpraesenz und Mitgliederabdeckung gelesen werden. Eine geringe Drift in einer duennen Spur ist noch kein Stabilitaetsnachweis.",
+            "",
+            f"| role_family | Dominanz 2066 | Dominanz {report_number} | Verteilungsdrift | innere Lesung | Profil 2066 | Profil {report_number} |",
             "|---|---|---|---:|---|---|---|",
         ]
     )
@@ -639,7 +645,7 @@ def _write_markdown(
             "",
             "Die Kennzahlen duerfen nicht als Strategie, Entry-Signal, Richtungsvorgabe oder Handlungsgate verwendet werden. Auch eine konsistente Familie bleibt eine passive Feldbedeutung.",
             "",
-            "Wie es weitergeht: Die neuen Folgeweltbefunde sollten als naechstes in die passive Rollenfamilien-Memory rueckgekoppelt werden. Danach koennen die bisher ungelesenen Familien `rf_06`, `rf_13`, `rf_10`, `rf_08` und `rf_17` mit derselben Methode folgen.",
+            "Wie es weitergeht: Die neuen Folgeweltbefunde sollten als naechstes als weitere numerische Evidenzschicht in die passive Rollenfamilien-Memory rueckgekoppelt werden.",
             "",
         ]
     )
@@ -661,6 +667,11 @@ def main() -> int:
     parser.add_argument("--data-dir", default="data/generated/2070_role_family_followworlds")
     parser.add_argument("--debug-root", default="debug/2070_role_family_followworlds")
     parser.add_argument("--out-prefix", default="2070_ROLLENFAMILIEN_GLEICHE_SYMBOLBASIS_FOLGEWELTEN")
+    parser.add_argument(
+        "--report-title",
+        default="Rollenfamilien in neuen Folgewelten auf gleicher Symbolbasis",
+    )
+    parser.add_argument("--world-archive", default="data/2070_role_family_followworlds.zip")
     args = parser.parse_args()
 
     selected = args.target_family or list(DEFAULT_TARGETS)
@@ -698,7 +709,18 @@ def main() -> int:
     _write_csv(prefix.with_suffix(".detail.csv"), member_rows)
     _write_csv(prefix.with_suffix(".worlds.csv"), world_rows)
     _write_csv(prefix.with_suffix(".summary.csv"), summary_rows)
-    _write_markdown(prefix.with_suffix(".md"), summary_rows, world_rows, targets, starts, args.rows)
+    report_number = args.out_prefix.split("_", 1)[0]
+    _write_markdown(
+        prefix.with_suffix(".md"),
+        summary_rows,
+        world_rows,
+        targets,
+        starts,
+        args.rows,
+        report_number,
+        args.report_title,
+        args.world_archive,
+    )
     print(f"worlds={len(specs) * len(starts)}")
     print(f"member_rows={len(member_rows)}")
     print(f"family_summary={len(summary_rows)}")
