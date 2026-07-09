@@ -39,7 +39,7 @@ Die bisherigen Läufe zeigen eine robuste, wiederkehrende Feldordnung. Auch nach
 - Nachhall gibt dem Feld zeitliche Tiefe.
 - Wiederkehr kann aus Nebel eine Rolle verdichten.
 
-Eine gleichlange 10k-Gegenprüfung zeigt zusätzlich: neue Weltinformation wird weiterhin eher an vorhandene Grundrollen gekoppelt, bevor neue starke Milieurollen entstehen. KAS, XLM und TRX als kleinpreisige/leise Gegenproben bestätigen diese Richtung: vorhandene Rollen werden breiter, neue Rollen bleiben zunächst überwiegend Nebenrollen oder reifen punktuell weiter. PEPE als laute Micro-Kontrastwelt zeigt eine stärkere Abweichung: Die Grundordnung bleibt stabil, aber eine neue Milieuinsel wird sichtbar.
+Eine gleichlange 10k-Gegenprüfung zeigt zusätzlich: neue Weltinformation wird weiterhin eher an vorhandene Grundrollen gekoppelt, bevor neue starke Milieurollen entstehen. KAS, XLM und TRX als kleinpreisige/leise Gegenproben bestätigen diese Richtung: vorhandene Rollen werden breiter, neue Rollen bleiben zunächst überwiegend Nebenrollen oder reifen punktuell weiter. PEPE als laute Micro-Kontrastwelt zeigt eine stärkere Abweichung: Die Grundordnung bleibt stabil, aber eine neue Milieuinsel wird sichtbar. Eine zweite PEPE-Prüfung zeigt zugleich, dass diese Milieuinsel nicht automatisch in jedem PEPE-Fenster wiederkehrt. Sie wirkt phasen- und weltlagengebunden, nicht wie ein pauschales Asset-Etikett.
 
 Der aktuelle Befund ist keine endgültige Behauptung. Er ist eine reproduzierbare Forschungsbeobachtung innerhalb der geprüften Welten und Memory-Neustarts. Die ausführliche Langfassung der bisherigen README liegt in [docs/README_AUSFUEHRLICH.md](docs/README_AUSFUEHRLICH.md).
 
@@ -133,4 +133,4 @@ Die genauen Datenpfade hängen vom aktuell erzeugten Weltfenster ab.
 
 ## Nächster Forschungsschritt
 
-Als nächstes wird die neue PEPE-Milieuinsel isoliert geprüft. Entscheidend ist, welche Weltmerkmale, Sinneslagen und Feldwerte sie tragen und ob sie in einem zweiten PEPE-Fenster stabil wiederkehrt.
+Als nächstes wird die PEPE-A-Zone genauer rückgelesen. Entscheidend ist, welche Weltspannung, Tonlage, visuelle Form oder Nachhallphase die situative Milieuinsel getragen hat.
