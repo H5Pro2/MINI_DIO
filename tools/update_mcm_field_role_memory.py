@@ -20,6 +20,7 @@ ATTACHMENT_SOURCES = [
 ]
 FAMILY_ATTACHMENT_SOURCE = ROOT / "docs/befunde/1851_FAMILIEN_ANSCHLUSSQUALITAET.csv"
 LOCAL_PHASE_REPRO_SOURCE = ROOT / "docs/befunde/1861_PHASENLOKALE_FAMILIEN_REPRO_FOLGEFENSTER.csv"
+REFERENCE_ROLE_SOURCE = ROOT / "docs/befunde/1945_DIO_0TAY_FRUEH_GENERALISIERUNG.csv"
 WORLD_FIT_SOURCES = [
     ROOT / "docs/befunde/1878_WELTPASSUNG_METRIK.csv",
     ROOT / "docs/befunde/1883_WELTPASSUNG_MEMORY_WACHSTUM_FOLGEFENSTER.csv",
@@ -361,6 +362,60 @@ def build_world_fit_quality_memory(rows: list[dict[str, str]]) -> dict:
     }
 
 
+def build_reference_role_memory(rows: list[dict[str, str]]) -> dict:
+    if not rows:
+        return {
+            **PASSIVE_FLAGS,
+            "kind": "passive_mcm_reference_roles",
+            "source": str(REFERENCE_ROLE_SOURCE.relative_to(ROOT)),
+            "memory_state": "reference_roles_not_available",
+            "description": "Passive Referenzrollen sind noch nicht erzeugt.",
+            "reference_roles": [],
+        }
+
+    role_rows = [row for row in rows if row.get("gruppe") == "gesamt"]
+    asset_rows = [row for row in rows if row.get("gruppe") not in {"gesamt", "B_Fokus_SOL_BTC"}]
+    b_focus_rows = [row for row in rows if row.get("gruppe") == "B_Fokus_SOL_BTC"]
+
+    def _int(row: dict[str, str], key: str) -> int:
+        return int(_float(row.get(key)))
+
+    def reference_profile(row: dict[str, str]) -> dict:
+        non_missing = max(1, _int(row, "nicht_fehlende_ruecklesungen"))
+        return {
+            **PASSIVE_FLAGS,
+            "scope": str(row.get("gruppe") or ""),
+            "family": "dio_0tay",
+            "phase": "frueh",
+            "reference_role": "fruehe_nullnahe_brueckenberuhigung",
+            "role_use": "passiver_vergleichsanker",
+            "comparison_rows": _int(row, "vergleichszeilen"),
+            "non_missing_readbacks": _int(row, "nicht_fehlende_ruecklesungen"),
+            "files_with_readback": _int(row, "dateien_mit_ruecklesung"),
+            "nullnear_readbacks": _int(row, "reproduziert_nullnah"),
+            "opened_readbacks": _int(row, "geoeffnet"),
+            "afterimage_readbacks": _int(row, "nachhallnah"),
+            "drift_readbacks": _int(row, "driftet"),
+            "core_near_readbacks": _int(row, "kernnah"),
+            "nullnear_share": round(_int(row, "reproduziert_nullnah") / non_missing, 6),
+            "short_reading": str(row.get("kurzbefund") or ""),
+        }
+
+    profiles = [reference_profile(row) for row in role_rows + asset_rows + b_focus_rows]
+    return {
+        **PASSIVE_FLAGS,
+        "kind": "passive_mcm_reference_roles",
+        "source": str(REFERENCE_ROLE_SOURCE.relative_to(ROOT)),
+        "memory_state": "reference_roles_from_generalized_field_role_readback",
+        "description": (
+            "Passive Referenzrollen fuer wiederkehrende Feldqualitaeten. "
+            "Sie dienen nur als Vergleichsanker fuer Ruecklesung und Feldgedaechtnis, "
+            "nicht als Steuerung, Gate, Richtung oder Handlung."
+        ),
+        "reference_roles": profiles,
+    }
+
+
 def build_field_role_memory(rows: list[dict[str, str]]) -> dict:
     items = []
     for row in rows:
@@ -398,6 +453,7 @@ def build_field_role_memory(rows: list[dict[str, str]]) -> dict:
     family_attachment_memory = build_family_attachment_quality_memory(_read_optional_rows(FAMILY_ATTACHMENT_SOURCE))
     local_phase_maturity_group = build_local_phase_maturity_group_memory(_read_optional_rows(LOCAL_PHASE_REPRO_SOURCE))
     world_fit_quality = build_world_fit_quality_memory(_read_world_fit_rows())
+    reference_roles = build_reference_role_memory(_read_optional_rows(REFERENCE_ROLE_SOURCE))
     return {
         **PASSIVE_FLAGS,
         "kind": "passive_mcm_field_role_memory",
@@ -413,6 +469,7 @@ def build_field_role_memory(rows: list[dict[str, str]]) -> dict:
         "family_attachment_quality": family_attachment_memory,
         "local_phase_maturity_group": local_phase_maturity_group,
         "world_fit_quality": world_fit_quality,
+        "reference_roles": reference_roles,
         "top_roles": items[:48],
     }
 
@@ -431,6 +488,7 @@ def main() -> int:
     print(f"family_attachment_quality={role_memory['family_attachment_quality']['state_counts']}")
     print(f"local_phase_maturity_group={role_memory['local_phase_maturity_group']['repro_counts']}")
     print(f"world_fit_quality={role_memory['world_fit_quality']['reading_counts']}")
+    print(f"reference_roles={len(role_memory['reference_roles']['reference_roles'])}")
     return 0
 
 
