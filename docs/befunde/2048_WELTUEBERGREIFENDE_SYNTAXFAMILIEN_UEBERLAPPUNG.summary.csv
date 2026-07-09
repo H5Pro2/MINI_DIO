@@ -1,0 +1,2 @@
+xrp_families,multi_families,shared_families,union_families,jaccard,shared_same_field,shared_same_reifung,shared_field_counts,xrp_only,multi_only
+877,539,419,997,0.4202607823470411,390,320,"{'tragende_rekopplung': 389, 'offene_rekopplung': 24, 'spannungsnahe_oeffnung': 4, 'getragen_offen': 2}",458,120
