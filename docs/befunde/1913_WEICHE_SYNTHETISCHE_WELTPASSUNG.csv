@@ -1,0 +1,4 @@
+row_type,asset,condition,source_label,core_pairs,carried_count,opened_count,shifted_count,hidden_count,carried_share,opened_share,shifted_share,hidden_share,world_fit_score,world_fit_reading
+world_fit_metric,DOGE,syn_breadth_afterimage_follow,SOFT_SYN,34,0,0,0,34,0.0,0.0,0.0,1.0,-0.65,kern_ausgeblendet
+world_fit_metric,DOGE,syn_role_mosaic_afterimage_follow,SOFT_SYN,34,3,2,1,28,0.08823529411764706,0.058823529411764705,0.029411764705882353,0.8235294117647058,-0.4279411764705882,kern_ausgeblendet
+world_fit_metric,DOGE,syn_zwischenwelt_b_0_3000,SOFT_SYN,34,5,0,0,29,0.14705882352941177,0.0,0.0,0.8529411764705882,-0.4073529411764706,kern_ausgeblendet

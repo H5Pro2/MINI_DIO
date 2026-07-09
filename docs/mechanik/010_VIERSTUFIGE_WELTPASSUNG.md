@@ -100,7 +100,7 @@ Aktueller Zähler in der passiven Weltpassungs-Memory:
 
 ```text
 kern_getragen: 16
-kern_ausgeblendet: 12
+kern_ausgeblendet: 15
 kern_verschoben: 2
 kern_geoeffnet: 1
 ```
@@ -154,6 +154,19 @@ gleicher Hartkern + andere Weltform -> andere Passungsqualität
 
 Der wichtige Punkt ist nicht der Name der Welt.
 Entscheidend ist die Beziehung zwischen gereiftem Innenkern und aktueller Weltform.
+
+Die weichere Nachprüfung [1914_WEICHE_SYNTHETISCHE_WELTPASSUNG_EINORDNUNG.md](../befunde/1914_WEICHE_SYNTHETISCHE_WELTPASSUNG_EINORDNUNG.md) ergänzt:
+Auch wenn eine Welt dominant `kern_ausgeblendet` bleibt, kann sie noch Restkopplung tragen.
+Rollen-Mosaik/Nachhall und Zwischenwelt B blenden den Kern nicht so hart aus wie reine Breite/Nachhall.
+
+Damit ist Ausblendung nicht binär:
+
+```text
+kern_ausgeblendet
+  -> vollständig ausgeblendet
+  -> weich ausgeblendet mit Restkopplung
+  -> ausgeblendet mit Öffnungs-/Verschiebungsrest
+```
 
 ## Forschungsnutzen
 
