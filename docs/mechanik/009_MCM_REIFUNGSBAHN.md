@@ -158,6 +158,8 @@ Der assetübergreifende Vergleich [1873_HARTKERN_ASSET_WELTLAGEN_VERGLEICH.md](.
 
 Die PAXG-Nachprüfung [1877_PAXG_HARTKERN_EINORDNUNG.md](../befunde/1877_PAXG_HARTKERN_EINORDNUNG.md) zeigt anschließend: PAXG ist kein leerer Gegenfall. Das erste 2024-5m-Fenster war besonders ungünstig. Andere PAXG-Fenster und Timeframes reproduzieren deutlich mehr Kernpaare, bleiben aber fragiler als SOL, BTC und XRP. Daraus folgt: Reife ist nicht nur Kernwiederkehr, sondern Kernwiederkehr unter passender Weltlage.
 
+Die Weltpassungs-Metrik [1878_WELTPASSUNG_METRIK.md](../befunde/1878_WELTPASSUNG_METRIK.md) macht diese Beziehung explizit. Sie liest pro Weltlage, ob der harte Kern getragen, geöffnet, verschoben oder ausgeblendet wird. BTC-Stress, SOL-Stress und XRP-2024 tragen den Kern am stärksten. PAXG-2024-5m ist der schwächste Fall und blendet den bisherigen Kern überwiegend aus. Damit wird Reife nicht als Eigenschaft einer Familie allein gelesen, sondern als Beziehung zwischen Hartkern und Weltlage.
+
 ## Wie es weitergeht
 
-Als nächstes sollte eine Weltpassungs-Metrik gebaut werden. Sie soll lesen, ob eine Weltlage den Kern trägt, öffnet, verschiebt oder ausblendet.
+Als nächstes sollte diese Weltpassung in die passive Feldrollen-Memory übernommen werden. Nicht als Steuerung, sondern als Erfahrungsqualität: welche Weltlagen tragen welchen Kern, und welche lösen Randdrift aus?
