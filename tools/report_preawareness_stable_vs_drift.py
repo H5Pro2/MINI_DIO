@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import argparse
 import csv
 from collections import Counter, defaultdict
 from pathlib import Path
@@ -8,8 +9,8 @@ from statistics import mean
 
 ROOT = Path(__file__).resolve().parents[1]
 BEFUNDE = ROOT / "docs" / "befunde"
-SOURCE = BEFUNDE / "2041_VORWAHRNEHMUNG_MEMORY_HOLDOUT_RUECKPRUEFUNG.summary.csv"
-OUT_PREFIX = BEFUNDE / "2042_VORWAHRNEHMUNG_STABIL_DRIFT_LANDKARTE"
+DEFAULT_SOURCE = BEFUNDE / "2041_VORWAHRNEHMUNG_MEMORY_HOLDOUT_RUECKPRUEFUNG.summary.csv"
+DEFAULT_OUT_PREFIX = BEFUNDE / "2042_VORWAHRNEHMUNG_STABIL_DRIFT_LANDKARTE"
 
 
 def _load_csv(path: Path) -> list[dict[str, str]]:
@@ -144,9 +145,11 @@ def _md_table(rows: list[dict[str, object]], fields: list[str], limit: int | Non
 
 
 def _write_markdown(
+    out_prefix: Path,
     rows: list[dict[str, object]],
     class_summary: list[dict[str, object]],
     group_summary: list[dict[str, object]],
+    source_path: Path,
 ) -> None:
     total_events = sum(int(float(row.get("events", 0) or 0)) for row in rows)
     avg_field = mean(_safe_float(row.get("field_recall_share")) for row in rows) if rows else 0.0
@@ -163,6 +166,7 @@ def _write_markdown(
         "",
         "## Kurzbefund",
         "",
+        f"- Quelle: `{source_path}`",
         f"- Ausgewertete Zeilen: {len(rows)}",
         f"- Ausgewertete Ereignisse: {total_events}",
         f"- Durchschnittliche Feld-Rücklesung: {_fmt(avg_field)}",
@@ -234,11 +238,23 @@ def _write_markdown(
             "",
         ]
     )
-    OUT_PREFIX.with_suffix(".md").write_text("\n".join(lines), encoding="utf-8")
+    out_prefix.with_suffix(".md").write_text("\n".join(lines), encoding="utf-8")
 
 
 def main() -> None:
-    source_rows = _load_csv(SOURCE)
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--source", default=str(DEFAULT_SOURCE))
+    parser.add_argument("--out-prefix", default=str(DEFAULT_OUT_PREFIX))
+    args = parser.parse_args()
+
+    source_path = Path(args.source)
+    if not source_path.is_absolute():
+        source_path = ROOT / source_path
+    out_prefix = Path(args.out_prefix)
+    if not out_prefix.is_absolute():
+        out_prefix = ROOT / out_prefix
+
+    source_rows = _load_csv(source_path)
     rows = _classification_rows(source_rows)
 
     detail_fields = [
@@ -261,7 +277,7 @@ def main() -> None:
         "observed_sensory_classes",
         "observed_motion_classes",
     ]
-    _write_csv(OUT_PREFIX.with_suffix(".detail.csv"), rows, detail_fields)
+    _write_csv(out_prefix.with_suffix(".detail.csv"), rows, detail_fields)
 
     class_summary = _aggregate(rows, ["landkarte_class"])
     group_summary = _aggregate(rows, ["target_group", "source_chain"])
@@ -278,7 +294,7 @@ def main() -> None:
         "avg_rekopplung",
         "field_relations",
     ]
-    _write_csv(OUT_PREFIX.with_suffix(".classes.csv"), class_summary, summary_fields)
+    _write_csv(out_prefix.with_suffix(".classes.csv"), class_summary, summary_fields)
 
     group_fields = [
         "target_group",
@@ -294,10 +310,10 @@ def main() -> None:
         "landkarte_classes",
         "field_relations",
     ]
-    _write_csv(OUT_PREFIX.with_suffix(".groups.csv"), group_summary, group_fields)
-    _write_markdown(rows, class_summary, group_summary)
+    _write_csv(out_prefix.with_suffix(".groups.csv"), group_summary, group_fields)
+    _write_markdown(out_prefix, rows, class_summary, group_summary, source_path)
 
-    print(f"written {OUT_PREFIX.name}.*")
+    print(f"written {out_prefix.name}.*")
 
 
 if __name__ == "__main__":

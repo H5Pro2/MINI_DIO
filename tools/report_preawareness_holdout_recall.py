@@ -342,7 +342,7 @@ def _write_markdown(path: Path, summary: list[dict[str, object]], events: list[d
     sensory = _avg([float(row["sensory_recall_share"]) for row in summary]) if summary else 0.0
     motion = _avg([float(row["motion_recall_share"]) for row in summary]) if summary else 0.0
     lines = [
-        "# 2041 - Vorwahrnehmungs-Memory Holdout-Rückprüfung",
+        "# Vorwahrnehmungs-Memory Holdout-Rückprüfung",
         "",
         "## Zweck",
         "",
@@ -423,16 +423,17 @@ def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--source-summary", default="docs/befunde/2039_FELDFUNKTIONSWECHSEL_VORPHASEN_ASSET_STABILITAET.summary.csv")
     parser.add_argument("--preawareness", default="docs/befunde/2040_FELDKONTAKT_VORWAHRNEHMUNG_MEMORY.roles.csv")
-    parser.add_argument("--holdout", action="append", default=[
-        "btc2024=debug/1996_ff_btc_2024_10k",
-        "doge2024=debug/1996_ff_doge_2024_10k",
-        "paxg2024=debug/1996_ff_paxg_2024_10k",
-    ])
+    parser.add_argument("--holdout", action="append", default=None)
     parser.add_argument("--max-events-per-symbol-holdout", type=int, default=60)
     parser.add_argument("--out-prefix", default="2041_VORWAHRNEHMUNG_MEMORY_HOLDOUT_RUECKPRUEFUNG")
     args = parser.parse_args()
 
-    holdouts = _parse_holdouts(args.holdout)
+    raw_holdouts = args.holdout or [
+        "btc2024=debug/1996_ff_btc_2024_10k",
+        "doge2024=debug/1996_ff_doge_2024_10k",
+        "paxg2024=debug/1996_ff_paxg_2024_10k",
+    ]
+    holdouts = _parse_holdouts(raw_holdouts)
     symbol_targets = _load_symbol_targets(Path(args.source_summary))
     events = _collect_events(
         holdouts=holdouts,
