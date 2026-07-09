@@ -177,3 +177,7 @@ Wie es weitergeht: Als nächstes sollte geprüft werden, ob `kern_verschoben` be
 Die PAXG-Folgeprüfung [1889_PAXG_KERNVERSCHIEBUNG_EINORDNUNG.md](../befunde/1889_PAXG_KERNVERSCHIEBUNG_EINORDNUNG.md) zeigt anschließend: `kern_verschoben` ist in dieser Serie keine stabile neue Hauptklasse. Die PAXG-Fenster wechseln von `kern_verschoben` über `kern_ausgeblendet` zurück zu `kern_getragen`. Damit wirkt PAXG als Randpassungs-Testfall. Der Kern ist nicht dauerhaft verloren, aber die Weltlage trägt ihn wechselnd. Die Memory wächst entsprechend auf `kern_getragen: 13`, `kern_ausgeblendet: 5`, `kern_verschoben: 1`.
 
 Wie es weitergeht: Als nächstes sollte dieselbe Übergangsprüfung mit einem anderen fragilen Asset oder einem anderen Timeframe wiederholt werden.
+
+Die Timeframe-Prüfung [1894_PAXG_TIMEFRAME_KERNPASSUNG_EINORDNUNG.md](../befunde/1894_PAXG_TIMEFRAME_KERNPASSUNG_EINORDNUNG.md) zeigt danach: PAXG-1h blendet den bisherigen lokalen Kern in allen vier geprüften Fenstern aus. Die Memory wächst auf `kern_getragen: 13`, `kern_ausgeblendet: 9`, `kern_verschoben: 1`. Damit bleibt `kern_verschoben` zunächst eine seltene 5m-Übergangslage. Weltpassung ist also nicht nur assetabhängig, sondern auch timeframe- und fensterabhängig.
+
+Wie es weitergeht: Als nächstes sollte ein anderes fragiles Asset geprüft werden, um zu klären, ob `kern_verschoben` eine allgemeine Randpassungsqualität oder eine PAXG-5m-Speziallage ist.
