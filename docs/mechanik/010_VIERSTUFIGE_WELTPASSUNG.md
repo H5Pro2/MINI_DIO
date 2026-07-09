@@ -100,7 +100,7 @@ Aktueller Zähler in der passiven Weltpassungs-Memory:
 
 ```text
 kern_getragen: 16
-kern_ausgeblendet: 9
+kern_ausgeblendet: 12
 kern_verschoben: 2
 kern_geoeffnet: 1
 ```
@@ -139,6 +139,21 @@ Diese Mechanik bleibt passiv:
 - keine Entscheidung
 
 Sie ist eine Erfahrungs- und Bedeutungsmechanik im MCM-Feld.
+
+## Synthetische Kontrollwelten
+
+Die Nachprüfung [1909_SYNTHETISCHE_WELTPASSUNG_EINORDNUNG.md](../befunde/1909_SYNTHETISCHE_WELTPASSUNG_EINORDNUNG.md) zeigt:
+`kern_ausgeblendet` ist nicht nur ein Asset-Effekt.
+Auch synthetische Bruch-/Rand- und Harmonie-Welten können den bisherigen DOGE-Hartkern überwiegend ausblenden, wenn ihre Weltform den Kern nicht trägt.
+
+Damit wird die Mechanik genauer:
+
+```text
+gleicher Hartkern + andere Weltform -> andere Passungsqualität
+```
+
+Der wichtige Punkt ist nicht der Name der Welt.
+Entscheidend ist die Beziehung zwischen gereiftem Innenkern und aktueller Weltform.
 
 ## Forschungsnutzen
 
