@@ -1,0 +1,17 @@
+preview_symbol,depth_state,world_count,depth_score,count,avg_profile_proximity,avg_afterimage,avg_recurrence,avg_rekopplung,avg_strain,avg_sensory_coupling
+dio_mcm_episode_0vcr3lw,multiworld_depth_seed,4,0.777203,18,0.757461,0.625113,0.698896,0.721115,0.148875,0.869349
+dio_mcm_episode_1rj8742,multiworld_depth_seed,4,0.734065,1282,0.720842,0.519174,0.611683,0.712329,0.152307,0.859376
+dio_mcm_episode_0bsaqu1,multiworld_depth_seed,4,0.711250,20,0.703211,0.462849,0.557593,0.712405,0.148987,0.858972
+dio_mcm_episode_08g1nk4,multiworld_depth_seed,4,0.687052,13,0.676775,0.428160,0.511274,0.695774,0.165082,0.831242
+dio_mcm_episode_1eav7xq,multiworld_depth_seed,4,0.677125,15,0.673795,0.396632,0.476061,0.702046,0.154523,0.856742
+dio_mcm_episode_1qlxgj7,multiworld_depth_seed,4,0.611592,299,0.619089,0.246665,0.329628,0.691200,0.158465,0.845529
+dio_mcm_episode_0icnf2v,multiworld_depth_seed,3,0.795879,3577,0.813016,0.781570,0.865111,0.728110,0.157570,0.864240
+dio_mcm_episode_14sn1ov,multiworld_depth_seed,3,0.674847,4,0.711941,0.502698,0.594219,0.706341,0.159662,0.856183
+dio_mcm_episode_0tnueiv,multiworld_depth_seed,3,0.656246,11,0.702161,0.461910,0.524015,0.715618,0.141003,0.878767
+dio_mcm_episode_0hvxln3,multiworld_depth_seed,3,0.649708,6,0.693609,0.442753,0.525577,0.709700,0.150470,0.865425
+dio_mcm_episode_0tfzgic,multiworld_depth_seed,3,0.575923,588,0.631453,0.273933,0.362891,0.695049,0.152765,0.851867
+dio_mcm_episode_05upp98,recurring_depth_seed,2,0.755752,5,0.817502,0.810180,0.894662,0.723786,0.159577,0.851075
+dio_mcm_episode_0n6m7si,recurring_depth_seed,2,0.742113,9,0.810204,0.772826,0.854053,0.729120,0.154372,0.864146
+dio_mcm_episode_0he6atw,recurring_depth_seed,2,0.684655,7,0.766457,0.621496,0.725386,0.726971,0.148236,0.877741
+dio_mcm_episode_17i3weh,recurring_depth_seed,2,0.642965,3,0.730522,0.543877,0.616188,0.719306,0.142249,0.870521
+dio_mcm_episode_0ca57t8,recurring_depth_seed,2,0.639897,79,0.728728,0.519692,0.623472,0.719196,0.144093,0.871442
