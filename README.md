@@ -39,6 +39,8 @@ Die bisherigen Läufe zeigen eine robuste, wiederkehrende Feldordnung. Auch nach
 - Nachhall gibt dem Feld zeitliche Tiefe.
 - Wiederkehr kann aus Nebel eine Rolle verdichten.
 
+Eine gleichlange 10k-Gegenprüfung zeigt zusätzlich: neue Weltinformation wird weiterhin eher an vorhandene Grundrollen gekoppelt, bevor neue starke Milieurollen entstehen.
+
 Der aktuelle Befund ist keine endgültige Behauptung. Er ist eine reproduzierbare Forschungsbeobachtung innerhalb der geprüften Welten und Memory-Neustarts. Die ausführliche Langfassung der bisherigen README liegt in [docs/README_AUSFUEHRLICH.md](docs/README_AUSFUEHRLICH.md).
 
 ## Wichtige Erkenntnisse
@@ -131,4 +133,4 @@ Die genauen Datenpfade hängen vom aktuell erzeugten Weltfenster ab.
 
 ## Nächster Forschungsschritt
 
-Als nächstes werden die Rollenbreiten über längere und verschiedenartige Welten geprüft. Entscheidend ist, ob starke Knoten wieder auftauchen, sich teilen, driften oder neue Nachbarschaften bilden.
+Als nächstes wird ein gleichlanges kleines/leises Asset-Fenster ergänzt. Entscheidend ist, ob sehr leise Welten eigene Rollen abspalten oder ebenfalls zuerst in vorhandene Grundrollen rekoppeln.
