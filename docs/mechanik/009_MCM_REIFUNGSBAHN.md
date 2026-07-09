@@ -152,6 +152,8 @@ Die weitere Folgeprüfung [1863_LOKALE_REIFEGRUPPE_WEITERE_FOLGEFENSTER.md](../b
 
 Die Schnittmengen-Lesung [1865_LOKALE_REIFEGRUPPE_HARTER_KERN.md](../befunde/1865_LOKALE_REIFEGRUPPE_HARTER_KERN.md) prüft danach, welche Familien-Phasen-Paare in beiden Folgeprüfungen dieselbe lokale Qualität halten. Von `446` phasenlokal eigenständigen Baseline-Paaren bilden `147` einen harten Kern. Weitere `107` reproduzieren nur in der ersten Folgeprüfung und `73` nur in der zweiten. Damit wird die Reifegruppe schärfer lesbar: Es gibt einen stabileren Innenkern und eine größere Randzone, die unter anderer Weltlage offen, nullnah, nachhallnah oder kontextabhängig wird.
 
+Die erste Weltlagenreaktion [1868_SOL_HARTKERN_WELTLAGENREAKTION.md](../befunde/1868_SOL_HARTKERN_WELTLAGENREAKTION.md) prüft nur den SOL-Anteil dieses harten Kerns. Von `27` SOL-Kernpaaren reproduzieren sich `18` unter ruhiger Weltlage, `20` unter Stresswelt und `18` unter Expansionswelt. Das spricht nicht für einen Kollaps des Kerns. Die Randantwort unterscheidet sich aber: Stress hält hier etwas mehr direkte lokale Reproduktion, Expansion erzeugt mehr Nachhall-/Offenverschiebung.
+
 ## Wie es weitergeht
 
-Als nächstes sollte geprüft werden, ob dieser harte Kern unter Stress-, Expansions- und Ruhewelten stabil bleibt oder gezielt in Randdrift wechselt. Entscheidend ist, ob Reife als haltbarer Kern mit beweglicher Peripherie lesbar bleibt.
+Als nächstes sollte dieselbe Weltlagenreaktion für BTC, DOGE, PAXG und XRP geprüft werden. Erst danach ist klar, ob die beobachtete SOL-Antwort asset-spezifisch ist oder zur allgemeinen Hartkern-Peripherie gehört.
