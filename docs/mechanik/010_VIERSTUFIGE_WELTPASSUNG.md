@@ -99,7 +99,7 @@ Beispiele:
 Aktueller Zähler in der passiven Weltpassungs-Memory:
 
 ```text
-kern_ausgeblendet: 18
+kern_ausgeblendet: 24
 kern_getragen: 16
 kern_verschoben: 2
 kern_geoeffnet: 1
@@ -179,6 +179,17 @@ allgemeine Feldaktivität != Hartkernkopplung
 Das verhindert eine wichtige Fehlinterpretation:
 Nicht jede Aktivität im Feld ist Reife.
 Reife muss sich an der Beziehung zwischen Weltform und gereiftem Innenkern zeigen.
+
+Der Hartkern-Brillen-Vergleich [1922_SYN_B_FOCUS_HARTKERNBRILLEN_VERGLEICH.md](../befunde/1922_SYN_B_FOCUS_HARTKERNBRILLEN_VERGLEICH.md) präzisiert diese Beziehung:
+Dieselbe synthetische B-Fokuswelt erzeugt bei DOGE kleine Restkopplung, bei SOL und BTC aber vollständige Ausblendung.
+
+```text
+Weltform + Hartkern-Brille -> Passungsprofil
+```
+
+Damit ist Weltpassung relational:
+Sie liegt nicht nur in der Welt und nicht nur im Speicher.
+Sie entsteht aus der Passung zwischen Innenkern und Außenform.
 
 ## Forschungsnutzen
 

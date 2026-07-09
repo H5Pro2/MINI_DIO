@@ -1,0 +1,7 @@
+row_type,asset,condition,source_label,core_pairs,carried_count,opened_count,shifted_count,hidden_count,carried_share,opened_share,shifted_share,hidden_share,world_fit_score,world_fit_reading
+world_fit_metric,BTC,syn_b_focus_2400_3900,B_FOCUS_BTC,27,0,0,0,27,0.0,0.0,0.0,1.0,-0.65,kern_ausgeblendet
+world_fit_metric,BTC,syn_b_focus_3000_4500,B_FOCUS_BTC,27,0,0,0,27,0.0,0.0,0.0,1.0,-0.65,kern_ausgeblendet
+world_fit_metric,BTC,syn_b_focus_3200_5200,B_FOCUS_BTC,27,0,0,0,27,0.0,0.0,0.0,1.0,-0.65,kern_ausgeblendet
+world_fit_metric,SOL,syn_b_focus_2400_3900,B_FOCUS_SOL,27,0,0,0,27,0.0,0.0,0.0,1.0,-0.65,kern_ausgeblendet
+world_fit_metric,SOL,syn_b_focus_3000_4500,B_FOCUS_SOL,27,0,0,0,27,0.0,0.0,0.0,1.0,-0.65,kern_ausgeblendet
+world_fit_metric,SOL,syn_b_focus_3200_5200,B_FOCUS_SOL,27,0,0,0,27,0.0,0.0,0.0,1.0,-0.65,kern_ausgeblendet
