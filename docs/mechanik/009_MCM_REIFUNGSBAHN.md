@@ -130,6 +130,8 @@ Die Folgeprüfung [1848_ANSCHLUSSQUALITAET_NEUE_FENSTER.md](../befunde/1848_ANSC
 
 Die Schärfungsprüfung [1850_ANSCHLUSSQUALITAET_SCHAERFUNG.md](../befunde/1850_ANSCHLUSSQUALITAET_SCHAERFUNG.md) vergleicht die alte Feldrollenbeschreibung mit der erweiterten Anschlussqualität. Die Basislesung enthält zwei Rollenklassen; mit Anschlussqualität entstehen sechs unterscheidbare passive Beschreibungen. Das ist ein Informationsgewinn, aber noch grob, weil die Anschlussqualität aktuell asset- und fensterbasiert aggregiert wird. Der nächste Schritt ist deshalb eine familiengenauere Prüfung.
 
+Die familiengenaue Prüfung [1851_FAMILIEN_ANSCHLUSSQUALITAET.md](../befunde/1851_FAMILIEN_ANSCHLUSSQUALITAET.md) zeigt anschließend: dieselbe Symbolfamilie kann je Weltkontext unterschiedliche Anschlussqualität tragen. Familienübergreifend bleibt die Qualität oft gemischt; auf Asset/Familien-Ebene wird sie schärfer. Bedeutung wird damit nicht als feste Worttabelle gelesen, sondern als Profil aus Familie, Weltkontext, Nachhall, Feldzeit und Anschlussqualität.
+
 ## Wie es weitergeht
 
-Als nächstes sollte geprüft werden, ob die neue Anschlussqualität über weitere Welten stabil bleibt und ob sie die passive Rollenbeschreibung verbessert, ohne eine Steuerungslogik zu werden.
+Als nächstes sollte geprüft werden, ob aus den familiengenauen Anschlussprofilen eine passive Familien-Anschlusskarte im Memory entstehen kann. Diese Karte darf keine Steuerungslogik werden; sie soll nur tragen, welche Familien in welchem Weltkontext eher kernnah, nachhallnah, offen oder nullnah wiederkehren.
