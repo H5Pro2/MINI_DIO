@@ -156,6 +156,8 @@ Die erste Weltlagenreaktion [1868_SOL_HARTKERN_WELTLAGENREAKTION.md](../befunde/
 
 Der assetübergreifende Vergleich [1873_HARTKERN_ASSET_WELTLAGEN_VERGLEICH.md](../befunde/1873_HARTKERN_ASSET_WELTLAGEN_VERGLEICH.md) erweitert diese Lesung. BTC und XRP halten ähnlich starke Kernanteile wie SOL. DOGE bleibt teilweise reproduzierbar, aber offener. PAXG ist der deutliche Gegenfall: Viele Kernpaare fehlen oder wechseln in offene/kernnahe Qualität. Damit wird die lokale Reifegruppe nicht als starres Archiv gelesen, sondern als Feldgruppe mit haltbarem Kern und assetabhängiger Peripherie.
 
+Die PAXG-Nachprüfung [1877_PAXG_HARTKERN_EINORDNUNG.md](../befunde/1877_PAXG_HARTKERN_EINORDNUNG.md) zeigt anschließend: PAXG ist kein leerer Gegenfall. Das erste 2024-5m-Fenster war besonders ungünstig. Andere PAXG-Fenster und Timeframes reproduzieren deutlich mehr Kernpaare, bleiben aber fragiler als SOL, BTC und XRP. Daraus folgt: Reife ist nicht nur Kernwiederkehr, sondern Kernwiederkehr unter passender Weltlage.
+
 ## Wie es weitergeht
 
-Als nächstes sollte PAXG genauer untersucht werden. Entscheidend ist, ob PAXG eine andere Feldordnung trägt oder ob die geprüfte 2024-Realwelt nur ein ungünstiges Fenster für den bisherigen Hartkern ist.
+Als nächstes sollte eine Weltpassungs-Metrik gebaut werden. Sie soll lesen, ob eine Weltlage den Kern trägt, öffnet, verschiebt oder ausblendet.
