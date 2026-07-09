@@ -1,0 +1,6 @@
+preview_symbol,before_real_phase,follow_phase,before_profile,follow_profile,profile_delta_follow_minus_before,before_depth,follow_depth,depth_delta_follow_minus_before,follow_count,follow_world_count,memory_depth_score_after_follow,memory_world_count_after_follow,memory_count_after_follow
+dio_mcm_episode_12fuh1y,ruhig_getragene_nahe,ruhig_getragene_nahe,0.775122,0.8126,0.037478,0.708216,0.815401,0.107185,3,2,0.816618,5,9
+dio_mcm_episode_1i3ov0z,ruhig_getragene_nahe,zentrumsnah_getragen,0.725464,0.69207,-0.033394,0.679718,0.740037,0.060319,1,1,0.740037,5,248
+dio_mcm_episode_1ole1yf,zentrumsnah_getragen,zentrumsnah_getragen,0.530385,0.523571,-0.006814,0.402788,0.505141,0.102353,7,3,0.502698,8,16
+dio_mcm_episode_1foqdcq,zentrumsnah_getragen,zentrumsnah_getragen,0.61785,0.624304,0.006454,0.473577,0.590804,0.117227,3,2,0.608569,5,7
+dio_mcm_episode_1cbmua3,zentrumsnah_getragen,zentrumsnah_getragen,0.582286,0.0,-0.582286,0.439347,0.0,-0.439347,0,0,0.502354,3,6
