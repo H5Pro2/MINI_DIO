@@ -235,6 +235,39 @@ def make_role_maturation_symbol(payload: dict) -> str:
     return f"dio_mature_{_base36(hash_value).rjust(7, '0')}"
 
 
+def make_role_family_memory_symbol(payload: dict) -> str:
+    """Create a stable DIO identity from family membership only."""
+
+    members = sorted(
+        part.strip()
+        for part in str(payload.get("member_symbols", "") or "").split(";")
+        if part.strip()
+    )
+    values = [str(payload.get("role_family", "") or ""), *members]
+    hash_value = 2166136261
+    for value in values:
+        for char in str(value):
+            hash_value ^= ord(char) + 72
+            hash_value = (hash_value * 16777619) & 0xFFFFFFFF
+    return f"dio_rfamily_{_base36(hash_value).rjust(7, '0')}"
+
+
+def make_role_family_evidence_symbol(payload: dict) -> str:
+    """Create DIO syntax for one passive, numeric family-evidence snapshot."""
+
+    values: list[object] = []
+    for key in sorted(payload):
+        value = payload.get(key)
+        normalized = int(round(value * 1000000.0)) if isinstance(value, float) else value
+        values.append(f"{key}={normalized}")
+    hash_value = 2166136261
+    for value in values:
+        for char in str(value):
+            hash_value ^= ord(char) + 73
+            hash_value = (hash_value * 16777619) & 0xFFFFFFFF
+    return f"dio_rstate_{_base36(hash_value).rjust(7, '0')}"
+
+
 def make_role_shift_symbol(payload: dict) -> str:
     """Create DIO-owned syntax for passive role-shift memory."""
 
