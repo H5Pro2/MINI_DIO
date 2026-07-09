@@ -134,6 +134,8 @@ Die familiengenaue Prüfung [1851_FAMILIEN_ANSCHLUSSQUALITAET.md](../befunde/185
 
 Die passive Familien-Anschlusskarte [1852_PASSIVE_FAMILIEN_ANSCHLUSSKARTE.md](../befunde/1852_PASSIVE_FAMILIEN_ANSCHLUSSKARTE.md) übernimmt diese Lesung in die Feldrollen-Memory. Sie speichert keine Steuerung, sondern nur ein passives Bedeutungsprofil: welche Familie in welchem Weltkontext eher kernnah, nachhallnah, offen, nullnah oder gemischt wiederkehrt.
 
+Die neue Fensterprüfung [1853_FAMILIEN_ANSCHLUSSKARTE_NEUE_WELTEN.md](../befunde/1853_FAMILIEN_ANSCHLUSSKARTE_NEUE_WELTEN.md) und der Reproduktionsvergleich [1854_FAMILIEN_ANSCHLUSSKARTE_REPRO_NEUE_WELTEN.md](../befunde/1854_FAMILIEN_ANSCHLUSSKARTE_REPRO_NEUE_WELTEN.md) zeigen danach: Die Karte reproduziert einzelne Asset/Familien-Profile, driftet aber überwiegend offen. Das ist kein Gegenbefund zur Reifungsbahn, sondern eine Präzisierung. Die Karte darf nicht als feste Symboltabelle gelesen werden. Sie beschreibt kontextabhängige Anschlusslagen, die sich unter neuer Weltspannung verändern können.
+
 ## Wie es weitergeht
 
-Als nächstes sollte geprüft werden, ob diese passive Familien-Anschlusskarte bei neuen Weltläufen wieder ähnliche Profilzustände erzeugt oder ob sie unter neuen Weltspannungen driftet.
+Als nächstes sollte geprüft werden, ob die offene Drift durch neue Weltspannung entsteht oder ob die Baseline-Fenster noch zu grob sind. Dafür braucht es eine Trennung zwischen echter Kontextdrift und zu breiter Anfangslesung.
