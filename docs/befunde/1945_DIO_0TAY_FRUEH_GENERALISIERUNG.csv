@@ -1,0 +1,8 @@
+gruppe,vergleichszeilen,nicht_fehlende_ruecklesungen,dateien_mit_ruecklesung,reproduziert_nullnah,geoeffnet,nachhallnah,driftet,kernnah,kurzbefund
+gesamt,366,65,39,55,6,2,1,1,"dio_0tay/frueh erscheint nicht nur im B-Fokus. Die Rolle kommt breit wieder, aber nicht in jeder Welt und nicht immer mit derselben Qualitaet."
+BTC,80,18,12,18,0,0,0,0,"In den nicht-fehlenden BTC-Ruecklesungen bleibt dio_0tay/frueh stabil phase_nullnah."
+SOL,80,18,11,18,0,0,0,0,"In den nicht-fehlenden SOL-Ruecklesungen bleibt dio_0tay/frueh stabil phase_nullnah."
+DOGE,68,10,9,7,2,0,0,1,"DOGE traegt dio_0tay/frueh haeufig nullnah, kann aber in offene oder kernnahe Qualitaet kippen."
+XRP,70,8,6,5,3,0,0,0,"XRP traegt dio_0tay/frueh teilweise nullnah, zeigt aber auch offene Ruecklesung."
+PAXG,68,11,7,7,1,2,1,0,"PAXG zeigt die schwachste Reinheit: nullnah ist vorhanden, aber Nachhall, Oeffnung und Drift treten ebenfalls auf."
+B_Fokus_SOL_BTC,32,14,10,14,0,0,0,0,"Die B-Fokus-Fenster von SOL und BTC bestaetigen dio_0tay/frueh als zonalen Traeger ueber linke, mittlere und rechte Nachbarschaft."
