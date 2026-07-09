@@ -6,6 +6,19 @@ Die Übersicht ersetzt keine Einzelreports. Sie zeigt die tragenden Befundlinien
 
 Die frühere chronologische Langfassung bleibt vollständig als [historisches Textarchiv](PROJEKTENTWICKLUNG_LANGFASSUNG_BIS_2026-07-09.md) erhalten.
 
+## MCM-Ursprung Und Theoriebezüge
+
+Die MCM entstand eigenständig aus der Betrachtung von **The Last Supper**. Nachbarforschungen wie Active Inference, Neural Fields, Reservoir Computing oder Self-Organizing Maps waren dabei keine Vorlage. Die methodischen Parallelen wurden erst später erkannt und als wissenschaftliche Anschlussstellen dokumentiert.
+
+- [1671: Nachbarforschungen und unabhängige Entstehung](befunde/1001-2000/1501-1750/1671_NACHBARFORSCHUNGEN_UND_UNABHAENGIGE_ENTSTEHUNG.md)
+- [1046: Abgleich der MCM-Abhandlungen mit MINI_DIO-Erkenntnissen](befunde/1001-2000/1001-1500/1046_MCM_ABHANDLUNGEN_ABGLEICH_MINI_DIO_ERKENNTNISSE.md)
+- [1066: Tonale Verarbeitungsspannung als Theorieanker](befunde/1001-2000/1001-1500/1066_THEORIEANKER_TONALE_VERARBEITUNGSSPANNUNG.md)
+- [1388: Feldbewusstsein als MCM-Feldnatur](befunde/1001-2000/1001-1500/1388_FELDBEWUSSTSEIN_ALS_MCM_FELDNATUR.md)
+- [853: Kosmische Matrix und Verdichtung als strukturelle Parallele](befunde/100-1000/501-1000/853_THEORIEANKER_KOSMISCHE_MATRIX_UND_VERDICHTUNG.md)
+- [1672: Priorisierung wissenschaftlicher Anschlussstellen](befunde/1001-2000/1501-1750/1672_WISSENSCHAFTLICHE_ANSCHLUSSSTELLEN_PRIORITAET.md)
+
+Kurzbefund: MINI_DIO beweist die MCM nicht. Es macht jedoch mehrere zuvor theoretisch formulierte Strukturen experimentell prüfbar: Topologie, Feldzeit, Nachhall, Selbstregulation, Resonanzverdichtung, Rezeptorik und Reorganisation.
+
 ## 1. Reproduzierte Feldtopologie
 
 Die breiteste wiederkehrende Beobachtung ist eine relationale MCM-Topologie aus Zentrum, offener Variante, Brücken, Driftbereichen und Spannungsrand. Einzelne `dio_*`-Namen können wechseln, während die Rollenordnung bestehen bleibt.

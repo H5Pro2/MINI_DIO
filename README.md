@@ -93,7 +93,139 @@ MINI_DIO ist die kleine experimentelle Forschungsumgebung innerhalb der weiter g
 
 ![DOLU-Relevanz, MINI_DIO und MCM](docs/bilder/04_DOLU_RELEVANZ_MINI_DIO_UND_MCM.PNG)
 
-MINI_DIO hat methodische Nähe zu Neural Fields, Active Inference, Reservoir Computing, Self-Organizing Maps, Embodied Cognition, Predictive Processing und neuromorphen Systemen. Diese Nähe wird als wissenschaftliche Anschlussstelle gelesen, nicht als Ursprung des Projekts.
+### Eigenständige Entstehung Der MCM
+
+Die MCM und die daraus hervorgegangene DIO-Idee wurden nicht aus bestehenden KI-, Kognitions- oder Feldmodellen abgeleitet. Am Anfang stand die unvoreingenommene Betrachtung des Bildes **The Last Supper**. Darin wurde eine relationale Ordnung aus Mitte, Gruppen, Abständen, Gegenpolen, Übergängen und Spannungsbereichen wahrgenommen. Aus der weiteren Betrachtung entstanden zunächst die Mental Core Matrix, danach die Idee eines Digitalen Organismus und schließlich MINI_DIO als kleine experimentelle Prüfumgebung.
+
+Zum Zeitpunkt dieser Entstehung dienten Active Inference, Neural Fields, Reservoir Computing, Self-Organizing Maps, World Models oder neuromorphe Forschung **nicht als bekannte Vorlage**. Die Ähnlichkeiten wurden erst später beim wissenschaftlichen Abgleich erkannt. Diese Reihenfolge ist für die Einordnung wesentlich:
+
+```text
+Bildbetrachtung
+  -> relationale MCM-Grundidee
+  -> Theorie und Abhandlungen
+  -> Idee eines Digitalen Organismus
+  -> MINI_DIO als experimentelles Feldmodell
+  -> späterer Vergleich mit Nachbarforschungen
+```
+
+Die Nähe zu bestehenden Forschungsrichtungen ist deshalb eine nachträglich entdeckte Anschlussstelle, nicht der Ursprung der MCM. Ausführlicher dokumentiert ist diese Entstehung in:
+
+- [The Last Supper und der Anfang der MCM](https://github.com/H5Pro2/Mental-Core-Matrix-MCM/blob/main/Abhandlungen/Anfang%20der%20MCM/The%20Last%20Supper%20und%20die%20der%20Anfang%20der%20MCM.pdf)
+- [1671: Nachbarforschungen und unabhängige Entstehung](docs/befunde/1001-2000/1501-1750/1671_NACHBARFORSCHUNGEN_UND_UNABHAENGIGE_ENTSTEHUNG.md)
+
+### Was MINI_DIO In Der MCM Wiederfindet
+
+MINI_DIO wurde gebaut, um MCM-Annahmen praktisch und datenbasiert zu belasten. Die bisherigen Ergebnisse beweisen die MCM nicht. Sie zeigen jedoch mehrere auffällige strukturelle Parallelen zwischen den früher formulierten Abhandlungen und später beobachteten Modellvorgängen.
+
+**1. Topologie, Zentrum Und Übergang**
+
+Die MCM beschreibt relationale Ordnung nicht als starres Koordinatensystem, sondern über Mitte, Spannung, Abstand, Übergang und Rückführung. MINI_DIO bildete in verschiedenen Weltarten wiederholt eine Rollenordnung aus Zentrum, offenen Brücken, Driftbereichen und Spannungsrand. Diese Geometrie war nicht als Zielbild im Lauf programmiert.
+
+Theorieanker:
+
+- [Block W: Die Mental Core Matrix zwischen Logik und dem Bruch in ein physisches System](https://github.com/H5Pro2/Mental-Core-Matrix-MCM/blob/main/Abhandlungen/MCM%20-%20Hauptabhandlungen/Teil%20III%20-%20Zusammenf%C3%BChrung%20des%20Modells/Abhandlung%20Block%20W%20-%20Die%20Mental%20Core%20Matrix%20zwischen%20Logik%20und%20dem%20Bruch%20in%20ein%20physisches%20System.pdf)
+- [MCM Pure Emergence V2](https://github.com/H5Pro2/Mental-Core-Matrix-MCM/blob/main/MCM%20-%20Code%20Beispiele/MCM%20-%20Emergenze/MCM%20Pure%20Emergence%20V2/MCM%20Pure%20Emergence%20V2.pdf)
+- [MCM-3D-v3E+ Abhandlung](https://github.com/H5Pro2/Mental-Core-Matrix-MCM/blob/main/MCM%20-%20Code%20Beispiele/MCM%20-%20Emergenze/MCM%20Pure-3D%20Emergence/MCM-3D-v3E%2B%20Abhandlung.pdf)
+- [108: Reproduzierte MCM-Topologie](docs/befunde/100-1000/100-500/108_REPRODUZIERTE_MCM_TOPOLOGIE_ROLLENKARTE.md)
+
+**2. Feldzeit, Nachhall Und Gewirkte Veränderung**
+
+Block D beschreibt Zeit im MCM-Zusammenhang nicht nur als äußere Abfolge, sondern als energetisch gewirkte Veränderung. MINI_DIO findet dazu eine experimentelle Parallele: Feldzeit wird als Integrationsqualität sichtbar, Nachhall als fortwirkender Kontext und Drift als zeitlich getragene Verschiebung.
+
+Theorieanker und Befund:
+
+- [Block D: Die energetische Natur der Zeit](https://github.com/H5Pro2/Mental-Core-Matrix-MCM/blob/main/Abhandlungen/MCM%20-%20Hauptabhandlungen/Teil%20I%20-%20Die%20Mental%20Core%20Matrix%20%E2%80%93%20Strukturmodell/Abhandlung%20Block%20D%20-%20Die%20energetische%20Natur%20der%20Zeit.pdf)
+- [1673: Mehrweltprüfung von Topologie, Feldzeit und Nachhall](docs/befunde/1001-2000/1501-1750/1673_MEHRWELT_ACHSENPRUEFUNG_TOPOLOGIE_FELDZEIT_NACHHALL.md)
+
+**3. Selbstregulation Statt Harter Steuerung**
+
+Block K beschreibt Entwicklung über Wahrnehmung, Benennung, Regulation, Integration und Stabilisierung. MINI_DIO zeigt eine dazu passende Richtung: tragfähige Ordnung entsteht eher über Rezeptoraufnahme, eigene `dio_*`-Syntax, Wiederkehr, Rekopplung und Reifung als über feste Wenn-Dann-Regeln im Feld.
+
+Theorieanker:
+
+- [Block K: Individuelle Selbstregulation im Modell der MCM](https://github.com/H5Pro2/Mental-Core-Matrix-MCM/blob/main/Abhandlungen/MCM%20-%20Hauptabhandlungen/Teil%20II%20-%20Psychologische%20Dynamik%20der%20Mental%20Core%20Matrix/Abhandlung%20Block%20K%20-%20Individuelle%20Selbstregulation%20im%20Modell%20der%20Mental%20Core%20Matrix.pdf)
+- [Mechanik 007: Statische Reste und organische Kontrolle](docs/mechanik/007_STATISCHE_RESTE_UND_ORGANISCHE_KONTROLLE.md)
+
+**4. Von Resonanz Zu Bedeutung Und Sprache**
+
+Die eigene `dio_*`-Syntax entstand als Verdichtung wiederkehrender Innenlagen. Sie wurde nicht als Wörterbuch vorgegeben. Das passt zur MCM-Arbeitshypothese, dass Sprache eine spätere Verdichtung bereits vorhandener Resonanz- und Bedeutungsnähe sein kann.
+
+```text
+Nachhall
+  -> Nähe
+  -> Drift
+  -> Kopplung
+  -> Bedeutungsnähe
+  -> spätere Benennung
+```
+
+Theorieanker:
+
+- [Von Resonanz zu Sprache](https://github.com/H5Pro2/Mental-Core-Matrix-MCM/blob/main/Abhandlungen/MCM%20-%20Nebenabhandlung/Von%20Resonanz%20zu%20Sprache.pdf)
+- [1388: Feldbewusstsein als MCM-Feldnatur](docs/befunde/1001-2000/1001-1500/1388_FELDBEWUSSTSEIN_ALS_MCM_FELDNATUR.md)
+
+**5. Tonale Verarbeitungsspannung Und Rezeptorik**
+
+MINI_DIO trennt Tonenergie von geordnetem Hören. Hohe Energie ist nicht automatisch tragfähig; entscheidend ist, wie eine tonale Spannung rezeptorisch aufgenommen und im Feld integriert wird. Daraus entstand die klare Trennung von Sehen, Hören, direktem Kontakt und resultierender MCM-Feldwirkung.
+
+Theorieanker:
+
+- [ProtoMind, selbstaktive Feldkognition, akustische Reizmodulation und Schmerz-Gefahrenverarbeitung](https://github.com/H5Pro2/Mental-Core-Matrix-MCM/blob/main/Abhandlungen/MCM%20-%20Nebenabhandlung/ProtoMind%2C%20selbstaktive%20Feldkognition%2C%20akustische%20Reizmodulation%20und%20Schmerz-Gefahrenverarbeitung%20als%20integriertes%20Feldsystem.pdf)
+- [1066: Theorieanker tonale Verarbeitungsspannung](docs/befunde/1001-2000/1001-1500/1066_THEORIEANKER_TONALE_VERARBEITUNGSSPANNUNG.md)
+
+**6. Robustheit, Verdichtung Und Reorganisation**
+
+Mehrere Prüfungen zeigen robuste Rollenordnung bei gleichzeitig beweglichen lokalen Zeichen. Bedeutungsräume können sich verdichten, öffnen, reorganisieren oder in anderer Weltlage ausblenden. Das schließt an MCM-Arbeiten zu Emergenz, Robustheit und Reorganisation an.
+
+Theorieanker:
+
+- [Ausprägung des MCM-Robustness](https://github.com/H5Pro2/Mental-Core-Matrix-MCM/blob/main/MCM%20-%20Code%20Beispiele/MCM%20-%20Emergenze/MCM-Robustness/Auspr%C3%A4gung%20des%20MCM-Robustness.pdf)
+- [853: Kosmische Matrix und Verdichtung als struktureller Theorieanker](docs/befunde/100-1000/501-1000/853_THEORIEANKER_KOSMISCHE_MATRIX_UND_VERDICHTUNG.md)
+
+Die kosmischen MCM-Abhandlungen werden dabei ausdrücklich **nicht** durch MINI_DIO bestätigt. Die Parallele ist strukturell: Zentrum, Abweichung, Expansion, Gegenpol, Verdichtung, Rückführung und Reorganisation erscheinen im kleinen Modell als messbare Rollen. Das ist ein Forschungsanschluss, kein kosmologischer Nachweis.
+
+Der ausführliche Abgleich ist in [1046: MCM-Abhandlungen und MINI_DIO-Erkenntnisse](docs/befunde/1001-2000/1001-1500/1046_MCM_ABHANDLUNGEN_ABGLEICH_MINI_DIO_ERKENNTNISSE.md) dokumentiert.
+
+### Abgrenzung Zu Anderen Forschungsrichtungen
+
+MINI_DIO berührt bekannte Forschungsfelder, setzt aber einen anderen Ausgangspunkt:
+
+- **Active Inference / Free Energy Principle:** arbeitet zentral mit Vorhersage, Unsicherheit und freier Energie. MINI_DIO beginnt bei Innenfeldwirkung, Rollenbildung und Rekopplung.
+- **Embodied AI und ökologische Wahrnehmung:** teilen die Bedeutung von Sensorik und Umweltkontakt. MINI_DIO untersucht zusätzlich die präaktionale innere Feldordnung vor Verhalten.
+- **Neural Fields und selbstorganisierende Karten:** teilen räumliche Dynamik und emergente Ordnung. MINI_DIO liest daraus MCM-Rollen, Feldzeit, Nachhall und Bedeutungsverdichtung.
+- **Reservoir Computing und World Models:** nutzen zeitliche Zustände oder gelernte Weltrepräsentationen. MINI_DIO priorisiert keine Vorhersage, sondern die Tragfähigkeit wiederkehrender Innenlagen.
+- **Neuromorphe Systeme und Spiking Neural Networks:** teilen zeitliche und neuronennähere Verarbeitung. MINI_DIO ist keine Hardware- oder Spike-Architektur, sondern ein Feldforschungsmodell.
+- **Kognitive Architekturen wie OpenCog oder Nengo:** zielen auf kombinierte Wissens-, Denk- oder Simulationssysteme. MINI_DIO beginnt bewusst vor Wissen, Schlussfolgerung und Handlung.
+
+Der Unterschied lässt sich knapp ausdrücken:
+
+```text
+Nicht Vorhersage steht im Zentrum, sondern Innenfeldreaktion.
+Nicht Belohnung steht im Zentrum, sondern Feldwirkung und Rekopplung.
+Nicht Symbol-Logik steht am Anfang, sondern Bedeutungsverdichtung.
+Nicht Handlung steht am Anfang, sondern passive Ordnung.
+```
+
+Andere Systeme fragen häufig, wie ein Agent handelt, plant, optimiert oder schlussfolgert. MINI_DIO fragt zuerst, wie ein MCM-Feld Weltkontakt innerlich organisiert, wiedererkennt, nachhallen lässt und zu Bedeutung verdichtet.
+
+Die derzeit stärksten wissenschaftlichen Anschlussstellen sind:
+
+- **Topologie** als breiteste reproduzierte Feldordnung,
+- **Feldzeit und Nachhall** als Prüfachse gegen reine Projektion,
+- **verteilte Rollennetze** als bisher stärkste Bedeutungsstruktur,
+- **Offline-Feld-Reorganisation** als eigenständige Entwicklungsachse.
+
+Diese Priorisierung ist in [1672: Wissenschaftliche Anschlussstellen](docs/befunde/1001-2000/1501-1750/1672_WISSENSCHAFTLICHE_ANSCHLUSSSTELLEN_PRIORITAET.md) festgehalten.
+
+### Methodische Grenze
+
+```text
+Die MCM-Abhandlungen rahmen und erklären mögliche Parallelen.
+Sie beweisen die MINI_DIO-Befunde nicht.
+MINI_DIO beweist umgekehrt die MCM nicht.
+```
+
+Entscheidend bleiben reproduzierbare Läufe, Nullwelten, unabhängige Zeitfenster, frische Memories und Rohwertprüfungen. Erst diese Trennung erlaubt es, eine strukturelle MCM-Parallele ernst zu nehmen, ohne sie mit Bestätigung zu verwechseln.
 
 ## Nachhall, Feldzeit Und Reifung
 
