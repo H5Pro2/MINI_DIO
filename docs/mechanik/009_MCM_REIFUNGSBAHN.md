@@ -132,6 +132,8 @@ Die Schärfungsprüfung [1850_ANSCHLUSSQUALITAET_SCHAERFUNG.md](../befunde/1850_
 
 Die familiengenaue Prüfung [1851_FAMILIEN_ANSCHLUSSQUALITAET.md](../befunde/1851_FAMILIEN_ANSCHLUSSQUALITAET.md) zeigt anschließend: dieselbe Symbolfamilie kann je Weltkontext unterschiedliche Anschlussqualität tragen. Familienübergreifend bleibt die Qualität oft gemischt; auf Asset/Familien-Ebene wird sie schärfer. Bedeutung wird damit nicht als feste Worttabelle gelesen, sondern als Profil aus Familie, Weltkontext, Nachhall, Feldzeit und Anschlussqualität.
 
+Die passive Familien-Anschlusskarte [1852_PASSIVE_FAMILIEN_ANSCHLUSSKARTE.md](../befunde/1852_PASSIVE_FAMILIEN_ANSCHLUSSKARTE.md) übernimmt diese Lesung in die Feldrollen-Memory. Sie speichert keine Steuerung, sondern nur ein passives Bedeutungsprofil: welche Familie in welchem Weltkontext eher kernnah, nachhallnah, offen, nullnah oder gemischt wiederkehrt.
+
 ## Wie es weitergeht
 
-Als nächstes sollte geprüft werden, ob aus den familiengenauen Anschlussprofilen eine passive Familien-Anschlusskarte im Memory entstehen kann. Diese Karte darf keine Steuerungslogik werden; sie soll nur tragen, welche Familien in welchem Weltkontext eher kernnah, nachhallnah, offen oder nullnah wiederkehren.
+Als nächstes sollte geprüft werden, ob diese passive Familien-Anschlusskarte bei neuen Weltläufen wieder ähnliche Profilzustände erzeugt oder ob sie unter neuen Weltspannungen driftet.

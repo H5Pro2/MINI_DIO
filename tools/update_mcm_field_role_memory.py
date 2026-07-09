@@ -18,6 +18,7 @@ ATTACHMENT_SOURCES = [
     ROOT / "docs/befunde/1846_MCM_FELDROLLEN_MEHRASSET_ZWISCHENLAGEN.csv",
     ROOT / "docs/befunde/1848_ANSCHLUSSQUALITAET_NEUE_FENSTER.csv",
 ]
+FAMILY_ATTACHMENT_SOURCE = ROOT / "docs/befunde/1851_FAMILIEN_ANSCHLUSSQUALITAET.csv"
 MEMORY_PATH = ROOT / Config.DIO_MINI_EPISODIC_MEMORY_PATH
 
 PASSIVE_FLAGS = {
@@ -141,6 +142,75 @@ def build_attachment_quality_memory(rows: list[dict[str, str]]) -> dict:
     }
 
 
+def build_family_attachment_quality_memory(rows: list[dict[str, str]]) -> dict:
+    if not rows:
+        return {
+            **PASSIVE_FLAGS,
+            "kind": "passive_mcm_family_attachment_quality_memory",
+            "source": str(FAMILY_ATTACHMENT_SOURCE.relative_to(ROOT)),
+            "memory_state": "family_attachment_quality_not_available",
+            "description": "Passive Familien-Anschlusskarte ist noch nicht erzeugt.",
+            "state_counts": {},
+            "quality_counts": {},
+            "family_profiles": [],
+            "asset_family_profiles": [],
+        }
+
+    family_rows = [row for row in rows if row.get("row_type") == "family_attachment_summary"]
+    asset_family_rows = [row for row in rows if row.get("row_type") == "asset_family_attachment_summary"]
+    state_counts = Counter(str(row.get("attachment_profile_state") or "-") for row in family_rows)
+    quality_counts = Counter(str(row.get("dominant_attachment_quality") or "-") for row in family_rows)
+    asset_quality_counts = Counter(
+        f"{row.get('asset', '-')}::{row.get('dominant_attachment_quality', '-')}"
+        for row in asset_family_rows
+    )
+
+    def family_profile(row: dict[str, str]) -> dict:
+        return {
+            **PASSIVE_FLAGS,
+            "family": str(row.get("family") or ""),
+            "appearances": int(_float(row.get("appearances"))),
+            "asset_count": int(_float(row.get("asset_count"))),
+            "window_count": int(_float(row.get("window_count"))),
+            "attachment_profile_state": str(row.get("attachment_profile_state") or ""),
+            "dominant_attachment_quality": str(row.get("dominant_attachment_quality") or ""),
+            "attachment_profile": str(row.get("attachment_profile") or ""),
+            "dominant_family_reading": str(row.get("dominant_family_reading") or ""),
+            "family_reading_profile": str(row.get("family_reading_profile") or ""),
+            "mean_afterimage_delta": round(_float(row.get("mean_afterimage_delta")), 6),
+            "mean_temporal_delta": round(_float(row.get("mean_temporal_delta")), 6),
+            "mean_field_edge_score": round(_float(row.get("mean_field_edge_score")), 6),
+        }
+
+    def asset_family_profile(row: dict[str, str]) -> dict:
+        return {
+            **PASSIVE_FLAGS,
+            "asset": str(row.get("asset") or ""),
+            "family": str(row.get("family") or ""),
+            "appearances": int(_float(row.get("appearances"))),
+            "attachment_profile_state": str(row.get("attachment_profile_state") or ""),
+            "dominant_attachment_quality": str(row.get("dominant_attachment_quality") or ""),
+            "attachment_profile": str(row.get("attachment_profile") or ""),
+            "mean_field_edge_score": round(_float(row.get("mean_field_edge_score")), 6),
+        }
+
+    return {
+        **PASSIVE_FLAGS,
+        "kind": "passive_mcm_family_attachment_quality_memory",
+        "source": str(FAMILY_ATTACHMENT_SOURCE.relative_to(ROOT)),
+        "memory_state": "family_attachment_quality_from_real_world_windows",
+        "description": (
+            "Passive Familien-Anschlusskarte. Speichert, in welchem Weltkontext "
+            "eine Familie eher kernnah, nachhallnah, offen, nullnah oder gemischt wiederkehrt."
+        ),
+        "state_counts": dict(state_counts.most_common()),
+        "quality_counts": dict(quality_counts.most_common()),
+        "asset_quality_counts": dict(asset_quality_counts.most_common()),
+        "family_profiles": [family_profile(row) for row in family_rows[:48]],
+        "asset_family_profiles": [asset_family_profile(row) for row in asset_family_rows[:96]],
+    }
+
+
 def build_field_role_memory(rows: list[dict[str, str]]) -> dict:
     items = []
     for row in rows:
@@ -175,6 +245,7 @@ def build_field_role_memory(rows: list[dict[str, str]]) -> dict:
     state_counts = Counter(str(item["field_role_state"]) for item in items)
     asset_counts = Counter(str(item["asset"]) for item in items)
     attachment_memory = build_attachment_quality_memory(_read_attachment_rows())
+    family_attachment_memory = build_family_attachment_quality_memory(_read_optional_rows(FAMILY_ATTACHMENT_SOURCE))
     return {
         **PASSIVE_FLAGS,
         "kind": "passive_mcm_field_role_memory",
@@ -187,6 +258,7 @@ def build_field_role_memory(rows: list[dict[str, str]]) -> dict:
         "state_counts": dict(state_counts.most_common()),
         "asset_counts": dict(asset_counts.most_common()),
         "attachment_quality": attachment_memory,
+        "family_attachment_quality": family_attachment_memory,
         "top_roles": items[:48],
     }
 
@@ -202,6 +274,7 @@ def main() -> int:
     print(f"top_roles={len(role_memory['top_roles'])}")
     print(f"states={role_memory['state_counts']}")
     print(f"attachment_quality={role_memory['attachment_quality']['quality_counts']}")
+    print(f"family_attachment_quality={role_memory['family_attachment_quality']['state_counts']}")
     return 0
 
 
