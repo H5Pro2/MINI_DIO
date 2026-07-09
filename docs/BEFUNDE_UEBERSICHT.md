@@ -97,8 +97,9 @@ Die aktuelle Kette untersucht, ob einzelne Rollen als Familienräume weiterleben
 - [2071: Numerische Folgeweltkontinuität und Rollendrift](befunde/2001-3000/2071_PASSIVE_ROLLENFAMILIEN_MEMORY_FOLGEWELTDRIFT.md)
 - [2072: Fünf bisher ungelesene Familien in denselben Folgewelten](befunde/2001-3000/2072_OFFENE_ROLLENFAMILIEN_GLEICHE_SYMBOLBASIS_FOLGEWELTEN.md)
 - [2073: Rollenfamilien im Real-/Nullwelt-Kontrast](befunde/2001-3000/2073_ROLLENFAMILIEN_REAL_NULL_KONTRAST.md)
+- [2074: `rf_05` im unabhängigen Jahres- und Zeitebenen-Holdout](befunde/2001-3000/2074_RF05_CROSSYEAR_TIMEFRAME_HOLDOUT.md)
 
-Kurzbefund: Alle acht Familien besitzen reale Folgeweltevidenz, aber der Kontrollvergleich begrenzt deren Bedeutung deutlich. Shuffle erreicht im Mittel höhere Kontinuität als Realwelt, Random Sign liegt etwa auf Realniveau. Nur `rf_05` liegt im Gruppenprofil gleichzeitig bei Kontinuität, Ereignisanteil und Mitgliederabdeckung über beiden Kontrollen. Die Familien belegen damit feldinterne relationale Wiederkehr, aber noch keine breit nachgewiesene realweltspezifische Bedeutung.
+Kurzbefund: Alle acht Familien besitzen reale Folgeweltevidenz, aber der Kontrollvergleich begrenzt deren Bedeutung deutlich. Shuffle erreicht im Mittel höhere Kontinuität als Realwelt, Random Sign liegt etwa auf Realniveau. `rf_05` war zunächst die einzige Familie mit gemeinsamem Vorsprung auf drei Achsen. Der unabhängige 2024-Holdout reproduziert diesen Vorsprung nicht: Real liegt über Shuffle, aber bei Kontinuität, Ereignisanteil und Abdeckung unter Random Sign. Die Familien belegen damit feldinterne relationale Wiederkehr, aber derzeit keine allgemein nachgewiesene realweltspezifische Bedeutung.
 
 ## 8. Methodische Grenzen Und Gegenproben
 

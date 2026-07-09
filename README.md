@@ -325,13 +325,13 @@ Das ist kein Nachweis allgemeiner Intelligenz und kein Bewusstseinsbeweis. Es is
 
 Die jüngste Forschung verdichtet einzelne `dio_*`-Rollen zu passiven Rollenfamilien. Acht Familien mit 29 Mitgliedern wurden in realen Folgewelten und anschließend gegen zeitstrukturzerstörte Kontrollwelten gelesen. Dabei zeigt sich kein einheitlich realweltgebundener Familientyp:
 
-- `rf_05` liegt als einzige Familie zugleich bei Kontinuität, Ereignisanteil und Mitgliederabdeckung über beiden Kontrollgruppen.
+- `rf_05` lag in der ersten Kontrollgruppe zugleich bei Kontinuität, Ereignisanteil und Mitgliederabdeckung über beiden Kontrollen. Ein unabhängiger 2024-Holdout mit `1h`- und `15m`-Welten reproduzierte diesen gemeinsamen Vorsprung jedoch nicht.
 - `rf_07` trägt einen höheren realen Ereignisanteil, ist aber auch in beiden Kontrollformen vollständig abgedeckt und dort leicht kontinuierlicher.
 - `rf_08` liegt bei Kontinuität und Abdeckung über beiden Kontrollen, nicht jedoch beim Ereignisanteil.
 - `rf_17` wird durch Shuffle deutlich stärker gelesen als durch die reale Zeitfolge.
-- Über alle acht Familien liegt Shuffle bei mittlerer Kontinuität über Realwelt; Random Sign liegt etwa auf Realniveau.
+- Über alle acht Familien liegt Shuffle bei mittlerer Kontinuität über Realwelt; Random Sign liegt etwa auf Realniveau. Für `rf_05` liegt im neuen Holdout Realwelt über Shuffle, aber auf allen drei Primärachsen unter Random Sign.
 
-Die Memory speichert dafür nur Identität, Herkunft und numerische Evidenz. Begriffe wie stabil, reorganisierend oder fragmentiert bleiben nachgelagerte Forschungssprache und werden nicht als Regeln in den Organismus geschrieben. Die Anschlussfähigkeit aus realen Folgewelten ist damit zunächst ein Befund feldinterner Wiederkehr und noch kein allgemeiner Nachweis realweltspezifischer Bedeutung.
+Die Memory speichert dafür nur Identität, Herkunft und numerische Evidenz. Begriffe wie stabil, reorganisierend oder fragmentiert bleiben nachgelagerte Forschungssprache und werden nicht als Regeln in den Organismus geschrieben. Die Anschlussfähigkeit aus realen Folgewelten ist damit zunächst ein Befund feldinterner Wiederkehr. Für keine der acht Familien ist derzeit eine allgemeine realweltspezifische Bedeutung nachgewiesen.
 
 Die thematisch geordnete Kurzfassung mit direkten Links liegt in der [Befundübersicht](docs/BEFUNDE_UEBERSICHT.md).
 
@@ -343,6 +343,7 @@ Aktuelle Befundkette:
 - [2071: Folgeweltkontinuität und Rollendrift in der Memory](docs/befunde/2001-3000/2071_PASSIVE_ROLLENFAMILIEN_MEMORY_FOLGEWELTDRIFT.md)
 - [2072: Bisher ungelesene Rollenfamilien in Folgewelten](docs/befunde/2001-3000/2072_OFFENE_ROLLENFAMILIEN_GLEICHE_SYMBOLBASIS_FOLGEWELTEN.md)
 - [2073: Rollenfamilien im Real-/Nullwelt-Kontrast](docs/befunde/2001-3000/2073_ROLLENFAMILIEN_REAL_NULL_KONTRAST.md)
+- [2074: `rf_05` im unabhängigen Jahres- und Zeitebenen-Holdout](docs/befunde/2001-3000/2074_RF05_CROSSYEAR_TIMEFRAME_HOLDOUT.md)
 
 ## Visueller Forschungsweg
 
