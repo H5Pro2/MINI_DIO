@@ -138,6 +138,8 @@ Die neue Fensterprüfung [1853_FAMILIEN_ANSCHLUSSKARTE_NEUE_WELTEN.md](../befund
 
 Die Driftquellen-Prüfung [1855_FAMILIEN_ANSCHLUSSKARTE_DRIFTQUELLEN.md](../befunde/1855_FAMILIEN_ANSCHLUSSKARTE_DRIFTQUELLEN.md) trennt diese offene Drift weiter. Der größte Block ist `baseline_offen_wird_spezifisch`: eine zu breite oder offene Baseline wird in neuen Fenstern konkreter. Ein zweiter Block ist `spezifisch_wird_offen`: ein zuvor spezifisches Profil verliert unter neuer Weltspannung Schärfe. BTC zeigt zusätzlich einen geschlossenen Übergang von `nachhallnah_ohne_kern` nach `kernnah`. Daraus folgt: Die Baseline muss enger gebaut werden, bevor Drift als reine Weltspannung gelesen wird.
 
+Die phasengenaue Baseline-Prüfung [1856_FAMILIEN_ANSCHLUSS_PHASE_BASELINE.md](../befunde/1856_FAMILIEN_ANSCHLUSS_PHASE_BASELINE.md) baut diese engere Lesung testweise als Asset/Familie/Phase auf. Ergebnis: Die offene Drift sinkt dadurch noch nicht. Die Zustände wiederholen sich über Früh-, Mittel- und Spätphase nahezu gleich, weil die Anschlussqualität weiterhin aus dem Gesamtfenster geerbt wird. Der Befund ist methodisch wichtig: Nicht nur der Schlüssel muss phasengenauer werden, sondern die Anschlussqualität selbst muss innerhalb jeder Phase gegen passende Nullwelt-Phasen neu gelesen werden.
+
 ## Wie es weitergeht
 
-Als nächstes sollte die Baseline enger gebaut werden: Asset/Familie/Fensterphase statt nur Asset/Familie. Danach lässt sich prüfen, ob die offene Drift sinkt und echte Kontextdrift klarer übrig bleibt.
+Als nächstes sollte Anschlussqualität phasenlokal berechnet werden: Früh/Mitte/Spät jeweils gegen passende Nullwelt-Phasen. Erst dann lässt sich prüfen, ob die Drift wirklich aus Weltspannung entsteht oder aus zu grober Fenstervererbung.
