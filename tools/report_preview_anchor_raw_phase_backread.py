@@ -54,9 +54,11 @@ def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--debug-root", action="append", required=True)
     parser.add_argument("--out-csv", required=True)
+    parser.add_argument("--target", action="append", default=[])
     args = parser.parse_args()
 
     debug_roots = [Path(value) for value in args.debug_root]
+    targets = args.target or TARGETS
     buckets: dict[str, dict[str, object]] = {
         target: {
             "count": 0,
@@ -78,7 +80,7 @@ def main() -> int:
             "visual_salience": [],
             "field_pressure": [],
         }
-        for target in TARGETS
+        for target in targets
     }
 
     for episode_file in _iter_episode_files(debug_roots):
