@@ -1,0 +1,5 @@
+candidate_class,families,present_in,fields,max_xrp_events,max_multi_events
+gemeinsame_feldsyntax_offen,121,xrp_and_multi:121,tragende_rekopplung:105;offene_rekopplung:16,118,110
+gemeinsame_syntax_verschoben,29,xrp_and_multi:29,tragende_rekopplung:17;offene_rekopplung:6;spannungsnahe_oeffnung:4;getragen_offen:2,88,10
+lokale_junge_syntaxinsel,578,xrp_only:458;multi_only:120,tragende_rekopplung:277;offene_rekopplung:196;spannungsnahe_oeffnung:92;offener_feldkontakt:13,78,27
+robuste_feldsyntax,269,xrp_and_multi:269,tragende_rekopplung:267;offene_rekopplung:2,3380,2412
