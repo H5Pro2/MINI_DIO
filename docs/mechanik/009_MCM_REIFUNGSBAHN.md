@@ -150,6 +150,8 @@ Aus diesen `254` reproduzierten lokalen Qualitäten wurde in [1862_PASSIVE_LOKAL
 
 Die weitere Folgeprüfung [1863_LOKALE_REIFEGRUPPE_WEITERE_FOLGEFENSTER.md](../befunde/1863_LOKALE_REIFEGRUPPE_WEITERE_FOLGEFENSTER.md) nutzt andere Startpunkte und eine andere Fensterlänge. Der Reproduktionsbericht [1864_LOKALE_REIFEGRUPPE_REPRO_WEITERE_FENSTER.md](../befunde/1864_LOKALE_REIFEGRUPPE_REPRO_WEITERE_FENSTER.md) zeigt: Der stabile lokale Kern bleibt sichtbar, aber schwächer. Von den phasenlokal eigenständigen Baseline-Paaren reproduzieren `220` dieselbe lokale Qualität. Gegenüber `254` in 1861 ist das weniger, aber weiterhin deutlich. Das spricht für eine Reifegruppe mit Kern und Randdrift: ein Teil bleibt feldnah stabil, ein Teil öffnet sich, wird nullnah, nachhallnah oder kippt in andere lokale Qualität.
 
+Die Schnittmengen-Lesung [1865_LOKALE_REIFEGRUPPE_HARTER_KERN.md](../befunde/1865_LOKALE_REIFEGRUPPE_HARTER_KERN.md) prüft danach, welche Familien-Phasen-Paare in beiden Folgeprüfungen dieselbe lokale Qualität halten. Von `446` phasenlokal eigenständigen Baseline-Paaren bilden `147` einen harten Kern. Weitere `107` reproduzieren nur in der ersten Folgeprüfung und `73` nur in der zweiten. Damit wird die Reifegruppe schärfer lesbar: Es gibt einen stabileren Innenkern und eine größere Randzone, die unter anderer Weltlage offen, nullnah, nachhallnah oder kontextabhängig wird.
+
 ## Wie es weitergeht
 
-Als nächstes sollte aus 1861 und 1864 eine Schnittmengen-Lesung gebaut werden. Entscheidend ist, welche Familien-Phasen-Paare in beiden Folgeprüfungen dieselbe lokale Qualität halten. Das wäre der härtere Kern der passiven lokalen Reifegruppe.
+Als nächstes sollte geprüft werden, ob dieser harte Kern unter Stress-, Expansions- und Ruhewelten stabil bleibt oder gezielt in Randdrift wechselt. Entscheidend ist, ob Reife als haltbarer Kern mit beweglicher Peripherie lesbar bleibt.
