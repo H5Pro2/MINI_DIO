@@ -1,0 +1,6 @@
+symbol_family,holdout_label,field_contact_class,events,distinct_symbols,top_symbols,avg_carry,avg_strain,avg_rekopplung,boundary
+dio_17j2,doge_real,tragende_rekopplung,4,1,dio_17j2u81:4,0.477,0.141,0.694,single_family_passive_role_trace_no_action_no_direction
+dio_17j2,kas_equal,tragende_rekopplung,4,1,dio_17j2u81:4,0.505,0.134,0.703,single_family_passive_role_trace_no_action_no_direction
+dio_17j2,paxg_real,tragende_rekopplung,10,1,dio_17j2u81:10,0.503,0.131,0.707,single_family_passive_role_trace_no_action_no_direction
+dio_17j2,xrp_adapted,tragende_rekopplung,14,1,dio_17j2u81:14,0.515,0.125,0.712,single_family_passive_role_trace_no_action_no_direction
+dio_17j2,xrp_real,tragende_rekopplung,14,1,dio_17j2u81:14,0.513,0.128,0.711,single_family_passive_role_trace_no_action_no_direction
