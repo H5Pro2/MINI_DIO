@@ -1,0 +1,9 @@
+role_family,members,found_members,missing_members,overlap_ratio,source_overlap_status,found_symbols,missing_symbols,boundary
+rf_05,8,2,6,0.250000,anschluss_teilweise,dio_0fe7;dio_1xrt,dio_0ein;dio_0qup;dio_0u24;dio_0v65;dio_17dc;dio_1ba6,passive_source_overlap_trace_no_action_no_direction
+rf_06,8,0,8,0.000000,anschluss_fehlend,-,dio_0f8s;dio_0gh3;dio_0lr0;dio_0nx9;dio_0s8r;dio_1ejq;dio_1xme;dio_1yhs,passive_source_overlap_trace_no_action_no_direction
+rf_13,3,0,3,0.000000,anschluss_fehlend,-,dio_14l0;dio_1sub;dio_1t9l,passive_source_overlap_trace_no_action_no_direction
+rf_07,2,2,0,1.000000,anschluss_genuegend,dio_0g2r;dio_1ewh,-,passive_source_overlap_trace_no_action_no_direction
+rf_21,2,2,0,1.000000,anschluss_genuegend,dio_1pij;dio_1v2w,-,passive_source_overlap_trace_no_action_no_direction
+rf_08,2,0,2,0.000000,anschluss_fehlend,-,dio_0h6t;dio_1w94,passive_source_overlap_trace_no_action_no_direction
+rf_10,2,0,2,0.000000,anschluss_fehlend,-,dio_0ioc;dio_0jsd,passive_source_overlap_trace_no_action_no_direction
+rf_17,2,0,2,0.000000,anschluss_fehlend,-,dio_1cmd;dio_1udx,passive_source_overlap_trace_no_action_no_direction
