@@ -409,6 +409,9 @@ def run_once(
     adaptive_rekopplung_counter = {}
     adaptive_milieu_counter = {}
     sensory_coupling_values = []
+    preview_anchor_depth_counter = {}
+    preview_anchor_depth_values = []
+    preview_anchor_profile_values = []
     symbol_counter = {}
     active_phase = {
         "action": "WAIT",
@@ -629,6 +632,44 @@ def run_once(
         mcm_field_episode_preview_payload = episode_tracker.preview()
         if mcm_field_episode_preview_payload:
             mcm_field_episode_preview_symbol = make_mcm_field_episode_symbol(mcm_field_episode_preview_payload)
+        preview_anchor_profile_proximity = 0.0
+        preview_anchor_depth_state = "-"
+        preview_anchor_depth_score = 0.0
+        preview_anchor_world_count = 0
+        if mcm_field_episode_preview_symbol != "-":
+            preview_anchor_profile_proximity = _clip(
+                (float(mcm_field_effect["sensory_coupling"]) * 0.20)
+                + (float(mcm_field_effect["mcm_rekopplung_quality"]) * 0.22)
+                + ((1.0 - float(mcm_field_effect["mcm_strain_quality"])) * 0.14)
+                + (float(temporal_state["mini_recurrence_strength"]) * 0.18)
+                + (float(temporal_state["mini_afterimage"]) * 0.16)
+                + (float(reflection_context["reflection_context_alignment"]) * 0.10),
+                0.0,
+                1.0,
+            )
+            preview_anchor_depth = memory.store_passive_mcm_preview_anchor_depth(
+                {
+                    "preview_symbol": mcm_field_episode_preview_symbol,
+                    "world": passive_world_label or "-",
+                    "tick": index,
+                    "effect": passive_mcm_effect_class,
+                    "symbol_family": symbol_family,
+                    "profile_proximity": preview_anchor_profile_proximity,
+                    "afterimage": temporal_state["mini_afterimage"],
+                    "recurrence": temporal_state["mini_recurrence_strength"],
+                    "rekopplung": mcm_field_effect["mcm_rekopplung_quality"],
+                    "strain": mcm_field_effect["mcm_strain_quality"],
+                    "sensory_coupling": mcm_field_effect["sensory_coupling"],
+                }
+            )
+            preview_anchor_depth_state = str(preview_anchor_depth.get("depth_state", "-") or "-")
+            preview_anchor_depth_score = float(preview_anchor_depth.get("depth_score", 0.0) or 0.0)
+            preview_anchor_world_count = int(preview_anchor_depth.get("world_count", 0) or 0)
+            preview_anchor_depth_counter[preview_anchor_depth_state] = (
+                int(preview_anchor_depth_counter.get(preview_anchor_depth_state, 0) or 0) + 1
+            )
+            preview_anchor_depth_values.append(preview_anchor_depth_score)
+            preview_anchor_profile_values.append(preview_anchor_profile_proximity)
         if episode_payload:
             episode_memory_symbol = memory.store_episode_memory(episode_payload)
             mcm_field_episode_symbol = memory.store_mcm_field_episode_memory(episode_payload)
@@ -687,6 +728,10 @@ def run_once(
                 "episode_memory_symbol": episode_memory_symbol,
                 "mcm_field_episode_symbol": mcm_field_episode_symbol,
                 "mcm_field_episode_preview_symbol": mcm_field_episode_preview_symbol,
+                "mcm_preview_anchor_depth_state": preview_anchor_depth_state,
+                "mcm_preview_anchor_depth_score": f"{preview_anchor_depth_score:.6f}",
+                "mcm_preview_anchor_world_count": int(preview_anchor_world_count),
+                "mcm_preview_anchor_profile_proximity": f"{preview_anchor_profile_proximity:.6f}",
                 "action": action,
                 "raw_action": raw_action,
                 "phase_active": int(phase_active),
@@ -856,6 +901,11 @@ def run_once(
         "episode_memory_transitions": dict(sorted(episode_transition_counter.items())),
         "episode_memory_written": episode_memory_written,
         "mcm_field_episode_written": mcm_field_episode_written,
+        "preview_anchor_depth_states": dict(sorted(preview_anchor_depth_counter.items())),
+        "avg_preview_anchor_depth_score": sum(preview_anchor_depth_values) / max(1, len(preview_anchor_depth_values)),
+        "max_preview_anchor_depth_score": max(preview_anchor_depth_values) if preview_anchor_depth_values else 0.0,
+        "avg_preview_anchor_profile_proximity": sum(preview_anchor_profile_values) / max(1, len(preview_anchor_profile_values)),
+        "top_preview_anchor_depth": memory.compact_top_preview_anchor_depth(12),
         "avg_reflection_context_carry": sum(reflection_carry_values) / max(1, len(reflection_carry_values)),
         "max_reflection_context_carry": max(reflection_carry_values) if reflection_carry_values else 0.0,
         "avg_reflection_context_strain": sum(reflection_strain_values) / max(1, len(reflection_strain_values)),

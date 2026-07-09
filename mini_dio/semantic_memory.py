@@ -38,6 +38,10 @@ from mini_dio.mcm_field_memory_store import (
     store_mcm_field_episode_memory as store_mcm_field_episode_memory_trace,
     top_mcm_field_episode_memory,
 )
+from mini_dio.mcm_preview_anchor_depth_memory import (
+    store_passive_mcm_preview_anchor_depth as store_passive_mcm_preview_anchor_depth_trace,
+    top_preview_anchor_depth as top_preview_anchor_depth_trace,
+)
 from mini_dio.perception_memory_store import (
     compact_temporal_families as compact_temporal_families_store,
     store_temporal_family as store_temporal_family_trace,
@@ -107,6 +111,7 @@ class SemanticMemory:
             "passive_mcm_role_movement_memory": {},
             "passive_mcm_role_network": {},
             "passive_mcm_role_shift_memory": {},
+            "passive_mcm_preview_anchor_depth_memory": {},
             "passive_sleep_reorganization_memory": {},
             "passive_sleep_reorganization_history": [],
         }
@@ -155,6 +160,7 @@ class SemanticMemory:
             self.data.setdefault("passive_mcm_role_movement_memory", {})
             self.data.setdefault("passive_mcm_role_network", {})
             self.data.setdefault("passive_mcm_role_shift_memory", {})
+            self.data.setdefault("passive_mcm_preview_anchor_depth_memory", {})
             self.data.setdefault("passive_sleep_reorganization_memory", {})
             self.data.setdefault("passive_sleep_reorganization_history", [])
             self.compact_symbols()
@@ -531,3 +537,15 @@ class SemanticMemory:
         """
 
         store_passive_mcm_role_network_trace(self.data, role_network)
+
+    def store_passive_mcm_preview_anchor_depth(self, payload: dict) -> dict:
+        """Store passive MCM preview-anchor depth.
+
+        This stores semantic depth of recurring preview symbols. It is not
+        consumed by action, entries, gates, direction, or motoric behavior.
+        """
+
+        return store_passive_mcm_preview_anchor_depth_trace(self.data, payload)
+
+    def compact_top_preview_anchor_depth(self, limit: int = 12) -> list[dict]:
+        return top_preview_anchor_depth_trace(self.data, limit=limit)

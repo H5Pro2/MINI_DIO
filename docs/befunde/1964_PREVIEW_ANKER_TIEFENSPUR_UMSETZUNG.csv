@@ -1,0 +1,2 @@
+probe,world_label,data_path,candles,preview_depth_entries,local_depth_seed,surface_anchor,avg_depth_score,max_depth_score,avg_profile_proximity,passive_only,read_by_mini_dio,influences_action,is_gate,is_motoric,is_entry_signal,is_direction_signal,befund
+preview_depth_probe,PREVIEW_DEPTH_PROBE,data\btc_2025_1h_follow_candidate_2000_3000.csv,1000,56,899,95,0.504173,0.701278,0.675063,1,0,0,0,0,0,0,passive_tiefenspur_wird_geschrieben
