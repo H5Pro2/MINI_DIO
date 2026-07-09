@@ -173,3 +173,7 @@ Die Folgefenster-Prüfung [1884_PASSIVE_WELTPASSUNG_MEMORY_WACHSTUM.md](../befun
 Wichtig ist hier nicht nur die höhere Anzahl, sondern die neue Zwischenqualität `kern_verschoben`: Der harte Kern ist nicht verschwunden, wird aber von einer Weltlage anders getragen. Damit wird Drift als passive Erfahrung speicherbar, ohne daraus Handlung, Gate oder Richtung abzuleiten.
 
 Wie es weitergeht: Als nächstes sollte geprüft werden, ob `kern_verschoben` bei weiteren Folgefenstern wiederkehrt oder ob es nur eine asset- und fensterspezifische Übergangslage war.
+
+Die PAXG-Folgeprüfung [1889_PAXG_KERNVERSCHIEBUNG_EINORDNUNG.md](../befunde/1889_PAXG_KERNVERSCHIEBUNG_EINORDNUNG.md) zeigt anschließend: `kern_verschoben` ist in dieser Serie keine stabile neue Hauptklasse. Die PAXG-Fenster wechseln von `kern_verschoben` über `kern_ausgeblendet` zurück zu `kern_getragen`. Damit wirkt PAXG als Randpassungs-Testfall. Der Kern ist nicht dauerhaft verloren, aber die Weltlage trägt ihn wechselnd. Die Memory wächst entsprechend auf `kern_getragen: 13`, `kern_ausgeblendet: 5`, `kern_verschoben: 1`.
+
+Wie es weitergeht: Als nächstes sollte dieselbe Übergangsprüfung mit einem anderen fragilen Asset oder einem anderen Timeframe wiederholt werden.
