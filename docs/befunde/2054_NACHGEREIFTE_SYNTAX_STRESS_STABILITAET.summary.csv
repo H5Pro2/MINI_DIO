@@ -1,0 +1,4 @@
+stress_status,families,matured_trace_classes,stress_fields,max_stress_events
+stress_jung_wiedergefunden,28,nachgereift_schwach:20;nachgereift_multi_zu_folgewelt:4;nachgereift_tragend:2;nachgereift_offen:1;nachgereift_spannungsnah:1,tragende_rekopplung:23;offene_rekopplung:5,26
+stress_nicht_wiedergefunden,40,nachgereift_schwach:20;nachgereift_spannungsnah:12;nachgereift_offen:4;nachgereift_tragend:2;nachgereift_multi_zu_folgewelt:2,-:40,0
+stress_stabil_weltuebergreifend,4,nachgereift_schwach:4,tragende_rekopplung:3;offene_rekopplung:1,15
