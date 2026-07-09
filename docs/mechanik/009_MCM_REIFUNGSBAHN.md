@@ -140,6 +140,8 @@ Die Driftquellen-Prüfung [1855_FAMILIEN_ANSCHLUSSKARTE_DRIFTQUELLEN.md](../befu
 
 Die phasengenaue Baseline-Prüfung [1856_FAMILIEN_ANSCHLUSS_PHASE_BASELINE.md](../befunde/1856_FAMILIEN_ANSCHLUSS_PHASE_BASELINE.md) baut diese engere Lesung testweise als Asset/Familie/Phase auf. Ergebnis: Die offene Drift sinkt dadurch noch nicht. Die Zustände wiederholen sich über Früh-, Mittel- und Spätphase nahezu gleich, weil die Anschlussqualität weiterhin aus dem Gesamtfenster geerbt wird. Der Befund ist methodisch wichtig: Nicht nur der Schlüssel muss phasengenauer werden, sondern die Anschlussqualität selbst muss innerhalb jeder Phase gegen passende Nullwelt-Phasen neu gelesen werden.
 
+Die phasenlokale Anschlussprüfung [1857_PHASENLOKALE_ANSCHLUSSQUALITAET.md](../befunde/1857_PHASENLOKALE_ANSCHLUSSQUALITAET.md) setzt genau das um. Jede Realwelt-Familie wird pro Phase gegen `null_random` und `null_shuffle` derselben Quelle, desselben Assets, desselben Fensters und derselben Familie gelesen. Ergebnis: Von `3240` Phasenzeilen unterscheiden sich `2623` von der geerbten Fensterqualität. Das ist ein deutlicher Hinweis, dass Fensterqualität, Familienrolle und Phasenlage nicht dieselbe Bedeutung tragen. Reife wird damit mehrdimensionaler: Eine Familie kann im Gesamtfenster kernnah wirken, lokal aber offen, nullnah oder nachhallnah erscheinen.
+
 ## Wie es weitergeht
 
-Als nächstes sollte Anschlussqualität phasenlokal berechnet werden: Früh/Mitte/Spät jeweils gegen passende Nullwelt-Phasen. Erst dann lässt sich prüfen, ob die Drift wirklich aus Weltspannung entsteht oder aus zu grober Fenstervererbung.
+Als nächstes sollte geprüft werden, welche Familien phasenlokal stabil bleiben und welche nur durch die Fensterqualität mitgezogen wurden. Daraus lässt sich eine sauberere passive Bedeutungsreife ableiten: Familie + Phase + Nullwelt-Abstand statt Familie + Fenster allein.
