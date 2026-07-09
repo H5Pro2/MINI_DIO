@@ -1,0 +1,5 @@
+run,world_label,data_path,candles,episodes,avg_carry,avg_rekopplung,avg_strain,avg_sensory
+dio_mini_lauf_37,FOLLOW_PAXG_2024_5M_2000,data\kontrolliert_paxg_2024_5m_test1_2000_PAXGUSDT.csv,2000,1994,0.541442,0.714752,0.153117,0.861549
+dio_mini_lauf_38,FOLLOW_DOGE_2024_5M_2000,data\kontrolliert_doge_2024_5m_10k_DOGEUSDT.csv,10000,9994,0.568738,0.7172,0.161077,0.853077
+dio_mini_lauf_39,FOLLOW_XRP_2024_5M_2000,data\kontrolliert_xrp_2024_5m_10k_XRPUSDT.csv,10000,9994,0.568157,0.717206,0.160629,0.853488
+dio_mini_lauf_40,FOLLOW_KAS_2024_5M_2000,data\kontrolliert_kas_2024_5m_test1_2000_KASUSDT.csv,2000,1994,0.538937,0.705767,0.1561,0.851656
