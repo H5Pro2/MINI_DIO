@@ -10,6 +10,7 @@ Die frühere chronologische Langfassung bleibt vollständig als [historisches Te
 
 Die MCM entstand eigenständig aus der Betrachtung von **The Last Supper**. Nachbarforschungen wie Active Inference, Neural Fields, Reservoir Computing oder Self-Organizing Maps waren dabei keine Vorlage. Die methodischen Parallelen wurden erst später erkannt und als wissenschaftliche Anschlussstellen dokumentiert.
 
+- [Direkter Abgleich mit dem aktuellen MCM-Repository](MCM_REPOSITORY_ABGLEICH.md) - blockweise Zuordnung von `C.1`, `D.1-D.3`, `H.1`, `K.1`, `M.1` und Quellenprüfung von `V.1`
 - [1671: Nachbarforschungen und unabhängige Entstehung](befunde/1001-2000/1501-1750/1671_NACHBARFORSCHUNGEN_UND_UNABHAENGIGE_ENTSTEHUNG.md)
 - [1046: Abgleich der MCM-Abhandlungen mit MINI_DIO-Erkenntnissen](befunde/1001-2000/1001-1500/1046_MCM_ABHANDLUNGEN_ABGLEICH_MINI_DIO_ERKENNTNISSE.md)
 - [1066: Tonale Verarbeitungsspannung als Theorieanker](befunde/1001-2000/1001-1500/1066_THEORIEANKER_TONALE_VERARBEITUNGSSPANNUNG.md)
@@ -17,7 +18,7 @@ Die MCM entstand eigenständig aus der Betrachtung von **The Last Supper**. Nach
 - [853: Kosmische Matrix und Verdichtung als strukturelle Parallele](befunde/100-1000/501-1000/853_THEORIEANKER_KOSMISCHE_MATRIX_UND_VERDICHTUNG.md)
 - [1672: Priorisierung wissenschaftlicher Anschlussstellen](befunde/1001-2000/1501-1750/1672_WISSENSCHAFTLICHE_ANSCHLUSSSTELLEN_PRIORITAET.md)
 
-Kurzbefund: MINI_DIO beweist die MCM nicht. Es macht jedoch mehrere zuvor theoretisch formulierte Strukturen experimentell prüfbar: Topologie, Feldzeit, Nachhall, Selbstregulation, Resonanzverdichtung, Rezeptorik und Reorganisation.
+Kurzbefund: MINI_DIO beweist die MCM nicht. Es macht jedoch mehrere zuvor theoretisch formulierte Strukturen experimentell prüfbar: Topologie, Feldzeit, Nachhall, Selbstregulation, Resonanzverdichtung, Rezeptorik und Reorganisation. Der direkte Repository-Abgleich bezieht sich auf den MCM-Stand `9a5878e` vom 8. Juli 2026; das MCM-Repository wurde nur gelesen.
 
 ## 1. Reproduzierte Feldtopologie
 

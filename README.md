@@ -184,7 +184,21 @@ Theorieanker:
 
 Die kosmischen MCM-Abhandlungen werden dabei ausdrücklich **nicht** durch MINI_DIO bestätigt. Die Parallele ist strukturell: Zentrum, Abweichung, Expansion, Gegenpol, Verdichtung, Rückführung und Reorganisation erscheinen im kleinen Modell als messbare Rollen. Das ist ein Forschungsanschluss, kein kosmologischer Nachweis.
 
-Der ausführliche Abgleich ist in [1046: MCM-Abhandlungen und MINI_DIO-Erkenntnisse](docs/befunde/1001-2000/1001-1500/1046_MCM_ABHANDLUNGEN_ABGLEICH_MINI_DIO_ERKENNTNISSE.md) dokumentiert.
+Der frühere Abgleich ist in [1046: MCM-Abhandlungen und MINI_DIO-Erkenntnisse](docs/befunde/1001-2000/1001-1500/1046_MCM_ABHANDLUNGEN_ABGLEICH_MINI_DIO_ERKENNTNISSE.md) dokumentiert.
+
+### Direkter Abgleich Mit Dem Aktuellen MCM-Repository
+
+Der [aktuelle Repository-Abgleich](docs/MCM_REPOSITORY_ABGLEICH.md) liest den Stand des MCM-Hauptprojekts vom 10. Juli 2026 direkt und ordnet die Erweiterungsblöcke `C.1`, `D.1` bis `D.3`, `H.1`, `K.1` und `M.1` den technischen Strukturen und Befunden von MINI_DIO zu. Das MCM-Repository wurde dafür ausschließlich gelesen.
+
+Der Vergleich schärft fünf besonders direkte Anschlüsse:
+
+- `C.1`: rezeptorische Aufnahmegrenze vor der MCM-Feldwirkung,
+- `D.1` und `D.3`: Feldzeit und Nachhall als getrennte Integrationsqualitäten,
+- `H.1`: wiedererkennbare Feldtopologie bei beweglichen lokalen Rollen,
+- `K.1`: adaptive passive Rekopplung ohne Handlung oder harte Steuerung,
+- `M.1`: Bedeutung als wiederkehrendes Beziehungsmuster zwischen Rollen.
+
+`D.2` bleibt ausdrücklich eine strukturelle Analogie und kein physikalischer Gravitationsnachweis. Bei `V.1` enthält die aktuell veröffentlichte PDF den Text von `K.1`; sie wird deshalb bis zu einer Korrektur im MCM-Hauptprojekt nicht als eigenständiger Theoriebeleg verwendet.
 
 ### Abgrenzung Zu Anderen Forschungsrichtungen
 
