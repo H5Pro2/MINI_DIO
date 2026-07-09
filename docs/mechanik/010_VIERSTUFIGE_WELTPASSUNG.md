@@ -99,8 +99,8 @@ Beispiele:
 Aktueller Zähler in der passiven Weltpassungs-Memory:
 
 ```text
+kern_ausgeblendet: 18
 kern_getragen: 16
-kern_ausgeblendet: 15
 kern_verschoben: 2
 kern_geoeffnet: 1
 ```
@@ -167,6 +167,18 @@ kern_ausgeblendet
   -> weich ausgeblendet mit Restkopplung
   -> ausgeblendet mit Öffnungs-/Verschiebungsrest
 ```
+
+Die B-Fokusprüfung [1919_SYN_B_FOCUS_RESTKOPPLUNG_EINORDNUNG.md](../befunde/1919_SYN_B_FOCUS_RESTKOPPLUNG_EINORDNUNG.md) zeigt zusätzlich:
+Restkopplung und Hartkernkopplung sind nicht dasselbe.
+Ein Fokusfenster kann allgemeine Feldaktivität, Öffnung oder lokale Reproduktion erzeugen, ohne den gereiften Hartkern wirklich zu tragen.
+
+```text
+allgemeine Feldaktivität != Hartkernkopplung
+```
+
+Das verhindert eine wichtige Fehlinterpretation:
+Nicht jede Aktivität im Feld ist Reife.
+Reife muss sich an der Beziehung zwischen Weltform und gereiftem Innenkern zeigen.
 
 ## Forschungsnutzen
 

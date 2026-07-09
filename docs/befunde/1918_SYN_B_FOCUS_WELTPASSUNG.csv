@@ -1,0 +1,4 @@
+row_type,asset,condition,source_label,core_pairs,carried_count,opened_count,shifted_count,hidden_count,carried_share,opened_share,shifted_share,hidden_share,world_fit_score,world_fit_reading
+world_fit_metric,DOGE,syn_b_focus_2400_3900,B_FOCUS,34,0,2,1,31,0.0,0.058823529411764705,0.029411764705882353,0.9117647058823529,-0.5735294117647058,kern_ausgeblendet
+world_fit_metric,DOGE,syn_b_focus_3000_4500,B_FOCUS,34,0,1,0,33,0.0,0.029411764705882353,0.0,0.9705882352941176,-0.6264705882352941,kern_ausgeblendet
+world_fit_metric,DOGE,syn_b_focus_3200_5200,B_FOCUS,34,1,0,1,32,0.029411764705882353,0.0,0.029411764705882353,0.9411764705882353,-0.5720588235294118,kern_ausgeblendet
