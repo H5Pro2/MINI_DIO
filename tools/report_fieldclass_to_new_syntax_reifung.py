@@ -4,11 +4,13 @@ import argparse
 import csv
 from collections import Counter, defaultdict
 from pathlib import Path
+
+from befunde_paths import befunde_root
 from statistics import mean
 
 
 ROOT = Path(__file__).resolve().parents[1]
-BEFUNDE = ROOT / "docs" / "befunde"
+BEFUNDE = befunde_root(ROOT)
 
 
 def _safe_float(value: object) -> float:

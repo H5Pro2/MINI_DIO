@@ -5,10 +5,12 @@ import csv
 from datetime import datetime
 from pathlib import Path
 
+from befunde_paths import befunde_root
+
 
 ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_SOURCE = ROOT / "docs" / "befunde" / "216_LOKALE_WELTMERKMALE_REKOPPLUNG_DIAGNOSE.csv"
-DEFAULT_OUT = ROOT / "docs" / "befunde" / "218_FELDHISTORIE_GEGEN_WELTSTRUKTUR_DIAGNOSE.md"
+DEFAULT_SOURCE = befunde_root(ROOT) / "216_LOKALE_WELTMERKMALE_REKOPPLUNG_DIAGNOSE.csv"
+DEFAULT_OUT = befunde_root(ROOT) / "218_FELDHISTORIE_GEGEN_WELTSTRUKTUR_DIAGNOSE.md"
 
 
 def _resolve(path_text: str | Path) -> Path:

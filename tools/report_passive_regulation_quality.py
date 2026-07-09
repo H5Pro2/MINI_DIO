@@ -6,12 +6,14 @@ from collections import Counter, defaultdict
 from datetime import datetime
 from pathlib import Path
 
+from befunde_paths import befunde_root
+
 
 ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_OVERVIEW = ROOT / "docs" / "befunde" / "341_MILIEU_DRIFTQUALITAET.csv"
-DEFAULT_WORLDS = ROOT / "docs" / "befunde" / "341_MILIEU_DRIFTQUALITAET_welten.csv"
-DEFAULT_WORLD_METRICS = ROOT / "docs" / "befunde" / "342_MILIEU_DRIFT_WELTMERKMALE.csv"
-DEFAULT_OUT = ROOT / "docs" / "befunde" / "344_PASSIVE_REGULATIONSQUALITAET_REPRODUKTION.md"
+DEFAULT_OVERVIEW = befunde_root(ROOT) / "341_MILIEU_DRIFTQUALITAET.csv"
+DEFAULT_WORLDS = befunde_root(ROOT) / "341_MILIEU_DRIFTQUALITAET_welten.csv"
+DEFAULT_WORLD_METRICS = befunde_root(ROOT) / "342_MILIEU_DRIFT_WELTMERKMALE.csv"
+DEFAULT_OUT = befunde_root(ROOT) / "344_PASSIVE_REGULATIONSQUALITAET_REPRODUKTION.md"
 
 
 def _resolve(path_text: str | Path) -> Path:

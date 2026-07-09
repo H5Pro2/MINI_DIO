@@ -5,11 +5,13 @@ import json
 from collections import Counter, defaultdict
 from pathlib import Path
 
+from befunde_paths import befunde_root
+
 
 ROOT = Path(__file__).resolve().parents[1]
-INPUT = ROOT / "docs" / "befunde" / "1381_FELDFUNKTIONSKARTE_GLOBALE_PROBE.csv"
-OUT_CSV = ROOT / "docs" / "befunde" / "1382_FELDFUNKTIONSKARTE_ROHWELT_RUECKLESUNG.csv"
-OUT_MD = ROOT / "docs" / "befunde" / "1382_FELDFUNKTIONSKARTE_ROHWELT_RUECKLESUNG.md"
+INPUT = befunde_root(ROOT) / "1381_FELDFUNKTIONSKARTE_GLOBALE_PROBE.csv"
+OUT_CSV = befunde_root(ROOT) / "1382_FELDFUNKTIONSKARTE_ROHWELT_RUECKLESUNG.csv"
+OUT_MD = befunde_root(ROOT) / "1382_FELDFUNKTIONSKARTE_ROHWELT_RUECKLESUNG.md"
 
 REPORTS = {
     "BTC_2024_5M": ROOT / "debug" / "adapted_field_btc_2024_5m_2k" / "dio_mini_lauf_2" / "mini_report.json",

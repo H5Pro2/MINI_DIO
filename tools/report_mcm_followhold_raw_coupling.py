@@ -7,6 +7,8 @@ from collections import Counter, defaultdict
 from datetime import datetime
 from pathlib import Path
 
+from befunde_paths import befunde_root
+
 
 ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
@@ -16,8 +18,8 @@ if str(ROOT) not in sys.path:
 from tools.report_mcm_field_phase_raw_window_loupe import WORLD_DATA_MAP, _raw_profile
 
 
-DEFAULT_INPUT = ROOT / "docs" / "befunde" / "1264_MCM_FOLGEHALT_NACH_RANDKONTAKT.csv"
-DEFAULT_OUT = ROOT / "docs" / "befunde" / "1266_MCM_FOLGEHALT_ROHWELT_KOPPLUNG.md"
+DEFAULT_INPUT = befunde_root(ROOT) / "1264_MCM_FOLGEHALT_NACH_RANDKONTAKT.csv"
+DEFAULT_OUT = befunde_root(ROOT) / "1266_MCM_FOLGEHALT_ROHWELT_KOPPLUNG.md"
 
 
 def _resolve(path_text: str | Path) -> Path:

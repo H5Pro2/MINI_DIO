@@ -6,6 +6,8 @@ import json
 from collections import Counter
 from pathlib import Path
 
+from befunde_paths import befunde_root
+
 
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_KNOWN = [
@@ -98,8 +100,8 @@ def build_report(memory_path: Path, out_prefix: str, known_symbols: list[str]) -
             }
         )
 
-    out_csv = ROOT / "docs" / "befunde" / f"{out_prefix}.csv"
-    out_md = ROOT / "docs" / "befunde" / f"{out_prefix}.md"
+    out_csv = befunde_root(ROOT) / f"{out_prefix}.csv"
+    out_md = befunde_root(ROOT) / f"{out_prefix}.md"
     _write_csv(out_csv, rows)
 
     class_counts = Counter(str(item.get("field_function_class", "-")) for item in with_function)

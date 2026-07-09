@@ -3,13 +3,15 @@ from __future__ import annotations
 import csv
 from collections import Counter, defaultdict
 from pathlib import Path
+
+from befunde_paths import befunde_root
 from statistics import mean
 
 
 ROOT = Path(__file__).resolve().parents[1]
-IN_CSV = ROOT / "docs" / "befunde" / "1396_HOLDOUT_ROHWELT_RUECKLESUNG.csv"
-OUT_CSV = ROOT / "docs" / "befunde" / "1397_FELDROLLEN_BENENNUNGSPRUEFUNG.csv"
-OUT_MD = ROOT / "docs" / "befunde" / "1397_FELDROLLEN_BENENNUNGSPRUEFUNG.md"
+IN_CSV = befunde_root(ROOT) / "1396_HOLDOUT_ROHWELT_RUECKLESUNG.csv"
+OUT_CSV = befunde_root(ROOT) / "1397_FELDROLLEN_BENENNUNGSPRUEFUNG.csv"
+OUT_MD = befunde_root(ROOT) / "1397_FELDROLLEN_BENENNUNGSPRUEFUNG.md"
 
 
 def _read_rows(path: Path) -> list[dict[str, str]]:

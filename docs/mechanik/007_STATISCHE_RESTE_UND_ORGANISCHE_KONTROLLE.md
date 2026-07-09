@@ -753,7 +753,7 @@ erfahrungsgewichteter Rueckfuehrung
 ## Wie es weitergeht
 
 Die relative Randdruck-Lupe wurde gegen weitere reale Stressfenster, ruhige Fenster und synthetische Randfenster erweitert.
-Der Befund liegt in `docs/befunde/1722_RELATIVE_RANDDRUCK_LUPE_MEHRWELT.md`.
+Der Befund liegt in `docs/befunde/1001-2000/1501-1750/1722_RELATIVE_RANDDRUCK_LUPE_MEHRWELT.md`.
 
 Als naechstes sollte diese Lupe ueber mehrere Memory-Neustarts laufen.
 Entscheidend ist, ob lokale Randdruckzonen an aehnlichen Weltstellen wiederkehren oder ob nur die groben Gesamtprofile stabil bleiben.

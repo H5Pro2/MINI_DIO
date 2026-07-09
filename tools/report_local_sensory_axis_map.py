@@ -7,11 +7,13 @@ from collections import defaultdict
 from datetime import datetime
 from pathlib import Path
 
+from befunde_paths import befunde_root
+
 
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_DEBUG_ROOT = ROOT / "debug" / "_codex_sensesplit_worldcheck"
-DEFAULT_CSV = ROOT / "docs" / "befunde" / "402_LOKALE_SINNESACHSEN_EPISODENKARTE.csv"
-DEFAULT_MD = ROOT / "docs" / "befunde" / "402_LOKALE_SINNESACHSEN_EPISODENKARTE.md"
+DEFAULT_CSV = befunde_root(ROOT) / "402_LOKALE_SINNESACHSEN_EPISODENKARTE.csv"
+DEFAULT_MD = befunde_root(ROOT) / "402_LOKALE_SINNESACHSEN_EPISODENKARTE.md"
 
 AXIS_FIELDS = {
     "sehen_fokus": "perception_visual_focus_tendency",

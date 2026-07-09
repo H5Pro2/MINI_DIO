@@ -6,9 +6,9 @@ from pathlib import Path
 
 
 DEFAULT_INPUTS = [
-    ("100", "docs/befunde/1305_WELTLAGEN_FOLGEMEMORY_BLOCK100.csv"),
-    ("200", "docs/befunde/1303_WELTLAGEN_FOLGEMEMORY_MEHRWELTEN.csv"),
-    ("400", "docs/befunde/1306_WELTLAGEN_FOLGEMEMORY_BLOCK400.csv"),
+    ("100", "docs/befunde/1001-2000/1001-1500/1305_WELTLAGEN_FOLGEMEMORY_BLOCK100.csv"),
+    ("200", "docs/befunde/1001-2000/1001-1500/1303_WELTLAGEN_FOLGEMEMORY_MEHRWELTEN.csv"),
+    ("400", "docs/befunde/1001-2000/1001-1500/1306_WELTLAGEN_FOLGEMEMORY_BLOCK400.csv"),
 ]
 
 
@@ -159,8 +159,8 @@ def _write_markdown(rows: list[dict[str, object]], path: Path) -> None:
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--input", action="append", type=_parse_input)
-    parser.add_argument("--out", default="docs/befunde/1308_WELTLAGEN_FOLGEMEMORY_MEHRSKALIG.md")
-    parser.add_argument("--csv-out", default="docs/befunde/1308_WELTLAGEN_FOLGEMEMORY_MEHRSKALIG.csv")
+    parser.add_argument("--out", default="docs/befunde/1001-2000/1001-1500/1308_WELTLAGEN_FOLGEMEMORY_MEHRSKALIG.md")
+    parser.add_argument("--csv-out", default="docs/befunde/1001-2000/1001-1500/1308_WELTLAGEN_FOLGEMEMORY_MEHRSKALIG.csv")
     args = parser.parse_args()
 
     inputs = args.input or [(scale, Path(path)) for scale, path in DEFAULT_INPUTS]

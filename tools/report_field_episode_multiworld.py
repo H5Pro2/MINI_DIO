@@ -4,13 +4,15 @@ import argparse
 import csv
 from pathlib import Path
 
+from befunde_paths import befunde_root
+
 from report_field_episode_timeline import _read_rows, _safe_float, build_segments
 
 
 ROOT = Path(__file__).resolve().parents[1]
 DEBUG_DEFAULT = ROOT / "debug" / "block_k_10k_multiworld"
-CSV_DEFAULT = ROOT / "docs" / "befunde" / "809_BLOCK_K_10K_FELDZEIT_MEHRWELT.csv"
-MD_DEFAULT = ROOT / "docs" / "befunde" / "809_BLOCK_K_10K_FELDZEIT_MEHRWELT.md"
+CSV_DEFAULT = befunde_root(ROOT) / "809_BLOCK_K_10K_FELDZEIT_MEHRWELT.csv"
+MD_DEFAULT = befunde_root(ROOT) / "809_BLOCK_K_10K_FELDZEIT_MEHRWELT.md"
 
 
 def _weighted_avg(rows: list[dict[str, object]], key: str) -> float:

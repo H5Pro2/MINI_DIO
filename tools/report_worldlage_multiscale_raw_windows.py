@@ -28,9 +28,9 @@ DEFAULT_WORLDS = {
 }
 
 DETAIL_INPUTS = [
-    ("100", 100, "docs/befunde/1305_WELTLAGEN_FOLGEMEMORY_BLOCK100_DETAILS.csv"),
-    ("200", 200, "docs/befunde/1303_WELTLAGEN_FOLGEMEMORY_MEHRWELTEN_DETAILS.csv"),
-    ("400", 400, "docs/befunde/1306_WELTLAGEN_FOLGEMEMORY_BLOCK400_DETAILS.csv"),
+    ("100", 100, "docs/befunde/1001-2000/1001-1500/1305_WELTLAGEN_FOLGEMEMORY_BLOCK100_DETAILS.csv"),
+    ("200", 200, "docs/befunde/1001-2000/1001-1500/1303_WELTLAGEN_FOLGEMEMORY_MEHRWELTEN_DETAILS.csv"),
+    ("400", 400, "docs/befunde/1001-2000/1001-1500/1306_WELTLAGEN_FOLGEMEMORY_BLOCK400_DETAILS.csv"),
 ]
 
 
@@ -197,12 +197,12 @@ def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--world", action="append", type=_parse_world)
     parser.add_argument("--detail", action="append", type=_parse_detail)
-    parser.add_argument("--target", default="docs/befunde/1308_WELTLAGEN_FOLGEMEMORY_MEHRSKALIG.csv")
+    parser.add_argument("--target", default="docs/befunde/1001-2000/1001-1500/1308_WELTLAGEN_FOLGEMEMORY_MEHRSKALIG.csv")
     parser.add_argument("--profile", default="skalenabhaengig_neutral_beruhigend")
     parser.add_argument("--window", type=int, default=5)
-    parser.add_argument("--out", default="docs/befunde/1309_WELTLAGEN_MEHRSKALIG_ROHWELTFENSTER.md")
-    parser.add_argument("--csv-out", default="docs/befunde/1309_WELTLAGEN_MEHRSKALIG_ROHWELTFENSTER.csv")
-    parser.add_argument("--summary-out", default="docs/befunde/1309_WELTLAGEN_MEHRSKALIG_ROHWELTFENSTER_SUMMARY.csv")
+    parser.add_argument("--out", default="docs/befunde/1001-2000/1001-1500/1309_WELTLAGEN_MEHRSKALIG_ROHWELTFENSTER.md")
+    parser.add_argument("--csv-out", default="docs/befunde/1001-2000/1001-1500/1309_WELTLAGEN_MEHRSKALIG_ROHWELTFENSTER.csv")
+    parser.add_argument("--summary-out", default="docs/befunde/1001-2000/1001-1500/1309_WELTLAGEN_MEHRSKALIG_ROHWELTFENSTER_SUMMARY.csv")
     args = parser.parse_args()
 
     worlds = {label: Path(path) for label, path in (args.world or DEFAULT_WORLDS.items())}

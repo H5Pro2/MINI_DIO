@@ -140,9 +140,9 @@ def _write_markdown(rows: list[dict[str, object]], path: Path) -> None:
 
 def main() -> int:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--input", default="docs/befunde/1309_WELTLAGEN_MEHRSKALIG_ROHWELTFENSTER.csv")
-    parser.add_argument("--out", default="docs/befunde/1313_WELTLAGEN_ZWISCHENLAGEN_ASSET_VERTEILUNG.md")
-    parser.add_argument("--csv-out", default="docs/befunde/1313_WELTLAGEN_ZWISCHENLAGEN_ASSET_VERTEILUNG.csv")
+    parser.add_argument("--input", default="docs/befunde/1001-2000/1001-1500/1309_WELTLAGEN_MEHRSKALIG_ROHWELTFENSTER.csv")
+    parser.add_argument("--out", default="docs/befunde/1001-2000/1001-1500/1313_WELTLAGEN_ZWISCHENLAGEN_ASSET_VERTEILUNG.md")
+    parser.add_argument("--csv-out", default="docs/befunde/1001-2000/1001-1500/1313_WELTLAGEN_ZWISCHENLAGEN_ASSET_VERTEILUNG.csv")
     args = parser.parse_args()
 
     with Path(args.input).open("r", encoding="utf-8", newline="") as handle:

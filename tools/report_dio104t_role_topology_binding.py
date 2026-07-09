@@ -138,7 +138,7 @@ def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--source", default="reports/dio_104t_neighbor_role_differentiation.csv")
     parser.add_argument("--out-csv", default="reports/dio_104t_role_topology_binding.csv")
-    parser.add_argument("--out-md", default="docs/befunde/1796_DIO_104T_TEILNETZ_TOPOLOGIEBINDUNG.md")
+    parser.add_argument("--out-md", default="docs/befunde/1001-2000/1751-2000/1796_DIO_104T_TEILNETZ_TOPOLOGIEBINDUNG.md")
     args = parser.parse_args()
 
     source = ROOT / args.source

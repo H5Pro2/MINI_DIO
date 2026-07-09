@@ -3,6 +3,8 @@ from __future__ import annotations
 import csv
 import sys
 from pathlib import Path
+
+from befunde_paths import befunde_root
 from statistics import mean
 
 
@@ -14,10 +16,10 @@ from tools.report_mcm_hoerbarer_shift_rawworld_loupe import _resolve_world
 from tools.report_mcm_hoerbarer_shift_symbol_coupling import EPISODE_MAP, _basename, _float
 
 
-CENTER_INPUT = ROOT / "docs" / "befunde" / "1358_HOERBARER_SCHMALER_SHIFT_ERWEITERTE_ROLLELESUNG.csv"
-CANDIDATE_INPUT = ROOT / "docs" / "befunde" / "1349_HOERBARER_SCHMALER_SHIFT_MULTI_HOLDOUT.csv"
-OUT_CSV = ROOT / "docs" / "befunde" / "1367_ZENTRUM_NEGATIVKONTROLLE_AUSWAHL.csv"
-OUT_MD = ROOT / "docs" / "befunde" / "1367_ZENTRUM_NEGATIVKONTROLLE_AUSWAHL.md"
+CENTER_INPUT = befunde_root(ROOT) / "1358_HOERBARER_SCHMALER_SHIFT_ERWEITERTE_ROLLELESUNG.csv"
+CANDIDATE_INPUT = befunde_root(ROOT) / "1349_HOERBARER_SCHMALER_SHIFT_MULTI_HOLDOUT.csv"
+OUT_CSV = befunde_root(ROOT) / "1367_ZENTRUM_NEGATIVKONTROLLE_AUSWAHL.csv"
+OUT_MD = befunde_root(ROOT) / "1367_ZENTRUM_NEGATIVKONTROLLE_AUSWAHL.md"
 
 
 def _read(path: Path) -> list[dict[str, str]]:

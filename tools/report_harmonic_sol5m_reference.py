@@ -4,6 +4,8 @@ import argparse
 from datetime import datetime
 from pathlib import Path
 
+from befunde_paths import befunde_root
+
 from report_duration_load_decomposition import _row as duration_row
 from report_local_world_feature_coupling import _read_candles, _world_features
 from report_recoupling_quality import _load_json, _resolve
@@ -12,7 +14,7 @@ from report_sensory_adaptation import _row as sensory_row
 
 
 ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_OUT = ROOT / "docs" / "befunde" / "220_SOL5M_HARMONISCHE_REFERENZ_DIAGNOSE.md"
+DEFAULT_OUT = befunde_root(ROOT) / "220_SOL5M_HARMONISCHE_REFERENZ_DIAGNOSE.md"
 
 
 DEFAULT_SUMMARIES = [

@@ -122,7 +122,7 @@ def main() -> int:
     parser.add_argument("--source", default="reports/dio_0l7p_bridge_tick_windows.csv")
     parser.add_argument("--family", default="dio_0l7p")
     parser.add_argument("--out-csv", default="reports/dio_0l7p_bridge_tick_window_signature.csv")
-    parser.add_argument("--out-md", default="docs/befunde/1802_DIO_0L7P_FELDFOLGEN_SIGNATUR.md")
+    parser.add_argument("--out-md", default="docs/befunde/1001-2000/1751-2000/1802_DIO_0L7P_FELDFOLGEN_SIGNATUR.md")
     args = parser.parse_args()
 
     source_path = ROOT / args.source

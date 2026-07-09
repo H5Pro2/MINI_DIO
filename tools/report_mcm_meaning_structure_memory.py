@@ -92,9 +92,9 @@ def _write_markdown(rows: list[dict[str, object]], path: Path) -> None:
 
 def main() -> int:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--input", default="docs/befunde/1315_WELTLAGEN_ZWISCHENLAGEN_ASSET_BALANCED.csv")
-    parser.add_argument("--out", default="docs/befunde/1317_MCM_BEDEUTUNGSSTRUKTUR_MEMORY.md")
-    parser.add_argument("--csv-out", default="docs/befunde/1317_MCM_BEDEUTUNGSSTRUKTUR_MEMORY.csv")
+    parser.add_argument("--input", default="docs/befunde/1001-2000/1001-1500/1315_WELTLAGEN_ZWISCHENLAGEN_ASSET_BALANCED.csv")
+    parser.add_argument("--out", default="docs/befunde/1001-2000/1001-1500/1317_MCM_BEDEUTUNGSSTRUKTUR_MEMORY.md")
+    parser.add_argument("--csv-out", default="docs/befunde/1001-2000/1001-1500/1317_MCM_BEDEUTUNGSSTRUKTUR_MEMORY.csv")
     args = parser.parse_args()
 
     memory = MCMMeaningStructureMemory()

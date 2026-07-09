@@ -375,7 +375,7 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--source", action="append", nargs=2, metavar=("NAME", "EVENTS_CSV"), required=True)
     parser.add_argument("--world", action="append", nargs=2, metavar=("NAME", "DATA_CSV"))
-    parser.add_argument("--reference", type=Path, default=Path("docs/befunde/1012_MCM_ACHSE_CHARTZONEN_TYPOLOGIE_SUMMARY.csv"))
+    parser.add_argument("--reference", type=Path, default=Path("docs/befunde/1001-2000/1001-1500/1012_MCM_ACHSE_CHARTZONEN_TYPOLOGIE_SUMMARY.csv"))
     parser.add_argument("--root", type=Path, default=Path("."))
     parser.add_argument("--min-events", type=int, default=2)
     parser.add_argument("--pad", type=int, default=24)

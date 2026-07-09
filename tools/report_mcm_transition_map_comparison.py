@@ -5,12 +5,14 @@ import csv
 from collections import Counter
 from pathlib import Path
 
+from befunde_paths import befunde_root
+
 
 ROOT = Path(__file__).resolve().parents[1]
-MAP_A_DEFAULT = ROOT / "docs" / "befunde" / "819_BLOCK_K_MCM_UEBERGANGSKARTE.csv"
-MAP_B_DEFAULT = ROOT / "docs" / "befunde" / "822_BLOCK_K_ZWEITE_MCM_UEBERGANGSKARTE.csv"
-CSV_DEFAULT = ROOT / "docs" / "befunde" / "823_BLOCK_K_MCM_UEBERGANGSKARTEN_VERGLEICH.csv"
-MD_DEFAULT = ROOT / "docs" / "befunde" / "823_BLOCK_K_MCM_UEBERGANGSKARTEN_VERGLEICH.md"
+MAP_A_DEFAULT = befunde_root(ROOT) / "819_BLOCK_K_MCM_UEBERGANGSKARTE.csv"
+MAP_B_DEFAULT = befunde_root(ROOT) / "822_BLOCK_K_ZWEITE_MCM_UEBERGANGSKARTE.csv"
+CSV_DEFAULT = befunde_root(ROOT) / "823_BLOCK_K_MCM_UEBERGANGSKARTEN_VERGLEICH.csv"
+MD_DEFAULT = befunde_root(ROOT) / "823_BLOCK_K_MCM_UEBERGANGSKARTEN_VERGLEICH.md"
 
 
 def _safe_float(value: object, default: float = 0.0) -> float:

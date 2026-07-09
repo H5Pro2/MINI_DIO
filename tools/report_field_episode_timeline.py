@@ -5,6 +5,8 @@ import csv
 from collections import Counter
 from pathlib import Path
 
+from befunde_paths import befunde_root
+
 
 ROOT = Path(__file__).resolve().parents[1]
 EPISODES_DEFAULT = (
@@ -15,8 +17,8 @@ EPISODES_DEFAULT = (
     / "dio_mini_lauf_1"
     / "episodes.csv"
 )
-CSV_DEFAULT = ROOT / "docs" / "befunde" / "806_BLOCK_K_FELDEPISODEN_ZEITREIHE.csv"
-MD_DEFAULT = ROOT / "docs" / "befunde" / "806_BLOCK_K_FELDEPISODEN_ZEITREIHE.md"
+CSV_DEFAULT = befunde_root(ROOT) / "806_BLOCK_K_FELDEPISODEN_ZEITREIHE.csv"
+MD_DEFAULT = befunde_root(ROOT) / "806_BLOCK_K_FELDEPISODEN_ZEITREIHE.md"
 
 
 def _safe_float(value: object, default: float = 0.0) -> float:

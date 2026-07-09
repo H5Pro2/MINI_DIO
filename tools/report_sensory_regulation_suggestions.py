@@ -4,6 +4,8 @@ import argparse
 import sys
 from pathlib import Path
 
+from befunde_paths import befunde_root
+
 
 ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
@@ -17,9 +19,9 @@ from mini_dio.sensory_regulation_suggestion import (  # noqa: E402
 )
 
 
-INPUT_DEFAULT = ROOT / "docs" / "befunde" / "409_PASSIVE_SINNESAUFNAHME_MEMORY.csv"
-CSV_DEFAULT = ROOT / "docs" / "befunde" / "459_PASSIVE_REGULATIONSVORSCHLAG_BASIS.csv"
-MD_DEFAULT = ROOT / "docs" / "befunde" / "459_PASSIVE_REGULATIONSVORSCHLAG_BASIS.md"
+INPUT_DEFAULT = befunde_root(ROOT) / "409_PASSIVE_SINNESAUFNAHME_MEMORY.csv"
+CSV_DEFAULT = befunde_root(ROOT) / "459_PASSIVE_REGULATIONSVORSCHLAG_BASIS.csv"
+MD_DEFAULT = befunde_root(ROOT) / "459_PASSIVE_REGULATIONSVORSCHLAG_BASIS.md"
 
 
 DISPLAY_NAMES = {

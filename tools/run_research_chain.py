@@ -7,6 +7,8 @@ import sys
 from datetime import datetime
 from pathlib import Path
 
+from befunde_paths import befunde_root
+
 
 ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
@@ -14,7 +16,7 @@ if str(ROOT) not in sys.path:
 
 from mini_dio.config import Config
 
-DEFAULT_OUT = ROOT / "docs" / "befunde" / "AKTUELLER_FORSCHUNGSLAUF.md"
+DEFAULT_OUT = befunde_root(ROOT) / "AKTUELLER_FORSCHUNGSLAUF.md"
 
 
 def _load_report(path: Path) -> dict:

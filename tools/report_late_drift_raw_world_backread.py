@@ -2,13 +2,15 @@ from __future__ import annotations
 
 import csv
 from pathlib import Path
+
+from befunde_paths import befunde_root
 from statistics import mean, pstdev
 
 
 ROOT = Path(__file__).resolve().parents[1]
-INPUT = ROOT / "docs" / "befunde" / "1955_SPAETE_DRIFTROLLEN_REPRODUKTION.csv"
-OUT_CSV = ROOT / "docs" / "befunde" / "1956_SPAETE_DRIFTROLLEN_ROHWELT_RUECKLESUNG.csv"
-OUT_MD = ROOT / "docs" / "befunde" / "1956_SPAETE_DRIFTROLLEN_ROHWELT_RUECKLESUNG.md"
+INPUT = befunde_root(ROOT) / "1955_SPAETE_DRIFTROLLEN_REPRODUKTION.csv"
+OUT_CSV = befunde_root(ROOT) / "1956_SPAETE_DRIFTROLLEN_ROHWELT_RUECKLESUNG.csv"
+OUT_MD = befunde_root(ROOT) / "1956_SPAETE_DRIFTROLLEN_ROHWELT_RUECKLESUNG.md"
 
 WORLD_EPISODES = {
     "SOL2024_15M": ROOT / "debug" / "research_chain_sol_2024_15m_2k" / "dio_mini_lauf_2" / "episodes.csv",

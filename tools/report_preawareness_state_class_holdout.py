@@ -4,11 +4,13 @@ import argparse
 import csv
 from collections import Counter, defaultdict
 from pathlib import Path
+
+from befunde_paths import befunde_root
 from statistics import mean
 
 
 ROOT = Path(__file__).resolve().parents[1]
-BEFUNDE = ROOT / "docs" / "befunde"
+BEFUNDE = befunde_root(ROOT)
 
 
 def _load_csv(path: Path) -> list[dict[str, str]]:
@@ -294,7 +296,7 @@ def _parse_holdouts(raw_values: list[str]) -> dict[str, Path]:
 
 def main() -> int:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--states", default="docs/befunde/2043_VORWAHRNEHMUNG_ZUSTANDSQUALITAET_MEMORY.states.csv")
+    parser.add_argument("--states", default="docs/befunde/2001-3000/2043_VORWAHRNEHMUNG_ZUSTANDSQUALITAET_MEMORY.states.csv")
     parser.add_argument("--holdout", action="append", required=True)
     parser.add_argument("--max-rows-per-holdout", type=int, default=20000)
     parser.add_argument("--out-prefix", default="2045_VORWAHRNEHMUNG_ZUSTANDSMEMORY_FELDKLASSEN_HOLDOUT")

@@ -5,12 +5,14 @@ import csv
 from collections import Counter
 from pathlib import Path
 
+from befunde_paths import befunde_root
+
 
 ROOT = Path(__file__).resolve().parents[1]
-NEIGHBOR_CSV_DEFAULT = ROOT / "docs" / "befunde" / "816_BLOCK_K_RANDFAMILIE_NACHBARSCHAFT_BRUECKE.csv"
-BRIDGE_CSV_DEFAULT = ROOT / "docs" / "befunde" / "818_BLOCK_K_BRUECKENTYPEN_VERGLEICH.csv"
-CSV_DEFAULT = ROOT / "docs" / "befunde" / "819_BLOCK_K_MCM_UEBERGANGSKARTE.csv"
-MD_DEFAULT = ROOT / "docs" / "befunde" / "819_BLOCK_K_MCM_UEBERGANGSKARTE.md"
+NEIGHBOR_CSV_DEFAULT = befunde_root(ROOT) / "816_BLOCK_K_RANDFAMILIE_NACHBARSCHAFT_BRUECKE.csv"
+BRIDGE_CSV_DEFAULT = befunde_root(ROOT) / "818_BLOCK_K_BRUECKENTYPEN_VERGLEICH.csv"
+CSV_DEFAULT = befunde_root(ROOT) / "819_BLOCK_K_MCM_UEBERGANGSKARTE.csv"
+MD_DEFAULT = befunde_root(ROOT) / "819_BLOCK_K_MCM_UEBERGANGSKARTE.md"
 EDGE_FAMILY_DEFAULT = "dio_1un4"
 
 

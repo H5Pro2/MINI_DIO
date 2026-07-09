@@ -5,19 +5,21 @@ import csv
 from collections import Counter
 from pathlib import Path
 
+from befunde_paths import befunde_root
+
 
 ROOT = Path(__file__).resolve().parents[1]
 
 DEFAULT_INPUTS = [
-    ("SOL", ROOT / "docs" / "befunde" / "1868_SOL_HARTKERN_WELTLAGENREAKTION.csv"),
-    ("BTC", ROOT / "docs" / "befunde" / "1872B_BTC_HARTKERN_WELTLAGENREAKTION.csv"),
-    ("DOGE", ROOT / "docs" / "befunde" / "1872D_DOGE_HARTKERN_WELTLAGENREAKTION.csv"),
-    ("PAXG", ROOT / "docs" / "befunde" / "1876_PAXG_HARTKERN_FENSTER_TIMEFRAME_VERGLEICH.csv"),
-    ("XRP", ROOT / "docs" / "befunde" / "1872X_XRP_HARTKERN_WELTLAGENREAKTION.csv"),
+    ("SOL", befunde_root(ROOT) / "1868_SOL_HARTKERN_WELTLAGENREAKTION.csv"),
+    ("BTC", befunde_root(ROOT) / "1872B_BTC_HARTKERN_WELTLAGENREAKTION.csv"),
+    ("DOGE", befunde_root(ROOT) / "1872D_DOGE_HARTKERN_WELTLAGENREAKTION.csv"),
+    ("PAXG", befunde_root(ROOT) / "1876_PAXG_HARTKERN_FENSTER_TIMEFRAME_VERGLEICH.csv"),
+    ("XRP", befunde_root(ROOT) / "1872X_XRP_HARTKERN_WELTLAGENREAKTION.csv"),
 ]
 
-DEFAULT_OUT_CSV = ROOT / "docs" / "befunde" / "1878_WELTPASSUNG_METRIK.csv"
-DEFAULT_OUT_MD = ROOT / "docs" / "befunde" / "1878_WELTPASSUNG_METRIK.md"
+DEFAULT_OUT_CSV = befunde_root(ROOT) / "1878_WELTPASSUNG_METRIK.csv"
+DEFAULT_OUT_MD = befunde_root(ROOT) / "1878_WELTPASSUNG_METRIK.md"
 
 
 SHIFT_STATES = {

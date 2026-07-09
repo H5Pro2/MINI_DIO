@@ -120,11 +120,11 @@ def _write_markdown(path: Path, memory: MCMRoleFamilyMemory) -> None:
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Schreibt numerische Rollenfamilien-Evidenz aus 2066/2068.")
-    parser.add_argument("--cohesion", default="docs/befunde/2066_REALVERSTAERKTE_ROLLENFAMILIEN_KOHAESION.summary.csv")
-    parser.add_argument("--connected", default="docs/befunde/2068_ANSCHLUSSFAEHIGE_ROLLENFAMILIEN_IN_FOLGEWELTEN.summary.csv")
-    parser.add_argument("--out-csv", default="docs/befunde/2069_PASSIVE_ROLLENFAMILIEN_MEMORY.csv")
+    parser.add_argument("--cohesion", default="docs/befunde/2001-3000/2066_REALVERSTAERKTE_ROLLENFAMILIEN_KOHAESION.summary.csv")
+    parser.add_argument("--connected", default="docs/befunde/2001-3000/2068_ANSCHLUSSFAEHIGE_ROLLENFAMILIEN_IN_FOLGEWELTEN.summary.csv")
+    parser.add_argument("--out-csv", default="docs/befunde/2001-3000/2069_PASSIVE_ROLLENFAMILIEN_MEMORY.csv")
     parser.add_argument("--out-json", default="memory/passive_role_family_memory.json")
-    parser.add_argument("--out-md", default="docs/befunde/2069_PASSIVE_ROLLENFAMILIEN_MEMORY.md")
+    parser.add_argument("--out-md", default="docs/befunde/2001-3000/2069_PASSIVE_ROLLENFAMILIEN_MEMORY.md")
     args = parser.parse_args()
 
     memory = MCMRoleFamilyMemory.from_csvs(_resolve(args.cohesion), _resolve(args.connected))

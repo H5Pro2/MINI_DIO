@@ -5,12 +5,14 @@ import csv
 from collections import Counter, defaultdict
 from pathlib import Path
 
+from befunde_paths import befunde_root
+
 from report_field_episode_multiworld import summarize_world
 
 
 ROOT = Path(__file__).resolve().parents[1]
-CSV_DEFAULT = ROOT / "docs" / "befunde" / "810_BLOCK_K_FELDZEIT_KURZ_ASSET_VERGLEICH.csv"
-MD_DEFAULT = ROOT / "docs" / "befunde" / "810_BLOCK_K_FELDZEIT_KURZ_ASSET_VERGLEICH.md"
+CSV_DEFAULT = befunde_root(ROOT) / "810_BLOCK_K_FELDZEIT_KURZ_ASSET_VERGLEICH.csv"
+MD_DEFAULT = befunde_root(ROOT) / "810_BLOCK_K_FELDZEIT_KURZ_ASSET_VERGLEICH.md"
 
 
 GROUP_DEFAULTS = {

@@ -6,9 +6,11 @@ import json
 from datetime import datetime
 from pathlib import Path
 
+from befunde_paths import befunde_root
+
 
 ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_OUT = ROOT / "docs" / "befunde" / "210_REKOPPLUNGSQUALITAET_DIAGNOSE.md"
+DEFAULT_OUT = befunde_root(ROOT) / "210_REKOPPLUNGSQUALITAET_DIAGNOSE.md"
 
 
 def _resolve(path_text: str | Path) -> Path:

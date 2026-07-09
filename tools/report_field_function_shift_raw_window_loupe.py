@@ -316,7 +316,7 @@ def _write_markdown(path: Path, summary: list[dict[str, object]], events: list[d
 
 def main() -> int:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--shift-report", default="docs/befunde/2032_FELDFUNKTION_WECHSEL_REALWELT_KERN.csv")
+    parser.add_argument("--shift-report", default="docs/befunde/2001-3000/2032_FELDFUNKTION_WECHSEL_REALWELT_KERN.csv")
     parser.add_argument("--long-debug", default="debug/2026_field_phase_signature_long_real_chain")
     parser.add_argument("--multi-debug", default="debug/2029_field_phase_signature_multiasset_real_chain")
     parser.add_argument("--lookback", type=int, default=48)

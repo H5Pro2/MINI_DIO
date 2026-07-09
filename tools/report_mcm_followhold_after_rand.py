@@ -7,13 +7,15 @@ from collections import Counter, defaultdict
 from datetime import datetime
 from pathlib import Path
 
+from befunde_paths import befunde_root
+
 
 ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
 
-DEFAULT_OUT = ROOT / "docs" / "befunde" / "1264_MCM_FOLGEHALT_NACH_RANDKONTAKT.md"
+DEFAULT_OUT = befunde_root(ROOT) / "1264_MCM_FOLGEHALT_NACH_RANDKONTAKT.md"
 
 RAND_ROLE = "spannungsrand_kippnaehe"
 FOLLOW_ROLES = {"zentrum_stabil", "rekopplungsnaehe", "offene_variante"}
@@ -47,7 +49,7 @@ def _load_csv(path: Path) -> list[dict[str, str]]:
 
 
 def _segment_paths() -> list[Path]:
-    return sorted((ROOT / "docs" / "befunde").glob("*FELDPHASEN*SEGMENTE.csv"))
+    return sorted((befunde_root(ROOT)).glob("*FELDPHASEN*SEGMENTE.csv"))
 
 
 def _world_kind(world: str, source: str) -> str:

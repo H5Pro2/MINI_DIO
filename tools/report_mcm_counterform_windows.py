@@ -7,14 +7,16 @@ from collections import Counter
 from datetime import datetime
 from pathlib import Path
 
+from befunde_paths import befunde_root
+
 
 ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
 
-DEFAULT_INPUT = ROOT / "docs" / "befunde" / "1257_MCM_FELDPHASEN_ROHWELT_FENSTERLUPE_ERWEITERT.csv"
-DEFAULT_OUT = ROOT / "docs" / "befunde" / "1262_MCM_GEGENFORMEN_TICKFENSTER.md"
+DEFAULT_INPUT = befunde_root(ROOT) / "1257_MCM_FELDPHASEN_ROHWELT_FENSTERLUPE_ERWEITERT.csv"
+DEFAULT_OUT = befunde_root(ROOT) / "1262_MCM_GEGENFORMEN_TICKFENSTER.md"
 
 
 COUNTERFORMS = {

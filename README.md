@@ -124,7 +124,7 @@ Die genauen Datenpfade hängen vom aktuell erzeugten Weltfenster ab.
 ## Zentrale Dokumente
 
 - [Ausführliche README-Langfassung](docs/README_AUSFUEHRLICH.md)
-- [Befunde](docs/befunde/)
+- [Befunde](docs/befunde/befunde)
 - [Mechanik](docs/mechanik/)
 - [MCM-Hauptprojekt](https://github.com/H5Pro2/Mental-Core-Matrix-MCM)
 - [Von Resonanz zu Sprache](https://github.com/H5Pro2/Mental-Core-Matrix-MCM/blob/main/Abhandlungen/MCM%20-%20Nebenabhandlung/Von%20Resonanz%20zu%20Sprache.pdf)

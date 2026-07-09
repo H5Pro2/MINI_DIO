@@ -4,6 +4,8 @@ import argparse
 from datetime import datetime
 from pathlib import Path
 
+from befunde_paths import befunde_root
+
 from report_harmonic_sol5m_reference import DEFAULT_SUMMARIES
 from report_harmonic_sol5m_reference import _avg
 from report_harmonic_sol5m_reference import _fmt
@@ -12,7 +14,7 @@ from report_recoupling_quality import _resolve
 
 
 ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_OUT = ROOT / "docs" / "befunde" / "222_ORGANISCHER_ADAPTIONSWEG_DIAGNOSE.md"
+DEFAULT_OUT = befunde_root(ROOT) / "222_ORGANISCHER_ADAPTIONSWEG_DIAGNOSE.md"
 
 
 def _clamp(value: float, low: float = 0.0, high: float = 1.0) -> float:

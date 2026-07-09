@@ -4,12 +4,14 @@ import argparse
 import csv
 from pathlib import Path
 
+from befunde_paths import befunde_root
+
 
 ROOT = Path(__file__).resolve().parents[1]
-LONG_DEFAULT = ROOT / "docs" / "befunde" / "806_BLOCK_K_FELDEPISODEN_ZEITREIHE.csv"
-STRESS_DEFAULT = ROOT / "docs" / "befunde" / "807_BLOCK_K_STRESS_FELDEPISODEN_ZEITREIHE.csv"
-CSV_DEFAULT = ROOT / "docs" / "befunde" / "808_BLOCK_K_FELDZEIT_10K_VS_STRESS.csv"
-MD_DEFAULT = ROOT / "docs" / "befunde" / "808_BLOCK_K_FELDZEIT_10K_VS_STRESS.md"
+LONG_DEFAULT = befunde_root(ROOT) / "806_BLOCK_K_FELDEPISODEN_ZEITREIHE.csv"
+STRESS_DEFAULT = befunde_root(ROOT) / "807_BLOCK_K_STRESS_FELDEPISODEN_ZEITREIHE.csv"
+CSV_DEFAULT = befunde_root(ROOT) / "808_BLOCK_K_FELDZEIT_10K_VS_STRESS.csv"
+MD_DEFAULT = befunde_root(ROOT) / "808_BLOCK_K_FELDZEIT_10K_VS_STRESS.md"
 
 
 def _safe_float(value: object, default: float = 0.0) -> float:

@@ -8,14 +8,16 @@ from collections import Counter, defaultdict
 from datetime import datetime
 from pathlib import Path
 
+from befunde_paths import befunde_root
+
 
 ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
 
-DEFAULT_OUT = ROOT / "docs" / "befunde" / "269_WELTRELATIVE_TOPOLOGIE_MATRIX.md"
-DEFAULT_CSV = ROOT / "docs" / "befunde" / "269_WELTRELATIVE_TOPOLOGIE_MATRIX.csv"
+DEFAULT_OUT = befunde_root(ROOT) / "269_WELTRELATIVE_TOPOLOGIE_MATRIX.md"
+DEFAULT_CSV = befunde_root(ROOT) / "269_WELTRELATIVE_TOPOLOGIE_MATRIX.csv"
 
 DEFAULT_WORLDS = [
     (

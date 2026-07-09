@@ -263,7 +263,7 @@ def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--out-csv", default="reports/rekopplung_core_family_roles.csv")
     parser.add_argument("--out-summary", default="reports/rekopplung_core_family_roles_summary.csv")
-    parser.add_argument("--out-md", default="docs/befunde/1790_REKOPPELNDE_KERNFAMILIEN_FELDROLLEN.md")
+    parser.add_argument("--out-md", default="docs/befunde/1001-2000/1751-2000/1790_REKOPPELNDE_KERNFAMILIEN_FELDROLLEN.md")
     args = parser.parse_args()
 
     families = ["dio_104t", "dio_0l7p", "dio_155c", "dio_0m9z", "dio_14wj", "dio_1fll"]

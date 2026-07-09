@@ -110,7 +110,7 @@ def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--source", default="reports/core_family_role_comparison.csv")
     parser.add_argument("--out-csv", default="reports/core_family_bridge_character.csv")
-    parser.add_argument("--out-md", default="docs/befunde/1798_KERNFAMILIEN_BRUECKENCHARAKTER.md")
+    parser.add_argument("--out-md", default="docs/befunde/1001-2000/1751-2000/1798_KERNFAMILIEN_BRUECKENCHARAKTER.md")
     args = parser.parse_args()
 
     rows = _read_csv(ROOT / args.source)

@@ -157,12 +157,12 @@ def _write_markdown(rows: list[dict[str, object]], path: Path, *, base: dict[str
 
 def main() -> int:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--raw-windows", default="docs/befunde/1345_BTC_CANDIDATE_WELTLAGEN_ROHWELTFENSTER.csv")
-    parser.add_argument("--base", default="docs/befunde/1315_WELTLAGEN_ZWISCHENLAGEN_ASSET_BALANCED.csv")
+    parser.add_argument("--raw-windows", default="docs/befunde/1001-2000/1001-1500/1345_BTC_CANDIDATE_WELTLAGEN_ROHWELTFENSTER.csv")
+    parser.add_argument("--base", default="docs/befunde/1001-2000/1001-1500/1315_WELTLAGEN_ZWISCHENLAGEN_ASSET_BALANCED.csv")
     parser.add_argument("--asset", default="BTC")
     parser.add_argument("--top", type=int, default=25)
-    parser.add_argument("--out", default="docs/befunde/1347_HOERBARER_SCHMALER_SHIFT_KANDIDATEN.md")
-    parser.add_argument("--csv-out", default="docs/befunde/1347_HOERBARER_SCHMALER_SHIFT_KANDIDATEN.csv")
+    parser.add_argument("--out", default="docs/befunde/1001-2000/1001-1500/1347_HOERBARER_SCHMALER_SHIFT_KANDIDATEN.md")
+    parser.add_argument("--csv-out", default="docs/befunde/1001-2000/1001-1500/1347_HOERBARER_SCHMALER_SHIFT_KANDIDATEN.csv")
     args = parser.parse_args()
 
     base = _load_base(Path(args.base), args.asset)

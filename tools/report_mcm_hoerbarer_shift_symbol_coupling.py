@@ -3,13 +3,15 @@ from __future__ import annotations
 import csv
 from collections import Counter, defaultdict
 from pathlib import Path
+
+from befunde_paths import befunde_root
 from statistics import mean
 
 
 ROOT = Path(__file__).resolve().parents[1]
-INPUT = ROOT / "docs" / "befunde" / "1351_HOERBARER_SCHMALER_SHIFT_ROLLELESUNG.csv"
-OUT_CSV = ROOT / "docs" / "befunde" / "1352_HOERBARER_SCHMALER_SHIFT_SYMBOLKOPPLUNG.csv"
-OUT_MD = ROOT / "docs" / "befunde" / "1352_HOERBARER_SCHMALER_SHIFT_SYMBOLKOPPLUNG.md"
+INPUT = befunde_root(ROOT) / "1351_HOERBARER_SCHMALER_SHIFT_ROLLELESUNG.csv"
+OUT_CSV = befunde_root(ROOT) / "1352_HOERBARER_SCHMALER_SHIFT_SYMBOLKOPPLUNG.csv"
+OUT_MD = befunde_root(ROOT) / "1352_HOERBARER_SCHMALER_SHIFT_SYMBOLKOPPLUNG.md"
 
 
 EPISODE_MAP = {

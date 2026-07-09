@@ -6,14 +6,16 @@ from collections import Counter
 from datetime import datetime
 from pathlib import Path
 
+from befunde_paths import befunde_root
+
 from report_auditory_regulation import DEFAULT_SUMMARIES
 from report_auditory_regulation import _fmt
 from report_recoupling_quality import _resolve
 
 
 ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_LOCAL_WINDOWS = ROOT / "docs" / "befunde" / "234_LOKALE_MULTISENSORISCHE_KOPPLUNG_DIAGNOSE.csv"
-DEFAULT_OUT = ROOT / "docs" / "befunde" / "236_LOKALE_MULTISENSORISCHE_SYNTAX_DIAGNOSE.md"
+DEFAULT_LOCAL_WINDOWS = befunde_root(ROOT) / "234_LOKALE_MULTISENSORISCHE_KOPPLUNG_DIAGNOSE.csv"
+DEFAULT_OUT = befunde_root(ROOT) / "236_LOKALE_MULTISENSORISCHE_SYNTAX_DIAGNOSE.md"
 
 
 def _float(value: object) -> float:

@@ -171,12 +171,12 @@ def _write_markdown(path: Path, memory: MCMRoleFamilyMemory) -> None:
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Koppelt 2070 als numerische Evidenz in die Rollenfamilien-Memory.")
-    parser.add_argument("--cohesion", default="docs/befunde/2066_REALVERSTAERKTE_ROLLENFAMILIEN_KOHAESION.summary.csv")
-    parser.add_argument("--legacy-follow", default="docs/befunde/2068_ANSCHLUSSFAEHIGE_ROLLENFAMILIEN_IN_FOLGEWELTEN.summary.csv")
-    parser.add_argument("--same-basis", default="docs/befunde/2070_ROLLENFAMILIEN_GLEICHE_SYMBOLBASIS_FOLGEWELTEN.summary.csv")
-    parser.add_argument("--out-csv", default="docs/befunde/2071_PASSIVE_ROLLENFAMILIEN_MEMORY_FOLGEWELTDRIFT.csv")
+    parser.add_argument("--cohesion", default="docs/befunde/2001-3000/2066_REALVERSTAERKTE_ROLLENFAMILIEN_KOHAESION.summary.csv")
+    parser.add_argument("--legacy-follow", default="docs/befunde/2001-3000/2068_ANSCHLUSSFAEHIGE_ROLLENFAMILIEN_IN_FOLGEWELTEN.summary.csv")
+    parser.add_argument("--same-basis", default="docs/befunde/2001-3000/2070_ROLLENFAMILIEN_GLEICHE_SYMBOLBASIS_FOLGEWELTEN.summary.csv")
+    parser.add_argument("--out-csv", default="docs/befunde/2001-3000/2071_PASSIVE_ROLLENFAMILIEN_MEMORY_FOLGEWELTDRIFT.csv")
     parser.add_argument("--out-json", default="memory/passive_role_family_memory_followworld.json")
-    parser.add_argument("--out-md", default="docs/befunde/2071_PASSIVE_ROLLENFAMILIEN_MEMORY_FOLGEWELTDRIFT.md")
+    parser.add_argument("--out-md", default="docs/befunde/2001-3000/2071_PASSIVE_ROLLENFAMILIEN_MEMORY_FOLGEWELTDRIFT.md")
     args = parser.parse_args()
 
     memory = MCMRoleFamilyMemory.from_csvs(

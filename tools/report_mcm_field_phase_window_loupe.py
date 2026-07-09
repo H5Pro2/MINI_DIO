@@ -7,14 +7,16 @@ from collections import Counter, defaultdict
 from datetime import datetime
 from pathlib import Path
 
+from befunde_paths import befunde_root
+
 
 ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
 
-DEFAULT_PHASES = ROOT / "docs" / "befunde" / "1248_MCM_FELDPHASEN_ROHFELD_KOPPLUNG.csv"
-DEFAULT_OUT = ROOT / "docs" / "befunde" / "1249_MCM_FELDPHASEN_FENSTERLUPE.md"
+DEFAULT_PHASES = befunde_root(ROOT) / "1248_MCM_FELDPHASEN_ROHFELD_KOPPLUNG.csv"
+DEFAULT_OUT = befunde_root(ROOT) / "1249_MCM_FELDPHASEN_FENSTERLUPE.md"
 
 
 METRIC_COLUMNS = [
@@ -54,7 +56,7 @@ def _load_csv(path: Path) -> list[dict[str, str]]:
 
 
 def _segment_paths() -> list[Path]:
-    return sorted((ROOT / "docs" / "befunde").glob("*FELDPHASEN*SEGMENTE.csv"))
+    return sorted((befunde_root(ROOT)).glob("*FELDPHASEN*SEGMENTE.csv"))
 
 
 def _target_phases(path: Path) -> dict[str, dict[str, str]]:

@@ -14,10 +14,10 @@ from mini_dio.worldlage_classifier import classify_adaptation_delta, classify_wo
 
 
 DEFAULT_INPUTS = [
-    "docs/befunde/1281_REZEPTORHALTUNG_AB_TEST.csv",
-    "docs/befunde/1283_REZEPTORHALTUNG_AB_TEST_MEHRWELTEN.csv",
-    "docs/befunde/1286_REZEPTORHALTUNG_AB_TEST_NEUE_WELTEN.csv",
-    "docs/befunde/1289_REZEPTORHALTUNG_AB_TEST_WIDERSPRUCH.csv",
+    "docs/befunde/1001-2000/1001-1500/1281_REZEPTORHALTUNG_AB_TEST.csv",
+    "docs/befunde/1001-2000/1001-1500/1283_REZEPTORHALTUNG_AB_TEST_MEHRWELTEN.csv",
+    "docs/befunde/1001-2000/1001-1500/1286_REZEPTORHALTUNG_AB_TEST_NEUE_WELTEN.csv",
+    "docs/befunde/1001-2000/1001-1500/1289_REZEPTORHALTUNG_AB_TEST_WIDERSPRUCH.csv",
 ]
 
 
@@ -142,9 +142,9 @@ def _write_markdown(summary: list[dict[str, object]], detail_rows: list[dict[str
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--input", action="append", default=[])
-    parser.add_argument("--out", default="docs/befunde/1295_WELTLAGE_REZEPTORWIRKUNG.md")
-    parser.add_argument("--csv-out", default="docs/befunde/1295_WELTLAGE_REZEPTORWIRKUNG.csv")
-    parser.add_argument("--summary-out", default="docs/befunde/1295_WELTLAGE_REZEPTORWIRKUNG_SUMMARY.csv")
+    parser.add_argument("--out", default="docs/befunde/1001-2000/1001-1500/1295_WELTLAGE_REZEPTORWIRKUNG.md")
+    parser.add_argument("--csv-out", default="docs/befunde/1001-2000/1001-1500/1295_WELTLAGE_REZEPTORWIRKUNG.csv")
+    parser.add_argument("--summary-out", default="docs/befunde/1001-2000/1001-1500/1295_WELTLAGE_REZEPTORWIRKUNG_SUMMARY.csv")
     args = parser.parse_args()
 
     detail_rows: list[dict[str, object]] = []

@@ -242,8 +242,8 @@ def main() -> int:
     parser.add_argument("--world", action="append", type=_parse_world)
     parser.add_argument("--limit", type=int, default=2000)
     parser.add_argument("--window", type=int, default=5)
-    parser.add_argument("--out", default="docs/befunde/1272_SINNESAUFNAHME_SELBSTREGULATION_BESTAND.md")
-    parser.add_argument("--csv-out", default="docs/befunde/1272_SINNESAUFNAHME_SELBSTREGULATION_BESTAND.csv")
+    parser.add_argument("--out", default="docs/befunde/1001-2000/1001-1500/1272_SINNESAUFNAHME_SELBSTREGULATION_BESTAND.md")
+    parser.add_argument("--csv-out", default="docs/befunde/1001-2000/1001-1500/1272_SINNESAUFNAHME_SELBSTREGULATION_BESTAND.csv")
     args = parser.parse_args()
 
     worlds = dict(args.world or DEFAULT_WORLDS.items())

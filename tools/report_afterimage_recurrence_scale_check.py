@@ -2,15 +2,17 @@ from __future__ import annotations
 
 import csv
 from pathlib import Path
+
+from befunde_paths import befunde_root
 from statistics import mean
 
 from report_late_drift_profile_holdout_scan import HOLDOUT_EPISODES
 
 
 ROOT = Path(__file__).resolve().parents[1]
-ANCHORS = ROOT / "docs" / "befunde" / "1961_MEHRWELTLICHE_PREVIEW_ANKER_KONTEXT.csv"
-OUT_CSV = ROOT / "docs" / "befunde" / "1963_NACHHALL_REKURRENZ_SKALIERUNG.csv"
-OUT_MD = ROOT / "docs" / "befunde" / "1963_NACHHALL_REKURRENZ_SKALIERUNG.md"
+ANCHORS = befunde_root(ROOT) / "1961_MEHRWELTLICHE_PREVIEW_ANKER_KONTEXT.csv"
+OUT_CSV = befunde_root(ROOT) / "1963_NACHHALL_REKURRENZ_SKALIERUNG.csv"
+OUT_MD = befunde_root(ROOT) / "1963_NACHHALL_REKURRENZ_SKALIERUNG.md"
 
 
 def read_csv(path: Path) -> list[dict[str, str]]:

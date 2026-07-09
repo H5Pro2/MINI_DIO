@@ -44,8 +44,8 @@ ASSET17K_RUNS = [
 PRESETS = {
     "asset10k": {
         "runs": DEFAULT_RUNS,
-        "out_md": "docs/befunde/1836_MCM_REIFUNGSBAHN_ASSETNAHE_NULL10K.md",
-        "out_csv": "docs/befunde/1836_MCM_REIFUNGSBAHN_ASSETNAHE_NULL10K.csv",
+        "out_md": "docs/befunde/1001-2000/1751-2000/1836_MCM_REIFUNGSBAHN_ASSETNAHE_NULL10K.md",
+        "out_csv": "docs/befunde/1001-2000/1751-2000/1836_MCM_REIFUNGSBAHN_ASSETNAHE_NULL10K.csv",
         "title": "1836 - MCM-Reifungsbahn mit assetnahen 10k-Nullwelten",
         "question": "Bleibt die passive Reifungsbahn auch dann unterscheidbar, wenn jede Realwelt gegen eigene, längengleiche Nullwelten geprüft wird?",
         "basis": "BTC, DOGE, PAXG und XRP wurden als 10k-Realwelten gegen je zwei assetnahe 10k-Nullwelten gelesen.",
@@ -53,8 +53,8 @@ PRESETS = {
     },
     "asset17k": {
         "runs": ASSET17K_RUNS,
-        "out_md": "docs/befunde/1837_MCM_REIFUNGSBAHN_ASSETNAHE_NULL17K.md",
-        "out_csv": "docs/befunde/1837_MCM_REIFUNGSBAHN_ASSETNAHE_NULL17K.csv",
+        "out_md": "docs/befunde/1001-2000/1751-2000/1837_MCM_REIFUNGSBAHN_ASSETNAHE_NULL17K.md",
+        "out_csv": "docs/befunde/1001-2000/1751-2000/1837_MCM_REIFUNGSBAHN_ASSETNAHE_NULL17K.csv",
         "title": "1837 - MCM-Reifungsbahn mit assetnahen 17k-Nullwelten",
         "question": "Verstärkt ein längeres gemeinsames Weltfenster die Trennung zwischen Realwelt und assetnaher Nullwelt?",
         "basis": "BTC, DOGE, PAXG und XRP wurden als 17k-Realwelten gegen je zwei assetnahe 17k-Nullwelten gelesen. DOGE, PAXG und XRP wurden dafür aus den vorhandenen 2024-01/2024-02-Rohmonaten normalisiert.",

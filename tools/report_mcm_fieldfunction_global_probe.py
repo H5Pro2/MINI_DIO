@@ -3,12 +3,14 @@ from __future__ import annotations
 import csv
 from collections import Counter
 from pathlib import Path
+
+from befunde_paths import befunde_root
 from statistics import mean
 
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT_CSV = ROOT / "docs" / "befunde" / "1381_FELDFUNKTIONSKARTE_GLOBALE_PROBE.csv"
-OUT_MD = ROOT / "docs" / "befunde" / "1381_FELDFUNKTIONSKARTE_GLOBALE_PROBE.md"
+OUT_CSV = befunde_root(ROOT) / "1381_FELDFUNKTIONSKARTE_GLOBALE_PROBE.csv"
+OUT_MD = befunde_root(ROOT) / "1381_FELDFUNKTIONSKARTE_GLOBALE_PROBE.md"
 
 EPISODE_SETS = [
     ("BTC_2024_5M", ROOT / "debug" / "adapted_field_btc_2024_5m_2k" / "dio_mini_lauf_2" / "episodes.csv"),

@@ -7,14 +7,16 @@ from collections import Counter, defaultdict
 from datetime import datetime
 from pathlib import Path
 
+from befunde_paths import befunde_root
+
 
 ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
 
-DEFAULT_INPUT = ROOT / "docs" / "befunde" / "1266_MCM_FOLGEHALT_ROHWELT_KOPPLUNG.csv"
-DEFAULT_OUT = ROOT / "docs" / "befunde" / "1270_MCM_FOLGEHALT_RUECKFALLPROFIL.md"
+DEFAULT_INPUT = befunde_root(ROOT) / "1266_MCM_FOLGEHALT_ROHWELT_KOPPLUNG.csv"
+DEFAULT_OUT = befunde_root(ROOT) / "1270_MCM_FOLGEHALT_RUECKFALLPROFIL.md"
 
 
 def _resolve(path_text: str | Path) -> Path:

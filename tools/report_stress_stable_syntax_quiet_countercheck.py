@@ -5,9 +5,11 @@ import csv
 from collections import Counter
 from pathlib import Path
 
+from befunde_paths import befunde_root
+
 
 ROOT = Path(__file__).resolve().parents[1]
-BEFUNDE = ROOT / "docs" / "befunde"
+BEFUNDE = befunde_root(ROOT)
 
 
 def _load_csv(path: Path) -> list[dict[str, str]]:
@@ -205,8 +207,8 @@ def _write_markdown(path: Path, rows: list[dict[str, object]], summary: list[dic
 
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--stress-detail", default="docs/befunde/2054_NACHGEREIFTE_SYNTAX_STRESS_STABILITAET.detail.csv")
-    parser.add_argument("--quiet-bridge", default="docs/befunde/2055_RUHIGE_WELTEN_FELDKLASSEN_ZU_SYNTAXNAEHE.bridge.csv")
+    parser.add_argument("--stress-detail", default="docs/befunde/2001-3000/2054_NACHGEREIFTE_SYNTAX_STRESS_STABILITAET.detail.csv")
+    parser.add_argument("--quiet-bridge", default="docs/befunde/2001-3000/2055_RUHIGE_WELTEN_FELDKLASSEN_ZU_SYNTAXNAEHE.bridge.csv")
     parser.add_argument("--out-prefix", default="2056_RUHIGE_GEGENPRUEFUNG_STRESSSTABILER_SYNTAXSPUREN")
     args = parser.parse_args()
 

@@ -132,13 +132,13 @@ def _write_markdown(sequence_rows: list[dict[str, object]], detail_rows: list[di
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--world", action="append", type=_parse_world)
-    parser.add_argument("--preference-memory", default="docs/befunde/1279_SINNESAUFNAHME_TOPOLOGIE_REPRO_MEMORY.csv")
+    parser.add_argument("--preference-memory", default="docs/befunde/1001-2000/1001-1500/1279_SINNESAUFNAHME_TOPOLOGIE_REPRO_MEMORY.csv")
     parser.add_argument("--limit", type=int, default=2000)
     parser.add_argument("--window", type=int, default=5)
     parser.add_argument("--block-size", type=int, default=100)
-    parser.add_argument("--out", default="docs/befunde/1302_WELTLAGEN_FOLGEMEMORY.md")
-    parser.add_argument("--csv-out", default="docs/befunde/1302_WELTLAGEN_FOLGEMEMORY.csv")
-    parser.add_argument("--detail-out", default="docs/befunde/1302_WELTLAGEN_FOLGEMEMORY_DETAILS.csv")
+    parser.add_argument("--out", default="docs/befunde/1001-2000/1001-1500/1302_WELTLAGEN_FOLGEMEMORY.md")
+    parser.add_argument("--csv-out", default="docs/befunde/1001-2000/1001-1500/1302_WELTLAGEN_FOLGEMEMORY.csv")
+    parser.add_argument("--detail-out", default="docs/befunde/1001-2000/1001-1500/1302_WELTLAGEN_FOLGEMEMORY_DETAILS.csv")
     args = parser.parse_args()
 
     preferences = _load_preferences(Path(args.preference_memory))

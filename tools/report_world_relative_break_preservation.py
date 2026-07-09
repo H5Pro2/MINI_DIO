@@ -7,6 +7,8 @@ import sys
 from datetime import datetime
 from pathlib import Path
 
+from befunde_paths import befunde_root
+
 
 ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
@@ -15,8 +17,8 @@ if str(ROOT) not in sys.path:
 from mini_dio.mini_world import build_senses, build_senses_world_relative, build_sensory_profile, load_candles
 
 
-DEFAULT_OUT = ROOT / "docs" / "befunde" / "267_WELTRELATIVER_BRUCHERHALT_DIAGNOSE.md"
-DEFAULT_CSV = ROOT / "docs" / "befunde" / "267_WELTRELATIVER_BRUCHERHALT_DIAGNOSE.csv"
+DEFAULT_OUT = befunde_root(ROOT) / "267_WELTRELATIVER_BRUCHERHALT_DIAGNOSE.md"
+DEFAULT_CSV = befunde_root(ROOT) / "267_WELTRELATIVER_BRUCHERHALT_DIAGNOSE.csv"
 
 DEFAULT_WORLDS = [
     (

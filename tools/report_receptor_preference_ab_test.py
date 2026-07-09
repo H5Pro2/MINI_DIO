@@ -362,11 +362,11 @@ def _parse_world(value: str) -> tuple[str, str]:
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--world", action="append", type=_parse_world)
-    parser.add_argument("--preference-memory", default="docs/befunde/1279_SINNESAUFNAHME_TOPOLOGIE_REPRO_MEMORY.csv")
+    parser.add_argument("--preference-memory", default="docs/befunde/1001-2000/1001-1500/1279_SINNESAUFNAHME_TOPOLOGIE_REPRO_MEMORY.csv")
     parser.add_argument("--limit", type=int, default=2000)
     parser.add_argument("--window", type=int, default=5)
-    parser.add_argument("--out", default="docs/befunde/1281_REZEPTORHALTUNG_AB_TEST.md")
-    parser.add_argument("--csv-out", default="docs/befunde/1281_REZEPTORHALTUNG_AB_TEST.csv")
+    parser.add_argument("--out", default="docs/befunde/1001-2000/1001-1500/1281_REZEPTORHALTUNG_AB_TEST.md")
+    parser.add_argument("--csv-out", default="docs/befunde/1001-2000/1001-1500/1281_REZEPTORHALTUNG_AB_TEST.csv")
     args = parser.parse_args()
 
     preferences = _load_preferences(Path(args.preference_memory))

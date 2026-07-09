@@ -7,6 +7,8 @@ import sys
 from datetime import datetime
 from pathlib import Path
 
+from befunde_paths import befunde_root
+
 
 ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
@@ -22,8 +24,8 @@ DEFAULT_WORLDS = (
     ("PAXG_2024_5M", ROOT / "data" / "kontrolliert_paxg_2024_5m_test1_2000_PAXGUSDT.csv"),
 )
 
-DEFAULT_CSV = ROOT / "docs" / "befunde" / "839_REZEPTOR_MCM_KETTE_AUDIT.csv"
-DEFAULT_MD = ROOT / "docs" / "befunde" / "839_REZEPTOR_MCM_KETTE_AUDIT.md"
+DEFAULT_CSV = befunde_root(ROOT) / "839_REZEPTOR_MCM_KETTE_AUDIT.csv"
+DEFAULT_MD = befunde_root(ROOT) / "839_REZEPTOR_MCM_KETTE_AUDIT.md"
 
 
 def _float(value: object) -> float:

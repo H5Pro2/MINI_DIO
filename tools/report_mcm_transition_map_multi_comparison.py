@@ -5,15 +5,17 @@ import csv
 from collections import Counter, defaultdict
 from pathlib import Path
 
+from befunde_paths import befunde_root
+
 
 ROOT = Path(__file__).resolve().parents[1]
 MAPS_DEFAULT = [
-    ROOT / "docs" / "befunde" / "819_BLOCK_K_MCM_UEBERGANGSKARTE.csv",
-    ROOT / "docs" / "befunde" / "822_BLOCK_K_ZWEITE_MCM_UEBERGANGSKARTE.csv",
-    ROOT / "docs" / "befunde" / "826_BLOCK_K_DRITTE_MCM_UEBERGANGSKARTE.csv",
+    befunde_root(ROOT) / "819_BLOCK_K_MCM_UEBERGANGSKARTE.csv",
+    befunde_root(ROOT) / "822_BLOCK_K_ZWEITE_MCM_UEBERGANGSKARTE.csv",
+    befunde_root(ROOT) / "826_BLOCK_K_DRITTE_MCM_UEBERGANGSKARTE.csv",
 ]
-CSV_DEFAULT = ROOT / "docs" / "befunde" / "827_BLOCK_K_DREI_MCM_UEBERGANGSKARTEN_VERGLEICH.csv"
-MD_DEFAULT = ROOT / "docs" / "befunde" / "827_BLOCK_K_DREI_MCM_UEBERGANGSKARTEN_VERGLEICH.md"
+CSV_DEFAULT = befunde_root(ROOT) / "827_BLOCK_K_DREI_MCM_UEBERGANGSKARTEN_VERGLEICH.csv"
+MD_DEFAULT = befunde_root(ROOT) / "827_BLOCK_K_DREI_MCM_UEBERGANGSKARTEN_VERGLEICH.md"
 
 
 def _read_csv(path: Path) -> list[dict[str, str]]:

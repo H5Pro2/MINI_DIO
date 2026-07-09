@@ -6,10 +6,12 @@ from collections import Counter
 from datetime import datetime
 from pathlib import Path
 
+from befunde_paths import befunde_root
+
 
 ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_INPUT = ROOT / "docs" / "befunde" / "243_MEHRWELT_FELD_EPISODEN_PREVIEW_SYNTAX_DIAGNOSE.csv"
-DEFAULT_OUT = ROOT / "docs" / "befunde" / "247_PREVIEW_KIPPVARIANTEN_GEGEN_REKOPPLUNGSFAMILIE.md"
+DEFAULT_INPUT = befunde_root(ROOT) / "243_MEHRWELT_FELD_EPISODEN_PREVIEW_SYNTAX_DIAGNOSE.csv"
+DEFAULT_OUT = befunde_root(ROOT) / "247_PREVIEW_KIPPVARIANTEN_GEGEN_REKOPPLUNGSFAMILIE.md"
 RECOUPLING_SYMBOLS = {
     "dio_mcm_episode_02xikfk",
     "dio_mcm_episode_1t5bcxp",

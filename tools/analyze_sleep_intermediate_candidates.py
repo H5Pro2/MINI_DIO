@@ -244,7 +244,7 @@ def main() -> int:
     parser.add_argument("--quiet-label", default="sol2024_soft_sleep_combo_quiet2025")
     parser.add_argument("--stress-label", default="sol2024_soft_sleep_combo_stress2024")
     parser.add_argument("--mosaic-label", default="sol2024_soft_sleep_combo_mosaic1525")
-    parser.add_argument("--out", default="docs/befunde/1562_SLEEP_ZWISCHENROLLEN_KANDIDATEN.md")
+    parser.add_argument("--out", default="docs/befunde/1001-2000/1501-1750/1562_SLEEP_ZWISCHENROLLEN_KANDIDATEN.md")
     parser.add_argument("--memory", default="memory/sleep_intermediate_candidates/passive_sleep_intermediate_candidates.json")
     args = parser.parse_args()
     summary = analyze(

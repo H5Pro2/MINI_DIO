@@ -7,13 +7,15 @@ from collections import Counter
 from datetime import datetime
 from pathlib import Path
 
+from befunde_paths import befunde_root
+
 from report_harmonic_sol5m_reference import DEFAULT_SUMMARIES
 from report_recoupling_quality import _load_json, _resolve
 from report_recoupling_quality import _row as recoupling_row
 
 
 ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_OUT = ROOT / "docs" / "befunde" / "224_AUDITIVE_REGULATION_DIAGNOSE.md"
+DEFAULT_OUT = befunde_root(ROOT) / "224_AUDITIVE_REGULATION_DIAGNOSE.md"
 
 
 def _float(value: object) -> float:

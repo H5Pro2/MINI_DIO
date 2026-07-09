@@ -4,13 +4,15 @@ import csv
 import json
 from collections import Counter
 from pathlib import Path
+
+from befunde_paths import befunde_root
 from statistics import mean
 
 
 ROOT = Path(__file__).resolve().parents[1]
-IN_CSV = ROOT / "docs" / "befunde" / "1395_HOLDOUT_FELDROLLEN_STABILITAET.csv"
-OUT_CSV = ROOT / "docs" / "befunde" / "1396_HOLDOUT_ROHWELT_RUECKLESUNG.csv"
-OUT_MD = ROOT / "docs" / "befunde" / "1396_HOLDOUT_ROHWELT_RUECKLESUNG.md"
+IN_CSV = befunde_root(ROOT) / "1395_HOLDOUT_FELDROLLEN_STABILITAET.csv"
+OUT_CSV = befunde_root(ROOT) / "1396_HOLDOUT_ROHWELT_RUECKLESUNG.csv"
+OUT_MD = befunde_root(ROOT) / "1396_HOLDOUT_ROHWELT_RUECKLESUNG.md"
 
 REPORTS = {
     "HOLDOUT_2024_BRIDGE_TEST1": ROOT / "debug" / "1395_holdout_bridge_test1" / "dio_mini_lauf_2" / "mini_report.json",

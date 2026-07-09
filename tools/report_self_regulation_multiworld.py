@@ -7,6 +7,8 @@ import subprocess
 import sys
 from pathlib import Path
 
+from befunde_paths import befunde_root
+
 
 ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
@@ -21,8 +23,8 @@ DEFAULT_WORLDS = [
 ]
 DEBUG_DEFAULT = ROOT / "debug" / "block_k_multiworld"
 MEMORY_DEFAULT = ROOT / "memory" / "block_k_multiworld"
-CSV_DEFAULT = ROOT / "docs" / "befunde" / "800_BLOCK_K_MEHRWELT_SELBSTREGULATION.csv"
-MD_DEFAULT = ROOT / "docs" / "befunde" / "800_BLOCK_K_MEHRWELT_SELBSTREGULATION.md"
+CSV_DEFAULT = befunde_root(ROOT) / "800_BLOCK_K_MEHRWELT_SELBSTREGULATION.csv"
+MD_DEFAULT = befunde_root(ROOT) / "800_BLOCK_K_MEHRWELT_SELBSTREGULATION.md"
 
 
 def _safe_float(value: object, default: float = 0.0) -> float:

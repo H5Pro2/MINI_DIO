@@ -5,6 +5,8 @@ import sys
 from collections import Counter
 from pathlib import Path
 
+from befunde_paths import befunde_root
+
 
 ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
@@ -13,10 +15,10 @@ if str(ROOT) not in sys.path:
 from mini_dio.sensory_intake_memory import SensoryIntakeMemory
 
 
-INPUT_DEFAULT = ROOT / "docs" / "befunde" / "408_SINNESAUFNAHME_WIEDERERKENNUNG.csv"
-CSV_DEFAULT = ROOT / "docs" / "befunde" / "409_PASSIVE_SINNESAUFNAHME_MEMORY.csv"
-JSON_DEFAULT = ROOT / "docs" / "befunde" / "409_PASSIVE_SINNESAUFNAHME_MEMORY.json"
-MD_DEFAULT = ROOT / "docs" / "befunde" / "409_PASSIVE_SINNESAUFNAHME_MEMORY.md"
+INPUT_DEFAULT = befunde_root(ROOT) / "408_SINNESAUFNAHME_WIEDERERKENNUNG.csv"
+CSV_DEFAULT = befunde_root(ROOT) / "409_PASSIVE_SINNESAUFNAHME_MEMORY.csv"
+JSON_DEFAULT = befunde_root(ROOT) / "409_PASSIVE_SINNESAUFNAHME_MEMORY.json"
+MD_DEFAULT = befunde_root(ROOT) / "409_PASSIVE_SINNESAUFNAHME_MEMORY.md"
 
 
 def _quality_counts(rows: list[dict[str, object]]) -> Counter[str]:

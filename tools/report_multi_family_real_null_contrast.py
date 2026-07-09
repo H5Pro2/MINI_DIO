@@ -4,9 +4,11 @@ import argparse
 import csv
 from pathlib import Path
 
+from befunde_paths import befunde_root
+
 
 ROOT = Path(__file__).resolve().parents[1]
-BEFUNDE = ROOT / "docs" / "befunde"
+BEFUNDE = befunde_root(ROOT)
 
 
 def _load_csv(path: Path) -> list[dict[str, str]]:
@@ -222,10 +224,10 @@ def _write_markdown(path: Path, rows: list[dict[str, object]], real_total: int, 
 
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--real-bridge", default="docs/befunde/2057_MULTI_ASSET_FELDKLASSEN_ZU_SYNTAXNAEHE.bridge.csv")
-    parser.add_argument("--real-families", default="docs/befunde/2057_MULTI_ASSET_FELDKLASSEN_ZU_SYNTAXNAEHE.families.csv")
-    parser.add_argument("--null-bridge", default="docs/befunde/2059_NULL_SHUFFLE_FELDKLASSEN_ZU_SYNTAXNAEHE.bridge.csv")
-    parser.add_argument("--null-families", default="docs/befunde/2059_NULL_SHUFFLE_FELDKLASSEN_ZU_SYNTAXNAEHE.families.csv")
+    parser.add_argument("--real-bridge", default="docs/befunde/2001-3000/2057_MULTI_ASSET_FELDKLASSEN_ZU_SYNTAXNAEHE.bridge.csv")
+    parser.add_argument("--real-families", default="docs/befunde/2001-3000/2057_MULTI_ASSET_FELDKLASSEN_ZU_SYNTAXNAEHE.families.csv")
+    parser.add_argument("--null-bridge", default="docs/befunde/2001-3000/2059_NULL_SHUFFLE_FELDKLASSEN_ZU_SYNTAXNAEHE.bridge.csv")
+    parser.add_argument("--null-families", default="docs/befunde/2001-3000/2059_NULL_SHUFFLE_FELDKLASSEN_ZU_SYNTAXNAEHE.families.csv")
     parser.add_argument("--out-prefix", default="2062_MULTIROLLEN_REAL_NULL_KONTRAST")
     parser.add_argument("--limit", type=int, default=200)
     parser.add_argument("--include-family", action="append", default=["dio_17j2"])

@@ -3,6 +3,8 @@ from __future__ import annotations
 import csv
 from pathlib import Path
 
+from befunde_paths import befunde_root
+
 from report_late_drift_raw_world_backread import (
     NUMERIC_FIELDS,
     classify_field,
@@ -12,9 +14,9 @@ from report_late_drift_raw_world_backread import (
 
 
 ROOT = Path(__file__).resolve().parents[1]
-SOURCE = ROOT / "docs" / "befunde" / "1956_SPAETE_DRIFTROLLEN_ROHWELT_RUECKLESUNG.csv"
-OUT_CSV = ROOT / "docs" / "befunde" / "1957_SPAETE_DRIFTROLLEN_PROFILE_HOLDOUT_SCAN.csv"
-OUT_MD = ROOT / "docs" / "befunde" / "1957_SPAETE_DRIFTROLLEN_PROFILE_HOLDOUT_SCAN.md"
+SOURCE = befunde_root(ROOT) / "1956_SPAETE_DRIFTROLLEN_ROHWELT_RUECKLESUNG.csv"
+OUT_CSV = befunde_root(ROOT) / "1957_SPAETE_DRIFTROLLEN_PROFILE_HOLDOUT_SCAN.csv"
+OUT_MD = befunde_root(ROOT) / "1957_SPAETE_DRIFTROLLEN_PROFILE_HOLDOUT_SCAN.md"
 
 HOLDOUT_EPISODES = {
     "SIDEWAYS": ROOT / "debug" / "world_relative_topology_sideways" / "dio_mini_lauf_1" / "episodes.csv",

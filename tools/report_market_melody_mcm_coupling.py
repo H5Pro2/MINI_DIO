@@ -7,16 +7,18 @@ from collections import Counter, defaultdict
 from dataclasses import dataclass, field
 from pathlib import Path
 
+from befunde_paths import befunde_root
+
 
 ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
 
-MELODY_DEFAULT = ROOT / "docs" / "befunde" / "834_MARKTMELODIE_STRESS2024_TONFOLGE.csv"
+MELODY_DEFAULT = befunde_root(ROOT) / "834_MARKTMELODIE_STRESS2024_TONFOLGE.csv"
 EPISODES_DEFAULT = ROOT / "debug" / "adapted_state_negative_stress_2024_5m_10k" / "dio_mini_lauf_1" / "episodes.csv"
-CSV_DEFAULT = ROOT / "docs" / "befunde" / "835_MARKTMELODIE_MCM_KOPPLUNG.csv"
-MD_DEFAULT = ROOT / "docs" / "befunde" / "835_MARKTMELODIE_MCM_KOPPLUNG.md"
+CSV_DEFAULT = befunde_root(ROOT) / "835_MARKTMELODIE_MCM_KOPPLUNG.csv"
+MD_DEFAULT = befunde_root(ROOT) / "835_MARKTMELODIE_MCM_KOPPLUNG.md"
 
 
 def _float(value: object) -> float:

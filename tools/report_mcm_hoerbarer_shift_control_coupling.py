@@ -4,6 +4,8 @@ import csv
 import sys
 from collections import Counter
 from pathlib import Path
+
+from befunde_paths import befunde_root
 from statistics import mean
 
 
@@ -22,9 +24,9 @@ from tools.report_mcm_hoerbarer_shift_symbol_coupling import (
 from tools.report_worldlage_multiscale_raw_windows import _raw_window_profile
 
 
-INPUT = ROOT / "docs" / "befunde" / "1351_HOERBARER_SCHMALER_SHIFT_ROLLELESUNG.csv"
-OUT_CSV = ROOT / "docs" / "befunde" / "1353_HOERBARER_SCHMALER_SHIFT_KONTROLLKOPPLUNG.csv"
-OUT_MD = ROOT / "docs" / "befunde" / "1353_HOERBARER_SCHMALER_SHIFT_KONTROLLKOPPLUNG.md"
+INPUT = befunde_root(ROOT) / "1351_HOERBARER_SCHMALER_SHIFT_ROLLELESUNG.csv"
+OUT_CSV = befunde_root(ROOT) / "1353_HOERBARER_SCHMALER_SHIFT_KONTROLLKOPPLUNG.csv"
+OUT_MD = befunde_root(ROOT) / "1353_HOERBARER_SCHMALER_SHIFT_KONTROLLKOPPLUNG.md"
 
 
 def _world_path(source_file: str) -> Path:

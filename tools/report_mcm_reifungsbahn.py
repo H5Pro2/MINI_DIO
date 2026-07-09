@@ -372,10 +372,10 @@ def _write_md(path: Path, rows: list[dict[str, float | str]], source_csv: str, d
 
 def main() -> int:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--source-csv", default="docs/befunde/1831_DAEMPFUNG_ASSET10K_NULLWELTEN.csv")
+    parser.add_argument("--source-csv", default="docs/befunde/1001-2000/1751-2000/1831_DAEMPFUNG_ASSET10K_NULLWELTEN.csv")
     parser.add_argument("--debug-root", default="debug/1831_damping_asset10k_null")
-    parser.add_argument("--out-md", default="docs/befunde/1833_MCM_REIFUNGSBAHN_ASSET10K_NULLWELT.md")
-    parser.add_argument("--out-csv", default="docs/befunde/1833_MCM_REIFUNGSBAHN_ASSET10K_NULLWELT.csv")
+    parser.add_argument("--out-md", default="docs/befunde/1001-2000/1751-2000/1833_MCM_REIFUNGSBAHN_ASSET10K_NULLWELT.md")
+    parser.add_argument("--out-csv", default="docs/befunde/1001-2000/1751-2000/1833_MCM_REIFUNGSBAHN_ASSET10K_NULLWELT.csv")
     args = parser.parse_args()
 
     rows = _profile_rows(_group_rows(_enrich(_read_csv(_resolve(args.source_csv)), _resolve(args.debug_root))))

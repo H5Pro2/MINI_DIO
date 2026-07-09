@@ -5,12 +5,14 @@ import csv
 from collections import Counter
 from pathlib import Path
 
+from befunde_paths import befunde_root
+
 
 ROOT = Path(__file__).resolve().parents[1]
-BASE_DEFAULT = ROOT / "docs" / "befunde" / "800_BLOCK_K_MEHRWELT_SELBSTREGULATION.csv"
-STRESS_DEFAULT = ROOT / "docs" / "befunde" / "801_BLOCK_K_STRESS_MEHRWELT_SELBSTREGULATION.csv"
-MD_DEFAULT = ROOT / "docs" / "befunde" / "802_BLOCK_K_NORMAL_VS_STRESS_SYNTHESE.md"
-CSV_DEFAULT = ROOT / "docs" / "befunde" / "802_BLOCK_K_NORMAL_VS_STRESS_SYNTHESE.csv"
+BASE_DEFAULT = befunde_root(ROOT) / "800_BLOCK_K_MEHRWELT_SELBSTREGULATION.csv"
+STRESS_DEFAULT = befunde_root(ROOT) / "801_BLOCK_K_STRESS_MEHRWELT_SELBSTREGULATION.csv"
+MD_DEFAULT = befunde_root(ROOT) / "802_BLOCK_K_NORMAL_VS_STRESS_SYNTHESE.md"
+CSV_DEFAULT = befunde_root(ROOT) / "802_BLOCK_K_NORMAL_VS_STRESS_SYNTHESE.csv"
 
 
 def _read_rows(path: Path) -> list[dict[str, str]]:

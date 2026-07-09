@@ -221,7 +221,7 @@ def _write_markdown(path: Path, summary: list[dict[str, object]], stability: lis
 
 def main() -> int:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--events", default="docs/befunde/2038_FELDFUNKTIONSWECHSEL_VORPHASEN_KLASSEN.events.csv")
+    parser.add_argument("--events", default="docs/befunde/2001-3000/2038_FELDFUNKTIONSWECHSEL_VORPHASEN_KLASSEN.events.csv")
     parser.add_argument("--out-prefix", default="2039_FELDFUNKTIONSWECHSEL_VORPHASEN_ASSET_STABILITAET")
     args = parser.parse_args()
 

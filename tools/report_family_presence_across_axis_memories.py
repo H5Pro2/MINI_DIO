@@ -172,7 +172,7 @@ def main() -> int:
     rows.sort(key=lambda row: (int(row["present"]), int(row["count"])), reverse=True)
 
     out_csv = ROOT / (args.out_csv or f"reports/{args.family}_axis_memory_presence.csv")
-    out_md = ROOT / (args.out_md or f"docs/befunde/1792_{args.family.upper()}_ACHSEN_MEMORY_PRESENCE.md")
+    out_md = ROOT / (args.out_md or f"docs/befunde/1001-2000/1751-2000/1792_{args.family.upper()}_ACHSEN_MEMORY_PRESENCE.md")
     _write_csv(out_csv, rows)
     _write_md(out_md, args.family, rows)
     print({"family": args.family, "rows": len(rows), "active": sum(int(row["present"]) for row in rows), "out": str(out_md.relative_to(ROOT))})

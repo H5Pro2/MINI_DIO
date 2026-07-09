@@ -5,11 +5,13 @@ import csv
 from collections import defaultdict
 from datetime import datetime
 from pathlib import Path
+
+from befunde_paths import befunde_root
 from statistics import fmean
 
 
 ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_OUT = ROOT / "docs" / "befunde" / "331_PREVIEW_FAMILIEN_REGULATIONSACHSEN_PROFIL.md"
+DEFAULT_OUT = befunde_root(ROOT) / "331_PREVIEW_FAMILIEN_REGULATIONSACHSEN_PROFIL.md"
 DEFAULT_TARGETS = [
     "dio_mcm_episode_1t5bcxp",
     "dio_mcm_episode_0y50lf3",

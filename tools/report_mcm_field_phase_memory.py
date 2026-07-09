@@ -5,6 +5,8 @@ import sys
 from datetime import datetime
 from pathlib import Path
 
+from befunde_paths import befunde_root
+
 
 ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
@@ -14,11 +16,11 @@ from mini_dio.mcm_field_phase_memory import MCMFieldPhaseMemory
 
 
 DEFAULT_INPUTS = [
-    ROOT / "docs" / "befunde" / "1225_AKTUELLE_REZEPTORSCHICHT_STRESS_QUIET_FELDPHASEN_TRANSITIONS.csv",
-    ROOT / "docs" / "befunde" / "1227_AKTUELLE_REZEPTORSCHICHT_STRESS_QUIET_FELDPHASEN_1H_TRANSITIONS.csv",
-    ROOT / "docs" / "befunde" / "1229_SYNTHETISCHE_SINNESACHSEN_STRESS_FELDPHASEN_TRANSITIONS.csv",
+    befunde_root(ROOT) / "1225_AKTUELLE_REZEPTORSCHICHT_STRESS_QUIET_FELDPHASEN_TRANSITIONS.csv",
+    befunde_root(ROOT) / "1227_AKTUELLE_REZEPTORSCHICHT_STRESS_QUIET_FELDPHASEN_1H_TRANSITIONS.csv",
+    befunde_root(ROOT) / "1229_SYNTHETISCHE_SINNESACHSEN_STRESS_FELDPHASEN_TRANSITIONS.csv",
 ]
-DEFAULT_OUT = ROOT / "docs" / "befunde" / "1242_MCM_FELDPHASEN_MEMORY.md"
+DEFAULT_OUT = befunde_root(ROOT) / "1242_MCM_FELDPHASEN_MEMORY.md"
 
 
 def _resolve(path_text: str | Path) -> Path:

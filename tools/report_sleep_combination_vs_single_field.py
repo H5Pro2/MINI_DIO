@@ -6,10 +6,12 @@ import json
 from datetime import datetime
 from pathlib import Path
 
+from befunde_paths import befunde_root
+
 
 ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_OUT = ROOT / "docs" / "befunde" / "1573_SLEEP_KOMBI_VS_EINZEL_REKOPPLUNG_FELDMERKMALE.md"
-DEFAULT_CSV = ROOT / "docs" / "befunde" / "1573_SLEEP_KOMBI_VS_EINZEL_REKOPPLUNG_FELDMERKMALE.csv"
+DEFAULT_OUT = befunde_root(ROOT) / "1573_SLEEP_KOMBI_VS_EINZEL_REKOPPLUNG_FELDMERKMALE.md"
+DEFAULT_CSV = befunde_root(ROOT) / "1573_SLEEP_KOMBI_VS_EINZEL_REKOPPLUNG_FELDMERKMALE.csv"
 
 
 def _float(value: object) -> float:

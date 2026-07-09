@@ -88,10 +88,10 @@ def _write_markdown(rows: list[dict[str, object]], path: Path, *, base_path: Pat
 
 def main() -> int:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--base", default="docs/befunde/1315_WELTLAGEN_ZWISCHENLAGEN_ASSET_BALANCED.csv")
-    parser.add_argument("--holdout", default="docs/befunde/1322_HOLDOUT_ZWISCHENLAGEN_ASSET_BALANCED.csv")
-    parser.add_argument("--out", default="docs/befunde/1325_MCM_BEDEUTUNGSFAERBUNG_SHIFT.md")
-    parser.add_argument("--csv-out", default="docs/befunde/1325_MCM_BEDEUTUNGSFAERBUNG_SHIFT.csv")
+    parser.add_argument("--base", default="docs/befunde/1001-2000/1001-1500/1315_WELTLAGEN_ZWISCHENLAGEN_ASSET_BALANCED.csv")
+    parser.add_argument("--holdout", default="docs/befunde/1001-2000/1001-1500/1322_HOLDOUT_ZWISCHENLAGEN_ASSET_BALANCED.csv")
+    parser.add_argument("--out", default="docs/befunde/1001-2000/1001-1500/1325_MCM_BEDEUTUNGSFAERBUNG_SHIFT.md")
+    parser.add_argument("--csv-out", default="docs/befunde/1001-2000/1001-1500/1325_MCM_BEDEUTUNGSFAERBUNG_SHIFT.csv")
     args = parser.parse_args()
 
     base_rows = _read_assets(Path(args.base))

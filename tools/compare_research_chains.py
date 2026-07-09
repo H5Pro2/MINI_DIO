@@ -5,9 +5,11 @@ import json
 from datetime import datetime
 from pathlib import Path
 
+from befunde_paths import befunde_root
+
 
 ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_OUT = ROOT / "docs" / "befunde" / "MEHRWELT_VERGLEICH.md"
+DEFAULT_OUT = befunde_root(ROOT) / "MEHRWELT_VERGLEICH.md"
 
 
 def _load(path: Path) -> dict:

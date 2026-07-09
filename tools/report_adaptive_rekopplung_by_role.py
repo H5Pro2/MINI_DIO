@@ -218,8 +218,8 @@ def main() -> int:
     parser.add_argument("--episodes", required=True)
     parser.add_argument("--mode", choices=("role", "family", "role_family"), default="role")
     parser.add_argument("--min-count", type=int, default=20)
-    parser.add_argument("--out-md", default="docs/befunde/1681_ADAPTIVE_REKOPPLUNG_ROLLEN_FAMILIEN.md")
-    parser.add_argument("--out-csv", default="docs/befunde/1681_ADAPTIVE_REKOPPLUNG_ROLLEN_FAMILIEN.csv")
+    parser.add_argument("--out-md", default="docs/befunde/1001-2000/1501-1750/1681_ADAPTIVE_REKOPPLUNG_ROLLEN_FAMILIEN.md")
+    parser.add_argument("--out-csv", default="docs/befunde/1001-2000/1501-1750/1681_ADAPTIVE_REKOPPLUNG_ROLLEN_FAMILIEN.csv")
     args = parser.parse_args()
 
     source = _resolve(args.episodes)

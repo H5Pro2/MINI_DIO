@@ -4,11 +4,13 @@ import csv
 from collections import Counter, defaultdict
 from pathlib import Path
 
+from befunde_paths import befunde_root
+
 
 ROOT = Path(__file__).resolve().parents[1]
-INPUT = ROOT / "docs" / "befunde" / "1358_HOERBARER_SCHMALER_SHIFT_ERWEITERTE_ROLLELESUNG.csv"
-OUT_CSV = ROOT / "docs" / "befunde" / "1379_FELDFUNKTIONSKARTE_WELTVERTEILUNG.csv"
-OUT_MD = ROOT / "docs" / "befunde" / "1379_FELDFUNKTIONSKARTE_WELTVERTEILUNG.md"
+INPUT = befunde_root(ROOT) / "1358_HOERBARER_SCHMALER_SHIFT_ERWEITERTE_ROLLELESUNG.csv"
+OUT_CSV = befunde_root(ROOT) / "1379_FELDFUNKTIONSKARTE_WELTVERTEILUNG.csv"
+OUT_MD = befunde_root(ROOT) / "1379_FELDFUNKTIONSKARTE_WELTVERTEILUNG.md"
 
 PRIMARY_ROLES = {
     "brueckenuebergang_zum_lauten_kontakt": "Bruecke",

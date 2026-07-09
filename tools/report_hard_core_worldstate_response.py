@@ -5,12 +5,14 @@ import csv
 from collections import Counter, defaultdict
 from pathlib import Path
 
+from befunde_paths import befunde_root
+
 
 ROOT = Path(__file__).resolve().parents[1]
 
-DEFAULT_CORE = ROOT / "docs" / "befunde" / "1865_LOKALE_REIFEGRUPPE_HARTER_KERN.csv"
-DEFAULT_OUT_CSV = ROOT / "docs" / "befunde" / "1868_SOL_HARTKERN_WELTLAGENREAKTION.csv"
-DEFAULT_OUT_MD = ROOT / "docs" / "befunde" / "1868_SOL_HARTKERN_WELTLAGENREAKTION.md"
+DEFAULT_CORE = befunde_root(ROOT) / "1865_LOKALE_REIFEGRUPPE_HARTER_KERN.csv"
+DEFAULT_OUT_CSV = befunde_root(ROOT) / "1868_SOL_HARTKERN_WELTLAGENREAKTION.csv"
+DEFAULT_OUT_MD = befunde_root(ROOT) / "1868_SOL_HARTKERN_WELTLAGENREAKTION.md"
 
 
 def _resolve(path: str) -> Path:

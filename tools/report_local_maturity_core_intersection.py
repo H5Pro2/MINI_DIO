@@ -5,13 +5,15 @@ import csv
 from collections import Counter, defaultdict
 from pathlib import Path
 
+from befunde_paths import befunde_root
+
 
 ROOT = Path(__file__).resolve().parents[1]
 
-DEFAULT_FIRST = ROOT / "docs" / "befunde" / "1861_PHASENLOKALE_FAMILIEN_REPRO_FOLGEFENSTER.csv"
-DEFAULT_SECOND = ROOT / "docs" / "befunde" / "1864_LOKALE_REIFEGRUPPE_REPRO_WEITERE_FENSTER.csv"
-DEFAULT_OUT_CSV = ROOT / "docs" / "befunde" / "1865_LOKALE_REIFEGRUPPE_HARTER_KERN.csv"
-DEFAULT_OUT_MD = ROOT / "docs" / "befunde" / "1865_LOKALE_REIFEGRUPPE_HARTER_KERN.md"
+DEFAULT_FIRST = befunde_root(ROOT) / "1861_PHASENLOKALE_FAMILIEN_REPRO_FOLGEFENSTER.csv"
+DEFAULT_SECOND = befunde_root(ROOT) / "1864_LOKALE_REIFEGRUPPE_REPRO_WEITERE_FENSTER.csv"
+DEFAULT_OUT_CSV = befunde_root(ROOT) / "1865_LOKALE_REIFEGRUPPE_HARTER_KERN.csv"
+DEFAULT_OUT_MD = befunde_root(ROOT) / "1865_LOKALE_REIFEGRUPPE_HARTER_KERN.md"
 
 
 CORE_STATE = "lokale_qualitaet_reproduziert"

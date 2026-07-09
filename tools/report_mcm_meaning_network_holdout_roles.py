@@ -3,12 +3,14 @@ from __future__ import annotations
 import csv
 from collections import Counter, defaultdict
 from pathlib import Path
+
+from befunde_paths import befunde_root
 from statistics import mean
 
 
 ROOT = Path(__file__).resolve().parents[1]
-BASE_NODES = ROOT / "docs" / "befunde" / "1389_BEDEUTUNGSNETZ_KNOTEN.csv"
-ROLE_FAMILIES = ROOT / "docs" / "befunde" / "1394_BEDEUTUNGSNETZ_FELDROLLEN_FAMILIEN.csv"
+BASE_NODES = befunde_root(ROOT) / "1389_BEDEUTUNGSNETZ_KNOTEN.csv"
+ROLE_FAMILIES = befunde_root(ROOT) / "1394_BEDEUTUNGSNETZ_FELDROLLEN_FAMILIEN.csv"
 EPISODE_FILES = {
     "HOLDOUT_2024_BRIDGE_TEST1": ROOT / "debug" / "1395_holdout_bridge_test1" / "dio_mini_lauf_2" / "episodes.csv",
     "HOLDOUT_2024_BRIDGE_TEST2": ROOT / "debug" / "1396_holdout_bridge_test2" / "dio_mini_lauf_2" / "episodes.csv",
@@ -30,8 +32,8 @@ EPISODE_FILES = {
     "HOLDOUT_RHYTHM_IRREGULAR": ROOT / "debug" / "1412_holdout_rhythm_irregular" / "dio_mini_lauf_2" / "episodes.csv",
     "HOLDOUT_RHYTHM_WAVE": ROOT / "debug" / "1413_holdout_rhythm_wave" / "dio_mini_lauf_2" / "episodes.csv",
 }
-OUT_CSV = ROOT / "docs" / "befunde" / "1395_HOLDOUT_FELDROLLEN_STABILITAET.csv"
-OUT_MD = ROOT / "docs" / "befunde" / "1395_HOLDOUT_FELDROLLEN_STABILITAET.md"
+OUT_CSV = befunde_root(ROOT) / "1395_HOLDOUT_FELDROLLEN_STABILITAET.csv"
+OUT_MD = befunde_root(ROOT) / "1395_HOLDOUT_FELDROLLEN_STABILITAET.md"
 
 WINDOW = 100
 

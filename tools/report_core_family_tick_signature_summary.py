@@ -133,7 +133,7 @@ def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--source", action="append", required=True)
     parser.add_argument("--out-csv", default="reports/core_family_tick_signature_summary.csv")
-    parser.add_argument("--out-md", default="docs/befunde/1816_KERNFAMILIEN_TICKFENSTER_ROLLENPRUEFUNG.md")
+    parser.add_argument("--out-md", default="docs/befunde/1001-2000/1751-2000/1816_KERNFAMILIEN_TICKFENSTER_ROLLENPRUEFUNG.md")
     args = parser.parse_args()
 
     rows = [_family_signature(ROOT / source) for source in args.source]

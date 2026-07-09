@@ -295,8 +295,8 @@ def main() -> int:
     parser = argparse.ArgumentParser(description="Passive Wenn-Dann-Stress-Test fuer Rekopplungsdaempfung.")
     parser.add_argument("--input", action="append", help="Episodes CSV. Kann mehrfach angegeben werden.")
     parser.add_argument("--factors", default="1.0,0.9,0.75,0.5")
-    parser.add_argument("--out-md", default="docs/befunde/1820_RUECKFUEHRUNG_DAEMPFUNG_STRESSTEST.md")
-    parser.add_argument("--out-csv", default="docs/befunde/1820_RUECKFUEHRUNG_DAEMPFUNG_STRESSTEST.csv")
+    parser.add_argument("--out-md", default="docs/befunde/1001-2000/1751-2000/1820_RUECKFUEHRUNG_DAEMPFUNG_STRESSTEST.md")
+    parser.add_argument("--out-csv", default="docs/befunde/1001-2000/1751-2000/1820_RUECKFUEHRUNG_DAEMPFUNG_STRESSTEST.csv")
     args = parser.parse_args()
 
     inputs = [_resolve(item) for item in (args.input or DEFAULT_INPUTS)]

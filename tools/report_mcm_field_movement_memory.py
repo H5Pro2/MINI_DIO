@@ -5,6 +5,8 @@ import sys
 from datetime import datetime
 from pathlib import Path
 
+from befunde_paths import befunde_root
+
 
 ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
@@ -13,10 +15,10 @@ if str(ROOT) not in sys.path:
 from mini_dio.mcm_field_movement_memory import MCMFieldMovementMemory
 
 DEFAULT_INPUTS = [
-    ROOT / "docs" / "befunde" / "386_JAHRES_ZEITAUFLOESUNGS_MATRIX_GERICHTETE_FELDBEWEGUNG.csv",
-    ROOT / "docs" / "befunde" / "391_KAS_ASSET_GEGENPROBE_PASSIVE_REGULATIONSQUALITAET_reproduktion.csv",
+    befunde_root(ROOT) / "386_JAHRES_ZEITAUFLOESUNGS_MATRIX_GERICHTETE_FELDBEWEGUNG.csv",
+    befunde_root(ROOT) / "391_KAS_ASSET_GEGENPROBE_PASSIVE_REGULATIONSQUALITAET_reproduktion.csv",
 ]
-DEFAULT_OUT = ROOT / "docs" / "befunde" / "394_MCM_FELDBEWEGUNGS_MEMORY_SUMMARY.md"
+DEFAULT_OUT = befunde_root(ROOT) / "394_MCM_FELDBEWEGUNGS_MEMORY_SUMMARY.md"
 
 
 def _resolve(path_text: str | Path) -> Path:

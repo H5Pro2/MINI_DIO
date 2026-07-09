@@ -3,13 +3,15 @@ from __future__ import annotations
 import csv
 from collections import Counter, defaultdict
 from pathlib import Path
+
+from befunde_paths import befunde_root
 from statistics import mean
 
 
 ROOT = Path(__file__).resolve().parents[1]
-INPUT = ROOT / "docs" / "befunde" / "1382_FELDFUNKTIONSKARTE_ROHWELT_RUECKLESUNG.csv"
-OUT_CSV = ROOT / "docs" / "befunde" / "1385_BRUECKE_ZENTRUM_MISCHROLLE_UNTERFORMEN.csv"
-OUT_MD = ROOT / "docs" / "befunde" / "1385_BRUECKE_ZENTRUM_MISCHROLLE_UNTERFORMEN.md"
+INPUT = befunde_root(ROOT) / "1382_FELDFUNKTIONSKARTE_ROHWELT_RUECKLESUNG.csv"
+OUT_CSV = befunde_root(ROOT) / "1385_BRUECKE_ZENTRUM_MISCHROLLE_UNTERFORMEN.csv"
+OUT_MD = befunde_root(ROOT) / "1385_BRUECKE_ZENTRUM_MISCHROLLE_UNTERFORMEN.md"
 
 TARGET_ROLE = "mischrolle_brueckennaehe_zentrumsnaehe"
 TARGET_RAW_FORM = "gemischte_rohwelt"

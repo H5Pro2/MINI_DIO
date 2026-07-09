@@ -112,8 +112,8 @@ def _write_markdown(rows: list[dict[str, object]], path: Path) -> None:
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--shift", action="append", type=_parse_shift, required=True)
-    parser.add_argument("--out", default="docs/befunde/1342_MCM_SHIFT_TRIGGERPROFILE.md")
-    parser.add_argument("--csv-out", default="docs/befunde/1342_MCM_SHIFT_TRIGGERPROFILE.csv")
+    parser.add_argument("--out", default="docs/befunde/1001-2000/1001-1500/1342_MCM_SHIFT_TRIGGERPROFILE.md")
+    parser.add_argument("--csv-out", default="docs/befunde/1001-2000/1001-1500/1342_MCM_SHIFT_TRIGGERPROFILE.csv")
     args = parser.parse_args()
 
     rows: list[dict[str, object]] = []

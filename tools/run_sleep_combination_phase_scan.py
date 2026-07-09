@@ -266,7 +266,7 @@ def main() -> int:
     parser.add_argument("--max-active-roles", type=int, default=5)
     parser.add_argument("--debug-root", default="debug/sleep_combination_phase_scan")
     parser.add_argument("--memory-root", default="memory/sleep_combination_phase_scan")
-    parser.add_argument("--out", default="docs/befunde/1554_SLEEP_KOMBINATIONS_PHASEN_SCAN.md")
+    parser.add_argument("--out", default="docs/befunde/1001-2000/1501-1750/1554_SLEEP_KOMBINATIONS_PHASEN_SCAN.md")
     parser.add_argument(
         "--sense-mode",
         choices=("fixed", "world_relative"),

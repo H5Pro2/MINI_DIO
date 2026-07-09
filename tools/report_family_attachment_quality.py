@@ -12,8 +12,8 @@ from update_mcm_field_role_memory import (
 )
 
 
-OUT_CSV = ROOT / "docs/befunde/1851_FAMILIEN_ANSCHLUSSQUALITAET.csv"
-OUT_MD = ROOT / "docs/befunde/1851_FAMILIEN_ANSCHLUSSQUALITAET.md"
+OUT_CSV = ROOT / "docs/befunde/1001-2000/1751-2000/1851_FAMILIEN_ANSCHLUSSQUALITAET.csv"
+OUT_MD = ROOT / "docs/befunde/1001-2000/1751-2000/1851_FAMILIEN_ANSCHLUSSQUALITAET.md"
 
 
 def _write_csv(path: Path, rows: list[dict[str, object]]) -> None:

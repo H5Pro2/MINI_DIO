@@ -203,13 +203,13 @@ def _write_markdown(rows: list[dict[str, object]], unresolved: list[str], path: 
 
 def main() -> int:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--input", default="docs/befunde/1349_HOERBARER_SCHMALER_SHIFT_MULTI_HOLDOUT.csv")
+    parser.add_argument("--input", default="docs/befunde/1001-2000/1001-1500/1349_HOERBARER_SCHMALER_SHIFT_MULTI_HOLDOUT.csv")
     parser.add_argument("--per-asset", type=int, default=4)
     parser.add_argument("--min-score", type=float, default=0.25)
     parser.add_argument("--radius", type=int, default=100)
     parser.add_argument("--window", type=int, default=5)
-    parser.add_argument("--out", default="docs/befunde/1350_HOERBARER_SCHMALER_SHIFT_ROHWELTLUPE.md")
-    parser.add_argument("--csv-out", default="docs/befunde/1350_HOERBARER_SCHMALER_SHIFT_ROHWELTLUPE.csv")
+    parser.add_argument("--out", default="docs/befunde/1001-2000/1001-1500/1350_HOERBARER_SCHMALER_SHIFT_ROHWELTLUPE.md")
+    parser.add_argument("--csv-out", default="docs/befunde/1001-2000/1001-1500/1350_HOERBARER_SCHMALER_SHIFT_ROHWELTLUPE.csv")
     args = parser.parse_args()
 
     selected, unresolved = _selected_rows(Path(args.input), args.per_asset, args.min_score)

@@ -43,10 +43,24 @@ def check_runner_help() -> int:
     return 0 if result.returncode == 0 else 1
 
 
+def check_befunde_layout() -> int:
+    result = subprocess.run(
+        [sys.executable, str(ROOT / "tools" / "check_befunde_layout.py")],
+        cwd=ROOT,
+        text=True,
+        capture_output=True,
+    )
+    print(result.stdout, end="")
+    if result.returncode != 0:
+        print(result.stderr, end="")
+    return 0 if result.returncode == 0 else 1
+
+
 def main() -> int:
     errors = 0
     errors += compile_python_files()
     errors += check_runner_help()
+    errors += check_befunde_layout()
     return 1 if errors else 0
 
 

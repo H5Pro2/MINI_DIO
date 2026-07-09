@@ -3,6 +3,8 @@ from __future__ import annotations
 import csv
 import sys
 from pathlib import Path
+
+from befunde_paths import befunde_root
 from statistics import mean
 
 
@@ -13,10 +15,10 @@ if str(ROOT) not in sys.path:
 from tools.report_mcm_hoerbarer_shift_symbol_coupling import _float
 
 
-ROLE_INPUT = ROOT / "docs" / "befunde" / "1358_HOERBARER_SCHMALER_SHIFT_ERWEITERTE_ROLLELESUNG.csv"
-RAW_INPUT = ROOT / "docs" / "befunde" / "1357_HOERBARER_SCHMALER_SHIFT_ERWEITERTE_ROHWELTLUPE.csv"
-OUT_CSV = ROOT / "docs" / "befunde" / "1373_RANDDRUCK_NEGATIVKONTROLLE_AUSWAHL.csv"
-OUT_MD = ROOT / "docs" / "befunde" / "1373_RANDDRUCK_NEGATIVKONTROLLE_AUSWAHL.md"
+ROLE_INPUT = befunde_root(ROOT) / "1358_HOERBARER_SCHMALER_SHIFT_ERWEITERTE_ROLLELESUNG.csv"
+RAW_INPUT = befunde_root(ROOT) / "1357_HOERBARER_SCHMALER_SHIFT_ERWEITERTE_ROHWELTLUPE.csv"
+OUT_CSV = befunde_root(ROOT) / "1373_RANDDRUCK_NEGATIVKONTROLLE_AUSWAHL.csv"
+OUT_MD = befunde_root(ROOT) / "1373_RANDDRUCK_NEGATIVKONTROLLE_AUSWAHL.md"
 
 
 def _read(path: Path) -> list[dict[str, str]]:

@@ -6,6 +6,8 @@ import json
 import sys
 from pathlib import Path
 
+from befunde_paths import befunde_root
+
 
 ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
@@ -136,7 +138,7 @@ def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument(
         "--landscape",
-        default="docs/befunde/2042_VORWAHRNEHMUNG_STABIL_DRIFT_LANDKARTE.detail.csv",
+        default="docs/befunde/2001-3000/2042_VORWAHRNEHMUNG_STABIL_DRIFT_LANDKARTE.detail.csv",
     )
     parser.add_argument(
         "--memory",
@@ -151,7 +153,7 @@ def main() -> int:
     memory_abs = memory_path if memory_path.is_absolute() else ROOT / memory_path
     memory = update_preawareness_state_memory_file(memory_abs, landscape_rows, landscape_rows)
 
-    out_dir = ROOT / "docs" / "befunde"
+    out_dir = befunde_root(ROOT)
     _write_csv(out_dir / f"{args.out_prefix}.states.csv", snapshot.get("states", []))
     _write_json(out_dir / f"{args.out_prefix}.snapshot.json", snapshot)
     _write_markdown(out_dir / f"{args.out_prefix}.md", snapshot, memory_path)

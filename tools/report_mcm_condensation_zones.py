@@ -364,9 +364,9 @@ def _write_markdown(rows: list[dict[str, object]], transitions: list[dict[str, o
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--input", action="append", default=[], help="Eingabe als NAME=pfad oder pfad. Mehrfach erlaubt.")
-    parser.add_argument("--out", default="docs/befunde/854_MCM_VERDICHTUNGSZONEN.md")
-    parser.add_argument("--csv-out", default="docs/befunde/854_MCM_VERDICHTUNGSZONEN.csv")
-    parser.add_argument("--transitions-out", default="docs/befunde/854_MCM_VERDICHTUNGSZONEN_TRANSITIONS.csv")
+    parser.add_argument("--out", default="docs/befunde/100-1000/501-1000/854_MCM_VERDICHTUNGSZONEN.md")
+    parser.add_argument("--csv-out", default="docs/befunde/100-1000/501-1000/854_MCM_VERDICHTUNGSZONEN.csv")
+    parser.add_argument("--transitions-out", default="docs/befunde/100-1000/501-1000/854_MCM_VERDICHTUNGSZONEN_TRANSITIONS.csv")
     args = parser.parse_args()
 
     root = Path(__file__).resolve().parents[1]

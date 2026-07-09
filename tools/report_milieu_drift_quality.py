@@ -6,10 +6,12 @@ from collections import Counter, defaultdict
 from datetime import datetime
 from pathlib import Path
 
+from befunde_paths import befunde_root
+
 
 ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_EVENTS = ROOT / "docs" / "befunde" / "339_LANGWELT_STABILES_MILIEU_SEGMENTE_events.csv"
-DEFAULT_OUT = ROOT / "docs" / "befunde" / "341_MILIEU_DRIFTQUALITAET.md"
+DEFAULT_EVENTS = befunde_root(ROOT) / "339_LANGWELT_STABILES_MILIEU_SEGMENTE_events.csv"
+DEFAULT_OUT = befunde_root(ROOT) / "341_MILIEU_DRIFTQUALITAET.md"
 
 
 def _resolve(path_text: str | Path) -> Path:

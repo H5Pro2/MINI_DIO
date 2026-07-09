@@ -5,12 +5,14 @@ import csv
 from collections import Counter, defaultdict
 from datetime import datetime
 from pathlib import Path
+
+from befunde_paths import befunde_root
 from statistics import fmean, pstdev
 
 
 ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_IN = ROOT / "docs" / "befunde" / "337_BEWEGUNGSARTEN_ROHWELT_SEGMENTE_events.csv"
-DEFAULT_OUT = ROOT / "docs" / "befunde" / "338_KONTAKTMILIEU_WIEDERKEHR_DRIFT.md"
+DEFAULT_IN = befunde_root(ROOT) / "337_BEWEGUNGSARTEN_ROHWELT_SEGMENTE_events.csv"
+DEFAULT_OUT = befunde_root(ROOT) / "338_KONTAKTMILIEU_WIEDERKEHR_DRIFT.md"
 
 
 def _resolve(path_text: str | Path) -> Path:

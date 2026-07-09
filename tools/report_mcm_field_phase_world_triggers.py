@@ -8,14 +8,16 @@ from collections import Counter, defaultdict
 from datetime import datetime
 from pathlib import Path
 
+from befunde_paths import befunde_root
+
 
 ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
 
-DEFAULT_INPUT = ROOT / "docs" / "befunde" / "1245_MCM_FELDPHASEN_KLASSEN.csv"
-DEFAULT_OUT = ROOT / "docs" / "befunde" / "1246_MCM_FELDPHASEN_WELTARTEN_TRIGGER.md"
+DEFAULT_INPUT = befunde_root(ROOT) / "1245_MCM_FELDPHASEN_KLASSEN.csv"
+DEFAULT_OUT = befunde_root(ROOT) / "1246_MCM_FELDPHASEN_WELTARTEN_TRIGGER.md"
 TARGET_CLASSES = {
     "weltgebundene_feldphase",
     "lokale_oder_driftende_phase",

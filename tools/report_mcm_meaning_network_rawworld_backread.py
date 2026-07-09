@@ -4,14 +4,16 @@ import csv
 import json
 from collections import Counter, defaultdict
 from pathlib import Path
+
+from befunde_paths import befunde_root
 from statistics import mean
 
 
 ROOT = Path(__file__).resolve().parents[1]
-IN_CSV = ROOT / "docs" / "befunde" / "1390_BEDEUTUNGSNETZ_FOLGEWELTEN.csv"
-BASE_NODES = ROOT / "docs" / "befunde" / "1389_BEDEUTUNGSNETZ_KNOTEN.csv"
-OUT_CSV = ROOT / "docs" / "befunde" / "1393_BEDEUTUNGSNETZ_ROHWELT_RUECKLESUNG.csv"
-OUT_MD = ROOT / "docs" / "befunde" / "1393_BEDEUTUNGSNETZ_ROHWELT_RUECKLESUNG.md"
+IN_CSV = befunde_root(ROOT) / "1390_BEDEUTUNGSNETZ_FOLGEWELTEN.csv"
+BASE_NODES = befunde_root(ROOT) / "1389_BEDEUTUNGSNETZ_KNOTEN.csv"
+OUT_CSV = befunde_root(ROOT) / "1393_BEDEUTUNGSNETZ_ROHWELT_RUECKLESUNG.csv"
+OUT_MD = befunde_root(ROOT) / "1393_BEDEUTUNGSNETZ_ROHWELT_RUECKLESUNG.md"
 
 
 def _read_csv(path: Path) -> list[dict[str, str]]:

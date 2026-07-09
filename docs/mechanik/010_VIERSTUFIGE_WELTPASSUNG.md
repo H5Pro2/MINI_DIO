@@ -142,7 +142,7 @@ Sie ist eine Erfahrungs- und Bedeutungsmechanik im MCM-Feld.
 
 ## Synthetische Kontrollwelten
 
-Die Nachprüfung [1909_SYNTHETISCHE_WELTPASSUNG_EINORDNUNG.md](../befunde/1909_SYNTHETISCHE_WELTPASSUNG_EINORDNUNG.md) zeigt:
+Die Nachprüfung [1909_SYNTHETISCHE_WELTPASSUNG_EINORDNUNG.md](../befunde/1001-2000/1751-2000/1909_SYNTHETISCHE_WELTPASSUNG_EINORDNUNG.md) zeigt:
 `kern_ausgeblendet` ist nicht nur ein Asset-Effekt.
 Auch synthetische Bruch-/Rand- und Harmonie-Welten können den bisherigen DOGE-Hartkern überwiegend ausblenden, wenn ihre Weltform den Kern nicht trägt.
 
@@ -155,7 +155,7 @@ gleicher Hartkern + andere Weltform -> andere Passungsqualität
 Der wichtige Punkt ist nicht der Name der Welt.
 Entscheidend ist die Beziehung zwischen gereiftem Innenkern und aktueller Weltform.
 
-Die weichere Nachprüfung [1914_WEICHE_SYNTHETISCHE_WELTPASSUNG_EINORDNUNG.md](../befunde/1914_WEICHE_SYNTHETISCHE_WELTPASSUNG_EINORDNUNG.md) ergänzt:
+Die weichere Nachprüfung [1914_WEICHE_SYNTHETISCHE_WELTPASSUNG_EINORDNUNG.md](../befunde/1001-2000/1751-2000/1914_WEICHE_SYNTHETISCHE_WELTPASSUNG_EINORDNUNG.md) ergänzt:
 Auch wenn eine Welt dominant `kern_ausgeblendet` bleibt, kann sie noch Restkopplung tragen.
 Rollen-Mosaik/Nachhall und Zwischenwelt B blenden den Kern nicht so hart aus wie reine Breite/Nachhall.
 
@@ -168,7 +168,7 @@ kern_ausgeblendet
   -> ausgeblendet mit Öffnungs-/Verschiebungsrest
 ```
 
-Die B-Fokusprüfung [1919_SYN_B_FOCUS_RESTKOPPLUNG_EINORDNUNG.md](../befunde/1919_SYN_B_FOCUS_RESTKOPPLUNG_EINORDNUNG.md) zeigt zusätzlich:
+Die B-Fokusprüfung [1919_SYN_B_FOCUS_RESTKOPPLUNG_EINORDNUNG.md](../befunde/1001-2000/1751-2000/1919_SYN_B_FOCUS_RESTKOPPLUNG_EINORDNUNG.md) zeigt zusätzlich:
 Restkopplung und Hartkernkopplung sind nicht dasselbe.
 Ein Fokusfenster kann allgemeine Feldaktivität, Öffnung oder lokale Reproduktion erzeugen, ohne den gereiften Hartkern wirklich zu tragen.
 
@@ -180,7 +180,7 @@ Das verhindert eine wichtige Fehlinterpretation:
 Nicht jede Aktivität im Feld ist Reife.
 Reife muss sich an der Beziehung zwischen Weltform und gereiftem Innenkern zeigen.
 
-Der korrigierte Hartkern-Brillen-Vergleich [1929_B_FOCUS_HARTKERNBRILLEN_KORRIGIERTE_EINORDNUNG.md](../befunde/1929_B_FOCUS_HARTKERNBRILLEN_KORRIGIERTE_EINORDNUNG.md) präzisiert diese Beziehung:
+Der korrigierte Hartkern-Brillen-Vergleich [1929_B_FOCUS_HARTKERNBRILLEN_KORRIGIERTE_EINORDNUNG.md](../befunde/1001-2000/1751-2000/1929_B_FOCUS_HARTKERNBRILLEN_KORRIGIERTE_EINORDNUNG.md) präzisiert diese Beziehung:
 Dieselbe synthetische B-Fokuswelt erzeugt bei DOGE, SOL und BTC Restkopplung, wenn sie mit passendem Weltlabel neu durch MINI_DIO läuft.
 Die Restkopplung ist aber je Hartkern unterschiedlich verteilt.
 Besonders `3000_4500` trägt SOL und BTC stärker als DOGE.

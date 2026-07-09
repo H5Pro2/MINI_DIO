@@ -255,8 +255,8 @@ def main() -> int:
     parser.add_argument("--factors", default="1.0,0.75,0.5")
     parser.add_argument("--debug-root", default="debug/1823_rekopplung_damping_runtime")
     parser.add_argument("--memory-root", default="memory/1823_rekopplung_damping_runtime")
-    parser.add_argument("--out-md", default="docs/befunde/1823_RUECKFUEHRUNG_DAEMPFUNG_DIREKTER_LAUFTEST.md")
-    parser.add_argument("--out-csv", default="docs/befunde/1823_RUECKFUEHRUNG_DAEMPFUNG_DIREKTER_LAUFTEST.csv")
+    parser.add_argument("--out-md", default="docs/befunde/1001-2000/1751-2000/1823_RUECKFUEHRUNG_DAEMPFUNG_DIREKTER_LAUFTEST.md")
+    parser.add_argument("--out-csv", default="docs/befunde/1001-2000/1751-2000/1823_RUECKFUEHRUNG_DAEMPFUNG_DIREKTER_LAUFTEST.csv")
     parser.add_argument("--title", default="1823 - Direkter Lauf-Stresstest: Rueckfuehrungsdaempfung")
     args = parser.parse_args()
 

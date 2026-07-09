@@ -5,11 +5,13 @@ import csv
 from collections import Counter, defaultdict
 from datetime import datetime
 from pathlib import Path
+
+from befunde_paths import befunde_root
 from statistics import fmean
 
 
 ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_OUT = ROOT / "docs" / "befunde" / "336_BEWEGUNGSARTEN_VALIDIERUNG.md"
+DEFAULT_OUT = befunde_root(ROOT) / "336_BEWEGUNGSARTEN_VALIDIERUNG.md"
 
 
 def _resolve(path_text: str | Path) -> Path:

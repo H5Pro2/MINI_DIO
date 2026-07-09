@@ -5,6 +5,8 @@ import csv
 import sys
 from collections import Counter
 from pathlib import Path
+
+from befunde_paths import befunde_root
 from statistics import mean
 
 
@@ -21,9 +23,9 @@ from tools.report_mcm_hoerbarer_shift_symbol_coupling import (
 )
 
 
-INPUT = ROOT / "docs" / "befunde" / "1351_HOERBARER_SCHMALER_SHIFT_ROLLELESUNG.csv"
-OUT_CSV = ROOT / "docs" / "befunde" / "1355_HOERBARER_SCHMALER_SHIFT_NACHHALLSPUR.csv"
-OUT_MD = ROOT / "docs" / "befunde" / "1355_HOERBARER_SCHMALER_SHIFT_NACHHALLSPUR.md"
+INPUT = befunde_root(ROOT) / "1351_HOERBARER_SCHMALER_SHIFT_ROLLELESUNG.csv"
+OUT_CSV = befunde_root(ROOT) / "1355_HOERBARER_SCHMALER_SHIFT_NACHHALLSPUR.csv"
+OUT_MD = befunde_root(ROOT) / "1355_HOERBARER_SCHMALER_SHIFT_NACHHALLSPUR.md"
 
 
 def _safe_window(start: int, end: int) -> tuple[int, int]:

@@ -6,11 +6,13 @@ import json
 import math
 from datetime import datetime
 from pathlib import Path
+
+from befunde_paths import befunde_root
 from statistics import median
 
 
 ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_OUT = ROOT / "docs" / "befunde" / "202_WELTLAUTSTAERKE_DIAGNOSE.md"
+DEFAULT_OUT = befunde_root(ROOT) / "202_WELTLAUTSTAERKE_DIAGNOSE.md"
 
 
 def _load_json(path: Path) -> dict:

@@ -8,10 +8,10 @@ from report_family_attachment_quality import _dominant, _mean, _profile, _profil
 from update_mcm_field_role_memory import ROOT, _attachment_quality, _float
 
 
-BASELINE_CSV = ROOT / "docs/befunde/1851_FAMILIEN_ANSCHLUSSQUALITAET.csv"
-FOLLOWUP_CSV = ROOT / "docs/befunde/1853_FAMILIEN_ANSCHLUSSKARTE_NEUE_WELTEN.csv"
-OUT_CSV = ROOT / "docs/befunde/1854_FAMILIEN_ANSCHLUSSKARTE_REPRO_NEUE_WELTEN.csv"
-OUT_MD = ROOT / "docs/befunde/1854_FAMILIEN_ANSCHLUSSKARTE_REPRO_NEUE_WELTEN.md"
+BASELINE_CSV = ROOT / "docs/befunde/1001-2000/1751-2000/1851_FAMILIEN_ANSCHLUSSQUALITAET.csv"
+FOLLOWUP_CSV = ROOT / "docs/befunde/1001-2000/1751-2000/1853_FAMILIEN_ANSCHLUSSKARTE_NEUE_WELTEN.csv"
+OUT_CSV = ROOT / "docs/befunde/1001-2000/1751-2000/1854_FAMILIEN_ANSCHLUSSKARTE_REPRO_NEUE_WELTEN.csv"
+OUT_MD = ROOT / "docs/befunde/1001-2000/1751-2000/1854_FAMILIEN_ANSCHLUSSKARTE_REPRO_NEUE_WELTEN.md"
 
 
 def _read_rows(path: Path) -> list[dict[str, str]]:

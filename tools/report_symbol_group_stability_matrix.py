@@ -5,12 +5,14 @@ import csv
 from datetime import datetime
 from pathlib import Path
 
+from befunde_paths import befunde_root
+
 
 ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_BEFORE = ROOT / "docs" / "befunde" / "256_PASSIVE_SYMBOLGRUPPEN_ROLLENKARTE.csv"
-DEFAULT_AFTER = ROOT / "docs" / "befunde" / "259_SYMBOLGRUPPEN_NEUE_WELT_ROLLENKARTE.csv"
-DEFAULT_OUT = ROOT / "docs" / "befunde" / "261_SYMBOLGRUPPEN_STABILITAETSMATRIX.md"
-DEFAULT_CSV = ROOT / "docs" / "befunde" / "261_SYMBOLGRUPPEN_STABILITAETSMATRIX.csv"
+DEFAULT_BEFORE = befunde_root(ROOT) / "256_PASSIVE_SYMBOLGRUPPEN_ROLLENKARTE.csv"
+DEFAULT_AFTER = befunde_root(ROOT) / "259_SYMBOLGRUPPEN_NEUE_WELT_ROLLENKARTE.csv"
+DEFAULT_OUT = befunde_root(ROOT) / "261_SYMBOLGRUPPEN_STABILITAETSMATRIX.md"
+DEFAULT_CSV = befunde_root(ROOT) / "261_SYMBOLGRUPPEN_STABILITAETSMATRIX.csv"
 
 NUMERIC_FIELDS = [
     "windows",

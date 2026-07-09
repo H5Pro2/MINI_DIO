@@ -552,7 +552,7 @@ def main() -> int:
     parser.add_argument("--label", default="real_sleep_real_baseline")
     parser.add_argument("--debug-root", default="debug/real_sleep_real")
     parser.add_argument("--memory-root", default="memory/real_sleep_real")
-    parser.add_argument("--out", default="docs/befunde/1541_REAL_SLEEP_REAL_BASELINE.md")
+    parser.add_argument("--out", default="docs/befunde/1001-2000/1501-1750/1541_REAL_SLEEP_REAL_BASELINE.md")
     parser.add_argument("--ticks", type=int, default=300)
     parser.add_argument("--intensity", type=float, default=0.42)
     parser.add_argument("--role-limit", type=int, default=24)

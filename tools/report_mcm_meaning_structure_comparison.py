@@ -111,10 +111,10 @@ def _write_markdown(rows: list[dict[str, object]], path: Path, *, base_path: Pat
 
 def main() -> int:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--base", default="docs/befunde/1317_MCM_BEDEUTUNGSSTRUKTUR_MEMORY.csv")
-    parser.add_argument("--holdout", default="docs/befunde/1323_HOLDOUT_MCM_BEDEUTUNGSSTRUKTUR_MEMORY.csv")
-    parser.add_argument("--out", default="docs/befunde/1324_MCM_BEDEUTUNGSSTRUKTUR_HOLDOUT_VERGLEICH.md")
-    parser.add_argument("--csv-out", default="docs/befunde/1324_MCM_BEDEUTUNGSSTRUKTUR_HOLDOUT_VERGLEICH.csv")
+    parser.add_argument("--base", default="docs/befunde/1001-2000/1001-1500/1317_MCM_BEDEUTUNGSSTRUKTUR_MEMORY.csv")
+    parser.add_argument("--holdout", default="docs/befunde/1001-2000/1001-1500/1323_HOLDOUT_MCM_BEDEUTUNGSSTRUKTUR_MEMORY.csv")
+    parser.add_argument("--out", default="docs/befunde/1001-2000/1001-1500/1324_MCM_BEDEUTUNGSSTRUKTUR_HOLDOUT_VERGLEICH.md")
+    parser.add_argument("--csv-out", default="docs/befunde/1001-2000/1001-1500/1324_MCM_BEDEUTUNGSSTRUKTUR_HOLDOUT_VERGLEICH.csv")
     args = parser.parse_args()
 
     base_rows = {_asset_from_key(row): row for row in _read(Path(args.base))}

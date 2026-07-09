@@ -7,11 +7,13 @@ import sys
 from collections import Counter, defaultdict
 from pathlib import Path
 
+from befunde_paths import befunde_root
+
 from create_csv_slice import create_slice
 
 
 ROOT = Path(__file__).resolve().parents[1]
-BEFUNDE = ROOT / "docs" / "befunde"
+BEFUNDE = befunde_root(ROOT)
 
 DEFAULT_WORLDS = [
     ("BTC", "data/1-12_2025_1h_BTCUSDT.csv"),
@@ -647,10 +649,10 @@ def _write_markdown(
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Prueft passive Rollenfamilien in neuen realen Folgewelten.")
-    parser.add_argument("--memory", default="docs/befunde/2069_PASSIVE_ROLLENFAMILIEN_MEMORY.csv")
+    parser.add_argument("--memory", default="docs/befunde/2001-3000/2069_PASSIVE_ROLLENFAMILIEN_MEMORY.csv")
     parser.add_argument(
         "--cohesion-detail",
-        default="docs/befunde/2066_REALVERSTAERKTE_ROLLENFAMILIEN_KOHAESION.detail.csv",
+        default="docs/befunde/2001-3000/2066_REALVERSTAERKTE_ROLLENFAMILIEN_KOHAESION.detail.csv",
     )
     parser.add_argument("--target-family", action="append", default=None)
     parser.add_argument("--world", action="append", type=_parse_world, default=None, help="ASSET=CSV")

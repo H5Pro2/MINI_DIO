@@ -290,10 +290,10 @@ def _write_md(
 
 def main() -> int:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--source-csv", default="docs/befunde/1827_RUECKFUEHRUNG_DAEMPFUNG_STRESS_NULL.csv")
+    parser.add_argument("--source-csv", default="docs/befunde/1001-2000/1751-2000/1827_RUECKFUEHRUNG_DAEMPFUNG_STRESS_NULL.csv")
     parser.add_argument("--debug-root", default="debug/1827_rekopplung_damping_stress_null")
-    parser.add_argument("--out-md", default="docs/befunde/1828_REALWELT_NULLWELT_DAEMPFUNG_DIFFERENZREPORT.md")
-    parser.add_argument("--out-csv", default="docs/befunde/1828_REALWELT_NULLWELT_DAEMPFUNG_DIFFERENZREPORT.csv")
+    parser.add_argument("--out-md", default="docs/befunde/1001-2000/1751-2000/1828_REALWELT_NULLWELT_DAEMPFUNG_DIFFERENZREPORT.md")
+    parser.add_argument("--out-csv", default="docs/befunde/1001-2000/1751-2000/1828_REALWELT_NULLWELT_DAEMPFUNG_DIFFERENZREPORT.csv")
     parser.add_argument("--title", default="1828 - Differenzreport: reale Weltordnung gegen Nullwelt")
     parser.add_argument("--real-group-label", default="Stress/Expansion")
     args = parser.parse_args()

@@ -6,9 +6,11 @@ import math
 from itertools import combinations
 from pathlib import Path
 
+from befunde_paths import befunde_root
+
 
 ROOT = Path(__file__).resolve().parents[1]
-BEFUNDE = ROOT / "docs" / "befunde"
+BEFUNDE = befunde_root(ROOT)
 
 
 def _load_csv(path: Path) -> list[dict[str, str]]:
@@ -272,7 +274,7 @@ def _write_markdown(path: Path, detail: list[dict[str, object]], summary: list[d
 
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--source", default="docs/befunde/2065_REALVERSTAERKTE_FOLGEWELT_ROLLENFAMILIEN.detail.csv")
+    parser.add_argument("--source", default="docs/befunde/2001-3000/2065_REALVERSTAERKTE_FOLGEWELT_ROLLENFAMILIEN.detail.csv")
     parser.add_argument("--out-prefix", default="2066_REALVERSTAERKTE_ROLLENFAMILIEN_KOHAESION")
     args = parser.parse_args()
 

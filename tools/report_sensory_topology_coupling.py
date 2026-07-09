@@ -7,9 +7,9 @@ from pathlib import Path
 
 
 DEFAULT_INPUTS = [
-    "docs/befunde/1225_AKTUELLE_REZEPTORSCHICHT_STRESS_QUIET_FELDPHASEN_SEGMENTE.csv",
-    "docs/befunde/1227_AKTUELLE_REZEPTORSCHICHT_STRESS_QUIET_FELDPHASEN_1H_SEGMENTE.csv",
-    "docs/befunde/1229_SYNTHETISCHE_SINNESACHSEN_STRESS_FELDPHASEN_SEGMENTE.csv",
+    "docs/befunde/1001-2000/1001-1500/1225_AKTUELLE_REZEPTORSCHICHT_STRESS_QUIET_FELDPHASEN_SEGMENTE.csv",
+    "docs/befunde/1001-2000/1001-1500/1227_AKTUELLE_REZEPTORSCHICHT_STRESS_QUIET_FELDPHASEN_1H_SEGMENTE.csv",
+    "docs/befunde/1001-2000/1001-1500/1229_SYNTHETISCHE_SINNESACHSEN_STRESS_FELDPHASEN_SEGMENTE.csv",
 ]
 
 
@@ -211,8 +211,8 @@ def _write_markdown(rows: list[dict[str, object]], path: Path) -> None:
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--input", action="append")
-    parser.add_argument("--out", default="docs/befunde/1274_SINNESAUFNAHME_TOPOLOGIE_KOPPLUNG.md")
-    parser.add_argument("--csv-out", default="docs/befunde/1274_SINNESAUFNAHME_TOPOLOGIE_KOPPLUNG.csv")
+    parser.add_argument("--out", default="docs/befunde/1001-2000/1001-1500/1274_SINNESAUFNAHME_TOPOLOGIE_KOPPLUNG.md")
+    parser.add_argument("--csv-out", default="docs/befunde/1001-2000/1001-1500/1274_SINNESAUFNAHME_TOPOLOGIE_KOPPLUNG.csv")
     args = parser.parse_args()
 
     paths = [Path(item) for item in (args.input or DEFAULT_INPUTS)]

@@ -245,7 +245,7 @@ def main() -> int:
         rows = rows[: args.limit]
 
     out_csv = ROOT / (args.out_csv or f"reports/{args.family}_neighbor_role_differentiation.csv")
-    out_md = ROOT / (args.out_md or f"docs/befunde/1795_{args.family.upper()}_NACHBAR_ROLLEN_DIFFERENZIERUNG.md")
+    out_md = ROOT / (args.out_md or f"docs/befunde/1001-2000/1751-2000/1795_{args.family.upper()}_NACHBAR_ROLLEN_DIFFERENZIERUNG.md")
     _write_csv(out_csv, rows)
     _write_md(out_md, args.family, rows)
     print({"family": args.family, "neighbors": len(rows), "out": str(out_md.relative_to(ROOT))})

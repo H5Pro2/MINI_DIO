@@ -146,7 +146,7 @@ def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--sources", nargs="*", default=DEFAULT_SOURCES)
     parser.add_argument("--out-csv", default="reports/core_family_role_comparison.csv")
-    parser.add_argument("--out-md", default="docs/befunde/1797_KERNFAMILIEN_TEILNETZ_VERGLEICH.md")
+    parser.add_argument("--out-md", default="docs/befunde/1001-2000/1751-2000/1797_KERNFAMILIEN_TEILNETZ_VERGLEICH.md")
     args = parser.parse_args()
 
     rows = [_summarize_family(ROOT / source) for source in args.sources if (ROOT / source).exists()]

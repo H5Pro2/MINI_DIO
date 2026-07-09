@@ -7,14 +7,16 @@ from collections import Counter
 from datetime import datetime
 from pathlib import Path
 
+from befunde_paths import befunde_root
+
 
 ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
 
-DEFAULT_EVENTS = ROOT / "docs" / "befunde" / "1249_MCM_FELDPHASEN_FENSTERLUPE.csv"
-DEFAULT_OUT = ROOT / "docs" / "befunde" / "1251_MCM_FELDPHASEN_ROHWELT_FENSTERLUPE.md"
+DEFAULT_EVENTS = befunde_root(ROOT) / "1249_MCM_FELDPHASEN_FENSTERLUPE.csv"
+DEFAULT_OUT = befunde_root(ROOT) / "1251_MCM_FELDPHASEN_ROHWELT_FENSTERLUPE.md"
 
 
 WORLD_DATA_MAP = {

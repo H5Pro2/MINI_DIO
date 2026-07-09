@@ -4,11 +4,13 @@ import csv
 from collections import Counter, defaultdict
 from pathlib import Path
 
+from befunde_paths import befunde_root
+
 
 ROOT = Path(__file__).resolve().parents[1]
-IN_CSV = ROOT / "docs" / "befunde" / "1390_BEDEUTUNGSNETZ_FOLGEWELTEN.csv"
-OUT_CSV = ROOT / "docs" / "befunde" / "1391_BEDEUTUNGSNETZ_NACHBARSCHAFTSDRIFT.csv"
-OUT_MD = ROOT / "docs" / "befunde" / "1391_BEDEUTUNGSNETZ_NACHBARSCHAFTSDRIFT.md"
+IN_CSV = befunde_root(ROOT) / "1390_BEDEUTUNGSNETZ_FOLGEWELTEN.csv"
+OUT_CSV = befunde_root(ROOT) / "1391_BEDEUTUNGSNETZ_NACHBARSCHAFTSDRIFT.csv"
+OUT_MD = befunde_root(ROOT) / "1391_BEDEUTUNGSNETZ_NACHBARSCHAFTSDRIFT.md"
 
 
 def _read_rows(path: Path) -> list[dict[str, str]]:

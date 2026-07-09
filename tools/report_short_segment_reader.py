@@ -7,9 +7,11 @@ from collections import Counter
 from datetime import datetime
 from pathlib import Path
 
+from befunde_paths import befunde_root
+
 
 ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_OUT = ROOT / "docs" / "befunde" / "133_KURZSEGMENT_LESER.md"
+DEFAULT_OUT = befunde_root(ROOT) / "133_KURZSEGMENT_LESER.md"
 
 
 def _path(path_text: str) -> Path:

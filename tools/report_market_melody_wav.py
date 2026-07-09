@@ -6,6 +6,8 @@ import sys
 from collections import Counter
 from pathlib import Path
 
+from befunde_paths import befunde_root
+
 
 ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
@@ -15,9 +17,9 @@ from mini_dio.market_audio import WavRenderConfig
 from mini_dio.market_audio import render_melody_csv_to_wav
 
 
-MELODY_DEFAULT = ROOT / "docs" / "befunde" / "834_MARKTMELODIE_STRESS2024_TONFOLGE.csv"
+MELODY_DEFAULT = befunde_root(ROOT) / "834_MARKTMELODIE_STRESS2024_TONFOLGE.csv"
 WAV_DEFAULT = ROOT / "docs" / "audio" / "836_MARKTMELODIE_STRESS2024.wav"
-MD_DEFAULT = ROOT / "docs" / "befunde" / "836_MARKTMELODIE_STRESS2024_WAV_DEBUG.md"
+MD_DEFAULT = befunde_root(ROOT) / "836_MARKTMELODIE_STRESS2024_WAV_DEBUG.md"
 
 
 def _read_rows(path: Path) -> list[dict[str, str]]:

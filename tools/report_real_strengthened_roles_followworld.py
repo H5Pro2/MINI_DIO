@@ -5,9 +5,11 @@ import csv
 from collections import Counter
 from pathlib import Path
 
+from befunde_paths import befunde_root
+
 
 ROOT = Path(__file__).resolve().parents[1]
-BEFUNDE = ROOT / "docs" / "befunde"
+BEFUNDE = befunde_root(ROOT)
 
 
 def _load_csv(path: Path) -> list[dict[str, str]]:
@@ -196,8 +198,8 @@ def _write_markdown(path: Path, rows: list[dict[str, object]], summary: list[dic
 
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--seeds", default="docs/befunde/2062_MULTIROLLEN_REAL_NULL_KONTRAST.csv")
-    parser.add_argument("--follow-bridge", default="docs/befunde/2063_FOLGEWELTEN_REALVERSTAERKTE_ROLLEN_FELDKLASSEN.bridge.csv")
+    parser.add_argument("--seeds", default="docs/befunde/2001-3000/2062_MULTIROLLEN_REAL_NULL_KONTRAST.csv")
+    parser.add_argument("--follow-bridge", default="docs/befunde/2001-3000/2063_FOLGEWELTEN_REALVERSTAERKTE_ROLLEN_FELDKLASSEN.bridge.csv")
     parser.add_argument("--out-prefix", default="2064_REALVERSTAERKTE_ROLLEN_IN_FOLGEWELTEN")
     args = parser.parse_args()
 

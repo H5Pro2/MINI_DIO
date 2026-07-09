@@ -106,10 +106,10 @@ def _balanced_rows(source_rows: list[dict[str, str]], sample_size: int | None) -
 
 def main() -> int:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--input", default="docs/befunde/1309_WELTLAGEN_MEHRSKALIG_ROHWELTFENSTER.csv")
+    parser.add_argument("--input", default="docs/befunde/1001-2000/1001-1500/1309_WELTLAGEN_MEHRSKALIG_ROHWELTFENSTER.csv")
     parser.add_argument("--sample-size", type=int, default=0)
-    parser.add_argument("--out", default="docs/befunde/1315_WELTLAGEN_ZWISCHENLAGEN_ASSET_BALANCED.md")
-    parser.add_argument("--csv-out", default="docs/befunde/1315_WELTLAGEN_ZWISCHENLAGEN_ASSET_BALANCED.csv")
+    parser.add_argument("--out", default="docs/befunde/1001-2000/1001-1500/1315_WELTLAGEN_ZWISCHENLAGEN_ASSET_BALANCED.md")
+    parser.add_argument("--csv-out", default="docs/befunde/1001-2000/1001-1500/1315_WELTLAGEN_ZWISCHENLAGEN_ASSET_BALANCED.csv")
     args = parser.parse_args()
 
     with Path(args.input).open("r", encoding="utf-8", newline="") as handle:

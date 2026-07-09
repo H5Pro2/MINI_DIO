@@ -7,9 +7,9 @@ from pathlib import Path
 from update_mcm_field_role_memory import ROOT, _float
 
 
-SOURCE_CSV = ROOT / "docs/befunde/1857_PHASENLOKALE_ANSCHLUSSQUALITAET.csv"
-OUT_CSV = ROOT / "docs/befunde/1858_PHASENLOKALE_FAMILIENSTABILITAET.csv"
-OUT_MD = ROOT / "docs/befunde/1858_PHASENLOKALE_FAMILIENSTABILITAET.md"
+SOURCE_CSV = ROOT / "docs/befunde/1001-2000/1751-2000/1857_PHASENLOKALE_ANSCHLUSSQUALITAET.csv"
+OUT_CSV = ROOT / "docs/befunde/1001-2000/1751-2000/1858_PHASENLOKALE_FAMILIENSTABILITAET.csv"
+OUT_MD = ROOT / "docs/befunde/1001-2000/1751-2000/1858_PHASENLOKALE_FAMILIENSTABILITAET.md"
 
 
 def _read(path: Path) -> list[dict[str, str]]:

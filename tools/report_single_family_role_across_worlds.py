@@ -5,9 +5,11 @@ import csv
 from collections import Counter
 from pathlib import Path
 
+from befunde_paths import befunde_root
+
 
 ROOT = Path(__file__).resolve().parents[1]
-BEFUNDE = ROOT / "docs" / "befunde"
+BEFUNDE = befunde_root(ROOT)
 
 
 def _load_csv(path: Path) -> list[dict[str, str]]:
@@ -170,8 +172,8 @@ def _write_markdown(path: Path, detail: list[dict[str, object]], summary: dict[s
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--family", default="dio_17j2")
-    parser.add_argument("--families", default="docs/befunde/2057_MULTI_ASSET_FELDKLASSEN_ZU_SYNTAXNAEHE.families.csv")
-    parser.add_argument("--bridge", default="docs/befunde/2057_MULTI_ASSET_FELDKLASSEN_ZU_SYNTAXNAEHE.bridge.csv")
+    parser.add_argument("--families", default="docs/befunde/2001-3000/2057_MULTI_ASSET_FELDKLASSEN_ZU_SYNTAXNAEHE.families.csv")
+    parser.add_argument("--bridge", default="docs/befunde/2001-3000/2057_MULTI_ASSET_FELDKLASSEN_ZU_SYNTAXNAEHE.bridge.csv")
     parser.add_argument("--out-prefix", default="2058_DIO17J2_EINZELROLLE_MULTI_ASSET")
     args = parser.parse_args()
 

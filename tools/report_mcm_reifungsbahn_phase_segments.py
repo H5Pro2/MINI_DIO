@@ -14,8 +14,8 @@ RUNS = [
     ("XRP", "debug/1837_xrp_17k/dio_mini_lauf_1"),
 ]
 
-OUT_CSV = ROOT / "docs/befunde/1839_MCM_REIFUNGSBAHN_17K_PHASENSEGMENTE.csv"
-OUT_MD = ROOT / "docs/befunde/1839_MCM_REIFUNGSBAHN_17K_PHASENSEGMENTE.md"
+OUT_CSV = ROOT / "docs/befunde/1001-2000/1751-2000/1839_MCM_REIFUNGSBAHN_17K_PHASENSEGMENTE.csv"
+OUT_MD = ROOT / "docs/befunde/1001-2000/1751-2000/1839_MCM_REIFUNGSBAHN_17K_PHASENSEGMENTE.md"
 
 
 def _float(value: object) -> float:

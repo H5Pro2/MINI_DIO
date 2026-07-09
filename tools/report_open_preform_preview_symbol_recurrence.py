@@ -4,14 +4,16 @@ import csv
 from collections import Counter, defaultdict
 from pathlib import Path
 
+from befunde_paths import befunde_root
+
 from report_late_drift_profile_holdout_scan import HOLDOUT_EPISODES, profile_from_episode
 from report_late_drift_profile_role_binding import source_profiles
 
 
 ROOT = Path(__file__).resolve().parents[1]
-WINDOWS = ROOT / "docs" / "befunde" / "1959_OFFENE_VORFORM_LOKALER_KONTEXT.csv"
-OUT_CSV = ROOT / "docs" / "befunde" / "1960_OFFENE_VORFORM_PREVIEW_SYMBOL_REKURRENZ.csv"
-OUT_MD = ROOT / "docs" / "befunde" / "1960_OFFENE_VORFORM_PREVIEW_SYMBOL_REKURRENZ.md"
+WINDOWS = befunde_root(ROOT) / "1959_OFFENE_VORFORM_LOKALER_KONTEXT.csv"
+OUT_CSV = befunde_root(ROOT) / "1960_OFFENE_VORFORM_PREVIEW_SYMBOL_REKURRENZ.csv"
+OUT_MD = befunde_root(ROOT) / "1960_OFFENE_VORFORM_PREVIEW_SYMBOL_REKURRENZ.md"
 
 
 def read_csv(path: Path) -> list[dict[str, str]]:

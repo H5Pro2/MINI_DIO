@@ -136,7 +136,7 @@ def main() -> int:
     parser.add_argument("--left-family", default="dio_0l7p")
     parser.add_argument("--right-family", default="dio_104t")
     parser.add_argument("--out-csv", default="reports/dio_0l7p_vs_dio_104t_signature_compare.csv")
-    parser.add_argument("--out-md", default="docs/befunde/1806_DIO_0L7P_GEGEN_DIO_104T.md")
+    parser.add_argument("--out-md", default="docs/befunde/1001-2000/1751-2000/1806_DIO_0L7P_GEGEN_DIO_104T.md")
     args = parser.parse_args()
 
     left_rows = _index(_read_csv(ROOT / args.left))

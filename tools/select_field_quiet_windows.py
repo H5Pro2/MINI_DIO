@@ -6,6 +6,8 @@ import json
 import sys
 from pathlib import Path
 
+from befunde_paths import befunde_root
+
 
 ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
@@ -276,7 +278,7 @@ def main() -> int:
 
         candidate_debug = debug_root / label
         candidate_memory = memory_dir / f"{label}.json"
-        chain_out = ROOT / "docs" / "befunde" / f"{label.upper()}_FORSCHUNGSKETTE.md"
+        chain_out = befunde_root(ROOT) / f"{label.upper()}_FORSCHUNGSKETTE.md"
         summary = run_chain(window_path, candidate_debug, candidate_memory, chain_out)
 
         episodes_path = candidate_debug / "dio_mini_lauf_1" / "episodes.csv"

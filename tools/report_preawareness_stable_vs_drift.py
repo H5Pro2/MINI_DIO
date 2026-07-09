@@ -4,11 +4,13 @@ import argparse
 import csv
 from collections import Counter, defaultdict
 from pathlib import Path
+
+from befunde_paths import befunde_root
 from statistics import mean
 
 
 ROOT = Path(__file__).resolve().parents[1]
-BEFUNDE = ROOT / "docs" / "befunde"
+BEFUNDE = befunde_root(ROOT)
 DEFAULT_SOURCE = BEFUNDE / "2041_VORWAHRNEHMUNG_MEMORY_HOLDOUT_RUECKPRUEFUNG.summary.csv"
 DEFAULT_OUT_PREFIX = BEFUNDE / "2042_VORWAHRNEHMUNG_STABIL_DRIFT_LANDKARTE"
 

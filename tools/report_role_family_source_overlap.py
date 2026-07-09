@@ -5,9 +5,11 @@ import csv
 from collections import defaultdict
 from pathlib import Path
 
+from befunde_paths import befunde_root
+
 
 ROOT = Path(__file__).resolve().parents[1]
-BEFUNDE = ROOT / "docs" / "befunde"
+BEFUNDE = befunde_root(ROOT)
 
 
 def _load_csv(path: Path) -> list[dict[str, str]]:
@@ -158,8 +160,8 @@ def _write_markdown(path: Path, detail: list[dict[str, object]], summary: list[d
 
 def main() -> int:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--target", default="docs/befunde/2066_REALVERSTAERKTE_ROLLENFAMILIEN_KOHAESION.detail.csv")
-    parser.add_argument("--source", default="docs/befunde/1853_FAMILIEN_ANSCHLUSSKARTE_NEUE_WELTEN.csv")
+    parser.add_argument("--target", default="docs/befunde/2001-3000/2066_REALVERSTAERKTE_ROLLENFAMILIEN_KOHAESION.detail.csv")
+    parser.add_argument("--source", default="docs/befunde/1001-2000/1751-2000/1853_FAMILIEN_ANSCHLUSSKARTE_NEUE_WELTEN.csv")
     parser.add_argument("--out-prefix", default="2067_REALVERSTAERKTE_ROLLENFAMILIEN_ANSCHLUSSCHECK")
     args = parser.parse_args()
 

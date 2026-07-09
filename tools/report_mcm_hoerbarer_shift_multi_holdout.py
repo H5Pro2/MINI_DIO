@@ -103,7 +103,7 @@ def _write_markdown(
 
 def main() -> int:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--base", default="docs/befunde/1315_WELTLAGEN_ZWISCHENLAGEN_ASSET_BALANCED.csv")
+    parser.add_argument("--base", default="docs/befunde/1001-2000/1001-1500/1315_WELTLAGEN_ZWISCHENLAGEN_ASSET_BALANCED.csv")
     parser.add_argument(
         "--input",
         action="append",
@@ -111,14 +111,14 @@ def main() -> int:
         help="LABEL=path to a raw-window CSV. Can be repeated.",
     )
     parser.add_argument("--top", type=int, default=30)
-    parser.add_argument("--out", default="docs/befunde/1349_HOERBARER_SCHMALER_SHIFT_MULTI_HOLDOUT.md")
-    parser.add_argument("--csv-out", default="docs/befunde/1349_HOERBARER_SCHMALER_SHIFT_MULTI_HOLDOUT.csv")
+    parser.add_argument("--out", default="docs/befunde/1001-2000/1001-1500/1349_HOERBARER_SCHMALER_SHIFT_MULTI_HOLDOUT.md")
+    parser.add_argument("--csv-out", default="docs/befunde/1001-2000/1001-1500/1349_HOERBARER_SCHMALER_SHIFT_MULTI_HOLDOUT.csv")
     args = parser.parse_args()
 
     inputs = args.input or [
-        "HOLDOUT1=docs/befunde/1321_HOLDOUT_WELTLAGEN_ROHWELTFENSTER.csv",
-        "HOLDOUT2=docs/befunde/1328_SECOND_HOLDOUT_WELTLAGEN_ROHWELTFENSTER.csv",
-        "CONTRAST=docs/befunde/1336_CONTRAST_HOLDOUT_WELTLAGEN_ROHWELTFENSTER.csv",
+        "HOLDOUT1=docs/befunde/1001-2000/1001-1500/1321_HOLDOUT_WELTLAGEN_ROHWELTFENSTER.csv",
+        "HOLDOUT2=docs/befunde/1001-2000/1001-1500/1328_SECOND_HOLDOUT_WELTLAGEN_ROHWELTFENSTER.csv",
+        "CONTRAST=docs/befunde/1001-2000/1001-1500/1336_CONTRAST_HOLDOUT_WELTLAGEN_ROHWELTFENSTER.csv",
     ]
     bases = _load_asset_bases(Path(args.base))
     all_rows: list[dict[str, object]] = []

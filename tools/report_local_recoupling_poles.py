@@ -7,12 +7,14 @@ from collections import Counter
 from datetime import datetime
 from pathlib import Path
 
+from befunde_paths import befunde_root
+
 from report_recoupling_quality import _row as recoupling_row
 from report_recoupling_quality import _load_json, _resolve
 
 
 ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_OUT = ROOT / "docs" / "befunde" / "214_LOKALE_REKOPPLUNGSPOLE_DIAGNOSE.md"
+DEFAULT_OUT = befunde_root(ROOT) / "214_LOKALE_REKOPPLUNGSPOLE_DIAGNOSE.md"
 
 
 def _fmt(value: float, digits: int = 6) -> str:

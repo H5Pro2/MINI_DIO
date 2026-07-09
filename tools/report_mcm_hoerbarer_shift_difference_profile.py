@@ -3,14 +3,16 @@ from __future__ import annotations
 import csv
 from collections import Counter
 from pathlib import Path
+
+from befunde_paths import befunde_root
 from statistics import mean
 
 
 ROOT = Path(__file__).resolve().parents[1]
-SHIFT_CSV = ROOT / "docs" / "befunde" / "1352_HOERBARER_SCHMALER_SHIFT_SYMBOLKOPPLUNG.csv"
-CONTROL_CSV = ROOT / "docs" / "befunde" / "1353_HOERBARER_SCHMALER_SHIFT_KONTROLLKOPPLUNG.csv"
-OUT_MD = ROOT / "docs" / "befunde" / "1354_HOERBARER_SCHMALER_SHIFT_DIFFERENZPROFIL.md"
-OUT_CSV = ROOT / "docs" / "befunde" / "1354_HOERBARER_SCHMALER_SHIFT_DIFFERENZPROFIL.csv"
+SHIFT_CSV = befunde_root(ROOT) / "1352_HOERBARER_SCHMALER_SHIFT_SYMBOLKOPPLUNG.csv"
+CONTROL_CSV = befunde_root(ROOT) / "1353_HOERBARER_SCHMALER_SHIFT_KONTROLLKOPPLUNG.csv"
+OUT_MD = befunde_root(ROOT) / "1354_HOERBARER_SCHMALER_SHIFT_DIFFERENZPROFIL.md"
+OUT_CSV = befunde_root(ROOT) / "1354_HOERBARER_SCHMALER_SHIFT_DIFFERENZPROFIL.csv"
 
 
 def _float(value: str) -> float:

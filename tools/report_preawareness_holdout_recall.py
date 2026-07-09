@@ -421,8 +421,8 @@ def _parse_holdouts(raw_values: list[str]) -> dict[str, Path]:
 
 def main() -> int:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--source-summary", default="docs/befunde/2039_FELDFUNKTIONSWECHSEL_VORPHASEN_ASSET_STABILITAET.summary.csv")
-    parser.add_argument("--preawareness", default="docs/befunde/2040_FELDKONTAKT_VORWAHRNEHMUNG_MEMORY.roles.csv")
+    parser.add_argument("--source-summary", default="docs/befunde/2001-3000/2039_FELDFUNKTIONSWECHSEL_VORPHASEN_ASSET_STABILITAET.summary.csv")
+    parser.add_argument("--preawareness", default="docs/befunde/2001-3000/2040_FELDKONTAKT_VORWAHRNEHMUNG_MEMORY.roles.csv")
     parser.add_argument("--holdout", action="append", default=None)
     parser.add_argument("--max-events-per-symbol-holdout", type=int, default=60)
     parser.add_argument("--out-prefix", default="2041_VORWAHRNEHMUNG_MEMORY_HOLDOUT_RUECKPRUEFUNG")

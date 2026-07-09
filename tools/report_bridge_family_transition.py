@@ -5,11 +5,13 @@ import csv
 from collections import Counter, defaultdict
 from pathlib import Path
 
+from befunde_paths import befunde_root
+
 
 ROOT = Path(__file__).resolve().parents[1]
 DEBUG_DEFAULT = ROOT / "debug" / "block_k_fieldtime_controlled"
-CSV_DEFAULT = ROOT / "docs" / "befunde" / "817_BLOCK_K_BRUECKENFAMILIE_UEBERGANGSSTRUKTUR.csv"
-MD_DEFAULT = ROOT / "docs" / "befunde" / "817_BLOCK_K_BRUECKENFAMILIE_UEBERGANGSSTRUKTUR.md"
+CSV_DEFAULT = befunde_root(ROOT) / "817_BLOCK_K_BRUECKENFAMILIE_UEBERGANGSSTRUKTUR.csv"
+MD_DEFAULT = befunde_root(ROOT) / "817_BLOCK_K_BRUECKENFAMILIE_UEBERGANGSSTRUKTUR.md"
 BRIDGE_FAMILY_DEFAULT = "dio_155c"
 EDGE_FAMILY_DEFAULT = "dio_1un4"
 

@@ -3,13 +3,15 @@ from __future__ import annotations
 import csv
 from collections import Counter, defaultdict
 from pathlib import Path
+
+from befunde_paths import befunde_root
 from statistics import mean
 
 
 ROOT = Path(__file__).resolve().parents[1]
-BASE_NODES = ROOT / "docs" / "befunde" / "1389_BEDEUTUNGSNETZ_KNOTEN.csv"
-OUT_CSV = ROOT / "docs" / "befunde" / "1390_BEDEUTUNGSNETZ_FOLGEWELTEN.csv"
-OUT_MD = ROOT / "docs" / "befunde" / "1390_BEDEUTUNGSNETZ_FOLGEWELTEN.md"
+BASE_NODES = befunde_root(ROOT) / "1389_BEDEUTUNGSNETZ_KNOTEN.csv"
+OUT_CSV = befunde_root(ROOT) / "1390_BEDEUTUNGSNETZ_FOLGEWELTEN.csv"
+OUT_MD = befunde_root(ROOT) / "1390_BEDEUTUNGSNETZ_FOLGEWELTEN.md"
 
 EPISODE_FILES = {
     "SYNTH_PURE_HEARING": ROOT / "debug" / "1390_follow_pure_hearing" / "dio_mini_lauf_2" / "episodes.csv",

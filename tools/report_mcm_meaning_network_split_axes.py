@@ -4,11 +4,13 @@ import csv
 from collections import Counter, defaultdict
 from pathlib import Path
 
+from befunde_paths import befunde_root
+
 
 ROOT = Path(__file__).resolve().parents[1]
-IN_CSV = ROOT / "docs" / "befunde" / "1390_BEDEUTUNGSNETZ_FOLGEWELTEN.csv"
-OUT_CSV = ROOT / "docs" / "befunde" / "1392_BEDEUTUNGSNETZ_TEILUNGSACHSEN.csv"
-OUT_MD = ROOT / "docs" / "befunde" / "1392_BEDEUTUNGSNETZ_TEILUNGSACHSEN.md"
+IN_CSV = befunde_root(ROOT) / "1390_BEDEUTUNGSNETZ_FOLGEWELTEN.csv"
+OUT_CSV = befunde_root(ROOT) / "1392_BEDEUTUNGSNETZ_TEILUNGSACHSEN.csv"
+OUT_MD = befunde_root(ROOT) / "1392_BEDEUTUNGSNETZ_TEILUNGSACHSEN.md"
 
 AXES = ("hoeren", "sehen", "bewegung_proxy", "feldkontakt")
 

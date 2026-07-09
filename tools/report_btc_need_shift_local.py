@@ -4,9 +4,11 @@ import csv
 from collections import defaultdict
 from pathlib import Path
 
+from befunde_paths import befunde_root
+
 
 ROOT = Path(__file__).resolve().parents[1]
-REPORT_DIR = ROOT / "docs" / "befunde"
+REPORT_DIR = befunde_root(ROOT)
 
 OUTPUT_CSV = REPORT_DIR / "491_BTC2025_BEDARFSVERSCHIEBUNG_LOKAL.csv"
 OUTPUT_MD = REPORT_DIR / "491_BTC2025_BEDARFSVERSCHIEBUNG_LOKAL.md"

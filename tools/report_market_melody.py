@@ -5,6 +5,8 @@ import sys
 from collections import Counter
 from pathlib import Path
 
+from befunde_paths import befunde_root
+
 
 ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
@@ -16,8 +18,8 @@ from mini_dio.market_melody import read_candles
 from mini_dio.market_melody import write_melody_csv
 
 DATA_DEFAULT = ROOT / "data" / "kontrolliert_2023_negative_stress_10k_5m_SOLUSDT.csv"
-CSV_DEFAULT = ROOT / "docs" / "befunde" / "832_MARKTMELODIE_TONFOLGE.csv"
-MD_DEFAULT = ROOT / "docs" / "befunde" / "832_MARKTMELODIE_TONFOLGE.md"
+CSV_DEFAULT = befunde_root(ROOT) / "832_MARKTMELODIE_TONFOLGE.csv"
+MD_DEFAULT = befunde_root(ROOT) / "832_MARKTMELODIE_TONFOLGE.md"
 
 
 def _fmt(value: float, digits: int = 4) -> str:

@@ -4,11 +4,13 @@ import csv
 from collections import Counter
 from pathlib import Path
 
+from befunde_paths import befunde_root
+
 from report_btc_2025_section_counterprobe import _axis_summary, _fmt, _profile_for_regulation
 
 
 ROOT = Path(__file__).resolve().parents[1]
-REPORT_DIR = ROOT / "docs" / "befunde"
+REPORT_DIR = befunde_root(ROOT)
 
 OUTPUT_CSV = REPORT_DIR / "518_SOL2024_2025_ABSCHNITTSVERGLEICH.csv"
 OUTPUT_MD = REPORT_DIR / "518_SOL2024_2025_ABSCHNITTSVERGLEICH.md"

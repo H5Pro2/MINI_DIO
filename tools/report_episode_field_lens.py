@@ -6,6 +6,8 @@ import json
 from collections import Counter
 from pathlib import Path
 
+from befunde_paths import befunde_root
+
 
 ROOT = Path(__file__).resolve().parents[1]
 GROUP_DEFAULTS = [
@@ -13,8 +15,8 @@ GROUP_DEFAULTS = [
     "stress=debug/block_k_stress_multiworld",
     "lang_10k=debug/block_k_10k_multiworld",
 ]
-CSV_DEFAULT = ROOT / "docs" / "befunde" / "805_BLOCK_K_EPISODEN_FELDEPISODEN_LUPE.csv"
-MD_DEFAULT = ROOT / "docs" / "befunde" / "805_BLOCK_K_EPISODEN_FELDEPISODEN_LUPE.md"
+CSV_DEFAULT = befunde_root(ROOT) / "805_BLOCK_K_EPISODEN_FELDEPISODEN_LUPE.csv"
+MD_DEFAULT = befunde_root(ROOT) / "805_BLOCK_K_EPISODEN_FELDEPISODEN_LUPE.md"
 
 
 def _safe_float(value: object, default: float = 0.0) -> float:

@@ -4,9 +4,11 @@ import csv
 from collections import Counter
 from pathlib import Path
 
+from befunde_paths import befunde_root
+
 
 ROOT = Path(__file__).resolve().parents[1]
-FINDINGS = ROOT / "docs" / "befunde"
+FINDINGS = befunde_root(ROOT)
 
 INPUT_PATH = FINDINGS / "946_MCM_ROLLENREIFUNGS_MEMORY_LESUNG_SECHSTE_WELT.csv"
 OUT_CSV = FINDINGS / "948_MCM_LANGZEIT_REIFUNGSKLASSIFIKATION.csv"

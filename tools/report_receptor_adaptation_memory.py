@@ -14,8 +14,8 @@ from mini_dio.worldlage_classifier import classify_worldlage
 
 
 DEFAULT_INPUTS = [
-    "docs/befunde/1281_REZEPTORHALTUNG_AB_TEST.csv",
-    "docs/befunde/1283_REZEPTORHALTUNG_AB_TEST_MEHRWELTEN.csv",
+    "docs/befunde/1001-2000/1001-1500/1281_REZEPTORHALTUNG_AB_TEST.csv",
+    "docs/befunde/1001-2000/1001-1500/1283_REZEPTORHALTUNG_AB_TEST_MEHRWELTEN.csv",
 ]
 
 
@@ -115,8 +115,8 @@ def main() -> int:
     parser.add_argument("--input", action="append", default=[])
     parser.add_argument("--group-by-world-kind", action="store_true")
     parser.add_argument("--group-by-measured-worldlage", action="store_true")
-    parser.add_argument("--out", default="docs/befunde/1285_REZEPTOR_ADAPTATION_MEMORY.md")
-    parser.add_argument("--csv-out", default="docs/befunde/1285_REZEPTOR_ADAPTATION_MEMORY.csv")
+    parser.add_argument("--out", default="docs/befunde/1001-2000/1001-1500/1285_REZEPTOR_ADAPTATION_MEMORY.md")
+    parser.add_argument("--csv-out", default="docs/befunde/1001-2000/1001-1500/1285_REZEPTOR_ADAPTATION_MEMORY.csv")
     args = parser.parse_args()
 
     memory = ReceptorAdaptationMemory()

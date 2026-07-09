@@ -4,13 +4,15 @@ import argparse
 import csv
 from collections import defaultdict
 from pathlib import Path
+
+from befunde_paths import befunde_root
 from statistics import mean
 
 
 ROOT = Path(__file__).resolve().parents[1]
-INPUT = ROOT / "docs" / "befunde" / "1355_HOERBARER_SCHMALER_SHIFT_NACHHALLSPUR.csv"
-OUT_CSV = ROOT / "docs" / "befunde" / "1356_HOERBARER_SCHMALER_SHIFT_ROLLEN_NACHHALL.csv"
-OUT_MD = ROOT / "docs" / "befunde" / "1356_HOERBARER_SCHMALER_SHIFT_ROLLEN_NACHHALL.md"
+INPUT = befunde_root(ROOT) / "1355_HOERBARER_SCHMALER_SHIFT_NACHHALLSPUR.csv"
+OUT_CSV = befunde_root(ROOT) / "1356_HOERBARER_SCHMALER_SHIFT_ROLLEN_NACHHALL.csv"
+OUT_MD = befunde_root(ROOT) / "1356_HOERBARER_SCHMALER_SHIFT_ROLLEN_NACHHALL.md"
 
 
 def _float(value: str) -> float:

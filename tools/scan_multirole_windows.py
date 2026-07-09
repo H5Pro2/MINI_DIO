@@ -8,10 +8,12 @@ import sys
 from datetime import datetime
 from pathlib import Path
 
+from befunde_paths import befunde_root
+
 
 ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_OUT = ROOT / "docs" / "befunde" / "1581_MEHRROLLEN_FENSTERSUCHE_DOGE_XRP_BTC.md"
-DEFAULT_CSV = ROOT / "docs" / "befunde" / "1581_MEHRROLLEN_FENSTERSUCHE_DOGE_XRP_BTC.csv"
+DEFAULT_OUT = befunde_root(ROOT) / "1581_MEHRROLLEN_FENSTERSUCHE_DOGE_XRP_BTC.md"
+DEFAULT_CSV = befunde_root(ROOT) / "1581_MEHRROLLEN_FENSTERSUCHE_DOGE_XRP_BTC.csv"
 DEFAULT_TITLE = "Mehrrollen-Fenstersuche DOGE/XRP/BTC"
 DEFAULT_QUESTION = "In welchen Fenstern kippt Einzelrekopplung in Uebergang oder breitere Mehrrollennaehe?"
 

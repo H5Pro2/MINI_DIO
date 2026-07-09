@@ -128,9 +128,9 @@ def _write_markdown(rows: list[dict[str, object]], path: Path) -> None:
 
 def main() -> int:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--input", default="docs/befunde/1350_HOERBARER_SCHMALER_SHIFT_ROHWELTLUPE.csv")
-    parser.add_argument("--out", default="docs/befunde/1351_HOERBARER_SCHMALER_SHIFT_ROLLELESUNG.md")
-    parser.add_argument("--csv-out", default="docs/befunde/1351_HOERBARER_SCHMALER_SHIFT_ROLLELESUNG.csv")
+    parser.add_argument("--input", default="docs/befunde/1001-2000/1001-1500/1350_HOERBARER_SCHMALER_SHIFT_ROHWELTLUPE.csv")
+    parser.add_argument("--out", default="docs/befunde/1001-2000/1001-1500/1351_HOERBARER_SCHMALER_SHIFT_ROLLELESUNG.md")
+    parser.add_argument("--csv-out", default="docs/befunde/1001-2000/1001-1500/1351_HOERBARER_SCHMALER_SHIFT_ROLLELESUNG.csv")
     args = parser.parse_args()
 
     rows = _read_rows(Path(args.input))

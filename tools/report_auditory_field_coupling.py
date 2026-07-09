@@ -4,6 +4,8 @@ import argparse
 from datetime import datetime
 from pathlib import Path
 
+from befunde_paths import befunde_root
+
 from report_auditory_regulation import DEFAULT_SUMMARIES
 from report_auditory_regulation import _fmt
 from report_auditory_regulation import _row as auditory_row
@@ -11,7 +13,7 @@ from report_recoupling_quality import _resolve
 
 
 ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_OUT = ROOT / "docs" / "befunde" / "226_AUDITIVE_FELDKOPPLUNG_DIAGNOSE.md"
+DEFAULT_OUT = befunde_root(ROOT) / "226_AUDITIVE_FELDKOPPLUNG_DIAGNOSE.md"
 
 
 def _clamp(value: float, low: float = 0.0, high: float = 1.0) -> float:

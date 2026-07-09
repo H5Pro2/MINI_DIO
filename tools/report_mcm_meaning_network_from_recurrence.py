@@ -4,14 +4,16 @@ import csv
 import hashlib
 from collections import Counter, defaultdict
 from pathlib import Path
+
+from befunde_paths import befunde_root
 from statistics import mean
 
 
 ROOT = Path(__file__).resolve().parents[1]
-INPUT = ROOT / "docs" / "befunde" / "1387_UNTERFORMEN_SEMANTISCHE_WIEDERKEHR.csv"
-OUT_NODES = ROOT / "docs" / "befunde" / "1389_BEDEUTUNGSNETZ_KNOTEN.csv"
-OUT_EDGES = ROOT / "docs" / "befunde" / "1389_BEDEUTUNGSNETZ_KANTEN.csv"
-OUT_MD = ROOT / "docs" / "befunde" / "1389_BEDEUTUNGSNETZ_AUS_WIEDERKEHR.md"
+INPUT = befunde_root(ROOT) / "1387_UNTERFORMEN_SEMANTISCHE_WIEDERKEHR.csv"
+OUT_NODES = befunde_root(ROOT) / "1389_BEDEUTUNGSNETZ_KNOTEN.csv"
+OUT_EDGES = befunde_root(ROOT) / "1389_BEDEUTUNGSNETZ_KANTEN.csv"
+OUT_MD = befunde_root(ROOT) / "1389_BEDEUTUNGSNETZ_AUS_WIEDERKEHR.md"
 
 PASSIVE_FLAGS = {
     "passive_only": 1,

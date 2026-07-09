@@ -7,14 +7,16 @@ import sys
 from collections import Counter, defaultdict
 from pathlib import Path
 
+from befunde_paths import befunde_root
+
 from report_field_episode_multiworld import summarize_world
 
 
 ROOT = Path(__file__).resolve().parents[1]
 DEBUG_DEFAULT = ROOT / "debug" / "block_k_fieldtime_controlled"
 MEMORY_DEFAULT = ROOT / "memory" / "block_k_fieldtime_controlled"
-CSV_DEFAULT = ROOT / "docs" / "befunde" / "811_BLOCK_K_FELDZEIT_KONTROLLIERTER_NEULAUF.csv"
-MD_DEFAULT = ROOT / "docs" / "befunde" / "811_BLOCK_K_FELDZEIT_KONTROLLIERTER_NEULAUF.md"
+CSV_DEFAULT = befunde_root(ROOT) / "811_BLOCK_K_FELDZEIT_KONTROLLIERTER_NEULAUF.csv"
+MD_DEFAULT = befunde_root(ROOT) / "811_BLOCK_K_FELDZEIT_KONTROLLIERTER_NEULAUF.md"
 
 
 GROUP_WORLDS = {

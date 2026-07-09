@@ -7,9 +7,11 @@ from collections import Counter
 from datetime import datetime
 from pathlib import Path
 
+from befunde_paths import befunde_root
+
 
 ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_OUT = ROOT / "docs" / "befunde" / "124_FELDZEIT_DIAGNOSE.md"
+DEFAULT_OUT = befunde_root(ROOT) / "124_FELDZEIT_DIAGNOSE.md"
 
 DEFAULT_WORLDS = [
     ("welt_2023_01", "debug/research_chain"),

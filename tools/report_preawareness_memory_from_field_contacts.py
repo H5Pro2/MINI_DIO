@@ -6,6 +6,8 @@ import json
 import sys
 from pathlib import Path
 
+from befunde_paths import befunde_root
+
 
 ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
@@ -134,11 +136,11 @@ def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument(
         "--stability",
-        default="docs/befunde/2039_FELDFUNKTIONSWECHSEL_VORPHASEN_ASSET_STABILITAET.stability.csv",
+        default="docs/befunde/2001-3000/2039_FELDFUNKTIONSWECHSEL_VORPHASEN_ASSET_STABILITAET.stability.csv",
     )
     parser.add_argument(
         "--summary",
-        default="docs/befunde/2039_FELDFUNKTIONSWECHSEL_VORPHASEN_ASSET_STABILITAET.summary.csv",
+        default="docs/befunde/2001-3000/2039_FELDFUNKTIONSWECHSEL_VORPHASEN_ASSET_STABILITAET.summary.csv",
     )
     parser.add_argument(
         "--memory",
@@ -154,7 +156,7 @@ def main() -> int:
     memory_abs = memory_path if memory_path.is_absolute() else ROOT / memory_path
     memory = update_preawareness_memory_file(memory_abs, stability_rows, detail_rows)
 
-    out_dir = ROOT / "docs" / "befunde"
+    out_dir = befunde_root(ROOT)
     _write_csv(out_dir / f"{args.out_prefix}.roles.csv", snapshot.get("roles", []))
     _write_json(out_dir / f"{args.out_prefix}.snapshot.json", snapshot)
     _write_markdown(out_dir / f"{args.out_prefix}.md", snapshot, memory_path)

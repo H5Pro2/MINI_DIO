@@ -8,12 +8,12 @@ from update_mcm_field_role_memory import ROOT, _attachment_quality, _float
 
 
 SOURCES = [
-    ROOT / "docs/befunde/1846_MCM_FELDROLLEN_MEHRASSET_ZWISCHENLAGEN.csv",
-    ROOT / "docs/befunde/1848_ANSCHLUSSQUALITAET_NEUE_FENSTER.csv",
-    ROOT / "docs/befunde/1853_FAMILIEN_ANSCHLUSSKARTE_NEUE_WELTEN.csv",
+    ROOT / "docs/befunde/1001-2000/1751-2000/1846_MCM_FELDROLLEN_MEHRASSET_ZWISCHENLAGEN.csv",
+    ROOT / "docs/befunde/1001-2000/1751-2000/1848_ANSCHLUSSQUALITAET_NEUE_FENSTER.csv",
+    ROOT / "docs/befunde/1001-2000/1751-2000/1853_FAMILIEN_ANSCHLUSSKARTE_NEUE_WELTEN.csv",
 ]
-OUT_CSV = ROOT / "docs/befunde/1857_PHASENLOKALE_ANSCHLUSSQUALITAET.csv"
-OUT_MD = ROOT / "docs/befunde/1857_PHASENLOKALE_ANSCHLUSSQUALITAET.md"
+OUT_CSV = ROOT / "docs/befunde/1001-2000/1751-2000/1857_PHASENLOKALE_ANSCHLUSSQUALITAET.csv"
+OUT_MD = ROOT / "docs/befunde/1001-2000/1751-2000/1857_PHASENLOKALE_ANSCHLUSSQUALITAET.md"
 
 PHASES = ("frueh", "mitte", "spaet")
 METRICS = ("share", "rekopplung", "strain", "afterimage", "temporal")

@@ -4,13 +4,15 @@ import csv
 from collections import Counter
 from pathlib import Path
 
+from befunde_paths import befunde_root
+
 from report_late_drift_profile_holdout_scan import HOLDOUT_EPISODES, profile_from_episode
 
 
 ROOT = Path(__file__).resolve().parents[1]
-SOURCE = ROOT / "docs" / "befunde" / "1956_SPAETE_DRIFTROLLEN_ROHWELT_RUECKLESUNG.csv"
-OUT_CSV = ROOT / "docs" / "befunde" / "1958_SPAETE_DRIFTROLLEN_PROFILE_ROLLENBINDUNG.csv"
-OUT_MD = ROOT / "docs" / "befunde" / "1958_SPAETE_DRIFTROLLEN_PROFILE_ROLLENBINDUNG.md"
+SOURCE = befunde_root(ROOT) / "1956_SPAETE_DRIFTROLLEN_ROHWELT_RUECKLESUNG.csv"
+OUT_CSV = befunde_root(ROOT) / "1958_SPAETE_DRIFTROLLEN_PROFILE_ROLLENBINDUNG.csv"
+OUT_MD = befunde_root(ROOT) / "1958_SPAETE_DRIFTROLLEN_PROFILE_ROLLENBINDUNG.md"
 
 
 def read_csv(path: Path) -> list[dict[str, str]]:

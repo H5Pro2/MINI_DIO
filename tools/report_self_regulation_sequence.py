@@ -6,17 +6,19 @@ import sys
 from collections import Counter
 from pathlib import Path
 
+from befunde_paths import befunde_root
+
 
 ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
 
-INTAKE_DEFAULT = ROOT / "docs" / "befunde" / "409_PASSIVE_SINNESAUFNAHME_MEMORY.csv"
-REGULATION_DEFAULT = ROOT / "docs" / "befunde" / "473_PASSIVE_REGULATIONSVORSCHLAG_FELDTRAGUNG.csv"
-MOVEMENT_DEFAULT = ROOT / "docs" / "befunde" / "394_MCM_FELDBEWEGUNGS_MEMORY_SUMMARY.csv"
-MD_DEFAULT = ROOT / "docs" / "befunde" / "799_BLOCK_K_SELBSTREGULATION_KETTE.md"
-CSV_DEFAULT = ROOT / "docs" / "befunde" / "799_BLOCK_K_SELBSTREGULATION_KETTE.csv"
+INTAKE_DEFAULT = befunde_root(ROOT) / "409_PASSIVE_SINNESAUFNAHME_MEMORY.csv"
+REGULATION_DEFAULT = befunde_root(ROOT) / "473_PASSIVE_REGULATIONSVORSCHLAG_FELDTRAGUNG.csv"
+MOVEMENT_DEFAULT = befunde_root(ROOT) / "394_MCM_FELDBEWEGUNGS_MEMORY_SUMMARY.csv"
+MD_DEFAULT = befunde_root(ROOT) / "799_BLOCK_K_SELBSTREGULATION_KETTE.md"
+CSV_DEFAULT = befunde_root(ROOT) / "799_BLOCK_K_SELBSTREGULATION_KETTE.csv"
 
 
 def _safe_float(value: object, default: float = 0.0) -> float:
