@@ -98,8 +98,9 @@ Die aktuelle Kette untersucht, ob einzelne Rollen als Familienräume weiterleben
 - [2072: Fünf bisher ungelesene Familien in denselben Folgewelten](befunde/2001-3000/2072_OFFENE_ROLLENFAMILIEN_GLEICHE_SYMBOLBASIS_FOLGEWELTEN.md)
 - [2073: Rollenfamilien im Real-/Nullwelt-Kontrast](befunde/2001-3000/2073_ROLLENFAMILIEN_REAL_NULL_KONTRAST.md)
 - [2074: `rf_05` im unabhängigen Jahres- und Zeitebenen-Holdout](befunde/2001-3000/2074_RF05_CROSSYEAR_TIMEFRAME_HOLDOUT.md)
+- [2075: `rf_05` unter komponentenisolierten Kontrollen](befunde/2001-3000/2075_RF05_KOMPONENTEN_KONTROLLEN.md)
 
-Kurzbefund: Alle acht Familien besitzen reale Folgeweltevidenz, aber der Kontrollvergleich begrenzt deren Bedeutung deutlich. Shuffle erreicht im Mittel höhere Kontinuität als Realwelt, Random Sign liegt etwa auf Realniveau. `rf_05` war zunächst die einzige Familie mit gemeinsamem Vorsprung auf drei Achsen. Der unabhängige 2024-Holdout reproduziert diesen Vorsprung nicht: Real liegt über Shuffle, aber bei Kontinuität, Ereignisanteil und Abdeckung unter Random Sign. Die Familien belegen damit feldinterne relationale Wiederkehr, aber derzeit keine allgemein nachgewiesene realweltspezifische Bedeutung.
+Kurzbefund: Alle acht Familien besitzen reale Folgeweltevidenz, aber der Kontrollvergleich begrenzt deren Bedeutung deutlich. `rf_05` war zunächst die einzige Familie mit gemeinsamem Vorsprung auf drei Achsen. Der unabhängige 2024-Holdout reproduziert diesen Vorsprung nicht. Komponenten-Kontrollen zeigen danach: Reale Vorzeichenreihenfolge trägt leicht gegenüber Sign-Shuffle, aber Random Sign, Größen-Shuffle und Volumen-Shuffle übertreffen Real auf allen drei Primärachsen. Erst vollständiges Shape-Shuffle senkt sie gemeinsam. Die Familien belegen damit feldinterne relationale Wiederkehr, aber derzeit keine allgemein nachgewiesene realweltspezifische Bedeutung und keine einzelne tragende OHLCV-Komponente.
 
 ## 8. Methodische Grenzen Und Gegenproben
 

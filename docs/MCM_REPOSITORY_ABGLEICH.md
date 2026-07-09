@@ -127,8 +127,9 @@ Die Befundfolge [2066](befunde/2001-3000/2066_REALVERSTAERKTE_ROLLENFAMILIEN_KOH
 [2070](befunde/2001-3000/2070_ROLLENFAMILIEN_GLEICHE_SYMBOLBASIS_FOLGEWELTEN.md),
 [2071](befunde/2001-3000/2071_PASSIVE_ROLLENFAMILIEN_MEMORY_FOLGEWELTDRIFT.md),
 [2072](befunde/2001-3000/2072_OFFENE_ROLLENFAMILIEN_GLEICHE_SYMBOLBASIS_FOLGEWELTEN.md),
-[2073](befunde/2001-3000/2073_ROLLENFAMILIEN_REAL_NULL_KONTRAST.md)
-und [2074](befunde/2001-3000/2074_RF05_CROSSYEAR_TIMEFRAME_HOLDOUT.md)
+[2073](befunde/2001-3000/2073_ROLLENFAMILIEN_REAL_NULL_KONTRAST.md),
+[2074](befunde/2001-3000/2074_RF05_CROSSYEAR_TIMEFRAME_HOLDOUT.md)
+und [2075](befunde/2001-3000/2075_RF05_KOMPONENTEN_KONTROLLEN.md)
 entwickelt dafür eine passive Rollenfamilien-Evidenz. Wichtig ist die Grenze:
 `2071` speichert Messwerte und Evidenzherkunft; seine sprachlichen Klassen sind
 vorläufige Report-Lesungen, keine fest einprogrammierten Bedeutungen. `2072`
@@ -139,7 +140,11 @@ Gruppenprofil zunächst einen gemeinsamen Vorsprung bei Kontinuität,
 Ereignisanteil und Mitgliederabdeckung. `2074` reproduziert diesen Vorsprung im
 unabhängigen Jahres- und Zeitebenen-Holdout jedoch nicht. Die Rollenfamilien
 bleiben damit ein relationaler M.1-Anschluss, aber ihre realweltspezifische
-Weltbindung ist derzeit für keine Familie allgemein belegt.
+Weltbindung ist derzeit für keine Familie allgemein belegt. `2075` grenzt
+zusätzlich eine einfache Komponentenbedeutung ab: Körpergrößen- und
+Volumen-Shuffle verstärken `rf_05`, während erst vollständiges Shape-Shuffle die
+drei Primärachsen gemeinsam senkt. Damit ist weder ein einzelnes Zeichen noch
+eine einzelne OHLCV-Komponente als Träger der Rollenfamilie belegt.
 
 Damit entsteht kein Wörterbuch nach dem Muster `dio_x = feste Bedeutung`.
 Tragfähiger ist:
