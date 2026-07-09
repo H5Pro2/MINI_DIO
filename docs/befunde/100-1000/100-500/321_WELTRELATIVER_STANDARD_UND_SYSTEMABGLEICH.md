@@ -87,7 +87,3 @@ Die alte feste Uebersetzung bleibt per CLI explizit pruefbar:
 Das ist keine Handlung, kein Gate und keine Strategie.
 
 Der Adapter entscheidet nichts. Er sorgt nur dafuer, dass unterschiedliche Welten MINI_DIO nicht durch Rohskala, Lautstaerke oder Zeitebene falsch ueberreizen.
-
-## Wie Es Weitergeht
-
-Als naechstes wird geprueft, ob der neue Standard ueber mehrere Weltklassen dieselbe Topologiequalitaet erhaelt: Zentrum, offene Bruecke, Randspannung, Rekopplung und lokale Kontaktinseln.

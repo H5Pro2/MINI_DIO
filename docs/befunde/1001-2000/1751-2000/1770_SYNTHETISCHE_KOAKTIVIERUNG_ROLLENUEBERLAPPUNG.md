@@ -162,7 +162,3 @@ Verteilte Rekopplung braucht zusätzlich tragende Milieubindung.
 Dieser Befund gilt für die geprüften synthetischen Koaktivierungswelten A, B und C.
 
 Er beweist nicht, dass verteilte Rekopplung nur über Koaktivierung entstehen kann. Er zeigt aber, dass Koaktivierung gegenüber reiner Paketfolge und reiner Syntaxvarianz näher an Rollenöffnung liegt.
-
-## Wie es weitergeht
-
-Als nächstes sollte die geöffnete A/B-Zone mit realen rekoppelnden PAXG-Abschnitten verglichen werden. Entscheidend ist, ob dort ähnliche Rohweltbedingungen auftreten oder ob reale verteilte Rekopplung zusätzlich eine andere Milieuqualität trägt.

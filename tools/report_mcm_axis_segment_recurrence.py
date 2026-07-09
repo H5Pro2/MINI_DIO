@@ -153,9 +153,6 @@ def _write_md(path: Path, rows: list[dict[str, object]]) -> None:
             "wenn aehnliche Kontaktqualitaet ueber mehrere Weltlagen erneut erscheint.",
             "```",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte die staerkste wiederkehrende Signatur gegen Nachbarschaft und Feldmitte gelesen werden.",
         ]
     )
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")

@@ -167,7 +167,3 @@ Der aktuelle Befund stuetzt eine strengere MCM-Lesart:
 Das Feld organisiert Sequenzwirkung,
 aber es ueberschreibt die Gegenwart nicht.
 ```
-
-## Wie es weitergeht
-
-Als naechstes sollte eine Sequenz mit verlaengerter Rekopplungsphase vor `randflackern` getestet werden. Ziel: unterscheiden, ob die fehlende Abfederung an der Reihenfolge liegt oder daran, dass Rekopplung zeitlich nicht tief genug wirken konnte.

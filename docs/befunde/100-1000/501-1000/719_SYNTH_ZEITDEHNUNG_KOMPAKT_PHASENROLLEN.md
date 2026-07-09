@@ -29,5 +29,3 @@ Passive Diagnose: synthetische Weltphase gegen entstehende MCM-Rolle. Die Phasen
 
 ## Befund
 Die Diagnose zeigt, ob die synthetisch gesetzten Weltphasen unterschiedliche Innenfeldrollen auslösen oder ob das Feld sie trotz Bruchstruktur zentrumsnah integriert.
-
-Wie es weitergeht: Die Phasenmatrix sollte gegen harmonische und Bruch-/Randwelt verglichen werden, um zu prüfen, ob die Rollenverschiebung wirklich phasengebunden ist.

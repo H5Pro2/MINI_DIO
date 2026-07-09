@@ -88,8 +88,3 @@ Der relevante Befund liegt im Rollenprofil:
 
 Damit wirkt die Feldrollen-Memory anschlussfaehig: Sie beschreibt keine einzelne Welt, sondern ein passives Profil,
 mit dem neue Welten auf aehnliche Reifungsbewegungen gelesen werden koennen.
-
-## Wie es weitergeht
-
-Als naechstes sollte diese Reproduktionslesung gegen assetnahe 2025-Nullwelten laufen.
-Entscheidend ist, ob dieselbe Rollenreife auch unter Random/Shuffle entsteht oder ob reale Weltzeit weiter unterscheidbar bleibt.

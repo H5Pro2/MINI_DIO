@@ -66,7 +66,3 @@ Das unterstützt die aktuelle Richtung:
 - stattdessen eine feldbezogene Anpassung der Innenordnung
 
 Die Zeitebene wirkt damit nicht als externe Regel, sondern als veränderte Weltspannung, auf die das MCM-Feld unterschiedlich, aber geordnet reagiert.
-
-## Wie es weitergeht
-
-Als nächstes sollte die KAS-15m/30m/1h-Staffelung reproduziert werden. Wenn die Deltas stabil bleiben, folgt der direkte Zeitebenenvergleich KAS/SOL/BTC.

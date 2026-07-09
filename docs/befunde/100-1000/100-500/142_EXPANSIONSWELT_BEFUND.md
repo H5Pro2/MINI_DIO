@@ -147,19 +147,3 @@ Die 10k-Expansionswelt lief noch nicht vollständig durch, weil der erste Versuc
 
 - die volle 10k-Welt mit höherem Timeout laufen,
 - oder mehrere 1000er Expansionsfenster aus verschiedenen Abschnitten geprüft werden.
-
-## Wie Es Weitergeht
-
-Als nächstes ist sinnvoll:
-
-```text
-Weitere Expansionsfenster prüfen.
-```
-
-Ziel:
-
-- bleibt Expansion wieder ruhig_feldzeitnah?
-- gibt es eine stärker aktive Expansion, die last_feldzeitnah wird?
-- entsteht bei extremer Expansion ein echter Gegenpol?
-- bleibt die Topologie stabil, oder bilden sich neue Bedeutungsinseln?
-

@@ -98,7 +98,3 @@ semantische Reorganisation im entkoppelten Innenfeld
 ```
 
 Die jetzige Stufe liefert dafuer die Messgrundlage.
-
-## Wie es weitergeht
-
-Als naechstes sollte geprueft werden, ob Sleep-Kombinationen ueber mehrere Sleep-Phasen stabil bleiben, sich teilen oder neue Kombinationsinseln bilden. Erst dann ist belastbar erkennbar, ob aus Offline-Kombinationen eine eigene semantische Zwischenstruktur entsteht.

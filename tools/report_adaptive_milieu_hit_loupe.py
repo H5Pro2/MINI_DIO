@@ -280,10 +280,6 @@ def _write_md(rows: list[dict[str, object]], out_path: Path) -> None:
             "",
             "Auffaellig sind Treffer, bei denen das Vorfenster und die Folgephase in Hoeren-Gap und Feldspannung nahe beieinander bleiben. Dort wirkt der Wechsel eher wie eine Milieu-Umlagerung derselben Familienlage, nicht wie ein komplett neuer Rohreiz.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollten diese Lupenprofile gruppiert werden: Welche Treffer sind spannungsnah, welche hoernahe, welche rangegetrieben, und welche wirken wie reine Milieu-Umlagerung.",
-            "",
         ]
     )
     out_path.parent.mkdir(parents=True, exist_ok=True)

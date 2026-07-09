@@ -86,7 +86,3 @@ Das stuetzt die Lesung, dass Bedeutungsrollen nicht nur aus Lautstaerke entstehe
 Diese Pruefung zeigt eine klare Differenzierung, aber noch keine vollstaendige Bruchtypologie.
 
 Weitere Bruchformen sind noetig, bevor `dio_0v65` sauber benannt werden kann.
-
-## Wie es weitergeht
-
-Als naechstes sollte eine Bruchtypologie aufgebaut werden: mehrere Bruchformen nebeneinander, mit Hauptanker, Nachhall, Rekopplung und Unruhe. Ziel ist zu klaeren, welche Feldform welche Bedeutung aktiviert.

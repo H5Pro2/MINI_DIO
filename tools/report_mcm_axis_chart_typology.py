@@ -169,10 +169,6 @@ def _write_md(enriched: list[dict[str, object]], summary: list[dict[str, object]
             "",
             "Damit wird die bisherige Regimewechsel-Lesung konkreter: Das MCM-Feld reagiert nicht nur auf Richtung, sondern auf Uebergangsqualitaet. Entscheidend ist, ob ein Chartfenster Druck, Bruch, Rekopplung oder tragende Fortsetzung erzeugt.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte geprueft werden, ob diese Typen ueber neue Welten wiederkehren oder ob neue Typen entstehen. Besonders wichtig ist die Frage, ob `gerichtete_bewegung_mit_rekopplung` und `abverkauf_mit_rekopplung` stabile MCM-Archetypen werden.",
-            "",
         ]
     )
     path.write_text("\n".join(lines), encoding="utf-8")

@@ -178,9 +178,6 @@ def _write_md(path: Path, rows: list[dict[str, str]]) -> None:
     lines.append("- `0ykar6i` faellt nicht auf schwach zurueck, sondern bleibt als starker Anschlussanker in der Naehe des Kernraums.")
     lines.append("- `1jx2k4i` bleibt ebenfalls stark/kernnah.")
     lines.append("")
-    lines.append("## Wie es weitergeht")
-    lines.append("")
-    lines.append("Als naechstes sollte die Rollenfolge in eine semantische Memory-Regel uebersetzt werden: nicht harte Klassen speichern, sondern Rollenbewegung, Stabilitaet und Driftqualitaet.")
     path.write_text("\n".join(lines), encoding="utf-8")
 
 

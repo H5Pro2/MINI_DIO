@@ -84,8 +84,3 @@ Zeit faerbt die Tiefe und Stabilitaet der Innenordnung.
 
 Dieser Befund ist noch kein Beweis fuer eine allgemeine MCM-Raumzeit-Topologie.
 Er ist aber ein belastbarer Hinweis, dass Zeitebene als innere Feldfaerbung lesbar wird, ohne die Grundtopologie zu zerstoeren.
-
-## Wie es weitergeht
-
-Als naechstes sollte diese Zeitebenen-Faerbung gegen BTC und SOL gelegt werden.
-Ziel ist zu pruefen, ob 1h allgemein mehr offene Peripherie erzeugt oder ob KAS2024 hier eine eigene Weltfaerbung zeigt.

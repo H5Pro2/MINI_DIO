@@ -32,7 +32,3 @@ Wenn `tragende_verarbeitung` und `kippnaehe` fuer dieselbe Familie verschiedene 
 innere Familie allein reicht nicht;
 Realitaetsrueckkopplung entscheidet die aktuelle Lesart.
 ```
-
-## Wie es weitergeht
-
-Als naechstes sollte aus diesen Ereignissen ein kleiner Rohwelt-Ausschnitt mit Tickfenstern extrahiert werden, damit die Feldfolge vor und nach der Familie sichtbar wird.

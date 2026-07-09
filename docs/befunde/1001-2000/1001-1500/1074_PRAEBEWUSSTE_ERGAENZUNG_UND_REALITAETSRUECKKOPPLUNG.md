@@ -95,7 +95,3 @@ innere Ergaenzung
 + Feldstabilitaet oder erklaerbare Drift
 = reifere Bedeutung
 ```
-
-## Wie es weitergeht
-
-Als naechstes sollte eine reale Brueckenfamilie gegen Rohweltfenster gelesen werden. Ziel ist zu pruefen, ob die Familie nur innerlich ergaenzt wird oder ob reale Weltabschnitte ihre tragende beziehungsweise kippnahe Lesart nachvollziehbar rueckkoppeln.

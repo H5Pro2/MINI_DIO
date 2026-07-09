@@ -40,7 +40,3 @@ Wenn `beobachtete_umorganisation_verfuegbar` oder `erwartung_und_beobachtung_im_
 ## Grenze
 
 Diese Prüfung erzeugt keine neue Rolle, keine Handlung und keine Richtung. Sie ist eine passive Prüfung der Feldverfügbarkeit unter neuer Weltspannung.
-
-## Wie es weitergeht
-
-Als nächstes sollte geprüft werden, ob aus Feldverfügbarkeit über mehrere neue Welten wieder eine echte Syntax- oder Bedeutungsnähe entsteht. Erst dann wäre aus einer verfügbaren Feldklasse eine gereifte neue Vorwahrnehmungsrolle geworden.

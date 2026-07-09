@@ -204,9 +204,6 @@ def _write_md(rows: list[dict[str, object]], path: Path) -> None:
             "",
             "Die Rezeptorschicht ist grundsaetzlich vorhanden und schuetzt das Feld bereits vor direkter Rohdatenuebernahme. Die wichtigste offene Stelle ist nicht Rohdatenflutung, sondern Schichtklarheit im neuronalen Eingangsvektor.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte die Eingangsfeature-Liste des Mini-MCM-Neurons bereinigt werden: MCM-Feldwirkung als Feldinput, Rezeptorachsen als Diagnose/Syntax, aber keine doppelte Feldspannung.",
         ]
     )
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")

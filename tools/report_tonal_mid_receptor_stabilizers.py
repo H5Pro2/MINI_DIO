@@ -271,10 +271,6 @@ def main() -> int:
                 "",
                 f"Die Rolle `{args.target_role}` innerhalb von `{args.tonal_band}` entsteht nicht durch Tonenergie allein. Sie wird durch eine Rezeptorhaltung mitgetragen, die bestimmte Aufnahmequalitaeten erhoeht und andere reduziert. Entscheidend ist damit Ton plus Aufnahmehaltung plus Feldantwort.",
                 "",
-                "## Wie es weitergeht",
-                "",
-                "Als naechstes sollte aus dieser Gegenlesung eine kurze Synthese gebildet werden: welche Rezeptorhaltung stabilisiert Verarbeitung, und welche Haltung begleitet Kippnaehe?",
-                "",
             ]
         ),
         encoding="utf-8",

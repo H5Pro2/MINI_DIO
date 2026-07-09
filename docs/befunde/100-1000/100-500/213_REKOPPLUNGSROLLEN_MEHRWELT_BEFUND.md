@@ -182,19 +182,3 @@ Besonders wichtig ist der Unterschied zwischen:
 - lokalen Stresssegmenten.
 
 Lokale Stresssegmente koennen deutlicher last-/memorybindend sein als komplette Jahres- oder Mehrmonatswelten.
-
-## Wie es weitergeht
-
-Als naechstes sollte die lokale Segmentfrage vertieft werden.
-
-Grundfrage:
-
-Entsteht Last-/Memorybindung vor allem in kurzen, lokal verdichteten Weltabschnitten?
-
-Konkrete Unterpruefung:
-
-1. Mehr lokale Stresssegmente mit gleicher Diagnose lesen.
-2. Dazu passende lokale Ruhe-/Entlastungssegmente gegenlesen.
-3. Pruefen, ob `last_memory_bindend` und `reiz_aktiv_rekoppelnd` als lokale Gegenpole auftreten.
-
-Wenn das stabil bleibt, koennen wir eine passive Rekopplungslandkarte aus lokalen Weltabschnitten bauen.

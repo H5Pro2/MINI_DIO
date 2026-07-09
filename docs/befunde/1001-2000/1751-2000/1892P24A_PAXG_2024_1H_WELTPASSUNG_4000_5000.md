@@ -16,7 +16,3 @@ Stress zeigt in dieser Prüfung etwas mehr direkte lokale Reproduktion als ruhig
 Expansion verschiebt stärker in Nachhall- und Kernnähe. Das spricht nicht für Kollaps, sondern für eine unterschiedliche Randantwort je Weltspannung.
 
 Wichtig: Das ist weiterhin eine passive Feldlesung. Es wird keine Handlung, kein Gate und keine Richtung daraus abgeleitet.
-
-## Wie es weitergeht
-
-Als nächstes sollten die Einzelberichte assetübergreifend zusammengeführt werden. Erst dann ist klar, welche Hartkernantwort allgemein ist und welche asset-spezifisch bleibt.

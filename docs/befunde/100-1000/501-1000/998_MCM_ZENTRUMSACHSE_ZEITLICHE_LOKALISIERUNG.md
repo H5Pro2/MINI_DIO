@@ -72,7 +72,3 @@ Arbeitsableitung:
 Zentrumsqualitaet kann als zeitlich lokalisierte Feldachse erscheinen:
 nicht nur ein Punkt im Bedeutungsraum, sondern eine wiederkehrende Lage ueber Weltphasen.
 ```
-
-## Wie es weitergeht
-
-Als naechstes sollte geprueft werden, ob diese zeitlichen Achsenlagen mit Topologie-Rollenwechseln zusammenfallen.

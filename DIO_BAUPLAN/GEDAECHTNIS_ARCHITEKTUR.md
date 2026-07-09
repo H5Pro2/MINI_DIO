@@ -471,7 +471,3 @@ Diese Auslagerung aendert keine Handlung, kein Gate und keine MCM-Feldwirkung.
 Sie macht nur sichtbar, dass aktive Aktionswahl eine getrennte Kompatibilitaetsschicht ist.
 
 Der Kontrolllauf `797_ACTION_SELECTION_AUSLAGERUNG_CHECK.md` zeigt keine fachliche Abweichung.
-
-## Wie es weitergeht
-
-Als naechstes wird der Laufpfad weiter kartiert: Was ist passive Wahrnehmung, was ist neuronale Feldreaktion, was ist aktive Auswahl, und was ist nur Reporting/Debug?

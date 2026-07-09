@@ -113,9 +113,6 @@ def _write_md(path: Path, rows: list[dict[str, str]]) -> None:
     lines.append("")
     lines.append("Das spricht dafuer, dass die MCM-Topologie nicht nur Zentrum/Rand kennt, sondern eine differenzierte Anschlusszone zwischen stabiler Bedeutung und offener Feldbewegung ausbildet.")
     lines.append("")
-    lines.append("## Wie es weitergeht")
-    lines.append("")
-    lines.append("Als naechstes sollte geprueft werden, ob diese Anschlussanker-Familien in anderen Weltgruppen wieder auftauchen oder ob sie nur aus dieser Brueckenlandschaft entstehen.")
     path.write_text("\n".join(lines), encoding="utf-8")
 
 

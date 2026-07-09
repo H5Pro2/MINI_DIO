@@ -81,7 +81,3 @@ Das spricht für eine beginnende Feldrollen-Abgrenzung: Bedeutung entsteht nicht
 ## Grenze
 
 Die Prüfung zeigt Abgrenzung, aber noch keine vollständige Rollenkarte. Es bleibt offen, welche eigenen Rollen BTC-Stress und BTC-Shift ausbilden.
-
-## Wie es weitergeht
-
-Als nächstes nicht weiter `1i3ov0z` erzwingen, sondern die Stress-/Shift-Läufe selbst auswerten: Welche Feldrollen übernehmen dort die Führung, und bilden sie eine Gegenrolle zur ruhigen BTC-Quiet-Rolle?

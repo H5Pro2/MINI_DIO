@@ -69,8 +69,3 @@ Hierarchie der Pruefung:
 - Wenn Weltverdichtung nahe liegt und Rolle gleich bleibt, spricht das fuer weltstrukturgetragene Ordnung.
 - Wenn Weltverdichtung nahe liegt und Rolle kippt, spricht das fuer Feldhistorie, Memory oder Rekopplungsverlust als Mitursache.
 - Wenn eine Stresswelt trotz aehnlicher Verdichtung aktiv-rekoppelnd bleibt, ist Stress nicht der Name einer festen Klasse, sondern einer moeglichen Feldwirkung.
-
-## Wie es weitergeht
-
-Als naechstes wird der Befund geschrieben.
-Dort wird bewertet, ob MINI_DIO bereits eine feldhistorische Lesetiefe zeigt oder ob die aktuellen Werte nur Rohweltverdichtung abbilden.

@@ -25,7 +25,3 @@ Die Diagnose bleibt passiv. Sie beschreibt Weltkontakt und Feldnaehe, keine Hand
 `5495a55c` wird nicht durch eine einzelne starre Rohform getragen.
 Der Knoten bleibt als Feldnaehe erhalten, waehrend die Folgewelten vor allem Ton-/Aufnahmevarianten erzeugen.
 Das spricht fuer eine Bedeutungsnaehe, die ueber Weltkontakt erhalten bleibt, aber in der konkreten Sinnesaufnahme variiert.
-
-## Wie es weitergeht
-
-Als naechstes sollten aus den starken Knoten Feldrollen-Familien gebildet werden: ruhige Naehe, gerichtete Spannung, weite Spannung und offene Nachbarschaft.

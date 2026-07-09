@@ -111,7 +111,3 @@ Noch offen:
 - ob gleiche Naehe bei laengeren Welten stabil bleibt,
 - ob die Richtung je nach Weltklasse kippt,
 - ob `dio_00ly` und `dio_104t` einen gemeinsamen Zentrum-/Brueckenbereich bilden.
-
-## Wie es weitergeht
-
-Als naechstes sollte die Beziehung nach Weltklasse getrennt gelesen werden: In welchen Welten ist `dio_00ly <-> dio_104t` balanciert, und in welchen Welten kippt die Richtung eher zu Uebergang oder Stabilisierung?

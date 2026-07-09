@@ -49,8 +49,3 @@ Es unterbricht die zentrumsnahe Rekopplung haeufiger und verschiebt mehr Episode
 
 Fachlich gelesen: Die Welt bleibt tragbar, aber weniger durchgehend zentriert.
 MINI_DIO liest diese Welt eher als wechselhaftere Kontaktqualitaet, nicht als Kollaps.
-
-## Wie es weitergeht
-
-Als naechstes sollte die offene Variante selbst untersucht werden:
-Ist sie eine unreife Zwischenlage, eine normale Variationszone oder eine beginnende neue Bedeutungsinsel?

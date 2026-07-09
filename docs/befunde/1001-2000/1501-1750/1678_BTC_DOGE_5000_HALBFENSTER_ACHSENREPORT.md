@@ -70,7 +70,3 @@ Erst die gemeinsame Achsenlage beschreibt das Feldmilieu.
 ## Grenze
 
 Die Klassifikation ist eine passive Diagnose. Sie beschreibt Feldmilieu und Anschlussfaehigkeit, aber keine Richtung, keine Handlung und keine Strategie.
-
-## Wie es weitergeht
-
-Als naechstes sollte die gleiche Halbfensterlogik auf XRP und PAXG laufen. Ziel ist zu klaeren, ob auch die zuvor mittleren Uebergangsphasen bei laengerer Lesetiefe rand-/kippnah werden oder ob sie als mittleres Feldmilieu stabil bleiben.

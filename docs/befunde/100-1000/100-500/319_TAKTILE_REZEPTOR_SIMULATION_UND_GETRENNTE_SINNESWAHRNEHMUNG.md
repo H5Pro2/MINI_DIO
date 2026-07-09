@@ -180,7 +180,3 @@ Diese Mechanik ist aktuell ein Bauplanpunkt.
 Sie ist noch keine aktive taktile Implementierung.
 
 Sie darf nicht als Handlung, Gate oder Steuerung gelesen werden.
-
-## Wie es weitergeht
-
-Als naechstes sollte die aktuelle Dokumentation sprachlich schaerfer trennen: `Fuehlen` in MINI_DIO meint derzeit MCM-Feldwirkung durch Rezeptorkontakt, nicht Hautkontakt. Erst eine spaetere taktile Simulation wuerde eine eigene Tastachse ergaenzen.

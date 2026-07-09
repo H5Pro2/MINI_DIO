@@ -66,7 +66,3 @@ PAXG 1h bricht die Rollenordnung nicht, wirkt aber weniger extrem ruhig als PAXG
 ## Grenze
 
 PAXG 1h wurde hier f?r 2024 und 2025 als Jahreswelt gepr?ft. Der Befund ist ein Zeitaufl?sungs-H?rtefall, aber noch keine universelle Aussage ?ber alle ruhigen oder goldnahen Welten.
-
-## Wie es weitergeht
-
-Als n?chstes wird PAXG 5m gegen PAXG 1h synthetisiert. Ziel ist zu kl?ren, ob Zeitaufl?sung die Topologie bricht oder nur die Rollenf?rbung ver?ndert.

@@ -289,9 +289,6 @@ def _write_markdown(rows: list[dict[str, object]], groups: dict[str, set[str]], 
     lines.extend(
         [
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte fuer die stabilen Bruecken der Eintritt und Austritt gelesen werden: bleibt die Bruecke offen, weil sie zwischen zwei Bedeutungsraeumen vermittelt, oder weil sie eine stabile Mitte zwischen Weltspannung und Rekopplung bildet?",
         ]
     )
     out.write_text("\n".join(lines) + "\n", encoding="utf-8")

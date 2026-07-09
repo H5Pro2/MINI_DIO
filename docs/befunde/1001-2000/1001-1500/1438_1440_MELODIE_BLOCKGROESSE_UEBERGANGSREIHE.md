@@ -94,7 +94,3 @@ Der Uebergang zwischen `dio_0ein` und `dio_1fll` liegt im Bereich `block_size 12
 - `1440`: Drift -0.009630
 
 Das aendert den Hauptbefund nicht, weil `1439` mit nahezu neutraler Drift bereits den engen Uebergang zeigt. Fuer eine haertere Aussage sollten `block_size 10` und `14` trotzdem noch einmal driftkorrigiert wiederholt werden.
-
-## Wie es weitergeht
-
-Als naechstes sollten `block_size 10` und `block_size 14` driftkorrigiert wiederholt werden. Danach ist sinnvoll, `block_size 11`, `12`, `13` als engere Schwellenreihe zu pruefen.

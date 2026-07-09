@@ -134,9 +134,6 @@ def main() -> None:
         "Wenn sie im Feldkontakt liegt, veraendert sich die innere Aufnahmequalitaet.",
         "Wenn sie im Sehen liegt, waere die sichtbare Form selbst der Haupttreiber der Bedeutungsdrift.",
         "",
-        "## Wie es weitergeht",
-        "",
-        "Als naechstes sollte die dominante Teilungsachse gegen konkrete Rohweltabschnitte zurueckgelesen werden, damit sichtbar wird, welche Weltspannung die neue Nachbarschaft erzeugt.",
     ]
     OUT_MD.write_text("\n".join(lines) + "\n", encoding="utf-8")
 

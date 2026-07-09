@@ -255,9 +255,6 @@ def _write_md(rows: list[dict[str, object]], path: Path) -> None:
             "",
             "Mini-DIO zeigt hier keine simple Wenn-Dann-Trennung. Die Symbolfamilien bilden eher ein Feldnetz: getrennte Bereiche plus Brueckenfamilien.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte eine starke Brueckenfamilie isoliert und gegen Rohweltfenster gelesen werden: Welche Weltabschnitte lassen dieselbe Familie tragend oder kippnah erscheinen?",
         ]
     )
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")

@@ -94,8 +94,3 @@ Es ist Feldsemantik.
 
 Die Reproduktion ist stark, aber sie bezieht sich auf vorhandene 10k-Welten.
 Eine vollstaendige Absicherung braucht weitere lange Welten oder frische Memory-Neustarts.
-
-## Wie es weitergeht
-
-Als naechstes sollte diese gerichtete Feldbewegung als eigener passiver Baustein in die Feldbewegungs-Memory eingeordnet werden.
-Ziel ist nicht Handlung, sondern das Speichern von wiederkehrender Bewegungsqualitaet: rekoppelnd, oeffnend, strainnah, beruhigend oder fragmentierend.

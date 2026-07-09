@@ -68,7 +68,3 @@ Weltuebergreifend gemeinsam in den Top-Familien: `dio_mcm_episode_02xikfk`, `dio
 BTC bildet dieselbe Feldsprache mit, verteilt aber mehr Gewicht auf andere Preview-Familien. Das spricht nicht fuer eine andere Grundsprache, sondern fuer eine andere Innenfeld-Gewichtung der Welt.
 
 Die Rohsymbol-Varianten bleiben hoch. Das bestaetigt erneut: Die MCM-Preview-Familie ist die verdichtete Bedeutungsebene, die Rohsyntax traegt lokale Oberflaechenvarianz.
-
-## Wie es weitergeht
-
-Als naechstes werden die Nachbarschaften der gemeinsamen Top-Familie verglichen: Welche Preview-Familien liegen bei SOL, BTC und KAS direkt vor und nach `dio_mcm_episode_1t5bcxp`?

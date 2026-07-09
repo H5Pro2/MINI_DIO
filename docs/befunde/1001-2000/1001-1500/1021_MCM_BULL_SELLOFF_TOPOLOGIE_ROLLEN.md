@@ -74,7 +74,3 @@ an dem Bewegung je nach Weltphase anders gelesen wird.
 Bull-/Selloff-Asymmetrie liegt nicht nur in der Rohbewegung, sondern in der Kombination aus Achse,
 Rollennaehe, Rekopplung, Druck und vorheriger Last. Das passt zur bisherigen Lesung:
 MCM-Feldrollen sind Bedeutungsorte, keine fixen Handelsrichtungen.
-
-## Wie es weitergeht
-
-Als naechstes sollte eine einzelne gemeinsame Achse isoliert werden: Wann liest sie Bull-Fortsetzung, wann Selloff-Rekopplung, und welche Weltmerkmale kippen die Rollenqualitaet?

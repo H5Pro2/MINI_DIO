@@ -89,9 +89,3 @@ Diese Prüfung ist noch kein Beweis einer universellen MCM-Topologie.
 Sie ist aber ein unabhängiger Gegencheck: Die bisherige Kurzsegment-Trennung kollabiert nicht, wenn ein anderes Jahr verwendet wird.
 
 Die Werte sind Arbeitsbefunde, keine Schwellwerte.
-
-## Wie es weitergeht
-
-Als nächstes sollte ein weiteres unabhängiges Jahr oder ein anderes Marktregime geprüft werden.
-Ziel ist nicht, immer dieselben Namen zu erzwingen, sondern zu sehen, ob MINI_DIO lokale Last, lokale Ruhe und Feldzeitspur weiter getrennt lesen kann.
-Wenn neue Mischformen entstehen, müssen sie hierarchisch eingeordnet werden: Grundpol, Unterform, danach mögliche Folgeschritte.

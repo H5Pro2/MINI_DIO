@@ -131,9 +131,6 @@ def _write_md(path: Path, target_family: str, rows: list[dict[str, object]], tar
             "Bedeutung entsteht hier als Nachbarschaft im Feld, nicht als einzelner Name.",
             "```",
             "",
-            "## Wie es weitergeht",
-            "",
-            f"Als nächstes sollte geprüft werden, ob die stärksten `{target_family}`-Nachbarn eigene Rollen tragen oder nur Mitläufer derselben Feldphase sind.",
         ]
     )
     path.parent.mkdir(parents=True, exist_ok=True)

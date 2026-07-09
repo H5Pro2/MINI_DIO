@@ -338,9 +338,6 @@ def _write_markdown(
             "",
             "Der Befund beschreibt passive Innenfeldreifung. Er ist keine Handlungsauswertung und keine Richtungslogik.",
             "",
-            "## Wie es weitergeht",
-            "",
-            f"Als naechstes sollte `{target_family}` gegen seine haeufigsten Nachbarfamilien gelesen werden. Dann wird sichtbar, ob daraus eine Bruecke, eine Unterfamilie oder ein isolierter Randpunkt entsteht.",
         ]
     )
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")

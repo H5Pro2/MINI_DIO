@@ -101,8 +101,3 @@ Ein echter Rand-Gegenkern waere erst belastbar, wenn Randtokens:
 - und eine stabile eigene Rollenlogik tragen.
 
 Diese Bedingungen sind aktuell noch nicht erfuellt.
-
-## Wie es weitergeht
-
-Als naechstes sollte eine eigene Rand-Nachbarschaftsmatrix fuer die aktuelle Pfadgruppe erzeugt werden.
-Ziel: pruefen, ob die in 868 sichtbaren Randtokens unter passender Nachbarschaftsabdeckung doch eigene Kanten bilden oder ob sie kurzlebig bleiben.

@@ -51,7 +51,3 @@ Sie sind nicht als Handlung zu lesen, sondern als Bewegung der Innenfeld-Syntax.
 
 Wenn ein Paar ueber mehrere Welten wiederkehrt, ist es staerker als eine lokale Einzelkante.
 Wenn ein Paar nur in einer Welt dominiert, ist es eher asset- oder timeframe-spezifisch.
-
-## Wie es weitergeht
-
-Als naechstes werden die stabilsten Paare fachlich klassifiziert: Grundinsel-Wechsel, Rekopplungsbogen oder Randuebergang.

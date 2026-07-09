@@ -249,9 +249,6 @@ def _write_md(summary_rows: list[dict[str, object]], out: Path) -> None:
             "",
             "Damit wird die MCM-Lesung konkreter: Die Rolle haengt nicht nur am Zeichen, sondern an Weltfenster, Ton, Form, Rezeptoraufnahme und Feldwirkung.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte aus diesen Rohweltmerkmalen eine passive Rollenkarte entstehen: stabile Rueckbindung, belastete Randnaehe, Uebergangsoeffnung und gemischte Nachbarschaft als Feldzonen.",
         ]
     )
     out.parent.mkdir(parents=True, exist_ok=True)

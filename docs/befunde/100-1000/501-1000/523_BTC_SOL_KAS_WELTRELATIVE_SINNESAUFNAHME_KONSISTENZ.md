@@ -100,7 +100,3 @@ Im weltrelativen Modus wird dagegen geprueft, ob die Aufnahme bereits gegen den 
 
 Diese Diagnose bewertet nur die Informationsaufnahme.
 Sie entscheidet nicht, welche Topologie wahr ist und sie erzeugt keine neue Feldwirkung.
-
-## Wie es weitergeht
-
-Als naechstes sollte bei weiterhin auffaelligen Achsen geprueft werden, ob sie echte Weltqualitaet tragen oder ob der Adapter eine feinere Aufnahme braucht.

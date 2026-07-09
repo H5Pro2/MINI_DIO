@@ -83,7 +83,3 @@ Der Befund bedeutet nur:
 ```text
 Diese Familie ist ein stabiler passiver Träger einer bestimmten Feldqualität.
 ```
-
-## Wie es weitergeht
-
-Als nächstes sollte geprüft werden, ob `dio_0tay/frueh` auch außerhalb der B-Fokus-Zone dieselbe ruhige Brückenqualität trägt oder ob diese Stabilität an genau diese Weltform-Zone gebunden bleibt.

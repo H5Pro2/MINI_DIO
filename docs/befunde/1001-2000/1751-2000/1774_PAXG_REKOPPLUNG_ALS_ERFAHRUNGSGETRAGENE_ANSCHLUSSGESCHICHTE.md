@@ -119,7 +119,3 @@ Er zeigt nur:
 Die bisher gebauten synthetischen Varianten treffen die reale PAXG-Rekopplung
 noch nicht vollständig.
 ```
-
-## Wie es weitergeht
-
-Als nächstes sollte PAXG selbst phasengenauer rückgelesen werden: Welche konkreten Abschnitte vor und nach dem `verteilt_rekoppelnd`-Fenster erzeugen die höhere adaptive Erfahrungskopplung?

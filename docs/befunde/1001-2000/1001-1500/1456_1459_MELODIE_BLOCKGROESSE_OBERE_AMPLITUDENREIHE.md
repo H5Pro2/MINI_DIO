@@ -82,7 +82,3 @@ Stattdessen entstehen nahe Bedeutungsnachbarn, die je nach Weltspannung und Feld
 Die Werte sind Pruefwerte, keine Regeln.
 
 Der Befund sagt nicht, dass `0.00120` generell eine feste Kante ist. Er zeigt nur, dass in dieser kontrollierten Melodiekonstruktion dort der beobachtete Uebergang zwischen `dio_0ein` und `dio_1fll` beginnt.
-
-## Wie es weitergeht
-
-Als naechstes sollte der enge Bereich `0.00108` bis `0.00118` geprueft werden. Ziel ist, den unmittelbaren Dominanzwechsel feiner zu lokalisieren und zu sehen, ob die Umschaltung weich oder sprunghaft wirkt.

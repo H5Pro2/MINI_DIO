@@ -90,7 +90,3 @@ Damit zeigt PEPE-C nicht die Wiederkehr der PEPE-A-Milieuinsel, sondern eine and
 ## Schlussfolgerung
 
 Die PEPE-Fenster bilden keine starre Symbolfamilie. PEPE-A erzeugt eine situative Milieuinsel (`0hiolzy`), PEPE-C staerkt eine breitere, aktivere Grundrollen-Rekopplung (`1yxc2ug`). Das unterstuetzt die Arbeitshypothese, dass MINI_DIO Bedeutungen aus konkreten Feldphasen bildet und nicht aus oberflaechlichen Asset-Labels.
-
-## Wie es weitergeht
-
-Als naechstes sollte ein direkter Profilvergleich zwischen `0hiolzy` und `1yxc2ug` als kompakte Tabelle erzeugt werden. Danach kann geprueft werden, ob andere Assets aehnliche aktive Grundrollen-Rekopplungen bilden.

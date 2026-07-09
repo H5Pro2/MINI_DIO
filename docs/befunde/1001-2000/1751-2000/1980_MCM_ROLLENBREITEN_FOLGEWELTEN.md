@@ -116,7 +116,3 @@ Das passt zur bisherigen Richtung: weniger Rohdaten, mehr Bedeutungsräume.
 ## Grenze
 
 Die Fensterlängen waren nicht einheitlich. DOGE und XRP hatten je `10000` Kerzen, PAXG und KAS je `2000`. Die Ergebnisse zeigen daher Rollenreaktion auf eine gemischte Folge-Welt, aber noch keinen streng gleichlangen Asset-Vergleich.
-
-## Wie es weitergeht
-
-Als nächstes dieselbe Prüfung mit gleichlangen Weltfenstern wiederholen. Ziel: klären, ob `0icnf2v` wegen echter Feldgrundrolle wächst oder durch längere DOGE-/XRP-Welten überproportional gestärkt wurde.

@@ -20,5 +20,3 @@ Passive Diagnose: echte Weltfolgen gegen Rezeptorachsen und hoechste Rohfeldaufn
 Die echte Weltpruefung trennt zwei Fragen: Wie klingt und wirkt die Welt insgesamt, und was passiert in den lautesten/rohesten Feldaufnahme-Fenstern?
 
 Wenn Hochlastfenster offen oder randnaher werden, aber die adaptierte Feldaufnahme unter der Rohaufnahme bleibt, spricht das fuer dieselbe organische Aufnahmegrenze wie in den synthetischen Welten.
-
-Wie es weitergeht: Die Weltmatrix sollte gegen die synthetische Limit-Synthese gelesen werden. Danach kann entschieden werden, ob die Rezeptoradaptation stabil genug als Kernmechanik dokumentiert ist.

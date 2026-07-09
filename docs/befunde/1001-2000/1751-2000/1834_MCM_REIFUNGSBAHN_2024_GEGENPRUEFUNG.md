@@ -42,7 +42,3 @@ PAXG 2024 fällt schmaler aus als DOGE/XRP, bleibt aber über Rekopplung und Fel
 ## Grenze
 
 Die Prüfung nutzt vorhandene 2024-Läufe und keine neu erzeugte vollständige 2024-Dämpfungsreihe. Für eine härtere Aussage sollte dieselbe Logik mit 2024-Nullwelten gleicher Länge und größeren Fenstern wiederholt werden.
-
-## Wie es weitergeht
-
-Als nächstes sollten längengleiche 2024-Nullwelten erzeugt werden. Danach kann geprüft werden, ob `feldzeit_reif` über Assets, Jahre und Nullweltformen stabil unterscheidet.

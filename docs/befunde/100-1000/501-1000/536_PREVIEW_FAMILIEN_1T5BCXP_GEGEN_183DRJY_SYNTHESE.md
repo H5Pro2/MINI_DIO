@@ -101,8 +101,3 @@ Die Namen bleiben variabel, aber die Feldrollen und Preview-Familien tragen mess
 Dieser Befund ist noch passiv.
 Er sagt nicht, dass MINI_DIO bewusst zwischen beiden Familien entscheidet.
 Er zeigt nur, dass die Familien unterschiedliche Feldqualitaeten tragen.
-
-## Wie es weitergeht
-
-Als naechstes sollte die Nachbarschaft zwischen `1t5bcxp` und `183drjy` geprueft werden.
-Ziel ist zu klaeren, ob `1t5bcxp` haeufig in `183drjy` uebergeht, ob der Rueckweg anders wirkt und ob daraus eine gerichtete Feldbewegung entsteht.

@@ -49,7 +49,3 @@ Episodenzustaende:
 
 - Debug: `debug\research_chain_2025_late_shift_01`
 - Memory: `memory\research_chain_2025_late_shift_01.json`
-
-## Wie es weitergeht
-
-Als naechstes sollte dieser Lauf mit den anderen 2025-Welten verglichen werden. Entscheidend ist, ob trotz anderer Syntax eine gemeinsame ruhige Feldnaehe sichtbar bleibt.

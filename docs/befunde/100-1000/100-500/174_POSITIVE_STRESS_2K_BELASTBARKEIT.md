@@ -134,13 +134,3 @@ Stress-Gegenpol
 ```
 
 Eine vierte Klasse entsteht hier nicht.
-
-## Wie Es Weitergeht
-
-Als naechstes sollte gezielt eine Welt gesucht werden, die weder klare Naehe noch klarer Stress ist.
-
-Hierarchie:
-
-1. Grundfrage: Gibt es eine vierte passive Feldklasse?
-2. Unterpruefung: Kandidaten sind spaete negative Welten oder Recovery-Welten mit Richtungsbruch.
-3. Folgeschritt: Wenn auch diese nur die drei Klassen belegen, wird die Drei-Bereich-Topologie als robuste Arbeitsstruktur dokumentiert.

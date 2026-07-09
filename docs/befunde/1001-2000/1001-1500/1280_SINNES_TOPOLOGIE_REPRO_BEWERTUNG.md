@@ -86,5 +86,3 @@ Trotzdem bleibt die Rollenbindung wertvoll, weil Rekopplung, Strain, Lautheit un
 Die achsenspezifische Rezeptorpraeferenz ist reproduzierbar genug, um als naechste mechanische Schicht weitergefuehrt zu werden.
 
 Sie sollte aber weiterhin passiv bleiben, bis ein isolierter A/B-Test zeigt, ob sanfte Rezeptorhaltung die Feldordnung verbessert oder verfaelscht.
-
-Wie es weitergeht: Als naechstes wird ein A/B-Test vorbereitet: A ohne Rezeptorhaltung, B mit sanfter achsenspezifischer Rezeptorhaltung, beide ohne Handlung und ohne Gate.

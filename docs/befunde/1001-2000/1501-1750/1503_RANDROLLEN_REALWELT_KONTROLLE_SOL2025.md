@@ -77,7 +77,3 @@ Das passt zur bisherigen MCM-Lesung:
 - Bedeutung ist feldnah, nicht tabellarisch.
 - Wiederkehr kann partiell sein.
 - Reale Weltspur erzeugt eigene Rollen und kann bekannte Rollen mitfuehren.
-
-## Wie es weitergeht
-
-Als naechstes sollte dieselbe Randrollenpruefung gegen weitere reale Weltfenster laufen: ruhige SOL-Welt, stressige SOL-Welt und ein anderes Asset. Ziel ist zu klaeren, ob `dio_0l7p` real stabil wiederkehrt oder nur in diesem SOL-2025-Fenster sichtbar wurde.

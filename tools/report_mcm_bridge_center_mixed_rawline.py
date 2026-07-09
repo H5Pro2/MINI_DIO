@@ -112,9 +112,6 @@ def build_report() -> None:
         "Der Befund ist ein Indiz.",
         "Die Rohweltform `gemischte_rohwelt` ist breit. Sie muss spaeter feiner visuell/tonal zerlegt werden.",
         "",
-        "## Wie es weitergeht",
-        "",
-        "Als naechstes sollte diese Mischrolle gegen Bruecke-only und Zentrum-only verglichen werden. Entscheidend ist, ob sie eigene Rohweltmerkmale traegt oder nur zwischen beiden Rollen vermittelt.",
     ]
     OUT_MD.write_text("\n".join(lines) + "\n", encoding="utf-8")
 

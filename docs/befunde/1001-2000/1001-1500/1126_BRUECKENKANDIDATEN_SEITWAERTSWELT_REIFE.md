@@ -81,7 +81,3 @@ Damit wird die MCM-Lesart praeziser:
 ## Grenze
 
 Das ist eine einzelne ruhige Seitwaertswelt. Fuer eine stabile Aussage braucht es mindestens eine zweite ruhige Welt mit anderem Asset oder anderem Zeitraum.
-
-## Wie es weitergeht
-
-Als naechstes sollte eine zweite ruhige Gegenwelt geprueft werden, idealerweise BTC oder SOL quiet 2024/2025. Wenn `dio_00ly` dort erneut tragend erscheint, wird die Familie von einem Bewegungsraum-Kandidaten zu einem breiteren MCM-Brueckenrollen-Kandidaten.

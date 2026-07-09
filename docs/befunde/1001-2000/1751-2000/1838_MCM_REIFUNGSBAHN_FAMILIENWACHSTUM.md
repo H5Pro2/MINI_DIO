@@ -137,7 +137,3 @@ Mit größerer Weltlänge entsteht kein bloßer Datenhaufen.
 MINI_DIO bildet weiter unterscheidbare Bedeutungsräume, die je nach Asset unterschiedlich wachsen.
 Der Befund spricht aber nicht für feste Wortbedeutungen aus Namen allein.
 Er spricht für eine Reifungsbahn, in der Familien erst durch Rolle, Nachhall, Feldzeit und Kopplungsqualität lesbar werden.
-
-## Wie es weitergeht
-
-Als nächstes sollten die Familienrollen innerhalb der 17k-Realwelten zeitlich segmentiert werden: frühe Phase, Mittelphase, späte Phase. Dann wird sichtbar, ob Reife aus Stabilität, Drift oder Brückenbildung entsteht.

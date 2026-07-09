@@ -25,5 +25,3 @@ Sie beantwortet nur:
 ```text
 Welche Sinneshaltung hatte in welchen Welten welche Feldfolge?
 ```
-
-Wie es weitergeht: Als naechstes kann diese Memory mit neuen Welten gefuettert werden. Wenn die Folge stabil bleibt, kann daraus spaeter eine selbst lernende Rezeptorschicht entstehen.

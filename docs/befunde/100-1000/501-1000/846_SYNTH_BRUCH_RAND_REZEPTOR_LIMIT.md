@@ -35,5 +35,3 @@ Die Begrenzung liegt bisher vor allem in der rezeptorischen Adaptation: Rohfelda
 Damit wirkt die Rezeptorschicht nicht nur als Vorfilter, sondern als organische Aufnahmegrenze: Sie laesst Weltspannung ins Feld, aber nicht als ungebremste Rohdatenflut.
 
 Im Vergleich zur Randdominanz-Welt ist die Bruch/Rand-Welt weniger hart: `randflackern` erzeugt eine klare offene Variante, aber kaum echte Rand/Kipp-Naehe. Das spricht dafuer, dass Oeffnung und Randspannung getrennt gelesen werden muessen.
-
-Wie es weitergeht: Als naechstes sollten Randdominanz, Bruch/Rand und Harmonie in einer Vergleichssynthese zusammengefuehrt werden.

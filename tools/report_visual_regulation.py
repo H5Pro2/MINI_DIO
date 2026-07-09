@@ -255,10 +255,6 @@ def _write_markdown(rows: list[dict], out_path: Path) -> None:
             "Sehen sollte als eigene Sinnesregulation gelesen werden.",
             "Form darf sichtbar sein, ohne sofort Feldbedeutung oder Handlung zu werden.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes wird der Befund geschrieben.",
-            "Dort wird geprueft, ob SOL 5m visuell anders getragen wird als SOL 30m/1h und Stresssegmente.",
         ]
     )
     out_path.write_text("\n".join(lines) + "\n", encoding="utf-8")

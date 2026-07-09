@@ -191,10 +191,6 @@ def _write_markdown(path: Path, rows: list[dict[str, object]], summary: list[dic
             "",
             "Keine Handlung, keine Richtung, kein Gate. Diese Karte beschreibt nur, welche lokalen Inseln bei weiterer Weltzufuhr wieder anschließen.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als nächstes sollten die gereiften lokalen Inseln in die robuste Kandidatenkarte aufgenommen werden, aber nur als passive Reifespur. Danach kann geprüft werden, ob diese Reifespuren unter Stress wieder stabil bleiben.",
-            "",
         ]
     )
     path.parent.mkdir(parents=True, exist_ok=True)

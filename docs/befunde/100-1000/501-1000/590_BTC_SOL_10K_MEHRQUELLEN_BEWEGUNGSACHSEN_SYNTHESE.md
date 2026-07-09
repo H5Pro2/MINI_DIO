@@ -109,7 +109,3 @@ Das ist kein Beweis fuer eine allgemeine MCM-Topologie.
 Es ist ein reproduzierbarer Befund innerhalb der bisher geprueften BTC/SOL-10k-Welten.
 
 Die naechste Pruefung muss zeigen, ob die Achse auch bei laengerer KAS-Welt oder weiteren nicht-SOL/BTC-Welten erhalten bleibt.
-
-## Wie es weitergeht
-
-Als naechstes sollte eine echte dritte Assetklasse mit laengerer Weltlaenge in dieselbe Mehrquellen-Memory aufgenommen werden. Ziel ist zu pruefen, ob `0e7qvj1` als Bewegungsanker allgemein bleibt oder ob BTC/SOL nur eine gemeinsame Nachbarschaft teilen.

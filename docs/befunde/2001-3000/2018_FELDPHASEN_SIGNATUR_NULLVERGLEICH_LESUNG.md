@@ -85,7 +85,3 @@ Sinnvoll ist eine organische Weiterentwicklung:
 - Null- oder Mixed-Anteile werden nicht gelöscht, sondern als andere Herkunftsqualität geführt.
 - Reale Weltbindung, interne Feldordnung und gemischte Bindung bleiben getrennte Lesarten.
 - Stabile Crossworld-Phasen dürfen als tiefe Feldphasen gelten, aber nicht automatisch als reale Weltform.
-
-## Wie es weitergeht
-
-Als nächstes sollte nicht nur Shuffle, sondern auch Random-Sign geprüft werden. Dadurch lässt sich besser unterscheiden, ob eine Feldphase an Wertverteilung, Richtung/Vorzeichen oder echte Weltzeit gekoppelt ist.

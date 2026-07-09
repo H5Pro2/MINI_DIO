@@ -147,9 +147,6 @@ def build_report() -> None:
         "Familie und Preview sind interne MINI_DIO-Syntax, keine menschliche Bedeutung.",
         "Der Befund zeigt semantische Naehe im System, nicht eine externe Interpretation.",
         "",
-        "## Wie es weitergeht",
-        "",
-        "Als naechstes sollte geprueft werden, ob semantisch gebundene Wiederkehr spaeter stabilere Feldzeit, geringeren Strain oder staerkere Rekopplung zeigt als reine Oberflaechenwiederkehr.",
     ]
     OUT_MD.write_text("\n".join(lines) + "\n", encoding="utf-8")
 

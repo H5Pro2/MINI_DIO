@@ -99,7 +99,3 @@ Der Befund ist stark, aber begrenzt:
 - 5m umfasst 10k-Segmente, 1h umfasst Jahreswelten.
 - Die Topologie ist nicht universell bewiesen.
 - Die Rollenbegriffe sind Diagnosebegriffe, keine Runtime-Vorgaben.
-
-## Wie es weitergeht
-
-Als n?chstes ist ein st?rker andersartiger Gegenfall sinnvoll: DOGE als rauschendere Assetwelt, XRP als impulsivere Welt oder eine nicht-marktbasierte Kontrollwelt. Ziel ist zu pr?fen, ob die Kernachse auch bei anderer Weltqualit?t bestehen bleibt oder ob neue Rollenr?ume entstehen.

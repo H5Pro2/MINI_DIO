@@ -59,7 +59,3 @@ Die letzten Untersuchungen stuetzen drei Punkte:
 3. Rollen koennen zwischen Weltgruppen wandern: ein Anschlussanker kann in einer anderen Weltgruppe zum Kernbestandteil werden.
 
 Das spricht fuer eine lebendige Topologie: stabil genug, um wiederkehrende Rollen zu zeigen, aber flexibel genug, um Rollen je nach Weltspannung anders zu organisieren.
-
-## Wie es weitergeht
-
-Als naechstes sollte genau diese Rollenwanderung untersucht werden: Welche Weltmerkmale lassen `0b7nep9` vom verteilenden Anschlussanker zum Kernpartner von `0ykar6i` werden?

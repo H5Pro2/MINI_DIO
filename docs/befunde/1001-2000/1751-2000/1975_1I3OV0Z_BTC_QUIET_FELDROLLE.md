@@ -77,7 +77,3 @@ Damit zeigt MINI_DIO eine wichtigere Stufe als bloße Symbolstabilität:
 - die Rolle bleibt passiv lesbar
 
 Das ist ein Ansatzpunkt für organische Feldentwicklung: nicht Regeln hinzufügen, sondern stabile Milieu-Rollen sauberer lesen und verdichten.
-
-## Wie es weitergeht
-
-Als nächstes `1i3ov0z` gegen BTC-Stress- und BTC-Shift-Fenster prüfen. Wenn er dort schwach bleibt, ist die BTC-Quiet-Rolle sauber abgegrenzt. Wenn er dort ebenfalls stark ist, wäre er eher allgemeiner BTC-Strukturanker.

@@ -41,7 +41,3 @@ Damit wirkt PAXG 2025 nicht wie eine neue Topologie, sondern wie dieselbe zentru
 ## Grenze
 
 Die 15m-Welt wurde aus 5m-Daten aggregiert. Der Befund ist deshalb ein Holdout-Hinweis, kein endgültiger Beweis für alle PAXG-Phasen.
-
-## Wie es weitergeht
-
-Als nächstes ist eine direkte Gegenüberstellung PAXG 2024 gegen PAXG 2025 sinnvoll. Ziel: prüfen, ob die PAXG-Rekopplungsneigung jahresübergreifend stabil bleibt oder ob sie nur in den bisher gewählten Fenstern stark sichtbar ist.

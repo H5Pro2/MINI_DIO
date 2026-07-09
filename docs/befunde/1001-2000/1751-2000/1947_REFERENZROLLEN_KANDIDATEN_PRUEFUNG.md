@@ -83,7 +83,3 @@ Der Grund:
 - `dio_1492` ist stark, aber eher eine Achse über mehrere Phasen als eine einzelne Rolle.
 
 Damit bestätigt sich die Richtung: Referenzrollen müssen selten bleiben. Sonst wird aus organischer Rücklesung wieder eine mechanische Symboltabelle.
-
-## Wie es weitergeht
-
-Als nächstes sollte `dio_1492` als Achse geprüft werden: nicht einzelne Phase gegen einzelne Phase, sondern ob `frueh -> mitte -> spaet` zusammen eine stabile nullnahe Kohärenzbahn bildet.

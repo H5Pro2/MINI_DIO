@@ -39,7 +39,3 @@ Die realen Hochlastfenster sind nicht schwaecher als die synthetischen Klassen. 
 Damit ist die synthetische Randwelt kein Maximalstressmodell. Sie ist ein kontrolliertes Referenzmuster. Reale Welten koennen lokal staerker randnah werden, waehrend das Gesamtfeld trotzdem zentriert oder gemischt bleibt.
 
 Die Rezeptoradaptation wirkt auch hier nicht als Wegloeschen der Wirkung. Sie begrenzt Rohaufnahme, aber laesst Hochlastfenster als offene oder randnahe Innenfeldlagen sichtbar.
-
-## Wie es weitergeht
-
-Als naechstes sollte KAS als reale Randreferenz phasenweise isoliert werden. Ziel ist zu verstehen, welche Weltabschnitte die starke reale Randnaehe erzeugen.

@@ -58,7 +58,3 @@ Kette:
 
 Die WAV-Ausgabe macht die energetische Weltspur auditiv pruefbar.
 Sie ersetzt nicht die CSV-Diagnose, sondern hilft zu hoeren, ob die Welt eher ruhig, bruechig, gespannt oder tragend wirkt.
-
-## Wie es weitergeht
-
-Als naechstes sollte eine zweite Welt als WAV gerendert werden. Dann kann geprueft werden, ob sich unterschiedliche Welten auch akustisch klar unterscheiden.

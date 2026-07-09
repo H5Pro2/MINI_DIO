@@ -55,7 +55,3 @@ Stattdessen wirkt die Familie wie ein phänotypischer Anker:
 `dio_1wdik71` steht fuer eine bestimmte Randbruch-Gestalt mit hoher Nachhall-/Beobachtungsnaehe.
 
 Das ist fachlich wichtiger als ein allgemeiner Name. Es zeigt, dass die eigene Syntax an konkrete Feldqualitaet gebunden bleibt und nicht einfach Kategorieetiketten ausgibt.
-
-## Wie es weitergeht
-
-Als naechstes sollten `dio_0l7pvdk` und `dio_14wjmk5` als alternative Randbruchrollen gelesen werden: Start-/End-Randnaehe gegen verschobene beidseitige Randspannung.

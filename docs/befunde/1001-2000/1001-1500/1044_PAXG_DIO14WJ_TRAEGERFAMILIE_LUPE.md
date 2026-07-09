@@ -140,7 +140,3 @@ Das ist fuer die weitere Forschung wichtig, weil Bedeutung nicht nur als einzeln
 Eine Familie kann eine Rolle tragen.
 
 Eine Rolle kann sich erst im Uebergang zeigen.
-
-## Wie es weitergeht
-
-Als naechstes sollte `dio_14wj` gegen PAXG-1h geprueft werden. Ziel: Klaeren, ob `dio_14wj` eine echte PAXG-5m-Rolle ist oder ob sie bei anderer Zeitauflösung in `dio_155c` beziehungsweise eine andere ruhigere Traegerfamilie uebergeht.

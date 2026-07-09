@@ -66,7 +66,3 @@ DOGE 5m erzeugt keine Randlast-Kollapsform. Beide DOGE-Welten bleiben in der Top
 ## Grenze
 
 DOGE wurde hier nur als 5m-10k-Spotwelt f?r 2024 und 2025 gepr?ft. Ob DOGE 1h oder andere Meme-/Rauschwellen st?rker kippen, ist noch offen.
-
-## Wie es weitergeht
-
-Als n?chstes wird DOGE gegen PAXG/BTC/SOL synthetisiert. Ziel ist zu kl?ren, ob DOGE eine eigene rauschende F?rbung innerhalb derselben Topologie bildet oder nur eine weitere zentrumsnahe Variante ist.

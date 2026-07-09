@@ -117,7 +117,3 @@ Zentrum/Grundrollen bleiben stabil.
 Rand-/Nebenrollen wachsen.
 Kontrast kann eine neue Milieuinsel bilden.
 ```
-
-## Wie es weitergeht
-
-Als naechstes sollte `dio_mcm_episode_0hiolzy` isoliert untersucht werden: Welche Weltmerkmale, Sinneslagen und Feldwerte tragen diese neue PEPE-Milieurolle, und bleibt sie bei einem zweiten PEPE-Fenster stabil?

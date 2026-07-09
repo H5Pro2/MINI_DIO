@@ -109,18 +109,3 @@ Dass keine klare Ueberlastklasse erscheint, kann zwei Ursachen haben:
 2. Die Diagnose ist noch zu grob und unterscheidet lokale Ueberlast nicht fein genug.
 
 Beides muss weiter geprueft werden.
-
-## Wie es weitergeht
-
-Als naechstes sollte die multisensorische Kopplung lokal gelesen werden:
-
-1. nicht nur ganze Welten vergleichen,
-2. sondern kurze Abschnitte innerhalb einer Welt,
-3. besonders dort, wo auditive Last und visuelle Last gleichzeitig steigen,
-4. und pruefen, ob dort lokale multisensorische Kippnaehe entsteht.
-
-Damit bleibt die Hierarchie sauber:
-
-Grundfrage: Gibt es gemeinsame Sinnesinnenlagen?
-Unterpruefung: Wo entstehen lokale Kippzonen?
-Folgeschritt: Erst danach entscheiden, ob daraus eine Standarddiagnose wird.

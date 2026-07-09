@@ -53,7 +53,3 @@ Damit ist die aktuelle Lesung:
 - Reife entsteht nicht nur aus Stabilität.
 - Reife entsteht auch aus haltbarer Drift.
 - Brückenbildung zeigt sich dort, wo Familien über Phasen erhalten bleiben, aber ihre Feldqualität verschieben.
-
-## Wie es weitergeht
-
-Als nächstes sollten die Familien mit hoher Phasenbindung einzeln gelesen werden: Welche Familien bleiben Kern, welche wandern an den Rand und welche bilden Brückenrollen?

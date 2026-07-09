@@ -144,10 +144,6 @@ def _write_markdown(rows: list[dict], out_path: Path) -> None:
             "Rauschenfiltern oder Reizabklingen ist nur dann entlastend, wenn die Feldbindung niedrig bleibt.",
             "Wenn Feldlast und Memorylast hoch bleiben, ist auditive Filterung allein nicht ausreichend.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes wird der Befund geschrieben.",
-            "Dort wird bewertet, ob SOL 5m eine entlastende Hoerkopplung zeigt und warum Stress/1h trotz Filterung binden kann.",
         ]
     )
     out_path.write_text("\n".join(lines) + "\n", encoding="utf-8")

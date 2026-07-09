@@ -98,7 +98,3 @@ Sie prueft passiv, welche Bruecken, Randlagen und jungen Oberflaechen ihre Rolle
 Randrollen bleiben konkret reproduzierbar: dieselben Tokens koennen erneut randnah bleiben. Das stuetzt die Lesart, dass Randnaehe nicht bloss Rauschen ist.
 Brueckenrollen sind nicht nur global stabil, sondern auch teilweise tokenstabil. Das ist ein starker Hinweis auf wiederkehrende Uebergangsfunktionen im MCM-Feld.
 Ein Teil junger Oberflaechen reift in stabilere, rekoppelnde oder brueckenartige Rollen. Das passt zur Idee, dass Oberflaeche nicht wertlos ist, sondern Vorform spaeterer Bedeutung sein kann.
-
-## Wie es weitergeht
-
-Als naechstes sollte die Lupe an den stabilen Brueckenpfaden ansetzen: Welche Weltmerkmale halten diese Bruecken aktiv, und unterscheiden sie sich von jungen Oberflaechen, die nicht nachreifen?

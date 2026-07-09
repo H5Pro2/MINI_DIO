@@ -105,7 +105,3 @@ Damit sieht die MCM-Ordnung nicht wie eine flache Symboltabelle aus, sondern wie
 ## Grenze
 
 Diese Rollen sind passive Bedeutungsrollen. Sie sind keine Handlungssignale, keine Strategie und keine Aussage über Marktverhalten.
-
-## Wie es weitergeht
-
-Als nächstes die Stresskernrolle `0icnf2v` und die Shiftrolle `1rj8742` gegen Quiet-Welten prüfen. Ziel: zeigen, ob sie dort schwach bleiben oder ob sie eine tiefer liegende BTC-Grundrolle bilden.

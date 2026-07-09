@@ -85,7 +85,3 @@ MINI_DIO liest damit in dieser Stufe:
 
 - [1584 Feldklassen-Fenstersuche Weltarten](1584_FELDKLASSEN_FENSTERSUCHE_WELTARTEN.md)
 - [1584 CSV](1584_FELDKLASSEN_FENSTERSUCHE_WELTARTEN.csv)
-
-## Wie es weitergeht
-
-Als naechstes sollte die Fensterbreite variiert werden: 500er, 1000er und 2000er Fenster. Damit wird geprueft, ob die `7/2`-Struktur feldseitig stabil bleibt oder durch die aktuelle Fensterlaenge entsteht.

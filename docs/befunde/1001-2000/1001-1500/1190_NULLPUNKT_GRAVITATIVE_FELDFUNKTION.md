@@ -81,7 +81,3 @@ Inseln = lokale Verdichtungen wiederkehrender Feldwirkung
 Brücken = Übergänge zwischen Verdichtungen
 Rand = belastete oder driftende Abweichung
 ```
-
-## Wie es weitergeht
-
-Als nächstes sollte geprüft werden, ob zentrumsnahe Inseln über weitere Welten konstant höhere Rekopplung und niedrigere Spannung tragen, während randnahe Inseln stärker driften oder höhere Strain-/Tensionwerte behalten.

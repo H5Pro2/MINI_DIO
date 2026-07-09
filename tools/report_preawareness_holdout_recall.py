@@ -401,9 +401,6 @@ def _write_markdown(path: Path, summary: list[dict[str, object]], events: list[d
             "",
             "Auch diese Rückprüfung bleibt passiv. Sie erzeugt keine Handlung, keine Richtung, kein Gate und keine Entry-Mechanik.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als nächstes sollte geprüft werden, welche Rollen trotz anderer Oberfläche feldnah wiederkehren. Daraus kann eine robuste Vorwahrnehmungs-Landkarte entstehen, ohne dass MINI_DIO hart programmiert wird.",
         ]
     )
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")

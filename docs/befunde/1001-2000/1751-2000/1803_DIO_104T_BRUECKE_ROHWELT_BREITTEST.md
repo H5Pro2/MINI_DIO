@@ -32,7 +32,3 @@ Wenn dieselbe Familie bei `tragende_verarbeitung` mehr Rekopplung, Schaerfe und 
 ## Schluss
 
 Diese Pruefung schliesst direkt an 1798 an: Innennaehe allein reicht nicht. Die Familie muss gegen Rohweltfenster und Feldfolge gelesen werden.
-
-## Wie es weitergeht
-
-Als naechstes sollte die staerkste reale Familie aus dieser Tabelle einzeln visualisiert werden: Tickfenster, Vorfenster, Tonlage und Feldwirkung nebeneinander.

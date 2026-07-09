@@ -61,8 +61,3 @@ Organisch sauberer ist eine Vorstufe, die Reize relativ zur eigenen Weltbasis li
 Dauerreiz kann dadurch abklingen, ohne blind zu werden.
 Wiederkehrende relevante Reize koennen gleichzeitig empfindlicher machen.
 Das entspricht eher einem Nervensystem als einem starren Limiter.
-
-## Wie es weitergeht
-
-Als naechstes wird aus dieser Diagnose ein Befund erstellt:
-Welche Welten zeigen eher Habituation, welche eher Sensitivierung, und wo bleibt die MCM-Feldlage am tragfaehigsten?

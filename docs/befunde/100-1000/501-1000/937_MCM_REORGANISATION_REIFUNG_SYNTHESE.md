@@ -60,8 +60,3 @@ Der Befund stuetzt die These, dass MINI_DIO im MCM-Feld nicht nur Wiederkehr erk
 - gehaltene Reorganisationsbruecke
 - belastete Kernnaehe
 - Verschwindende Oberflaeche
-
-## Wie es weitergeht
-
-Als naechstes sollte daraus eine passive Reifungsqualitaet fuer `dio_role_*` abgeleitet werden.
-Diese darf keine Handlung steuern, sondern soll nur speichern, ob eine Reorganisationsspur jung, gereift, gehalten, belastet oder verschwunden ist.

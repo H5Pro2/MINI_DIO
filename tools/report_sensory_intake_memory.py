@@ -110,9 +110,6 @@ def _write_markdown(path: Path, rows: list[dict[str, object]]) -> None:
             "",
             "Die Memory ist eine passive Landkarte der Sinnesaufnahme vor dem Feld.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte geprueft werden, ob diese Intake-Memory bei einer neuen Welt dieselben ruhigen und kontaktlastigen Aufnahmefamilien wiedererkennt oder ob neue Aufnahmequalitaeten entstehen.",
         ]
     )
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")

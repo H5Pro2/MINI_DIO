@@ -144,7 +144,3 @@ Sie zeigt:
 ```text
 Rollenbreite braucht mehr als Asymmetrie und Symbolzunahme.
 ```
-
-## Wie es weitergeht
-
-Als nächstes sollte nicht weiter an Paketnamen oder Syntaxmenge gearbeitet werden. Sinnvoller ist eine Ko-Aktivierungsprüfung: zwei unterschiedliche Rollenmilieus müssen zeitlich überlappen oder sich knapp versetzt berühren. Ziel ist zu prüfen, ob erst solche Rollenüberlappung Kombinationen erzeugt.

@@ -99,7 +99,3 @@ Noch offen:
 - Bleibt die Rolle bei weiteren Memory-Neustarts stabil?
 - Entstehen Zwischenfamilien zwischen `dio_00ly` und lokalen Kontaktspuren?
 - Gibt es andere Brueckenfamilien mit anderer Achsenqualitaet?
-
-## Wie es weitergeht
-
-Als naechstes sollte eine zweite Brueckenfamilie gesucht werden, die nicht `dio_00ly` ist. Ziel: pruefen, ob das Feld mehrere Brueckenachsen bildet oder ob `dio_00ly` aktuell die dominante Einzelachse bleibt.

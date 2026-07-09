@@ -86,7 +86,3 @@ Das erklaert, warum PEPE-B die Rolle nicht automatisch wieder aktivierte. Die Ro
 > Eine spaete, leiser gekoppelte, nachhallstarke und stabil rekoppelnde Feldphase, die trotz fallender Rohweltbewegung als getragen gelesen wird.
 
 Diese Hypothese muss gegen weitere Fenster geprueft werden.
-
-## Wie es weitergeht
-
-Als naechstes sollte ein drittes PEPE-Fenster oder ein gezielt ausgeschnittenes Nachbarfenster um aehnliche Bedingungen geprueft werden. Entscheidend ist, ob hohe Wiederkehr, hoher Nachhall, geringe Hoer-Luecke und geringe Kontaktspannung erneut `0hiolzy` oder eine verwandte Milieurolle erzeugen.

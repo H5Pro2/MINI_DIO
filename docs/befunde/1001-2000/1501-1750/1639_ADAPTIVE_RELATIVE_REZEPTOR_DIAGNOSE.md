@@ -87,7 +87,3 @@ Die passendere Forschungsrichtung ist daher nicht `adaptive_relative` als einfac
 Status: passiver Methodenbefund.
 
 Keine Handlungslogik, keine Strategie, kein Gate.
-
-## Wie es weitergeht
-
-Als nächstes sollte ein phasengebundener Rezeptor-Nachhall geprüft werden: kausale aktuelle Sinnesaufnahme plus gespeicherte Feldphasen-Nähe. Ziel ist Rollenbreite ohne Zukunftsblick.

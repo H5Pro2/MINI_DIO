@@ -184,7 +184,3 @@ Topologie + Feldzeit + Nachhall gemeinsam prüfen.
 ```
 
 Erst wenn diese Achse über weitere Welten stabil bleibt, sollte Offline-Feld-Reorganisation stärker ausgebaut werden.
-
-## Wie es weitergeht
-
-Als nächstes sollte eine Mehrwelt-Prüfung gebaut werden, die pro Welt gleichzeitig Topologie, Feldzeit, Nachhall und Rollenbreite ausgibt. Dadurch wird sichtbar, ob diese vier Achsen gemeinsam tragen oder nur einzeln stabil wirken.

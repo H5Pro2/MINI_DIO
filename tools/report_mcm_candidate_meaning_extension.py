@@ -191,10 +191,6 @@ def _write_md(path: Path, details: list[dict[str, object]], summary: dict[str, o
             "Der Kandidat ist aber mehr als ein Einzelfehler: Er liegt bereits als familiengebundene Form vor "
             "und wird in KAS erneut aktiviert. Fachlich ist das eine offene Erweiterungsform.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte der Kandidat gegen eine weitere unabhaengige Welt gelesen werden. Erst wenn er dort wiederkehrt, kann er als neue passive Bibliothekserweiterung aufgenommen werden.",
-            "",
         ]
     )
     path.parent.mkdir(parents=True, exist_ok=True)

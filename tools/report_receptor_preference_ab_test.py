@@ -346,7 +346,6 @@ def _write_markdown(rows: list[dict[str, object]], path: Path) -> None:
             "",
             "Ein problematischer Effekt waere: starke Veraenderung der Rollenverteilung oder kuenstlich geglaettete Wahrnehmung.",
             "",
-            "Wie es weitergeht: Wenn B die Feldordnung nur leicht beruhigt, kann die Rezeptorhaltung als passive Option weitergefuehrt werden. Wenn B die Topologie stark verschiebt, bleibt sie vorerst nur Diagnose.",
         ]
     )
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")

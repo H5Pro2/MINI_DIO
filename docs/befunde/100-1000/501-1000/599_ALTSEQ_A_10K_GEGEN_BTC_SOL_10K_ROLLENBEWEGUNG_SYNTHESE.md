@@ -116,7 +116,3 @@ Eine echte Haertepruefung braucht weiterhin:
 - laengere KAS-Welt,
 - oder eine andere nicht-SOL/BTC-Welt,
 - oder eine nicht-marktbasierte synthetische Welt mit kontrollierter Energie-/Rhythmusstruktur.
-
-## Wie es weitergeht
-
-Als naechstes sollte entweder eine laengere KAS-Welt erzeugt werden oder eine nicht-marktbasierte Kontrollwelt gebaut werden. Ziel ist zu pruefen, ob die Rollenbewegung `Zentrum -> stabile Nachbarschaft -> offene Rueckbewegung` auch ausserhalb der bisherigen Marktsequenzen erhalten bleibt.

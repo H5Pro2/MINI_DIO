@@ -133,7 +133,6 @@ def _write_markdown(summary: list[dict[str, object]], detail_rows: list[dict[str
             "Messwerte -> duerfen Grundlage passiver Weltlagenlesung sein.",
             "```",
             "",
-            "Wie es weitergeht: Wenn diese Klassen plausibel bleiben, kann die Rezeptor-Adaptationsmemory kuenftig nach gemessener Weltlage statt nach Dateinamen verdichten.",
         ]
     )
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")

@@ -120,7 +120,3 @@ Damit wird die MCM-Lesung praeziser:
 Topologie = stabile Grundordnung
 Weltqualitaet = Faerbung der Bedeutungsachsen
 ```
-
-## Wie es weitergeht
-
-Als naechstes sollte die PAXG-stabile Rekopplungsfamilie gegen weitere ruhige oder goldnahe Welten geprueft werden. Wenn `dio_104t + 0b7nep9` oder die PAXG-2025-Erweiterung wiederkehren, kann daraus eine eigene PAXG-nahe Bedeutungsfamilie entstehen.

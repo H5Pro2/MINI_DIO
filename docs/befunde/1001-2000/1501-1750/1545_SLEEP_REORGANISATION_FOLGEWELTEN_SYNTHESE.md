@@ -121,16 +121,3 @@ Neue Kontextbildung waere erst dann belastbar, wenn:
 2. diese Kombination als eigene passive Spur stabil bleibt,
 3. sie spaeter in realer Weltlage wieder auftaucht,
 4. und sie sich von normaler Wiederholung unterscheiden laesst.
-
-## Wie es weitergeht
-
-Als naechstes wird eine Leseschicht gebaut, die `passive_sleep_reorganization_memory` im naechsten Real-Lauf nur passiv mitliest.
-
-Ziel:
-
-```text
-Tauchen im Schlaf beruehrte Rollen im Real-Lauf wieder auf?
-Werden sie klarer, driftender oder bleiben sie neutral?
-```
-
-Der erste Teil ist jetzt technisch umgesetzt: Die beruehrten Rollen werden passiv rueckgelesen. Als naechstes muss diese Ruecklesung ueber mehr Welten laufen, besonders Stress-, Ruhe- und Mischwelten.

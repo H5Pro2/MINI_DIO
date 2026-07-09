@@ -57,7 +57,3 @@ Wichtig ist die Grenze der Aussage:
 - Bewiesen ist keine identische Token-Reproduktion ueber alle Weltgruppen.
 - Gestuetzt ist aber, dass das Feld wiederholt aehnliche Rollenklassen ausbildet.
 - Damit wird die Anschlussanker-Familienkarte plausibler als Topologie-Eigenschaft, nicht nur als Einzelbefund.
-
-## Wie es weitergeht
-
-Als naechstes sollte fuer neue Weltgruppen dieselbe moderne Netzwerkdiagnose wie 874/894 erzeugt werden. Dann koennen wir Rollenanalogie durch echte Netzwerk-Topologie ersetzen.

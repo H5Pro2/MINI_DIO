@@ -34,5 +34,3 @@ Die Prüfung bleibt passiv. Sie erzeugt keine Handlung, keine Richtung, kein Gat
 Wenn dieselbe Syntaxfamilie in mehreren Assets mit gleicher Feldrolle wieder auftaucht, ist sie ein stärkerer Kandidat für eine passive Grundrolle. Wenn sie nur in einzelnen Welten erscheint, bleibt sie eine situative Rolle.
 
 Diese Auswertung bewertet keine Richtung und keine Handlung. Sie prüft nur, ob eine wiederkehrende Feldbedeutung assetübergreifend getragen wird.
-
-Wie es weitergeht: Als nächstes sollte die isolierte Grundrolle gegen Null- und Shuffle-Welten geprüft werden. Wenn sie dort nicht gleich stark erscheint, wird die Rolle klarer von bloßem Rauschen getrennt.

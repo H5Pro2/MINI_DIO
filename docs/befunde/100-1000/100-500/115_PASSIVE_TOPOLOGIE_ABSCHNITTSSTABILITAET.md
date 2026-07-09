@@ -99,25 +99,3 @@ Sie zeigt aber,
 dass die bisher gelesene Topologie
 ueber mehrere Weltabschnitte stabil genug ist,
 um als Forschungsbefund weiterverwendet zu werden.
-
-## Wie es weitergeht
-
-Grundfrage:
-
-Welche Weltmerkmale lassen Drift oder Uebergangszone staerker auftreten,
-ohne dass das Zentrum kollabiert?
-
-Unterpruefung:
-
-Abschnitte mit hoher `selbstnahe_drift`
-und hoher `uebergangszone`
-gegen Rohweltmerkmale,
-Sinnesachsen
-und Innenfeldwerte vergleichen.
-
-Folgeschritt:
-
-Passive Ursache-Wirkungsnaehe pruefen:
-Welche Weltlagen aktivieren Drift,
-welche aktivieren Uebergang,
-und welche halten Zentrum?

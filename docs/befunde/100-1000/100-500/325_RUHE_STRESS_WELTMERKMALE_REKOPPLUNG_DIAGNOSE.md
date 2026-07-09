@@ -64,8 +64,3 @@ Die Unterschiede liegen feiner:
 Damit liegt der relevante Unterschied nicht allein in Lautstaerke oder Range.
 Wichtiger scheint die Kopplung aus Richtungswechsel, Drift, Persistenz und Feldrekopplung zu sein.
 MINI_DIO liest also nicht nur "wie stark" eine Welt ist, sondern wie gut die Weltspannung wieder in eine tragende Feldlage zurueckgefuehrt werden kann.
-
-## Wie es weitergeht
-
-Als naechstes sollte diese Differenz lokal auf Episodenebene gelesen werden:
-Welche Abschnitte in `NEG_STRESS_2024` erzeugen offene Variante, und welche Abschnitte in `NEG_STRESS_2023` bleiben zentrumsnah rekoppelnd?

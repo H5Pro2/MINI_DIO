@@ -95,7 +95,3 @@ Das spricht fuer ein Bedeutungsnetz mit mehreren Qualitaetsrichtungen, nicht fue
 ## Grenze
 
 Diese Lesart bleibt diagnostisch. Sie beschreibt passive Innenfeld-Semantik und darf nicht in Handlung, Richtung oder Strategie uebersetzt werden.
-
-## Wie es weitergeht
-
-Als naechstes sollten die geprueften Brueckenfamilien gemeinsam sortiert werden. Ziel ist eine passive Qualitaetskarte: welche Familien sind tragend vorgepraegt, spannungsnah, balanciert oder randfragmentiert?

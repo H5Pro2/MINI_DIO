@@ -130,9 +130,6 @@ def _write_md(rows: list[dict[str, object]], path: Path, family: str) -> None:
             "",
             "Das widerlegt die Familie nicht. Es zeigt nur, dass sie in dieser Weltgruppe nicht als passende Brueckenlesart auftritt.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte die Familie gegen eine andere Weltgruppe oder mit einer breiteren Rohwelt-Lupe geprueft werden.",
         ]
         path.write_text("\n".join(lines) + "\n", encoding="utf-8")
         return
@@ -177,9 +174,6 @@ def _write_md(rows: list[dict[str, object]], path: Path, family: str) -> None:
             "Realitaetsrueckkopplung entscheidet die aktuelle Lesart.",
             "```",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte aus diesen Ereignissen ein kleiner Rohwelt-Ausschnitt mit Tickfenstern extrahiert werden, damit die Feldfolge vor und nach der Familie sichtbar wird.",
         ]
     )
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")

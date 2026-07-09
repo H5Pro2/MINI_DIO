@@ -57,7 +57,3 @@ Für die MCM-Mechanik heißt das:
 ## Methodische Grenze
 
 Alle Ergebnisse bleiben passive Feldlesung. Die Metrik beschreibt nur, wie stark eine Weltlage einen bestehenden Hartkern sichtbar hält.
-
-## Wie es weitergeht
-
-Als nächstes sollte geprüft werden, welche Familien über alle drei Nachbarfenster stabil bleiben. Das zeigt, ob die Zone aus denselben Trägern besteht oder ob jede Teilzone andere Familien aktiviert.

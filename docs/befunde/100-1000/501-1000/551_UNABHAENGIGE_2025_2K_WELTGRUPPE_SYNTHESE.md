@@ -110,7 +110,3 @@ in der konkrete Bedeutungsanker weltabhaengig entstehen.
 ## Grenze
 
 Die Gruppe umfasst vier kompakte 2k-Welten. Sie ist unabhaengiger als die vorherige 10k-After/Repro-Pruefung, aber noch keine Langwelt- oder Volljahrespruefung.
-
-## Wie es weitergeht
-
-Als naechstes sollte geprueft werden, ob `0e7qvj1` in laengeren 2025-Welten stabil bleibt oder ob es nur ein kompakter Abschnittsanker ist. Dafuer bietet sich eine 10k- oder 4k-Folgewelt aus BTC/SOL 2025 an.

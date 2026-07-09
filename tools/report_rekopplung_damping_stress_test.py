@@ -272,10 +272,6 @@ def _write_md(path: Path, rows: list[dict[str, object]], inputs: list[Path], fac
             "- Dadurch zeigt der Test zuerst Sensitivität der Feldlesung, nicht vollständige Systemdynamik.",
             "- Ein nächster härterer Test müsste denselben Faktor direkt in einem isolierten Testlauf anwenden.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als nächstes sollte derselbe Stress-Test gegen reale Asset-Fenster und eine Null-/Rauschwelt laufen. Wenn die Nullwelt anders reagiert und Kernfamilien in realen Welten teilweise wiedererkennbar bleiben, wird die Wenn-Dann-Prüfung belastbarer.",
-            "",
         ]
     )
     path.write_text("\n".join(lines), encoding="utf-8")

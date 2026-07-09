@@ -55,7 +55,3 @@ Wahrscheinlicher ist eine engere Feldmilieu-Kombination:
 ## Grenze
 
 Das ist kein Beweis für eine vollständige Ursache. Es ist aber ein negativer Isolationsbefund: Die bisher getesteten Varianten reichen nicht aus, um die selektive breite Reorganisation des ursprünglichen Fensters nachzubilden.
-
-## Wie es weitergeht
-
-Als nächstes sollte die Originalquelle von `SYNTH_RAND_KIPP start0` feiner zerlegt werden: nicht neue Welten grob bauen, sondern das ursprüngliche 2000er-Fenster segmentweise lesen. Ziel ist zu erkennen, an welcher Binnenstelle die 5-Rollen-Breite und die spätere Selektivität entstehen.

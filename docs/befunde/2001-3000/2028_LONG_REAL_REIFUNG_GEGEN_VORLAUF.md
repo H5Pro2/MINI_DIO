@@ -168,7 +168,3 @@ Der Befund zeigt:
 Unter mehr realem Weltkontakt bildet MINI_DIO stabilere Feldphasen,
 ohne dass diese Stabilität durch Nullstörung erklärt werden muss.
 ```
-
-## Wie es weitergeht
-
-Als nächstes sollte eine lange Realwelt-Kette mit anderem Asset oder anderem Regime geprüft werden. Entscheidend ist, ob dieselben stabilen Kernsignaturen erneut auftauchen oder ob die Topologie neue reale Rollen ausbildet.

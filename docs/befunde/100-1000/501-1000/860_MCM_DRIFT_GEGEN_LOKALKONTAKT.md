@@ -172,16 +172,3 @@ MCM-Bedeutung = lokale Wirkung + zeitlich-raeumliche Feldbewegung
 ```
 
 Das ist naeher an einer inneren Matrix als an einer einfachen Merkmalsliste.
-
-## Wie es weitergeht
-
-Als naechstes sollte fuer die vier Tokens eine Nachbarschaftslupe entstehen:
-
-```text
-Welche Tokens stehen davor?
-Welche Tokens stehen danach?
-Bleibt die Nachbarschaft stabil?
-Kippt nur der Token oder das ganze lokale Feld?
-```
-
-Damit kann geprueft werden, ob Drift aus der Tokenqualitaet selbst entsteht oder aus einer veraenderten Nachbarschaft im MCM-Feld.

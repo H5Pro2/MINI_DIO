@@ -167,9 +167,6 @@ def _write_md(path: Path, rows: list[dict[str, str]]) -> None:
     lines.append("Die Reifungs-Memory wird als passive Folgequalitaet gelesen.")
     lines.append("Wichtig ist nicht nur, ob ein Token wieder auftaucht, sondern ob seine Reifung gleichartig getragen bleibt.")
     lines.append("")
-    lines.append("## Wie es weitergeht")
-    lines.append("")
-    lines.append("Als naechstes sollte die Lesung synthetisiert werden: Welche Reifungsqualitaeten sind stabil genug fuer langfristige passive Memory, und welche bleiben nur kurzfristige Oberflaeche?")
     path.write_text("\n".join(lines), encoding="utf-8")
 
 

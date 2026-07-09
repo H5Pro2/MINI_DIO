@@ -150,10 +150,6 @@ def _write_md(path: Path, rows: list[dict[str, object]]) -> None:
             "Diese Synthese beschreibt eine passive Feldmechanik.",
             "Sie ist keine Handlungsnaehe und kein Beweisabschluss.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte geprueft werden, ob derselbe Gegenzustand auch in neuen Weltgruppen reproduzierbar bleibt.",
-            "Erst dann kann daraus eine robuste MCM-Feldmechanik-These formuliert werden.",
         ]
     )
     path.write_text("\n".join(lines), encoding="utf-8")

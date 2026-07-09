@@ -211,10 +211,6 @@ def _write_markdown(rows: list[dict], out_path: Path) -> None:
             "- Groebere Aufloesungen koennen weniger Ticks liefern, aber pro Kontakt mehr Feldwirkung tragen.",
             "- Wenn Memorylast und Feldlast steigen, wird Wahrnehmung eher zu gebundener Feldhistorie.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes wird der Befund geschrieben.",
-            "Dort wird festgehalten, welche Merkmalskombination SOL 5m tragfaehiger macht und welche Schutzrichtung daraus fuer MINI_DIO folgt.",
         ]
     )
     out_path.write_text("\n".join(lines) + "\n", encoding="utf-8")

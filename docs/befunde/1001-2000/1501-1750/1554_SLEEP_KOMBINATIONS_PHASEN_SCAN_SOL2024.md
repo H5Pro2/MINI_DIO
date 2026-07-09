@@ -25,7 +25,3 @@ Wichtig: Die Pruefung ist passiv. Sie erzeugt keine Handlung, keine Richtung, ke
 ## Lesung
 
 Die Sleep-Kombinationsnaehe ist nicht starr. Weichere oder veraenderte Naehe kann neue Kombinationsinseln sichtbar machen, ohne dass daraus Handlung entsteht.
-
-## Wie es weitergeht
-
-Als naechstes sollte diese Phasenpruefung mit einer zweiten Welt wiederholt werden. Entscheidend ist, ob die weiche Sleep-Naehe immer neue Kombinationen erzeugt oder nur bei bestimmten Weltlagen.

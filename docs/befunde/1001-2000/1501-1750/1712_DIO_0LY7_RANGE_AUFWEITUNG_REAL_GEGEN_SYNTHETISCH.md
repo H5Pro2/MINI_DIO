@@ -61,7 +61,3 @@ Das ist eine passive Felddiagnose.
 Keine Handlungsregel.
 Keine Aussage ueber Absicht.
 ```
-
-## Wie es weitergeht
-
-Als naechstes sollte die Kombinationswirkung getrennt gelesen werden: Hoeranstieg, Spannungsanstieg und Range-Aufweitung als gemeinsamer Bruchzustand.

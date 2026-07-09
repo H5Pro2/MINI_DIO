@@ -69,5 +69,3 @@ Interessant sind Rollen, die im Realraum deutlich stärker sind, im Kontrollraum
 ## Grenze
 
 Die Klassierung ist eine diagnostische Lesung, keine Regel im Organismus. Sie dient nur dazu, Realweltbindung und feldinterne Grundform auseinanderzuhalten.
-
-Wie es weitergeht: Als nächstes sollten die real verstärkten Rollen gegen weitere echte Folgewelten geprüft werden. Wenn sie dort stabiler wachsen als im Kontrollraum, wird aus Grundform plus Realaktivierung eine belastbarere Bedeutungsrolle.

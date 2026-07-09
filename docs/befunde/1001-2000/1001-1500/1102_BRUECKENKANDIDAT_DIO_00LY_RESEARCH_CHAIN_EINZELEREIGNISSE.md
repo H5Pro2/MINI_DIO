@@ -9,7 +9,3 @@ Fuer die Familie `dio_00ly` wurden in den geprueften Weltverzeichnissen keine pa
 ## Lesart
 
 Das widerlegt die Familie nicht. Es zeigt nur, dass sie in dieser Weltgruppe nicht als passende Brueckenlesart auftritt.
-
-## Wie es weitergeht
-
-Als naechstes sollte die Familie gegen eine andere Weltgruppe oder mit einer breiteren Rohwelt-Lupe geprueft werden.

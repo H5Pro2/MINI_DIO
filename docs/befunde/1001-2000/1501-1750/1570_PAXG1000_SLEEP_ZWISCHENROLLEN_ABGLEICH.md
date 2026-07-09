@@ -77,7 +77,3 @@ In diesem PAXG-1000-Fenster entsteht keine Offline-Kombinationsbasis.
 ```
 
 Laengere oder anders gewaehlte PAXG-Welten koennen anders wirken.
-
-## Wie es weitergeht
-
-Als naechstes sollte eine laengere PAXG-Welt oder ein anderes ruhiges Assetfenster geprueft werden. Entscheidend ist, ob PAXG bei mehr Weltlaenge Kombinationsnaehe bildet oder strukturell eher als Einzel-Rekopplungsfeld bleibt.

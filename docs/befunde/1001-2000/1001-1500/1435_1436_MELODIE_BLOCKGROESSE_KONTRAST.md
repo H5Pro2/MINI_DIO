@@ -84,7 +84,3 @@ Die Blockgroesse wirkt dabei wie ein zeitlicher Verdichtungsgrad der Weltform.
 ## Grenze
 
 `1435` hat zusaetzlich eine leichte negative Drift. Dadurch ist noch offen, wie stark die klare `dio_0ein`-Dominanz aus Blockdichte allein kommt.
-
-## Wie es weitergeht
-
-Als naechstes sollte `1435` mit exakt neutralerer Drift wiederholt werden. Dann pruefen wir, ob kurze Blockdichte allein `dio_0ein` staerkt oder ob negative Drift die Wirkung mittraegt.

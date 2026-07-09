@@ -161,7 +161,6 @@ def _write_markdown(path: Path, memory: MCMRoleFamilyMemory) -> None:
             "",
             "Die numerische Memory enthaelt keine festen Bedeutungs-, Anschluss- oder Driftklassen und keine gewichtete Kontinuitaetszahl. Die Report-Lesung bleibt vorlaeufig, passiv und nicht handlungswirksam.",
             "",
-            "Wie es weitergeht: Als naechstes sollten `rf_06`, `rf_13`, `rf_10`, `rf_08` und `rf_17` durch dieselben 15 Folgewelten gelesen werden. Ihre Rohprofile erweitern die Erfahrungsbasis, ohne vorab Familientypen festzulegen.",
             "",
         ]
     )

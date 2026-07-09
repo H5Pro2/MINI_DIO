@@ -280,10 +280,6 @@ def _write_markdown(rows: list[dict], out_path: Path) -> None:
             "Diese Diagnose ist noch keine Erklaerung, sondern eine Kopplungskarte.",
             "Sie zeigt, ob lokale Bindung mit Rohweltmerkmalen zusammenfaellt oder ob Feldzustand und Memory staerker erklaeren.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes wird der Befund geschrieben.",
-            "Dabei wird bewertet, ob lokale Bindung vor allem durch Verdichtung, Richtungswechsel, Range oder bereits vorhandene Feld-/Memorylage entsteht.",
         ]
     )
     out_path.write_text("\n".join(lines) + "\n", encoding="utf-8")

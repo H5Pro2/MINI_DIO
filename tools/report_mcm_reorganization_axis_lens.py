@@ -146,9 +146,6 @@ def _write_md(path: Path, rows: list[dict[str, str]]) -> None:
     lines.append("Es gibt mindestens drei unterschiedliche Lesarten: junge Drift/Oberflaeche, Rollenverlust innerhalb stabiler Zone und echte Achsenreorganisation mit sinkender Rekopplung bei steigender Unschaerfe.")
     lines.append("Damit ist Reorganisation im MCM-Feld nicht gleich Fehler oder Kollaps. Sie kann neue Spur, Entlastung oder Umbau einer bestehenden Rolle sein.")
     lines.append("")
-    lines.append("## Wie es weitergeht")
-    lines.append("")
-    lines.append("Als naechstes sollte diese Achsenlupe gegen eine weitere Folgewelt gelesen werden: Bleiben die neuen jungen Spuren jung, verschwinden sie, oder reifen sie zu Anschlussankern?")
     path.write_text("\n".join(lines), encoding="utf-8")
 
 

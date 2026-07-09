@@ -53,5 +53,3 @@ Damit wirkt die Rezeptorschicht nicht wie ein starrer Limiter. Sie wirkt eher wi
 ## Offene Grenze
 
 Der Befund gilt bisher fuer die geprueften synthetischen Welten. Er zeigt noch nicht, wie stark die Adaptation bei echten, sehr langen Weltfolgen oder bei anderen Weltarten tragen kann.
-
-Wie es weitergeht: Als naechstes sollte die Achsendiagnose auf echte Assetwelten angewendet werden, damit klar wird, ob dieselbe Begrenzungslogik auch ausserhalb synthetischer Phasen stabil bleibt.

@@ -136,13 +136,3 @@ MINI_DIO bildet MCM-bezogene Innenfeldbedeutung.
 Die gleiche grobe Weltfamilie kann unterschiedliche innere Feldklassen erzeugen.
 
 Das ist fuer die weitere Forschung wichtiger als die Frage, ob eine Welt optisch `Seitwaerts`, `Expansion` oder `Stress` genannt wird.
-
-## Wie Es Weitergeht
-
-Als naechstes sollte eine negative oder abverkaufnahe Welt geprueft werden.
-
-Hierarchie:
-
-1. Grundfrage: Bildet negative Bewegung einen eigenen Gegenpol oder faellt sie in bestehende Stress-/Uebergangsgruppen?
-2. Unterpruefung: Entsteht mehr Feldzeit, mehr Kippung oder mehr Memorydruck als bei sideways_2026?
-3. Folgeschritt: Wenn negative Weltlagen reproduzierbar eigene Bedeutungsraeume bilden, kann die Topologie um eine Abwaerts-/Kontraktionsachse erweitert werden.

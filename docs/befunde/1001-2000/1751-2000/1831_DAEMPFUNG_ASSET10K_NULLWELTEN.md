@@ -62,7 +62,3 @@ Damit bestaetigt der Lauf: Der Unterschied liegt nicht im einfachen Stabil/Kolla
 ## Grenze
 
 Auch dieser Test ist noch kein Beweis fuer eine vollstaendige Feldtheorie. Er zeigt aber, ob eine gezielte Veraenderung im Lauf eine nachvollziehbare Feldantwort erzeugt.
-
-## Wie es weitergeht
-
-Als naechstes sollte der Asset-10k-Differenzreport gelesen werden: Assetwelt gegen Nullwelt bei gleicher Daempfung.

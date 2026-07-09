@@ -47,8 +47,3 @@ Hierarchie der Pruefung:
 Diese Diagnose trennt Sehen von Feldwirkung.
 Eine Form kann sichtbar, stabil oder unruhig sein, ohne automatisch als Feldlast zu gelten.
 Feldlast entsteht erst, wenn sichtbare Form, Memorylast und Rekopplung gemeinsam binden.
-
-## Wie es weitergeht
-
-Als naechstes wird der Befund geschrieben.
-Danach koennen Hoeren, Sehen und Fuehlen als multisensorische Kopplung verglichen werden.

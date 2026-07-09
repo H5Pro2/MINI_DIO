@@ -54,7 +54,3 @@ Das ist fachlich kein Gegenbeweis gegen den Kandidaten, sondern eine Grenze:
 KAS und BTC 2024 1h tragen ihn, PAXG 2024 1h in dieser Probe nicht.
 
 Das spricht fuer weltabhaengige Bedeutungsbildung statt starre Musterkopie.
-
-## Wie es weitergeht
-
-Als naechstes sollte eine zweite unabhaengige Nicht-KAS-Welt mit anderer Spannung geprueft werden, zum Beispiel PAXG 2025 oder DOGE/XRP 2025. Entscheidend ist, ob der Kandidat dort erneut nicht erscheint oder unter anderer Weltspannung wieder aktiviert wird.

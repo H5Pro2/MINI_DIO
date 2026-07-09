@@ -276,10 +276,6 @@ def write_md(summary: list[dict[str, object]], state_rows: list[dict[str, object
             "Der wichtige Befund ist methodisch:",
             "Eine engere Baseline muss nicht nur Phasen trennen, sondern die Anschlussqualität innerhalb der Phase neu lesen.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als nächstes sollte Anschlussqualität nicht mehr nur vom Gesamtfenster geerbt werden.",
-            "Sie muss phasenlokal berechnet werden: Frueh/Mitte/Spaet jeweils gegen passende Nullwelt-Phasen.",
         ]
     )
     OUT_MD.write_text("\n".join(lines) + "\n", encoding="utf-8")

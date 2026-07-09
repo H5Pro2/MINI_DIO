@@ -68,10 +68,3 @@ Beispielhafte Top-Vorschauen aus dem Testlauf:
 - `dio_mcm_episode_037i64j`
 
 Damit ist die lokale Feldsprache nun im Debug sichtbar, ohne die Memory-Schreibung vorzuziehen.
-
-## Wie es weitergeht
-
-Als naechstes braucht es einen neuen Lauf oder eine neue Forschungskette, damit `mcm_field_episode_preview_symbol` in frischen `episodes.csv`-Dateien vorhanden ist.
-
-Danach wird die lokale multisensorische Syntaxdiagnose erneut ausgefuehrt.
-Dann kann geprueft werden, ob lokale Kipp- und Rekopplungsfenster eigene Feld-Episoden-Vorschau-Sprache tragen.

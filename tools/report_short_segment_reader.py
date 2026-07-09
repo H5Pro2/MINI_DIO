@@ -224,12 +224,6 @@ def write_markdown(rows: list[dict], out_path: Path) -> None:
             "Sie ist ein Diagnosewerkzeug, keine universelle Klassifikation.",
             "Weitere ruhige und belastete Kurzsegmente müssen gegengeprüft werden.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als nächstes sollte eine zweite ruhige Insel aus einer anderen ruhigen Welt isoliert werden.",
-            "Wenn sie wieder ruhenah gelesen wird, wird die Kurzsegment-Lesung belastbarer.",
-            "Danach kann geprüft werden, ob Lastnähe und Ruhenähe sich über mehrere Jahre/Welten ähnlich trennen.",
-            "",
         ]
     )
     out_path.write_text("\n".join(lines), encoding="utf-8")

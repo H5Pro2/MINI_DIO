@@ -32,7 +32,3 @@ Die kurze Stresswelt bleibt zwar stabil getragen, bekommt aber keine lange Feldz
 ## Grenze
 
 Dies ist ein Vergleich von zwei konkreten Zeitreihen. Er zeigt eine klare Differenz, aber noch keine allgemeine Aussage fuer alle Stress- oder 10k-Welten.
-
-## Wie es weitergeht
-
-Als naechstes sollte diese Feldzeit-Lupe ueber mehrere 10k-Welten laufen. Dann sehen wir, ob die erhoehte Feldzeit/Integration allgemein mit Laenge entsteht oder nur in dieser einen 10k-Welt.

@@ -41,7 +41,3 @@ Richtung allein reicht nicht. Moderate Richtungswechsel reichen ebenfalls noch n
 ## Grenze
 
 Dieser Befund ist passiv und beschreibt nur Innenfeldlesung.
-
-## Wie es weitergeht
-
-Als naechstes sollte eine High-Noisy-Drift mit gleicher Drift, aber deutlich hoeherem Richtungswechselbereich geprueft werden. Damit laesst sich die Schwelle zur Spannungsnaehe enger eingrenzen.

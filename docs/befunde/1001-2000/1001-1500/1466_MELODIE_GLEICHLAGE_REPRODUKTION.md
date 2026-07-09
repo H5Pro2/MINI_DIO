@@ -68,7 +68,3 @@ Es gibt nicht nur eine Zone unscharfer Drift, sondern innerhalb der Zone kann ei
 Diese Reproduktion prueft nur identische Weltbedingungen.
 
 Offen bleibt, ob kleine Stoerungen um `0.00112` herum die Gleichlage erhalten, verschieben oder aufloesen.
-
-## Wie es weitergeht
-
-Als naechstes sollte eine Stoerpruefung um den Gleichlagenpunkt laufen: `0.00110`, `0.00112`, `0.00114` bei `block_size 13`. Ziel ist zu pruefen, ob der Balancepunkt robust ist oder nur exakt auf dieser Weltgeometrie liegt.

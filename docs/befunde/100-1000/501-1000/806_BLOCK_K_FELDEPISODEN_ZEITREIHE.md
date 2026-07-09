@@ -49,7 +49,3 @@ Damit wird der Befund aus `805` konkretisiert: die hoehere 10k-Stabilisierung is
 ## Grenze
 
 Diese Zeitreihe ist eine Segmentierung nach Feldphase. Sie ist keine Handlungsauswertung und keine kausale Beweisfuehrung.
-
-## Wie es weitergeht
-
-Als naechstes sollte dieselbe Zeitreihen-Lupe fuer eine stressige 1000/2000er Welt laufen. Dann sehen wir, ob kuerzere Stresswelten weniger lange Integrationssegmente und mehr Bruchpunkte bilden.

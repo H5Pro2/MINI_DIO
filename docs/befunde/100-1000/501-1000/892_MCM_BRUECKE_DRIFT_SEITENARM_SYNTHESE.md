@@ -145,8 +145,3 @@ Noch nicht bewiesen:
 ob 0b7nep9 ein eigener sekundaerer Kern ist,
 oder ob er nur ein stabiler Brueckenanker einer bestimmten Weltgruppe ist.
 ```
-
-## Wie es weitergeht
-
-Als naechstes sollte `0b7nep9` gegen alle bekannten Brueckenkerne gelegt werden.
-Ziel: pruefen, ob `0b7nep9` ein sekundaerer Brueckenkern, ein Anschlussanker oder nur ein weltgruppenspezifischer Vermittler ist.

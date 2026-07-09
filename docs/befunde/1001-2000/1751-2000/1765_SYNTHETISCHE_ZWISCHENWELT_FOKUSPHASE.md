@@ -122,7 +122,3 @@ Der Befund lautet vorsichtig:
 ```text
 stabile mittlere Rollenöffnung mit adaptiver Rekopplung
 ```
-
-## Wie es weitergeht
-
-Als nächstes sollte diese Fokusphase nicht breiter, sondern variabler gemacht werden: kleine wechselnde Öffnungsimpulse innerhalb derselben Rekopplungszone. Ziel ist zu prüfen, ob mehr Binnenvarianz aus 3 Rollen eine verteilte Rollenbreite macht, ohne Nachhall und Rückbindung zu verlieren.

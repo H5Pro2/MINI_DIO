@@ -251,9 +251,6 @@ def _write_md(path: Path, rows: list[dict[str, object]], summary: list[dict[str,
             "- `reports/rekopplung_core_family_roles.csv`",
             "- `reports/rekopplung_core_family_roles_summary.csv`",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als nächstes sollte ein einzelner Kernfamilien-Kandidat isoliert werden: `dio_104t` als mögliche Zentrum-/Kohaerenzfamilie oder `dio_14wj` als PAXG-nahe Rekopplungsfamilie.",
         ]
     )
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")

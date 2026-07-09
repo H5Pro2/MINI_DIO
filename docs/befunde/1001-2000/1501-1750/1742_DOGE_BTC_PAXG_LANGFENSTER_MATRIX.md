@@ -93,7 +93,3 @@ Damit wird MINI_DIO nicht nur als Symbolzählung lesbar, sondern als Feldsystem,
 - [doge_btc_paxg_long_topology.md](../../../../reports/doge_btc_paxg_long_topology.md)
 - [doge_btc_paxg_long_randdruck.md](../../../../reports/doge_btc_paxg_long_randdruck.md)
 - [1741_BTC_PAXG_2025_LANGFENSTER_VERGLEICH.md](1741_BTC_PAXG_2025_LANGFENSTER_VERGLEICH.md)
-
-## Wie es weitergeht
-
-Als nächstes sollte die robuste Topologie gegen eine Welt geprüft werden, die nicht nur ein anderes Asset, sondern eine andere Strukturqualität trägt: KAS mit längerem Fenster, sobald verfügbar, oder eine gezielt synthetisch erzeugte Außenwelt mit kontrolliertem Bruch, Ruhe und Expansion.

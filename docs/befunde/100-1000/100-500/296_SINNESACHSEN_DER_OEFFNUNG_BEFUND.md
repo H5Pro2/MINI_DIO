@@ -90,7 +90,3 @@ MINI_DIO nimmt eine Außenwelt nicht nur als Datenfolge auf, sondern übersetzt 
 Die verwendeten Lastformeln sind Diagnostikwerte, keine neue Mechanik.
 
 Sie erzeugen keine Handlung und verändern MINI_DIO nicht. Sie dienen nur dazu, die bereits geschriebenen Episodendaten zu lesen.
-
-## Wie es weitergeht
-
-Als nächstes prüfen wir den offenen Zustand lokal: Welche Abschnitte erzeugen die stärkste Feldöffnung, und ob dort Hören, Nachhall oder Rekopplung den Übergang vorbereitet.

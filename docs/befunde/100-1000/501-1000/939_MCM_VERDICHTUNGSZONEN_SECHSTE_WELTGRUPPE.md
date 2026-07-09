@@ -109,7 +109,3 @@ Sie entsteht aus Wiederkehr, Rollenanteil, Nachbarschaft, Rekopplung, Strain und
 Damit passt die Diagnose zum Theorieanker der MCM-Verdichtung: Eine starke Innenfeldspur kann stabil bleiben, driften, randnah werden, rekoppeln oder als Uebergang in eine groessere Clusterordnung wirken.
 
 Wichtig: Diese Zonen sind Lesarten der vorhandenen Feldorganisation. Sie schreiben MINI_DIO keine Form vor.
-
-## Wie es weitergeht
-
-Als naechstes sollte die Verdichtungszonen-Matrix gegen eine frische Weltgruppe laufen. Ziel: pruefen, ob dieselben Zonen wiederkehren oder ob neue Uebergangscluster entstehen.

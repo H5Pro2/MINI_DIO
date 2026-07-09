@@ -142,17 +142,3 @@ MINI_DIO beginnt dadurch, Bedeutungen nicht nur als Token zu tragen, sondern als
 - ein Zeichen kann lokal tragen und global trotzdem öffnen.
 
 Das ist ein wichtiger Unterschied zur reinen Symbolstatistik.
-
-## Wie es weitergeht
-
-Als nächstes sollte diese Pfadklassifikation auf mehr Tokens erweitert werden. Ziel: prüfen, ob sich stabile Kategorien bilden:
-
-```text
-stabile Insel
-rekoppelnder Pfad
-offener Driftpfad
-Randpfad
-Brückenpfad
-```
-
-Wenn diese Kategorien über weitere Tokens und Welten reproduzierbar bleiben, wäre das ein starker Hinweis auf eine eigenständige MCM-Feldpfadstruktur.

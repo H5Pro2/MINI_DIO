@@ -37,5 +37,3 @@ Sie treten breit ueber reale Assetwelten auf. Synthetische Welten sind nur schwa
 Damit ist die Zwischenlage eher eine wiederkehrende Feldleseform als ein einzelnes Asset-Artefakt.
 
 Die Auswertung bleibt passiv. Sie erzeugt keine Handlung, keine Richtung und keine Steuerung.
-
-Wie es weitergeht: Als naechstes sollte geprueft werden, ob die dominante Sequenz pro Asset gleich bleibt oder ob jedes Asset seine eigene Zwischenlagen-Faerbung ausbildet.

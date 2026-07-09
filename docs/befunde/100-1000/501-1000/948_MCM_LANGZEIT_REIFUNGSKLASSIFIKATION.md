@@ -46,8 +46,3 @@ Damit entsteht eine passive Reifungsordnung:
 `dio_mature_*` kann als passive Langzeit-Memory genutzt werden, um Reifung von Oberflaeche zu trennen.
 Die Schicht beschreibt nicht, was MINI_DIO tun soll.
 Sie beschreibt nur, welche inneren Feldrollen ueber mehrere Welten sichtbar bleiben.
-
-## Wie es weitergeht
-
-Als naechstes sollte diese Klassifikation gegen eine weitere Welt gelesen werden.
-Entscheidend ist, ob `langfristig_getragen` stabil bleibt und ob `weltabhaengig_getragen` weiter driftet oder wieder rekoppelt.

@@ -67,5 +67,3 @@ Wenn sie in Folgewelten verschwinden, bleiben sie im bisherigen Realraum situati
 ## Grenze
 
 Die Auswertung bleibt diagnostisch. Sie beschreibt keine Strategie und keinen Handlungsmechanismus.
-
-Wie es weitergeht: Als nächstes sollten die stabil feldgleichen Folgewelt-Rollen auf Rollenfamilien geprüft werden: bilden sie nur Einzelzeichen oder entstehen daraus mehrere nahe Bedeutungen mit gemeinsamer Feldfunktion?

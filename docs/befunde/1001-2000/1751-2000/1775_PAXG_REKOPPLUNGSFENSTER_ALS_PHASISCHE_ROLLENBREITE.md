@@ -130,7 +130,3 @@ ohne dass sie zerstreut?
 Der Befund gilt für die bisher rückgelesenen PAXG-2024-Anschlussfenster.
 
 Er sagt noch nicht, ob dieselbe phasische Struktur in PAXG 2025, PAXG 1h oder anderen ruhigen Welten in gleicher Form wiederkehrt.
-
-## Wie es weitergeht
-
-Als nächstes sollte geprüft werden, ob PAXG 2025 oder PAXG 1h ähnliche phasische Rekopplungsfenster bildet oder ob 2024 hier eine besondere lokale Anschlussgeschichte trägt.

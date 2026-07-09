@@ -56,7 +56,3 @@ Wichtig:
 
 Wenn ein Token von `brueckenpfad` zu `offener_driftpfad` wechselt, kann das eine Feldoeffnung aus einer Brueckenlage heraus bedeuten.
 Das ist fachlich anders als chaotischer Rand: es ist eher eine gehaltene Eigenphase, die aus dem Uebergangsraum heraus driftet.
-
-## Wie es weitergeht
-
-Als naechstes sollte der wichtigste Vermittler `0b7nep9` isoliert werden. Ziel: pruefen, ob er der eigentliche Anschluss zwischen Brueckenkern und Drift-Eigenphase ist.

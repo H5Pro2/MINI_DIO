@@ -159,7 +159,3 @@ Sie prüft nicht Handlung, sondern wiederkehrende Feldqualität, Drift, Trägerr
 - Feldfunktion: `active_recoupling` / `distributed_active_recoupling`
 - Weltbindung: `realworld_bound`
 - Welten: FPSIG_MULTI_REAL_DOGE_0_10K:73;FPSIG_MULTI_REAL_XRP_6K_16K:58;FPSIG_MULTI_REAL_XRP_0_10K:56;FPSIG_MULTI_REAL_DOGE_6K_16K:52;FPSIG_MULTI_REAL_PAXG_0_10K:47
-
-## Wie es weitergeht
-
-Als nächstes sollte diese Diagnose nach mehreren Weltläufen verglichen werden. Entscheidend ist, ob Feldphasen-Tiefe steigt, Drift sinkt oder neue Qualitätsfamilien entstehen.

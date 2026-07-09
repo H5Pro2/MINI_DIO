@@ -240,9 +240,6 @@ def _write_markdown(
             "",
             "Diese Zeitreihe ist eine Segmentierung nach Feldphase. Sie ist keine Handlungsauswertung und keine kausale Beweisfuehrung.",
             "",
-            "## Wie es weitergeht",
-            "",
-            next_step,
         ]
     )
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")

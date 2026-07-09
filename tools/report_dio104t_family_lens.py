@@ -291,9 +291,6 @@ def _write_markdown(path: Path, summaries: list[dict[str, object]], details: lis
             "",
             "Diese Lupe beschreibt eine passive Bedeutungsfamilie. Sie ist keine Handlungsauswertung, keine Strategie und keine Aussage darueber, was MINI_DIO tun soll.",
             "",
-            "## Wie es weitergeht",
-            "",
-            f"Als naechstes sollte `{target_family}` gegen eine Rand- oder Bruchfamilie verglichen werden. Dann sehen wir, ob stabile Familien und gespannte Randfamilien unterschiedliche Sinnes-/Feldprofile tragen.",
         ]
     )
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")

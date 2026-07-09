@@ -55,8 +55,3 @@ Wichtig:
 
 Wenn ein Token von `brueckenpfad` zu `offener_driftpfad` wechselt, kann das eine Feldoeffnung aus einer Brueckenlage heraus bedeuten.
 Das ist fachlich anders als chaotischer Rand: es ist eher eine gehaltene Eigenphase, die aus dem Uebergangsraum heraus driftet.
-
-## Wie es weitergeht
-
-Als naechstes sollte die Kette `zentraler Brueckenkern -> 0b7nep9 -> 0ykar6i` als Topologiepfad zusammengefasst werden.
-Ziel: klaeren, ob hier ein vermittelter Seitenarm oder eine zweite Brueckenordnung entsteht.

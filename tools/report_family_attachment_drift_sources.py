@@ -173,10 +173,6 @@ def write_md(summary: list[dict[str, object]], source_rows: list[dict[str, objec
             "Ein Teil der Drift kommt wahrscheinlich daher, dass die ursprüngliche Baseline noch zu breit gemischt war.",
             "Ein anderer Teil ist echte Kontextdrift: dieselbe Familie wird unter anderer Weltspannung anders angeschlossen.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als nächstes sollte die Baseline enger gebaut werden: nicht nur Asset/Familie, sondern Asset/Familie/Fensterphase.",
-            "Dann lässt sich prüfen, ob offene Drift sinkt und echte Kontextdrift klarer übrig bleibt.",
         ]
     )
     OUT_MD.write_text("\n".join(lines) + "\n", encoding="utf-8")

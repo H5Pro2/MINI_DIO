@@ -73,7 +73,3 @@ memory/sleep_intermediate_candidates/passive_sleep_intermediate_candidates.json
 ```
 
 Dieser Ordner ist absichtlich nicht versioniert. Das Repository enthaelt Code und Befunde, aber nicht den lokalen laufenden Forschungszustand.
-
-## Wie es weitergeht
-
-Als naechstes sollte eine andere Ausgangswelt denselben Zwischenrollen-Speicher aktualisieren. Dann wird sichtbar, ob diese Kandidaten SOL-spezifisch bleiben oder ob neue Kandidaten daneben entstehen.

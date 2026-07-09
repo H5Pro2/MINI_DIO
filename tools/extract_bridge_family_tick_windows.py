@@ -219,9 +219,6 @@ def _write_md(rows: list[dict[str, object]], path: Path, family: str) -> None:
             "",
             "Damit wird die Realitaetsrueckkopplung konkret: Nicht der Name der Familie entscheidet, sondern die Feldfolge um den Kontaktpunkt.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte aus diesen Fenstern eine kompakte Feldfolgen-Signatur abgeleitet werden: welche Vorlauf-Merkmale gehen rekoppelnden gegen kippnahen Lesarten voraus?",
         ]
     )
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")

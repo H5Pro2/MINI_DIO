@@ -42,7 +42,3 @@ Das spricht fuer eine innere Semantik, die nicht nur zwei feste Klassen bildet. 
 ## Schluss
 
 Mini-DIO zeigt hier keine simple Wenn-Dann-Trennung. Die Symbolfamilien bilden eher ein Feldnetz: getrennte Bereiche plus Brueckenfamilien.
-
-## Wie es weitergeht
-
-Als naechstes sollte eine starke Brueckenfamilie isoliert und gegen Rohweltfenster gelesen werden: Welche Weltabschnitte lassen dieselbe Familie tragend oder kippnah erscheinen?

@@ -168,7 +168,3 @@ Aussenwelt wirkt nicht direkt als Feld.
 Aussenwelt wird aufgenommen, begrenzt, nachhallend eingebettet
 und als MCM-Feldwirkung organisiert.
 ```
-
-## Wie es weitergeht
-
-Als naechstes sollte die Quiet-Extraktion methodisch verbessert werden. Sie sollte nicht nur geringe Volatilitaet suchen, sondern auch geringe offene/randnahe Innenfeldwirkung nach dem Lauf gegenpruefen. Danach kann eine zweite ruhige Gegenwelt aus SOL 2025 oder BTC 2025 getestet werden.

@@ -97,7 +97,3 @@ Das ist eine Grundlage fuer spaetere organische Regulation, aber noch keine Hand
 - [1683_ADAPTIVE_MILIEU_MEHRWELT_XRP.md](1683_ADAPTIVE_MILIEU_MEHRWELT_XRP.md)
 - [1683_ADAPTIVE_MILIEU_MEHRWELT_PAXG.md](1683_ADAPTIVE_MILIEU_MEHRWELT_PAXG.md)
 - [1683_ADAPTIVE_MILIEU_MEHRWELT_STRESS.md](1683_ADAPTIVE_MILIEU_MEHRWELT_STRESS.md)
-
-## Wie es weitergeht
-
-Als naechstes wird geprueft, ob diese Milieus ueber laengere Fenster stabil bleiben oder ob sich `milieu_offen` mit wachsender Feldzeit in rollennahe, pfadnahe oder gemeinsam getragene Milieus verschiebt.

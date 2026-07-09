@@ -241,10 +241,6 @@ def _write_markdown(path: Path, rows: list[dict[str, object]], input_path: Path)
             "",
             "MINI_DIO bekommt dadurch keine neue Aktion. Es bekommt eine bessere Unterscheidung zwischen stabiler Innenordnung und situativer Weltwirkung.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte geprueft werden, ob diese situativen Randphasen in der Rohwelt eher durch Bewegungsbruch, Lautheitslast, Zeitrahmen oder Assetcharakter entstehen.",
-            "",
         ]
     )
     path.parent.mkdir(parents=True, exist_ok=True)

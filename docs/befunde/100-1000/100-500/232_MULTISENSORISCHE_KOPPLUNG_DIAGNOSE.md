@@ -47,8 +47,3 @@ Hierarchie der Pruefung:
 Diese Diagnose ist die erste Zusammenfuehrung der drei passiven Wahrnehmungsachsen.
 Sie ersetzt keine Einzelachse.
 Sie prueft nur, ob Hoeren, Sehen und Fuehlen zusammen eine stabilere Innenlage beschreiben als jede Achse allein.
-
-## Wie es weitergeht
-
-Als naechstes wird der Befund geschrieben.
-Danach kann entschieden werden, ob die multisensorische Kopplung als Standarddiagnose fuer weitere Welten genutzt wird.

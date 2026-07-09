@@ -230,9 +230,6 @@ def _write_markdown(path: Path, rows: list[dict[str, object]], edge_family: str)
             "",
             "Der Befund ist passiv. Er beschreibt Brueckentypen im Innenfeld, keine Handlung und keine Richtung.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte aus diesen Brueckentypen eine kompakte MCM-Uebergangskarte gebaut werden: Randfamilie, Vorfeldanker, beidseitige Bruecke, Nachfeldanker, stabile Mitte.",
         ]
     )
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")

@@ -48,7 +48,3 @@ junge Phasenspuren = noch nicht gereifte Randbeobachtung
 ## Bedeutung
 
 MINI_DIO bekommt dadurch keine neue Aktion. Es bekommt eine bessere Unterscheidung zwischen stabiler Innenordnung und situativer Weltwirkung.
-
-## Wie es weitergeht
-
-Als naechstes sollte geprueft werden, ob diese situativen Randphasen in der Rohwelt eher durch Bewegungsbruch, Lautheitslast, Zeitrahmen oder Assetcharakter entstehen.

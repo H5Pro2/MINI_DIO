@@ -51,7 +51,3 @@ Selektive Offline-Feld-Reorganisation entsteht bisher eher, wenn hoher Nachhall 
 ## Grenze
 
 Das ist ein einzelner synthetischer Hoch-Nachhall-Gegenlauf. Er widerlegt keine allgemeine Nachhallwirkung, grenzt aber die bisherige Arbeitshypothese scharf ein: Nachhall allein reicht in dieser Probe nicht.
-
-## Wie es weitergeht
-
-Als naechstes sollte ein synthetisches 5-Rollen-Fenster mit niedrigerem Nachhall gesucht oder erzeugt werden. Dann laesst sich pruefen, ob Breite plus Rand/Kipp auch ohne extremen Nachhall selektiv bleibt.

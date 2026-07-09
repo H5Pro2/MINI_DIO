@@ -132,7 +132,6 @@ def _write_markdown(rows: list[dict[str, object]], path: Path) -> None:
             "",
             "Die Auswertung bleibt passiv. Sie erzeugt keine Handlung, keine Richtung und keine Steuerung.",
             "",
-            "Wie es weitergeht: Als naechstes sollte geprueft werden, ob die dominante Sequenz pro Asset gleich bleibt oder ob jedes Asset seine eigene Zwischenlagen-Faerbung ausbildet.",
         ]
     )
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")

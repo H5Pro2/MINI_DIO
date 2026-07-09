@@ -233,9 +233,6 @@ def build_report() -> None:
         "Die Signaturen sind aus einer Referenzprobe abgeleitet.",
         "Sie sind kein abgeschlossenes Lexikon, sondern eine passive Vergleichsschicht.",
         "",
-        "## Wie es weitergeht",
-        "",
-        "Als naechstes sollte geprueft werden, welche wiederkehrenden Unterformen trotz anderer Rolle denselben Familien- oder Preview-Kern tragen.",
     ]
     OUT_MD.write_text("\n".join(lines) + "\n", encoding="utf-8")
 

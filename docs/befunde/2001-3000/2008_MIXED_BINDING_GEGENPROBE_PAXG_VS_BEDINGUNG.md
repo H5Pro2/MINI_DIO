@@ -126,13 +126,3 @@ Feldrollen reifen durch wiederkehrende Feldnähe.
 Die Gegenprobe zeigt keine abschließende Gesetzmäßigkeit. Sie zeigt aber eine klare Einschränkung der vorherigen Annahme.
 
 Befund 2006 bleibt als positive Reifung gültig. Befund 2008 zeigt, dass diese Reifung spezifisch war und nicht durch jede ähnlich beschriebene Welt wiederholt wird.
-
-## Wie es weitergeht
-
-Als nächstes sollte die positive Zielwelt aus Befund 2006 genauer rückgelesen werden:
-
-```text
-Welche Rohwelt-, Ton-, Feldzeit- oder Rezeptorstruktur hat die drei gereiften Kandidaten wirklich erneut getroffen?
-```
-
-Erst danach ist sinnvoll, gezielte Folgefenster zu bauen, die nicht nur grob ruhig oder übergehend sind, sondern die gemessene Feldnähe der gereiften Rollen tragen.

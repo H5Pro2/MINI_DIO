@@ -57,7 +57,3 @@ Erst die gemeinsame Achsenlage beschreibt das Feldmilieu.
 ## Grenze
 
 Die Klassifikation ist eine passive Diagnose. Sie beschreibt Feldmilieu und Anschlussfaehigkeit, aber keine Richtung, keine Handlung und keine Strategie.
-
-## Wie es weitergeht
-
-Als naechstes sollten laengere oder anders positionierte Assetfenster gegen denselben Report laufen. Ziel ist zu pruefen, ob `rand_kippnah` und `mittlere_uebergangsphase` assettypisch bleiben oder ob bei anderen Weltphasen wieder `kompakt_gebunden`, `kompakt_nachhallend`, `verteilt_offen` oder `verteilt_rekoppelnd` entstehen.

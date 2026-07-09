@@ -48,7 +48,3 @@ Damit wirkt das Feld topologisch gegliedert: Rand, Kontakt, Bruecke und stabile 
 ## Grenze
 
 Die Karte ist eine passive Innenfeldkarte. Sie ist keine Handlungskarte, keine Strategie und keine Richtungsvorhersage.
-
-## Wie es weitergeht
-
-Als naechstes sollte diese Karte gegen eine zweite Randfamilie geprueft werden. Nur dann sehen wir, ob die Rollenordnung allgemein ist oder spezifisch um `dio_1un4` entsteht.

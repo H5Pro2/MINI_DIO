@@ -108,12 +108,3 @@ gehaltene Uebergangsphasen zwischen Feldzustaenden.
 ```
 
 Das ist fuer die MCM-Mechanik wichtig, weil damit Bedeutung nicht nur als Ort, sondern auch als Bewegung lesbar wird.
-
-## Wie es weitergeht
-
-Als naechstes sollten die stabilen Bruecken als Netzwerk gelesen werden:
-
-1. Welche Bruecken bilden gegenseitige Paare?
-2. Welche Bruecken fuehren in stabile Inseln?
-3. Welche Bruecken fuehren in offene oder belastete Austritte?
-4. Entsteht daraus eine kleine MCM-Uebergangstopologie?

@@ -109,9 +109,3 @@ Fachliche Lesart:
 Damit ist die offene Variante vorlaeufig als passive Bedeutungsspannweite zu lesen:
 Sie zeigt Feldkontakt, der nicht kollabiert, aber noch nicht zu einer einzigen stabilen
 Innenbedeutung verdichtet ist.
-
-## Wie es weitergeht
-
-Als naechstes wird die dominante offene Preview-Familie `dio_mcm_episode_1t5bcxp`
-gegen weitere Welten geprueft: bleibt sie offene Zentrumsspannweite, driftet sie, oder
-bildet sie unter anderer Weltqualitaet eine eigene stabilere Bedeutungsinsel?

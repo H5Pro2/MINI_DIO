@@ -62,7 +62,3 @@ mittlere Tonspannung
 ```
 
 Hohe Tonspannung wird erst dann problematisch, wenn sie mit Stimulation, Feldaufnahme, Distanz und sinkendem Hinhoeren zusammenfaellt.
-
-## Wie es weitergeht
-
-Als naechstes sollte geprueft werden, ob diese Rezeptorhaltung ueber einzelne Weltgruppen hinweg stabil bleibt oder ob bestimmte Weltarten eigene Rezeptorstile ausbilden.

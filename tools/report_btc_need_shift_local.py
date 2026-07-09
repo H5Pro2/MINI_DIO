@@ -420,10 +420,6 @@ def _write_markdown(path: Path, rows: list[dict[str, object]]) -> None:
             "",
             "Der Befund belegt keine allgemeine BTC-2025-Regel. Er sagt nur: In diesen zwei 2025er Quellen tritt die Abstandsanforderung konsistent auf, waehrend 2024 in den vorhandenen Gegenwelten fokussierter bleibt.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte eine BTC-2025-Gegenwelt aus einem anderen Abschnitt gelesen werden. Wenn Abstand erneut dominiert, wird es jahres-/assetnaher. Wenn Fokus zurueckkommt, war es eher eine lokale Weltspannungszone.",
-            "",
         ]
     )
     path.write_text("\n".join(lines), encoding="utf-8")

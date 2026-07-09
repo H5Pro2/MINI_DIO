@@ -62,7 +62,3 @@ Sie zeigt, ob ein Symbol im aktuellen Mehrwelt-Kontext eher als Milieuinsel, akt
 
 Wichtig ist die Kontextabhängigkeit: Eine Rolle kann in einer engen Weltprüfung wie Milieu wirken und in breiterer Mehrweltprüfung als aktive Rekopplung gelesen werden.
 Damit bleibt die Qualität feldbezogen statt namensfixiert.
-
-## Wie es weitergeht
-
-Als nächstes sollte dieselbe Auswertung mit frischer Memory gegen kontrollierte Nullwelten laufen. Dann wird sichtbar, ob die Feldfunktionslesung reale Weltstruktur braucht oder auch in entkoppelten Kontrollwelten ähnlich stark entsteht.

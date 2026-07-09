@@ -59,7 +59,3 @@ Die Karte bleibt passiv. Sie gibt MINI_DIO keine Handlung, sondern beschreibt nu
 ## Grenze
 
 Keine Handlung, keine Richtung, kein Gate. Diese Karte ist eine passive Reife- und Reichweitenkarte der Feldsyntax.
-
-## Wie es weitergeht
-
-Als nächstes sollte geprüft werden, ob lokale starke Familien bei weiterer Weltzufuhr in `robuste_feldsyntax` übergehen oder ob sie asset-/weltgebundene Milieuinseln bleiben.

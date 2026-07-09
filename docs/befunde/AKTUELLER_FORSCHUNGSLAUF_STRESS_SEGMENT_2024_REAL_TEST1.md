@@ -49,7 +49,3 @@ Episodenzustaende:
 
 - Debug: `debug\research_chain_stress_segment_2024_real_test1_01`
 - Memory: `memory\research_chain_stress_segment_2024_real_test1_memory.json`
-
-## Wie es weitergeht
-
-Als naechstes sollte dieselbe Kette mit einer zweiten kontrollierten Welt laufen. Dabei wird geprueft, ob dieselben Familien stabil bleiben, ob neue Inseln entstehen oder ob vorhandene Bedeutungen driften.

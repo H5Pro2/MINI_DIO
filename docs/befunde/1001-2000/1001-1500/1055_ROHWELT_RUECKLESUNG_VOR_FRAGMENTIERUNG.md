@@ -54,8 +54,3 @@ Ruecklesbar ist ein Vorfeld aus sichtbarer Formlage, tonaler Energieform und reg
 Die relativen Delta-Spalten zeigen, ob dieses Vorfeld gegen die jeweilige Weltbasis abweicht.
 Damit liegt die Ursache nicht direkt in der Rohwelt, sondern in der Art, wie die Rohwelt vorher sinnlich aufgenommen wurde.
 ```
-
-## Wie es weitergeht
-
-Als naechstes sollten Rekopplungs- und Fragmentierungsruecklesung direkt nebeneinander gelegt werden.
-Dann wird sichtbar, welche Vorwelt eher Bindung vorbereitet und welche eher Last/Fragmentierung vorbereitet.

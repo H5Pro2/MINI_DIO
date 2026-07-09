@@ -81,7 +81,3 @@ Das ist keine neue Handelslogik. Es ist eine Korrektur der Wahrnehmungsontologie
 Mini-DIO erlebt nicht Rohdaten. Mini-DIO erlebt rezeptorisch übersetzte Außenweltwirkung.
 
 Diese Trennung ist wichtig, weil sonst Sehen, Hören und Fühlen vermischt werden und das MCM-Feld zu viele externe Daten direkt tragen muss.
-
-## Wie es weitergeht
-
-Als nächstes sollte die Rezeptortrennung über mehrere bereits geprüfte Welten laufen: SOL, BTC und KAS auf 5m und 1h. Ziel ist zu prüfen, ob die Topologie stabil bleibt und ob `contact_pressure` / `contact_alignment` die bisherigen Öffnungs- und Rekopplungsmuster sauberer erklären.

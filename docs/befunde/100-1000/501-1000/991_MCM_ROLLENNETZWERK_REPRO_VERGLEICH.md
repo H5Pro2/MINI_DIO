@@ -40,8 +40,3 @@ Sie verschiebt die Gewichtung innerhalb derselben Feldfamilie:
 Das Rolennetzwerk reproduziert sich nicht als starre Kopie.
 Es bleibt in der Grundtopologie aehnlich, verschiebt aber Last, Drift und Zentrumsnaehe je nach Weltgruppe.
 ```
-
-## Wie es weitergeht
-
-Als naechstes sollte die spaete Zentrumsqualitaet gegen ihre Rohwelt und Sensorik zurueckgelesen werden.
-Wenn sie nicht zufaellig ist, zeigt sie, wann aus Rekopplung eine getragene Mitte wird.

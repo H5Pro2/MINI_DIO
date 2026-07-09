@@ -41,7 +41,3 @@ Sie verändert keine Feldmechanik und erzeugt keine Handlungssignale.
 | dio_mcm_episode_05upp98 | breite_grundrolle | 212 | 20 | FOLLOW_EQ10K_XRP_2024_5M | 0.438 | 0.138 | 0.153 | 0.319 |
 | dio_mcm_episode_1fdlu6e | breite_grundrolle | 2542 | 11 | REAL_TIME_2024_BTC_5M | 0.431 | 0.107 | 0.368 | 0.204 |
 | dio_mcm_episode_0ca57t8 | uebergangsrolle | 411 | 12 | REAL_FOLLOW_PAXG_6000 | 0.425 | 0.431 | 0.123 | 0.324 |
-
-## Wie es weitergeht
-
-Als nächstes diese Rollenbreiten gegen neue Welten aktualisieren und prüfen, ob Rollen nur breiter werden oder ob sich wirklich neue Milieus abspalten.

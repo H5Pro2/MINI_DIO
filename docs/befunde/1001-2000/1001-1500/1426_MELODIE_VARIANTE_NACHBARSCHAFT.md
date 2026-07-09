@@ -63,7 +63,3 @@ Das Feld erkennt die gemeinsame Struktur wieder und lokalisiert die Abweichung i
 Das ist eine kontrollierte synthetische Pruefung.
 
 Sie zeigt nicht, dass Mini-DIO beliebige Melodien versteht. Sie zeigt aber, dass eine leicht veraenderte Folge feldseitig als nahe Ordnung mit lokaler Abweichung gelesen werden kann.
-
-## Wie es weitergeht
-
-Als naechstes sollte die Abweichung staerker gemacht werden: zwei Phasen ersetzen oder die Reihenfolge verschieben. Dann pruefen wir, ab wann Nachbarschaft in neue Inselbildung kippt.

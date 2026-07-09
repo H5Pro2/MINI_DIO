@@ -69,7 +69,3 @@ MINI_DIO zeigt hier eine moegliche Erweiterungsfaehigkeit des Innenfelds:
 - schwache Kontakte bleiben beobachtbar, ohne sofort als stabile Bedeutung gesetzt zu werden.
 
 Das ist wichtig fuer organische MCM-Mechanik, weil Lernen nicht als starres Hinzufuegen einzelner Werte erscheint, sondern als Reifung, Drift, Rekopplung und moegliche Netzwerkerweiterung.
-
-## Wie es weitergeht
-
-Als naechstes sollten `dio_00ly` und `dio_0pq6` mit Tickfenstern gelesen werden. Ziel ist zu pruefen, ob sie echte neue Brueckenknoten sind oder nur lokale Oberflaechenkontakte.

@@ -111,8 +111,3 @@ Die naechste Pruefung muss deshalb nicht nur weitere 10k-Welten lesen, sondern g
 - wann dominiert `183drjy`?
 - tragen beide dieselbe Topologie unterschiedlich?
 - ist `183drjy` eine Langwelt-/Rekopplungsfamilie?
-
-## Wie es weitergeht
-
-Als naechstes sollte die dominante Preview-Familie `183drjy` gegen `1t5bcxp` verglichen werden.
-Ziel ist zu klaeren, ob beide dieselbe MCM-Topologie tragen oder ob sie unterschiedliche Innenfeldraeume innerhalb derselben Grundordnung bilden.

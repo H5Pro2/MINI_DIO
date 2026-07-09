@@ -67,7 +67,3 @@ Die bisherige Qualitaetskarte bleibt gueltig, aber sie wirkt nicht abgeschlossen
 - `dio_0pq6` als schmaler, empfindlicher Umschaltkandidat.
 
 Das stuetzt die Lesart eines dynamischen Bedeutungsnetzes: stabile Rollen bleiben erhalten, neue Knoten koennen bei ausreichender Wiederkehr und Rueckkopplung nachreifen.
-
-## Wie es weitergeht
-
-Als naechstes sollte geprueft werden, ob `dio_00ly` und `dio_0pq6` in einer weiteren unabhaengigen Weltgruppe wieder auftauchen oder ob sie an die aktuelle Holdout-Gruppe gebunden bleiben.

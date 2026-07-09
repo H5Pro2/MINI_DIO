@@ -102,7 +102,3 @@ Die Austritte fuehren staerker in stabile oder rekoppelnde Rollen als in offene 
 
 Der zentrale Brueckenkern wirkt nicht wie ein chaotischer Durchbruch nach aussen.
 Er verbindet vor allem interne Brueckenbewegung mit stabilen oder rekoppelnden Anschlussrollen.
-
-## Wie es weitergeht
-
-Als naechstes sollte derselbe Zielrollen-Test fuer die sekundaeren Brueckenkerne laufen. Dann wird sichtbar, ob der zentrale Kern eine Sonderrolle hat oder ob alle Kerne aehnlich anschliessen.

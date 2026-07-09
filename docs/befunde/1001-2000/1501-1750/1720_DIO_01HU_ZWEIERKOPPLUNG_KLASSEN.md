@@ -36,7 +36,3 @@ keine Aussage ueber Absicht
 ## Quelle
 
 - `docs/befunde/1001-2000/1501-1750/1719_DIO_01HU_ZWEIERKOPPLUNG.csv`
-
-## Wie es weitergeht
-
-Als naechstes sollte die Zweierkopplung direkt gegen Einzelachsen und volle Dreierlast verdichtet werden: welche Kopplungsqualitaet bricht `dio_01hu` wirklich?

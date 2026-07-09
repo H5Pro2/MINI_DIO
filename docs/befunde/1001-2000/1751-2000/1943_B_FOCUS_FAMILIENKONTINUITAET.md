@@ -54,7 +54,3 @@ Asset-spezifischer Rand -> geh?rt st?rker zur jeweiligen Brille
 ```
 
 Das ist weiter passiv. Es wird keine Handlung daraus abgeleitet.
-
-## Wie es weitergeht
-
-Als n?chstes sollte `dio_0tay/frueh` r?ckgelesen werden: Welche Rohwelt- und Feldmerkmale machen diese Familie ?ber SOL und BTC hinweg zum durchgehenden zonalen Tr?ger?

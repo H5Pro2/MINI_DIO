@@ -57,7 +57,3 @@ Das ist fuer das dynamische Bedeutungsnetz relevant:
 - Eine Familie muss nicht sofort breit dominant werden, um wiedererkennbar zu sein.
 - Kleine Wiederkehr kann eine Rollenrichtung anzeigen.
 - Reife entsteht erst, wenn solche kleinen Wiederkehren ueber weitere Welten und Feldlagen stabil bleiben.
-
-## Wie es weitergeht
-
-Als naechstes sollte eine zweite frische Folgewelt mit anderem Asset oder anderer Zeitauflösung geprueft werden. Wenn `dio_00ly` erneut tragend und `dio_0pq6` erneut kippnah erscheint, wird aus der aktuellen Rollenrichtung ein belastbarerer Reifebefund.

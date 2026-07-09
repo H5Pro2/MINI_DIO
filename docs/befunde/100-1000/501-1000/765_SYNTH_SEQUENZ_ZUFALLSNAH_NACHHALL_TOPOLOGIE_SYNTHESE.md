@@ -178,7 +178,3 @@ MINI_DIO liest eine robuste Feldtopologie,
 waehrend lokale Rollen durch aktuelle Weltphase,
 Vorzustand und Nachhall gefaerbt werden.
 ```
-
-## Wie es weitergeht
-
-Als naechstes sollte eine reale Sequenzbruch-Gegenprobe folgen. Ziel: pruefen, ob dieselbe Robustheit auch in echten Weltabschnitten mit natuerlichem Bruch, nicht nur in synthetisch gesetzten Phasen, sichtbar bleibt.

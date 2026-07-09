@@ -76,7 +76,3 @@ Das Feld bewahrt alte Nachbarschaft, bildet aber bei Bruch einen neuen Hauptanke
 Diese Pruefung nutzt eine konstruierte Bruchwelt.
 
 Sie zeigt eine klare Verschiebung, aber noch nicht, ob `dio_0v65` allgemein fuer gebrochene Melodie steht oder nur fuer diese konkrete Bruchform.
-
-## Wie es weitergeht
-
-Als naechstes sollte `dio_0v65` als Bruchanker isoliert werden: gleiche Bruchstruktur bei mehreren Lautstaerken oder anderer Irregularitaetsform. Ziel ist zu pruefen, ob `dio_0v65` stabil die Rolle `gebrochene Feldnaehe` traegt.

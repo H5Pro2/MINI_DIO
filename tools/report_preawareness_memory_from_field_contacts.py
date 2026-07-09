@@ -123,9 +123,6 @@ def _write_markdown(path: Path, snapshot: dict, memory_path: Path) -> None:
             "",
             "Diese Schicht bleibt passiv. Sie ist keine Vorhersage, kein Signal und keine Handlungsvorbereitung. Sie dokumentiert nur wiederkehrende Feldnähe.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als nächstes sollte diese Vorwahrnehmungs-Memory gegen neue reale Weltfenster geprüft werden. Entscheidend ist, ob dieselben Feldkontaktrollen wieder auftauchen, driften oder neue Rollen daneben entstehen.",
         ]
     )
     path.parent.mkdir(parents=True, exist_ok=True)

@@ -75,7 +75,3 @@ MINI_DIO scheint dieselbe Syntaxfamilie in realen Welten als Feldqualitaet zu le
 Nicht der Preisrand selbst ist entscheidend, sondern die Art, wie Sinnesaufnahme, Nachhall, Rekopplung und Feldspannung zusammenliegen.
 
 Das stuetzt die Annahme, dass Bedeutungen im MCM-Feld nicht als starre Symbolwerte entstehen, sondern als wiederkehrende Feldrollen.
-
-## Wie es weitergeht
-
-Als naechstes sollten `dio_0l7p` und `dio_14wj` direkt als Geschwisterrollen verglichen werden: eine Rolle eher Wechselnaehe, die andere eher ruhige Rekopplungsnaehe.

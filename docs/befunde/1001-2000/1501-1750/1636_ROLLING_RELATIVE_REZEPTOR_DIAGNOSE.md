@@ -72,7 +72,3 @@ Eine kausal tragfähige Rezeptorschicht sollte mit gleitender Feldzeit arbeiten,
 Status: passiver Methodenbefund.
 
 Keine Handlungslogik, keine Strategie, kein Gate.
-
-## Wie es weitergeht
-
-Als nächstes sollte ein adaptiver Rezeptor-Diagnosemodus geprüft werden: Profilbildung über begrenzte Vergangenheit mit langsamem Nachhall, damit lokale Kausalität erhalten bleibt, aber die Rollenbreite nicht kollabiert.

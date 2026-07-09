@@ -75,7 +75,3 @@ Für die nächste Forschungsphase sollten nicht die stärksten Strukturanker im 
 - Scoreabfall in Null
 - reale Wiederkehr
 - stabile Feldwirkung in echten Welten
-
-## Wie es weitergeht
-
-Als nächstes `dio_mcm_episode_12fuh1y` und die vier schwache-Nullspur-Kandidaten lokal rücklesen: Welche Rohweltphasen tragen sie, und bleiben sie bei neuen Realwelten stärker als in Nullwelten?

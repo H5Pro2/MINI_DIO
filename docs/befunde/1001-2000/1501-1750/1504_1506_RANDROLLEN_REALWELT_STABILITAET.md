@@ -77,7 +77,3 @@ Sie erzeugt eigene dominante Feldfamilien. Gleichzeitig koennen bekannte Randrol
 - Eine Rolle muss nicht dominant sein, um real vorhanden zu sein.
 - Wiederkehr kann als Nebenrolle auftreten.
 - Reale Weltspur ist breiter und bildet eine eigene Bedeutungslandschaft.
-
-## Wie es weitergeht
-
-Als naechstes sollte geprueft werden, welche Rohweltmerkmale `dio_0l7p` in realen Welten aktivieren: Randlage, geringe Beobachtungslast, Fokusnaehe, lokale Umkehr oder eine bestimmte Sinneskopplung.

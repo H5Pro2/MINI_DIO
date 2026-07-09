@@ -116,7 +116,3 @@ Vor allem die Hoerachse braucht eine klarere Untersuchung:
 - Wann wird sie als Randnaehe gelesen?
 - Wann wird sie durch Rezeptorik gedämpft?
 - Wann bleibt sie als Nachhall aktiv?
-
-## Wie es weitergeht
-
-Als naechstes sollte die Hoerachse isoliert untersucht werden. Dazu reicht keine weitere allgemeine Welt. Sinnvoll ist eine reine Hoer-Gegenprobe: stabile Form, aber systematisch steigende, fallende und pulsierende Energie. Danach kann entschieden werden, ob MINI_DIO eine eigene passive Hoer-Topologie ausbildet.

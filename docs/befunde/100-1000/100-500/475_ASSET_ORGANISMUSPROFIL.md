@@ -53,5 +53,3 @@ Genau diese Trennung ist fuer spaetere rezeptorisch-regulatorische Wahrnehmung r
 - keine aktive Regulation
 - keine automatische Veraenderung der Sinnesaufnahme
 - nur passive Diagnose vorhandener Feldtragungsprofile
-
-Wie es weitergeht: Als naechstes sollte geprueft werden, ob diese Assetprofile bei neuen Welten stabil bleiben oder ob SOL, BTC und KAS ihre Aufnahmeprofile unter anderer Weltspannung verschieben.

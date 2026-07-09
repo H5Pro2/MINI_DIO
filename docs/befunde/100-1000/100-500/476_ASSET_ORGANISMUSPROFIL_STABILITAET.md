@@ -44,5 +44,3 @@ KAS bleibt vorerst nur ein Quellenblock. Die Werte passen zur SOL-naeheren Absta
 Die bisherige Richtung wird gestuetzt: Die getragene Grundaufnahme ist uebergreifend Hinhoeren, waehrend der Bedarf asset- und weltqualitaetsabhaengig variiert.
 
 Fachlich wichtig ist: Stabil ist nicht zwingend die haeufigste Reaktion. Stabiler wirkt die tragende Rekopplungsart.
-
-Wie es weitergeht: Als naechstes sollte KAS in getrennte Einzelwelten zerlegt werden, damit KAS nicht nur als Zeitebenenblock, sondern als echte Stabilitaetsreihe gegen BTC und SOL vergleichbar wird.

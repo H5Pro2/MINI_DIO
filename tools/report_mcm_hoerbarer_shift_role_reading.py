@@ -120,7 +120,6 @@ def _write_markdown(rows: list[dict[str, object]], path: Path) -> None:
             "",
             "Damit wirkt sie eher wie eine lokale Feldfunktion: Sie kann Bruecke, Randnaehe oder aktivierten Zentrumskontakt tragen, je nachdem aus welcher Lagefolge sie entsteht.",
             "",
-            "Wie es weitergeht: Als naechstes sollte diese Rollenlesung gegen das bestehende Bedeutungsnetz gelesen werden: Welche `dio_*`-Familien liegen in Fenstern mit `brueckenuebergang_zum_lauten_kontakt`, und bleiben sie in Folgefenstern stabil oder driften sie?",
         ]
     )
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")

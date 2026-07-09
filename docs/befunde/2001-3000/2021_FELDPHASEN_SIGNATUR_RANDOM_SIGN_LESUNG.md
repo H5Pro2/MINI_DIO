@@ -96,7 +96,3 @@ Stabilität braucht Herkunft:
 - jung/offen
 
 Damit wird das Feld nicht härter programmiert, sondern genauer lesbar.
-
-## Wie es weitergeht
-
-Als nächstes sollte die Feldphasen-Signatur-Memory nicht nur als Report gelesen werden, sondern eine kompakte Herkunftsdiagnose bekommen: pro Signatur real/null/mixed-Anteil, dominante Feldfunktion und Reifetiefe in einer Vergleichstabelle.

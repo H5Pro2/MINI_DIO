@@ -130,7 +130,3 @@ Kerntraeger:
 - `dio_104t` als stabile Grundfamilie,
 - `dio_14wj` als besonders ruhige/rekoppelnde 5m-Erweiterung,
 - `dio_155c` als 1h-nahe Erweiterung.
-
-## Wie es weitergeht
-
-Als naechstes sollte diese PAXG-stabile Rekopplungsordnung gegen BTC/SOL/KAS in einer gleich langen und gleich gewaehlten Weltgruppe geprueft werden. Ziel ist zu trennen, was wirklich PAXG-spezifisch ist und was allgemeine ruhige Rekopplung im MCM-Feld ist.

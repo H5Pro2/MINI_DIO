@@ -81,15 +81,3 @@ Damit wird die Anti-Pareidolie-Prüfung erweitert. Wenn nur Rauschen vorläge, w
 ## Grenze
 
 Dieser Befund beweist noch keine allgemeine MCM-Lernfähigkeit. Er zeigt aber, dass die aktuelle MINI_DIO-Memory nicht nur Rohdaten zählt, sondern wiederkehrende Feldrollen in einer Weise trägt, die bei erneutem und verwandtem Weltkontakt lesbar bleibt.
-
-## Wie es weitergeht
-
-Als nächstes sollte derselbe Memory-Test mit einer echten Stresswelt wiederholt werden:
-
-```text
-Stresswelt frisch
-Stresswelt wiederholt
-verwandte Stress-Holdout-Welt
-```
-
-Ziel ist zu prüfen, ob Bedeutungswiederverwendung auch unter höherer Feldlast stabil bleibt oder ob sie dort in neue Rand- und Nebelzonen driftet.

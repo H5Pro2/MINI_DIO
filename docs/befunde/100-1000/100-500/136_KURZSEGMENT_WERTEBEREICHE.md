@@ -82,9 +82,3 @@ Stress, Ruhe, Entlastung und Last werden als Feldwirkung lesbar.
 Die Datenbasis ist noch klein.
 Die Wertebereiche sind keine Schwellwerte.
 Neue Segmente können die Bereiche bestätigen, verschieben oder neue Mischformen zeigen.
-
-## Wie es weitergeht
-
-Als nächstes sollte ein weiteres unabhängiges Jahr getestet werden.
-Ziel: Prüfen, ob `lastnah`, `ruhig_feldzeitnah` und `last_feldzeitnah` auch außerhalb der bisher verwendeten Welten entstehen.
-Wenn ja, wird die Kurzsegment-Lesung als passive Diagnoseebene deutlich belastbarer.

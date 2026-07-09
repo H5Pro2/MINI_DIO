@@ -258,7 +258,6 @@ def write_markdown(path: Path, summary_rows: list[dict[str, object]], detail_row
             "",
             "Die bisherige Lesart wird gestuetzt: MINI_DIO braucht keine asseteigenen Begriffe, um unterschiedliche Welten zu lesen. Die gleiche passive Wahrnehmungssprache kann verschiedene Feldtragungsprofile ausbilden.",
             "",
-            "Wie es weitergeht: Als naechstes sollte daraus ein assetbezogenes Organismusprofil gelesen werden: welches Asset ruft mehr Abstand auf, welches mehr Hoeren, welches mehr Schaerfung, und ob diese Profile bei neuen Welten stabil bleiben.",
             "",
         ]
     )

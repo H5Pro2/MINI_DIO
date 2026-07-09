@@ -285,10 +285,6 @@ def _write_markdown(rows: list[dict], out_path: Path) -> None:
             "Wiederkehrende relevante Reize koennen gleichzeitig empfindlicher machen.",
             "Das entspricht eher einem Nervensystem als einem starren Limiter.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes wird aus dieser Diagnose ein Befund erstellt:",
-            "Welche Welten zeigen eher Habituation, welche eher Sensitivierung, und wo bleibt die MCM-Feldlage am tragfaehigsten?",
         ]
     )
     out_path.write_text("\n".join(lines) + "\n", encoding="utf-8")

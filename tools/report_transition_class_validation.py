@@ -325,11 +325,6 @@ def _write_md(pair_rows: list[dict[str, object]], class_rows: list[dict[str, obj
             "Wenn ein Paar nur lokal oder nur in einer Welt erscheint, wird es als lokale Kante behandelt.",
             "Wenn ein Paar weltuebergreifend erscheint, ist es ein Kandidat fuer eine passive Feldbewegung.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollten die stabilsten validierten Bewegungsarten gegen ihre Rohwelt-Segmente gelegt werden.",
-            "Dann wird sichtbar, welche Weltbewegung eine Feldbewegung ausloest, ohne daraus schon Handlung abzuleiten.",
-            "",
         ]
     )
     out_path.write_text("\n".join(lines), encoding="utf-8")

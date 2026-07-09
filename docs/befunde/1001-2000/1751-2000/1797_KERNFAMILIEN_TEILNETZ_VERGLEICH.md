@@ -26,7 +26,3 @@ Die Prüfung liest vorhandene Nachbarrollen-Diagnosen passiv und vergleicht Roll
 ## Vorsicht
 
 Das ist weiterhin eine passive Strukturdiagnose. Die Auswertung beschreibt Nachbarschaftsordnung im gespeicherten Feld, nicht Handlung, Richtung oder Strategie.
-
-## Wie es weitergeht
-
-Als nächstes sollte geprüft werden, welche Kernfamilie den klarsten Brückencharakter trägt: hohe Nachbarschaftsbreite, geringe Distanz, aber trotzdem unterscheidbare Teilrollen.

@@ -187,9 +187,6 @@ def _write_md(
     lines.append("Diese Eigenphase ist nicht automatisch ein Rand-Gegenkern.")
     lines.append("Sie kann als Driftkern gelesen werden, wenn sie in Drift-/Oeffnungszonen liegt und dennoch stark selbstbindet.")
     lines.append("")
-    lines.append("## Wie es weitergeht")
-    lines.append("")
-    lines.append("Als naechstes sollte dieser Token gegen die zentrale Brueckenstruktur gelegt werden: ist er ein Gegenbereich, ein paralleler Driftpol oder eine lange Seitenphase im selben Topologieraum?")
     path.write_text("\n".join(lines), encoding="utf-8")
 
 

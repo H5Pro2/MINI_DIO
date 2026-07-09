@@ -50,7 +50,3 @@ Damit wirkt das Feld topologisch gegliedert: Rand, Kontakt, Bruecke und stabile 
 ## Grenze
 
 Die Karte ist eine passive Innenfeldkarte. Sie ist keine Handlungskarte, keine Strategie und keine Richtungsvorhersage.
-
-## Wie es weitergeht
-
-Als naechstes sollten die Uebergangskarten der Randfamilien direkt verglichen werden. Dann sehen wir, welche Rollenordnung wiederkehrt und welche nur lokal zur jeweiligen Randfamilie gehoert.

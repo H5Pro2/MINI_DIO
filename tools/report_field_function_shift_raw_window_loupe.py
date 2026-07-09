@@ -306,9 +306,6 @@ def _write_markdown(path: Path, summary: list[dict[str, object]], events: list[d
             "",
             "`open_surface -> active_recoupling` wird damit als mögliche Rekopplung offener Oberflächen lesbar. `active_recoupling -> open_surface` wirkt dagegen wie ein Öffnen zuvor rekoppelnder Signaturen unter anderer Weltspannung.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als nächstes sollte diese Lupe mit längeren Lookbacks und einem direkten Vergleich der Rohfensterklassen wiederholt werden. Entscheidend ist, ob Öffnung und Rekopplung schon vor dem Signaturauftreten unterschiedliche Weltprofile zeigen.",
         ]
     )
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")

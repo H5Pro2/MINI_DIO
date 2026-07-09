@@ -286,9 +286,6 @@ def _write_markdown(
             "",
             "Das stuetzt die bisherige MCM-Richtung: Regulation entsteht hier nicht als Befehl, sondern als Ordnungsfaehigkeit eines Feldes, das Wahrnehmung, Syntax, Wiederkehr und Rekopplung verbindet.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte diese Kette nicht nur aus vorhandenen Summaries gelesen werden. Sinnvoll ist ein frischer Mehrweltlauf, der pro Welt dieselben sechs Stufen direkt nebeneinander ausgibt.",
         ]
     )
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")

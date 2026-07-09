@@ -68,7 +68,3 @@ Wichtig ist die Grenze: Diese Familien zeigen nur wiederkehrende Feldnähe inner
 ## Grenze
 
 Keine Handlung, keine Richtung, kein Gate. Die Auswertung beschreibt nur, ob Feldverfügbarkeit in neue Syntaxnähe übergeht.
-
-## Wie es weitergeht
-
-Als nächstes sollte eine weitere nicht-XRP-Welt mit derselben Auswertung geprüft werden. Entscheidend ist, ob neue Syntaxfamilien feldstabil bleiben, sich teilen oder nur lokal an eine Welt gebunden sind.

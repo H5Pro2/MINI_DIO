@@ -57,8 +57,3 @@ Fachlich ist das wichtig, weil MINI_DIO damit zwei Ordnungsarten unterscheiden k
 
 Die siebte Welt sollte nicht mit Brueckenlogik erzwungen werden.
 Sie braucht eine eigene passive Lesung fuer Nicht-Bruecken-Ordnung.
-
-## Wie es weitergeht
-
-Als naechstes sollte diese Nicht-Bruecken-Karte gegen die Verdichtungszonen aus 949 und die Pfadklassen aus 951 synthetisiert werden.
-Entscheidend ist, ob XRP eher offene Wahrnehmungsinseln, Zentrumsinseln oder Sinnesrauschen bildet.

@@ -255,9 +255,6 @@ def _write_markdown(path: Path, summaries: list[dict[str, object]], details: lis
             "",
             "`Verdichtung` ist hier eine diagnostische Zusammenschau aus Reuse, Familienbindung, Wiederkehr und Feldzeit. Sie ist kein Gate, kein Zielwert und keine Handlungsvorschrift.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte die stabile Top-Familie `dio_104t` selbst mit der Lupe gelesen werden: welche Feldlage, Sinnesachsen und Weltkontakte tragen diese Familie in 2k und 10k jeweils mit?",
         ]
     )
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")

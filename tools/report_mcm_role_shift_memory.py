@@ -72,10 +72,6 @@ def _write_md(path: Path, memory: MCMRoleShiftMemory) -> None:
             "Die Rollenwechsel-Memory trennt Bedeutungsverlust von Rollenverlust.",
             "Ein Zeichen kann als Bruecke verschwinden und trotzdem als Zentrum, Rand, Rekopplungsfeld oder offene Oberflaeche erhalten bleiben.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte diese `dio_shift_*` Memory gegen eine weitere Welt gelesen werden.",
-            "Dann wird sichtbar, ob Rollenwechsel selbst wiederkehrend sind oder nur eine einmalige Umlagerung der siebten Welt darstellen.",
         ]
     )
     path.write_text("\n".join(lines), encoding="utf-8")

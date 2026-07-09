@@ -115,16 +115,3 @@ Was driftet?
 Welche Welt bindet die Qualität?
 Welche Trägerrollen nehmen dieselbe Qualität auf?
 ```
-
-## Wie es weitergeht
-
-Als nächstes sollte diese Memory über mehrere bestehende Weltketten gelesen werden.
-
-Entscheidend ist:
-
-```text
-Werden Feldphasen stabiler?
-Driften sie kontrolliert?
-Entstehen weltübergreifende Qualitätsfamilien?
-Bleibt die Topologie trotz neuer Tiefe erhalten?
-```

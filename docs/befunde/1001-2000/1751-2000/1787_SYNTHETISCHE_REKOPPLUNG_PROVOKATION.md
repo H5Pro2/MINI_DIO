@@ -93,7 +93,3 @@ Das ist kein Beweis, dass synthetische Rekopplung unmöglich ist. Es zeigt nur: 
 - `reports/synthetic_1787_breadth_afterimage_axis_probe.md`
 - `reports/synthetic_1787_breadth_afterimage_axis_probe_wideparam.md`
 - `reports/synthetic_1788_role_mosaic_afterimage_axis_probe.md`
-
-## Wie es weitergeht
-
-Als nächstes sollte nicht weiter blind synthetisch verstärkt werden. Sinnvoller ist eine Rücklesung realer `verteilt_rekoppelnd`-Fenster: Welche Weltmerkmale haben PAXG und BTC gemeinsam, die den synthetischen Welten fehlen?

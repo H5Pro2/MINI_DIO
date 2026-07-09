@@ -68,7 +68,3 @@ Erst die gemeinsame Achsenlage beschreibt das Feldmilieu.
 ## Grenze
 
 Die Klassifikation ist eine passive Diagnose. Sie beschreibt Feldmilieu und Anschlussfaehigkeit, aber keine Richtung, keine Handlung und keine Strategie.
-
-## Wie es weitergeht
-
-Als naechstes sollten die gleichen Assetfenster gegen laengere 4000er- oder 10000er-Ausschnitte geprueft werden. Ziel ist zu klaeren, ob `verteilt_rekoppelnd` bei BTC und `verteilt_offen` bei DOGE lokale Fensterphaenomene bleiben oder sich als laengere Feldphasen stabilisieren.

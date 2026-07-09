@@ -111,17 +111,3 @@ Beispiele:
 - Tonlast feldnah: auditive Weltwirkung bindet.
 
 Damit wird Hoeren zu einer echten organischen Sinnesachse.
-
-## Wie es weitergeht
-
-Als naechstes sollte dieselbe Logik auf das Sehen uebertragen werden:
-
-1. visuelles Rauschen filtern,
-2. Form genauer ansehen,
-3. Form als Hintergrund halten,
-4. visuelle Restwirkung abklingen lassen,
-5. visuelle Formwirkung gegen MCM-Feldlast und Rekopplung legen.
-
-Erst danach ist eine multisensorische Kopplung sinnvoll:
-
-Hoeren + Sehen + Fuehlen gemeinsam lesen, ohne die Achsen zu vermischen.

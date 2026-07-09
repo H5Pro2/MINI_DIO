@@ -154,25 +154,3 @@ und kein Entry-Signal.
 
 Sie beschreibt eine Feldordnung,
 keinen Handelsmechanismus.
-
-## Wie es weitergeht
-
-Grundfrage:
-
-Wie verhalten sich Zentrum,
-Drift
-und Uebergang gemeinsam als zyklische Feldbewegung?
-
-Unterpruefung:
-
-Sequenzen lesen:
-
-- Zentrum -> Drift -> Zentrum
-- Zentrum -> Uebergang -> Zentrum
-- Bruecke -> Zentrum -> Bruecke
-- Drift -> Zentrum -> Bruecke
-- Uebergang -> Zentrum -> Bruecke
-
-Folgeschritt:
-
-Passive MCM-Zykluskarte bauen.

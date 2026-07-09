@@ -59,7 +59,3 @@ Diese Lesung ist nach dem XRP-Gegenbeispiel nicht haltbar.
 - [1595 Sleep-Rollenbreiten-Karte](1595_SLEEP_ROLLENBREITEN_KARTE.md)
 - [1597 XRP2024 2000 Rolle4 Sleep-Repro](1597_XRP2024_2000_ROLLE4_SLEEP_REPRO.md)
 - [1599 XRP2024 2000 Rolle5 Sleep-Repro](1599_XRP2024_2000_ROLLE5_SLEEP_REPRO.md)
-
-## Wie es weitergeht
-
-Als naechstes sollten die beiden DOGE-5-Rollen-Fenster reproduziert werden. Wenn auch diese voll rekoppeln, liegt die bisherige Selektivitaet sehr wahrscheinlich nicht an Rollenbreite, sondern am synthetischen Rand-/Kippmilieu.

@@ -35,8 +35,3 @@ Arbeitsableitung:
 Mitte kann im MCM-Feld als Achse entstehen:
 zwei Knoten tragen sich gegenseitig und bleiben ueber Weltwechsel als Zentrumsnaehe lesbar.
 ```
-
-## Wie es weitergeht
-
-Als naechstes sollte die staerkste Achse gegen Rohweltsegmente gelesen werden.
-Dann wird sichtbar, welche Weltform diese reziproke Mitte ausloest oder traegt.

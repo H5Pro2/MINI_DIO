@@ -239,9 +239,6 @@ def _write_markdown(path: Path, rows: list[dict[str, object]], labels: list[str]
             "",
             "Damit wird die MCM-Topologie als dynamisches Bedeutungsnetz lesbar: Der Knoten bleibt, seine Rolle kann sich unter anderer Weltspannung verändern.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als nächstes sollten die stärksten Rollenwechsel mit Rohweltfenstern verglichen werden. Besonders relevant sind `active_recoupling -> open_surface` und `open_surface -> active_recoupling`, weil sie zeigen können, wann Weltkontakt öffnet oder rekoppelt.",
         ]
     )
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")

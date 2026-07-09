@@ -68,7 +68,3 @@ Damit wird Mini-DIOs Memory naeher an der aktuellen MCM-Lesung gehalten:
 Nicht: dieses Zeichen ist immer X.
 Sondern: dieses Zeichen bewegte sich zwischen Rollen und trug dabei diese Stabilitaets- oder Driftqualitaet.
 ```
-
-## Wie es weitergeht
-
-Als naechstes sollte diese passive Rollenbewegungs-Memory gegen neue Welten gelesen werden: bleibt ein role_symbol stabil, verdichtet es weiter, oder driftet es?

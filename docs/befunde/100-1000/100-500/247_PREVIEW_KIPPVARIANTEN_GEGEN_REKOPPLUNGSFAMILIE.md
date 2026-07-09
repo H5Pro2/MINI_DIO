@@ -45,8 +45,3 @@ Gegenueber der Rekopplungsfamilie zeigen sie:
 
 Damit sind sie fachlich eher Rand-/Spannungsvarianten als reine Abschwaechungen der Rekopplung.
 Die Grenze bleibt aber wichtig: mit nur einer Weltbasis sind sie noch nicht als stabile MCM-Familie zu benennen.
-
-## Wie es weitergeht
-
-Als naechstes braucht diese Rand-/Spannungsgruppe eine Folgewelt.
-Grundfrage: tauchen dieselben Kippvarianten in weiteren Real- oder Stresswelten wieder auf, oder bleiben sie situative Realwelt-Randzeichen?

@@ -119,9 +119,6 @@ def _write_md(path: Path, family: str, rows: list[dict[str, object]]) -> None:
             "Erst Wiederkehr + Achsenprofil + Feldprofil + Nachbarschaft machen sie lesbar.",
             "```",
             "",
-            "## Wie es weitergeht",
-            "",
-            f"Als nächstes sollte `{family}` gegen seine Nachbarfamilien gelesen werden: Welche Familien treten in denselben Memories mit auf und bilden einen stabilen Bedeutungsraum?",
         ]
     )
     path.parent.mkdir(parents=True, exist_ok=True)

@@ -199,9 +199,6 @@ def main() -> None:
         "Der Knoten bleibt als Feldnaehe erhalten, waehrend die Folgewelten vor allem Ton-/Aufnahmevarianten erzeugen.",
         "Das spricht fuer eine Bedeutungsnaehe, die ueber Weltkontakt erhalten bleibt, aber in der konkreten Sinnesaufnahme variiert.",
         "",
-        "## Wie es weitergeht",
-        "",
-        "Als naechstes sollten aus den starken Knoten Feldrollen-Familien gebildet werden: ruhige Naehe, gerichtete Spannung, weite Spannung und offene Nachbarschaft.",
     ]
     OUT_MD.write_text("\n".join(lines) + "\n", encoding="utf-8")
 

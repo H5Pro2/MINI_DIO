@@ -48,9 +48,3 @@ Dort ist nicht allein das Feldsymbol entscheidend, sondern seine Kopplung an Rol
 
 Diese Karte beschreibt Regulation nur als beobachtete Feldorganisation.
 Sie darf nicht als aktives Kontrollsystem, Handlungsvorgabe oder Beweis fuer eine fertige Bedeutungsstruktur gelesen werden.
-
-## Wie es weitergeht
-
-Als naechstes wird `dio_mcm_episode_02xikfk` isoliert.
-Dabei werden Rekopplungsfenster mit diesem Symbol gegen Kippfenster mit demselben Symbol verglichen.
-Ziel ist zu pruefen, ob dasselbe Feldsymbol je nach Rolle eine andere Innenfeldwirkung traegt.

@@ -77,8 +77,3 @@ andere lokale Rand-/Rekopplungsnaehe
 
 Die Folgewelten enthalten weniger als 5000 Zeilen, weil die 1h-Jahresdaten nach dem Startfenster keine vollen weiteren 5000 Zeilen tragen.
 Der Befund ist deshalb als Start/Folge-Vergleich zu lesen, nicht als exakt gleich langer 5k/5k-Split.
-
-## Wie es weitergeht
-
-Als naechstes sollte 15m geprueft werden.
-Die offene Frage ist, ob 15m die Bruecke zwischen 5m und 1h bildet oder eine eigene Milieuschicht erzeugt.

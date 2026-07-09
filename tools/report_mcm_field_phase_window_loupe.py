@@ -356,10 +356,6 @@ def _write_markdown(path: Path, events: list[dict[str, object]], summary: list[d
             "",
             "Diese Lupe nutzt Feldphasen-Segmente. Sie ist noch keine Kerzen-/OHLCV-Lupe auf Rohchart-Ebene.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte die gleiche Lupe mit konkreten Rohweltfenstern gekoppelt werden: Phase, Kerzenbereich, Tonprofil, Rezeptorprofil und Feldfolge in einer Zeile.",
-            "",
         ]
     )
     path.parent.mkdir(parents=True, exist_ok=True)

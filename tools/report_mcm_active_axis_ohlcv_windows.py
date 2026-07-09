@@ -201,10 +201,6 @@ def write_md(rows: list[dict[str, object]], path: Path) -> None:
             "- Negative Stresswelten zeigen Achsen eher spaet, in Druck- oder Rekopplungsfenstern.",
             "- Sideways zeigt spaete, kleinere Druck-/Rekopplungsfenster.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte fuer die wichtigsten Fenster eine kleine Chartgrafik erzeugt werden: Kerzenfenster plus markierte Achsenticks. Dann sieht man visuell, ob die Achse an Bruch, Reversal, Konsolidierung oder Fortsetzung sitzt.",
-            "",
         ]
     )
     path.write_text("\n".join(lines), encoding="utf-8")

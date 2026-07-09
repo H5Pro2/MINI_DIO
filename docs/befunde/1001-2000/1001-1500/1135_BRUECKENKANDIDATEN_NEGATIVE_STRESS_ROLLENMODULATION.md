@@ -84,7 +84,3 @@ Diese Pruefung ist nur eine negative Stresswelt. Fuer eine robustere Aussage bra
 - eine starke Bruchwelt,
 - eine Erholungswelt nach Stress,
 - Vergleich, ob `dio_00ly` dort offen bleibt oder wieder rekoppelt.
-
-## Wie es weitergeht
-
-Als naechstes sollte eine Erholungs- oder positive Recovery-Welt geprueft werden. Ziel: herausfinden, ob `dio_00ly` nach Stress wieder rekoppelt und ob daraus eine Stress-Erholung-Brueckenphase sichtbar wird.

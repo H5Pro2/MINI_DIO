@@ -169,7 +169,3 @@ Die naechste saubere Frage lautet:
 Welche PAXG-eigenen Bedeutungsformen dominieren,
 wenn die KAS/BTC-nahe Zielachse fehlt?
 ```
-
-## Wie es weitergeht
-
-Als naechstes sollten die dominanten PAXG-Feldformen isoliert werden. Ziel ist nicht, PAXG in die vorhandene Bibliothek zu pressen, sondern zu pruefen, ob PAXG eine eigene stabile Bedeutungsfamilie ausbildet.

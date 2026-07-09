@@ -102,7 +102,3 @@ Damit wird MINI_DIO nicht härter programmiert, sondern besser lesbar. Die organ
 ## Grenze
 
 Die Lesart ist eine Forschungsdiagnose. Sie ist keine endgültige Taxonomie und keine Handlungslogik.
-
-## Wie es weitergeht
-
-Als nächstes die Rollenbreiten-Metrik auf neue Weltfolgen anwenden. Entscheidend ist, ob Rollen nur breiter werden oder ob sich wirklich neue Milieurollen abspalten.

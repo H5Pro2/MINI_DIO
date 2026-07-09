@@ -42,7 +42,3 @@ Für MINI_DIO bedeutet das:
 - Er ist eine Feldgruppe, die unter passenden Weltlagen wieder anschließt.
 - Unter unpassenden Weltlagen kann derselbe Kern in Fehlstelle, Offenheit, Kernnähe oder Nachhallnähe wechseln.
 - Reife muss daher als Kern + Peripherie + Weltpassung gelesen werden.
-
-## Wie es weitergeht
-
-Als nächstes sollte eine Weltpassungs-Metrik gebaut werden. Sie soll nicht nur zählen, ob ein Kernpaar wiederkehrt, sondern ob die Weltlage den Kern trägt, öffnet, verschiebt oder ausblendet.

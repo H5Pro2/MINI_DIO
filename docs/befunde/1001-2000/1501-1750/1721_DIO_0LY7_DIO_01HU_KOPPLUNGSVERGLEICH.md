@@ -89,7 +89,3 @@ und dadurch ihre Kopplungsqualitaet offenlegen.
 - [1718_DIO_0LY7_KOPPLUNGSHIERARCHIE.md](1718_DIO_0LY7_KOPPLUNGSHIERARCHIE.md)
 - [1719_DIO_01HU_ZWEIERKOPPLUNG.md](1719_DIO_01HU_ZWEIERKOPPLUNG.md)
 - [1720_DIO_01HU_ZWEIERKOPPLUNG_KLASSEN.md](1720_DIO_01HU_ZWEIERKOPPLUNG_KLASSEN.md)
-
-## Wie es weitergeht
-
-Als naechstes sollte aus den letzten Befunden eine kompakte Gesamtuebersicht erstellt werden: Was zeigen die letzten ungefaehr 20 Pruefungen ueber MCM-Feldrollen, Oeffnungsformen, synthetische Brueche und Kopplungsqualitaeten?

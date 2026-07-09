@@ -40,7 +40,3 @@ Damit ist Bewegungsbruch die Rohweltbedingung, aber nicht die ganze Erklaerung.
 ## Bedeutung
 
 Das MCM-Feld liest nicht nur die Aussenbewegung. Es liest, ob das Feld nach der Aussenbewegung wieder Anschluss findet.
-
-## Wie es weitergeht
-
-Als naechstes sollten die Gegenformen mit konkreten Tickfenstern markiert werden: Wo beginnt die Nachlast, und welche Feldrolle liegt direkt davor?

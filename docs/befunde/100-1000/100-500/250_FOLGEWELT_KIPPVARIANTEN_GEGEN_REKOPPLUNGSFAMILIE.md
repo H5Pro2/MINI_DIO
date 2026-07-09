@@ -47,7 +47,3 @@ Gegenueber der Rekopplungsfamilie zeigen sie:
 
 Damit sind sie fachlich eher Rand-/Spannungsvarianten als reine Abschwaechungen der Rekopplung.
 Die Grenze bleibt aber wichtig: Eine einzelne Folgewelt-Stuetze reicht noch nicht fuer eine stabile MCM-Familie.
-
-## Wie es weitergeht
-
-Als naechstes sollte genau das wiederkehrende Kippzeichen gegen weitere Real- und Stresswelten gelegt werden. Grundfrage: bleibt es Randspannung, oder wird daraus eine stabile Spannungsfamilie?

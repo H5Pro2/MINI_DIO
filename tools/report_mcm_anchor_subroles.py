@@ -170,9 +170,6 @@ def _write_md(out_path: Path, profiles: list[dict[str, object]]) -> None:
     lines.append("")
     lines.append("Damit ist Anschlussanker nicht nur eine Staerke-Klasse, sondern wahrscheinlich eine eigene Zwischenebene mit Unterrollen.")
     lines.append("")
-    lines.append("## Wie es weitergeht")
-    lines.append("")
-    lines.append("Als naechstes sollte geprueft werden, ob lokale Anschlussanker eher zu `0b7nep9` oder zu `1jx2k4i` tendieren. Daraus kann eine feinere Anschlussanker-Familienkarte entstehen.")
     out_path.write_text("\n".join(lines), encoding="utf-8")
 
 

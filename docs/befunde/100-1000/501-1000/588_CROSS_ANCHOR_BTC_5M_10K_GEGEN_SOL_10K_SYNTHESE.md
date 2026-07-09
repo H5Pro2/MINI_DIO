@@ -105,8 +105,3 @@ Es spricht eher fuer eine stabile MCM-Rollenbewegung mit welt-/assetbezogener Na
 
 KAS-10k wurde noch nicht geprueft, weil im aktuellen Projekt nur KAS-2k-Kontrollwelten vorhanden sind.
 Eine echte KAS-10k-Gegenprobe braucht zuerst eine laengere KAS-Rohwelt.
-
-## Wie es weitergeht
-
-Als naechstes sollte entweder eine laengere KAS-Welt beschafft/erzeugt werden oder die BTC/SOL-10k-Achsen gemeinsam in einer Mehrquellen-Feldbewegungs-Memory verdichtet werden.
-Ziel ist zu klaeren, welche Bewegungen allgemeine MCM-Achsen sind und welche nur assetnahe Nachbarschaften darstellen.

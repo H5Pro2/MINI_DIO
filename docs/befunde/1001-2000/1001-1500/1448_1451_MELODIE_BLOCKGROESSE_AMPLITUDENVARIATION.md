@@ -99,7 +99,3 @@ Der vorherige Schwellenbefund bleibt relevant, muss aber als zweidimensionaler S
 Die Amplitudenwerte sind Pruefwerte, keine festen Regeln.
 
 Der Befund sagt nicht: `dio_1fll` gehoert immer zu leiser Welt. Er sagt: In dieser Melodiekonstruktion verschiebt geringere Amplitude die Bedeutungsnaehe frueher zu `dio_1fll`.
-
-## Wie es weitergeht
-
-Als naechstes sollte eine mittlere Amplitudenreihe zwischen `0.00080` und `0.00115` laufen. Damit kann geprueft werden, ob der Umschlag von `dio_0ein` zu `dio_1fll` graduell verlaeuft oder ob es einen engeren Lautstaerke-Kippbereich gibt.

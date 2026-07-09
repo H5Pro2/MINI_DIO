@@ -326,7 +326,3 @@ Diese Schicht darf:
 Das MCM-Feld reguliert sich intern passiv.
 Die rezeptorisch-regulatorische Wahrnehmungsschicht beschreibt Fähigkeiten, mit denen MINI_DIO lernen kann, wie Weltkontakt am Feld ankommen soll.
 ```
-
-## Wie es weitergeht
-
-Als naechstes wird eine passive Diagnose gebaut, die vorhandene Daten nach diesen vier Aufnahmeachsen liest, ohne sie in `MCMFieldMovementMemory` zu speichern und ohne daraus Handlung abzuleiten.

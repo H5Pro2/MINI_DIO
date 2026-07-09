@@ -98,10 +98,6 @@ def write_md(rows: list[dict[str, str]], image_paths: list[Path], out_md: Path) 
         )
     lines.extend(
         [
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte aus diesen Bildern eine Chartzonen-Typologie abgeleitet werden: Rekopplung nach Bruch, Druckfenster, Konsolidierung mit Spannung und getragene Expansion.",
-            "",
         ]
     )
     out_md.write_text("\n".join(lines), encoding="utf-8")

@@ -71,7 +71,3 @@ Das ist keine Handlungsableitung.
 Der Befund beschreibt passive Feldbedeutung:
 
 Eine Weltlage kann aehnlich stabil sein, aber unterschiedliche innere Rollen tragen.
-
-## Wie es weitergeht
-
-Als naechstes sollte eine neue reale Welt geprueft werden, ob `dio_0l7p` und `dio_14wj` weiter als getrennte Geschwisterrollen erscheinen oder ob eine der beiden Rollen in neuen Welten driftet.

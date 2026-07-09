@@ -64,7 +64,3 @@ Das ist noch keine mehrweltliche Bestätigung. In dieser Probe ist `world_count 
 ## Grenze
 
 Die Erweiterung ist keine Strategie, keine Handlungsvorbereitung und keine Richtungsentscheidung. Sie verbessert nur die passive Lesbarkeit von wiederkehrenden Preview-Ankern.
-
-## Wie es weitergeht
-
-Als nächstes dieselbe Memory über mehrere Welten laufen lassen. Entscheidend ist, ob einzelne Preview-Anker von `surface_anchor` zu `recurring_depth_seed` oder `multiworld_depth_seed` reifen, ohne dass daraus eine Handlungsschicht entsteht.

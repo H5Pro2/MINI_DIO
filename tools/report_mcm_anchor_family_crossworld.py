@@ -129,9 +129,6 @@ def _write_md(path: Path, rows: list[dict[str, str]]) -> None:
     lines.append("- Gestuetzt ist aber, dass das Feld wiederholt aehnliche Rollenklassen ausbildet.")
     lines.append("- Damit wird die Anschlussanker-Familienkarte plausibler als Topologie-Eigenschaft, nicht nur als Einzelbefund.")
     lines.append("")
-    lines.append("## Wie es weitergeht")
-    lines.append("")
-    lines.append("Als naechstes sollte fuer neue Weltgruppen dieselbe moderne Netzwerkdiagnose wie 874/894 erzeugt werden. Dann koennen wir Rollenanalogie durch echte Netzwerk-Topologie ersetzen.")
     path.write_text("\n".join(lines), encoding="utf-8")
 
 

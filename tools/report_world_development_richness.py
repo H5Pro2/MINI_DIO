@@ -286,10 +286,6 @@ def _write_md(rows: list[dict[str, object]], path: Path) -> None:
             "Diese Diagnose misst nur die angebotene Weltqualitaet vor dem MCM-Feld.",
             "Sie beweist nicht, welche Topologie entsteht, und sie erzeugt keine Handlung.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte die Rangfolge gegen die tatsaechliche Sleep-Kombinationsbildung gelegt werden: Welche Welten mit hohem Entwicklungsreichtum erzeugen wirklich mehrere Rollen, und welche bleiben trotzdem Einzel-Rekopplung?",
-            "",
         ]
     )
     path.write_text("\n".join(lines), encoding="utf-8")

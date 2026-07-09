@@ -103,7 +103,3 @@ Für die MCM-Feldmechanik ist das relevant, weil Bedeutung nicht nur als Punkt e
 ## Grenze
 
 Die Bezeichnungen sind passive Forschungsbegriffe. Sie sind keine Handlungssignale und keine endgültige Taxonomie.
-
-## Wie es weitergeht
-
-Als nächstes eine Rollenbreiten-Metrik automatisieren: breite Grundrolle, Übergangsrolle, Milieurolle, Nebenrolle. Danach kann MINI_DIO seine Bedeutungsräume sauberer nach Breite und Spezifität lesen.

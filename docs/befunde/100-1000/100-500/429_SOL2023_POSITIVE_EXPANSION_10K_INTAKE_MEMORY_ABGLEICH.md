@@ -57,7 +57,3 @@ Die Gegenwelt erzeugt nicht nur neue Einzelspuren, sondern trifft einen Teil der
 `quality_reproduced` bedeutet: dieselbe Aufnahmeachse, dieselbe Innenfeldlage und dieselbe MCM-Preview tragen auch in der neuen Welt dieselbe passive Memory-Qualitaet.
 
 Das bleibt vor Handlung. Der Befund sagt nicht, was MINI_DIO tun soll, sondern welche Aufnahmeform im Innenfeld wiedererkennbar bleibt.
-
-## Wie es weitergeht
-
-Als naechstes sollte eine deutlich andere Gegenwelt laufen. Wenn dieselben ruhigen Spuren dort erhalten bleiben, spricht das fuer stabile Aufnahmefamilien. Wenn sie kippen, wird die Drift der Aufnahmequalitaet sichtbar.

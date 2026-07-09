@@ -31,7 +31,3 @@ Wichtig ist die Unterscheidung:
 - Expansionen zeigen haeufig Bewegungsbruch oder Rekopplung im mittleren Verlauf.
 - Negative Stresswelten zeigen Achsen eher spaet, in Druck- oder Rekopplungsfenstern.
 - Sideways zeigt spaete, kleinere Druck-/Rekopplungsfenster.
-
-## Wie es weitergeht
-
-Als naechstes sollte fuer die wichtigsten Fenster eine kleine Chartgrafik erzeugt werden: Kerzenfenster plus markierte Achsenticks. Dann sieht man visuell, ob die Achse an Bruch, Reversal, Konsolidierung oder Fortsetzung sitzt.

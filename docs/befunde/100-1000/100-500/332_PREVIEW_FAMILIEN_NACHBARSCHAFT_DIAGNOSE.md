@@ -71,9 +71,3 @@ Daraus folgt methodisch:
 Diese Matrix misst stabile Nachbarschaft, aber echte Uebergangsdynamik muss separat
 an den Grenzen der Familien gemessen werden. Sonst ueberdeckt die lange Selbstinsel die
 wenigen Wechselereignisse.
-
-## Wie es weitergeht
-
-Als naechstes wird eine Boundary-Diagnose gebaut, die nur echte Wechselkanten liest:
-Familie A -> Familie B, ohne Selbstfortsetzung. Dort wird sichtbar, ob Druck, Schaerfe
-oder Rekopplung beim Uebergang kippen.

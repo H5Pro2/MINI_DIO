@@ -104,7 +104,3 @@ Der naechste Haertefall ist deshalb nicht mehr ein weiterer aehnlicher 5m-Zustan
 - andere Zeitaufloesung,
 - laengere Welt,
 - oder eine gezielt synthetische Welt mit langsamem Wechsel von Ruhe, Expansion und Bruch.
-
-## Wie es weitergeht
-
-Als naechstes sollte eine Zeitaufloesungspruefung nach adaptierter Feldkopplung folgen: gleiche Weltlogik, aber 5m gegen 1h. Ziel ist zu pruefen, ob die Rollenordnung an Kerzenfrequenz haengt oder ob sie aus der MCM-Feldwirkung selbst stabil bleibt.

@@ -74,8 +74,3 @@ Der Kontrast `Bindung-Aktiv` ist dabei die einfache passive Lesegroesse:
 negativ -> aktive Rekopplung dominiert
 positiv -> Feld-/Memorybindung dominiert
 ```
-
-## Wie es weitergeht
-
-Als naechstes wird aus dieser Diagnose ein Befund geschrieben.
-Darin wird bewertet, ob lokale Stress- und Ruheabschnitte wirklich als MCM-Gegenpole gelesen werden koennen.

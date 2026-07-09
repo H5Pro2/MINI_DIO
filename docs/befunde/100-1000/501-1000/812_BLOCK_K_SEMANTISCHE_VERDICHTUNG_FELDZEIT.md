@@ -43,7 +43,3 @@ Damit wirkt 10k nicht wie `mehr neue Worte`, sondern wie tiefere Wiederverwendun
 ## Grenze
 
 `Verdichtung` ist hier eine diagnostische Zusammenschau aus Reuse, Familienbindung, Wiederkehr und Feldzeit. Sie ist kein Gate, kein Zielwert und keine Handlungsvorschrift.
-
-## Wie es weitergeht
-
-Als naechstes sollte die stabile Top-Familie `dio_104t` selbst mit der Lupe gelesen werden: welche Feldlage, Sinnesachsen und Weltkontakte tragen diese Familie in 2k und 10k jeweils mit?

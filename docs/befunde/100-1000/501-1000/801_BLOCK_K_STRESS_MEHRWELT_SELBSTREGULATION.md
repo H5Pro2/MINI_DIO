@@ -53,7 +53,3 @@ Dominante MCM-Feldepisoden:
 ## Grenze
 
 Die Werte sind Diagnosewerte. Sie sind keine Regeln und keine Beweiszahlen. Besonders `stabilization_score` ist eine kompakte Lesegroesse, damit Welten vergleichbar werden, nicht ein Zielwert fuer das System.
-
-## Wie es weitergeht
-
-Als naechstes sollte 800 gegen 801 verglichen werden. Entscheidend ist, ob Stress nur Werte verschiebt oder ob eine andere Feldrolle, andere Feldepisode oder staerkere Drift entsteht.

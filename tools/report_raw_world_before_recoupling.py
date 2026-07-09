@@ -373,10 +373,6 @@ def _write_md(path: Path, rows: list[dict[str, object]], target: str) -> None:
             "Damit liegt die Ursache nicht direkt in der Rohwelt, sondern in der Art, wie die Rohwelt vorher sinnlich aufgenommen wurde.",
             "```",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollten Rekopplungs- und Fragmentierungsruecklesung direkt nebeneinander gelegt werden.",
-            "Dann wird sichtbar, welche Vorwelt eher Bindung vorbereitet und welche eher Last/Fragmentierung vorbereitet.",
         ]
     )
     path.write_text("\n".join(lines), encoding="utf-8")

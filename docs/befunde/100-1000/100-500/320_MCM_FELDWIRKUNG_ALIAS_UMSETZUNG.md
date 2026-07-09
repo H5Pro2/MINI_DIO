@@ -103,7 +103,3 @@ gleiche Werte
 saubererer Name
 kompatible Ausgabe
 ```
-
-## Wie es weitergeht
-
-Als naechstes sollten neue Befunde und Werkzeuge bevorzugt `mcm_feldwirkung_*` verwenden. Alte `fuehlen_*`-Spalten bleiben nur noch als Kompatibilitaet fuer historische Reports bestehen.

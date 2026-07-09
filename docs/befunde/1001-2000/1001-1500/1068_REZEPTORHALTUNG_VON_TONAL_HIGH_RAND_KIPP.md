@@ -39,7 +39,3 @@ Welche Rezeptorhaltung unterscheidet innerhalb von `tonal_high` die Zielrolle `r
 ## Lesart
 
 Die Rolle `rand_kipp` innerhalb von `tonal_high` entsteht nicht durch Tonenergie allein. Sie wird durch eine Rezeptorhaltung mitgetragen, die bestimmte Aufnahmequalitaeten erhoeht und andere reduziert. Entscheidend ist damit Ton plus Aufnahmehaltung plus Feldantwort.
-
-## Wie es weitergeht
-
-Als naechstes sollte aus dieser Gegenlesung eine kurze Synthese gebildet werden: welche Rezeptorhaltung stabilisiert Verarbeitung, und welche Haltung begleitet Kippnaehe?

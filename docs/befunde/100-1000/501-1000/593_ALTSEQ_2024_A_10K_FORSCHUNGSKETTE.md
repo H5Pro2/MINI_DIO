@@ -48,7 +48,3 @@ Episodenzustaende:
 
 - Debug: `debug\altseq_2024_a_10k`
 - Memory: `memory\altseq_2024_a_10k_memory.json`
-
-## Wie es weitergeht
-
-Als naechstes sollte dieselbe Kette mit einer zweiten kontrollierten Welt laufen. Dabei wird geprueft, ob dieselben Familien stabil bleiben, ob neue Inseln entstehen oder ob vorhandene Bedeutungen driften.

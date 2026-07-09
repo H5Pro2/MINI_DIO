@@ -60,7 +60,3 @@ Damit wird die Hypothese weiter gestuetzt:
 ## Grenze
 
 Dieser Befund ist passiv. Er beschreibt Feldlesung, keine Handlung.
-
-## Wie es weitergeht
-
-Als naechstes sollte bei aehnlicher Drift gezielt mehr Richtungswechsel/Rauschen eingebaut werden. Dadurch laesst sich testen, ob die Schwelle wirklich Unruhe statt Richtung ist.

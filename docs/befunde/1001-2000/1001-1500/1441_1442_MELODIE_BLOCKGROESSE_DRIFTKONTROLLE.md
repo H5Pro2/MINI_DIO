@@ -83,7 +83,3 @@ Die Blockgroesse wirkt als Feldzeit-Parameter:
 Die exakte Schwelle ist noch nicht punktgenau bestimmt.
 
 `block_size 12` war fast gleich, `block_size 14` driftkorrigiert kippt zu `dio_1fll`.
-
-## Wie es weitergeht
-
-Als naechstes sollte eine enge Schwellenreihe `block_size 11`, `12`, `13` mit driftneutralen Welten laufen. Damit kann geprueft werden, ob `12` die echte Gleichgewichtsnaehe ist oder ob der Umschlag erst zwischen `12` und `14` liegt.

@@ -145,9 +145,6 @@ def _write_md(path: Path, rows: list[dict[str, str]]) -> None:
     lines.append("")
     lines.append("Das ist noch kein Beweis einer vollstaendigen Entwicklungsleiter. Dafuer braucht es weitere Weltgruppen und eine zeitliche Folgepruefung. Aktuell ist es ein starker Hinweis auf geordnete Verdichtungsdynamik.")
     lines.append("")
-    lines.append("## Wie es weitergeht")
-    lines.append("")
-    lines.append("Als naechstes sollte geprueft werden, ob diese Stufen in einer zeitlichen Reihenfolge auftreten oder ob sie nur zwischen zwei Landschaften sichtbar werden.")
     path.write_text("\n".join(lines), encoding="utf-8")
 
 

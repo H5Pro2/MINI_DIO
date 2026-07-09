@@ -70,7 +70,3 @@ Die Grenze sollte deshalb nicht als Wert, sondern als Gleichlagenraum beschriebe
 Diese Pruefung bleibt innerhalb einer synthetischen Melodiefamilie.
 
 Sie zeigt robuste lokale Balance, aber keine allgemeine Aussage ueber alle moeglichen Welten.
-
-## Wie es weitergeht
-
-Als naechstes sollte die Plateau-Kante oberhalb `0.00114` geprueft werden: `0.00115`, `0.00116`, `0.00117`. Ziel ist zu sehen, wo `dio_1fll` die Gleichlage verlaesst und wieder dominant wird.

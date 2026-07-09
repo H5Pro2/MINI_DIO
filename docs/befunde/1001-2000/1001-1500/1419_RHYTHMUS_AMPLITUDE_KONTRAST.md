@@ -55,7 +55,3 @@ Eine laute Welle bleibt tragfaehiger als ein lauter harter Tickwechsel. Damit be
 Der Befund beschreibt passive Feldwirkung.
 
 Er ist kein Handlungssignal, kein Gate und keine Strategie. Er zeigt nur, dass Mini-DIO Rhythmusform und Energiepegel unterschiedlich im Innenfeld verarbeitet.
-
-## Wie es weitergeht
-
-Als naechstes sollte eine echte Melodie-Welt gebaut werden: mehrere Ton-/Rhythmusphasen in Folge, nicht nur eine einzelne Rhythmusform. Dann pruefen wir, ob Mini-DIO nicht nur Rhythmus, sondern gerichtete melodische Ordnung als Bedeutungsfolge verdichtet.

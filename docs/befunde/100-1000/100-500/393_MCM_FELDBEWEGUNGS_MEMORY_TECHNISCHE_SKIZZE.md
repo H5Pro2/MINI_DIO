@@ -175,7 +175,3 @@ Eine unabhaengige Late-Shift-Welt erzeugt dagegen:
 als junge Einzelspur.
 
 Das ist fachlich wichtig: Wiederkehr wird verdichtet, Einzelkontakt bleibt jung.
-
-## Wie es weitergeht
-
-Als naechstes wird die rezeptorisch-regulatorische Wahrnehmungsschicht separat festgehalten. Sie beschreibt, wie unterschiedliche Asset- und Weltklassen ueber Fokus/Abstand, lauter/leiser, scharf/unscharf und Druck/Entspannung in das MCM-Feld gelangen.

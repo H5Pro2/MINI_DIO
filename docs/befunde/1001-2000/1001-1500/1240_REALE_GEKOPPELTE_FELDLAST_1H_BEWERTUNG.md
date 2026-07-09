@@ -84,7 +84,3 @@ Das ist ein starker Hinweis, dass MINI_DIO hier eine wiederkehrende Feldphasenme
 Die Pruefung umfasst SOL/BTC Stress-/Quiet-Welten in 5m und 1h.
 
 Sie sagt noch nicht, ob dieselbe Sequenz bei PAXG, KAS, DOGE, XRP oder synthetischen Extremwelten gleich bleibt.
-
-## Wie es weitergeht
-
-Als naechstes sollte diese Rollenfolge assetuebergreifend geprueft werden. Ziel: herausfinden, ob `Zentrum/Rekopplung -> Rand/Kipp -> Offenheit` eine allgemeine MCM-Feldphasenmechanik ist oder nur bei SOL/BTC stabil erscheint.

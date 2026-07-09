@@ -222,9 +222,6 @@ def _write_md(summary: list[dict[str, object]], out: Path) -> None:
             "",
             "Damit wird das Brueckennetz nicht als feste Symboltabelle gelesen, sondern als dynamisches Rollenfeld.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollten die stabilen und kippenden Rollenfamilien gegen konkrete Rohweltfenster gelesen werden: Welche Weltmerkmale halten eine Rolle stabil, und welche Weltmerkmale lassen sie kippen?",
         ]
     )
     out.parent.mkdir(parents=True, exist_ok=True)

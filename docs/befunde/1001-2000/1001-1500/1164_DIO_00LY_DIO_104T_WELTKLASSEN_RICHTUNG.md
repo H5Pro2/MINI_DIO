@@ -91,7 +91,3 @@ Noch nicht gesagt ist:
 - ob die Richtung bei anderen Tickfensterbreiten gleich bleibt,
 - ob Segmentkanten dieselbe Richtung zeigen,
 - ob die Balancierung ein stabiler Zentrumseffekt ist.
-
-## Wie es weitergeht
-
-Als naechstes sollte die Fensterbreite geprueft werden: bleibt die Richtung bei 6, 12 und 24 Ticks aehnlich, oder ist die Achsenrichtung nur ein Artefakt des gewaehlten Nahfensters?

@@ -104,9 +104,6 @@ def _write_markdown(path: Path, csv_path: Path, data_path: Path, frames: list) -
             "",
             "Wichtig: Der Chart spricht nicht. MINI_DIO erhaelt eine tonale Weltspur, aus der sich bei Wiederkehr eigene Klangbedeutung bilden kann.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte diese Tonfolge gegen MCM-Feldlagen gelegt werden. Dann sehen wir, ob bestimmte Melodiephrasen wiederkehrend mit stabiler Mitte, Randspannung oder offener Bruecke koppeln.",
         ]
     )
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")

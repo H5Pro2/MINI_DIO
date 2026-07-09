@@ -63,8 +63,3 @@ Rekopplung   = Qualitaet, die Zentrum und Uebergang stabilisiert
 
 Wichtig: Die numerischen Einteilungen sind Diagnosehilfen.
 Sie sind keine Regeln fuer MINI_DIO und keine universellen MCM-Grenzen.
-
-## Wie es weitergeht
-
-Als naechstes sollte dieselbe Matrix auf lange ruhige Welten, Stresswelten und Expansionswelten gelegt werden.
-Ziel ist zu pruefen, ob `zentrum_mit_rand_und_uebergang` stabil bleibt, ob Randspannung bei Stress sichtbar zunimmt oder ob neue Mischklassen entstehen.

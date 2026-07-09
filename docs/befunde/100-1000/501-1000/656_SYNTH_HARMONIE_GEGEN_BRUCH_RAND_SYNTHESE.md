@@ -92,7 +92,3 @@ Das kann zwei Ursachen haben:
 - Die synthetische Welt ist zwar unruhiger, aber noch nicht scharf genug, um echten Rand/Kippraum auszuprägen.
 
 Beides muss getrennt geprüft werden.
-
-## Wie es weitergeht
-
-Als nächstes sollte eine phasenmarkierte synthetische Welt gebaut werden: gleiche OHLCV-Struktur, aber zusätzlich ein Diagnoseprotokoll, das jede Phase gegen die entstehende MCM-Rolle liest. Dann kann geprüft werden, ob `bruch_impuls`, `randflackern`, `gegenpol` und `rekopplung` tatsächlich unterschiedliche Innenfeldrollen auslösen.

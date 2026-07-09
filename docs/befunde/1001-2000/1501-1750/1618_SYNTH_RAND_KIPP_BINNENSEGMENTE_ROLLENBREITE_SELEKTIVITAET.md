@@ -75,7 +75,3 @@ Damit ist die bisherige Arbeitsform präziser:
 ## Grenze
 
 Der Befund zeigt eine klare Trennung zwischen Rollenbreite und Selektivität. Er beweist noch nicht, welcher Randanteil die Selektivität auslöst. Dafür müssen Anfangsrand und Endrand getrennt geprüft werden.
-
-## Wie es weitergeht
-
-Als nächstes sollten drei gezielte Kompositionsfenster geprüft werden: `0-1750`, `250-2000` und `0-250 + 250-1750` ohne Endrand. Ziel ist zu klären, ob der Anfangsrand, der Endrand oder ihre Kombination die selektive Offline-Reorganisation auslöst.

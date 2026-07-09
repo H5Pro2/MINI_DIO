@@ -52,7 +52,3 @@ Vorläufige Lesung:
 ## Schluss
 
 Innennähe allein reicht nicht. Die Familie muss gegen Rohweltfenster und Feldfolge gelesen werden.
-
-## Wie es weitergeht
-
-Als nächstes sollte geprüft werden, ob andere breit wirkende Familien ebenfalls zwischen aggregierter Nachbarschaft und konkretem Ereigniskern unterscheiden.

@@ -85,7 +85,3 @@ Das stützt die aktuelle MCM-Arbeitshypothese: Das Feld besitzt eine robuste Gru
 - [synthetische_strukturqualitaet_topology.md](../../../../reports/synthetische_strukturqualitaet_topology.md)
 - [synthetische_strukturqualitaet_randdruck.md](../../../../reports/synthetische_strukturqualitaet_randdruck.md)
 - [1742_DOGE_BTC_PAXG_LANGFENSTER_MATRIX.md](1742_DOGE_BTC_PAXG_LANGFENSTER_MATRIX.md)
-
-## Wie es weitergeht
-
-Als nächstes sollte geprüft werden, ob kontrollierte Ruhe, Bruch/Rand und Expansion bei Wiederholung mit frischer Memory dieselbe lokale Färbung erneut ausbilden. Damit trennen wir robuste Topologie von zufälliger Einzelweltwirkung.

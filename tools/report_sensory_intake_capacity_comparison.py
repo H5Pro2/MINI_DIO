@@ -249,9 +249,6 @@ def write_markdown(path: Path, rows: list[dict[str, object]]) -> None:
             "",
             "Das Feld wird nicht umgebaut. Es liest, was die Aufnahmeart mit ihm macht.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte geprueft werden, ob MINI_DIO diese Aufnahmequalitaeten episodisch wiedererkennt: gleiche Weltlage, gleiche Aufnahmeart, aehnliche Feldwirkung. Das waere der Uebergang von Diagnose zu passiver Lernspur.",
         ]
     )
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")

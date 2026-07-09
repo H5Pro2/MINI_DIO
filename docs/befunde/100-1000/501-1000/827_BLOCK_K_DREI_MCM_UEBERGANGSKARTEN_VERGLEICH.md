@@ -73,7 +73,3 @@ Damit wird die Topologie nicht als starres Bild gelesen. Stabil wirkt die Rollen
 ## Grenze
 
 Das ist ein passiver Strukturvergleich. Er beschreibt keine Handlung und keine Vorhersage.
-
-## Wie es weitergeht
-
-Als naechstes sollte die Veraenderung der Rollenanteile genauer gegen die Weltspannung gelesen werden. Dann wird sichtbar, welche Aussenweltmerkmale offene Bruecken, instabile Kontaktzonen oder randnahe Unruhe verstaerken.

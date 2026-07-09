@@ -57,5 +57,3 @@ Damit passt Code und Bauplan besser zusammen.
 ## Grenze
 
 Aeltere Befunde vor dieser Korrektur bleiben historisch wertvoll, muessen aber bei Feldspannungsfragen vorsichtig gelesen werden, wenn sie Rohfeldaufnahme und MCM-Spannung noch nicht sauber getrennt haben.
-
-Wie es weitergeht: Als naechstes sollten die synthetischen Kontrollwelten mit adaptierter Feldkopplung erneut laufen, damit Harmonie, Bruch/Rand und Randdominanz auf dem korrigierten Mechanikstand verglichen werden.

@@ -53,7 +53,3 @@ Der Mehrwert liegt nicht in einer neuen Regel, sondern in einer stabileren inner
 ## Grenze
 
 Diese Schicht bleibt passiv. Sie ist keine Vorhersage, kein Signal und keine Handlungsvorbereitung. Sie dokumentiert nur wiederkehrende Feldnähe.
-
-## Wie es weitergeht
-
-Als nächstes sollte diese Vorwahrnehmungs-Memory gegen neue reale Weltfenster geprüft werden. Entscheidend ist, ob dieselben Feldkontaktrollen wieder auftauchen, driften oder neue Rollen daneben entstehen.

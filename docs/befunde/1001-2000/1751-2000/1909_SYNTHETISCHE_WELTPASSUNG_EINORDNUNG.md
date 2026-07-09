@@ -52,7 +52,3 @@ Diese Prüfung bleibt passiv:
 - kein Gate
 - keine Richtung
 - keine Strategie
-
-## Wie es weitergeht
-
-Als nächstes sollte geprüft werden, ob synthetische Welten gezielt `kern_geoeffnet` oder `kern_verschoben` erzeugen können, ohne sofort in `kern_ausgeblendet` zu kippen. Dafür sind weichere Übergangswelten besser geeignet als harte Bruch- oder reine Harmonie-Kontrollwelten.

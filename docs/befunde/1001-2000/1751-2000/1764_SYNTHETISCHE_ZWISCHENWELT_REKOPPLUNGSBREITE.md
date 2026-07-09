@@ -123,7 +123,3 @@ Die aktuelle Zwischenwelt zeigt nur den ersten Schritt:
 von kompakter Nachhallbindung
 zu lokaler Rollenöffnung.
 ```
-
-## Wie es weitergeht
-
-Als nächstes sollte die erfolgreiche Phase `SYN1764_B_3000_4000` vergrößert und variiert werden. Ziel ist zu prüfen, ob längere lokale Öffnung mit anschließender Rekopplung aus `mittlere_uebergangsphase` eine echte `verteilt_rekoppelnd`-Phase bilden kann.

@@ -225,9 +225,6 @@ def _write_md(path: Path, rows: list[dict[str, str]]) -> None:
     lines.append("Wichtig: Ein Anschlussanker ist nicht gleich Brueckenkern.")
     lines.append("Der Brueckenkern verbindet stabile zentrale Bedeutungsraeume. Ein Anschlussanker koppelt solche Raeume an offene Drift-, Rand- oder Seitenphasen.")
     lines.append("")
-    lines.append("## Wie es weitergeht")
-    lines.append("")
-    lines.append("Als naechstes sollte die staerkste Anschlussanker-Landschaft gegen weitere Weltgruppen geprueft werden, um zu sehen, ob die Rolle unter anderer Weltspannung stabil bleibt oder neue Anschlussanker entstehen.")
     path.write_text("\n".join(lines), encoding="utf-8")
 
 

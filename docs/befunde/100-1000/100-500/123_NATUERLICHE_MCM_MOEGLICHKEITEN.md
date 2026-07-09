@@ -271,15 +271,3 @@ Die MCM in MINI_DIO sollte nicht als Sammlung einzelner Kennzahlen verstanden we
 - Weltkontakt durch getrennte Sinnesachsen
 
 Der wichtige Punkt ist: Diese Eigenschaften werden nicht als harte Strategie programmiert. Sie werden lesbar gemacht.
-
-## Wie Es Weitergeht
-
-Als nächstes sollte die Forschung entlang dieser Achsen geführt werden:
-
-1. Neue Welt auswählen.
-2. Feldklasse bestimmen.
-3. Stress- oder Ruheabschnitte abschnittsweise prüfen.
-4. Sinnesachsen gegen Rekopplung und Feldklasse halten.
-5. Prüfen, ob Feldzeit sichtbar wird: Nachhall, Drift, Wiederkehr, Verblassen.
-
-Damit bleibt MINI_DIO ein MCM-Forschungsorganismus und wird nicht wieder zu einem mechanischen Regelapparat.

@@ -88,5 +88,3 @@ Fachliche Grenze:
 
 - bestaetigt als wiederkehrendes Mikrofensterprofil
 - noch nicht bestaetigt als eigenstaendige stabile Topologierolle
-
-Wie es weitergeht: Als naechstes sollte die Mikrophase mit konkreten Rohweltabschnitten gekoppelt werden: Was passiert im Chartfenster vor, waehrend und nach diesen Treffern?

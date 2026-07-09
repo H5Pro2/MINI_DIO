@@ -275,10 +275,6 @@ def _write_markdown(path: Path, rows: list[dict[str, object]], skipped: Counter[
             "",
             "Damit wird Folgehalt als Feldantwort auf Weltspannung lesbar, nicht als isolierte Rolle.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte diese Kopplung nach Asset/Weltart getrennt werden: Bleibt die Feldantwort gleich, wenn sich die Weltmelodie stark unterscheidet?",
-            "",
         ]
     )
     path.parent.mkdir(parents=True, exist_ok=True)

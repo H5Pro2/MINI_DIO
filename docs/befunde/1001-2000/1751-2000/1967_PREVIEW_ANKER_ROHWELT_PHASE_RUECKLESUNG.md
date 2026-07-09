@@ -72,7 +72,3 @@ Die Rücklesung gibt MINI_DIO eine sauberere Forschungsrichtung:
 - stabile Anker können Übergangsnähe tragen
 - nicht jede stabile Tiefe ist gleich
 - die Feldrolle muss aus Sehen, Hören, Fühlen und Nachhall gemeinsam gelesen werden
-
-## Wie es weitergeht
-
-Als nächstes gezielt prüfen, ob `dio_mcm_episode_08g1nk4` bei längeren Welten eine eigene Unterrolle bildet oder nur eine seltenere Übergangsvariante der stabilen Preview-Anker bleibt.

@@ -141,7 +141,3 @@ Es zeigt noch nicht:
 ```text
 Welche konkrete Rohweltursache den einzelnen Wechsel ausloest.
 ```
-
-## Wie es weitergeht
-
-Als naechstes sollten die wiederkehrenden Hauptwechsel-Familien einzeln verfolgt werden. Entscheidend ist, ob dieselbe Familie unter aehnlicher Rohweltspannung wieder enger reift oder wieder offene Anteile ausbildet.

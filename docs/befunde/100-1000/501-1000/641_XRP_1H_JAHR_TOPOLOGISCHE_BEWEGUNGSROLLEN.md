@@ -25,5 +25,3 @@ Passive Diagnose der Rollenbewegung aus den Preview-Uebergangspaaren. Die Rollen
 
 ## Befund
 XRP 1h erhaelt die Zentrum-Peripherie-Ordnung. Gegenueber XRP 5m wirkt die Bewegung jedoch weniger impulshaft verteilt und staerker durch die bekannte Achse Zentrum <-> offene Variante gepraegt. Das spricht dafuer, dass die XRP-Faerbung assetbezogen bleibt, aber durch die groebere Zeitaufloesung ruhiger gelesen wird.
-
-Wie es weitergeht: XRP 5m und XRP 1h werden im naechsten Schritt direkt gegeneinander gelesen, um zu klaeren, ob die Impulsfaerbung zeitaufloesungsabhaengig ist oder als Asset-Faerbung stabil bleibt.

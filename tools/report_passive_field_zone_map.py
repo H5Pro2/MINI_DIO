@@ -142,9 +142,6 @@ def _write_md(rows: list[dict[str, object]], out: Path) -> None:
             "Sie sagt nicht, dass MINI_DIO bewusst eine Zone auswaehlt.",
             "Sie zeigt aber, dass sich aus passiver Feldwirkung eine stabile, beschreibbare Zonenstruktur ableiten laesst.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte geprueft werden, ob diese Feldzonen ueber weitere Assets und Zeitraeume gleich bleiben oder ob neue Zonen entstehen.",
         ]
     )
     out.parent.mkdir(parents=True, exist_ok=True)

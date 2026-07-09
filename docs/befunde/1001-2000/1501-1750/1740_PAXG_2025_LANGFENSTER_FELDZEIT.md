@@ -75,7 +75,3 @@ Der 15m-Lauf ist aggregiert und kürzer als 5m/1h. Für eine vollständig symmet
 - [paxg_2025_long_window_summary.md](../../../../reports/paxg_2025_long_window_summary.md)
 - [paxg_2025_long_window_topology.md](../../../../reports/paxg_2025_long_window_topology.md)
 - [paxg_2025_long_window_randdruck.md](../../../../reports/paxg_2025_long_window_randdruck.md)
-
-## Wie es weitergeht
-
-Als nächstes sollte eine andere Welt mit vergleichbarer Länge geprüft werden. KAS oder BTC wären sinnvoll, weil wir damit trennen können, ob lange Feldzeit allgemein offene Varianten verstärkt oder ob PAXG hier besonders reagiert.

@@ -234,10 +234,6 @@ def write_markdown(results: list[dict], out_path: Path) -> None:
             "",
             "Die Diagnose bleibt passiv. Sie beschreibt, welche Abschnitte Last tragen; sie entscheidet nicht, was MINI_DIO tun soll.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als nächstes sollte eine neue Stresswelt gegen diese Abschnittsmerkmale geprüft werden. Entscheidend ist, ob der Stress-Gegenpol wieder aus derselben Kombination entsteht oder ob ein anderer Belastungstyp sichtbar wird.",
-            "",
         ]
     )
     out_path.write_text("\n".join(lines), encoding="utf-8")

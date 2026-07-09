@@ -69,7 +69,3 @@ Damit entsteht eine methodisch bessere Kandidatenklasse:
 ## Grenze
 
 Auch `12fuh1y` ist noch kein Beweis. Die Zählung ist weiterhin klein. Der Befund ist aber stark genug, um ihn gezielt weiter zu verfolgen.
-
-## Wie es weitergeht
-
-Als nächstes `12fuh1y` gegen weitere Real-Folgewelten aus anderen Zeitbereichen prüfen. Ziel ist, zu testen, ob er eine stabile reale Feldrolle bleibt oder nur in wenigen verwandten Weltfenstern getragen wird.

@@ -58,7 +58,3 @@ Das spricht dafür, dass MINI_DIO die Asset-Färbung nicht nur als Rohdatenlauts
 ## Grenze
 
 Dieser Befund ist auf XRP 2024/2025 in 5m und 1h beschränkt. Er ist ein reproduzierbarer Arbeitsbefund innerhalb der geprüften Welten, kein universeller Nachweis.
-
-## Wie es weitergeht
-
-Als nächstes sollte der gemeinsame Asset-Färbungsraum aktualisiert werden: PAXG als ruhiger Pol, DOGE als offene Rauschfärbung, XRP als Übergangs-/Impulsfärbung und BTC/SOL als Vergleichsanker.

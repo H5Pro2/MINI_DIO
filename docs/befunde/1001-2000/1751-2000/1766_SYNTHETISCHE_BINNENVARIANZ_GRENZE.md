@@ -115,7 +115,3 @@ Sie zeigt:
 ```text
 Zu gleichmäßig modulierte Binnenvarianz bleibt kompakt.
 ```
-
-## Wie es weitergeht
-
-Als nächstes sollte die 1765-Fokuszone nicht über zusätzliche Phasennamen erweitert werden, sondern über echten Kontrast: eine klarere Öffnungsphase, danach eine längere Rekopplungsphase, aber mit leicht unruhigem Nachhall. Ziel ist, Rollenbreite durch Feldwirkung zu erzeugen, nicht durch formale Struktur.

@@ -197,7 +197,3 @@ Hochlastschwelle Rohfeldaufnahme: `0.224216`.
 KAS wird nicht als dauerhaft randnah gelesen. Die Randnaehe entsteht in lokalen Segmenten, in denen Rohfeldaufnahme, Lautheit, visuelle Unschaerfe und Richtungswechsel zusammenfallen.
 
 Damit ist KAS als reale Randreferenz nuetzlich: Es zeigt, dass echte Weltabschnitte staerker randnah werden koennen als die bisherige synthetische Randdominanz, ohne dass das Gesamtfeld kollabiert.
-
-## Wie es weitergeht
-
-Als naechstes sollte aus den staerksten KAS-Randsegmenten eine synthetische Gegenwelt gebaut werden. Ziel ist zu pruefen, ob eine real inspirierte synthetische Welt dieselbe Randnaehe reproduzieren kann.

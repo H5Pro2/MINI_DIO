@@ -131,7 +131,3 @@ Rand/Kipp    = belastete Grenze
 ```
 
 Diese Grammatik kann fuer Wahrnehmung, Memory, Selbstbeobachtung und Bedeutungsverdichtung genutzt werden, ohne daraus direkt Handlung zu machen.
-
-## Wie es weitergeht
-
-Als naechstes sollte die Feldphasen-Matrix gegen synthetische Extremwelten gelesen werden: harmonische Welt, Rand-Dominanz, Bruchfolge, Zeitdehnung. Ziel: pruefen, ob die Matrix auch unter konstruierten Grenzfaellen stabil bleibt oder gezielt neue Phasen ausbildet.

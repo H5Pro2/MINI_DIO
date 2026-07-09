@@ -48,7 +48,3 @@ BTC, DOGE und XRP bleiben in der Realwelt weiterhin stärker feldzeitlich gereif
 ## Grenze
 
 Die Nullwelten sind Kontrollwelten, aber keine vollständige Widerlegung von Weltstruktur. Sie erhalten lokale Kerzenform, Länge und Verteilung. Deshalb prüfen sie vor allem, ob Reihenfolge, Richtung und asseteigene Spannung eine zusätzliche Feldordnung erzeugen.
-
-## Wie es weitergeht
-
-Als nächstes sollten größere Fenster gegen dieselbe assetnahe Nullweltlogik laufen. Entscheidend ist, ob Feldzeitreife mit wachsender Weltlänge stabiler wird oder ob Nullwelten bei sehr langen Sequenzen ähnliche Rollenbreite ausbilden.

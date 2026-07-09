@@ -104,5 +104,3 @@ Die Blockgroesse ist weiterhin Diagnose.
 Sie ist keine interne Regel fuer MINI_DIO.
 
 Die Ergebnisse zeigen nur, dass verschiedene zeitliche Lesetiefen unterschiedliche Aspekte derselben Feldordnung sichtbar machen.
-
-Wie es weitergeht: Als naechstes sollte die Blockgroesse nicht fest gewaehlt, sondern als mehrskalige Diagnose gelesen werden: kurze Lagebewegung, mittlere Lagefolge und laengere Feldphase.

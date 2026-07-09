@@ -73,7 +73,3 @@ Diese Prüfung zeigt Stabilität in den gewählten PAXG-2025-Fenstern. Sie bewei
 - [holdout_2025_paxg_matrix.md](../../../../reports/holdout_2025_paxg_matrix.md)
 - [holdout_2025_paxg_topology.md](../../../../reports/holdout_2025_paxg_topology.md)
 - [holdout_2025_paxg_randdruck.md](../../../../reports/holdout_2025_paxg_randdruck.md)
-
-## Wie es weitergeht
-
-Als nächstes sollte PAXG 2024 direkt gegen PAXG 2025 gelegt werden. Danach ist ein verschobenes PAXG-2025-Folgefüge sinnvoll, um zu prüfen, ob die Rekopplungsneigung auch außerhalb dieses Holdout-Fensters trägt.

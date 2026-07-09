@@ -281,10 +281,6 @@ def _write_md(summaries: list[dict[str, object]], feature_rows: list[dict[str, o
             "Diese Diagnose bewertet nur die Informationsaufnahme.",
             "Sie entscheidet nicht, welche Topologie wahr ist und sie erzeugt keine neue Feldwirkung.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte bei weiterhin auffaelligen Achsen geprueft werden, ob sie echte Weltqualitaet tragen oder ob der Adapter eine feinere Aufnahme braucht.",
-            "",
         ]
     )
     path.write_text("\n".join(lines), encoding="utf-8")

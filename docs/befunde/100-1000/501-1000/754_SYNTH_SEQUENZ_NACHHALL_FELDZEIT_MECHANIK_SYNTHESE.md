@@ -177,7 +177,3 @@ Und sie begrenzt sie gleichzeitig:
 Feldzeit kontrolliert die Gegenwart nicht.
 Sie gibt ihr Kontext.
 ```
-
-## Wie es weitergeht
-
-Als naechstes sollte eine vollstaendig permutierte oder zufaellig geordnete Phasenfolge gegen die Originalfolge laufen. Ziel: pruefen, ab welchem Punkt die lokale Nachhallstruktur nicht mehr nur verschoben, sondern wirklich zerlegt wird.

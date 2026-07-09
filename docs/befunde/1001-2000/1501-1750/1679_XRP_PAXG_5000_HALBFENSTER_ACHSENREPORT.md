@@ -74,7 +74,3 @@ Erst die gemeinsame Achsenlage beschreibt das Feldmilieu.
 ## Grenze
 
 Die Klassifikation ist eine passive Diagnose. Sie beschreibt Feldmilieu und Anschlussfaehigkeit, aber keine Richtung, keine Handlung und keine Strategie.
-
-## Wie es weitergeht
-
-Als naechstes sollte ein zusammenfassender Vier-Asset-Halbfensterbefund erstellt werden. Ziel ist, BTC, DOGE, XRP und PAXG nebeneinander zu lesen: gemeinsame Rand-/Kippklasse, aber unterschiedliche Binnenqualitaet.

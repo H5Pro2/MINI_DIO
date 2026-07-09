@@ -182,10 +182,6 @@ def _write_md(path: Path, comparisons: list[dict[str, object]], phases: list[dic
             "",
             "Das MCM-Feld liest Bewegungsfamilien asymmetrisch. Aufwaertsbewegung wird eher als Expansion/Fortsetzung differenziert, Abverkauf eher als Bruch/Rekopplung/Erholung nach Belastung.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte diese Asymmetrie gegen Topologie-Rollen gelesen werden: Liegen Bull-Fortsetzung und Selloff-Rekopplung an unterschiedlichen Rollenorten im MCM-Feld?",
-            "",
         ]
     )
     path.write_text("\n".join(lines), encoding="utf-8")

@@ -107,7 +107,3 @@ Sie sind zwei unterschiedliche passive Ordnungsformen:
 - verteilt für Bedeutungsbreite und Übergangsfähigkeit.
 
 Für MINI_DIO ist das relevant, weil spätere Tiefe nicht nur durch stärkere Einzelrollen entstehen muss, sondern durch stabile Beziehungen zwischen Rollen.
-
-## Wie es weitergeht
-
-Als nächstes sollte geprüft werden, ob verteilte Rollenbeziehungen über mehrere Folgewelten hinweg als Netzwerk erhalten bleiben, sich teilen oder neue Nachbarschaften bilden.

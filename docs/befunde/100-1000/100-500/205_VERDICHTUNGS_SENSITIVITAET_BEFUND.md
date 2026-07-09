@@ -102,13 +102,3 @@ Es gibt auch eine dynamische Eigenschaft der Welt:
 Wie stark eine Welt bei zeitlicher Verdichtung das Innenfeld belastet.
 
 Das ist eine wichtige Bruecke zwischen Weltanalyse und Innenfeldreaktion.
-
-## Wie es weitergeht
-
-Als naechstes sollte die Forschungsuebersicht aktualisiert werden:
-
-- Weltlautstaerke als eigene Diagnose,
-- Verdichtungs-Sensitivitaet als eigene Diagnose,
-- klare Trennung von Struktur, Lautstaerke und MCM-Feldwirkung.
-
-Danach sollte ein drittes Asset geprueft werden, um zu sehen, ob BTC und SOL nur zwei Einzelfaelle sind oder ob sich eine groessere MCM-Weltkarte bildet.

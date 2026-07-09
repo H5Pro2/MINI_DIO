@@ -164,7 +164,3 @@ getragen durch:
 - `dio_104t`,
 - `dio_mcm_episode_0b7nep9`,
 - in 2025 erweitert durch `0e7qvj1` und `0ykar6i`.
-
-## Wie es weitergeht
-
-Als naechstes sollte diese PAXG-stabile Rekopplungsfamilie gegen weitere PAXG-Zeitebenen oder gegen ein anderes ruhigeres Asset geprueft werden. Ziel ist zu klaeren, ob `dio_104t + 0b7nep9` PAXG-spezifisch ist oder eine allgemeinere ruhige Rekopplungsform darstellt.

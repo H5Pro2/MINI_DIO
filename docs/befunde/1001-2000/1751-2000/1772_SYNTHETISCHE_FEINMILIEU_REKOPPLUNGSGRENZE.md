@@ -136,7 +136,3 @@ bleibt das Feld kompakt.
 Der Befund gilt für die drei synthetischen Feinmilieu-Varianten A, B und C.
 
 Er zeigt nicht, dass ruhige Welten grundsätzlich keine Rollenbreite erzeugen können. Er zeigt nur, dass diese erste glatte Feinmilieu-Konstruktion noch zu homogen war.
-
-## Wie es weitergeht
-
-Als nächstes sollte eine zweite Feinmilieu-Welt gebaut werden, aber nicht lauter. Stattdessen braucht sie kontrollierte Mikrodifferenzen: kleine Richtungswechsel, leichte Asymmetrie, feine Range-Pulse und kurze lokale Spannungsinseln innerhalb ruhiger Bindung.

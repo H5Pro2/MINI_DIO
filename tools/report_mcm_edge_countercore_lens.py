@@ -187,12 +187,6 @@ def _write_md(path: Path, rows: list[dict[str, str]]) -> None:
     lines.append("- Junge Oberflaechen sind nicht automatisch neue Bedeutungsinseln.")
     lines.append("- Rand ist damit eher ein Spannungs- und Oeffnungsbereich als ein eigener stabiler Pol.")
     lines.append("")
-    lines.append("## Wie es weitergeht")
-    lines.append("")
-    lines.append(
-        "Als naechstes sollte die Randlupe gegen synthetische Randwelten und reale Stresswelten gelegt werden. Ziel: pruefen, ob Randkerne nur unter staerkerer Randdominanz entstehen oder ob sie grundsaetzlich kurzlebig bleiben."
-    )
-    lines.append("")
     path.write_text("\n".join(lines), encoding="utf-8")
 
 

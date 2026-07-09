@@ -1003,7 +1003,3 @@ Sauberer ist:
 ```text
 MINI_DIO kann passive Rueckfuehrung erfahrungsgewichtet sichtbar machen.
 ```
-
-## Wie es weitergeht
-
-Als naechstes werden die haeufigsten Wechsel-Familien ueber weitere Folgewelten verfolgt. Entscheidend ist, ob dieselbe Familie wiederholt unter aehnlicher Rohweltspannung reift, oeffnet oder ihre Milieu-Lage verschiebt.

@@ -58,7 +58,3 @@ Geprueft wird, ob `dio_role_*` stabil bleibt, weiter verdichtet, entlastet oder 
 
 Die Rollenbewegungs-Memory kann gegen eine Folgelandschaft gelesen werden, ohne daraus Handlung abzuleiten.
 Relevant ist nicht, ob ein Token dieselbe Klasse behaelt, sondern ob die gespeicherte Bewegungsqualitaet getragen bleibt.
-
-## Wie es weitergeht
-
-Als naechstes sollte die Lesung mit einer wirklich neuen vierten Landschaft wiederholt werden. Dann kann geprueft werden, ob `dio_role_*` generalisiert oder nur die bisherige Weltfolge beschreibt.

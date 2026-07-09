@@ -67,8 +67,3 @@ Sie beschreiben keine festen Mechaniken im Kern.
 
 Wenn die Rollen ueber weitere Welten stabil bleiben, entsteht daraus eine Rekopplungslandkarte:
 Welche Welt wirkt aktiv und bleibt loesbar, welche bindet das Feld, welche schreibt Memorylast?
-
-## Wie es weitergeht
-
-Als naechstes wird ein Befund geschrieben.
-Dabei steht die Unterscheidung zwischen `reiz_aktiv_rekoppelnd` und `last_bindend` im Mittelpunkt.

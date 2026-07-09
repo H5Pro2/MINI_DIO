@@ -319,10 +319,6 @@ def _write_md(rows: list[dict[str, object]], out_path: Path) -> None:
             "",
             "Wichtig: Die Profile beschreiben Aufnahmequalitaet. Sie sind keine Befehle und keine Regeln.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes werden die Nachbarschaften der drei Familien geprueft: Welche Familien liegen davor und danach, und kippt dabei Fokus, Druck oder Schaerfe?",
-            "",
         ]
     )
     out_path.write_text("\n".join(lines), encoding="utf-8")

@@ -62,7 +62,3 @@ Damit sieht die laengere Weltzeit in dieser Auswahl nicht wie Belastungskollaps 
 ## Grenze
 
 Diese Synthese vergleicht 3 kleine Weltgruppen. Sie ist ein robuster Hinweis fuer diese Testauswahl, aber keine allgemeine Statistik ueber alle moeglichen Welten.
-
-## Wie es weitergeht
-
-Als naechstes sollte geprueft werden, ob die hoehere 10k-Stabilisierung aus echter laengerer Feldintegration entsteht oder aus der aktuellen Score-Formel. Dafuer braucht es eine Episoden- und Feldepisoden-Lupe auf 803.

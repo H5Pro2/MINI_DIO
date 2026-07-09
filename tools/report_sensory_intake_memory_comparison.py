@@ -169,9 +169,6 @@ def write_markdown(path: Path, rows: list[dict[str, object]], base_path: Path, p
             "",
             "Das bleibt vor Handlung. Der Befund sagt nicht, was MINI_DIO tun soll, sondern welche Aufnahmeform im Innenfeld wiedererkennbar bleibt.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte eine deutlich andere Gegenwelt laufen. Wenn dieselben ruhigen Spuren dort erhalten bleiben, spricht das fuer stabile Aufnahmefamilien. Wenn sie kippen, wird die Drift der Aufnahmequalitaet sichtbar.",
         ]
     )
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")

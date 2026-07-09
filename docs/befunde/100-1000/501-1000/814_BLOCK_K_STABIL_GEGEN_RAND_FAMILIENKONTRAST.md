@@ -64,7 +64,3 @@ Der Befund ist passiv. Er beschreibt Innenfeld- und Bedeutungsprofile, keine Str
 | edge | lang_10k | kontrolliert_2026_sideways_10k_5m_solusdt | 0.0028 | tragend_unruhig | 0.2223 | 0.6741 | 0.0424 | 0.6625 |
 | stable | lang_10k | kontrolliert_btc_2025_5m_10k_btcusdt | 0.0665 | stabil | 0.1484 | 0.8453 | 0.4297 | 0.7977 |
 | edge | lang_10k | kontrolliert_btc_2025_5m_10k_btcusdt | 0.0017 | tragend_unruhig | 0.2227 | 0.6430 | 0.0523 | 0.6496 |
-
-## Wie es weitergeht
-
-Als naechstes sollte geprueft werden, ob diese Randfamilie unter laengerer Folgewelt driftet, stabilisiert oder in eine eigene Bedeutungsinsel ausreift.

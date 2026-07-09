@@ -59,7 +59,3 @@ aber nicht global dominant.
 ## Grenze
 
 Die Expansionswelt ist nur eine 1000er Stichprobe. Fuer eine stabile Reifebeschreibung braucht es eine zweite Expansionswelt oder eine ruhige Seitwaertswelt als Gegenklasse.
-
-## Wie es weitergeht
-
-Als naechstes sollte eine ruhige Seitwaertswelt geprueft werden. Wenn `dio_00ly` dort ausbleibt oder anders kippt, ist die Familie wahrscheinlich an aktive Bewegungsraeume gebunden. Wenn sie dort tragend bleibt, wird sie zu einem deutlich breiteren Brueckenrollen-Kandidaten.

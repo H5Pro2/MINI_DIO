@@ -199,7 +199,3 @@ Sie hält fest:
 - MINI_DIO ist keine Kopie dieser Systeme.
 - Die MCM/DIO-Richtung entstand unabhängig.
 - Die Ähnlichkeiten sind Anschlussstellen für weitere wissenschaftliche Einordnung.
-
-## Wie es weitergeht
-
-Als nächstes sollte geprüft werden, welche MINI_DIO-Befunde sich besonders sauber mit diesen Nachbarfeldern vergleichen lassen: Topologie, Feldzeit, Nachhall, Selbstregulation oder Offline-Feld-Reorganisation.

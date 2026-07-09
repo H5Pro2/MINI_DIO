@@ -63,7 +63,3 @@ Wichtig: Auch `nicht_wiedergefunden` ist kein Fehler. Es zeigt, dass ein Teil de
 ## Grenze
 
 Keine Handlung, keine Richtung, kein Gate. Diese Karte beschreibt nur, welche lokalen Inseln bei weiterer Weltzufuhr wieder anschließen.
-
-## Wie es weitergeht
-
-Als nächstes sollten die gereiften lokalen Inseln in die robuste Kandidatenkarte aufgenommen werden, aber nur als passive Reifespur. Danach kann geprüft werden, ob diese Reifespuren unter Stress wieder stabil bleiben.

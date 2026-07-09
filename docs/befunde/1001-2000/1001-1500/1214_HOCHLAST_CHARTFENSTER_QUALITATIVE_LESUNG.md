@@ -94,7 +94,3 @@ Reale Weltspannung fuehrt nicht direkt zu Rand/Kipp.
 Sie erzeugt zuerst offenen Uebergangsraum.
 Rand/Kipp entsteht erst bei belasteter Rekopplung.
 ```
-
-## Wie es weitergeht
-
-Als naechstes sollte geprueft werden, ob `offene_variante` zeitlich vor `spannungsrand_kippnaehe` liegt oder ob beide Rollen unabhaengige Feldantworten sind. Das waere der naechste Schritt von Einzelbildern zu Feldphasen.

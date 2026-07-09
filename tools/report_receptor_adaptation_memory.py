@@ -104,7 +104,6 @@ def _write_markdown(rows: list[dict[str, object]], path: Path) -> None:
             "Welche Sinneshaltung hatte in welchen Welten welche Feldfolge?",
             "```",
             "",
-            "Wie es weitergeht: Als naechstes kann diese Memory mit neuen Welten gefuettert werden. Wenn die Folge stabil bleibt, kann daraus spaeter eine selbst lernende Rezeptorschicht entstehen.",
         ]
     )
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")

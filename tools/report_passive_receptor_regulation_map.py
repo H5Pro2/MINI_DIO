@@ -142,10 +142,6 @@ def _write_md(path: Path, rows: list[dict[str, object]]) -> None:
             "Das ist keine Steuerung.",
             "Es ist eine Lesung darueber, welche Aufnahmeform das Feld spaeter eher bindet oder belastet.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte diese Karte gegen weitere Sinnes-/Feldrollen gelegt werden.",
-            "Ziel: pruefen, ob tonale Energie wirklich als fruehe Fragmentierungsnaehe wirkt oder nur in den bisher geprueften Welten dominant war.",
         ]
     )
     path.write_text("\n".join(lines), encoding="utf-8")

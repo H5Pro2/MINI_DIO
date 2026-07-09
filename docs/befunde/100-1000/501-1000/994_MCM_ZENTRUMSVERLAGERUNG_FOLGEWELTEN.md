@@ -31,8 +31,3 @@ Arbeitsableitung:
 Mitte wird nicht zwingend als identischer Knoten kopiert.
 Mitte kann sich als Feldrolle verlagern.
 ```
-
-## Wie es weitergeht
-
-Als naechstes sollten die neuen Top-Zentrumsknoten einzeln gegen ihre Rohwelt- und Sinnesachsen zurueckgelesen werden.
-Dann wird sichtbar, ob die Verlagerung eine echte neue Feldmitte oder nur Oberflaechennaehe ist.

@@ -193,9 +193,6 @@ def _write_markdown(path: Path, rows: list[dict], all_rows: list[dict], title: s
             "",
             "Damit wird die Feldmemory genauer: Sie speichert nicht nur, dass eine Phase wiederkehrt, sondern in welcher Herkunftsqualität sie wiederkehrt.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als nächstes sollte diese Herkunftsdiagnose auf weitere reale und gestörte Weltketten angewendet werden. Entscheidend ist, welche Signaturen realweltgetragen bleiben und welche zu feldinternen Ordnungen oder gemischten Bindungen werden.",
         ]
     )
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")

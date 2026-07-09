@@ -84,7 +84,3 @@ Sie sollte vorerst nicht als harte neue Kategorie behandelt werden, sondern als 
 
 Die Rohweltform `gemischte_rohwelt` ist noch zu breit.
 Der naechste saubere Schritt ist eine feinere Zerlegung dieser gemischten Rohwelt in visuelle und tonale Unterformen.
-
-## Wie es weitergeht
-
-Als naechstes sollte `gemischte_rohwelt` innerhalb der Mischrolle feiner gelesen werden: welche konkreten Ton-, Range-, Richtungswechsel- und Verdichtungsfolgen tragen diese Kopplung?

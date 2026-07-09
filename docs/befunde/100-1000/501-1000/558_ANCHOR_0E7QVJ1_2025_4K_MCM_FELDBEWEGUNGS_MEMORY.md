@@ -340,7 +340,3 @@ Wichtig: Diese Qualitaeten sind keine Regeln. Sie beschreiben gewachsene Innenfe
 
 - CSV: `docs\befunde\558_ANCHOR_0E7QVJ1_2025_4K_MCM_FELDBEWEGUNGS_MEMORY.csv`
 - JSON: `docs\befunde\558_ANCHOR_0E7QVJ1_2025_4K_MCM_FELDBEWEGUNGS_MEMORY.json`
-
-## Wie es weitergeht
-
-Als naechstes kann diese MCM-Feldbewegungs-Memory gegen weitere Welten laufen, um zu pruefen, ob neue Bewegungen jung bleiben, driften oder wiederkehrend tragen.

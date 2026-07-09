@@ -43,7 +43,3 @@ Topologie zeigt Zentrum, offene Unruhe oder Randnaehe
 ```
 
 Die bisherige Datenlage spricht dafür, `tonal_mid` als passiven Hinweis auf einen feldtragenden Verarbeitungsbereich zu beobachten. Das bleibt Diagnose, nicht Regel.
-
-## Wie es weitergeht
-
-Als naechstes sollte geprueft werden, welche Rezeptorhaltung `tonal_mid` stabilisiert: Hinhoeren, Daempfung, visuelle Schaerfe, Distanz oder reduzierte Feldaufnahme.

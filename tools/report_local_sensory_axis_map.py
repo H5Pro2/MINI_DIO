@@ -239,9 +239,6 @@ def write_markdown(rows: list[dict[str, object]], path: Path, source_root: Path,
             "Welche Achsenlage blieb nur offen oder ausgeglichen?",
             "```",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes wird aus dieser Karte eine kleine Rekopplungsanalyse abgeleitet: Welche Achsenlage hat pro Welt die beste Rekopplung bei niedriger Belastung?",
         ]
     )
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")

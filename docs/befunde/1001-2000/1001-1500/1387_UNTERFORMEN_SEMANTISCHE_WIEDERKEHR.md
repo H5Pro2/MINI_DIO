@@ -60,7 +60,3 @@ Dieser Befund hilft, zwischen reiner Sinnesnaehe und echter Bedeutungsnaehe im M
 
 Familie und Preview sind interne MINI_DIO-Syntax, keine menschliche Bedeutung.
 Der Befund zeigt semantische Naehe im System, nicht eine externe Interpretation.
-
-## Wie es weitergeht
-
-Als naechstes sollte geprueft werden, ob semantisch gebundene Wiederkehr spaeter stabilere Feldzeit, geringeren Strain oder staerkere Rekopplung zeigt als reine Oberflaechenwiederkehr.

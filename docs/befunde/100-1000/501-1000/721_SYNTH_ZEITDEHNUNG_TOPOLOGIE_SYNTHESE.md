@@ -104,7 +104,3 @@ Noch offen:
 - ob derselbe Effekt in anderen synthetischen Welten sichtbar bleibt,
 - ob reale lange Welten dieselbe lokale Zeitintegration zeigen,
 - ob sich daraus eine robuste Feldzeit-Metrik ohne harte Zeitprogrammierung ableiten laesst.
-
-## Wie es weitergeht
-
-Als naechstes sollte eine zweite synthetische Welt mit anderer Grundform zeitgedehnt werden. Ziel: pruefen, ob Zeitdehnung allgemein Integration/Rekopplung erhoeht oder ob der Effekt speziell an `randflackern` im `bruch_rand`-Preset haengt.

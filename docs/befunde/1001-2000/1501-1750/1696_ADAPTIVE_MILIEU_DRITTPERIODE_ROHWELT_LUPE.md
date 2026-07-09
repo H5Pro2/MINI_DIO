@@ -44,7 +44,3 @@ Diese Tabelle zeigt nicht, warum ein Wechsel entsteht.
 Sie zeigt, welche rohen Welt- und Innenfeldbedingungen direkt vor und waehrend der wiederkehrenden Familienbewegung sichtbar sind.
 
 Auffaellig sind Treffer, bei denen das Vorfenster und die Folgephase in Hoeren-Gap und Feldspannung nahe beieinander bleiben. Dort wirkt der Wechsel eher wie eine Milieu-Umlagerung derselben Familienlage, nicht wie ein komplett neuer Rohreiz.
-
-## Wie es weitergeht
-
-Als naechstes sollten diese Lupenprofile gruppiert werden: Welche Treffer sind spannungsnah, welche hoernahe, welche rangegetrieben, und welche wirken wie reine Milieu-Umlagerung.

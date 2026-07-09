@@ -32,7 +32,3 @@ Sie bleibt passiv: keine Handlung, kein Gate, keine Richtung.
 
 `dio_01hu` ist in dieser Zweierkopplungspruefung zu selten sichtbar. Die Kopplungsqualitaet bleibt deshalb offen.
 Der Befund wird dokumentiert, aber nicht als Bruch- oder Tragfaehigkeitsaussage gewertet.
-
-## Wie es weitergeht
-
-Als naechstes sollte fuer diese Familie zuerst eine passendere synthetische Welt gesucht werden, weil die aktuelle Zweierkopplung zu wenig Sichtbarkeit erzeugt.

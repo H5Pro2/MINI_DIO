@@ -179,10 +179,6 @@ def write_md(rows: list[dict[str, str]]) -> None:
             "",
             "Wichtig ist: Gerade weil keine langen Folgeblöcke gefunden wurden, sollte die nächste Prüfung nicht nach starren Sequenzen suchen. Entscheidend ist, ob Dichtefenster über Preview-Symbole, Familiennähe und Feldwirkung wiederkehren.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als nächstes sollten die dichtesten Vorform-Fenster über ihre Preview-Symbole verfolgt werden: Wiederholen diese sich in weiteren Welten, oder bleibt nur die Sinnes-/Feldlage ohne semantische Bindung bestehen?",
-            "",
         ]
     )
     OUT_MD.write_text("\n".join(lines), encoding="utf-8")

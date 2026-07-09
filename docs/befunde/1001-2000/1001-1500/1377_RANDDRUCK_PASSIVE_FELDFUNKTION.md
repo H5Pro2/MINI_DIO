@@ -162,7 +162,3 @@ Damit entsteht eine kleine passive Funktionskarte:
 - Bruecke: Uebergang in lauteren Kontakt
 - Zentrumskontakt: aktivierte Zentrumsnaehe
 - Randdruck: fortgesetzter lauter Druckkontakt mit Entlastungsspur
-
-## Wie es weitergeht
-
-Als naechstes sollte diese dreiteilige Funktionskarte in einer gemeinsamen Uebersicht zusammengefasst werden. Danach kann gezielt in weiteren Welten geprueft werden, ob Bruecke, Zentrum und Randdruck stabil bleiben oder neue Rollen erzwingen.

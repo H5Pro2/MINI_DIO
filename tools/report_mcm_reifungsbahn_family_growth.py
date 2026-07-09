@@ -217,9 +217,6 @@ def _write_md(profiles: dict[tuple[str, str], dict[str, object]], rows: list[dic
             "Der Befund spricht aber nicht für feste Wortbedeutungen aus Namen allein.",
             "Er spricht für eine Reifungsbahn, in der Familien erst durch Rolle, Nachhall, Feldzeit und Kopplungsqualität lesbar werden.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als nächstes sollten die Familienrollen innerhalb der 17k-Realwelten zeitlich segmentiert werden: frühe Phase, Mittelphase, späte Phase. Dann wird sichtbar, ob Reife aus Stabilität, Drift oder Brückenbildung entsteht.",
         ]
     )
     OUT_MD.write_text("\n".join(lines) + "\n", encoding="utf-8")

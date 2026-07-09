@@ -109,7 +109,3 @@ XRP wurde hier nur als 5m-10k-Spotwelt gepr?ft. F?r eine stabilere Einordnung fe
 - andere XRP-Jahre,
 - bewusst newsnahe oder impulsstarke Extraktionsfenster,
 - nicht-marktbasierte Kontrollwelten.
-
-## Wie es weitergeht
-
-Als n?chstes ist XRP 1h sinnvoll. Ziel ist zu pr?fen, ob die ?bergangs-/Impulsf?rbung bei gr?berer Zeitaufl?sung stabil bleibt oder st?rker in offene Variante und Randn?he driftet.

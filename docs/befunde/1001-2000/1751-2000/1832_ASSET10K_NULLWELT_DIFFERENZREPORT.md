@@ -49,7 +49,3 @@ Damit wird die Feldordnung nicht als einfacher Stabil/Kollaps-Schalter sichtbar,
 ## Grenze
 
 Der Report vergleicht vier 10k-Assetwelten gegen zwei synthetische Nullwelten. Fuer eine belastbarere Aussage muessen weitere Jahre, Zeitachsen und Nullweltvarianten gelesen werden.
-
-## Wie es weitergeht
-
-Als naechstes sollte dieselbe Asset-10k-Logik auf 2024 wiederholt werden. Entscheidend ist, ob Bedeutungsbreite, adaptive Rekopplung und Nachhall auch jahruebergreifend Realwelt und Nullwelt trennen.

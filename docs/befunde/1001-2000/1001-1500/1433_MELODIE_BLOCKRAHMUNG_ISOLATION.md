@@ -86,7 +86,3 @@ Sie reicht aber nicht aus, um die volle `1428`-Struktur zu erzeugen.
 ## Grenze
 
 Die Blockrahmung wurde hier mit positiver Drift erzeugt. Dadurch ist noch offen, ob die Verschiebung durch die Rahmung selbst, durch Drift oder durch deren Kopplung entsteht.
-
-## Wie es weitergeht
-
-Als naechstes sollte die Drift isoliert werden: gleiche Blockrahmung wie `1433`, aber neutralere Drift oder Gegenrichtung. Dann pruefen wir, ob `dio_0ein` aus der Rahmung selbst entsteht oder aus Rahmung plus gerichteter Weltbewegung.

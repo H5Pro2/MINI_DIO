@@ -109,7 +109,3 @@ Der Befund gilt fuer:
 - 5m,
 - Quiet/Stress 4k,
 - passive world-relative Wahrnehmung.
-
-## Wie es weitergeht
-
-Als naechstes sollte `0e7qvj1` gegen 2025-10k-Welten geprueft werden. Ziel: herausfinden, ob der Anker bei weiter wachsender Welt stabil bleibt, in einen anderen Anker uebergeht oder als lokale Insel erhalten bleibt.

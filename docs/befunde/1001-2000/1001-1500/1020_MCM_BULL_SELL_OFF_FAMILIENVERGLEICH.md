@@ -37,7 +37,3 @@ Bull- und Selloff-Seite sind nicht symmetrisch gespiegelt. Beide besitzen Bruch 
 ## Schluss
 
 Das MCM-Feld liest Bewegungsfamilien asymmetrisch. Aufwaertsbewegung wird eher als Expansion/Fortsetzung differenziert, Abverkauf eher als Bruch/Rekopplung/Erholung nach Belastung.
-
-## Wie es weitergeht
-
-Als naechstes sollte diese Asymmetrie gegen Topologie-Rollen gelesen werden: Liegen Bull-Fortsetzung und Selloff-Rekopplung an unterschiedlichen Rollenorten im MCM-Feld?

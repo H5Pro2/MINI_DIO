@@ -180,15 +180,3 @@ MINI_DIO scheint zu unterscheiden:
 Der Befund gilt zunächst für ein 1000-Zeilen-Fenster.
 
 Eine größere Aussage braucht weitere Late-Positive-Fenster oder eine volle 10k-Prüfung.
-
-## Wie Es Weitergeht
-
-Als nächstes sollte die Expansionsachse zusammengefasst werden.
-
-Ziel:
-
-- eine klare Übersicht der vier Expansionsformen,
-- Wertevergleich,
-- MCM-Deutung,
-- offene Prüfpunkte.
-

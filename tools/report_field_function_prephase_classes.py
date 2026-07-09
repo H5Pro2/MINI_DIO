@@ -220,9 +220,6 @@ def _write_markdown(path: Path, summary_rows: list[dict[str, object]], labels: l
             "",
             "DIO kann daraus später eine organische Vorwahrnehmung entwickeln: nicht handeln, sondern merken, welche Vorphase typischerweise zu Öffnung oder Rekopplung führt.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als nächstes sollte geprüft werden, ob diese Vorphasen-Klassen über weitere Weltkörper stabil bleiben oder ob Asset-spezifische Vorphasen entstehen.",
         ]
     )
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")

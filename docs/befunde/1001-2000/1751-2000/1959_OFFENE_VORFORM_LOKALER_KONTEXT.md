@@ -46,7 +46,3 @@
 Die offene Vorform erscheint nicht als harter Block. Sie wirkt verteilt und bildet lokale Dichtefenster. Das passt besser zur bisherigen Lesung als Nebelraum: Die Lage ist wiederkehrend, aber noch nicht zu einer festen Rolle verdichtet.
 
 Wichtig ist: Gerade weil keine langen Folgeblöcke gefunden wurden, sollte die nächste Prüfung nicht nach starren Sequenzen suchen. Entscheidend ist, ob Dichtefenster über Preview-Symbole, Familiennähe und Feldwirkung wiederkehren.
-
-## Wie es weitergeht
-
-Als nächstes sollten die dichtesten Vorform-Fenster über ihre Preview-Symbole verfolgt werden: Wiederholen diese sich in weiteren Welten, oder bleibt nur die Sinnes-/Feldlage ohne semantische Bindung bestehen?

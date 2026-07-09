@@ -113,8 +113,3 @@ Bedeutung liegt auch in gerichteten Uebergaengen zwischen Inseln.
 Dieser Befund bleibt diagnostisch.
 MINI_DIO entscheidet daraus nichts.
 Es wird nur gelesen, dass die Feldbewegung messbar asymmetrisch ist.
-
-## Wie es weitergeht
-
-Als naechstes sollte diese Uebergangsasymmetrie mit weiteren 10k-Welten und frischer Memory wiederholt werden.
-Ziel ist zu pruefen, ob `1t5bcxp -> 183drjy` stabil als rekoppelnde Feldbewegung wiederkehrt oder ob die Asymmetrie an die aktuell verwendeten Welten gebunden ist.

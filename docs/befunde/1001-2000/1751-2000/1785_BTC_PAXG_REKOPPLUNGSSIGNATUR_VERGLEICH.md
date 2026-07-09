@@ -57,7 +57,3 @@ Das ist eine passive Diagnose. Sie beschreibt keine Handlung, keine Richtung und
 
 - `reports/btc_paxg_rekopplungssignatur_vergleich.csv`
 - `reports/btc_paxg_rekopplungssignatur_vergleich.md`
-
-## Wie es weitergeht
-
-Als nächstes sollte geprüft werden, ob diese rekoppelnde Feldfunktion auch bei einem weiteren Asset oder einer synthetischen Kontrollwelt auftaucht. Ziel ist zu trennen, ob Rekopplung assetübergreifend stabil ist oder nur bei bestimmten Weltspannungen entsteht.

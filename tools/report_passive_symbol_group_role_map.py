@@ -212,10 +212,6 @@ def _write_md(rows: list[dict], path: Path) -> None:
             "Die Rollenkarte beschreibt nur passive Innenfeldordnung.",
             "Sie beweist keine universelle Topologie und erzeugt keine aktive Regulation.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte die Rollenkarte gegen eine neue Welt gelegt werden. Grundfrage: bleiben die Gruppenrelationen erhalten, auch wenn die Einzelzeichen wechseln?",
-            "",
         ]
     )
     path.write_text("\n".join(lines), encoding="utf-8")

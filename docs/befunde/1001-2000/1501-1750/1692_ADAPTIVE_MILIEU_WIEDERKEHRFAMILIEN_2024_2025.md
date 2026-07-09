@@ -104,7 +104,3 @@ Dort ist die Aehnlichkeit von Folge-Range, Hoeren-Gap und Feldspannung am hoechs
 
 Dieser Bericht beweist keinen Ausloeser.
 Er isoliert Kandidaten fuer weitere Ruecklesung.
-
-## Wie es weitergeht
-
-Als naechstes sollten die rohweltnahen Kandidaten gegen ein weiteres Jahr oder ein anderes Assetfenster verfolgt werden. Wichtig ist, ob dieselbe Familie bei aehnlichem Folgeprofil erneut dieselbe Milieu-Bewegung zeigt.

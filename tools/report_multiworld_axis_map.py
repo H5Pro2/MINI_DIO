@@ -405,10 +405,6 @@ def _write_markdown(rows: list[dict[str, object]], path: Path, csv_path: Path) -
             "",
             "Die Klassifikation ist eine passive Diagnose. Sie beschreibt Feldmilieu und Anschlussfaehigkeit, aber keine Richtung, keine Handlung und keine Strategie.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte dieser Report auf neue Assets oder neue synthetische Kontrollwelten angewendet werden. Ziel ist zu pruefen, ob die Achsenklassen stabil bleiben oder neue Feldmilieus entstehen.",
-            "",
         ]
     )
     path.write_text("\n".join(lines), encoding="utf-8")

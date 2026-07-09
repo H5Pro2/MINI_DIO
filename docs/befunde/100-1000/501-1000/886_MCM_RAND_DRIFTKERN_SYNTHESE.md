@@ -96,8 +96,3 @@ Fuer MINI_DIO bedeutet das:
 - Starke Drift kann als eigene Verdichtungsform auftreten.
 - Randnaehe muss nicht aktiv reguliert werden, solange sie nicht kernbildend wird.
 - Junge Selbstinseln sollten beobachtet werden, nicht sofort als stabile Bedeutung gelten.
-
-## Wie es weitergeht
-
-Als naechstes sollte `0ykar6i` isoliert gelesen werden.
-Ziel: pruefen, ob dieser Driftkern eine stabile Eigenphase traegt oder ob er nur durch eine einzelne laute Weltsequenz so stark erscheint.

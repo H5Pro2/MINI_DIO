@@ -99,9 +99,3 @@ Sie zeigen aber, dass DOGE und XRP 2024 die robuste zentrumsnahe Ordnung nicht b
 
 Die Diagnose beschreibt Feldmilieu und Anschlussfähigkeit.
 Sie beschreibt keine Richtung, keine Handlung und keine Strategie.
-
-## Wie es weitergeht
-
-Als nächstes sollte `mittlere_uebergangsphase` gezielt gesucht werden:
-entweder in weiteren SOL-Abschnitten, in DOGE/XRP 2025 oder in synthetischen Übergangswelten.
-Ziel ist zu klären, welche Weltmerkmale eine kompakte Nachhalllage in eine breitere Übergangsphase verschieben.

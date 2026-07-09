@@ -21,7 +21,3 @@ Damit wird geprueft, ob der Zentrumskontakt aus der vollen Lagefolge `ruhig_zent
 - Kontrollfenster: `19`
 - Kontrolltypen: [('same_origin_not_loud_contact', 7), ('same_target_not_center_origin', 12)]
 - Lagefolgen: [('lauter_feldkontakt->lauter_feldkontakt', 1), ('normale_weltspannung->lauter_feldkontakt', 9), ('offen_suchend->lauter_feldkontakt', 1), ('randlastige_sinneslage->lauter_feldkontakt', 1), ('ruhig_zentrumsnah->normale_weltspannung', 7)]
-
-## Wie es weitergeht
-
-Als naechstes wird diese Auswahl durch Rohwelt-, Rollen- und Nachhallpipeline gelesen.

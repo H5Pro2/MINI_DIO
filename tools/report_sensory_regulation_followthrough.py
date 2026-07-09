@@ -262,9 +262,6 @@ def write_markdown(
             "",
             "Die Diagnose zeigt nur, welche Wahrnehmungsfaehigkeit in welchen Feldlagen eher getragen oder eher drucknah gelesen wird.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte diese Feldtragung pro Asset getrennt gelesen werden: BTC, SOL und KAS koennen dieselbe Vorschlagssprache nutzen, aber unterschiedliche Entlastungs- und Tragprofile besitzen.",
         ]
     )
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")

@@ -233,9 +233,6 @@ def _write_md(path: Path, rows: list[dict[str, object]]) -> None:
         "ein Knoten traegt Rekopplungsfeld, der andere traegt zentrumsnahe Stabilitaet.",
         "```",
         "",
-        "## Wie es weitergeht",
-        "",
-        "Als naechstes sollte diese Mitte-Nachbarschaft gegen neue Folgewelten geprueft werden: bleibt die Beziehung erhalten oder verlagert sie sich erneut?",
     ]
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")
 

@@ -100,25 +100,3 @@ wenn die Sinnesaufnahme vorher welteinheitlich und organisch geordnet ist.
 ```
 
 Das MCM-Feld selbst sollte nicht die Aufgabe haben, rohe Skalenprobleme zwischen SOL/BTC, 5m/1h oder ruhigen/stressigen Welten zu reparieren.
-
-## Wie es weitergeht
-
-Als naechstes braucht MINI_DIO einen Wahrnehmungsadapter zweiter Ordnung.
-
-Grundfrage:
-
-```text
-Kann die Aufnahme weltuebergreifend vergleichbar werden,
-ohne echte Weltspannung wegzudaempfen?
-```
-
-Konkrete Unterpruefung:
-
-1. Bruch- und Rhythmusmerkmale getrennt messen.
-2. Pruefen, ob diese Merkmale unter `world_relative` noch sichtbar bleiben.
-3. Wenn ja: Adapter als Sinnesvorstufe behalten.
-4. Wenn nein: Adapter abschwaechen und Bruchspannung separat tragen.
-
-Folgeschritt:
-
-Erst danach sollte `world_relative` Standard werden. Bis dahin bleibt es Forschungsmodus.

@@ -183,7 +183,3 @@ Jeder neue größere Befund sollte nach Möglichkeit eine Wenn-Dann-Form bekomme
 Danach wird geprüft:
 
 > Tritt Y wirklich auf, bleibt es aus, oder entsteht eine dritte geordnete Variante?
-
-## Wie es weitergeht
-
-Als naechstes sollte dieselbe Asset-10k-Logik auf 2024 wiederholt werden. Entscheidend ist, ob Bedeutungsbreite, adaptive Rekopplung und Nachhall auch jahruebergreifend Realwelt und Nullwelt trennen.

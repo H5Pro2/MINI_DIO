@@ -103,7 +103,3 @@ Fuer eine staerkere Aussage braucht es:
 - laengere Zeitfenster,
 - mehr als zwei Zeitaufloesungen,
 - und eine gezielt synthetische Welt, in der dieselbe Struktur nur zeitlich gedehnt oder gestaucht wird.
-
-## Wie es weitergeht
-
-Als naechstes sollte eine synthetische Zeitdehnungswelt gebaut werden: gleiche Formfolge, einmal kompakt und einmal gedehnt. Ziel ist zu pruefen, ob MINI_DIO dieselbe MCM-Rollenordnung trotz veraenderter zeitlicher Streckung erkennt.

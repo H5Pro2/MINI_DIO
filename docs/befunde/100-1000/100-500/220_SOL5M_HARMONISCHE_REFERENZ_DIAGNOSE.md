@@ -54,8 +54,3 @@ Hierarchie der Pruefung:
 - SOL 5m gilt nur als aktuelle Referenz, nicht als Regel fuer alle Daten.
 - Groebere Aufloesungen koennen weniger Ticks liefern, aber pro Kontakt mehr Feldwirkung tragen.
 - Wenn Memorylast und Feldlast steigen, wird Wahrnehmung eher zu gebundener Feldhistorie.
-
-## Wie es weitergeht
-
-Als naechstes wird der Befund geschrieben.
-Dort wird festgehalten, welche Merkmalskombination SOL 5m tragfaehiger macht und welche Schutzrichtung daraus fuer MINI_DIO folgt.

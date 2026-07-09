@@ -171,9 +171,6 @@ def _write_md(path: Path, rows: list[dict[str, str]]) -> None:
     lines.append("Manche Spuren entstehen erst in neuer Weltspannung und sind dort direkt verdichtet.")
     lines.append("```")
     lines.append("")
-    lines.append("## Wie es weitergeht")
-    lines.append("")
-    lines.append("Als naechstes sollte eine echte Mehrlandschafts-Folge gebaut werden: nicht nur Basis vs. Vergleich, sondern drei oder mehr Landschaften in Reihenfolge, um Rollenreife und Rollendrift als Verlauf zu messen.")
     path.write_text("\n".join(lines), encoding="utf-8")
 
 

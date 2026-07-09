@@ -69,7 +69,3 @@ Der Unterschied liegt in der Folge:
 Entlastung: Rekopplung steigt, Strain faellt.
 Gegenform: Rekopplung steigt zu schwach, faellt, oder Strain steigt erneut.
 ```
-
-## Wie es weitergeht
-
-Als naechstes sollte diese Gegenform-Liste mit den direkten vorherigen Rollen gekoppelt werden, um zu sehen, ob bestimmte Vorrollen Nachlast beguenstigen.

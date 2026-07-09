@@ -68,7 +68,3 @@ Der Befund stuetzt ein dynamisches Bedeutungsnetz:
 - neue Familien koennen als Kandidaten auftreten,
 - die Reife einer Familie haengt von Wiederkehr, Rueckkopplung, Strain und Weltgruppenbreite ab,
 - fehlende Wiederkehr begrenzt die Bedeutung, ohne sie zu loeschen.
-
-## Wie es weitergeht
-
-Als naechstes sollte eine frische Folgewelt erzeugt werden, die nicht aus der bisherigen Holdout-Gruppe stammt. Danach wird geprueft, ob `dio_00ly` und `dio_0pq6` dort wieder als gleiche oder veraenderte Bindungsform auftauchen.

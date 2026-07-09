@@ -134,12 +134,6 @@ def _write_markdown(summary: dict[str, object], out_path: Path, debug_root: Path
             f"- Debug: `{debug_display}`",
             f"- Memory: `{memory_display}`",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte dieselbe Kette mit einer zweiten kontrollierten Welt laufen. "
-            "Dabei wird geprueft, ob dieselben Familien stabil bleiben, ob neue Inseln entstehen "
-            "oder ob vorhandene Bedeutungen driften.",
-            "",
         ]
     )
     out_path.write_text("\n".join(lines), encoding="utf-8")

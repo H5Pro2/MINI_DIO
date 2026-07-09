@@ -146,10 +146,6 @@ def _write_md(path: Path, rows: list[dict[str, object]]) -> None:
             "Es bleibt in der Grundtopologie aehnlich, verschiebt aber Last, Drift und Zentrumsnaehe je nach Weltgruppe.",
             "```",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte die spaete Zentrumsqualitaet gegen ihre Rohwelt und Sensorik zurueckgelesen werden.",
-            "Wenn sie nicht zufaellig ist, zeigt sie, wann aus Rekopplung eine getragene Mitte wird.",
         ]
     )
     path.write_text("\n".join(lines), encoding="utf-8")

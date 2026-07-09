@@ -111,7 +111,3 @@ Die direkte Rückmeldung kommt aus dem MCM-Feld:
 - bildet sie wiederkehrende Bedeutung?
 
 Daraus kann später gelernt werden, welche sensorische Anpassung für welche Weltlage tragfähig war.
-
-## Wie es weitergeht
-
-Als nächstes wird mit kurzen Kontrollläufen geprüft, ob `field_intake_pressure` und `adapted_field_intake_pressure` sauber auseinanderfallen: Das Feld soll echte Rezeptorwirkung erleben, während die Anpassungswerte nur als beobachtbare Fähigkeit danebenstehen.

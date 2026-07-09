@@ -99,5 +99,3 @@ Die Bedeutungsstruktur ist passiv.
 Sie wird nicht von MINI_DIO benutzt, um zu handeln.
 
 Sie ist eine Forschungs- und Speicherstruktur fuer Innenfeldbedeutung.
-
-Wie es weitergeht: Als naechstes sollte geprueft werden, ob diese Bedeutungsstruktur bei neuen Weltfenstern wiedererkannt, erweitert oder aufgespalten wird.

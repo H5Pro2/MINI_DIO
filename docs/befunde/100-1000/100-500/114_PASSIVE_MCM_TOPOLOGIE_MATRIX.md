@@ -101,20 +101,3 @@ Damit koennen spaetere Untersuchungen pruefen:
 
 Diese Ordnung kann spaeter fuer organische Regulation relevant werden,
 aber erst nach weiterer passiver Pruefung.
-
-## Wie es weitergeht
-
-Grundfrage:
-
-Sind die Rollen der Matrix nur globale Zusammenfassungen,
-oder zeigen sie auch innerhalb einzelner Weltabschnitte dieselbe Ordnung?
-
-Unterpruefung:
-
-Die Topologie-Matrix abschnittsweise lesen:
-fruehe Welt, mittlere Welt, spaete Welt.
-
-Folgeschritt:
-
-Pruefen, ob Zentrum, Bruecken, Drift und Uebergangszonen
-ueber Weltabschnitte stabil bleiben oder situativ wandern.

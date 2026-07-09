@@ -125,9 +125,6 @@ def _write_md(path: Path, source_csv: str, rows: list[dict[str, object]]) -> Non
             "",
             "Diese Lesung ist eine passive Diagnose aus vorhandenen Achsenwerten. Sie ist kein Gate, keine Handlung und keine fest programmierte Topologie.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als nächstes sollte geprüft werden, ob diese Teilnetz-Lesungen in weiteren Kernfamilien ähnlich entstehen oder ob `dio_104t` eine besondere Anschlussrolle trägt.",
         ]
     )
     path.parent.mkdir(parents=True, exist_ok=True)

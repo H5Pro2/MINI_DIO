@@ -180,9 +180,6 @@ def _write_md(path: Path, segment_rows: list[dict[str, str]], edge_rows: list[di
     lines.append("")
     lines.append("Das stuetzt die Annahme einer dynamischen MCM-Feldordnung. Ein Zeichen ist nicht absolut eine Rolle, sondern traegt eine Rolle relativ zur Weltspannung und zur Nachbarschaftsstruktur.")
     lines.append("")
-    lines.append("## Wie es weitergeht")
-    lines.append("")
-    lines.append("Als naechstes sollte geprueft werden, ob andere Tokens dieselbe Rollenwanderung zeigen: schwacher Anschluss -> starker Anschluss -> Kernpartner.")
     path.write_text("\n".join(lines), encoding="utf-8")
 
 

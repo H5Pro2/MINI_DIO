@@ -108,15 +108,3 @@ MCM-Feldrollen können auch ohne echte Außenweltbindung entstehen.
 Erst ihre Rückbindung an reale Weltphasen entscheidet,
 ob sie nur feldinterne Ordnung oder realweltlich getragene Bedeutung sind.
 ```
-
-## Wie es weitergeht
-
-Als nächstes sollte die Feldfunktions-Memory um eine passive `world_binding_quality` ergänzt werden.
-Diese Qualität darf keine Handlung auslösen.
-Sie soll nur unterscheiden:
-
-- feldintern geordnet,
-- realweltlich rücklesbar,
-- folgeweltlich getragen,
-- driftend,
-- unklar.

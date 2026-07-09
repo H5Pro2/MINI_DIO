@@ -27,7 +27,3 @@ Quelle: `reports/dio_104t_bridge_tick_windows.csv`
 - Kippnähe: Ereignis bleibt offen, der Nachlauf trägt eher offene Spannung als stabile Rekopplung.
 
 Damit ist `dio_104t` nicht einfach ein einzelnes Symbol. Es wirkt wie ein Anschluss-/Kohärenzknoten, dessen konkrete Lesart aus der Feldfolge entsteht.
-
-## Wie es weitergeht
-
-Als nächstes sollten `dio_0l7p` und `dio_104t` direkt nebeneinandergelegt werden, damit Brückenträger und Anschlussknoten sauberer getrennt werden.

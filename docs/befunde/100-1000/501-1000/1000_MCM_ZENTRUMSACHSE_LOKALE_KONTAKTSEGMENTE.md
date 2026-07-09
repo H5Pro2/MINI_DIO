@@ -67,7 +67,3 @@ Arbeitsableitung:
 Die Zentrumsachse ist nicht nur ein globaler Name.
 Sie besitzt lokale Kontaktsegmente, in denen Weltlage, MCM-Wirkung und Rollennaehe zusammenfallen.
 ```
-
-## Wie es weitergeht
-
-Als naechstes sollte geprueft werden, welche dieser Kontaktsegmente reproduzierbar wiederkehren und welche nur situationsbedingt auftreten.

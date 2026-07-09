@@ -32,7 +32,3 @@ Gemeinsame Lesung:
 ## Grenze
 
 Der Befund ist passiv. Er beschreibt Brueckentypen im Innenfeld, keine Handlung und keine Richtung.
-
-## Wie es weitergeht
-
-Als naechstes sollte aus diesen Brueckentypen eine kompakte MCM-Uebergangskarte gebaut werden: Randfamilie, Vorfeldanker, beidseitige Bruecke, Nachfeldanker, stabile Mitte.

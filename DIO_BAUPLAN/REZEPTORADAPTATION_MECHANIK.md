@@ -186,5 +186,3 @@ Ist das Sinnesaufnahme, Rezeptorkontakt, adaptierte Feldaufnahme, MCM-Feldwirkun
 ```
 
 Erst danach darf entschieden werden, ob und wie diese Information gespeichert, verglichen oder beschrieben wird.
-
-Wie es weitergeht: Als naechstes sollte diese Mechanik gegen den Code geprueft werden: Welche Spalten und Funktionen gehoeren zu Sinnesaufnahme, Rezeptorkontakt, adaptierter Feldaufnahme, MCM-Feldwirkung und Nachhall?

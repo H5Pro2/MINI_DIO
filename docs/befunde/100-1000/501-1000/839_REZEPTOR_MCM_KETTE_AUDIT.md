@@ -74,7 +74,3 @@ Rezeptorachsen bleiben weiter sichtbar in:
 - rezeptorischer Analyse.
 
 Sie wirken aber nicht mehr als zweite Feldspannung im neuronalen Feldkern.
-
-## Wie es weitergeht
-
-Als naechstes sollte ein kurzer Vergleichslauf pruefen, ob die Topologie nach der Feature-Bereinigung stabil bleibt und ob das Feld weniger doppelt von derselben Eingangsspannung gepraegt wird.

@@ -43,7 +43,3 @@ keine Aussage ueber Absicht
 ## Quelle
 
 - `docs/befunde/1001-2000/1501-1750/1708_ADAPTIVE_MILIEU_OEFFNUNGS_VORFORM_SYNTHETISCHE_KONTROLLWELTEN.csv`
-
-## Wie es weitergeht
-
-Als naechstes sollte `dio_0ly7` gegen weitere synthetische Varianten gehalten werden, um Range-Aufweitung von reiner Laststeigerung zu trennen.

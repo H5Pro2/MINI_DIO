@@ -74,7 +74,3 @@ Sie bildet keine Entscheidung, sondern eine geordnete Grundlage fuer spaetere In
 
 Mini-DIO kann aus wiederkehrenden Welt-/Feldformen eine kleine Bedeutungsbibliothek aufbauen.
 Das ist ein Schritt von reiner Beobachtung zu strukturierter Bedeutungsverdichtung, ohne Handlung zu erzwingen.
-
-## Wie es weitergeht
-
-Als naechstes sollte geprueft werden, ob neue Welten diese Bibliothek erweitern, bestaetigen oder einzelne Bedeutungen wieder oeffnen.

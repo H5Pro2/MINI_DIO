@@ -67,7 +67,3 @@ Wenn Rand/Kipp hohe Lautheit, hohes Rohfeld, sinkende Rekopplung und hohen Strai
 Wenn Lautheit hoch bleibt, die visuelle Schaerfe aber ebenfalls hoch bleibt, spricht das fuer Hoerlast bei lesbarer Form.
 
 Wenn visuelle Schaerfe niedrig ist, aber Lautheit nicht stark steigt, spricht das eher fuer Formbruch ohne starke Hoerlast.
-
-## Wie es weitergeht
-
-Als naechstes sollten die realen `gekoppelte_feldlast`-Fenster gegen die Rohweltsequenz gelesen werden. Ziel ist zu sehen, ob diese Rolle an Bewegungsbruch, Expansion oder Rekopplungsversuch gebunden ist.

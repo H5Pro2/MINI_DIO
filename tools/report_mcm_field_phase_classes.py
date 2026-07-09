@@ -219,10 +219,6 @@ def _write_markdown(path: Path, rows: list[dict[str, object]], input_path: Path)
             "sondern: Das Feld bewegt sich wiederholt so.",
             "```",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte geprueft werden, welche konkreten Weltarten die weltgebundenen und jungen Phasen ausloesen. Das trennt stabile Feldordnung von situativer Weltreaktion.",
-            "",
         ]
     )
     path.parent.mkdir(parents=True, exist_ok=True)

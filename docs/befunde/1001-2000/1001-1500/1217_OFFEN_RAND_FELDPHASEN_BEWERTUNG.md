@@ -101,7 +101,3 @@ Damit wird das MCM-Feld zeitlich lesbarer:
 Feldrollen sind nicht nur Orte.
 Sie sind Phasen einer Feldbewegung.
 ```
-
-## Wie es weitergeht
-
-Als naechstes sollte eine kleine Feldphasen-Matrix aufgebaut werden: `Zentrum`, `Offen`, `Rekopplungsnaehe`, `Rand/Kipp` als passive Bewegungsformen mit typischen Uebergaengen und Weltmerkmalen.

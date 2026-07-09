@@ -40,7 +40,3 @@ Passive Verdichtung der aktiven Achsenfenster in Chart-/MCM-Typen.
 Die Achsenfenster zerfallen nicht in beliebige Chartstellen. Sie bilden wiederkehrende Typen: gerichtete Bewegung mit Rekopplung, gerichtete Bewegung mit Bruch, Konsolidierung unter Druck, Konsolidierung mit Rekopplung, getragene Expansion und Abverkauf mit Rekopplung oder Bruch.
 
 Damit wird die bisherige Regimewechsel-Lesung konkreter: Das MCM-Feld reagiert nicht nur auf Richtung, sondern auf Uebergangsqualitaet. Entscheidend ist, ob ein Chartfenster Druck, Bruch, Rekopplung oder tragende Fortsetzung erzeugt.
-
-## Wie es weitergeht
-
-Als naechstes sollte geprueft werden, ob diese Typen ueber neue Welten wiederkehren oder ob neue Typen entstehen. Besonders wichtig ist die Frage, ob `gerichtete_bewegung_mit_rekopplung` und `abverkauf_mit_rekopplung` stabile MCM-Archetypen werden.

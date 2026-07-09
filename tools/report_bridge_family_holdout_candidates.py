@@ -204,9 +204,6 @@ def _write_md(rows: list[dict[str, object]], path: Path) -> None:
             "Ein neuer Kandidat ist nur dann interessant, wenn er in beiden Lesarten vorkommt und diese Lesarten durch Rekopplung und Strain unterscheidbar bleiben.",
             "Damit wird keine neue Bedeutung gesetzt. Es wird nur markiert, wo das Bedeutungsnetz moeglicherweise neue Knoten ausbildet.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollten die staerksten neuen Kandidaten einzeln mit Tickfenstern gelesen werden. Erst dann kann entschieden werden, ob sie echte neue Brueckenanker oder nur lokale Kontaktfragmente sind.",
         ]
     )
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")

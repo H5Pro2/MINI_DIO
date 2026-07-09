@@ -66,8 +66,3 @@ Damit wird sichtbar, ob eine Familie nur durch die Gesamtwelt mitgezogen wird od
 
 Wenn die phasenlokale Qualität deutlich von der Fensterqualität abweicht, ist das kein Fehler, sondern ein Hinweis auf mehrdimensionale Feldlesung:
 Fenster, Familie und Phase tragen nicht automatisch dieselbe Bedeutung.
-
-## Wie es weitergeht
-
-Als nächstes sollte geprüft werden, welche Familien phasenlokal stabil bleiben und welche nur durch die Fensterqualität mitgezogen wurden.
-Daraus lässt sich eine sauberere passive Bedeutungsreife ableiten: Familie + Phase + Nullwelt-Abstand statt Familie + Fenster allein.

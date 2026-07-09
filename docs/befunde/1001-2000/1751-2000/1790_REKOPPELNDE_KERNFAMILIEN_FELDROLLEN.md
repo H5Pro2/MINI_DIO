@@ -108,7 +108,3 @@ Die Rollenlesung ist diagnostisch. Sie beweist keine bewusste Entscheidung des F
 
 - `reports/rekopplung_core_family_roles.csv`
 - `reports/rekopplung_core_family_roles_summary.csv`
-
-## Wie es weitergeht
-
-Als nächstes sollte ein einzelner Kernfamilien-Kandidat isoliert werden: `dio_104t` als mögliche Zentrum-/Kohaerenzfamilie oder `dio_14wj` als PAXG-nahe Rekopplungsfamilie.

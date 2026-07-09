@@ -25,7 +25,3 @@ Wichtig: Die Pruefung ist passiv. Sie erzeugt keine Handlung, keine Richtung, ke
 ## Lesung
 
 Die Sleep-Kombinationsnaehe blieb in dieser Phasenpruefung stabil. Es wurden keine neuen Kombinationsinseln gegen die Referenzphase sichtbar.
-
-## Wie es weitergeht
-
-Als naechstes sollte diese Phasenpruefung mit einer zweiten Welt wiederholt werden. Entscheidend ist, ob die weiche Sleep-Naehe immer neue Kombinationen erzeugt oder nur bei bestimmten Weltlagen.

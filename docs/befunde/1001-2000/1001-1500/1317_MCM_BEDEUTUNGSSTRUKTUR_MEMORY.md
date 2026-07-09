@@ -38,5 +38,3 @@ Feldform + Assetfaerbung + Folge + Rohprofil + Sinnesprofil
 ```
 
 Damit kann MINI_DIO eine gemeinsame Feldbedeutung halten, ohne die Weltoberflaeche zu verlieren.
-
-Wie es weitergeht: Als naechstes sollte geprueft werden, ob diese Bedeutungsstruktur bei neuen Weltfenstern wiedererkannt oder erweitert wird.

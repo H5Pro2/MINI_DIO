@@ -146,9 +146,6 @@ def main() -> int:
 
     lines.extend(
         [
-            "## Wie es weitergeht",
-            "",
-            "Als nächstes sollte diese Diagnose nach mehreren Weltläufen verglichen werden. Entscheidend ist, ob Feldphasen-Tiefe steigt, Drift sinkt oder neue Qualitätsfamilien entstehen.",
         ]
     )
     out_md.write_text("\n".join(lines) + "\n", encoding="utf-8")

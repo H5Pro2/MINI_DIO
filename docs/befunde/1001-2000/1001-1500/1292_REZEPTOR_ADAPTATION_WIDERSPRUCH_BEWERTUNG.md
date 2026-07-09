@@ -94,5 +94,3 @@ Die Haltung ist weiterhin passiv.
 Mini-DIO waehlt sie noch nicht aus eigenem Verlauf heraus.
 
 Aber die Daten zeigen, dass diese Schicht als Grundlage fuer spaetere selbstlernende Sinnesregulation tragfaehig sein kann.
-
-Wie es weitergeht: Der naechste Schritt ist, die Rezeptor-Adaptationsmemory nicht nur global, sondern nach Weltart oder Sinneswiderspruch getrennt zu fuehren. Dann sieht Mini-DIO, welche Haltung in welcher Weltlage getragen hat.

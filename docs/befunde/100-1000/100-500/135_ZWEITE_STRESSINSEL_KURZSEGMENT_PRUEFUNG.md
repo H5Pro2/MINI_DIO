@@ -85,13 +85,3 @@ Sondern: Innenfeldlast als Feldwirkung lesen.
 Die Lesung ist relativ zur geprüften Segmentgruppe.
 Sie ist ein Diagnosewerkzeug, keine universelle Klassifikation.
 Weitere ruhige und belastete Kurzsegmente müssen gegengeprüft werden.
-
-## Wie es weitergeht
-
-Als nächstes sollte diese Kurzsegment-Lesung wissenschaftlich verdichtet werden:
-
-1. Welche Wertebereiche unterscheiden lokale Last und lokale Ruhe bisher?
-2. Welche Rolle spielt Feldzeit, wenn sie ruhig oder belastet eingebettet ist?
-3. Welche Polachsen sind über mehrere Kurzsegmente stabil?
-
-Danach kann ein Report entstehen, der Kurzsegment-Lesung als eigene passive Diagnoseebene beschreibt.

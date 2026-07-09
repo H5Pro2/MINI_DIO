@@ -242,11 +242,6 @@ def _write_md(overview_rows: list[dict[str, object]], world_rows: list[dict[str,
             "- breit driftende Feldbewegung,",
             "- stark fragmentierte Feldbewegung.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte diese Driftqualitaet auf Weltmerkmale zurueckgelegt werden.",
-            "Dann wird sichtbar, welche Weltspannung eine Feldbewegung eng haelt oder in breite Drift fuehrt.",
-            "",
         ]
     )
     out_path.write_text("\n".join(lines), encoding="utf-8")

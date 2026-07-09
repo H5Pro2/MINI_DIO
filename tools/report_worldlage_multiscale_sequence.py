@@ -150,7 +150,6 @@ def _write_markdown(rows: list[dict[str, object]], path: Path) -> None:
             "",
             "Die Auswertung bleibt passiv. Sie erzeugt keine Handlung und keine Steuerung.",
             "",
-            "Wie es weitergeht: Als naechstes sollten die skalenabhaengigen Folgen gegen konkrete Rohweltfenster gelesen werden, damit sichtbar wird, welche Weltbewegung eine neutrale Kurzlage in eine beruhigende laengere Feldphase ueberfuehrt.",
         ]
     )
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")

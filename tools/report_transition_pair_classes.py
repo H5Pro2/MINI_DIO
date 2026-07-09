@@ -259,10 +259,6 @@ def _write_md(rows: list[dict[str, object]], class_rows: list[dict[str, object]]
             "",
             "Damit entsteht eine passive Feldbewegung zwischen Grundinsel und rekoppelnder Innenzone.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes wird geprueft, ob diese Bewegungsarten in weiteren Welten stabil bleiben oder neue Klassen benoetigen.",
-            "",
         ]
     )
     out_path.write_text("\n".join(lines), encoding="utf-8")

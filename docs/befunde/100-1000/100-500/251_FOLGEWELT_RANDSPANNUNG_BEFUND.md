@@ -119,27 +119,3 @@ Regulation bedeutet hier:
 ```text
 Das Feld erkennt, ob Spannung rekoppelt, driftet oder als Randlage wiederkehrt.
 ```
-
-## Wie es weitergeht
-
-Als naechstes wird `dio_mcm_episode_182yyt2` gezielt gegen weitere Real- und Stresswelten gelegt.
-
-Grundfrage:
-
-```text
-Bleibt 182yyt2 eine Realwelt-Randspannung,
-oder taucht es auch unter Stresswelt-Bedingungen auf?
-```
-
-Unterpruefung:
-
-```text
-182yyt2 gegen Kippdruck, Felddruck, Rekopplung und Entlastung in mehreren Welten vergleichen.
-```
-
-Folgeschritt:
-
-```text
-Nur wenn 182yyt2 ueber mehrere Weltfamilien wiederkehrt,
-kann es als Kandidat einer stabileren passiven Spannungsfamilie gelten.
-```

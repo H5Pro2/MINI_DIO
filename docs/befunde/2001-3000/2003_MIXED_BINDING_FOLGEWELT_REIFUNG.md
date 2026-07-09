@@ -101,15 +101,3 @@ Welche Rohwelt-/Sinnesbedingungen hatten die fünf mixed_binding-Kandidaten ursp
 ```
 
 Erst danach kann eine passende Folgewelt gesucht werden.
-
-## Wie es weitergeht
-
-Als nächstes sollten die fünf `mixed_binding`-Kandidaten in ihrer ursprünglichen Weltumgebung rückgelesen werden:
-
-- welche visuelle Form,
-- welche Ton-/Energieform,
-- welcher Nachhall,
-- welche Rezeptorwirkung,
-- welche Feldphase.
-
-Danach lässt sich gezielter prüfen, ob ähnliche reale Weltbedingungen diese Kandidaten erneut berühren.

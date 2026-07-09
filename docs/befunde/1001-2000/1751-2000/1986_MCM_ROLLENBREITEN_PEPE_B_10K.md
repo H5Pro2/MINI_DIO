@@ -75,7 +75,3 @@ PEPE-B bestaetigt die robuste Grundordnung, aber nicht die automatische Wiederke
 ## Schlussfolgerung
 
 Die Topologie bleibt stabil, aber ihre Milieurollen sind nicht starr. PEPE-A hat eine starke situative Insel gebildet; PEPE-B koppelt stattdessen vor allem an vorhandene Grundrollen und bildet zusaetzliche Nebenrollen. Damit zeigt das Feld nicht nur Reproduktion, sondern auch phasenabhaengige Selektivitaet.
-
-## Wie es weitergeht
-
-Als naechstes sollte die PEPE-A-Zone genauer rueckgelesen werden: Welche Weltspannung, Tonlage, visuelle Form oder Nachhallphase hat `0hiolzy` getragen? Danach kann ein drittes PEPE-Fenster pruefen, ob diese Bedingungen wieder auftauchen.

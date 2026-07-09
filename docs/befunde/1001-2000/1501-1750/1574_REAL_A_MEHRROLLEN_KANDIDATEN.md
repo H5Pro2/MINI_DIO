@@ -67,7 +67,3 @@ Umgekehrt scheinen Sleep-Kombinationen dort naheliegender, wo Real-A bereits meh
 ## Grenze
 
 Das ist eine Kandidatenkarte, kein Beweis. Sie nutzt vorhandene Laeufe und erzeugt keine neue Handlung.
-
-## Wie es weitergeht
-
-Als naechstes sollte aus SOL-Mehrrollenfeld, BTC-Uebergangsfeld und PAXG/KAS-Einzelrekopplung eine Klassensynthese gebaut werden. Entscheidend ist, ob sich daraus eine stabile Abstufung der MCM-Feldnaehe ergibt.

@@ -23,5 +23,3 @@ Die konkrete Faerbung wird ueber Folge, Hoeren, Sicht, Felddruck und Range besch
 Wichtig ist nicht ein einzelnes Asset, sondern ob ein Shift-Typ in weiteren Welten wiederkehrt oder ausklingt.
 
 Die Auswertung bleibt passiv. Sie erzeugt keine Handlung, keine Richtung und kein Gate.
-
-Wie es weitergeht: Als naechstes sollte geprueft werden, ob diese Shift-Typen bei weiteren Holdout-Fenstern erneut auftreten oder ob sie lokale Oberflaechenvarianten bleiben.

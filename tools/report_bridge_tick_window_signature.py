@@ -108,9 +108,6 @@ def _write_md(path: Path, source: str, rows: list[dict[str, object]], family: st
             "",
             f"Damit ist `{family}` nicht einfach ein einzelnes Symbol. Die konkrete Lesart entsteht aus Feldfolge, Weltfenster und Nachbarschaft.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als nächstes sollte diese Signatur mit der bisherigen Rollentaxonomie verglichen werden.",
         ]
     )
     path.parent.mkdir(parents=True, exist_ok=True)

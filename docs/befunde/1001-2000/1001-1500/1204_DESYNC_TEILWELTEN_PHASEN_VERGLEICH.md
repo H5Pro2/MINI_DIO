@@ -117,7 +117,3 @@ sondern aus Kopplungsqualitaet, zeitlicher Form und Sinnesbeziehung.
 ```
 
 Damit wird Hoeren als eigene MCM-nahe Stimulationsachse sichtbar. Es wirkt staerker auf Rand/Uebergang als reine visuelle Unruhe, bleibt aber regulierbar, wenn die zeitliche Form tragbar ist.
-
-## Wie es weitergeht
-
-Als naechstes sollte eine synthetische Welt gebaut werden, in der Hoeren stabil pulsiert, aber Sehen gezielt wechselnde Formbrueche zeigt. Damit pruefen wir, ob stabile Tonform als Feldanker gegen visuelle Brueche wirkt.

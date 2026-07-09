@@ -43,7 +43,3 @@ schwache Brueckenkanten
 ```
 
 Damit entsteht keine flache Verbindungsliste, sondern eine strukturierte Uebergangstopologie.
-
-## Wie es weitergeht
-
-Als naechstes sollte die Rolle des zentralen Kerns gegen Randpfade und stabile Inseln gelesen werden: fuehrt der Kern eher in Zentrum, Rand oder offene Feldlagen?

@@ -110,7 +110,3 @@ Nicht:
 Neue leise Welt -> Zerfall der Topologie
 Neue leise Welt -> komplette neue Hauptordnung
 ```
-
-## Wie es weitergeht
-
-Als naechstes sollte nicht noch eine sehr aehnliche leise Welt folgen, sondern ein Kontrastfenster: entweder eine sehr laute Micro-Welt oder ein hoeherpreisiges ruhiges Asset. Ziel ist zu pruefen, ob die Rollenbreite unter Kontrast stabil bleibt oder ob sich neue Milieus abspalten.

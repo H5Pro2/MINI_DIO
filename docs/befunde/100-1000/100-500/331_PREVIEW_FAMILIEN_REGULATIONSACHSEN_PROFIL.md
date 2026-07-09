@@ -75,7 +75,3 @@ Familientrennung. Die eigentliche Differenz duerfte in der Nachbarschaft liegen:
 Familien davor und danach erscheinen, und ob dabei Schaerfe, Druck oder Abstand lokal kippen.
 
 Wichtig: Die Profile beschreiben Aufnahmequalitaet. Sie sind keine Befehle und keine Regeln.
-
-## Wie es weitergeht
-
-Als naechstes werden die Nachbarschaften der drei Familien geprueft: Welche Familien liegen davor und danach, und kippt dabei Fokus, Druck oder Schaerfe?

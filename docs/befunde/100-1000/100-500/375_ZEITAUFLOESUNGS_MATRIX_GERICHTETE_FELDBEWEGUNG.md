@@ -82,14 +82,3 @@ Die Bedeutung liegt in Feldlage, Richtung, Wiederkehr und Tragart.
 
 Dieser Befund ist kein Beweis fuer eine universelle MCM-Gesetzmaessigkeit.
 Er ist aber ein reproduzierbarer Befund innerhalb der geprueften SOL/BTC-2025-Welten und ihrer Zeitaufloesungen.
-
-## Wie es weitergeht
-
-Als naechstes sollte die stabile Richtung auf andere Weltarten gelegt werden:
-
-1. andere Assets,
-2. andere Jahre,
-3. gezielt gegenteilige Regime,
-4. danach erst eine Rueckfuehrung auf Weltmerkmale und Rezeptorkontakt.
-
-Ziel ist zu klaeren, ob die Asymmetrie eine allgemeine passive Feldbewegung ist oder eine Eigenschaft dieser konkreten SOL/BTC-2025-Welten.

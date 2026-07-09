@@ -262,10 +262,6 @@ def _write_markdown(rows: list[dict], out_path: Path) -> None:
             "Wenn eine Welt bei vergleichbarer Lautstaerke deutlich mehr `field_strained` oder Episodenmemory erzeugt, spricht das fuer andere Verdichtungs-Sensitivitaet.",
             "Wenn eine Welt zugleich lauter ist und staerker kippt, muss geprueft werden, ob die Sensorik sauber asset-relativ normiert ist.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte aus dieser Diagnose eine Verdichtungs-Sensitivitaetskarte entstehen.",
-            "Sie soll nicht regulieren und keine Handlung ausloesen, sondern nur zeigen, welche Welten bei welcher Zeitaufloesung ueberproportional viel Innenfeldlast erzeugen.",
         ]
     )
     out_path.write_text("\n".join(lines) + "\n", encoding="utf-8")

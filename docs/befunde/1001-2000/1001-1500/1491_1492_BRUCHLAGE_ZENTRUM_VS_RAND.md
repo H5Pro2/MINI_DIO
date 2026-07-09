@@ -47,7 +47,3 @@ Das ist ein relevanter Hinweis fuer die MCM-Topologie:
 - `dio_0v65ujo`: gebrochene Feldnaehe, aber nicht allgemeiner Bruchanker
 
 Das ist noch kein Beweis einer festen Bruchgrammatik. Es ist ein belastbarer Befund, dass Bruchlage die Bedeutungsbildung veraendert.
-
-## Wie es weitergeht
-
-Als naechstes sollte geprueft werden, ob `dio_1wdik71` ein stabiler Randbruch-/Uebergangsanker ist oder nur aus dieser konkreten Randwelt entsteht.

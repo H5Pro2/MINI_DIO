@@ -122,9 +122,6 @@ def build_report(limit: int = 20) -> None:
         f"- Assets: {sorted(assets.items())}",
         f"- Lagefolgen: {sorted(sequences.items())}",
         "",
-        "## Wie es weitergeht",
-        "",
-        "Als naechstes wird diese Auswahl durch dieselbe Rohwelt-, Rollen- und Nachhallpipeline gelesen wie die Brueckenfenster.",
     ]
     OUT_MD.write_text("\n".join(lines) + "\n", encoding="utf-8")
 

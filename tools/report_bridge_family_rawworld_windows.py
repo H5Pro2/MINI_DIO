@@ -333,9 +333,6 @@ def _write_md(rows: list[dict[str, object]], path: Path) -> None:
             "",
             "Innennähe allein reicht nicht. Die Familie muss gegen Rohweltfenster und Feldfolge gelesen werden.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als nächstes sollte die stärkste oder widersprüchlichste Familie aus dieser Tabelle einzeln geprüft werden: Tickfenster, Vorfenster, Tonlage und Feldwirkung nebeneinander.",
         ]
     )
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")

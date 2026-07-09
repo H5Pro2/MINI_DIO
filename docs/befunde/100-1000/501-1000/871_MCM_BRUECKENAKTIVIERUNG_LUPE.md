@@ -42,7 +42,3 @@ Stabile Bruecken zeigen im Mittel Rekopplung `0.6955` gegenueber `0.6623` bei st
 Ihre visuelle Unschaerfe liegt bei `0.3607` gegenueber `0.3269`; ihre Hoer-Daempfung bei `0.2120` gegenueber `0.3716`.
 Die Bruecken unterscheiden sich nicht einfach durch mehr Ordnung. Sie muessen in der naechsten Diagnose ueber Eintritt/Austritt und Weltbreite gelesen werden.
 Nachreifende junge Oberflaechen bilden die Zwischenklasse: Sie sind noch nicht Bruecke, zeigen aber bereits genug Kontaktqualitaet, um in tragendere Rollen zu wechseln.
-
-## Wie es weitergeht
-
-Als naechstes sollte fuer die stabilen Bruecken der Eintritt und Austritt gelesen werden: bleibt die Bruecke offen, weil sie zwischen zwei Bedeutungsraeumen vermittelt, oder weil sie eine stabile Mitte zwischen Weltspannung und Rekopplung bildet?

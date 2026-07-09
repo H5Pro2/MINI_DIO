@@ -186,19 +186,3 @@ Noch nicht in den Kern eingebaut.
 Das ist richtig so.
 
 Die Diagnose zeigt erst, welche Lastquelle wirklich relevant ist.
-
-## Wie es weitergeht
-
-Als naechstes sollte die Rekopplungsqualitaet genauer untersucht werden.
-
-Grundfrage:
-
-Warum kann BTC 5m trotz hoher Aufmerksamkeit gut rekoppeln, waehrend SOL 1h staerker in Feld- und Memorylast geht?
-
-Konkrete Unterpruefung:
-
-1. Welche Welten verlieren Rekopplung trotz moderater Sensorik?
-2. Welche Welten bleiben rekoppelnd trotz hoher Aufmerksamkeit?
-3. Gibt es eine passive Feldsignatur fuer `last_bindend` gegen `reiz_aktiv_rekoppelnd`?
-
-Erst danach ist sinnvoll zu entscheiden, ob eine organische Distanzierungs-Vorstufe in den MINI_DIO-Kern gehoert.

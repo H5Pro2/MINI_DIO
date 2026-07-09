@@ -23,5 +23,3 @@ Passive Diagnose der Rollenbewegung aus den Preview-Uebergangspaaren. Die Rollen
 
 ## Befund
 Die Randdominanz-Welt erzeugt mehr offene und spannungsnahe Bewegungen als die harmonische Welt, bleibt aber ueberwiegend in Zentrum und Rekopplungsnaehe organisiert. Ein dauerhafter Spannungsrand wird nicht dominant; Randlast wird bisher eher als oeffnende und rekoppelnde Bewegungsvarianz getragen.
-
-Wie es weitergeht: Die Randdominanz-Phasenmatrix muss klaeren, in welchen Phasen die Randlast offen, rekoppelnd oder wirklich randnah gelesen wird.

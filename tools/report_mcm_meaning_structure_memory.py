@@ -84,7 +84,6 @@ def _write_markdown(rows: list[dict[str, object]], path: Path) -> None:
             "",
             "Damit kann MINI_DIO eine gemeinsame Feldbedeutung halten, ohne die Weltoberflaeche zu verlieren.",
             "",
-            "Wie es weitergeht: Als naechstes sollte geprueft werden, ob diese Bedeutungsstruktur bei neuen Weltfenstern wiedererkannt oder erweitert wird.",
         ]
     )
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")

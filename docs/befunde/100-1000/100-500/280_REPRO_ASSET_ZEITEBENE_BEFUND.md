@@ -72,8 +72,3 @@ andere Welt  -> gleiche Rollenordnung mit anderer Gewichtung
 
 Der Befund betrifft nur die aktuell getesteten 1h-Fenster.
 Er sagt noch nicht, dass jede Zeitebene oder jedes Asset dieselbe Topologieklasse erzeugt.
-
-## Wie es weitergeht
-
-Als naechstes ist KASUSDT als Kleinpreis-Welt relevant.
-Damit wird geprueft, ob MINI_DIO auch bei sehr anderem Preisniveau dieselbe weltrelative Rollenordnung bilden kann.

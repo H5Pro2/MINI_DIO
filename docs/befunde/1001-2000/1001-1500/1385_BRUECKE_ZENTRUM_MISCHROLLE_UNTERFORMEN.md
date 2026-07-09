@@ -43,7 +43,3 @@ Das stuetzt die Deutung als dynamische Feldfunktion: eine Rolle kann stabil sein
 
 Die Unterformen sind relative Lesarten innerhalb dieser Probe.
 Sie muessen spaeter gegen andere Welten und frische Memories geprueft werden, bevor sie als stabile Teilrollen gelten.
-
-## Wie es weitergeht
-
-Als naechstes sollte geprueft werden, ob die dominanten Unterformen in anderen Welten erneut auftauchen oder ob sie weltgebunden sind.

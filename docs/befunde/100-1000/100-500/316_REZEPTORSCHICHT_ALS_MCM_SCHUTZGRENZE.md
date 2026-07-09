@@ -125,7 +125,3 @@ Weltkontakt -> Rezeptorberuehrung -> MCM-Fuehlen -> passive Innenordnung
 Die Rezeptorschicht ist ab jetzt als Grundmechanik von MINI_DIO zu behandeln.
 
 Sie schuetzt das MCM-Feld vor Ueberlagerung und macht die Innenfeldreaktion fachlich sauberer.
-
-## Wie es weitergeht
-
-Als naechstes sollte geprueft werden, ob dieselben MCM-Episodenfamilien auch in neuen Welten dieselbe Rezeptor-Kontaktqualitaet tragen. Dadurch laesst sich testen, ob die Rezeptorschicht nur lokal stabilisiert oder eine reproduzierbare MCM-Feldsprache ermoeglicht.

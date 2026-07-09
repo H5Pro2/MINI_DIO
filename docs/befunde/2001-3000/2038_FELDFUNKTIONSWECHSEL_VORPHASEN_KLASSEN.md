@@ -48,7 +48,3 @@ Damit wird der Rollenwechsel nicht als isolierter Moment gelesen, sondern als Ko
 ## Bedeutung für DIO
 
 DIO kann daraus später eine organische Vorwahrnehmung entwickeln: nicht handeln, sondern merken, welche Vorphase typischerweise zu Öffnung oder Rekopplung führt.
-
-## Wie es weitergeht
-
-Als nächstes sollte geprüft werden, ob diese Vorphasen-Klassen über weitere Weltkörper stabil bleiben oder ob Asset-spezifische Vorphasen entstehen.

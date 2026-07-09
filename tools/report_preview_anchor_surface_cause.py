@@ -145,10 +145,6 @@ def write_md(rows: list[dict[str, str]]) -> None:
             "",
             "Damit ist die nächste organische Verbesserung nicht mehr Feldstärkung allgemein. Sie muss die Differenzierung vertiefen: ein Anker soll nicht häufiger werden, sondern spezifischer an Nachhall, Rekurrenz und Profilnähe koppeln.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als nächstes muss geprüft werden, ob Nachhall und Rekurrenz grundsätzlich zu flach skaliert sind oder ob nur diese Preview-Anker keine spezifische Tiefe tragen. Erst danach wäre eine organische Vertiefung sinnvoll.",
-            "",
         ]
     )
     OUT_MD.write_text("\n".join(lines), encoding="utf-8")

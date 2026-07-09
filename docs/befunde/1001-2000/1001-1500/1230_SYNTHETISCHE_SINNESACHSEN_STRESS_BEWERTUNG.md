@@ -97,7 +97,3 @@ Hoeren kann eigenstaendig Feldspannung ausloesen.
 Rezeptorkontakt entscheidet, wie stark eine Sinnesachse das Feld erreicht.
 Das MCM-Feld bildet daraus Rollen, statt Rohdaten direkt zu uebernehmen.
 ```
-
-## Wie es weitergeht
-
-Als naechstes sollten die direkten `Offen -> Rand` und `Rand -> Offen` Zeitfenster aus den synthetischen Welten ausgelesen werden. Ziel ist zu klaeren, ob Rand/Kipp durch einzelne Lautheitsimpulse entsteht oder durch kurze Vorphasen offener Rekopplung vorbereitet wird.

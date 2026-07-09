@@ -68,7 +68,3 @@ Das ist wichtig für die MCM-Mechanik, weil es gegen eine simple Lautstärke-Log
 ## Methodische Grenze
 
 Das ist weiterhin eine passive Rücklesung. Es wird keine Handlung und keine Strategie daraus abgeleitet. Der Befund sagt nur: Unter dieser Weltform bleibt bei SOL und BTC mehr Kernnähe lesbar als bei DOGE.
-
-## Wie es weitergeht
-
-Als nächstes sollte `3000_4500` gegen ein leicht verschobenes Nachbarfenster geprüft werden. Ziel: klären, ob die Restkopplung wirklich an dieser balancierten Weltform hängt oder ob sie über einen breiteren Bereich stabil bleibt.

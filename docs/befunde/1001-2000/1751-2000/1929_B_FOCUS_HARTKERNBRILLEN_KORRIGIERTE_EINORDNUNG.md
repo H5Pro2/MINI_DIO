@@ -66,8 +66,3 @@ Diese Korrektur ist wichtig:
 - Sie trennt echte Ausblendung von falsch gelabelter Ausblendung.
 - Sie zeigt, dass Weltpassung nur mit passender Wahrnehmungskette gelesen werden darf.
 - Sie verhindert, dass fehlende Paare als Feldkollaps missverstanden werden.
-
-## Wie es weitergeht
-
-Als nächstes sollte das gemeinsame Fenster `3000_4500` genauer gelesen werden.
-Die Frage ist, welche Weltmerkmale dort SOL und BTC gleichzeitig Restkopplung geben und warum DOGE dort schwächer bleibt.

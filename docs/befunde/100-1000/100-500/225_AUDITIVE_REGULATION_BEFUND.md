@@ -120,15 +120,3 @@ Sie sollte eine auditive Innenlage liefern:
 - Was beruhigt?
 
 Erst in Kopplung mit MCM-Feld, Memory und Rekopplung entsteht daraus Bedeutung.
-
-## Wie es weitergeht
-
-Als naechstes sollte eine Kopplungsdiagnose entstehen:
-
-1. Hoerzustand gegen MCM-Feldlast legen.
-2. Hoerzustand gegen Rekopplung legen.
-3. pruefen, wann `rauschen_filtern` wirklich entlastet.
-4. pruefen, wann `reiz_abklingen_lassen` Feldlast reduziert.
-
-Das bleibt passiv.
-Keine Handlung, kein Gate, keine Richtung.

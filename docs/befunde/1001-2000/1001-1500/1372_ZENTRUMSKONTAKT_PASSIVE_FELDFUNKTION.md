@@ -160,7 +160,3 @@ Das ist relevant fuer die weitere Forschung, weil Zentrumskontakt als passive In
 - nicht als Regel,
 - nicht als Signal,
 - sondern als wiederkehrende Feldfunktion.
-
-## Wie es weitergeht
-
-Als naechstes sollte Randdruck nach demselben Muster isoliert werden. Danach liegt eine kleine passive Funktionskarte vor: Bruecke, Zentrumskontakt und Randdruck.

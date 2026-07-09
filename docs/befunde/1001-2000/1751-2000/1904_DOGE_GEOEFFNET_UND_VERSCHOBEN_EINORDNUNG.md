@@ -63,7 +63,3 @@ MINI_DIOs passive Weltpassungs-Memory trägt nun vier Qualitäten:
 
 Diese Qualitäten beschreiben keine Handlung.
 Sie beschreiben, wie eine Weltlage den gereiften lokalen Kern behandelt.
-
-## Wie es weitergeht
-
-Als nächstes sollte diese vierstufige Weltpassung als eigener Mechanikabschnitt zusammengefasst werden, damit die Reifungsbahn nicht nur Befunde sammelt, sondern eine klar lesbare MCM-Feldmechanik daraus ableitet.

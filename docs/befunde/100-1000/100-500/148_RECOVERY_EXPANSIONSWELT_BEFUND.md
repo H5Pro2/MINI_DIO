@@ -154,18 +154,3 @@ Das MCM-Feld bildet eigene Innenordnung aus Weltkontakt.
 Auch dieser Befund ist zunächst ein 1000-Zeilen-Fenster.
 
 Er ist stark genug als Arbeitsbefund, aber noch kein Abschlussbefund über alle Recovery-Phasen.
-
-## Wie Es Weitergeht
-
-Als nächstes sollten wir gezielt eine Übergangswelt prüfen:
-
-```text
-late positive
-```
-
-Ziel:
-
-- bildet `late positive` eine echte Übergangsform?
-- liegt sie zwischen Recovery und Extreme?
-- oder wird sie wieder klar ruhenah/feldzeitnah gelesen?
-

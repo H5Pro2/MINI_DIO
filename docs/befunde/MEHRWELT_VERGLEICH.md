@@ -364,7 +364,3 @@ Die neue Welt `welt_2024_bridge3_01` ordnet sich nicht als neutrale Übergangswe
 Damit wird die Arbeitsthese stärker: Syntax bleibt weltbezogen, aber das Innenfeld bildet größere Klassen. MINI_DIO liest also nicht nur einzelne Bedeutungsinseln, sondern auch wiedererkennbare Belastungs- und Nähefelder.
 
 Wichtig bleibt: Das ist passive Feldforschung. Der Bericht erzeugt keine Handlung, kein Gate und keine Strategie.
-
-## Wie es weitergeht
-
-Als nächstes sollten weitere Welten ergänzt werden. Entscheidend ist, ob sich ein stabiler Kern der Feldtopologie zeigt, während Bedeutungsinseln je nach Weltspannung entstehen, driften oder rekoppeln.

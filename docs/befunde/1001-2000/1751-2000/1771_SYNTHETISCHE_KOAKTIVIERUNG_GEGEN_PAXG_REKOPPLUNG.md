@@ -119,7 +119,3 @@ Beides ist nicht dasselbe.
 Der Vergleich nutzt vorhandene PAXG-2024-Sequenzdaten und die neue 1770-Koaktivierungswelt.
 
 Er beweist nicht, welche Ursache PAXG-Rekopplung vollständig erzeugt. Er zeigt aber, dass die synthetische Koaktivierung bisher nur eine lokale Übergangsform nachbildet, nicht die volle reale rekoppelnde Breite.
-
-## Wie es weitergeht
-
-Als nächstes sollte eine synthetische Feinmilieu-Welt gebaut werden: niedrige Rohweltenergie, kleine Range, leichte Folgeenergie, feine Driftbewegung und hohe Bindungsfähigkeit. Ziel ist zu prüfen, ob verteilte Rekopplung eher aus ruhiger Feldfeinheit als aus lauter Koaktivierung entsteht.

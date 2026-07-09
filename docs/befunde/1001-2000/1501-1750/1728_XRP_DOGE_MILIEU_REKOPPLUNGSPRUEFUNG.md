@@ -93,10 +93,3 @@ DOGE: aehnlich XRP, aber teils staerker daempfend
 Diese Unterschiede sind noch keine abschliessende Asset-Typologie.
 Sie sind aber ein klarer Hinweis, dass Weltmilieu und Assetspur im Feld
 unterschiedliche lokale Qualitaeten ausbilden.
-
-## Wie es weitergeht
-
-Als naechstes sollte eine gemeinsame Asset-Milieu-Matrix gebaut werden:
-PAXG, XRP, DOGE und BTC nebeneinander, jeweils mit Rekopplung, Daempfung,
-Randdruck und Offenheit. Ziel ist eine kompakte Rollenlandkarte statt
-einzelner Befunddateien.

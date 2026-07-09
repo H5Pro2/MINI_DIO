@@ -79,11 +79,3 @@ Dieser Befund ist passiv.
 Er ist kein Beweis einer universellen MCM-Topologie und keine Handlungsvorgabe.
 
 Er zeigt aber, dass MINI_DIO Rand-/Spannungsnaehe nicht nur als isolierten Messwert, sondern als wiederkehrende Innenfeld-Syntaxgruppe ausbildet.
-
-## Wie es weitergeht
-
-Naechster sinnvoller Schritt ist eine hierarchische Trennung:
-
-1. Allgemeine Grundfrage: Welche Symbolgruppen sind zentrumsnah, brueckennah, driftend oder randspannungsnah?
-2. Konkrete Unterpruefung: Welche Gruppen bleiben ueber Welten stabil, welche nur innerhalb bestimmter Weltabschnitte?
-3. Folgeschritt: Eine passive Rollenkarte bauen, die Gruppenfamilien statt Einzelzeichen bewertet.

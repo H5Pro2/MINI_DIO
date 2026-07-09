@@ -272,10 +272,6 @@ def _write_md(rows: list[dict[str, object]], out_path: Path) -> None:
             "",
             "Dieser Bericht zeigt Kopplungen zwischen Milieu-Wechsel und Weltphase. Er beweist noch keinen Mechanismus und erzeugt keine neue Regel.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollten die haeufigsten Wechsel-Familien einzeln ueber weitere Folgewelten verfolgt werden. Wenn dieselbe Familie wiederholt unter aehnlicher Rohweltspannung reift oder oeffnet, wird daraus ein belastbarer Milieu-Trigger-Kandidat.",
-            "",
         ]
     )
     out_path.write_text("\n".join(lines), encoding="utf-8")

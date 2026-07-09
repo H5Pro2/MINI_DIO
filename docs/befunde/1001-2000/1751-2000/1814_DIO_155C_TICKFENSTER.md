@@ -189,7 +189,3 @@ Wie sieht der Vorlauf, Ereignispunkt und Nachlauf einer realen Brueckenfamilie a
 Die Fenster zeigen, ob eine Brueckenfamilie aus dem Vorlauf heraus in Rekopplung oder in Kippnaehe laeuft.
 
 Damit wird die Realitaetsrueckkopplung konkret: Nicht der Name der Familie entscheidet, sondern die Feldfolge um den Kontaktpunkt.
-
-## Wie es weitergeht
-
-Als naechstes sollte aus diesen Fenstern eine kompakte Feldfolgen-Signatur abgeleitet werden: welche Vorlauf-Merkmale gehen rekoppelnden gegen kippnahen Lesarten voraus?

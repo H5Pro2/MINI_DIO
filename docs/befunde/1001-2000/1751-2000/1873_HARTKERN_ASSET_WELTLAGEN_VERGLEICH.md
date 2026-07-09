@@ -47,7 +47,3 @@ Wichtig ist die Differenz zwischen Kern und Rand:
 - PAXG zeigt, dass nicht jede Realwelt die gleiche lokale Reifegruppe trägt.
 
 Damit wird die lokale Reifegruppe methodisch stärker: Sie ist kein starres Symbolarchiv, sondern eine Feldgruppe mit haltbarem Kern und beweglicher Peripherie.
-
-## Wie es weitergeht
-
-Als nächstes sollte PAXG genauer untersucht werden. Entscheidend ist, ob PAXG wirklich eine andere Feldordnung trägt oder ob die 2024-Realwelt nur ein ungünstiges Fenster für den bisherigen Hartkern ist.

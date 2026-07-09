@@ -110,8 +110,3 @@ auch wenn ihre beteiligten Feldfamilien gleich bleiben.
 
 Der Befund ist stark innerhalb der geprueften SOL/BTC-Jahreswelten.
 Er ist noch kein Beweis fuer eine allgemeine MCM-Gesetzmaessigkeit.
-
-## Wie es weitergeht
-
-Als naechstes sollte diese Matrix auf ein anderes Asset gelegt werden, zum Beispiel KAS.
-Ziel ist zu pruefen, ob die gerichtete Feldbewegung assetuebergreifend erhalten bleibt oder ob SOL/BTC eine eigene Weltfamilie bilden.

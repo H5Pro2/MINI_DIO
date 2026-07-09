@@ -39,5 +39,3 @@ Ein Teil wird stabil wiedererkannt, ein Teil veraendert die dominante Folge, und
 Das spricht fuer eine passive Bedeutungsstruktur, die weder alles neu erfindet noch alles festnagelt.
 
 Die Auswertung bleibt passiv. Sie erzeugt keine Handlung, keine Richtung und kein Gate.
-
-Wie es weitergeht: Als naechstes sollte die Veraenderung der Faerbung untersucht werden: Welche Rohweltmerkmale verschieben einzelne Assets gegenueber der Basisstruktur?

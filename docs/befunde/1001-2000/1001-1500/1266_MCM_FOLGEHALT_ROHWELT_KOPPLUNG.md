@@ -56,7 +56,3 @@ Rohweltspannung -> Randkontakt -> Folgehalt oder Rueckfall
 ```
 
 Damit wird Folgehalt als Feldantwort auf Weltspannung lesbar, nicht als isolierte Rolle.
-
-## Wie es weitergeht
-
-Als naechstes sollte diese Kopplung nach Asset/Weltart getrennt werden: Bleibt die Feldantwort gleich, wenn sich die Weltmelodie stark unterscheidet?

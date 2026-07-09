@@ -30,7 +30,3 @@ Die Diagnose bleibt passiv. Sie beschreibt Feldnaehe, keine Handlung.
 Stabil wiederkehrende Knoten wirken wie ein erhaltener Bedeutungsanker.
 Wiederkehr mit Teilung bedeutet: ein alter Knoten bleibt erkennbar, bildet aber neue Nachbarschaften aus.
 Nachbarschaft ohne exakten Kern bedeutet: Die alte Bedeutung wird nicht kopiert, aber das Feld findet weiterhin eine aehnliche Lage.
-
-## Wie es weitergeht
-
-Als naechstes sollte fuer die teilenden Knoten geprueft werden, welche Sinnesachse die Teilung traegt: Ton, Sicht, Rezeptorkontakt oder MCM-Feldspannung.

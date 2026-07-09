@@ -23,7 +23,3 @@ Dazu werden Vorfenster, Trefferfenster und Folgefenster aus denselben Episodensp
 Ein Teil der Shift-Preview-Symbole bleibt nach dem Trefferfenster erhalten. Das spricht fuer eine kurze Nachhall- oder Uebergangsspur.
 
 Wichtig: Auch wenn das Top-Symbol wechselt, kann die Feldfunktion weitertragen. Deshalb sind Rekopplung, Strain und Rollenfolge wichtiger als reine Namensgleichheit.
-
-## Wie es weitergeht
-
-Als naechstes wird die Nachhallspur rollenbezogen gelesen: Brueckenuebergang und offener lauter Kontakt getrennt vergleichen.

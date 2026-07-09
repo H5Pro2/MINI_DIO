@@ -106,7 +106,3 @@ Für eine stärkere Aussage braucht es:
 - Vergleich mit 2023 und 2025
 - Prüfung längerer Ausschnitte
 - Prüfung, ob die Zeitebenenöffnung mit konkreten Sinnesachsen zusammenhängt
-
-## Wie es weitergeht
-
-Als nächstes sollte die 12-Welten-Matrix reproduziert werden. Wenn sie stabil bleibt, prüfen wir, welche Sinnesachse die Öffnung trägt: Sehen, Hören, Feldwirkung oder deren Rekopplung.

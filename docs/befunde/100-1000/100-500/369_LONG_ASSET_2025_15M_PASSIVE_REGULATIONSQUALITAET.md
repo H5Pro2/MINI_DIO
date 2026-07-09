@@ -98,8 +98,3 @@ Fachliche Lesart:
 MINI_DIO liest eine gerichtete Tragart der Feldbewegung ueber eine andere Zeitaufloesung hinweg.
 Diese Tragart bleibt passiv und darf nicht direkt in Handlung uebersetzt werden.
 ```
-
-## Wie es weitergeht
-
-Als naechstes sollte die 5m-Aufloesung geprueft werden.
-Ziel ist zu klaeren, ob die Asymmetrie auch unter hoeherer Mikrostruktur erhalten bleibt oder dort durch lokale Oberflaechenvarianz zerstreut.

@@ -75,8 +75,3 @@ Nicht das Feld muss grob umgebaut werden.
 Die Aufnahme und Lesung der Welt muss sauber genug bleiben,
 damit die eigene Feldordnung sichtbar werden kann.
 ```
-
-## Wie es weitergeht
-
-Als naechstes sollte dieselbe Topologie-Lesung auf Stress- und Expansionswelten gelegt werden.
-Ziel ist zu pruefen, ob Rand/Kippnaehe dort wirklich zunimmt oder ob auch starke Welten nur andere Faerbungen derselben Grundtopologie erzeugen.

@@ -63,7 +63,3 @@ Das spricht für Randpassung als mehrstufige Beziehung, nicht als einfache Ja/Ne
 Die DOGE-Prüfung zeigt aber, dass andere Assets eigene Zwischenqualitäten ausbilden können.
 
 Damit wird die passive Weltpassungs-Memory nicht nur größer, sondern differenzierter.
-
-## Wie es weitergeht
-
-Als nächstes sollte geprüft werden, ob `kern_geoeffnet` bei DOGE-Folgefenstern wiederkehrt oder ob es ebenfalls nur eine einzelne Übergangslage war.

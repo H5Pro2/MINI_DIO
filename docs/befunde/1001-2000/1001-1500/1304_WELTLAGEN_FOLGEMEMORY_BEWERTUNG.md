@@ -111,5 +111,3 @@ worldlage_sequence_memory
 ```
 
 Damit kann Mini-DIO spaeter nicht nur Lagearten, sondern Lagebewegungen speichern.
-
-Wie es weitergeht: Als naechstes sollte geprueft werden, ob diese Lagefolgen bei anderer Blockgroesse stabil bleiben. Wenn ja, ist das ein robusterer Hinweis auf echte Feldzeit/Folgeordnung statt Diagnoseartefakt.

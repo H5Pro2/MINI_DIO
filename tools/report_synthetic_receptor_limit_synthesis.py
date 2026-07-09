@@ -146,9 +146,6 @@ def _write_markdown(rows: list[dict[str, object]], out: Path) -> None:
             "",
             "Die Rezeptoradaptation wirkt in allen drei Welten als Aufnahmegrenze. Sie verhindert keine Weltwirkung, sondern verhindert, dass Rohspannung ungeordnet als globale Feldueberlastung erscheint.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte diese Synthese gegen reale Welten gelesen werden: KAS als gemischte reale Welt, PAXG als zentrierte reale Welt und DOGE/XRP als zentrierte, aber lautere reale Welten.",
         ]
     )
     out.write_text("\n".join(lines) + "\n", encoding="utf-8")

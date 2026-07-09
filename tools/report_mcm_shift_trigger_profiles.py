@@ -103,7 +103,6 @@ def _write_markdown(rows: list[dict[str, object]], path: Path) -> None:
             "",
             "`hoerbarer_schmaler_folgeschift` bleibt ein einzelner starker BTC-Befund aus `1325`: Hoeren, Sicht und Druck steigen, Range sinkt deutlich. Dieser Typ ist noch nicht reproduziert.",
             "",
-            "Wie es weitergeht: Als naechstes sollte gezielt eine Weltgruppe mit hoher Hoer-/Sichtzunahme und sinkender Range gebaut oder ausgewaehlt werden, um zu pruefen, ob `hoerbarer_schmaler_folgeschift` wiederholbar ist.",
         ]
     )
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")

@@ -106,12 +106,3 @@ Diese Diagnose ist kein Beweis einer universellen Feldordnung.
 Sie zeigt aber, dass ein Seitwärtsregime die bisherigen Klassen nicht auflöst.
 
 Die Werte sind Arbeitsbefunde, keine Schwellwerte.
-
-## Wie es weitergeht
-
-Als nächstes sollte eine Expansionswelt geprüft werden.
-Die Hierarchie bleibt:
-
-1. Grundpol: Last, Ruhe oder ruhige Feldzeitnähe?
-2. Unterform: entsteht Nachhall/Wiederkehr ohne Belastung?
-3. Folgeschritt: nur wenn die bestehenden vier Formen nicht reichen, wird eine neue Mischklasse dokumentiert.

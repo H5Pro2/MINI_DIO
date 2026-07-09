@@ -202,7 +202,6 @@ def _write_markdown(rows: list[dict[str, object]], path: Path) -> None:
             "Sehen / Hoeren / Fuehlen -> Rezeptorschicht -> MCM-Feldtopologie",
             "```",
             "",
-            "Wie es weitergeht: Als naechstes sollte eine episodische Sinnesaufnahme-Memory entstehen: Welche Sinnes-Signatur fuehrte spaeter zu Zentrum, Bruecke, Rand oder Drift?",
         ]
     )
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")

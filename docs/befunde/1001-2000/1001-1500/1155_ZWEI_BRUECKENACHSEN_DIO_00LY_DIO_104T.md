@@ -121,7 +121,3 @@ Noch nicht gesagt ist:
 - ob beide Achsen direkt miteinander gekoppelt sind,
 - ob eine dritte Achse existiert,
 - ob sich zwischen beiden Achsen Zwischenfamilien bilden.
-
-## Wie es weitergeht
-
-Als naechstes sollte die Beziehung zwischen `dio_00ly` und `dio_104t` untersucht werden: liegen sie getrennt, bilden sie Nachbarschaft, oder entstehen Zwischenfamilien zwischen Uebergangsbruecke und Stabilitaetsbruecke?

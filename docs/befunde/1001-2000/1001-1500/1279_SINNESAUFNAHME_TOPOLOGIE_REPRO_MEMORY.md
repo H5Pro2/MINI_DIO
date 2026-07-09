@@ -39,5 +39,3 @@ Mini-DIO kann Sinnesaufnahme jetzt als passive Bedeutungsnaehe speichern: nicht 
 Zusaetzlich erzeugt die Memory jetzt eine achsenabhaengige Rezeptor-Praeferenz. Sie ist keine Handlung und kein Gate. Sie beschreibt nur, ob Mini-DIO bei aehnlicher Aufnahme eher Hoeren, Sehen oder Fuehlen hochregeln, herunterregeln oder halten sollte.
 
 Das ist die Grundlage fuer eine spaetere lernende Rezeptorschicht. Sie kann im naechsten Schritt nicht entscheiden, aber lesen: Diese Aufnahmeart fuehrt haeufig zu Zentrum, Bruecke, Offenheit oder Rand und legt eine bestimmte Sinneshaltung nahe.
-
-Wie es weitergeht: Als naechstes sollte diese Memory ueber neue Welten reproduziert werden. Bleiben die Signaturen rollenstabil, oder entstehen neue Mischsignaturen?

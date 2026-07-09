@@ -204,7 +204,3 @@ Realweltgetragene Kerne von asset-spezifischen Rollen trennen.
 ```
 
 Damit bekommt MINI_DIO mehr Tiefe, ohne dass wir ihm eine starre Bedeutungstabelle vorgeben.
-
-## Wie es weitergeht
-
-Als nächstes sollte geprüft werden, welche der gemeinsamen Kernsignaturen ihre Funktion wechseln. Entscheidend ist, ob diese Wechsel zufällig wirken oder ob sie asset- und regimeabhängige Feldrollen anzeigen.

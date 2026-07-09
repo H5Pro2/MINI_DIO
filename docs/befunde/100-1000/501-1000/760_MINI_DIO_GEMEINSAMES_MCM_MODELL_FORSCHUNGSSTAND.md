@@ -263,7 +263,3 @@ und lokale Bedeutung sequenzsensitiv verdichtet.
 ```
 
 Das ist der aktuelle gemeinsame Modellstand.
-
-## Wie es weitergeht
-
-Als naechstes sollte dieser Forschungsstand in die zentrale Projektdokumentation uebernommen werden, damit README und Bauplan nicht hinter den Befunden zurueckbleiben. Danach kann die naechste Gegenprobe gezielt gewaehlt werden: zufaellige Phasenfolge oder reale Sequenzbrueche.

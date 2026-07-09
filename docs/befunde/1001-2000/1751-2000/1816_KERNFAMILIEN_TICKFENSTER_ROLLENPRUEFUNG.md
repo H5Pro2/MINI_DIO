@@ -25,7 +25,3 @@ Die konkrete Tickfensterprüfung bestätigt die Rollenkarte differenziert und ma
 - `dio_155c` trägt beide Seiten: Kippnähe und tragende Verarbeitung. Das wirkt wie eine duale Feldrolle zwischen Lastaufnahme und Rekopplung.
 
 Damit wird die frühere Taxonomie präziser: Rollen sind nicht nur Kategorien, sondern Feldfolgen. Eine Familie kann Anschluss, Rand, Nachhall oder Brücke je nach Weltfenster verschieden ausprägen.
-
-## Wie es weitergeht
-
-Als nächstes sollte geprüft werden, ob `dio_1fll` wirklich randnah bleibt oder ob es als gehaltener Sammelknoten neu eingeordnet werden muss.

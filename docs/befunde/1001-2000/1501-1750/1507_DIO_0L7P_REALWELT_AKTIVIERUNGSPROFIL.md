@@ -77,7 +77,3 @@ Das spricht gegen eine starre Symboltabelle und fuer eine Feldrollenlesung:
 - gleiche Syntaxfamilie
 - andere Weltoberflaeche
 - aehnliche Innenfeldqualitaet
-
-## Wie es weitergeht
-
-Als naechstes sollte diese korrigierte Lesung in die Randrollenkarte aufgenommen werden: `dio_0l7p` nicht mehr nur als Start-/End-Randnaehe, sondern als fokussierte Rekopplungs-/Wechselnaehe mit realer Anschlussfaehigkeit.

@@ -21,5 +21,3 @@ Passive Diagnose der Rollenbewegung aus den Preview-Uebergangspaaren. Die Rollen
 
 ## Befund
 Die Bruch-/Randwelt bleibt zentrumsnah, erzeugt aber mehr offene und spannungsnahe Bewegungen als die harmonische Phasenwelt. Das spricht dafuer, dass die synthetische Instabilitaet im Feld nicht kollabiert, sondern als zusaetzliche Bewegungsvarianz sichtbar wird.
-
-Wie es weitergeht: Harmonische Kontrollwelt und Bruch-/Randwelt sollten direkt gegenueinander zusammengefasst werden, um zu klaeren, welche Differenz durch die synthetische Weltgestaltung entsteht.

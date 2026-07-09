@@ -65,8 +65,3 @@ Auch KAS zeigt: Die Feldbewegung hat eine gerichtete Tragart.
 Die Richtung passt zur SOL/BTC-Matrix, aber die Datentiefe ist noch zu klein.
 Sie bleibt passive Innenfeldwahrnehmung und darf nicht direkt in Handlung uebersetzt werden.
 ```
-
-## Wie es weitergeht
-
-Als naechstes braucht KAS laengere oder gezielter extrahierte Welten.
-Ziel ist zu pruefen, ob die geringe Eventzahl eine Eigenschaft der KAS-Welt oder nur Folge der kurzen 2000er Kontrollfenster ist.

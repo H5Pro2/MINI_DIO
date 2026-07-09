@@ -131,8 +131,3 @@ Randdruck-Lupe: Wo entstehen lokale Rand-/Oeffnungsdruecke innerhalb der Welt?
 ```
 
 Damit kann eine Welt insgesamt zentrumsnah bleiben und trotzdem lokale Randdruckzonen enthalten.
-
-## Wie es weitergeht
-
-Als naechstes sollte diese Lupe gegen echte Stressfenster und synthetische Randfenster verglichen werden.
-Entscheidend ist, ob Randdruck nur kurz aufflackert, ob er rekoppelt oder ob er zu stabilen offenen Bedeutungsinseln reift.

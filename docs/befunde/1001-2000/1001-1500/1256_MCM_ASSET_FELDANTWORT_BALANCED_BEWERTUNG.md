@@ -60,7 +60,3 @@ Damit ist diese Diagnose methodisch sauber, aber noch nicht tief genug fuer eine
 MINI_DIO liest Bewegungsbruch offenbar als gemeinsame Feldklasse, aber nicht als identisches Erlebnis.
 
 Die Welt wirkt gleichartig genug fuer dieselbe Grundklasse, aber verschieden genug fuer eigene Faerbung.
-
-## Wie es weitergeht
-
-Als naechstes sollte die Rohwelt-Lupe mit hoeherem Limit und gezielter Asset-Zuordnung neu erzeugt werden, damit pro Asset mehr gekoppelte Fenster entstehen.

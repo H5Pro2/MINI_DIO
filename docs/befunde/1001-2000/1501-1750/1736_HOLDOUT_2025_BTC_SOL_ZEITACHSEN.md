@@ -90,7 +90,3 @@ Variabel bleibt die lokale Feldfärbung.
 ```
 
 Das spricht gegen reine Projektion eines festen Bildes. Wenn alles gleich wäre, wäre es nur Kopie. Wenn alles bräche, wäre es instabil. Der aktuelle Befund liegt dazwischen: stabile Topologie mit variabler lokaler Milieudynamik.
-
-## Wie es weitergeht
-
-Als nächstes sollte diese Holdout-Logik auf PAXG oder KAS gelegt werden. Besonders PAXG ist interessant, weil dort geprüft werden kann, ob die rekopplungsstarke und dämpfungsarme Färbung auch in 2025 erhalten bleibt.

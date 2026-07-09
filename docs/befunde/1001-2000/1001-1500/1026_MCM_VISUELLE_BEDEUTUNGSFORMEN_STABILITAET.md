@@ -110,7 +110,3 @@ Es bedeutet: Die Form wiederholt sich breit genug, um als passive Bedeutungsgrun
 
 Mini-DIO bildet innerhalb der MCM-Achse keine beliebige Sammlung einzelner Fenster,
 sondern eine gestufte Bedeutungsordnung: robuste Formen, familiengebundene Formen und lokale Zustandsformen.
-
-## Wie es weitergeht
-
-Als naechstes sollte aus den robusten Formen eine passive Bedeutungsbibliothek entstehen: Name, Weltform, Feldqualitaet, typische Streuung und offene Grenzen.

@@ -85,8 +85,3 @@ Damit kann MINI_DIO spaeter unterscheiden:
 - kontrolliert variable Feldbewegung,
 - breit driftende Feldbewegung,
 - stark fragmentierte Feldbewegung.
-
-## Wie es weitergeht
-
-Als naechstes sollte diese Driftqualitaet auf Weltmerkmale zurueckgelegt werden.
-Dann wird sichtbar, welche Weltspannung eine Feldbewegung eng haelt oder in breite Drift fuehrt.

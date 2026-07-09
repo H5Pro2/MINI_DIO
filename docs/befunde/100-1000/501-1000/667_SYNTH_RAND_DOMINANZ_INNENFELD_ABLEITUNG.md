@@ -87,7 +87,3 @@ Er zeigt nur:
 - mit aktueller Rezeptorschicht,
 - in passiver MINI_DIO-Lesung,
 - bleibt Randdominanz lokal begrenzt und wird nicht zur globalen Topologie.
-
-## Wie es weitergeht
-
-Als nächstes sollte kein noch härteres Rauschen gebaut werden. Sinnvoller ist eine Differenzdiagnose: Welche Rezeptorachsen begrenzen den Rand? Also getrennt prüfen, ob Hören, Sehen, Feldinput oder Adaptation die `laute_randphase` zurück in offene Variante/Rekopplung übersetzen.

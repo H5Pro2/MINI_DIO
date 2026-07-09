@@ -139,13 +139,3 @@ angespannte Uebergangsgruppen,
 Stress-Gegenpole
 und oberflaechennah getragene Seitwaertslagen.
 ```
-
-## Wie Es Weitergeht
-
-Als naechstes sollte eine zweite Seitwaertswelt geprueft werden.
-
-Hierarchie:
-
-1. Grundfrage: Bleibt Seitwaertsdruck in der ruhigen Naehegruppe?
-2. Unterpruefung: Entsteht bei anderer Seitwaertswelt mehr Feldzeit oder mehr Unruhe?
-3. Folgeschritt: Wenn beide Seitwaertswelten aehnlich reagieren, kann `oberflaechennah_getragen` als passive Leseklasse dokumentiert werden.

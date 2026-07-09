@@ -172,10 +172,6 @@ def _write_md(path: Path, rows: list[dict[str, str]]) -> None:
             "Diese Welt sollte nicht mit Brueckenlogik erzwungen werden.",
             "Sie braucht eine eigene passive Lesung fuer Nicht-Bruecken-Ordnung.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte diese Nicht-Bruecken-Karte gegen die zugehoerigen Verdichtungszonen und Pfadklassen synthetisiert werden.",
-            "Entscheidend ist, ob die Welt eher offene Wahrnehmungsinseln, Zentrumsinseln, Randspannung oder Sinnesrauschen bildet.",
         ]
     )
     path.write_text("\n".join(lines), encoding="utf-8")

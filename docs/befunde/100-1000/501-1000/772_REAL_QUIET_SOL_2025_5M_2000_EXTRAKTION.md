@@ -69,7 +69,3 @@ Der maschinenlesbare Extraktionsbericht liegt unter:
 ```text
 docs/befunde/100-1000/501-1000/772_REAL_QUIET_SOL_2025_5M_2000_EXTRACT_REPORT.json
 ```
-
-## Wie es weitergeht
-
-Diese ruhige Welt wird gegen Forschungskette, Rezeptorachsen, Topologie und Kurzsegment-Feldwirkung gelesen und anschliessend direkt gegen das reale Bruchfenster verglichen.

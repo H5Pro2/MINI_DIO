@@ -69,8 +69,3 @@ Die Reifegruppe bleibt passiv:
 - `is_motoric = 0`
 - `is_entry_signal = 0`
 - `is_direction_signal = 0`
-
-## Wie es weitergeht
-
-Als nächstes sollte diese passive Reifegruppe gegen weitere Weltfenster geprüft werden.
-Entscheidend ist, ob die 254 stabilen lokalen Qualitäten erneut stabil bleiben, sich teilen oder in neue Feldrollen übergehen.

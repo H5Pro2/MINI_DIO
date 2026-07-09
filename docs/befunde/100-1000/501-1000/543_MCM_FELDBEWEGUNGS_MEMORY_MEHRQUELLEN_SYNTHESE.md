@@ -85,7 +85,3 @@ Damit wirkt `MCMFieldMovementMemory` als Verdichtungsschicht fuer Feldbewegung, 
 ## Grenze
 
 Die Datenbasis enthaelt teilweise Ableitungen aus verwandten Grundbefunden. Deshalb ist das ein starker Verdichtungsbefund, aber noch kein unabhaengiger Universalnachweis.
-
-## Wie es weitergeht
-
-Als naechstes sollte eine wirklich neue Weltgruppe durch dieselbe Feldbewegungs-Memory laufen. Wichtig ist dabei nicht, ob dieselben Namen erscheinen, sondern ob die gleiche Art von Qualitaet entsteht: rekoppelnd, oeffnend, world-specific oder jung.

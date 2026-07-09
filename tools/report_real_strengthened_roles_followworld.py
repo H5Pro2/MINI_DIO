@@ -189,7 +189,6 @@ def _write_markdown(path: Path, rows: list[dict[str, object]], summary: list[dic
             "",
             "Die Auswertung bleibt diagnostisch. Sie beschreibt keine Strategie und keinen Handlungsmechanismus.",
             "",
-            "Wie es weitergeht: Als nächstes sollten die stabil feldgleichen Folgewelt-Rollen auf Rollenfamilien geprüft werden: bilden sie nur Einzelzeichen oder entstehen daraus mehrere nahe Bedeutungen mit gemeinsamer Feldfunktion?",
             "",
         ]
     )

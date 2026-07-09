@@ -71,7 +71,3 @@ Das spricht fuer eine aktive Schutzfunktion der Wahrnehmungsschicht:
 Dieser Befund zeigt keine Handlung und kein Zielverhalten.
 
 Er beschreibt nur, dass das MCM-Feld unter dieser synthetischen Stresswelt stabil bleibt und die Belastung eher als differenzierte Oberflaeche als als Kippnaehe verarbeitet.
-
-## Wie es weitergeht
-
-Als naechstes sollte eine hochfrequente Wechselwelt gebaut werden: weniger tiefer Drawdown, aber deutlich mehr Richtungswechsel. Damit laesst sich pruefen, ob Kippnaehe eher aus Frequenzwechsel als aus Range/Drawdown entsteht.

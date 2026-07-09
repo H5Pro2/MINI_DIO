@@ -172,9 +172,6 @@ def build_report() -> None:
         "Diese Kontrollgruppe zeigt, ob aehnliche Symbole auch ohne Hoeranstieg auftreten.",
         "Wenn ja, ist die Symbolfamilie nicht exklusiv. Dann liegt die Spezifik eher in der Rollenfolge und Rohweltphase, nicht im einzelnen `dio_*`-Namen.",
         "",
-        "## Wie es weitergeht",
-        "",
-        "Als naechstes sollten `1352` und `1353` direkt als Differenzprofil verglichen werden: Welche Symbol-, Preview- und Bedeutungsanteile bleiben gleich, und welche entstehen nur bei Hoeranstieg.",
     ]
     OUT_MD.write_text("\n".join(lines) + "\n", encoding="utf-8")
 

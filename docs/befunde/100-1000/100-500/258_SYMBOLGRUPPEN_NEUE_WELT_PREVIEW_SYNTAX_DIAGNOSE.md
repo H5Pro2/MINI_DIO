@@ -51,8 +51,3 @@ Hierarchie der Pruefung:
 ## Vorlaeufige Lesart
 
 Eine lokale multisensorische Innenlage wird erst dann als Bedeutungsinsel interessant, wenn sie nicht nur hohe Kipp- oder Rekopplungswerte zeigt, sondern auch eigene wiederkehrende Syntax traegt.
-
-## Wie es weitergeht
-
-Als naechstes wird der Befund geschrieben.
-Darin wird bewertet, ob lokale Kipp- und Rekopplungsfenster semantisch getrennte Innenfeldinseln bilden oder nur dieselbe allgemeine Feldsprache wiederholen.

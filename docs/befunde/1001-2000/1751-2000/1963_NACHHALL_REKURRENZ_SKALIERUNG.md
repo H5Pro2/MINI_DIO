@@ -44,7 +44,3 @@
 Die Anker liegen nicht deshalb oberflächlich, weil die gesamte Welt keine Nachhall-/Rekurrenzskala hätte. Sie liegen selbst unter der jeweiligen Weltskala. Das spricht gegen eine pauschale Feldverstärkung und für spezifische Differenzierung.
 
 Organisch gelesen: Mini-DIO hat breite wiederkehrende Oberflächenzeichen, aber diese Zeichen bleiben zu wenig an eigene Nachhalltiefe und Rekurrenz gebunden.
-
-## Wie es weitergeht
-
-Als nächstes kann eine sanfte organische Erweiterung vorbereitet werden: Preview-Anker sollen nicht härter bewertet werden, sondern eine eigene Tiefenspur bekommen, wenn sie über mehrere Welten wiederkehren und zugleich Profilnähe tragen.

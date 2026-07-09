@@ -85,9 +85,6 @@ def _write_md(path: Path, memory: MCMRoleMaturationMemory) -> None:
     lines.append("Reifungsbewegung: wird diese Bewegung jung gehalten, getragen, belastet, gereift oder entlastet?")
     lines.append("```")
     lines.append("")
-    lines.append("## Wie es weitergeht")
-    lines.append("")
-    lines.append("Als naechstes sollte diese Reifungs-Memory gegen eine weitere Welt gelesen werden: bestaetigt sich `dio_mature_*`, oder veraendert sich die Reifungsqualitaet?")
     path.write_text("\n".join(lines), encoding="utf-8")
 
 

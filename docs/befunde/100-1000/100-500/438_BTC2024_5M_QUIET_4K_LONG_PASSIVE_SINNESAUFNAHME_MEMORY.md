@@ -64,7 +64,3 @@ Wichtig: Diese Memory ist nicht die rezeptorisch-regulatorische Steuerung selbst
 - keine globale Daempfung des MCM-Feldes
 
 Die Memory ist eine passive Landkarte der Sinnesaufnahme vor dem Feld.
-
-## Wie es weitergeht
-
-Als naechstes sollte geprueft werden, ob diese Intake-Memory bei einer neuen Welt dieselben ruhigen und kontaktlastigen Aufnahmefamilien wiedererkennt oder ob neue Aufnahmequalitaeten entstehen.

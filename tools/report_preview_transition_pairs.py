@@ -301,10 +301,6 @@ def _write_md(pair_rows: list[dict[str, object]], world_rows: list[dict[str, obj
             "Wenn ein Paar ueber mehrere Welten wiederkehrt, ist es staerker als eine lokale Einzelkante.",
             "Wenn ein Paar nur in einer Welt dominiert, ist es eher asset- oder timeframe-spezifisch.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes werden die stabilsten Paare fachlich klassifiziert: Grundinsel-Wechsel, Rekopplungsbogen oder Randuebergang.",
-            "",
         ]
     )
     out_path.write_text("\n".join(lines), encoding="utf-8")

@@ -81,7 +81,3 @@ Das ist keine harte Regel. Die Rolle darf nur als Feldgedaechtnis-Referenz genut
 - Wenn sie wiederkehrt, zeigt sie fruehe Nullnaehe und Brueckenberuhigung an.
 - Wenn sie fehlt, ist die Welt nicht automatisch schlecht.
 - Wenn sie oeffnet oder driftet, zeigt sie veraenderte Weltpassung.
-
-## Wie es weitergeht
-
-Als naechstes sollte geprueft werden, ob `dio_0tay/frueh` in der passiven Memory als Referenzrolle markiert werden kann: nicht als Steuerung, sondern als Vergleichsanker fuer fruehe nullnahe Brueckenberuhigung.

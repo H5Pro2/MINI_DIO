@@ -89,8 +89,3 @@ Hierarchie der Pruefung:
 
 Verdichtungs-Sensitivitaet beschreibt, wie stark das Innenfeld auf groessere Weltpakete reagiert.
 Eine Welt kann absolut laut sein, aber proportional gut getragen werden. Eine andere Welt kann bei aehnlicher Lautstaerke schneller in Strain und Memorylast kippen.
-
-## Wie es weitergeht
-
-Als naechstes sollte diese Diagnose in die Forschungsuebersicht aufgenommen werden.
-Danach koennen weitere Assets geprueft werden, um zu sehen, ob BTC und SOL zwei Extreme oder nur zwei Punkte auf einer groesseren MCM-Weltkarte sind.

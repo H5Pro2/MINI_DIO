@@ -116,9 +116,6 @@ def main() -> None:
         "Wiederkehr mit Teilung bedeutet: ein alter Knoten bleibt erkennbar, bildet aber neue Nachbarschaften aus.",
         "Nachbarschaft ohne exakten Kern bedeutet: Die alte Bedeutung wird nicht kopiert, aber das Feld findet weiterhin eine aehnliche Lage.",
         "",
-        "## Wie es weitergeht",
-        "",
-        "Als naechstes sollte fuer die teilenden Knoten geprueft werden, welche Sinnesachse die Teilung traegt: Ton, Sicht, Rezeptorkontakt oder MCM-Feldspannung.",
     ]
     OUT_MD.write_text("\n".join(lines) + "\n", encoding="utf-8")
 

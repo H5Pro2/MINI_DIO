@@ -79,9 +79,3 @@ Ein Stresskern kann lokal real sein, während seine zeitliche Bedeutung erst dur
 Der Befund ist noch kein Beweis für eine allgemeine MCM-Topologie.
 Er ist ein reproduzierbarer Arbeitsbefund innerhalb der bisher getesteten MINI_DIO-Welten.
 Neue Welten können diese Kopplung bestätigen, erweitern oder brechen.
-
-## Wie es weitergeht
-
-Als nächstes sollte ein ruhiges Segment analog isoliert werden.
-Konkrete Frage: Zeigt ein ruhiger lokaler Abschnitt auch ohne langen Kontext niedrige Memorylast und bessere Rekopplung, oder braucht ruhige Nähe ebenfalls Feldzeit-Einbettung?
-Damit testen wir nicht nur den Stress-Gegenpol, sondern die Gegenseite derselben Feldordnung.

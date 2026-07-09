@@ -51,7 +51,3 @@ Wichtig bleibt die Grenze: Die Reproduzierbarkeit gilt für diese geprüften Wel
 
 - [synthetische_strukturqualitaet_repro_topology.md](../../../../reports/synthetische_strukturqualitaet_repro_topology.md)
 - [synthetische_strukturqualitaet_repro_randdruck.md](../../../../reports/synthetische_strukturqualitaet_repro_randdruck.md)
-
-## Wie es weitergeht
-
-Als nächstes sollte die gleiche Repro-Logik auf reale Fenster mit stärkerer Milieudrift gelegt werden. Entscheidend ist, ob dort ebenfalls gleiche Rollenkerne wiederkehren oder ob die lokale Weltfärbung mehr Varianz erzeugt.

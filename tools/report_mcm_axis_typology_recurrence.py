@@ -362,10 +362,6 @@ def _write_md(path: Path, summary: list[dict[str, object]], detail: list[dict[st
             "",
             "Die Pruefung trennt bekannte Referenztypen von neu entstehenden oder erweiterten Typen. Bekannte Typen sprechen fuer Wiederkehr der Feld-/Chart-Lesung. Neue Typen sind nicht automatisch Fehler; sie koennen echte Erweiterungen durch andere Weltspannung, Assetklasse oder Zeitebene sein.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollten die neuen oder erweiterten Typen getrennt gelesen werden: Welche entstehen durch andere Assetspannung, welche durch Zeitebene, und welche durch echte neue MCM-Uebergangsqualitaet.",
-            "",
         ]
     )
     path.write_text("\n".join(lines), encoding="utf-8")

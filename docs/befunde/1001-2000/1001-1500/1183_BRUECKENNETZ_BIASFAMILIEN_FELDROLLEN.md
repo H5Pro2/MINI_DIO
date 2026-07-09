@@ -50,7 +50,3 @@ Die Familien tragen unterschiedliche lokale Feldqualitaeten innerhalb desselben 
 Die Rollen sind diagnostische Lesungen aus passiven Fenstern.
 Sie beweisen noch keine autonome Bedeutungsentscheidung von MINI_DIO.
 Stark ist aber: Die gleichen Biasfamilien lassen sich nicht nur zaehlen, sondern auch feldqualitativ unterscheiden.
-
-## Wie es weitergeht
-
-Als naechstes sollte geprueft werden, ob diese Feldrollen in einer neuen Welt erneut auftreten oder ob sie unter anderer Weltspannung in andere Rollen kippen.

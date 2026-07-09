@@ -44,7 +44,3 @@ Der wichtige Punkt ist die Trennung: Die Feldrolle bleibt Wahrnehmung und Gedäc
 ## Grenze
 
 Diese Zustandsmemory ist keine Vorhersage, kein Signal, kein Gate, keine Richtung und kein Entry. Sie beschreibt ausschließlich die wiederholte oder veränderte Qualität einer Feldnähe.
-
-## Wie es weitergeht
-
-Als nächstes sollte ein weiterer Holdout mit anderer Weltspannung gegen diese Zustandsmemory geprüft werden. Entscheidend ist, ob `umorganisierte_rekopplung` stabil als Umorganisation wiederkehrt oder ob daraus eine neue teilstabile Feldrolle entsteht.

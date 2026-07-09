@@ -96,7 +96,3 @@ Sie macht aus Rohdaten keine Sprache im menschlichen Sinn, sondern eine wiederke
 Aus dieser Klangfolge koennen spaeter eigene DIO-Tokens und semantische Klangfamilien entstehen.
 
 Wichtig: Der Chart spricht nicht. MINI_DIO erhaelt eine tonale Weltspur, aus der sich bei Wiederkehr eigene Klangbedeutung bilden kann.
-
-## Wie es weitergeht
-
-Als naechstes sollte diese Tonfolge gegen MCM-Feldlagen gelegt werden. Dann sehen wir, ob bestimmte Melodiephrasen wiederkehrend mit stabiler Mitte, Randspannung oder offener Bruecke koppeln.

@@ -68,7 +68,3 @@ Aktueller Stand:
 dio_00ly = tragende Brueckenrolle mit offener bis rekoppelter Modulation
 dio_0pq6 = lokale Kontaktspur, in Stress/Recovery nicht aktiv
 ```
-
-## Wie es weitergeht
-
-Als naechstes sollte nicht eine weitere Einzelwelt gestartet werden, sondern eine kleine Rollenkarte ueber alle geprueften Welten entstehen: ruhige Welt, Seitwaerts, Expansion, negativer Stress, Recovery. Ziel: sichtbar machen, wann `dio_00ly` offen bleibt, wann sie rekoppelt und ob daraus eine geordnete Brueckenachse entsteht.

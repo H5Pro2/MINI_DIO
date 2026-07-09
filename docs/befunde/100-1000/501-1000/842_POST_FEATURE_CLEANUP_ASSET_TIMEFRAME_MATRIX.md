@@ -59,8 +59,3 @@ Rekopplung   = Qualitaet, die Zentrum und Uebergang stabilisiert
 
 Wichtig: Die numerischen Einteilungen sind Diagnosehilfen.
 Sie sind keine Regeln fuer MINI_DIO und keine universellen MCM-Grenzen.
-
-## Wie es weitergeht
-
-Als naechstes sollte die Asset-/Zeitrahmen-Pruefung um weitere Weltarten erweitert werden.
-Ziel ist zu klaeren, ob die starke Zentrierung bei BTC/PAXG ein Zeichen robuster Rezeptoradaptation ist oder ob andere Assets wie DOGE/XRP/KAS wieder mehr offene Variante und Randspannung ausbilden.

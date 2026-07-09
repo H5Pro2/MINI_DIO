@@ -113,9 +113,6 @@ def build_report() -> None:
         f"- Lagefolgen: {sorted(sequences.items())}",
         f"- Rohweltklassen: {sorted(raw_classes.items())}",
         "",
-        "## Wie es weitergeht",
-        "",
-        "Als naechstes wird diese Auswahl durch Rollen- und Nachhallpipeline gelesen.",
     ]
     OUT_MD.write_text("\n".join(lines) + "\n", encoding="utf-8")
 

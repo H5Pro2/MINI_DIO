@@ -44,7 +44,3 @@ Dafuer sprechen in dieser Lupe:
 - passive Flags bleiben sauber: keine Gate-, Motorik-, Entry- oder Richtungskopplung.
 
 Gleichzeitig bleibt die Grenze wichtig: Die Lupe nutzt Top-Episoden aus Reports. Sie zeigt starke Evidenz fuer laengere Feldintegration, aber noch keine vollstaendige Ereignis-fuer-Ereignis-Zeitreihe.
-
-## Wie es weitergeht
-
-Als naechstes sollte fuer eine 10k-Welt eine Ereigniszeitreihe der Feldepisoden geschrieben werden. Dann kann man sehen, wann Integration entsteht, wann sie bricht und ob Nachhall/Feldzeit diese Phasen traegt.

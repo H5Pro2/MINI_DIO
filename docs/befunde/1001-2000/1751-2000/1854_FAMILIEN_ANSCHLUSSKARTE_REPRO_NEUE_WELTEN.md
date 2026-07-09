@@ -64,7 +64,3 @@ Das ist methodisch sinnvoll: Das Feld speichert keinen festen Symbolwert, sonder
 
 Damit bleibt die bisherige Linie erhalten:
 `Familie + Weltkontext + Anschlussqualität` ist tragfähiger als eine isolierte Familienbedeutung.
-
-## Wie es weitergeht
-
-Als nächstes sollte genauer geprüft werden, ob die driftenden offenen Profile durch neue Weltspannung entstehen oder ob die Baseline selbst noch zu grob ist.

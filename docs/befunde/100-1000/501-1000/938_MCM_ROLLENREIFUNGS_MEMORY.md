@@ -61,7 +61,3 @@ Damit bleibt die Trennung erhalten:
 Rollenbewegung: welche Rolle bewegt sich wie?
 Reifungsbewegung: wird diese Bewegung jung gehalten, getragen, belastet, gereift oder entlastet?
 ```
-
-## Wie es weitergeht
-
-Als naechstes sollte diese Reifungs-Memory gegen eine weitere Welt gelesen werden: bestaetigt sich `dio_mature_*`, oder veraendert sich die Reifungsqualitaet?

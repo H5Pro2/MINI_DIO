@@ -101,7 +101,3 @@ Offen bleibt:
 - Tritt `dio_104t` auch in PAXG, KAS, SOL Seitwaerts und BTC 1h stabil auf?
 - Bleibt die rekopplungsnahe Rolle bei frischer Memory erhalten?
 - Ist `dio_104t` eigenstaendig oder teilweise Nachbarschaft von `dio_00ly`?
-
-## Wie es weitergeht
-
-Als naechstes sollte `dio_104t` gegen dieselben Weltklassen wie `dio_00ly` nachgelesen werden. Ziel: eine zweite Weltklassenkarte erstellen und dann beide Achsen direkt vergleichen.

@@ -114,19 +114,3 @@ Wie stark zerfaellt die Feldoberflaeche?
 Welche jungen Spuren entstehen wiederholt?
 Wann verdichten sie sich spaeter zu Rollen?
 ```
-
-## Wie es weitergeht
-
-Als naechstes sollte eine passive Fragmentierungs-Memory entstehen.
-Sie speichert nicht einzelne alte Rollenwechsel, sondern Oberflaechenzustand:
-
-```text
-junge Spur,
-offene Oberflaeche,
-Randspannung,
-schwaches Zentrum,
-Rekopplungsrest,
-Fragmentierungsgrad.
-```
-
-Damit kann spaeter geprueft werden, ob aus Fragmentierung neue Bedeutungsinseln wachsen.

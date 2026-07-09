@@ -228,9 +228,6 @@ def _write_markdown(rows: list[dict[str, object]], out: Path, raw_threshold: flo
             "",
             "Damit ist KAS als reale Randreferenz nuetzlich: Es zeigt, dass echte Weltabschnitte staerker randnah werden koennen als die bisherige synthetische Randdominanz, ohne dass das Gesamtfeld kollabiert.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte aus den staerksten KAS-Randsegmenten eine synthetische Gegenwelt gebaut werden. Ziel ist zu pruefen, ob eine real inspirierte synthetische Welt dieselbe Randnaehe reproduzieren kann.",
         ]
     )
     out.write_text("\n".join(lines) + "\n", encoding="utf-8")

@@ -83,7 +83,3 @@ Daten:
 Reports:
 
 - [xrp_doge_2025_lokale_realsleepreal_achsen.md](../../../../reports/xrp_doge_2025_lokale_realsleepreal_achsen.md)
-
-## Wie es weitergeht
-
-Als nächstes sollte geprüft werden, ob ein zweites XRP-Teilfenster ebenfalls `verteilt_offen` wird oder ob diese lokale Offenverteilung nur an `XRP_2025_FOLLOW 0-1000` hängt.

@@ -287,9 +287,6 @@ def _write_markdown(
             "Wenn sie mit erhoehter Strain-Qualitaet erscheint, ist das ein Hinweis auf belastete Klangnaehe.",
             "Offene Kopplungen bleiben beobachtbar, ohne sofort Bedeutung zu erzwingen.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte geprueft werden, ob diese Klangkopplungen in einer anderen Welt wieder auftauchen oder ob sie nur situationsgebundene Klang-Innenfeld-Inseln dieser Stresswelt sind.",
         ]
     )
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")

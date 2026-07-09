@@ -30,8 +30,3 @@ Wichtig ist die Grenze:
 Getragene Mitte ist hier noch keine Handlung.
 Sie ist eine passive Lesung: ein Knoten wirkt zentrumsnah und wird durch bestehende Feldspuren mitgetragen.
 ```
-
-## Wie es weitergeht
-
-Als naechstes sollte diese Zentrumsqualitaet gegen eine neue Weltgruppe wiederholt werden.
-Bleiben dieselben Knoten zentrumsnah, ist es Reproduktion; entstehen neue Knoten, ist es Feldwachstum.

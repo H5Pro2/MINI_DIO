@@ -76,7 +76,3 @@ Das spricht fuer eine phasenabhaengige Bedeutungsbildung: Aehnliche Asset-Welten
 ## Schlussfolgerung
 
 Die Milieuinsel `0hiolzy` ist derzeit als PEPE-A-spezifische Feldphase zu lesen. PEPE-B und PEPE-C tragen stattdessen andere Rollen weiter. Das ist ein wichtiger Hinweis gegen starre Symbolbildung und fuer dynamische Bedeutungsnaehe im MCM-Feld.
-
-## Wie es weitergeht
-
-Als naechstes sollte `1yxc2ug` im PEPE-C-Fenster isoliert rueckgelesen werden. Entscheidend ist, ob es die Rolle von `0hiolzy` ersetzt, eine andere PEPE-Phase beschreibt oder eine breitere Grundrollen-Rekopplung darstellt.

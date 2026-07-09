@@ -100,7 +100,3 @@ Welche Merkmale machen aus einer MCM-Feldepisode eine eigene Rolle?
 ```
 
 Wenn `field_carried` zu breit ist, verschluckt es lokale Kipp- und Uebergangszonen. Dann sieht MINI_DIO zwar Unterschiede in Syntax und Effektklasse, aber Sleep/Offline kann sie nicht als getrennte Rollen beruehren.
-
-## Wie es weitergeht
-
-Als naechstes sollte die MCM-Feldepisoden-Verdichtung untersucht werden: `field_carried` muss gegen lokale Kippnaehe, Strain, Nachhall und Rekopplungsqualitaet aufgeteilt werden, ohne daraus harte Regeln oder Handlungsgates zu machen.

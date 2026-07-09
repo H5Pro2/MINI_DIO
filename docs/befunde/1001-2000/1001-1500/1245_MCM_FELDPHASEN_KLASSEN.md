@@ -113,7 +113,3 @@ MINI_DIO bekommt dadurch keine Handlung. Es bekommt eine bessere passive Innenze
 nicht nur: Das Feld ist so.
 sondern: Das Feld bewegt sich wiederholt so.
 ```
-
-## Wie es weitergeht
-
-Als naechstes sollte geprueft werden, welche konkreten Weltarten die weltgebundenen und jungen Phasen ausloesen. Das trennt stabile Feldordnung von situativer Weltreaktion.

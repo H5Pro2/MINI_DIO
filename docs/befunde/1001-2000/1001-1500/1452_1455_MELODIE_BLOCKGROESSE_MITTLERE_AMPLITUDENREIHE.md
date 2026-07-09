@@ -91,7 +91,3 @@ Es handelt sich nicht um eine lineare Schwelle, sondern um einen gekruemmten Kip
 Diese Pruefung beweist keine allgemeine Topologieform.
 
 Sie zeigt aber, dass die gleiche synthetische Melodiestruktur bei kontrollierter Lautstaerkevariation unterschiedliche, aber nachvollziehbare Dominanznaehen erzeugt.
-
-## Wie es weitergeht
-
-Als naechstes sollte der Bereich zwischen `0.00105` und `0.00150` feiner geprueft werden. Ziel ist zu erkennen, ob `dio_1fll` dort graduell wieder uebernimmt oder ob eine Zwischeninsel entsteht.

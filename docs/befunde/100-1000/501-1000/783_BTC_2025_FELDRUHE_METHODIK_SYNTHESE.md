@@ -113,7 +113,3 @@ Damit wird die naechste Forschungsfrage klarer:
 Welche Aussenweltformen erzeugen feldruhige Innenordnung,
 und welche erzeugen offene oder randnahe Feldlagen?
 ```
-
-## Wie es weitergeht
-
-Als naechstes sollte SOL 2025 gegen BTC 2025 direkt verglichen werden. Ziel: pruefen, ob Feldruhe nur innerhalb eines Assets relativ ist oder ob sich assetuebergreifend eine aehnliche MCM-Feldordnung zeigt.

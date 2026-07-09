@@ -73,7 +73,3 @@ Diese Kandidaten sind keine Handlung und keine sichere neue Semantik. Sie sind e
 
 - Speicher: `memory\sleep_intermediate_candidates\passive_sleep_intermediate_candidates.json`
 - gespeicherte Kandidaten gesamt: `9`
-
-## Wie es weitergeht
-
-Als naechstes sollte eine weitere andere Ausgangswelt denselben Speicher aktualisieren. Entscheidend ist, ob `dio_mcm_episode_0e7qvj1|dio_mcm_episode_1k2bqha` weiter als gemeinsamer Kern waechst oder ob weitere assetnahe Kandidaten daneben entstehen.

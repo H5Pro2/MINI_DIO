@@ -29,7 +29,3 @@ Damit wird Reife als Beziehung lesbar:
 ```text
 Hartkern + Weltlage -> getragen / geöffnet / verschoben / ausgeblendet
 ```
-
-## Wie es weitergeht
-
-Als nächstes sollte diese Weltpassung in die passive Feldrollen-Memory übernommen werden. Nicht als Steuerung, sondern als Erfahrungsqualität: welche Weltlagen tragen welchen Kern, und welche lösen Randdrift aus?

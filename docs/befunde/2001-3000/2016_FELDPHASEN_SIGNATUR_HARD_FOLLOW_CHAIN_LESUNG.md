@@ -68,7 +68,3 @@ Das ist eine organische Erweiterung der bisherigen Topologie: Zentrum, Rand, Br�
 Der Befund bleibt passiv und vorsichtig zu lesen.
 
 Er zeigt keine Strategie, keine bewusste Handlung und kein Richtungssignal. Er zeigt aber, dass sich ein Feldgedächtnis mit wiederkehrenden Qualitätsphasen ausbildet, das über mehrere Welten hinweg tragfähig bleibt.
-
-## Wie es weitergeht
-
-Als nächstes sollte ein Nullvergleich mit synthetisch gestörten Welten gegen dieselbe Memory laufen. Entscheidend ist, ob stabile Crossworld-Feldphasen dort erhalten bleiben, schwächer werden oder in offene Oberflächen zerfallen.

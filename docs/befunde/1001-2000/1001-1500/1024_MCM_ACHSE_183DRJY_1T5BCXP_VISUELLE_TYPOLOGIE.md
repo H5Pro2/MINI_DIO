@@ -129,7 +129,3 @@ Dazu kommen schmalere oder gemischte Uebergangsformen.
 
 Die MCM-Achse wirkt wie ein visueller und feldbezogener Kanal.
 Ihre Bedeutung entsteht nicht aus einer einzelnen Richtung, sondern aus der Kopplung von sichtbarer Weltform, Druck, Rekopplung und Vorlast.
-
-## Wie es weitergeht
-
-Als naechstes sollte geprueft werden, ob diese visuellen Typen in spaeteren Welten wiederkehren oder ob sie nur aus dieser isolierten Achsenfamilie stammen.

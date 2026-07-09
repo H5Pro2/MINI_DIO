@@ -149,11 +149,6 @@ def _write_md(path: Path, rows: list[dict[str, object]], family: str) -> None:
     lines.append("Keine Aussage ueber Absicht.")
     lines.append("```")
     lines.append("")
-    lines.append("## Wie es weitergeht")
-    lines.append("")
-    lines.append(
-        "Als naechstes sollte die Kombinationswirkung getrennt gelesen werden: Hoeranstieg, Spannungsanstieg und Range-Aufweitung als gemeinsamer Bruchzustand."
-    )
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 

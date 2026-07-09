@@ -85,7 +85,3 @@ Das ist wichtig, weil die Feldordnung nicht sofort bei jeder Veraenderung spring
 Die Schwelle ist noch nicht exakt lokalisiert.
 
 `1430` zeigt nur, dass der Kippbereich naeher an `1428` liegt als an `1427`. Weitere Zwischenwelten muessen pruefen, welcher Anteil den Wechsel ausloest: fehlende Ruhe, doppelte Irregularitaet oder Blockrahmung.
-
-## Wie es weitergeht
-
-Als naechstes sollte genau ein Faktor aus `1428` isoliert werden. Erste sinnvolle Unterpruefung: Ruhe entfernen, aber keine doppelte Irregularitaet. So sehen wir, ob der Verlust der Ruhe allein die Dominanzverschiebung ausloest.

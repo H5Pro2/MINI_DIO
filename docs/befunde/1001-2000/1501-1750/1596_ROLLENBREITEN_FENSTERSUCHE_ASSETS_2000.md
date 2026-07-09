@@ -45,7 +45,3 @@ Die Diagnose ist passiv und erzeugt keine Handlung.
 ## Lesung
 
 Die Fenstersuche trennt Asset-Faerbung von lokaler Feldlage. Entscheidend ist nicht, welches Asset gelesen wird, sondern ob das konkrete Fenster mehrere MCM-Feldrollen hervorbringt.
-
-## Wie es weitergeht
-
-Als naechstes sollte der staerkste neu gefundene Uebergangs- oder Mehrrollen-Kandidat als Real-Sleep-Real-Kette mit Sleep-Reorganisation reproduziert werden.

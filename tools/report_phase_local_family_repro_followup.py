@@ -339,10 +339,6 @@ def write_md(summary: list[dict[str, object]], state_rows: list[dict[str, object
             "Wenn viele phasenlokal eigenständige Familien ihre Qualität verlieren, spricht das für echte Kontextdrift.",
             "Wenn ein Teil stabil bleibt, spricht das für lokale Feldrollen, die über neue Weltfenster getragen werden können.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als nächstes sollte aus den stabil reproduzierten lokalen Familien eine kleine passive Reifegruppe gebildet werden.",
-            "Diese Gruppe darf keine Handlung steuern; sie dient nur als sauberer Kern für weitere Feldrollen-Reifung.",
         ]
     )
     OUT_MD.write_text("\n".join(lines) + "\n", encoding="utf-8")

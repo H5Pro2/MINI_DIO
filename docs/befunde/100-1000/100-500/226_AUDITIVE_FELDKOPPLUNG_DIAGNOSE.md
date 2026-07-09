@@ -47,8 +47,3 @@ Hierarchie der Pruefung:
 Diese Diagnose trennt Hoeren von Feldwirkung.
 Rauschenfiltern oder Reizabklingen ist nur dann entlastend, wenn die Feldbindung niedrig bleibt.
 Wenn Feldlast und Memorylast hoch bleiben, ist auditive Filterung allein nicht ausreichend.
-
-## Wie es weitergeht
-
-Als naechstes wird der Befund geschrieben.
-Dort wird bewertet, ob SOL 5m eine entlastende Hoerkopplung zeigt und warum Stress/1h trotz Filterung binden kann.

@@ -112,7 +112,3 @@ aber methodisch wegen Ganzwelt-Profil nicht streng kausal.
 phase_afterimage_relative ist kausaler,
 aber fuer Rollenbreite derzeit zu glatt.
 ```
-
-## Wie es weitergeht
-
-Als naechstes sollte eine kalibrierte Rezeptoraufnahme geprueft werden: MINI_DIO liest eine begrenzte Anfangswelt als Kalibrierung und nutzt diese danach als gelebten Rezeptorrahmen. Ziel ist Rollenbreite ohne Ganzwelt-Zukunftsblick.

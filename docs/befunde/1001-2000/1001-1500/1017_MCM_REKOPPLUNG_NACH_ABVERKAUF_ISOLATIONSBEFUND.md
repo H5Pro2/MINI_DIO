@@ -68,7 +68,3 @@ abverkauf_mit_rekopplung als wiederkehrende MCM-Typfamilie.
 ```
 
 Diese Familie kann unter bestimmten Weltbedingungen als `rekopplung_nach_abverkauf` erscheinen.
-
-## Wie es weitergeht
-
-Als nächstes sollte nicht der Einzeltyp, sondern die ganze Familie `abverkauf + rekopplung` geprüft werden: Welche Weltmerkmale lassen sie als Bruch, als Rekopplung oder als Nach-Abverkauf-Erholung erscheinen?

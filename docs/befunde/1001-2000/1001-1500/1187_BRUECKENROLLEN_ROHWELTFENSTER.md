@@ -45,7 +45,3 @@ Stabile Rollen sind nicht einfach haeufige Symbole, sondern erscheinen in Rohwel
 Kippende Rollen zeigen, dass eine Familie ihre lokale Bedeutung unter anderer Weltspannung verschieben kann.
 
 Damit wird die MCM-Lesung konkreter: Die Rolle haengt nicht nur am Zeichen, sondern an Weltfenster, Ton, Form, Rezeptoraufnahme und Feldwirkung.
-
-## Wie es weitergeht
-
-Als naechstes sollte aus diesen Rohweltmerkmalen eine passive Rollenkarte entstehen: stabile Rueckbindung, belastete Randnaehe, Uebergangsoeffnung und gemischte Nachbarschaft als Feldzonen.

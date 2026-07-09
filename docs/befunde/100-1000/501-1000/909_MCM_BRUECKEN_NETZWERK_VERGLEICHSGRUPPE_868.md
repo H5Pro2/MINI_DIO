@@ -124,7 +124,3 @@ Bruecke = gehaltene Innenphase + gerichtete Kanten + Rueckbezuege
 ```
 
 Damit wird Bedeutung nicht nur als Insel oder Punkt lesbar, sondern als topologische Verbindung zwischen Feldzustaenden.
-
-## Wie es weitergeht
-
-Als naechstes sollte das staerkste Brueckenpaar gezielt gelesen werden: Welche Weltphasen erzeugen `0e7qvj1` und `18l3thm`, und warum halten sie sich gegenseitig so stabil?

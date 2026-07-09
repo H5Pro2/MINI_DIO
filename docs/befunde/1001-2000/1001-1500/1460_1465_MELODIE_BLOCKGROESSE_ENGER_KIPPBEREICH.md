@@ -78,7 +78,3 @@ Fachlich sauberer ist deshalb:
 Die Amplitudenwerte sind Pruefwerte, keine Regeln.
 
 Der Befund gilt fuer diese synthetische Melodiestruktur. Er zeigt eine reproduzierbare Naehe im Feld, aber noch keine allgemeine MCM-Gesetzmaessigkeit.
-
-## Wie es weitergeht
-
-Als naechstes sollte genau der Gleichlagenbereich `0.00112 / block_size 13` reproduziert werden. Ziel ist zu pruefen, ob die Gleichlage stabil wiederkommt oder ob sie bei Wiederholung zwischen `dio_0ein` und `dio_1fll` driftet.

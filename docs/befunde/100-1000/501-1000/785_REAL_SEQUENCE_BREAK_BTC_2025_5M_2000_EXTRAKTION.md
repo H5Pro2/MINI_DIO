@@ -57,7 +57,3 @@ Der maschinenlesbare Extraktionsbericht liegt unter:
 ```text
 docs/befunde/100-1000/501-1000/785_REAL_SEQUENCE_BREAK_BTC_2025_5M_2000_EXTRACT_REPORT.json
 ```
-
-## Wie es weitergeht
-
-Diese extrahierte Welt wird in der passiven Forschungskette gelesen und danach direkt gegen den BTC-Feldruhe-Kandidaten verglichen.

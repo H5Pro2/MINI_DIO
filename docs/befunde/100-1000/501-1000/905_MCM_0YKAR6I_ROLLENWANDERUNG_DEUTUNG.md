@@ -54,7 +54,3 @@ Das ist relevant fuer spaetere semantische Reifung:
 - Bedeutung bleibt dynamisch.
 - Syntax darf nicht starr verdrahtet werden.
 - Memory muss Rollenqualitaet speichern, nicht nur Tokenhaeufigkeit.
-
-## Wie es weitergeht
-
-Als naechstes sollte geprueft werden, ob aus den 12 verdichtenden Rollen aus 904 wiederkehrende Verdichtungspfade entstehen: schwach -> lokal -> stark -> Kern.

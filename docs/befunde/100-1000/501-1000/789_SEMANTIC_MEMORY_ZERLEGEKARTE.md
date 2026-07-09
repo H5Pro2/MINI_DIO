@@ -284,7 +284,3 @@ mini_dio/action_selection.py
 
 Diese Schicht ist aktuell aktive Kompatibilitaet mit `run_mini.py`, nicht Kern der passiven MINI_DIO-Gedaechtnisarchitektur.
 `semantic_memory.py` bleibt dadurch JSON-Fassade und API-Bruecke.
-
-## Wie es weitergeht
-
-Als naechstes sollte der Laufpfad selbst weiter kartiert werden: passive Wahrnehmung, neuronale Feldreaktion, aktive Auswahl und Reporting/Debug muessen im Code klar unterscheidbar bleiben.

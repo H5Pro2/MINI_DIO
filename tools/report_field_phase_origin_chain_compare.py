@@ -152,9 +152,6 @@ def _write_markdown(path: Path, rows: list[dict[str, object]], title: str) -> No
             "",
             "Eine Signatur kann tief, häufig und stabil wirken, aber unter Störung eine andere Herkunft zeigen. Das ist für MINI_DIO wichtig, weil es zwischen realweltgetragener Wiederkehr und feldinterner Ordnung unterscheiden muss.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als nächstes sollte dieser Vergleich mit längeren realen Weltketten wiederholt werden. Entscheidend ist, ob realweltstabile Signaturen bei mehr Außenwelt stabil bleiben oder ob neue gemischte Übergangsklassen entstehen.",
         ]
     )
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")

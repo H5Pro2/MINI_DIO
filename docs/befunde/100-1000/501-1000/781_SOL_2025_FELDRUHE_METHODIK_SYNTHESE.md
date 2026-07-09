@@ -185,7 +185,3 @@ Der aktuelle Befund zeigt:
 Feldruhe ist relativ und topologisch lesbar,
 aber nicht identisch mit rezeptorischer Leisheit.
 ```
-
-## Wie es weitergeht
-
-Als naechstes sollte dieselbe feldruhige Kandidatenauswahl auf BTC 2025 oder SOL 2024 laufen. Ziel: pruefen, ob Feldruhe auch dort nicht mit Rohruhe zusammenfaellt und ob dieselbe robuste Topologie erhalten bleibt.

@@ -233,9 +233,6 @@ def build_report() -> None:
             "",
             "Das verhindert eine mechanische Uebertragung, ersetzt aber keine spaetere Positiv-/Negativkontrolle.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollten die dominanten Naehen aus dieser globalen Probe gegen konkrete Rohweltfenster zurueckgelesen werden. Entscheidend ist, ob bekannte Feldfunktionen reale Weltformen koppeln oder ob nur interne Metriknaehe entsteht.",
         ]
     )
     OUT_MD.write_text("\n".join(lines) + "\n", encoding="utf-8")

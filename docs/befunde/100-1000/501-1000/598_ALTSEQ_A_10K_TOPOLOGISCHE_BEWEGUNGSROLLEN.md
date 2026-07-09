@@ -68,7 +68,3 @@ Damit wirkt Altseq nicht wie ein Topologiebruch, sondern wie eine breitere Seque
 ## Grenze
 
 Altseq ist weiterhin aus SOL-Sequenzen abgeleitet und ersetzt keine echte dritte Assetklasse. Der Befund prueft Sequenzlogik, nicht Assetdiversitaet.
-
-## Wie es weitergeht
-
-Als naechstes sollte Altseq-A-10k gegen BTC/SOL-10k in einer gemeinsamen Rollensynthese gelesen werden. Ziel ist zu trennen, was allgemeine Rollenbewegung ist und was nur Sequenzfaerbung bleibt.

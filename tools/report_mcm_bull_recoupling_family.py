@@ -242,10 +242,6 @@ def _write_md(path: Path, detail: list[dict[str, object]], mode_rows: list[dict[
             "",
             "Fachlich wichtig: Das bleibt passive Lesung. Die Familie beschreibt Feldqualitaet, keine Richtungsvorgabe und kein Handlungssignal.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollten Bull- und Abverkauf/Rekopplung-Familie direkt verglichen werden: Welche Feldmerkmale sind symmetrisch, und wo ist die MCM-Wirkung asymmetrisch?",
-            "",
         ]
     )
     path.write_text("\n".join(lines), encoding="utf-8")

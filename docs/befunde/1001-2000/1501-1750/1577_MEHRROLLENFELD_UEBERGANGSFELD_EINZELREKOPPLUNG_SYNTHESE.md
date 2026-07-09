@@ -94,7 +94,3 @@ Damit wird die MCM-Feldnähe als eigentliche Trennlinie sichtbarer.
 ## Grenze
 
 Das ist ein Arbeitsbefund aus kontrollierten Welten. Es ist kein universeller Nachweis. Die nächste Prüfung muss zeigen, ob diese drei Klassen auch bei weiteren Weltfenstern erhalten bleiben.
-
-## Wie es weitergeht
-
-Als nächstes sollte gezielt ein weiteres Nicht-SOL-Fenster gesucht werden, das zwischen BTC-Übergangsfeld und PAXG/KAS-Einzelrekopplung liegt. Ziel ist eine feinere Abstufung: Wann kippt Einzelrekopplung in Übergang, und wann wird Übergang zu breitem Mehrrollenfeld?

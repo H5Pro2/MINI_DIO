@@ -47,7 +47,3 @@ Antwort auf die Syntaxfrage:
 - Auf `symbol_family`-Ebene: nein, nicht identisch ueber alle Assets und Welten.
 - Auf MCM-Preview-Ebene: ja, deutlich aehnlicher und wiederkehrender.
 - Die MCM-Preview-Syntax wirkt damit wie eine verdichtete Feldsprache, waehrend die Rohsyntax die lokale Oberflaechenvarianz traegt.
-
-## Wie es weitergeht
-
-Als naechstes wird `dio_mcm_episode_183drjy` nicht nur nach Vorkommen, sondern nach Nachbarschaft geprueft: Welche Zentrum-, Offen- und Randrollen liegen davor und danach?

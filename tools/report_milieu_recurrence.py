@@ -233,11 +233,6 @@ def _write_md(pair_rows: list[dict[str, object]], signature_rows: list[dict[str,
             "",
             "Das ist fuer MINI_DIO wichtig, weil dadurch Bedeutung nicht nur als Insel, sondern als Lagefolge gelesen werden kann.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollten stabile Milieus gegen laengere Welten geprueft werden.",
-            "Wenn sie dort stabil bleiben, koennen sie als passive Regulationswahrnehmung dokumentiert werden.",
-            "",
         ]
     )
     out_path.write_text("\n".join(lines), encoding="utf-8")

@@ -44,8 +44,3 @@ Ein wiederkehrendes Kontaktmilieu bedeutet hier nicht, dass die Feldbewegung mec
 Es bedeutet: Die Feldbewegung erscheint in einem aehnlichen Rezeptor-/Innenfeld-Kontext wieder.
 
 Das ist fuer MINI_DIO wichtig, weil dadurch Bedeutung nicht nur als Insel, sondern als Lagefolge gelesen werden kann.
-
-## Wie es weitergeht
-
-Als naechstes sollten stabile Milieus gegen laengere Welten geprueft werden.
-Wenn sie dort stabil bleiben, koennen sie als passive Regulationswahrnehmung dokumentiert werden.

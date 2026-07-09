@@ -45,7 +45,3 @@ Damit eignet sich diese Welt als Gegenpol zur 10k-Zeitreihe: stabiler Zustand ja
 ## Grenze
 
 Diese Zeitreihe ist eine Segmentierung nach Feldphase. Sie ist keine Handlungsauswertung und keine kausale Beweisfuehrung.
-
-## Wie es weitergeht
-
-Als naechstes sollten 806 und 807 direkt verglichen werden: lange 10k-Integration gegen kurze Stress-Phasenstruktur.

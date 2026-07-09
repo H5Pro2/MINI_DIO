@@ -136,8 +136,3 @@ Bruecken
 Brueckenkerne
 Bruecken-Seitenarme
 ```
-
-## Wie es weitergeht
-
-Als naechstes sollte diese Kernstruktur gegen stabile Inseln und Randpfade gelegt werden.
-Ziel: pruefen, ob der zentrale Brueckenkern wirklich zentrumsnah arbeitet oder ob er nur durch stabile Inseln zentrumsnah erscheint.

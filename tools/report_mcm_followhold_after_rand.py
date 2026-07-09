@@ -276,10 +276,6 @@ def _write_markdown(path: Path, rows: list[dict[str, object]]) -> None:
             "",
             "Damit wird die Aussage aus 1262-1263 konkretisiert: Ordnung braucht Folgehalt.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte dieser Folgehalt mit Rohweltfenstern gekoppelt werden: Welche Weltspannung erzeugt kurzen Rueckfall, welche Weltspannung laesst Folgeordnung tragen?",
-            "",
         ]
     )
     path.parent.mkdir(parents=True, exist_ok=True)

@@ -27,7 +27,3 @@ Liegt `tonal_high` vor allem in bestimmten Topologie-Rollen: Zentrum, Bruecke, R
 ## Lesart
 
 `tonal_high` ist keine eigene Topologie-Rolle. Es faerbt vorhandene Rollen und verschiebt sie eher in offene Unruhe oder Randnaehe, wenn die Feldbindung nicht nachkommt. Damit bestaetigt sich die Trennung aus 1062: Tonenergie ist ankommende Weltspannung; erst die Feldrolle entscheidet, ob sie getragen, offen gehalten oder kippnah wird.
-
-## Wie es weitergeht
-
-Als naechstes sollte geprueft werden, ob mittlere Tonenergie (`tonal_mid`) als optimaler Verarbeitungsbereich stabil ueber weitere Weltgruppen reproduziert.

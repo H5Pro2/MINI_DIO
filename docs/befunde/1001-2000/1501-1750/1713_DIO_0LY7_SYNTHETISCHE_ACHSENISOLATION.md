@@ -35,7 +35,3 @@ Sie bleibt passiv: keine Handlung, kein Gate, keine Richtung.
 
 Wenn Delta Hoeren und Delta Spannung negativ bleiben, stuetzt das die Entlastungslesung aus 1702.
 Wenn sie kippen oder verschwinden, war die 5000er-Oeffnungsform eher fensterspezifisch.
-
-## Wie es weitergeht
-
-Als naechstes sollte die Achsenisolation gegen gekoppelte Lastwelten gehalten werden: kippt `dio_0ly7` erst, wenn Range, Hoeren und Spannung gemeinsam steigen?

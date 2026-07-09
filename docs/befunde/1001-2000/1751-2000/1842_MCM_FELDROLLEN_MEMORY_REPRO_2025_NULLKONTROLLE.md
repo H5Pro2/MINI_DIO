@@ -47,8 +47,3 @@ Bleibt die passive Reifungsrollen-Lesung in echten 2025-Welten staerker als in a
 
 Damit ist der Befund kein einfacher Beweis gegen Rauschen, aber ein stärkerer Hinweis:
 MINI_DIO liest in realer Weltzeit mehr zusammenhängende Reifungsnähe als in assetnaher synthetischer Umordnung.
-
-## Wie es weitergeht
-
-Als nächstes sollte die Reifungsrollen-Memory nicht erweitert, sondern strenger geprüft werden:
-ein zweiter 2025-Ausschnitt mit anderem Startpunkt zeigt, ob dieselbe Differenz auch außerhalb des Jahresanfangs sichtbar bleibt.

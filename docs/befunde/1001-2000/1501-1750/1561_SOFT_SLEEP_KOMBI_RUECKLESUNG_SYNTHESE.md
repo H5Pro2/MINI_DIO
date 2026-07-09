@@ -103,7 +103,3 @@ Die Kombinationsspuren bleiben passiv:
 - keine Motorik.
 
 Sie duerfen nicht als Entscheidung gelesen werden. Sie zeigen nur, welche alten Feldrollen im entkoppelten Innenfeld gemeinsam anschlussfaehig wurden.
-
-## Wie es weitergeht
-
-Als naechstes sollte geprueft werden, ob wiederholte weiche Sleep-Phasen aus den teilweise ruecklesbaren Kombinationen stabile Zwischenrollen bilden. Entscheidend ist, ob eine neue Kombinationsinsel ueber mehrere Real-Sleep-Real-Ketten bestehen bleibt.

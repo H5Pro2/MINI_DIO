@@ -64,7 +64,3 @@ Die Weltpassung ist die erste explizite Speicherform für die Frage:
 ```text
 Passt diese Außenwelt zu meinem gereiften Innenkern?
 ```
-
-## Wie es weitergeht
-
-Als nächstes sollte geprüft werden, ob diese Weltpassungs-Memory über neue Weltfenster stabil mitwächst oder ob sie neue Weltlagen als eigene Passungsgruppen bildet.

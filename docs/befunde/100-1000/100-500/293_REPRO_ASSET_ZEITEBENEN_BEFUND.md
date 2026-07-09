@@ -61,7 +61,3 @@ Die Innenfeldordnung bleibt bei Asset- und Zeitebenenwechsel erhalten, während 
 Das passt zu der bisherigen Arbeitsannahme:
 
 Die MCM bildet nicht nur feste Werte ab, sondern eine geordnete Feldreaktion auf unterschiedliche Weltspannung.
-
-## Wie es weitergeht
-
-Als nächstes sollten wir die Öffnung selbst genauer untersuchen: Welche Sinnesachse trägt sie? Sehen, Hören, Feldwirkung, Rekopplung oder eine Kombination daraus.

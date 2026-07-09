@@ -63,7 +63,3 @@ Für zukünftige Befunde muss zwischen diesen Klassen unterschieden werden:
 `08g1nk4` liegt nach dieser Prüfung eher bei:
 
 > `sensorischer_uebergangsanker`
-
-## Wie es weitergeht
-
-Als nächstes gezielt nach Ankern suchen, die in realen Welten stabil sind, aber in Shuffle-/Random-Sign-Welten deutlich schwächer werden. Diese Kandidaten wären die besseren Belege für echte Weltbindung.

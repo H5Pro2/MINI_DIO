@@ -105,20 +105,3 @@ Die neue Kippnaehe ist extrem klein. Sie wird daher nicht als Feldkollaps gelese
 Die Welt ist synthetisch und aus vorhandenen Mosaikphasen gebaut.
 
 Sie beweist keine allgemeine Topologie. Sie zeigt aber, dass neue Phasenverschraenkung nicht automatisch zu beliebigem Rauschen fuehrt.
-
-## Wie es weitergeht
-
-Als naechstes sollte eine Mosaikvariante mit bewusst hoeherem Kontrast erzeugt werden:
-
-```text
-mehr Randbruch,
-mehr Rekopplung,
-mehr Ruhephase,
-aber weiterhin verschraenkt.
-```
-
-Die konkrete Frage:
-
-```text
-Ab welchem Kontrast wird die stabile Mosaiklandschaft zur klaren Nebel-/Kippzone?
-```

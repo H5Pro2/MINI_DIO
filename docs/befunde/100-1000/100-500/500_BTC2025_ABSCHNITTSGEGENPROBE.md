@@ -48,7 +48,3 @@ BTC-2025 zeigt in den geprueften Quellen keine einfache neue Regel. Sauberer ist
 ## Vorsicht
 
 Das ist weiterhin passive Wahrnehmungsdiagnose. Daraus folgt keine aktive Regulierungsregel und keine Handlung. Die Werte beschreiben, welche Aufnahmequalitaet in den gelesenen Welten nahe liegt.
-
-## Wie es weitergeht
-
-Als naechstes sollte BTC-2025 gegen eine weitere, anders gelagerte 2025er Quelle oder gegen BTC-2024 mit identischer Abschnittslogik gelesen werden. Ziel: trennen, ob abstandsnahe Kontaktentlastung eine BTC-2025-nahe Grundfarbe ist oder aus den gewaehlten Abschnitten entsteht.

@@ -142,10 +142,6 @@ def _write_md(rows: list[dict[str, object]], asset_rows: list[dict[str, str]], o
             "",
             "`dio_0dd2` taucht zwar in Assets auf, aber mit Gegenrichtung. `dio_10dv` taucht in dieser Assetpruefung nicht auf.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollten `dio_0ly7` und `dio_01hu` als robuste Kandidaten gegen ihre Asset-Rohweltfenster gelesen werden: Welche Weltspannung, Hoerform und Feldspannung liegen direkt vor der erneuten Oeffnung?",
-            "",
         ]
     )
     out_path.parent.mkdir(parents=True, exist_ok=True)

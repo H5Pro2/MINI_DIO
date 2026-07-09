@@ -82,7 +82,3 @@ Es ist eine reproduzierbare passive Diagnose innerhalb der bisher getesteten Wel
 - [1715_DIO_0LY7_EINZELACHSE_GEGEN_GEKOUPPELTE_LAST.md](1715_DIO_0LY7_EINZELACHSE_GEGEN_GEKOUPPELTE_LAST.md)
 - [1716_DIO_0LY7_ZWEIERKOPPLUNG.md](1716_DIO_0LY7_ZWEIERKOPPLUNG.md)
 - [1717_DIO_0LY7_ZWEIERKOPPLUNG_KLASSEN.md](1717_DIO_0LY7_ZWEIERKOPPLUNG_KLASSEN.md)
-
-## Wie es weitergeht
-
-Als naechstes sollte eine zweite Familie mit derselben Kopplungshierarchie geprueft werden. Erst dann wird sichtbar, ob Range-Kopplung eine spezielle Eigenschaft von `dio_0ly7` ist oder eine allgemeinere MCM-Feldreaktion.

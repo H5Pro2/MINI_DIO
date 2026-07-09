@@ -50,5 +50,3 @@ Das ist fachlich wichtig:
 - Nicht jede Faerbungsverschiebung ist bereits eine neue stabile Insel.
 
 Die Auswertung bleibt passiv. Sie erzeugt keine Handlung, keine Richtung und kein Gate.
-
-Wie es weitergeht: Als naechstes sollte eine dritte Holdout-Gruppe gezielt mit Kontrastwelten laufen, damit sichtbar wird, ob starke Shift-Typen nur unter Stress/Bruch entstehen oder ob sie ueber Assets hinweg als wiederkehrende Feldrollen auftreten.

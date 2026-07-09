@@ -22,7 +22,3 @@ Damit wird geprueft, ob Randdruck aus der vollen Kopplung `lauter_feldkontakt->l
 - Kontrolltypen: [('same_loud_contact_not_raw_loud', 4), ('same_raw_loud_not_loud_contact_loop', 2)]
 - Lagefolgen: [('lauter_feldkontakt->lauter_feldkontakt', 4), ('normale_weltspannung->lauter_feldkontakt', 2)]
 - Rohweltklassen: [('gemischte_rohwelt', 4), ('laute_oder_druckvolle_rohwelt', 2)]
-
-## Wie es weitergeht
-
-Als naechstes wird diese Auswahl durch Rollen- und Nachhallpipeline gelesen.

@@ -100,13 +100,3 @@ Das spricht gegen eine reine Rohdatenlesung und fuer eine passive Innenfeldorgan
 - Episodenmemory
 
 bilden zusammen eine eigene Feldrealitaet.
-
-## Wie es weitergeht
-
-Als naechstes sollte eine dritte Zeitaufloesung geprueft werden, wenn Daten verfuegbar sind:
-
-- BTC 15m oder 30m als Zwischenauflösung.
-
-Die konkrete Unterfrage lautet:
-
-Entsteht zwischen 5m und 1h eine echte Uebergangsklasse, oder kippt MINI_DIO direkt von ruhiger Naehegruppe in Stress-Gegenpol?

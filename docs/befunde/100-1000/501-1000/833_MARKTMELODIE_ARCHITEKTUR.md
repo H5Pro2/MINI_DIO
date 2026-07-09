@@ -65,8 +65,3 @@ Das ist noch keine aktive Sprache.
 Es ist auch noch kein auditives Bewusstsein.
 
 Es ist eine passive, reproduzierbare Hoerspur, aus der spaeter eigene Klangsemantik entstehen kann.
-
-## Wie es weitergeht
-
-Als naechstes sollte die Marktmelodie gegen vorhandene MCM-Uebergangskarten gelegt werden.
-Dann wird sichtbar, ob bestimmte Tonrollen oder Melodiephrasen eher an stabile Bruecken, Randspannung oder offene Kontaktzonen koppeln.

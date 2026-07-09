@@ -80,7 +80,3 @@ Damit wird sichtbar, ob ein Klangmuster nur akustische Oberflaeche bleibt oder w
 Wenn eine Melodiephrase wiederkehrend mit hoher Carry-Qualitaet und Rekopplung erscheint, ist das ein Hinweis auf eine tragende Klangnaehe.
 Wenn sie mit erhoehter Strain-Qualitaet erscheint, ist das ein Hinweis auf belastete Klangnaehe.
 Offene Kopplungen bleiben beobachtbar, ohne sofort Bedeutung zu erzwingen.
-
-## Wie es weitergeht
-
-Als naechstes sollte geprueft werden, ob diese Klangkopplungen in einer anderen Welt wieder auftauchen oder ob sie nur situationsgebundene Klang-Innenfeld-Inseln dieser Stresswelt sind.

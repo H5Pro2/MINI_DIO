@@ -249,10 +249,6 @@ def _write_markdown(rows: list[dict[str, object]], out: Path) -> None:
             "Wenn ein Token im Kontakt lauter/unschaerfer und weniger rekoppelnd wird, passt das zur Driftlesung.",
             "Wenn ein Token im Kontakt leiser/schaerfer oder rekoppelnder wird, passt das zur Reifungs- oder Rueckbindungslesung.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollten die Segmentbefunde gegen die Driftlupe verbunden werden: fuer jeden Token ein Kurzurteil, ob der Zonenwechsel eher Weltphase, Rezeptoraufnahme oder MCM-Drift ist.",
-            "",
         ]
     )
     out.write_text("\n".join(lines), encoding="utf-8")

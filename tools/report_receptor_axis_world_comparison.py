@@ -149,7 +149,6 @@ def _write_markdown(rows: list[dict[str, object]], out: Path, title: str) -> Non
             "",
             "Wenn Hochlastfenster offen oder randnaher werden, aber die adaptierte Feldaufnahme unter der Rohaufnahme bleibt, spricht das fuer dieselbe organische Aufnahmegrenze wie in den synthetischen Welten.",
             "",
-            "Wie es weitergeht: Die Weltmatrix sollte gegen die synthetische Limit-Synthese gelesen werden. Danach kann entschieden werden, ob die Rezeptoradaptation stabil genug als Kernmechanik dokumentiert ist.",
         ]
     )
     out.write_text("\n".join(lines) + "\n", encoding="utf-8")

@@ -233,10 +233,6 @@ def _write_md(path: Path, rows: list[dict[str, object]]) -> None:
             "",
             "Mini-DIOs passive Bedeutungsbibliothek wirkt damit nicht wie eine starre Liste, sondern wie ein offener Bedeutungsraum: wiedererkennbar, aber weltabhaengig dehnbar.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte eine weitere Holdout-Gruppe mit anderem Asset- oder Zeitprofil gegen dieselbe Bibliothek gelesen werden. Entscheidend ist, ob dieselben Bedeutungen erneut stabil, erweitert oder offen erscheinen.",
-            "",
         ]
     )
     path.parent.mkdir(parents=True, exist_ok=True)

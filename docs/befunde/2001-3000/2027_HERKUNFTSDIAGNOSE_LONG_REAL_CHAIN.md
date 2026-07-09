@@ -79,7 +79,3 @@ Eine stabile Feldphase ist erst dann fachlich stark, wenn ihre Herkunft mitgeles
 Eine Signatur kann tief und wiederkehrend sein, aber trotzdem anders zu lesen sein, wenn sie unter Null- oder Random-Sign-Welten stark mitgetragen wird.
 
 Damit wird die Feldmemory genauer: Sie speichert nicht nur, dass eine Phase wiederkehrt, sondern in welcher Herkunftsqualität sie wiederkehrt.
-
-## Wie es weitergeht
-
-Als nächstes sollte diese Herkunftsdiagnose auf weitere reale und gestörte Weltketten angewendet werden. Entscheidend ist, welche Signaturen realweltgetragen bleiben und welche zu feldinternen Ordnungen oder gemischten Bindungen werden.

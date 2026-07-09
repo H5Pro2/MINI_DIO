@@ -160,7 +160,3 @@ Das ist relevant fuer die weitere Forschung, weil es eine sauberere Trennung erm
 - Bruecke,
 - Entlastung,
 - Zentrumskontakt.
-
-## Wie es weitergeht
-
-Als naechstes sollten Zentrumskontakt und Randdruck nach demselben Muster isoliert werden. Wenn beide ebenfalls klare Positiv-/Negativprofile bilden, entsteht eine kleine passive Funktionskarte des MCM-Feldes.

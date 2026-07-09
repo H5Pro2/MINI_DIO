@@ -138,7 +138,3 @@ Unterschiedliche Weltqualitaet muss nicht zwingend neue Topologie bedeuten.
 Damit wird die naechste Forschungsfrage klarer:
 
 Welche zweiten Traegerfamilien entstehen in welchen Welten, und wann werden sie zu stabilen Bedeutungsraeumen?
-
-## Wie es weitergeht
-
-Als naechstes sollte `dio_14wj` als PAXG-5m-Traegerfamilie isoliert werden. Ziel ist zu pruefen, ob diese Familie eine eigene ruhige Rekopplungsrolle traegt oder nur eine Oberflaechenvariante von `dio_104t` ist.

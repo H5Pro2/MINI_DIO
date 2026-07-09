@@ -58,7 +58,3 @@ Wenn `expansion_impuls` dominiert, ist reale Rand/Kipp-Naehe eher an gerichtete 
 Wenn `bewegungsbruch` dominiert, ist sie eher an Richtungsbruch oder instabile Umordnung gebunden.
 
 Wenn `rekopplungsversuch` dominiert, waere Rand/Kipp eher ein kurzer Zustand vor Rueckbindung.
-
-## Wie es weitergeht
-
-Als naechstes sollte die dominante Bewegungsart gegen die MCM-Rollenfolge gelesen werden: Welche Rolle kommt vor und nach `gekoppelte_feldlast` am haeufigsten?

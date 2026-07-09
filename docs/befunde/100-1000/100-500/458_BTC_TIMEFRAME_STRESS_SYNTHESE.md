@@ -73,7 +73,3 @@ Das passt zur aktuellen MCM-Lesung:
 ## Grenze
 
 Dieser Befund beweist keine universelle BTC-Topologie. Er zeigt nur, dass die bisherige BTC-Probenreihe einen reproduzierbaren Kern und eine variable Oberflaechenorganisation bildet.
-
-## Wie es weitergeht
-
-Als naechstes sollte eine andere Assetfamilie mit derselben Direktvergleichslogik geprueft werden. Dann wird sichtbar, ob `hoeren_hin`, `sehen_abstand` und `fuehlen_abstand` ein BTC-spezifischer Kern sind oder eine allgemeinere Aufnahmebasis von MINI_DIO.

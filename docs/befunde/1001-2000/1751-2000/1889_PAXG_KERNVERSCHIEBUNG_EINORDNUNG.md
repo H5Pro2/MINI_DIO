@@ -68,7 +68,3 @@ Sie bilden eine wechselnde Passungsbeziehung.
 ```
 
 PAXG zeigt dabei besonders deutlich Randdrift, Ausblendung und erneute Tragfähigkeit.
-
-## Wie es weitergeht
-
-Als nächstes sollte dieselbe Übergangsprüfung mit einem anderen fragilen Asset oder einem anderen Timeframe wiederholt werden, um zu klären, ob `kern_verschoben` eine allgemeine Randpassungsqualität oder nur eine PAXG-spezifische Zwischenlage ist.

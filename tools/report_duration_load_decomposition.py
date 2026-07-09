@@ -299,10 +299,6 @@ def _write_markdown(rows: list[dict], out_path: Path) -> None:
             "Die Distanzierungsfrage ist damit fachlich berechtigt:",
             "Wenn Distanzbedarf und Nachhall steigen, aber Adaptionskapazitaet nicht mitkommt, wird Weltspannung zu Innenfeldlast.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte aus dieser Diagnose ein Befund geschrieben werden.",
-            "Darin wird festgehalten, ob SOL 1h eher durch Sensorik, durch Nachhall oder durch Rekopplungsverlust zur Dauerlast wird.",
         ]
     )
     out_path.write_text("\n".join(lines) + "\n", encoding="utf-8")

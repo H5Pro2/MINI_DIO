@@ -229,10 +229,6 @@ def _write_markdown(path: Path, rows: list[dict[str, str]], fallback_rows: list[
             "",
             "Das Feld kann also kurz entlasten, ohne dass die Weltspannung schon wirklich getragen ist.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte geprueft werden, ob Rueckfallfenster im Feld eine eigene Vorwarnspur bilden: gibt es vor dem Rueckfall bereits ein messbares Drift- oder Nachhallzeichen?",
-            "",
         ]
     )
     path.parent.mkdir(parents=True, exist_ok=True)

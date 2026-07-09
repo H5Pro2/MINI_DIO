@@ -147,9 +147,6 @@ def _write_md(path: Path, target_family: str, rows: list[dict[str, object]]) -> 
             "",
             "Damit wirkt der Bedeutungsraum wie ein differenziertes Feldnetz, nicht wie eine einzige breite Sammelfamilie.",
             "",
-            "## Wie es weitergeht",
-            "",
-            f"Als nächstes sollte eine Teilnetz-Prüfung die Rollen `{', '.join(key for key, _ in role_counts.most_common(4))}` getrennt lesen: Welche Rolle bindet Zentrum, Brücke, Rand oder Nachhall?",
         ]
     )
     path.parent.mkdir(parents=True, exist_ok=True)

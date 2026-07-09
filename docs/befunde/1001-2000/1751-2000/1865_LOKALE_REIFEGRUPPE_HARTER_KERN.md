@@ -62,7 +62,3 @@ Das bleibt passiv. Der Befund erzeugt keine Handlung und keine Regel. Er markier
 | DOGE | dio_0l7p | frueh | phase_nullnah | 2 | 2 |
 | DOGE | dio_0nlj | mitte | phase_nullnah | 2 | 2 |
 | DOGE | dio_0nlj | spaet | phase_nullnah | 2 | 2 |
-
-## Wie es weitergeht
-
-Als nächstes sollte geprüft werden, ob dieser harte Kern bei neuen Welten nur stabil bleibt oder ob einzelne Kernpaare unter Stress/Expansion gezielt in Randdrift wechseln. Das wäre der nächste Test für Reife statt bloßer Wiederholung.

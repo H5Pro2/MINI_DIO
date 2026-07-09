@@ -62,10 +62,6 @@ def _write_md(path: Path, memory: MCMFragmentationMemory) -> None:
             "Fragmentierungs-Memory beschreibt, wie stark eine Weltoberflaeche in junge, offene, randnahe oder schwach zentrierte Spuren zerfaellt.",
             "Damit wird eine dritte Ordnungsart neben Brueckenordnung und Rollenwechselordnung lesbar.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte diese `dio_frag_*` Memory gegen eine weitere Welt gelesen werden.",
-            "Dann wird sichtbar, ob Fragmentierung eine stabile Weltklasse ist oder ob aus ihr spaeter wieder Rollenbindung entsteht.",
         ]
     )
     path.write_text("\n".join(lines), encoding="utf-8")

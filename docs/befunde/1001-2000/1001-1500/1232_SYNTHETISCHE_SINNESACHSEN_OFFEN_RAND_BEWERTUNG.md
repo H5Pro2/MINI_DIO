@@ -57,7 +57,3 @@ Wichtig: Diese Rollen sind keine Strategie. Sie sind passive Feldantworten auf S
 Die synthetischen Welten sind konstruiert. Sie zeigen Kanalwirkung unter kontrollierter Belastung, aber noch keine allgemeine Aussage ueber alle realen Welten.
 
 Der aktuelle Befund ist deshalb stark fuer die Mechanik der Sinnestrennung, aber nicht als vollstaendige Weltrobustheit zu lesen.
-
-## Wie es weitergeht
-
-Als naechstes sollte dieselbe Offen/Rand-Fensterpruefung an realen Stress-/Quiet-Welten laufen. Wenn dort dieselbe Trennung sichtbar bleibt, wird die Aussage deutlich staerker: Rand/Kipp waere dann nicht nur synthetische Achsenlast, sondern eine reale Feldrolle unter Weltspannung.

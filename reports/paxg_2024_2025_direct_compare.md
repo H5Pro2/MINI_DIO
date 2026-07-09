@@ -65,7 +65,3 @@ Zeitachse und Jahr färben lokal.
 ```
 
 Das spricht gegen eine reine Einzelfenster-Projektion. Gleichzeitig bleibt es keine absolute Aussage über PAXG insgesamt, sondern ein Befund über die geprüften 2024/2025-Fenster.
-
-## Wie es weitergeht
-
-Als nächstes sollte PAXG gegen ein verschobenes 2025-Folgefüge geprüft werden. Entscheidend ist, ob die rekopplungsstarke Färbung in einem späteren PAXG-2025-Fenster erhalten bleibt oder phasenabhängig driftet.

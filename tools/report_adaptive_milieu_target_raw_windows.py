@@ -223,10 +223,6 @@ def _write_md(rows: list[dict[str, object]], out_path: Path) -> None:
             "",
             "Die wichtige Frage ist, ob vor der Oeffnung eine gemeinsame Vorform liegt: moderate Range, Hoerprofil-Entlastung, stabile Feldspannung oder ein anderer wiederkehrender Zustand.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollten diese Vorfenster aggregiert werden: Gibt es eine gemeinsame Oeffnungs-Vorform fuer `dio_0ly7` und `dio_01hu`, oder sind es zwei getrennte Kandidaten?",
-            "",
         ]
     )
     out_path.parent.mkdir(parents=True, exist_ok=True)

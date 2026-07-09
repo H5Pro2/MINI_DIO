@@ -199,7 +199,3 @@ Lokale Bedeutung ist sequenzsensitiv.
 Nachhall wirkt als Kontextspur.
 Das Feld kann nach offener Stoerung wieder organisieren.
 ```
-
-## Wie es weitergeht
-
-Als naechstes sollte die aktuelle Sequenzforschung nicht weiter fragmentiert werden. Sinnvoll ist ein zusammenfassender Forschungsstand: Feldzeit, Nachhall, Topologie und Rezeptoradaptation als ein gemeinsames MINI_DIO-Modell.

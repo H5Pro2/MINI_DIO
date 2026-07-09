@@ -99,7 +99,3 @@ Sondern:
 ```text
 MINI_DIO erkennt eine harmonische synthetische Phasenwelt als fast vollständig zentrumsnah.
 ```
-
-## Wie es weitergeht
-
-Als nächstes sollte eine zweite synthetische Kontrollwelt gebaut werden, die gezielt stärkere Brüche enthält: echte Randphase, instabile Öffnung, laute Frequenzspitzen und anschließende Rekopplung. Dann kann geprüft werden, ob MINI_DIO nicht nur Harmonie stabilisiert, sondern künstlich erzeugte Kippnähe und Rückbindung getrennt lesen kann.

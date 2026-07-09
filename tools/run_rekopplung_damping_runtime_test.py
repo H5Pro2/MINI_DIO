@@ -240,10 +240,6 @@ def _write_md(path: Path, rows: list[dict[str, object]], factors: list[float], t
             "",
             "Auch dieser Test ist noch kein Beweis fuer eine vollstaendige Feldtheorie. Er zeigt aber, ob eine gezielte Veraenderung im Lauf eine nachvollziehbare Feldantwort erzeugt.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte derselbe direkte Eingriff mit mehr Faktoren und gegen laengere reale Assetfenster laufen. Entscheidend ist, ob die Reaktion graduell bleibt oder ob es einen echten Kipppunkt gibt.",
-            "",
         ]
     )
     path.write_text("\n".join(lines), encoding="utf-8")

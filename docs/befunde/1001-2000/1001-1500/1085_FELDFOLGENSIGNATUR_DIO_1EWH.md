@@ -90,7 +90,3 @@ Damit wird die Grundregel robuster. MINI_DIO bildet keine reine Wortliste, sonde
 ## Grenze
 
 Diese Lesart bleibt diagnostisch. Sie darf nicht als Entscheidung, Strategie oder Aktionsnaehe verwendet werden.
-
-## Wie es weitergeht
-
-Als naechstes sollte die Brueckenfamilien-Grundregel gegen eine schwachere oder randnaehere Familie geprueft werden. Ziel: unterscheiden, welche Familien echte Bruecken sind und welche nur Randrauschen oder offene Kontaktfragmente darstellen.

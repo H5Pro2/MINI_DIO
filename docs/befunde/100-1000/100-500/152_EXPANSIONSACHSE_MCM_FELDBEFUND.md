@@ -242,18 +242,3 @@ Alle vier Befunde beruhen auf 1000-Zeilen-Fenstern.
 Sie sind starke Arbeitsbefunde, aber noch keine vollständige Aussage über alle möglichen Expansionswelten.
 
 Die volle 10k-Prüfung steht für spätere Läufe offen.
-
-## Wie Es Weitergeht
-
-Als nächstes sind zwei Wege sinnvoll:
-
-1. Weitere Expansionsfenster prüfen, um die Achse zu stabilisieren.
-2. Eine andere Bewegungsfamilie prüfen, zum Beispiel Seitwärtsdruck oder Abverkauf-Erholung.
-
-Die wichtigste Folgefrage lautet:
-
-```text
-Bildet MINI_DIO auch bei anderen Bewegungsfamilien solche organischen Achsen,
-oder ist die Expansionsachse ein Sonderfall?
-```
-

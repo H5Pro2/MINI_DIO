@@ -66,7 +66,3 @@ Fuer die Entwicklung von DIO ist dieser Befund wichtig:
 - DIO sollte unterscheiden koennen, wie eine Bedeutung getragen wird.
 - Lange Milieuinsel, aktive Grundrolle, Randrolle und Bruecke sind unterschiedliche Feldfunktionen.
 - Spaetere Handlungsfaehigkeit darf nicht aus einem Symbolnamen entstehen, sondern aus gereifter Feldfunktion.
-
-## Wie es weitergeht
-
-Als naechstes sollte geprueft werden, ob andere Assets ebenfalls aktive Grundrollen-Rekopplungen wie `1yxc2ug` ausbilden. Wenn ja, kann daraus eine eigene Rollenklasse entstehen: aktive Rekopplungsrolle.

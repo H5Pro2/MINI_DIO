@@ -159,19 +159,3 @@ Umgesetzt als Diagnose:
 Der Befund liegt hier:
 
 - `docs/befunde/100-1000/100-500/215_LOKALE_REKOPPLUNGSPOLE_BEFUND.md`
-
-## Wie es weitergeht
-
-Als naechstes sollte die lokale Rekopplungslandkarte mit Rohweltmerkmalen verbunden werden.
-
-Grundfrage:
-
-Welche Weltmerkmale erzeugen den Uebergang von aktiv-rekoppelnd zu bindend?
-
-Konkrete Unterpruefung:
-
-1. lokale Segmente nach Bewegungsrichtung, Range, Volumenrhythmus und Richtungswechsel lesen,
-2. diese Merkmale gegen Feldlast, Memorylast und Rekopplung legen,
-3. pruefen, ob der Uebergang durch Weltstruktur, durch Nachhall oder durch Feldzustand entsteht.
-
-Erst danach waere sinnvoll, ueber eine passive Rekopplungs-Vorstufe im Mini-DIO-Kern nachzudenken.

@@ -339,11 +339,6 @@ def _write_md(role_rows: list[dict[str, object]], summaries: list[dict[str, obje
             "Wichtig: Die numerischen Einteilungen sind Diagnosehilfen.",
             "Sie sind keine Regeln fuer MINI_DIO und keine universellen MCM-Grenzen.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte dieselbe Matrix auf lange ruhige Welten, Stresswelten und Expansionswelten gelegt werden.",
-            "Ziel ist zu pruefen, ob `zentrum_mit_rand_und_uebergang` stabil bleibt, ob Randspannung bei Stress sichtbar zunimmt oder ob neue Mischklassen entstehen.",
-            "",
         ]
     )
     path.write_text("\n".join(lines), encoding="utf-8")

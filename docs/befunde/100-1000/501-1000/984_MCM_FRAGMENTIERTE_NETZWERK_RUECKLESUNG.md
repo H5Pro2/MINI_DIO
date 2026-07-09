@@ -69,8 +69,3 @@ Das Feld fragmentiert belastet statt zu verschwinden.
 
 Diese Lesung beschreibt nur Feldbedingungen.
 Sie erzeugt keine Handlung und keine Regel.
-
-## Wie es weitergeht
-
-Als naechstes sollten die Ruecklesungen von `netz_fragmentiert_belastet` und `netz_rekoppelnd_verbunden` direkt verglichen werden.
-Dann wird sichtbar, welche Feldbedingungen Belastung von Rekopplung unterscheiden.

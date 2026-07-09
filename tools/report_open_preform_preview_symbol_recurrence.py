@@ -173,10 +173,6 @@ def write_md(rows: list[dict[str, str]]) -> None:
             "",
             "Wenn ein Symbol nur lokal auftaucht, bleibt es Einzelspur. Wenn es über Welten stabil bleibt, kann daraus ein Rollenkeim entstehen.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als nächstes sollten die mehrweltlichen Preview-Anker lokal gegen Vorlauf, Nachlauf und Nachhall geprüft werden. Ziel ist zu klären, ob sie echte Rollenkeime sind oder nur wiederkehrende Oberflächenmarken.",
-            "",
         ]
     )
     OUT_MD.write_text("\n".join(lines), encoding="utf-8")

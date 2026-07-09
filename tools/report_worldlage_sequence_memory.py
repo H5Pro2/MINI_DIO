@@ -123,7 +123,6 @@ def _write_markdown(sequence_rows: list[dict[str, object]], detail_rows: list[di
             "",
             "Wichtig ist: Damit wird Aufnahmequalitaet zeitlich lesbar. Eine Weltlage ist nicht nur ein Zustand, sondern Teil einer Folge.",
             "",
-            "Wie es weitergeht: Wenn bestimmte Lagefolgen stabil beruhigend oder neutral bleiben, kann Mini-DIO spaeter lernen, welche Rezeptorhaltung in welcher Lagefolge tragfaehig war.",
         ]
     )
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")

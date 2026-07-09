@@ -421,19 +421,10 @@ def _write_markdown(path: Path, summary: dict) -> None:
                 else "ob diese passive Reorganisationsspur bei erneutem Weltkontakt wieder auftaucht oder neutral bleibt."
             ),
             "",
-            "## Wie es weitergeht",
-            "",
             (
-                "Als naechstes wird dieselbe Kette mit aktiver, aber klar begrenzter Sleep-Memory-Reorganisation vorbereitet."
-                if not bool(summary.get("sleep_memory_reorganization_written", False))
-                else "Als naechstes wird die passive Sleep-Reorganisationsspur gegen weitere Welten geprueft."
             ),
             (
-                "Dann pruefen wir, ob im Schlaf beruehrte Rollen im zweiten Real-Lauf stabiler, klarer oder driftender wieder auftauchen."
-                if not bool(summary.get("sleep_memory_reorganization_written", False))
-                else "Dann wird sichtbar, ob sie nur eine lokale Markierung bleibt oder als wiederkehrende Innenfeldspur tragfaehig ist."
             ),
-            "",
         ]
     )
     path.parent.mkdir(parents=True, exist_ok=True)

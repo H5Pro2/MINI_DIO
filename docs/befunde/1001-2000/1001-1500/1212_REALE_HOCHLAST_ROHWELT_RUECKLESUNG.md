@@ -64,5 +64,3 @@ Die reale Ruecklesung bestaetigt die Hierarchie der Pruefung:
 1. Grundfrage: Welche Weltform erzeugt Felduebergang oder Randnaehe?
 2. Unterpruefung: Hochlastfenster nach Feldrolle trennen.
 3. Folgeschritt: konkrete Chartfenster fuer die staerksten offenen und randnahen Beispiele visualisieren.
-
-Wie es weitergeht: Die naechste Pruefung sollte die Beispiel-Ticks als Chartfenster plotten, damit sichtbar wird, ob Offenheit eher aus Richtungswechsel, Verdichtung oder Ton-/Form-Desynchronisation entsteht.

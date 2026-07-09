@@ -110,20 +110,3 @@ Nicht jede Rolle ist starr.
 Einige Bereiche koennen Uebergangszonen sein,
 die je nach Weltvarianz anders gelesen werden,
 ohne ihre Grundkopplung zu verlieren.
-
-## Wie es weitergeht
-
-Grundfrage:
-
-Gibt es weitere Zielraeume,
-die als Uebergangszonen wirken,
-oder ist `nu25d5` aktuell der einzige klare Rollen-Drift-Bereich?
-
-Unterpruefung:
-
-Alle Zielraeume nach Rollenstabilitaet,
-Qualitaetswechseln und Belastungsverschiebung vergleichen.
-
-Folgeschritt:
-
-Passive Rollenstabilitaets- und Uebergangszonenkarte bauen.

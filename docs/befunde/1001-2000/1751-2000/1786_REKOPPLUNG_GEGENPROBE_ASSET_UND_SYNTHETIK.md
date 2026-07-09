@@ -66,7 +66,3 @@ Das ist kein Beweis für eine allgemeine Gesetzmäßigkeit. Die Aussage ist enge
 
 - `reports/rekopplung_gegenprobe_asset_synthese_matrix.csv`
 - `reports/rekopplung_gegenprobe_asset_synthese_matrix.md`
-
-## Wie es weitergeht
-
-Als nächstes sollte gezielt ein weiteres Asset oder eine neu gebaute synthetische Welt geprüft werden, die nicht nur kompakt nachhallt, sondern kontrolliert Breite plus Nachhall erzeugt. Ziel ist zu sehen, ob Rekopplung künstlich provoziert werden kann oder ob reale Weltspannung dafür nötig bleibt.

@@ -81,5 +81,3 @@ Rohklassen:
 Der hoerbare-schmale Shift wird hier nicht als feste Rolle gesetzt.
 
 Wenn er assetrelativ in mehreren Assets erscheint, ist er eher eine wiederkehrende Mikrophase des Feldes. Wenn er nur bei BTC stabil bleibt, ist er eher BTC-spezifische Faerbung.
-
-Wie es weitergeht: Als naechstes sollte die Kandidatenfamilie gegen neue, noch nicht verwendete Weltfenster gelesen werden. Erst dann ist entscheidbar, ob daraus eine reproduzierbare Mikrorolle oder nur lokale Oberflaechenvarianz entsteht.

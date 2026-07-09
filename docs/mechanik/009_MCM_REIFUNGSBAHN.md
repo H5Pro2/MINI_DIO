@@ -163,31 +163,16 @@ Die PAXG-Nachprüfung [1877_PAXG_HARTKERN_EINORDNUNG.md](../befunde/1001-2000/17
 Die Weltpassungs-Metrik [1878_WELTPASSUNG_METRIK.md](../befunde/1001-2000/1751-2000/1878_WELTPASSUNG_METRIK.md) macht diese Beziehung explizit. Sie liest pro Weltlage, ob der harte Kern getragen, geöffnet, verschoben oder ausgeblendet wird. BTC-Stress, SOL-Stress und XRP-2024 tragen den Kern am stärksten. PAXG-2024-5m ist der schwächste Fall und blendet den bisherigen Kern überwiegend aus. Damit wird Reife nicht als Eigenschaft einer Familie allein gelesen, sondern als Beziehung zwischen Hartkern und Weltlage.
 
 In [1879_PASSIVE_WELTPASSUNG_MEMORY.md](../befunde/1001-2000/1751-2000/1879_PASSIVE_WELTPASSUNG_MEMORY.md) wird diese Weltpassung in die passive Feldrollen-Memory übernommen. Sie speichert aktuell `kern_getragen: 9` und `kern_ausgeblendet: 3`. Diese Struktur bleibt vollständig passiv: keine Handlung, kein Gate, keine Richtung. Ihre Funktion ist Erfahrung darüber, welche Weltlagen den gereiften Innenkern tragen, öffnen, verschieben oder ausblenden.
-
-## Wie es weitergeht
-
-Als nächstes sollte geprüft werden, ob diese Weltpassungs-Memory über neue Weltfenster stabil mitwächst oder ob sie neue Weltlagen als eigene Passungsgruppen bildet.
-
 ## Ergänzung 1884 - Weltpassung als wachsende Memory
 
 Die Folgefenster-Prüfung [1884_PASSIVE_WELTPASSUNG_MEMORY_WACHSTUM.md](../befunde/1001-2000/1751-2000/1884_PASSIVE_WELTPASSUNG_MEMORY_WACHSTUM.md) erweitert die passive Weltpassung um neue Weltpassungsquellen. Der Zähler wächst auf `kern_getragen: 12`, `kern_ausgeblendet: 3` und `kern_verschoben: 1`.
 
 Wichtig ist hier nicht nur die höhere Anzahl, sondern die neue Zwischenqualität `kern_verschoben`: Der harte Kern ist nicht verschwunden, wird aber von einer Weltlage anders getragen. Damit wird Drift als passive Erfahrung speicherbar, ohne daraus Handlung, Gate oder Richtung abzuleiten.
 
-Wie es weitergeht: Als nächstes sollte geprüft werden, ob `kern_verschoben` bei weiteren Folgefenstern wiederkehrt oder ob es nur eine asset- und fensterspezifische Übergangslage war.
-
 Die PAXG-Folgeprüfung [1889_PAXG_KERNVERSCHIEBUNG_EINORDNUNG.md](../befunde/1001-2000/1751-2000/1889_PAXG_KERNVERSCHIEBUNG_EINORDNUNG.md) zeigt anschließend: `kern_verschoben` ist in dieser Serie keine stabile neue Hauptklasse. Die PAXG-Fenster wechseln von `kern_verschoben` über `kern_ausgeblendet` zurück zu `kern_getragen`. Damit wirkt PAXG als Randpassungs-Testfall. Der Kern ist nicht dauerhaft verloren, aber die Weltlage trägt ihn wechselnd. Die Memory wächst entsprechend auf `kern_getragen: 13`, `kern_ausgeblendet: 5`, `kern_verschoben: 1`.
-
-Wie es weitergeht: Als nächstes sollte dieselbe Übergangsprüfung mit einem anderen fragilen Asset oder einem anderen Timeframe wiederholt werden.
 
 Die Timeframe-Prüfung [1894_PAXG_TIMEFRAME_KERNPASSUNG_EINORDNUNG.md](../befunde/1001-2000/1751-2000/1894_PAXG_TIMEFRAME_KERNPASSUNG_EINORDNUNG.md) zeigt danach: PAXG-1h blendet den bisherigen lokalen Kern in allen vier geprüften Fenstern aus. Die Memory wächst auf `kern_getragen: 13`, `kern_ausgeblendet: 9`, `kern_verschoben: 1`. Damit bleibt `kern_verschoben` zunächst eine seltene 5m-Übergangslage. Weltpassung ist also nicht nur assetabhängig, sondern auch timeframe- und fensterabhängig.
 
-Wie es weitergeht: Als nächstes sollte ein anderes fragiles Asset geprüft werden, um zu klären, ob `kern_verschoben` eine allgemeine Randpassungsqualität oder eine PAXG-5m-Speziallage ist.
-
 Die DOGE-Timeframe-Prüfung [1899_DOGE_TIMEFRAME_KERNPASSUNG_EINORDNUNG.md](../befunde/1001-2000/1751-2000/1899_DOGE_TIMEFRAME_KERNPASSUNG_EINORDNUNG.md) zeigt anschließend eine andere Randantwort. DOGE-1h wiederholt `kern_verschoben` nicht, sondern bildet einmal `kern_geoeffnet`, während zwei Fenster `kern_getragen` bleiben. Die Memory wächst auf `kern_getragen: 15`, `kern_ausgeblendet: 9`, `kern_verschoben: 1`, `kern_geoeffnet: 1`. Damit wird die Weltpassung vierstufiger lesbar: getragen, geöffnet, verschoben, ausgeblendet.
 
-Wie es weitergeht: Als nächstes sollte geprüft werden, ob `kern_geoeffnet` in weiteren DOGE-Fenstern wiederkehrt oder ob es eine einzelne Übergangslage war.
-
 Die erweiterte DOGE-Serie [1904_DOGE_GEOEFFNET_UND_VERSCHOBEN_EINORDNUNG.md](../befunde/1001-2000/1751-2000/1904_DOGE_GEOEFFNET_UND_VERSCHOBEN_EINORDNUNG.md) zeigt danach: `kern_geoeffnet` bleibt in dieser Serie ein einzelner Öffnungspunkt, aber `kern_verschoben` taucht später ebenfalls bei DOGE-1h auf. Damit ist `kern_verschoben` nicht mehr nur eine PAXG-5m-Speziallage, sondern eine seltene Randpassungsqualität. Die Memory wächst auf `kern_getragen: 16`, `kern_ausgeblendet: 9`, `kern_verschoben: 2`, `kern_geoeffnet: 1`.
-
-Wie es weitergeht: Als nächstes sollte die vierstufige Weltpassung als eigener Mechanikabschnitt verdichtet werden: getragen, geöffnet, verschoben, ausgeblendet.

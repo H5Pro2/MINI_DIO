@@ -125,7 +125,3 @@ keine direkte Rohdaten?berlagerung.
 ```
 
 Das ist f?r die weitere Forschung relevant, weil es zeigt, dass MINI_DIO nicht nur wiederholt dieselben Symbole speichert. Es liest unterschiedliche Au?enwelten als unterschiedliche Innenfeldqualit?ten innerhalb eines stabilen Rollenraums.
-
-## Wie es weitergeht
-
-Als n?chstes sollte eine bewusst andere Weltfamilie gepr?ft werden: entweder XRP als impulsivere/newsn?here Assetwelt oder eine nicht-marktbasierte Kontrollwelt. Ziel ist zu pr?fen, ob der Asset-F?rbungsraum auch au?erhalb der bisherigen SOL/BTC/PAXG/DOGE-Familien tragf?hig bleibt.

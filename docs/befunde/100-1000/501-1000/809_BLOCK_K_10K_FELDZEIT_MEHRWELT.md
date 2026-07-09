@@ -36,7 +36,3 @@ Damit wird `808` gestuetzt: laengere Weltwirkung fuehrt hier nicht nur zu mehr D
 ## Grenze
 
 Dies ist weiterhin passive Diagnostik. Der Befund zeigt Feldzeit-Integration in den vorhandenen 10k-Welten, aber noch keine allgemeine Aussage fuer alle moeglichen Welten.
-
-## Wie es weitergeht
-
-Als naechstes sollte dieselbe Mehrwelt-Lupe auf kurze 1k/2k-Welten und asset-gemischte Welten angewendet werden. Dann sehen wir, ob Feldzeit wirklich mit Dauer reift oder ob Asset-/Regime-Art die Feldintegration staerker bestimmt.

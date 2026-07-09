@@ -37,5 +37,3 @@ Das ist kein negativer Befund gegen die Rollenfamilien. Es bedeutet methodisch n
 ## Grenze
 
 Dieser Report bewertet nicht die Qualität der Familien. Er bewertet nur, ob eine Vergleichsbasis ausreichend überlappt.
-
-Wie es weitergeht: Als nächstes sollten neue Folgeweltläufe mit derselben 2066-Symbolbasis erzeugt oder ein Rückleser gebaut werden, der die 2066-Familien explizit in vorhandenen Weltfenstern sucht.

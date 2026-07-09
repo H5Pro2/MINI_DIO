@@ -217,10 +217,6 @@ def _write_markdown(rows: list[dict], out_path: Path) -> None:
             "Damit sind sie fachlich eher Rand-/Spannungsvarianten als reine Abschwaechungen der Rekopplung.",
             "Die Grenze bleibt aber wichtig: Eine einzelne Folgewelt-Stuetze reicht noch nicht fuer eine stabile MCM-Familie.",
             "",
-            "## Wie es weitergeht",
-            "",
-            next_step,
-            "",
         ]
     )
 

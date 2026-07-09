@@ -68,7 +68,3 @@ Wichtig bleibt: Das ist keine feste Symboltabelle. Die Rolle wird durch Weltklas
 ## Grenze
 
 Die Pruefung ist weiterhin passiv und beschreibt Rollenqualitaet, keine Handlung. Fuer eine staerkere Aussage braucht es noch eine ruhige Gegenwelt mit SOL 2024/2025 oder eine andere Assetklasse.
-
-## Wie es weitergeht
-
-Als naechstes sollte die bisherige Brueckenreife nicht nur familienweise, sondern feldtopologisch zusammengefasst werden: Welche Rolle nimmt `dio_00ly` im bisherigen MCM-Netz ein, und wie unterscheidet sich diese Rolle strukturell von `dio_0pq6`?

@@ -60,7 +60,3 @@ Der maschinenlesbare Extraktionsbericht liegt unter:
 ```text
 docs/befunde/100-1000/501-1000/766_REAL_SEQUENCE_BREAK_SOL_2025_5M_2000_EXTRACT_REPORT.json
 ```
-
-## Wie es weitergeht
-
-Diese extrahierte Welt wird in der passiven Forschungskette gelesen und anschliessend gegen Rezeptorachsen, Topologie und Kurzsegment-Feldwirkung ausgewertet.

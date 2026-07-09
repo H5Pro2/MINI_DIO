@@ -217,9 +217,6 @@ def _write_md(path: Path, rows: list[dict[str, object]], target_state: str) -> N
             "Sie ist eine passive Lesung: ein Knoten wirkt zentrumsnah und wird durch bestehende Feldspuren mitgetragen.",
             "```",
             "",
-            "## Wie es weitergeht",
-            "",
-            *next_lines,
         ]
     )
     path.write_text("\n".join(lines), encoding="utf-8")

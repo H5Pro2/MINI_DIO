@@ -206,10 +206,6 @@ def main() -> int:
                 "",
                 "Die tonale Achse ist relevant, aber nicht direkt als Handlung oder Richtung zu lesen. Fuer MINI_DIO bedeutet das: Hoeren braucht weiterhin rezeptorische Regulation. Nicht lauter Ton ist wichtig, sondern ob das Feld den Ton tragen, daempfen oder neu ordnen kann.",
                 "",
-                "## Wie es weitergeht",
-                "",
-                "Als naechstes sollte geprueft werden, ob `tonal_high` vor allem an bestimmten Topologie-Rollen liegt: Zentrum, Bruecke, Rand oder offene Pole.",
-                "",
             ]
         ),
         encoding="utf-8",

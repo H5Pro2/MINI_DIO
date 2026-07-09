@@ -87,7 +87,3 @@ aber jedes Asset faerbt Lautheit, Expansion und Entlastungsstaerke anders.
 ```
 
 Das ist fuer MINI_DIO relevant, weil es gegen starres Auswendiglernen spricht.
-
-## Wie es weitergeht
-
-Als naechstes sollte die Assetfaerbung mit gleich grossen Samples pro Asset wiederholt werden, damit SOL-Dominanz und kleine PAXG/KAS-Stichproben die Lesung nicht verzerren.

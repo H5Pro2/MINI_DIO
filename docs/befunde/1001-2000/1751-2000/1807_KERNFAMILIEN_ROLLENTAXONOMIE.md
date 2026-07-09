@@ -32,7 +32,3 @@ Sichtbar werden mehrere Rollenformen:
 - Hör-/Nachhallknoten: stärker über akustische und zeitliche Feldwirkung differenziert.
 
 Damit wird Bedeutung in MINI_DIO als Netzwerkrolle lesbar: Familie plus Nachbarschaft, Feldfolge, Sinnesbindung und Weltphase.
-
-## Wie es weitergeht
-
-Als nächstes sollte für `dio_14wj`, `dio_1fll`, `dio_0m9z` und `dio_155c` geprüft werden, ob ihre Rollen in konkreten Tickfenstern genauso sichtbar werden wie bei `dio_0l7p` und `dio_104t`.

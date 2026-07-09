@@ -108,14 +108,3 @@ ohne dass ihre Außenweltbindung bereits eindeutig ist.
 ## Grenze
 
 Die Rücklesung ist passiv und diagnostisch. Sie beweist keine autonome Bedeutung und keine Handlung. Sie zeigt nur, welche Sinnes-/Feldbedingungen bei den Kandidaten mitgetragen wurden.
-
-## Wie es weitergeht
-
-Als nächstes sollten gezielt Folgewelten gesucht oder erzeugt werden, die diese zwei Bedingungen getrennt prüfen:
-
-```text
-1. ruhige rekoppelnde Nähe
-2. sichtbare Übergangsnähe
-```
-
-Dann lässt sich prüfen, ob `mixed_binding` unter passender Weltbedingung realweltlich nachreift oder bewusst als feldinterner Grenzanker bestehen bleibt.

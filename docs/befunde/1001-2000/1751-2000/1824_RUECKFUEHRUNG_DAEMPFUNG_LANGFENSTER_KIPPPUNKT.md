@@ -52,7 +52,3 @@ Damit wirkt die Daempfung in diesen Langfenstern nicht wie ein Topologiebruch, s
 ## Grenze
 
 Auch dieser Test ist noch kein Beweis fuer eine vollstaendige Feldtheorie. Er zeigt aber, ob eine gezielte Veraenderung im Lauf eine nachvollziehbare Feldantwort erzeugt.
-
-## Wie es weitergeht
-
-Als naechstes sollte der Bereich unter `0.7` gezielt und kleiner getestet werden, zum Beispiel `0.65`, `0.6`, `0.55`, `0.5`, zunaechst nur auf BTC und PAXG. Danach erst Stress- und Nullwelten hinzunehmen.

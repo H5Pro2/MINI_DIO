@@ -67,7 +67,3 @@ Erst die gemeinsame Achsenlage beschreibt das Feldmilieu.
 ## Grenze
 
 Die Klassifikation ist eine passive Diagnose. Sie beschreibt Feldmilieu und Anschlussfaehigkeit, aber keine Richtung, keine Handlung und keine Strategie.
-
-## Wie es weitergeht
-
-Als naechstes sollten BTC und DOGE mit echten 10000er-Folgefenstern oder mit 5000er Halbfenstern geprueft werden. Ziel ist zu klaeren, ob die Rand-/Kippnaehe aus der laengeren Lesetiefe entsteht oder ob sie durch die Selbstgegenprobe verstaerkt wird.

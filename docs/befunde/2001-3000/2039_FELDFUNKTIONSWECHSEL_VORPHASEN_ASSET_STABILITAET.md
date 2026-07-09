@@ -88,7 +88,3 @@ Der Feldkontakt ist stabiler als die Rohbewegung.
 Rohphasen wechseln je nach Asset und Segment deutlicher. Der MCM-Feldkontakt bleibt innerhalb der Rollenfamilie konsistenter: Rekopplung bleibt rekoppelnd, Öffnung bleibt spannungsnah.
 
 Das spricht dafür, dass MINI_DIO nicht nur assetbezogene Oberflächen liest, sondern darunter eine wiederkehrende Feldrolle hält.
-
-## Wie es weitergeht
-
-Als nächstes sollte geprüft werden, ob diese assetübergreifenden Feldkontaktklassen als passive Vorwahrnehmungs-Memory gespeichert werden können, ohne daraus Handlung oder harte Regeln abzuleiten.

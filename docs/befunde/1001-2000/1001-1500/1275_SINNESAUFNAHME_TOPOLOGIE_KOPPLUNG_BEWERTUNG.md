@@ -63,5 +63,3 @@ Die bisherige Richtung bleibt korrekt:
 - Rezeptorschicht als Aufnahme- und Anpassungsschicht ausbauen.
 - Bedeutung aus wiederkehrender Feldwirkung verdichten.
 - Regulation aus Erfahrung entstehen lassen, nicht als starres Gate vorgeben.
-
-Wie es weitergeht: Als naechstes wird eine passive Sinnesaufnahme-Memory aufgebaut. Sie soll Sinnes-Signatur, Feldrolle und spaetere Feldfolge verbinden.

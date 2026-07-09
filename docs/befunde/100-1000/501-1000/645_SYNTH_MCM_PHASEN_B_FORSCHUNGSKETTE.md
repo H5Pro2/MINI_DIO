@@ -46,7 +46,3 @@ Episodenzustaende:
 
 - Debug: `debug\synthetic_mcm_phasen_b_5m`
 - Memory: `memory\synthetic_mcm_phasen_b_5m_memory.json`
-
-## Wie es weitergeht
-
-Als naechstes sollte dieselbe Kette mit einer zweiten kontrollierten Welt laufen. Dabei wird geprueft, ob dieselben Familien stabil bleiben, ob neue Inseln entstehen oder ob vorhandene Bedeutungen driften.

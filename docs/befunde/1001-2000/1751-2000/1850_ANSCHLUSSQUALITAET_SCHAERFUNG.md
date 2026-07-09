@@ -42,8 +42,3 @@ eine Rolle kann anschlussfähig sein und trotzdem eher kernnah, nullnah, nachhal
 
 Die Schicht ist noch grob, weil sie aktuell assetnah und fensterbasiert aggregiert.
 Sie ist aber ein sinnvoller nächster Schritt, weil sie aus wiederholten Befunden stammt und keine neue Steuerung erzwingt.
-
-## Wie es weitergeht
-
-Als nächstes sollte diese Schärfung feiner werden: nicht nur pro Asset, sondern pro Familie prüfen,
-welche Familien in welchen Anschlussqualitäten wiederkehren.

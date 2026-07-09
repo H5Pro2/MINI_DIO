@@ -275,9 +275,6 @@ def build_report() -> None:
             "",
             "Wichtig: Diese Diagnose bleibt passiv. Sie erzeugt keine Handlung und keine Richtungsvorgabe.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte die Symbolkopplung gegen eine Kontrollgruppe ohne Hoeranstieg geprueft werden. Nur so sehen wir, ob diese `dio_*`-Kopplung spezifisch fuer die kompakte Hoer-/Druckphase ist oder allgemein in beliebigen Weltfenstern auftritt.",
         ]
     )
 

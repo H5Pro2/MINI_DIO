@@ -114,7 +114,3 @@ Breite, Rekopplung und Zeitmaß müssen getrennt gelesen werden.
 Der Befund gilt für die 12 bisher geprüften PAXG-1h-Anschlüsse.
 
 Er ist stark genug als Arbeitsbefund, aber nicht als endgültige Aussage über alle möglichen PAXG-1h-Phasen.
-
-## Wie es weitergeht
-
-Als nächstes sollte geprüft werden, was PAXG 5m gegenüber PAXG 1h konkret anders trägt: Mikroanschluss, Nachhall, adaptive Erfahrung oder Folge-Drift.

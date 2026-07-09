@@ -120,9 +120,6 @@ def _write_md(path: Path, rows: list[dict[str, object]]) -> None:
             "",
             "Damit wird die frühere Taxonomie präziser: Rollen sind nicht nur Kategorien, sondern Feldfolgen. Eine Familie kann Anschluss, Rand, Nachhall oder Brücke je nach Weltfenster verschieden ausprägen.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als nächstes sollte geprüft werden, ob `dio_1fll` wirklich randnah bleibt oder ob es als gehaltener Sammelknoten neu eingeordnet werden muss.",
         ]
     )
     path.parent.mkdir(parents=True, exist_ok=True)

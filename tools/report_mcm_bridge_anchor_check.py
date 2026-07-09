@@ -122,9 +122,6 @@ def _write_md(path: Path, token: str, paths: dict[str, dict[str, str]], edge_row
     lines.append("Ein Anschlussanker kann eine Drift-Eigenphase tragen, ohne selbst Teil des zentralen Brueckenkerns zu sein.")
     lines.append("Damit entsteht eine Zwischenebene zwischen Brueckenkern und offener Drift.")
     lines.append("")
-    lines.append("## Wie es weitergeht")
-    lines.append("")
-    lines.append("Als naechstes sollte geprueft werden, ob weitere starke Anschlussanker existieren oder ob `0b7nep9` in dieser Rolle singulaer bleibt.")
     path.write_text("\n".join(lines), encoding="utf-8")
 
 

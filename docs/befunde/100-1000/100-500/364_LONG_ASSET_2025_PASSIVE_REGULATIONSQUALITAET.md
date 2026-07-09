@@ -98,8 +98,3 @@ MINI_DIO liest eine gerichtete Tragart der Feldbewegung.
 Diese Tragart bleibt in einer anderen Jahreswelt sichtbar.
 Sie bleibt passive Innenfeldwahrnehmung und darf nicht direkt in Handlung uebersetzt werden.
 ```
-
-## Wie es weitergeht
-
-Als naechstes sollte die gleiche Auswertung auf eine andere Zeitaufloesung angewendet werden.
-Ziel ist zu pruefen, ob die Asymmetrie an 1h-Welten gebunden ist oder auch in 5m/15m-Welten als passive Feldbewegung wiederkehrt.

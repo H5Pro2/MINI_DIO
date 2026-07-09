@@ -110,8 +110,3 @@ MINI_DIO liest nicht nur Bewegung, sondern Tragart der Bewegung.
 Diese Tragart ist eine passive Innenfeldwahrnehmung.
 Sie darf nicht direkt in Handlung uebersetzt werden.
 ```
-
-## Wie es weitergeht
-
-Als naechstes sollte geprueft werden, ob diese gerichtete Differenz auch in laengeren Asset-Welten oder in frischen Memory-Laeufen erhalten bleibt.
-Ziel ist zu trennen: stabile Feldbewegungs-Asymmetrie oder nur Oberflaechenvarianz der aktuellen 2k-Welten.

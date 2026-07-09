@@ -39,7 +39,3 @@ keine Aussage ueber Absicht
 ## Quelle
 
 - `docs/befunde/1001-2000/1501-1750/1713_DIO_0LY7_SYNTHETISCHE_ACHSENISOLATION.csv`
-
-## Wie es weitergeht
-
-Als naechstes sollte die Achsenisolation gegen weitere Weltfenster gehalten werden: bleibt die Form bei Einzelstoerung getragen, aber kippt bei gekoppelter Last?

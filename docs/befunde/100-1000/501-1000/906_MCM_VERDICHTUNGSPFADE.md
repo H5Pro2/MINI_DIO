@@ -58,7 +58,3 @@ Damit ist die Rollenwanderung nicht nur chaotischer Wechsel. Sie zeigt eine Rich
 ## Grenze
 
 Das ist noch kein Beweis einer vollstaendigen Entwicklungsleiter. Dafuer braucht es weitere Weltgruppen und eine zeitliche Folgepruefung. Aktuell ist es ein starker Hinweis auf geordnete Verdichtungsdynamik.
-
-## Wie es weitergeht
-
-Als naechstes sollte geprueft werden, ob diese Stufen in einer zeitlichen Reihenfolge auftreten oder ob sie nur zwischen zwei Landschaften sichtbar werden.

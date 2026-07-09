@@ -52,10 +52,3 @@ Weltprofil -> weiche Grundaufnahme
 Weltbruch -> separate Bruch-/Kippnaehe-Spur
 beides -> MCM-Feldwirkung
 ```
-
-## Wie es weitergeht
-
-Aktuell ist keine zweite passive Bruchspur noetig.
-
-Als naechstes sollte geprueft werden, ob dieselbe Brucherhaltung auch in laengeren Welten und in sehr ruhigen Welten stabil bleibt.
-Wenn dort Bruchfenster sichtbar bleiben, kann `world_relative` als organische Sinnesvorstufe weiter reifen.

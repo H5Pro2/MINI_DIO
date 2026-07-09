@@ -42,7 +42,3 @@ PAXG 2024 fällt schmaler aus als BTC/DOGE/XRP und liegt in dieser Lesung ebenfa
 ## Grenze
 
 Die Nullwelten sind aus BTC 2024 abgeleitet. Für eine noch härtere Aussage sollten zusätzliche Nullwelten aus DOGE, PAXG und XRP erzeugt werden.
-
-## Wie es weitergeht
-
-Als nächstes sollten asseteigene 10k-Nullwelten für DOGE, PAXG und XRP erzeugt werden. Danach kann geprüft werden, ob `feldzeit_reif` auch gegen assetnahe Nullformen stabil unterscheidet.

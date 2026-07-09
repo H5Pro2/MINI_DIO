@@ -58,5 +58,3 @@ Wichtig ist die Trennung:
 Dateiname -> darf nicht Grundlage der Mechanik sein.
 Messwerte -> duerfen Grundlage passiver Weltlagenlesung sein.
 ```
-
-Wie es weitergeht: Wenn diese Klassen plausibel bleiben, kann die Rezeptor-Adaptationsmemory kuenftig nach gemessener Weltlage statt nach Dateinamen verdichten.

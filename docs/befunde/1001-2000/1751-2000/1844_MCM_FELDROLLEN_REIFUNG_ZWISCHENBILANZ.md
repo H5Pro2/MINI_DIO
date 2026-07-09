@@ -97,17 +97,3 @@ Sinnvoll ist daher:
 3. strengere Profilmetriken statt Familiennamen
 4. getrennte Lesung von Oberflächenordnung und echter Feldzeitbindung
 5. erst danach organische Erweiterung der Feldrollen-Memory
-
-## Wie es weitergeht
-
-Als nächstes sollte ein kompakter Mehrfenster-Test gebaut werden.
-Er soll mehrere Startpunkte automatisch lesen und pro Fenster ausgeben:
-
-- Realwelt-Vorsprung
-- Nullwelt-Nähe
-- Kernnähe
-- Feldzeit-Delta
-- Nachhall-Delta
-- Reifungsrollen-Stabilität
-
-Erst wenn dieser Test über mehrere Fenster stabil bleibt, ist eine Erweiterung der Feldrollen-Memory fachlich sinnvoll.

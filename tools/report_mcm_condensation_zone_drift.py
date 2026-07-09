@@ -225,10 +225,6 @@ def _write_markdown(
     lines.extend(
         [
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollten die wechselnden Tokens gegen ihre Rohweltabschnitte gelesen werden. Ziel: unterscheiden, ob Zonenwechsel aus Weltphase, Sinnesaufnahme, Rekopplung oder echter MCM-Drift entsteht.",
-            "",
         ]
     )
     out.write_text("\n".join(lines), encoding="utf-8")

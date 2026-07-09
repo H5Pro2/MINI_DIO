@@ -375,7 +375,3 @@ Die wichtigste Erkenntnis fuer MINI_DIO:
 MINI_DIO sollte weiter ueber Rollen, Feldqualitaet und Wiederkehr erforscht werden,
 nicht ueber starre Symboldeutung oder vorgegebene Topologie.
 ```
-
-## Wie es weitergeht
-
-Als naechstes wird die vorgemerkte Pruefung wieder aufgenommen: `dio_14wj` gegen BTC/SOL/KAS lesen. Dabei wird nicht nur gesucht, ob dasselbe Zeichen auftaucht, sondern ob dieselbe ruhige Rekopplungsrolle durch gleiche oder andere Familien getragen wird.

@@ -232,7 +232,6 @@ def _write_markdown(path: Path, detail: list[dict[str, object]], summary: list[d
             "",
             "Dieser Report ersetzt keine neue Folgeweltprüfung auf derselben Symbolbasis. Er zeigt nur, welche 2066-Familien in vorhandenen realen Neuwelten überhaupt lesbar sind.",
             "",
-            "Wie es weitergeht: Als nächstes sollten neue Folgeweltläufe gezielt für die 2066-Familien erzeugt werden. Dann lässt sich prüfen, ob die breit getragenen Familien als Bedeutungsräume stabil bleiben oder in neue Rollen zerfallen.",
             "",
         ]
     )

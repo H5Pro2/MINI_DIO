@@ -238,9 +238,6 @@ def _write_md(path: Path, rows: list[dict[str, object]]) -> None:
             "ueber Rollenbewegungen der beteiligten Knoten oder ihrer Nachbarschaft zeigt.",
             "```",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte die staerkste Achse lokal segmentiert werden: Welche konkreten Kontaktsegmente erzeugen die Rollennaehe?",
         ]
     )
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")

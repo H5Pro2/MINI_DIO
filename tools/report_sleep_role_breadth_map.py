@@ -254,10 +254,6 @@ def _write_md(rows: list[dict[str, object]], path: Path) -> None:
             "",
             "Das ist eine kleine Diagnosekarte, kein Beweis. Sie definiert aber eine pruefbare Achse: Weitere Fenster koennen auf Rollenbreite, Strain-Anteil und Reaktivierungsklasse eingetragen werden.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte das urspruengliche `SYNTH_RAND_KIPP start0` segmentweise zerlegt werden. Ziel ist zu erkennen, an welcher Binnenstelle Rollenbreite und selektive Rekopplung entstehen.",
-            "",
         ]
     )
     path.write_text("\n".join(lines), encoding="utf-8")

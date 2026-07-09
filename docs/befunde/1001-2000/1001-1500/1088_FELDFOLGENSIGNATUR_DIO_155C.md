@@ -97,7 +97,3 @@ Das spricht fuer ein differenziertes Bedeutungsnetz innerhalb des MCM-Feldes. Di
 ## Grenze
 
 Diese Lesart bleibt diagnostisch. Sie beschreibt passive Innenfeld-Semantik und darf nicht in Handlung, Richtung oder Strategie uebersetzt werden.
-
-## Wie es weitergeht
-
-Als naechstes sollte `dio_1gp2` als weitere Vergleichsfamilie geprueft werden. Danach koennen die Brueckenfamilien nach Qualitaet sortiert werden: tragend vorgepraegt, spannungsnah tragend, kippnah offen oder randfragmentiert.

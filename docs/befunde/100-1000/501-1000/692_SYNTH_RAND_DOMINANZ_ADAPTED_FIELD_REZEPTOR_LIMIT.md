@@ -34,5 +34,3 @@ Rand-/Oeffnungslast entsteht in den geprueften synthetischen Welten nicht als re
 Die Begrenzung liegt bisher vor allem in der rezeptorischen Adaptation: Rohfeldaufnahme wird in adaptierte Feldaufnahme uebersetzt, und die Randphase bleibt deshalb lokal statt global kollabierend.
 
 Damit wirkt die Rezeptorschicht nicht nur als Vorfilter, sondern als organische Aufnahmegrenze: Sie laesst Weltspannung ins Feld, aber nicht als ungebremste Rohdatenflut.
-
-Wie es weitergeht: Als naechstes sollte dieselbe Achsendiagnose gegen Bruch/Rand und Harmonie laufen, damit klar wird, ob die Begrenzung spezifisch fuer Randdominanz ist oder eine allgemeine MINI_DIO-Aufnahmeeigenschaft.

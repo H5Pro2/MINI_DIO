@@ -111,7 +111,3 @@ Der Befund ist methodisch wichtig, weil er zwei Fehlannahmen begrenzt:
 - Niedrigere Aktivierungsschwelle erzeugt nicht künstlich `verteilt_rekoppelnd`.
 
 Damit bleibt `verteilt_rekoppelnd` als eigene Feldqualität ernstzunehmen.
-
-## Wie es weitergeht
-
-Als nächstes sollte eine gezielte synthetische Zwischenwelt gebaut werden: nicht reine Harmonie, nicht harte Randdominanz, sondern modulierte Binnenvarianz mit wiederkehrender Rekopplung. Ziel ist zu prüfen, ob MINI_DIO daraus mehrere Rollen bildet, ohne in offene Drift zu kippen.

@@ -51,5 +51,3 @@ KAS bleibt ueber 5m/15m/30m/1h stabil bei Abstandsbedarf, getragener Hoerrekoppl
 Die bisherige Richtung wird gestuetzt: Die getragene Grundaufnahme ist uebergreifend Hinhoeren, waehrend der Bedarf asset- und weltqualitaetsabhaengig variieren kann.
 
 Fachlich wichtig ist: Stabil ist nicht zwingend die haeufigste Reaktion. Stabiler wirkt die tragende Rekopplungsart.
-
-Wie es weitergeht: Als naechstes sollte die BTC-2025-Abweichung lokal gelesen werden: verschiebt sich der Bedarf durch Jahr, Zeitebene oder konkrete Weltspannung?

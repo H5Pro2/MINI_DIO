@@ -325,13 +325,3 @@ nicht:
 ```text
 aktive Entscheidungs-Regulation
 ```
-
-## Wie es weitergeht
-
-Als naechstes sollte eine technische Skizze fuer `RegulationsMemory` entstehen:
-
-1. Eingaben,
-2. gespeicherte Qualitaeten,
-3. Reifungslogik ohne Schwellen-Gates,
-4. Ausgabe als passive Innenfeldqualitaet,
-5. klare Grenze gegen Handlung.

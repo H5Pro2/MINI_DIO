@@ -166,7 +166,3 @@ Damit wird unterschieden, ob ein Zonenwechsel am Token selbst haengt oder an ver
 
 Wenn ein Token in eine stabile oder rekoppelnde Nachbarschaft eingebettet ist, wirkt sein Zonenwechsel weniger wie isolierter Kontakt und mehr wie Feldbewegung.
 Wenn die Nachbarschaft wechselhaft wird oder die Selbstbindung sinkt, ist Drift eher als Veraenderung des lokalen Feldraums zu lesen.
-
-## Wie es weitergeht
-
-Als naechstes sollten die Nachbarschaftsmuster gegen die Verdichtungszonen klassifiziert werden: stabile Insel, rekoppelnder Pfad, offene Drift oder Randpfad.

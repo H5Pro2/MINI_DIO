@@ -84,7 +84,3 @@ Bei leiser Bruchwelt bleibt die alte `dio_1fll`-Naehe noch tragend.
 Diese Pruefung nutzt nur eine Bruchform.
 
 Offen bleibt, ob `dio_0v65` auch bei anderer Irregularitaetsform oder anderer Bruchlage Hauptanker bleibt.
-
-## Wie es weitergeht
-
-Als naechstes sollte eine andere Irregularitaetsform getestet werden. Ziel ist zu pruefen, ob `dio_0v65` an Bruch allgemein gekoppelt ist oder nur an diese konkrete Bruchsignatur.

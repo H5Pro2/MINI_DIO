@@ -96,7 +96,3 @@ Das Feld reagiert auf Umordnung.
 Die Antwort bleibt topologisch stabil.
 Die Weltqualitaet faerbt die Feldstaerke.
 ```
-
-## Wie es weitergeht
-
-Als naechstes sollten die kleineren Gegenformen untersucht werden: Wann wird aus `bewegungsbruch` keine Entlastung, sondern `rekopplung_bricht_in_last` oder `rekopplung_vor_neuer_last`?

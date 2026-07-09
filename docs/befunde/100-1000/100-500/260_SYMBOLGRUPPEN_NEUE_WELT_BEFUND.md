@@ -65,11 +65,3 @@ Dieser Befund bleibt passiv.
 Er beweist keine universelle MCM-Topologie.
 
 Er zeigt aber, dass die bisherige Symbolgruppen-Lesung unter einer neuen Realwelt nicht sofort zerfaellt.
-
-## Wie es weitergeht
-
-Als naechstes sollte nicht direkt eine weitere Einzelwelt folgen, sondern eine Rollenstabilitaetsmatrix gebaut werden:
-
-1. Allgemeine Grundfrage: Welche Rollen bleiben ueber Weltwechsel erhalten?
-2. Konkrete Unterpruefung: Wie stark verschieben sich Fensterzahl, Weltzahl, Kippnaehe, Rekopplung und Felddruck je Rolle?
-3. Folgeschritt: Erst danach entscheiden, ob `offene_variante` in Untergruppen geteilt werden muss.

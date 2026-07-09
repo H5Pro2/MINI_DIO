@@ -108,7 +108,3 @@ Die Feldfolge entscheidet, ob der Anker tragend oder kippnah ist.
 ```
 
 Das ist ein wichtiger Schritt weg von starrer Symbolik und hin zu dynamischer Innenfeld-Semantik.
-
-## Wie es weitergeht
-
-Als naechstes sollte dieselbe Feldfolgenanalyse mit einer zweiten Brueckenfamilie wiederholt werden. Wenn sich das Prinzip wiederholt, wird daraus eine robuste Mechanik: Familie als Anker, Feldfolge als Bedeutungsentscheidung.

@@ -60,5 +60,3 @@ Das schuetzt das Feld vor Rohdatenueberlagerung. Das Feld bekommt nicht die ganz
 Die regulatorische Seite der Sinneswahrnehmung ist begonnen und funktional sichtbar.
 
 Sie ist aber noch keine volle Selbstregulation. Der naechste organische Schritt ist eine episodische Sinnesaufnahme-Memory: Mini-DIO soll nicht nur messen, wie etwas ankommt, sondern spaeter erkennen, welche Aufnahmeart fuer welche Welt tragend, zu duenn, ueberreizend oder klar war.
-
-Wie es weitergeht: Die naechste Pruefung koppelt diese Sinnesaufnahme an die Topologie. Ziel ist zu sehen, ob bestimmte Hoer-/Seh-/Fuehl-Konstellationen stabil mit Zentrum, Bruecke, Rand oder Drift zusammenhaengen.

@@ -109,7 +109,3 @@ Ein neues Diagnosewerkzeug sollte:
 3. Nachhall ueber Folgefenster messen,
 4. erst danach Naehe zu `Bruecke`, `Zentrumskontakt`, `Randdruck` oder `neue_mischrolle` markieren,
 5. alle Ergebnisse als passive Diagnose ausgeben.
-
-## Wie es weitergeht
-
-Als naechstes wird genau dieses rollenneutrale Diagnosewerkzeug gebaut. Es darf keine neue Handlung, kein Gate und keine Strategie erzeugen. Ziel ist nur zu pruefen, ob die Feldfunktionskarte ausserhalb des bisherigen Kandidatenraums tragfaehig bleibt.

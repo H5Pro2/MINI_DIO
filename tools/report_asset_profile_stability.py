@@ -299,7 +299,6 @@ def write_markdown(
             "",
             "KAS bleibt ueber 5m/15m/30m/1h stabil bei Abstandsbedarf, getragener Hoerrekopplung und Kontaktentlastungs-Drucknaehe.",
         ]
-        next_line = "Wie es weitergeht: Als naechstes sollte die BTC-2025-Abweichung lokal gelesen werden: verschiebt sich der Bedarf durch Jahr, Zeitebene oder konkrete Weltspannung?"
     else:
         befund_lines = [
             "BTC zeigt in den vier vorhandenen Quellen eine stabile Tragung ueber `ruhig hinhoeren`. Der haeufige Bedarf liegt ebenfalls stabil auf Fokus. Die Drucknaehe bleibt dagegen eher beim Abstand.",
@@ -312,11 +311,6 @@ def write_markdown(
                 else "KAS bleibt vorerst nur ein Quellenblock. Die Werte passen zur SOL-naeheren Abstandstendenz, aber Stabilitaet kann daraus noch nicht streng abgeleitet werden."
             ),
         ]
-        next_line = (
-            "Wie es weitergeht: Als naechstes sollte geprueft werden, ob die stabilen Assetprofile auch mit anderen Jahren oder laengeren Ausschnitten erhalten bleiben."
-            if split_kas
-            else "Wie es weitergeht: Als naechstes sollte KAS in getrennte Einzelwelten zerlegt werden, damit KAS nicht nur als Zeitebenenblock, sondern als echte Stabilitaetsreihe gegen BTC und SOL vergleichbar wird."
-        )
 
     lines.extend(["", "## Befund", "", *befund_lines, "", "## Schluss", ""])
     lines.extend(
@@ -325,7 +319,6 @@ def write_markdown(
             "",
             "Fachlich wichtig ist: Stabil ist nicht zwingend die haeufigste Reaktion. Stabiler wirkt die tragende Rekopplungsart.",
             "",
-            next_line,
             "",
         ]
     )

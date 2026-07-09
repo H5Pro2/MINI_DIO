@@ -59,7 +59,3 @@ Die Typen werden gelesen aus:
 - Wiederkehr in mehreren Welten.
 
 Sie sind keine Entry-Signale und keine Richtungsvorgabe.
-
-## Wie es weitergeht
-
-Als nächstes sollte `rekopplung_nach_abverkauf` isoliert geprüft werden: Ist das nur eine Folge großer 1H-Bewegung, oder bildet sich hier ein stabiler MCM-Erweiterungstyp über mehrere Assets und Zeitfenster?

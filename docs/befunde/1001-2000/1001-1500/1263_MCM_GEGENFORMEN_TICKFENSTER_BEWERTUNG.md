@@ -104,7 +104,3 @@ Das ist eine wichtige Innenfeldinformation:
 Nicht jede Rueckkehr zum Zentrum ist bereits Ordnung.
 Ordnung braucht Folgehalt.
 ```
-
-## Wie es weitergeht
-
-Als naechstes sollte `Folgehalt` als passive Diagnose gemessen werden: Wie lange bleibt Zentrum/Rekopplung nach einem Randkontakt erhalten, bevor erneut Rand/Kipp entsteht?

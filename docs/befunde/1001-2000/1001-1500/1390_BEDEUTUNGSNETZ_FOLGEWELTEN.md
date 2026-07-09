@@ -65,7 +65,3 @@ Neue Inseln sprechen fuer neue Weltspannung, die noch nicht in der alten Karte e
 
 Die Folgewelt-Signatur nutzt eine relative Fensterklassifikation aus `episodes.csv`.
 Sie ist eine passive Vergleichsschicht, kein neues Lexikon und keine Handlungslogik.
-
-## Wie es weitergeht
-
-Als naechstes sollten die Nachbarschaftsknoten isoliert werden. Entscheidend ist, ob sie bei weiteren Welten stabil neben demselben alten Knoten bleiben oder in eigenstaendige Knotenfamilien auseinanderdriften.

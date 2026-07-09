@@ -110,7 +110,6 @@ def _write_markdown(path: Path, memory: MCMRoleFamilyMemory) -> None:
             "",
             "Die CSV- und JSON-Memory enthalten keine festen Bedeutungs-, Anschluss- oder Driftklassen. Die Report-Lesung darf nicht als Regel, Strategie, Entry-Signal, Richtungsvorgabe oder Handlungsgate verwendet werden.",
             "",
-            "Wie es weitergeht: Neue Folgeweltmessungen sollten als weitere numerische Evidenzschichten aufgenommen werden. Erst die Reports lesen daraus vorlaeufige Muster.",
             "",
         ]
     )

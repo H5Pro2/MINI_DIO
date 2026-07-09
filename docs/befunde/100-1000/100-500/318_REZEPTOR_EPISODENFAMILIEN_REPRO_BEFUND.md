@@ -154,7 +154,3 @@ Er zeigt nur:
 - welche Familien wiederkehren,
 - welche Kontaktqualitaet sie tragen,
 - wie stabil oder variabel ihr Nachlauf ist.
-
-## Wie es weitergeht
-
-Als naechstes sollte die MCM-Episodensprache nicht nach festen Bedeutungen, sondern nach Bedeutungsspannweiten untersucht werden: Welche Familie bleibt eng, welche wird breit, welche kippt je nach Weltkontakt?

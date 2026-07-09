@@ -55,7 +55,3 @@ Die Stabilitaet ist nicht als starres Schema zu lesen. Einzelne Weltgruppen vers
 ## Schluss
 
 Damit wird die Rezeptorhaltung als eigenstaendige Ebene plausibler: Nicht nur die Weltenergie entscheidet, sondern wie der Organismus sieht, hoert und Aufnahme zulaesst.
-
-## Wie es weitergeht
-
-Als naechstes sollte geprueft werden, ob Mini-DIO diese Haltungen als wiederkehrende Innenfeld-Bedeutungen verdichtet oder ob sie nur diagnostische Achsen bleiben.

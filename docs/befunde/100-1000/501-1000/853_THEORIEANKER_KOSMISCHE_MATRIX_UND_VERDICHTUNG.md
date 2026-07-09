@@ -71,15 +71,3 @@ Rueckfuehrung
 Reorganisation
 hoeherer Bedeutungsraum
 ```
-
-## Wie es weitergeht
-
-Als naechstes sollte MINI_DIO Verdichtungszonen gezielt untersuchen:
-
-- stabile Bedeutungsinsel,
-- driftende Bedeutungsinsel,
-- lokale Randnaehe,
-- Rekopplung,
-- Uebergang in eine hoehere Clusterordnung.
-
-Ziel ist nicht, Kosmologie zu beweisen, sondern die MCM-Feldmechanik im kleinen Forschungsmodell sauber messbar zu machen.

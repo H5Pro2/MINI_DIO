@@ -140,9 +140,6 @@ def _write_md(path: Path, rows: list[dict[str, str]]) -> None:
     lines.append("- `1xx3u1e`: lokaler Anschlussanker -> Brueckenkern.")
     lines.append("- `0z748ck`: lokaler Anschlussanker -> Brueckenkern.")
     lines.append("")
-    lines.append("## Wie es weitergeht")
-    lines.append("")
-    lines.append("Als naechstes sollte eine einzelne zweite Rollenwanderung isoliert werden, vorzugsweise `0ykar6i`, weil es vom schwachen Anschluss zum Kernpartner von `0b7nep9` wird.")
     path.write_text("\n".join(lines), encoding="utf-8")
 
 

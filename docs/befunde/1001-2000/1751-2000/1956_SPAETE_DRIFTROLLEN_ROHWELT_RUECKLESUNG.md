@@ -65,7 +65,3 @@ Das ist kein Kausalbeweis. Es ist eine passive Rücklesung: Die Tabelle zeigt, w
 ## Grenze der Aussage
 
 Diese Prüfung sagt nicht: Eine bestimmte Rohweltlage erzeugt zwingend eine Driftrolle. Sie sagt nur: Bei den reproduzierten späten Rollen ist eine strukturierte Rücklesung möglich. Damit ist die nächste Prüffrage fachlich enger.
-
-## Wie es weitergeht
-
-Als nächstes sollte geprüft werden, ob diese Rohweltprofile in einer neuen Welt vor der Rollenbildung sichtbar werden. Wenn ja, wäre das ein stärkerer Hinweis darauf, dass Mini-DIO nicht nur nachträglich benennt, sondern Feldlagen früh als mögliche Driftrollen vorbereitet.

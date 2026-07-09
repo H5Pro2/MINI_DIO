@@ -32,7 +32,3 @@ Geprueft wird, ob Reifung bestaetigt, abgeschwaecht, gehalten, entlastet oder ni
 
 Die Reifungs-Memory wird als passive Folgequalitaet gelesen.
 Wichtig ist nicht nur, ob ein Token wieder auftaucht, sondern ob seine Reifung gleichartig getragen bleibt.
-
-## Wie es weitergeht
-
-Als naechstes sollte die Lesung synthetisiert werden: Welche Reifungsqualitaeten sind stabil genug fuer langfristige passive Memory, und welche bleiben nur kurzfristige Oberflaeche?

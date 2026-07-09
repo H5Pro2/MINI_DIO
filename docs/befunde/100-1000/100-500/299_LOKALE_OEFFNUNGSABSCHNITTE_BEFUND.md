@@ -86,7 +86,3 @@ Sie ist keine neue Mechanik, kein Gate und keine Handlung.
 Der Befund sagt:
 
 In den stärksten offenen Abschnitten dieser 12 Welten ist Fühlen/Feld am häufigsten der lokale Übergangstreiber, Hören am zweithäufigsten, Sehen selten.
-
-## Wie es weitergeht
-
-Als nächstes prüfen wir die Rekopplung nach der Öffnung: Wird eine offene Episode danach wieder zentrumsnah, bleibt sie offen oder kippt sie in den Spannungsrand?

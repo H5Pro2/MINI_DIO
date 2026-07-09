@@ -54,7 +54,3 @@ Diese Schicht ist ein weiterer Schritt weg von Symboltabellen und hin zu einer d
 Der Befund beweist noch keine allgemeine Feldgesetzlichkeit.
 
 Er zeigt aber, dass MINI_DIO in unterschiedlichen Weltfenstern ähnliche Feldqualitäten erneut ausbilden kann. Das spricht gegen reine Momentaufnahme und für eine reale interne Ordnungsbildung im passiven MCM-Feld.
-
-## Wie es weitergeht
-
-Als nächstes sollte dieselbe Feldphasen-Signatur-Memory gegen längere und härtere Weltketten geprüft werden. Entscheidend ist, ob die starken Signaturen stabil bleiben, sich aufteilen oder neue Nachbarschaften bilden.

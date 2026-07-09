@@ -186,10 +186,6 @@ def _write_markdown(rows: list[dict], out_path: Path) -> None:
             "positiv -> Feld-/Memorybindung dominiert",
             "```",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes wird aus dieser Diagnose ein Befund geschrieben.",
-            "Darin wird bewertet, ob lokale Stress- und Ruheabschnitte wirklich als MCM-Gegenpole gelesen werden koennen.",
         ]
     )
     out_path.write_text("\n".join(lines) + "\n", encoding="utf-8")

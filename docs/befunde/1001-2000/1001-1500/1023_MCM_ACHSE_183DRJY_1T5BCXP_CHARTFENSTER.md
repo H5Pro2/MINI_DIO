@@ -120,7 +120,3 @@ Orange markiert das MCM-Achsenfenster. Rot markiert den Schwerpunkt des Fensters
 
 Die Bilder zeigen dieselbe Achse nicht als festen Verlauf, sondern als wiederkehrenden Feldkanal in unterschiedlichen Weltphasen.
 Die sichtbare Weltform unterscheidet sich deutlich zwischen Expansion, Rekopplung, Bruch und Erholung nach Last.
-
-## Wie es weitergeht
-
-Als naechstes sollte aus den Bildern eine knappe visuelle Typologie abgeleitet werden: Welche sichtbaren Weltformen korrespondieren mit welcher Rollenqualitaet?

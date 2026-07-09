@@ -90,7 +90,3 @@ Die bisherige Befundlage zeigt eine beginnende innere Semantik:
 - Rekopplung und Strain trennen tragende von kippnahen Lesarten.
 
 Damit wird MINI_DIOs MCM-Feld als dynamisches Bedeutungsnetz lesbar.
-
-## Wie es weitergeht
-
-Als naechstes sollte diese Qualitaetskarte gegen neue Welten geprueft werden. Ziel: Bleiben die Rollen stabil, verschieben sie sich, oder entstehen neue Brueckenfamilien, die nicht in diese Karte passen?

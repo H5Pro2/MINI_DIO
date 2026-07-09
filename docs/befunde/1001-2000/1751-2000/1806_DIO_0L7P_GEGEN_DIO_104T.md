@@ -34,7 +34,3 @@ Damit wirkt die Trennung vorläufig so:
 - `dio_104t`: stärkerer Anschluss-/Kohärenzknoten.
 
 Das ist kein Beweis für feste Bedeutungen. Die Bedeutung entsteht weiter aus Familie, Weltfenster, Feldfolge und Nachbarschaft.
-
-## Wie es weitergeht
-
-Als nächstes sollte geprüft werden, ob diese Rollen in weiteren Kernfamilien ebenfalls paarweise auftreten: Brückenträger, Anschlussknoten, Randknoten und breite Sammelfamilien.

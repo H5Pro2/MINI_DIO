@@ -54,5 +54,3 @@ MINI_DIO verhaelt sich hier eher wie ein passives Bedeutungsfeld:
 Diese Auswertung erzeugt keine Handlung, keine Richtung und kein Gate.
 
 Die Befunde beschreiben nur, wie sich passive Feldbedeutung unter veraenderter Aussenwelt organisiert.
-
-Wie es weitergeht: Als naechstes sollte gezielt geprueft werden, welche Rohweltprofile `druck_entlasteter_normalisierungsshift` und `oberflaeche_veraendert` ausloesen, damit die Sonderrollen nicht nur benannt, sondern an konkrete Weltspannung zurueckgebunden werden.

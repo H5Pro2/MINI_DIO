@@ -65,7 +65,3 @@ Das ist kein Widerspruch. Es zeigt, dass Weltbindung nicht einheitlich ist. Unte
 ## Grenze
 
 `1i3ov0z` ist jetzt stark, aber nur in einem ruhigen BTC-Feldfenster massiv. Das muss gegen weitere BTC-Quiet-Fenster geprüft werden, bevor daraus eine robuste Rolle abgeleitet wird.
-
-## Wie es weitergeht
-
-Als nächstes `1i3ov0z` gegen weitere BTC-Quiet-Fenster prüfen. Ziel ist, zu klären, ob er eine echte ruhige BTC-Feldrolle trägt oder nur an einem einzelnen ruhigen Fenster hochläuft.

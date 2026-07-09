@@ -36,7 +36,3 @@
 - XRP, DOGE und BTC liegen dichter zusammen und zeigen mehr Schutzabstand/Daempfung.
 - Alle Assets behalten die globale Rollenform; die lokale Gewichtung unterscheidet sich.
 - Damit wird die Topologie als Rollenraum sichtbarer: gleiche Grundform, verschiedene Milieuqualitaeten.
-
-## Wie es weitergeht
-
-Als naechstes sollte geprueft werden, ob diese Asset-Mittelwerte bei anderen Zeitmassen erhalten bleiben oder ob 1h/15m eigene Rollenprofile ausbilden.

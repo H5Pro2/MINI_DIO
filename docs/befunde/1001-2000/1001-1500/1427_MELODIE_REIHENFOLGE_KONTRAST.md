@@ -63,7 +63,3 @@ Eine Melodie kann im MCM-Feld als geordnete Folge getragen werden. Wenn die Folg
 Diese Pruefung nutzt eine synthetische Melodie-Welt.
 
 Sie zeigt keine allgemeine Musikverarbeitung. Sie zeigt nur, dass eine veraenderte zeitliche Ordnung im Feld als nahe, aber leicht anders gespannte Bedeutungsstruktur gelesen wird.
-
-## Wie es weitergeht
-
-Als naechstes sollte die Melodie noch staerker gebrochen werden: Phasen doppeln, Ruhe entfernen oder Amplitude asymmetrisch machen. Dann pruefen wir, ob die Grundfamilie `dio_1fll` stabil bleibt oder ob eine neue Insel entsteht.

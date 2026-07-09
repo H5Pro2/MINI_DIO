@@ -52,7 +52,3 @@ Die Familie zerfaellt in drei lesbare Formen: fallender Bruch, fallende Rekopplu
 `abverkauf_mit_rekopplung` ist derzeit die stabilere Familie als `rekopplung_nach_abverkauf`. Letztere wirkt eher wie eine grossraeumige Erholungsform nach vorherigem Druck.
 
 Fachlich bedeutet das: Das MCM-Feld liest nicht nur Preisrichtung. Es unterscheidet, ob ein fallendes Fenster bricht, rekoppelt oder nach vorheriger Belastung wieder Anschluss findet.
-
-## Wie es weitergeht
-
-Als naechstes sollte die Familie `abverkauf + rekopplung` gegen lokale Weltmerkmale gelesen werden: Lautstaerke/Energie, Rezeptorlast, Druckwechsel und Topologie-Rolle im gleichen Tickfenster.

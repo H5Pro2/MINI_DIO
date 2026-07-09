@@ -97,7 +97,3 @@ Ein wiederholter visueller Bruch wird bei stabiler Tonform weniger stoerend gele
 ```
 
 Das ist fuer das MCM-System wichtig, weil es eine organische Wahrnehmungsfunktion andeutet: Das Feld kann wiederkehrende Weltspannung ueber eine stabilere Sinnesachse einordnen, statt jeden Bruch neu als Randereignis zu behandeln.
-
-## Wie es weitergeht
-
-Als naechstes sollte die Gegenrichtung getestet werden: unstabile/chaotische Tonform bei klarer visueller Rekopplung. So laesst sich pruefen, ob visuelle Ordnung Hoerchaos ebenfalls abfedern kann oder ob Hoeren die staerkere Randachse bleibt.

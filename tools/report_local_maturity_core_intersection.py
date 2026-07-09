@@ -192,10 +192,6 @@ def _write_md(path: Path, rows: list[dict[str, object]], summary: dict[str, obje
     lines.extend(
         [
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als nächstes sollte geprüft werden, ob dieser harte Kern bei neuen Welten nur stabil bleibt oder ob einzelne Kernpaare unter Stress/Expansion gezielt in Randdrift wechseln. Das wäre der nächste Test für Reife statt bloßer Wiederholung.",
-            "",
         ]
     )
     path.write_text("\n".join(lines), encoding="utf-8")

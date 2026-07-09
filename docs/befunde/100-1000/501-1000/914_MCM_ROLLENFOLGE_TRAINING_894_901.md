@@ -77,7 +77,3 @@ Besonders relevant:
 - `0b7nep9` bleibt nach dem Rollenwechsel kernnah.
 - `0ykar6i` faellt nicht auf schwach zurueck, sondern bleibt als starker Anschlussanker in der Naehe des Kernraums.
 - `1jx2k4i` bleibt ebenfalls stark/kernnah.
-
-## Wie es weitergeht
-
-Als naechstes sollte die Rollenfolge in eine semantische Memory-Regel uebersetzt werden: nicht harte Klassen speichern, sondern Rollenbewegung, Stabilitaet und Driftqualitaet.

@@ -82,7 +82,3 @@ Wenn der weltrelative Adapter Sättigung reduziert, spricht das dafuer, dass ein
 Wenn Achsen auffaellig bleiben, ist entweder die Welt tatsaechlich stark anders oder die Sinnesmechanik braucht eine organischere Adaptation.
 
 Der entscheidende Punkt: Das MCM-Feld sollte nicht Rohdatenlast verarbeiten, sondern bereits vorgeformte Sinnesinformation.
-
-## Wie es weitergeht
-
-Als naechstes sollte ein kurzer passiver Mini-DIO-Lauf im `world_relative`-Sinnesmodus gegen die feste Uebersetzung verglichen werden. Erst wenn die Rollenkarte stabiler wird, sollte der Adapter als Standardmechanik in Betracht kommen.

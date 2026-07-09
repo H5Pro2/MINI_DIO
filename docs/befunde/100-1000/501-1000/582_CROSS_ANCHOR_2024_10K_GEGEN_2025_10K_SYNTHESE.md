@@ -118,8 +118,3 @@ Fuer eine robuste Aussage braucht es noch:
 - andere Zeitebenen,
 - weitere Jahre,
 - getrennte Reproduktionslaeufe mit frischer Memory.
-
-## Wie es weitergeht
-
-Als naechstes sollte dieselbe Ankerbewegung auf BTC-10k und KAS-10k gelegt werden.
-Ziel ist zu klaeren, ob `0e7qvj1 <-> 1hdpu9s` eine SOL-nahe Feldbewegung ist oder eine allgemeinere MCM-Bewegungsachse.

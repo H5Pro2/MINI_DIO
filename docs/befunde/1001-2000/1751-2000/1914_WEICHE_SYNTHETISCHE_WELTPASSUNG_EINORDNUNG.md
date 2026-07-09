@@ -55,7 +55,3 @@ kern_ausgeblendet
 
 Diese Unterlesung bleibt passiv.
 Sie ist keine Steuerung und keine Entscheidung.
-
-## Wie es weitergeht
-
-Als nächstes sollte geprüft werden, ob Restkopplung über mehrere weiche synthetische Welten stabil wiederkehrt. Wenn ja, kann `kern_ausgeblendet` später in Unterqualitäten gelesen werden, ohne die vierstufige Hauptstruktur zu verwässern.

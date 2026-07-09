@@ -129,23 +129,3 @@ innerhalb der passiven MCM-Topologie.
 ```
 
 Das macht den vorherigen kleinen Durchbruch belastbarer.
-
-## Wie es weitergeht
-
-Grundfrage:
-
-Ist die Rollenordnung nur auf kontrollierte 10k-Welten stabil,
-oder bleibt sie auch auf groesseren Jahres- und Stresswelten erhalten?
-
-Unterpruefung:
-
-Die Rollenkarte gegen groessere Datenraeume pruefen:
-
-- 2023 Jahresdaten
-- 2024 Jahresdaten
-- 2025 Jahresdaten
-- 2026 Mehrmonatsdaten
-
-Folgeschritt:
-
-Passive MCM-Topologie-Haertetestdiagnose bauen.

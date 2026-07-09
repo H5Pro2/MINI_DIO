@@ -68,7 +68,3 @@ Damit wird die MCM-Topologie nicht als starres Asset-Etikett gelesen, sondern al
 
 - [1581 Mehrrollen-Fenstersuche DOGE/XRP/BTC](1581_MEHRROLLEN_FENSTERSUCHE_DOGE_XRP_BTC.md)
 - [1582 XRP1000 Mehrrollen-Reproduktion](1582_XRP1000_SCAN_START1000_MEHRROLLEN_REPRO.md)
-
-## Wie es weitergeht
-
-Als naechstes sollte dieselbe Fensterlogik gegen weitere Weltarten laufen: ruhige Welt, Stresswelt, Expansionswelt und synthetische Kontrollwelt. Entscheidend ist, ob Einzelrekopplung, Uebergang und Mehrrollennaehe dort wieder als lokale Feldphasen erscheinen.

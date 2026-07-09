@@ -126,8 +126,3 @@ fragmentiert -> passive Innenfeldqualität
 ```
 
 MINI_DIO beobachtet damit die Qualität seiner eigenen Feldbewegung.
-
-## Wie es weitergeht
-
-Als nächstes sollte geprüft werden, ob diese vier Qualitäten über weitere Weltgruppen reproduzierbar bleiben.
-Wenn ja, können sie als stabile passive Innenfeldwahrnehmung in den MINI_DIO-Kern übernommen werden.

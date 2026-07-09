@@ -54,8 +54,3 @@ Damit entsteht eine organische Sicht:
 
 Ein Organismus passt nicht nur Lautstaerke an.
 Er entwickelt unterschiedliche Arten, Weltwirkung wieder loesbar, tragbar und rekoppelbar zu machen.
-
-## Wie es weitergeht
-
-Als naechstes wird ein Befund geschrieben.
-Dort wird festgehalten, welche Anpassungsachsen fuer MINI_DIO als passive Feldhygiene am wichtigsten sind.

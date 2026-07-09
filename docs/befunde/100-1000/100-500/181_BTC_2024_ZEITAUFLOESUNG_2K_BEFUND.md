@@ -82,14 +82,3 @@ Fachlich wichtig:
 Damit wird die bisherige MCM-Hypothese staerker:
 
 Eine Welt wirkt nicht direkt als Wertfolge, sondern als Feldlage mit eigener Zeitqualitaet.
-
-## Wie es weitergeht
-
-Als naechstes sollte BTC 2025 in gleicher Weise geprueft werden:
-
-- `btc_2025_5m_2k`
-- `btc_2025_1h_2k`
-
-Die konkrete Unterfrage lautet:
-
-Bleibt der Zeitaufloesungs-Effekt erhalten, also 5m eher ruhige Naehegruppe und 1h eher Stress-Gegenpol, oder war BTC 2024 ein einmaliger Weltabschnitt?

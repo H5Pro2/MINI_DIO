@@ -57,7 +57,3 @@ Wichtig bleibt:
 Familie allein ist kein Bedeutungsbeweis.
 Erst Wiederkehr + Achsenprofil + Feldprofil + Nachbarschaft machen sie lesbar.
 ```
-
-## Wie es weitergeht
-
-Als nächstes sollte `dio_14wj` gegen seine Nachbarfamilien gelesen werden: Welche Familien treten in denselben Memories mit auf und bilden einen stabilen Bedeutungsraum?

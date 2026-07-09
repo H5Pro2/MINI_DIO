@@ -61,5 +61,3 @@ Sie treten dort auf, wo Rohwelt, Hoeren, Sicht und Felddruck ueber Zeit anders g
 Damit wird der Unterschied zwischen kurzer Lagebewegung und laengerer Feldphase konkreter ruecklesbar.
 
 Die Auswertung bleibt passiv. Sie erzeugt keine Handlung, keine Richtung und kein Gate.
-
-Wie es weitergeht: Als naechstes sollten die Rohklassen der skalenabhaengigen Folgen mit stabil neutralen und stabil beruhigenden Folgen verglichen werden.

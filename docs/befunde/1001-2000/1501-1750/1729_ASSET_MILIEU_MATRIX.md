@@ -79,9 +79,3 @@ Gewichtungen erzeugen.
 
 Die Werte sind relative Diagnoseprofile innerhalb der geprueften Welten.
 Sie sind keine universellen MCM-Grenzen und keine Runtime-Regeln.
-
-## Wie es weitergeht
-
-Als naechstes sollte dieselbe Matrix fuer andere Zeitmasse gebaut werden.
-Entscheidend ist, ob PAXG auch bei 1h/15m rekopplungsstaerker bleibt oder ob
-Zeitmass die Assetordnung verschiebt.

@@ -52,7 +52,3 @@ Die starken Anschlussanker sind nicht gleichartig:
 - `1jx2k4i` wirkt als weltbreiter kernnaher Inselanker. Er koppelt stabil ueber mehrere Welten, aber deutlich fokussierter und mit weniger Nachbarschaftsbreite.
 
 Damit ist Anschlussanker nicht nur eine Staerke-Klasse, sondern wahrscheinlich eine eigene Zwischenebene mit Unterrollen.
-
-## Wie es weitergeht
-
-Als naechstes sollte geprueft werden, ob lokale Anschlussanker eher zu `0b7nep9` oder zu `1jx2k4i` tendieren. Daraus kann eine feinere Anschlussanker-Familienkarte entstehen.

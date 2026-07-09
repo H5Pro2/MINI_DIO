@@ -45,7 +45,3 @@ Der Befund trennt die Ebenen:
 Rohweltliche Ruhe = Eigenschaft des Aussenfensters.
 Feldruhe = Eigenschaft der MCM-Innenreaktion.
 ```
-
-## Wie es weitergeht
-
-Als naechstes sollte der feldruhigste Kandidat direkt gegen das reale Bruchfenster verglichen werden. Ziel: nicht Rohruhe gegen Rohstress, sondern Feldruhe gegen Feldbruch innerhalb derselben Quelle.

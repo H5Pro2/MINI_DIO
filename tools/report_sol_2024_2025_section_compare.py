@@ -203,10 +203,6 @@ def _write_markdown(path: Path, rows: list[dict[str, object]]) -> None:
             "",
             "Der Befund sagt nicht, dass SOL unveraenderlich ist. Er sagt nur: In diesen vier 5m-Abschnitten kippt SOL nicht wie BTC von Fokus zu Abstand, sondern bleibt abstandsnah.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte KAS oder eine weitere BTC/SOL-Zeitebene mit derselben Abschnittslogik gelesen werden. Ziel: trennen, ob BTC ein eigener Wahrnehmungstyp ist oder ob der Effekt in bestimmten Zeitaufloesungen wiederkehrt.",
-            "",
         ]
     )
     path.write_text("\n".join(lines), encoding="utf-8")

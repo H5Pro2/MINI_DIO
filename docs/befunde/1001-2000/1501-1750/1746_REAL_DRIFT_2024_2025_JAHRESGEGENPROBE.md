@@ -99,8 +99,3 @@ Es ist eine weitere Gegenprobe, dass die bisherige Topologie in diesen Realwelte
 
 Die Diagnose beschreibt Feldmilieu und Anschlussfähigkeit.
 Sie beschreibt keine Richtung, keine Handlung und keine Strategie.
-
-## Wie es weitergeht
-
-Als nächstes sollte dieselbe Jahreslogik gegen ein anderes Asset oder gegen synthetische Drift-/Nachhallwelten geprüft werden.
-Ziel ist zu trennen, ob `kompakt_nachhallend` und `mittlere_uebergangsphase` assetübergreifende Feldmilieus sind oder SOL-spezifische Jahresfärbungen.

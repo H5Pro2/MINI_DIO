@@ -55,7 +55,3 @@ Die Bull-Seite zeigt ebenfalls eine Familienbildung: getragene Expansion, steige
 Damit wirkt die Aufwaertsseite nicht einfach als Gegenpol zum Abverkauf. Sie hat eine eigene innere Differenzierung: tragende Fortsetzung, rekoppelnde Richtung und Richtung mit Bruch/Umordnung.
 
 Fachlich wichtig: Das bleibt passive Lesung. Die Familie beschreibt Feldqualitaet, keine Richtungsvorgabe und kein Handlungssignal.
-
-## Wie es weitergeht
-
-Als naechstes sollten Bull- und Abverkauf/Rekopplung-Familie direkt verglichen werden: Welche Feldmerkmale sind symmetrisch, und wo ist die MCM-Wirkung asymmetrisch?

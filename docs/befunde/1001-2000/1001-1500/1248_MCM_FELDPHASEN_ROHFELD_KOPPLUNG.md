@@ -59,7 +59,3 @@ Entscheidend ist die Feldbewegung nach der Randnaehe.
 ## Grenze
 
 Diese Diagnose nutzt aggregierte Feldphasenwerte. Fuer eine vollstaendige Rohwelt-Erklaerung muessen spaeter OHLCV-Fenster, Ton-/Lautheitsprofile und Rezeptorprofile direkt pro Phase angebunden werden.
-
-## Wie es weitergeht
-
-Als naechstes sollte fuer die wichtigsten Randphasen eine echte Fensterlupe gebaut werden: Phase finden, Rohweltfenster ziehen, Ton-/Intake-/Rekopplungsprofil danebenlegen.

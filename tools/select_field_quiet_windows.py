@@ -228,10 +228,6 @@ def _write_markdown(rows: list[dict[str, object]], path: Path, source: Path) -> 
     lines.extend(
         [
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte der feldruhigste Kandidat direkt gegen das reale Bruchfenster verglichen werden. Ziel: nicht Rohruhe gegen Rohstress, sondern Feldruhe gegen Feldbruch innerhalb derselben Quelle.",
-            "",
         ]
     )
     path.write_text("\n".join(lines), encoding="utf-8")

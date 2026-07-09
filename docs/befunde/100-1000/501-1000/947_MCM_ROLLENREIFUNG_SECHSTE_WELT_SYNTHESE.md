@@ -57,15 +57,3 @@ Damit entsteht eine sauberere Langzeit-Memory:
 dio_role_*    = Rollenbewegung
 dio_mature_*  = Reifungsqualitaet dieser Bewegung ueber Folgewelten
 ```
-
-## Wie es weitergeht
-
-Als naechstes sollte aus 946 eine kleine Langzeitklassifikation entstehen:
-
-- langfristig getragen
-- weltabhaengig getragen
-- abgeschwaecht
-- verschwunden bestaetigt
-- kurzfristige Oberflaeche
-
-Diese Klassifikation bleibt passiv und dient nur der Forschungslesung.

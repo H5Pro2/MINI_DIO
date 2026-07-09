@@ -74,7 +74,3 @@ Die Mehrwelt-Rücklesung stützt die Rollentrennung:
 - `dio_155c`: duale Feldrolle.
 
 Damit wird die MCM-Bedeutungsbildung nicht flacher, sondern präziser: Familien tragen nicht nur Namen, sondern wiederkehrende Rollenlagen im Feld.
-
-## Wie es weitergeht
-
-Als nächstes sollte `dio_155c` genauer geprüft werden, weil es als duale Feldrolle zwischen Kippnähe und tragender Verarbeitung die stärkste innere Spannweite trägt.

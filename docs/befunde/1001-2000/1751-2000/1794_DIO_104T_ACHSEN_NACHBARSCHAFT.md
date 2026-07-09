@@ -57,7 +57,3 @@ Fachliche Lesung:
 Eine Familie wird tragfähiger, wenn sie nicht isoliert steht, sondern wiederkehrend mit ähnlichen Nachbarn koppelt.
 Bedeutung entsteht hier als Nachbarschaft im Feld, nicht als einzelner Name.
 ```
-
-## Wie es weitergeht
-
-Als nächstes sollte geprüft werden, ob die stärksten `dio_104t`-Nachbarn eigene Rollen tragen oder nur Mitläufer derselben Feldphase sind.

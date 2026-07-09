@@ -47,7 +47,3 @@ Das passt zur bisherigen MCM-Lesung: Die Topologie bleibt stabil, aber Welt- und
 ## Grenze
 
 Diese Diagnose nutzt nur eindeutig gekoppelte Fenster aus `1251`. Nicht alle Segmentwelten sind enthalten.
-
-## Wie es weitergeht
-
-Als naechstes wird geprueft, ob die assetweise Feldfaerbung ueber neue Rohweltfenster reproduzierbar bleibt oder ob sie nur aus dieser Auswahl stammt.

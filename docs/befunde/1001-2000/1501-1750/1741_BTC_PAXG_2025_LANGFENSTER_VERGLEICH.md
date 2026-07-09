@@ -61,7 +61,3 @@ Die bisherige MCM-Lesung wird dadurch stabiler:
 - [btc_paxg_2025_long_topology.md](../../../../reports/btc_paxg_2025_long_topology.md)
 - [btc_paxg_2025_long_randdruck.md](../../../../reports/btc_paxg_2025_long_randdruck.md)
 - [1740_PAXG_2025_LANGFENSTER_FELDZEIT.md](1740_PAXG_2025_LANGFENSTER_FELDZEIT.md)
-
-## Wie es weitergeht
-
-Als nächstes sollte eine weitere lange Gegenwelt geprüft werden, idealerweise ein deutlich anderes Milieu wie KAS oder DOGE, sobald ausreichend lange Fenster verfügbar sind. Ziel ist zu prüfen, ob die Topologie weiter stabil bleibt und nur die lokale Feldfärbung wandert.

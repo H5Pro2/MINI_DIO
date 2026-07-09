@@ -61,7 +61,3 @@ Innenkern + Asset + Timeframe + Fensterlage -> Passungsqualität
 
 Diese Qualität bleibt passiv.
 Sie ist keine Handlung, kein Gate und keine Richtung.
-
-## Wie es weitergeht
-
-Als nächstes sollte ein anderes fragiles Asset geprüft werden. Wenn dort ebenfalls seltene Verschiebungen zwischen getragen und ausgeblendet auftreten, wäre `kern_verschoben` eher eine allgemeine Randpassungsqualität. Wenn nicht, bleibt es zunächst eine PAXG-5m-Speziallage.

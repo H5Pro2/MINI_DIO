@@ -68,7 +68,3 @@ Sie koppeln in den gemappten Fenstern an wiederkehrende Symbolfamilien, MCM-Prev
 Damit wird der Befund konkreter: Die Phase ist eine lokale Feldfunktion, die je nach Lage als Brueckenuebergang, Randdruck oder aktivierter Zentrumskontakt gelesen wird.
 
 Wichtig: Diese Diagnose bleibt passiv. Sie erzeugt keine Handlung und keine Richtungsvorgabe.
-
-## Wie es weitergeht
-
-Als naechstes sollte die Symbolkopplung gegen eine Kontrollgruppe ohne Hoeranstieg geprueft werden. Nur so sehen wir, ob diese `dio_*`-Kopplung spezifisch fuer die kompakte Hoer-/Druckphase ist oder allgemein in beliebigen Weltfenstern auftritt.

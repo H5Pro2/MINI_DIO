@@ -81,9 +81,3 @@ Gleich lange Welten zeigen:
 Daraus folgt: Stress wirkt im bisherigen Material nicht automatisch als Randzunahme.
 Die MCM-Topologie bleibt stabil, aber Stress kann je nach Weltqualitaet anders gelesen werden:
 entweder zentrumsnah rekoppelt oder offener/variantenreicher.
-
-## Wie es weitergeht
-
-Als naechstes sollte nicht mehr nur die Topologieklasse verglichen werden.
-Wir muessen innerhalb der stabilen Topologie die Weltqualitaet lesen:
-welche Stresswelt rekoppelt zentrumsnah, welche wird offener, und welche Roh-/Sinnesmerkmale tragen diese Differenz.

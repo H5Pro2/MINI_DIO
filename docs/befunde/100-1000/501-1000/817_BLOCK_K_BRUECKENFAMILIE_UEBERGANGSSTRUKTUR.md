@@ -78,7 +78,3 @@ Lesung: Die Brueckenfamilie wird nicht zur Randfamilie, sondern bleibt stabil un
 ## Grenze
 
 Der Befund beschreibt passive Feldnaehe. Er ist keine Handlungsauswertung und keine Aussage ueber Richtung.
-
-## Wie es weitergeht
-
-Als naechstes sollte die Bruecke `dio_155c` mit einer zweiten Brueckenfamilie verglichen werden. Dann sehen wir, ob es einen gemeinsamen Brueckentyp gibt oder mehrere unterschiedliche Uebergangsarten.

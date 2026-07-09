@@ -53,7 +53,3 @@ Sie wirkt eher wie ein Feldzustand, in dem Uebergang und Zentrumsnaehe gleichzei
 
 Der Befund ist ein Indiz.
 Die Rohweltform `gemischte_rohwelt` ist breit. Sie muss spaeter feiner visuell/tonal zerlegt werden.
-
-## Wie es weitergeht
-
-Als naechstes sollte diese Mischrolle gegen Bruecke-only und Zentrum-only verglichen werden. Entscheidend ist, ob sie eigene Rohweltmerkmale traegt oder nur zwischen beiden Rollen vermittelt.

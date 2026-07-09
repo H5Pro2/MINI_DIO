@@ -37,7 +37,3 @@ Weltlage -> Hoeren/Hinhoren -> Rezeptoraufnahme -> MCM-Feldwirkung
 ```
 
 Das Feld bleibt einfach. Gelernt wird, welche Aufnahmeart welche Feldwirkung erzeugt.
-
-## Wie es weitergeht
-
-Als naechstes sollte dieselbe Faehigkeitslesung fuer `sehen_fokus` und `feldinput` gebaut werden. Danach kann MINI_DIO vergleichen: Wann hilft Hinhoren, wann hilft Sehen, und wann ist Feldkontakt zu belastend?

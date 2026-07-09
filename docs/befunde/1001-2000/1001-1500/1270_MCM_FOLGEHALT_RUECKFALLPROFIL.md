@@ -77,7 +77,3 @@ Diese Diagnose trennt Rueckfallfenster aus der Folgehalt-Rohwelt-Kopplung und ve
 Rueckfall ist kein eigener Rohwelt-Typ. Er entsteht vor allem dort, wo Bruch- oder Expansionsspannung hoch bleibt, obwohl das Feld kurzfristig entlastet.
 
 Das Feld kann also kurz entlasten, ohne dass die Weltspannung schon wirklich getragen ist.
-
-## Wie es weitergeht
-
-Als naechstes sollte geprueft werden, ob Rueckfallfenster im Feld eine eigene Vorwarnspur bilden: gibt es vor dem Rueckfall bereits ein messbares Drift- oder Nachhallzeichen?

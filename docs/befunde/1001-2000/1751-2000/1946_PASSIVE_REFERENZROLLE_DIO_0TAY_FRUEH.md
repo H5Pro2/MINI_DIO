@@ -59,7 +59,3 @@ Mini-DIO bekommt dadurch keinen neuen Befehl, sondern eine sauberere Rücklesefo
 - Wenn sie driftet, öffnet oder nachhallnah wird, bleibt das eine passive Weltpassungsinformation.
 
 Damit wird die Memory nicht haerter, sondern lesbarer.
-
-## Wie es weitergeht
-
-Als nächstes sollte geprüft werden, ob weitere stabile Rollen denselben Status verdienen: nicht viele neue Namen, sondern nur Rollen, die über mehrere Welten reproduzierbar genug sind und trotzdem Weltvarianz zulassen.

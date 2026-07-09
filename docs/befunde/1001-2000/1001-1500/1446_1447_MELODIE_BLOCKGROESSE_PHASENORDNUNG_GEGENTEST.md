@@ -88,7 +88,3 @@ Der Befund spricht fuer:
 - Nachhallverschiebung,
 - enge Bedeutungsnaehe zwischen `dio_0ein` und `dio_1fll`,
 - keine reine Drift- oder Phasenfolgen-Artefaktbildung.
-
-## Wie es weitergeht
-
-Als naechstes sollte die Schwellennaehe gegen Amplitudenvariation geprueft werden. Damit wird sichtbar, ob `12/13` nur bei dieser Lautstaerke kippt oder ob die Blockdauer auch bei leiserer und staerkerer Weltspannung fuehrend bleibt.

@@ -39,8 +39,3 @@ Welche Feldbedingungen lassen eine Bedeutung stabil bleiben, wandern, rekoppeln 
 
 Diese Diagnose bleibt beschreibend.
 Sie darf keine harte Regel und keine Handlungsnaehe erzeugen.
-
-## Wie es weitergeht
-
-Als naechstes sollte eine einzelne Klasse, vorzugsweise `netz_fragmentiert_belastet`, gegen ihre Weltsegmente zurueckgelegt werden.
-Dann wird sichtbar, ob Fragmentierung durch Weltbruch, Nachbarschaftsriss oder innere Strain-Lage getragen wird.

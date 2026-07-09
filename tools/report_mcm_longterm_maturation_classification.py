@@ -142,11 +142,6 @@ def write_md(rows: list[dict[str, str]]) -> None:
             "Die Schicht beschreibt nicht, was MINI_DIO tun soll.",
             "Sie beschreibt nur, welche inneren Feldrollen ueber mehrere Welten sichtbar bleiben.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte diese Klassifikation gegen eine weitere Welt gelesen werden.",
-            "Entscheidend ist, ob `langfristig_getragen` stabil bleibt und ob `weltabhaengig_getragen` weiter driftet oder wieder rekoppelt.",
-            "",
         ]
     )
     OUT_MD.write_text("\n".join(lines), encoding="utf-8")

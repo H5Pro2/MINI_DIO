@@ -40,7 +40,3 @@ Wichtig:
 
 Diese Eigenphase ist nicht automatisch ein Rand-Gegenkern.
 Sie kann als Driftkern gelesen werden, wenn sie in Drift-/Oeffnungszonen liegt und dennoch stark selbstbindet.
-
-## Wie es weitergeht
-
-Als naechstes sollte dieser Token gegen die zentrale Brueckenstruktur gelegt werden: ist er ein Gegenbereich, ein paralleler Driftpol oder eine lange Seitenphase im selben Topologieraum?

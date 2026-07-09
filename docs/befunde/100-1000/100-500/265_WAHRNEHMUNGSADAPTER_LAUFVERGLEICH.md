@@ -144,25 +144,3 @@ Es sollte bereits vorgeformte, weltrelative Sinnesinformation bekommen.
 Der neue Modus `--sense-mode world_relative` ist eingebaut, aber noch nicht als Standard gesetzt.
 
 Er ist aktuell ein Forschungsmodus.
-
-## Wie es weitergeht
-
-Als naechstes muss dieselbe Rollenmatrix mit `world_relative` ueber mehrere Welten laufen.
-
-Grundfrage:
-
-```text
-Bleibt die MCM-Rollenordnung unter sauberer Sinnesaufnahme stabiler,
-oder wird sie nur kuenstlich beruhigt?
-```
-
-Konkrete Unterpruefung:
-
-- `SOL_2023_5M_REAL1`
-- `SOL_2024_5M_REAL1`
-- `SOL_2024_1H`
-- `BTC_2024_5M`
-- `BTC_2024_1H`
-- `SOL_2023_NEG_STRESS`
-
-Erst wenn die Rollenrelationen unter `world_relative` klarer und nicht flacher werden, sollte der Adapter als Standardmechanik gelten.

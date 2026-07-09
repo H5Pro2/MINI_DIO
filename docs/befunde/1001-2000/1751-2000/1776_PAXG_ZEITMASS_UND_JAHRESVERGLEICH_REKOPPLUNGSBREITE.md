@@ -138,7 +138,3 @@ Rollenbreite + Anschlussqualität + passende Erfahrungsrückbindung.
 Die 1h-Prüfung nutzt lokale 1000er-Slices aus PAXG 2024/2025.
 
 Sie ist eine passive Vergleichsprüfung, keine vollständige Aussage über alle PAXG-1h-Phasen.
-
-## Wie es weitergeht
-
-Als nächstes sollte geprüft werden, ob `verteilt_offen` bei 1h durch andere Fenster doch in `verteilt_rekoppelnd` kippt oder ob 1h systematisch mehr offene Breite als rekoppelnde Breite trägt.

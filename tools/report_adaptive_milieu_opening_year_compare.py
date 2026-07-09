@@ -128,10 +128,6 @@ def _write_md(rows: list[dict[str, object]], out_path: Path, label_a: str, label
             "",
             "Die Differenzen zeigen nicht, ob eine Familie `besser` ist. Sie zeigen nur, ob die Arbeitsform stabil, schwach driftend oder gebrochen wirkt.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte dieselbe Vorform gegen 2023 oder synthetische Kontrollwelten gelesen werden.",
-            "",
         ]
     )
     out_path.parent.mkdir(parents=True, exist_ok=True)

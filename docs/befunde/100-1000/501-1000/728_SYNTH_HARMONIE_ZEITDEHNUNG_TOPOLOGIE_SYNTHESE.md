@@ -136,7 +136,3 @@ Er zeigt keine universelle MCM-Zeitphysik, aber eine reproduzierbare MINI_DIO-Be
 - andere zeitliche Streckung,
 - stabile Topologie,
 - veraenderte lokale Integration.
-
-## Wie es weitergeht
-
-Als naechstes sollte `rand_dominanz` kompakt/gedehnt geprueft werden. Das ist der Haertefall: Wenn Zeitdehnung dort nicht nur Zentrum erhoeht, sondern Randlast anders organisiert, koennen wir Feldzeit als robuste Integrationsachse besser abgrenzen.

@@ -26,7 +26,3 @@ Brückencharakter meint hier: breite Nachbarschaft, geringe Distanz, hohe Achsen
 ## Vorsicht
 
 Der Score ist eine Diagnosehilfe, kein absoluter Wert und kein Mechanik-Eingriff.
-
-## Wie es weitergeht
-
-Als nächstes sollte der stärkste Brückenkandidat gegen konkrete Weltfenster rückgelesen werden: In welchen Außenweltlagen wird diese Brückenfunktion aktiviert?

@@ -53,7 +53,3 @@ Der Befund lokalisiert die Wirkung auf den Endbereich, beweist aber noch nicht, 
 - Co-Touch-Verteilung
 - Übergang von Rekopplung in Randspannung
 - Verhältnis von stabilen und gespannten Rollen am Ende
-
-## Wie es weitergeht
-
-Als nächstes sollte der Endrand selbst in kleinere Bereiche zerlegt werden, vor allem `1500-1750` und `1750-2000`. Ziel ist zu prüfen, ob die selektive Wirkung aus der letzten Randphase allein kommt oder aus dem Übergang in diese Phase.

@@ -88,7 +88,3 @@ aber sie erzwingen bisher keine neue Grundordnung.
 ```
 
 Wichtig ist dabei: Das ist kein Beweis für eine universelle Topologie. Es ist ein weiterer reproduzierbarer Befund innerhalb der geprüften Welten.
-
-## Wie es weitergeht
-
-Als nächstes sollte PAXG gezielt in dieselbe Zeitachsenlogik gebracht werden. Dafür fehlt aktuell ein fertiges 15m-Fenster; es sollte aus vorhandenen Rohdaten erzeugt werden, damit PAXG gegen KAS, BTC und SOL sauber vergleichbar wird.

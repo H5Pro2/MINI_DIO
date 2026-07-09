@@ -56,7 +56,3 @@ Damit ist bis `0.5` noch kein Topologiebruch sichtbar. Der Eingriff veraendert d
 ## Grenze
 
 Auch dieser Test ist noch kein Beweis fuer eine vollstaendige Feldtheorie. Er zeigt aber, ob eine gezielte Veraenderung im Lauf eine nachvollziehbare Feldantwort erzeugt.
-
-## Wie es weitergeht
-
-Als naechstes sollte unter `0.5` geprueft werden, zuerst klein mit `0.45`, `0.4`, `0.35`, `0.3`. Danach erst Stress-, Expansions- und Nullwelten hinzunehmen.

@@ -85,9 +85,6 @@ def _write_md(path: Path, memory: MCMRoleMovementMemory) -> None:
     lines.append("Sondern: dieses Zeichen bewegte sich zwischen Rollen und trug dabei diese Stabilitaets- oder Driftqualitaet.")
     lines.append("```")
     lines.append("")
-    lines.append("## Wie es weitergeht")
-    lines.append("")
-    lines.append("Als naechstes sollte diese passive Rollenbewegungs-Memory gegen neue Welten gelesen werden: bleibt ein role_symbol stabil, verdichtet es weiter, oder driftet es?")
     path.write_text("\n".join(lines), encoding="utf-8")
 
 

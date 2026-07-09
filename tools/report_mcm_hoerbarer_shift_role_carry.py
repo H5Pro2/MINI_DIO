@@ -85,9 +85,6 @@ def build_report(input_path: Path = INPUT, csv_out: Path = OUT_CSV, md_out: Path
             "Familien-Gleichheit zeigt, ob die grobe `dio_*`-Familie weiterliegt.",
             "Rekopplungs- und Straindelta zeigen, ob der Kontakt danach entlastet, stabilisiert oder belastet.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte nur die staerkste Rollenlinie ausgewaehlt und gegen weitere Welten geprueft werden. Dadurch vermeiden wir Fragmentanalyse und testen gezielt, ob eine Feldfunktion reproduzierbar ist.",
         ]
     )
     md_out.write_text("\n".join(lines) + "\n", encoding="utf-8")

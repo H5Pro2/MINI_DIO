@@ -93,15 +93,3 @@ Er zeigt eine passive Feldunterscheidung:
 ```text
 Einzelachsenstoerung wird anders gelesen als gekoppelte Last.
 ```
-
-## Wie es weitergeht
-
-Als naechstes sollte eine neue synthetische Kontrollwelt gebaut werden, in der jeweils genau zwei Achsen gekoppelt werden:
-
-```text
-Range + Hoeren
-Range + Spannung
-Hoeren + Spannung
-```
-
-Damit laesst sich pruefen, ob alle drei Achsen fuer den Bruch noetig sind oder ob eine Zweierkopplung bereits reicht.

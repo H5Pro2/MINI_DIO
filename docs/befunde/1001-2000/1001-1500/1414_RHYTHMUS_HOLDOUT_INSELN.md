@@ -39,7 +39,3 @@ Die Rhythmuspruefung trennt damit zwei Faelle:
 
 - kurzlebige Oberflaechenvarianz: neue Lage taucht nur einzeln auf
 - beginnende Feldinsel: neue Lage wiederholt sich mit tragfaehiger Feldkopplung
-
-## Wie es weitergeht
-
-Als naechstes sollte eine Folgewelt mit derselben Rhythmusform, aber anderer Amplitude geprueft werden. Dadurch laesst sich unterscheiden, ob die Insel am Rhythmus selbst haengt oder nur an der konkreten Lautstaerke der Welt.

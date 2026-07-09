@@ -73,7 +73,3 @@ Die MCM-Antwort zeigt kein hartes Umschalten, sondern eine weiche Kantenbildung.
 Die Werte sind Pruefwerte, keine Regeln.
 
 Der Befund gilt fuer diese synthetische Melodiefamilie und `block_size 13`.
-
-## Wie es weitergeht
-
-Als naechstes sollte die untere Plateau-Kante genauer geprueft werden: `0.00108`, `0.00109`, `0.00110`, `0.00111`. Ziel ist zu sehen, wo `dio_0ein` die Gleichlage verlaesst und wie breit das Balancefenster wirklich ist.

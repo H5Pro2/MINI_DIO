@@ -75,8 +75,3 @@ Trotzdem bleibt der Befund klar:
 
 Damit wirkt Stress bisher eher als lokale Randaktivierung.
 Expansion erzwingt im aktuellen Test keine neue Topologieform, sondern verschiebt nur die Rollengewichtung innerhalb derselben Feldordnung.
-
-## Wie es weitergeht
-
-Als naechstes sollten gleich lange ruhige und gleich lange Stresswelten erzeugt oder ausgewaehlt werden.
-Dann laesst sich sauberer pruefen, ob die erhoehte Rand/Kippnaehe im Stressfenster ein stabiler Bedingungseffekt ist oder nur Segmentvarianz.

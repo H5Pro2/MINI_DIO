@@ -82,7 +82,3 @@ Damit wird die dynamische Innenfeld-Semantik robuster:
 - unterschiedliche Bedeutung.
 
 Das ist keine starre Klassifikation. Es ist eine passive Bedeutungsbildung ueber Kontext.
-
-## Wie es weitergeht
-
-Als naechstes sollte die gemeinsame Mechanik aus `dio_17ct` und `dio_0g2r` als allgemeine Regel fuer Brueckenfamilien formuliert werden: Familie als Anker, Feldfolge als Bedeutungsentscheidung, Wiederkehr als Reifung.

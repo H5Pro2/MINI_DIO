@@ -189,9 +189,6 @@ def build_report(memory_path: Path, out_prefix: str, known_symbols: list[str]) -
             "Die Weltbindungsqualität ergänzt diese Lesung um Herkunft: realweltlich gebunden, nullweltlich/feldintern, synthetisch oder gemischt.",
             "Damit bleibt die Qualität feldbezogen statt namensfixiert und Feldordnung wird nicht automatisch als Realweltbindung gelesen.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als nächstes sollten Realwelt- und Nullweltläufe mit frischer Memory getrennt geprüft werden. Entscheidend ist, ob die Feldfunktion ähnlich entstehen darf, die Weltbindungsqualität aber sauber unterscheidet.",
         ]
     )
     out_md.write_text("\n".join(lines) + "\n", encoding="utf-8")

@@ -18,7 +18,3 @@ Die Nachhallspur ist rollenabhaengig zu lesen.
 Preview-Gleichheit zeigt, ob ein lokaler Kontakt als gleiche MCM-Preview weiterliegt.
 Familien-Gleichheit zeigt, ob die grobe `dio_*`-Familie weiterliegt.
 Rekopplungs- und Straindelta zeigen, ob der Kontakt danach entlastet, stabilisiert oder belastet.
-
-## Wie es weitergeht
-
-Als naechstes wird der Positivbefund des Randdrucks gegen diese Kontrolle verdichtet. Dadurch bleibt die Pruefung hierarchisch: erst Feldfunktion, dann Unterrollen, danach weitere Welten.

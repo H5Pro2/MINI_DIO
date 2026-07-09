@@ -78,7 +78,3 @@ Der Vergleich verwendet je Jahr ein kontrolliertes Fenster. Für eine stärkere 
 - [paxg_2024_2025_direct_compare.md](../../../../reports/paxg_2024_2025_direct_compare.md)
 - [paxg_time_axis_matrix.md](../../../../reports/paxg_time_axis_matrix.md)
 - [holdout_2025_paxg_matrix.md](../../../../reports/holdout_2025_paxg_matrix.md)
-
-## Wie es weitergeht
-
-Als nächstes sollte ein verschobenes PAXG-2025-Fenster geprüft werden. Ziel ist zu klären, ob die rekopplungsstarke PAXG-Färbung stabil wiederkehrt oder innerhalb des Jahres phasenabhängig driftet.

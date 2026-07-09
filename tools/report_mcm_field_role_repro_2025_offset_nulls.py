@@ -117,10 +117,6 @@ def _write_md(summary_rows: list[dict[str, object]], kind_rows: list[dict[str, o
             "Damit ist die bisherige Lesung vorsichtiger zu formulieren:",
             "Die Reifungsbahn bleibt sichtbar, aber die Trennung Realwelt/Nullwelt ist eine graduelle Feldqualität, kein harter Schnitt.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als nächstes sollte keine neue Mechanik eingebaut werden.",
-            "Sinnvoll ist eine kompakte Gesamtübersicht aus 1841 bis 1843: was reproduziert, was nur graduell ist, und welche Aussage wissenschaftlich haltbar bleibt.",
         ]
     )
     OUT_MD.write_text("\n".join(lines) + "\n", encoding="utf-8")

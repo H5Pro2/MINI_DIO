@@ -69,7 +69,3 @@ Nicht jedes andere Asset liefert automatisch eine Zwischenklasse. DOGE und XRP b
 ## Grenze
 
 Der Befund gilt nur für die geprüften 1000er-Startfenster. Andere DOGE/XRP-Fenster können anders ausfallen. Um das zu klären, braucht es eine Fenstersuche innerhalb der längeren 10k-Welten.
-
-## Wie es weitergeht
-
-Als nächstes sollte eine passive Fenstersuche über DOGE/XRP/BTC 10k laufen. Ziel: nicht ein Asset bewerten, sondern Fenster finden, in denen Einzelrekopplung in Übergang kippt.

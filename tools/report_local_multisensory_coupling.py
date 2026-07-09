@@ -330,10 +330,6 @@ def _write_markdown(rows: list[dict], out_path: Path) -> None:
             "Die Rollen werden relativ innerhalb der jeweiligen Welt gelesen.",
             "Eine lokale Kippnaehe ist also kein absoluter Grenzwert, sondern ein Abschnitt, der gegen seine eigene Welt deutlich hervortritt.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes wird der Befund geschrieben.",
-            "Darin wird bewertet, ob lokale Kippnaehe nur Oberflaechenvarianz ist oder eine wiederkehrende multisensorische Innenfeldinsel bildet.",
         ]
     )
     out_path.write_text("\n".join(lines) + "\n", encoding="utf-8")

@@ -69,7 +69,3 @@ Randdruck bleibt eher ein spezieller Rand-/Druckzustand.
 Die Naeheklassifikation ist relativ je Welt kalibriert. Sie vergleicht also nicht BTC, SOL, PAXG usw. mit festen absoluten Werten.
 
 Das verhindert eine mechanische Uebertragung, ersetzt aber keine spaetere Positiv-/Negativkontrolle.
-
-## Wie es weitergeht
-
-Als naechstes sollten die dominanten Naehen aus dieser globalen Probe gegen konkrete Rohweltfenster zurueckgelesen werden. Entscheidend ist, ob bekannte Feldfunktionen reale Weltformen koppeln oder ob nur interne Metriknaehe entsteht.

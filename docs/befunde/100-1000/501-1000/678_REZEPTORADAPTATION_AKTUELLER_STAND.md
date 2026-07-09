@@ -66,5 +66,3 @@ Das spricht dafuer, dass die Rezeptoradaptation eine zentrale Schutz- und Uebers
 ## Grenze
 
 Das ist noch kein allgemeiner Beweis. Es ist ein aktueller Befund aus den geprueften Welten. Belastbarer wird er erst, wenn laengere echte Welten, weitere Assets und andere Weltarten denselben Mechanismus zeigen.
-
-Wie es weitergeht: Als naechstes sollte nicht noch mehr Rauschen gebaut werden, sondern die Rezeptoradaptation als Kernmechanik sauberer formalisiert werden: welche Spuren duerfen ins Feld, welche bleiben Sinnesaufnahme, und welche werden nur als Nachhall getragen?

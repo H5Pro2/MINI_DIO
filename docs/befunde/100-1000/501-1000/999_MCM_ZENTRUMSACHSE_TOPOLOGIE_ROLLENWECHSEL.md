@@ -63,7 +63,3 @@ Arbeitsableitung:
 Zentrumsachsen koennen zeitlich auftreten, waehrend die Topologie ihren Ausdruck
 ueber Rollenbewegungen der beteiligten Knoten oder ihrer Nachbarschaft zeigt.
 ```
-
-## Wie es weitergeht
-
-Als naechstes sollte die staerkste Achse lokal segmentiert werden: Welche konkreten Kontaktsegmente erzeugen die Rollennaehe?

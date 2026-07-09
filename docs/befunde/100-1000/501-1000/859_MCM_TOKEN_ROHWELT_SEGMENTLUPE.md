@@ -53,7 +53,3 @@ Sie betrachtet Vorfenster, Kontaktfenster und Nachfenster direkt aus den `episod
 Die Segmentlupe trennt Tokenoberflaeche von Kontaktlage.
 Wenn ein Token im Kontakt lauter/unschaerfer und weniger rekoppelnd wird, passt das zur Driftlesung.
 Wenn ein Token im Kontakt leiser/schaerfer oder rekoppelnder wird, passt das zur Reifungs- oder Rueckbindungslesung.
-
-## Wie es weitergeht
-
-Als naechstes sollten die Segmentbefunde gegen die Driftlupe verbunden werden: fuer jeden Token ein Kurzurteil, ob der Zonenwechsel eher Weltphase, Rezeptoraufnahme oder MCM-Drift ist.

@@ -46,7 +46,3 @@ Arbeitsableitung:
 Aus einer lokalen Achsenberuehrung wird erst dann eine tragendere Bedeutungsnaehe,
 wenn aehnliche Kontaktqualitaet ueber mehrere Weltlagen erneut erscheint.
 ```
-
-## Wie es weitergeht
-
-Als naechstes sollte die staerkste wiederkehrende Signatur gegen Nachbarschaft und Feldmitte gelesen werden.

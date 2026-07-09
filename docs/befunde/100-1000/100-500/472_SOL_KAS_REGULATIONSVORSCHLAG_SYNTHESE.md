@@ -106,7 +106,3 @@ Welche Aufnahmeart hat Druck erhöht?
 Welche Aufnahmeart hat Rekopplung erleichtert?
 Welche Aufnahmeart hat nur Rauschen erzeugt?
 ```
-
-## Wie es weitergeht
-
-Als nächstes sollte aus diesen Vorschlägen eine rein passive Lernfrage gebaut werden: Welche Vorschlagsrichtung wurde in späteren Episoden tatsächlich vom MCM-Feld getragen, und welche blieb nur eine kurzfristige Entlastungstendenz?

@@ -44,7 +44,3 @@ Arbeitsableitung:
 Die Achse wirkt wie eine lokale Mitte-Nachbarschaft:
 ein Knoten traegt Rekopplungsfeld, der andere traegt zentrumsnahe Stabilitaet.
 ```
-
-## Wie es weitergeht
-
-Als naechstes sollte diese Mitte-Nachbarschaft gegen neue Folgewelten geprueft werden: bleibt die Beziehung erhalten oder verlagert sie sich erneut?

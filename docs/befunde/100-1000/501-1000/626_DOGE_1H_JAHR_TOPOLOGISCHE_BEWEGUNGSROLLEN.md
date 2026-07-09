@@ -66,7 +66,3 @@ DOGE 1h bleibt zentriert, verschiebt aber die DOGE-F?rbung leicht in mehr offene
 ## Grenze
 
 DOGE 1h wurde als Spot-Jahreswelt 2024/2025 gepr?ft. Der Befund sagt noch nichts ?ber Extremfenster oder nicht-marktbasierte Rauschwelten.
-
-## Wie es weitergeht
-
-Als n?chstes wird DOGE 5m gegen DOGE 1h synthetisiert. Ziel ist zu kl?ren, ob Zeitaufl?sung bei DOGE nur F?rbung erzeugt oder eine neue Anpassungsqualit?t andeutet.

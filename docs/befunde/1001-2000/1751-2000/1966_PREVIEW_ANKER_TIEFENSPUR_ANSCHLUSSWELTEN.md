@@ -64,7 +64,3 @@ Als nächstes müssen die stabilen Acht-Welten-Anker lokal rückgelesen werden:
 - In welchen Weltphasen treten sie auf?
 - Sind sie an Ruhe, Spannung, Übergang oder Randnähe gebunden?
 - Teilen sie sich bei längeren Welten in Unterrollen?
-
-## Wie es weitergeht
-
-Die sechs stabilen Acht-Welten-Anker werden gegen ihre Rohwelt-Abschnitte rückgelesen. Ziel ist, zu prüfen, ob sie eine gemeinsame Feldrolle tragen oder nur breite, aber unspezifische Anker sind.

@@ -153,9 +153,6 @@ def write_markdown(path: Path, rows: list[dict[str, object]]) -> None:
             "",
             "Dies ist weiterhin passive Diagnostik. Der Befund zeigt Feldzeit-Integration in den vorhandenen 10k-Welten, aber noch keine allgemeine Aussage fuer alle moeglichen Welten.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte dieselbe Mehrwelt-Lupe auf kurze 1k/2k-Welten und asset-gemischte Welten angewendet werden. Dann sehen wir, ob Feldzeit wirklich mit Dauer reift oder ob Asset-/Regime-Art die Feldintegration staerker bestimmt.",
         ]
     )
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")

@@ -22,5 +22,3 @@ BTC verschiebt sich vor allem in Richtung hoerbarer, schaerferer und schmalerer 
 PAXG verschiebt sich eher durch Druckentlastung und normalisierte Folge.
 
 Die Auswertung bleibt passiv. Sie erzeugt keine Handlung, keine Richtung und kein Gate.
-
-Wie es weitergeht: Als naechstes sollte geprueft werden, ob diese Shift-Typen bei weiteren Holdout-Fenstern erneut auftreten oder ob sie lokale Oberflaechenvarianten bleiben.

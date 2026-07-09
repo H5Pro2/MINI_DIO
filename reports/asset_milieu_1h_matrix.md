@@ -65,8 +65,3 @@ Die 1h-Folgewelten enthalten weniger als 5000 Zeilen, weil ein Kalenderjahr auf 
 Start- und Folgewelten werden deshalb getrennt gelesen.
 
 Die Werte sind Diagnoseprofile, keine MCM-Grenzen und keine Vorgaben fuer MINI_DIO.
-
-## Wie es weitergeht
-
-Als naechstes sollte dieselbe Matrix auf 15m gelegt werden.
-Entscheidend ist, ob 15m zwischen 5m und 1h liegt oder eine eigene Milieuschicht ausbildet.

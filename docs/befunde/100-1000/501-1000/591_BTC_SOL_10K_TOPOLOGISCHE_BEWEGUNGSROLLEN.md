@@ -80,7 +80,3 @@ Besonders wichtig ist der Unterschied zwischen:
 ## Grenze
 
 Diese Diagnose beweist keine allgemeine MCM-Topologie. Sie zeigt aber, dass die bisherige Topologie nicht durch eine starre Namenskopie getragen wird. Die Rollenordnung bleibt stabiler als die konkrete Syntaxnachbarschaft.
-
-## Wie es weitergeht
-
-Als naechstes braucht es eine dritte laengere Assetwelt oder eine bewusst andere Weltklasse. Ziel ist zu pruefen, ob `zentrum_stabil->zentrum_stabil` und `zentrum_stabil->offene_variante` als Grundbewegungen erhalten bleiben, wenn die Nachbarschaft erneut wechselt.

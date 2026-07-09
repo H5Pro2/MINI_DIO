@@ -41,7 +41,3 @@ Das spricht eher fuer eine Rekopplungs-/Entlastungsbewegung als fuer ein reines 
 ## Grenze
 
 Die Stichprobe ist klein. `dio_0ly7` und `dio_01hu` sind robuste Kandidaten, aber noch keine feste Bedeutungsdefinition.
-
-## Wie es weitergeht
-
-Als naechstes sollte diese Oeffnungs-Vorform gegen laengere 10k-Fenster gelesen werden. Entscheidend ist, ob die Entlastungsbewegung wiederkehrt oder nur aus den 5000er-Folgefenstern stammt.

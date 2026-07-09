@@ -62,7 +62,3 @@ Die Diagnose bleibt passiv. Sie erzeugt keine Handlung, kein Gate und keine Stra
 
 Diese Diagnose trennt die adaptive Rueckfuehrung von der globalen Mittelung.
 Wenn die Spannen klein bleiben, liegt die Gleichfoermigkeit nicht nur am Mehrweltmittel, sondern auch innerhalb der Rollen-/Familiengruppen.
-
-## Wie es weitergeht
-
-Als naechstes sollte die adaptive Erfahrung nicht nur aus Durchschnittswerten, sondern aus Rollenmilieu und Zustandspfad gebildet werden. Dann koennen stabile, randnahe, offene und rekoppelnde Lagen eigene Gewichtungsprofile ausbilden.

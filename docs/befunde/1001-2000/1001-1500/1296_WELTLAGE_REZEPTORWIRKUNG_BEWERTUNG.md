@@ -93,5 +93,3 @@ Nicht als Gate.
 Nicht als Handlung.
 
 Sondern als passive Lernspur der Aufnahmequalitaet.
-
-Wie es weitergeht: Als naechstes sollte die `receptor_adaptation_memory` direkt nach gemessener Weltlage verdichten, nicht mehr nach Dateiname oder grober externer Weltart.

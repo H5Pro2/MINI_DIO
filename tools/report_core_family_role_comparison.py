@@ -133,9 +133,6 @@ def _write_md(path: Path, rows: list[dict[str, object]]) -> None:
             "",
             "Das ist weiterhin eine passive Strukturdiagnose. Die Auswertung beschreibt Nachbarschaftsordnung im gespeicherten Feld, nicht Handlung, Richtung oder Strategie.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als nächstes sollte geprüft werden, welche Kernfamilie den klarsten Brückencharakter trägt: hohe Nachbarschaftsbreite, geringe Distanz, aber trotzdem unterscheidbare Teilrollen.",
         ]
     )
     path.parent.mkdir(parents=True, exist_ok=True)

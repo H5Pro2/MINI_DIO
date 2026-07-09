@@ -40,7 +40,3 @@ Die Diagnose ist passiv und erzeugt keine Handlung.
 ## Lesung
 
 Die Fenstersuche trennt Asset-Faerbung von lokaler Feldlage. Entscheidend ist nicht, welches Asset gelesen wird, sondern ob das konkrete Fenster mehrere MCM-Feldrollen hervorbringt.
-
-## Wie es weitergeht
-
-In dieser Suche entstand kein Mehrrollen-Kandidat. Als naechstes braucht es eine gezielt erzeugte gedaempfte Rand-/Bruch-Welt, die Rollenbreite erzeugt, ohne das urspruengliche SYNTH_RAND_KIPP-Milieu direkt zu kopieren.

@@ -41,7 +41,3 @@ Lesung: `dio_1un4` wirkt wie eine randnahe Kontakt-/Brueckenfamilie. Sie entsteh
 ## Grenze
 
 Der Befund ist eine passive Nachbarschaftsdiagnose. Er beschreibt keine Handlung, keine Richtung und keine Strategie.
-
-## Wie es weitergeht
-
-Als naechstes sollte eine der stabilen Brueckenfamilien neben `dio_0jkk` genauer gelesen werden. Dann sehen wir, ob die Bruecke nur Nachbarschaft ist oder eine echte semantische Uebergangsstruktur bildet.

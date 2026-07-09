@@ -67,7 +67,3 @@ Damit bricht PAXG die Topologie nicht. Es faerbt sie ruhiger, zentrumsnaeher und
 ## Grenze
 
 PAXG wurde hier nur als 5m-10k-Spotwelt geprueft. Weitere Zeitaufloesungen oder andere Marktphasen koennen die F?rbung veraendern.
-
-## Wie es weitergeht
-
-Als naechstes sollte PAXG gegen BTC/SOL/Altseq in einer gemeinsamen Haertefall-Synthese gelesen werden. Ziel ist zu klaeren, ob PAXG eine eigene ruhige Zentrumsklasse darstellt oder nur eine schwach belastete Variante derselben Rollenordnung.

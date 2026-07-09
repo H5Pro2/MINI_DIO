@@ -176,9 +176,6 @@ def _write_md(rows: list[dict[str, object]], path: Path) -> None:
             "",
             "Die Matrix beschreibt Bindung, nicht Bedeutung. Eine Familie wird erst belastbarer, wenn sie in weiteren Weltgruppen aehnlich gebunden bleibt.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte geprueft werden, ob die Bindung aus Asset, Zeitrahmen und Rezeptorhaltung bei frisch erzeugten Folgewelten wieder auftaucht.",
         ]
     )
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")

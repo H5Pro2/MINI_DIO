@@ -128,7 +128,3 @@ Sie zeigt nur:
 Die bisherige Mehrpaket-Konstruktion erzeugt Bindung,
 aber keine verteilte Rollenöffnung.
 ```
-
-## Wie es weitergeht
-
-Als nächstes sollte nicht noch mehr Paketstruktur ergänzt werden. Sinnvoller ist ein gezielter Stör- oder Versatztest innerhalb der Pakete: ein Paket bleibt tragend, ein Paket driftet, ein Paket rekoppelt verzögert. Damit wird geprüft, ob Asymmetrie und zeitlicher Versatz mehr Rollenbreite erzeugen als regelmäßige Wiederholung.

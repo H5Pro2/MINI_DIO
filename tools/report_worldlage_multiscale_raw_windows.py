@@ -187,7 +187,6 @@ def _write_markdown(rows: list[dict[str, object]], summary: list[dict[str, objec
             "",
             "Die Auswertung bleibt passiv. Sie erzeugt keine Handlung, keine Richtung und kein Gate.",
             "",
-            "Wie es weitergeht: Als naechstes sollten die Rohklassen der skalenabhaengigen Folgen mit stabil neutralen und stabil beruhigenden Folgen verglichen werden.",
         ]
     )
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")

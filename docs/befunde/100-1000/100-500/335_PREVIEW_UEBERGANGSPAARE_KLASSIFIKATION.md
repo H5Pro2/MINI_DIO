@@ -90,7 +90,3 @@ Fachlich sauberer ist die Lesart:
 
 Weitere Klassen sind als Arbeitsklassen zu lesen. Sie helfen beim Sortieren, aber sie
 duerfen nicht als starre MCM-Ontologie behandelt werden.
-
-## Wie es weitergeht
-
-Als naechstes wird geprueft, ob diese Bewegungsarten in weiteren Welten stabil bleiben oder neue Klassen benoetigen.

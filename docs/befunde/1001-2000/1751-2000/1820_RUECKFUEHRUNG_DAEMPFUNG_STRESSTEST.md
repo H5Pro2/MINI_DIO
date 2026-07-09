@@ -63,7 +63,3 @@ Ein schwacher Befund wäre: Familienordnung verschwindet beliebig oder alle Quel
 - Der Eingriff ist aktuell eine Auswertungsdämpfung, keine echte erneute Laufberechnung.
 - Dadurch zeigt der Test zuerst Sensitivität der Feldlesung, nicht vollständige Systemdynamik.
 - Ein nächster härterer Test müsste denselben Faktor direkt in einem isolierten Testlauf anwenden.
-
-## Wie es weitergeht
-
-Als nächstes sollte derselbe Stress-Test gegen reale Asset-Fenster und eine Null-/Rauschwelt laufen. Wenn die Nullwelt anders reagiert und Kernfamilien in realen Welten teilweise wiedererkennbar bleiben, wird die Wenn-Dann-Prüfung belastbarer.

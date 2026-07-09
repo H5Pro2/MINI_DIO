@@ -183,9 +183,6 @@ def main() -> None:
         "Die positive Expansion beruehrt sowohl Spannungsnaehe als auch gerichtete Spannungsrolle, erzwingt aber noch keine neue Mischklasse.",
         "Damit wird `weite_weltspannungsnaehe` als Name fraglich: die Rolle scheint eher unruhige Spannungsnaehe zu tragen, nicht zwingend nur grosse Range.",
         "",
-        "## Wie es weitergeht",
-        "",
-        "Als naechstes sollte eine kombinierte Stresswelt geprueft werden: nicht nur Rauschen, sondern zugleich groessere Range, dichtere Wechsel und staerkere Ton-/Rezeptorverdichtung. Damit laesst sich pruefen, wann stabile Oberflaechenvarianz in Spannungsnaehe kippt.",
     ]
     OUT_MD.write_text("\n".join(lines) + "\n", encoding="utf-8")
 

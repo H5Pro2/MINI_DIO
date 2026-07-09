@@ -62,7 +62,3 @@ Beides kann wertvoll sein. Getragen heisst nicht automatisch besser. Entlastend 
 - keine harte Entscheidung aus diesen Werten
 
 Die Diagnose zeigt nur, welche Wahrnehmungsfaehigkeit in welchen Feldlagen eher getragen oder eher drucknah gelesen wird.
-
-## Wie es weitergeht
-
-Als naechstes sollte diese Feldtragung pro Asset getrennt gelesen werden: BTC, SOL und KAS koennen dieselbe Vorschlagssprache nutzen, aber unterschiedliche Entlastungs- und Tragprofile besitzen.

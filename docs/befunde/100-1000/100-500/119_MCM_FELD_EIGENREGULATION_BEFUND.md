@@ -125,25 +125,3 @@ Der Befund muss weiter ueber andere Welten,
 andere Datensaetze,
 andere Startbedingungen
 und spaetere aktive Systeme geprueft werden.
-
-## Wie es weitergeht
-
-Grundfrage:
-
-Wie kann Mini-DIO die Eigenregulation des Feldes lesen,
-ohne sie durch technische Kontrollregeln zu ueberlagern?
-
-Unterpruefung:
-
-Eine passive MCM-Zykluskarte bauen:
-
-- Zentrum -> Drift -> Zentrum
-- Zentrum -> Uebergang -> Zentrum
-- Bruecke -> Zentrum -> Bruecke
-- Drift -> Zentrum -> Bruecke
-- Uebergang -> Zentrum -> Bruecke
-
-Folgeschritt:
-
-Pruefen,
-ob diese Zyklen stabile organische Regulationsmuster bilden.

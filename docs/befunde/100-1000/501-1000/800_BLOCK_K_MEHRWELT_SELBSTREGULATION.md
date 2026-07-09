@@ -54,7 +54,3 @@ Dominante MCM-Feldepisoden:
 ## Grenze
 
 Die Werte sind Diagnosewerte. Sie sind keine Regeln und keine Beweiszahlen. Besonders `stabilization_score` ist eine kompakte Lesegroesse, damit Welten vergleichbar werden, nicht ein Zielwert fuer das System.
-
-## Wie es weitergeht
-
-Als naechstes sollte diese Mehrwelt-Kette gegen eine bewusst stressigere Weltgruppe laufen. Dann wird sichtbar, ob Stabilisierung sinkt, ob mehr Drift entsteht oder ob das Feld trotzdem seine Rollenordnung haelt.

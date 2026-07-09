@@ -88,7 +88,3 @@ Diese Mechanik fasst die Linie aus folgenden Befunden zusammen:
 - weiche Sleep-Kombinationen,
 - Sleep-Zwischenrollen-Kandidaten,
 - Zwischenrollen-Stabilitaet.
-
-## Wie es weitergeht
-
-Als naechstes wird geprueft, ob wiederholte Offline-Feld-Reorganisationsphasen stabile Zwischenrollen weiter verdichten oder ob sie bei anderer Weltnaehe driften und zerfallen.

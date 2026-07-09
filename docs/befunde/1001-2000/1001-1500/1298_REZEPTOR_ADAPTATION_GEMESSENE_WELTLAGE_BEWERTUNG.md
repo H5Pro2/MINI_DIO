@@ -95,5 +95,3 @@ receptor_adaptation_memory[gemessene_weltlage][sinneshaltung] -> feldfolge
 ```
 
 Damit wird die Rezeptorregulation lagebezogen und bleibt passiv.
-
-Wie es weitergeht: Als naechstes sollte der Weltlagen-Leser feiner werden. Vor allem `ueberstabil_sinnesdominant` muss getrennt werden in echte Ruhe, synthetische Ueberstabilitaet und Sinneswiderspruch.

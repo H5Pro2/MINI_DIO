@@ -151,13 +151,3 @@ Kippnaehe,
 Memorydruck,
 und Feldzeit.
 ```
-
-## Wie Es Weitergeht
-
-Als naechstes sollte eine bewusst laengere negative Welt oder ein anderes Jahr geprueft werden.
-
-Hierarchie:
-
-1. Grundfrage: Bleibt negative Bewegung auch ueber laengere Sequenzen getragen?
-2. Unterpruefung: Entsteht bei 10k Zeilen mehr Feldzeit, Drift oder Memorydruck?
-3. Folgeschritt: Wenn negative Welten stabil getragen bleiben, wird die MCM-Topologie nicht nach Richtung, sondern nach Feldbelastbarkeit beschrieben.

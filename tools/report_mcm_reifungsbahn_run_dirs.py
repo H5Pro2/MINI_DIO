@@ -351,10 +351,6 @@ def _write_md(path: Path, rows: list[dict[str, float | str]], preset: dict[str, 
             "",
             "Die Nullwelten sind Kontrollwelten, aber keine vollständige Widerlegung von Weltstruktur. Sie erhalten lokale Kerzenform, Länge und Verteilung. Deshalb prüfen sie vor allem, ob Reihenfolge, Richtung und asseteigene Spannung eine zusätzliche Feldordnung erzeugen.",
             "",
-            "## Wie es weitergeht",
-            "",
-            str(preset["next"]),
-            "",
         ]
     )
     path.write_text("\n".join(lines), encoding="utf-8")

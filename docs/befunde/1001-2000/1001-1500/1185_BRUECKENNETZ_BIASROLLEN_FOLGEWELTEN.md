@@ -33,7 +33,3 @@ Wenn eine Familie ueber mehrere Folgewelten dieselbe Feldrolle behaelt, spricht 
 Wenn sie kippt, ist sie wahrscheinlich kein fester Bedeutungsblock, sondern situationsabhaengig an Weltspannung und Nachbarschaft gekoppelt.
 
 Damit wird das Brueckennetz nicht als feste Symboltabelle gelesen, sondern als dynamisches Rollenfeld.
-
-## Wie es weitergeht
-
-Als naechstes sollten die stabilen und kippenden Rollenfamilien gegen konkrete Rohweltfenster gelesen werden: Welche Weltmerkmale halten eine Rolle stabil, und welche Weltmerkmale lassen sie kippen?

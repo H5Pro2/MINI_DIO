@@ -103,7 +103,3 @@ Aber sie zeigt eine belastbare Vorstufe:
 ```text
 passive Offline-Kombinationsausbreitung ist weltabhaengig.
 ```
-
-## Wie es weitergeht
-
-Als naechstes sollte die weiche SOL-Kombinationsausbreitung gegen Real-B rueckgelesen werden. Entscheidend ist, ob die sieben neuen Sleep-Kombinationen spaeter in ruhigen, stressigen oder gemischten Welten wieder Anschluss finden.

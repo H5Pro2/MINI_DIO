@@ -79,7 +79,3 @@ Damit bleibt die Arbeitshypothese stabil: MINI_DIO speichert neue Weltkontakte n
 - Delta: [1981_MCM_ROLLENBREITEN_GLEICHLANG_10K_DELTA.csv](1981_MCM_ROLLENBREITEN_GLEICHLANG_10K_DELTA.csv)
 - Memory: `memory/preview_depth_role_breadth_equal10k_probe.json`
 - Debug: `debug/1981_equal10k_follow_eq10k_*`
-
-## Wie es weitergeht
-
-Als nächstes KAS gleichlang herstellen oder ein anderes kleines Asset mit 10k-Fenster ergänzen. Ziel: prüfen, ob sehr leise/kleinpreisige Welten eigene Rollen abspalten oder ebenfalls zuerst in vorhandene Grundrollen rekoppeln.

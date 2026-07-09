@@ -96,5 +96,3 @@ Wenn eine Rolle allein bleibt, ist sie weiterhin eine isolierte Spur. Das kann s
 ## Grenze
 
 Die Familienbildung ist diagnostisch. Sie ist kein Mechanismus im Organismus und keine Vorgabe für Verhalten.
-
-Wie es weitergeht: Als nächstes sollten die Mehrrollen-Familien gegen neue Folgewelten geprüft werden. Entscheidend ist, ob ganze Familien stabil bleiben oder ob nur einzelne Mitglieder weitergetragen werden.

@@ -47,7 +47,3 @@ Diese Kandidaten sind keine Handlung und keine sichere neue Semantik. Sie sind e
 
 - Speicher: `memory\sleep_intermediate_candidates\passive_sleep_intermediate_candidates.json`
 - gespeicherte Kandidaten gesamt: `7`
-
-## Wie es weitergeht
-
-Als naechstes sollte ein eigener passiver Speicher fuer solche Zwischenrollen-Kandidaten vorbereitet werden. Dieser Speicher darf nur dokumentieren, ob Kandidaten ueber mehrere Ketten stabil bleiben, driftend werden oder verschwinden.

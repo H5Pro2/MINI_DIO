@@ -92,7 +92,3 @@ Asset     = Milieuqualität innerhalb dieser Ordnung
 ## Methodische Grenze
 
 Dieser Befund gilt für BTC/SOL und die geprüften Fenster. Er ersetzt noch keine vollständige Zeitachsenmatrix über PAXG, XRP, DOGE, KAS oder synthetische Kontrollwelten.
-
-## Wie es weitergeht
-
-Als nächstes sollte dieselbe Zeitachsenlogik auf ein deutlich anderes Assetmilieu gelegt werden. Sinnvoll wäre PAXG oder KAS, weil dort die Frage schärfer wird, ob das Feld nur BTC/SOL harmonisch trägt oder auch kontrastreiche Außenwelten in derselben Topologie halten kann.

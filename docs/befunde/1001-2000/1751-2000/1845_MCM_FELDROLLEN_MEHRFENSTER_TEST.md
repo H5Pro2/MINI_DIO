@@ -41,8 +41,3 @@ Fensterzustände:
 
 Der Test trennt Reifung nicht mehr an einem einzelnen Lauf.
 Er liest, ob Realwelt-Vorsprung als wiederkehrender Fenstereffekt erscheint oder ob Nullwelten gleich stark anschließen.
-
-## Wie es weitergeht
-
-Als nächstes sollte der Test auf mehr Assets mit vollständigen Jahresdateien erweitert werden.
-Wenn die Fensterlesung stabil bleibt, kann daraus eine robustere Reifungs-Metrik für die passive Feldrollen-Memory entstehen.

@@ -52,8 +52,3 @@ Damit bekommt MINI_DIO eine tiefere Reifungsbeschreibung:
 
 Das ist keine Steuerung.
 Es ist eine zusätzliche Innenfeld-Leseschicht für spätere Forschung.
-
-## Wie es weitergeht
-
-Als nächstes sollte geprüft werden, ob diese Anschlussqualität in weiteren neuen Welten stabil wieder auftaucht
-und ob sie die passive Rollenbeschreibung messbar klarer macht.

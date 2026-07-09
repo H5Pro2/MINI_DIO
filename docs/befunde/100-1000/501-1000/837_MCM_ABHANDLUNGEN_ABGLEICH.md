@@ -263,7 +263,3 @@ Die Abhandlungen und Codebeispiele bestaetigen nicht automatisch die MINI_DIO-Be
 Der wichtigste Punkt fuer MINI_DIO bleibt:
 
 > Erst lesen, dann verdichten, dann pruefen. Keine direkte Handlung, keine harte Strategie, keine erzwungene Topologie.
-
-## Wie es weitergeht
-
-Als naechstes sollte aus diesem Abgleich eine Prioritaetenliste entstehen: Welche MCM-Mechanik wird zuerst als passive Diagnose erweitert, ohne MINI_DIO wieder in alte Handlungs- oder Gate-Logik zu ziehen?

@@ -40,5 +40,3 @@ Fachlich wichtig: Sehen, Hoeren und Fuehlen bleiben getrennte Achsen. Fuehlen is
 ## Schluss
 
 Die regulatorische Seite der Sinneswahrnehmung ist begonnen, aber noch nicht voll selbstlernend. Aktuell kann Mini-DIO passiv daempfen, unterscheiden und Aufnahmequalitaet bilden. Der naechste Schritt waere, diese Aufnahmequalitaet episodisch zu speichern: welche Sinneshaltung war fuer welche Welt tragend, ueberreizend oder zu duenn?
-
-Wie es weitergeht: Als naechstes sollte die Sinnesaufnahme gegen die Topologie gelesen werden: Welche Hoer-/Seh-/Fuehl-Konstellation erzeugt Zentrum, Bruecke, Rand oder Drift?

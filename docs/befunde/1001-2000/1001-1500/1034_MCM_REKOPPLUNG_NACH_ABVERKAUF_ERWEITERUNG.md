@@ -39,7 +39,3 @@ Der Kandidat ist keine robuste Bibliotheksform, aber eine wiederkehrende familie
 ## Schluss
 
 `rekopplung_nach_abverkauf` sollte noch nicht als robuste Bibliotheksform behandelt werden. Der Kandidat ist aber mehr als ein Einzelfehler: Er liegt bereits als familiengebundene Form vor und wird in KAS erneut aktiviert. Fachlich ist das eine offene Erweiterungsform.
-
-## Wie es weitergeht
-
-Als naechstes sollte der Kandidat gegen eine weitere unabhaengige Welt gelesen werden. Erst wenn er dort wiederkehrt, kann er als neue passive Bibliothekserweiterung aufgenommen werden.

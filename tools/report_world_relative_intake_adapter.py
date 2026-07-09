@@ -225,10 +225,6 @@ def _write_md(rows: list[dict[str, object]], path: Path) -> None:
             "",
             "Der entscheidende Punkt: Das MCM-Feld sollte nicht Rohdatenlast verarbeiten, sondern bereits vorgeformte Sinnesinformation.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte ein kurzer passiver Mini-DIO-Lauf im `world_relative`-Sinnesmodus gegen die feste Uebersetzung verglichen werden. Erst wenn die Rollenkarte stabiler wird, sollte der Adapter als Standardmechanik in Betracht kommen.",
-            "",
         ]
     )
     path.write_text("\n".join(lines), encoding="utf-8")

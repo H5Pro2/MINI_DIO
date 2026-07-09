@@ -105,7 +105,3 @@ Rohweltbruch -> Randkontakt -> Feldfolge
 ```
 
 Nicht als Handlung, sondern als passive Bedeutungsstruktur.
-
-## Wie es weitergeht
-
-Als naechstes wird geprueft, ob `bewegungsbruch -> lastkontakt_entlastet` ueber verschiedene Assets gleich bleibt oder ob BTC, SOL, PAXG, DOGE, XRP und KAS unterschiedliche Feldantworten erzeugen.

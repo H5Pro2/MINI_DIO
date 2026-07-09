@@ -86,9 +86,3 @@ Topologie = Rollenraum
 nicht feste Symboltabelle
 nicht reine Geometrie
 ```
-
-## Wie es weitergeht
-
-Als naechstes sollte PAXG gezielt gegen weitere Jahre oder Zeitfenster gehalten
-werden. Entscheidend ist, ob die staerkere Rekopplung assettypisch bleibt oder
-ob sie nur in bestimmten Weltmilieus entsteht.

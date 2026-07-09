@@ -63,7 +63,3 @@ Wenn sie breit ueber alle Rohweltformen verteilt ist, muss sie vorsichtig als in
 ## Grenze
 
 Die Rohweltform ist eine einfache Ruecklesung aus Candle-Fenstern. Sie ist keine endgueltige visuelle Formanalyse.
-
-## Wie es weitergeht
-
-Als naechstes sollte die staerkste Kopplung aus dieser Ruecklesung isoliert werden. Dann kann geprueft werden, ob sie in weiteren Welten stabil bleibt oder nur in einem Asset/Regime auftritt.

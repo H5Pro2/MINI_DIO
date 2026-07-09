@@ -80,13 +80,3 @@ Bis dahin bleibt der Befund vorsichtig:
 
 Es gibt Hinweise auf feldhistorische Lesetiefe.
 Es ist noch kein vollstaendiger Nachweis einer inneren Zeitbiografie.
-
-## Wie es weitergeht
-
-Als naechstes sollte die Feldhistorie lokaler gelesen werden:
-
-1. fuer jedes Segment die vorherige Feldklasse oder Vorwelt mitlesen,
-2. aehnliche Weltverdichtung mit unterschiedlichem Vorzustand vergleichen,
-3. pruefen, ob sich daraus stabile Vorzustandsrollen bilden.
-
-Damit kommen wir naeher an die Frage, ob MINI_DIO nicht nur Weltstruktur liest, sondern eine eigene innere Verlaufstiefe bildet.

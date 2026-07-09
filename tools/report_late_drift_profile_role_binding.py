@@ -149,10 +149,6 @@ def write_md(rows: list[dict[str, str]], profile_count: int, source_family_count
             "",
             "Wichtig ist die Trennung: Profilnähe ist eine wiederkehrende Wahrnehmungslage. Rollenbindung entsteht erst, wenn diese Lage im Feld wiederholt an Familien, Wirkung und Nachhall koppelt.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als nächstes sollte die stärkste offene Vorform mit höchster Zielprofil-Dichte lokal vergrößert werden: Welche Familien treten direkt davor und danach auf, und verdichtet sich daraus eine neue Rolle oder bleibt es ein breiter Nebelraum?",
-            "",
         ]
     )
     OUT_MD.write_text("\n".join(lines), encoding="utf-8")

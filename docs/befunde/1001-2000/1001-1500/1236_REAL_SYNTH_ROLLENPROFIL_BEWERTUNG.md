@@ -83,7 +83,3 @@ Die Ursache bleibt ueber Sinnesachsen und Rezeptorprofil ruecklesbar.
 Die verwendeten Signaturen sind diagnostische Einordnung, keine Runtime-Regel.
 
 Sie helfen, Befunde lesbar zu machen. MINI_DIO entscheidet daraus nichts und handelt daraus nicht.
-
-## Wie es weitergeht
-
-Als naechstes sollten die realen `gekoppelte_feldlast`-Fenster in Rohweltsequenzen isoliert werden. Ziel ist zu klaeren, ob diese Rolle haeufiger an Bewegungsbruch, Expansion oder Rekopplungsversuch gebunden ist.

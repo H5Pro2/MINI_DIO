@@ -72,7 +72,3 @@ dominante bidirektionale Paarbindung -> Brueckenkern / Kernpartner
 ## Bedeutung
 
 Das stuetzt die Annahme einer dynamischen MCM-Feldordnung. Ein Zeichen ist nicht absolut eine Rolle, sondern traegt eine Rolle relativ zur Weltspannung und zur Nachbarschaftsstruktur.
-
-## Wie es weitergeht
-
-Als naechstes sollte geprueft werden, ob andere Tokens dieselbe Rollenwanderung zeigen: schwacher Anschluss -> starker Anschluss -> Kernpartner.

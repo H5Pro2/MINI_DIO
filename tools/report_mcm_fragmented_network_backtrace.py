@@ -283,10 +283,6 @@ def _write_md(path: Path, rows: list[dict[str, object]], target_state: str) -> N
             "Diese Lesung beschreibt nur Feldbedingungen.",
             "Sie erzeugt keine Handlung und keine Regel.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollten die Ruecklesungen von `netz_fragmentiert_belastet` und `netz_rekoppelnd_verbunden` direkt verglichen werden.",
-            "Dann wird sichtbar, welche Feldbedingungen Belastung von Rekopplung unterscheiden.",
         ]
     )
     path.write_text("\n".join(lines), encoding="utf-8")

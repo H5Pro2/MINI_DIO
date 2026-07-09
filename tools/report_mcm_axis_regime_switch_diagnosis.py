@@ -197,10 +197,6 @@ def write_md(rows: list[dict[str, object]], path: Path) -> None:
             "",
             "Ja, nach diesem Befund hat es wahrscheinlich mit Regimewechsel oder zumindest mit Uebergangsphasen zu tun. Genauer: nicht jeder Regimewechsel erzeugt diese Achse, aber die Achse wird sichtbar, wenn ein Weltwechsel rekoppelnde Mitte und zentrumsnahe Stabilisierung direkt miteinander verschaltet.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte die Diagnose nicht nur auf die eine Achse schauen, sondern aktive Achsen allgemein gegen Regimewechsel lesen. Dann sehen wir, ob `183drjy <-> 1t5bcxp` ein Einzelfall ist oder ein allgemeines MCM-Prinzip fuer Uebergangsordnung.",
-            "",
         ]
     )
     path.write_text("\n".join(lines), encoding="utf-8")

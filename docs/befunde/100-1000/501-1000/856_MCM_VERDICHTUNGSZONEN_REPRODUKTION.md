@@ -53,7 +53,3 @@ Die Klassenverteilung reproduziert sich deutlich: junge Spuren bleiben die groes
 Die genaue Tokenzuordnung kann wechseln. Das ist fachlich wichtig: MINI_DIO reproduziert nicht nur starre Namen, sondern vor allem eine Feldordnung aus Verdichtungsrollen.
 
 Damit wird die MCM-Lesart gestaerkt: Verdichtung ist nicht bloss Wiederholung, sondern eine reproduzierbare Rollenstruktur mit variabler Oberflaeche.
-
-## Wie es weitergeht
-
-Als naechstes sollte ein gezielter Blick auf die wechselnden Tokens erfolgen. Ziel: unterscheiden, ob ein Wechsel echte Drift, Weltfaerbung oder nur Oberflaechenvarianz ist.

@@ -45,7 +45,3 @@ Damit zeigt sich:
 Das ist kein Beweis fuer eine vollstaendige Rhythmussemantik.
 
 Der Befund zeigt aber, dass Mini-DIO nicht nur Rohwerte liest. Das Feld reagiert differenziert auf zeitliche Formqualitaet: regelmaessig, blockhaft, unregelmaessig oder wellenfoermig.
-
-## Wie es weitergeht
-
-Als naechstes sollten die Rhythmuswelten in die Holdout-Rollenberichte aufgenommen werden. Entscheidend ist, ob `tragend_unruhig` nur als lokale Wirkung auftaucht oder ob es eine stabile Feldrolle im Bedeutungsnetz beruehrt.

@@ -48,5 +48,3 @@ Rezeptorische Adaptation ist aktuell die wichtigste Begrenzungsachse vor dem MCM
 ## Grenze
 
 BTC/SOL/KAS wurden in dieser konkreten Realweltmatrix nicht erneut gelesen, weil die zuerst gewaehlten Debug-Laeufe die neuen Rezeptorspalten nicht gueltig gefuellt hatten. Das ist keine Aussage gegen diese Assets, sondern eine Datengrenze der verwendeten Laeufe.
-
-Wie es weitergeht: Als naechstes sollten BTC, SOL und KAS mit aktuellem Rezeptorstand neu laufen oder mit passenden aktuellen Debug-Laeufen nachgezogen werden, damit der Realweltvergleich nicht auf PAXG/DOGE/XRP begrenzt bleibt.

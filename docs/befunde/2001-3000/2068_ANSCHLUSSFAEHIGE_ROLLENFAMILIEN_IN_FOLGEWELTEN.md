@@ -38,5 +38,3 @@ Teilweise anschlussfähige Familien bleiben fragmentarisch. Dort darf nicht beha
 ## Grenze
 
 Dieser Report ersetzt keine neue Folgeweltprüfung auf derselben Symbolbasis. Er zeigt nur, welche 2066-Familien in vorhandenen realen Neuwelten überhaupt lesbar sind.
-
-Wie es weitergeht: Als nächstes sollten neue Folgeweltläufe gezielt für die 2066-Familien erzeugt werden. Dann lässt sich prüfen, ob die breit getragenen Familien als Bedeutungsräume stabil bleiben oder in neue Rollen zerfallen.

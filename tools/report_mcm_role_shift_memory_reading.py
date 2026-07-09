@@ -114,9 +114,6 @@ def _write_md(path: Path, rows: list[dict[str, str]]) -> None:
             "Wenn `dio_shift_*` erneut sichtbar wird, ist Rollenwechsel nicht nur ein einmaliger Befund der siebten Welt.",
             "Wenn Zielrollen reproduziert werden, kann Rollenwechsel selbst als passive Bedeutungsbewegung gelesen werden.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte die Lesung synthetisiert werden: Welche Rollenwechsel sind stabil, welche driften, welche verschwinden?",
         ]
     )
     path.write_text("\n".join(lines), encoding="utf-8")

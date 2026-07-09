@@ -93,7 +93,3 @@ Mini-DIO bekommt damit eine bessere Wahrnehmungsontologie:
 - Topologie entsteht weiterhin aus dem Feldverlauf.
 
 Das spricht dafür, dass wir die MCM-Feldforschung auf dieser Trennung weiterführen sollten, statt wieder Rohdaten oder direkte Handlungsschichten einzubauen.
-
-## Wie es weitergeht
-
-Als nächstes sollte geprüft werden, ob Öffnungs- und Rekopplungspunkte durch `contact_pressure`, `contact_alignment` und `contact_asymmetry` früher oder klarer sichtbar werden als durch die alten direkten Fühlwerte. Danach kann die Rezeptorschicht als fester Teil des Mini-DIO-Bauplans übernommen werden.

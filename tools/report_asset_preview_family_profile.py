@@ -227,10 +227,6 @@ def _write_md(rows: list[dict[str, object]], overviews: list[dict[str, object]],
             "",
             "Die Rohsymbol-Varianten bleiben hoch. Das bestaetigt erneut: Die MCM-Preview-Familie ist die verdichtete Bedeutungsebene, die Rohsyntax traegt lokale Oberflaechenvarianz.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes werden die Nachbarschaften der gemeinsamen Top-Familie verglichen: Welche Preview-Familien liegen bei SOL, BTC und KAS direkt vor und nach `dio_mcm_episode_1t5bcxp`?",
-            "",
         ]
     )
     out_path.write_text("\n".join(lines), encoding="utf-8")

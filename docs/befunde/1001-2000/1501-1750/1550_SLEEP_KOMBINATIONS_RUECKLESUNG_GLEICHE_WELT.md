@@ -67,8 +67,3 @@ Diese Stufe ist noch kein Nachweis fuer veraendertes Weltverhalten durch Schlaf.
 Sie zeigt aber, dass Sleep bestehende Rollen passiv markieren kann, ohne Welt-Symbole neu zu erfinden.
 Damit ist der naechste Schritt sauber messbar: eine spaetere Leseschicht darf pruefen,
 ob diese passive Reorganisationsspur bei erneutem Weltkontakt wieder auftaucht oder neutral bleibt.
-
-## Wie es weitergeht
-
-Als naechstes wird die passive Sleep-Reorganisationsspur gegen weitere Welten geprueft.
-Dann wird sichtbar, ob sie nur eine lokale Markierung bleibt oder als wiederkehrende Innenfeldspur tragfaehig ist.

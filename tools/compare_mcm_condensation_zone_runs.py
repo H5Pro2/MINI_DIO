@@ -113,9 +113,6 @@ def _write_markdown(
             "",
             "Damit wird die MCM-Lesart gestaerkt: Verdichtung ist nicht bloss Wiederholung, sondern eine reproduzierbare Rollenstruktur mit variabler Oberflaeche.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte ein gezielter Blick auf die wechselnden Tokens erfolgen. Ziel: unterscheiden, ob ein Wechsel echte Drift, Weltfaerbung oder nur Oberflaechenvarianz ist.",
         ]
     )
     out.write_text("\n".join(lines) + "\n", encoding="utf-8")

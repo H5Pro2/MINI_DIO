@@ -219,9 +219,3 @@ Daempfung,
 Nachhall
 und Bedeutungsnaehe fuehrt.
 ```
-
-## Wie es weitergeht
-
-Als naechstes sollte diese Skizze gegen neue Laeufe gehalten werden.
-Entscheidend ist, ob neue Welten dieselbe Rollenform benutzen, neue
-Bruecken bilden oder offene Varianten zu eigenen Inseln verdichten.

@@ -153,23 +153,3 @@ Die Analyse zeigt passive Merkmalsnaehe.
 
 Sie beweist keine harte Kausalitaet
 und darf nicht als Regel, Gate oder Handlungssignal verwendet werden.
-
-## Wie es weitergeht
-
-Grundfrage:
-
-Sind Drift und Uebergang nur Rollen innerhalb der Matrix,
-oder bilden sie eigene zeitliche Entwicklungsphasen?
-
-Unterpruefung:
-
-Vorher-/Nachher-Fenster um starke Drift-
-und Uebergangsbereiche lesen.
-
-Folgeschritt:
-
-Passive Phasendynamik pruefen:
-Was kommt vor Drift,
-was kommt nach Drift,
-was kommt vor Uebergang,
-was kommt nach Uebergang?

@@ -149,10 +149,6 @@ def _write_md(path: Path, summary_rows: list[dict[str, str]], detail_rows: list[
             "",
             "Wichtig: Das ist weiterhin eine passive Feldlesung. Es wird keine Handlung, kein Gate und keine Richtung daraus abgeleitet.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als nächstes sollten die Einzelberichte assetübergreifend zusammengeführt werden. Erst dann ist klar, welche Hartkernantwort allgemein ist und welche asset-spezifisch bleibt.",
-            "",
         ]
     )
     path.write_text("\n".join(lines), encoding="utf-8")

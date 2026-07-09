@@ -100,7 +100,3 @@ Die naechste Haertepruefung sollte nicht nur lauter oder laenger sein. Sie sollt
 4. Beide stabil, aber Feldspannung hoch.
 
 So kann getrennt werden, ob Randnaehe eher aus visueller Unschaerfe, akustischer Uebersteuerung, Rezeptorfehlpassung oder echter Feldspannung entsteht.
-
-## Wie es weitergeht
-
-Als naechstes sollte die Desync-Welt in Teilvarianten zerlegt werden. Zuerst nur `Sehen stabil / Hoeren chaotisch`, danach `Sehen chaotisch / Hoeren stabil`. Erst danach kann sauber gesagt werden, welche Sinnesachse die Randnaehe staerker beeinflusst.

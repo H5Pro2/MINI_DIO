@@ -57,7 +57,3 @@ Ausbleiben in Folgewelten = Reifegrenze
 ## Grenze
 
 `dio_00ly` ist noch keine globale Grundfamilie. Die Rolle ist breiter geworden, aber noch nicht gegen ruhige Welten, starke Stresswelten und weitere Asset-/Zeitebenen voll abgesichert.
-
-## Wie es weitergeht
-
-Als naechstes sollte `dio_00ly` gegen eine andere Weltklasse geprueft werden, nicht nur gegen weitere 5m- oder 1h-Folgewelten. Sinnvoll ist ein ruhiges Seitwaertsfenster oder eine starke Expansionswelt, damit sichtbar wird, ob die tragende Brueckenrolle stabil bleibt oder nur in bestimmten Bewegungsraeumen reift.

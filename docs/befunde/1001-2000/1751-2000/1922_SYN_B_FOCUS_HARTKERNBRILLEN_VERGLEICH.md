@@ -68,7 +68,3 @@ Diese Lesung bleibt passiv:
 - kein Gate
 - keine Richtung
 - keine Strategie
-
-## Wie es weitergeht
-
-Als nächstes sollte geprüft werden, ob es synthetische Fokusfenster gibt, die SOL oder BTC Restkopplung geben. Wenn ja, können wir besser unterscheiden, welche Weltformen zu welchen Hartkern-Brillen passen.

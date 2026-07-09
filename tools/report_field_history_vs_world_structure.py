@@ -232,10 +232,6 @@ def _write_markdown(rows: list[dict], pairs: list[dict], out_path: Path) -> None
             "- Wenn Weltverdichtung nahe liegt und Rolle kippt, spricht das fuer Feldhistorie, Memory oder Rekopplungsverlust als Mitursache.",
             "- Wenn eine Stresswelt trotz aehnlicher Verdichtung aktiv-rekoppelnd bleibt, ist Stress nicht der Name einer festen Klasse, sondern einer moeglichen Feldwirkung.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes wird der Befund geschrieben.",
-            "Dort wird bewertet, ob MINI_DIO bereits eine feldhistorische Lesetiefe zeigt oder ob die aktuellen Werte nur Rohweltverdichtung abbilden.",
         ]
     )
     out_path.write_text("\n".join(lines) + "\n", encoding="utf-8")

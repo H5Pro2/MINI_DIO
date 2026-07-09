@@ -55,8 +55,3 @@ Rekopplung   = Qualitaet, die Zentrum und Uebergang stabilisiert
 
 Wichtig: Die numerischen Einteilungen sind Diagnosehilfen.
 Sie sind keine Regeln fuer MINI_DIO und keine universellen MCM-Grenzen.
-
-## Wie es weitergeht
-
-Als naechstes sollte dieselbe Pruefung mit weiteren Asset- und Zeitrahmenwelten gegengehalten werden.
-Ziel ist zu pruefen, ob die stabile Rollenordnung nur SOL-nahe Welten betrifft oder ob sie auch bei deutlich anderer Marktmelodie, anderer Lautheit und anderer Strukturspannung erhalten bleibt.

@@ -189,9 +189,6 @@ def _write_md(path: Path, details: list[dict[str, object]], summary: list[dict[s
             "Mini-DIOs MCM-Lesung sollte deshalb nicht nach Richtung, sondern nach Rollenqualitaet gelesen werden:",
             "Welche Art von Kopplung entsteht an derselben Achse unter welcher Weltspannung?",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte diese Achse gegen echte Chartsegmente geplottet werden: gleiche Achse, vier Lesarten, direkte Sicht auf die Weltfenster.",
         ]
     )
     path.parent.mkdir(parents=True, exist_ok=True)

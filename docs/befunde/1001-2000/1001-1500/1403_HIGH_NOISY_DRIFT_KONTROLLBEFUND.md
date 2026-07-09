@@ -60,7 +60,3 @@ Wahrscheinlicher ist eine Kopplung aus:
 ## Grenze
 
 Dieser Befund ist passiv. Er beschreibt keine Handlung, kein Entry-System und keine Regel.
-
-## Wie es weitergeht
-
-Als naechstes sollte eine kombinierte Stresswelt geprueft werden. Sie muss Range, Wechselrate und Ton-/Rezeptorverdichtung gemeinsam anheben, um zu pruefen, wann stabile Oberflaechenvarianz in echte Spannungsnaehe kippt.

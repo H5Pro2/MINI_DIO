@@ -165,19 +165,3 @@ Umgesetzt als Diagnose:
 Der Befund liegt hier:
 
 - `docs/befunde/100-1000/100-500/217_LOKALE_WELTMERKMALE_REKOPPLUNG_BEFUND.md`
-
-## Wie es weitergeht
-
-Als naechstes sollte die Frage nach Feldzustand gegen Weltstruktur geprueft werden.
-
-Grundfrage:
-
-Kann dieselbe oder aehnliche Rohweltverdichtung unterschiedlich wirken, je nachdem in welchem Feldzustand MINI_DIO vorher ist?
-
-Konkrete Unterpruefung:
-
-1. Segmente mit aehnlicher Verdichtung suchen.
-2. Pruefen, ob Feldlast / Memorylast trotzdem unterschiedlich ausfallen.
-3. Daraus ableiten, ob Rekopplung eine reine Weltstrukturfrage oder eine Feldhistorie-Frage ist.
-
-Das ist wichtig, weil ein organisches MCM-System nicht nur auf Weltwerte reagieren sollte, sondern auf die Kopplung von Weltstruktur und eigener Feldlage.

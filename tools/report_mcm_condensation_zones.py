@@ -353,9 +353,6 @@ def _write_markdown(rows: list[dict[str, object]], transitions: list[dict[str, o
             "",
             "Wichtig: Diese Zonen sind Lesarten der vorhandenen Feldorganisation. Sie schreiben MINI_DIO keine Form vor.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte die Verdichtungszonen-Matrix gegen eine frische Weltgruppe laufen. Ziel: pruefen, ob dieselben Zonen wiederkehren oder ob neue Uebergangscluster entstehen.",
         ]
     )
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")

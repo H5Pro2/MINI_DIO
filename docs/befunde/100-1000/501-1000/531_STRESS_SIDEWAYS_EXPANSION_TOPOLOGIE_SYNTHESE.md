@@ -100,8 +100,3 @@ Die kurzen `QUIET2024`- und `STRESS2024`-Fenster haben nur 94 Episoden.
 Sie sind gut fuer lokale Gegenpruefung, aber nicht stark genug als alleinige Langwelt-Aussage.
 
 Die 994-Episoden-Welten tragen den robusteren Teil dieser Synthese.
-
-## Wie es weitergeht
-
-Als naechstes sollte die gleiche Topologie-Synthese auf laengere Stress- und Expansionswelten gelegt werden.
-Ziel ist zu pruefen, ob die starke R1/R2-Reproduktion auch bei groesserer Weltlaenge erhalten bleibt oder ob dort neue offene Bedeutungsraeume entstehen.

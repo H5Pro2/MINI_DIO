@@ -27,7 +27,3 @@ Sie prueft, ob ein Token seine Verdichtungszone behaelt, driftet, reift, rekoppe
 ## Befund
 
 Weniger als die Haelfte der gemeinsamen Tokens behaelt ihre Verdichtungszone. Das wuerde auf staerkere Weltfaerbung oder noch unreife Oberflaechenbindung hinweisen.
-
-## Wie es weitergeht
-
-Als naechstes sollten die wechselnden Tokens gegen ihre Rohweltabschnitte gelesen werden. Ziel: unterscheiden, ob Zonenwechsel aus Weltphase, Sinnesaufnahme, Rekopplung oder echter MCM-Drift entsteht.

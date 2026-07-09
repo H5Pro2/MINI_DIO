@@ -111,7 +111,3 @@ Die Werte sind Gruppenmittel der bisher geprüften Fenster.
 Sie sind keine festen MCM-Grenzen und keine Regel.
 
 Sie beschreiben eine bisher sichtbare Achse zwischen offener und rekoppelnder Rollenbreite.
-
-## Wie es weitergeht
-
-Als nächstes sollte geprüft werden, ob diese Achse auch in anderen Assets sichtbar ist: DOGE/BTC/XRP offen gegen PAXG rekoppelnd, oder ob PAXG hier eine besondere Anschlussqualität trägt.

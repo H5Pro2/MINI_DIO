@@ -103,7 +103,3 @@ Der Befund gilt fuer:
 - den aktuellen MINI_DIO-Stand.
 
 Die Werte sind Pruefwerte, keine Regeln.
-
-## Wie es weitergeht
-
-Als naechstes sollte eine Gegenpruefung mit anderer Melodiestruktur laufen. Ziel ist zu pruefen, ob MINI_DIO wieder ein Schwellenband bildet oder ob diese Karte nur fuer diese eine Melodiefamilie gilt.

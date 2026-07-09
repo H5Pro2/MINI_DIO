@@ -136,9 +136,3 @@ Sie ist nicht nur eine nachtraegliche Einzelinterpretation eines einmaligen Lauf
 
 Die Aussage bleibt begrenzt auf diese Welten und diese Diagnose.
 Sie beweist keine allgemeine Topologie, aber sie staerkt die Methode.
-
-## Wie es weitergeht
-
-Als naechstes sollte die Lupe gegen ein anderes Asset und gegen laengere
-Folgewelten laufen. Entscheidend ist, ob Randdruck dort neue lokale
-Druckinseln bildet oder ob dieselben Rekopplungsmuster erneut dominieren.

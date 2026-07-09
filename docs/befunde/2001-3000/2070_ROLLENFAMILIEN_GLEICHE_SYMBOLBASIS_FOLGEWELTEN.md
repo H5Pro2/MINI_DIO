@@ -78,5 +78,3 @@ Die Lesung ist diagnostisch. Sie beschreibt, ob ein Bedeutungsraum in spaeten re
 ## Grenze
 
 Die Kennzahlen duerfen nicht als Strategie, Entry-Signal, Richtungsvorgabe oder Handlungsgate verwendet werden. Auch eine konsistente Familie bleibt eine passive Feldbedeutung.
-
-Wie es weitergeht: Die neuen Folgeweltbefunde sollten als naechstes in die passive Rollenfamilien-Memory rueckgekoppelt werden. Danach koennen die bisher ungelesenen Familien `rf_06`, `rf_13`, `rf_10`, `rf_08` und `rf_17` mit derselben Methode folgen.

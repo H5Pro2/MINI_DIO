@@ -36,7 +36,3 @@ Die Bedeutung entsteht nicht isoliert im Symbol, sondern durch Lage im Feld, Wel
 Diese Karte ist eine Forschungslesung.
 Sie sagt nicht, dass MINI_DIO bewusst eine Zone auswaehlt.
 Sie zeigt aber, dass sich aus passiver Feldwirkung eine stabile, beschreibbare Zonenstruktur ableiten laesst.
-
-## Wie es weitergeht
-
-Als naechstes sollte geprueft werden, ob diese Feldzonen ueber weitere Assets und Zeitraeume gleich bleiben oder ob neue Zonen entstehen.

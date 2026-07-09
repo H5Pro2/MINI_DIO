@@ -261,9 +261,6 @@ def _write_markdown(
             "",
             "Der Befund beschreibt passive Feldnaehe. Er ist keine Handlungsauswertung und keine Aussage ueber Richtung.",
             "",
-            "## Wie es weitergeht",
-            "",
-            f"Als naechstes sollte die Bruecke `{bridge_family}` mit einer zweiten Brueckenfamilie verglichen werden. Dann sehen wir, ob es einen gemeinsamen Brueckentyp gibt oder mehrere unterschiedliche Uebergangsarten.",
         ]
     )
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")

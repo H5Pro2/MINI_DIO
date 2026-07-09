@@ -211,9 +211,6 @@ def _write_markdown(path: Path, summary: list[dict[str, object]], stability: lis
             "",
             "Das spricht dafür, dass MINI_DIO nicht nur assetbezogene Oberflächen liest, sondern darunter eine wiederkehrende Feldrolle hält.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als nächstes sollte geprüft werden, ob diese assetübergreifenden Feldkontaktklassen als passive Vorwahrnehmungs-Memory gespeichert werden können, ohne daraus Handlung oder harte Regeln abzuleiten.",
         ]
     )
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")

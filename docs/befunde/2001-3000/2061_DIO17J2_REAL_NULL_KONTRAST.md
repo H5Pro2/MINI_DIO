@@ -26,5 +26,3 @@ Das spricht nicht gegen die Rolle, sondern präzisiert sie: Sie ist wahrscheinli
 ## Grenze
 
 Das ist kein Beweis für Bedeutung und kein Handlungsargument. Es ist eine passive Kontrastmessung zwischen realer Weltkopplung und entkoppeltem Kontrollraum.
-
-Wie es weitergeht: Als nächstes sollten mehrere Kandidatenrollen gleichzeitig real gegen Null/Shuffle kontrastiert werden. Dann sieht man, ob `dio_17j2` besonders ist oder ob viele tragende Rollen auch im Kontrollraum ähnlich stark entstehen.

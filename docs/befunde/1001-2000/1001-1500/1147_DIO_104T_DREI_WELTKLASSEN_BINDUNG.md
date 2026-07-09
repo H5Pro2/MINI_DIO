@@ -22,7 +22,3 @@ Woran sind die neuen Brueckenkandidaten gebunden: Asset, Zeitrahmen, Rezeptorhal
 ## Grenze
 
 Die Matrix beschreibt Bindung, nicht Bedeutung. Eine Familie wird erst belastbarer, wenn sie in weiteren Weltgruppen aehnlich gebunden bleibt.
-
-## Wie es weitergeht
-
-Als naechstes sollte geprueft werden, ob die Bindung aus Asset, Zeitrahmen und Rezeptorhaltung bei frisch erzeugten Folgewelten wieder auftaucht.

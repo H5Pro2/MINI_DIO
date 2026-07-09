@@ -92,7 +92,3 @@ Die Gegenprobe zeigt auch eine methodische Grenze: Einfach mehr Rohspannung reic
 Die aktuelle Gegenprobe spricht nicht gegen die MCM-Topologie. Sie zeigt eher, dass MINI_DIO bereits eine robuste Rueckfuehrungs- und Integrationsfaehigkeit besitzt. Randspannung wird nicht einfach eins zu eins uebernommen, sondern vom Feld teilweise geordnet.
 
 Das ist fuer die weitere Forschung zentral: Die MCM wirkt nicht nur als Speicherort von Daten, sondern als selbstordnende Feldorganisation mit Zentrum, Uebergang und Randnaehe.
-
-## Wie es weitergeht
-
-Als naechstes sollte nicht nur eine lautere Randwelt gebaut werden. Die naechste Pruefung sollte eine desynchronisierte Welt sein: Sehen, Hoeren und Feldspannung zeigen dabei nicht dieselbe Richtung. Damit laesst sich testen, ob die Topologie auch unter widerspruechlicher Sinnesaufnahme stabil bleibt oder ob echte Randdominanz entsteht.

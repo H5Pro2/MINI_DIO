@@ -70,7 +70,3 @@ Die Rohweltspalten dienen als Ruecklesung, nicht als Ursachebeweis. Entscheidend
 ## Grenze
 
 Dieser Bericht zeigt Kopplungen zwischen Milieu-Wechsel und Weltphase. Er beweist noch keinen Mechanismus und erzeugt keine neue Regel.
-
-## Wie es weitergeht
-
-Als naechstes sollten die haeufigsten Wechsel-Familien einzeln ueber weitere Folgewelten verfolgt werden. Wenn dieselbe Familie wiederholt unter aehnlicher Rohweltspannung reift oder oeffnet, wird daraus ein belastbarer Milieu-Trigger-Kandidat.

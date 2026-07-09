@@ -245,9 +245,6 @@ def _write_md(rows: list[dict[str, object]], out: Path, title: str) -> None:
             "",
             "Wenn `rekopplungsversuch` dominiert, waere Rand/Kipp eher ein kurzer Zustand vor Rueckbindung.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte die dominante Bewegungsart gegen die MCM-Rollenfolge gelesen werden: Welche Rolle kommt vor und nach `gekoppelte_feldlast` am haeufigsten?",
         ]
     )
     out.write_text("\n".join(lines) + "\n", encoding="utf-8")

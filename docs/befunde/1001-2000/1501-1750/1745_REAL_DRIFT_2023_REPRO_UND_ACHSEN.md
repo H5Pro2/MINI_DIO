@@ -75,7 +75,3 @@ Das ist wichtig für die MCM-Lesung: Stabilität bedeutet hier nicht starre Wied
 ## Grenze
 
 Die Prüfung gilt für diese vier realen SOL-2023-Fenster. Sie zeigt reproduzierbare Rollenkerne und feinere Milieudrift, aber noch keine universelle Aussage über alle Assets oder Jahre.
-
-## Wie es weitergeht
-
-Als nächstes sollte dieselbe Driftprüfung gegen ein anderes Asset oder ein anderes Jahr gelegt werden. Entscheidend ist, ob `mittlere_uebergangsphase` als reale Driftform wiederkehrt oder ob andere Welten neue Achsenklassen erzwingen.

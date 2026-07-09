@@ -121,7 +121,3 @@ Damit koennen weitere Welten gezielter gelesen werden:
 Der Befund ist ein Indiz.
 
 Stabiler wird er erst, wenn diese drei Rollen in weiteren Welten erneut unterscheidbar bleiben.
-
-## Wie es weitergeht
-
-Als naechstes sollte dieselbe Feldfunktionskarte gegen weitere Welten gelesen werden. Ziel ist nicht mehr neue Einzelkandidaten zu sammeln, sondern zu pruefen, ob Bruecke, Zentrumskontakt und Randdruck als Rollen stabil bleiben, driften oder neue Mischrollen erzeugen.

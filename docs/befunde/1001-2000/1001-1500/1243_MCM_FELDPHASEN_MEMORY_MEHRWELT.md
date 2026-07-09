@@ -86,7 +86,3 @@ Damit entsteht mehr Tiefe, ohne Handlung zu erzeugen.
 
 Diese Memory darf nicht direkt in Handlung, Richtung oder Bewertung uebersetzt werden.
 Sie beschreibt passive Phasenerfahrung.
-
-## Wie es weitergeht
-
-Als naechstes sollte diese Feldphasen-Memory gegen weitere Welten laufen. Entscheidend ist, ob neue Welten vorhandene Phasenfamilien erweitern, neue junge Phasen erzeugen oder bestehende Phasen driften lassen.

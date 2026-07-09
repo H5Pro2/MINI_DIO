@@ -30,7 +30,3 @@ Arbeitsableitung:
 Die verlegte Mitte kann als weltlich getragene Achse gelesen werden,
 wenn ihre beiden Knoten in Ereignissen und Uebergaengen wieder gekoppelt auftreten.
 ```
-
-## Wie es weitergeht
-
-Als naechstes sollte diese Achse zeitlich lokalisiert werden: in welchen Tickbereichen und Weltphasen tritt sie gehauft auf?

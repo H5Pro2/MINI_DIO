@@ -102,7 +102,3 @@ zu hoch -> randnaeher / kippnaeher / reorganisationsnaeher
 ```
 
 Damit wird die rezeptorische Schicht fachlich wichtiger: Sie entscheidet nicht ueber Handlung, sondern ueber Aufnahmequalitaet vor dem Feld.
-
-## Wie es weitergeht
-
-Als naechstes sollte geprueft werden, welche Rezeptorhaltung `tonal_mid` stabilisiert: Hinhoeren, Daempfung, visuelle Schaerfe, Distanz oder reduzierte Feldaufnahme.

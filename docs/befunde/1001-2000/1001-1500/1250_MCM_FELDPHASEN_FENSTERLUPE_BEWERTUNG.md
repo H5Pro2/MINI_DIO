@@ -147,7 +147,3 @@ Sie koennen sein:
 - oder junge/driftende Spur.
 
 Das stuetzt die bisherige MCM-Lesung: Die Topologie ist nicht nur Raumordnung, sondern Bewegungsordnung.
-
-## Wie es weitergeht
-
-Als naechstes wird die Fensterlupe auf konkrete Rohweltfenster erweitert, damit sichtbar wird, welche Weltbewegung, welcher Ton und welche Rezeptoraufnahme die jeweilige Feldfolge begleiten.

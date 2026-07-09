@@ -117,7 +117,3 @@ Kontakt -> lokale Spannung -> Feldreaktion -> Rekopplung oder offene Fortsetzung
 ```
 
 Sie duerfen nicht als Entry-, Gate- oder Strategiemechanik gelesen werden.
-
-## Wie es weitergeht
-
-Als naechstes sollte geprueft werden, ob dieselben Kontaktinsel-Familien wiederkehren: tragen bestimmte `symbol_family`- oder `mcm_field_episode_preview_symbol`-Muster wiederholt solche Inseln, und unterscheiden sich rekoppelnde Inseln von kippnahen Inseln semantisch?

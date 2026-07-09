@@ -211,9 +211,6 @@ def main() -> int:
         lines.extend(
             [
                 "",
-                "## Wie es weitergeht",
-                "",
-                "Als nächstes diese Rollenbreiten gegen neue Welten aktualisieren und prüfen, ob Rollen nur breiter werden oder ob sich wirklich neue Milieus abspalten.",
             ]
         )
         out_md.write_text("\n".join(lines) + "\n", encoding="utf-8")

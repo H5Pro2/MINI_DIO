@@ -95,7 +95,3 @@ Für MINI_DIO heißt das:
 Breite ist nicht gleich Rekopplung.
 Synthetische Weltspannung ist nicht automatisch getragene Bedeutungsbreite.
 ```
-
-## Wie es weitergeht
-
-Als nächstes kann gezielt eine synthetische Rekopplungsbreite-Welt gebaut werden. Ziel wäre nicht, das Ergebnis zu erzwingen, sondern zu prüfen, welche Weltqualitäten nötig sind, damit verteilte Rollenbreite nicht driftet, sondern getragen rekoppelt.

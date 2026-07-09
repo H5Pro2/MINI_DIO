@@ -45,7 +45,3 @@ BTC, DOGE und XRP bleiben in der Realwelt weiterhin stärker feldzeitlich gereif
 ## Grenze
 
 Die Nullwelten sind Kontrollwelten, aber keine vollständige Widerlegung von Weltstruktur. Sie erhalten lokale Kerzenform, Länge und Verteilung. Deshalb prüfen sie vor allem, ob Reihenfolge, Richtung und asseteigene Spannung eine zusätzliche Feldordnung erzeugen.
-
-## Wie es weitergeht
-
-Als nächstes sollte geprüft werden, ob die 17k-Reifeprofile dieselben Topfamilien und Feldrollen tragen wie die 10k-Profile oder ob mit wachsender Länge neue Rand- und Brückenrollen entstehen.

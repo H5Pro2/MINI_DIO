@@ -78,9 +78,3 @@ Sondern: Innenfeldlast als Feldwirkung lesen.
 Die Lesung ist relativ zur geprüften Segmentgruppe.
 Sie ist ein Diagnosewerkzeug, keine universelle Klassifikation.
 Weitere ruhige und belastete Kurzsegmente müssen gegengeprüft werden.
-
-## Wie es weitergeht
-
-Als nächstes sollte ein zweites lokales Stressfenster aus einer anderen Stresswelt isoliert werden.
-Wenn es wieder `lastnah` gelesen wird, wird die Trennung zwischen lokalen Ruheinseln und lokalen Stressinseln belastbarer.
-Danach kann geprüft werden, ob diese Polachsen über mehrere Jahre/Welten ähnlich bleiben.

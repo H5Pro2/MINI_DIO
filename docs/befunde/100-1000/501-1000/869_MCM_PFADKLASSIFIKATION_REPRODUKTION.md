@@ -91,12 +91,3 @@ Entsteht Drift nur in bestimmten offenen Bereichen?
 ```
 
 Die aktuelle Pruefung spricht dafuer, dass MINI_DIO eine reproduzierbare Rollenordnung ausbildet, ohne dass die Tokenoberflaeche starr identisch bleiben muss.
-
-## Wie es weitergeht
-
-Als naechstes sollte die zweite Pfadklassifikation nicht weiter global gelesen werden, sondern an den stabilsten Rollen geprueft werden:
-
-1. Welche Brueckenpfade bleiben ueber beide Gruppen aktiv?
-2. Welche Randpfade bleiben randnah?
-3. Welche jungen Oberflaechen reifen in Folgepruefungen nach?
-4. Welche rekoppelnden Pfade sind echte Innenordnung und welche nur Weltgruppeneffekt?

@@ -39,8 +39,3 @@ Die Diagnose ist passiv und erzeugt keine Handlung.
 ## Lesung
 
 Die Fenstersuche trennt Asset-Faerbung von lokaler Feldlage. Entscheidend ist nicht, welches Asset gelesen wird, sondern ob das konkrete Fenster mehrere MCM-Feldrollen hervorbringt.
-
-## Wie es weitergeht
-
-Als naechstes sollte `RAND_DOMINANZ_GEDAEMPFT start0` als Real-Sleep-Real-Kette reproduziert werden. Ziel ist zu pruefen, ob diese gedaempfte 5-Rollen-Breite selektiv bleibt oder voll rekoppelt.
-

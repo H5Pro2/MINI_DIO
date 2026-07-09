@@ -67,7 +67,3 @@ Die orange Flaeche markiert das MCM-Achsenfenster. Die rote Linie markiert den S
 - MCM-Bewegung: `druck_uebergang`
 
 ![SIDEWAYS_2024 183drjy->1t5bcxp](../../../bilder/mcm_achsenfenster/1011_SIDEWAYS_2024_183drjy-_1t5bcxp_920_934.png)
-
-## Wie es weitergeht
-
-Als naechstes sollte aus diesen Bildern eine Chartzonen-Typologie abgeleitet werden: Rekopplung nach Bruch, Druckfenster, Konsolidierung mit Spannung und getragene Expansion.

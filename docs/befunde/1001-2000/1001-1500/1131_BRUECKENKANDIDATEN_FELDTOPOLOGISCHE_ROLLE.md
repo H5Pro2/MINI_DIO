@@ -115,7 +115,3 @@ Das ist naeher an einem dynamischen Bedeutungsnetz als an einer Symboltabelle.
 - Pruefung, ob die Rolle bei Memory-Neustarts weiter reproduzierbar bleibt.
 
 `dio_0pq6` darf nicht als gescheitert gelesen werden. Die Familie kann eine lokale Funktion tragen, die nur unter bestimmten Kontaktbedingungen sichtbar wird.
-
-## Wie es weitergeht
-
-Als naechstes sollte die Brueckenrolle gegen eine neue Weltklasse geprueft werden: entweder eine ruhige SOL- oder PAXG-Gegenwelt oder eine gezielte Bruchwelt. Ziel ist nicht mehr nur Auftreten, sondern Rollenwechsel: bleibt `dio_00ly` Bruecke, kippt sie an den Rand, oder entsteht eine neue Zwischenfamilie?

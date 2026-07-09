@@ -78,8 +78,3 @@ Damit wird eine neue Forschungsfrage sichtbar:
 Welche Ordnungsform entsteht, wenn Verdichtung existiert,
 aber keine Brueckenlandschaft ausgebildet wird?
 ```
-
-## Wie es weitergeht
-
-Als naechstes sollte die siebte Welt nicht weiter mit Brueckenlogik erzwungen werden.
-Stattdessen sollte eine Nicht-Bruecken-Lesung entstehen: Verdichtungsdichte, Zentrumsnaehe, Randspannung, Wiederkehr und Feldruhe ohne Anschlussanker.

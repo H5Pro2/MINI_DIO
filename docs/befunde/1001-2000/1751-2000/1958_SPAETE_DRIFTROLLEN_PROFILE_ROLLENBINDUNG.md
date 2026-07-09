@@ -30,7 +30,3 @@
 Die Anschlusswelten zeigen keine simple Kopie der späten Driftfamilien. Die bekannten Quellfamilien bleiben schwach oder fehlen ganz. Das Zielprofil wirkt daher eher als offene Sinnes-/Feldvorform, aus der je nach Welt neue Nachbarschaften entstehen können.
 
 Wichtig ist die Trennung: Profilnähe ist eine wiederkehrende Wahrnehmungslage. Rollenbindung entsteht erst, wenn diese Lage im Feld wiederholt an Familien, Wirkung und Nachhall koppelt.
-
-## Wie es weitergeht
-
-Als nächstes sollte die stärkste offene Vorform mit höchster Zielprofil-Dichte lokal vergrößert werden: Welche Familien treten direkt davor und danach auf, und verdichtet sich daraus eine neue Rolle oder bleibt es ein breiter Nebelraum?

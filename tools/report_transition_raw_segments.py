@@ -344,11 +344,6 @@ def _write_md(phase_rows: list[dict[str, object]], event_rows: list[dict[str, ob
             "",
             "Damit bleibt die Diagnose organisch: Weltkontakt wird gelesen, aber nicht als Regel gesetzt.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollten die besten Milieus auf Wiederkehr und Drift geprueft werden.",
-            "Dann wird sichtbar, ob eine Feldbewegung an eine konkrete Weltlage gebunden ist oder mehrere Milieus tragen kann.",
-            "",
         ]
     )
     out_path.write_text("\n".join(lines), encoding="utf-8")

@@ -50,7 +50,3 @@ Diese Spur war vorhanden.
 Unter anderer Welt- und Nachbarschaftsspannung traegt sie eine andere Rolle.
 Manche Spuren entstehen erst in neuer Weltspannung und sind dort direkt verdichtet.
 ```
-
-## Wie es weitergeht
-
-Als naechstes sollte eine echte Mehrlandschafts-Folge gebaut werden: nicht nur Basis vs. Vergleich, sondern drei oder mehr Landschaften in Reihenfolge, um Rollenreife und Rollendrift als Verlauf zu messen.

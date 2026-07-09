@@ -77,5 +77,3 @@ globale Folge:
 lagebezogene Folge:
   Was macht diese Sinneshaltung in dieser Art von Weltlage?
 ```
-
-Wie es weitergeht: Als naechstes sollte ein Weltlagen-Klassifizierer aus Rohsignalen gebaut werden. Er darf keine Datei-Labels nutzen, sondern muss aus Hoeren, Sehen, Feldkontakt, Strain und Rekopplung lesen, welche Lage vorliegt.

@@ -47,8 +47,3 @@ sondern zusätzlich die Art des Anschlusses gegen Realwelt/Nullwelt-Zwischenlage
 Das ist eine organische Erweiterung, weil sie aus wiederholten Befunden entsteht.
 Die Schicht beschreibt, wie Feldrollen getragen werden.
 Sie bestimmt nicht, was MINI_DIO tun soll.
-
-## Wie es weitergeht
-
-Als nächstes sollte geprüft werden, ob `attachment_quality` die Rollenbeschreibung messbar schärft:
-gleiche Familien einmal nur mit alter Feldrollen-Memory lesen und einmal mit Anschlussqualität vergleichen.

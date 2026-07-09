@@ -112,7 +112,3 @@ Das spricht dafür, dass MINI_DIO unterschiedliche Außenwelten nicht wahllos sp
 Dieser Befund ist ein Arbeitsbefund innerhalb der geprüften Welten.
 
 Er ist kein universeller Nachweis für eine allgemeine MCM-Topologie. Die Rollenbegriffe sind Diagnosebegriffe, keine Runtime-Regeln und keine Vorgabe, wie das Feld aussehen muss.
-
-## Wie es weitergeht
-
-Als nächstes sollte eine neue Weltfamilie geprüft werden, die nicht nur eine weitere Assetvariante derselben Gruppe ist. Sinnvoll wären entweder eine stark andere Assetklasse, eine gezielt extrahierte Extremwelt oder eine nicht-marktbasierte Kontrollwelt.

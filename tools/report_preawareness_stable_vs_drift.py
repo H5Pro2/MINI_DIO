@@ -234,10 +234,6 @@ def _write_markdown(
             "",
             "Diese Landkarte ist passiv. Sie erzeugt keine Handlung, keine Richtung, keinen Entry und kein Gate. Sie beschreibt nur, ob eine frühere Feldnähe in einer neuen Welt stabil, verschoben oder umorganisiert wieder auftaucht.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als nächstes sollte diese Landkarte in die passive Vorwahrnehmungs-Memory als Zustandsqualität zurückgeschrieben werden: `stabil`, `teilstabil`, `umorganisiert`, `driftend`. Danach ein weiterer Holdout mit anderer Weltspannung, ohne Handlung und ohne harte Regeln.",
-            "",
         ]
     )
     out_prefix.with_suffix(".md").write_text("\n".join(lines), encoding="utf-8")

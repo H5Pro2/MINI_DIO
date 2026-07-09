@@ -165,10 +165,6 @@ def _write_markdown(rows: list[dict], out_path: Path) -> None:
             "Ein Organismus passt nicht nur Lautstaerke an.",
             "Er entwickelt unterschiedliche Arten, Weltwirkung wieder loesbar, tragbar und rekoppelbar zu machen.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes wird ein Befund geschrieben.",
-            "Dort wird festgehalten, welche Anpassungsachsen fuer MINI_DIO als passive Feldhygiene am wichtigsten sind.",
         ]
     )
     out_path.write_text("\n".join(lines) + "\n", encoding="utf-8")

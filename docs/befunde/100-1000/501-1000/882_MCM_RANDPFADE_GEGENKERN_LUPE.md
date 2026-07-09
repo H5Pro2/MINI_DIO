@@ -79,7 +79,3 @@ Fachlich bedeutet das:
 - Randnahe Tokens koennen stabil auftreten, wirken aber bisher duenner und weniger netzwerkbildend.
 - Junge Oberflaechen sind nicht automatisch neue Bedeutungsinseln.
 - Rand ist damit eher ein Spannungs- und Oeffnungsbereich als ein eigener stabiler Pol.
-
-## Wie es weitergeht
-
-Als naechstes sollte die Randlupe gegen synthetische Randwelten und reale Stresswelten gelegt werden. Ziel: pruefen, ob Randkerne nur unter staerkerer Randdominanz entstehen oder ob sie grundsaetzlich kurzlebig bleiben.

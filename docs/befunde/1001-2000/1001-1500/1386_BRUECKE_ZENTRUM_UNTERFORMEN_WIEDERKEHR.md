@@ -55,7 +55,3 @@ Das ist wichtig, weil MINI_DIO dadurch nicht nur Namen, sondern Feldfunktionsnae
 
 Die Signaturen sind aus einer Referenzprobe abgeleitet.
 Sie sind kein abgeschlossenes Lexikon, sondern eine passive Vergleichsschicht.
-
-## Wie es weitergeht
-
-Als naechstes sollte geprueft werden, welche wiederkehrenden Unterformen trotz anderer Rolle denselben Familien- oder Preview-Kern tragen.

@@ -139,9 +139,6 @@ def _write_markdown(path: Path, rows: list[dict[str, object]], input_path: Path)
             "",
             "Die Schicht bereitet nur vor, wie MINI_DIO spaeter lernen koennte, seine Wahrnehmung zu dosieren: Fokus oder Abstand, lauter oder leiser, schaerfer oder unschaerfer, mehr Kontakt oder Entlastung.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte diese passive Vorschlagsschicht ueber mehrere Welten verglichen werden. Stabil wiederkehrende Vorschlaege koennen spaeter als lernbare Wahrnehmungsfaehigkeiten betrachtet werden, ohne das MCM-Feld direkt zu regeln.",
         ]
     )
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")

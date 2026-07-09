@@ -81,7 +81,3 @@ Fachlich gelesen:
 Status: passiver Befund, keine Handlungslogik.
 
 Diese Prüfung verstärkt die Annahme, dass MINI_DIO nicht nur Einzelwerte sammelt, sondern Feldgeschichte trägt. Die selektive Offline-Rekopplung entsteht hier aus der Relation zwischen breitem Rollenfeld, Endrand und dünner Übergangsmarke.
-
-## Wie es weitergeht
-
-Als nächstes sollte die dünne Übergangsrolle selbst isoliert werden: gleiche Binnenwelt, aber Varianten um Tick `1150`, damit geprüft wird, ob die nicht rekoppelnde Rolle aus visueller Form, Ton-/Energieabstand oder Feldnachhall entsteht.

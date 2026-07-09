@@ -39,7 +39,3 @@ Wichtig ist die Trennung:
 DIO braucht keine harte Vorhersage aus langer Historie.
 
 Sinnvoller ist eine zweistufige Feldlesung: Vorgeschichte als Weltphase lesen, den Rollenwechsel aber am aktuellen Feldkontakt prüfen.
-
-## Wie es weitergeht
-
-Als nächstes sollte eine direkte Vorphasen-Klasse gebaut werden: Welche Rohweltphase liegt vor Öffnung, welche vor Rekopplung, und bleibt diese Klasse über Assets stabil?

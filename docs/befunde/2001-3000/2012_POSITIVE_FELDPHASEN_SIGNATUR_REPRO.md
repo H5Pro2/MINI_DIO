@@ -145,15 +145,3 @@ nicht nur nach Symbolzählung.
 Die Signaturnähe ist eine passive Diagnose.
 
 Sie beweist nicht, dass MINI_DIO bewusst versteht. Sie zeigt aber, dass die gemessene Feldqualität in unterschiedlichen Weltlagen wieder auftaucht und strukturiert verglichen werden kann.
-
-## Wie es weitergeht
-
-Als nächstes sollte die Feldphasen-Signatur in eine passive Entwicklungsmechanik überführt werden:
-
-```text
-Wenn eine Feldphase wiederkehrt,
-wird nicht sofort eine Handlung erzeugt,
-sondern ihre Qualität, Trägerrolle, Drift und Weltbindung werden gereift.
-```
-
-Damit kann MINI_DIO organisch tiefer werden, ohne starre Regeln einzubauen.

@@ -42,7 +42,3 @@ Die Assetfaerbung bleibt aber nicht identisch: Lautheit, Expansion und Entlastun
 ## Grenze
 
 Die kleinste Assetgruppe bestimmt die strenge Gleichverteilung. Dadurch ist diese Diagnose methodisch sauberer, aber kleiner.
-
-## Wie es weitergeht
-
-Als naechstes sollte ein zweiter balancierter Lauf mit mehr Rohfenstern pro Asset erzeugt werden, statt nur aus der vorhandenen 1251-Auswahl zu ziehen.

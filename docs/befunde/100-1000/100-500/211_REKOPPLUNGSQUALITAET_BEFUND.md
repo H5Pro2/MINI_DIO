@@ -162,27 +162,3 @@ Umgesetzt als passive Diagnose:
 Der Befund liegt hier:
 
 - `docs/befunde/100-1000/100-500/211_REKOPPLUNGSQUALITAET_BEFUND.md`
-
-## Wie es weitergeht
-
-Als naechstes sollte diese Rollenkarte gegen weitere Welten laufen.
-
-Grundfrage:
-
-Bleibt die Reihenfolge stabil?
-
-```text
-reiz_aktiv_rekoppelnd
-nachhall_rekoppelnd
-uebergang_bindend
-last_memory_bindend
-```
-
-Konkrete Unterpruefung:
-
-1. Drittes Asset pruefen.
-2. Ruhige Seitwaertswelt pruefen.
-3. Harte Expansionswelt pruefen.
-4. Negative Stresswelt pruefen.
-
-Wenn die Rollen dort wieder sinnvoll entstehen, ist das ein belastbarer Hinweis auf eine passive Rekopplungsordnung im MCM-Feld.

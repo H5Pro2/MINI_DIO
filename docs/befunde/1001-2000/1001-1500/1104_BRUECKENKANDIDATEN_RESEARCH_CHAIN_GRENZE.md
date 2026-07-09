@@ -52,7 +52,3 @@ Die naechste sinnvolle Pruefung ist keine weitere Behauptung der Kandidaten, son
 1. Sind die Kandidaten an bestimmte Asset-/Zeit-/Rezeptorlagen gebunden?
 2. Tauchen sie in spaeter erzeugten Welten erneut auf?
 3. Bleiben sie dann unterscheidbar oder zerfallen sie in bekannte Familien?
-
-## Wie es weitergeht
-
-Als naechstes sollte die Bindung von `dio_00ly` und `dio_0pq6` an Weltgruppe, Asset, Zeitrahmen und Rezeptorhaltung gelesen werden. Dadurch wird klarer, ob sie lokale Rollen oder nachreifende Knoten sind.

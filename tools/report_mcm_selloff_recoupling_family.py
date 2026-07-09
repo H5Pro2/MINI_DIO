@@ -236,10 +236,6 @@ def _write_md(path: Path, detail: list[dict[str, object]], mode_rows: list[dict[
             "",
             "Fachlich bedeutet das: Das MCM-Feld liest nicht nur Preisrichtung. Es unterscheidet, ob ein fallendes Fenster bricht, rekoppelt oder nach vorheriger Belastung wieder Anschluss findet.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte die Familie `abverkauf + rekopplung` gegen lokale Weltmerkmale gelesen werden: Lautstaerke/Energie, Rezeptorlast, Druckwechsel und Topologie-Rolle im gleichen Tickfenster.",
-            "",
         ]
     )
     path.write_text("\n".join(lines), encoding="utf-8")

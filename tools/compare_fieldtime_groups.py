@@ -235,9 +235,6 @@ def _write_markdown(path: Path, summaries: list[dict[str, object]], details: lis
             "",
             "Die Gruppen nutzen vorhandene Debuglaeufe. Das ist eine robuste Gegenprobe fuer die aktuelle Datenlage, aber noch kein vollstaendig neu generiertes Experiment mit exakt gleicher Laufzahl je Gruppe.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte ein kontrollierter Neu-Lauf mit gleicher Gruppengroesse gebaut werden: je vier 2k-Welten, vier 10k-Welten und vier Asset-Mischwelten. Dann koennen Dauer- und Asset-Effekt sauberer getrennt werden.",
         ]
     )
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")

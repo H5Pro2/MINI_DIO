@@ -73,7 +73,3 @@ Rand/Kipp bleibt lokal, aber nicht dominant.
 
 Dieser Befund ist keine vollstaendige Asset-Matrix.
 PAXG, XRP und DOGE muessen fuer 15m nachgezogen werden, wenn dieselbe Assetbreite wie bei 5m und 1h erreicht werden soll.
-
-## Wie es weitergeht
-
-Als naechstes sollten entweder 15m-Daten fuer PAXG/XRP/DOGE ergaenzt werden oder der Vergleich auf BTC/SOL als Zeitmass-Achse verdichtet werden.

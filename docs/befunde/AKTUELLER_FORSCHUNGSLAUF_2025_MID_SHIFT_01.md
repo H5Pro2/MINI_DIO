@@ -50,7 +50,3 @@ Episodenzustaende:
 
 - Debug: `debug\research_chain_2025_mid_shift_01`
 - Memory: `memory\research_chain_2025_mid_shift_01.json`
-
-## Wie es weitergeht
-
-Als naechstes sollte der Mehrwelt-Vergleich vertieft werden. Entscheidend ist, ob 2025-Core und 2025-Mid-Shift nur zufaellig nah beieinander liegen oder ob beide eine gemeinsame ruhigere 2025-Feldfamilie bilden.

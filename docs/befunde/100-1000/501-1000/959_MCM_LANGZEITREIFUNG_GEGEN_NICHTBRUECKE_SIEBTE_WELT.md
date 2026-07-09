@@ -39,7 +39,3 @@ Das ist fachlich wichtig:
 - Brueckenrolle ist eine Organisationsform, nicht die einzige Existenzform eines Zeichens.
 - Reifung kann sich unter anderer Weltspannung umlagern.
 - Nicht-Wiederfinden in einer Brueckenlandschaft darf nicht automatisch als Feldverlust gelesen werden.
-
-## Wie es weitergeht
-
-Als naechstes sollte eine Synthese entscheiden, welche Zeichen wirklich verloren sind und welche nur ihre Rolle gewechselt haben.

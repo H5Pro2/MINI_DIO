@@ -87,15 +87,3 @@ Sie wirkt wie eine topologische Feldspur, die je nach Weltspannung unterschiedli
 
 Das passt zur bisherigen MCM-Arbeit:
 Eine Bedeutung ist nicht nur ein gespeicherter Wert, sondern eine im Feld wieder lesbare Organisationsform.
-
-## Wie es weitergeht
-
-Als naechstes sollte eine Rollenwechsel-Memory entstehen.
-Sie speichert passiv:
-
-```text
-Dieses Zeichen war Bruecke.
-In anderer Welt wurde es Zentrum / Rand / Rekopplung / Oberflaeche.
-```
-
-Nicht als Handlung, nicht als Gate, sondern als bessere MCM-Feldbiografie eines Zeichens.

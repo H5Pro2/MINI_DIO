@@ -105,7 +105,3 @@ Die Assetbreite ist noch ungleich:
 - PAXG-15m wurde aus 5m aggregiert.
 
 Der Befund ist deshalb eine Synthese der aktuellen Datenlage, keine abschließende Assettheorie.
-
-## Wie es weitergeht
-
-Als nächstes sollte geprüft werden, ob die gleichen Assetmilieus auch in längeren oder verschobenen Fenstern stabil bleiben. Besonders sinnvoll ist eine Holdout-Gegenprobe: anderes Jahr, gleicher Assettyp, gleiche Zeitmaßlogik.

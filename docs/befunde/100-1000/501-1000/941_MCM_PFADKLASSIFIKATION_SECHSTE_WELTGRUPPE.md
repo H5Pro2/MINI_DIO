@@ -77,7 +77,3 @@ Randpfade bleiben selten. Das passt zum bisherigen Befund: Randnaehe entsteht lo
 
 Die Pfadklassifikation verschiebt die Lesart von Tokenlisten zu Feldbewegungen.
 Ein `dio_mcm_episode_*`-Zeichen ist damit nicht nur ein Name, sondern kann eine Insel, ein Pfad, eine Bruecke oder eine Driftbewegung tragen.
-
-## Wie es weitergeht
-
-Als naechstes sollte diese Pfadklassifikation gegen eine weitere frische Weltgruppe reproduziert werden. Ziel: pruefen, ob die Verteilung der Pfadklassen stabil bleibt oder ob neue Weltspannung andere Pfadtypen erzwingt.

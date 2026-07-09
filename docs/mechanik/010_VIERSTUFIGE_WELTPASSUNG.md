@@ -205,7 +205,3 @@ Die vierstufige Weltpassung hilft, spätere MCM-Feldentwicklung sauberer zu prü
 - Wird aus Verschiebung später Ausblendung oder erneute Tragfähigkeit?
 
 Damit kann MINI_DIO eine differenziertere Innenfeldkarte aufbauen, ohne dass wir harte Regeln vorgeben.
-
-## Wie es weitergeht
-
-Als nächstes sollte geprüft werden, ob die Abfolge `getragen -> geöffnet -> verschoben -> ausgeblendet` in weiteren Assets oder synthetischen Kontrollwelten als echte Übergangsdynamik sichtbar wird.

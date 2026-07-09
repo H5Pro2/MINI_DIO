@@ -100,7 +100,3 @@ Fuer einen spaeteren DIO-Aufbau bedeutet das:
 - Eine Rolle kann Milieuinsel, aktive Rekopplung, Bruecke, Randspannung oder Nebenrolle sein.
 - Entwicklung entsteht, wenn DIO erkennt, welche Feldfunktion eine wiederkehrende Bedeutung traegt.
 - Handlung sollte spaeter nicht aus Symbolen folgen, sondern aus gereifter Feldfunktion.
-
-## Wie es weitergeht
-
-Als naechstes sollte einer der breiten Mehrwelt-Kandidaten isoliert rueckgelesen werden, am besten `0hvxln3` oder `14sn1ov`. Entscheidend ist, ob seine aktive Rekopplungsstruktur in verschiedenen Assets wirklich aehnlich getragen wird.

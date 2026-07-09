@@ -133,9 +133,6 @@ def build_report() -> None:
             "",
             "Besonders Randdruck ist derzeit stark BTC-lastig. Zentrumskontakt ist staerker auf DOGE/XRP/SOL verteilt. Das muss gegen weitere Welten geprueft werden.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte die Feldfunktionskarte auf weiteren vorhandenen Episodensets gelesen werden, nicht nur auf dem `hoerbarer_schmaler_shift`-Kandidatenraum. Dadurch sehen wir, ob die Rollen globale Feldrollen bleiben oder nur in dieser Mikrophase stabil sind.",
         ]
     )
     OUT_MD.write_text("\n".join(lines) + "\n", encoding="utf-8")

@@ -118,7 +118,3 @@ Sondern: Kann das Feld danach wieder tragend anschliessen?
 ```
 
 Das ist eine wichtige Stufe fuer die weitere MINI_DIO-Forschung.
-
-## Wie es weitergeht
-
-Als naechstes sollten die Gegenformen als konkrete Tickfenster markiert werden, damit sichtbar wird, welche Feldrolle direkt vor der Nachlast liegt.

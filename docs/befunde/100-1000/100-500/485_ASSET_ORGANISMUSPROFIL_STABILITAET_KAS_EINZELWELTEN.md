@@ -47,5 +47,3 @@ KAS ist jetzt als echte Vier-Quellen-Reihe lesbar. Damit kann die vorher nur ang
 Die bisherige Richtung wird gestuetzt: Die getragene Grundaufnahme ist uebergreifend Hinhoeren, waehrend der Bedarf asset- und weltqualitaetsabhaengig variiert.
 
 Fachlich wichtig ist: Stabil ist nicht zwingend die haeufigste Reaktion. Stabiler wirkt die tragende Rekopplungsart.
-
-Wie es weitergeht: Als naechstes sollte geprueft werden, ob die stabilen Assetprofile auch mit anderen Jahren oder laengeren Ausschnitten erhalten bleiben.

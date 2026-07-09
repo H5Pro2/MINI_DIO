@@ -86,8 +86,3 @@ Brueckenordnung
 Rollenwechselordnung
 Fragmentierungsordnung
 ```
-
-## Wie es weitergeht
-
-Als naechstes sollte `dio_frag_*` gegen eine Stresswelt gelesen werden.
-Dann sehen wir, ob Stress eher offene Randfragmentierung verstaerkt oder ob eine andere Fragmentierungsklasse entsteht.

@@ -81,8 +81,3 @@ Dieser Report umfasst nur BTC und SOL.
 PAXG, XRP und DOGE fehlen fuer 15m im aktuellen Datenbestand.
 
 Die Werte sind Diagnoseprofile, keine MCM-Grenzen und keine Vorgaben fuer MINI_DIO.
-
-## Wie es weitergeht
-
-Als naechstes waere eine echte 15m-Erweiterung mit PAXG, XRP und DOGE sinnvoll.
-Erst dann kann entschieden werden, ob 15m nur ein Zeitmass-Zwischenraum bleibt oder assetbezogen eigene Milieus ausbildet.

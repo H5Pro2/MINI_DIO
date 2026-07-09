@@ -22,7 +22,3 @@ Damit wird sichtbar, welches fremde Feldzeichen in einen Token hineinführt und 
 
 Die Grenzlupe ist die saubere Nachbarschaftspruefung.
 Lange Selbstphasen werden nicht mehr als triviale Selbstnachbarschaft gezaehlt, sondern als Segment mit Eintritt und Austritt gelesen.
-
-## Wie es weitergeht
-
-Als naechstes sollten Driftlupe, Segmentlupe und Grenzlupe zu einer Klassifikation verbunden werden: stabile Insel, rekoppelnder Pfad, offene Drift oder Randpfad.

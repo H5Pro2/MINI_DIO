@@ -49,7 +49,3 @@ Episodenzustaende:
 
 - Debug: `debug\research_chain_2023_stress_01`
 - Memory: `memory\research_chain_2023_stress_01.json`
-
-## Wie es weitergeht
-
-Als naechstes sollte dieser Stresslauf als Gegenpol zu den ruhigeren 2025-Welten gelesen werden. Entscheidend ist, welche Feldmerkmale unter hoher Spannung kippen und welche trotzdem reproduzierbar bleiben.

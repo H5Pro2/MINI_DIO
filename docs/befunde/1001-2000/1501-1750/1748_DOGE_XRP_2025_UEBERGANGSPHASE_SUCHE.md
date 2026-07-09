@@ -80,7 +80,3 @@ Die MCM-Grundtopologie bleibt stabiler als die Achsenklasse. Die Achsenklasse be
 - `reports/real_drift_asset_doge_xrp_2025_topology.md`
 - `reports/real_drift_asset_doge_xrp_2025_randdruck.md`
 - `reports/real_drift_asset_doge_xrp_2025_axis_map.md`
-
-## Wie es weitergeht
-
-Als nächstes sollte geprüft werden, welche konkreten Rohweltphasen in XRP 2025 die mittlere Übergangsphase tragen. Entscheidend ist, ob Rollenbreite durch Sicht-, Hör-, Spannungs- oder Nachhalllage entsteht.

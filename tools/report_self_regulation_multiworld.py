@@ -268,9 +268,6 @@ def _write_markdown(
             "",
             "Die Werte sind Diagnosewerte. Sie sind keine Regeln und keine Beweiszahlen. Besonders `stabilization_score` ist eine kompakte Lesegroesse, damit Welten vergleichbar werden, nicht ein Zielwert fuer das System.",
             "",
-            "## Wie es weitergeht",
-            "",
-            next_step,
         ]
     )
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")

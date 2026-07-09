@@ -107,8 +107,3 @@ Der Befund ist stark fuer diese gepruefte 2025-SOL-Weltgruppe.
 Er ist noch kein universeller Nachweis einer allgemeinen MCM-Topologie.
 
 Die naechste harte Gegenprobe muss andere Jahre, andere Assets und andere Zeitebenen verwenden.
-
-## Wie es weitergeht
-
-Als naechstes sollte `0e7qvj1` gegen 2024-SOL, BTC und KAS geprueft werden.
-Ziel ist zu klaeren, ob der Anker weltlokal bleibt oder ob nur die Rollenordnung stabil ist, waehrend konkrete Anker je Welt neu entstehen.

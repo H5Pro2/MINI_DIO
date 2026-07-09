@@ -262,12 +262,6 @@ def write_markdown(results: list[dict], out_path: Path) -> None:
             "Das passt zur aktuellen Forschungsrichtung: MINI_DIO muss Zeit nicht als harte Mechanik bekommen, solange das Feld selbst zeitliche Qualitäten lesbar bildet.",
             "Die Diagnose darf aber nicht überdehnt werden. Die meisten Episoden bleiben `temporal_first_contact`; Wiederkehr und Nachhall sind noch dünne, aber messbare Spuren.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als nächstes sollte die Feldzeit gegen die bestehenden Feldklassen gehalten werden.",
-            "Konkrete Unterprüfung: Entsteht mehr Nachhall/Wiederkehr in der ruhigen Nähegruppe oder im Stress-Gegenpol?",
-            "Erst danach entscheiden wir, ob eine eigene Feldzeit-Karte notwendig ist oder ob die vorhandene Topologie-Karte reicht.",
-            "",
         ]
     )
     out_path.write_text("\n".join(lines), encoding="utf-8")

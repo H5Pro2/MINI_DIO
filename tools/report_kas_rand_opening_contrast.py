@@ -155,9 +155,6 @@ def _write_markdown(rows: list[dict[str, object]], out: Path) -> None:
             "- Randnaehe ist ein Feldzustand aus Zusammenwirkung, kein harter Sensorwert.",
             "- Fuer ein spaeteres DIO-Handlungssystem ist diese Trennung zentral: offene Wahrnehmung darf beobachtbar bleiben, ohne sofort als Blockade oder Aktion gelesen zu werden.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte diese KAS-Kontrastsignatur gegen PAXG geprueft werden. Ziel: verstehen, warum PAXG trotz Hochlast weniger echte Randnaehe ausbildet.",
         ]
     )
 

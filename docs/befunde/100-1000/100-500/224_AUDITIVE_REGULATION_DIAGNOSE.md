@@ -60,8 +60,3 @@ Tonenergie darf das MCM-Feld stimulieren, aber nicht jede Tonspur darf gleich st
 
 Eine organische Hoerachse kann erklaeren, warum eine Welt aktiv bleibt, ohne sofort zu binden:
 MINI_DIO kann hinhoeren, genauer hinhoeren, Hintergrund halten, Rauschen filtern oder Reizwirkung abklingen lassen.
-
-## Wie es weitergeht
-
-Als naechstes wird der Befund geschrieben.
-Dort wird geprueft, welche Hoerzustande bei SOL 5m gegen SOL 30m/1h und Stresssegmente dominieren.

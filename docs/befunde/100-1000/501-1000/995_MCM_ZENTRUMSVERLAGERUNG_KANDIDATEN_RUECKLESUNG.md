@@ -44,8 +44,3 @@ Arbeitsableitung:
 Zentrumsverlagerung ist erst dann belastbar, wenn neue Mitte nicht nur lokal auftritt,
 sondern ueber Zonen, Sinnesachsen oder Klangspuren wieder Rueckbindung findet.
 ```
-
-## Wie es weitergeht
-
-Als naechstes sollten die wiederkehrenden Kandidaten ueber eine weitere Weltgruppe verfolgt werden.
-Besonders relevant sind Knoten, die in neunter und zehnter Welt gleichzeitig als verlegte Mitte mit Rueckbindung erscheinen.

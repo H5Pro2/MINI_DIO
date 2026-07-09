@@ -87,7 +87,3 @@ Das ist fachlich wichtig. Eine zu harte Gl?ttung w?rde DOGE 5m und DOGE 1h fast 
 ## Grenze
 
 DOGE wurde als Spotwelt 2024/2025 gepr?ft. Extremere DOGE-Phasen, weitere Meme-/Rauschassets oder nicht-marktbasierte Kontrollwelten stehen noch aus.
-
-## Wie es weitergeht
-
-Als n?chstes ist eine gemeinsame Asset-F?rbungs-Synthese sinnvoll: PAXG als ruhiger Zentrumspol, DOGE als unruhigere offene F?rbung, BTC/SOL als bewegtere Kernwelten. Ziel ist zu pr?fen, ob sich daraus ein passiver Asset-/Weltcharakter im MCM-Feld lesen l?sst.

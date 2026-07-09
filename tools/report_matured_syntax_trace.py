@@ -160,10 +160,6 @@ def _write_markdown(path: Path, rows: list[dict[str, object]], summary: list[dic
             "",
             "Keine Handlung, keine Richtung, kein Gate. Diese Reifespur beschreibt nur Entwicklungsqualität im Feldgedächtnis.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als nächstes sollten diese nachgereiften Familien unter Stress geprüft werden. Entscheidend ist, ob sie belastbar bleiben oder wieder in junge, lokale Inseln zurückfallen.",
-            "",
         ]
     )
     path.parent.mkdir(parents=True, exist_ok=True)

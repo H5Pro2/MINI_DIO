@@ -155,24 +155,3 @@ Sie ist noch nicht in den Mini-DIO-Kern eingebaut.
 Das ist absichtlich so.
 
 Erst muss klar sein, welche Werte stabil tragen und welche nur Oberflaechenvarianz sind.
-
-## Wie es weitergeht
-
-Als naechstes sollte die organische Reizadaptation gegen weitere Welten geprueft werden.
-
-Die zentrale Frage:
-
-Bleiben Habituation, Sensitivierung und allostatische Feldlast stabil unterscheidbar, wenn neue Assets oder neue Weltabschnitte dazukommen?
-
-Wenn ja, kann daraus eine passive MCM-Vorstufe entstehen:
-
-```text
-Sehen / Hoeren / Weltreiz
-  -> organische Reizadaptation
-  -> MCM-Feldwirkung
-  -> Bedeutungsverdichtung
-```
-
-Diese Vorstufe darf nicht handeln.
-
-Sie darf nur helfen, Reiz, Hintergrund, Relevanz und Feldlast sauberer zu unterscheiden.

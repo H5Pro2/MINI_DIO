@@ -53,7 +53,3 @@ Das stützt die bisherige Trennung:
 Status: passiver Befund, keine Handlungslogik.
 
 Dieser Befund ist eine belastbarere Eingrenzung der zuvor beobachteten selektiven Offline-Feld-Reorganisation. Er zeigt eine schmale Übergangszone, in der ein vollständig rekoppelbares Feld in selektive Rekopplung kippt.
-
-## Wie es weitergeht
-
-Als nächstes sollte geprüft werden, welche konkrete Weltform in `1650-1700` die Selektivität auslöst: Tonlage, Randnähe, visuelle Kippform, Nachhalländerung oder Rollen-Co-Touch.

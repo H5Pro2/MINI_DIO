@@ -54,7 +54,3 @@ Damit ist die wahrscheinlichste Lesung: `dio_1un4` ist eine randnahe Spannungsbe
 ## Grenze
 
 Der Befund beschreibt passive Innenfeldreifung. Er ist keine Handlungsauswertung und keine Richtungslogik.
-
-## Wie es weitergeht
-
-Als naechstes sollte `dio_1un4` gegen seine haeufigsten Nachbarfamilien gelesen werden. Dann wird sichtbar, ob daraus eine Bruecke, eine Unterfamilie oder ein isolierter Randpunkt entsteht.

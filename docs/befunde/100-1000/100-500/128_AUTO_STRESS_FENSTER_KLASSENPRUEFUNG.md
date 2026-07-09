@@ -63,9 +63,3 @@ Damit wird Feldzeit als organische MCM-Eigenschaft plausibler: Zeit ist nicht nu
 Der Befund ist noch kein Beweis für eine allgemeine MCM-Topologie.
 Er ist ein reproduzierbarer Arbeitsbefund innerhalb der bisher getesteten MINI_DIO-Welten.
 Neue Welten können diese Kopplung bestätigen, erweitern oder brechen.
-
-## Wie es weitergeht
-
-Als nächstes sollte eine neue Welt gezielt gegen diese Kopplung geprüft werden.
-Konkrete Frage: Bleibt die ruhige Nähegruppe wiederkehrstark und memoryarm, während Stresswelten memorylastiger bleiben?
-Wenn ja, wird Feldzeit als Feldklassen-Eigenschaft deutlich belastbarer.

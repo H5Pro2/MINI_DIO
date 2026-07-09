@@ -70,7 +70,3 @@ Rand/Kipp bleibt kurze Spannungsnaehe.
 ```
 
 Das staerkt die Annahme, dass MINI_DIO hier keine reine Zeitframe-Artefaktik liest, sondern eine robuste MCM-Feldphasenordnung.
-
-## Wie es weitergeht
-
-Als naechstes sollten wir eine dritte Zeit-/Weltklasse pruefen: entweder sehr kurze 5m-Ausschnitte mit hoeherem Rauschen oder laengere 1h-Folgewelten. Ziel ist zu klaeren, ob Rand/Kipp unter veraenderter Weltlaenge kurz bleibt oder ob sich eine neue Brueckenrolle bildet.

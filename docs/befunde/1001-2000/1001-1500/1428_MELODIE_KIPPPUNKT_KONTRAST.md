@@ -91,7 +91,3 @@ Damit wird sichtbar, dass Mini-DIO nicht nur Einzelwerte liest, sondern zeitlich
 Das ist keine Aussage ueber Musikverstehen.
 
 Es ist eine passive MCM-Feldpruefung mit synthetischen Zeitfolgen. Gezeigt wird nur: Veraenderte zeitliche Ordnung kann im Feld als Nachbarschaft, Drift oder Dominanzwechsel erscheinen.
-
-## Wie es weitergeht
-
-Als naechstes sollte `1428` reproduziert werden. Wenn `dio_0eindxe` mit frischem Memory wieder dominant wird, ist der Kipppunkt reproduzierbar. Danach kann eine Zwischenwelt gebaut werden, um die Schwelle zwischen `1427` und `1428` genauer einzugrenzen.

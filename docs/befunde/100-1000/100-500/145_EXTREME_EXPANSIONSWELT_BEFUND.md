@@ -143,18 +143,3 @@ Ob sie tragend oder belastend wirkt, hängt von Rekopplung, Strain, Memorylast u
 Dieser Befund gilt zunächst für einen 1000-Zeilen-Ausschnitt.
 
 Die volle 10k-Welt sollte später mit höherem Timeout geprüft werden, wenn die Laufzeit dafür bewusst eingeplant wird.
-
-## Wie Es Weitergeht
-
-Als nächstes sollte eine weitere Expansionsart geprüft werden:
-
-```text
-positive recovery oder late positive.
-```
-
-Ziel:
-
-- bleibt die Kippachse stabil?
-- gibt es eine Erholungs-Expansion, die wieder ruhiger wird?
-- bildet sich zwischen ruhig_feldzeitnah und last_feldzeitnah eine Übergangsform?
-

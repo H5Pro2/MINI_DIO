@@ -151,10 +151,6 @@ def _write_md(rows: list[dict[str, object]], out_path: Path) -> None:
             "",
             "Die Stichprobe ist klein. `dio_0ly7` und `dio_01hu` sind robuste Kandidaten, aber noch keine feste Bedeutungsdefinition.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte diese Oeffnungs-Vorform gegen laengere 10k-Fenster gelesen werden. Entscheidend ist, ob die Entlastungsbewegung wiederkehrt oder nur aus den 5000er-Folgefenstern stammt.",
-            "",
         ]
     )
     out_path.parent.mkdir(parents=True, exist_ok=True)

@@ -103,5 +103,3 @@ Die Rohklassen sind Diagnoseklassen.
 Sie beschreiben keine Handlung und keine Entscheidung.
 
 Sie helfen nur, die Innenfeldwirkung auf konkrete Weltfenster zurueckzulesen.
-
-Wie es weitergeht: Als naechstes sollte geprueft werden, ob skalenabhaengige Folgen ueber mehrere Welten hinweg aehnliche Rohweltmerkmale tragen oder ob einzelne Assets diese Zwischenlage dominieren.

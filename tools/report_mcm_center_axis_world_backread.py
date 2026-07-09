@@ -208,9 +208,6 @@ def _write_md(path: Path, rows: list[dict[str, object]]) -> None:
             "wenn ihre beiden Knoten in Ereignissen und Uebergaengen wieder gekoppelt auftreten.",
             "```",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte diese Achse zeitlich lokalisiert werden: in welchen Tickbereichen und Weltphasen tritt sie gehauft auf?",
         ]
     )
     path.write_text("\n".join(lines), encoding="utf-8")

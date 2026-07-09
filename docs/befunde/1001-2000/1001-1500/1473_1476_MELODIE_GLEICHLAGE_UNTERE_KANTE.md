@@ -76,7 +76,3 @@ Zusammen mit `1470-1472` ergibt sich:
 Die Werte sind Pruefwerte, keine festen Regeln.
 
 Der Befund gilt fuer diese synthetische Melodiefamilie und `block_size 13`.
-
-## Wie es weitergeht
-
-Als naechstes sollte die gesamte Plateau-Struktur in einer zusammenfassenden Schwellenkarte dokumentiert werden: untere Randzone, Gleichlagenplateau, obere Kante und danach `dio_1fll`-Dominanz.

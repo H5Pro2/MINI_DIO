@@ -301,10 +301,6 @@ def write_md(
             "Das passt zur bisherigen MCM-Lesung:",
             "Bedeutung ist keine starre Benennung, sondern ein Feldprofil aus Wiederkehr, Kontext, Nachhall, Feldzeit und Anschluss.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als nächstes sollte aus diesen familiengenauen Profilen noch keine Handlung entstehen.",
-            "Sinnvoll ist eine passive Familien-Anschlusskarte im Memory: welche Familie in welchem Weltkontext eher kernnah, nachhallnah, offen oder nullnah wiederkehrt.",
         ]
     )
     OUT_MD.write_text("\n".join(lines) + "\n", encoding="utf-8")

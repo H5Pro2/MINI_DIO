@@ -55,7 +55,3 @@ Das ist eine passive Diagnose, keine Asset-Regel und keine Handlungsanweisung. D
 - `reports/asset_achsenvergleich_offen_vs_rekoppelnd_2025.csv`
 - `reports/asset_achsenvergleich_offen_vs_rekoppelnd_2025.md`
 - Grundlage: `reports/vier_asset_sequence_rawworld_contrast.csv`
-
-## Wie es weitergeht
-
-Als nächstes sollte geprüft werden, ob BTC, DOGE oder XRP in anderen Fenstern, Jahren oder Zeitmaßen ebenfalls rekoppelnde Breite ausbilden können oder ob PAXG in den bisherigen Prüfungen tatsächlich der stabilere rekoppelnde Pol bleibt.

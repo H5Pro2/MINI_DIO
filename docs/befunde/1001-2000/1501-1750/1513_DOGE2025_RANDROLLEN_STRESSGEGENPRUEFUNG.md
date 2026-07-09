@@ -95,14 +95,3 @@ Topologie bricht nicht.
 Dieser Lauf beweist nicht, dass `dio_14wj` unter jeder Stresswelt stabil bleibt.
 
 Er zeigt aber: Eine rauschigere DOGE-Welt reicht bisher nicht aus, um die Rolle in Randspannung zu drücken oder zu löschen.
-
-## Wie es weitergeht
-
-Als nächstes sollte eine gezielte synthetische Randdominanz oder Bruch/Rand-Welt gegen `dio_14wj` geprüft werden.
-
-Die konkrete Frage:
-
-```text
-Bleibt dio_14wj auch bei echter Randdominanz ruhige Rekopplungsnähe,
-oder entsteht dann eine neue Zwischenrolle zwischen ruhiger Rekopplung und Randbruch?
-```

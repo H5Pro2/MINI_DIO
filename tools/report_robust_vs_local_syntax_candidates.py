@@ -208,10 +208,6 @@ def _write_markdown(path: Path, rows: list[dict[str, object]], summary: list[dic
             "",
             "Keine Handlung, keine Richtung, kein Gate. Diese Karte ist eine passive Reife- und Reichweitenkarte der Feldsyntax.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als nächstes sollte geprüft werden, ob lokale starke Familien bei weiterer Weltzufuhr in `robuste_feldsyntax` übergehen oder ob sie asset-/weltgebundene Milieuinseln bleiben.",
-            "",
         ]
     )
     path.parent.mkdir(parents=True, exist_ok=True)

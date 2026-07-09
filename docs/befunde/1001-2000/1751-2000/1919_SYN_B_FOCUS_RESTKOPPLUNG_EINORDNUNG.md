@@ -63,7 +63,3 @@ Das stärkt die Lesung von `kern_ausgeblendet` als eigener Feldzustand mit Unter
 
 Auch diese Unterqualitäten bleiben passiv.
 Sie sind keine Handlung, kein Gate und keine Richtung.
-
-## Wie es weitergeht
-
-Als nächstes sollte die Restkopplung nicht nur gegen DOGE gelesen werden. Wir sollten dieselben B-Fokusfenster gegen einen anderen Hartkern-Träger prüfen, zum Beispiel SOL oder BTC. Dadurch sehen wir, ob die Restkopplung weltbedingt ist oder stark von der gewählten Hartkern-Brille abhängt.

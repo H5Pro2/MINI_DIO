@@ -26,7 +26,3 @@ Sie bleibt passiv: keine Handlung, kein Gate, keine Richtung.
 Wenn beide Jahre negative Hoer- und Spannungsdeltas halten, ist die Entlastungsform jahresuebergreifend sichtbar.
 
 Die Differenzen zeigen nicht, ob eine Familie `besser` ist. Sie zeigen nur, ob die Arbeitsform stabil, schwach driftend oder gebrochen wirkt.
-
-## Wie es weitergeht
-
-Als naechstes sollte dieselbe Vorform gegen 2023 oder synthetische Kontrollwelten gelesen werden.

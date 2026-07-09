@@ -78,5 +78,3 @@ Die Weltverteilung ist nicht perfekt balanciert.
 SOL ist haeufiger vertreten als die anderen Assets.
 
 Der Befund reicht daher fuer eine starke Arbeitshypothese, aber nicht fuer einen finalen Nachweis.
-
-Wie es weitergeht: Als naechstes sollte eine balancierte Assetpruefung erzeugt werden, bei der pro Asset gleich viele Zwischenlagenfenster gelesen werden.

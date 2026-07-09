@@ -29,7 +29,3 @@ Sie bleibt passiv: keine Handlung, kein Gate, keine Richtung.
 Sie werden als robuste Kandidaten gelesen, weil dieselbe Familienbewegung in mehreren Weltfenstern erneut erscheint.
 
 Die wichtige Frage ist, ob vor der Oeffnung eine gemeinsame Vorform liegt: moderate Range, Hoerprofil-Entlastung, stabile Feldspannung oder ein anderer wiederkehrender Zustand.
-
-## Wie es weitergeht
-
-Als naechstes sollten diese Vorfenster aggregiert werden: Gibt es eine gemeinsame Oeffnungs-Vorform fuer `dio_0ly7` und `dio_01hu`, oder sind es zwei getrennte Kandidaten?

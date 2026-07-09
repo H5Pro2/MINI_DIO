@@ -131,12 +131,6 @@ def _write_md(path: Path, rows: list[dict[str, str]]) -> None:
     lines.append("Damit wirkt die Zentrumsnaehe nicht nur indirekt durch stabile Inseln.")
     lines.append("Die Brueckenkerne selbst tragen bereits eine zentrumsnahe Rollenlage, unterscheiden sich aber in ihrer Anschlussfunktion.")
     lines.append("")
-    lines.append("## Wie es weitergeht")
-    lines.append("")
-    lines.append(
-        "Als naechstes sollte geprueft werden, ob Randpfade eigene Gegenkerne bilden oder ob sie nur kurzlebige Oberflaechen- und Austrittsphaenomene bleiben."
-    )
-    lines.append("")
 
     path.write_text("\n".join(lines), encoding="utf-8")
 

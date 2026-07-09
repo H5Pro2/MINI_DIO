@@ -91,7 +91,3 @@ MINI_DIO unterscheidet in der reinen Hoerwelt bereits:
 - anschliessende Rekopplung.
 
 Das ist fuer die weitere MCM-Forschung wichtig, weil es zeigt, dass die Hoerachse eine eigene Feldrolle tragen kann, ohne mit Sehen oder direktem Kontakt vermischt werden zu muessen.
-
-## Wie es weitergeht
-
-Als naechstes sollte diese Phasenruecklesung gegen die Desync-Teilwelten gelegt werden: Entsteht Rand/Kippnaehe dort aus Hoerimpuls allein oder erst aus Sinneswiderspruch zwischen stabiler Form und chaotischer Hoerachse?

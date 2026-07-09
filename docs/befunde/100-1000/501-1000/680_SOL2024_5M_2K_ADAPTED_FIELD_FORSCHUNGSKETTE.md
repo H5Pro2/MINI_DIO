@@ -48,7 +48,3 @@ Episodenzustaende:
 
 - Debug: `debug\adapted_field_sol_2024_5m_2k`
 - Memory: `bot_memory\adapted_field_sol_2024_5m_2k.json`
-
-## Wie es weitergeht
-
-Als naechstes sollte dieselbe Kette mit einer zweiten kontrollierten Welt laufen. Dabei wird geprueft, ob dieselben Familien stabil bleiben, ob neue Inseln entstehen oder ob vorhandene Bedeutungen driften.

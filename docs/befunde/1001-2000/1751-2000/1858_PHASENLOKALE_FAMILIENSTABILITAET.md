@@ -70,8 +70,3 @@ Der Bericht trennt zwei Fälle:
 
 Damit wird die passive Bedeutungsreife präziser. Eine Familie ist nicht nur ein Name und nicht nur eine Fensterrolle.
 Sie kann als lokaler Phasenanker gelesen werden, wenn sie unter mehreren Weltfenstern eine eigene Phasenqualität trägt.
-
-## Wie es weitergeht
-
-Als nächstes sollte geprüft werden, ob diese phasenlokal eigenständigen Familien über neue Weltfenster wiederkehren.
-Wichtig ist dabei nicht mehr nur `taucht der Name wieder auf`, sondern `taucht dieselbe lokale Phasenqualität wieder auf`.

@@ -103,13 +103,3 @@ Nicht jede Zunahme von Memory ist Stress.
 Nicht jede Zunahme von Kippnaehe ist Kollaps.
 Die Relation aus Stabilitaet, Rekopplung, Tragqualitaet und Memory entscheidet.
 ```
-
-## Wie Es Weitergeht
-
-Als naechstes sollte der Feldklassenreport verfeinert werden.
-
-Hierarchie:
-
-1. Grundfrage: Wann ist Memorydruck belastend, wann ist er Bedeutungsverdichtung?
-2. Unterpruefung: `field_carried`, dominante Wirkung und Rekopplung muessen in die Klassifikation staerker eingehen.
-3. Folgeschritt: Danach die 2k-Welten erneut klassifizieren, ohne neue Laeufe zu starten.

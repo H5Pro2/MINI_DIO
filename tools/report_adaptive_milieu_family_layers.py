@@ -270,9 +270,6 @@ def _write_md(rows: list[dict[str, object]], top_rows: list[dict[str, object]], 
             "Diese Diagnose beschreibt nur passive Milieu-Schichtung.",
             "Sie erzeugt keine Handlung und bewertet Offenheit nicht als Fehler.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes wird geprueft, ob gemeinsame Offen/Gereift-Familien in spaeteren Segmenten stabiler werden oder ob sie zwischen Offenheit und Reifung pendeln.",
         ]
     )
     out_path.write_text("\n".join(lines) + "\n", encoding="utf-8")

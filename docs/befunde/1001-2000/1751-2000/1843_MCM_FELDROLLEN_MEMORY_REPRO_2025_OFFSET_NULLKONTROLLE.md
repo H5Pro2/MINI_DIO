@@ -32,8 +32,3 @@ Bleibt der Realwelt-Vorsprung sichtbar, wenn BTC und SOL nicht am Jahresanfang, 
 
 Damit ist die bisherige Lesung vorsichtiger zu formulieren:
 Die Reifungsbahn bleibt sichtbar, aber die Trennung Realwelt/Nullwelt ist eine graduelle Feldqualität, kein harter Schnitt.
-
-## Wie es weitergeht
-
-Als nächstes sollte keine neue Mechanik eingebaut werden.
-Sinnvoll ist eine kompakte Gesamtübersicht aus 1841 bis 1843: was reproduziert, was nur graduell ist, und welche Aussage wissenschaftlich haltbar bleibt.

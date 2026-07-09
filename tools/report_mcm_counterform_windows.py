@@ -202,10 +202,6 @@ def _write_markdown(path: Path, rows: list[dict[str, object]], input_path: Path)
             "Gegenform: Rekopplung steigt zu schwach, faellt, oder Strain steigt erneut.",
             "```",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte diese Gegenform-Liste mit den direkten vorherigen Rollen gekoppelt werden, um zu sehen, ob bestimmte Vorrollen Nachlast beguenstigen.",
-            "",
         ]
     )
     path.parent.mkdir(parents=True, exist_ok=True)

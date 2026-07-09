@@ -339,10 +339,6 @@ def _write_md(rows: list[dict[str, object]], out_path: Path) -> None:
             "",
             "Kleine Achsendeltas sind hier nicht automatisch unwichtig. Wenn sie an echten Kanten wiederholt gleichgerichtet auftreten, koennen sie eine passive Feldbewegung anzeigen.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes werden die haeufigsten konkreten Uebergangspaare extrahiert, nicht nur Eintritt/Austritt pro Ziel-Familie.",
-            "",
         ]
     )
     out_path.write_text("\n".join(lines), encoding="utf-8")

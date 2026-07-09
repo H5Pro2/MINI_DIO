@@ -315,10 +315,6 @@ def _write_md(rows: list[dict[str, object]], summaries: list[dict[str, object]],
             "",
             "Diese Datei ist eine Messmatrix. Die fachliche Deutung wird nach der Pruefung ergänzt.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes wird bewertet, ob die offene Variante eine eigene stabile Bedeutungsnaehe zeigt oder nur Rand/Übergang zwischen Zentrum und Kippnaehe ist.",
-            "",
         ]
     )
     out_path.write_text("\n".join(lines), encoding="utf-8")

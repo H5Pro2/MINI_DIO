@@ -107,20 +107,3 @@ Strukturierte Ordnung fuehrt zu engerer Rollenbindung.
 ```
 
 Das ist kein endgueltiger Beweis, aber ein wichtiger Schritt weg von reiner Pareidolie.
-
-## Wie es weitergeht
-
-Als naechstes sollte ein echter Memory-Test folgen:
-
-```text
-Lauf A: frische Memory auf strukturierter Welt.
-Lauf B: gleiche Welt ohne Reset mit gewachsener Memory.
-Lauf C: verwandte Holdout-Welt mit derselben Memory.
-```
-
-Die konkrete Frage:
-
-```text
-Werden bestehende Bedeutungsrollen wiederverwendet und stabiler,
-oder entstehen trotz Memory wieder nur neue Zufallszeichen?
-```

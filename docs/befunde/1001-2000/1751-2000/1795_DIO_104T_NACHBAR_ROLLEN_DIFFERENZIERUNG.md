@@ -69,7 +69,3 @@ Eigenrolle = wiederkehrende Nachbarschaft mit stabiler Achsenabweichung.
 ```
 
 Damit wirkt der Bedeutungsraum wie ein differenziertes Feldnetz, nicht wie eine einzige breite Sammelfamilie.
-
-## Wie es weitergeht
-
-Als nächstes sollte eine Teilnetz-Prüfung die Rollen `asymmetrie_plus, kohaerenz_hoeher, sehen_schaerfer, asymmetrie_minus` getrennt lesen: Welche Rolle bindet Zentrum, Brücke, Rand oder Nachhall?

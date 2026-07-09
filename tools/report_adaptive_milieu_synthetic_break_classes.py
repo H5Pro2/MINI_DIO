@@ -169,8 +169,6 @@ def _write_md(path: Path, rows: list[dict[str, object]], source: Path) -> None:
     lines.append("")
     lines.append(f"- `{source.as_posix()}`")
     lines.append("")
-    lines.append("## Wie es weitergeht")
-    lines.append("")
     if is_pair_report:
         lines.append(
             "Als naechstes sollte die Zweierkopplung direkt gegen Einzelachsen und volle Dreierlast "

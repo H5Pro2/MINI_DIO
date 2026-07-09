@@ -90,7 +90,3 @@ Damit ist ein Teil der bisherigen Weltunterschiede moeglicherweise Wahrnehmungsp
 
 Diese Diagnose bewertet nur die Informationsaufnahme.
 Sie entscheidet nicht, welche Topologie wahr ist und sie erzeugt keine neue Feldwirkung.
-
-## Wie es weitergeht
-
-Als naechstes sollte ein weltrelativer Wahrnehmungsadapter entworfen werden: jede Welt wird zuerst gegen ihren eigenen Rhythmus, ihre eigene Lautstaerke und ihre eigene Formspannung gelesen, bevor Werte in das MCM-Feld gehen.

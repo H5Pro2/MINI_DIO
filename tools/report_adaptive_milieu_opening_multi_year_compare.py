@@ -112,11 +112,6 @@ def write_md(path: Path, rows: list[dict[str, str]], sources: list[tuple[str, Pa
     for year, source in sources:
         lines.append(f"- {year}: `{source.as_posix()}`")
     lines.append("")
-    lines.append("## Wie es weitergeht")
-    lines.append("")
-    lines.append(
-        "Als naechstes sollte dieselbe Vorform gegen synthetische Kontrollwelten gelesen werden."
-    )
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 

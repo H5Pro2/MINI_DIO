@@ -37,7 +37,3 @@ in anderen Weltfenstern oder Quellen.
 
 Wenn eine visuelle Form ueber mehrere Quellen wiederkehrt, wird sie als passive Bedeutungsgrundlage staerker.
 Wenn sie nicht wiederkehrt, bleibt sie eine lokale oder situationsgebundene Form.
-
-## Wie es weitergeht
-
-Als naechstes sollte die wiederkehrende Gruppe nach Stabilitaet sortiert werden: welche Formen sind robust, welche nur situationsbedingt?

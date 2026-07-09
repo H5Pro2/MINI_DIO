@@ -174,10 +174,6 @@ def write_md(rows: list[dict[str, str]]) -> None:
             "",
             "Damit entsteht eine saubere Trennung: Feldlage kann breit wiederkehren, Preview-Symbol kann mehrweltlich sein, aber Rollenkeim entsteht erst durch zusätzliche Kopplungsqualität.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als nächstes sollten nur die rekoppelnden oder nachhallenden Anker als Kandidatenliste isoliert werden. Danach kann geprüft werden, ob diese Kandidaten bei neuen Welten nicht nur wieder auftauchen, sondern die Feldtopologie messbar vertiefen.",
-            "",
         ]
     )
     OUT_MD.write_text("\n".join(lines), encoding="utf-8")

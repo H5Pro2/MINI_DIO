@@ -129,9 +129,6 @@ def build_report() -> None:
             "Spezifischer sind die Rollen-/Preview-Verschiebungen und die leicht hoehere Rekopplung der Shiftfenster.",
             "Damit liegt die relevante Information nicht im blossen Stabilitaetslabel, sondern in der Feldrolle und der lokalen Symbolkopplung.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte geprueft werden, ob die Shift-spezifischen Preview-Symbole vor oder nach dem Fenster weitertragen. Das klaert, ob der Shift nur ein lokaler Kontakt ist oder eine kurze Uebergangsspur im Feld hinterlaesst.",
         ]
     )
     OUT_MD.write_text("\n".join(lines) + "\n", encoding="utf-8")

@@ -81,5 +81,3 @@ Welche Sinneshaltung hat in welcher Weltlage getragen?
 Welche Sinneshaltung hat Rand/Kipp verstaerkt?
 Welche Sinneshaltung hat Zentrum/Rekopplung stabilisiert?
 ```
-
-Wie es weitergeht: Als naechstes sollte eine kleine passive `receptor_adaptation_memory` entstehen. Sie speichert nicht Regeln, sondern Folgen der Sinneshaltung auf die Feldordnung.

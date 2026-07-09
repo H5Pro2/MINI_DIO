@@ -104,7 +104,3 @@ Sie beschreiben passive Innenfeld-Semantik:
 - Rekopplung,
 - offene Fortsetzung,
 - seltene Kippnaehe.
-
-## Wie es weitergeht
-
-Als naechstes sollte geprueft werden, ob `dio_mcm_episode_183drjy`, `dio_mcm_episode_02xikfk` und `dio_mcm_episode_1t5bcxp` in neuen Welten wieder dieselbe Kontaktqualitaet tragen. Das waere ein wichtiger Reproduktionstest fuer die entstehende MCM-Feld-Episodensprache.

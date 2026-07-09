@@ -300,10 +300,6 @@ def _write_md(rows: list[dict[str, object]], worlds: list[dict[str, object]], ou
             "",
             "Diese Datei ist eine Messmatrix. Die fachliche Deutung muss aus den Rollenwerten abgeleitet werden.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes werden die auffaelligen Unterschiede zwischen `NEG_STRESS_2023` und `NEG_STRESS_2024` verdichtet.",
-            "",
         ]
     )
     out_path.write_text("\n".join(lines), encoding="utf-8")

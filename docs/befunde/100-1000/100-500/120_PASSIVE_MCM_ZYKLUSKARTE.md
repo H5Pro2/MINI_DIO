@@ -209,25 +209,3 @@ Das ist eine wichtige Stufe:
 
 Von passiver Topologie
 zu passiver Feldkinematik.
-
-## Wie es weitergeht
-
-Grundfrage:
-
-Sind diese Zyklen nur haeufig,
-oder tragen sie unterschiedliche Qualitaet?
-
-Unterpruefung:
-
-Zyklen nach Carry,
-Strain,
-Rekopplung
-und Weltpraesenz bewerten.
-
-Folgeschritt:
-
-Passive Zyklus-Reife pruefen:
-Welche Zyklen wirken stabil,
-welche offen,
-welche belastet,
-welche reorganisierend?

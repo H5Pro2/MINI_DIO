@@ -331,9 +331,6 @@ def _write_markdown(
     lines.extend(
         [
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte geprueft werden, ob diese Randfamilie unter laengerer Folgewelt driftet, stabilisiert oder in eine eigene Bedeutungsinsel ausreift.",
         ]
     )
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")

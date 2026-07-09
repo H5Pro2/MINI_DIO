@@ -98,13 +98,3 @@ Der aktuelle Befund reicht nur für:
 ```text
 Kandidatenstatus.
 ```
-
-## Wie es weitergeht
-
-Als nächstes sollten diese fünf Kandidaten gegen neue reale Folgewelten geprüft werden.
-Entscheidend ist:
-
-- bleiben sie gemischt,
-- kippen sie zu `realworld_bound`,
-- fallen sie zurück zu `field_internal_null_order`,
-- oder verschwinden sie.

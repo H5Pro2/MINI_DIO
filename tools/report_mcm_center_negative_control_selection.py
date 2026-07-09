@@ -144,9 +144,6 @@ def build_report(per_type: int = 12) -> None:
         f"- Kontrolltypen: {sorted(counts.items())}",
         f"- Lagefolgen: {sorted(sequences.items())}",
         "",
-        "## Wie es weitergeht",
-        "",
-        "Als naechstes wird diese Auswahl durch Rohwelt-, Rollen- und Nachhallpipeline gelesen.",
     ]
     OUT_MD.write_text("\n".join(lines) + "\n", encoding="utf-8")
 

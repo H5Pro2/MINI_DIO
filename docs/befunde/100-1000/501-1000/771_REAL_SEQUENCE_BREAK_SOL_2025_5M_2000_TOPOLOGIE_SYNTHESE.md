@@ -209,7 +209,3 @@ Das ist fachlich wichtiger als reine Stabilitaet:
 Ein lebendiges MCM-Feld muss nicht alles beruhigen.
 Es muss Weltspannung tragen koennen, ohne seine Ordnung zu verlieren.
 ```
-
-## Wie es weitergeht
-
-Als naechstes sollte ein reales ruhiges Gegenfenster aus derselben Quelle extrahiert werden. Ziel: pruefen, ob MINI_DIO innerhalb desselben Assets/Jahres zwischen ruhiger Feldzeit und belasteter Sequenzbruch-Feldzeit sauber unterscheidet.

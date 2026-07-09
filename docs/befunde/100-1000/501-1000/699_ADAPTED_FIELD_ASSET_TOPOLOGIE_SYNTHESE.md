@@ -86,7 +86,3 @@ adaptierte Aufnahme = MCM-Feldwirkung
 ```
 
 Damit sind die Befunde ab `683` die fachlich relevante Linie fuer die aktuelle MCM-Rezeptorarchitektur.
-
-## Wie es weitergeht
-
-Als naechstes sollte eine laengere ruhige Welt gegen eine laengere Stress-/Expansionswelt gelegt werden. Ziel ist nicht mehr nur Assetvergleich, sondern die Frage, ob die gleiche Rollenordnung unter Zeitdehnung, Dauerlast und ruhiger Wiederkehr stabil bleibt.

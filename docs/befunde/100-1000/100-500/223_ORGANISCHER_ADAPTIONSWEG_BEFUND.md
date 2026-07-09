@@ -112,17 +112,3 @@ Sondern:
 `Welche Art von Anpassung brauche ich, damit diese Weltwirkung tragbar bleibt?`
 
 Das waere der Schritt von reiner Wahrnehmung zu organischer Selbstanpassung.
-
-## Wie es weitergeht
-
-Als naechstes sollte diese Adaptionswahrnehmung in die Forschungsstruktur aufgenommen werden:
-
-1. Adaptionsachsen als passive Innenfeld-Merkmale dokumentieren.
-2. pruefen, ob dieselben Achsen ueber neue Welten stabil wiederkehren.
-3. danach entscheiden, ob diese Achsen in den MINI_DIO-Kern als passive Feldzustandslesung wandern.
-
-Keine Handlung.
-Kein Gate.
-Keine harte Bevorzugung einer Welt.
-
-Nur: bessere Wahrnehmung der eigenen Anpassungsnotwendigkeit.

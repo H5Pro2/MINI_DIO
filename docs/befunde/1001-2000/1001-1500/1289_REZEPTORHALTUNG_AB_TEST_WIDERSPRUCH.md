@@ -21,5 +21,3 @@ Der Test veraendert keinen Runtime-Code, schreibt keine Handlung und erzeugt kei
 Ein sinnvoller Effekt waere: weniger Rand/Kipp oder weniger Strain ohne starken Verlust von Zentrum/Rekopplung.
 
 Ein problematischer Effekt waere: starke Veraenderung der Rollenverteilung oder kuenstlich geglaettete Wahrnehmung.
-
-Wie es weitergeht: Wenn B die Feldordnung nur leicht beruhigt, kann die Rezeptorhaltung als passive Option weitergefuehrt werden. Wenn B die Topologie stark verschiebt, bleibt sie vorerst nur Diagnose.

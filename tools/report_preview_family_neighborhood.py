@@ -327,10 +327,6 @@ def _write_md(rows: list[dict[str, object]], out_path: Path) -> None:
             "",
             "Die Achsendeltas sind absichtlich klein gelesen. Entscheidend ist nicht ein einzelner Sprung, sondern ob Druck, Schaerfe oder Rekopplung wiederholt beim Eintritt oder Austritt der Familie kippen.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes werden aus dieser Matrix stabile Uebergangspaare extrahiert, also wiederkehrende Folgen wie Familie A -> Familie B mit aehnlicher Feldwirkung.",
-            "",
         ]
     )
     out_path.write_text("\n".join(lines), encoding="utf-8")

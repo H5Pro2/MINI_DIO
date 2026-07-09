@@ -64,7 +64,3 @@ Das ist eine passive Diagnose. Sie beschreibt Feldmilieu und Anschlussqualität,
 - `reports/btc_doge_xrp_2025_1h_sequence_rawworld_contrast_groups.csv`
 - `reports/btc_doge_xrp_2025_1h_asset_summary.csv`
 - `reports/btc_doge_xrp_2025_1h_asset_summary.md`
-
-## Wie es weitergeht
-
-Als nächstes sollte das BTC-1h-Rekopplungsfenster gegen Nachbarfenster und gegen 15m/30m geprüft werden. Ziel ist zu klären, ob dort eine stabile zeitmaßnahe Rekopplungszone liegt oder nur ein einzelner lokaler Treffer.

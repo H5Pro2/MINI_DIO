@@ -88,14 +88,3 @@ MINI_DIO braucht visuelle Feldhygiene:
 
 Das ist kein Entry-System.
 Es ist Wahrnehmungsordnung.
-
-## Wie es weitergeht
-
-Als naechstes wird die visuelle Feldkopplung gebaut:
-
-1. Sehzustand gegen MCM-Feldlast legen,
-2. Sehzustand gegen Rekopplung legen,
-3. pruefen, ob visuelles Rauschen wirklich entlastet,
-4. pruefen, wann Alarmform in Feldlast kippt.
-
-Danach kann Hoeren + Sehen + Fuehlen multisensorisch verglichen werden.

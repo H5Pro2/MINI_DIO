@@ -215,7 +215,6 @@ def _write_markdown(world_summaries: list[dict[str, object]], transition_rows: l
             "",
             "Wenn Rand/Kipp ohne vorherige Offenheit kommt, entsteht die Randnaehe direkter aus Rohaufnahme, Lautheit und schwacher Rekopplung.",
             "",
-            "Wie es weitergeht: Die naechste Pruefung sollte die direkten `Offen -> Rand` und `Rand -> Offen` Segmente als kleine Zeitfenster plotten.",
         ]
     )
     out.write_text("\n".join(lines) + "\n", encoding="utf-8")

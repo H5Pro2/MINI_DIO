@@ -170,9 +170,6 @@ def _write_markdown(path: Path, summaries: list[dict[str, object]], delta: dict[
             "",
             f"Diese Synthese vergleicht {len(summaries)} kleine Weltgruppen. Sie ist ein robuster Hinweis fuer diese Testauswahl, aber keine allgemeine Statistik ueber alle moeglichen Welten.",
             "",
-            "## Wie es weitergeht",
-            "",
-            next_step,
         ]
     )
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")

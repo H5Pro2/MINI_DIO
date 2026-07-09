@@ -76,7 +76,3 @@ Der Kippunterschied liegt in der Weltphase:
 Die gemeinsame Achse wirkt wie ein Feldkanal, der verschiedene Weltphasen tragen kann.
 Mini-DIOs MCM-Lesung sollte deshalb nicht nach Richtung, sondern nach Rollenqualitaet gelesen werden:
 Welche Art von Kopplung entsteht an derselben Achse unter welcher Weltspannung?
-
-## Wie es weitergeht
-
-Als naechstes sollte diese Achse gegen echte Chartsegmente geplottet werden: gleiche Achse, vier Lesarten, direkte Sicht auf die Weltfenster.

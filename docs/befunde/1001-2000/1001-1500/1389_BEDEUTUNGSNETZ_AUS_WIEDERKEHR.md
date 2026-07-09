@@ -56,7 +56,3 @@ Es traegt wiederkehrende innere Naehe.
 
 Diese Netzschicht ist eine passive Diagnose.
 Sie darf nicht als Motorik, Gate, Handlung oder Strategie gelesen werden.
-
-## Wie es weitergeht
-
-Als naechstes sollte diese Netzschicht ueber neue Welten erneut aufgebaut werden. Entscheidend ist, ob starke Knoten wieder auftauchen, sich teilen oder neue Nachbarschaften bilden.

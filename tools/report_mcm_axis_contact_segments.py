@@ -229,9 +229,6 @@ def _write_md(path: Path, axis_label: str, rows: list[dict[str, object]], max_ro
             "Sie besitzt lokale Kontaktsegmente, in denen Weltlage, MCM-Wirkung und Rollennaehe zusammenfallen.",
             "```",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte geprueft werden, welche dieser Kontaktsegmente reproduzierbar wiederkehren und welche nur situationsbedingt auftreten.",
         ]
     )
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")

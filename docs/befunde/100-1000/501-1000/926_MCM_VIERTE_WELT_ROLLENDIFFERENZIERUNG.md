@@ -77,7 +77,3 @@ Geprueft wird nicht, ob ein Token exakt gleich bleibt, sondern ob die vierte Wel
 Die vierte Landschaft wirkt nicht wie eine reine Wiederholung.
 Ein Teil der Rollenbewegungs-Memory wird getragen, ein Teil wird umgebaut, und ein Teil taucht als neue vierte-Welt-Insel auf.
 Damit wird `dio_role_*` als passive Rollenbewegung lesbar: nicht starre Klasse, sondern Feldverlauf mit Tragen, Drift, Entlastung und neuer Verdichtung.
-
-## Wie es weitergeht
-
-Als naechstes sollte die Reorganisationsgruppe isoliert werden: Welche Sinnes-/Feldachsen kippen dort zuerst, und ob diese Kippung eine neue Bedeutungsinsel vorbereitet oder nur Entlastung ist.

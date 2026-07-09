@@ -67,7 +67,3 @@ Die Rollen wirken nicht wie starre Namen, sondern wie Feldqualitaeten:
 Damit wird die Topologie nicht widerlegt, sondern feiner:
 
 Es gibt nicht nur Zentrum, Bruecke, Rand und Kippnaehe, sondern innerhalb stabiler Bereiche unterschiedliche rekoppelte Unterrollen.
-
-## Wie es weitergeht
-
-Als naechstes sollte eine andere Asset-Welt geprueft werden, ob diese Geschwisterrollen assetuebergreifend bleiben oder ob `dio_14wj` nur in SOL-artigen Welten stabil wiederkehrt.

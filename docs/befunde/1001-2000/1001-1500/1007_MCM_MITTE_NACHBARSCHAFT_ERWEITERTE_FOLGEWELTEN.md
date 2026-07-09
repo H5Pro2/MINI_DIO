@@ -35,7 +35,3 @@ Damit ist die Mitte-Nachbarschaft eher eine verlegte Feldrolle als ein fixer Tok
 - `1t5bcxp` traegt die zentrumsnahe Stabilisierungsseite.
 - In `ZEHNTE_STRESSWELT` bleibt die Beziehung erhalten, obwohl die Zone von `1t5bcxp` in Richtung Rekopplung wandert.
 - Die alte Mitte ist damit nicht verloren, sondern funktional in eine neue Weltlage verschoben.
-
-## Wie es weitergeht
-
-Als naechstes sollte diese Achsenbeziehung gegen eine neue, andersartige Folgewelt gelesen werden. Ziel ist zu pruefen, ob `183drjy <-> 1t5bcxp` stabil bleibt, sich erneut verlagert oder nur als Uebergangsbruecke zwischen zwei Feldphasen wirkte.

@@ -43,7 +43,3 @@
 Mehrweltliche Preview-Anker sind nicht automatisch Rollenkeime. Ein Teil wirkt nur als Oberflächenanker. Interessant werden sie dort, wo Profilanteil, Nachhall, Rekurrenz und Rekopplung gemeinsam tragen.
 
 Damit entsteht eine saubere Trennung: Feldlage kann breit wiederkehren, Preview-Symbol kann mehrweltlich sein, aber Rollenkeim entsteht erst durch zusätzliche Kopplungsqualität.
-
-## Wie es weitergeht
-
-Als nächstes sollten nur die rekoppelnden oder nachhallenden Anker als Kandidatenliste isoliert werden. Danach kann geprüft werden, ob diese Kandidaten bei neuen Welten nicht nur wieder auftauchen, sondern die Feldtopologie messbar vertiefen.

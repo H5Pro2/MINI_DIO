@@ -272,10 +272,6 @@ def write_md(summary: list[dict[str, object]], quality_rows: list[dict[str, obje
             "Wenn die phasenlokale Qualität deutlich von der Fensterqualität abweicht, ist das kein Fehler, sondern ein Hinweis auf mehrdimensionale Feldlesung:",
             "Fenster, Familie und Phase tragen nicht automatisch dieselbe Bedeutung.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als nächstes sollte geprüft werden, welche Familien phasenlokal stabil bleiben und welche nur durch die Fensterqualität mitgezogen wurden.",
-            "Daraus lässt sich eine sauberere passive Bedeutungsreife ableiten: Familie + Phase + Nullwelt-Abstand statt Familie + Fenster allein.",
         ]
     )
     OUT_MD.write_text("\n".join(lines) + "\n", encoding="utf-8")

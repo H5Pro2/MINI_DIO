@@ -79,7 +79,3 @@ Fuer die Entwicklung von DIO bedeutet das:
 - Rollenklassen duerfen nicht zu grob sein.
 - Eine aktive Rekopplungsrolle kann kompakt, offen, visuell beansprucht oder staerker getragen sein.
 - Memory sollte spaeter nicht nur `aktive_rekopplung` speichern, sondern auch Profilqualitaet: kompakt, offen, visuell beanspruchend, stark getragen, schwach getragen.
-
-## Wie es weitergeht
-
-Als naechstes sollte ein kompakter Klassenvergleich zwischen `0hvxln3`, `14sn1ov`, `1yxc2ug` und `0hiolzy` erstellt werden. Damit entsteht eine erste Rollenmatrix: Milieuinsel vs. aktive Rekopplung und deren Unterformen.

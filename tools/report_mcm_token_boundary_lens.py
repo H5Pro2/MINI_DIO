@@ -192,10 +192,6 @@ def _write_markdown(summary_rows: list[dict[str, object]], out: Path) -> None:
             "Die Grenzlupe ist die saubere Nachbarschaftspruefung.",
             "Lange Selbstphasen werden nicht mehr als triviale Selbstnachbarschaft gezaehlt, sondern als Segment mit Eintritt und Austritt gelesen.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollten Driftlupe, Segmentlupe und Grenzlupe zu einer Klassifikation verbunden werden: stabile Insel, rekoppelnder Pfad, offene Drift oder Randpfad.",
-            "",
         ]
     )
     out.write_text("\n".join(lines), encoding="utf-8")

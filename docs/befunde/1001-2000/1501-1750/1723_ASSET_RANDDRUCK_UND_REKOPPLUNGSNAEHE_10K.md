@@ -128,9 +128,3 @@ die Randdruck-Lupe fuer lokale Druckqualitaet.
 ```
 
 Beide Diagnosen sollten zusammen gelesen werden.
-
-## Wie es weitergeht
-
-Als naechstes sollte die 5m/1h-Differenz fuer PAXG genauer rueckgelesen werden.
-Entscheidend ist, welche Weltabschnitte Daempfung erhoehen und Rekopplung
-reduzieren.

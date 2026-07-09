@@ -129,7 +129,3 @@ Er zeigt eine Kopplung aus höherer Rohweltbewegung, größerer Range, erhöhter
 Fachlich gelesen heißt das: MINI_DIO reagiert nicht nur auf Bewegung, sondern auf eine Belastungskombination aus Weltunruhe und Innenfeld-Rekopplungsverlust.
 
 Die Diagnose bleibt passiv. Sie beschreibt, welche Abschnitte Last tragen; sie entscheidet nicht, was MINI_DIO tun soll.
-
-## Wie es weitergeht
-
-Als nächstes sollte eine neue Stresswelt gegen diese Abschnittsmerkmale geprüft werden. Entscheidend ist, ob der Stress-Gegenpol wieder aus derselben Kombination entsteht oder ob ein anderer Belastungstyp sichtbar wird.

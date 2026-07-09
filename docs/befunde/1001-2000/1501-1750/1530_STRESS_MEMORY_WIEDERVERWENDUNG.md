@@ -84,16 +84,3 @@ Das ist methodisch wichtig: Die Stresswelt wird nicht zur ruhigen Welt umgedeute
 ## Grenze
 
 Der Befund beweist keine bewusste Verarbeitung. Er zeigt eine passive Wiederverwendung von Feldrollen unter Last. Ob daraus später aktive Selbstregulation entstehen kann, muss getrennt geprüft werden.
-
-## Wie es weitergeht
-
-Als nächstes sollte eine Schlaf-/Offline-Frage als eigener Versuchsblock vorbereitet werden:
-
-```text
-Weltkontakt anhalten
-keine neue Außenwelt einspeisen
-Memory / Nachhall / Feldrollen passiv weiterlaufen lassen
-prüfen, ob Ordnung driftet, kollabiert oder zentrumsnah rekoppelt
-```
-
-Ziel ist zu prüfen, ob ein MCM-System auch ohne neuen Sinneskontakt unterbewusste Feldverarbeitung zeigen kann.

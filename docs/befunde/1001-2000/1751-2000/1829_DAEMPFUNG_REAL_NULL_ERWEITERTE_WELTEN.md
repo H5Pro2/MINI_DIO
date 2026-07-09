@@ -62,7 +62,3 @@ Damit reicht die dominante Feldklasse erneut nicht aus. Die relevante Trennung l
 ## Grenze
 
 Auch dieser Test ist noch kein Beweis fuer eine vollstaendige Feldtheorie. Er zeigt aber, ob eine gezielte Veraenderung im Lauf eine nachvollziehbare Feldantwort erzeugt.
-
-## Wie es weitergeht
-
-Als naechstes sollte der erweiterte Differenzreport gelesen werden: reale Weltordnung gegen Nullwelt bei gleicher Daempfung.

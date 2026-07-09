@@ -124,20 +124,3 @@ Nicht jede komplexe Deutung ist automatisch real.
 Aber hier gibt es messbare Unterschiede,
 die gegen eine reine Pareidolie-Erklaerung sprechen.
 ```
-
-## Wie es weitergeht
-
-Als naechstes muss der echte Memory-Test folgen:
-
-```text
-Lauf A: frische Memory auf 1525.
-Lauf B: 1525 erneut ohne Reset.
-Lauf C: verwandte Holdout-Welt mit derselben Memory.
-```
-
-Die konkrete Frage:
-
-```text
-Wird Feldzeit stabiler, weil MINI_DIO vorhandene Bedeutungsrollen wiederverwendet,
-oder entstehen trotz Memory wieder neue Symbolinseln?
-```

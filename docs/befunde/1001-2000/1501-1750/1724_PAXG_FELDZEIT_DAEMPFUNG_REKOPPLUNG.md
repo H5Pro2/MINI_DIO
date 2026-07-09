@@ -120,9 +120,3 @@ bessere Trennung von Kontaktverlust und gedämpfter Kopplung
 
 Damit ist die aktuelle Richtung fachlich staerker als eine einfache
 Topologieklasse.
-
-## Wie es weitergeht
-
-Als naechstes sollte geprueft werden, ob diese gedämpfte Rekopplung bei PAXG
-auch in 2025 oder in anderen Zeitfenstern wieder erscheint. Dann kann getrennt
-werden zwischen assettypischer Feldqualität und einmaligem Weltabschnitt.

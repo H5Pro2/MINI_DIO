@@ -31,5 +31,3 @@ Wenn die Zwischenlagen danach weiter aehnliche Rohklassen und Sinneswerte tragen
 Wenn einzelne Assets stark abweichen, ist die Zwischenlage eher weltgebunden.
 
 Die Auswertung bleibt passiv. Sie erzeugt keine Handlung, keine Richtung und keine Steuerung.
-
-Wie es weitergeht: Als naechstes sollte der balancierte Befund gegen die unbalancierte Verteilung aus `1313` bewertet werden.

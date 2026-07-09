@@ -115,7 +115,6 @@ def _write_md(image_rows: list[dict[str, str]], out: Path) -> None:
             "",
             "Die Chartfenster sind keine Strategieauswertung. Sie dienen nur dazu, Feldrollen an sichtbare Weltform zurueckzubinden.",
             "",
-            "Wie es weitergeht: Die Bildfenster sollten gegen Sinneswerte gelesen werden: Offenheit als Uebergangsraum, Rand/Kipp als hohe Aufnahme plus schwache Rekopplung.",
         ]
     )
     out.write_text("\n".join(lines) + "\n", encoding="utf-8")

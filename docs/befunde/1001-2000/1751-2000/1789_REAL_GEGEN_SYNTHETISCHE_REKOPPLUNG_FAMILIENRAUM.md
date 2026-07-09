@@ -90,7 +90,3 @@ Die Familienzählung ist eine passive Diagnose. Sie sagt nicht, dass viele Famil
 - `memory/multiworld_axis_map/PAXG_2025_FOLLOW_3000_4000/`
 - `memory/multiworld_axis_map/SYN1787_BASE_TO_FOLLOW/`
 - `memory/multiworld_axis_map/SYN1788_BASE_TO_FOLLOW/`
-
-## Wie es weitergeht
-
-Als nächstes sollte geprüft werden, ob die realen Kernfamilien `dio_104t`, `dio_0l7p`, `dio_155c`, `dio_0m9z` und `dio_14wj` nur häufig sind oder ob sie unterschiedliche Feldrollen tragen.

@@ -52,7 +52,3 @@ Das ist keine endgültige Asset-Aussage. Der Befund gilt für die geprüften sp�
 - `reports/btc_doge_xrp_2025_late_sequence_rawworld_contrast_groups.csv`
 - `reports/btc_doge_xrp_2025_late_asset_summary.csv`
 - `reports/btc_doge_xrp_2025_late_asset_summary.md`
-
-## Wie es weitergeht
-
-Als nächstes sollte ein anderes Jahr oder ein anderes Zeitmaß für BTC/DOGE/XRP geprüft werden. Ziel ist zu klären, ob rekoppelnde Breite dort grundsätzlich möglich ist oder ob sie bisher besonders an PAXG-nahe Weltmilieus gebunden bleibt.

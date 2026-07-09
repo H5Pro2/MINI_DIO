@@ -49,7 +49,3 @@ lokale Dämpfungsphasen ohne Topologiebruch
 ```
 
 Der wichtigste neue Punkt ist die Feldzeit-Tiefe: längere Fenster machen offene Varianten sichtbarer, ohne dass das Feld kollabiert oder in Randdominanz kippt.
-
-## Wie es weitergeht
-
-Als nächstes sollte eine andere Welt mit ähnlicher Länge geprüft werden, vorzugsweise KAS oder BTC. Ziel ist zu klären, ob lange Feldzeit allgemein offene Varianten sichtbarer macht oder ob dies besonders PAXG-typisch ist.

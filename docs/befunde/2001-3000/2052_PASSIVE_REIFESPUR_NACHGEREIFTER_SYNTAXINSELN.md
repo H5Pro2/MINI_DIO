@@ -65,7 +65,3 @@ Diese Spur ist für MINI_DIO wichtig, weil Entwicklung dadurch nicht binär gele
 ## Grenze
 
 Keine Handlung, keine Richtung, kein Gate. Diese Reifespur beschreibt nur Entwicklungsqualität im Feldgedächtnis.
-
-## Wie es weitergeht
-
-Als nächstes sollten diese nachgereiften Familien unter Stress geprüft werden. Entscheidend ist, ob sie belastbar bleiben oder wieder in junge, lokale Inseln zurückfallen.

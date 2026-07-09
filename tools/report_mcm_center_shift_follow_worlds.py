@@ -179,10 +179,6 @@ def _write_md(path: Path, rows: list[dict[str, object]]) -> None:
             "Mitte kann sich als Feldrolle verlagern.",
             "```",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollten die neuen Top-Zentrumsknoten einzeln gegen ihre Rohwelt- und Sinnesachsen zurueckgelesen werden.",
-            "Dann wird sichtbar, ob die Verlagerung eine echte neue Feldmitte oder nur Oberflaechennaehe ist.",
         ]
     )
     path.write_text("\n".join(lines), encoding="utf-8")

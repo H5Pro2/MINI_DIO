@@ -63,7 +63,3 @@ Diese Karte kann spaeter als passives Vergleichssystem dienen:
 - Wird aus einfacher Randnaehe eine gespannte Randnaehe?
 
 Wichtig: Die Karte soll nicht handeln. Sie soll die Wahrnehmungstiefe erhoehen.
-
-## Wie es weitergeht
-
-Als naechstes sollte geprueft werden, ob diese Randrollen in neuen Welten wieder auftauchen oder ob sie sich teilen, verschieben oder zu neuen Rollen verbinden.

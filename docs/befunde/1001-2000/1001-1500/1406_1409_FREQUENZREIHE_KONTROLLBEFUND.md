@@ -63,7 +63,3 @@ Staerker wirkt derzeit:
 Dieser Befund ist passiv.
 
 Er zeigt eine Innenfeldreaktion, keine Handlung, keine Strategie und keine Zielentscheidung.
-
-## Wie es weitergeht
-
-Als naechstes sollte nicht nur die Wechselrate, sondern die Rhythmusform variiert werden: regelmaessiger Wechsel, unregelmaessiger Wechsel, Blockwechsel und Schwingungswechsel. Entscheidend ist, ob `tragend_unruhig` eher durch Rate oder durch rhythmische Form entsteht.

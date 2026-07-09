@@ -215,9 +215,6 @@ def main() -> None:
         "Der Holdout prueft nicht, ob Mini-DIO eine alte Tabelle kopiert.",
         "Entscheidend ist, ob neue Weltfenster in die Naehe vorhandener Feldrollen fallen.",
         "",
-        "## Wie es weitergeht",
-        "",
-        "Als naechstes sollte nicht nur mehr Rauschen geprueft werden. Entscheidend ist die Kombination aus Range, Wechselrate, Tonverdichtung und Rezeptoraufnahme: dort liegt vermutlich die Schwelle, ab der stabile Oberflaechenvarianz in echte Spannungsnaehe kippt.",
     ]
     OUT_MD.write_text("\n".join(lines) + "\n", encoding="utf-8")
 

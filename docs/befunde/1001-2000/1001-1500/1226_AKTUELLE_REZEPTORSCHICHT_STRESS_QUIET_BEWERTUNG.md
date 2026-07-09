@@ -102,8 +102,3 @@ sondern zeigt die vorhandene MCM-Feldordnung klarer.
 ```
 
 Damit wird die Feldphasenordnung als Arbeitsmodell weiter gestuetzt.
-
-## Wie es weitergeht
-
-Als naechstes sollte dieselbe aktuelle Rezeptorpruefung auf 1h-Welten laufen. Dann sehen wir, ob die Feldphasenordnung nur auf 5m-Weltspannung sauber sichtbar ist oder auch bei groberer Zeitaufloesung erhalten bleibt.
-

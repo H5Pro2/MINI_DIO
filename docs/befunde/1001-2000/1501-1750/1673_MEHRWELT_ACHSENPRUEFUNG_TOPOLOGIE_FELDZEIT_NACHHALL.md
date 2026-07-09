@@ -191,7 +191,3 @@ Sie zeigt:
 - keine bewusste Auswahl.
 
 Sie zeigt aber, dass mehrere passive Achsen gemeinsam lesbare Feldordnung bilden.
-
-## Wie es weitergeht
-
-Als nächstes sollte ein kompakter Mehrwelt-Report automatisiert werden, der diese vier Achsen pro Welt direkt aus neuen Läufen ausgibt. Dadurch können spätere Welten schneller gegen Topologie, Feldzeit, Nachhall und Rollenbreite geprüft werden.

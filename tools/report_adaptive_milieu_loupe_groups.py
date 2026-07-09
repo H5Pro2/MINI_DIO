@@ -155,10 +155,6 @@ def _write_md(rows: list[dict[str, object]], out_path: Path) -> None:
             "Weltgetriebener Wechsel: veraenderte Range, Hoeren oder Feldspannung faerbt die Familie um.",
             "```",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollten die `milieu_umlagert_nahe`-Familien gegen andere Assetfenster geprueft werden. Wenn sie dort wiederkehren, sind sie staerkere Kandidaten fuer robuste innere Milieu-Bewegung.",
-            "",
         ]
     )
     out_path.parent.mkdir(parents=True, exist_ok=True)

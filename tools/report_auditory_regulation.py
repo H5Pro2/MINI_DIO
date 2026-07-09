@@ -285,10 +285,6 @@ def _write_markdown(rows: list[dict], out_path: Path) -> None:
             "Eine organische Hoerachse kann erklaeren, warum eine Welt aktiv bleibt, ohne sofort zu binden:",
             "MINI_DIO kann hinhoeren, genauer hinhoeren, Hintergrund halten, Rauschen filtern oder Reizwirkung abklingen lassen.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes wird der Befund geschrieben.",
-            "Dort wird geprueft, welche Hoerzustande bei SOL 5m gegen SOL 30m/1h und Stresssegmente dominieren.",
         ]
     )
     out_path.write_text("\n".join(lines) + "\n", encoding="utf-8")

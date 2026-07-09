@@ -155,25 +155,3 @@ Zielraum
 + Zugangsdynamik
 + Uebergangsqualitaet
 ```
-
-## Wie es weitergeht
-
-Grundfrage:
-
-Kann Mini-DIO aus Zielraum, Rolle, Zugangsdynamik
-und Uebergangsqualitaet
-eine kompakte passive Topologie-Matrix bilden?
-
-Unterpruefung:
-
-Alle bisherigen Ebenen zusammenfuehren:
-
-- Zielraumrolle
-- Rollenstabilitaet
-- Uebergangshinweis
-- Uebergangsqualitaet
-- Symbolanteile
-
-Folgeschritt:
-
-Passive MCM-Topologie-Matrix konsolidieren.

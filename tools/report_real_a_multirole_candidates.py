@@ -253,10 +253,6 @@ def _write_md(rows: list[dict[str, object]], path: Path) -> None:
             "",
             "Das ist eine Kandidatenkarte, kein Beweis. Sie nutzt vorhandene Laeufe und erzeugt keine neue Handlung.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte aus SOL-Mehrrollenfeld, BTC-Uebergangsfeld und PAXG/KAS-Einzelrekopplung eine Klassensynthese gebaut werden. Entscheidend ist, ob sich daraus eine stabile Abstufung der MCM-Feldnaehe ergibt.",
-            "",
         ]
     )
     path.write_text("\n".join(lines), encoding="utf-8")

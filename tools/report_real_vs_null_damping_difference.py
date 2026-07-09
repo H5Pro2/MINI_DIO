@@ -279,10 +279,6 @@ def _write_md(
             "",
             "Der Report vergleicht nur die 1827-Welten. Fuer eine belastbarere Aussage muessen weitere reale und synthetische Welten mit derselben Differenzlogik gelesen werden.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte diese Differenzlogik auf weitere Null-, Ruhe-, Stress- und Assetwelten angewendet werden. Entscheidend ist, ob Bedeutungsbreite und adaptive Rekopplung dauerhaft besser trennen als die dominante Feldklasse.",
-            "",
         ]
     )
     path.write_text("\n".join(lines), encoding="utf-8")

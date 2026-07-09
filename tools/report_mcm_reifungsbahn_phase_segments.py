@@ -185,9 +185,6 @@ def _write_md(segment_rows: list[dict[str, object]], transition_rows: list[dict[
             "- Reife entsteht auch aus haltbarer Drift.",
             "- Brückenbildung zeigt sich dort, wo Familien über Phasen erhalten bleiben, aber ihre Feldqualität verschieben.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als nächstes sollten die Familien mit hoher Phasenbindung einzeln gelesen werden: Welche Familien bleiben Kern, welche wandern an den Rand und welche bilden Brückenrollen?",
         ]
     )
     OUT_MD.write_text("\n".join(lines) + "\n", encoding="utf-8")

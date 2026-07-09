@@ -99,7 +99,3 @@ Damit wird Feldzeit als Verdichtungsraum konkreter:
 - [1586 Weltarten 500er Fenster](1586_FELDKLASSEN_FENSTERSUCHE_WELTARTEN_500.md)
 - [1584 Weltarten 1000er Fenster](1584_FELDKLASSEN_FENSTERSUCHE_WELTARTEN.md)
 - [1587 Weltarten 2000er Fenster](1587_FELDKLASSEN_FENSTERSUCHE_WELTARTEN_2000.md)
-
-## Wie es weitergeht
-
-Als naechstes sollte der 2000er-Mehrrollen-Kandidat `SYNTH_RAND_KIPP start0` reproduziert werden. Ziel: pruefen, ob diese Mehrrollennaehe bei frischem Lauf wieder auftaucht oder nur aus einem einmaligen langen Schnitt entstanden ist.

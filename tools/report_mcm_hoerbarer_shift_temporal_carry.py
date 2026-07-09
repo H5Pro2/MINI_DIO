@@ -172,9 +172,6 @@ def build_report(input_path: Path = INPUT, csv_out: Path = OUT_CSV, md_out: Path
             "",
             "Wichtig: Auch wenn das Top-Symbol wechselt, kann die Feldfunktion weitertragen. Deshalb sind Rekopplung, Strain und Rollenfolge wichtiger als reine Namensgleichheit.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte die Nachhallspur rollenbezogen gelesen werden: Brueckenfenster, Randdruck und Zentrumskontakt getrennt vergleichen, statt alle Shiftfenster zusammenzufassen.",
         ]
     )
     md_out.write_text("\n".join(lines) + "\n", encoding="utf-8")

@@ -130,7 +130,3 @@ Sie zeigt für die geprüften synthetischen Welten:
 Kontrast kann mittlere Übergangsbreite reproduzieren,
 aber verteilte Rekopplung entsteht daraus noch nicht automatisch.
 ```
-
-## Wie es weitergeht
-
-Als nächstes sollte nicht einfach mehr Struktur eingebaut werden. Sinnvoller ist eine gezielte Welt, die mehrere lokale Kontrastpakete mit genug Abstand enthält. Ziel ist zu prüfen, ob mehrere getrennte mittlere Übergangsphasen sich später zu rekoppelnder Rollenbreite verbinden oder weiterhin lokal bleiben.

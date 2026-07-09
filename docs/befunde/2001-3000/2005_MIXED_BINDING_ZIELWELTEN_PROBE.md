@@ -69,7 +69,3 @@ Sie zeigt, ob ein Symbol im aktuellen Mehrwelt-Kontext eher als Milieuinsel, akt
 
 Die Weltbindungsqualität ergänzt diese Lesung um Herkunft: realweltlich gebunden, nullweltlich/feldintern, synthetisch oder gemischt.
 Damit bleibt die Qualität feldbezogen statt namensfixiert und Feldordnung wird nicht automatisch als Realweltbindung gelesen.
-
-## Wie es weitergeht
-
-Als nächstes sollten Realwelt- und Nullweltläufe mit frischer Memory getrennt geprüft werden. Entscheidend ist, ob die Feldfunktion ähnlich entstehen darf, die Weltbindungsqualität aber sauber unterscheidet.

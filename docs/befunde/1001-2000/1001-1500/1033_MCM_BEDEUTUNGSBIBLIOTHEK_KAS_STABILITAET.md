@@ -73,7 +73,3 @@ Die passive Bedeutungsbibliothek wird in der KAS-Holdout-Gruppe nicht geschlosse
 ## Schluss
 
 KAS bestaetigt die Bibliothek nicht breit. Die meisten Formen bleiben in dieser Gegenprobe offen; nur die schmale Transition wird duenn wiedergefunden. Gleichzeitig erscheint `rekopplung_nach_abverkauf` als starke Erweiterung ausserhalb der aktuellen Bibliothek.
-
-## Wie es weitergeht
-
-Als naechstes sollte `rekopplung_nach_abverkauf` als moegliche neue KAS-nahe Erweiterungsform isoliert gelesen werden, ohne sie vorschnell zur festen Bedeutung zu erklaeren.

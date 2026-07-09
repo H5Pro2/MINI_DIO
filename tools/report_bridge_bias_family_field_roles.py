@@ -216,9 +216,6 @@ def _write_md(rows: list[dict[str, object]], roles: list[dict[str, object]], out
             "Sie beweisen noch keine autonome Bedeutungsentscheidung von MINI_DIO.",
             "Stark ist aber: Die gleichen Biasfamilien lassen sich nicht nur zaehlen, sondern auch feldqualitativ unterscheiden.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte geprueft werden, ob diese Feldrollen in einer neuen Welt erneut auftreten oder ob sie unter anderer Weltspannung in andere Rollen kippen.",
         ]
     )
     out.parent.mkdir(parents=True, exist_ok=True)

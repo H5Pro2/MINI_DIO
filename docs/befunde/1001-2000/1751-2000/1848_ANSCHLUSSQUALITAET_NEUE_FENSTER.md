@@ -72,8 +72,3 @@ Fachlich bedeutet das:
 Die passive Anschlussqualität sollte nicht aus einem einzigen Bericht gelesen werden.
 Sie sollte mehrere Quellen bündeln und als breite Innenfeldbeschreibung tragen.
 Dadurch wird die Feldrollen-Memory robuster, ohne daraus eine Steuerung zu machen.
-
-## Wie es weitergeht
-
-Als nächstes sollte die Feldrollen-Memory die Anschlussqualität aus `1846` und `1848` gemeinsam lesen.
-Ziel ist eine passive Mehrquellen-Anschlusskarte, keine neue Handlungsschicht.

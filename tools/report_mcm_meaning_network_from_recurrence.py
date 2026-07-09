@@ -274,9 +274,6 @@ def build_report() -> None:
         "Diese Netzschicht ist eine passive Diagnose.",
         "Sie darf nicht als Motorik, Gate, Handlung oder Strategie gelesen werden.",
         "",
-        "## Wie es weitergeht",
-        "",
-        "Als naechstes sollte diese Netzschicht ueber neue Welten erneut aufgebaut werden. Entscheidend ist, ob starke Knoten wieder auftauchen, sich teilen oder neue Nachbarschaften bilden.",
     ]
     OUT_MD.write_text("\n".join(lines) + "\n", encoding="utf-8")
 

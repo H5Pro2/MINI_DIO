@@ -159,7 +159,3 @@ Sondern:
 Welche Familien tragen die ruhige Rekopplungsrolle je Welt?
 Welche davon sind lokal, welche weltuebergreifend, welche zeitebenenstabil?
 ```
-
-## Wie es weitergeht
-
-Als naechstes sollte eine Rollenbibliothek fuer `ruhige_rekopplung` aufgebaut werden. Diese Bibliothek liest nicht ein einzelnes `dio_*`-Zeichen, sondern sammelt Familien, die wiederholt niedrige Kontaktlast, hohe Rekopplung, stabile Wirkung und tragenden Nachhall zeigen.

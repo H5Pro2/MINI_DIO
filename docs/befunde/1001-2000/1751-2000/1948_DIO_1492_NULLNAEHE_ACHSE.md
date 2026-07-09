@@ -78,7 +78,3 @@ Das ist für Mini-DIO wichtig, weil damit Bedeutung nicht nur als Punkt entsteht
 - eine Rolle kann punktuell sein,
 - eine Rolle kann zonal sein,
 - eine Rolle kann achsenförmig über Zeit/Feldphase laufen.
-
-## Wie es weitergeht
-
-Als nächstes sollte geprüft werden, ob solche Achsen auch in der Rollen-Netzwerkstruktur sichtbar werden: also ob `dio_1492` nicht nur phasenlokal stabil ist, sondern auch stabile Nachbarschaften und Brücken zu anderen Familien bildet.

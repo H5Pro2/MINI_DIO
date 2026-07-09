@@ -73,7 +73,3 @@ Das ist eine passive Diagnose aus BTC 2025. Sie beschreibt keine Handlung und ke
 - `reports/btc_2025_rekopplungszonen_matrix.csv`
 - `reports/btc_2025_rekopplungszonen_matrix.md`
 - `reports/btc_2025_rekopplungszonen_treffer.csv`
-
-## Wie es weitergeht
-
-Als nächstes sollte geprüft werden, ob diese BTC-Matrix auf PAXG-Rekopplungsfenster übertragbar ist. Ziel ist zu klären, ob PAXG und BTC dieselbe rekoppelnde Signatur tragen oder ob PAXG eine andere Form von Rückbindung zeigt.

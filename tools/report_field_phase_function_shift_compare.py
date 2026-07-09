@@ -190,9 +190,6 @@ def _write_markdown(path: Path, rows: list[dict[str, object]], title: str, label
             "",
             "Damit wird die Topologie nicht als starre Karte gelesen, sondern als dynamisches Bedeutungsnetz: gleiche Signatur, mögliche andere Rolle.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als nächstes sollte geprüft werden, welche konkreten Weltmerkmale die Feldfunktionswechsel auslösen. Relevant sind besonders Signaturen, die zwischen `active_recoupling`, `milieu_island` und `open_surface` wechseln.",
         ]
     )
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")

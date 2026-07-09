@@ -97,7 +97,3 @@ Damit wird die Sleep-/Offline-Schicht als diagnostische Reorganisationsspur konk
 - [1587 Weltarten 2000er Fenster](1587_FELDKLASSEN_FENSTERSUCHE_WELTARTEN_2000.md)
 - [1588 Fensterbreite und Feldklassen-Verdichtung](1588_FENSTERBREITE_UND_FELDKLASSEN_VERDICHTUNG.md)
 - [1589 SYNTH_RAND_KIPP 2000 Mehrrollen-Repro](1589_SYNTH_RAND_KIPP_2000_MEHRROLLEN_REPRO.md)
-
-## Wie es weitergeht
-
-Als naechstes sollte eine andere 2000er-Uebergangswelt reproduziert werden, zum Beispiel `RUHIG_SIDEWAYS_2026 start6000` oder `EXPANSION_POSITIV_2023 start2000`. Ziel: pruefen, ob selektive Sleep-Reaktivierung typisch fuer synthetische Rand-/Kipp-Welten ist oder allgemein bei langen Uebergangsfenstern auftritt.

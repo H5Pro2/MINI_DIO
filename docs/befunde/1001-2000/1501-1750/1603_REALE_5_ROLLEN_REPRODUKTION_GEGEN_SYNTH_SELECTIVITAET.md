@@ -42,7 +42,3 @@ Damit wird Offline-Reorganisation als Feldqualitaet lesbar, nicht als reine Meng
 ## Grenze
 
 Die Stichprobe ist klein. Drei reale 5-Rollen-Fenster gegen ein synthetisches 5-Rollen-Fenster reichen fuer eine starke Arbeitshypothese, aber nicht fuer einen stabilen allgemeinen Nachweis.
-
-## Wie es weitergeht
-
-Als naechstes sollten reale Fenster mit hohem Nachhall und synthetische Fenster mit niedrigerem Nachhall gesucht werden. Ziel ist zu trennen, ob die Selektivitaet aus Nachhall, Rand-/Kippnaehe oder der konkreten synthetischen Weltphase entsteht.

@@ -345,9 +345,6 @@ def _write_markdown(path: Path, rows: list[dict[str, object]], grouped: list[dic
             "",
             "Die Rohwelt-Energie ist eine passive Lesegroesse aus OHLCV. Sie ist keine Regel, kein Gate und keine Handlungslogik.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als nächstes sollte geprüft werden, ob diese Trennung auch in anderen Jahren oder synthetischen Welten sichtbar bleibt.",
         ]
     )
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")

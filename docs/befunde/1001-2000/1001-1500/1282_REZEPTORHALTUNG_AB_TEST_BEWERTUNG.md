@@ -80,5 +80,3 @@ Gesucht wird:
 - sinkt Rand/Kipp ohne kuenstliche Glaettung?
 - bleiben Zentrum und Rekopplung erhalten?
 - entstehen neue Mischrollen nur dort, wo die Weltspannung es begruendet?
-
-Wie es weitergeht: Die Rezeptorhaltung bleibt vorerst passiv-diagnostisch. Der naechste Schritt ist ein Reproduktionslauf mit neuen Welten, bevor daraus eine echte Aufnahmefaehigkeit im Kern wird.

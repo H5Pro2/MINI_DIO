@@ -96,5 +96,3 @@ Haltung angewendet
 Feldfolge beobachtet
 Lage stabil / driftend / kippend / entlastend
 ```
-
-Wie es weitergeht: Als naechstes sollte die Weltlagen-Memory nicht nur Mittelwerte, sondern Lagefolgen speichern. Dann sieht Mini-DIO, ob eine Lage ruhig bleibt, driftet, in Rand/Kipp geht oder in Rekopplung zurueckfindet.

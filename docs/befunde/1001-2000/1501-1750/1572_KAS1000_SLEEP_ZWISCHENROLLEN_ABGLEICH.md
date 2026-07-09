@@ -71,7 +71,3 @@ Sie brauchen eine MCM-Feldlage, die mehrere Rollen gleichzeitig oder nahe genug 
 Dieser Befund gilt fuer das kontrollierte 1000-Zeilen-Fenster.
 
 Eine laengere KAS-Welt oder ein anderer KAS-Ausschnitt kann weiterhin Kombinationsrollen bilden.
-
-## Wie es weitergeht
-
-Als naechstes sollte die Welt-Entwicklungsreichtum-Diagnose gegen die reale Sleep-Kombinationsbildung gelegt werden. Entscheidend ist, welche Weltmerkmale nicht nur Bewegung erzeugen, sondern tatsaechlich mehrrollige MCM-Feldnaehe.

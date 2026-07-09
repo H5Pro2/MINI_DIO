@@ -217,10 +217,6 @@ def _write_markdown(path: Path, rows: list[dict[str, object]], input_path: Path,
             "",
             "Die kleinste Assetgruppe bestimmt die strenge Gleichverteilung. Dadurch ist diese Diagnose methodisch sauberer, aber kleiner.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte ein zweiter balancierter Lauf mit mehr Rohfenstern pro Asset erzeugt werden, statt nur aus der vorhandenen 1251-Auswahl zu ziehen.",
-            "",
         ]
     )
     path.parent.mkdir(parents=True, exist_ok=True)

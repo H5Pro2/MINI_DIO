@@ -87,7 +87,3 @@ Es fehlt mindestens:
 - intermittierender Bruch,
 - Bruch mit Ruhephase,
 - Bruch ohne Lautstaerkeanstieg.
-
-## Wie es weitergeht
-
-Als naechstes sollte ein Zentrumbruch gegen einen Randbruch getestet werden. Ziel ist zu pruefen, ob MINI_DIO die Lage des Bruchs im Weltverlauf als eigene Feldqualitaet liest.

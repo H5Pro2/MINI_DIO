@@ -151,22 +151,3 @@ sondern zunehmend:
 Das ist relevant fuer eine organische MCM-Regulation,
 weil Regulation nicht nur auf Momentwerte reagieren darf,
 sondern die Bewegung eines Innenfeldes verstehen muss.
-
-## Wie es weitergeht
-
-Grundfrage:
-
-Sind diese Phasen nur um Drift und Uebergang sichtbar,
-oder besitzt auch das Zentrum eine eigene Vorlauf-/Ruecklaufstruktur?
-
-Unterpruefung:
-
-Zentrum nicht als statische Mitte behandeln,
-sondern Fenster um starke Zentrumspunkte lesen.
-
-Folgeschritt:
-
-Passive Zentrum-Phasendynamik pruefen:
-Was stabilisiert Zentrum,
-was verlaesst Zentrum,
-und was kehrt zu Zentrum zurueck?

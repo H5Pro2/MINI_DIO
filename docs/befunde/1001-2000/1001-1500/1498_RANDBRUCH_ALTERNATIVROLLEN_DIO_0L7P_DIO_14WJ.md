@@ -55,7 +55,3 @@ MINI_DIO trennt in dieser Pruefung mindestens drei Randbruchqualitaeten:
 3. `dio_14wj`: gespanntere beidseitige Randspannung.
 
 Das ist ein wichtiger Befund fuer die MCM-Topologie: Rand ist kein einzelner Bereich. Rand kann fokussiert, beobachtend, nachhallend oder verschoben-spannungsnah gelesen werden.
-
-## Wie es weitergeht
-
-Als naechstes sollte eine kleine Randrollenkarte gebaut werden: `dio_1wdik71`, `dio_0l7p` und `dio_14wj` gegen Nachhall, Beobachtung, Fokus, stabile Feldwirkung und carried_unrest.

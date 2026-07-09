@@ -100,15 +100,3 @@ Der wichtige Punkt:
 
 Keine Sinnesachse soll allein dominieren.
 Eine Weltlage wird erst dann fachlich interessant, wenn Sehen, Hoeren und Fuehlen zusammen eine tragende oder belastende Kopplung bilden.
-
-## Wie es weitergeht
-
-Als naechstes wird eine multisensorische Kopplungsdiagnose sinnvoll:
-
-1. Hoeren gegen Sehen legen.
-2. Beide gegen MCM-Feldlast legen.
-3. Pruefen, ob SOL 5m deshalb harmonisch wirkt, weil Hoeren und Sehen gemeinsam gut rekoppeln.
-4. Pruefen, ob SOL 1h/Stress deshalb schwerer wirkt, weil Hoerlast und Sehlast gleichzeitig feldnah binden.
-
-Diese Diagnose bleibt passiv.
-Sie erzeugt keine Handlung und keine Regel.

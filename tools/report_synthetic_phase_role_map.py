@@ -188,7 +188,6 @@ def write_outputs(phase_rows: list[dict[str, object]], phase_roles: dict[str, Co
     lines.append("## Befund")
     lines.append("Die Diagnose zeigt, ob die synthetisch gesetzten Weltphasen unterschiedliche Innenfeldrollen auslösen oder ob das Feld sie trotz Bruchstruktur zentrumsnah integriert.")
     lines.append("")
-    lines.append("Wie es weitergeht: Die Phasenmatrix sollte gegen harmonische und Bruch-/Randwelt verglichen werden, um zu prüfen, ob die Rollenverschiebung wirklich phasengebunden ist.")
     out.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 

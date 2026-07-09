@@ -33,5 +33,3 @@ Sie bleibt passiv: keine Handlung, keine Richtung, kein Gate.
 `oberflaeche_veraendert` erscheint bisher als Oberflaechen-/Range-Verschiebung: die dominante Folge kann gleich bleiben, aber Range und teilweise Hoeren/Sicht veraendern die Faerbung.
 
 `hoerbarer_schmaler_folgeschift` bleibt ein einzelner starker BTC-Befund aus `1325`: Hoeren, Sicht und Druck steigen, Range sinkt deutlich. Dieser Typ ist noch nicht reproduziert.
-
-Wie es weitergeht: Als naechstes sollte gezielt eine Weltgruppe mit hoher Hoer-/Sichtzunahme und sinkender Range gebaut oder ausgewaehlt werden, um zu pruefen, ob `hoerbarer_schmaler_folgeschift` wiederholbar ist.

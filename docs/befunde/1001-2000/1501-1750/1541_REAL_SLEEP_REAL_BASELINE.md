@@ -49,8 +49,3 @@ Diese Baseline ist noch kein Nachweis fuer schlafbedingtes Lernen.
 Sie trennt aber die drei Ebenen: erste Weltberuehrung, entkoppelte Feldaktivitaet, zweite Weltberuehrung.
 Damit ist der naechste Schritt sauber messbar: Schlaf darf spaeter begrenzt Memory-Reorganisation schreiben,
 und die zweite Weltberuehrung kann gegen diese Baseline verglichen werden.
-
-## Wie es weitergeht
-
-Als naechstes wird dieselbe Kette mit aktiver, aber klar begrenzter Sleep-Memory-Reorganisation vorbereitet.
-Dann pruefen wir, ob im Schlaf beruehrte Rollen im zweiten Real-Lauf stabiler, klarer oder driftender wieder auftauchen.

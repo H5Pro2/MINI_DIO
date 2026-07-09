@@ -71,7 +71,3 @@ Diese Prüfung zeigt einen Folgeabschnitt, aber noch keine vollständige Jahresb
 - [paxg_2025_holdout_shift_compare.md](../../../../reports/paxg_2025_holdout_shift_compare.md)
 - [paxg_2025_shift1_topology.md](../../../../reports/paxg_2025_shift1_topology.md)
 - [paxg_2025_shift1_randdruck.md](../../../../reports/paxg_2025_shift1_randdruck.md)
-
-## Wie es weitergeht
-
-Als nächstes sollte geprüft werden, ob die Dämpfungszunahme im Folgefenster lokal bleibt oder sich in einem längeren PAXG-2025-Gesamtfenster bestätigt.

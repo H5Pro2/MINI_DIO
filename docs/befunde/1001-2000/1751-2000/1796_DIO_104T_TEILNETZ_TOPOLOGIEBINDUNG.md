@@ -30,7 +30,3 @@ Quelle: `reports/dio_104t_neighbor_role_differentiation.csv`
 ## Vorsicht
 
 Diese Lesung ist eine passive Diagnose aus vorhandenen Achsenwerten. Sie ist kein Gate, keine Handlung und keine fest programmierte Topologie.
-
-## Wie es weitergeht
-
-Als nächstes sollte geprüft werden, ob diese Teilnetz-Lesungen in weiteren Kernfamilien ähnlich entstehen oder ob `dio_104t` eine besondere Anschlussrolle trägt.

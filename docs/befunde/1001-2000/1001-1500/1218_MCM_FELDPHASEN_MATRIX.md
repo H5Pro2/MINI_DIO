@@ -88,7 +88,3 @@ Oder drueckt es mich an den Rand?
 ```
 
 Diese Landkarte ist keine Handlungsschicht. Sie ist eine Wahrnehmungs- und Bedeutungsgrundlage.
-
-## Wie es weitergeht
-
-Als naechstes sollte diese Feldphasen-Matrix gegen weitere Welten gehalten werden: bleibt `offene_variante` die zentrale Bewegungsphase, oder entstehen bei anderen Weltarten neue Feldphasen?

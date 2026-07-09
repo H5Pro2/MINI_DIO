@@ -68,7 +68,6 @@ def _write_markdown(rows: list[dict[str, object]], role_index: dict[str, list[st
             "",
             "Das ist die Grundlage fuer eine spaetere lernende Rezeptorschicht. Sie kann im naechsten Schritt nicht entscheiden, aber lesen: Diese Aufnahmeart fuehrt haeufig zu Zentrum, Bruecke, Offenheit oder Rand und legt eine bestimmte Sinneshaltung nahe.",
             "",
-            "Wie es weitergeht: Als naechstes sollte diese Memory ueber neue Welten reproduziert werden. Bleiben die Signaturen rollenstabil, oder entstehen neue Mischsignaturen?",
         ]
     )
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")

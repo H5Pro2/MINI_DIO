@@ -137,10 +137,6 @@ def write_md(rows: list[dict[str, str]]) -> None:
             "",
             "Organisch gelesen: Mini-DIO hat breite wiederkehrende Oberflächenzeichen, aber diese Zeichen bleiben zu wenig an eigene Nachhalltiefe und Rekurrenz gebunden.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als nächstes kann eine sanfte organische Erweiterung vorbereitet werden: Preview-Anker sollen nicht härter bewertet werden, sondern eine eigene Tiefenspur bekommen, wenn sie über mehrere Welten wiederkehren und zugleich Profilnähe tragen.",
-            "",
         ]
     )
     OUT_MD.write_text("\n".join(lines), encoding="utf-8")

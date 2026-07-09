@@ -57,7 +57,3 @@ Damit wird die Benennung `unruhige_spannungsnaehe` fuer die alte Rolle `weite_we
 ## Grenze
 
 Dieser Befund beschreibt passive Feldlesung. Er ist keine Handlungslogik und keine Umbenennung im Code.
-
-## Wie es weitergeht
-
-Als naechstes sollte eine mittelruhige Welt mit mehr Drift, aber weiterhin wenig Richtungswechsel geprueft werden. Ziel ist die Schwelle zwischen offener Nachbarschaft und Spannungsnaehe.

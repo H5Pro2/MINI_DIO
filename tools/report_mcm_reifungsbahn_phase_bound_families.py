@@ -205,9 +205,6 @@ def _write_md(rows: list[dict[str, object]]) -> None:
             "Eine sinnvolle organische Erweiterung waere eine passive `Feldrollen-Memory`: Familien speichern nicht nur Haeufigkeit, sondern ihre Reifungsbewegung ueber Phasen.",
             "Das wuerde MINI_DIO erlauben, Feldintelligenz nicht als Regel, sondern als gewachsene Rollenkenntnis zu tragen.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte geprueft werden, ob eine passive Feldrollen-Memory aus diesen Bewegungsprofilen aufgebaut werden kann, ohne Handlung oder harte Gates einzufuehren.",
         ]
     )
     OUT_MD.write_text("\n".join(lines) + "\n", encoding="utf-8")

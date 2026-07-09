@@ -645,7 +645,6 @@ def _write_markdown(
             "",
             "Die Kennzahlen duerfen nicht als Strategie, Entry-Signal, Richtungsvorgabe oder Handlungsgate verwendet werden. Auch eine konsistente Familie bleibt eine passive Feldbedeutung.",
             "",
-            "Wie es weitergeht: Die neuen Folgeweltbefunde sollten als naechstes als weitere numerische Evidenzschicht in die passive Rollenfamilien-Memory rueckgekoppelt werden.",
             "",
         ]
     )

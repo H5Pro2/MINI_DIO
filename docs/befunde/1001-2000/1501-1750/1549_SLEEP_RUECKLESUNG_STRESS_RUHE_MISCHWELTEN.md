@@ -98,7 +98,3 @@ Das stuetzt die Arbeitsrichtung:
 Nicht jede gespeicherte Spur wird wieder aktiv.
 Aktiv wird, was zur aktuellen Feldlage erneut Anschluss findet.
 ```
-
-## Wie es weitergeht
-
-Als naechstes sollte die Ruecklesung nicht nur zaehlen, ob Rollen reaktiviert werden, sondern wie sich ihre Qualitaet veraendert: klarer, driftender, belasteter, ruhiger oder rekopplungsnaeher.

@@ -45,7 +45,3 @@
 Die Oberflächlichkeit entsteht nicht durch ein kollabiertes Feld. Rekopplung ist meist tragfähig und Strain bleibt niedrig. Das Problem liegt eher darin, dass die Preview-Symbole zu breit über stabile Feldwirkung verteilt sind und der spezifische Profilanteil zu dünn bleibt.
 
 Damit ist die nächste organische Verbesserung nicht mehr Feldstärkung allgemein. Sie muss die Differenzierung vertiefen: ein Anker soll nicht häufiger werden, sondern spezifischer an Nachhall, Rekurrenz und Profilnähe koppeln.
-
-## Wie es weitergeht
-
-Als nächstes muss geprüft werden, ob Nachhall und Rekurrenz grundsätzlich zu flach skaliert sind oder ob nur diese Preview-Anker keine spezifische Tiefe tragen. Erst danach wäre eine organische Vertiefung sinnvoll.

@@ -46,7 +46,3 @@ Weltform-Zone + korrekt gelesene Hartkern-Brille -> Verlauf der Passungsqualitä
 ```
 
 Damit bekommt die passive Memory mehr Tiefe: Nicht nur eine Weltlage trägt oder trägt nicht, sondern eine Zone kann unterschiedliche Trageformen ausbilden.
-
-## Wie es weitergeht
-
-Als nächstes sollte die Familienkontinuität geprüft werden: Welche Familien tragen über mehrere Nachbarfenster hinweg, und welche tauchen nur lokal auf?

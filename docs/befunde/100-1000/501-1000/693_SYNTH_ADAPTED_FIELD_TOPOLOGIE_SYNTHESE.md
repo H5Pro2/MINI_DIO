@@ -60,5 +60,3 @@ aber Randlast wird nicht mehr direkt aus Rohlast erzeugt.
 ```
 
 Damit ist die adaptierte Feldkopplung aktuell der bessere MCM-konforme Mechanikstand.
-
-Wie es weitergeht: Als naechstes sollte die alte Formulierung in bestehenden Berichten nicht ueberschrieben, aber als historisch markiert werden: Befunde vor `683_ADAPTIERTE_FELDKOPPLUNG_UMSETZUNG.md` koennen Roh- und Feldspannung noch staerker vermischen.

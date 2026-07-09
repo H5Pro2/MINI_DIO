@@ -49,7 +49,3 @@ Episodenzustaende:
 
 - Debug: `debug\research_chain_2025_core_01`
 - Memory: `memory\research_chain_2025_core_01.json`
-
-## Wie es weitergeht
-
-Als naechstes sollte eine bewusst stressigere oder laengere Kontrollwelt folgen. Dabei wird geprueft, ob die stabile 2025-Core-Innenordnung erhalten bleibt, ob neue Bedeutungsinseln entstehen oder ob vorhandene Feldrollen unter hoeherer Weltspannung driften.

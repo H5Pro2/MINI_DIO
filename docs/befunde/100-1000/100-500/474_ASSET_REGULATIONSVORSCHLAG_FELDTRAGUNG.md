@@ -58,5 +58,3 @@ Uebergreifend bleibt `ruhig hinhoeren` eine stark getragene Aufnahmeart. Abstand
 ## Schluss
 
 Die bisherige Lesart wird gestuetzt: MINI_DIO braucht keine asseteigenen Begriffe, um unterschiedliche Welten zu lesen. Die gleiche passive Wahrnehmungssprache kann verschiedene Feldtragungsprofile ausbilden.
-
-Wie es weitergeht: Als naechstes sollte daraus ein assetbezogenes Organismusprofil gelesen werden: welches Asset ruft mehr Abstand auf, welches mehr Hoeren, welches mehr Schaerfung, und ob diese Profile bei neuen Welten stabil bleiben.

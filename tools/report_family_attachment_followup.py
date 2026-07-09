@@ -218,9 +218,6 @@ def write_md(summary: list[dict[str, object]], rows: list[dict[str, object]]) ->
             "Damit bleibt die bisherige Linie erhalten:",
             "`Familie + Weltkontext + Anschlussqualität` ist tragfähiger als eine isolierte Familienbedeutung.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als nächstes sollte genauer geprüft werden, ob die driftenden offenen Profile durch neue Weltspannung entstehen oder ob die Baseline selbst noch zu grob ist.",
         ]
     )
     OUT_MD.write_text("\n".join(lines) + "\n", encoding="utf-8")

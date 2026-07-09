@@ -129,9 +129,6 @@ def _write_md(path: Path, rows: list[dict[str, str]]) -> None:
             "- Reifung kann sich unter anderer Weltspannung umlagern.",
             "- Nicht-Wiederfinden in einer Brueckenlandschaft darf nicht automatisch als Feldverlust gelesen werden.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte eine Synthese entscheiden, welche Zeichen wirklich verloren sind und welche nur ihre Rolle gewechselt haben.",
         ]
     )
     path.write_text("\n".join(lines), encoding="utf-8")

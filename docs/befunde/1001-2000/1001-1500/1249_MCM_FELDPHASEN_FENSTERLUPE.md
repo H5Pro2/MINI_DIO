@@ -79,7 +79,3 @@ Rand/Kipp wird tragbar, wenn danach Rekopplung steigt und Strain faellt.
 ## Grenze
 
 Diese Lupe nutzt Feldphasen-Segmente. Sie ist noch keine Kerzen-/OHLCV-Lupe auf Rohchart-Ebene.
-
-## Wie es weitergeht
-
-Als naechstes sollte die gleiche Lupe mit konkreten Rohweltfenstern gekoppelt werden: Phase, Kerzenbereich, Tonprofil, Rezeptorprofil und Feldfolge in einer Zeile.

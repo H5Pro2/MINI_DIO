@@ -56,7 +56,3 @@ Das ist fuer die MCM-Forschung relevant, weil hier nicht nur eine Feldspannung s
 Die Reproduktion gilt fuer dieselbe synthetische Welt.
 
 Sie beweist keine allgemeine Regel fuer alle Melodien oder alle Welten. Sie zeigt aber, dass Mini-DIO bei identischem Weltkontakt dieselbe Bedeutungsdominanz erneut ausbildet.
-
-## Wie es weitergeht
-
-Als naechstes sollte eine Zwischenwelt zwischen `1427` und `1428` gebaut werden. Ziel ist, die Schwelle genauer zu finden: Wann bleibt `dio_1fll` fuehrend, und ab welcher Strukturspannung kippt die Dominanz zu `dio_0ein`?

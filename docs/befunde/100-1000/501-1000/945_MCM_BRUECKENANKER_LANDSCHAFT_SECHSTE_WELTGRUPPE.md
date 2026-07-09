@@ -49,7 +49,3 @@ Damit waere die Anschlussanker-Rolle keine Singularitaet, sondern eine wiederkeh
 
 Wichtig: Ein Anschlussanker ist nicht gleich Brueckenkern.
 Der Brueckenkern verbindet stabile zentrale Bedeutungsraeume. Ein Anschlussanker koppelt solche Raeume an offene Drift-, Rand- oder Seitenphasen.
-
-## Wie es weitergeht
-
-Als naechstes sollte die staerkste Anschlussanker-Landschaft gegen weitere Weltgruppen geprueft werden, um zu sehen, ob die Rolle unter anderer Weltspannung stabil bleibt oder neue Anschlussanker entstehen.

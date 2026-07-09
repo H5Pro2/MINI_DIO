@@ -84,5 +84,3 @@ tragende Wahrnehmung -> Sinneshaltung halten
 ```
 
 Der entscheidende Punkt ist die Achsentrennung. Mini-DIO lernt nicht "alles runter" oder "alles hoch", sondern welche Sinnesachse bei welcher Feldkonsequenz anders aufgenommen werden sollte.
-
-Wie es weitergeht: Als naechstes sollte diese Rezeptorpraeferenz ueber neue Welten reproduziert und danach in einem isolierten A/B-Lauf als sanfte Rezeptorhaltung getestet werden.

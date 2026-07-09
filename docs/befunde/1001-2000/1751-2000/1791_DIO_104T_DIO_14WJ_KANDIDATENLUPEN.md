@@ -97,7 +97,3 @@ Bedeutung entsteht aus Familie + Feldprofil + Nachbarschaft + Weltphase.
 ## Grenze
 
 Das ist eine passive Diagnose. Die Namen `dio_104t` und `dio_14wj` werden nicht als feste semantische Wörter gesetzt. Sie sind beobachtete Innenfeld-Familien, deren Bedeutung erst aus Wiederkehr und Kontext gelesen wird.
-
-## Wie es weitergeht
-
-Als nächstes sollte `dio_104t` gegen weitere reale Welten geprüft werden: Bleibt es eine reale Koherenz-/Anschlussfamilie, oder ist es nur in den aktuellen BTC/PAXG-Rekopplungsfenstern stark?

@@ -35,7 +35,3 @@ Die Diagnose ist passiv und erzeugt keine Handlung.
 ## Lesung
 
 Die Fenstersuche trennt Asset-Faerbung von lokaler Feldlage. Entscheidend ist nicht, welches Asset gelesen wird, sondern ob das konkrete Fenster mehrere MCM-Feldrollen hervorbringt.
-
-## Wie es weitergeht
-
-Als naechstes sollte der staerkste Hoch-Nachhall-Uebergang als Real-Sleep-Real-Kette reproduziert werden. Ziel ist zu pruefen, ob hoher Nachhall allein schon selektive Offline-Reorganisation erzeugt.

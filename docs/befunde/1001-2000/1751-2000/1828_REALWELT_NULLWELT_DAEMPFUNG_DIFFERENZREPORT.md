@@ -47,7 +47,3 @@ Damit wird die Feldordnung nicht als einfacher Stabil/Kollaps-Schalter sichtbar,
 ## Grenze
 
 Der Report vergleicht nur die 1827-Welten. Fuer eine belastbarere Aussage muessen weitere reale und synthetische Welten mit derselben Differenzlogik gelesen werden.
-
-## Wie es weitergeht
-
-Als naechstes sollte diese Differenzlogik auf weitere Null-, Ruhe-, Stress- und Assetwelten angewendet werden. Entscheidend ist, ob Bedeutungsbreite und adaptive Rekopplung dauerhaft besser trennen als die dominante Feldklasse.

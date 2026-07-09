@@ -99,26 +99,3 @@ seine Innenfeldordnung passiv stabil zu lesen:
 
 Erst wenn diese passive Ordnung stabil genug reproduziert wird,
 kann spaeter wieder ueber Handlung gesprochen werden.
-
-## Wie es weitergeht
-
-Grundfrage:
-
-Ist diese MCM-Topologie reproduzierbar,
-wenn Mini-DIO neue oder laengere Welten liest?
-
-Unterpruefung:
-
-Die Rollenkarte aus `106_PASSIVE_ZIELRAUM_ROLLENKARTE.md`
-gegen Folgewelten pruefen:
-
-- bleibt `po4hjv` zentrumnahe Stabilisierung?
-- bleiben `rj8h9z` und `nh7ss1` tragende Bruecken?
-- bleiben `lrfx2u` und `ack9wa` entlastende offene Bruecken?
-- bleibt `lg0qr0` selbstnah driftend?
-- bleibt `nu25d5` belastender Spannungsrand?
-
-Folgeschritt:
-
-Passive Rollenkarte mit Folgewelten reproduzieren
-und Abweichungen als Drift, Erweiterung oder Instabilitaet dokumentieren.

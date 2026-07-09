@@ -109,14 +109,3 @@ andere Welt -> gleiche Topologie immer
 ```
 
 Das bleibt eine eigene Pruefung.
-
-## Wie es weitergeht
-
-Als naechstes sollte nicht sofort noch breiter getestet werden.
-Sinnvoller ist der naechste hierarchische Schritt:
-
-1. eine deutlich andere Welt nehmen,
-2. dieselbe Matrix bilden,
-3. pruefen, ob die Rollenordnung erhalten bleibt oder ob echte neue Topologieklassen entstehen.
-
-Damit trennen wir Reproduzierbarkeit von Anpassungsfaehigkeit.

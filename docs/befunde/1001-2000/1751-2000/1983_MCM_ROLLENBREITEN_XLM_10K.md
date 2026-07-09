@@ -90,7 +90,3 @@ Nicht:
 ```text
 Neue Welt -> komplette neue Symbolordnung
 ```
-
-## Wie es weitergeht
-
-Als naechstes sollte eine dritte leise Welt oder ein bewusst anderer Kleinpreis-Charakter geprueft werden. Ziel ist zu klaeren, ob die neue Milieurolle `dio_mcm_episode_1b57ksv` weiter reift oder KAS-nahe bleibt.

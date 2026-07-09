@@ -175,10 +175,6 @@ def write_markdown(result: dict, out_path: Path) -> None:
             "",
             "Wichtig bleibt: Das ist passive Feldforschung. Der Bericht erzeugt keine Handlung, kein Gate und keine Strategie.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als nächstes sollten weitere Welten ergänzt werden. Entscheidend ist, ob sich ein stabiler Kern der Feldtopologie zeigt, während Bedeutungsinseln je nach Weltspannung entstehen, driften oder rekoppeln.",
-            "",
         ]
     )
     out_path.write_text("\n".join(lines), encoding="utf-8")

@@ -57,5 +57,3 @@ Wenn eine Lagefolge ueber alle Skalen gleich lesbar bleibt, ist sie ein robuster
 Wenn sie je nach Skala kippt, ist sie nicht falsch, sondern zeitlich empfindlich: Die Wirkung entsteht erst ueber Dauer oder zerfaellt bei feiner Lesung.
 
 Die Auswertung bleibt passiv. Sie erzeugt keine Handlung und keine Steuerung.
-
-Wie es weitergeht: Als naechstes sollten die skalenabhaengigen Folgen gegen konkrete Rohweltfenster gelesen werden, damit sichtbar wird, welche Weltbewegung eine neutrale Kurzlage in eine beruhigende laengere Feldphase ueberfuehrt.

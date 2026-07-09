@@ -96,14 +96,3 @@ Wiederkehr verdichtet aus Nebel eine Rolle.
 Die Folgewelt ist aus derselben 1200er Mosaikstruktur gebildet.
 
 Sie prueft daher Wiederkehr und laengeren Kontakt, aber noch nicht echte neue Weltvarianz.
-
-## Wie es weitergeht
-
-Als naechstes sollte eine echte neue Mosaikvariante erzeugt werden, nicht nur eine verlaengerte Wiederholung.
-
-Die konkrete Frage:
-
-```text
-Bleibt die proportionale Rollenlandschaft auch bei neuer Mosaik-Varianz erhalten,
-oder entsteht dort eine neue Nebel-/Brueckenrolle?
-```

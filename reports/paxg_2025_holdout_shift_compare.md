@@ -63,7 +63,3 @@ Das stützt die bisherige Trennung:
 Topologie = stabiler Rollenraum
 Feldfärbung = phasenabhängige lokale Qualität
 ```
-
-## Wie es weitergeht
-
-Als nächstes sollte PAXG mit einem zweiten verschobenen Fenster oder mit einem längeren 10k-Gesamtfenster gelesen werden. Ziel ist zu prüfen, ob die Dämpfungszunahme eine lokale Phase oder eine längere PAXG-2025-Tendenz ist.

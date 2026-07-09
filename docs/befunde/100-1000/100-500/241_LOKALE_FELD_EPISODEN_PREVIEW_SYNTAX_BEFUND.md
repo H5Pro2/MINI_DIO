@@ -136,26 +136,3 @@ Dieser Befund bleibt passiv.
 - Beweis einer fertigen Bedeutung.
 
 Es ist eine Diagnose der entstehenden Innenfeldlage.
-
-## Wie es weitergeht
-
-Als nächstes wird dieselbe Preview-Diagnose über mehrere Welten gelegt.
-Die Grundfrage lautet:
-
-```text
-Bleiben lokale Vorschau-Feldsymbole weltbezogen stabil,
-oder entstehen je Welt eigene lokale Feld-Episoden-Sprachen?
-```
-
-Unterprüfung:
-
-```text
-Rekopplungsfenster, Kippfenster und ruhige Fenster getrennt vergleichen.
-```
-
-Folgeschritt:
-
-```text
-Wenn Preview-Symbole in ähnlichen lokalen Feldlagen wiederkehren,
-kann daraus eine passive Karte entstehender lokaler Bedeutungsinseln gebaut werden.
-```

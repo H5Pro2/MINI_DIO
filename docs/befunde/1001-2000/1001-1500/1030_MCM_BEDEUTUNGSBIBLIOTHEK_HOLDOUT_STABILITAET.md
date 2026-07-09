@@ -74,7 +74,3 @@ Die passive Bedeutungsbibliothek wird in der Holdout-Gruppe nicht geschlossen ko
 ## Schluss
 
 Mini-DIOs passive Bedeutungsbibliothek wirkt damit nicht wie eine starre Liste, sondern wie ein offener Bedeutungsraum: wiedererkennbar, aber weltabhaengig dehnbar.
-
-## Wie es weitergeht
-
-Als naechstes sollte eine weitere Holdout-Gruppe mit anderem Asset- oder Zeitprofil gegen dieselbe Bibliothek gelesen werden. Entscheidend ist, ob dieselben Bedeutungen erneut stabil, erweitert oder offen erscheinen.

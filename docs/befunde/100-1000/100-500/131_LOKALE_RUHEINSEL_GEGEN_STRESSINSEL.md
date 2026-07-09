@@ -80,9 +80,3 @@ Das stärkt die Arbeitsthese, dass das Feld keine bloße Messwertliste ist, sond
 Der Befund ist noch kein Beweis für eine allgemeine MCM-Topologie.
 Er ist ein reproduzierbarer Arbeitsbefund innerhalb der bisher getesteten MINI_DIO-Welten.
 Neue Welten können diese Kopplung bestätigen, erweitern oder brechen.
-
-## Wie es weitergeht
-
-Als nächstes sollte das Feldklassen-Werkzeug für Kurzsegmente erweitert werden.
-Konkrete Frage: Brauchen lokale Segmente eine eigene Kurzsegment-Klasse, die Memorylast, Strain und Rekopplung stärker gewichtet als Wiederkehr und Nachhall?
-Danach kann eine zweite ruhige Insel aus einer anderen ruhigen Welt gegengeprüft werden.

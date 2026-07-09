@@ -40,7 +40,3 @@ Der ruhige SOL-Holdout ist nicht spannungslos: er zeigt kleinere Range, aber hoh
 Der synthetisch glatte Kontrolllauf bleibt dagegen bei ruhiger bis mittlerer Spannung und beruehrt `offene_nachbarschaftsrolle`.
 Die positive Expansion beruehrt sowohl Spannungsnaehe als auch gerichtete Spannungsrolle, erzwingt aber noch keine neue Mischklasse.
 Damit wird `weite_weltspannungsnaehe` als Name fraglich: die Rolle scheint eher unruhige Spannungsnaehe zu tragen, nicht zwingend nur grosse Range.
-
-## Wie es weitergeht
-
-Als naechstes sollte eine kombinierte Stresswelt geprueft werden: nicht nur Rauschen, sondern zugleich groessere Range, dichtere Wechsel und staerkere Ton-/Rezeptorverdichtung. Damit laesst sich pruefen, wann stabile Oberflaechenvarianz in Spannungsnaehe kippt.

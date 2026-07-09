@@ -107,17 +107,3 @@ Mixed Binding reift durch passende Feldnähe.
 Die Trefferzahl bleibt klein. Drei Symbole reiften klar, zwei blieben schwach oder ungetroffen.
 
 Der Befund zeigt daher keinen allgemeinen Mechanismus, sondern eine konkrete positive Rücklesung einer vorher beobachteten Reifung.
-
-## Wie es weitergeht
-
-Als nächstes sollte aus dieser Messung eine gezielte Suchsignatur gebaut werden:
-
-```text
-hohe Rekopplung
-niedrige Spannung
-niedrige Hörlücke
-stabile Wirkung
-ausreichende sensorische Kopplung
-```
-
-Dann kann MINI_DIO in weiteren Welten nach ähnlichen Feldphasen suchen, ohne grob nach Assetnamen oder allgemeinen Weltklassen zu suchen.

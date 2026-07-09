@@ -20,7 +20,3 @@ Damit wird geprueft, ob die in `1352` beobachtete Symbolkopplung spezifisch fuer
 `1352` zeigte bei den Hoer-/Druckfenstern eine starke Kopplung an `meaning_stable_inner_field` und mehrere rollenabhaengige Preview-Symbole.
 Diese Kontrollgruppe zeigt, ob aehnliche Symbole auch ohne Hoeranstieg auftreten.
 Wenn ja, ist die Symbolfamilie nicht exklusiv. Dann liegt die Spezifik eher in der Rollenfolge und Rohweltphase, nicht im einzelnen `dio_*`-Namen.
-
-## Wie es weitergeht
-
-Als naechstes sollten `1352` und `1353` direkt als Differenzprofil verglichen werden: Welche Symbol-, Preview- und Bedeutungsanteile bleiben gleich, und welche entstehen nur bei Hoeranstieg.

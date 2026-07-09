@@ -180,20 +180,3 @@ Die richtige Lesart ist:
 MINI_DIO bildet unter den aktuell geprueften Bedingungen
 eine wiederkehrende passive Rollenordnung im MCM-Feld.
 ```
-
-## Wie es weitergeht
-
-Als naechstes wird dieselbe Topologie-Matrix auf weitere Weltklassen gelegt:
-
-1. lange ruhige Welt,
-2. lange Stresswelt,
-3. Expansionswelt,
-4. Seitwaerts-/Driftwelt.
-
-Ziel:
-
-- bleibt `zentrum_mit_rand_und_uebergang` stabil?
-- nimmt Rand/Kippnaehe bei Stress sichtbar zu?
-- entstehen neue Mischklassen?
-- bleibt Rekopplung eine zentrale Qualitaet?
-- ist `world_relative` robust genug, um spaeter Standardaufnahme zu werden?

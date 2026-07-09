@@ -164,7 +164,3 @@ Damit wird Bedeutung weiter als Feldrolle gelesen, nicht als reine Zeichenmenge.
 Der Befund gilt für die drei synthetischen Feindifferenz-Varianten A, B und C.
 
 Er zeigt nicht, dass Mikrodifferenz unwichtig ist. Er zeigt, dass Mikrodifferenz ohne passende Rekopplungs- und Erfahrungslage noch nicht reicht.
-
-## Wie es weitergeht
-
-Als nächstes sollte nicht noch mehr synthetische Oberfläche erzeugt werden. Sinnvoller ist eine Rücklesung aus realen PAXG-Abschnitten: Welche konkrete Mikrobewegung und Anschlussgeschichte liegt dort vor, wo `verteilt_rekoppelnd` entsteht?

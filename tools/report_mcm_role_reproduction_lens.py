@@ -232,9 +232,6 @@ def _write_markdown(
     lines.extend(
         [
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte die Lupe an den stabilen Brueckenpfaden ansetzen: Welche Weltmerkmale halten diese Bruecken aktiv, und unterscheiden sie sich von jungen Oberflaechen, die nicht nachreifen?",
         ]
     )
     out.write_text("\n".join(lines) + "\n", encoding="utf-8")

@@ -205,10 +205,6 @@ def _write_md(path: Path, rows: list[dict[str, object]]) -> None:
             "Hartkern + Weltlage -> getragen / geöffnet / verschoben / ausgeblendet",
             "```",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als nächstes sollte diese Weltpassung in die passive Feldrollen-Memory übernommen werden. Nicht als Steuerung, sondern als Erfahrungsqualität: welche Weltlagen tragen welchen Kern, und welche lösen Randdrift aus?",
-            "",
         ]
     )
     path.write_text("\n".join(lines), encoding="utf-8")

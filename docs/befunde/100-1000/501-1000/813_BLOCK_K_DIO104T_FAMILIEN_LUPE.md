@@ -46,7 +46,3 @@ Wichtig: Konzentration und Einbettung sind hier getrennt. Konzentration meint di
 ## Grenze
 
 Diese Lupe beschreibt eine passive Bedeutungsfamilie. Sie ist keine Handlungsauswertung, keine Strategie und keine Aussage darueber, was MINI_DIO tun soll.
-
-## Wie es weitergeht
-
-Als naechstes sollte `dio_104t` gegen eine Rand- oder Bruchfamilie verglichen werden. Dann sehen wir, ob stabile Familien und gespannte Randfamilien unterschiedliche Sinnes-/Feldprofile tragen.

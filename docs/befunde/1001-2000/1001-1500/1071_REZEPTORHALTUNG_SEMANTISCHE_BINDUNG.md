@@ -53,7 +53,3 @@ Die expliziten Bedeutungszustandsspalten sind in dieser Messung deutlich schwach
 ## Schluss
 
 Mini-DIO bildet aus Rezeptorhaltung und Feldrolle wiederkehrende Syntaxnaehe. Das ist ein wichtiger Schritt zwischen reiner Sinnesdiagnose und semantischer Bedeutungsverdichtung.
-
-## Wie es weitergeht
-
-Als naechstes sollte geprueft werden, ob dieselben Symbolfamilien zwischen `tragende_verarbeitung` und `kippnaehe` getrennt bleiben oder ob einzelne Familien beide Rollen ueberbruecken.

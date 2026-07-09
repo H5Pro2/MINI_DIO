@@ -360,10 +360,6 @@ def _write_md(rows: list[dict[str, object]], summary: list[dict[str, object]], o
                 else "Wenn sie kippen oder verschwinden, war die 5000er-Oeffnungsform eher fensterspezifisch."
             ),
             "",
-            "## Wie es weitergeht",
-            "",
-            next_step,
-            "",
         ]
     )
     out_path.parent.mkdir(parents=True, exist_ok=True)

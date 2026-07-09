@@ -135,13 +135,3 @@ Die Verfeinerung zeigt ausserdem:
 Eine laengere Welt kann mehr Bedeutung tragen,
 ohne dadurch automatisch stresshaft zu werden.
 ```
-
-## Wie Es Weitergeht
-
-Als naechstes sollte eine weitere 2k-Welt aus einer anderen Bewegungsfamilie geprueft werden.
-
-Hierarchie:
-
-1. Grundfrage: Bleiben die drei Hauptbereiche auch bei neuer Weltfamilie erhalten?
-2. Unterpruefung: Gibt es eine vierte Klasse, die weder ruhig, Uebergang noch Stress ist?
-3. Folgeschritt: Wenn keine vierte Klasse entsteht, wird die aktuelle Topologie als robuste Arbeitsstruktur dokumentiert.

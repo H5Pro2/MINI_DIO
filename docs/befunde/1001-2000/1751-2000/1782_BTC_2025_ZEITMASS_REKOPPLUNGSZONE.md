@@ -67,7 +67,3 @@ Das ist eine passive Feldlesung. Sie beschreibt eine zeitmaßnahe Rekopplungszon
 - `reports/btc_2025_zeitmass_rekopplungszone_rawworld.csv`
 - `reports/btc_2025_zeitmass_rekopplungszone_rawworld.md`
 - `reports/btc_2025_zeitmass_rekopplungszone_rawworld_groups.csv`
-
-## Wie es weitergeht
-
-Als nächstes sollte geprüft werden, ob diese BTC-Rekopplungszone in einem verschobenen Zeitraum erneut auftaucht oder ob sie nur an diese konkrete Weltphase gebunden ist.

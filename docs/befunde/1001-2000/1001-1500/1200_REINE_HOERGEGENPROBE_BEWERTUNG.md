@@ -102,7 +102,3 @@ MINI_DIO bildet unter reiner Hoervariation keine zufaellige Ueberlastung, sonder
 - Randnaehe bleibt klein, aber messbar.
 
 Das spricht dafuer, dass die Hoerachse als eigene Wahrnehmungsachse im MCM-Feld lesbar wird.
-
-## Wie es weitergeht
-
-Als naechstes sollte die Hoerachse zeitlich aufgeloest werden: Welche Phasen der reinen Hoerwelt erzeugen offene Variante, welche erzeugen Rand/Kippnaehe, und wann kehrt das Feld ins Zentrum zurueck?

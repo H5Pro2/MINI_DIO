@@ -79,7 +79,3 @@ Welche bleiben als Strain oder Kippnaehe stehen?
 ```
 
 Erst diese lokale Kopplung beantwortet, ob MINI_DIO lernt, seine Wahrnehmungsfaehigkeiten differenziert zu nutzen.
-
-## Wie es weitergeht
-
-Als naechstes wird eine lokale Achsenkarte gebaut: Episode fuer Episode wird gelesen, ob Sehen, Hoeren oder Fuehlabstand dominiert und ob die jeweilige Achsenlage getragen, kippnah oder rekoppelnd war.

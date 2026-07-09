@@ -63,7 +63,3 @@ bis Offline-Reorganisation von voller Rekopplung in selektive Rekopplung kippt?
 - [1589 SYNTH_RAND_KIPP 2000 Mehrrollen-Repro](1589_SYNTH_RAND_KIPP_2000_MEHRROLLEN_REPRO.md)
 - [1591 RUHIG_SIDEWAYS 2000 Uebergang-Repro](1591_RUHIG_SIDEWAYS_2000_UEBERGANG_REPRO.md)
 - [1593 EXPANSION_POSITIV 2000 Uebergang-Repro](1593_EXPANSION_POSITIV_2000_UEBERGANG_REPRO.md)
-
-## Wie es weitergeht
-
-Als naechstes sollte aus den 2000er-Fenstern eine passive Rollenbreiten-Karte gebaut werden: Rollenanzahl, Strain-Anteil, Kombinationen, Sleep-Reaktivierung. Ziel ist zu sehen, wo fokussierte Rekopplung in selektive Offline-Reorganisation kippt.

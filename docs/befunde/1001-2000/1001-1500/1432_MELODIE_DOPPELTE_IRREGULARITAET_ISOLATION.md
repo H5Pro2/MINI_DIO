@@ -92,7 +92,3 @@ Der Melodie-Kipppunkt entsteht offenbar erst, wenn mehrere Feldbedingungen zusam
 Die konkrete Rolle der Blockrahmung ist noch nicht isoliert.
 
 `1432` zeigt nur, dass doppelte Irregularitaet bei vorhandener Ruhe nicht ausreicht.
-
-## Wie es weitergeht
-
-Als naechstes sollte die Blockrahmung isoliert werden: Block am Anfang und Ende, aber ohne doppelte Irregularitaet. Dann pruefen wir, ob die Rahmung selbst die Dominanzverschiebung vorbereitet.

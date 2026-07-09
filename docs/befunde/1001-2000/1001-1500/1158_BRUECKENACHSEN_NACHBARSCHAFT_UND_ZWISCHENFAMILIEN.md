@@ -136,7 +136,3 @@ Noch nicht bewiesen ist:
 - ob diese Familien in echten Segmentketten direkt ineinander uebergehen,
 - ob `dio_0g2r` und `dio_1ewh` in neuen Welten dieselbe Zwischenrolle behalten,
 - ob sich aus diesen Zwischenfamilien eine gerichtete Bruecke bildet.
-
-## Wie es weitergeht
-
-Als naechstes sollte die vermutete Achsenkette `dio_00ly -> dio_0g2r -> dio_1ewh -> dio_104t` gegen neue Weltklassen oder Segmentketten geprueft werden. Ziel: herausfinden, ob die Nachbarschaft nur metrisch ist oder auch zeitlich/feldfolgend auftritt.

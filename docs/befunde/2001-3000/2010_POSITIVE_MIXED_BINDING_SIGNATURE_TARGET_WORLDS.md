@@ -135,7 +135,3 @@ Nähebänder:
 ## Lesung
 
 Wenn dieselbe Signatur in anderen Welten wieder auftaucht, kann MINI_DIO die positive Reifungsphase nicht nur an einem Symbolnamen, sondern an einer Feldphasenqualität wiederfinden.
-
-## Wie es weitergeht
-
-Als nächstes sollte diese Signatur gegen Gegenproben und neue Welten gelesen werden. Entscheidend ist, ob sie nur im PAXG-Zielfenster bleibt oder auch in anderen Weltlagen als ähnliche Feldphase erscheint.

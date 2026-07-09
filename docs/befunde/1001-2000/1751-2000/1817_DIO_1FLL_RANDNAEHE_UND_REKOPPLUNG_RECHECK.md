@@ -70,7 +70,3 @@ Eine Rolle braucht mindestens drei Ebenen:
 - Nachbarschaft: Welche Familien liegen im selben Feldraum?
 - Feldfolge: Was passiert vor, im und nach dem Ereignis?
 - Weltphase: In welchem Sinnes- und MCM-Milieu tritt die Familie auf?
-
-## Wie es weitergeht
-
-Als nächstes sollte `dio_1fll` gegen weitere Weltfenster geprüft werden. Entscheidend ist, ob die gehaltene Rekopplung auch außerhalb der aktuellen PAXG-5m-Fenster sichtbar bleibt.

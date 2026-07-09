@@ -66,7 +66,3 @@ XRP 5m bricht die Rollenordnung nicht. Beide XRP-Welten bleiben `stark_zentriert
 ## Grenze
 
 XRP wurde hier nur als 5m-10k-Spotwelt 2024/2025 gepr?ft. Newsnahe Extremphasen oder 1h-Jahreswelten stehen noch aus.
-
-## Wie es weitergeht
-
-Als n?chstes wird XRP in den gemeinsamen Asset-F?rbungsraum mit PAXG, DOGE, BTC und SOL eingeordnet.

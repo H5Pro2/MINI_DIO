@@ -184,9 +184,6 @@ def _write_markdown(rows: list[dict[str, object]], core_tokens: set[str], out: P
             "Der zentrale Brueckenkern wirkt nicht wie ein chaotischer Durchbruch nach aussen.",
             "Er verbindet vor allem interne Brueckenbewegung mit stabilen oder rekoppelnden Anschlussrollen.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte derselbe Zielrollen-Test fuer die sekundaeren Brueckenkerne laufen. Dann wird sichtbar, ob der zentrale Kern eine Sonderrolle hat oder ob alle Kerne aehnlich anschliessen.",
         ]
     )
     out.write_text("\n".join(lines) + "\n", encoding="utf-8")

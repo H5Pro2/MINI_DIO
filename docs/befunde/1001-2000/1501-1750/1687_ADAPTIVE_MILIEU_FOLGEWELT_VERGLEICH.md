@@ -29,7 +29,3 @@ PAXG bleibt in der Offen/Gereift-Ueberlappung fast gleich stark. DOGE und XRP ve
 ## Grenze
 
 Diese Diagnose beschreibt passive Familien- und Milieuverschiebung. Sie ist keine Handlung, kein Gate und keine Strategie.
-
-## Wie es weitergeht
-
-Als naechstes sollten Familien mit starkem Relationswechsel gegen konkrete Rohweltphasen gelesen werden. Besonders relevant sind Familien, die von `offen_und_gereift` nach `nur_gereift` wechseln oder umgekehrt aus `nur_offen` in gemeinsame Offen/Gereift-Lage eintreten.

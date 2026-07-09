@@ -155,7 +155,3 @@ Der Feldfunktionswechsel ist kein Verschwinden der Signatur.
 Die Signatur bleibt im gemeinsamen Realwelt-Kern erhalten, aber ihre Einbindung verschiebt sich je nach Weltkörper.
 
 Damit wird die MCM-Topologie als dynamisches Bedeutungsnetz lesbar: Der Knoten bleibt, seine Rolle kann sich unter anderer Weltspannung verändern.
-
-## Wie es weitergeht
-
-Als nächstes sollten die stärksten Rollenwechsel mit Rohweltfenstern verglichen werden. Besonders relevant sind `active_recoupling -> open_surface` und `open_surface -> active_recoupling`, weil sie zeigen können, wann Weltkontakt öffnet oder rekoppelt.

@@ -183,7 +183,6 @@ def _write_markdown(rows: list[dict[str, object]], path: Path, *, top: int) -> N
             "",
             "Wenn er assetrelativ in mehreren Assets erscheint, ist er eher eine wiederkehrende Mikrophase des Feldes. Wenn er nur bei BTC stabil bleibt, ist er eher BTC-spezifische Faerbung.",
             "",
-            "Wie es weitergeht: Als naechstes sollte die Kandidatenfamilie gegen neue, noch nicht verwendete Weltfenster gelesen werden. Erst dann ist entscheidbar, ob daraus eine reproduzierbare Mikrorolle oder nur lokale Oberflaechenvarianz entsteht.",
         ]
     )
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")

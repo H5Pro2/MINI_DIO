@@ -152,8 +152,3 @@ Die erste Frage:
 Sind semantisch gebundene Wiederkehren feldseitig stabiler
 als reine Oberflaechenwiederkehr?
 ```
-
-## Wie es weitergeht
-
-Als naechstes wird ein passiver Report gebaut, der aus `1387` Knoten, Kanten und Gewichte ableitet.
-Entscheidend ist, ob das Bedeutungsnetz messbar zwischen gereifter Naehe und reiner Oberflaechennaehe unterscheidet.

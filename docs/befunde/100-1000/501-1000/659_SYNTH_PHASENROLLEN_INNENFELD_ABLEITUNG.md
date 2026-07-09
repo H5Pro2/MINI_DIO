@@ -108,7 +108,3 @@ Das kann bedeuten:
 - MINI_DIO liest Kippnähe bisher stärker als Öffnung/Rekopplungsnähe denn als Randdominanz.
 
 Diese drei Möglichkeiten müssen später getrennt geprüft werden.
-
-## Wie es weitergeht
-
-Als nächstes sollte eine noch gezieltere synthetische Welt gebaut werden, die nicht nur `randflackern`, sondern echte Randdominanz provoziert. Ziel ist zu prüfen, ob das Feld einen klaren Spannungsrand ausbilden kann oder ob die Rezeptorschicht ihn konsequent in offene Variante und Rekopplungsnähe umwandelt.

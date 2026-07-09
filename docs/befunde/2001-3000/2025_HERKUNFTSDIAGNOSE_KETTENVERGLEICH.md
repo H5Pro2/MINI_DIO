@@ -78,7 +78,3 @@ Damit wird geprüft, ob eine Signatur realweltgetragen bleibt oder unter Störun
 Die Herkunftsqualität macht sichtbar, dass Tiefe allein nicht genügt.
 
 Eine Signatur kann tief, häufig und stabil wirken, aber unter Störung eine andere Herkunft zeigen. Das ist für MINI_DIO wichtig, weil es zwischen realweltgetragener Wiederkehr und feldinterner Ordnung unterscheiden muss.
-
-## Wie es weitergeht
-
-Als nächstes sollte dieser Vergleich mit längeren realen Weltketten wiederholt werden. Entscheidend ist, ob realweltstabile Signaturen bei mehr Außenwelt stabil bleiben oder ob neue gemischte Übergangsklassen entstehen.

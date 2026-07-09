@@ -82,7 +82,3 @@ Die Daten sprechen fuer eine passive Topologie-Sprache:
 - Dominanz ist nicht gleich Existenz: Eine Rolle kann schwach mitlaufen und trotzdem Bedeutung tragen.
 - Randnaehe kann fokussiert, nachhallend oder spannungsverschoben sein.
 - Die Rollen koppeln sich nicht zu einer starren Tabelle, sondern bleiben als dynamisches Bedeutungsnetz lesbar.
-
-## Wie es weitergeht
-
-Als naechstes sollte die Randrollenkarte gegen eine nicht-synthetische Kontrollwelt gehalten werden. Ziel: Pruefen, ob `dio_1wdi`, `dio_0l7p` oder `dio_14wj` auch in realer Weltspur als Randrollen auftreten oder nur in kontrollierter Melodie-Struktur.

@@ -325,10 +325,6 @@ def _write_md(source_rows: list[dict[str, str]], target_rows: list[dict[str, obj
             "Damit wirkt die Feldrollen-Memory anschlussfaehig: Sie beschreibt keine einzelne Welt, sondern ein passives Profil,",
             "mit dem neue Welten auf aehnliche Reifungsbewegungen gelesen werden koennen.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte diese Reproduktionslesung gegen assetnahe 2025-Nullwelten laufen.",
-            "Entscheidend ist, ob dieselbe Rollenreife auch unter Random/Shuffle entsteht oder ob reale Weltzeit weiter unterscheidbar bleibt.",
         ]
     )
     OUT_MD.write_text("\n".join(lines) + "\n", encoding="utf-8")

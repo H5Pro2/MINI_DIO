@@ -78,7 +78,3 @@ Das ist ein staerkerer Befund als reine Wiederkehr. Es ist eine beginnende rolle
 ## Grenze
 
 Diese Lesart bleibt diagnostisch. Sie darf nicht in Handlung, Richtung, Strategie oder Vorhersage uebersetzt werden.
-
-## Wie es weitergeht
-
-Als naechstes sollte geprueft werden, ob in den Holdout-Welten neue Brueckenfamilien entstehen, die nicht in der bisherigen Karte liegen. Das trennt bekannte stabile Rollen von neuer emergenter Rollenbildung.

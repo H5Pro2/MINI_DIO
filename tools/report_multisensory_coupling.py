@@ -154,10 +154,6 @@ def _write_markdown(rows: list[dict], out_path: Path) -> None:
             "Sie ersetzt keine Einzelachse.",
         "Sie prueft nur, ob Hoeren, Sehen und MCM-Feldwirkung zusammen eine stabilere Innenlage beschreiben als jede Achse allein.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes wird der Befund geschrieben.",
-            "Danach kann entschieden werden, ob die multisensorische Kopplung als Standarddiagnose fuer weitere Welten genutzt wird.",
         ]
     )
     out_path.write_text("\n".join(lines) + "\n", encoding="utf-8")

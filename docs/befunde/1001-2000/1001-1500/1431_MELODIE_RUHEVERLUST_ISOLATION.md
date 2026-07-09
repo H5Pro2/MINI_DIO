@@ -87,7 +87,3 @@ Das bestaetigt die hierarchische Pruefung:
 Diese Aussage gilt fuer die synthetische Melodiereihe.
 
 Die exakte Schwelle ist noch nicht vollstaendig bestimmt.
-
-## Wie es weitergeht
-
-Als naechstes sollte die zweite Komponente isoliert werden: doppelte Irregularitaet mit Ruhephasen erhalten. Dann pruefen wir, ob doppelte Irregularitaet allein die Dominanz zu `dio_0ein` verschiebt.

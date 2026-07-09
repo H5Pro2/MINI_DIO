@@ -30,8 +30,3 @@ Wichtig ist die Grenze:
 Getragene Mitte ist hier noch keine Handlung.
 Sie ist eine passive Lesung: ein Knoten wirkt zentrumsnah und wird durch bestehende Feldspuren mitgetragen.
 ```
-
-## Wie es weitergeht
-
-Als naechstes sollte nicht derselbe Knoten gesucht werden, sondern die neu entstehende Zentrumsqualitaet der Folgewelten.
-Dann wird sichtbar, ob das Feld seine Mitte verlagert statt dieselbe Mitte zu kopieren.

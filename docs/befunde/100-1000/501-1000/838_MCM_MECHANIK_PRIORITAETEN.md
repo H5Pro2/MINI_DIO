@@ -210,7 +210,3 @@ Der Abhandlungsabgleich zeigt nicht, dass MINI_DIO fertig ist. Er zeigt aber, da
 - Feldzeit beobachten,
 - Regulation als Feldmodus erkennen,
 - Handlung weiterhin ausklammern.
-
-## Wie es weitergeht
-
-Als naechstes sollte zuerst das MCM-Glossar entstehen, weil alle weiteren Befunde dadurch sauberer und weniger missverstaendlich werden.

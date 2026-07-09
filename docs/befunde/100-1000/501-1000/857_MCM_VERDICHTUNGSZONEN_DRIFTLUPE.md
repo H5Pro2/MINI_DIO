@@ -52,7 +52,3 @@ Sie prueft, ob ein Token seine Verdichtungszone behaelt, driftet, reift, rekoppe
 
 Die Mehrheit der gemeinsamen Tokens behaelt ihre Verdichtungszone. Das spricht fuer stabile Rollenordnung mit variabler Oberflaeche.
 Mehr wechselnde Tokens gehen in Richtung Reifung/Verdichtung als in Oeffnung/Drift. Das deutet auf nachtraegliche Stabilisierung einzelner Feldzeichen.
-
-## Wie es weitergeht
-
-Als naechstes sollten die wechselnden Tokens gegen ihre Rohweltabschnitte gelesen werden. Ziel: unterscheiden, ob Zonenwechsel aus Weltphase, Sinnesaufnahme, Rekopplung oder echter MCM-Drift entsteht.

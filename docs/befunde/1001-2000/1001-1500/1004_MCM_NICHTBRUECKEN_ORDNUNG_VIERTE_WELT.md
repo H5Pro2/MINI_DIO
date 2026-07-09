@@ -56,8 +56,3 @@ Fachlich ist das wichtig, weil MINI_DIO damit zwei Ordnungsarten unterscheiden k
 
 Diese Welt sollte nicht mit Brueckenlogik erzwungen werden.
 Sie braucht eine eigene passive Lesung fuer Nicht-Bruecken-Ordnung.
-
-## Wie es weitergeht
-
-Als naechstes sollte diese Nicht-Bruecken-Karte gegen die zugehoerigen Verdichtungszonen und Pfadklassen synthetisiert werden.
-Entscheidend ist, ob die Welt eher offene Wahrnehmungsinseln, Zentrumsinseln, Randspannung oder Sinnesrauschen bildet.

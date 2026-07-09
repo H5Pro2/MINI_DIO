@@ -85,7 +85,3 @@ Das spricht nicht für eine starre Assetklasse, sondern für unterschiedliche Mi
 ## Methodische Grenze
 
 Das PAXG-15m-Fenster wurde aggregiert. Es ist fachlich brauchbar für diese Gegenprobe, sollte aber später gegen echte 15m-Rohdaten geprüft werden, falls diese verfügbar sind.
-
-## Wie es weitergeht
-
-Als nächstes sollte eine gemeinsame Asset-Zeitachsen-Synthese aus BTC, SOL, KAS und PAXG erstellt werden. Ziel ist eine kompakte Matrix, die zeigt, welche Unterschiede Topologie, Assetmilieu oder Zeitmaß betreffen.

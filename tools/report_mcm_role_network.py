@@ -78,9 +78,6 @@ def _write_md(path: Path, network: MCMRoleNetwork) -> None:
             "Diese Netzwerkkarte darf nicht direkt handeln.",
             "Sie darf spaeter nur als gereifte passive Feldkarte fuer weitere Forschung gelesen werden.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte geprueft werden, welche Bedingungen dazu fuehren, dass ein Knoten stabil bleibt, seine Rolle wechselt, driftet oder rekoppelt.",
         ]
     )
     path.write_text("\n".join(lines), encoding="utf-8")

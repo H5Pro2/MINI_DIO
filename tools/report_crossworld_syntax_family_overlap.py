@@ -160,10 +160,6 @@ def _write_markdown(path: Path, summary: dict[str, object], rows: list[dict[str,
             "",
             "Auch diese Überlappung ist passiv. Sie beweist keine Handlung und keine Absicht. Sie zeigt, ob Syntaxfamilien über unterschiedliche Weltkontakte hinweg feldnah wiederkehren.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als nächstes sollten wir die gemeinsamen Familien von den lokalen Familien trennen und prüfen, ob lokale Familien bei weiterer Weltzufuhr in gemeinsame Familien übergehen oder wieder zerfallen.",
-            "",
         ]
     )
     path.parent.mkdir(parents=True, exist_ok=True)

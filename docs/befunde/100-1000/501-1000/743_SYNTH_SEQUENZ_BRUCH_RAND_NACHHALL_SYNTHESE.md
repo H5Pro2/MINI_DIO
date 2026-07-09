@@ -153,7 +153,3 @@ Das passt zur bisherigen Richtung:
 nicht harte Zeit programmieren,
 sondern Nachhall und Feldbewegung aus dem Innenfeld lesen.
 ```
-
-## Wie es weitergeht
-
-Als naechstes sollte eine zweite Permutation getestet werden, die `rekopplung` vor die Randphase setzt. Ziel: pruefen, ob ein rekoppelter Vorzustand Randoeffnung abfedert oder nur die gleiche lokale Randreaktion verschiebt.

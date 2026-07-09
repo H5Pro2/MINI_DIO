@@ -32,5 +32,3 @@ Die Begrenzung liegt bisher vor allem in der rezeptorischen Adaptation: Rohfelda
 Damit wirkt die Rezeptorschicht nicht nur als Vorfilter, sondern als organische Aufnahmegrenze: Sie laesst Weltspannung ins Feld, aber nicht als ungebremste Rohdatenflut.
 
 Die Harmonie-Welt bleibt in allen Phasen stark zentriert. Selbst `kippnaehe` bleibt nur leicht offen und praktisch randfrei. Das liefert den ruhigen Gegenpol zur Randdominanz-Welt.
-
-Wie es weitergeht: Als naechstes sollten Randdominanz, Bruch/Rand und Harmonie in einer Vergleichssynthese zusammengefuehrt werden.

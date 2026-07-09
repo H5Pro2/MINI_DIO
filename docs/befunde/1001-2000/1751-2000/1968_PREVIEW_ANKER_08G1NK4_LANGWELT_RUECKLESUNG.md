@@ -54,7 +54,3 @@ Das ist weiterhin eine passive Feldlesung. Es wird keine Handlung, Richtung oder
 ## Bedeutung
 
 Die Tiefenspur kann nicht nur Breite speichern, sondern beginnt Rollenqualität zu differenzieren. Das ist für MINI_DIO wichtig, weil ein MCM-Feld dadurch nicht nur wiederkehrende Formen erkennt, sondern Unterschiede innerhalb stabiler Wiederkehr lesen kann.
-
-## Wie es weitergeht
-
-Als nächstes prüfen, ob `08g1nk4` in Null- oder Shuffle-Welten ebenfalls stabil bleibt. Wenn ja, wäre es eher ein allgemeiner Strukturanker. Wenn nein, spricht das stärker für echte Weltbindung.

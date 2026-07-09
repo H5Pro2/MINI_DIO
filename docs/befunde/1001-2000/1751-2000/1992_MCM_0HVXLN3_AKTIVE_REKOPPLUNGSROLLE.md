@@ -79,7 +79,3 @@ Das ist fuer die weitere Entwicklung wichtig, weil DIO nicht nur wissen sollte, 
 ## Schlussfolgerung
 
 `0hvxln3` ist derzeit ein starker Kandidat fuer die Rollenklasse **aktive Rekopplungsrolle**. Die Rolle ist assetuebergreifend sichtbar und wirkt strukturell aehnlich, obwohl die Welten unterschiedlich sind.
-
-## Wie es weitergeht
-
-Als naechstes sollte `14sn1ov` als zweiter breiter Kandidat rueckgelesen werden. Wenn `14sn1ov` ein aehnliches Profil zeigt, wird die Rollenklasse aktive Rekopplungsrolle deutlich tragfaehiger.

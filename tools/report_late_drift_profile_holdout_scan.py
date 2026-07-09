@@ -156,10 +156,6 @@ def write_md(rows: list[dict[str, str]], target_count: int) -> None:
             "",
             "Das spricht für eine Feldlage, die Mini-DIO wiederholt lesen kann. Es sagt noch nicht, dass daraus zwingend dieselbe Rolle entsteht. Genau diese Trennung ist wichtig: Profilnähe ist Vorbedingung, Rollenbildung ist spätere Verdichtung.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als nächstes sollte eine Welt mit hoher Zielprofil-Dichte gegen die spätere Rollenbildung geprüft werden: Entsteht dort erneut eine bekannte Driftrolle, eine neue Nachbarschaft oder nur eine offene Vorform?",
-            "",
         ]
     )
     OUT_MD.write_text("\n".join(lines), encoding="utf-8")

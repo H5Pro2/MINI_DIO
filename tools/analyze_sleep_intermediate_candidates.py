@@ -139,10 +139,6 @@ def _write_markdown(path: Path, summary: dict) -> None:
         f"- Speicher: `{summary['intermediate_memory_path']}`",
         f"- gespeicherte Kandidaten gesamt: `{summary['intermediate_memory_candidate_count']}`",
         "",
-        "## Wie es weitergeht",
-        "",
-            "Als naechstes sollte ein eigener passiver Speicher fuer solche Zwischenrollen-Kandidaten vorbereitet werden. Dieser Speicher darf nur dokumentieren, ob Kandidaten ueber mehrere Ketten stabil bleiben, driftend werden oder verschwinden.",
-            "",
         ]
     )
     path.parent.mkdir(parents=True, exist_ok=True)

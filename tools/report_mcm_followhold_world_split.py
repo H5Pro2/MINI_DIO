@@ -223,10 +223,6 @@ def _write_markdown(path: Path, rows: list[dict[str, str]], asset_rows: list[dic
             "",
             "Damit wirkt die MCM-Feldantwort nicht wie eine starre Asset-Regel, sondern wie eine Grundtopologie mit weltabhaengiger Faerbung.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte die staerkste Rueckfallgruppe isoliert werden: Welche Asset-/Weltmerkmale machen aus Bewegungsbruch offenen Folgehalt mit spaeterem Rueckfall?",
-            "",
         ]
     )
     path.parent.mkdir(parents=True, exist_ok=True)

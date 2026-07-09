@@ -43,7 +43,3 @@ es ist keine Handlungsregel
 - 2023: `docs/befunde/1001-2000/1501-1750/1706_ADAPTIVE_MILIEU_OEFFNUNGS_VORFORM_2023_10K_summary.csv`
 - 2024: `docs/befunde/1001-2000/1501-1750/1703_ADAPTIVE_MILIEU_OEFFNUNGS_VORFORM_10K_summary.csv`
 - 2025: `docs/befunde/1001-2000/1501-1750/1704_ADAPTIVE_MILIEU_OEFFNUNGS_VORFORM_2025_10K_summary.csv`
-
-## Wie es weitergeht
-
-Als naechstes sollte dieselbe Vorform gegen synthetische Kontrollwelten gelesen werden.

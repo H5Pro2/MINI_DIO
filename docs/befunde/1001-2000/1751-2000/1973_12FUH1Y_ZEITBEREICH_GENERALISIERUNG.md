@@ -66,7 +66,3 @@ Der Befund begrenzt die Deutung:
 - stabile engere Feldrolle möglich
 
 Das ist methodisch wertvoll, weil MINI_DIO dadurch nicht jedes stabile Muster verallgemeinert.
-
-## Wie es weitergeht
-
-Als nächstes nicht weiter breit streuen, sondern `12fuh1y` in ähnlichen ruhigen/nahen PAXG- und BTC-Fenstern prüfen. Ziel ist, seine konkrete Feldrolle enger zu bestimmen: ruhige Nähe, zentrumsnahe Stabilisierung oder PAXG-spezifische Struktur.

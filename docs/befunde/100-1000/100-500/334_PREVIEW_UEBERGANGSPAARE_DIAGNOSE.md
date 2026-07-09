@@ -90,8 +90,3 @@ Weitere robuste Paare ueber mehrere Welten sind:
 Diese Paare zeigen, dass MINI_DIO nicht nur einzelne Inseln bildet, sondern wiederkehrende
 Bewegungen zwischen Inseln. Das ist fuer die spaetere Regulationsschicht wichtiger als
 ein einzelner Familienname.
-
-## Wie es weitergeht
-
-Als naechstes werden die stabilsten Paare fachlich klassifiziert: Grundinsel-Wechsel,
-Rekopplungsbogen oder Randuebergang. Daraus entsteht eine passive Karte der Feldbewegung.

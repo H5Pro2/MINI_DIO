@@ -50,7 +50,3 @@ Wenn sie fällt, ist das kein Fehler: Dann zeigt der Holdout, dass die Rolle an 
 ## Grenze
 
 Auch diese Rückprüfung bleibt passiv. Sie erzeugt keine Handlung, keine Richtung, kein Gate und keine Entry-Mechanik.
-
-## Wie es weitergeht
-
-Als nächstes sollte geprüft werden, welche Rollen trotz anderer Oberfläche feldnah wiederkehren. Daraus kann eine robuste Vorwahrnehmungs-Landkarte entstehen, ohne dass MINI_DIO hart programmiert wird.

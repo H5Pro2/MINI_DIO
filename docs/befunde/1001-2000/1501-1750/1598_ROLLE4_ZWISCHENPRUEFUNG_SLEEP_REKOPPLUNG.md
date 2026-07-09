@@ -64,7 +64,3 @@ oder an die Kombination dieser Faktoren gebunden?
 - [1595 Sleep-Rollenbreiten-Karte](1595_SLEEP_ROLLENBREITEN_KARTE.md)
 - [1596 Rollenbreiten-Fenstersuche Assets 2000](1596_ROLLENBREITEN_FENSTERSUCHE_ASSETS_2000.md)
 - [1597 XRP2024 2000 Rolle4 Sleep-Repro](1597_XRP2024_2000_ROLLE4_SLEEP_REPRO.md)
-
-## Wie es weitergeht
-
-Als naechstes sollten 5-Rollen-Fenster aus realen Asset-Welten reproduziert werden. Ziel ist zu pruefen, ob 5 Rollen generell selektiv werden oder ob das bisher nur am synthetischen Rand-/Kippfenster liegt.

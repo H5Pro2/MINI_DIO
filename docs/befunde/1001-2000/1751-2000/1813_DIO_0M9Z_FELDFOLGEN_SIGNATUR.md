@@ -24,7 +24,3 @@ Quelle: `reports/dio_0m9z_bridge_tick_windows.csv`
 - Kippnähe: Ereignis bleibt offen, der Nachlauf trägt eher offene Spannung als stabile Rekopplung.
 
 Damit ist `dio_0m9z` nicht einfach ein einzelnes Symbol. Die konkrete Lesart entsteht aus Feldfolge, Weltfenster und Nachbarschaft.
-
-## Wie es weitergeht
-
-Als nächstes sollte diese Signatur mit der bisherigen Rollentaxonomie verglichen werden.

@@ -138,10 +138,6 @@ def _write_md(path: Path, rows: list[dict[str, object]], recoupling_count: int, 
             "Fragmentierung ist selten, zeigt aber im Mittel mehr tonale Energie und mehr Feldaufnahme relativ zur eigenen Weltbasis.",
             "```",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte diese Trennung auf weitere Weltgruppen geprueft werden.",
-            "Wenn sie stabil bleibt, kann daraus eine passive Rezeptor-Regulationsdiagnose entstehen: nicht als Regel, sondern als Lesung, wann das Feld eher bindet oder eher fragmentiert.",
         ]
     )
     path.write_text("\n".join(lines), encoding="utf-8")

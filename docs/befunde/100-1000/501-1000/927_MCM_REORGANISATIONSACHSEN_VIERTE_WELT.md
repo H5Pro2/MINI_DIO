@@ -34,7 +34,3 @@ Gelesen werden die Achsen der Driftmatrix: Rekopplung, Strain, Sinneskopplung, S
 Die Reorganisationsgruppe ist klein und nicht homogen.
 Es gibt mindestens drei unterschiedliche Lesarten: junge Drift/Oberflaeche, Rollenverlust innerhalb stabiler Zone und echte Achsenreorganisation mit sinkender Rekopplung bei steigender Unschaerfe.
 Damit ist Reorganisation im MCM-Feld nicht gleich Fehler oder Kollaps. Sie kann neue Spur, Entlastung oder Umbau einer bestehenden Rolle sein.
-
-## Wie es weitergeht
-
-Als naechstes sollte diese Achsenlupe gegen eine weitere Folgewelt gelesen werden: Bleiben die neuen jungen Spuren jung, verschwinden sie, oder reifen sie zu Anschlussankern?

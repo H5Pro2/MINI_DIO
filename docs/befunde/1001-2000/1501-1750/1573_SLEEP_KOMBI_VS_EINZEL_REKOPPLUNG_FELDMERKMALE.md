@@ -50,7 +50,3 @@ MCM-Feldnaehe entscheidet, ob daraus Kombination wird.
 ## Grenze
 
 Die Stichprobe ist klein. Die Diagnose zeigt eine Arbeitsrichtung, keinen Beweis.
-
-## Wie es weitergeht
-
-Als naechstes sollte gezielt eine Welt gesucht oder geschnitten werden, die nicht nur starke Bewegung, sondern mehrere MCM-Feldrollen in Real-A erzeugt. Dann kann geprueft werden, ob daraus reproduzierbar Sleep-Kombinationen entstehen.

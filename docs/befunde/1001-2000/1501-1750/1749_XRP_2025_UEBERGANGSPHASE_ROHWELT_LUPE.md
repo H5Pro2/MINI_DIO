@@ -84,7 +84,3 @@ Damit wirkt die mittlere Übergangsphase wie eine Zwischenordnung: nicht Randbru
 ## Zugehöriger Report
 
 - [xrp_2025_uebergangsphase_rohwelt_lupe.md](../../../../reports/xrp_2025_uebergangsphase_rohwelt_lupe.md)
-
-## Wie es weitergeht
-
-Als nächstes sollte XRP 2025 in kleinere Teilfenster zerlegt werden. Entscheidend ist, ob die Übergangsphase aus wenigen Segmenten entsteht oder über das ganze Fenster verteilt getragen wird.

@@ -46,5 +46,3 @@ Die Diagnose erzeugt keine Handlung, keine Richtung und kein Gate.
 Die Mikrophase wird hier als konkrete Weltphase gelesen, nicht als abstrakte Symbolrolle.
 
 Wenn Range enger wird und Hoeren/Felddruck steigen, liegt eine plausible komprimierte Sinnesphase vor: weniger aeussere Ausdehnung, aber mehr innere Ton-/Druckwirkung.
-
-Wie es weitergeht: Als naechstes sollte geprueft werden, ob diese komprimierte Sinnesphase spaeter im Bedeutungsnetz als Bruecke, Randnaehe oder Zentrumskontakt erscheint.

@@ -229,9 +229,6 @@ def _write_markdown(summary: list[dict[str, object]], edges: list[dict[str, obje
             "",
             "Damit entsteht eine kleine Rueckbezugsstruktur, nicht nur eine isolierte Bedeutung.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte dieses Paar gegen andere Brueckenpaare verglichen werden: Ist `0e7qvj1`/`18l3thm` der zentrale Brueckenkern, oder gibt es mehrere getrennte Brueckenkerne im Feld?",
         ]
     )
     out.write_text("\n".join(lines) + "\n", encoding="utf-8")

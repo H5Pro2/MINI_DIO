@@ -156,9 +156,6 @@ def _write_markdown(rows: list[dict[str, object]], synth_rows: list[dict[str, st
             "",
             "Die Rezeptoradaptation wirkt auch hier nicht als Wegloeschen der Wirkung. Sie begrenzt Rohaufnahme, aber laesst Hochlastfenster als offene oder randnahe Innenfeldlagen sichtbar.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte KAS als reale Randreferenz phasenweise isoliert werden. Ziel ist zu verstehen, welche Weltabschnitte die starke reale Randnaehe erzeugen.",
         ]
     )
     out.write_text("\n".join(lines) + "\n", encoding="utf-8")

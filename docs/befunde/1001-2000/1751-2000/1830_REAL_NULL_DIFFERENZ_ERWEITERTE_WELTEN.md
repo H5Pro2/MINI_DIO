@@ -48,7 +48,3 @@ Damit wird die Feldordnung nicht als einfacher Stabil/Kollaps-Schalter sichtbar,
 ## Grenze
 
 Der Report vergleicht kurze erweiterte Kontrollwelten. Fuer eine belastbarere Aussage muessen laengere und assetgetrennte Welten mit derselben Differenzlogik gelesen werden.
-
-## Wie es weitergeht
-
-Als naechstes sollte diese Differenzlogik auf laengere Assetfenster angewendet werden. Entscheidend ist, ob Bedeutungsbreite und adaptive Rekopplung auch bei groesserer Feldzeit besser trennen als die dominante Feldklasse.

@@ -74,7 +74,3 @@ MINI_DIO zeigt hier eine robustere Bedeutungsbildung als reine Symbolzaehlung:
 - und `die Feldfolge entscheidet die aktuelle Innenbedeutung`.
 
 Das ist ein wichtiger Schritt fuer eine organische MCM-Lesart, weil Bedeutung nicht absolut gespeichert wird, sondern an gelebte Feldlage gebunden bleibt.
-
-## Wie es weitergeht
-
-Als naechstes sollte diese Grundregel an weiteren Brueckenfamilien geprueft werden. Ziel ist nicht mehr Einzelbeleg, sondern Stabilitaetspruefung: Welche Familien bleiben echte Bruecken, welche zerfallen in Randbereiche, und welche reifen zu klareren Bedeutungsankern.

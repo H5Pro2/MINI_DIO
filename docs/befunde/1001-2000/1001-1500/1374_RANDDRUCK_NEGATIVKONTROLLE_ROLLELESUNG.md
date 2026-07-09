@@ -46,5 +46,3 @@ Die Kontrollfenster fallen nicht in Randdruck.
 Sie erscheinen als Brueckenuebergang oder als offener lauter Kontakt.
 
 Damit wirkt Randdruck an die volle Kopplung aus fortgesetztem lautem Kontakt und lauter/druckvoller Rohwelt gebunden.
-
-Wie es weitergeht: Als naechstes wird die Nachhallspur dieser Kontrolle gelesen, um zu pruefen, ob fehlender Randdruck dennoch als andere Feldfunktion weitertraegt.

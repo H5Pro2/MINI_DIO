@@ -31,7 +31,3 @@ Die Anschlussanker-Ebene teilt sich in mindestens drei lesbare Familien:
 - `uebergangsanker_familie`: wirkt als Reifungs- oder Rekopplungsstueck zwischen stabiler Insel und Brueckenpfad.
 
 Das spricht dafuer, dass die MCM-Topologie nicht nur Zentrum/Rand kennt, sondern eine differenzierte Anschlusszone zwischen stabiler Bedeutung und offener Feldbewegung ausbildet.
-
-## Wie es weitergeht
-
-Als naechstes sollte geprueft werden, ob diese Anschlussanker-Familien in anderen Weltgruppen wieder auftauchen oder ob sie nur aus dieser Brueckenlandschaft entstehen.

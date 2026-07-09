@@ -81,7 +81,3 @@ Nicht nur Form, sondern geordnete Form in Zeit erzeugt Bedeutung.
 ## Grenze
 
 Die genaue Schwelle zwischen `dio_0ein` und `dio_1fll` ist noch nicht bestimmt. Zwischen block_size 8 und 16 liegt wahrscheinlich ein Uebergangsbereich.
-
-## Wie es weitergeht
-
-Als naechstes sollte eine Zwischenreihe mit block_size 10, 12 und 14 geprueft werden. Damit koennen wir den Uebergang zwischen `dio_0ein`-Dominanz und `dio_1fll`-Rueckkehr genauer lokalisieren.

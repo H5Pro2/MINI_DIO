@@ -152,10 +152,3 @@ Diese Familie wird eher druckvoll / entspannend gelesen.
 
 Damit koennte MINI_DIO nicht nur erkennen, dass eine Feldfamilie wiederkehrt, sondern
 auch, wie diese Familie innerlich getragen wird.
-
-## Wie es weitergeht
-
-Als naechstes wird ein passiver Report gebaut, der fuer die wichtigsten
-MCM-Preview-Familien `dio_mcm_episode_1t5bcxp`, `dio_mcm_episode_0y50lf3` und
-`dio_mcm_episode_183drjy` die Regulationsachsen aus vorhandenen Episodendaten liest:
-Fokus/Abstand, laut/leise, scharf/unscharf und Druck/Entspannung.

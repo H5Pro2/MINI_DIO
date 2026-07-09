@@ -78,7 +78,3 @@ Eine Weltform kann die dominante Bedeutungsinsel verschieben, ohne dass sie alle
 ## Grenze
 
 `1434` zeigt eine stabile Tendenz, aber noch keine harte Grenzbestimmung. Es bleibt offen, ob verschiedene Blockgroessen oder Blockpositionen dieselbe Verschiebung erzeugen.
-
-## Wie es weitergeht
-
-Als naechstes sollte die Blockgroesse variiert werden. So pruefen wir, ob `dio_0ein` auf Blockrahmung allgemein reagiert oder nur auf die konkrete block_size-Struktur dieser Welt.

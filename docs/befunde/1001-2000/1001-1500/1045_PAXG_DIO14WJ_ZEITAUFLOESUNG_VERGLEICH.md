@@ -146,7 +146,3 @@ Sie kann:
 - in der Dominanz sinken,
 - in anderer Zeitebene anders nachhallen,
 - neben anderen Erweiterungsfamilien bestehen.
-
-## Wie es weitergeht
-
-Als naechstes sollte `dio_14wj` gegen Nicht-PAXG-Welten geprueft werden. Ziel: Klaeren, ob diese ruhige Rekopplungsrolle PAXG-spezifisch ist oder ob sie auch in BTC, SOL oder KAS unter bestimmten Weltspannungen dieselbe Funktion uebernimmt.

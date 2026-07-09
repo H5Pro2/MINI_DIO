@@ -158,9 +158,6 @@ def _write_md(path: Path, rows: list[dict[str, str]]) -> None:
     lines.append("Ein Teil der Rollenbewegungs-Memory wird getragen, ein Teil wird umgebaut, und ein Teil taucht als neue vierte-Welt-Insel auf.")
     lines.append("Damit wird `dio_role_*` als passive Rollenbewegung lesbar: nicht starre Klasse, sondern Feldverlauf mit Tragen, Drift, Entlastung und neuer Verdichtung.")
     lines.append("")
-    lines.append("## Wie es weitergeht")
-    lines.append("")
-    lines.append("Als naechstes sollte die Reorganisationsgruppe isoliert werden: Welche Sinnes-/Feldachsen kippen dort zuerst, und ob diese Kippung eine neue Bedeutungsinsel vorbereitet oder nur Entlastung ist.")
     path.write_text("\n".join(lines), encoding="utf-8")
 
 

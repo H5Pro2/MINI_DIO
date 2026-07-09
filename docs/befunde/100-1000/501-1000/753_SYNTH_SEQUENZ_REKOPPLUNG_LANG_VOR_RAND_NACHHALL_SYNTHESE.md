@@ -200,7 +200,3 @@ Und fuer Feldzeit:
 Feldzeit speichert Integrationsgeschichte,
 aber die Gegenwart bleibt feldwirksam.
 ```
-
-## Wie es weitergeht
-
-Als naechstes sollte keine weitere einfache Rekopplungslaenge getestet werden. Sinnvoller ist jetzt eine Gesamtkarte der Sequenzbefunde: Original, Rand-vor-Bruch, kurze Rekopplung-vor-Rand und lange Rekopplung-vor-Rand. Ziel: eine klare Mechanik von Nachhall, Gegenwart und Feldzeit dokumentieren.

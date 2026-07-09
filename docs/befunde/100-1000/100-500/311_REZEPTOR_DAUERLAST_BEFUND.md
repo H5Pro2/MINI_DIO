@@ -89,7 +89,3 @@ Der Befund ist:
 In den geprüften Dauerlastwelten bleibt die rezeptorische MCM-Topologie stabil.
 Neue Archetypen sind bisher nicht zwingend sichtbar.
 ```
-
-## Wie es weitergeht
-
-Als nächstes sollte geprüft werden, ob innerhalb dieser Dauerlastwelten lokale Kontaktinseln entstehen: kurze Abschnitte, in denen `contact_pressure` hoch, `contact_alignment` niedrig und Rekopplung trotzdem möglich ist. Das wäre wichtiger als noch längere Gesamtläufe.

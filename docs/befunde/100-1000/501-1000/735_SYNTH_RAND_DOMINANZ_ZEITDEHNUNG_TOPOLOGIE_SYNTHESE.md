@@ -181,7 +181,3 @@ Rezeptoradaptation als Aufnahmegrenze.
 Topologie als stabile Innenordnung.
 Phasenrolle als lokale Bedeutungsbildung.
 ```
-
-## Wie es weitergeht
-
-Als naechstes sollte die dreiteilige Zeitdehnungsreihe zusammengefasst werden: `harmonic`, `bruch_rand`, `rand_dominanz`. Ziel: eine klare Forschungsnotiz zur Feldzeit-Mechanik erstellen, bevor weitere Welten dazukommen.

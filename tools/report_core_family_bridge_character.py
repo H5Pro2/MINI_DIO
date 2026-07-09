@@ -97,9 +97,6 @@ def _write_md(path: Path, rows: list[dict[str, object]]) -> None:
             "",
             "Der Score ist eine Diagnosehilfe, kein absoluter Wert und kein Mechanik-Eingriff.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als nächstes sollte der stärkste Brückenkandidat gegen konkrete Weltfenster rückgelesen werden: In welchen Außenweltlagen wird diese Brückenfunktion aktiviert?",
         ]
     )
     path.parent.mkdir(parents=True, exist_ok=True)

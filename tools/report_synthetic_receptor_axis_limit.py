@@ -211,7 +211,6 @@ def _write_markdown(rows: list[dict[str, object]], out: Path, title: str) -> Non
             "",
             "Damit wirkt die Rezeptorschicht nicht nur als Vorfilter, sondern als organische Aufnahmegrenze: Sie laesst Weltspannung ins Feld, aber nicht als ungebremste Rohdatenflut.",
             "",
-            "Wie es weitergeht: Als naechstes sollte dieselbe Achsendiagnose gegen Bruch/Rand und Harmonie laufen, damit klar wird, ob die Begrenzung spezifisch fuer Randdominanz ist oder eine allgemeine MINI_DIO-Aufnahmeeigenschaft.",
         ]
     )
     out.write_text("\n".join(lines) + "\n", encoding="utf-8")

@@ -87,7 +87,3 @@ Das MCM-Feld kann Spannung aufnehmen, öffnen und anschließend wieder in eine t
 Der Folgebereich von acht Episoden ist eine diagnostische Wahl.
 
 Der Befund zeigt eine lokale Rückführungsdynamik in den geprüften Welten. Er sagt noch nicht, ob dieselbe Dynamik bei allen Datenlängen, Assets und Regimes gleich bleibt.
-
-## Wie es weitergeht
-
-Als nächstes prüfen wir die Randfälle: Welche Welt- und Sinnesbedingungen führen dazu, dass eine offene Episode nicht rekoppelt, sondern offen bleibt oder in den Spannungsrand kippt?

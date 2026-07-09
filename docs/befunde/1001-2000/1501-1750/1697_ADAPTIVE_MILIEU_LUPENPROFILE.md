@@ -75,7 +75,3 @@ Das trennt zwei Arbeitsfragen:
 Milieu-Umlagerung: aehnliche Welt-/Feldlage, andere Milieuschicht.
 Weltgetriebener Wechsel: veraenderte Range, Hoeren oder Feldspannung faerbt die Familie um.
 ```
-
-## Wie es weitergeht
-
-Als naechstes sollten die `milieu_umlagert_nahe`-Familien gegen andere Assetfenster geprueft werden. Wenn sie dort wiederkehren, sind sie staerkere Kandidaten fuer robuste innere Milieu-Bewegung.

@@ -62,7 +62,3 @@ Die aktuelle Evidenz lautet:
 - PAXG 2024/2025 1h: Kandidat nicht sichtbar.
 
 Das spricht fuer eine bedeutungsabhaengige Feldaktivierung nach Weltqualitaet, nicht fuer starre Musterkopie.
-
-## Wie es weitergeht
-
-Als naechstes sollte geprueft werden, welche PAXG-eigenen stabilen Bedeutungsformen anstelle der Zielachse dominieren. Dadurch wird sichtbar, ob PAXG nur nicht zur Kandidatenachse passt oder eine eigene stabile Feldfamilie ausbildet.

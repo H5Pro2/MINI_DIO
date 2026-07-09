@@ -47,7 +47,3 @@ Das ist kein Beweis fuer eine feste Bedeutung, aber ein staerkerer Hinweis als r
 `dio_0ly7` und `dio_01hu` sind aktuell die interessantesten Kandidaten, weil sie die gleiche Bewegung `nur_gereift -> offen_und_gereift` ausserhalb der 2023-Pruefung erneut zeigen.
 
 `dio_0dd2` taucht zwar in Assets auf, aber mit Gegenrichtung. `dio_10dv` taucht in dieser Assetpruefung nicht auf.
-
-## Wie es weitergeht
-
-Als naechstes sollten `dio_0ly7` und `dio_01hu` als robuste Kandidaten gegen ihre Asset-Rohweltfenster gelesen werden: Welche Weltspannung, Hoerform und Feldspannung liegen direkt vor der erneuten Oeffnung?

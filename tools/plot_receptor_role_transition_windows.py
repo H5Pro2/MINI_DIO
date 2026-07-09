@@ -102,7 +102,6 @@ def _write_md(rows: list[dict[str, str]], out: Path) -> None:
             "",
             "Diese Bilder dienen der passiven Feldphasen-Lesung. Sie pruefen, ob Offenheit eine Vorphase von Rand/Kipp ist oder ob Rand/Kipp als direkter Impulszustand erscheint.",
             "",
-            "Wie es weitergeht: Die Bilder sollten gegen die Segmentwerte gelesen werden. Danach kann die Feldphasen-Mechanik als Vorraum/Pendelbewegung dokumentiert werden.",
         ]
     )
     out.write_text("\n".join(lines) + "\n", encoding="utf-8")

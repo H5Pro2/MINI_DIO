@@ -80,7 +80,3 @@ Reale Welten zeigen Achsenwirkung als Mischfeld.
 ```
 
 Damit wird die Rezeptorschicht wichtiger. Sie verhindert, dass Rohweltspannung direkt in das Feld kippt, und erlaubt dem MCM-Feld, offene Uebergangsraeume zu halten.
-
-## Wie es weitergeht
-
-Als naechstes sollte nicht noch eine neue Achse gebaut werden. Sinnvoll ist die Ruecklesung konkreter Hochlastfenster: Welche reale Weltform steht vor `high_offen` und welche vor `high_rand_kipp`?

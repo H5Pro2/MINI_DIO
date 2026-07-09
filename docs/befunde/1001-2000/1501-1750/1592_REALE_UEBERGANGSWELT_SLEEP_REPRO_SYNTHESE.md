@@ -106,7 +106,3 @@ Damit wird Sleep/Offline nicht als mechanischer Wiederholungsmodus lesbar, sonde
 - [1589 SYNTH_RAND_KIPP 2000 Mehrrollen-Repro](1589_SYNTH_RAND_KIPP_2000_MEHRROLLEN_REPRO.md)
 - [1590 SYNTH_RAND_KIPP Mehrrollen-Repro Synthese](1590_SYNTH_RAND_KIPP_MEHRROLLEN_REPRO_SYNTHESE.md)
 - [1591 RUHIG_SIDEWAYS 2000 Uebergang-Repro](1591_RUHIG_SIDEWAYS_2000_UEBERGANG_REPRO.md)
-
-## Wie es weitergeht
-
-Als naechstes sollte eine weitere reale 2000er-Uebergangswelt reproduziert werden, vorzugsweise `EXPANSION_POSITIV_2023 start2000`. Ziel: pruefen, ob reale Uebergaenge generell fokussiert voll rekoppeln oder ob auch reale Welten selektive Sleep-Reaktivierung zeigen.

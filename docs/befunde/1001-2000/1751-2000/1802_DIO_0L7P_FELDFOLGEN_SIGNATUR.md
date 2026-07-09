@@ -27,7 +27,3 @@ Quelle: `reports/dio_0l7p_bridge_tick_windows.csv`
 - Kippnähe: Ereignis bleibt offen, der Nachlauf trägt eher offene Spannung als stabile Rekopplung.
 
 Damit ist `dio_0l7p` nicht einfach ein einzelnes Symbol. Es wirkt wie ein Brückenträger, dessen konkrete Lesart aus der Feldfolge entsteht.
-
-## Wie es weitergeht
-
-Als nächstes sollte geprüft werden, ob `dio_104t` eine ähnliche Feldfolgen-Signatur zeigt oder ob es stärker als Anschluss-/Kohärenzknoten wirkt.

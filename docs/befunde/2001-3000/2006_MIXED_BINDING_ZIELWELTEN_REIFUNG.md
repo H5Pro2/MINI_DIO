@@ -108,15 +108,3 @@ sondern nur passende Weltähnlichkeit berührt die vorhandene Feldform.
 Die Prüfung ist weiterhin passiv. Sie erzeugt keine Handlung und keine Strategie.
 
 Außerdem ist der Befund noch klein: fünf Kandidaten, davon drei gereift. Das ist ein starker Hinweis, aber noch kein allgemeines Gesetz.
-
-## Wie es weitergeht
-
-Als nächstes sollten wir diese Zielwelt-Reifung gegen eine Gegenprobe absichern:
-
-```text
-1. ruhige PAXG-Nähe erneut oder versetzt prüfen
-2. eine ruhige Nicht-PAXG-Welt prüfen
-3. eine sichtbare Übergangswelt gezielter suchen, weil die bisherigen Übergangswelten die zwei Übergangskandidaten nicht getroffen haben
-```
-
-Ziel ist zu klären, ob die Reifung an PAXG gebunden ist oder an die Feldbedingung `ruhige rekoppelnde Nähe`.

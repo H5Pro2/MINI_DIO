@@ -218,8 +218,6 @@ def _write_markdown(path: Path, rows: list[dict[str, object]], edge_family: str)
             "",
             "Die Karte ist eine passive Innenfeldkarte. Sie ist keine Handlungskarte, keine Strategie und keine Richtungsvorhersage.",
             "",
-            "## Wie es weitergeht",
-            "",
         ]
     )
     if edge_family == EDGE_FAMILY_DEFAULT:

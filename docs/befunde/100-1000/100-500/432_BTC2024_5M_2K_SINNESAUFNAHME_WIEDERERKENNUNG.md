@@ -49,7 +49,3 @@ gleiche/aehnliche Weltlage
 ```
 
 Sie bleibt vor Handlung, vor Gate und vor Strategie.
-
-## Wie es weitergeht
-
-Als naechstes sollte diese Wiedererkennung in eine kleine passive Intake-Memory ueberfuehrt werden: nicht zur Steuerung, sondern um zu speichern, welche Aufnahmeart in welcher Innenfeldlage wiederholt getragen oder belastet war.

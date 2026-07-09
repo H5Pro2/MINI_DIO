@@ -71,7 +71,3 @@ Der wichtigste bisherige Bewegungsbefund bleibt:
 ```
 
 Damit entsteht eine passive Feldbewegung zwischen Grundinsel und rekoppelnder Innenzone.
-
-## Wie es weitergeht
-
-Als naechstes wird geprueft, ob diese Bewegungsarten in weiteren Welten stabil bleiben oder neue Klassen benoetigen.

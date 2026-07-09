@@ -126,9 +126,6 @@ def _write_md(path: Path, rows: list[dict[str, str]]) -> None:
     lines.append("Die Reorganisationsgruppe kann als kleine Pruefgruppe weiterverfolgt werden.")
     lines.append("Relevant ist, ob ein junger oder driftender Zustand in einer Folgewelt verschwindet, gehalten bleibt oder Anschlussreife gewinnt.")
     lines.append("")
-    lines.append("## Wie es weitergeht")
-    lines.append("")
-    lines.append("Als naechstes sollte nur fuer die gehaltenen oder weiter reifenden Tokens eine Segmentlupe gebaut werden. So wird sichtbar, durch welche Weltphasen die Reifung getragen wird.")
     path.write_text("\n".join(lines), encoding="utf-8")
 
 

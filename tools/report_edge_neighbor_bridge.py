@@ -250,9 +250,6 @@ def _write_markdown(path: Path, rows: list[dict[str, object]], target_summary: d
             "",
             "Der Befund ist eine passive Nachbarschaftsdiagnose. Er beschreibt keine Handlung, keine Richtung und keine Strategie.",
             "",
-            "## Wie es weitergeht",
-            "",
-            f"Als naechstes sollte eine der stabilen Brueckenfamilien neben `{target_family}` genauer gelesen werden. Dann sehen wir, ob die Bruecke nur Nachbarschaft ist oder eine echte semantische Uebergangsstruktur bildet.",
         ]
     )
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")

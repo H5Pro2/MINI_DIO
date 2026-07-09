@@ -64,7 +64,3 @@ Stabiler waere der Befund erst, wenn dieselben Brueckenfamilien:
 - ueber weitere frische Welten wiederkehren,
 - nicht nur synthetisch, sondern realweltlich deutlicher auftreten,
 - und gegen Rohweltfenster nachvollziehbar zeigen, wann eine Familie tragend oder kippnah gelesen wird.
-
-## Wie es weitergeht
-
-Als naechstes sollte eine reale Brueckenfamilie, zum Beispiel `dio_17ct` oder `dio_0g2r`, gegen Rohweltfenster gelesen werden. Ziel: verstehen, welche Weltabschnitte dieselbe Familie einmal tragend und einmal kippnah erscheinen lassen.

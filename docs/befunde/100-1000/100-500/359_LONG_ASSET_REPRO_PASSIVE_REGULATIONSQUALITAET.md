@@ -93,8 +93,3 @@ MINI_DIO reproduziert bei frischem Memory dieselbe gerichtete Tragart.
 Die Innenfeldbewegung ist damit nicht nur eine einmalige Memory-Ablagerung.
 Sie bleibt passive Wahrnehmung und darf nicht direkt in Handlung uebersetzt werden.
 ```
-
-## Wie es weitergeht
-
-Als naechstes sollte eine andere lange Weltgruppe mit anderem Regime geprueft werden.
-Ziel ist zu klaeren, ob dieselbe Asymmetrie auch ausserhalb dieser SOL/BTC-1h-Teilwelten erscheint oder ob neue passive Innenfeldqualitaeten entstehen.

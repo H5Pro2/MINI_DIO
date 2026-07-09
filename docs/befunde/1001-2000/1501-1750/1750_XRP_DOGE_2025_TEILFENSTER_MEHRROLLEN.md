@@ -85,7 +85,3 @@ Das zeigt: Mehrrollenfähigkeit ist nicht XRP-exklusiv. Die stärkere XRP-Überg
 ## Zugehöriger Report
 
 - [xrp_doge_2025_teilfenster_mehrrollen_scan.md](../../../../reports/xrp_doge_2025_teilfenster_mehrrollen_scan.md)
-
-## Wie es weitergeht
-
-Als nächstes sollte der stärkste XRP-Teilfensterkandidat als eigene Real-Sleep-Real-Kette gegen einen starken DOGE-Teilfensterkandidaten geprüft werden. Entscheidend ist, ob XRP lokal mehr Cross-State-Reaktivierung bildet oder ob die frühere Übergangsphase erst aus dem 5000er-Gesamtkontext entsteht.

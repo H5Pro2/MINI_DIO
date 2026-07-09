@@ -74,7 +74,3 @@ Damit liegt eine kontrollierte Ebene vor:
 - gleiche Phasenunterschiede
 
 Das ist fuer die MCM-Forschung wichtig, weil es die Trennung zwischen beliebiger Emergenz und reproduzierbarer Feldordnung schaerft.
-
-## Wie es weitergeht
-
-Als naechstes sollte eine leicht veraenderte Melodie getestet werden. Entscheidend ist, ob Mini-DIO die alte Bedeutungsfolge als Nachbarschaft wiedererkennt oder eine neue Insel bildet.

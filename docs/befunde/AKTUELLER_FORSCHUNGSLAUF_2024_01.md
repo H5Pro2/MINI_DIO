@@ -50,7 +50,3 @@ Episodenzustaende:
 
 - Debug: `debug\research_chain_2024_01`
 - Memory: `memory\research_chain_2024_01.json`
-
-## Wie es weitergeht
-
-Als naechstes sollte dieselbe Kette mit einer zweiten kontrollierten Welt laufen. Dabei wird geprueft, ob dieselben Familien stabil bleiben, ob neue Inseln entstehen oder ob vorhandene Bedeutungen driften.

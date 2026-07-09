@@ -68,7 +68,3 @@ Wenn die adaptiven Gewichte nur sehr wenig streuen, ist die Schicht technisch ak
 ## Grenze
 
 Die Klassifikation ist eine passive Diagnose. Sie beschreibt Feldmilieu und Anschlussfaehigkeit, aber keine Richtung, keine Handlung und keine Strategie.
-
-## Wie es weitergeht
-
-Als naechstes sollte die adaptive Rekopplung nicht nur global, sondern pro Feldrolle und Symbolfamilie gelesen werden. Ziel ist zu pruefen, ob `carry`, `alignment`, `strain_relief` und `sensory` in stabilen, randnahen, offenen und rekoppelnden Rollen unterschiedlich gewichtet werden.

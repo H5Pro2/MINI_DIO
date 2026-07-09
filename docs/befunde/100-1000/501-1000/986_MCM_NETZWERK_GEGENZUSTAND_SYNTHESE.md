@@ -65,8 +65,3 @@ Feldqualitaet entscheidet, ob es rekoppelt oder belastet fragmentiert.
 
 Diese Synthese beschreibt eine passive Feldmechanik.
 Sie ist keine Handlungsnaehe und kein Beweisabschluss.
-
-## Wie es weitergeht
-
-Als naechstes sollte geprueft werden, ob derselbe Gegenzustand auch in neuen Weltgruppen reproduzierbar bleibt.
-Erst dann kann daraus eine robuste MCM-Feldmechanik-These formuliert werden.

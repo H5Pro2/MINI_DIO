@@ -78,7 +78,3 @@ Für die aktuelle Forschung bleibt der Befund gültig als Milieu-Befund. Für sp
 Status: passiver Methodenbefund.
 
 Keine Handlungslogik, keine Strategie, kein Gate.
-
-## Wie es weitergeht
-
-Als nächstes sollte eine rollierende Rezeptor-Normierung als Diagnosemodus geprüft werden: gleiche Welt, aber Profil nur aus Vergangenheit und Gegenwart. Dann lässt sich trennen, was echte lokale Rekopplung ist und was aus Gesamtmilieu-Skalierung entsteht.

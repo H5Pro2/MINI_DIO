@@ -80,7 +80,3 @@ KAS 10k wurde aus Binance Futures-UM gebaut, weil Spot-Monatsdaten für KAS 2024
 - Delta: [1982_MCM_ROLLENBREITEN_KAS_10K_DELTA.csv](1982_MCM_ROLLENBREITEN_KAS_10K_DELTA.csv)
 - Memory: `memory/preview_depth_role_breadth_equal10k_kas_probe.json`
 - Debug: `debug/1982_equal10k_kas_2024_5m`
-
-## Wie es weitergeht
-
-Als nächstes sollte eine zweite leise/kleinpreisige Welt ergänzt werden, idealerweise nicht KAS. Ziel: prüfen, ob die KAS-Rekopplung assettypisch ist oder ob kleinpreisige Welten generell zuerst in vorhandene Grundrollen hineinreifen.

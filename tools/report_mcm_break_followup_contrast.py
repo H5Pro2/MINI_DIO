@@ -182,10 +182,6 @@ def _write_markdown(path: Path, rows: list[dict[str, object]], input_path: Path)
             "",
             "Das MCM-Feld liest nicht nur die Aussenbewegung. Es liest, ob das Feld nach der Aussenbewegung wieder Anschluss findet.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollten die Gegenformen mit konkreten Tickfenstern markiert werden: Wo beginnt die Nachlast, und welche Feldrolle liegt direkt davor?",
-            "",
         ]
     )
     path.parent.mkdir(parents=True, exist_ok=True)

@@ -94,5 +94,3 @@ Wichtig ist die Trennung:
 
 - als Mikrofenster: klar vorhanden
 - als ganze Weltfaerbung: bisher nicht stabil reproduziert
-
-Wie es weitergeht: Als naechstes sollte ein passiver Mikrofenster-Holdout gebaut werden: nicht ganze Welten mitteln, sondern nur passende Kandidatenfenster in neuen BTC/SOL-Welten suchen und gegen diese Kandidatenfamilie vergleichen.

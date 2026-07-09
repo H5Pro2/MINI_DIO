@@ -176,9 +176,6 @@ def _write_markdown(rows: list[dict[str, object]], out: Path) -> None:
             "",
             "Damit entsteht keine flache Verbindungsliste, sondern eine strukturierte Uebergangstopologie.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte die Rolle des zentralen Kerns gegen Randpfade und stabile Inseln gelesen werden: fuehrt der Kern eher in Zentrum, Rand oder offene Feldlagen?",
         ]
     )
     out.write_text("\n".join(lines) + "\n", encoding="utf-8")

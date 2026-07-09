@@ -44,8 +44,3 @@ Rekopplung und Fragmentierung entstehen nicht aus derselben Vorfeldqualitaet.
 Rekopplung folgt im Mittel einem gedaempften Vorfeld mit geringerer tonaler Energie und geringerer Feldaufnahme.
 Fragmentierung ist selten, zeigt aber im Mittel mehr tonale Energie und mehr Feldaufnahme relativ zur eigenen Weltbasis.
 ```
-
-## Wie es weitergeht
-
-Als naechstes sollte diese Trennung auf weitere Weltgruppen geprueft werden.
-Wenn sie stabil bleibt, kann daraus eine passive Rezeptor-Regulationsdiagnose entstehen: nicht als Regel, sondern als Lesung, wann das Feld eher bindet oder eher fragmentiert.

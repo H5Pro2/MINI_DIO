@@ -113,9 +113,6 @@ def _write_md(path: Path, base_rows: list[dict[str, str]], compare_rows: list[di
     lines.append("")
     lines.append("Das spricht fuer eine lebendige Topologie: stabil genug, um wiederkehrende Rollen zu zeigen, aber flexibel genug, um Rollen je nach Weltspannung anders zu organisieren.")
     lines.append("")
-    lines.append("## Wie es weitergeht")
-    lines.append("")
-    lines.append("Als naechstes sollte genau diese Rollenwanderung untersucht werden: Welche Weltmerkmale lassen `0b7nep9` vom verteilenden Anschlussanker zum Kernpartner von `0ykar6i` werden?")
     path.write_text("\n".join(lines), encoding="utf-8")
 
 

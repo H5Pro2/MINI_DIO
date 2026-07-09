@@ -71,7 +71,3 @@ Hartkern + Weltlage -> getragen / geöffnet / verschoben / ausgeblendet
 ```
 
 Neu ist, dass `verschoben` nun als gespeicherte passive Erfahrung im Memory sichtbar wird.
-
-## Wie es weitergeht
-
-Als nächstes sollte geprüft werden, ob `kern_verschoben` bei weiteren Folgefenstern wiederkehrt oder ob es nur eine PAXG-spezifische Übergangslage war.

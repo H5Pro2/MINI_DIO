@@ -86,7 +86,3 @@ Das ist kein allgemeiner Beweis, aber ein staerkerer Befund als eine reine Einze
 Die Gegenpruefung bleibt innerhalb derselben synthetischen Grundfamilie.
 
 Sie veraendert die Phasenordnung, aber nicht alle moeglichen Weltmerkmale.
-
-## Wie es weitergeht
-
-Als naechstes sollte eine staerkere Gegenstruktur laufen: nicht nur Spiegelung, sondern gebrochene Melodie mit erhaltener Lautstaerkenreihe. Ziel ist zu pruefen, ob das Gleichlagenplateau bei strukturellem Bruch bestehen bleibt oder zerfaellt.

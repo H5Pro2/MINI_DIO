@@ -201,9 +201,6 @@ def _write_md(rows: list[dict[str, object]], out: Path, title: str) -> None:
             "",
             "Wenn visuelle Schaerfe niedrig ist, aber Lautheit nicht stark steigt, spricht das eher fuer Formbruch ohne starke Hoerlast.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollten die realen `gekoppelte_feldlast`-Fenster gegen die Rohweltsequenz gelesen werden. Ziel ist zu sehen, ob diese Rolle an Bewegungsbruch, Expansion oder Rekopplungsversuch gebunden ist.",
         ]
     )
     out.write_text("\n".join(lines) + "\n", encoding="utf-8")

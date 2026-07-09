@@ -227,10 +227,6 @@ def _write_md(path: Path, details: list[dict[str, object]], summary: list[dict[s
             "Wenn eine visuelle Form ueber mehrere Quellen wiederkehrt, wird sie als passive Bedeutungsgrundlage staerker.",
             "Wenn sie nicht wiederkehrt, bleibt sie eine lokale oder situationsgebundene Form.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte die wiederkehrende Gruppe nach Stabilitaet sortiert werden: welche Formen sind robust, welche nur situationsbedingt?",
-            "",
         ]
     )
     path.parent.mkdir(parents=True, exist_ok=True)

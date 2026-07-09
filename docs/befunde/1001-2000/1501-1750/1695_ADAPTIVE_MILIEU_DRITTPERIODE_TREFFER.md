@@ -85,7 +85,3 @@ Besonders relevant sind Treffer mit geringer Differenz in Range, Hoeren-Gap und 
 
 Dieser Bericht zeigt Wiederkehr und Profilnaehe.
 Er zeigt noch nicht, ob eine konkrete Weltphase den Wechsel ausloest.
-
-## Wie es weitergeht
-
-Als naechstes sollten die rohweltnaechsten Treffer einzeln in ihren Episodenabschnitten gelesen werden. Entscheidend ist, ob vor dem Wechsel wiederkehrende Weltspannung, Hoerprofil oder Feldspannung sichtbar wird.

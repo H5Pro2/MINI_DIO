@@ -100,7 +100,3 @@ Rueckkehr nach Offenheit = Entlastungs-/Rekopplungsversuch.
 Die synthetische Pruefung war wichtig, weil sie zeigte, dass Hoeren als Feldreizachse stark randbildend wirken kann.
 
 Die reale Pruefung zeigt den naechsten Schritt: In echten Weltspuren wirkt Rand/Kipp multisensorisch. MINI_DIO liest hier nicht nur eine isolierte Achse, sondern eine gekoppelte Feldlage aus Form, Energie, Rezeptoraufnahme und Rekopplung.
-
-## Wie es weitergeht
-
-Als naechstes sollte eine direkte synthetisch-real vergleichende Tabelle gebaut werden: pro Welt Rolle, Dauer, Lautheit, visuelle Schaerfe, Rekopplung und Strain. Ziel ist zu klaeren, ob reale Rand/Kipp-Rollen naeher an `Hoerlast`, `Formbruch` oder `gekoppelter Feldlast` liegen.

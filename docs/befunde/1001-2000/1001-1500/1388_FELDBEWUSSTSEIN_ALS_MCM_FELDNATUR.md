@@ -119,8 +119,3 @@ geringeren Strain
 oder staerkere Rekopplung
 als rein sensorische Wiederkehr?
 ```
-
-## Wie es weitergeht
-
-Als naechstes wird die semantisch gebundene Wiederkehr gegen reine Oberflaechenwiederkehr gemessen.
-Entscheidend ist, ob interne Bedeutungsnaehe eine messbare Feldwirkung hat.

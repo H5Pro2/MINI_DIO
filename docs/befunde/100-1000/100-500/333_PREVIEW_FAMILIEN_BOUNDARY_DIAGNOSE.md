@@ -80,8 +80,3 @@ zurueckfuehrt. `0y50lf3` wirkt eher als andere Uebergangsnaehe, die noch separat
 gegen `17i4j9o` geprueft werden muss.
 
 Wichtig: Das bleibt eine passive Feldbewegung. Keine Handlung, kein Gate, keine Regel.
-
-## Wie es weitergeht
-
-Als naechstes werden konkrete Uebergangspaare aggregiert: besonders
-`1t5bcxp -> 183drjy`, `183drjy -> 1t5bcxp` und `17i4j9o -> 0y50lf3 -> 17i4j9o`.

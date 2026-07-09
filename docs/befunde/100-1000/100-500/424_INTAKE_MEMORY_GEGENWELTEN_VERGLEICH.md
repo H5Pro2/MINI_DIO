@@ -123,7 +123,3 @@ Das ist wichtig fuer MINI_DIO:
 ## Grenze
 
 Dieser Befund beweist noch keine universelle Topologie und keine aktive Regulation. Er zeigt aber, dass die passive Sinnesaufnahme-Memory ueber mehrere Gegenwelten hinweg wiedererkennbare Familien bildet.
-
-## Wie es weitergeht
-
-Als naechstes sollte eine BTC-Synthese als eigene Befunddatei die 5m-/1h-Direktvergleiche zusammenziehen. Danach kann eine neue Assetfamilie dagegengelegt werden, um zu pruefen, ob dieser Kern BTC-spezifisch oder allgemeiner ist.

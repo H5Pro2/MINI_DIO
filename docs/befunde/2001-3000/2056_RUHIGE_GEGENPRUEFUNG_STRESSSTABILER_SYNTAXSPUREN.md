@@ -40,5 +40,3 @@ Sind die stressstabilen Spuren allgemeine Feldrollen, oder werden sie hauptsäch
 ## Bedeutung für MINI_DIO
 
 Die Gegenprüfung verhindert, dass Stressrobustheit automatisch als allgemeine Reife gelesen wird. MINI_DIO kann damit später zwischen Grundrolle, Stressrolle und situativer Aktivierung unterscheiden.
-
-Wie es weitergeht: Als nächstes sollten wir die stressspezifischen und die allgemeinen Rollen getrennt gegen weitere Assets prüfen. Entscheidend ist, ob sich daraus eine Rollenkarte bildet, die Weltspannung, Ruhe und Drift sauber auseinanderhält.

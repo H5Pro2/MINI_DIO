@@ -93,9 +93,6 @@ def main() -> None:
         "Das ist eine Benennungspruefung, keine Umbenennung im Code.",
         "Die bestehende Datenkette bleibt reproduzierbar.",
         "",
-        "## Wie es weitergeht",
-        "",
-        "Als naechstes sollte eine kombinierte Stresswelt geprueft werden: groessere Range, dichtere Wechsel und staerkere Ton-/Rezeptorverdichtung gemeinsam. Entscheidend ist, ob erst die Kopplung mehrerer Belastungsqualitaeten Spannungsnaehe aktiviert.",
     ]
     OUT_MD.write_text("\n".join(lines) + "\n", encoding="utf-8")
 

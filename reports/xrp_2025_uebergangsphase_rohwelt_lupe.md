@@ -94,7 +94,3 @@ höhere Roh-Range
 ```
 
 Wichtig: Das ist eine Diagnose, kein Ursachebeweis. Die nächste Prüfung muss diese Kopplung gegen weitere XRP-Fenster und gegen synthetisch isolierte Achsen testen.
-
-## Wie es weitergeht
-
-Als nächstes sollte XRP 2025 in mehrere kleinere Fenster zerlegt werden. Ziel ist zu prüfen, ob die mittlere Übergangsphase aus einzelnen Segmenten kommt oder über das ganze Fenster verteilt getragen wird.

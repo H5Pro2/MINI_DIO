@@ -99,7 +99,3 @@ Das ist eine andere Qualitaet von Memory. Es entsteht ein Speicher von Bedeutung
 ## Schlussfolgerung
 
 Die Rollenmatrix ist ein erster Schritt von Symbolspeicher zu Feldfunktionsspeicher. Das ist fuer ein reiferes DIO-System wichtig, weil spaetere Wahrnehmung und moegliche Handlung nicht aus festen Regeln entstehen sollten, sondern aus gereifter Rollenfunktion.
-
-## Wie es weitergeht
-
-Als naechstes sollte die Rollenmatrix in eine mechanische Struktur ueberfuehrt werden: MINI_DIO sollte Feldfunktionsqualitaeten passiv im Memory mittragen koennen, ohne daraus direkte Handlung abzuleiten.

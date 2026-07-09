@@ -186,9 +186,3 @@ Das stuetzt die aktuelle Arbeitsthese:
 MCM-Bedeutung ist nicht nur ein Punkt.
 MCM-Bedeutung ist auch eine Bewegung im Feld.
 ```
-
-## Wie es weitergeht
-
-Als naechstes sollte eine Rohwelt-Segmentlupe fuer genau diese vier Tokens entstehen.
-Dabei wird je Token geprueft, welche konkreten Weltphasen vor, waehrend und nach dem Tokenkontakt auftreten.
-Ziel: unterscheiden, ob die Feldbewegung aus Sequenzbruch, Randspannung, Assetprofil oder Rezeptoraufnahme entsteht.

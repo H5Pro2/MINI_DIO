@@ -89,7 +89,3 @@ Damit bekommt MINI_DIO eine methodisch bessere Trennung:
 - mögliche Weltbindungsanker verändern ihre Qualität zwischen Real und Null
 
 Das reduziert die Gefahr, jedes stabile Muster als echte Weltbindung zu deuten.
-
-## Wie es weitergeht
-
-Als nächstes `12fuh1y` und `1i3ov0z` in neuen Realwelten prüfen, ohne weitere Nullwelten in dieselbe Memory zu mischen. Ziel ist, zu sehen, ob ihre reale Profilnähe stabil bleibt oder ob sie nur seltene Zufallstreffer waren.

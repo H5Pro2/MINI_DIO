@@ -88,5 +88,3 @@ Geeignete Gegenprobe:
 - visuell stabile, tonal chaotische Welt
 - tonal stabile, visuell chaotische Welt
 - Rand/Kipp-Gegenprobe
-
-Wie es weitergeht: Als naechstes sollte die Rezeptorhaltung gegen widerspruechliche Sinneswelten getestet werden. Dort zeigt sich, ob sie wirklich organisch adaptiert oder nur allgemeines Glaetten erzeugt.

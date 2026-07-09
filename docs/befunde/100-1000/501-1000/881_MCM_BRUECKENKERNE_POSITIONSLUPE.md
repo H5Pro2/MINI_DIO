@@ -64,7 +64,3 @@ Bruecke bleibt Bruecke,
 Bruecke koppelt an stabile Insel,
 Bruecke wirkt als Seitenarm eines zentralen Kerns.
 ```
-
-## Wie es weitergeht
-
-Als naechstes sollte geprueft werden, ob Randpfade eigene Gegenkerne bilden oder ob sie nur kurzlebige Oberflaechen- und Austrittsphaenomene bleiben.

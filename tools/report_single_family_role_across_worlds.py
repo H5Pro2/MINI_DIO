@@ -162,7 +162,6 @@ def _write_markdown(path: Path, detail: list[dict[str, object]], summary: dict[s
             "",
             "Diese Auswertung bewertet keine Richtung und keine Handlung. Sie prüft nur, ob eine wiederkehrende Feldbedeutung assetübergreifend getragen wird.",
             "",
-            "Wie es weitergeht: Als nächstes sollte die isolierte Grundrolle gegen Null- und Shuffle-Welten geprüft werden. Wenn sie dort nicht gleich stark erscheint, wird die Rolle klarer von bloßem Rauschen getrennt.",
             "",
         ]
     )

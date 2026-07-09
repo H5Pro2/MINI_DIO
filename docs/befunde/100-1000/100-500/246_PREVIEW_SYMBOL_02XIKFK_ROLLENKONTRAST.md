@@ -52,8 +52,3 @@ Damit zeigt die passive Regulation nicht nur ein Symbol, sondern eine Kopplung:
 ```text
 Feldsymbol + lokale Rolle + Innenfeldwirkung = regulative Lesart
 ```
-
-## Wie es weitergeht
-
-Als naechstes wird geprueft, ob die weniger haeufigen Kippvarianten eine eigene Rand-/Spannungsfamilie bilden.
-Dazu werden `dio_mcm_episode_037i64j`, `dio_mcm_episode_0e9ekzq`, `dio_mcm_episode_0eje6op` und `dio_mcm_episode_182yyt2` gemeinsam gegen die Rekopplungsfamilie gestellt.

@@ -87,14 +87,3 @@ Damit wird der MCM-Feldraum genauer:
 Das ist weiterhin ein passiver Befund.
 
 Er zeigt nicht, dass eine endgueltige Topologie bewiesen ist. Er zeigt aber, dass MINI_DIO unterschiedliche Mosaikstrukturen reproduzierbar in unterschiedliche Rollenlandschaften uebersetzt.
-
-## Wie es weitergeht
-
-Als naechstes sollte die breite Mosaik-Welt 1521 verlaengert oder in groessere Abschnitte geteilt werden.
-
-Die konkrete Frage:
-
-```text
-Bleibt die Rollenlandschaft bei laengerem Weltkontakt verteilt,
-oder verdichtet sich daraus eine neue Bruecken-/Nebelrolle?
-```

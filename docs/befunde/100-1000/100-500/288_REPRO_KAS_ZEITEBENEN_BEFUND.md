@@ -52,7 +52,3 @@ Die Weltaufnahme ist hier stabil genug, um die nächste Stufe zu rechtfertigen:
 KAS kann als Kleinpreis-Testwelt in den regulären Vergleich gegen SOL und BTC aufgenommen werden.
 
 Wichtig ist dabei: Die Topologie bleibt nicht starr gleich, sondern zeigt eine kleine, aber reproduzierbare Zeitebenenverschiebung. Genau diese Verschiebung ist relevant, weil sie auf eine feldbezogene Antwort auf Weltspannung hinweist.
-
-## Wie es weitergeht
-
-Als nächstes sollte KAS/SOL/BTC über dieselben Zeitebenen verglichen werden. Ziel: prüfen, ob 30m allgemein eine offenere Zwischenebene bildet oder ob das ein KAS-spezifischer Effekt ist.

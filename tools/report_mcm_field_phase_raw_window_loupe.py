@@ -309,10 +309,6 @@ def _write_markdown(path: Path, rows: list[dict[str, object]], skipped: Counter[
             "",
             "Viele Feldfenster stammen aus synthetischen oder historisch zusammengesetzten Welten. Diese werden hier bewusst nicht zwangsweise auf Rohdaten gemappt.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes wird die Rohwelt-Fensterlupe bewertet: Welche Bewegungsarten tragen entlastenden Randkontakt, und welche fuehren zu neuer Randlast?",
-            "",
         ]
     )
     path.parent.mkdir(parents=True, exist_ok=True)

@@ -74,8 +74,3 @@ Damit liegt die Bedeutung näher an `Familie + Weltkontext + Anschlussqualität`
 
 Das passt zur bisherigen MCM-Lesung:
 Bedeutung ist keine starre Benennung, sondern ein Feldprofil aus Wiederkehr, Kontext, Nachhall, Feldzeit und Anschluss.
-
-## Wie es weitergeht
-
-Als nächstes sollte aus diesen familiengenauen Profilen noch keine Handlung entstehen.
-Sinnvoll ist eine passive Familien-Anschlusskarte im Memory: welche Familie in welchem Weltkontext eher kernnah, nachhallnah, offen oder nullnah wiederkehrt.

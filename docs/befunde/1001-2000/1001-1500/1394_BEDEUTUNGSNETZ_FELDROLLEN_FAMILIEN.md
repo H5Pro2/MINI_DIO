@@ -23,7 +23,3 @@ Sie beschreibt keine Handlung. Sie zeigt nur, welche Art von Welt- und Feldnaehe
 Die starken Knoten bilden keine einheitliche Klasse.
 Sie trennen sich in ruhige Feldnaehe, offene Nachbarschaft und gerichtete Spannungsnaehe.
 Damit entsteht aus dem Bedeutungsnetz eine erste passive Rollenordnung: gleiche Weltnaehe kann je nach Feldkontakt anders getragen werden.
-
-## Wie es weitergeht
-
-Als naechstes sollte geprueft werden, ob diese Feldrollen-Familien bei einer weiteren neuen Welt stabil bleiben oder ob eine Familie in zwei Unterrollen zerfaellt.

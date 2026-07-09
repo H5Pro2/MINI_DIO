@@ -204,10 +204,6 @@ def _write_md(rows: list[dict[str, object]], target: str, out_path: Path) -> Non
             "- Auf MCM-Preview-Ebene: ja, deutlich aehnlicher und wiederkehrender.",
             "- Die MCM-Preview-Syntax wirkt damit wie eine verdichtete Feldsprache, waehrend die Rohsyntax die lokale Oberflaechenvarianz traegt.",
             "",
-            "## Wie es weitergeht",
-            "",
-            f"Als naechstes wird `{target}` nicht nur nach Vorkommen, sondern nach Nachbarschaft geprueft: Welche Zentrum-, Offen- und Randrollen liegen davor und danach?",
-            "",
         ]
     )
     out_path.write_text("\n".join(lines), encoding="utf-8")

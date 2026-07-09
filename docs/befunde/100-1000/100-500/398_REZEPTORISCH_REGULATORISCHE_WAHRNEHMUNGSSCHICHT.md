@@ -273,7 +273,3 @@ Sie duerfen:
 - Ueberkopplung sichtbar machen,
 - Sinnesaufnahme organischer kalibrieren,
 - erklaeren, warum eine Welt harmonisch oder belastend ankommt.
-
-## Wie es weitergeht
-
-Als naechstes sollte geprueft werden, welche vorhandenen Reports bereits Messwerte fuer diese vier Achsen liefern und welche davon in eine eigene passive Datei `perception_regulation_state` ueberfuehrt werden koennen.

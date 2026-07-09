@@ -125,7 +125,3 @@ Das ist ein starker Befund fuer MINI_DIO:
 Das MCM-Feld bildet eine stabile passive Phasenordnung.
 Diese Ordnung ist nicht auf eine einzelne Weltspur beschraenkt.
 ```
-
-## Wie es weitergeht
-
-Als naechstes sollte diese Phasenordnung als eigene Mechanikdatei dokumentiert werden: nicht nur als Befund, sondern als aktuelles Arbeitsmodell der MINI_DIO-MCM-Feldbewegung.

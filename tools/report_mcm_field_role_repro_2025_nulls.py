@@ -138,10 +138,6 @@ def _write_md(summary_rows: list[dict[str, object]], kind_rows: list[dict[str, o
             "Damit ist der Befund kein einfacher Beweis gegen Rauschen, aber ein stärkerer Hinweis:",
             "MINI_DIO liest in realer Weltzeit mehr zusammenhängende Reifungsnähe als in assetnaher synthetischer Umordnung.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als nächstes sollte die Reifungsrollen-Memory nicht erweitert, sondern strenger geprüft werden:",
-            "ein zweiter 2025-Ausschnitt mit anderem Startpunkt zeigt, ob dieselbe Differenz auch außerhalb des Jahresanfangs sichtbar bleibt.",
         ]
     )
     OUT_MD.write_text("\n".join(lines) + "\n", encoding="utf-8")

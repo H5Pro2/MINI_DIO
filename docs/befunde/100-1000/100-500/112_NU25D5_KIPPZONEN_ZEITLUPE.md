@@ -161,24 +161,3 @@ Uebergangszonen duerfen nicht als Fehler gelesen werden.
 Sie sind Feldbereiche,
 in denen Bedeutung ihre Rolle veraendert,
 ohne ihre Grundkopplung zu verlieren.
-
-## Wie es weitergeht
-
-Grundfrage:
-
-Kann Mini-DIO diese weichen Uebergangszonen
-als eigene Innenfeldqualitaet speichern,
-ohne daraus Handlung abzuleiten?
-
-Unterpruefung:
-
-Eine passive `uebergangsqualitaet` ableiten:
-
-- stabil
-- brueckenfaehig
-- randspannungsnah
-- weich_kippend
-
-Folgeschritt:
-
-Passive Uebergangsqualitaet in die Mini-DIO-Landkarte aufnehmen.

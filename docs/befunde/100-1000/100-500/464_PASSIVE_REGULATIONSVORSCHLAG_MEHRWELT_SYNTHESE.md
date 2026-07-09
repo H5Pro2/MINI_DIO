@@ -99,7 +99,3 @@ Noch nicht umgesetzt ist:
 - aktive Selbstanpassung,
 - episodisches Lernen, welche Vorschlagsrichtung später wirklich trägt,
 - Rückkopplung der Vorschläge in neue Wahrnehmungseinstellung.
-
-## Wie es weitergeht
-
-Als nächstes sollte dieselbe Vorschlagsschicht auf SOL/KAS-Gegenwelten geprüft werden. Erst wenn die Vorschlagsrichtungen assetübergreifend stabil oder sinnvoll verschieden bleiben, kann daraus eine aktive, aber weiterhin feldschonende Wahrnehmungsanpassung entstehen.

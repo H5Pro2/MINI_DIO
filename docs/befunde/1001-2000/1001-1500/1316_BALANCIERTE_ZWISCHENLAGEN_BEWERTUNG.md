@@ -94,5 +94,3 @@ Die Memory sollte daher nicht nur "gleich" oder "anders" speichern, sondern:
 - feldgleiche Bedeutung
 - unterschiedliche Weltoberflaeche
 - unterschiedliche Folgefaerbung
-
-Wie es weitergeht: Als naechstes sollte diese balancierte Zwischenlage in eine passive Bedeutungsstruktur ueberfuehrt werden: Feldform, Assetfaerbung, dominante Folge und Rohweltprofil getrennt speichern.

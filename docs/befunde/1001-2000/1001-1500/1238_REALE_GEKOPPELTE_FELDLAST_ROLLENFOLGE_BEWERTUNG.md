@@ -81,7 +81,3 @@ Das ist fuer MINI_DIO relevant, weil daraus eine bessere passive Innenfeldmechan
 Feldlast wird nicht nur gemessen.
 Sie wird in einer zeitlichen Rollenfolge gelesen.
 ```
-
-## Wie es weitergeht
-
-Als naechstes sollte dieselbe Rollenfolge auf 1h-Welten geprueft werden. Ziel ist zu sehen, ob `zentrum -> Rand/Kipp -> Offenheit` nur auf 5m sichtbar ist oder auch in groberer Weltzeit erhalten bleibt.

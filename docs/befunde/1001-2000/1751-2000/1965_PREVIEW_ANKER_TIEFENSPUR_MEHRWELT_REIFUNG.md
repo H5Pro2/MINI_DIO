@@ -57,7 +57,3 @@ Damit bleibt die Trennung sauber: Die Memory liest Bedeutungstiefe, aber sie ent
 Als nächstes muss geprüft werden, ob diese `multiworld_depth_seed`-Anker in neuen Welten stabil bleiben, sich teilen oder driften. Dabei ist die zentrale Frage:
 
 > Wird aus mehrweltlicher Tiefenspur eine stabile Bedeutungsnachbarschaft oder nur ein breiter Oberflächenanker?
-
-## Wie es weitergeht
-
-Die stärksten `multiworld_depth_seed`-Anker werden gegen weitere Anschlusswelten getestet. Ziel ist, Reifung, Teilung und Drift voneinander zu trennen.

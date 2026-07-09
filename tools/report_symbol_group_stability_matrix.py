@@ -155,10 +155,6 @@ def _write_md(rows: list[dict[str, object]], path: Path) -> None:
             "Die Matrix beschreibt nur passive Stabilitaet der Rollenrelation.",
             "Sie darf nicht als Beweis einer universellen Topologie gelesen werden.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte eine weitere andersartige Welt gegen dieselbe Matrix gelegt werden. Grundfrage: bleibt die Rollenrelation auch unter staerkerer Weltspannung stabil?",
-            "",
         ]
     )
     path.write_text("\n".join(lines), encoding="utf-8")

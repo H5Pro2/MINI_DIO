@@ -78,7 +78,3 @@ Damit wird die vorherige Rhythmuslesung erweitert:
 Das ist weiterhin passive Forschung.
 
 Die Melodie wird nicht als Handlung, Signal oder Strategie gelesen. Sie dient als kontrollierte Außenwelt, um zu pruefen, ob Mini-DIO zeitliche Ordnung feldseitig verdichten kann.
-
-## Wie es weitergeht
-
-Als naechstes sollte die gleiche Melodie mehrfach mit frischer Memory reproduziert werden. Entscheidend ist, ob dieselben Phasen wieder aehnliche Familien und Feldwirkungen ausbilden oder ob die Bedeutungsfolge bei jedem Start neu driftet.

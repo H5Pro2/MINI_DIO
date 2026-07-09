@@ -97,8 +97,3 @@ Fachliche Lesart:
 MINI_DIO liest dieselbe gerichtete Tragart auch unter feinerer Mikrostruktur.
 Diese Tragart bleibt passive Innenfeldwahrnehmung und darf nicht direkt in Handlung uebersetzt werden.
 ```
-
-## Wie es weitergeht
-
-Als naechstes sollte die 1h-, 15m- und 5m-Serie zusammengefasst werden.
-Ziel ist eine klare Zeitaufloesungs-Matrix: Was bleibt richtungsstabil, was driftet mit der Aufloesung, und welche Weltmerkmale tragen die Stabilitaet?

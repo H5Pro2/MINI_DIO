@@ -129,9 +129,6 @@ def _write_md(path: Path, source: str, rows: list[dict[str, object]]) -> None:
             "",
             "Damit wird Bedeutung in MINI_DIO als Netzwerkrolle lesbar: Familie plus Nachbarschaft, Feldfolge, Sinnesbindung und Weltphase.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als nächstes sollte für `dio_14wj`, `dio_1fll`, `dio_0m9z` und `dio_155c` geprüft werden, ob ihre Rollen in konkreten Tickfenstern genauso sichtbar werden wie bei `dio_0l7p` und `dio_104t`.",
         ]
     )
     path.parent.mkdir(parents=True, exist_ok=True)

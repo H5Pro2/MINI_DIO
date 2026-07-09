@@ -179,9 +179,6 @@ def _write_md(path: Path, rows: list[dict[str, str]], *, memory_label: str, land
     lines.append("Die Rollenbewegungs-Memory kann gegen eine Folgelandschaft gelesen werden, ohne daraus Handlung abzuleiten.")
     lines.append("Relevant ist nicht, ob ein Token dieselbe Klasse behaelt, sondern ob die gespeicherte Bewegungsqualitaet getragen bleibt.")
     lines.append("")
-    lines.append("## Wie es weitergeht")
-    lines.append("")
-    lines.append("Als naechstes sollte die Lesung mit einer wirklich neuen vierten Landschaft wiederholt werden. Dann kann geprueft werden, ob `dio_role_*` generalisiert oder nur die bisherige Weltfolge beschreibt.")
     path.write_text("\n".join(lines), encoding="utf-8")
 
 

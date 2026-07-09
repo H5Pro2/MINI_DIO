@@ -260,7 +260,6 @@ def _write_markdown(summary_rows: list[dict[str, object]], event_rows: list[dict
             "2. Unterpruefung: Hochlastfenster nach Feldrolle trennen.",
             "3. Folgeschritt: konkrete Chartfenster fuer die staerksten offenen und randnahen Beispiele visualisieren.",
             "",
-            "Wie es weitergeht: Die naechste Pruefung sollte die Beispiel-Ticks als Chartfenster plotten, damit sichtbar wird, ob Offenheit eher aus Richtungswechsel, Verdichtung oder Ton-/Form-Desynchronisation entsteht.",
         ]
     )
     out.write_text("\n".join(lines) + "\n", encoding="utf-8")

@@ -56,7 +56,3 @@ Ausbleiben = Reifegrenze
 ## Grenze
 
 Die Ereigniszahl von `dio_00ly` ist noch klein. Fuer eine starke Rollenaufnahme braucht es mindestens weitere unabhaengige Weltgruppen.
-
-## Wie es weitergeht
-
-Als naechstes sollte `dio_00ly` gezielt gegen eine dritte frische Welt mit anderem Asset oder 5m/1h-Kontrast geprueft werden. `dio_0pq6` sollte vorerst als lokaler Kippkontakt gefuehrt werden, nicht als Reifekandidat.

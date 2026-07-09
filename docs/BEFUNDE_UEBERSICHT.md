@@ -119,7 +119,3 @@ Die Einzelreports sind nach Nummernbereichen gegliedert, damit jede GitHub-Verze
 - [Befunde 1501 bis 1750](befunde/1001-2000/1501-1750/)
 - [Befunde 1751 bis 2000](befunde/1001-2000/1751-2000/)
 - [Befunde 2001 bis 3000](befunde/2001-3000/)
-
-## Wie Es Weitergeht
-
-Als nächstes werden die Folgeweltprofile aus `2072` als weitere numerische Evidenzschicht in die passive Rollenfamilien-Memory aufgenommen. Damit können alle acht Familien gemeinsam gelesen werden, ohne feste Familientypen, Bedeutungen oder Handlungsregeln vorzugeben.

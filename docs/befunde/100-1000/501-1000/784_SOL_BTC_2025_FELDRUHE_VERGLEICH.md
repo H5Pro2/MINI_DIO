@@ -91,7 +91,3 @@ Sie sollte gezielt Gegenwelten einbauen:
 - niedrige Rohspannung mit offener Feldwirkung.
 
 So kann geprueft werden, ob die Topologie nur stabil bleibt oder ob bestimmte Weltlagen neue Rollen ausbilden.
-
-## Wie es weitergeht
-
-Als naechstes sollte ein anderes Regime getestet werden: nicht nur Feldruhe, sondern Expansion oder Feldbruch bei BTC/SOL. Ziel: herausfinden, ob die robuste Topologie unter Richtungsdruck eine neue Mischklasse bildet oder weiterhin zentrumsnah reorganisiert.

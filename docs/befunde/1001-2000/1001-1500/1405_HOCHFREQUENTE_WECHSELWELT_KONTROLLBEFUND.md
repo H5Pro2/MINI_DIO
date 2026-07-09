@@ -72,7 +72,3 @@ Grund: Bei 1405 glitt die 100er-Fenster-Mehrheit sonst ueber die tragend-unruhig
 Dieser Befund ist passiv.
 
 Er zeigt keine Handlung, sondern eine Innenfeldreaktion auf eine synthetische Welt mit dichter Wechselstruktur.
-
-## Wie es weitergeht
-
-Als naechstes sollte eine abgestufte Frequenzreihe gebaut werden: z.B. 25%, 50%, 75% und 100% Wechselrate. Damit laesst sich pruefen, ab welcher Wechselverdichtung `tragend_unruhig` reproduzierbar entsteht.

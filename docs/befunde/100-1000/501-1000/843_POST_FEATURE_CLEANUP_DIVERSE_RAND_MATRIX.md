@@ -59,8 +59,3 @@ Rekopplung   = Qualitaet, die Zentrum und Uebergang stabilisiert
 
 Wichtig: Die numerischen Einteilungen sind Diagnosehilfen.
 Sie sind keine Regeln fuer MINI_DIO und keine universellen MCM-Grenzen.
-
-## Wie es weitergeht
-
-Als naechstes sollte die synthetische Randwelt separat gegen ihre Rohweltmerkmale geprueft werden.
-Ziel ist zu klaeren, warum eine als Randdominanz gedachte Welt nach rezeptorischer Aufnahme stark zentriert erscheint: echte Feldstabilisierung, zu starke Adaptation oder eine synthetische Weltform, die im MCM-Feld nicht als Randspannung ankommt.

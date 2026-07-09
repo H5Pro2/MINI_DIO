@@ -49,7 +49,3 @@ Episodenzustaende:
 
 - Debug: `debug\research_chain_2024_bridge3_01`
 - Memory: `memory\research_chain_2024_bridge3_01.json`
-
-## Wie es weitergeht
-
-Als naechstes sollte dieser Lauf gegen die bestehenden Feldklassen gelesen werden. Entscheidend ist, ob 2024-Bridge3 eine neue Klasse bildet oder den bereits sichtbaren Stress-Gegenpol bestaetigt.

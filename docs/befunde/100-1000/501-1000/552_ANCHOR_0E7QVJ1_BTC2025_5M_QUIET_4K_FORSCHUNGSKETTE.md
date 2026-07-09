@@ -48,7 +48,3 @@ Episodenzustaende:
 
 - Debug: `debug\anchor_0e7qvj1_btc2025_5m_quiet_4k`
 - Memory: `memory\anchor_0e7qvj1_btc2025_5m_quiet_4k_memory.json`
-
-## Wie es weitergeht
-
-Als naechstes sollte dieselbe Kette mit einer zweiten kontrollierten Welt laufen. Dabei wird geprueft, ob dieselben Familien stabil bleiben, ob neue Inseln entstehen oder ob vorhandene Bedeutungen driften.

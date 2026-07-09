@@ -72,5 +72,3 @@ Fragmentierte Familien bleiben offene Bedeutungsräume. Sie zeigen Nähe, aber n
 ## Grenze
 
 Die Klassen sind diagnostische Lesarten. Sie sind keine Regel, keine Handlungsvorgabe und keine Aussage über spätere Motorik.
-
-Wie es weitergeht: Als nächstes sollten die breit getragenen und kernlastigen Familien gegen zusätzliche reale Weltfenster geprüft werden. Entscheidend ist, ob die Familienstruktur erhalten bleibt oder ob nur einzelne Mitglieder weiterleben.

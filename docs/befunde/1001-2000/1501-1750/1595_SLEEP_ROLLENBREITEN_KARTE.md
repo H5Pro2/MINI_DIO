@@ -50,7 +50,3 @@ Der sichtbare Unterschied liegt daher nicht in Rollenbreite allein, sondern im F
 ## Grenze
 
 Das ist eine kleine Diagnosekarte, kein Beweis. Sie definiert aber eine pruefbare Achse: Weitere Fenster koennen auf Rollenbreite, Strain-Anteil und Reaktivierungsklasse eingetragen werden.
-
-## Wie es weitergeht
-
-Als naechstes sollte das urspruengliche `SYNTH_RAND_KIPP start0` segmentweise zerlegt werden. Ziel ist zu erkennen, an welcher Binnenstelle Rollenbreite und selektive Rekopplung entstehen.

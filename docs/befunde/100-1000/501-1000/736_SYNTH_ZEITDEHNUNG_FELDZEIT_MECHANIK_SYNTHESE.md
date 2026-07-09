@@ -202,7 +202,3 @@ Das ist fuer die weitere MCM-Arbeit zentral, weil es den alten Ansatz ersetzt:
 nicht Zeit hart programmieren,
 sondern Feldzeit aus der Innenfeldbewegung lesen.
 ```
-
-## Wie es weitergeht
-
-Als naechstes sollte eine Gegenprobe mit Phasenpermutation gebaut werden: gleiche Einzelphasen, aber andere Reihenfolge. Ziel: pruefen, ob Feldzeit nur Dauer liest oder auch Sequenzordnung und Nachhall erkennt.

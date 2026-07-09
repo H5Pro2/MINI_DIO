@@ -361,10 +361,6 @@ def _write_md(path: Path, rows: list[dict[str, float | str]], source_csv: str, d
             "",
             "Dieser Report ist eine Lesung der vorhandenen 1831/1832-Prüfung. Er beweist keine allgemeine Reife des Systems. Belastbarer wird die Aussage erst, wenn dieselbe Reifungsbahn über 2024-Fenster, längere Daten und weitere Nullweltformen stabil unterscheidet.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als nächstes sollte dieser Reife-Report auf 2024-Assetfenster und größere Weltfenster angewendet werden. Entscheidend ist, ob `feldzeit_reif` nur in diesen 2025-10k-Welten erscheint oder als wiederkehrendes Reifeprofil bei echten Weltspuren bestehen bleibt.",
-            "",
         ]
     )
     path.write_text("\n".join(lines), encoding="utf-8")

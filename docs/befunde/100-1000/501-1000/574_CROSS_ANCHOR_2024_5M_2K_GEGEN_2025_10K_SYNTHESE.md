@@ -97,8 +97,3 @@ Das ist fuer das MCM-System relevant:
 
 Eine Bedeutung ist nicht nur ein Punkt.
 Eine Bedeutung wird durch ihre Lage, ihre Rueckkehr, ihre Nachbarschaften und ihre Bewegungsrichtung im Feld lesbar.
-
-## Wie es weitergeht
-
-Als naechstes sollte eine laengere 2024-Gegenprobe folgen.
-Ziel ist zu pruefen, ob 2024 bei 10k ebenfalls eine dichtere Feldbewegungs-Memory um `0e7qvj1` ausbildet oder ob die Bewegungsreife spezifisch fuer die 2025-SOL-Weltgruppe bleibt.

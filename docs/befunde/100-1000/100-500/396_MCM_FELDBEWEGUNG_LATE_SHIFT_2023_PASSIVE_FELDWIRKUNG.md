@@ -45,8 +45,3 @@ MINI_DIO liest nicht nur Bewegung, sondern Tragart der Bewegung.
 Diese Tragart ist eine passive Innenfeldwahrnehmung.
 Sie darf nicht direkt in Handlung uebersetzt werden.
 ```
-
-## Wie es weitergeht
-
-Als naechstes sollte dieselbe Qualitaetslesung auf eine neue Weltgruppe angewendet werden.
-Ziel ist zu pruefen, ob die Qualitaeten stabil mitwachsen oder ob neue passive Innenfeldqualitaeten entstehen.

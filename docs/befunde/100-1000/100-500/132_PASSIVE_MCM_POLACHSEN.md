@@ -85,17 +85,3 @@ Stattdessen wird geprüft, ob das Feld diese Wirkung selbst trägt:
 - Wird eine Insel stabiler oder driftet sie?
 
 Erst daraus entsteht eine passive Lesung der Innenfeldlage.
-
-## Wie Es Weitergeht
-
-Als nächstes sollte ein Kurzsegment-Leser gebaut werden.
-Er soll kurze lokale Abschnitte nicht mit denselben Maßstäben wie 1000-Zeilen-Welten klassifizieren.
-
-Konkrete nächste Prüfung:
-
-1. lokale Stresssegmente,
-2. lokale Ruhesegmente,
-3. längere Kontextwelten,
-4. Vergleich der Polachsen Last, Ruhe, Rekopplung und Feldzeit.
-
-Ziel ist eine saubere Trennung zwischen lokaler Feldreaktion und kontextueller Feldzeit.

@@ -96,7 +96,3 @@ MINI_DIO bildet ueber laengere Feldzeit eine Koexistenz aus offener Varianz und 
 - [1684_ADAPTIVE_MILIEU_LANGFENSTER_XRP.md](1684_ADAPTIVE_MILIEU_LANGFENSTER_XRP.md)
 - [1684_ADAPTIVE_MILIEU_LANGFENSTER_PAXG.md](1684_ADAPTIVE_MILIEU_LANGFENSTER_PAXG.md)
 - [1684_ADAPTIVE_MILIEU_LANGFENSTER_STRESS.md](1684_ADAPTIVE_MILIEU_LANGFENSTER_STRESS.md)
-
-## Wie es weitergeht
-
-Als naechstes wird geprueft, ob die offenen Milieus in spaeteren Segmenten derselben Welt dieselben Familien tragen oder ob sie als wechselnde Varianzschicht ueber stabilen Rollenfamilien liegen.

@@ -32,7 +32,3 @@ Sie bleibt passiv: keine Handlung, kein Gate, keine Richtung.
 
 Wenn Range+Hoeren oder Range+Spannung kippen, aber Hoeren+Spannung getragen bleibt, spricht das fuer Range als kritischen Kopplungsanteil.
 Die Form wird dann nicht durch jede Zweierlast gebrochen, sondern durch bestimmte Kopplungsqualitaeten.
-
-## Wie es weitergeht
-
-Als naechstes sollte die Zweierkopplung direkt gegen Einzelachsen und Dreierlast zusammengefasst werden: ist Range der kritische Kopplungsanteil?

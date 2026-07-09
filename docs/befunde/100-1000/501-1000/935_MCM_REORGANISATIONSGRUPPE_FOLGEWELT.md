@@ -31,7 +31,3 @@ Geprueft wird, ob junge Spuren verschwinden, gehalten werden oder in tragendere 
 
 Die Reorganisationsgruppe kann als kleine Pruefgruppe weiterverfolgt werden.
 Relevant ist, ob ein junger oder driftender Zustand in einer Folgewelt verschwindet, gehalten bleibt oder Anschlussreife gewinnt.
-
-## Wie es weitergeht
-
-Als naechstes sollte nur fuer die gehaltenen oder weiter reifenden Tokens eine Segmentlupe gebaut werden. So wird sichtbar, durch welche Weltphasen die Reifung getragen wird.

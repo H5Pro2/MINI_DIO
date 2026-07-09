@@ -58,7 +58,3 @@ Das ist kein Beweis fuer absolute Robustheit. Es ist aber ein starker Hinweis, d
 ## Grenze
 
 Auch dieser Test ist noch kein Beweis fuer eine vollstaendige Feldtheorie. Er zeigt aber, ob eine gezielte Veraenderung im Lauf eine nachvollziehbare Feldantwort erzeugt.
-
-## Wie es weitergeht
-
-Als naechstes sollte nicht sofort weiter nach unten skaliert werden. Sinnvoller ist die Gegenprobe mit Stress-, Expansions- und Nullwelten bei denselben Faktoren. Entscheidend ist, ob nur BTC/PAXG stabil bleiben oder ob die robuste Feldordnung weltuebergreifend bestehen bleibt.

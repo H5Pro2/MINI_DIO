@@ -119,7 +119,3 @@ Sondern: Kontaktqualität verändert die innere Feldlage.
 Die Werte sind Diagnosewerte, keine Regeln.
 
 Sie dürfen nicht als Gate verwendet werden. Sie zeigen eine beobachtete Übergangsdynamik innerhalb der geprüften Welten.
-
-## Wie es weitergeht
-
-Als nächstes sollte die Rezeptorschicht in den Mini-DIO-Bauplan übernommen werden: Sehen und Hören bleiben Sinnesachsen, Rezeptoren werden zur Kontaktübersetzung, Fühlen wird zur inneren MCM-Wirkung. Danach prüfen wir, ob dieselbe Kontaktlogik bei längeren Welten und neuen Datensätzen stabil bleibt.

@@ -241,9 +241,6 @@ def write_markdown(path: Path, rows: list[dict[str, object]]) -> None:
             "",
             "Sie bleibt vor Handlung, vor Gate und vor Strategie.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte diese Wiedererkennung in eine kleine passive Intake-Memory ueberfuehrt werden: nicht zur Steuerung, sondern um zu speichern, welche Aufnahmeart in welcher Innenfeldlage wiederholt getragen oder belastet war.",
         ]
     )
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")

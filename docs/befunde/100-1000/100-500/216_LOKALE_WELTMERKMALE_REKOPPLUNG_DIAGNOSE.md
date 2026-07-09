@@ -68,8 +68,3 @@ Hierarchie der Pruefung:
 
 Diese Diagnose ist noch keine Erklaerung, sondern eine Kopplungskarte.
 Sie zeigt, ob lokale Bindung mit Rohweltmerkmalen zusammenfaellt oder ob Feldzustand und Memory staerker erklaeren.
-
-## Wie es weitergeht
-
-Als naechstes wird der Befund geschrieben.
-Dabei wird bewertet, ob lokale Bindung vor allem durch Verdichtung, Richtungswechsel, Range oder bereits vorhandene Feld-/Memorylage entsteht.

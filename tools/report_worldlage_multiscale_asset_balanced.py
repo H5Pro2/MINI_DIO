@@ -54,7 +54,6 @@ def _write_markdown(rows: list[dict[str, object]], *, sample_size: int, scale_qu
             "",
             "Die Auswertung bleibt passiv. Sie erzeugt keine Handlung, keine Richtung und keine Steuerung.",
             "",
-            "Wie es weitergeht: Als naechstes sollte der balancierte Befund gegen die unbalancierte Verteilung aus `1313` bewertet werden.",
         ]
     )
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")

@@ -122,13 +122,3 @@ Sie verhaelt sich eher wie eine Spannungsfamilie:
 ein Kern bleibt,
 die Randanteile reorganisieren sich.
 ```
-
-## Wie Es Weitergeht
-
-Als naechstes sollte eine negative Welt auf 2000 Kerzen skaliert werden.
-
-Hierarchie:
-
-1. Grundfrage: Bleibt negative Bewegung auch bei laengerer Weltzeit getragen?
-2. Unterpruefung: Waechst dort ebenfalls Feldzeit, ohne dass Stress-Gegenpol entsteht?
-3. Folgeschritt: Wenn ja, wird die Unterscheidung staerker: Nicht Richtung, sondern Feldbelastbarkeit ordnet die MCM-Topologie.

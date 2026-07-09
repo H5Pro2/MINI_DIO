@@ -47,7 +47,3 @@ Fachlich ist das relevant:
 
 Ein Anschlussanker kann eine Drift-Eigenphase tragen, ohne selbst Teil des zentralen Brueckenkerns zu sein.
 Damit entsteht eine Zwischenebene zwischen Brueckenkern und offener Drift.
-
-## Wie es weitergeht
-
-Als naechstes sollte geprueft werden, ob weitere starke Anschlussanker existieren oder ob `0b7nep9` in dieser Rolle singulaer bleibt.

@@ -62,7 +62,3 @@ Das ist eine passive Diagnose. Sie beschreibt wiederkehrende, aber wandernde Rek
 - `reports/btc_2025_shift_zeitmass_rekopplungszone_rawworld.csv`
 - `reports/btc_2025_shift_zeitmass_rekopplungszone_rawworld.md`
 - `reports/btc_2025_shift_zeitmass_rekopplungszone_rawworld_groups.csv`
-
-## Wie es weitergeht
-
-Als nächstes sollte eine zusammenfassende BTC-Zonenmatrix aus 1782 und 1783 erstellt werden. Ziel ist zu prüfen, welche gemeinsamen Merkmale die rekoppelnden Treffer tragen und welche Merkmale offene Breite davon unterscheiden.

@@ -94,9 +94,3 @@ Aber:
 Die Staerke der Rekopplung ist nicht nur assettypisch.
 Sie ist auch milieutypisch.
 ```
-
-## Wie es weitergeht
-
-Als naechstes sollte diese Milieulogik auf XRP oder DOGE wiederholt werden.
-Entscheidend ist, ob auch dort stabile Grundneigungen plus variable
-Milieuqualitaet erscheinen.

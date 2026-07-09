@@ -56,7 +56,3 @@ Familie
 ```
 
 Der Befund bleibt vorsichtig zu lesen. Die Karte zeigt nicht, dass eine Familie immer dasselbe bedeutet. Sie zeigt eher, dass Bedeutung im MCM-Feld kontextabhängig reift.
-
-## Wie es weitergeht
-
-Als nächstes sollte geprüft werden, ob diese passive Familien-Anschlusskarte bei neuen Weltläufen wieder ähnliche Profilzustände erzeugt oder ob sie unter neuen Weltspannungen driftet.

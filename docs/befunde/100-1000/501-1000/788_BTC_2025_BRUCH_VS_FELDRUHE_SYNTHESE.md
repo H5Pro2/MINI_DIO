@@ -119,7 +119,3 @@ Zusammen mit SOL 2025 entsteht ein belastbarerer Zwischenstand:
 Rohweltliche Ruhe, Bruchdruck und MCM-Feldruhe sind getrennte Ebenen.
 MINI_DIO liest daraus eine robuste, aber lokal bewegliche Zentrum-Peripherie-Topologie.
 ```
-
-## Wie es weitergeht
-
-Als naechstes sollte ein Expansionsfenster statt Bruch/Feldruhe gelesen werden. Ziel: pruefen, ob gerichtete Expansion eine neue Mischklasse erzeugt oder nur Zentrum, Offenheit und Randanteile anders gewichtet.

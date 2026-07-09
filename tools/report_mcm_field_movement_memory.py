@@ -157,10 +157,6 @@ def _write_markdown(path: Path, memory: MCMFieldMovementMemory, inputs: list[Pat
             f"- CSV: `{path.with_suffix('.csv').relative_to(ROOT)}`",
             f"- JSON: `{path.with_suffix('.json').relative_to(ROOT)}`",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes kann diese MCM-Feldbewegungs-Memory gegen weitere Welten laufen, um zu pruefen, ob neue Bewegungen jung bleiben, driften oder wiederkehrend tragen.",
-            "",
         ]
     )
     path.parent.mkdir(parents=True, exist_ok=True)

@@ -76,7 +76,3 @@ Wichtig ist die Trennung:
 Aus diesem Befund folgt noch keine Handlungsschicht.
 Eine sinnvolle organische Erweiterung waere eine passive `Feldrollen-Memory`: Familien speichern nicht nur Haeufigkeit, sondern ihre Reifungsbewegung ueber Phasen.
 Das wuerde MINI_DIO erlauben, Feldintelligenz nicht als Regel, sondern als gewachsene Rollenkenntnis zu tragen.
-
-## Wie es weitergeht
-
-Als naechstes sollte geprueft werden, ob eine passive Feldrollen-Memory aus diesen Bewegungsprofilen aufgebaut werden kann, ohne Handlung oder harte Gates einzufuehren.

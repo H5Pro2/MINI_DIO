@@ -181,9 +181,6 @@ def _write_markdown(path: Path, rows: list[dict[str, object]], summary: dict[str
             "",
             "Der Vergleich ist passiv. Er beweist keine universelle MCM-Topologie, zeigt aber eine wiederkehrende Rollenordnung in zwei Randfamilienkarten.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte diese Rollenordnung gegen eine dritte Randfamilie oder gegen eine bewusst andere Weltspannung geprueft werden. Dann wird sichtbar, ob die Ordnung weiter stabil bleibt oder neue Randrollen entstehen.",
         ]
     )
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")

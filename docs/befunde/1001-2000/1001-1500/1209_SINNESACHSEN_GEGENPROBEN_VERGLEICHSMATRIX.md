@@ -66,7 +66,3 @@ Trotzdem ist die Richtung stabil:
 Das MCM-Feld reagiert nicht auf Datenmenge,
 sondern auf Sinnespassung, zeitliche Form und Rekopplungsqualitaet.
 ```
-
-## Wie es weitergeht
-
-Als naechstes sollte die Matrix nicht erweitert, sondern gegen reale Weltfenster gehalten werden: Gibt es in echten SOL/BTC/KAS/PAXG-Fenstern aehnliche Kombinationen aus stabiler Hoerachse, visueller Unruhe, Chaoston und Rekopplung?

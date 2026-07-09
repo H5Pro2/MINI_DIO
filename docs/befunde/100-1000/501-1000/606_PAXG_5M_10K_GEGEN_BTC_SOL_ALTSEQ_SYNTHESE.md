@@ -110,7 +110,3 @@ Weitere Haertefaelle waeren:
 - DOGE als rauschende/emotionale Welt,
 - XRP als impulsive/newsnahe Welt,
 - eine nicht-marktbasierte Kontrollwelt.
-
-## Wie es weitergeht
-
-Als naechstes sollte entweder PAXG 1h geprueft werden oder eine bewusst rauschende Gegenwelt wie DOGE 5m. Ziel ist zu klaeren, ob die MCM-Rollenordnung auch bei anderer Zeitauflösung oder staerkerem Rauschen erhalten bleibt.

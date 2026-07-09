@@ -27,7 +27,3 @@
 Die Zielprofile aus den späten Driftrollen sind nicht nur in den ursprünglichen Rücklese-Welten sichtbar. Sie tauchen auch in Anschlusswelten auf, allerdings mit unterschiedlicher Dichte. Damit ist das Profil selbst breiter als eine einzelne Symbolfamilie.
 
 Das spricht für eine Feldlage, die Mini-DIO wiederholt lesen kann. Es sagt noch nicht, dass daraus zwingend dieselbe Rolle entsteht. Genau diese Trennung ist wichtig: Profilnähe ist Vorbedingung, Rollenbildung ist spätere Verdichtung.
-
-## Wie es weitergeht
-
-Als nächstes sollte eine Welt mit hoher Zielprofil-Dichte gegen die spätere Rollenbildung geprüft werden: Entsteht dort erneut eine bekannte Driftrolle, eine neue Nachbarschaft oder nur eine offene Vorform?

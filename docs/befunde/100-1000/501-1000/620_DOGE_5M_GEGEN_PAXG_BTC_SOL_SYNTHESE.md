@@ -103,7 +103,3 @@ Offen bleibt:
 - DOGE 2023 oder sp?tere Extremphasen,
 - DOGE gegen XRP oder andere impulsnahe Assetwelten,
 - nicht-marktbasierte Kontrollwelten.
-
-## Wie es weitergeht
-
-Als n?chstes ist DOGE 1h sinnvoll. Ziel: pr?fen, ob DOGE bei gr?berer Zeitaufl?sung weiterhin zentriert bleibt oder ob dort offene Variante, Randn?he und Strain deutlicher zunehmen.

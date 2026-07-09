@@ -83,13 +83,3 @@ Das passt zur bisherigen MINI_DIO-Beobachtung:
 Das Feld organisiert nicht nur Werte.
 Es bildet getragene Bedeutungsraeume.
 ```
-
-## Wie Es Weitergeht
-
-Als naechstes sollten bestehende Mehrweltberichte mit dem verfeinerten Klassifikator neu erzeugt werden.
-
-Hierarchie:
-
-1. Grundfrage: Verschiebt die bessere Leseschicht die bisherige MCM-Topologie?
-2. Unterpruefung: Welche Welten wechseln Klasse, welche bleiben stabil?
-3. Folgeschritt: Danach wird entschieden, ob die Topologie-Dateien aktualisiert werden muessen.

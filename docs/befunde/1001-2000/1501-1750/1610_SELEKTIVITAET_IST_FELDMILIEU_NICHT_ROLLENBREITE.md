@@ -48,7 +48,3 @@ Das ist ein wichtiger Schritt fuer die MCM-Forschung: Es spricht dafuer, dass Be
 ## Grenze
 
 Die Befunde sind weiterhin diagnostisch. Die Selektivitaetsursache ist eingegrenzt, aber noch nicht isoliert.
-
-## Wie es weitergeht
-
-Als naechstes sollte `SYNTH_RAND_KIPP` systematisch variiert werden: gleiche Rollenbreite, aber veraenderte Randphase, veraenderte Co-Touch-Qualitaet oder veraenderte Strain-Verteilung. Ziel ist, die konkrete Feldmilieu-Komponente der selektiven Offline-Reorganisation zu isolieren.

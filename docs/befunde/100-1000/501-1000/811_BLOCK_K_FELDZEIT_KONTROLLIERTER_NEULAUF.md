@@ -50,7 +50,3 @@ Lesart:
 ## Grenze
 
 Der Befund bleibt ein passiver Diagnosebefund. Er sagt etwas ueber Feldzeit-Integration, nicht ueber Handlung oder Strategie.
-
-## Wie es weitergeht
-
-Als naechstes sollte geprueft werden, ob die laengere Feldzeit auch die semantische Bedeutungsverdichtung vertieft: bleiben die `dio_*`-Bedeutungsinseln in 10k stabiler, oder werden sie nur laenger getragen?

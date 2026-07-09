@@ -85,7 +85,3 @@ Besonders relevant:
 - `1jx2k4i`: starker Anschlussanker -> Brueckenkern.
 - `1xx3u1e`: lokaler Anschlussanker -> Brueckenkern.
 - `0z748ck`: lokaler Anschlussanker -> Brueckenkern.
-
-## Wie es weitergeht
-
-Als naechstes sollte eine einzelne zweite Rollenwanderung isoliert werden, vorzugsweise `0ykar6i`, weil es vom schwachen Anschluss zum Kernpartner von `0b7nep9` wird.

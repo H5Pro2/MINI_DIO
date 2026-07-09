@@ -93,19 +93,3 @@ Es entsteht eine passive Feldreaktion aus:
 Damit wird die MCM-Arbeit konkreter:
 
 Eine Welt hat nicht nur Inhalt, sondern auch eine eigene zeitliche Feldmasse.
-
-## Wie es weitergeht
-
-Als naechstes sollte die Verdichtungsempfindlichkeit als eigene Diagnosekarte gebaut werden.
-
-Konkrete Unterpruefung:
-
-- pro Asset und Zeitaufloesung eine `Verdichtungs-Sensitivitaet` berechnen,
-- nicht als Regel, sondern als passive Messgroesse:
-  - wie schnell sinkt Rekopplung?
-  - wie schnell steigt `field_strained`?
-  - wie stark waechst Episodenmemory?
-
-Ziel:
-
-MINI_DIO soll verschiedene Welten nicht nur nach Klasse lesen, sondern nach ihrer Empfindlichkeit gegen zeitliche Verdichtung.

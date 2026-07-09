@@ -43,7 +43,3 @@ Damit wird getrennt, was allgemeine Innenfeldstabilitaet ist und was spezifische
 `meaning_stable_inner_field` ist nicht spezifisch fuer den Hoeranstieg; es erscheint auch in der Kontrollgruppe.
 Spezifischer sind die Rollen-/Preview-Verschiebungen und die leicht hoehere Rekopplung der Shiftfenster.
 Damit liegt die relevante Information nicht im blossen Stabilitaetslabel, sondern in der Feldrolle und der lokalen Symbolkopplung.
-
-## Wie es weitergeht
-
-Als naechstes sollte geprueft werden, ob die Shift-spezifischen Preview-Symbole vor oder nach dem Fenster weitertragen. Das klaert, ob der Shift nur ein lokaler Kontakt ist oder eine kurze Uebergangsspur im Feld hinterlaesst.

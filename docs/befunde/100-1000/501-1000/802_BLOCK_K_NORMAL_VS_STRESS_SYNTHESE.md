@@ -53,7 +53,3 @@ Damit wirkt die Gegenprobe hier nicht wie ein kompletter Feldbruch, sondern wie 
 ## Grenze
 
 Diese Synthese vergleicht 2 kleine Weltgruppen. Sie ist ein robuster Hinweis fuer diese Testauswahl, aber keine allgemeine Statistik ueber alle moeglichen Welten.
-
-## Wie es weitergeht
-
-Als naechstes sollte eine Laengen-Gegenprobe laufen: dieselbe Block-K-Kette auf 10k-Welten. Dann sehen wir, ob die Rollenordnung unter laengerer Weltzeit stabil bleibt oder ob Drift und neue Episodenstaemme staerker werden.

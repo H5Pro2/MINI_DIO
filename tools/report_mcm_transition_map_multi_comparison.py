@@ -162,9 +162,6 @@ def _write_markdown(path: Path, rows: list[dict[str, object]], summary: dict[str
             "",
             "Das ist ein passiver Strukturvergleich. Er beschreibt keine Handlung und keine Vorhersage.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte die Veraenderung der Rollenanteile genauer gegen die Weltspannung gelesen werden. Dann wird sichtbar, welche Aussenweltmerkmale offene Bruecken, instabile Kontaktzonen oder randnahe Unruhe verstaerken.",
         ]
     )
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")

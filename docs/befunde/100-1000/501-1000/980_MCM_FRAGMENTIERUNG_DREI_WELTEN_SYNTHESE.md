@@ -86,8 +86,3 @@ Das gibt MINI_DIO eine weitere Unterscheidung neben:
 - Brueckenordnung,
 - Rollenwechselordnung,
 - Fragmentierungsordnung.
-
-## Wie es weitergeht
-
-Als naechstes sollte geprueft werden, ob diese Fragmentierungsklassen bei Wiederholung derselben Welt reproduzierbar sind.
-Besonders wichtig ist `fragmentierung_randlastig`: bleibt Stress randlastig oder kippt er bei Wiederholung in gemischt/offen?

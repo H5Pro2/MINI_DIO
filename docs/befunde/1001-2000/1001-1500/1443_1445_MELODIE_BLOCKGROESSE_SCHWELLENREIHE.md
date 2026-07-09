@@ -88,7 +88,3 @@ Nicht nur Weltform und Drift wirken, sondern auch die zeitliche Dichte gleicher 
 Die Werte liegen eng beieinander. Deshalb darf diese Reihe nicht als absolute Schwelle gelesen werden.
 
 Sie zeigt einen stabilen Hinweis auf einen Uebergangsraum, nicht eine feste Regel.
-
-## Wie es weitergeht
-
-Als naechstes sollte die Schwellennaehe `12/13` gegen eine zweite Phasenordnung geprueft werden. Wichtig ist, ob der Umschlag an der Blockgroesse selbst haengt oder an der konkreten Reihenfolge `block -> wave_up -> regular -> wave_down -> regular -> block`.

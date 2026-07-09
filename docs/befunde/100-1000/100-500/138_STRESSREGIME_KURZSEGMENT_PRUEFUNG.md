@@ -104,12 +104,3 @@ Diese Diagnose beweist keine universelle Topologie.
 Sie zeigt aber, dass innerhalb einer stressartigen Welt lokale Gegenqualitäten lesbar bleiben.
 
 Die Werte sind Arbeitsbefunde, keine Schwellwerte.
-
-## Wie es weitergeht
-
-Als nächstes sollte ein anderes Regime geprüft werden, zum Beispiel Seitwärts- oder Expansionswelt.
-Die Hierarchie bleibt:
-
-1. Grundpol: lokale Last, lokale Ruhe oder Mischform?
-2. Unterform: mit oder ohne Feldzeitspur?
-3. Folgeschritt: bleibt die Trennung bei weiteren Welten stabil oder entsteht eine neue Mischklasse?

@@ -93,7 +93,3 @@ Das ist keine Aussage, dass synthetische Welten keine verteilte Rekopplung erzeu
 - `reports/btc_paxg_2025_sequence_rawworld_contrast.csv`
 - `reports/synthetic_1787_breadth_afterimage_axis_probe.csv`
 - `reports/synthetic_1788_role_mosaic_afterimage_axis_probe.csv`
-
-## Wie es weitergeht
-
-Als nächstes sollte die reale Rollenbreite selbst genauer gelesen werden: Welche konkreten Rollen und `dio_*`-Familien tragen bei BTC/PAXG die verteilte Rekopplung, und fehlen genau diese Familien in den synthetischen Welten?

@@ -123,9 +123,6 @@ def _write_md(
     lines.append("Wenn ein Token von `brueckenpfad` zu `offener_driftpfad` wechselt, kann das eine Feldoeffnung aus einer Brueckenlage heraus bedeuten.")
     lines.append("Das ist fachlich anders als chaotischer Rand: es ist eher eine gehaltene Eigenphase, die aus dem Uebergangsraum heraus driftet.")
     lines.append("")
-    lines.append("## Wie es weitergeht")
-    lines.append("")
-    lines.append("Als naechstes sollte der wichtigste Vermittler `0b7nep9` isoliert werden. Ziel: pruefen, ob er der eigentliche Anschluss zwischen Brueckenkern und Drift-Eigenphase ist.")
     path.write_text("\n".join(lines), encoding="utf-8")
 
 

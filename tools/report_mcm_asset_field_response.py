@@ -207,10 +207,6 @@ def _write_markdown(path: Path, rows: list[dict[str, object]], input_path: Path)
             "",
             "Diese Diagnose nutzt nur eindeutig gekoppelte Fenster aus `1251`. Nicht alle Segmentwelten sind enthalten.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes wird geprueft, ob die assetweise Feldfaerbung ueber neue Rohweltfenster reproduzierbar bleibt oder ob sie nur aus dieser Auswahl stammt.",
-            "",
         ]
     )
     path.parent.mkdir(parents=True, exist_ok=True)

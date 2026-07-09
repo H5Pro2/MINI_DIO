@@ -67,8 +67,3 @@ Fachlich ist das wichtig, weil daraus keine harte Regel entstehen muss.
 Die Feldrollen-Memory kann organisch erweitert werden, indem sie diese Zwischenlagen als Reifungsqualität speichert:
 `kernnah`, `nachhallnah`, `feldzeitnah`, `offen_gemischt`, `nullnah`.
 Das bleibt passiv und beschreibt nur, wie stark eine Rolle im Feld getragen wird.
-
-## Wie es weitergeht
-
-Als nächstes sollte geprüft werden, ob diese Zwischenlagen direkt in die passive Feldrollen-Memory aufgenommen werden können.
-Ziel ist keine neue Steuerung, sondern eine tiefere Reifungsbeschreibung jeder Feldrolle.

@@ -79,7 +79,3 @@ Das MCM-Feld bildet ein dynamisches Bedeutungsnetz.
 
 Diese Netzwerkkarte darf nicht direkt handeln.
 Sie darf spaeter nur als gereifte passive Feldkarte fuer weitere Forschung gelesen werden.
-
-## Wie es weitergeht
-
-Als naechstes sollte geprueft werden, welche Bedingungen dazu fuehren, dass ein Knoten stabil bleibt, seine Rolle wechselt, driftet oder rekoppelt.

@@ -28,7 +28,3 @@ Geprueft wird, ob Rollenwechsel erneut sichtbar wird, dieselbe Zielrolle erreich
 
 Wenn `dio_shift_*` erneut sichtbar wird, ist Rollenwechsel nicht nur ein einmaliger Befund der siebten Welt.
 Wenn Zielrollen reproduziert werden, kann Rollenwechsel selbst als passive Bedeutungsbewegung gelesen werden.
-
-## Wie es weitergeht
-
-Als naechstes sollte die Lesung synthetisiert werden: Welche Rollenwechsel sind stabil, welche driften, welche verschwinden?

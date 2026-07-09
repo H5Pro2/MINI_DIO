@@ -81,7 +81,3 @@ Die Vorschlaege sind kontinuierliche Zugrichtungen. Sie sind keine Schwellen, ke
 - keine direkte Veraenderung des MCM-Feldes
 
 Die Schicht bereitet nur vor, wie MINI_DIO spaeter lernen koennte, seine Wahrnehmung zu dosieren: Fokus oder Abstand, lauter oder leiser, schaerfer oder unschaerfer, mehr Kontakt oder Entlastung.
-
-## Wie es weitergeht
-
-Als naechstes sollte diese passive Vorschlagsschicht ueber mehrere Welten verglichen werden. Stabil wiederkehrende Vorschlaege koennen spaeter als lernbare Wahrnehmungsfaehigkeiten betrachtet werden, ohne das MCM-Feld direkt zu regeln.

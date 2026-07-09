@@ -154,22 +154,3 @@ und auf Rollenebene weitgehend stabil.
 Die Abweichung bei `nu25d5` ist als Rollen-Drift
 unter groesserer Weltvarianz zu lesen,
 nicht als Topologie-Kollaps.
-
-## Wie es weitergeht
-
-Grundfrage:
-
-Ist `nu25d5` wirklich ein driftender Rollenbereich
-oder ein Uebergangsbereich zwischen Randspannung und entlastender Bruecke?
-
-Unterpruefung:
-
-`nu25d5` isoliert untersuchen:
-
-- wann wirkt es als belastender Spannungsrand?
-- wann wirkt es als entlastende offene Bruecke?
-- welche Weltmerkmale begleiten diesen Rollenwechsel?
-
-Folgeschritt:
-
-Passive `nu25d5` Rollen-Drift-Lupe bauen.

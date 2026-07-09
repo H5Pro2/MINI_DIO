@@ -58,7 +58,3 @@ Das stuetzt die bisherige Lesung: MINI_DIO kollabiert nicht einfach unter Rueckf
 ## Grenze
 
 Auch dieser Test ist noch kein Beweis fuer eine vollstaendige Feldtheorie. Er zeigt aber, ob eine gezielte Veraenderung im Lauf eine nachvollziehbare Feldantwort erzeugt.
-
-## Wie es weitergeht
-
-Als naechstes sollte ein kompakter Differenzreport gebaut werden: reale Weltordnung gegen Nullwelt bei gleicher Daempfung. Entscheidend sind Bedeutungsbreite, adaptive Rekopplung, Nachhall und Rollenvarianz.

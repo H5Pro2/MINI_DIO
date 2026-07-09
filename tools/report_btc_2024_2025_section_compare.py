@@ -213,10 +213,6 @@ def _write_markdown(path: Path, rows: list[dict[str, object]]) -> None:
             "",
             "Das ist kein Beweis fuer eine allgemeine BTC-Jahresregel. Es ist ein stabiler Abschnittsbefund innerhalb der vorhandenen BTC-2024/2025-5m-Gegenpruefung.",
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte dieselbe Jahres-/Abschnittslogik auf SOL oder KAS gelegt werden. Wenn nur BTC so kippt, ist es assetnah. Wenn mehrere Assets 2025 abstandsnaeher werden, ist es eher weltzeit-/regimenaeher.",
-            "",
         ]
     )
     path.write_text("\n".join(lines), encoding="utf-8")

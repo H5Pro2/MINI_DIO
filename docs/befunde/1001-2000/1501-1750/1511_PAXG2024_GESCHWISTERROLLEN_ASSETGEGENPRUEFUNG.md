@@ -76,7 +76,3 @@ Auch dieser Befund ist passiv.
 Er sagt nicht, dass `dio_14wj` etwas tun soll.
 
 Er zeigt nur, dass MINI_DIO dieselbe Feldrolle in einer anderen Welt mit anderer Intensitaet wiederfindet.
-
-## Wie es weitergeht
-
-Als naechstes sollte eine bewusst lautere oder stressigere Asset-Welt geprueft werden, um zu sehen, ob `dio_14wj` dann stabil bleibt, in Randspannung driftet oder von einer anderen Rolle abgeloest wird.

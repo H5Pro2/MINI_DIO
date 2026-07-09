@@ -103,7 +103,6 @@ def _write_markdown(rows: list[dict[str, object]], path: Path, *, base_path: Pat
             "",
             "Die Auswertung bleibt passiv. Sie erzeugt keine Handlung, keine Richtung und kein Gate.",
             "",
-            "Wie es weitergeht: Als naechstes sollte die Veraenderung der Faerbung untersucht werden: Welche Rohweltmerkmale verschieben einzelne Assets gegenueber der Basisstruktur?",
         ]
     )
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")

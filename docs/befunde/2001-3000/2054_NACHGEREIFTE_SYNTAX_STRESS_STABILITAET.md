@@ -75,5 +75,3 @@ Bleiben nachgereifte Bedeutungsinseln unter Stress feldnah, verschieben sie ihre
 ## Bedeutung für MINI_DIO
 
 Die Prüfung trennt situative Reifung von belastbarer Reifung. Dadurch kann MINI_DIO später Feldgedächtnis nicht nur nach Häufigkeit, sondern nach Tragfähigkeit über Weltspannung hinweg betrachten.
-
-Wie es weitergeht: Als nächstes sollten die feldnahen Stress-Wiederfunde mit ruhigen Welten gegengeprüft werden. Entscheidend ist, ob dieselben Spuren nur unter Stress aktiv werden oder auch in ruhiger Welt als stabile Bedeutung erhalten bleiben.

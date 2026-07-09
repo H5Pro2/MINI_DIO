@@ -123,10 +123,6 @@ def _write_markdown(path: Path, summary: dict) -> None:
             "",
             summary["interpretation"],
             "",
-            "## Wie es weitergeht",
-            "",
-            "Als naechstes sollte diese Phasenpruefung mit einer zweiten Welt wiederholt werden. Entscheidend ist, ob die weiche Sleep-Naehe immer neue Kombinationen erzeugt oder nur bei bestimmten Weltlagen.",
-            "",
         ]
     )
     path.parent.mkdir(parents=True, exist_ok=True)

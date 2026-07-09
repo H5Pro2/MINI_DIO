@@ -29,7 +29,3 @@ Sie erweitert die Rekopplungsnaehe und fuegt eine schwache offene Variante hinzu
 
 Die Matrix beschreibt nur passive Stabilitaet der Rollenrelation.
 Sie darf nicht als Beweis einer universellen Topologie gelesen werden.
-
-## Wie es weitergeht
-
-Als naechstes sollte eine weitere andersartige Welt gegen dieselbe Matrix gelegt werden. Grundfrage: bleibt die Rollenrelation auch unter staerkerer Weltspannung stabil?

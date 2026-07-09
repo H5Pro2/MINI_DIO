@@ -97,7 +97,3 @@ Der aktuelle Befund stuetzt die Annahme:
 Hoeren ist eine MCM-nahe Stimulationsachse.
 Sehen wirkt staerker als strukturelle Einordnung.
 ```
-
-## Wie es weitergeht
-
-Als naechstes sollte keine weitere Einzelwelt gebaut werden, sondern eine kompakte Vergleichsmatrix ueber die vier Sinnesachsen-Gegenproben: reine Hoerwelt, stabile Form/chaotisches Hoeren, visuelle Brueche/stabile Tonform, visuelle Rekopplung/Chaoston.
