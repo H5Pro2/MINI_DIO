@@ -20,7 +20,10 @@ ATTACHMENT_SOURCES = [
 ]
 FAMILY_ATTACHMENT_SOURCE = ROOT / "docs/befunde/1851_FAMILIEN_ANSCHLUSSQUALITAET.csv"
 LOCAL_PHASE_REPRO_SOURCE = ROOT / "docs/befunde/1861_PHASENLOKALE_FAMILIEN_REPRO_FOLGEFENSTER.csv"
-WORLD_FIT_SOURCE = ROOT / "docs/befunde/1878_WELTPASSUNG_METRIK.csv"
+WORLD_FIT_SOURCES = [
+    ROOT / "docs/befunde/1878_WELTPASSUNG_METRIK.csv",
+    ROOT / "docs/befunde/1883_WELTPASSUNG_MEMORY_WACHSTUM_FOLGEFENSTER.csv",
+]
 MEMORY_PATH = ROOT / Config.DIO_MINI_EPISODIC_MEMORY_PATH
 
 PASSIVE_FLAGS = {
@@ -101,6 +104,23 @@ def _read_attachment_rows() -> list[dict[str, str]]:
     rows: list[dict[str, str]] = []
     for source in ATTACHMENT_SOURCES:
         rows.extend(_read_optional_rows(source))
+    return rows
+
+
+def _read_world_fit_rows() -> list[dict[str, str]]:
+    rows: list[dict[str, str]] = []
+    seen: set[tuple[str, str, str]] = set()
+    for source in WORLD_FIT_SOURCES:
+        for row in _read_optional_rows(source):
+            key = (
+                str(row.get("asset") or ""),
+                str(row.get("condition") or ""),
+                str(row.get("row_type") or ""),
+            )
+            if key in seen:
+                continue
+            seen.add(key)
+            rows.append(row)
     return rows
 
 
@@ -282,7 +302,7 @@ def build_world_fit_quality_memory(rows: list[dict[str, str]]) -> dict:
         return {
             **PASSIVE_FLAGS,
             "kind": "passive_mcm_world_fit_quality",
-            "source": str(WORLD_FIT_SOURCE.relative_to(ROOT)),
+            "sources": [str(source.relative_to(ROOT)) for source in WORLD_FIT_SOURCES if source.exists()],
             "memory_state": "world_fit_quality_not_available",
             "description": "Passive Weltpassung ist noch nicht erzeugt.",
             "reading_counts": {},
@@ -300,6 +320,7 @@ def build_world_fit_quality_memory(rows: list[dict[str, str]]) -> dict:
             **PASSIVE_FLAGS,
             "asset": str(row.get("asset") or ""),
             "condition": str(row.get("condition") or ""),
+            "source_report": str(row.get("source_report") or ""),
             "core_pairs": int(_float(row.get("core_pairs"))),
             "carried_count": int(_float(row.get("carried_count"))),
             "opened_count": int(_float(row.get("opened_count"))),
@@ -318,12 +339,12 @@ def build_world_fit_quality_memory(rows: list[dict[str, str]]) -> dict:
     return {
         **PASSIVE_FLAGS,
         "kind": "passive_mcm_world_fit_quality",
-        "source": str(WORLD_FIT_SOURCE.relative_to(ROOT)),
+        "sources": [str(source.relative_to(ROOT)) for source in WORLD_FIT_SOURCES if source.exists()],
         "memory_state": "world_fit_quality_from_hard_core_response",
         "description": (
-            "Passive Weltpassung des harten lokalen Reifekerns. Speichert, "
-            "ob eine Weltlage den Kern traegt, oeffnet, verschiebt oder ausblendet. "
-            "Keine Handlung, kein Gate, keine Richtung."
+            "Passive Weltpassung des harten lokalen Reifekerns aus mehreren Messreihen. "
+            "Speichert wachsend, ob eine Weltlage den Kern traegt, oeffnet, verschiebt "
+            "oder ausblendet. Keine Handlung, kein Gate, keine Richtung."
         ),
         "reading_counts": dict(reading_counts.most_common()),
         "asset_counts": dict(asset_counts.most_common()),
@@ -368,7 +389,7 @@ def build_field_role_memory(rows: list[dict[str, str]]) -> dict:
     attachment_memory = build_attachment_quality_memory(_read_attachment_rows())
     family_attachment_memory = build_family_attachment_quality_memory(_read_optional_rows(FAMILY_ATTACHMENT_SOURCE))
     local_phase_maturity_group = build_local_phase_maturity_group_memory(_read_optional_rows(LOCAL_PHASE_REPRO_SOURCE))
-    world_fit_quality = build_world_fit_quality_memory(_read_optional_rows(WORLD_FIT_SOURCE))
+    world_fit_quality = build_world_fit_quality_memory(_read_world_fit_rows())
     return {
         **PASSIVE_FLAGS,
         "kind": "passive_mcm_field_role_memory",

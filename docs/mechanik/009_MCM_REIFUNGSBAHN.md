@@ -165,3 +165,11 @@ In [1879_PASSIVE_WELTPASSUNG_MEMORY.md](../befunde/1879_PASSIVE_WELTPASSUNG_MEMO
 ## Wie es weitergeht
 
 Als nächstes sollte geprüft werden, ob diese Weltpassungs-Memory über neue Weltfenster stabil mitwächst oder ob sie neue Weltlagen als eigene Passungsgruppen bildet.
+
+## Ergänzung 1884 - Weltpassung als wachsende Memory
+
+Die Folgefenster-Prüfung [1884_PASSIVE_WELTPASSUNG_MEMORY_WACHSTUM.md](../befunde/1884_PASSIVE_WELTPASSUNG_MEMORY_WACHSTUM.md) erweitert die passive Weltpassung um neue Weltpassungsquellen. Der Zähler wächst auf `kern_getragen: 12`, `kern_ausgeblendet: 3` und `kern_verschoben: 1`.
+
+Wichtig ist hier nicht nur die höhere Anzahl, sondern die neue Zwischenqualität `kern_verschoben`: Der harte Kern ist nicht verschwunden, wird aber von einer Weltlage anders getragen. Damit wird Drift als passive Erfahrung speicherbar, ohne daraus Handlung, Gate oder Richtung abzuleiten.
+
+Wie es weitergeht: Als nächstes sollte geprüft werden, ob `kern_verschoben` bei weiteren Folgefenstern wiederkehrt oder ob es nur eine asset- und fensterspezifische Übergangslage war.
