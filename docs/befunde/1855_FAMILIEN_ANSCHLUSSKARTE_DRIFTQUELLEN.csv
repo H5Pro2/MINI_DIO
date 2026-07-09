@@ -1,0 +1,215 @@
+row_type,asset_family_pairs,drift_sources,quality_transitions,asset_drift_sources,window_readings,mean_window_field_edge,drift_source,count,share,asset,family,baseline_attachment_quality,followup_attachment_quality,repro_state,attachment_profile,mean_field_edge_score
+summary,206,baseline_offen_wird_spezifisch:111; spezifisch_wird_offen:38; nachhall_wird_kernnah:35; neue_familienlage:10; reproduktion:9; kern_ohne_feldzeit_wird_nullnah:2; spezifische_qualitaet_driftet:1,offen_gemischt->kernnah:76; kernnah->offen_gemischt:38; nachhallnah_ohne_kern->kernnah:35; offen_gemischt->nullnah:30; offen_gemischt->kernnah_ohne_feldzeit:5; neu_ohne_baseline->kernnah:4; kernnah->kernnah:4; neu_ohne_baseline->nullnah:4; offen_gemischt->offen_gemischt:3; neu_ohne_baseline->offen_gemischt:2; kernnah_ohne_feldzeit->nullnah:2; kernnah_ohne_feldzeit->kernnah_ohne_feldzeit:2; nullnah->kernnah:1,SOL::baseline_offen_wird_spezifisch:42; DOGE::spezifisch_wird_offen:38; BTC::nachhall_wird_kernnah:35; XRP::baseline_offen_wird_spezifisch:35; PAXG::baseline_offen_wird_spezifisch:31; PAXG::reproduktion:7; XRP::neue_familienlage:4; BTC::baseline_offen_wird_spezifisch:3; PAXG::neue_familienlage:3; SOL::neue_familienlage:2; XRP::kern_ohne_feldzeit_wird_nullnah:2; XRP::reproduktion:2; BTC::spezifische_qualitaet_driftet:1; BTC::neue_familienlage:1,realwelt_kernnaehe_staerker:4; graduell_gemischt:3; graduell_realnaeher_kern:1; nullwelt_staerker:1; graduell_kernnaehe_ohne_feldzeitvorsprung:1,0.018561,,,,,,,,,,
+drift_source_summary,,,,,,,baseline_offen_wird_spezifisch,111,0.538835,,,,,,,
+drift_source_summary,,,,,,,spezifisch_wird_offen,38,0.184466,,,,,,,
+drift_source_summary,,,,,,,nachhall_wird_kernnah,35,0.169903,,,,,,,
+drift_source_summary,,,,,,,neue_familienlage,10,0.048544,,,,,,,
+drift_source_summary,,,,,,,reproduktion,9,0.043689,,,,,,,
+drift_source_summary,,,,,,,kern_ohne_feldzeit_wird_nullnah,2,0.009709,,,,,,,
+drift_source_summary,,,,,,,spezifische_qualitaet_driftet,1,0.004854,,,,,,,
+drift_detail,,,,,,,nachhall_wird_kernnah,,,BTC,dio_00ja,nachhallnah_ohne_kern,kernnah,anschlussqualitaet_driftet,kernnah:2,0.040178
+drift_detail,,,,,,,nachhall_wird_kernnah,,,BTC,dio_00ly,nachhallnah_ohne_kern,kernnah,anschlussqualitaet_driftet,kernnah:2,0.040178
+drift_detail,,,,,,,nachhall_wird_kernnah,,,BTC,dio_04uf,nachhallnah_ohne_kern,kernnah,anschlussqualitaet_driftet,kernnah:2,0.040178
+drift_detail,,,,,,,nachhall_wird_kernnah,,,BTC,dio_06er,nachhallnah_ohne_kern,kernnah,anschlussqualitaet_driftet,kernnah:2,0.040178
+drift_detail,,,,,,,nachhall_wird_kernnah,,,BTC,dio_06jk,nachhallnah_ohne_kern,kernnah,anschlussqualitaet_driftet,kernnah:2,0.040178
+drift_detail,,,,,,,nachhall_wird_kernnah,,,BTC,dio_06s7,nachhallnah_ohne_kern,kernnah,anschlussqualitaet_driftet,kernnah:2,0.040178
+drift_detail,,,,,,,nachhall_wird_kernnah,,,BTC,dio_09bn,nachhallnah_ohne_kern,kernnah,anschlussqualitaet_driftet,kernnah:2,0.040178
+drift_detail,,,,,,,nachhall_wird_kernnah,,,BTC,dio_0dd2,nachhallnah_ohne_kern,kernnah,anschlussqualitaet_driftet,kernnah:2,0.040178
+drift_detail,,,,,,,nachhall_wird_kernnah,,,BTC,dio_0g2r,nachhallnah_ohne_kern,kernnah,anschlussqualitaet_driftet,kernnah:2,0.040178
+drift_detail,,,,,,,nachhall_wird_kernnah,,,BTC,dio_0h9h,nachhallnah_ohne_kern,kernnah,anschlussqualitaet_driftet,kernnah:2,0.040178
+drift_detail,,,,,,,nachhall_wird_kernnah,,,BTC,dio_0l7p,nachhallnah_ohne_kern,kernnah,anschlussqualitaet_driftet,kernnah:2,0.040178
+drift_detail,,,,,,,nachhall_wird_kernnah,,,BTC,dio_0m9z,nachhallnah_ohne_kern,kernnah,anschlussqualitaet_driftet,kernnah:2,0.040178
+drift_detail,,,,,,,nachhall_wird_kernnah,,,BTC,dio_0nlj,nachhallnah_ohne_kern,kernnah,anschlussqualitaet_driftet,kernnah:2,0.040178
+drift_detail,,,,,,,nachhall_wird_kernnah,,,BTC,dio_0obq,nachhallnah_ohne_kern,kernnah,anschlussqualitaet_driftet,kernnah:2,0.040178
+drift_detail,,,,,,,nachhall_wird_kernnah,,,BTC,dio_0oc3,nachhallnah_ohne_kern,kernnah,anschlussqualitaet_driftet,kernnah:2,0.040178
+drift_detail,,,,,,,nachhall_wird_kernnah,,,BTC,dio_0pz6,nachhallnah_ohne_kern,kernnah,anschlussqualitaet_driftet,kernnah:2,0.040178
+drift_detail,,,,,,,nachhall_wird_kernnah,,,BTC,dio_0tay,nachhallnah_ohne_kern,kernnah,anschlussqualitaet_driftet,kernnah:2,0.040178
+drift_detail,,,,,,,nachhall_wird_kernnah,,,BTC,dio_104t,nachhallnah_ohne_kern,kernnah,anschlussqualitaet_driftet,kernnah:2,0.040178
+drift_detail,,,,,,,nachhall_wird_kernnah,,,BTC,dio_1492,nachhallnah_ohne_kern,kernnah,anschlussqualitaet_driftet,kernnah:2,0.040178
+drift_detail,,,,,,,nachhall_wird_kernnah,,,BTC,dio_14wj,nachhallnah_ohne_kern,kernnah,anschlussqualitaet_driftet,kernnah:2,0.040178
+drift_detail,,,,,,,nachhall_wird_kernnah,,,BTC,dio_155c,nachhallnah_ohne_kern,kernnah,anschlussqualitaet_driftet,kernnah:2,0.040178
+drift_detail,,,,,,,nachhall_wird_kernnah,,,BTC,dio_169a,nachhallnah_ohne_kern,kernnah,anschlussqualitaet_driftet,kernnah:2,0.040178
+drift_detail,,,,,,,nachhall_wird_kernnah,,,BTC,dio_17ct,nachhallnah_ohne_kern,kernnah,anschlussqualitaet_driftet,kernnah:2,0.040178
+drift_detail,,,,,,,nachhall_wird_kernnah,,,BTC,dio_19pg,nachhallnah_ohne_kern,kernnah,anschlussqualitaet_driftet,kernnah:2,0.040178
+drift_detail,,,,,,,nachhall_wird_kernnah,,,BTC,dio_1ewh,nachhallnah_ohne_kern,kernnah,anschlussqualitaet_driftet,kernnah:2,0.040178
+drift_detail,,,,,,,nachhall_wird_kernnah,,,BTC,dio_1gp2,nachhallnah_ohne_kern,kernnah,anschlussqualitaet_driftet,kernnah:2,0.040178
+drift_detail,,,,,,,nachhall_wird_kernnah,,,BTC,dio_1jc2,nachhallnah_ohne_kern,kernnah,anschlussqualitaet_driftet,kernnah:2,0.040178
+drift_detail,,,,,,,nachhall_wird_kernnah,,,BTC,dio_1kpz,nachhallnah_ohne_kern,kernnah,anschlussqualitaet_driftet,kernnah:2,0.040178
+drift_detail,,,,,,,nachhall_wird_kernnah,,,BTC,dio_1lsu,nachhallnah_ohne_kern,kernnah,anschlussqualitaet_driftet,kernnah:2,0.040178
+drift_detail,,,,,,,nachhall_wird_kernnah,,,BTC,dio_1q85,nachhallnah_ohne_kern,kernnah,anschlussqualitaet_driftet,kernnah:2,0.040178
+drift_detail,,,,,,,nachhall_wird_kernnah,,,BTC,dio_1r55,nachhallnah_ohne_kern,kernnah,anschlussqualitaet_driftet,kernnah:2,0.040178
+drift_detail,,,,,,,nachhall_wird_kernnah,,,BTC,dio_1u5i,nachhallnah_ohne_kern,kernnah,anschlussqualitaet_driftet,kernnah:2,0.040178
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,BTC,dio_05yg,offen_gemischt,kernnah,anschlussqualitaet_driftet_offen,kernnah:1,0.021814
+drift_detail,,,,,,,nachhall_wird_kernnah,,,BTC,dio_07uk,nachhallnah_ohne_kern,kernnah,anschlussqualitaet_driftet,kernnah:1,0.058542
+drift_detail,,,,,,,nachhall_wird_kernnah,,,BTC,dio_0jkk,nachhallnah_ohne_kern,kernnah,anschlussqualitaet_driftet,kernnah:1,0.021814
+drift_detail,,,,,,,nachhall_wird_kernnah,,,BTC,dio_0z9t,nachhallnah_ohne_kern,kernnah,anschlussqualitaet_driftet,kernnah:1,0.021814
+drift_detail,,,,,,,spezifische_qualitaet_driftet,,,BTC,dio_10dv,nullnah,kernnah,anschlussqualitaet_driftet,kernnah:1,0.058542
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,BTC,dio_12fw,offen_gemischt,kernnah,anschlussqualitaet_driftet_offen,kernnah:1,0.021814
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,BTC,dio_17db,offen_gemischt,kernnah,anschlussqualitaet_driftet_offen,kernnah:1,0.058542
+drift_detail,,,,,,,neue_familienlage,,,BTC,dio_1xrt,neu_ohne_baseline,kernnah,neu_ohne_baseline,kernnah:1,0.058542
+drift_detail,,,,,,,spezifisch_wird_offen,,,DOGE,dio_00ja,kernnah,offen_gemischt,anschlussqualitaet_driftet_offen,offen_gemischt:2,-0.002442
+drift_detail,,,,,,,spezifisch_wird_offen,,,DOGE,dio_00ly,kernnah,offen_gemischt,anschlussqualitaet_driftet_offen,offen_gemischt:2,-0.002442
+drift_detail,,,,,,,spezifisch_wird_offen,,,DOGE,dio_04uf,kernnah,offen_gemischt,anschlussqualitaet_driftet_offen,offen_gemischt:2,-0.002442
+drift_detail,,,,,,,spezifisch_wird_offen,,,DOGE,dio_05yg,kernnah,offen_gemischt,anschlussqualitaet_driftet_offen,offen_gemischt:2,-0.002442
+drift_detail,,,,,,,spezifisch_wird_offen,,,DOGE,dio_06er,kernnah,offen_gemischt,anschlussqualitaet_driftet_offen,offen_gemischt:2,-0.002442
+drift_detail,,,,,,,spezifisch_wird_offen,,,DOGE,dio_06s7,kernnah,offen_gemischt,anschlussqualitaet_driftet_offen,offen_gemischt:2,-0.002442
+drift_detail,,,,,,,spezifisch_wird_offen,,,DOGE,dio_07uk,kernnah,offen_gemischt,anschlussqualitaet_driftet_offen,offen_gemischt:2,-0.002442
+drift_detail,,,,,,,spezifisch_wird_offen,,,DOGE,dio_09bn,kernnah,offen_gemischt,anschlussqualitaet_driftet_offen,offen_gemischt:2,-0.002442
+drift_detail,,,,,,,spezifisch_wird_offen,,,DOGE,dio_0dd2,kernnah,offen_gemischt,anschlussqualitaet_driftet_offen,offen_gemischt:2,-0.002442
+drift_detail,,,,,,,spezifisch_wird_offen,,,DOGE,dio_0g2r,kernnah,offen_gemischt,anschlussqualitaet_driftet_offen,offen_gemischt:2,-0.002442
+drift_detail,,,,,,,spezifisch_wird_offen,,,DOGE,dio_0h9h,kernnah,offen_gemischt,anschlussqualitaet_driftet_offen,offen_gemischt:2,-0.002442
+drift_detail,,,,,,,spezifisch_wird_offen,,,DOGE,dio_0jkk,kernnah,offen_gemischt,anschlussqualitaet_driftet_offen,offen_gemischt:2,-0.002442
+drift_detail,,,,,,,spezifisch_wird_offen,,,DOGE,dio_0l7p,kernnah,offen_gemischt,anschlussqualitaet_driftet_offen,offen_gemischt:2,-0.002442
+drift_detail,,,,,,,spezifisch_wird_offen,,,DOGE,dio_0m9z,kernnah,offen_gemischt,anschlussqualitaet_driftet_offen,offen_gemischt:2,-0.002442
+drift_detail,,,,,,,spezifisch_wird_offen,,,DOGE,dio_0nlj,kernnah,offen_gemischt,anschlussqualitaet_driftet_offen,offen_gemischt:2,-0.002442
+drift_detail,,,,,,,spezifisch_wird_offen,,,DOGE,dio_0obq,kernnah,offen_gemischt,anschlussqualitaet_driftet_offen,offen_gemischt:2,-0.002442
+drift_detail,,,,,,,spezifisch_wird_offen,,,DOGE,dio_0oc3,kernnah,offen_gemischt,anschlussqualitaet_driftet_offen,offen_gemischt:2,-0.002442
+drift_detail,,,,,,,spezifisch_wird_offen,,,DOGE,dio_0pz6,kernnah,offen_gemischt,anschlussqualitaet_driftet_offen,offen_gemischt:2,-0.002442
+drift_detail,,,,,,,spezifisch_wird_offen,,,DOGE,dio_0tay,kernnah,offen_gemischt,anschlussqualitaet_driftet_offen,offen_gemischt:2,-0.002442
+drift_detail,,,,,,,spezifisch_wird_offen,,,DOGE,dio_104t,kernnah,offen_gemischt,anschlussqualitaet_driftet_offen,offen_gemischt:2,-0.002442
+drift_detail,,,,,,,spezifisch_wird_offen,,,DOGE,dio_14wj,kernnah,offen_gemischt,anschlussqualitaet_driftet_offen,offen_gemischt:2,-0.002442
+drift_detail,,,,,,,spezifisch_wird_offen,,,DOGE,dio_155c,kernnah,offen_gemischt,anschlussqualitaet_driftet_offen,offen_gemischt:2,-0.002442
+drift_detail,,,,,,,spezifisch_wird_offen,,,DOGE,dio_169a,kernnah,offen_gemischt,anschlussqualitaet_driftet_offen,offen_gemischt:2,-0.002442
+drift_detail,,,,,,,spezifisch_wird_offen,,,DOGE,dio_17ct,kernnah,offen_gemischt,anschlussqualitaet_driftet_offen,offen_gemischt:2,-0.002442
+drift_detail,,,,,,,spezifisch_wird_offen,,,DOGE,dio_17db,kernnah,offen_gemischt,anschlussqualitaet_driftet_offen,offen_gemischt:2,-0.002442
+drift_detail,,,,,,,spezifisch_wird_offen,,,DOGE,dio_19pg,kernnah,offen_gemischt,anschlussqualitaet_driftet_offen,offen_gemischt:2,-0.002442
+drift_detail,,,,,,,spezifisch_wird_offen,,,DOGE,dio_1ewh,kernnah,offen_gemischt,anschlussqualitaet_driftet_offen,offen_gemischt:2,-0.002442
+drift_detail,,,,,,,spezifisch_wird_offen,,,DOGE,dio_1gp2,kernnah,offen_gemischt,anschlussqualitaet_driftet_offen,offen_gemischt:2,-0.002442
+drift_detail,,,,,,,spezifisch_wird_offen,,,DOGE,dio_1jc2,kernnah,offen_gemischt,anschlussqualitaet_driftet_offen,offen_gemischt:2,-0.002442
+drift_detail,,,,,,,spezifisch_wird_offen,,,DOGE,dio_1kpz,kernnah,offen_gemischt,anschlussqualitaet_driftet_offen,offen_gemischt:2,-0.002442
+drift_detail,,,,,,,spezifisch_wird_offen,,,DOGE,dio_1lsu,kernnah,offen_gemischt,anschlussqualitaet_driftet_offen,offen_gemischt:2,-0.002442
+drift_detail,,,,,,,spezifisch_wird_offen,,,DOGE,dio_1pij,kernnah,offen_gemischt,anschlussqualitaet_driftet_offen,offen_gemischt:2,-0.002442
+drift_detail,,,,,,,spezifisch_wird_offen,,,DOGE,dio_1q85,kernnah,offen_gemischt,anschlussqualitaet_driftet_offen,offen_gemischt:2,-0.002442
+drift_detail,,,,,,,spezifisch_wird_offen,,,DOGE,dio_1u5i,kernnah,offen_gemischt,anschlussqualitaet_driftet_offen,offen_gemischt:2,-0.002442
+drift_detail,,,,,,,spezifisch_wird_offen,,,DOGE,dio_0fe7,kernnah,offen_gemischt,anschlussqualitaet_driftet_offen,offen_gemischt:1,-0.009339
+drift_detail,,,,,,,spezifisch_wird_offen,,,DOGE,dio_0z9t,kernnah,offen_gemischt,anschlussqualitaet_driftet_offen,offen_gemischt:1,-0.009339
+drift_detail,,,,,,,spezifisch_wird_offen,,,DOGE,dio_12fw,kernnah,offen_gemischt,anschlussqualitaet_driftet_offen,offen_gemischt:1,0.004455
+drift_detail,,,,,,,spezifisch_wird_offen,,,DOGE,dio_1492,kernnah,offen_gemischt,anschlussqualitaet_driftet_offen,offen_gemischt:1,0.004455
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,PAXG,dio_00ja,offen_gemischt,kernnah,anschlussqualitaet_driftet_offen,kernnah:1; offen_gemischt:1,0.021266
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,PAXG,dio_00ly,offen_gemischt,kernnah,anschlussqualitaet_driftet_offen,kernnah:1; offen_gemischt:1,0.021266
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,PAXG,dio_06er,offen_gemischt,kernnah,anschlussqualitaet_driftet_offen,kernnah:1; offen_gemischt:1,0.021266
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,PAXG,dio_06s7,offen_gemischt,kernnah,anschlussqualitaet_driftet_offen,kernnah:1; offen_gemischt:1,0.021266
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,PAXG,dio_07o8,offen_gemischt,kernnah,anschlussqualitaet_driftet_offen,kernnah:1; offen_gemischt:1,0.021266
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,PAXG,dio_0dd2,offen_gemischt,kernnah,anschlussqualitaet_driftet_offen,kernnah:1; offen_gemischt:1,0.021266
+drift_detail,,,,,,,reproduktion,,,PAXG,dio_0fe7,kernnah,kernnah,anschlussqualitaet_reproduziert,kernnah:1; offen_gemischt:1,0.021266
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,PAXG,dio_0g2r,offen_gemischt,kernnah,anschlussqualitaet_driftet_offen,kernnah:1; offen_gemischt:1,0.021266
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,PAXG,dio_0h9h,offen_gemischt,kernnah,anschlussqualitaet_driftet_offen,kernnah:1; offen_gemischt:1,0.021266
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,PAXG,dio_0jqc,offen_gemischt,kernnah,anschlussqualitaet_driftet_offen,kernnah:1; offen_gemischt:1,0.021266
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,PAXG,dio_0kx9,offen_gemischt,kernnah,anschlussqualitaet_driftet_offen,kernnah:1; offen_gemischt:1,0.021266
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,PAXG,dio_0l7p,offen_gemischt,kernnah,anschlussqualitaet_driftet_offen,kernnah:1; offen_gemischt:1,0.021266
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,PAXG,dio_0m9z,offen_gemischt,kernnah,anschlussqualitaet_driftet_offen,kernnah:1; offen_gemischt:1,0.021266
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,PAXG,dio_0obq,offen_gemischt,kernnah,anschlussqualitaet_driftet_offen,kernnah:1; offen_gemischt:1,0.021266
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,PAXG,dio_0oc3,offen_gemischt,kernnah,anschlussqualitaet_driftet_offen,kernnah:1; offen_gemischt:1,0.021266
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,PAXG,dio_0pz6,offen_gemischt,kernnah,anschlussqualitaet_driftet_offen,kernnah:1; offen_gemischt:1,0.021266
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,PAXG,dio_0z9t,offen_gemischt,kernnah,anschlussqualitaet_driftet_offen,kernnah:1; offen_gemischt:1,0.021266
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,PAXG,dio_104t,offen_gemischt,kernnah,anschlussqualitaet_driftet_offen,kernnah:1; offen_gemischt:1,0.021266
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,PAXG,dio_10dv,offen_gemischt,kernnah,anschlussqualitaet_driftet_offen,kernnah:1; offen_gemischt:1,0.021266
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,PAXG,dio_14wj,offen_gemischt,kernnah,anschlussqualitaet_driftet_offen,kernnah:1; offen_gemischt:1,0.021266
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,PAXG,dio_155c,offen_gemischt,kernnah,anschlussqualitaet_driftet_offen,kernnah:1; offen_gemischt:1,0.021266
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,PAXG,dio_1772,offen_gemischt,kernnah,anschlussqualitaet_driftet_offen,kernnah:1; offen_gemischt:1,0.021266
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,PAXG,dio_17ct,offen_gemischt,kernnah,anschlussqualitaet_driftet_offen,kernnah:1; offen_gemischt:1,0.021266
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,PAXG,dio_1ewh,offen_gemischt,kernnah,anschlussqualitaet_driftet_offen,kernnah:1; offen_gemischt:1,0.021266
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,PAXG,dio_1fll,offen_gemischt,kernnah,anschlussqualitaet_driftet_offen,kernnah:1; offen_gemischt:1,0.021266
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,PAXG,dio_1jc2,offen_gemischt,kernnah,anschlussqualitaet_driftet_offen,kernnah:1; offen_gemischt:1,0.021266
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,PAXG,dio_1kpz,offen_gemischt,kernnah,anschlussqualitaet_driftet_offen,kernnah:1; offen_gemischt:1,0.021266
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,PAXG,dio_1lsu,offen_gemischt,kernnah,anschlussqualitaet_driftet_offen,kernnah:1; offen_gemischt:1,0.021266
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,PAXG,dio_1oye,offen_gemischt,kernnah,anschlussqualitaet_driftet_offen,kernnah:1; offen_gemischt:1,0.021266
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,PAXG,dio_1q85,offen_gemischt,kernnah,anschlussqualitaet_driftet_offen,kernnah:1; offen_gemischt:1,0.021266
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,PAXG,dio_1u5i,offen_gemischt,kernnah,anschlussqualitaet_driftet_offen,kernnah:1; offen_gemischt:1,0.021266
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,PAXG,dio_04uf,offen_gemischt,kernnah,anschlussqualitaet_driftet_offen,kernnah:1,0.033668
+drift_detail,,,,,,,reproduktion,,,PAXG,dio_09bn,kernnah,kernnah,anschlussqualitaet_reproduziert,kernnah:1,0.033668
+drift_detail,,,,,,,reproduktion,,,PAXG,dio_0nlj,offen_gemischt,offen_gemischt,anschlussqualitaet_reproduziert,offen_gemischt:1,0.008864
+drift_detail,,,,,,,reproduktion,,,PAXG,dio_12fw,offen_gemischt,offen_gemischt,anschlussqualitaet_reproduziert,offen_gemischt:1,0.008864
+drift_detail,,,,,,,neue_familienlage,,,PAXG,dio_17db,neu_ohne_baseline,offen_gemischt,neu_ohne_baseline,offen_gemischt:1,0.008864
+drift_detail,,,,,,,reproduktion,,,PAXG,dio_19pg,kernnah,kernnah,anschlussqualitaet_reproduziert,kernnah:1,0.033668
+drift_detail,,,,,,,reproduktion,,,PAXG,dio_1gp2,offen_gemischt,offen_gemischt,anschlussqualitaet_reproduziert,offen_gemischt:1,0.008864
+drift_detail,,,,,,,neue_familienlage,,,PAXG,dio_1o4z,neu_ohne_baseline,offen_gemischt,neu_ohne_baseline,offen_gemischt:1,0.008864
+drift_detail,,,,,,,neue_familienlage,,,PAXG,dio_1wdi,neu_ohne_baseline,kernnah,neu_ohne_baseline,kernnah:1,0.033668
+drift_detail,,,,,,,reproduktion,,,PAXG,dio_1xrt,kernnah,kernnah,anschlussqualitaet_reproduziert,kernnah:1,0.033668
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,SOL,dio_00ja,offen_gemischt,kernnah,anschlussqualitaet_driftet_offen,kernnah:2,0.051839
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,SOL,dio_00ly,offen_gemischt,kernnah,anschlussqualitaet_driftet_offen,kernnah:2,0.051839
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,SOL,dio_04uf,offen_gemischt,kernnah,anschlussqualitaet_driftet_offen,kernnah:2,0.051839
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,SOL,dio_05yg,offen_gemischt,kernnah,anschlussqualitaet_driftet_offen,kernnah:2,0.051839
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,SOL,dio_06s7,offen_gemischt,kernnah,anschlussqualitaet_driftet_offen,kernnah:2,0.051839
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,SOL,dio_09bn,offen_gemischt,kernnah,anschlussqualitaet_driftet_offen,kernnah:2,0.051839
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,SOL,dio_0g2r,offen_gemischt,kernnah,anschlussqualitaet_driftet_offen,kernnah:2,0.051839
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,SOL,dio_0h9h,offen_gemischt,kernnah,anschlussqualitaet_driftet_offen,kernnah:2,0.051839
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,SOL,dio_0jkk,offen_gemischt,kernnah,anschlussqualitaet_driftet_offen,kernnah:2,0.051839
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,SOL,dio_0l7p,offen_gemischt,kernnah,anschlussqualitaet_driftet_offen,kernnah:2,0.051839
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,SOL,dio_0m9z,offen_gemischt,kernnah,anschlussqualitaet_driftet_offen,kernnah:2,0.051839
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,SOL,dio_0obq,offen_gemischt,kernnah,anschlussqualitaet_driftet_offen,kernnah:2,0.051839
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,SOL,dio_0oc3,offen_gemischt,kernnah,anschlussqualitaet_driftet_offen,kernnah:2,0.051839
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,SOL,dio_0pz6,offen_gemischt,kernnah,anschlussqualitaet_driftet_offen,kernnah:2,0.051839
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,SOL,dio_0tay,offen_gemischt,kernnah,anschlussqualitaet_driftet_offen,kernnah:2,0.051839
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,SOL,dio_104t,offen_gemischt,kernnah,anschlussqualitaet_driftet_offen,kernnah:2,0.051839
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,SOL,dio_1492,offen_gemischt,kernnah,anschlussqualitaet_driftet_offen,kernnah:2,0.051839
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,SOL,dio_14wj,offen_gemischt,kernnah,anschlussqualitaet_driftet_offen,kernnah:2,0.051839
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,SOL,dio_155c,offen_gemischt,kernnah,anschlussqualitaet_driftet_offen,kernnah:2,0.051839
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,SOL,dio_169a,offen_gemischt,kernnah,anschlussqualitaet_driftet_offen,kernnah:2,0.051839
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,SOL,dio_17ct,offen_gemischt,kernnah,anschlussqualitaet_driftet_offen,kernnah:2,0.051839
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,SOL,dio_19pg,offen_gemischt,kernnah,anschlussqualitaet_driftet_offen,kernnah:2,0.051839
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,SOL,dio_1ewh,offen_gemischt,kernnah,anschlussqualitaet_driftet_offen,kernnah:2,0.051839
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,SOL,dio_1gp2,offen_gemischt,kernnah,anschlussqualitaet_driftet_offen,kernnah:2,0.051839
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,SOL,dio_1kpz,offen_gemischt,kernnah,anschlussqualitaet_driftet_offen,kernnah:2,0.051839
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,SOL,dio_1lsu,offen_gemischt,kernnah,anschlussqualitaet_driftet_offen,kernnah:2,0.051839
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,SOL,dio_1pij,offen_gemischt,kernnah,anschlussqualitaet_driftet_offen,kernnah:2,0.051839
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,SOL,dio_1q85,offen_gemischt,kernnah,anschlussqualitaet_driftet_offen,kernnah:2,0.051839
+drift_detail,,,,,,,neue_familienlage,,,SOL,dio_03uk,neu_ohne_baseline,kernnah,neu_ohne_baseline,kernnah:1,0.057207
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,SOL,dio_06er,offen_gemischt,kernnah,anschlussqualitaet_driftet_offen,kernnah:1,0.057207
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,SOL,dio_06jk,offen_gemischt,kernnah,anschlussqualitaet_driftet_offen,kernnah:1,0.057207
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,SOL,dio_07uk,offen_gemischt,kernnah,anschlussqualitaet_driftet_offen,kernnah:1,0.046471
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,SOL,dio_0dd2,offen_gemischt,kernnah,anschlussqualitaet_driftet_offen,kernnah:1,0.057207
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,SOL,dio_0kx9,offen_gemischt,kernnah,anschlussqualitaet_driftet_offen,kernnah:1,0.046471
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,SOL,dio_0nlj,offen_gemischt,kernnah,anschlussqualitaet_driftet_offen,kernnah:1,0.046471
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,SOL,dio_0z9t,offen_gemischt,kernnah,anschlussqualitaet_driftet_offen,kernnah:1,0.057207
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,SOL,dio_10dv,offen_gemischt,kernnah,anschlussqualitaet_driftet_offen,kernnah:1,0.057207
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,SOL,dio_12fw,offen_gemischt,kernnah,anschlussqualitaet_driftet_offen,kernnah:1,0.046471
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,SOL,dio_17db,offen_gemischt,kernnah,anschlussqualitaet_driftet_offen,kernnah:1,0.046471
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,SOL,dio_1cic,offen_gemischt,kernnah,anschlussqualitaet_driftet_offen,kernnah:1,0.046471
+drift_detail,,,,,,,neue_familienlage,,,SOL,dio_1fll,neu_ohne_baseline,kernnah,neu_ohne_baseline,kernnah:1,0.057207
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,SOL,dio_1jc2,offen_gemischt,kernnah,anschlussqualitaet_driftet_offen,kernnah:1,0.046471
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,SOL,dio_1r55,offen_gemischt,kernnah,anschlussqualitaet_driftet_offen,kernnah:1,0.057207
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,SOL,dio_1u5i,offen_gemischt,kernnah,anschlussqualitaet_driftet_offen,kernnah:1,0.046471
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,XRP,dio_00ja,offen_gemischt,nullnah,anschlussqualitaet_driftet_offen,nullnah:1; kernnah_ohne_feldzeit:1,-0.018037
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,XRP,dio_00ly,offen_gemischt,nullnah,anschlussqualitaet_driftet_offen,nullnah:1; kernnah_ohne_feldzeit:1,-0.018037
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,XRP,dio_06er,offen_gemischt,nullnah,anschlussqualitaet_driftet_offen,nullnah:1; kernnah_ohne_feldzeit:1,-0.018037
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,XRP,dio_06s7,offen_gemischt,nullnah,anschlussqualitaet_driftet_offen,nullnah:1; kernnah_ohne_feldzeit:1,-0.018037
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,XRP,dio_09bn,offen_gemischt,nullnah,anschlussqualitaet_driftet_offen,nullnah:1; kernnah_ohne_feldzeit:1,-0.018037
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,XRP,dio_0dd2,offen_gemischt,nullnah,anschlussqualitaet_driftet_offen,nullnah:1; kernnah_ohne_feldzeit:1,-0.018037
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,XRP,dio_0g2r,offen_gemischt,nullnah,anschlussqualitaet_driftet_offen,nullnah:1; kernnah_ohne_feldzeit:1,-0.018037
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,XRP,dio_0h9h,offen_gemischt,nullnah,anschlussqualitaet_driftet_offen,nullnah:1; kernnah_ohne_feldzeit:1,-0.018037
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,XRP,dio_0l7p,offen_gemischt,nullnah,anschlussqualitaet_driftet_offen,nullnah:1; kernnah_ohne_feldzeit:1,-0.018037
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,XRP,dio_0m9z,offen_gemischt,nullnah,anschlussqualitaet_driftet_offen,nullnah:1; kernnah_ohne_feldzeit:1,-0.018037
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,XRP,dio_0nlj,offen_gemischt,nullnah,anschlussqualitaet_driftet_offen,nullnah:1; kernnah_ohne_feldzeit:1,-0.018037
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,XRP,dio_0obq,offen_gemischt,nullnah,anschlussqualitaet_driftet_offen,nullnah:1; kernnah_ohne_feldzeit:1,-0.018037
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,XRP,dio_0oc3,offen_gemischt,nullnah,anschlussqualitaet_driftet_offen,nullnah:1; kernnah_ohne_feldzeit:1,-0.018037
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,XRP,dio_0pz6,offen_gemischt,nullnah,anschlussqualitaet_driftet_offen,nullnah:1; kernnah_ohne_feldzeit:1,-0.018037
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,XRP,dio_0tay,offen_gemischt,nullnah,anschlussqualitaet_driftet_offen,nullnah:1; kernnah_ohne_feldzeit:1,-0.018037
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,XRP,dio_104t,offen_gemischt,nullnah,anschlussqualitaet_driftet_offen,nullnah:1; kernnah_ohne_feldzeit:1,-0.018037
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,XRP,dio_10dv,offen_gemischt,nullnah,anschlussqualitaet_driftet_offen,nullnah:1; kernnah_ohne_feldzeit:1,-0.018037
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,XRP,dio_1492,offen_gemischt,nullnah,anschlussqualitaet_driftet_offen,nullnah:1; kernnah_ohne_feldzeit:1,-0.018037
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,XRP,dio_14wj,offen_gemischt,nullnah,anschlussqualitaet_driftet_offen,nullnah:1; kernnah_ohne_feldzeit:1,-0.018037
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,XRP,dio_155c,offen_gemischt,nullnah,anschlussqualitaet_driftet_offen,nullnah:1; kernnah_ohne_feldzeit:1,-0.018037
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,XRP,dio_169a,offen_gemischt,nullnah,anschlussqualitaet_driftet_offen,nullnah:1; kernnah_ohne_feldzeit:1,-0.018037
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,XRP,dio_17ct,offen_gemischt,nullnah,anschlussqualitaet_driftet_offen,nullnah:1; kernnah_ohne_feldzeit:1,-0.018037
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,XRP,dio_19pg,offen_gemischt,nullnah,anschlussqualitaet_driftet_offen,nullnah:1; kernnah_ohne_feldzeit:1,-0.018037
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,XRP,dio_1ewh,offen_gemischt,nullnah,anschlussqualitaet_driftet_offen,nullnah:1; kernnah_ohne_feldzeit:1,-0.018037
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,XRP,dio_1gp2,offen_gemischt,nullnah,anschlussqualitaet_driftet_offen,nullnah:1; kernnah_ohne_feldzeit:1,-0.018037
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,XRP,dio_1kpz,offen_gemischt,nullnah,anschlussqualitaet_driftet_offen,nullnah:1; kernnah_ohne_feldzeit:1,-0.018037
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,XRP,dio_1lsu,offen_gemischt,nullnah,anschlussqualitaet_driftet_offen,nullnah:1; kernnah_ohne_feldzeit:1,-0.018037
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,XRP,dio_1q85,offen_gemischt,nullnah,anschlussqualitaet_driftet_offen,nullnah:1; kernnah_ohne_feldzeit:1,-0.018037
+drift_detail,,,,,,,kern_ohne_feldzeit_wird_nullnah,,,XRP,dio_1u5i,kernnah_ohne_feldzeit,nullnah,anschlussqualitaet_driftet,nullnah:1; kernnah_ohne_feldzeit:1,-0.018037
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,XRP,dio_03uk,offen_gemischt,kernnah_ohne_feldzeit,anschlussqualitaet_driftet_offen,kernnah_ohne_feldzeit:1,0.007605
+drift_detail,,,,,,,kern_ohne_feldzeit_wird_nullnah,,,XRP,dio_04uf,kernnah_ohne_feldzeit,nullnah,anschlussqualitaet_driftet,nullnah:1,-0.043678
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,XRP,dio_05yg,offen_gemischt,nullnah,anschlussqualitaet_driftet_offen,nullnah:1,-0.043678
+drift_detail,,,,,,,reproduktion,,,XRP,dio_06jk,kernnah_ohne_feldzeit,kernnah_ohne_feldzeit,anschlussqualitaet_reproduziert,kernnah_ohne_feldzeit:1,0.007605
+drift_detail,,,,,,,neue_familienlage,,,XRP,dio_07uk,neu_ohne_baseline,nullnah,neu_ohne_baseline,nullnah:1,-0.043678
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,XRP,dio_0jkk,offen_gemischt,nullnah,anschlussqualitaet_driftet_offen,nullnah:1,-0.043678
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,XRP,dio_0z9t,offen_gemischt,kernnah_ohne_feldzeit,anschlussqualitaet_driftet_offen,kernnah_ohne_feldzeit:1,0.007605
+drift_detail,,,,,,,neue_familienlage,,,XRP,dio_12fw,neu_ohne_baseline,nullnah,neu_ohne_baseline,nullnah:1,-0.043678
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,XRP,dio_17db,offen_gemischt,kernnah_ohne_feldzeit,anschlussqualitaet_driftet_offen,kernnah_ohne_feldzeit:1,0.007605
+drift_detail,,,,,,,neue_familienlage,,,XRP,dio_1cic,neu_ohne_baseline,nullnah,neu_ohne_baseline,nullnah:1,-0.043678
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,XRP,dio_1fll,offen_gemischt,kernnah_ohne_feldzeit,anschlussqualitaet_driftet_offen,kernnah_ohne_feldzeit:1,0.007605
+drift_detail,,,,,,,baseline_offen_wird_spezifisch,,,XRP,dio_1r55,offen_gemischt,kernnah_ohne_feldzeit,anschlussqualitaet_driftet_offen,kernnah_ohne_feldzeit:1,0.007605
+drift_detail,,,,,,,reproduktion,,,XRP,dio_1tiu,kernnah_ohne_feldzeit,kernnah_ohne_feldzeit,anschlussqualitaet_reproduziert,kernnah_ohne_feldzeit:1,0.007605
+drift_detail,,,,,,,neue_familienlage,,,XRP,dio_1v2w,neu_ohne_baseline,nullnah,neu_ohne_baseline,nullnah:1,-0.043678

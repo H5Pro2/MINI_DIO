@@ -136,6 +136,8 @@ Die passive Familien-Anschlusskarte [1852_PASSIVE_FAMILIEN_ANSCHLUSSKARTE.md](..
 
 Die neue Fensterprüfung [1853_FAMILIEN_ANSCHLUSSKARTE_NEUE_WELTEN.md](../befunde/1853_FAMILIEN_ANSCHLUSSKARTE_NEUE_WELTEN.md) und der Reproduktionsvergleich [1854_FAMILIEN_ANSCHLUSSKARTE_REPRO_NEUE_WELTEN.md](../befunde/1854_FAMILIEN_ANSCHLUSSKARTE_REPRO_NEUE_WELTEN.md) zeigen danach: Die Karte reproduziert einzelne Asset/Familien-Profile, driftet aber überwiegend offen. Das ist kein Gegenbefund zur Reifungsbahn, sondern eine Präzisierung. Die Karte darf nicht als feste Symboltabelle gelesen werden. Sie beschreibt kontextabhängige Anschlusslagen, die sich unter neuer Weltspannung verändern können.
 
+Die Driftquellen-Prüfung [1855_FAMILIEN_ANSCHLUSSKARTE_DRIFTQUELLEN.md](../befunde/1855_FAMILIEN_ANSCHLUSSKARTE_DRIFTQUELLEN.md) trennt diese offene Drift weiter. Der größte Block ist `baseline_offen_wird_spezifisch`: eine zu breite oder offene Baseline wird in neuen Fenstern konkreter. Ein zweiter Block ist `spezifisch_wird_offen`: ein zuvor spezifisches Profil verliert unter neuer Weltspannung Schärfe. BTC zeigt zusätzlich einen geschlossenen Übergang von `nachhallnah_ohne_kern` nach `kernnah`. Daraus folgt: Die Baseline muss enger gebaut werden, bevor Drift als reine Weltspannung gelesen wird.
+
 ## Wie es weitergeht
 
-Als nächstes sollte geprüft werden, ob die offene Drift durch neue Weltspannung entsteht oder ob die Baseline-Fenster noch zu grob sind. Dafür braucht es eine Trennung zwischen echter Kontextdrift und zu breiter Anfangslesung.
+Als nächstes sollte die Baseline enger gebaut werden: Asset/Familie/Fensterphase statt nur Asset/Familie. Danach lässt sich prüfen, ob die offene Drift sinkt und echte Kontextdrift klarer übrig bleibt.
