@@ -39,7 +39,7 @@ Die bisherigen Läufe zeigen eine robuste, wiederkehrende Feldordnung. Auch nach
 - Nachhall gibt dem Feld zeitliche Tiefe.
 - Wiederkehr kann aus Nebel eine Rolle verdichten.
 
-Eine gleichlange 10k-Gegenprüfung zeigt zusätzlich: neue Weltinformation wird weiterhin eher an vorhandene Grundrollen gekoppelt, bevor neue starke Milieurollen entstehen. Auch eine KAS-10k-Gegenprobe als kleinpreisige Welt bestätigt diese Richtung.
+Eine gleichlange 10k-Gegenprüfung zeigt zusätzlich: neue Weltinformation wird weiterhin eher an vorhandene Grundrollen gekoppelt, bevor neue starke Milieurollen entstehen. KAS und XLM als kleinpreisige/leise Gegenproben bestätigen diese Richtung: vorhandene Rollen werden breiter, neue Rollen bleiben zunächst überwiegend Nebenrollen.
 
 Der aktuelle Befund ist keine endgültige Behauptung. Er ist eine reproduzierbare Forschungsbeobachtung innerhalb der geprüften Welten und Memory-Neustarts. Die ausführliche Langfassung der bisherigen README liegt in [docs/README_AUSFUEHRLICH.md](docs/README_AUSFUEHRLICH.md).
 
@@ -133,4 +133,4 @@ Die genauen Datenpfade hängen vom aktuell erzeugten Weltfenster ab.
 
 ## Nächster Forschungsschritt
 
-Als nächstes wird eine zweite leise/kleinpreisige Welt ergänzt. Entscheidend ist, ob die KAS-Rekopplung assettypisch ist oder ob leise Welten generell zuerst in vorhandene Grundrollen hineinreifen.
+Als nächstes wird eine dritte leise Welt oder ein bewusst anderer Kleinpreis-Charakter geprüft. Entscheidend ist, ob die neue Milieurolle weiter reift oder KAS-/XLM-nah bleibt.
