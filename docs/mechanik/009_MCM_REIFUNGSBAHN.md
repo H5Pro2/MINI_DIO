@@ -144,6 +144,8 @@ Die phasenlokale Anschlussprüfung [1857_PHASENLOKALE_ANSCHLUSSQUALITAET.md](../
 
 Die darauf folgende Familienstabilitätsprüfung [1858_PHASENLOKALE_FAMILIENSTABILITAET.md](../befunde/1858_PHASENLOKALE_FAMILIENSTABILITAET.md) gruppiert diese Lesung nach Asset/Familie/Phase. Von `651` Familien-Phasen-Paaren werden `446` als `phasenlokal_eigenstaendig` gelesen, `47` als `fenstergetragen_stabil`, `101` als `geteilt_offen` und `57` als `einzelbeleg`. Damit wird die Reifungsbahn präziser: Einige Familien wirken tatsächlich als lokale Phasenanker. Andere sind stabil, aber stärker vom Gesamtfenster getragen. Bedeutung entsteht also nicht nur aus Wiederkehr eines Namens, sondern aus wiederkehrender lokaler Qualität.
 
+Die Folgefensterprüfung [1860_PHASENLOKALE_FAMILIEN_FOLGEFENSTER.md](../befunde/1860_PHASENLOKALE_FAMILIEN_FOLGEFENSTER.md) erzeugt neue passende 7k-Fenster für BTC, SOL, DOGE, PAXG und XRP. Der anschließende Reproduktionsbericht [1861_PHASENLOKALE_FAMILIEN_REPRO_FOLGEFENSTER.md](../befunde/1861_PHASENLOKALE_FAMILIEN_REPRO_FOLGEFENSTER.md) vergleicht diese Folgefenster mit der phasenlokalen Baseline. Von `446` zuvor phasenlokal eigenständigen Familien-Phasen-Paaren reproduzieren `254` dieselbe lokale Qualität. Der Rest wird offen, nullnah, nachhallnah, kernnah oder driftet. Damit zeigt sich keine starre Kopie, sondern eine lokale Bedeutungsreife mit teilweiser Wiederkehr und echter Kontextbewegung.
+
 ## Wie es weitergeht
 
-Als nächstes sollte geprüft werden, ob diese phasenlokal eigenständigen Familien über neue Weltfenster wiederkehren. Entscheidend ist nicht nur, ob ein Name wieder auftaucht, sondern ob dieselbe lokale Phasenqualität wieder auftaucht.
+Als nächstes sollte aus den stabil reproduzierten lokalen Familien eine kleine passive Reifegruppe gebildet werden. Diese Gruppe darf keine Handlung steuern; sie dient nur als sauberer Kern für weitere Feldrollen-Reifung.
