@@ -13,7 +13,7 @@ Damit wird nicht mehr die ganze Baseline verglichen, sondern die Frage: Wie reag
 
 ## Lesung
 
-Der SOL-Hartkern bleibt unter allen drei Weltlagen teilweise reproduzierbar.
+Der BTC-Hartkern bleibt unter allen drei Weltlagen teilweise reproduzierbar.
 Stress zeigt in dieser Prüfung etwas mehr direkte lokale Reproduktion als ruhige Welt und Expansion.
 Expansion verschiebt stärker in Nachhall- und Kernnähe. Das spricht nicht für Kollaps, sondern für eine unterschiedliche Randantwort je Weltspannung.
 
