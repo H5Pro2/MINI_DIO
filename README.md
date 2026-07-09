@@ -67,6 +67,8 @@ Die 10k-Assetprüfung mit BTC, DOGE, PAXG und XRP trennt Realwelt und Nullwelt w
 
 Aus diesen Dämpfungs- und Nullweltprüfungen wurde die [MCM-Reifungsbahn](docs/mechanik/009_MCM_REIFUNGSBAHN.md) abgeleitet. Sie beschreibt keine Handlungsschicht, sondern eine innere Entwicklungsbahn: Außenwelt, Sinnesaufnahme, MCM-Feldwirkung, Nachhall, Feldzeit, Bedeutungsverdichtung, adaptive Rekopplung und Nullwelt-Abstand werden zusammen als Reifeprofil gelesen.
 
+Die aktuelle Reifungsbahn liest Weltpassung zusätzlich vierstufig: getragen, geöffnet, verschoben oder ausgeblendet. Dadurch wird sichtbar, ob eine neue Weltlage den gereiften lokalen Innenkern hält, öffnet, anders trägt oder ausblendet. Festgehalten ist das in [010_VIERSTUFIGE_WELTPASSUNG.md](docs/mechanik/010_VIERSTUFIGE_WELTPASSUNG.md).
+
 Ein erster passiver Reife-Report wendet diese Bahn auf die 10k-Asset-/Nullweltprüfung an. Ergebnis: Die Assetwelten werden als `feldzeit_reif` gelesen, während die Nullwelten `nachhallend_offen` bleiben. Damit trennt der Report nicht über eine harte stabile Klasse, sondern über Reifedruck, Bedeutungsbreite, Rollenvarianz, Feldzeitdruck und Nullwelt-Abstand. Siehe [1833_MCM_REIFUNGSBAHN_ASSET10K_NULLWELT.md](docs/befunde/1833_MCM_REIFUNGSBAHN_ASSET10K_NULLWELT.md).
 
 Eine 2024-Gegenprüfung mit vorhandenen BTC-, DOGE-, PAXG- und XRP-10k-Läufen wiederholt die Richtung: die Assetwelten werden `feldzeit_reif`, die Nullwelten `nullweltnah`. Damit erscheint die Reifungsbahn nicht nur als 2025-Effekt, sondern als wiederkehrende Trennung zwischen echter Weltspur und Kontrollfläche. Siehe [1834_MCM_REIFUNGSBAHN_2024_GEGENPRUEFUNG.md](docs/befunde/1834_MCM_REIFUNGSBAHN_2024_GEGENPRUEFUNG.md).

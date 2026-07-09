@@ -6,6 +6,8 @@ MINI_DIO soll nicht durch harte Regeln reifer werden. Reife soll aus wiederholte
 
 Die MCM-Reifungsbahn ist deshalb keine Handlungsschicht und kein Gate. Sie ist eine innere Sinnes- und Entwicklungsbahn.
 
+Die vierstufige Weltpassung ist als eigener Mechanikabschnitt beschrieben: [010_VIERSTUFIGE_WELTPASSUNG.md](010_VIERSTUFIGE_WELTPASSUNG.md). Dort wird die Beziehung zwischen gereiftem Innenkern und neuer Weltlage passiv gelesen als `kern_getragen`, `kern_geoeffnet`, `kern_verschoben` oder `kern_ausgeblendet`.
+
 ## Bahnstruktur
 
 Die Bahn wird so gelesen:
