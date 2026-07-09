@@ -19,6 +19,7 @@ ATTACHMENT_SOURCES = [
     ROOT / "docs/befunde/1848_ANSCHLUSSQUALITAET_NEUE_FENSTER.csv",
 ]
 FAMILY_ATTACHMENT_SOURCE = ROOT / "docs/befunde/1851_FAMILIEN_ANSCHLUSSQUALITAET.csv"
+LOCAL_PHASE_REPRO_SOURCE = ROOT / "docs/befunde/1861_PHASENLOKALE_FAMILIEN_REPRO_FOLGEFENSTER.csv"
 MEMORY_PATH = ROOT / Config.DIO_MINI_EPISODIC_MEMORY_PATH
 
 PASSIVE_FLAGS = {
@@ -211,6 +212,70 @@ def build_family_attachment_quality_memory(rows: list[dict[str, str]]) -> dict:
     }
 
 
+def build_local_phase_maturity_group_memory(rows: list[dict[str, str]]) -> dict:
+    if not rows:
+        return {
+            **PASSIVE_FLAGS,
+            "kind": "passive_mcm_local_phase_maturity_group",
+            "source": str(LOCAL_PHASE_REPRO_SOURCE.relative_to(ROOT)),
+            "memory_state": "local_phase_maturity_group_not_available",
+            "description": "Passive phasenlokale Reifegruppe ist noch nicht erzeugt.",
+            "repro_counts": {},
+            "asset_counts": {},
+            "phase_counts": {},
+            "stable_local_families": [],
+        }
+
+    detail_rows = [
+        row
+        for row in rows
+        if row.get("row_type") == "family_phase_repro_detail"
+        and row.get("baseline_stability_state") == "phasenlokal_eigenstaendig"
+    ]
+    stable_rows = [row for row in detail_rows if row.get("repro_state") == "lokale_qualitaet_reproduziert"]
+    repro_counts = Counter(str(row.get("repro_state") or "-") for row in detail_rows)
+    asset_counts = Counter(str(row.get("asset") or "-") for row in stable_rows)
+    phase_counts = Counter(str(row.get("phase") or "-") for row in stable_rows)
+    quality_counts = Counter(str(row.get("baseline_dominant_phase_quality") or "-") for row in stable_rows)
+
+    def stable_profile(row: dict[str, str]) -> dict:
+        return {
+            **PASSIVE_FLAGS,
+            "asset": str(row.get("asset") or ""),
+            "family": str(row.get("family") or ""),
+            "phase": str(row.get("phase") or ""),
+            "local_phase_quality": str(row.get("baseline_dominant_phase_quality") or ""),
+            "followup_phase_quality": str(row.get("followup_dominant_phase_quality") or ""),
+            "baseline_quality_profile": str(row.get("baseline_quality_profile") or ""),
+            "followup_quality_profile": str(row.get("followup_quality_profile") or ""),
+            "baseline_mean_rekopplung_edge": round(_float(row.get("baseline_mean_rekopplung_edge")), 6),
+            "followup_mean_rekopplung_edge": round(_float(row.get("followup_mean_rekopplung_edge")), 6),
+            "baseline_mean_afterimage_edge": round(_float(row.get("baseline_mean_afterimage_edge")), 6),
+            "followup_mean_afterimage_edge": round(_float(row.get("followup_mean_afterimage_edge")), 6),
+            "baseline_mean_temporal_edge": round(_float(row.get("baseline_mean_temporal_edge")), 6),
+            "followup_mean_temporal_edge": round(_float(row.get("followup_mean_temporal_edge")), 6),
+        }
+
+    return {
+        **PASSIVE_FLAGS,
+        "kind": "passive_mcm_local_phase_maturity_group",
+        "source": str(LOCAL_PHASE_REPRO_SOURCE.relative_to(ROOT)),
+        "memory_state": "local_phase_quality_reproduced_across_followup_windows",
+        "description": (
+            "Passive Reifegruppe aus Familien, die phasenlokal eigenstaendig waren "
+            "und in Folgefenstern dieselbe lokale Phasenqualitaet reproduziert haben. "
+            "Keine Handlung, kein Gate, keine Richtung."
+        ),
+        "baseline_eigenstaendig_count": len(detail_rows),
+        "stable_reproduced_count": len(stable_rows),
+        "repro_counts": dict(repro_counts.most_common()),
+        "asset_counts": dict(asset_counts.most_common()),
+        "phase_counts": dict(phase_counts.most_common()),
+        "quality_counts": dict(quality_counts.most_common()),
+        "stable_local_families": [stable_profile(row) for row in stable_rows[:96]],
+    }
+
+
 def build_field_role_memory(rows: list[dict[str, str]]) -> dict:
     items = []
     for row in rows:
@@ -246,6 +311,7 @@ def build_field_role_memory(rows: list[dict[str, str]]) -> dict:
     asset_counts = Counter(str(item["asset"]) for item in items)
     attachment_memory = build_attachment_quality_memory(_read_attachment_rows())
     family_attachment_memory = build_family_attachment_quality_memory(_read_optional_rows(FAMILY_ATTACHMENT_SOURCE))
+    local_phase_maturity_group = build_local_phase_maturity_group_memory(_read_optional_rows(LOCAL_PHASE_REPRO_SOURCE))
     return {
         **PASSIVE_FLAGS,
         "kind": "passive_mcm_field_role_memory",
@@ -259,6 +325,7 @@ def build_field_role_memory(rows: list[dict[str, str]]) -> dict:
         "asset_counts": dict(asset_counts.most_common()),
         "attachment_quality": attachment_memory,
         "family_attachment_quality": family_attachment_memory,
+        "local_phase_maturity_group": local_phase_maturity_group,
         "top_roles": items[:48],
     }
 
@@ -275,6 +342,7 @@ def main() -> int:
     print(f"states={role_memory['state_counts']}")
     print(f"attachment_quality={role_memory['attachment_quality']['quality_counts']}")
     print(f"family_attachment_quality={role_memory['family_attachment_quality']['state_counts']}")
+    print(f"local_phase_maturity_group={role_memory['local_phase_maturity_group']['repro_counts']}")
     return 0
 
 

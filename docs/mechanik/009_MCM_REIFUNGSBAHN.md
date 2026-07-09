@@ -146,6 +146,8 @@ Die darauf folgende Familienstabilitätsprüfung [1858_PHASENLOKALE_FAMILIENSTAB
 
 Die Folgefensterprüfung [1860_PHASENLOKALE_FAMILIEN_FOLGEFENSTER.md](../befunde/1860_PHASENLOKALE_FAMILIEN_FOLGEFENSTER.md) erzeugt neue passende 7k-Fenster für BTC, SOL, DOGE, PAXG und XRP. Der anschließende Reproduktionsbericht [1861_PHASENLOKALE_FAMILIEN_REPRO_FOLGEFENSTER.md](../befunde/1861_PHASENLOKALE_FAMILIEN_REPRO_FOLGEFENSTER.md) vergleicht diese Folgefenster mit der phasenlokalen Baseline. Von `446` zuvor phasenlokal eigenständigen Familien-Phasen-Paaren reproduzieren `254` dieselbe lokale Qualität. Der Rest wird offen, nullnah, nachhallnah, kernnah oder driftet. Damit zeigt sich keine starre Kopie, sondern eine lokale Bedeutungsreife mit teilweiser Wiederkehr und echter Kontextbewegung.
 
+Aus diesen `254` reproduzierten lokalen Qualitäten wurde in [1862_PASSIVE_LOKALE_REIFEGRUPPE.md](../befunde/1862_PASSIVE_LOKALE_REIFEGRUPPE.md) eine passive lokale Reifegruppe in die Feldrollen-Memory übernommen. Sie speichert Familie, Asset, Phase, lokale Anschlussqualität und die zugehörigen Rekopplungs-, Nachhall- und Temporal-Edges. Diese Gruppe bleibt vollständig passiv. Sie steuert keine Handlung und wirkt nicht als Gate. Ihre Funktion ist methodisch: Sie trennt Namenswiederkehr von lokaler Qualitätswiederkehr.
+
 ## Wie es weitergeht
 
-Als nächstes sollte aus den stabil reproduzierten lokalen Familien eine kleine passive Reifegruppe gebildet werden. Diese Gruppe darf keine Handlung steuern; sie dient nur als sauberer Kern für weitere Feldrollen-Reifung.
+Als nächstes sollte diese passive Reifegruppe gegen weitere Weltfenster geprüft werden. Entscheidend ist, ob die stabilen lokalen Qualitäten erneut stabil bleiben, sich teilen oder in neue Feldrollen übergehen.
