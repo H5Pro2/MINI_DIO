@@ -122,6 +122,10 @@ Die Phasensegmentierung [1839_MCM_REIFUNGSBAHN_17K_PHASENSEGMENTE.md](../befunde
 
 Die phasengebundene Familienlesung [1840_MCM_REIFUNGSBAHN_PHASENGEBUNDENE_FAMILIEN.md](../befunde/1840_MCM_REIFUNGSBAHN_PHASENGEBUNDENE_FAMILIEN.md) führt daraus eine erste organische Erweiterung ab: eine passive Feldrollen-Memory. Diese Memory speichert keine Handlung und kein Gate, sondern die Bewegungsqualität einer Familie über Weltphasen. Damit kann MINI_DIO Feldrollen als gewachsene Innenordnung tragen: anschlussfähig, verdichtend, brückenbildend, randnah oder nachhallend.
 
+Die Mehrfenster- und Mehrasset-Gegenprüfungen [1845_MCM_FELDROLLEN_MEHRFENSTER_TEST.md](../befunde/1845_MCM_FELDROLLEN_MEHRFENSTER_TEST.md) und [1846_MCM_FELDROLLEN_MEHRASSET_ZWISCHENLAGEN.md](../befunde/1846_MCM_FELDROLLEN_MEHRASSET_ZWISCHENLAGEN.md) ergänzen diese Memory um eine passive Anschlussqualität. Diese Qualität beschreibt, wie eine Realwelt gegenüber assetnahen Nullwelten im Feld anschließt: `kernnah`, `kernnah_ohne_feldzeit`, `nachhallnah_ohne_kern`, `offen_gemischt`, `nullnah` oder `anschlussnah`.
+
+Diese Anschlussqualität bleibt ausdrücklich eine Reifungsbeschreibung. Sie steuert keine Handlung, erzeugt kein Gate und entscheidet keine Richtung. Sie erlaubt nur, dass die Feldrollen-Memory später tiefer lesen kann, ob eine Rolle eher aus Kernnähe, Nachhall, Feldzeit oder offener Mischung getragen wird.
+
 ## Wie es weitergeht
 
-Als nächstes sollte geprüft werden, ob die passive Feldrollen-Memory bei neuen 17k-Welten wieder anschlussfähige und verdichtende Rollen erkennt oder ob sie nur die aktuelle Weltgruppe abbildet.
+Als nächstes sollte geprüft werden, ob die neue Anschlussqualität über weitere Welten stabil bleibt und ob sie die passive Rollenbeschreibung verbessert, ohne eine Steuerungslogik zu werden.

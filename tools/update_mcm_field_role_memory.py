@@ -14,6 +14,7 @@ from mini_dio.config import Config
 from mini_dio.semantic_memory import SemanticMemory
 
 SOURCE_CSV = ROOT / "docs/befunde/1840_MCM_REIFUNGSBAHN_PHASENGEBUNDENE_FAMILIEN.csv"
+ATTACHMENT_CSV = ROOT / "docs/befunde/1846_MCM_FELDROLLEN_MEHRASSET_ZWISCHENLAGEN.csv"
 MEMORY_PATH = ROOT / Config.DIO_MINI_EPISODIC_MEMORY_PATH
 
 PASSIVE_FLAGS = {
@@ -37,6 +38,13 @@ def _float(value: object) -> float:
 
 def _read_rows() -> list[dict[str, str]]:
     with SOURCE_CSV.open(newline="", encoding="utf-8") as handle:
+        return list(csv.DictReader(handle))
+
+
+def _read_optional_rows(path: Path) -> list[dict[str, str]]:
+    if not path.exists():
+        return []
+    with path.open(newline="", encoding="utf-8") as handle:
         return list(csv.DictReader(handle))
 
 
@@ -64,6 +72,57 @@ def _state(row: dict[str, str]) -> str:
     if reading.startswith("randnahe"):
         return "feldrolle_randspannung"
     return "feldrolle_anschlussfaehig"
+
+
+def _attachment_quality(reading: str) -> str:
+    if reading in {"realwelt_kernnaehe_staerker", "graduell_realnaeher_kern"}:
+        return "kernnah"
+    if reading == "graduell_kernnaehe_ohne_feldzeitvorsprung":
+        return "kernnah_ohne_feldzeit"
+    if reading == "graduell_realer_nachhall_ohne_kern":
+        return "nachhallnah_ohne_kern"
+    if reading in {"nullwelt_staerker", "graduell_nullnaeher"}:
+        return "nullnah"
+    if reading == "realwelt_anschluss_staerker":
+        return "anschlussnah"
+    return "offen_gemischt"
+
+
+def build_attachment_quality_memory(rows: list[dict[str, str]]) -> dict:
+    windows = [row for row in rows if row.get("row_type") == "window_summary"]
+    items = []
+    for row in windows:
+        reading = str(row.get("reading") or "")
+        quality = _attachment_quality(reading)
+        items.append(
+            {
+                **PASSIVE_FLAGS,
+                "asset": str(row.get("asset") or ""),
+                "window_start": int(_float(row.get("window_start"))),
+                "attachment_quality": quality,
+                "source_reading": reading,
+                "source_edge": round(_float(row.get("source_edge")), 6),
+                "kern_edge": round(_float(row.get("kern_edge")), 6),
+                "afterimage_edge": round(_float(row.get("afterimage_edge")), 6),
+                "temporal_edge": round(_float(row.get("temporal_edge")), 6),
+                "field_edge_score": round(_float(row.get("field_edge_score")), 6),
+            }
+        )
+    quality_counts = Counter(str(item["attachment_quality"]) for item in items)
+    asset_counts = Counter(str(item["asset"]) for item in items)
+    return {
+        **PASSIVE_FLAGS,
+        "kind": "passive_mcm_field_role_attachment_quality",
+        "source": str(ATTACHMENT_CSV.relative_to(ROOT)),
+        "memory_state": "field_role_attachment_quality_from_real_null_windows",
+        "description": (
+            "Passive Reifungsqualitaet aus Realwelt/Nullwelt-Zwischenlagen. "
+            "Speichert Kernnaehe, Nachhallnaehe, Feldzeitnaehe, offene Mischung oder Nullnaehe."
+        ),
+        "quality_counts": dict(quality_counts.most_common()),
+        "asset_counts": dict(asset_counts.most_common()),
+        "window_readings": items,
+    }
 
 
 def build_field_role_memory(rows: list[dict[str, str]]) -> dict:
@@ -99,6 +158,7 @@ def build_field_role_memory(rows: list[dict[str, str]]) -> dict:
     )
     state_counts = Counter(str(item["field_role_state"]) for item in items)
     asset_counts = Counter(str(item["asset"]) for item in items)
+    attachment_memory = build_attachment_quality_memory(_read_optional_rows(ATTACHMENT_CSV))
     return {
         **PASSIVE_FLAGS,
         "kind": "passive_mcm_field_role_memory",
@@ -110,6 +170,7 @@ def build_field_role_memory(rows: list[dict[str, str]]) -> dict:
         ),
         "state_counts": dict(state_counts.most_common()),
         "asset_counts": dict(asset_counts.most_common()),
+        "attachment_quality": attachment_memory,
         "top_roles": items[:48],
     }
 
@@ -124,6 +185,7 @@ def main() -> int:
     print(f"updated {MEMORY_PATH.relative_to(ROOT)}")
     print(f"top_roles={len(role_memory['top_roles'])}")
     print(f"states={role_memory['state_counts']}")
+    print(f"attachment_quality={role_memory['attachment_quality']['quality_counts']}")
     return 0
 
 
