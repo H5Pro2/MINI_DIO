@@ -368,6 +368,14 @@ Vorzustand in den nächsten Kontakt, konvergiert dort aber immer vollständig
 zum Resetfeld. Der Anschluss an D.3 und K.1 erhält damit eine reale zeitliche
 Grundlage, noch keine dauerhafte Bedeutung oder autonome Selbstregulation.
 
+[2106](befunde/2001-3000/2106_MCM_KONTINUITAET_TOPOLOGIEDURCHGRIFF.md)
+trennt daraufhin mittlere Feldsignatur und innere Aktivierungsgeometrie. Der
+Vorzustand veraendert kurz die exakte neuronale Rangtopologie, waehrend die
+bestehende DIO-Syntax in allen Vergleichen gleich bleibt. Der Anschluss an H.1
+und D.3 wird dadurch enger: zeitlicher Nachhall kann eine innere Form
+veraendern. Eine semantische Identitaet, Wiedererkennung oder Feldrueckwirkung
+folgt daraus noch nicht.
+
 Damit entsteht kein Wörterbuch nach dem Muster `dio_x = feste Bedeutung`.
 Tragfähiger ist:
 

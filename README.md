@@ -411,6 +411,8 @@ Befund 2104 gleicht anschließend die vorhandenen Nachhall-, Sleep- und Offlinep
 
 Befund 2105 isoliert daraufhin die fehlende Feldkontinuität. Dieselben 114 realen Nachbarfenster werden in beide Richtungen einmal mit Reset und einmal mit derselben fortgeführten MCM-Feldinstanz geprüft. Ohne Leerlücke wirkt der Vorzustand im Median 297 Ticks in die Folgewelt; nach 64 reizfreien Ticks noch rund 233 bis 235. Die Wirkungsstärke fällt dabei um etwa Faktor 3.500, und alle 1.824 Einzelvergleiche konvergieren innerhalb der Folgewelt bitgenau zum Resetfeld. Feldkontinuität bewahrt somit eine reale, afterimage-getragene und selbstbegrenzende Innenzustandsspur, aber noch keine dauerhafte Semantik, Memory oder autonome Aktivität.
 
+Befund 2106 prüft den Durchgriff dieser Spur auf die entstehende innere Ordnung. Die bestehende `dio_*`-Syntax bleibt in allen 1.824 Vergleichen vollständig gleich: Aus Kontinuität entstehen auf der heutigen Wortebene weder andere Episoden noch andere Kanten. Unterhalb dieser Verdichtung verändert sich jedoch die exakte Rangtopologie der zwölf Neuronen ohne Leerlücke in allen 228 gerichteten Paaren für median sieben Ticks. Meist wechseln nur ein bis zwei der 66 Neuronenbeziehungen; nach 64 Leerticks ist auch diese Mikrotopologie vollständig identisch. Das Feld trägt damit kurz mehr geschichtsabhängige innere Form, als DIOs aktuelle Syntax ausdrückt, noch ohne Semantik oder Rückwirkung.
+
 Die thematisch geordnete Kurzfassung mit direkten Links liegt in der [Befundübersicht](docs/BEFUNDE_UEBERSICHT.md).
 
 Aktuelle Befundkette:
@@ -453,6 +455,7 @@ Aktuelle Befundkette:
 - [2103: Indirekte Pareto-Feldumverteilung des MCM-Feldverlaufs](docs/befunde/2001-3000/2103_MCM_PARETO_INDIREKTE_FELDUMVERTEILUNG.md)
 - [2104: Architekturabgleich endogener MCM-Feldaktivität](docs/befunde/2001-3000/2104_MCM_ENDOGENE_FELDAKTIVITAET_ARCHITEKTURABGLEICH.md)
 - [2105: Kontinuierliche MCM-Feldinstanz über Kontaktgrenzen](docs/befunde/2001-3000/2105_MCM_KONTINUIERLICHE_FELDINSTANZ.md)
+- [2106: Durchgriff der MCM-Feldkontinuität auf innere Topologie](docs/befunde/2001-3000/2106_MCM_KONTINUITAET_TOPOLOGIEDURCHGRIFF.md)
 
 ## Visueller Forschungsweg
 

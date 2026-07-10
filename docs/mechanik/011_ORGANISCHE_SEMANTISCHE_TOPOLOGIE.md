@@ -92,3 +92,18 @@ Damit liegt erstmals eine mittlere Auflösung zwischen grobem Zustand und exakte
 Die mittlere Nachbarschaftsebene ist nun als passive Memory integriert. Abgeschlossene Weltläufe hinterlassen kompakte innere Episodenprofile. Jede neue Welt wird einmal mit allen früheren Welten verglichen; gegenseitige nächste Nachbarn sammeln Profilraum-, Weltpaar- und Kontextevidenz. Keine der in Befund 2078 beobachteten Beziehungen ist im Code vorgegeben.
 
 Unter zwei vollständig gegensätzlichen 81-Welten-Reihenfolgen entstehen alle 26 strengen Kernrelationen erneut. Die Gesamtgraphen überlappen mit Jaccard 0,881, die in allen drei Profilräumen getragenen Links mit 0,867. Damit trägt die Wachstumsbedingung einen stabilen inneren Kern, aber noch keine Semantik oder Feldrückwirkung. Die fehlende Verdichtungs-, Alterungs- und Vergessensdynamik bleibt eine technische und organische Grenze.
+
+## Kontinuitaetsstand 2106
+
+Eine fortgefuehrte MCM-Feldinstanz veraendert unter identischen Folgereizen
+kurz die exakte Rangordnung ihrer Neuronenaktivierungen. Diese schwellenfreie
+Mikrotopologie bildet ohne Leerluecke in allen 228 gerichteten Kontaktpaaren
+abweichende unbenannte Knoten und gerichtete Uebergaenge. Sie ist lokal und
+selbstbegrenzend; nach 64 reizfreien Ticks sind beide Rangpfade vollstaendig
+identisch.
+
+Die bestehende `dio_*`-Syntax bildet dennoch in allen 1.824 Vergleichen exakt
+denselben Pfad. Die heutige semantische Topologie erhaelt vom Feld nur die
+verdichtete mittlere Signatur, nicht seine innere Aktivierungsordnung. 2106
+zeigt damit eine reale Formluecke zwischen Feldgeometrie und Syntax, aber noch
+keine Berechtigung, Rangzustaende als neue Semantik oder Memory zu integrieren.

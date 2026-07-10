@@ -123,6 +123,20 @@ Damit ist Feldkontinuitaet als reale mechanische Grundlage getragen. Noch
 nicht getragen sind eine Runtime-Integration, dauerhafte Semantik, ein eigener
 Takt oder autonome Offline-Aktivitaet.
 
+## Topologiedurchgriff 2106
+
+Unter identischen Folgereizen veraendert der fortgefuehrte Feldzustand kurz
+die exakte Rangordnung der zwoelf Neuronenaktivierungen. Ohne Leerluecke tritt
+diese Mikrotopologie in allen 228 gerichteten Kontaktpaaren auf, meist als
+lokaler Wechsel von nur ein bis zwei der 66 Neuronenbeziehungen. Mit wachsender
+reizfreier Luecke nimmt sie gemeinsam in beiden unabhaengigen Bestaenden ab;
+nach 64 Leerticks bleibt keine Rang-, Knoten- oder Kantenabweichung.
+
+Die bestehende DIO-Syntax bleibt zugleich in allen 1.824 Vergleichen exakt
+gleich. Das Feld bewahrt damit kurz innere geometrische Geschichte, aber diese
+Form wird von der aktuellen Wortbildung noch nicht unterschieden. Daraus folgt
+weder eine semantische Rangrolle noch eine begruendete Feldrueckwirkung.
+
 ## Bezug zu bestehenden Befunden
 
 Diese Mechanik fasst die Linie aus folgenden Befunden zusammen:
