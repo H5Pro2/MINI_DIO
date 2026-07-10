@@ -5,6 +5,9 @@ from __future__ import annotations
 import math
 
 from mini_dio.dio_syntax import make_mcm_field_episode_symbol
+from mini_dio.mcm_neighborhood_event_memory import (
+    observe_passive_mcm_neighborhood_growth_event,
+)
 
 
 PASSIVE_NEIGHBOR_BOUNDARY = {
@@ -248,7 +251,9 @@ def _mutual_links(
     return links
 
 
-def _grow_neighborhoods(layer: dict, world_profile: dict, *, run_index: int) -> None:
+def _grow_neighborhoods(
+    data: dict, layer: dict, world_profile: dict, *, run_index: int
+) -> None:
     prior_worlds = [
         dict(record or {})
         for symbol, record in sorted(dict(layer.get("world_profiles", {}) or {}).items())
@@ -349,6 +354,11 @@ def _grow_neighborhoods(layer: dict, world_profile: dict, *, run_index: int) -> 
             }
         )
         neighborhoods[symbol] = record
+        observe_passive_mcm_neighborhood_growth_event(
+            data,
+            record,
+            finalization_index=finalization_index,
+        )
 
     layer["neighborhoods"] = neighborhoods
     layer["finalization_count"] = finalization_index
@@ -372,7 +382,7 @@ def finalize_passive_mcm_neighborhood_world(
         return passive_mcm_neighborhood_profile(data)
     if _safe_int(world_profile.get("finalized")) == 1:
         return passive_mcm_neighborhood_profile(data)
-    _grow_neighborhoods(layer, world_profile, run_index=run_index)
+    _grow_neighborhoods(data, layer, world_profile, run_index=run_index)
     world_profile["finalized"] = 1
     layer["world_profiles"][world_run_symbol] = world_profile
     return passive_mcm_neighborhood_profile(data)

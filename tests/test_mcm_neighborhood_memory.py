@@ -136,6 +136,12 @@ class MCMNeighborhoodMemoryTest(unittest.TestCase):
             self.assertEqual(profile["world_profiles"], 2)
             self.assertEqual(profile["active_neighborhoods"], 1)
             record = loaded.top_passive_mcm_neighborhoods(1)[0]
+            event_profile = loaded.passive_mcm_neighborhood_event_profile()
+            event_relation = loaded.passive_mcm_neighborhood_event_relations()[
+                record["neighborhood_symbol"]
+            ]
+            self.assertEqual(event_profile["events"], 1)
+            self.assertEqual(event_relation["event_count"], record["growth_seen_count"])
             for key, value in PASSIVE_NEIGHBOR_BOUNDARY.items():
                 self.assertEqual(record[key], value)
 

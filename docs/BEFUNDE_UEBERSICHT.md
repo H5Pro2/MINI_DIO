@@ -108,8 +108,9 @@ Die aktuelle Kette untersucht, ob einzelne Rollen als Familienräume weiterleben
 - [2082: Passive Offline-Konsolidierung der MCM-Nachbarschaft](befunde/2001-3000/2082_PASSIVE_OFFLINE_KONSOLIDIERUNG_MCM_NACHBARSCHAFT.md)
 - [2083: Exakte Delta-Konsolidierung der MCM-Nachbarschaft](befunde/2001-3000/2083_EXAKTE_DELTA_KONSOLIDIERUNG_MCM_NACHBARSCHAFT.md)
 - [2084: MCM-Reifungsbahn-Nachbarschaften](befunde/2001-3000/2084_MCM_REIFUNGSBAHN_NACHBARSCHAFTEN.md)
+- [2085: Relationsinterne MCM-Nachbarschafts-Ereigniszeit](befunde/2001-3000/2085_RELATIONSINTERNE_MCM_NACHBARSCHAFTS_EREIGNISZEIT.md)
 
-Kurzbefund: Alle acht Familien besitzen reale Folgeweltevidenz, aber der Kontrollvergleich begrenzt deren Bedeutung deutlich. Befund 2075 beginnt deshalb mit der Integration: Innere Episoden bilden online Knoten und gerichtete Kanten. Befund 2076 zeigt einen nahezu reihenfolgenstabilen globalen Graphen ohne semantische Real-/Nullwelttrennung. Befund 2077 findet auch in längeren inneren Motiven keine belastbare Realfolgebindung. Befund 2078 findet eine kleine profil- und jahresübergreifende kontinuierliche Nachbarschaft. Befund 2079 integriert deren passive Wachstumsbedingung. Befund 2080 zeigt eine robuste kontinuierliche Reifungsschichtung mit drei gegenüber der Peripherie undominierten Kernrelationen. Befund 2081 bestätigt die globale dynamische Stabilisierung bis zu einer Tiefenrangkorrelation von 0,969 und zwei identischen Spitzenrelationen. Befund 2082 bewahrt diese Reifung erstmals verlustfrei als passive Offline-Historie. Befund 2083 rekonstruiert dieselben 10.476 Einträge exakt aus einem schwellenfreien Deltaformat. Befund 2084 findet überzufällige Bewegungsnachbarschaften nur in groben Zweipunktbahnen; längere Bahnen tragen keine stabile Reifungsfamilie und bleiben ohne Feldrückwirkung.
+Kurzbefund: Alle acht Familien besitzen reale Folgeweltevidenz, aber der Kontrollvergleich begrenzt deren Bedeutung deutlich. Befund 2075 beginnt deshalb mit der Integration: Innere Episoden bilden online Knoten und gerichtete Kanten. Befund 2076 zeigt einen nahezu reihenfolgenstabilen globalen Graphen ohne semantische Real-/Nullwelttrennung. Befund 2077 findet auch in längeren inneren Motiven keine belastbare Realfolgebindung. Befund 2078 findet eine kleine profil- und jahresübergreifende kontinuierliche Nachbarschaft. Befund 2079 integriert deren passive Wachstumsbedingung. Befund 2080 zeigt eine robuste kontinuierliche Reifungsschichtung mit drei gegenüber der Peripherie undominierten Kernrelationen. Befund 2081 bestätigt die globale dynamische Stabilisierung bis zu einer Tiefenrangkorrelation von 0,969 und zwei identischen Spitzenrelationen. Befund 2082 bewahrt diese Reifung erstmals verlustfrei als passive Offline-Historie. Befund 2083 verdichtet sie verlustfrei. Befund 2084 verwirft eine Reifungsfamilie aus groben globalen Checkpoints. Befund 2085 integriert stattdessen 23.492 tatsächlich ausgelöste Relationsereignisse als passive Eigenzeit; deren Breite ist reihenfolgenstabil, ihr längerer Detailpfad individuell und weiterhin ohne Feldrückwirkung.
 
 ## 8. Methodische Grenzen Und Gegenproben
 
@@ -123,6 +124,7 @@ Wichtige Mechanikdokumente:
 - [Organische semantische Topologie](mechanik/011_ORGANISCHE_SEMANTISCHE_TOPOLOGIE.md)
 - [Passive wachsende Nachbarschafts-Memory](mechanik/012_PASSIVE_WACHSENDE_NACHBARSCHAFTS_MEMORY.md)
 - [Passive Offline-Nachbarschafts-Konsolidierung](mechanik/013_PASSIVE_OFFLINE_NACHBARSCHAFTS_KONSOLIDIERUNG.md)
+- [Passive relationsinterne Ereigniszeit](mechanik/014_PASSIVE_RELATIONSINTERNE_EREIGNISZEIT.md)
 
 ## Vollständiger Befundbestand
 

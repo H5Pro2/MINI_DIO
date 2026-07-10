@@ -214,6 +214,13 @@ umgekehrter Erfahrung keine stabilen Nachbarschaften. Eine zweite Topologie aus
 Reifungsfamilien wäre damit derzeit programmiert statt erfahrungsgetragen und
 wird nicht in Feld oder Memory integriert.
 
+[2085](befunde/2001-3000/2085_RELATIONSINTERNE_MCM_NACHBARSCHAFTS_EREIGNISZEIT.md)
+ersetzt den groben globalen Messtakt durch die eigene Bestätigungsfolge jeder
+Beziehung. Das schafft einen engeren experimentellen Anschluss an D.1/D.3 und
+M.1: Zeit erscheint als integrationsabhängige Eigenschaft einer gewachsenen
+Relation. Der Befund bestätigt damit eine technisch messbare Eigenzeit, nicht
+die physikalische Zeitdeutung der MCM und noch keine semantische Feldwirkung.
+
 Damit entsteht kein Wörterbuch nach dem Muster `dio_x = feste Bedeutung`.
 Tragfähiger ist:
 

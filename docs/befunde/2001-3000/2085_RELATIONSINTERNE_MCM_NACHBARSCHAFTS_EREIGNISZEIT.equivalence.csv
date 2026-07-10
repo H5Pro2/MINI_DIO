@@ -1,0 +1,3 @@
+sequence,reference_relations,source_relations,event_relations,exact_relation_set,support_mismatches,pareto_depth_mismatches,field_exact_2081,exact_event_relation_set,event_count_mismatches,event_final_state_mismatches,event_integrity_exact
+forward,2046,2046,2046,1,0,0,1,1,0,0,1
+reverse,2085,2085,2085,1,0,0,1,1,0,0,1

@@ -50,6 +50,11 @@ from mini_dio.mcm_neighborhood_memory import (
     passive_mcm_neighborhood_profile,
     top_passive_mcm_neighborhoods,
 )
+from mini_dio.mcm_neighborhood_event_memory import (
+    EVENT_FORMAT as MCM_NEIGHBORHOOD_EVENT_FORMAT,
+    passive_mcm_neighborhood_event_profile,
+    passive_mcm_neighborhood_event_relations as passive_mcm_neighborhood_event_relations_trace,
+)
 from mini_dio.mcm_neighborhood_consolidation import (
     CONSOLIDATION_FORMAT,
     consolidate_passive_mcm_neighborhood_layers as consolidate_passive_mcm_neighborhood_layers_trace,
@@ -122,6 +127,10 @@ class SemanticMemory:
             "mcm_field_episode_memory": {},
             "passive_mcm_topology": {"nodes": {}, "edges": {}},
             "passive_mcm_neighborhood_memory": {"world_profiles": {}, "neighborhoods": {}},
+            "passive_mcm_neighborhood_event_memory": {
+                "format": MCM_NEIGHBORHOOD_EVENT_FORMAT,
+                "relations": {},
+            },
             "passive_mcm_neighborhood_consolidation": {
                 "format": CONSOLIDATION_FORMAT,
                 "checkpoints": [],
@@ -181,6 +190,13 @@ class SemanticMemory:
             self.data.setdefault(
                 "passive_mcm_neighborhood_memory",
                 {"world_profiles": {}, "neighborhoods": {}},
+            )
+            self.data.setdefault(
+                "passive_mcm_neighborhood_event_memory",
+                {
+                    "format": MCM_NEIGHBORHOOD_EVENT_FORMAT,
+                    "relations": {},
+                },
             )
             self.data.setdefault(
                 "passive_mcm_neighborhood_consolidation",
@@ -527,6 +543,12 @@ class SemanticMemory:
 
     def top_passive_mcm_neighborhoods(self, limit: int = 8) -> list[dict]:
         return top_passive_mcm_neighborhoods(self.data, limit=limit)
+
+    def passive_mcm_neighborhood_event_profile(self) -> dict:
+        return passive_mcm_neighborhood_event_profile(self.data)
+
+    def passive_mcm_neighborhood_event_relations(self) -> dict[str, dict]:
+        return passive_mcm_neighborhood_event_relations_trace(self.data)
 
     def consolidate_passive_mcm_neighborhood_layers(
         self,

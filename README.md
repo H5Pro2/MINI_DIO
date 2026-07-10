@@ -369,6 +369,8 @@ Befund 2083 überführt dieselbe Reifungsbahn in ein schwellenfreies Deltaformat
 
 Befund 2084 prüft, ob ähnliche Reifungsbewegungen selbst eine weitere organische Nachbarschaftsebene bilden. Zwar liegen gemeinsame Bewegungskanten etwa fünfmal über einer signaturerhaltenden Permutationskontrolle, doch der Effekt stammt fast vollständig aus stark gebundenen Zweipunktbahnen. Unter 72 beidseitig vollständigen Fünfpunktbahnen bleibt kein robustes Nachbarschaftspaar erhalten. Deshalb wird keine Reifungsfamilie in die Runtime-Memory integriert.
 
+Befund 2085 ersetzt die fünf globalen Messpunkte durch eine passive Eigenzeit jeder Beziehung: Ein Ereignis entsteht nur bei tatsächlich neuer Nachbarschaftsevidenz. Zwei 81-Welten-Folgen erzeugen 23.492 verlustfrei gespeicherte Ereignisse, ohne Relationsmenge, Trägerachsen oder Pareto-Tiefe zu verändern. Die Ereignisbreite bleibt mit Spearman 0,804 deutlich reihenfolgenstabil, während längere Detailverläufe individuell werden. Die Eigenzeit bleibt ohne Feld- oder Handlungsrückwirkung.
+
 Die thematisch geordnete Kurzfassung mit direkten Links liegt in der [Befundübersicht](docs/BEFUNDE_UEBERSICHT.md).
 
 Aktuelle Befundkette:
@@ -390,6 +392,7 @@ Aktuelle Befundkette:
 - [2082: Passive Offline-Konsolidierung der MCM-Nachbarschaft](docs/befunde/2001-3000/2082_PASSIVE_OFFLINE_KONSOLIDIERUNG_MCM_NACHBARSCHAFT.md)
 - [2083: Exakte Delta-Konsolidierung der MCM-Nachbarschaft](docs/befunde/2001-3000/2083_EXAKTE_DELTA_KONSOLIDIERUNG_MCM_NACHBARSCHAFT.md)
 - [2084: MCM-Reifungsbahn-Nachbarschaften](docs/befunde/2001-3000/2084_MCM_REIFUNGSBAHN_NACHBARSCHAFTEN.md)
+- [2085: Relationsinterne MCM-Nachbarschafts-Ereigniszeit](docs/befunde/2001-3000/2085_RELATIONSINTERNE_MCM_NACHBARSCHAFTS_EREIGNISZEIT.md)
 
 ## Visueller Forschungsweg
 
