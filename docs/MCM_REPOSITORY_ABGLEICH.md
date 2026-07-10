@@ -181,10 +181,17 @@ bleibt aber ohne Bedeutungsbehauptung, Feldrückwirkung oder Handlung.
 [2080](befunde/2001-3000/2080_MCM_NACHBARSCHAFT_PERSISTENZ_UND_PERIPHERIE.md)
 zeigt innerhalb dieser gewachsenen Beziehungen eine kontinuierliche
 Reifungsschichtung. Wiederkehr und Kontextbreite trennen den breiten Kern stark,
-aber nicht vollständig von peripheren Ausreißern; drei Relationen bilden unter
-beiden Erfahrungsrichtungen dieselbe schwellenfreie Pareto-Spitze. M.1 erhält
+aber nicht vollständig von peripheren Ausreißern; drei Kernrelationen bleiben
+unter beiden Erfahrungsrichtungen von der Peripherie undominiert. M.1 erhält
 damit einen empirischen Anschluss für graduelle Beziehungstragung, nicht für
 eine fertige Bedeutungs- oder Vergessensregel.
+
+[2081](befunde/2001-3000/2081_DYNAMISCHE_MCM_NACHBARSCHAFT_PARETO_TIEFE.md)
+verfolgt diese Schichtung während des Wachstums. Die Tiefenordnung stabilisiert
+sich zunehmend und endet unter gegensätzlicher Erfahrung bei nahezu gleicher
+Rangfolge sowie identischer globaler Spitze. Das stützt Beziehung als
+entwickelnde Feldordnung, ohne daraus eine feste Hierarchie, Bedeutung oder
+aktive Rückwirkung abzuleiten.
 
 Damit entsteht kein Wörterbuch nach dem Muster `dio_x = feste Bedeutung`.
 Tragfähiger ist:

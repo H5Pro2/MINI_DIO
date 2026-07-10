@@ -359,7 +359,9 @@ Befund 2078 findet zwischen verschiedenen exakten Episodenidentitäten erstmals 
 
 Befund 2079 integriert nur die Wachstumsbedingung dieser Ebene. In zwei gegensätzlich geordneten fortlaufenden 81-Welten-Memories wachsen alle 26 Kernrelationen selbstständig erneut. Die Gesamtgraphen erreichen Jaccard 0,881, der Dreiprofil-Kern 0,867. Die Nachbarschafts-Memory bleibt für Feld und Handlung unlesbar und besitzt noch keine organische Verdichtung oder Vergessensdynamik.
 
-Befund 2080 zeigt innerhalb dieser Memory eine deutliche kontinuierliche Reifungsordnung: Der bekannte Kern trägt wesentlich mehr Weltpaare, Kontexte und wiederholte Bestätigungen als die typische Peripherie. Eine harte Grenze entsteht jedoch nicht. Drei Relationen bilden in beiden Erfahrungsrichtungen eine schwellenfreie Pareto-Spitze, während periphere Ausreißer weiter mit dem breiten Reifebereich überlappen. Deshalb wird noch keine Relation vergessen oder ins Feld zurückgelesen.
+Befund 2080 zeigt innerhalb dieser Memory eine deutliche kontinuierliche Reifungsordnung: Der bekannte Kern trägt wesentlich mehr Weltpaare, Kontexte und wiederholte Bestätigungen als die typische Peripherie. Eine harte Grenze entsteht jedoch nicht. Drei Kernrelationen bleiben in beiden Erfahrungsrichtungen von der Peripherie undominiert, während periphere Ausreißer weiter mit dem breiten Reifebereich überlappen. Deshalb wird noch keine Relation vergessen oder ins Feld zurückgelesen.
+
+Befund 2081 verfolgt die gewichtungsfreie Pareto-Tiefe während des Wachstums. Die relative Schichtung stabilisiert sich zunehmend; am Ende korrelieren die Tiefenränge beider gegensätzlicher Erfahrungswege mit 0,969, und dieselben zwei Beziehungen bilden ab Welt 40 die globale Spitze. Pareto-Tiefe bleibt eine passive Reifungsbeschreibung ohne Löschgrenze oder Feldwirkung.
 
 Die thematisch geordnete Kurzfassung mit direkten Links liegt in der [Befundübersicht](docs/BEFUNDE_UEBERSICHT.md).
 
@@ -378,6 +380,7 @@ Aktuelle Befundkette:
 - [2078: Wiederkehrende MCM-Episodennachbarschaften](docs/befunde/2001-3000/2078_WIEDERKEHRENDE_MCM_EPISODENNACHBARSCHAFTEN.md)
 - [2079: Passive wachsende MCM-Nachbarschafts-Memory](docs/befunde/2001-3000/2079_PASSIVE_WACHSENDE_MCM_NACHBARSCHAFTS_MEMORY.md)
 - [2080: MCM-Nachbarschaft, Persistenz und Peripherie](docs/befunde/2001-3000/2080_MCM_NACHBARSCHAFT_PERSISTENZ_UND_PERIPHERIE.md)
+- [2081: Dynamische MCM-Nachbarschafts-Pareto-Tiefe](docs/befunde/2001-3000/2081_DYNAMISCHE_MCM_NACHBARSCHAFT_PARETO_TIEFE.md)
 
 ## Visueller Forschungsweg
 

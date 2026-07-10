@@ -88,3 +88,9 @@ Weltprofile und Evidenz wachsen derzeit ohne organische Kompression. Der inkreme
 Weltpaartragung, Zahl getragener Welten und bestätigende Weltabschlüsse bilden gemeinsam eine robuste kontinuierliche Reifungsordnung. Ihre Rangfolgen korrelieren zwischen umgekehrten Erfahrungswegen mit 0,804 bis 0,975. Ein schwellenfreier Pareto-Vergleich findet drei identische undominierte Kernrelationen in beiden Wegen.
 
 Diese Ordnung ist nicht binär. Kern und periphere Ausreißer überlappen; Aktualität und Bestätigungsalter sind deutlich pfadabhängiger. Deshalb existiert weiterhin keine Lösch-, Dämpfungs- oder Feldrückleselogik.
+
+## Dynamikstand 2081
+
+Eine gewichtungsfreie Pareto-Tiefe aus Weltpaartragung, Weltbreite und bestätigenden Weltabschlüssen bildet während des Wachstums zunehmend stabile Reifungsschichten. Zwischen Welt 60 und 81 korrelieren aufeinanderfolgende Tiefenränge mit 0,931 bis 0,942; am Endpunkt korrelieren vorwärts und rückwärts mit 0,969.
+
+Die globale Schicht 1 besteht ab Welt 40 in beiden Erfahrungswegen aus denselben zwei Relationen. Die übrigen Schichten bleiben beweglich und überlappend. Pareto-Tiefe wird deshalb noch nicht in die Runtime-Memory geschrieben und erzeugt weder Verdichtung noch Vergessen.
