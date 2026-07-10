@@ -88,3 +88,14 @@ Langzeitverläufe ab fünf Ereignissen nicht mehr identisch bleiben.
 Die Ebene trägt daher individuelle relationale Erfahrung, aber keine feste
 Reifungsfamilie. Sie bleibt passive Zeitstruktur und erzeugt weder Selektion
 noch Feldrückwirkung.
+
+## Bewegungsstand 2086
+
+Bei gleichem Relationsalter lösen sich exakte Gleichstände ab drei Ereignissen
+nahezu vollständig auf. Breiten- und Profilzuwachs bilden getrennt noch bis
+Alter 10 überzufällige gemeinsame Nachbarschaften. Dieselben Paare tragen aber
+ab Alter 3 nicht gleichzeitig über Eigenzeittakt, Breite und Profilraum.
+
+Die Ereignis-Memory bleibt deshalb eine individuelle Zeitbasis. Sie erhält
+keine einheitliche Reifungsfamilie und keine Multiplex-Rückleselogik. Die
+getrennten Teilräume bleiben diagnostische Forschungskandidaten.

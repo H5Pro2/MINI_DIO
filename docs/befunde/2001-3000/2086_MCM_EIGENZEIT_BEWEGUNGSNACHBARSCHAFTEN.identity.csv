@@ -1,0 +1,5 @@
+relation_age,forward_relations,reverse_relations,shared_relations,exact_raw_prefix_matches,exact_raw_prefix_share
+2,1215,1155,991,39,0.039354187689202826
+3,873,831,677,0,0.0
+5,601,574,451,0,0.0
+10,331,334,258,0,0.0

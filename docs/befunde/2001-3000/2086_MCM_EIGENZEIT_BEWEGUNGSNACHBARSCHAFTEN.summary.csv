@@ -1,0 +1,5 @@
+relation_age,forward_relations,reverse_relations,shared_relations,exact_raw_prefix_matches,exact_raw_prefix_share,forward_robust_edges,reverse_robust_edges,shared_robust_edges,shared_robust_nodes,robust_edge_jaccard,robust_null_mean_shared_edges,robust_observed_to_null_ratio,robust_empirical_p,read_by_mini_dio,influences_field,influences_action
+2,1215,1155,991,39,0.039354187689202826,5401,4515,87,101,0.008851358225658764,25.005,3.4793041391721657,0.004975124378109453,0,0,0
+3,873,831,677,0,0.0,123,85,0,0,0.0,0.025,0.0,1.0,0,0,0
+5,601,574,451,0,0.0,4,3,0,0,0.0,0,0.0,1.0,0,0,0
+10,331,334,258,0,0.0,0,0,0,0,0.0,0,0.0,1.0,0,0,0

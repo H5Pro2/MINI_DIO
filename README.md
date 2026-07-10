@@ -371,6 +371,8 @@ Befund 2084 prüft, ob ähnliche Reifungsbewegungen selbst eine weitere organisc
 
 Befund 2085 ersetzt die fünf globalen Messpunkte durch eine passive Eigenzeit jeder Beziehung: Ein Ereignis entsteht nur bei tatsächlich neuer Nachbarschaftsevidenz. Zwei 81-Welten-Folgen erzeugen 23.492 verlustfrei gespeicherte Ereignisse, ohne Relationsmenge, Trägerachsen oder Pareto-Tiefe zu verändern. Die Ereignisbreite bleibt mit Spearman 0,804 deutlich reihenfolgenstabil, während längere Detailverläufe individuell werden. Die Eigenzeit bleibt ohne Feld- oder Handlungsrückwirkung.
 
+Befund 2086 vergleicht diese Bewegungen bei gleichem Relationsalter. Die groben Gleichstände lösen sich bereits ab Alter 3 nahezu vollständig auf. Breiten- und Profilzuwachs besitzen auch bei Alter 10 überzufällige gemeinsame Nachbarschaften, doch kein Paar bleibt ab Alter 3 gleichzeitig über Eigenzeittakt, Breite und Profilraum robust. Das spricht für getrennte Beziehungsschichten statt einer einheitlichen Reifungsfamilie; eine Multiplex-Topologie wird noch nicht integriert.
+
 Die thematisch geordnete Kurzfassung mit direkten Links liegt in der [Befundübersicht](docs/BEFUNDE_UEBERSICHT.md).
 
 Aktuelle Befundkette:
@@ -393,6 +395,7 @@ Aktuelle Befundkette:
 - [2083: Exakte Delta-Konsolidierung der MCM-Nachbarschaft](docs/befunde/2001-3000/2083_EXAKTE_DELTA_KONSOLIDIERUNG_MCM_NACHBARSCHAFT.md)
 - [2084: MCM-Reifungsbahn-Nachbarschaften](docs/befunde/2001-3000/2084_MCM_REIFUNGSBAHN_NACHBARSCHAFTEN.md)
 - [2085: Relationsinterne MCM-Nachbarschafts-Ereigniszeit](docs/befunde/2001-3000/2085_RELATIONSINTERNE_MCM_NACHBARSCHAFTS_EREIGNISZEIT.md)
+- [2086: MCM-Eigenzeit-Bewegungsnachbarschaften](docs/befunde/2001-3000/2086_MCM_EIGENZEIT_BEWEGUNGSNACHBARSCHAFTEN.md)
 
 ## Visueller Forschungsweg
 

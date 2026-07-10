@@ -221,6 +221,13 @@ M.1: Zeit erscheint als integrationsabhängige Eigenschaft einer gewachsenen
 Relation. Der Befund bestätigt damit eine technisch messbare Eigenzeit, nicht
 die physikalische Zeitdeutung der MCM und noch keine semantische Feldwirkung.
 
+[2086](befunde/2001-3000/2086_MCM_EIGENZEIT_BEWEGUNGSNACHBARSCHAFTEN.md)
+zeigt innerhalb dieser Eigenzeit getrennte Bewegungsaspekte. Breiten- und
+Profilzuwachs tragen reihenfolgenübergreifende Teilstruktur, fallen aber nicht
+mit Eigenzeittakt und miteinander zu einer stabilen Gesamtfamilie zusammen.
+Das stützt M.1 eher als mehrschichtige Beziehungsordnung als als einheitliche
+Klasse; eine solche Multiplex-Lesung bleibt unintegriert und ohne Feldwirkung.
+
 Damit entsteht kein Wörterbuch nach dem Muster `dio_x = feste Bedeutung`.
 Tragfähiger ist:
 
