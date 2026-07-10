@@ -137,8 +137,9 @@ Die Befundfolge [2066](befunde/2001-3000/2066_REALVERSTAERKTE_ROLLENFAMILIEN_KOH
 [2080](befunde/2001-3000/2080_RF08_SIGN_GEMATCHTER_CROSSYEAR_KONTRAST.md),
 [2081](befunde/2001-3000/2081_RF08_SIGN_RF05_VOLUME_30M_HOLDOUT.md),
 [2082](befunde/2001-3000/2082_PASSIVE_FAMILIEN_KOMPONENTEN_ANTWORT_MEMORY.md),
-[2083](befunde/2001-3000/2083_RF05_VOLUME_5M_MEMORY_REIFUNG.md)
-und [2084](befunde/2001-3000/2084_RF05_VOLUME_5M_FENSTERPFADE.md)
+[2083](befunde/2001-3000/2083_RF05_VOLUME_5M_MEMORY_REIFUNG.md),
+[2084](befunde/2001-3000/2084_RF05_VOLUME_5M_FENSTERPFADE.md)
+und [2085](befunde/2001-3000/2085_RF05_VOLUME_FELDZUSTAND_ANTWORTKOPPLUNG.md)
 entwickelt dafür eine passive Rollenfamilien-Evidenz. Wichtig ist die Grenze:
 `2071` speichert Messwerte und Evidenzherkunft; seine sprachlichen Klassen sind
 vorläufige Report-Lesungen, keine fest einprogrammierten Bedeutungen. `2072`
@@ -204,6 +205,13 @@ lokalen Feldphase wechseln. Die starke Gesamtantwort ist damit als kollektive
 Wirkung über mehrere Feldlagen lesbar, nicht als lokale Invariante jedes
 Fensters. Die Memory wird durch diese nachträgliche Zerlegung nicht erneut
 vergrößert.
+`2085` verbindet die ungestörte Familienlage kontinuierlich mit dem späteren
+Antwortvektor. Keine einfache Kopplung ist im Betrag ungewöhnlich gegenüber
+gematchten Familien. Vier kreuzweise Achsen tragen jedoch eine robuste
+entgegengesetzte Orientierung: Die mögliche Besonderheit liegt damit nicht in
+größerer Reaktionsstärke, sondern in der relationalen Ordnung zwischen
+Kontinuität, Ereignisanteil und Mitgliederbreite. Auch daraus entsteht keine
+Runtime-Regel oder zusätzliche Memory-Evidenz.
 
 Damit entsteht kein Wörterbuch nach dem Muster `dio_x = feste Bedeutung`.
 Tragfähiger ist:
