@@ -359,6 +359,8 @@ Befund 2078 findet zwischen verschiedenen exakten Episodenidentitäten erstmals 
 
 Befund 2079 integriert nur die Wachstumsbedingung dieser Ebene. In zwei gegensätzlich geordneten fortlaufenden 81-Welten-Memories wachsen alle 26 Kernrelationen selbstständig erneut. Die Gesamtgraphen erreichen Jaccard 0,881, der Dreiprofil-Kern 0,867. Die Nachbarschafts-Memory bleibt für Feld und Handlung unlesbar und besitzt noch keine organische Verdichtung oder Vergessensdynamik.
 
+Befund 2080 zeigt innerhalb dieser Memory eine deutliche kontinuierliche Reifungsordnung: Der bekannte Kern trägt wesentlich mehr Weltpaare, Kontexte und wiederholte Bestätigungen als die typische Peripherie. Eine harte Grenze entsteht jedoch nicht. Drei Relationen bilden in beiden Erfahrungsrichtungen eine schwellenfreie Pareto-Spitze, während periphere Ausreißer weiter mit dem breiten Reifebereich überlappen. Deshalb wird noch keine Relation vergessen oder ins Feld zurückgelesen.
+
 Die thematisch geordnete Kurzfassung mit direkten Links liegt in der [Befundübersicht](docs/BEFUNDE_UEBERSICHT.md).
 
 Aktuelle Befundkette:
@@ -375,6 +377,7 @@ Aktuelle Befundkette:
 - [2077: MCM-Topologie, Folgen und Profilabstände](docs/befunde/2001-3000/2077_MCM_TOPOLOGIE_FOLGEN_UND_PROFILABSTAENDE.md)
 - [2078: Wiederkehrende MCM-Episodennachbarschaften](docs/befunde/2001-3000/2078_WIEDERKEHRENDE_MCM_EPISODENNACHBARSCHAFTEN.md)
 - [2079: Passive wachsende MCM-Nachbarschafts-Memory](docs/befunde/2001-3000/2079_PASSIVE_WACHSENDE_MCM_NACHBARSCHAFTS_MEMORY.md)
+- [2080: MCM-Nachbarschaft, Persistenz und Peripherie](docs/befunde/2001-3000/2080_MCM_NACHBARSCHAFT_PERSISTENZ_UND_PERIPHERIE.md)
 
 ## Visueller Forschungsweg
 

@@ -74,6 +74,9 @@ class MCMNeighborhoodMemoryTest(unittest.TestCase):
         self.assertIn(frozenset((first[0], second[0])), active_pairs)
         self.assertIn(frozenset((first[1], second[1])), active_pairs)
         self.assertEqual(active_pairs[frozenset((first[0], second[0]))]["current_scope_count"], 3)
+        self.assertEqual(active_pairs[frozenset((first[0], second[0]))]["current_world_count"], 2)
+        self.assertIn("support_world_mask", active_pairs[frozenset((first[0], second[0]))])
+        self.assertNotIn("support_world_runs", active_pairs[frozenset((first[0], second[0]))])
 
     def test_mutual_rank_has_no_fixed_distance_threshold(self) -> None:
         data: dict = {}
@@ -135,6 +138,36 @@ class MCMNeighborhoodMemoryTest(unittest.TestCase):
             record = loaded.top_passive_mcm_neighborhoods(1)[0]
             for key, value in PASSIVE_NEIGHBOR_BOUNDARY.items():
                 self.assertEqual(record[key], value)
+
+    def test_world_mask_survives_high_run_indexes_and_reload(self) -> None:
+        with tempfile.TemporaryDirectory() as temp_dir:
+            path = Path(temp_dir) / "memory.json"
+            first = _episode("field_a", 0.2)
+            neighbor = _episode("field_b", 0.8)
+            memory = SemanticMemory(path)
+            memory.observe_passive_mcm_neighborhood_episode(first, world="WORLD_A", run_index=1)
+            memory.finalize_passive_mcm_neighborhood_world(world="WORLD_A", run_index=1)
+            memory.observe_passive_mcm_neighborhood_episode(
+                neighbor, world="WORLD_B", run_index=60
+            )
+            memory.finalize_passive_mcm_neighborhood_world(world="WORLD_B", run_index=60)
+            layer = memory.data["passive_mcm_neighborhood_memory"]
+            record = next(iter(layer["neighborhoods"].values()))
+            record["support_world_runs"] = list(layer["world_profiles"])
+            record.pop("support_world_mask")
+            memory.save()
+
+            loaded = SemanticMemory(path)
+            loaded.load()
+            loaded.observe_passive_mcm_neighborhood_episode(
+                neighbor, world="WORLD_C", run_index=81
+            )
+            loaded.finalize_passive_mcm_neighborhood_world(world="WORLD_C", run_index=81)
+            record = loaded.top_passive_mcm_neighborhoods(1)[0]
+            self.assertEqual(record["current_world_count"], 3)
+            self.assertEqual(record["support_world_mask"].bit_count(), 3)
+            self.assertEqual(record["legacy_world_count"], 0)
+            self.assertNotIn("support_world_runs", record)
 
 
 if __name__ == "__main__":

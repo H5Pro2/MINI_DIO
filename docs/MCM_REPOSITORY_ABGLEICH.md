@@ -178,6 +178,14 @@ Kernbeziehungen wachsen unter zwei gegensätzlichen fortlaufenden
 Erfahrungswegen erneut. Das ist ein stärkerer technischer Anschluss an M.1,
 bleibt aber ohne Bedeutungsbehauptung, Feldrückwirkung oder Handlung.
 
+[2080](befunde/2001-3000/2080_MCM_NACHBARSCHAFT_PERSISTENZ_UND_PERIPHERIE.md)
+zeigt innerhalb dieser gewachsenen Beziehungen eine kontinuierliche
+Reifungsschichtung. Wiederkehr und Kontextbreite trennen den breiten Kern stark,
+aber nicht vollständig von peripheren Ausreißern; drei Relationen bilden unter
+beiden Erfahrungsrichtungen dieselbe schwellenfreie Pareto-Spitze. M.1 erhält
+damit einen empirischen Anschluss für graduelle Beziehungstragung, nicht für
+eine fertige Bedeutungs- oder Vergessensregel.
+
 Damit entsteht kein Wörterbuch nach dem Muster `dio_x = feste Bedeutung`.
 Tragfähiger ist:
 

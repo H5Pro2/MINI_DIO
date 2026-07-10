@@ -51,6 +51,13 @@ def _safe_int(value: object) -> int:
         return 0
 
 
+def _safe_mask(value: object) -> int:
+    try:
+        return int(value or 0)
+    except (TypeError, ValueError):
+        return 0
+
+
 def _mean_update(previous: object, value: object, count: int) -> float:
     current = _safe_float(value)
     if count <= 1:
@@ -89,6 +96,10 @@ def _world_run_symbol(world: str, run_index: int) -> str:
 def _neighbor_symbol(left: str, right: str) -> str:
     first, second = sorted((str(left), str(right)))
     return _hash_symbol("dio_mcm_neighbor_", (first, second), 83)
+
+
+def _run_bit(run_index: int) -> int:
+    return 1 << max(0, _safe_int(run_index) - 1)
 
 
 def _layer(data: dict) -> dict:
@@ -261,7 +272,7 @@ def _grow_neighborhoods(layer: dict, world_profile: dict, *, run_index: int) -> 
                         "scope_support": {},
                         "scope_distance_sum": {},
                         "world_pairs": set(),
-                        "world_runs": set(),
+                        "world_run_mask": 0,
                         "world_labels": set(),
                     },
                 )
@@ -272,7 +283,8 @@ def _grow_neighborhoods(layer: dict, world_profile: dict, *, run_index: int) -> 
                     item["scope_distance_sum"].get(scope)
                 ) + distance
                 item["world_pairs"].add(world_pair)
-                item["world_runs"].update((left_world, right_world))
+                item["world_run_mask"] |= _run_bit(prior.get("run_index", 0))
+                item["world_run_mask"] |= _run_bit(world_profile.get("run_index", 0))
                 item["world_labels"].update(
                     (
                         str(prior.get("world_label", "") or ""),
@@ -296,8 +308,19 @@ def _grow_neighborhoods(layer: dict, world_profile: dict, *, run_index: int) -> 
                 (_safe_float(avg_distance.get(scope)) * previous_count) + distance_sum
             ) / max(1, next_count)
             scope_support[scope] = next_count
-        support_world_runs = set(record.get("support_world_runs", []) or [])
-        support_world_runs.update(evidence["world_runs"])
+        legacy_world_count = _safe_int(record.get("legacy_world_count"))
+        support_world_mask = _safe_mask(record.get("support_world_mask"))
+        if "support_world_runs" in record:
+            unresolved = 0
+            world_profiles = dict(layer.get("world_profiles", {}) or {})
+            for world_run_symbol in set(record.pop("support_world_runs", []) or []):
+                profile = dict(world_profiles.get(world_run_symbol, {}) or {})
+                if profile:
+                    support_world_mask |= _run_bit(profile.get("run_index", 0))
+                else:
+                    unresolved += 1
+            legacy_world_count = max(legacy_world_count, unresolved)
+        support_world_mask |= _safe_mask(evidence["world_run_mask"])
         world_examples = set(record.get("world_examples", []) or [])
         world_examples.update(label for label in evidence["world_labels"] if label)
         world_pair_count = _safe_int(record.get("current_world_pair_count")) + len(
@@ -314,8 +337,9 @@ def _grow_neighborhoods(layer: dict, world_profile: dict, *, run_index: int) -> 
                 "current_scope_support": scope_support,
                 "current_avg_distance": avg_distance,
                 "current_world_pair_count": world_pair_count,
-                "current_world_count": len(support_world_runs),
-                "support_world_runs": sorted(support_world_runs),
+                "current_world_count": legacy_world_count + support_world_mask.bit_count(),
+                "support_world_mask": support_world_mask,
+                "legacy_world_count": legacy_world_count,
                 "world_examples": sorted(world_examples)[:12],
                 "first_run": _safe_int(record.get("first_run")) or _safe_int(run_index),
                 "last_run": _safe_int(run_index),

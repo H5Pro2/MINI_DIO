@@ -34,6 +34,7 @@ passive_mcm_neighborhood_memory
       current_scope_support
       current_world_pair_count
       current_world_count
+      support_world_mask
       current_avg_distance
       first_run
       last_run
@@ -60,6 +61,8 @@ Jedes Weltpaar wird genau einmal verarbeitet. Bestehende Relationen sammeln zus�
 
 Die aktuelle Version löscht alte Evidenz noch nicht. Relative Tragung kann sich durch neue Beobachtungen verschieben, aber eine eigenständige Alterung, Konkurrenz oder Vergessensdynamik ist noch nicht Bestandteil dieser Ebene.
 
+Die Kontextbreite wird verlustfrei als Ganzzahl-Bitmaske der bestätigenden Laufnummern gespeichert. Dadurch muss eine Relation nicht für jeden getragenen Lauf einen langen Hash wiederholen. Die Bitmaske ist reine Kompaktierung; sie verändert weder Nachbarschaft noch Tragungszahl.
+
 ## Harte Grenze
 
 Alle Weltprofile, Knoten und Nachbarschaften tragen dieselben passiven Sperren:
@@ -79,3 +82,9 @@ Runtime und Reports dürfen die Memory schreiben und diagnostisch ausgeben. Wahr
 ## Skalierungsgrenze
 
 Weltprofile und Evidenz wachsen derzeit ohne organische Kompression. Der inkrementelle Vergleich vermeidet wiederholte Vollaufbauten, aber die persistierte Erfahrung bleibt unbeschränkt. Dieser Stand ist für kontrollierte Forschung tragfähig, nicht für unbegrenzten Dauerbetrieb.
+
+## Reifungsstand 2080
+
+Weltpaartragung, Zahl getragener Welten und bestätigende Weltabschlüsse bilden gemeinsam eine robuste kontinuierliche Reifungsordnung. Ihre Rangfolgen korrelieren zwischen umgekehrten Erfahrungswegen mit 0,804 bis 0,975. Ein schwellenfreier Pareto-Vergleich findet drei identische undominierte Kernrelationen in beiden Wegen.
+
+Diese Ordnung ist nicht binär. Kern und periphere Ausreißer überlappen; Aktualität und Bestätigungsalter sind deutlich pfadabhängiger. Deshalb existiert weiterhin keine Lösch-, Dämpfungs- oder Feldrückleselogik.
