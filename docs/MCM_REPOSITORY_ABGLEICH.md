@@ -340,6 +340,13 @@ Vorwärtserwartung oder Handlungsableitung. Der Anschluss an D.1, H.1 und M.1
 bleibt damit strukturell und experimentell begrenzt; er rechtfertigt keine
 zusätzliche Zustands-Memory oder Feldsteuerung.
 
+[2102](befunde/2001-3000/2102_MCM_RELATIONALE_PARETO_SELBSTABWEICHUNG.md)
+prüft diese bewegliche Innenordnung als mögliche feldinterne Selbstabweichung.
+Die Pareto-Schichten reorganisieren sich stark, aber nicht stärker oder anders
+als unter erhaltener Aktivität, Ereignisalterung und Stütztrajektorie. Der
+Anschluss an H.1 bleibt daher plastische individuelle Feldtopologie, noch kein
+belegtes inneres Neuheitssignal oder eine selbstregulierende Feldwirkung.
+
 Damit entsteht kein Wörterbuch nach dem Muster `dio_x = feste Bedeutung`.
 Tragfähiger ist:
 

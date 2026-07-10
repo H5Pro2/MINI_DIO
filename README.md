@@ -403,6 +403,8 @@ Befund 2100 prüft die natürliche ungewichtete Kumulation: Jeder neue Zielgap w
 
 Befund 2101 ordnet die gesamte Kette 2091 bis 2100 einschließlich ihrer methodischen Korrekturen. Getragen bleibt eine bewegliche, kausal rekonstruierbare relationale Eigenordnung: Das Feld bildet Synchronisation, gemeinsame Übergangswege und eine übertragbare Kaltstartkadenz, ohne feste Mitglieder zu benötigen. Nicht getragen sind stabile Semantik, vorwärtsgerichtete Erwartung, eine zusätzliche Zustands-Memory oder direkte Feld- und Handlungswirkung. Die vorhandene Relationsereigniszeit bleibt deshalb der einzige Quellzustand dieses gesättigten Zweigs.
 
+Befund 2102 prüft daraufhin die feldinterne Selbstabweichung ohne Außenwerte. Nach jeder Welt wird gelesen, wie viele bereits vorhandene Relationen ihre gewichtungsfreie Pareto-Schicht wechseln. Die Ordnung ist mit 81,09 beziehungsweise 77,74 Prozent stark beweglich, unterscheidet sich aber weder in Wechselhäufigkeit noch Bewegungsstärke von einer Null, die Weltaktivität, Ereignisalter und jede individuelle Stütztrajektorie exakt erhält. Auch die gleichberechtigte Weltperspektive trägt nicht. Die Plastizität ist real; ein relationseigenes Neuheitssignal oder eine Rückwirkung wird daraus nicht integriert.
+
 Die thematisch geordnete Kurzfassung mit direkten Links liegt in der [Befundübersicht](docs/BEFUNDE_UEBERSICHT.md).
 
 Aktuelle Befundkette:
@@ -441,6 +443,7 @@ Aktuelle Befundkette:
 - [2099: Transfer kollektiver MCM-Gap-Kadenz](docs/befunde/2001-3000/2099_MCM_KOLLEKTIVE_GAP_KADENZ_TRANSFER.md)
 - [2100: Kumulative Erfahrung kollektiver MCM-Gap-Kadenz](docs/befunde/2001-3000/2100_MCM_KOLLEKTIVE_GAP_KADENZ_KUMULATIVE_ERFAHRUNG.md)
 - [2101: Synthese der MCM-Relationsereigniszeit und Architekturgrenze](docs/befunde/2001-3000/2101_MCM_RELATIONSEREIGNISZEIT_SYNTHESE_UND_ARCHITEKTURGRENZE.md)
+- [2102: Relationale Pareto-Selbstabweichung des MCM-Feldverlaufs](docs/befunde/2001-3000/2102_MCM_RELATIONALE_PARETO_SELBSTABWEICHUNG.md)
 
 ## Visueller Forschungsweg
 

@@ -224,3 +224,16 @@ Deshalb bleibt die Ereignis-Memory unverändert. Es entstehen weder ein
 paralleler Zustandsspeicher noch feste Identitäten, Schwellen, Gewichte,
 Mischungsregeln oder eine Rücklesung. Der Eigenzeit-Erwartungszweig ist damit
 methodisch abgeschlossen.
+
+## Selbstabweichungsgrenze 2102
+
+Die drei ungewichteten Stützachsen jeder Relation bilden nach jeder
+Weltfinalisierung neue Pareto-Schichten. Mehr als drei Viertel der vorhandenen
+Relationspositionen wechseln dabei ihre Schicht. Diese starke Plastizität
+liegt in Entwicklungsbestand und unabhängigem Holdout jedoch vollständig in
+einer Null, die Weltaktivität, Ereignisalter und jede individuelle
+Stütztrajektorie exakt erhält.
+
+Die konkrete Zuordnung zwischen Relation und Ereigniszeit trägt daher keinen
+robusten Zusatz zur globalen Pareto-Umbildung. Die Ereignis-Memory erhält
+weder einen Selbstabweichungs- oder Neuheitswert noch eine Rücklesung.
