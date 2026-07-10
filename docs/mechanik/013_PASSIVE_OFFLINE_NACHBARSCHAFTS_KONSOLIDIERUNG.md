@@ -101,3 +101,17 @@ Seit Befund 2083 speichert `compact_delta_v1` dieselben Reifungsbahnen als
 Änderungsvektoren. Alle 10.476 Einträge werden exakt rekonstruiert, während
 rund 72,7 Prozent des vorherigen Konsolidierungsmehrbedarfs entfallen. Es wird
 keine Relation entfernt, gerundet oder nach Bedeutung ausgewählt.
+
+## Bewegungsgrenze 2084
+
+Eine schwellenfreie Offline-Prüfung verbindet gegenseitig nächste
+Reifungsbewegungen in drei getrennten Profilräumen. Der überzufällige
+Kantenüberschuss entsteht fast vollständig aus groben Zweipunktbahnen mit sehr
+großen exakten Gleichstandsklassen. Bei drei, vier und fünf beobachteten
+Punkten bleibt kein gemeinsames robustes Nachbarschaftspaar zwischen den
+Erfahrungsrichtungen erhalten.
+
+Die Delta-Historie wird deshalb nicht als Reifungsfamilien- oder
+Feldrücklesestruktur erweitert. Sie bewahrt individuelle Entwicklung, ohne aus
+der derzeit unzureichenden Bewegungsstabilität zusätzliche Runtime-Ordnung zu
+erzeugen.

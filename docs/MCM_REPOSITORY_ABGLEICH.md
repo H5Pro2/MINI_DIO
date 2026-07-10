@@ -207,6 +207,13 @@ Anschlussfähigkeit einer wachsenden relationalen Memory, liefert aber keinen
 zusätzlichen Beleg für Semantik oder Feldwirkung: Kompaktere Speicherung ist
 nicht mit stärkerer innerer Bedeutung gleichzusetzen.
 
+[2084](befunde/2001-3000/2084_MCM_REIFUNGSBAHN_NACHBARSCHAFTEN.md)
+begrenzt diesen Anschluss erneut. Ähnliche Kurzzeitbewegungen treten
+überzufällig gemeinsam auf, doch längere Reifungsbahnen bilden unter
+umgekehrter Erfahrung keine stabilen Nachbarschaften. Eine zweite Topologie aus
+Reifungsfamilien wäre damit derzeit programmiert statt erfahrungsgetragen und
+wird nicht in Feld oder Memory integriert.
+
 Damit entsteht kein Wörterbuch nach dem Muster `dio_x = feste Bedeutung`.
 Tragfähiger ist:
 

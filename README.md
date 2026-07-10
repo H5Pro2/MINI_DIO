@@ -367,6 +367,8 @@ Befund 2082 speichert diese Reifungsschichten erstmals als passive Offline-Histo
 
 Befund 2083 überführt dieselbe Reifungsbahn in ein schwellenfreies Deltaformat. Alle 10.476 rekonstruierten Einträge sind exakt identisch zur Vollhistorie aus 2082, während die gesamte Memory um rund 17,8 bis 18,0 Prozent kleiner wird und etwa 72,7 Prozent des vorherigen Konsolidierungsmehrbedarfs entfallen. Es wird keine Erfahrung entfernt oder bevorzugt; die Struktur bleibt vollständig passiv.
 
+Befund 2084 prüft, ob ähnliche Reifungsbewegungen selbst eine weitere organische Nachbarschaftsebene bilden. Zwar liegen gemeinsame Bewegungskanten etwa fünfmal über einer signaturerhaltenden Permutationskontrolle, doch der Effekt stammt fast vollständig aus stark gebundenen Zweipunktbahnen. Unter 72 beidseitig vollständigen Fünfpunktbahnen bleibt kein robustes Nachbarschaftspaar erhalten. Deshalb wird keine Reifungsfamilie in die Runtime-Memory integriert.
+
 Die thematisch geordnete Kurzfassung mit direkten Links liegt in der [Befundübersicht](docs/BEFUNDE_UEBERSICHT.md).
 
 Aktuelle Befundkette:
@@ -387,6 +389,7 @@ Aktuelle Befundkette:
 - [2081: Dynamische MCM-Nachbarschafts-Pareto-Tiefe](docs/befunde/2001-3000/2081_DYNAMISCHE_MCM_NACHBARSCHAFT_PARETO_TIEFE.md)
 - [2082: Passive Offline-Konsolidierung der MCM-Nachbarschaft](docs/befunde/2001-3000/2082_PASSIVE_OFFLINE_KONSOLIDIERUNG_MCM_NACHBARSCHAFT.md)
 - [2083: Exakte Delta-Konsolidierung der MCM-Nachbarschaft](docs/befunde/2001-3000/2083_EXAKTE_DELTA_KONSOLIDIERUNG_MCM_NACHBARSCHAFT.md)
+- [2084: MCM-Reifungsbahn-Nachbarschaften](docs/befunde/2001-3000/2084_MCM_REIFUNGSBAHN_NACHBARSCHAFTEN.md)
 
 ## Visueller Forschungsweg
 

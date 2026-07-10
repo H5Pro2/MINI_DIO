@@ -1,0 +1,9 @@
+scope,trajectory_points_in_both_sequences,eligible_relations,forward_edges,reverse_edges,shared_edges,edge_jaccard,null_mean_shared_edges,observed_to_null_ratio,empirical_p_ge_observed
+raw_equal,2,204,11595,11702,7475,0.47244343319428644,3904.745,1.9143375559735656,0.004975124378109453
+raw_equal,3,70,2,1,0,0.0,0.22,0.0,1.0
+raw_equal,4,32,0,0,0,0.0,0,0.0,1.0
+raw_equal,5,72,0,0,0,0.0,0,0.0,1.0
+robust,2,204,5837,6162,5418,0.8232791369092843,1110.42,4.879234884097909,0.004975124378109453
+robust,3,70,2,2,0,0.0,0.11,0.0,1.0
+robust,4,32,0,1,0,0.0,0,0.0,1.0
+robust,5,72,4,2,0,0.0,0.03,0.0,1.0
