@@ -149,3 +149,16 @@ zurückgelesen.
 Der 64-Welten-Replay erhält alle 10.092 bisherigen Relationsereignisse
 bytegleich. Die Ereignis-Memory bleibt damit Quelle des Lebenslaufs, nicht sein
 Produkt und nicht sein Steuerobjekt.
+
+## Kausaler Zustandsstand 2096
+
+Ein reiner Vorwärtsrekonstruktor liest bei jeder Welt nur den bis dahin
+vorhandenen Ereignispräfix. In Entwicklungsbestand und unabhängigem Holdout
+rekonstruiert er alle 124 Lebenslaufpräfixe sowie sämtliche
+Synchronisationspaar-Alter exakt und ohne Zukunftszugriff.
+
+Damit ist die Relationsereigniszeit innerhalb dieser passiven relationalen
+Ebene der hinreichende Quellzustand. Lebenslauf und Synchronisation sind
+ableitbare Ansichten; eine zusätzliche Zustands-Memory würde dieselbe
+Erfahrung duplizieren. Es entsteht weder eine Zustandsklasse noch eine
+Rücklesung.

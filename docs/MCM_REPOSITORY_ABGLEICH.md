@@ -299,6 +299,14 @@ vollständig durch Graphform und Knoteneinbettung erklärt. Eine besondere
 Mehrschichtkopplung ist nicht getragen; der M.1-Anschluss bleibt die
 beobachtbare bewegliche Eigenzeitordnung selbst.
 
+[2096](befunde/2001-3000/2096_MCM_RELATIONSEREIGNISZEIT_KAUSALE_ZUSTANDSREKONSTRUKTION.md)
+ordnet diese Ebenen kausal. Der bis zu jeder Welt beobachtete
+Relationsereignispräfix rekonstruiert Lebenslauf und Synchronisation in beiden
+Beständen vollständig ohne Zukunftszugriff. Der Anschluss an D.1 und M.1
+benötigt daher keinen zusätzlich benannten Gesamtzustand: Die relationale
+Eigenzeit ist Quellzustand, die nachgelagerten Topologien sind passive
+Ansichten ihrer Entwicklung.
+
 Damit entsteht kein Wörterbuch nach dem Muster `dio_x = feste Bedeutung`.
 Tragfähiger ist:
 

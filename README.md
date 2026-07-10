@@ -391,6 +391,8 @@ Befund 2094 untersucht daraufhin die exakte Gleichzeitigkeit selbst. In beiden u
 
 Befund 2095 prüft, ob die Bewegungsnachbarschaften des Lebenslaufs besondere stabile Bahnen dieses Synchronisationsrahmens nutzen. Der Rohvergleich zeigt in beiden Beständen rund fünf Prozentpunkte mehr Synchronisationserhalt für bewegungsselektierte Paare. Unter Permutation der vollständigen Zukunftsgraph-Identitäten liegt dieser Abstand jedoch mitten in der Null; Graphform und Knoteneinbettung erklären ihn. Synchronisation und Bewegung bleiben deshalb unterscheidbare passive Ebenen und werden nicht zu einer festen Mehrschichtstruktur verbunden.
 
+Befund 2096 beginnt den nächsten Forschungsabschnitt mit einer Minimalitätsprüfung statt einer neuen Zustandsklasse. In einem rein kausalen Vorwärtslauf rekonstruiert der bis zu jeder Welt beobachtete Relationsereignispräfix alle 124 Lebenslaufpräfixe und sämtliche Synchronisationspaar-Alter beider Bestände exakt, ohne einen Zukunftszugriff. Jede Welt besitzt einen individuellen Ereignispräfix. Eine zusätzliche Zustands-Memory wäre daher redundant; Lebenslauf und Synchronisation bleiben ableitbare Ansichten derselben passiven Ereigniserfahrung.
+
 Die thematisch geordnete Kurzfassung mit direkten Links liegt in der [Befundübersicht](docs/BEFUNDE_UEBERSICHT.md).
 
 Aktuelle Befundkette:
@@ -423,6 +425,7 @@ Aktuelle Befundkette:
 - [2093: Exakte Gelegenheit und Herkunftsbalance des MCM-Relationslebenslaufs](docs/befunde/2001-3000/2093_MCM_RELATIONSLEBENSLAUF_EXAKTE_GELEGENHEIT_HERKUNFTSBALANCE.md)
 - [2094: Topologie der MCM-Relationssynchronisation](docs/befunde/2001-3000/2094_MCM_RELATIONSSYNCHRONISATION_TOPOLOGIE.md)
 - [2095: Kopplung von MCM-Synchronisation und Bewegungstopologie](docs/befunde/2001-3000/2095_MCM_SYNCHRONISATION_BEWEGUNGSKOPPLUNG.md)
+- [2096: Kausale Zustandsrekonstruktion aus MCM-Relationsereigniszeit](docs/befunde/2001-3000/2096_MCM_RELATIONSEREIGNISZEIT_KAUSALE_ZUSTANDSREKONSTRUKTION.md)
 
 ## Visueller Forschungsweg
 
