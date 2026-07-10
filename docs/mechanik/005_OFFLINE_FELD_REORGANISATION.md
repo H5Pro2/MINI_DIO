@@ -300,6 +300,18 @@ Erneuerung, nicht eine fortlaufende Ermuedungs- oder Loeschkurve. 2118
 integriert keinen Alterszaehler, keine Lebensdauer und keine Memory-, Offline-,
 Bedeutungs- oder Wirkungsregel.
 
+## Gelegenheitsgebundene Ablosungskanten 2119
+
+Endende mitgetragene und fortbestehende neue Formen desselben strengen
+Erfahrungsblocks bilden sichtbare gerichtete Ablosungskanten. Fast alle
+Kantentypen wiederholen sich in beiden Bestaenden.
+
+Keine der 3.541 realisierten Abloesungen besitzt jedoch eine alternative
+gueltige Identitaetsziehung innerhalb ihrer eigenen Gelegenheit. Beobachtete
+Kantenbuendelung und Universenabgleich sind deshalb exakt nullgleich. 2119
+integriert keinen Ablosungsgraphen und keine Memory-, Offline-, Bedeutungs-
+oder Wirkungsregel.
+
 ## Bezug zu bestehenden Befunden
 
 Diese Mechanik fasst die Linie aus folgenden Befunden zusammen:

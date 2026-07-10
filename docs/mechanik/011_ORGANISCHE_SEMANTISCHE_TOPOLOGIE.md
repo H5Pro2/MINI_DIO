@@ -252,6 +252,18 @@ unmittelbarer Erneuerung. Weiteres Alter darf nicht als festes Relevanz-,
 Abschwaechungs- oder Loeschsignal programmiert werden. 2118 integriert weder
 Relationsalter noch Memory, Bedeutung oder Handlung.
 
+## Ablosungskantengrenze 2119
+
+Die Erneuerungsgrenze erzeugt wiederkehrend sichtbare Kanten von einer
+endenden mitgetragenen zu einer fortbestehenden neuen Richtungsform. Unter
+Erhalt jeder realen Kandidatengelegenheit ist jedoch kein einziges Ereignis
+frei resampelbar. Jede Kante ist bereits durch ihre Gelegenheit festgelegt.
+
+Damit entsteht noch kein organisch gewachsener Nachfolgergraph. Eine Kante
+ohne gueltige Alternative traegt keine zusaetzliche Wahl- oder
+Bindungsinformation. 2119 integriert weder Ablosungsknoten noch Memory,
+Bedeutung oder Handlung.
+
 ## Wiederkehrgrenze 2115
 
 Exakt proportionale Rangzyklusformen wiederholen sich in jedem kontinuierlichen

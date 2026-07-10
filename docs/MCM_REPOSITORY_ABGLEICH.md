@@ -468,6 +468,14 @@ Fortsetzungskurve. Der Bezug zu D.3 und K.1 wird dadurch enger: getragen ist
 eine dynamische Erneuerungsgrenze, nicht ein festes Alterungs-, Loesch- oder
 Memorygesetz.
 
+[2119](befunde/2001-3000/2119_MCM_PRAEQUENTIELLE_ERNEUERUNGSABLOESUNGSTOPOLOGIE.md)
+prueft gerichtete Kanten zwischen endender mitgetragener und fortbestehender
+neuer Relationsform. Ihre starke Wiederholung ist vollstaendig durch die
+jeweilige Kandidatengeometrie erzwungen; kein Ereignis besitzt eine gueltige
+alternative Identitaetsziehung. Der Anschluss an H.1, K.1 und M.1 erhaelt
+damit eine reale Erneuerungsordnung, aber keinen eigenstaendigen
+Ablosungsgraphen, kein Erinnern und keine Bedeutungsbindung.
+
 Damit entsteht kein Wörterbuch nach dem Muster `dio_x = feste Bedeutung`.
 Tragfähiger ist:
 

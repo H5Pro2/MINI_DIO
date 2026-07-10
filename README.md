@@ -437,6 +437,8 @@ Befund 2117 wechselt deshalb vom rückblickenden Quellenkriterium zur rein inner
 
 Befund 2118 prüft, ob diese Ablösung mit der exakten ununterbrochenen Tragedauer kontinuierlich zunimmt. Über alle Alter liegt der ältere Slot zwar in jeder Quelle unter AUC 0,5. Sobald beide verglichenen Formen jedoch bereits mitgetragen wurden, zerfällt die Richtung: Der Entwicklungsbestand liegt bei AUC 0,504 und widerspricht sich zwischen seinen Zieluniversen, während der Holdout bei 0,486 bleibt. Robust reproduziert nur der erste Übergang von Alter 1 zu 2 mit AUC 0,446 und 0,447. Das Feld zeigt damit eine Erneuerungsgrenze, aber keine universelle Alters-, Ermüdungs- oder Löschkurve.
 
+Befund 2119 prüft, ob die Erneuerungsgrenze wiederkehrende gerichtete Ablösungskanten bildet. In 1.974 und 1.567 Ereignissen erscheinen nur 23 beziehungsweise 25 unterschiedliche Kanten, fast alle wiederholt. Die gelegenheitsgetreue Null zeigt jedoch, dass kein einziges Ereignis eine alternative gültige Identitätsziehung besitzt. Kantenkollision und A/B-Abgleich sind deshalb in jeder Quelle exakt nullgleich. Die sichtbaren Kanten sind vollständig durch ihre Kandidatengeometrie erzwungen und begründen keinen zusätzlichen Ablösungsgraphen oder Memory-Eintrag.
+
 Die thematisch geordnete Kurzfassung mit direkten Links liegt in der [Befundübersicht](docs/BEFUNDE_UEBERSICHT.md).
 
 Aktuelle Befundkette:
@@ -492,6 +494,7 @@ Aktuelle Befundkette:
 - [2116: Zyklusübergreifende partielle MCM-Relationen](docs/befunde/2001-3000/2116_MCM_ZYKLUSUEBERGREIFENDE_PARTIALRELATIONEN.md)
 - [2117: Präquentielle Fortsetzung partieller MCM-Relationen](docs/befunde/2001-3000/2117_MCM_PRAEQUENTIELLE_PARTIALRELATIONSFORTSETZUNG.md)
 - [2118: Präquentielle Alterung getragener MCM-Relationen](docs/befunde/2001-3000/2118_MCM_PRAEQUENTIELLE_RELATIONSALTERUNG.md)
+- [2119: Präquentielle Topologie der MCM-Erneuerungsablösung](docs/befunde/2001-3000/2119_MCM_PRAEQUENTIELLE_ERNEUERUNGSABLOESUNGSTOPOLOGIE.md)
 
 ## Visueller Forschungsweg
 
