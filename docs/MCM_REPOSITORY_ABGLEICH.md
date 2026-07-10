@@ -131,8 +131,9 @@ Die Befundfolge [2066](befunde/2001-3000/2066_REALVERSTAERKTE_ROLLENFAMILIEN_KOH
 [2074](befunde/2001-3000/2074_RF05_CROSSYEAR_TIMEFRAME_HOLDOUT.md),
 [2075](befunde/2001-3000/2075_RF05_KOMPONENTEN_KONTROLLEN.md),
 [2076](befunde/2001-3000/2076_RF05_KOMPONENTEN_PHASENKONTROLLEN.md),
-[2077](befunde/2001-3000/2077_ROLLENFAMILIEN_KOMPONENTEN_PHASENPROFILE.md)
-und [2078](befunde/2001-3000/2078_ROLLENFAMILIEN_PHASENPROFIL_HOLDOUT.md)
+[2077](befunde/2001-3000/2077_ROLLENFAMILIEN_KOMPONENTEN_PHASENPROFILE.md),
+[2078](befunde/2001-3000/2078_ROLLENFAMILIEN_PHASENPROFIL_HOLDOUT.md)
+und [2079](befunde/2001-3000/2079_ROLLENFAMILIEN_GEMATCHE_PSEUDOFAMILIEN.md)
 entwickelt dafür eine passive Rollenfamilien-Evidenz. Wichtig ist die Grenze:
 `2071` speichert Messwerte und Evidenzherkunft; seine sprachlichen Klassen sind
 vorläufige Report-Lesungen, keine fest einprogrammierten Bedeutungen. `2072`
@@ -164,6 +165,11 @@ gerichtete Achsen wiederholen sich, vollständige Profile bleiben jedoch von der
 Zeitebene abhängig. Der M.1-Anschluss verdichtet sich dadurch nicht zu festen
 Rollentypen, sondern zu einer begrenzten, feld- und zeitebenensensitiven
 Antwortstruktur.
+`2079` trennt diese Achsen zusätzlich von Mitgliederzahl und Quellhäufigkeit.
+Zwei zuvor stabile `rf_10`-Achsen treten unter gematchten Pseudo-Familien häufig
+auf. Nur `rf_08:sign` bleibt auffällig und konzentriert sich auf 15m. Der
+M.1-Anschluss wird dadurch weiter auf eine mögliche familien-, komponenten- und
+zeitebenengebundene Kopplung begrenzt, nicht auf einen allgemeinen Rollentyp.
 
 Damit entsteht kein Wörterbuch nach dem Muster `dio_x = feste Bedeutung`.
 Tragfähiger ist:

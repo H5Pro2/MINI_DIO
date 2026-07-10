@@ -325,7 +325,7 @@ Das ist kein Nachweis allgemeiner Intelligenz und kein Bewusstseinsbeweis. Es is
 
 Die jüngste Forschung verdichtet einzelne `dio_*`-Rollen zu passiven Rollenfamilien. Acht Familien mit 29 Mitgliedern wurden in realen Folgewelten und anschließend gegen zeitstrukturzerstörte Kontrollwelten gelesen. Dabei zeigt sich kein einheitlich realweltgebundener Familientyp:
 
-- `rf_05` lag in der ersten Kontrollgruppe zugleich bei Kontinuität, Ereignisanteil und Mitgliederabdeckung über beiden Kontrollen. Ein unabhängiger 2024-Holdout reproduzierte diesen gemeinsamen Vorsprung nicht. Komponenten- und Phasenkontrollen zeigen anschließend keine einzelne tragende reale OHLCV-Komponente. Der Vergleich aller acht Familien lässt zwar unterschiedliche Phasen-Antwortprofile erscheinen, der unabhängige 2025-Holdout begrenzt deren Stabilität jedoch erneut: `rf_08` repliziert sein gerichtetes Gesamtprofil, `rf_10` drei von vier Komponenten und `rf_05` nur Vorzeichen und Volumen. Getrennt nach 1h und 15m bleiben lediglich drei von zwölf gerichteten Komponenten gleichgerichtet. Damit bestehen einzelne familienabhängige Phasenachsen, aber noch keine stabile vollständige Familienindividualität oder feste Bedeutung.
+- `rf_05` lag in der ersten Kontrollgruppe zugleich bei Kontinuität, Ereignisanteil und Mitgliederabdeckung über beiden Kontrollen. Ein unabhängiger 2024-Holdout reproduzierte diesen gemeinsamen Vorsprung nicht. Komponenten- und Phasenkontrollen zeigen anschließend keine einzelne tragende reale OHLCV-Komponente. Der Vergleich aller acht Familien und ein unabhängiger 2025-Holdout lassen zunächst drei zeitebenenstabile Phasenachsen zurück. Größen- und häufigkeitsgematchte Pseudo-Familien entkräften die beiden `rf_10`-Achsen jedoch als familienspezifisch. Nur `rf_08:sign` bleibt auffällig, und auch dort konzentriert sich der Abstand auf 15m. Damit erscheint kein allgemeiner Familienmarker, sondern höchstens eine familien-, komponenten- und zeitebenengebundene relationale Kopplung.
 - `rf_07` trägt einen höheren realen Ereignisanteil, ist aber auch in beiden Kontrollformen vollständig abgedeckt und dort leicht kontinuierlicher.
 - `rf_08` liegt bei Kontinuität und Abdeckung über beiden Kontrollen, nicht jedoch beim Ereignisanteil.
 - `rf_17` wird durch Shuffle deutlich stärker gelesen als durch die reale Zeitfolge.
@@ -348,6 +348,7 @@ Aktuelle Befundkette:
 - [2076: `rf_05` unter Komponenten-Phasenkontrollen](docs/befunde/2001-3000/2076_RF05_KOMPONENTEN_PHASENKONTROLLEN.md)
 - [2077: Rollenfamilien unter Komponenten-Phasenprofilen](docs/befunde/2001-3000/2077_ROLLENFAMILIEN_KOMPONENTEN_PHASENPROFILE.md)
 - [2078: Rollenfamilien-Phasenprofile im unabhängigen 2025-Holdout](docs/befunde/2001-3000/2078_ROLLENFAMILIEN_PHASENPROFIL_HOLDOUT.md)
+- [2079: Rollenfamilien gegen gematchte Pseudo-Familien](docs/befunde/2001-3000/2079_ROLLENFAMILIEN_GEMATCHE_PSEUDOFAMILIEN.md)
 
 ## Visueller Forschungsweg
 
