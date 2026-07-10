@@ -92,3 +92,16 @@ Richtung leicht negativ.
 Damit ist keine übertragbare Eigenstabilität getragen. Unverändert gültig
 bleibt nur der passive, exakt rekonstruierbare Lebenslauf. Die Mechanik erhält
 keinen Stabilitätswert und keine Rückwirkung.
+
+## Synchronisationsstand 2094
+
+Aus denselben Ereignisfinalisierungen lässt sich ohne zusätzliche Speicherung
+rekonstruieren, wann zwei Relationen dasselbe Eigenalter gleichzeitig
+besitzen. Diese Synchronisationspaare behalten in Entwicklungsbestand und
+unabhängigem Holdout ihre konkrete Identität deutlich häufiger, als die
+jeweilige Graphform allein erwarten lässt. Gleichzeitig wechseln pro
+Altersübergang ungefähr 45 bis 48 Prozent der Partner.
+
+Damit trägt die Ereigniszeit einen wiederkehrenden, aber beweglichen
+Synchronisationsrahmen. Er wird nicht als Gruppe, Gewicht oder neue
+Memory-Ebene festgeschrieben und bleibt ohne Rückwirkung.

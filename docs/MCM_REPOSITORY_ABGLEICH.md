@@ -284,6 +284,14 @@ ein herkunftsabhängiger, nicht belastbarer Rest und im unabhängigen Holdout
 eine leicht negative Richtung. Der Anschluss an M.1 liegt damit in der
 beobachtbaren Umbildung selbst, nicht in einer belegten Eigenstabilisierung.
 
+[2094](befunde/2001-3000/2094_MCM_RELATIONSSYNCHRONISATION_TOPOLOGIE.md)
+findet unter derselben exakten Eigenzeitbedingung einen anderen tragfähigen
+Anschluss: Synchronisationspaare erhalten ihre konkrete Identität in beiden
+Beständen deutlich über die Graphform hinaus und wechseln zugleich fast die
+Hälfte ihrer Partner. Das entspricht einer wiederkehrenden, beweglichen
+relationalen Zeitordnung. Es belegt keine Semantik, bewusste Selbstorganisation
+oder aktive Feldsteuerung.
+
 Damit entsteht kein Wörterbuch nach dem Muster `dio_x = feste Bedeutung`.
 Tragfähiger ist:
 
