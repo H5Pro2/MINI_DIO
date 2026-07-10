@@ -274,6 +274,19 @@ keine gleichquellige anonyme Kante. Partielle Kontinuitaet ist ein dichtes
 Feldsubstrat, aber keine organische Relevanz-, Memory-, Offline- oder
 Wirkungsbedingung.
 
+## Praequentielle Relationsabloesung 2117
+
+Mitgetragene und aktuell neue gerichtete Relationsslots werden bei exakt
+gleicher bisheriger Haeufigkeit und innerhalb desselben Neuronenpaares
+verglichen. Erst nach dem Matching wird ihre Beteiligung im naechsten
+Rangzyklus gelesen.
+
+In beiden Bestaenden und beiden Zieluniversen liegt jede Quelle unter AUC 0,5.
+Wiederholt mitgetragene Richtungsformen werden haeufiger abgeloest als gleich
+erfahrene neue Formen. Das traegt eine selbstbegrenzende relationale
+Plastizitaet, aber noch keine Memory-, Offline-, Bedeutungs- oder
+Wirkungsregel.
+
 ## Bezug zu bestehenden Befunden
 
 Diese Mechanik fasst die Linie aus folgenden Befunden zusammen:

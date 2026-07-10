@@ -433,6 +433,8 @@ Befund 2115 prüft über alle selbstsegmentierten Episoden die strengste Wiederk
 
 Befund 2116 wechselt von ganzen Episoden zu partiellen inneren Relationen. Ein gerichteter Neuronenrelationsslot trägt nur dann, wenn er in zwei unmittelbar benachbarten Rangzyklen beteiligt ist; Episodenstärke wird binarisiert. Diese Schicht ist mit 36 bis 57 getragenen Slots und Mittragen über mehr als 90 Prozent der Zyklusgrenzen in jedem Strom sehr dicht. Ihre Quellenprofile liegen dennoch nur bei AUC 0,494 bis 0,504 und bilden keine gleichquellige anonyme Kante. Partielle Zykluskontinuität ist damit reales Feldsubstrat, aber ebenfalls keine Relevanz- oder Wachstumsbedingung.
 
+Befund 2117 wechselt deshalb vom rückblickenden Quellenkriterium zur rein inneren nächsten Anschlussfähigkeit. Aktuell mitgetragene und aktuell neue gerichtete Slots werden nur bei exakt gleicher bisheriger Häufigkeit und innerhalb desselben Neuronenpaares verglichen; erst danach wird der nächste Zyklus gelesen. Über 24.860 strenge Vergleichspaare liegt die AUC bei 0,451 und 0,453. Alle 48 beziehungsweise 44 Quellen sowie beide disjunkten Zieluniversen liegen unter 0,5. Wiederholt mitgetragene Relationsformen setzen sich somit seltener fort als gleich erfahrene neue Richtungsformen. Das ist ein robuster Kandidat für selbstbegrenzende Feldplastizität, noch keine Vorhersageregel, Semantik oder Handlung.
+
 Die thematisch geordnete Kurzfassung mit direkten Links liegt in der [Befundübersicht](docs/BEFUNDE_UEBERSICHT.md).
 
 Aktuelle Befundkette:
@@ -486,6 +488,7 @@ Aktuelle Befundkette:
 - [2114: Trägeraudit der MCM-Feldintelligenz](docs/befunde/2001-3000/2114_MCM_FELDINTELLIGENZ_TRAEGERAUDIT.md)
 - [2115: Exakte Formwiederkehr über viele MCM-Episoden](docs/befunde/2001-3000/2115_MCM_MEHREPISODEN_EXAKTE_FORMWIEDERKEHR.md)
 - [2116: Zyklusübergreifende partielle MCM-Relationen](docs/befunde/2001-3000/2116_MCM_ZYKLUSUEBERGREIFENDE_PARTIALRELATIONEN.md)
+- [2117: Präquentielle Fortsetzung partieller MCM-Relationen](docs/befunde/2001-3000/2117_MCM_PRAEQUENTIELLE_PARTIALRELATIONSFORTSETZUNG.md)
 
 ## Visueller Forschungsweg
 

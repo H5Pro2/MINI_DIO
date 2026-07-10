@@ -228,6 +228,18 @@ Quelltopologie. Damit ist auch partielle Zykluskontinuitaet noch kein
 semantisches Wachstumsrecht. 2116 integriert weder Relationsknoten noch Memory,
 Bedeutung oder Handlung.
 
+## Praequentielle Ablosungsordnung 2117
+
+Unter exakt gleicher bisheriger Slothaeufigkeit und demselben Neuronenpaar
+setzen sich bereits mitgetragene gerichtete Wechsel seltener in den naechsten
+Rangzyklus fort als aktuell neue Wechsel. Diese Gegenrichtung erscheint in
+allen Quellen beider Bestaende und beider Zieluniversen.
+
+Damit traegt die Partialrelationsebene erstmals eine robuste innere
+Anschlussordnung: nicht Selbstverstaerkung, sondern selbstbegrenzende
+Abloesung. 2117 integriert daraus weder Online-Praediktor noch Memory,
+Bedeutung oder Handlung.
+
 ## Wiederkehrgrenze 2115
 
 Exakt proportionale Rangzyklusformen wiederholen sich in jedem kontinuierlichen

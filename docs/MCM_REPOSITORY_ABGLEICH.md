@@ -452,6 +452,14 @@ reproduzierbar, traegt aber keine individuelle Quelltopologie. Der Anschluss
 an D.3 und H.1 erhaelt damit partielle Feldkontinuitaet, jedoch kein
 Wachstumsrecht, kein Erinnern und keine Selbstregulation.
 
+[2117](befunde/2001-3000/2117_MCM_PRAEQUENTIELLE_PARTIALRELATIONSFORTSETZUNG.md)
+vergleicht mitgetragene und aktuell neue gerichtete Relationsslots ohne
+Zukunftszugriff bei gleicher bisheriger Haeufigkeit und demselben
+Neuronenpaar. Alle Quellen beider Bestaende zeigen geringere naechste
+Anschlussfaehigkeit der bereits mitgetragenen Form. Der Anschluss an D.3 und
+H.1 erhaelt damit eine reproduzierbare selbstbegrenzende Relationsplastizitaet,
+noch kein Erinnern, keine Bedeutung und keine Selbstregulation durch Handlung.
+
 Damit entsteht kein Wörterbuch nach dem Muster `dio_x = feste Bedeutung`.
 Tragfähiger ist:
 
