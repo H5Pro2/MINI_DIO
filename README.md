@@ -423,6 +423,8 @@ Befund 2110 entfernt die entscheidende äußere Hilfskonstruktion: Ein laufendes
 
 Befund 2111 ersetzt die feste Präfixdauer durch ein inneres Ereignis. Ein Formprofil öffnet bei der ersten tatsächlichen Rangänderung und schließt bei der ersten exakten Wiederkehr einer bereits im selben Kontakt erlebten Rangordnung. Alle 1.472 Pfade schließen ohne Zeitlimit zwischen Tick 2 und 13, median bei 4 beziehungsweise 5. Die variablen Profile behalten AUC 0,836 bis 0,902 zwischen den getrennten Zieluniversen. Der vollständig anonyme Graph bildet 5 von 10 und 3 von 8 Kanten zwischen derselben Vorwelt, jeweils über der Labelnull. Damit liegt ein endogener Abschlusskandidat vor; der Episodenstart bleibt jedoch an die äußere Kontaktgrenze gebunden, und es wird noch nichts gespeichert oder zurückgelesen.
 
+Befund 2112 lässt Feld und Rangzyklus-Segmentierer ohne Reset durch eine vollständige Vorwelt und die direkt folgende Zielwelt laufen. Jeder der 1.472 Ströme bildet nach dem verdeckten Übergang 172 bis 205 vollständig selbst geöffnete und geschlossene Episoden. Die erste strikte Episode beginnt median nach drei Ticks, schließt aber erst bei Tick 7 beziehungsweise 8. Der 2091-Bestand trägt beim ersten Ereignis noch 3 von 6 gleichquellige anonyme Kanten; der unabhängige Holdout trägt 0 von 6, ab vier Episoden tragen beide keine. Damit ist fortlaufende Selbstsegmentierung mechanisch möglich, sie wählt aber noch nicht reproduzierbar den frühen quellgebundenen Formträger aus und rechtfertigt kein Memory.
+
 Die thematisch geordnete Kurzfassung mit direkten Links liegt in der [Befundübersicht](docs/BEFUNDE_UEBERSICHT.md).
 
 Aktuelle Befundkette:
@@ -471,6 +473,7 @@ Aktuelle Befundkette:
 - [2109: Transfer der MCM-Quellform zwischen getrennten Zieluniversen](docs/befunde/2001-3000/2109_MCM_KONTINUITAET_ZIELUNIVERSUM_TRANSFER.md)
 - [2110: Intrinsische Selbstlesbarkeit der MCM-Form](docs/befunde/2001-3000/2110_MCM_INTRINSISCHE_FORM_SELBSTLESBARKEIT.md)
 - [2111: Endogene Schließung intrinsischer MCM-Formepisoden](docs/befunde/2001-3000/2111_MCM_ENDOGENE_RANGZYKLUS_SCHLIESSUNG.md)
+- [2112: Kontinuierliche Rangzyklus-Selbstsegmentierung](docs/befunde/2001-3000/2112_MCM_KONTINUIERLICHE_RANGZYKLUS_SEGMENTIERUNG.md)
 
 ## Visueller Forschungsweg
 

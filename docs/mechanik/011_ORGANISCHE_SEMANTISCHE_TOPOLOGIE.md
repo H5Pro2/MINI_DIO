@@ -177,3 +177,17 @@ Episodendauer. Der Start wird noch durch den aeusseren Kontaktwechsel gesetzt,
 und die geschlossene Form wird weder gespeichert noch zurueckgelesen. 2111 ist
 deshalb ein organischer Episodenabschlusskandidat, noch keine autonome
 Segmentierung oder semantische Memory.
+
+## Kontinuierlicher Segmentierungsstand 2112
+
+Der Rangzyklus-Segmentierer bleibt erstmals ueber den verdeckten Uebergang von
+einer vollstaendigen Vorwelt in eine Zielwelt aktiv. Er erhaelt kein
+Grenzsignal und oeffnet nach jedem eigenen Abschluss selbst erneut. Pro Strom
+entstehen 172 bis 205 vollstaendig nach dem Uebergang geoeffnete und
+geschlossene Episoden.
+
+Die Menge endogener Episoden bildet jedoch noch keine tragfaehige organische
+Topologie. Nur der Entwicklungsbestand traegt beim ersten Ereignis wenige
+gleichquellige Kanten; der unabhaengige Holdout reproduziert sie nicht, und ab
+vier Episoden fehlen sie in beiden Bestaenden. 2112 integriert deshalb weder
+eine Episodenauswahl noch Memory oder Semantik.

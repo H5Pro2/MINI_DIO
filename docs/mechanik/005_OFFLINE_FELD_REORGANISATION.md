@@ -206,6 +206,21 @@ Damit traegt das Feld einen endogenen Abschlusskandidaten. Der Profilbeginn
 bleibt jedoch an die extern bereitgestellte Kontaktgrenze gebunden; Memory,
 Offline-Takt und Rueckwirkung bleiben unintegriert.
 
+## Kontinuierliche Selbstsegmentierung 2112
+
+Feld und Rangzyklus-Segmentierer laufen ohne Reset durch eine vollstaendige
+Vorwelt und die direkt folgende Zielwelt. Nach jeder exakten Wiederkehr wird
+die Abschlussordnung zum neuen Ruheanker; eine spaetere neue Ordnung oeffnet
+die naechste Episode. Jeder Zielkontakt bildet so 172 bis 205 vollstaendig
+nachgrenzige Episoden.
+
+Diese Zyklusaktivitaet waehlt den fruehen Quellformtraeger jedoch nicht
+reproduzierbar aus. Der Entwicklungsbestand bildet beim ersten strikten
+Ereignis 3 von 6 gleichquellige anonyme Kanten, der Holdout 0 von 6; ab vier
+Episoden tragen beide keine lokale Quelltopologie. Fortlaufende endogene
+Schliessung und Wiederoeffnung sind damit mechanisch getragen, aber noch kein
+Memory-, Offline- oder Wirkungstraeger.
+
 ## Bezug zu bestehenden Befunden
 
 Diese Mechanik fasst die Linie aus folgenden Befunden zusammen:

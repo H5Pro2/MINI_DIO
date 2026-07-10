@@ -415,6 +415,14 @@ Tickgrenze und bewahrt Quellform zwischen getrennten Zieluniversen. Der
 Anschluss an D.3 und H.1 erhaelt damit eine endogene Abschlussform, aber noch
 keinen autonomen Start, kein Erinnern und keine Selbstregulation.
 
+[2112](befunde/2001-3000/2112_MCM_KONTINUIERLICHE_RANGZYKLUS_SEGMENTIERUNG.md)
+laesst Feld und Segmentierer ohne Grenzsignal durch Vorwelt und Zielwelt
+weiterlaufen. Die Rangzyklen schliessen und oeffnen sich wiederholt selbst,
+tragen nach Ausschluss grenzuebergreifender Episoden aber keine
+reproduzierbare lokale Quelltopologie im Holdout. Der Anschluss an D.3 und H.1
+gewinnt damit eine fortlaufende endogene Segmentierungsbewegung, noch keine
+organische Auswahl, Erinnerung oder Selbstregulation.
+
 Damit entsteht kein Wörterbuch nach dem Muster `dio_x = feste Bedeutung`.
 Tragfähiger ist:
 
