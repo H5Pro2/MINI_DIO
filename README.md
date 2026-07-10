@@ -335,6 +335,8 @@ Die Memory speichert dafür nur Identität, Herkunft und numerische Evidenz. Beg
 
 Seit Befund 2082 besitzt MINI_DIO zusätzlich eine passive Familien-Komponenten-Antwort-Memory. Befund 2087 reift sie mit der widersprechenden unabhängigen Erfahrung aus 2086 von 217 auf 222 Beobachtungen. Die 32 Antwortidentitäten bleiben stabil; `rf_05:volume` behält das Symbol `dio_rresponse_0gpsabe` und wächst auf 21 Beobachtungen aus fünf Evidenzquellen. Die Schicht ist generisch, speichert keine Antwortklasse oder Bedeutung und bleibt vollständig von Wahrnehmung und Handlung getrennt.
 
+Befund 2088 vermisst erstmals die innere Erfahrungsbreite aller 32 Identitäten. `rf_05:volume:event_share` bleibt mit 21/21 positiven Beobachtungen über fünf Quellen vollständig gleichgerichtet, während Kontinuität und Abdeckung jeweils 13 positive und 8 negative Werte tragen. Vollständige Richtungsbilanzen treten auch bei anderen Antworten auf, dort aber meist erst auf Basis von sechs Beobachtungen aus zwei Quellen. Persistenz und Evidenztiefe müssen deshalb getrennt gelesen werden.
+
 Die thematisch geordnete Kurzfassung mit direkten Links liegt in der [Befundübersicht](docs/BEFUNDE_UEBERSICHT.md).
 
 Aktuelle Befundkette:
@@ -359,6 +361,7 @@ Aktuelle Befundkette:
 - [2085: `rf_05:volume` zwischen Feldzustand und Antwort](docs/befunde/2001-3000/2085_RF05_VOLUME_FELDZUSTAND_ANTWORTKOPPLUNG.md)
 - [2086: `rf_05:volume` im unabhängigen Orientierungs-Holdout](docs/befunde/2001-3000/2086_RF05_VOLUME_ORIENTIERUNGS_HOLDOUT.md)
 - [2087: Passive Antwort-Memory mit widersprechender Erfahrung](docs/befunde/2001-3000/2087_PASSIVE_ANTWORT_MEMORY_WIDERSPRUCHSREIFUNG.md)
+- [2088: Passive Antwort-Erfahrungsbreite](docs/befunde/2001-3000/2088_PASSIVE_ANTWORT_ERFAHRUNGSBREITE.md)
 
 ## Visueller Forschungsweg
 

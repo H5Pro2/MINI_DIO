@@ -140,8 +140,9 @@ Die Befundfolge [2066](befunde/2001-3000/2066_REALVERSTAERKTE_ROLLENFAMILIEN_KOH
 [2083](befunde/2001-3000/2083_RF05_VOLUME_5M_MEMORY_REIFUNG.md),
 [2084](befunde/2001-3000/2084_RF05_VOLUME_5M_FENSTERPFADE.md),
 [2085](befunde/2001-3000/2085_RF05_VOLUME_FELDZUSTAND_ANTWORTKOPPLUNG.md),
-[2086](befunde/2001-3000/2086_RF05_VOLUME_ORIENTIERUNGS_HOLDOUT.md)
-und [2087](befunde/2001-3000/2087_PASSIVE_ANTWORT_MEMORY_WIDERSPRUCHSREIFUNG.md)
+[2086](befunde/2001-3000/2086_RF05_VOLUME_ORIENTIERUNGS_HOLDOUT.md),
+[2087](befunde/2001-3000/2087_PASSIVE_ANTWORT_MEMORY_WIDERSPRUCHSREIFUNG.md)
+und [2088](befunde/2001-3000/2088_PASSIVE_ANTWORT_ERFAHRUNGSBREITE.md)
 entwickelt dafür eine passive Rollenfamilien-Evidenz. Wichtig ist die Grenze:
 `2071` speichert Messwerte und Evidenzherkunft; seine sprachlichen Klassen sind
 vorläufige Report-Lesungen, keine fest einprogrammierten Bedeutungen. `2072`
@@ -226,6 +227,12 @@ passive Familien-Komponenten-Identität auf. Frühere positive und neue negative
 Achsen bleiben nebeneinander erhalten; nur die arithmetische Erfahrungsmitte
 verschiebt sich. So bewahrt der M.1-Anschluss Widerspruch als Herkunft und
 Feldlage, ohne daraus Bestätigung, Klasse oder steuernde Bedeutung zu bilden.
+`2088` vermisst diese Breite für alle Antwortidentitäten. Ereignisanteil bleibt
+bei `rf_05:volume` über 21 Beobachtungen und fünf Quellen gleichgerichtet;
+Kontinuität und Mitgliederbreite tragen dagegen deutliche Vorzeichenbreite.
+Andere vollständig gerichtete Achsen sind meist erst über sechs Beobachtungen
+aus zwei Quellen belegt. Der M.1-Anschluss verlangt deshalb eine getrennte
+Lesung von Richtungsbilanz und Evidenztiefe, nicht eine neue Rollenklasse.
 
 Damit entsteht kein Wörterbuch nach dem Muster `dio_x = feste Bedeutung`.
 Tragfähiger ist:
