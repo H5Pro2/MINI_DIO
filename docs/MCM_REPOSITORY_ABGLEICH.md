@@ -376,6 +376,14 @@ und D.3 wird dadurch enger: zeitlicher Nachhall kann eine innere Form
 veraendern. Eine semantische Identitaet, Wiedererkennung oder Feldrueckwirkung
 folgt daraus noch nicht.
 
+[2107](befunde/2001-3000/2107_MCM_KONTINUITAET_QUELLIDENTITAET.md)
+zeigt, dass diese innere Form ueber getrennte Zielkontexte Information ueber
+den konkreten Vorzustand bewahrt. Die Trennung bleibt staerkenormiert und
+innerhalb gleicher Assets und Jahre bestehen. Damit erhaelt der Anschluss an
+H.1 und D.3 eine relationale Quellkomponente. Sie ist kurzlebig und verteilt;
+ein Identitaetssymbol, episodisches Erinnern oder adaptive Selbstregulation
+werden dadurch noch nicht belegt.
+
 Damit entsteht kein Wörterbuch nach dem Muster `dio_x = feste Bedeutung`.
 Tragfähiger ist:
 

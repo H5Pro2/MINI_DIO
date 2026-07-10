@@ -137,6 +137,21 @@ gleich. Das Feld bewahrt damit kurz innere geometrische Geschichte, aber diese
 Form wird von der aktuellen Wortbildung noch nicht unterschieden. Daraus folgt
 weder eine semantische Rangrolle noch eine begruendete Feldrueckwirkung.
 
+## Quellform 2107
+
+Verschiedene Vorweltfelder hinterlassen unter denselben Zielreizen
+unterscheidbare Verteilungen gerichteter neuronaler Rangwechsel. Die
+Quelltrennung bleibt ueber zwei disjunkte Zielgruppen erhalten, nachdem die
+gesamte Wechselstaerke entfernt wurde und wenn nur Fenster desselben Assets und
+Jahres konkurrieren. Beide unabhaengigen Datenbestaende tragen die Richtung
+gegen gruppenerhaltende Labelnullen.
+
+Damit besitzt der Nachhall nicht nur Dauer und Staerke, sondern kurz eine
+quellgebundene relationale Form. Alle Pfade konvergieren dennoch vollstaendig,
+und nicht jede Vorwelt wird eindeutig wiedererkannt. Getragen ist eine
+mechanische Grundlage innerer Formkontinuitaet, noch kein episodisches Memory,
+keine Semantik und kein autonomer Offlineprozess.
+
 ## Bezug zu bestehenden Befunden
 
 Diese Mechanik fasst die Linie aus folgenden Befunden zusammen:

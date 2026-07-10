@@ -107,3 +107,17 @@ denselben Pfad. Die heutige semantische Topologie erhaelt vom Feld nur die
 verdichtete mittlere Signatur, nicht seine innere Aktivierungsordnung. 2106
 zeigt damit eine reale Formluecke zwischen Feldgeometrie und Syntax, aber noch
 keine Berechtigung, Rangzustaende als neue Semantik oder Memory zu integrieren.
+
+## Quellformstand 2107
+
+Die schwellenfreie Mikrotopologie traegt ueber verschiedene Zielkontexte eine
+relative Form des konkreten vorherigen Feldzustands. Dieselbe Vorwelt liegt in
+zwei disjunkten Zielgruppen systematisch naeher als Fremdvorwelten. Das bleibt
+nach Entfernung der gesamten Rangwechselstaerke und innerhalb gleicher Assets
+und Jahre bestehen. Herkunftslabels werden nur nachtraeglich zur Gegenpruefung
+verwendet und niemals vom Feld gelesen.
+
+Die Form ist verteilt statt symbolisch: Nur ein Teil der Vorwelten wird zum
+eindeutig naechsten Nachbarn, und alle Feldpfade konvergieren spaeter exakt.
+2107 traegt deshalb quellgebundene topologische Kontinuitaet, aber noch keinen
+neuen Knotenbegriff, keine Identitaets-Memory und keine Feldrueckwirkung.

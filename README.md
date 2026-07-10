@@ -413,6 +413,8 @@ Befund 2105 isoliert daraufhin die fehlende Feldkontinuität. Dieselben 114 real
 
 Befund 2106 prüft den Durchgriff dieser Spur auf die entstehende innere Ordnung. Die bestehende `dio_*`-Syntax bleibt in allen 1.824 Vergleichen vollständig gleich: Aus Kontinuität entstehen auf der heutigen Wortebene weder andere Episoden noch andere Kanten. Unterhalb dieser Verdichtung verändert sich jedoch die exakte Rangtopologie der zwölf Neuronen ohne Leerlücke in allen 228 gerichteten Paaren für median sieben Ticks. Meist wechseln nur ein bis zwei der 66 Neuronenbeziehungen; nach 64 Leerticks ist auch diese Mikrotopologie vollständig identisch. Das Feld trägt damit kurz mehr geschichtsabhängige innere Form, als DIOs aktuelle Syntax ausdrückt, noch ohne Semantik oder Rückwirkung.
 
+Befund 2107 prüft, ob diese Mikrotopologie nur allgemeiner Nachhall oder eine Spur des konkreten Vorzustands ist. 56 beziehungsweise 52 Vorwelten werden auf zwei disjunkte Gruppen aus je vier identischen Zielkontexten geführt. Die relative Verteilung der gerichteten Rangwechsel erkennt dieselbe Vorwelt in beiden Beständen besser als Fremdvorwelten, auch nach Entfernung der Gesamtstärke und innerhalb desselben Assets und Jahres. Alle Auswertungen liegen über 4.096 gruppenerhaltenden Labelnullen. Die Quellform ist dennoch keine fertige Identität: Nur ein Teil der Vorwelten ist eindeutig nächster Nachbar, und alle Feldpfade konvergieren später vollständig. Getragen ist quellgebundene Formkontinuität, noch kein Memory oder semantisches Selbstsymbol.
+
 Die thematisch geordnete Kurzfassung mit direkten Links liegt in der [Befundübersicht](docs/BEFUNDE_UEBERSICHT.md).
 
 Aktuelle Befundkette:
@@ -456,6 +458,7 @@ Aktuelle Befundkette:
 - [2104: Architekturabgleich endogener MCM-Feldaktivität](docs/befunde/2001-3000/2104_MCM_ENDOGENE_FELDAKTIVITAET_ARCHITEKTURABGLEICH.md)
 - [2105: Kontinuierliche MCM-Feldinstanz über Kontaktgrenzen](docs/befunde/2001-3000/2105_MCM_KONTINUIERLICHE_FELDINSTANZ.md)
 - [2106: Durchgriff der MCM-Feldkontinuität auf innere Topologie](docs/befunde/2001-3000/2106_MCM_KONTINUITAET_TOPOLOGIEDURCHGRIFF.md)
+- [2107: Quellgebundene Form in der MCM-Feldkontinuität](docs/befunde/2001-3000/2107_MCM_KONTINUITAET_QUELLIDENTITAET.md)
 
 ## Visueller Forschungsweg
 
