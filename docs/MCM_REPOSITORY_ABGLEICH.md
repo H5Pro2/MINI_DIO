@@ -132,8 +132,9 @@ Die Befundfolge [2066](befunde/2001-3000/2066_REALVERSTAERKTE_ROLLENFAMILIEN_KOH
 [2075](befunde/2001-3000/2075_RF05_KOMPONENTEN_KONTROLLEN.md),
 [2076](befunde/2001-3000/2076_RF05_KOMPONENTEN_PHASENKONTROLLEN.md),
 [2077](befunde/2001-3000/2077_ROLLENFAMILIEN_KOMPONENTEN_PHASENPROFILE.md),
-[2078](befunde/2001-3000/2078_ROLLENFAMILIEN_PHASENPROFIL_HOLDOUT.md)
-und [2079](befunde/2001-3000/2079_ROLLENFAMILIEN_GEMATCHE_PSEUDOFAMILIEN.md)
+[2078](befunde/2001-3000/2078_ROLLENFAMILIEN_PHASENPROFIL_HOLDOUT.md),
+[2079](befunde/2001-3000/2079_ROLLENFAMILIEN_GEMATCHE_PSEUDOFAMILIEN.md)
+und [2080](befunde/2001-3000/2080_RF08_SIGN_GEMATCHTER_CROSSYEAR_KONTRAST.md)
 entwickelt dafür eine passive Rollenfamilien-Evidenz. Wichtig ist die Grenze:
 `2071` speichert Messwerte und Evidenzherkunft; seine sprachlichen Klassen sind
 vorläufige Report-Lesungen, keine fest einprogrammierten Bedeutungen. `2072`
@@ -170,6 +171,11 @@ Zwei zuvor stabile `rf_10`-Achsen treten unter gematchten Pseudo-Familien häufi
 auf. Nur `rf_08:sign` bleibt auffällig und konzentriert sich auf 15m. Der
 M.1-Anschluss wird dadurch weiter auf eine mögliche familien-, komponenten- und
 zeitebenengebundene Kopplung begrenzt, nicht auf einen allgemeinen Rollentyp.
+`2080` zeigt `rf_08:sign` in beiden Jahren außerhalb identischer gematchter
+Alternativmitgliedschaften. Die 2025 sichtbare 15m-Konzentration wiederholt sich
+2024 jedoch nicht, weil dort beide Zeitebenen tragen. Damit bleibt eine
+wiederkehrende Familien-Komponenten-Kopplung als Kandidat offen, nicht aber eine
+feste Zeitebenen- oder Rollenbedeutung.
 
 Damit entsteht kein Wörterbuch nach dem Muster `dio_x = feste Bedeutung`.
 Tragfähiger ist:
