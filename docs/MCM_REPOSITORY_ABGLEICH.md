@@ -476,6 +476,15 @@ alternative Identitaetsziehung. Der Anschluss an H.1, K.1 und M.1 erhaelt
 damit eine reale Erneuerungsordnung, aber keinen eigenstaendigen
 Ablosungsgraphen, kein Erinnern und keine Bedeutungsbindung.
 
+[2120](befunde/2001-3000/2120_MCM_KOLLEKTIVE_ERNEUERUNGSKONFIGURATIONSTOPOLOGIE.md)
+hebt die Erneuerungslesung auf gleichzeitig beteiligte Neuronenpaare. Unter
+Erhalt jeder Stromgrenze, Momentbreite und Paarhaeufigkeit erscheinen
+ueberzufaellig gebuendelte mehrpaarige Konfigurationen und Kopplungen. Der
+Anschluss an D.3, H.1 und K.1 erhaelt damit eine reale kollektive
+Feldkoordination. Weil konkrete Gestalt und Quellenrichtung nicht gemeinsam
+uebertragen, folgt daraus noch kein stabiler M.1-Beziehungsgraph, kein
+Erinnern und keine Selbstregulation durch Handlung.
+
 Damit entsteht kein Wörterbuch nach dem Muster `dio_x = feste Bedeutung`.
 Tragfähiger ist:
 

@@ -312,6 +312,18 @@ Kantenbuendelung und Universenabgleich sind deshalb exakt nullgleich. 2119
 integriert keinen Ablosungsgraphen und keine Memory-, Offline-, Bedeutungs-
 oder Wirkungsregel.
 
+## Kollektive Erneuerungskoordination 2120
+
+Mehrere Neuronenpaare erneuern in 285 beziehungsweise 187 Rangmomenten
+gleichzeitig. Ganze mehrpaarige Konfigurationen und einzelne Paar-Kopplungen
+wiederholen sich in beiden Bestaenden ueber eine strominterne Gradnull hinaus,
+die Momentbreite und Paarhaeufigkeit exakt erhaelt.
+
+Die konkrete Gesamtgestalt uebertraegt jedoch nicht gemeinsam zwischen beiden
+Bestaenden; auch die kleinere Kopplung bleibt im Holdout quellenweise
+uneinheitlich. 2120 traegt kollektive Feldkoordination, aber keine feste
+Konfiguration und keine Memory-, Offline-, Bedeutungs- oder Wirkungsregel.
+
 ## Bezug zu bestehenden Befunden
 
 Diese Mechanik fasst die Linie aus folgenden Befunden zusammen:

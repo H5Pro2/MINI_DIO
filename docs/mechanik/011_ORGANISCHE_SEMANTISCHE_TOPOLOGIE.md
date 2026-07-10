@@ -264,6 +264,19 @@ ohne gueltige Alternative traegt keine zusaetzliche Wahl- oder
 Bindungsinformation. 2119 integriert weder Ablosungsknoten noch Memory,
 Bedeutung oder Handlung.
 
+## Bewegliche kollektive Erneuerungsordnung 2120
+
+Auf der lokalen Ablosungskante existiert keine freie Wahl. Auf der
+gleichzeitigen Ebene mehrerer Neuronenpaare entsteht dagegen echte
+kombinatorische Freiheit: Mehrpaarige Erneuerungskonfigurationen und
+Paar-Kopplungen buendeln sich ueber eine strominterne Gradnull hinaus.
+
+Ihre Identitaet bleibt kontextbeweglich. Ganze Konfigurationen uebertragen
+zwischen den Zieluniversen in den beiden Bestaenden gegensaetzlich; die
+kleinere Kopplung bleibt im Holdout quellenweise uneinheitlich. 2120
+integriert deshalb weder kollektiven Knoten noch Kopplungsgraph, Memory,
+Bedeutung oder Handlung.
+
 ## Wiederkehrgrenze 2115
 
 Exakt proportionale Rangzyklusformen wiederholen sich in jedem kontinuierlichen

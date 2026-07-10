@@ -439,6 +439,8 @@ Befund 2118 prüft, ob diese Ablösung mit der exakten ununterbrochenen Tragedau
 
 Befund 2119 prüft, ob die Erneuerungsgrenze wiederkehrende gerichtete Ablösungskanten bildet. In 1.974 und 1.567 Ereignissen erscheinen nur 23 beziehungsweise 25 unterschiedliche Kanten, fast alle wiederholt. Die gelegenheitsgetreue Null zeigt jedoch, dass kein einziges Ereignis eine alternative gültige Identitätsziehung besitzt. Kantenkollision und A/B-Abgleich sind deshalb in jeder Quelle exakt nullgleich. Die sichtbaren Kanten sind vollständig durch ihre Kandidatengeometrie erzwungen und begründen keinen zusätzlichen Ablösungsgraphen oder Memory-Eintrag.
 
+Befund 2120 wechselt von der erzwungenen lokalen Kante zur gleichzeitigen Erneuerung mehrerer Neuronenpaare. In 285 beziehungsweise 187 mehrpaarigen Momenten wiederholen sich ganze Konfigurationen und Paar-Kopplungen deutlich stärker als unter einer strominternen Null, die jede Momentbreite und jede Paarhäufigkeit erhält. Damit erscheint erstmals eine echte kollektive Erneuerungskoordination. Ihre konkrete Gestalt bleibt jedoch beweglich: Im Entwicklungsbestand teilen die getrennten Zieluniversen keine einzige mehrpaarige Gesamtkonfiguration, und die aggregiert übertragene Paar-Kopplung ist im Holdout quellenweise nicht einheitlich. Getragen ist populationale Koordination, noch kein universeller semantischer Graph oder Memory-Eintrag.
+
 Die thematisch geordnete Kurzfassung mit direkten Links liegt in der [Befundübersicht](docs/BEFUNDE_UEBERSICHT.md).
 
 Aktuelle Befundkette:
@@ -495,6 +497,7 @@ Aktuelle Befundkette:
 - [2117: Präquentielle Fortsetzung partieller MCM-Relationen](docs/befunde/2001-3000/2117_MCM_PRAEQUENTIELLE_PARTIALRELATIONSFORTSETZUNG.md)
 - [2118: Präquentielle Alterung getragener MCM-Relationen](docs/befunde/2001-3000/2118_MCM_PRAEQUENTIELLE_RELATIONSALTERUNG.md)
 - [2119: Präquentielle Topologie der MCM-Erneuerungsablösung](docs/befunde/2001-3000/2119_MCM_PRAEQUENTIELLE_ERNEUERUNGSABLOESUNGSTOPOLOGIE.md)
+- [2120: Kollektive Topologie der MCM-Erneuerungskonfigurationen](docs/befunde/2001-3000/2120_MCM_KOLLEKTIVE_ERNEUERUNGSKONFIGURATIONSTOPOLOGIE.md)
 
 ## Visueller Forschungsweg
 
