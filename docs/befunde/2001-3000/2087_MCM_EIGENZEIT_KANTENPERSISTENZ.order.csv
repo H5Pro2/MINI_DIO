@@ -1,0 +1,4 @@
+scope,forward_persistent_edges,reverse_persistent_edges,shared_persistent_edges,shared_persistent_nodes,persistent_edge_jaccard,permutations,seed,null_mean_shared_edges,null_sd_shared_edges,null_max_shared_edges,observed_to_null_ratio,z_score,empirical_p_ge_observed,read_by_mini_dio,influences_field,influences_action
+event_cadence,9,9,1,2,0.058823529411764705,200,2087,0.195,0.3962007067131506,1,5.128205128205128,2.031798495964875,0.19900497512437812,0,0,0
+breadth_growth,1848,1728,171,19,0.050220264317180616,200,2087,108.57,29.36196689596935,190,1.5750207239568943,2.1262199573070855,0.03980099502487562,0,0,0
+profile_growth,217,86,6,4,0.020202020202020204,200,2087,1.61,1.4345382532369082,6,3.7267080745341614,3.060218150400907,0.04975124378109453,0,0,0

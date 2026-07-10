@@ -373,6 +373,8 @@ Befund 2085 ersetzt die fünf globalen Messpunkte durch eine passive Eigenzeit j
 
 Befund 2086 vergleicht diese Bewegungen bei gleichem Relationsalter. Die groben Gleichstände lösen sich bereits ab Alter 3 nahezu vollständig auf. Breiten- und Profilzuwachs besitzen auch bei Alter 10 überzufällige gemeinsame Nachbarschaften, doch kein Paar bleibt ab Alter 3 gleichzeitig über Eigenzeittakt, Breite und Profilraum robust. Das spricht für getrennte Beziehungsschichten statt einer einheitlichen Reifungsfamilie; eine Multiplex-Topologie wird noch nicht integriert.
 
+Befund 2087 verfolgt die getrennten Kanten von Relationsalter 3 über 5 bis 10. Innerhalb beider Erfahrungsrichtungen bleiben alle drei Teilräume stark überzufällig erhalten. Reihenfolgenübergreifend verbleiben ein vollständiger Breitenverbund aus 19 Relationen und ein darin liegender Profilverbund aus 4 Relationen; der Taktverbund trägt nicht. Die kleinen Komponenten liegen nur schwach über der strengeren Identitätsnull und werden nicht als Runtime-Knoten festgeschrieben.
+
 Die thematisch geordnete Kurzfassung mit direkten Links liegt in der [Befundübersicht](docs/BEFUNDE_UEBERSICHT.md).
 
 Aktuelle Befundkette:
@@ -396,6 +398,7 @@ Aktuelle Befundkette:
 - [2084: MCM-Reifungsbahn-Nachbarschaften](docs/befunde/2001-3000/2084_MCM_REIFUNGSBAHN_NACHBARSCHAFTEN.md)
 - [2085: Relationsinterne MCM-Nachbarschafts-Ereigniszeit](docs/befunde/2001-3000/2085_RELATIONSINTERNE_MCM_NACHBARSCHAFTS_EREIGNISZEIT.md)
 - [2086: MCM-Eigenzeit-Bewegungsnachbarschaften](docs/befunde/2001-3000/2086_MCM_EIGENZEIT_BEWEGUNGSNACHBARSCHAFTEN.md)
+- [2087: MCM-Eigenzeit-Kantenpersistenz](docs/befunde/2001-3000/2087_MCM_EIGENZEIT_KANTENPERSISTENZ.md)
 
 ## Visueller Forschungsweg
 

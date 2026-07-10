@@ -1,0 +1,4 @@
+left_scope,right_scope,left_relations,right_relations,shared_relations,relation_jaccard
+event_cadence,breadth_growth,2,19,0,0.0
+event_cadence,profile_growth,2,4,0,0.0
+breadth_growth,profile_growth,19,4,4,0.21052631578947367

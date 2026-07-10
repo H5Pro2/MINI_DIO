@@ -228,6 +228,13 @@ mit Eigenzeittakt und miteinander zu einer stabilen Gesamtfamilie zusammen.
 Das stützt M.1 eher als mehrschichtige Beziehungsordnung als als einheitliche
 Klasse; eine solche Multiplex-Lesung bleibt unintegriert und ohne Feldwirkung.
 
+[2087](befunde/2001-3000/2087_MCM_EIGENZEIT_KANTENPERSISTENZ.md)
+findet innerhalb dieser Teilräume einen kleinen alterskontinuierlichen
+Breitenverbund mit darin liegendem Profilverbund. Das ist mit M.1 als
+verschachtelter Beziehungsordnung vereinbar, aber noch schmal und nicht mit dem
+früheren strengen Kern identisch. Der Bezug bleibt ein experimenteller
+Strukturanschluss, keine feste Semantik und keine aktive Feldhierarchie.
+
 Damit entsteht kein Wörterbuch nach dem Muster `dio_x = feste Bedeutung`.
 Tragfähiger ist:
 

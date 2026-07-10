@@ -99,3 +99,16 @@ ab Alter 3 nicht gleichzeitig über Eigenzeittakt, Breite und Profilraum.
 Die Ereignis-Memory bleibt deshalb eine individuelle Zeitbasis. Sie erhält
 keine einheitliche Reifungsfamilie und keine Multiplex-Rückleselogik. Die
 getrennten Teilräume bleiben diagnostische Forschungskandidaten.
+
+## Persistenzstand 2087
+
+Achsenspezifische Kanten bleiben innerhalb beider Erfahrungsrichtungen von
+Relationsalter 3 über 5 bis 10 deutlich überzufällig erhalten.
+Reihenfolgenübergreifend verbleiben ein vollständiger Breitenverbund aus 19
+Relationen und ein darin liegender vollständiger Profilverbund aus 4
+Relationen. Die strengere Identitätsnull wird nur schwach unterschritten; der
+Taktverbund trägt nicht.
+
+Die Komponenten werden weder gespeichert noch bevorzugt. Insbesondere stehen
+keine Relationsidentitäten als Konstanten im Runtime-Code. Die Ereignis-Memory
+bleibt eine passive Grundlage ohne Multiplex- oder Feldrückleselogik.

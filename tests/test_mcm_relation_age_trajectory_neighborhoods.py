@@ -6,6 +6,11 @@ from tools.run_mcm_relation_age_trajectory_neighborhoods import (
     _prefix_vector,
     _rank_vectors,
 )
+from tools.run_mcm_relation_age_edge_persistence import (
+    _connected_components,
+    _persistent_edges,
+    _restricted_edges,
+)
 
 
 class MCMRelationAgeTrajectoryNeighborhoodTest(unittest.TestCase):
@@ -54,6 +59,28 @@ class MCMRelationAgeTrajectoryNeighborhoodTest(unittest.TestCase):
 
         self.assertEqual(ranked["a"], ranked["b"])
         self.assertNotEqual(ranked["a"], ranked["c"])
+
+    def test_edge_persistence_uses_only_relations_surviving_to_later_age(self) -> None:
+        nodes = {"a", "b", "c"}
+        age3 = {("a", "b"), ("b", "c"), ("c", "d")}
+        age5 = {("a", "b"), ("a", "c"), ("c", "d")}
+        age10 = {("a", "b"), ("b", "c")}
+
+        self.assertEqual(
+            _restricted_edges(age3, nodes),
+            {("a", "b"), ("b", "c")},
+        )
+        self.assertEqual(
+            _persistent_edges([age3, age5, age10], nodes),
+            {("a", "b")},
+        )
+
+    def test_connected_components_keep_persistent_groups_separate(self) -> None:
+        components = _connected_components(
+            {("a", "b"), ("b", "c"), ("d", "e")}
+        )
+
+        self.assertEqual(components, [{"a", "b", "c"}, {"d", "e"}])
 
 
 if __name__ == "__main__":
