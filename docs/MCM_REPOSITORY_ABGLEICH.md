@@ -431,6 +431,13 @@ Holdout-Universen laufen gegeneinander. Der Anschluss an D.3 und H.1 erhaelt
 damit eine weitere Kontinuitaetseigenschaft, aber keinen allgemeinen
 Relevanzmarker, kein Erinnern und keine Selbstregulation.
 
+[2114](befunde/2001-3000/2114_MCM_FELDINTELLIGENZ_TRAEGERAUDIT.md)
+ordnet die gesamte Kette 2105 bis 2113 in drei mechanische Ebenen: kausale
+Feldspur, intrinsisch lesbare Rangwechselform und endogene Rangzyklus-Eigenzeit.
+Der Anschluss an D.3 und H.1 traegt damit innere Kontinuitaet, Form und Takt.
+Nicht getragen ist die Gleichsetzung eines geschlossenen Zyklus mit relevanter
+Bedeutung, Erinnerung oder Selbstregulation.
+
 Damit entsteht kein Wörterbuch nach dem Muster `dio_x = feste Bedeutung`.
 Tragfähiger ist:
 

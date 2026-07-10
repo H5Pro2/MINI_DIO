@@ -204,3 +204,15 @@ Damit ist hohe Episode-zu-Episode-Neuheit kein universeller innerer Marker fuer
 Kontaktrelevanz. Die beobachtete relative Ruhe beschreibt Feldkontinuitaet,
 waehlt aber keine speicherreife Episode aus. 2113 integriert deshalb weder
 Salienz, Memory, Semantik noch Handlung.
+
+## Traegergrenze 2114
+
+Das kontinuierliche Feld, die intrinsische Rangwechselform und die endogene
+Rangzyklus-Eigenzeit sind jeweils reproduziert. Nicht reproduziert ist die
+Annahme, dass ein geschlossener Zyklus allein dadurch ein relevanter
+semantischer Knoten wird.
+
+Die organische semantische Topologie besitzt damit belastbare innere Traeger,
+aber noch keine feldintern entstandene Wachstumsbedingung. 2114 trennt diese
+Ebenen ausdruecklich und verhindert, dass Selbstsegmentierung vorschnell als
+Bedeutung, Memory oder Handlung programmiert wird.

@@ -427,6 +427,8 @@ Befund 2112 lässt Feld und Rangzyklus-Segmentierer ohne Reset durch eine vollst
 
 Befund 2113 prüft deshalb die stärkenormierte Formänderung zwischen der ersten vollständig nach dem verdeckten Kontakt selbst gestarteten Episode und ihrem Vorgänger. Gegen 329 bis 415 eigene Episodenwechsel erreicht der Kandidat nur Eigenrang 0,380 beziehungsweise 0,463 und ist in beiden Gesamtbeständen signifikant ruhiger als seine Positionsnull. Im Holdout laufen die disjunkten Zieluniversen mit 0,577 und 0,349 sogar in entgegengesetzte Richtungen. Ein Kontakt tritt damit nicht allgemein als große relationale Episodenneuheit hervor; diese einfache Salienzform rechtfertigt ebenfalls keine Auswahl oder Memory.
 
+Befund 2114 gleicht die Kette 2105 bis 2113 als gemeinsame Trägerarchitektur ab. Getragen sind das kontinuierliche Feld als kausale Vorzustandsspur, die relationale Rangwechselform als intrinsisch lesbare Eigenform und der Rangzyklus als variable endogene Eigenzeit. Nicht getragen ist die Gleichsetzung eines geschlossenen Zyklus mit einem relevanten Bedeutungsknoten. Der offene Engpass liegt damit nicht mehr primär bei innerem Träger oder Takt, sondern bei einer organisch entstehenden Relevanz zwischen vielen selbst gebildeten Formen. Eine zusätzliche Rangzyklus-Memory wird daraus nicht abgeleitet.
+
 Die thematisch geordnete Kurzfassung mit direkten Links liegt in der [Befundübersicht](docs/BEFUNDE_UEBERSICHT.md).
 
 Aktuelle Befundkette:
@@ -477,6 +479,7 @@ Aktuelle Befundkette:
 - [2111: Endogene Schließung intrinsischer MCM-Formepisoden](docs/befunde/2001-3000/2111_MCM_ENDOGENE_RANGZYKLUS_SCHLIESSUNG.md)
 - [2112: Kontinuierliche Rangzyklus-Selbstsegmentierung](docs/befunde/2001-3000/2112_MCM_KONTINUIERLICHE_RANGZYKLUS_SEGMENTIERUNG.md)
 - [2113: Relationale Salienz zwischen endogenen MCM-Episoden](docs/befunde/2001-3000/2113_MCM_EPISODEN_RELATIONALE_SALIENZ.md)
+- [2114: Trägeraudit der MCM-Feldintelligenz](docs/befunde/2001-3000/2114_MCM_FELDINTELLIGENZ_TRAEGERAUDIT.md)
 
 ## Visueller Forschungsweg
 

@@ -236,6 +236,20 @@ Richtungen. Die Feldkontinuitaet absorbiert den Wechsel meist ohne besondere
 Episode-zu-Episode-Neuheit; eine organische Auswahl-, Memory- oder
 Wirkungsregel folgt daraus nicht.
 
+## Traegeraudit 2114
+
+Die Befunde 2105 bis 2113 tragen drei getrennte Ebenen: Das kontinuierliche
+Feld bewahrt kausal Vorzustand, gerichtete Rangwechsel machen dessen relative
+Form intrinsisch lesbar, und exakte Rangwiederkehr bildet eine variable
+relationale Eigenzeit. Keine dieser Ebenen belegt fuer sich einen relevanten
+Bedeutungsknoten.
+
+Der Rangzyklus bleibt damit ein organischer Schliessungs- und Zeittraeger. Er
+darf nicht mit Episodenauswahl oder semantischem Wachstum gleichgesetzt
+werden. Der offene mechanische Engpass liegt bei der Relevanz zwischen vielen
+selbst entstandenen Formen; eine neue Memory-, Offline- oder Wirkungsregel
+wird nicht integriert.
+
 ## Bezug zu bestehenden Befunden
 
 Diese Mechanik fasst die Linie aus folgenden Befunden zusammen:
