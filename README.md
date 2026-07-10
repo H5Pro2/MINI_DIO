@@ -389,6 +389,8 @@ Befund 2093 korrigiert die Vergleichsgelegenheit: Das bloße spätere Erreichen 
 
 Befund 2094 untersucht daraufhin die exakte Gleichzeitigkeit selbst. In beiden unabhängigen Beständen erzeugt die wirkliche Reihenfolge relationseigener Ereignisabstände etwas mehr gemeinsame Paar-Alter als eine Rhythmusnull. Konkrete Synchronisationspaare bleiben über Altersübergänge 2,60- bis 2,91-mal häufiger erhalten, als die jeweilige Graphform erwarten lässt; zugleich wechseln ungefähr 45 bis 48 Prozent der Partner. Damit entsteht ein wiederkehrender, aber beweglicher Eigenzeitrahmen ohne feste Gruppen, Semantik oder Rückwirkung.
 
+Befund 2095 prüft, ob die Bewegungsnachbarschaften des Lebenslaufs besondere stabile Bahnen dieses Synchronisationsrahmens nutzen. Der Rohvergleich zeigt in beiden Beständen rund fünf Prozentpunkte mehr Synchronisationserhalt für bewegungsselektierte Paare. Unter Permutation der vollständigen Zukunftsgraph-Identitäten liegt dieser Abstand jedoch mitten in der Null; Graphform und Knoteneinbettung erklären ihn. Synchronisation und Bewegung bleiben deshalb unterscheidbare passive Ebenen und werden nicht zu einer festen Mehrschichtstruktur verbunden.
+
 Die thematisch geordnete Kurzfassung mit direkten Links liegt in der [Befundübersicht](docs/BEFUNDE_UEBERSICHT.md).
 
 Aktuelle Befundkette:
@@ -420,6 +422,7 @@ Aktuelle Befundkette:
 - [2092: Unabhängiger Holdout des MCM-Relationslebenslaufs](docs/befunde/2001-3000/2092_MCM_RELATIONSLEBENSLAUF_UNABHAENGIGER_HOLDOUT.md)
 - [2093: Exakte Gelegenheit und Herkunftsbalance des MCM-Relationslebenslaufs](docs/befunde/2001-3000/2093_MCM_RELATIONSLEBENSLAUF_EXAKTE_GELEGENHEIT_HERKUNFTSBALANCE.md)
 - [2094: Topologie der MCM-Relationssynchronisation](docs/befunde/2001-3000/2094_MCM_RELATIONSSYNCHRONISATION_TOPOLOGIE.md)
+- [2095: Kopplung von MCM-Synchronisation und Bewegungstopologie](docs/befunde/2001-3000/2095_MCM_SYNCHRONISATION_BEWEGUNGSKOPPLUNG.md)
 
 ## Visueller Forschungsweg
 

@@ -292,6 +292,13 @@ Hälfte ihrer Partner. Das entspricht einer wiederkehrenden, beweglichen
 relationalen Zeitordnung. Es belegt keine Semantik, bewusste Selbstorganisation
 oder aktive Feldsteuerung.
 
+[2095](befunde/2001-3000/2095_MCM_SYNCHRONISATION_BEWEGUNGSKOPPLUNG.md)
+begrenzt diesen Anschluss erneut. Die Bewegungsnachbarschaften zeigen zwar
+einen positiven Rohbezug zu später erhaltener Synchronisation, doch dieser wird
+vollständig durch Graphform und Knoteneinbettung erklärt. Eine besondere
+Mehrschichtkopplung ist nicht getragen; der M.1-Anschluss bleibt die
+beobachtbare bewegliche Eigenzeitordnung selbst.
+
 Damit entsteht kein Wörterbuch nach dem Muster `dio_x = feste Bedeutung`.
 Tragfähiger ist:
 

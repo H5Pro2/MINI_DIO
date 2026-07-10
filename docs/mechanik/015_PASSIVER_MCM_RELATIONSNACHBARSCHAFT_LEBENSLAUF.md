@@ -105,3 +105,15 @@ Altersübergang ungefähr 45 bis 48 Prozent der Partner.
 Damit trägt die Ereigniszeit einen wiederkehrenden, aber beweglichen
 Synchronisationsrahmen. Er wird nicht als Gruppe, Gewicht oder neue
 Memory-Ebene festgeschrieben und bleibt ohne Rückwirkung.
+
+## Kopplungsgrenze 2095
+
+Bewegungsnachbarschaften liegen im Rohvergleich etwas häufiger auf später
+erhaltenen Synchronisationspaaren. Wird jedoch die vollständige Graphform des
+nächsten Synchronisationsalters bewahrt und nur ihre Relationsidentität
+permutiert, liegt der beobachtete Abstand mitten in der Null. Eine besondere
+Identitätskopplung zwischen Synchronisation und Bewegung ist damit nicht
+getragen.
+
+Die beiden Ebenen werden weder zusammengeführt noch gewichtet. Insbesondere
+entsteht keine Multiplexklasse und keine neue Rücklesung.
