@@ -1,0 +1,4 @@
+reference_sequence,holdout_relations,reference_relations,shared_relations,relation_jaccard
+forward,2580,2046,826,0.21736842105263157
+reverse,2580,2085,828,0.21579358874120408
+2088_data_order,2580,2088,836,0.21816283924843424

@@ -125,3 +125,15 @@ Teilkante.
 Damit trägt die Ereigniszeit eine reihenfolgenrobuste Bewegungsschicht, aber
 noch keinen ausreichend bestimmten Multiplexkern. Die Ereignis-Memory bleibt
 passiv und wird nicht zur Auswahl, Feldänderung oder Handlung zurückgelesen.
+
+## Daten-Holdoutstand 2089
+
+In 64 neuen realen `30m`-Welten bildet sich blind erneut eine große
+alterskontinuierliche Breitenschicht. Ihre Relationsidentitäten stimmen jedoch
+weder mit dem kleinen 2087-Verbund noch mit der großen 2088-Komponente
+statistisch belastbar überein.
+
+Die Ereigniszeit trägt damit die erneute Entstehung von Zusammenhang, nicht
+die dauerhafte Identität seiner Mitglieder. Es wird weiterhin keine Komponente
+gespeichert oder zurückgelesen. Insbesondere erzeugt der Befund keine feste
+Klasse, kein Gate und keine Feld- oder Handlungswirkung.

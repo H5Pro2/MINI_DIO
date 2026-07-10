@@ -377,6 +377,8 @@ Befund 2087 verfolgt die getrennten Kanten von Relationsalter 3 über 5 bis 10. 
 
 Befund 2088 prüft diesen Multiplexkandidaten blind in einer dritten, vorab per Hash festgelegten Reihenfolge desselben 81-Welten-Bestands. Eine große Breitenschicht entsteht erneut und enthält 12 der früheren 19 Relationen deutlich über Zufall. Der geschlossene 19er-Verbund erscheint jedoch nicht wieder; vom Profilverbund bleibt nur eine überzufällige Teilkante statt des vollständigen Viererkerns. Getragen ist damit eine organisch entstehende Breitenschicht, noch keine feste Multiplexstruktur oder Feldrückwirkung.
 
+Befund 2089 verlässt den alten Weltbestand mit 64 neuen realen `30m`-Welten aus BTC/SOL 2024/2025. Blind entsteht erneut eine große alterskontinuierliche Breitenschicht, ihre Mitglieder stimmen jedoch weder mit dem 19er-Verbund aus 2087 noch mit der 70er-Komponente aus 2088 belastbar überein. Das Feld bewahrt damit seine Fähigkeit zur Zusammenhangsbildung, nicht feste Relationsidentitäten. Diese Umbildungsfähigkeit wird nicht als Klasse, Regel oder Rückwirkung programmiert.
+
 Die thematisch geordnete Kurzfassung mit direkten Links liegt in der [Befundübersicht](docs/BEFUNDE_UEBERSICHT.md).
 
 Aktuelle Befundkette:
@@ -402,6 +404,7 @@ Aktuelle Befundkette:
 - [2086: MCM-Eigenzeit-Bewegungsnachbarschaften](docs/befunde/2001-3000/2086_MCM_EIGENZEIT_BEWEGUNGSNACHBARSCHAFTEN.md)
 - [2087: MCM-Eigenzeit-Kantenpersistenz](docs/befunde/2001-3000/2087_MCM_EIGENZEIT_KANTENPERSISTENZ.md)
 - [2088: Blinder Holdout des MCM-Multiplexkandidaten](docs/befunde/2001-3000/2088_MCM_MULTIPLEX_BLIND_HOLDOUT.md)
+- [2089: Daten-Holdout der MCM-Breitenschicht](docs/befunde/2001-3000/2089_MCM_BREITENSCHICHT_DATEN_HOLDOUT.md)
 
 ## Visueller Forschungsweg
 

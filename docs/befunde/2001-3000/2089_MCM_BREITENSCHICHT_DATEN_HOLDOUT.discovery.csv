@@ -1,0 +1,17 @@
+scope,component_index,relations,edges,complete_clique
+event_cadence,1,3,3,1
+event_cadence,2,2,1,1
+breadth_growth,1,43,903,1
+breadth_growth,2,2,1,1
+breadth_growth,3,2,1,1
+breadth_growth,4,2,1,1
+breadth_growth,5,2,1,1
+breadth_growth,6,2,1,1
+breadth_growth,7,2,1,1
+breadth_growth,8,2,1,1
+breadth_growth,9,2,1,1
+profile_growth,1,13,78,1
+profile_growth,2,2,1,1
+profile_growth,3,2,1,1
+profile_growth,4,2,1,1
+profile_growth,5,2,1,1

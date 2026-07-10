@@ -244,6 +244,14 @@ jedoch nicht erhalten. Das stützt vorsichtig eine organisch entstehende
 mehrschichtige Beziehungsordnung im Sinn von M.1, nicht aber feste Feldrollen,
 Semantik oder Hierarchie.
 
+[2089](befunde/2001-3000/2089_MCM_BREITENSCHICHT_DATEN_HOLDOUT.md)
+setzt diese Prüfung in einen unabhängigen realen `30m`-Weltbestand fort. Das
+Feld bildet erneut eine große alterskontinuierliche Breitenschicht, übernimmt
+aber die alten Relationsidentitäten nicht belastbar. Der Anschluss an M.1 wird
+dadurch dynamischer und zugleich enger begrenzt: Getragen ist die Fähigkeit
+zur Umbildung relationalen Zusammenhangs, nicht ein dauerhaftes Objekt, eine
+feste semantische Klasse oder eine aktive Feldhierarchie.
+
 Damit entsteht kein Wörterbuch nach dem Muster `dio_x = feste Bedeutung`.
 Tragfähiger ist:
 
