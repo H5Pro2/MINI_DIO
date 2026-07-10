@@ -1,0 +1,2 @@
+event_integrity_exact,stored_lifecycle_observations,expected_lifecycle_observations,missing_lifecycle_observations,unexpected_lifecycle_observations,lifecycle_integrity_exact,source_events_before_start
+1,159199,159199,0,0,1,0

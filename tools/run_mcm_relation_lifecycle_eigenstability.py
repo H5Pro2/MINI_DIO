@@ -237,11 +237,13 @@ def _sample_hypergeometric(
 
 
 def _label_null(
-    records: list[dict[str, object]], permutations: int = LABEL_PERMUTATIONS
+    records: list[dict[str, object]],
+    permutations: int = LABEL_PERMUTATIONS,
+    seed: int = SEED,
 ) -> dict[str, object]:
     informative = [record for record in records if int(record["informative"]) == 1]
     observed = sum(int(record["carried_continued"]) for record in informative)
-    rng = random.Random(SEED)
+    rng = random.Random(seed)
     values = []
     for _ in range(permutations):
         values.append(
@@ -266,7 +268,7 @@ def _label_null(
         )
         / (permutations + 1),
         "permutations": permutations,
-        "seed": SEED,
+        "seed": seed,
     }
 
 
@@ -282,7 +284,9 @@ def _permuted_edges(
 
 
 def _graph_identity_null(
-    records: list[dict[str, object]], permutations: int = GRAPH_PERMUTATIONS
+    records: list[dict[str, object]],
+    permutations: int = GRAPH_PERMUTATIONS,
+    seed: int = SEED + 1,
 ) -> dict[str, object]:
     informative = [record for record in records if int(record["informative"]) == 1]
     carried_denominator = sum(int(record["carried_edges"]) for record in informative)
@@ -294,7 +298,7 @@ def _graph_identity_null(
     observed_difference = observed_carried / max(
         1, carried_denominator
     ) - observed_new / max(1, new_denominator)
-    rng = random.Random(SEED + 1)
+    rng = random.Random(seed)
     differences = []
     carried_hits = []
     new_hits = []
@@ -328,7 +332,7 @@ def _graph_identity_null(
         "null_mean_new_hits": statistics.mean(new_hits),
         "null_max_new_hits": max(new_hits),
         "permutations": permutations,
-        "seed": SEED + 1,
+        "seed": seed,
     }
 
 

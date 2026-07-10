@@ -66,3 +66,15 @@ Zukunftsgraphen überzufällig.
 
 Diese Eigenstabilität wird nicht in die Mechanik zurückgelesen. Der Lebenslauf
 bewahrt weiterhin Beobachtungen ohne Gewichtung, Auswahl oder Verstärkung.
+
+## Holdoutstand 2092
+
+In 60 unabhängigen realen `5m`-Welten aus DOGE, PAXG und XRP erscheint die
+Richtung erneut, aber schwächer. Getragene Kanten setzen sich zu 36,72 Prozent,
+neue Kontakte zu 35,04 Prozent fort. Die Relationsidentität bleibt gegenüber
+einer graphstrukturerhaltenden Null überzufällig; die primäre
+altersstratifizierte Labelkontrolle erreicht mit `p = 0,064` die festgelegte
+Grenze von 0,05 nicht.
+
+Der Stand ist deshalb eine Teilreplikation. Es wird weder ein Stabilitätswert
+gespeichert noch ein Reifealter, eine Gewichtung oder eine Rückwirkung ergänzt.

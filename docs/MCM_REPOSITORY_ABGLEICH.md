@@ -268,6 +268,14 @@ erhalten. Das vertieft den Anschluss an M.1 als eigenzeitliche relationale
 Stabilisierung, belegt aber weder aktive Selbstverstärkung noch semantische
 Autonomie oder Feldintelligenz.
 
+[2092](befunde/2001-3000/2092_MCM_RELATIONSLEBENSLAUF_UNABHAENGIGER_HOLDOUT.md)
+prüft diese Fortsetzungsordnung in einem unabhängigen realen Weltbestand. Die
+Richtung bleibt erhalten und die konkrete Relationsidentität trägt gegenüber
+der Graphstrukturkontrolle; der primäre altersstratifizierte Vergleich
+verfehlt die festgelegte Evidenzgrenze jedoch knapp. Der Anschluss an M.1 ist
+damit als schwache, weltabhängig variierende Eigenordnung eingegrenzt, nicht
+als stabile Selbstverstärkung oder fertige Feldintelligenz bestätigt.
+
 Damit entsteht kein Wörterbuch nach dem Muster `dio_x = feste Bedeutung`.
 Tragfähiger ist:
 

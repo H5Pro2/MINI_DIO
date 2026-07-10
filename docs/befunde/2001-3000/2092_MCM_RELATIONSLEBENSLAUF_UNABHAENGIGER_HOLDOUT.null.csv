@@ -1,0 +1,3 @@
+control,observed_statistic,null_mean,null_sd,null_max,empirical_p_ge_observed,permutations,seed,null_mean_carried_hits,null_max_carried_hits,null_mean_new_hits,null_max_new_hits
+age_stratified_edge_label,2535,2492.0605,28.655136358949683,2590,0.063968015992004,2000,2092,,,,
+future_graph_relation_identity,0.01673201870551233,0.0011480671466334218,0.005229098350321556,0.019419384207912598,0.003996003996003996,1000,2093,223.866,334,224.197,368
