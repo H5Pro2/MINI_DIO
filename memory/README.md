@@ -11,3 +11,5 @@ Finding 2087 appends five contradictory 5m holdout observations without changing
 Finding 2088 derives continuous breadth, sign-balance, and source-path projections from that snapshot. These projections do not add memory fields or runtime behavior.
 
 Finding 2089 balances volume-response evidence across all eight role families on existing holdout worlds. Its comparison remains a research projection and is not appended automatically.
+
+Finding 2090 transfers five predeclared family event-share directions to existing 30m worlds. The partial replication remains outside the passive memory pending a separate provenance-preserving maturation step.

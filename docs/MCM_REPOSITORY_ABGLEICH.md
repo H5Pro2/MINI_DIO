@@ -142,8 +142,9 @@ Die Befundfolge [2066](befunde/2001-3000/2066_REALVERSTAERKTE_ROLLENFAMILIEN_KOH
 [2085](befunde/2001-3000/2085_RF05_VOLUME_FELDZUSTAND_ANTWORTKOPPLUNG.md),
 [2086](befunde/2001-3000/2086_RF05_VOLUME_ORIENTIERUNGS_HOLDOUT.md),
 [2087](befunde/2001-3000/2087_PASSIVE_ANTWORT_MEMORY_WIDERSPRUCHSREIFUNG.md),
-[2088](befunde/2001-3000/2088_PASSIVE_ANTWORT_ERFAHRUNGSBREITE.md)
-und [2089](befunde/2001-3000/2089_ALLE_ROLLENFAMILIEN_VOLUME_EVIDENZBALANCE.md)
+[2088](befunde/2001-3000/2088_PASSIVE_ANTWORT_ERFAHRUNGSBREITE.md),
+[2089](befunde/2001-3000/2089_ALLE_ROLLENFAMILIEN_VOLUME_EVIDENZBALANCE.md)
+und [2090](befunde/2001-3000/2090_ALLE_ROLLENFAMILIEN_VOLUME_30M_TRANSFER.md)
 entwickelt dafür eine passive Rollenfamilien-Evidenz. Wichtig ist die Grenze:
 `2071` speichert Messwerte und Evidenzherkunft; seine sprachlichen Klassen sind
 vorläufige Report-Lesungen, keine fest einprogrammierten Bedeutungen. `2072`
@@ -240,6 +241,11 @@ zehn Gruppen; `rf_05` trägt den größten positiven Effekt und Nullabstand. Die
 gleiche Phasenlösung erzeugt somit keine feste Komponentenwirkung, sondern eine
 familienabhängige Ereignisrichtung. Das verdichtet den M.1-Anschluss als
 relationale Antworttopologie, weiterhin ohne semantische oder motorische Rolle.
+`2090` prüft fünf dieser Richtungen vorab auf 30m. `rf_05` und `rf_07`
+replizieren positiv, `rf_17` negativ; `rf_08` und `rf_21` übertragen sich nicht
+geschlossen. Der M.1-Anschluss besitzt damit einen zeitebenenübergreifenden
+Richtungskern und zugleich familienabhängige Drift. Die Richtungen bleiben
+gemessene Relationen und werden nicht zu Eigenschaften der Familien erklärt.
 
 Damit entsteht kein Wörterbuch nach dem Muster `dio_x = feste Bedeutung`.
 Tragfähiger ist:

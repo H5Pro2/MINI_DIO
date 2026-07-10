@@ -339,6 +339,8 @@ Befund 2088 vermisst erstmals die innere Erfahrungsbreite aller 32 Identitäten.
 
 Befund 2089 gleicht diese Evidenztiefe für alle acht Volumenidentitäten auf denselben zwei 5m-Holdouts an. `rf_05`, `rf_07` und `rf_08` erhöhen den Familienereignisanteil in 10/10 Gruppen; `rf_17` und `rf_21` senken ihn in 10/10. `rf_05` trägt den größten positiven Mittelwert und den größten Abstand zu seinen Pseudo-Familien. Dieselbe Volumenphasenlösung besitzt damit keine allgemeine Wirkung, sondern wird familienabhängig in entgegengesetzte Ereignisrichtungen aufgenommen.
 
+Befund 2090 überträgt diese Richtungen auf die vorhandenen 30m-Welten. Streng replizieren `rf_05` und `rf_07` positiv sowie `rf_17` negativ. Über alle drei Holdouts tragen sie 15/15 gleichgerichtete Gruppen. `rf_08` und `rf_21` verlieren auf 30m ihre geschlossene Richtung. Die Antworttopologie besitzt damit einen zeitebenenübergreifenden Kern und zugleich familienabhängige Drift.
+
 Die thematisch geordnete Kurzfassung mit direkten Links liegt in der [Befundübersicht](docs/BEFUNDE_UEBERSICHT.md).
 
 Aktuelle Befundkette:
@@ -365,6 +367,7 @@ Aktuelle Befundkette:
 - [2087: Passive Antwort-Memory mit widersprechender Erfahrung](docs/befunde/2001-3000/2087_PASSIVE_ANTWORT_MEMORY_WIDERSPRUCHSREIFUNG.md)
 - [2088: Passive Antwort-Erfahrungsbreite](docs/befunde/2001-3000/2088_PASSIVE_ANTWORT_ERFAHRUNGSBREITE.md)
 - [2089: Alle Rollenfamilien unter balancierter Volumen-Evidenz](docs/befunde/2001-3000/2089_ALLE_ROLLENFAMILIEN_VOLUME_EVIDENZBALANCE.md)
+- [2090: Familienabhängige Volumenrichtung im 30m-Transfer](docs/befunde/2001-3000/2090_ALLE_ROLLENFAMILIEN_VOLUME_30M_TRANSFER.md)
 
 ## Visueller Forschungsweg
 
