@@ -392,6 +392,14 @@ Lesbarkeit einzelner Vorwelten kontextabhaengig wechselt. Der Anschluss an H.1
 traegt damit relationale Kontextstabilitaet, noch keine feste Identitaet oder
 autonome Selbstregulation.
 
+[2109](befunde/2001-3000/2109_MCM_KONTINUITAET_ZIELUNIVERSUM_TRANSFER.md)
+uebertraegt dieselbe relative Form zwischen zwei disjunkten Saetzen
+nachfolgender Welten. Der konkrete Vorzustand bleibt staerkenormiert und
+innerhalb gleicher Assets und Jahre erkennbar. Der Anschluss an H.1 und D.3
+traegt damit eine universumsuebergreifende relationale Innenform. Sie wird von
+DIO noch nicht selbst gelesen und belegt weder Erinnerung noch autonome
+Selbstregulation.
+
 Damit entsteht kein Wörterbuch nach dem Muster `dio_x = feste Bedeutung`.
 Tragfähiger ist:
 

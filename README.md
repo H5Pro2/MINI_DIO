@@ -417,6 +417,8 @@ Befund 2107 prüft, ob diese Mikrotopologie nur allgemeiner Nachhall oder eine S
 
 Befund 2108 prüft die Kontextstabilität dieser Quellform über alle 35 möglichen komplementären Viereraufteilungen derselben acht datenblind gewählten Zielwelten. Alle 140 gerichteten Aufteilungsprüfungen bleiben über AUC 0,5; die schwächsten Werte liegen zwischen 0,600 und 0,691, die Mediane zwischen 0,793 und 0,835. Eine über alle Aufteilungen gemeinsam gehaltene asset- und jahresinterne Labelnull erreicht keinen der vier Gesamtwerte. Fast jede Vorwelt trägt im Mittel zur Trennung bei, aber nur 12 bis 18 bleiben in wirklich jeder Aufteilung individuell über 0,5. Die Quellform ist damit populationsweit kontextstabil und zugleich für einzelne Vorzustände organisch kontextabhängig.
 
+Befund 2109 trennt anschließend zwei vollständig disjunkte datenblinde Zieluniversen aus je acht Welten. Die relative Rangwechselform derselben 48 beziehungsweise 44 Vorwelten bleibt zwischen diesen Universen klar wiedererkennbar: Innerhalb gleicher Assets und Jahre liegen die AUC-Werte bei 0,859 bis 0,888, die Medianränge zwischen 1 und 2. Alle Werte und eindeutigen Nachbartreffer liegen über 4.096 Labelnullen. Dennoch verlieren einzelne Vorwelten beim Universumswechsel ihre Trennung, und alle 1.472 Feldpfade konvergieren vollständig. Getragen ist universumsübergreifende Quellform, noch keine von DIO selbst gelesene Identität.
+
 Die thematisch geordnete Kurzfassung mit direkten Links liegt in der [Befundübersicht](docs/BEFUNDE_UEBERSICHT.md).
 
 Aktuelle Befundkette:
@@ -462,6 +464,7 @@ Aktuelle Befundkette:
 - [2106: Durchgriff der MCM-Feldkontinuität auf innere Topologie](docs/befunde/2001-3000/2106_MCM_KONTINUITAET_TOPOLOGIEDURCHGRIFF.md)
 - [2107: Quellgebundene Form in der MCM-Feldkontinuität](docs/befunde/2001-3000/2107_MCM_KONTINUITAET_QUELLIDENTITAET.md)
 - [2108: Kontextstabilität der quellgebundenen MCM-Form](docs/befunde/2001-3000/2108_MCM_KONTINUITAET_KONTEXTSTABILITAET.md)
+- [2109: Transfer der MCM-Quellform zwischen getrennten Zieluniversen](docs/befunde/2001-3000/2109_MCM_KONTINUITAET_ZIELUNIVERSUM_TRANSFER.md)
 
 ## Visueller Forschungsweg
 

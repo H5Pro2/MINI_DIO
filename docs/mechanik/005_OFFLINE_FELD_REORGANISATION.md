@@ -165,6 +165,19 @@ jeder einzelnen Zielzusammensetzung. Die Formkontinuitaet ist damit als
 Population stabil und fuer konkrete Vorzustaende kontextabhaengig. Das traegt
 weiterhin keinen eigenen Offline-Takt, kein Memory und keine Rueckwirkung.
 
+## Zieluniversumstransfer 2109
+
+Zwei disjunkte, datenblind gewaehlte Zieluniversen aus je acht Welten erhalten
+die relative Quellform derselben Vorweltfelder. Die Trennung bleibt nach
+Staerkenormierung, in beiden Leserichtungen und innerhalb gleicher Assets und
+Jahre hoch. Beide unabhaengigen Datenbestaende liegen ueber allen
+gruppeninternen Labelnullen.
+
+Einzelne Vorwelten verlieren beim Universumswechsel dennoch ihre klare
+Trennung, und alle Feldpfade konvergieren spaeter exakt. Der Nachhall traegt
+damit universumsuebergreifende relationale Form, aber weiterhin kein eigenes
+Erinnern, keinen Takt und keine autonome Rueckwirkung.
+
 ## Bezug zu bestehenden Befunden
 
 Diese Mechanik fasst die Linie aus folgenden Befunden zusammen:

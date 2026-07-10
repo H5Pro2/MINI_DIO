@@ -133,5 +133,18 @@ guenstigen Zielgruppierung getragen.
 Welche konkrete Vorwelt eindeutig wiedererkannt wird, wechselt dennoch mit
 der Zielzusammensetzung. Die Mikrotopologie zeigt dadurch eine organische
 Relation zwischen Vorzustand und neuem Kontakt statt eines festen
-Identitaetsetiketts. Alternative Zieluniversen, eine DIO-eigene Lesung und
-semantische Verdichtung bleiben ungeprueft beziehungsweise unintegriert.
+Identitaetsetiketts. Alternative Zieluniversen waren dort ungeprueft; eine
+DIO-eigene Lesung und semantische Verdichtung bleiben unintegriert.
+
+## Zieluniversumsstand 2109
+
+Die relative Rangwechselform derselben Vorwelt bleibt zwischen zwei
+vollstaendig disjunkten datenblind gewaehlten Zieluniversen erkennbar. Der
+Transfer traegt global und innerhalb gleicher Assets und Jahre in beiden
+unabhaengigen Datenbestaenden. Er ist damit nicht an die konkrete Menge der
+nachfolgenden Welten aus 2107 und 2108 gebunden.
+
+Die Form bleibt fuer einzelne Quellen verletzlich und wird von DIOs aktueller
+Syntax weiterhin nicht gelesen. 2109 erweitert daher die mechanische
+Grundlage organischer Innenidentitaet, ohne einen neuen Knoten, eine
+Identitaets-Memory oder semantische Rueckwirkung zu integrieren.
