@@ -128,8 +128,9 @@ Die Befundfolge [2066](befunde/2001-3000/2066_REALVERSTAERKTE_ROLLENFAMILIEN_KOH
 [2071](befunde/2001-3000/2071_PASSIVE_ROLLENFAMILIEN_MEMORY_FOLGEWELTDRIFT.md),
 [2072](befunde/2001-3000/2072_OFFENE_ROLLENFAMILIEN_GLEICHE_SYMBOLBASIS_FOLGEWELTEN.md),
 [2073](befunde/2001-3000/2073_ROLLENFAMILIEN_REAL_NULL_KONTRAST.md),
-[2074](befunde/2001-3000/2074_RF05_CROSSYEAR_TIMEFRAME_HOLDOUT.md)
-und [2075](befunde/2001-3000/2075_RF05_KOMPONENTEN_KONTROLLEN.md)
+[2074](befunde/2001-3000/2074_RF05_CROSSYEAR_TIMEFRAME_HOLDOUT.md),
+[2075](befunde/2001-3000/2075_RF05_KOMPONENTEN_KONTROLLEN.md)
+und [2076](befunde/2001-3000/2076_RF05_KOMPONENTEN_PHASENKONTROLLEN.md)
 entwickelt dafür eine passive Rollenfamilien-Evidenz. Wichtig ist die Grenze:
 `2071` speichert Messwerte und Evidenzherkunft; seine sprachlichen Klassen sind
 vorläufige Report-Lesungen, keine fest einprogrammierten Bedeutungen. `2072`
@@ -144,7 +145,12 @@ Weltbindung ist derzeit für keine Familie allgemein belegt. `2075` grenzt
 zusätzlich eine einfache Komponentenbedeutung ab: Körpergrößen- und
 Volumen-Shuffle verstärken `rf_05`, während erst vollständiges Shape-Shuffle die
 drei Primärachsen gemeinsam senkt. Damit ist weder ein einzelnes Zeichen noch
-eine einzelne OHLCV-Komponente als Träger der Rollenfamilie belegt.
+eine einzelne OHLCV-Komponente als Träger der Rollenfamilie belegt. `2076`
+erhält die Eigenzeit einzelner Komponenten und löst nur deren relative Phase.
+Größen-, Docht- und Volumenphase tragen `rf_05` gebündelt stärker als Real. Die
+Vorzeichenphase fällt gebündelt ab, aber nicht über alle Offsets und Fensterpaare
+kohärent. Damit bleibt auch eine allgemein notwendige reale Komponentenkopplung
+unbelegt; sichtbar ist zunächst nur begrenzte Phasensensitivität.
 
 Damit entsteht kein Wörterbuch nach dem Muster `dio_x = feste Bedeutung`.
 Tragfähiger ist:
