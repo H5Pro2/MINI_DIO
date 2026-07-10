@@ -276,6 +276,14 @@ verfehlt die festgelegte Evidenzgrenze jedoch knapp. Der Anschluss an M.1 ist
 damit als schwache, weltabhängig variierende Eigenordnung eingegrenzt, nicht
 als stabile Selbstverstärkung oder fertige Feldintelligenz bestätigt.
 
+[2093](befunde/2001-3000/2093_MCM_RELATIONSLEBENSLAUF_EXAKTE_GELEGENHEIT_HERKUNFTSBALANCE.md)
+korrigiert die zugrunde gelegte Fortsetzungsgelegenheit. Relationen müssen das
+nächste Alter gleichzeitig besitzen; das bloße spätere Erreichen reicht nicht.
+Unter dieser strengeren Eigenzeitbedingung bleibt im Entwicklungsbestand nur
+ein herkunftsabhängiger, nicht belastbarer Rest und im unabhängigen Holdout
+eine leicht negative Richtung. Der Anschluss an M.1 liegt damit in der
+beobachtbaren Umbildung selbst, nicht in einer belegten Eigenstabilisierung.
+
 Damit entsteht kein Wörterbuch nach dem Muster `dio_x = feste Bedeutung`.
 Tragfähiger ist:
 

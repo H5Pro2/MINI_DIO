@@ -1,5 +1,12 @@
 # 2092 - Unabhängiger Holdout des MCM-Relationslebenslaufs
 
+> **Methodischer Nachtrag 2093:** Die damalige Fortsetzungsfähigkeit über das
+> spätere Maximalalter schloss Kanten ohne gleichzeitig erreichtes nächstes
+> Relationsalter ein. Nach exakter Korrektur setzen sich getragene Kanten zu
+> 62,23 Prozent und neue zu 63,20 Prozent fort; die Richtung ist damit leicht
+> negativ. Die Teilreplikation ist nicht bestätigt. Siehe
+> [Befund 2093](2093_MCM_RELATIONSLEBENSLAUF_EXAKTE_GELEGENHEIT_HERKUNFTSBALANCE.md).
+
 ## Zweck
 
 Befund 2091 fand im passiven Relationslebenslauf einen kleinen inneren

@@ -12,7 +12,7 @@ from tools.run_mcm_relation_lifecycle_eigenstability import (
 
 
 class MCMRelationLifecycleEigenstabilityTest(unittest.TestCase):
-    def test_transition_separates_carried_and_new_edges_on_equal_opportunity(self) -> None:
+    def test_transition_separates_labels_in_maximum_age_approximation(self) -> None:
         edges = {
             2: {("a", "b"), ("c", "d")},
             3: {("a", "b"), ("a", "c"), ("c", "d")},

@@ -71,6 +71,11 @@ def _hypergeometric_moments(
 def _transition_records(
     edges: dict[int, set[tuple[str, str]]], maximum_ages: dict[str, int]
 ) -> list[dict[str, object]]:
+    """Reproduce the historical 2091 maximum-age approximation.
+
+    Exact simultaneous opportunities require event finalizations and are
+    implemented by the 2093 provenance-balance runner.
+    """
     records = []
     for age in range(3, max(edges, default=2)):
         eligible_nodes = {

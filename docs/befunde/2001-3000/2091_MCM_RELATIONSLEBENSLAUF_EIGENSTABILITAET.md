@@ -1,5 +1,12 @@
 # 2091 - Eigenstabilität des MCM-Relationslebenslaufs
 
+> **Methodischer Nachtrag 2093:** Die damalige Fortsetzungsfähigkeit über das
+> spätere Maximalalter garantierte kein gleichzeitig erreichtes nächstes
+> Relationsalter. Nach exakter Gelegenheits- und Herkunftskorrektur bleibt nur
+> ein Abstand von 1,41 Prozentpunkten; die herkunftsstratifizierte Null trägt
+> mit `p = 0,0685` nicht. Die Eigenstabilitätsinterpretation dieses Befunds ist
+> damit nicht bestätigt. Siehe [Befund 2093](2093_MCM_RELATIONSLEBENSLAUF_EXAKTE_GELEGENHEIT_HERKUNFTSBALANCE.md).
+
 ## Zweck
 
 Befund 2090 integrierte einen passiven Lebenslauf gleichaltriger

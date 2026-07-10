@@ -78,3 +78,17 @@ Grenze von 0,05 nicht.
 
 Der Stand ist deshalb eine Teilreplikation. Es wird weder ein Stabilitätswert
 gespeichert noch ein Reifealter, eine Gewichtung oder eine Rückwirkung ergänzt.
+
+## Methodische Korrektur 2093
+
+Die Fortsetzungsvergleiche 2091 und 2092 setzten das spätere Erreichen des
+nächsten Alters mit einer gemeinsamen Gelegenheit gleich. Die exakte
+Ereigniszeit zeigt jedoch, dass eine Relation dieses Alter häufig bereits
+wieder verlassen hatte, bevor die zweite dort eintraf. Nach Entfernung dieser
+Schein-Gelegenheiten bleibt im Entwicklungsbestand kein
+herkunftsstratifiziert belastbarer Vorteil; im unabhängigen Holdout ist die
+Richtung leicht negativ.
+
+Damit ist keine übertragbare Eigenstabilität getragen. Unverändert gültig
+bleibt nur der passive, exakt rekonstruierbare Lebenslauf. Die Mechanik erhält
+keinen Stabilitätswert und keine Rückwirkung.

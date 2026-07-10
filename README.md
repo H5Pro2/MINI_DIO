@@ -385,6 +385,8 @@ Befund 2091 prüft die Eigenstabilität dieses Lebenslaufs ohne neuen Feldlauf. 
 
 Befund 2092 wiederholt diese Prüfung in 60 unabhängigen realen `5m`-Welten aus DOGE, PAXG und XRP. Die Richtung erscheint erneut, aber schwächer: Getragene Kanten setzen sich zu 36,72 Prozent fort, neue zu 35,04 Prozent. Die konkrete Relationsidentität bleibt gegenüber einer graphstrukturerhaltenden Null überzufällig, während die primäre altersstratifizierte Labelkontrolle mit `p = 0,064` knapp nicht trägt. Das ist eine Teilreplikation und noch keine Grundlage für einen Stabilitätsmarker oder eine Rücklesung in das Feld.
 
+Befund 2093 korrigiert die Vergleichsgelegenheit: Das bloße spätere Erreichen des nächsten Alters bedeutet nicht, dass beide Relationen dieses Alter gleichzeitig besitzen. Nach Entfernung dieser Schein-Gelegenheiten bleibt im 2091-Bestand nur ein herkunftsstratifiziert nicht belastbarer Vorsprung; im unabhängigen 2092-Bestand kehrt sich die Richtung leicht um. Eine übertragbare Eigenstabilität ist damit nicht getragen. Der passive Lebenslauf bleibt als exaktes Archiv organischer Umbildung bestehen, erhält aber keinen Stabilitätsmarker und keine Feldrückwirkung.
+
 Die thematisch geordnete Kurzfassung mit direkten Links liegt in der [Befundübersicht](docs/BEFUNDE_UEBERSICHT.md).
 
 Aktuelle Befundkette:
@@ -414,6 +416,7 @@ Aktuelle Befundkette:
 - [2090: Passiver MCM-Relationsnachbarschafts-Lebenslauf](docs/befunde/2001-3000/2090_PASSIVE_MCM_RELATIONSNACHBARSCHAFT_LEBENSLAUF.md)
 - [2091: Eigenstabilität des MCM-Relationslebenslaufs](docs/befunde/2001-3000/2091_MCM_RELATIONSLEBENSLAUF_EIGENSTABILITAET.md)
 - [2092: Unabhängiger Holdout des MCM-Relationslebenslaufs](docs/befunde/2001-3000/2092_MCM_RELATIONSLEBENSLAUF_UNABHAENGIGER_HOLDOUT.md)
+- [2093: Exakte Gelegenheit und Herkunftsbalance des MCM-Relationslebenslaufs](docs/befunde/2001-3000/2093_MCM_RELATIONSLEBENSLAUF_EXAKTE_GELEGENHEIT_HERKUNFTSBALANCE.md)
 
 ## Visueller Forschungsweg
 

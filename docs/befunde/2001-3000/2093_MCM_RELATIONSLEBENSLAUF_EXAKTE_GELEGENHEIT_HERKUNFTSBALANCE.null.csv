@@ -1,0 +1,3 @@
+dataset,control,observed_statistic,null_mean,null_sd,null_max,empirical_p_ge_observed,permutations,seed
+2091_basis,age_stratified_edge_label,4004,3966.4605,24.719576043087795,4065,0.06846576711644178,2000,2093
+2092_holdout,age_stratified_edge_label,2504,2540.0755,21.185273180915086,2613,0.9585207396301849,2000,2094
