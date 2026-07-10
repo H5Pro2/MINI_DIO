@@ -198,3 +198,15 @@ das Ziel praktisch dieselbe kollektive Kadenz.
 Damit trägt die Ereigniszeit übertragbare Kaltstarterfahrung, ohne eine feste
 Reifeschwelle oder Mischungsregel zu benötigen. Eine kumulative Nutzung in der
 Runtime ist noch nicht geprüft; es entsteht keine Rücklesung.
+
+## Kumulative Grenze 2100
+
+Die ungewichtete Addition jedes neuen Zielgaps zur eingefrorenen Fremderfahrung
+verbessert deren Score nur um rund 0,013 bis 0,014 Prozentpunkte. Der Effekt
+trägt nicht in beiden Vorzeichentests, ist nicht in allen Herkunftsgruppen
+positiv und liegt vollständig innerhalb einer Ziel-Gap-Labelkontrolle.
+
+Eine aktive Kadenznutzung würde damit zusätzliche Mischungs-, Vergessens- oder
+Umschaltlogik benötigen. Diese ist nicht organisch aus der Erfahrung getragen.
+Die Ereignis-Memory erhält keine Erwartungsrücklesung; der Zweig endet ohne
+neue Mechanik.

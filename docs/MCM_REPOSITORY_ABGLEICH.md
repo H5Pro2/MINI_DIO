@@ -327,6 +327,12 @@ des anderen und wird später von dessen eigener Erfahrung eingeholt. Das
 vertieft den Anschluss an D.1 als erfahrungsübertragbare relationale Kadenz,
 belegt aber noch keine aktive Erwartung oder Feldsteuerung.
 
+[2100](befunde/2001-3000/2100_MCM_KOLLEKTIVE_GAP_KADENZ_KUMULATIVE_ERFAHRUNG.md)
+prüft die einfachste organische Verbindung alter und neuer Erfahrung. Die
+ungewichtete Kumulation erzeugt keinen in beiden Richtungen und Herkünften
+robusten Zusatznutzen. Der D.1-Anschluss bleibt damit übertragbare
+Kaltstarterfahrung, nicht eine wachsende Erwartungs- oder Steuerungsmechanik.
+
 Damit entsteht kein Wörterbuch nach dem Muster `dio_x = feste Bedeutung`.
 Tragfähiger ist:
 

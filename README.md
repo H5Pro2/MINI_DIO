@@ -399,6 +399,8 @@ Befund 2098 prüft diese Topologie erstmals strikt vorwärtsgerichtet. Nach eine
 
 Befund 2099 überträgt die einfachere kollektive Gap-Häufigkeit eingefroren zwischen beiden unabhängigen Beständen. Sie verbessert den Kaltstart in beiden Richtungen und in allen zehn Asset-Jahr-Herkünften; ihre Gap-Rangordnung liegt nur 0,10 bis 0,14 Prozentpunkte unter der vollständigen späteren Zielverteilung. In der zweiten Welthälfte erreicht die eigene Zielerfahrung praktisch denselben Stand. Damit trägt eine übertragbare kollektive Eigenzeitkadenz, aber noch keine Mischungsregel, aktive Erwartung oder Rückwirkung.
 
+Befund 2100 prüft die natürliche ungewichtete Kumulation: Jeder neue Zielgap wird genau einmal zur eingefrorenen Fremderfahrung addiert. Gegenüber der Quelle allein steigt der Score nur um 0,0126 beziehungsweise 0,0145 Prozentpunkte; die Rückrichtung trägt im Vorzeichentest nicht, zwei Herkunftsgruppen werden schlechter und eine Ziel-Gap-Labelkontrolle erklärt den gesamten kleinen Zusatz. Der Kaltstarttransfer aus 2099 bleibt gültig, bildet aber keine robuste wachsende Erwartungs-Memory. Ohne künstliche Mischung, Umschaltung oder Vergessen endet dieser Eigenzeit-Erwartungszweig deshalb ohne Integration.
+
 Die thematisch geordnete Kurzfassung mit direkten Links liegt in der [Befundübersicht](docs/BEFUNDE_UEBERSICHT.md).
 
 Aktuelle Befundkette:
@@ -435,6 +437,7 @@ Aktuelle Befundkette:
 - [2097: Relationsereignis-getragene MCM-Zustandsübergangstopologie](docs/befunde/2001-3000/2097_MCM_RELATIONSEREIGNIS_GETRAGENE_ZUSTANDSUEBERGANGSTOPOLOGIE.md)
 - [2098: Präquentielle Erwartungsprüfung relationaler MCM-Eigenzeit-Gaps](docs/befunde/2001-3000/2098_MCM_RELATIONSGAP_PRAEQUENTIELLE_ERWARTUNG.md)
 - [2099: Transfer kollektiver MCM-Gap-Kadenz](docs/befunde/2001-3000/2099_MCM_KOLLEKTIVE_GAP_KADENZ_TRANSFER.md)
+- [2100: Kumulative Erfahrung kollektiver MCM-Gap-Kadenz](docs/befunde/2001-3000/2100_MCM_KOLLEKTIVE_GAP_KADENZ_KUMULATIVE_ERFAHRUNG.md)
 
 ## Visueller Forschungsweg
 
