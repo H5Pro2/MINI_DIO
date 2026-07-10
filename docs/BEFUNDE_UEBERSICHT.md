@@ -95,6 +95,10 @@ Kurzbefund: Offline-Phasen erzeugen keine einfache Kopie. Sie können alte Spure
 
 Ergänzung 2119–2121: Die Erneuerungsgrenze erzeugt lokal sichtbare, aber gelegenheitserzwungene Ablösungskanten. Auf der gleichzeitigen Ebene mehrerer Neuronenpaare entsteht echte kombinatorische Koordination. Die unmittelbar vorausgehende exakte kanonische Innenform organisiert deren bewegliche Gestalt jedoch weder im Holdout noch quellenweise oder zwischen Zieluniversen. Ein Viranzparameter, universeller Kopplungsgraph oder Memory-Eintrag ist damit nicht getragen; dieser Übergangszweig ist gesättigt.
 
+- [2122: Passive Beobachtergrenze des MCM-Feldes](befunde/2001-3000/2122_MCM_PASSIVE_BEOBACHTERGRENZE.md)
+
+Ergaenzung 2122: Vier passive Beobachter lesen dieselben 1.472 eingefrorenen Feldspuren, ohne Rohspur oder Feldzustand zu veraendern. Gemeinsame Schliessungszeiten von Aktivierung und Nachhall reproduzieren in Basis und Holdout auf Rang- sowie Feldmittelaufloesung in jeder Quelle. Eine gemischte Aufloesung reproduziert nicht. Damit wird eine projektionsgebundene Ordnung zwischen zwei inneren Zeitebenen sichtbar, aber weder ein Quantensystem noch ein unsichtbares Objekt, Viranz oder Memory behauptet.
+
 ## 6. Reifungsbahn Und Weltpassung
 
 Die MCM-Reifungsbahn verbindet Weltkontakt, Sinnesaufnahme, Feldwirkung, Nachhall, Feldzeit, Bedeutungsbreite, Rekopplung und Nullwelt-Abstand. Weltpassung wird als getragen, geöffnet, verschoben oder ausgeblendet gelesen.

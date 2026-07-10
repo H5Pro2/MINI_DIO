@@ -443,6 +443,8 @@ Befund 2120 wechselt von der erzwungenen lokalen Kante zur gleichzeitigen Erneue
 
 Befund 2121 prüft den gerichteten Übergang von der unmittelbar vorausgehenden kanonischen Innenform zur späteren kollektiven Erneuerung. Die Null bewahrt pro Strom sogar das vollständige Konfigurationsmultiset und löst nur dessen zeitliche Zuordnung zu exakten Innenformen. Ein aggregierter Abstand erscheint ausschließlich im Entwicklungsuniversum B; im Holdout trägt keine Lesung. Innerhalb jeder einzelnen Quelle sind Beobachtung und Null exakt gleich, und zwischen A und B kommt keine kollektive kanonische Innenform gemeinsam vor. Der Kontextübergang reproduziert damit nicht. Es wird weder ein Viranzparameter noch eine Kontext-Memory eingeführt; der Zweig erreicht seine Sättigungsgrenze.
 
+Befund 2122 uebernimmt von der Quantenmessung ausschliesslich die methodische Frage nach der Grenze zwischen Feld und Beobachter. Alle 1.472 Feldspuren bleiben unter vier passiven Projektionen byte-identisch und unabhaengig von deren Ausfuehrungsreihenfolge. Zwischen unmittelbarer Aktivierung und integriertem Nachhall reproduzieren gemeinsame endogene Schliessungszeiten in beiden Datenbestaenden und jeder Quelle, sofern beide Beobachter dieselbe relationale Aufloesung verwenden. Eine gemischte Aufloesung kehrt ihre Richtung im Holdout um. Getragen ist damit eine projektionsgebundene Mehrfensterordnung ohne Messrueckwirkung, nicht eine Quantenbehauptung, ein unsichtbares Objekt, Viranz oder Memory.
+
 Die thematisch geordnete Kurzfassung mit direkten Links liegt in der [Befundübersicht](docs/BEFUNDE_UEBERSICHT.md).
 
 Aktuelle Befundkette:
@@ -501,6 +503,7 @@ Aktuelle Befundkette:
 - [2119: Präquentielle Topologie der MCM-Erneuerungsablösung](docs/befunde/2001-3000/2119_MCM_PRAEQUENTIELLE_ERNEUERUNGSABLOESUNGSTOPOLOGIE.md)
 - [2120: Kollektive Topologie der MCM-Erneuerungskonfigurationen](docs/befunde/2001-3000/2120_MCM_KOLLEKTIVE_ERNEUERUNGSKONFIGURATIONSTOPOLOGIE.md)
 - [2121: Innenform und kollektive MCM-Erneuerungskopplung](docs/befunde/2001-3000/2121_MCM_INNENFORM_KOLLEKTIVE_ERNEUERUNGSKOPPLUNG.md)
+- [2122: Passive Beobachtergrenze des MCM-Feldes](docs/befunde/2001-3000/2122_MCM_PASSIVE_BEOBACHTERGRENZE.md)
 
 ## Visueller Forschungsweg
 

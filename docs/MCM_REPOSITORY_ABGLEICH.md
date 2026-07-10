@@ -493,6 +493,15 @@ moegliche Anschluss von G.1 an F bleibt damit eine Strukturhypothese, kein
 experimentell getragener Attraktor- oder Selbstregulationsmechanismus. Es wird
 kein Viranzwert und keine Kontext-Memory eingefuehrt.
 
+[2122](befunde/2001-3000/2122_MCM_PASSIVE_BEOBACHTERGRENZE.md)
+prueft die methodische Grenze zwischen unveraendertem Feldverlauf und passiver
+Beobachtung. Aktivierungs- und Nachhallereignisse besitzen in beiden
+Bestaenden gemeinsame Schliessungszeiten, wenn beide Projektionen dieselbe
+relationale Aufloesung verwenden. Der Anschluss an D.3 und H.1 erhaelt damit
+eine reproduzierte Mehrprojektionsordnung zwischen Momentanaktivierung und
+integriertem Nachhall. Sie ist weder Messrueckwirkung noch Beleg eines
+Quantensystems, Attraktors, Viranzwerts oder Memory-Mechanismus.
+
 Damit entsteht kein Wörterbuch nach dem Muster `dio_x = feste Bedeutung`.
 Tragfähiger ist:
 

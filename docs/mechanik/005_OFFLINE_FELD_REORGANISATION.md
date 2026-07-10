@@ -336,6 +336,21 @@ innerhalb einzelner Quellen. 2121 integriert keinen Viranzparameter, keine
 Kontext-Memory und keine Offline-, Bedeutungs- oder Wirkungsregel. Dieser
 Uebergangszweig ist damit gesaettigt.
 
+## Passive Beobachtergrenze 2122
+
+2122 trennt erstmals explizit den fortgefuehrten MCM-Feldverlauf von seinen
+nachgelagerten Beobachtern. Aktivierungs- und Nachhallzustaende werden einmalig
+erzeugt und danach nur als unveraenderliche Folge gelesen. Alle 1.472 Rohspuren,
+Feldendzustaende und Beobachterergebnisse bleiben unter vertauschter
+Auswertungsreihenfolge identisch.
+
+Bei kompatibler relationaler Aufloesung schliessen Aktivierungs- und
+Nachhallereignisse in Basis und Holdout haeufiger gleichzeitig als unter einer
+strominternen zirkulaeren Verschiebung. Die gemischte Aufloesung reproduziert
+nicht. Die getragene Ebene ist deshalb eine passive Mehrprojektionsordnung
+zwischen momentaner Feldbewegung und integriertem Nachhall, keine neue
+Feldsteuerung oder Memory.
+
 ## Bezug zu bestehenden Befunden
 
 Diese Mechanik fasst die Linie aus folgenden Befunden zusammen:

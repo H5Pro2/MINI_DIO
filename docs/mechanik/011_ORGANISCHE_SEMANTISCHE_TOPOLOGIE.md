@@ -289,6 +289,19 @@ unmittelbar vorausgehenden exakten Rangform gelesen werden. 2121 integriert
 weder Viranzwert noch Kontextknoten, Memory, Bedeutung oder Handlung und
 markiert die Saettigungsgrenze dieses Uebergangszweigs.
 
+## Mehrprojektionsgrenze 2122
+
+Eine organische semantische Topologie darf nicht davon abhaengen, dass eine
+einzelne festgelegte Projektion das gewuenschte Muster zeigt. 2122 liest daher
+dieselbe unveraenderte Feldspur ueber Aktivierungsrang, relative
+Aktivierungsstuetze, Nachhallrang und relative Nachhallstuetze.
+
+Gemeinsame endogene Schliessungszeiten reproduzieren zwischen Aktivierung und
+Nachhall, wenn beide Fenster dieselbe relationale Aufloesung besitzen. Bei
+gemischter Aufloesung bricht der Transfer. Damit erscheint ein erster
+beobachterstabiler Traeger ueber zwei innere Zeitebenen, jedoch noch kein
+Bedeutungsknoten und keine Wachstumsregel.
+
 ## Wiederkehrgrenze 2115
 
 Exakt proportionale Rangzyklusformen wiederholen sich in jedem kontinuierlichen
