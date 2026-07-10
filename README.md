@@ -325,6 +325,18 @@ Das ist kein Nachweis allgemeiner Intelligenz und kein Bewusstseinsbeweis. Es is
 
 Die jüngste Forschung verdichtet einzelne `dio_*`-Rollen zu passiven Rollenfamilien. Acht Familien mit 29 Mitgliedern wurden in realen Folgewelten und anschließend gegen zeitstrukturveränderte Kontrollwelten gelesen. Untersucht wird ausschließlich, wie sich das MCM-Feld unter wechselndem Weltkontakt organisiert: Wiederkehr, Kontinuität, Kopplung, Rollenbreite, Drift und Nachhall.
 
+Die Untersuchungsrichtung bleibt dabei verbindlich:
+
+```text
+Außenwelt
+  -> Aufnahme und Rezeptoren
+  -> Wirkung im MCM-Feld
+  -> zeitliche Folge innerer Rollen, Übergänge und Nachwirkungen
+  -> vorsichtiger Rückvergleich mit der Außenwelt
+```
+
+Im Fokus steht die im Feld entstandene Reihenfolge. Der Rückvergleich prüft nur, ob ihre Veränderung, Wiederkehr oder Abweichung mit dem Weltkontakt zusammenhängt. Er verschiebt weder die Untersuchung auf die Außenwelt noch macht er deren Einzelbestandteile zu inneren Bedeutungen, Rollen oder Memory-Identitäten.
+
 Dabei zeigt sich kein einheitlich realweltgebundener Familientyp:
 
 - `rf_05` lag in der ersten Kontrollgruppe zugleich bei Kontinuität, Ereignisanteil und Mitgliederabdeckung über beiden Kontrollen. Ein unabhängiger 2024-Holdout reproduzierte diesen gemeinsamen Vorsprung jedoch nicht.

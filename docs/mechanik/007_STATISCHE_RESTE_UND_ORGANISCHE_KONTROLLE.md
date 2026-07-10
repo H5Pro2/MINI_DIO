@@ -727,6 +727,31 @@ Dieser Bereich gehoert nicht zum passiven MCM-Forschungskern und muss getrennt b
 
 ## Forschungsgrenze
 
+### Untersuchungsrichtung
+
+Die Forschung darf innere Muster mit der Außenwelt vergleichen, aber ihre Richtung nicht umkehren:
+
+```text
+Außenwelt
+  -> Aufnahme und Rezeptoren
+  -> MCM-Feldwirkung
+  -> innere zeitliche Reihenfolge
+  -> Rückvergleich zur Außenwelt
+```
+
+Untersuchungsgegenstand bleibt die zeitliche Folge der inneren Feldorganisation:
+
+```text
+Rollenentstehung
+Rollenbewegung
+Übergänge
+Kopplung und Rekopplung
+Feldzeit und Nachhall
+Drift und Reorganisation
+```
+
+Eigenschaften oder Bestandteile der Außenwelt dürfen als Kontext einer vollständigen Weltlage dienen. Sie dürfen nicht zu vorgegebenen inneren Rollen, Bedeutungen oder Memory-Identitäten werden. Der Rückvergleich prüft Weltbindung und Reproduzierbarkeit der bereits im Feld entstandenen Folge; er bestimmt nicht, wonach das Feld organisiert wird.
+
 `volle Kontrolle` bedeutet hier nicht:
 
 ```text
