@@ -93,4 +93,10 @@ Diese Ordnung ist nicht binär. Kern und periphere Ausreißer überlappen; Aktua
 
 Eine gewichtungsfreie Pareto-Tiefe aus Weltpaartragung, Weltbreite und bestätigenden Weltabschlüssen bildet während des Wachstums zunehmend stabile Reifungsschichten. Zwischen Welt 60 und 81 korrelieren aufeinanderfolgende Tiefenränge mit 0,931 bis 0,942; am Endpunkt korrelieren vorwärts und rückwärts mit 0,969.
 
-Die globale Schicht 1 besteht ab Welt 40 in beiden Erfahrungswegen aus denselben zwei Relationen. Die übrigen Schichten bleiben beweglich und überlappend. Pareto-Tiefe wird deshalb noch nicht in die Runtime-Memory geschrieben und erzeugt weder Verdichtung noch Vergessen.
+Die globale Schicht 1 besteht ab Welt 40 in beiden Erfahrungswegen aus denselben zwei Relationen. Die übrigen Schichten bleiben beweglich und überlappend.
+
+## Konsolidierungsstand 2082
+
+Die Pareto-Tiefe kann außerhalb des Feldlaufs als eigene passive Historie gespeichert werden. Zehn Checkpoints aus zwei gegensätzlichen 81-Welten-Folgen bleiben dabei exakt identisch zur ungespeicherten Referenz; weder Nachbarschaftsevidenz noch spätere Feldläufe ändern sich.
+
+Diese Konsolidierung bewahrt Reifungsbahnen, erzeugt aber weiterhin weder Verdichtung noch Vergessen. Ihre unkomprimierte Fünfpunkt-Historie erhöht die Memory-Größe um rund 32 bis 33 Prozent und bleibt daher eine kontrollierte Forschungsstruktur.

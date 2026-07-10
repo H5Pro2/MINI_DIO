@@ -1,0 +1,11 @@
+sequence,position,reference_relations,source_relations,consolidated_relations,exact_relation_set,source_support_mismatches,consolidated_support_mismatches,depth_mismatches,all_exact,source_unchanged_in_memory,source_unchanged_after_reload
+forward,10,240,240,240,1,0,0,0,1,1,1
+forward,20,482,482,482,1,0,0,0,1,1,1
+forward,40,952,952,952,1,0,0,0,1,1,1
+forward,60,1591,1591,1591,1,0,0,0,1,1,1
+forward,81,2046,2046,2046,1,0,0,0,1,1,1
+reverse,10,190,190,190,1,0,0,0,1,1,1
+reverse,20,421,421,421,1,0,0,0,1,1,1
+reverse,40,928,928,928,1,0,0,0,1,1,1
+reverse,60,1541,1541,1541,1,0,0,0,1,1,1
+reverse,81,2085,2085,2085,1,0,0,0,1,1,1

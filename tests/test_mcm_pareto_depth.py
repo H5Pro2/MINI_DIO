@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import unittest
 
-from tools.run_mcm_neighborhood_pareto_depth import _pareto_depths
+from mini_dio.mcm_neighborhood_consolidation import pareto_depths
 
 
 class MCMParetoDepthTest(unittest.TestCase):
@@ -28,7 +28,7 @@ class MCMParetoDepthTest(unittest.TestCase):
             },
         ]
 
-        depths = _pareto_depths(rows)
+        depths = pareto_depths(rows)
 
         self.assertEqual(depths, {"a": 1, "c": 1, "b": 2})
 
@@ -43,7 +43,7 @@ class MCMParetoDepthTest(unittest.TestCase):
             for key in ("a", "b")
         ]
 
-        self.assertEqual(_pareto_depths(rows), {"a": 1, "b": 1})
+        self.assertEqual(pareto_depths(rows), {"a": 1, "b": 1})
 
 
 if __name__ == "__main__":

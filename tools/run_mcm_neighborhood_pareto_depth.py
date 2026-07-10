@@ -11,8 +11,13 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from dataclasses import dataclass
 from pathlib import Path
 
-
 ROOT = Path(__file__).resolve().parents[1]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
+
+from mini_dio.mcm_neighborhood_consolidation import pareto_depths
+
+
 GENERATED_DIR = ROOT / "data" / "generated" / "2081_mcm_neighborhood_pareto_depth"
 MEMORY_DIR = ROOT / "memory"
 DEBUG_ROOT = ROOT / "debug" / "2081_mcm_neighborhood_pareto_depth"
@@ -27,7 +32,6 @@ OFFLINE_LINK_CSV = (
     FINDING_DIR / "2078_WIEDERKEHRENDE_MCM_EPISODENNACHBARSCHAFTEN.links.csv"
 )
 CHECKPOINTS = (10, 20, 40, 60, 81)
-SUPPORT_AXES = ("world_pair_count", "world_count", "growth_seen_count")
 
 
 @dataclass(frozen=True)
@@ -104,49 +108,6 @@ def _strict_core() -> set[str]:
     return core
 
 
-def _dominates(left: dict[str, object], right: dict[str, object]) -> bool:
-    left_values = [int(left[axis]) for axis in SUPPORT_AXES]
-    right_values = [int(right[axis]) for axis in SUPPORT_AXES]
-    return all(
-        left_values[index] >= right_values[index] for index in range(len(SUPPORT_AXES))
-    ) and any(
-        left_values[index] > right_values[index] for index in range(len(SUPPORT_AXES))
-    )
-
-
-def _pareto_depths(rows: list[dict[str, object]]) -> dict[str, int]:
-    count = len(rows)
-    dominated_by_count = [0] * count
-    dominates: list[list[int]] = [[] for _ in rows]
-    for left_index in range(count):
-        for right_index in range(left_index + 1, count):
-            if _dominates(rows[left_index], rows[right_index]):
-                dominates[left_index].append(right_index)
-                dominated_by_count[right_index] += 1
-            elif _dominates(rows[right_index], rows[left_index]):
-                dominates[right_index].append(left_index)
-                dominated_by_count[left_index] += 1
-
-    front = [index for index, value in enumerate(dominated_by_count) if value == 0]
-    depths: dict[str, int] = {}
-    depth = 1
-    assigned = 0
-    while front:
-        next_front = []
-        for index in front:
-            depths[str(rows[index]["pair_key"])] = depth
-            assigned += 1
-            for dominated_index in dominates[index]:
-                dominated_by_count[dominated_index] -= 1
-                if dominated_by_count[dominated_index] == 0:
-                    next_front.append(dominated_index)
-        front = next_front
-        depth += 1
-    if assigned != count:
-        raise RuntimeError(f"Pareto depth assignment incomplete: {assigned}/{count}")
-    return depths
-
-
 def _snapshot_rows(
     sequence: str,
     position: int,
@@ -171,7 +132,7 @@ def _snapshot_rows(
             }
         )
     rows.sort(key=lambda row: str(row["pair_key"]))
-    depths = _pareto_depths(rows)
+    depths = pareto_depths(rows)
     max_depth = max(depths.values(), default=1)
     for row in rows:
         depth = depths[str(row["pair_key"])]

@@ -1,0 +1,11 @@
+sequence,position,relations,max_pareto_depth,layer_one_relations,history_entries,memory_size_bytes
+forward,10,240,20,1,240,4719098
+forward,20,482,36,2,722,6668208
+forward,40,952,53,2,1674,9835007
+forward,60,1591,66,2,3265,13124969
+forward,81,2046,77,2,5311,16009722
+reverse,10,190,23,1,190,4448365
+reverse,20,421,34,1,611,6392967
+reverse,40,928,55,2,1539,9665441
+reverse,60,1541,66,2,3080,12873652
+reverse,81,2085,75,2,5165,16040293

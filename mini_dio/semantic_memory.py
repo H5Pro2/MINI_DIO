@@ -50,6 +50,11 @@ from mini_dio.mcm_neighborhood_memory import (
     passive_mcm_neighborhood_profile,
     top_passive_mcm_neighborhoods,
 )
+from mini_dio.mcm_neighborhood_consolidation import (
+    consolidate_passive_mcm_neighborhood_layers as consolidate_passive_mcm_neighborhood_layers_trace,
+    passive_mcm_neighborhood_consolidation_profile,
+    top_passive_mcm_neighborhood_consolidation,
+)
 from mini_dio.mcm_preview_anchor_depth_memory import (
     store_passive_mcm_preview_anchor_depth as store_passive_mcm_preview_anchor_depth_trace,
     top_preview_anchor_depth as top_preview_anchor_depth_trace,
@@ -115,6 +120,7 @@ class SemanticMemory:
             "mcm_field_episode_memory": {},
             "passive_mcm_topology": {"nodes": {}, "edges": {}},
             "passive_mcm_neighborhood_memory": {"world_profiles": {}, "neighborhoods": {}},
+            "passive_mcm_neighborhood_consolidation": {"checkpoints": [], "relations": {}},
             "passive_inner_effect_reflection_notes": [],
             "passive_inner_effect_reflection_history": {},
             "passive_inner_effect_meaning_notes": [],
@@ -169,6 +175,10 @@ class SemanticMemory:
             self.data.setdefault(
                 "passive_mcm_neighborhood_memory",
                 {"world_profiles": {}, "neighborhoods": {}},
+            )
+            self.data.setdefault(
+                "passive_mcm_neighborhood_consolidation",
+                {"checkpoints": [], "relations": {}},
             )
             self.data.setdefault("passive_inner_effect_reflection_notes", [])
             self.data.setdefault("passive_inner_effect_reflection_history", {})
@@ -507,6 +517,26 @@ class SemanticMemory:
 
     def top_passive_mcm_neighborhoods(self, limit: int = 8) -> list[dict]:
         return top_passive_mcm_neighborhoods(self.data, limit=limit)
+
+    def consolidate_passive_mcm_neighborhood_layers(
+        self,
+        *,
+        checkpoint_label: str,
+        run_index: int = 0,
+    ) -> dict:
+        """Store one field-free passive maturation-layer checkpoint."""
+
+        return consolidate_passive_mcm_neighborhood_layers_trace(
+            self.data,
+            checkpoint_label=checkpoint_label,
+            run_index=run_index,
+        )
+
+    def passive_mcm_neighborhood_consolidation_profile(self) -> dict:
+        return passive_mcm_neighborhood_consolidation_profile(self.data)
+
+    def top_passive_mcm_neighborhood_consolidation(self, limit: int = 8) -> list[dict]:
+        return top_passive_mcm_neighborhood_consolidation(self.data, limit=limit)
 
     def compact_top(self, limit: int = 12) -> list[dict]:
         symbols = list(self.data.get("symbols", {}).values())

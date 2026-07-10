@@ -193,6 +193,13 @@ Rangfolge sowie identischer globaler Spitze. Das stützt Beziehung als
 entwickelnde Feldordnung, ohne daraus eine feste Hierarchie, Bedeutung oder
 aktive Rückwirkung abzuleiten.
 
+[2082](befunde/2001-3000/2082_PASSIVE_OFFLINE_KONSOLIDIERUNG_MCM_NACHBARSCHAFT.md)
+bewahrt fünf solcher Reifungsstände als eigene passive Offline-Historie. Alle
+späteren Feldläufe und alle zehn geprüften Zwischenstände bleiben exakt zur
+ungespeicherten Referenz. Der Anschluss an M.1 wird damit zeitlich: Beziehungen
+können eine eigene Reifungsbahn tragen, ohne dass daraus bereits Bedeutung,
+Vergessen, Handlung oder Feldrückwirkung programmiert wird.
+
 Damit entsteht kein Wörterbuch nach dem Muster `dio_x = feste Bedeutung`.
 Tragfähiger ist:
 
