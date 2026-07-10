@@ -333,7 +333,7 @@ Die jüngste Forschung verdichtet einzelne `dio_*`-Rollen zu passiven Rollenfami
 
 Die Memory speichert dafür nur Identität, Herkunft und numerische Evidenz. Begriffe wie stabil, reorganisierend oder fragmentiert bleiben nachgelagerte Forschungssprache und werden nicht als Regeln in den Organismus geschrieben. Die Anschlussfähigkeit aus realen Folgewelten ist damit zunächst ein Befund feldinterner Wiederkehr. Für keine der acht Familien ist derzeit eine allgemeine realweltspezifische Bedeutung nachgewiesen.
 
-Seit Befund 2082 besitzt MINI_DIO zusätzlich eine passive Familien-Komponenten-Antwort-Memory. Befund 2087 reift sie mit der widersprechenden unabhängigen Erfahrung aus 2086 von 217 auf 222 Beobachtungen. Die 32 Antwortidentitäten bleiben stabil; `rf_05:volume` behält das Symbol `dio_rresponse_0gpsabe` und wächst auf 21 Beobachtungen aus fünf Evidenzquellen. Die Schicht ist generisch, speichert keine Antwortklasse oder Bedeutung und bleibt vollständig von Wahrnehmung und Handlung getrennt.
+Seit Befund 2082 besitzt MINI_DIO zusätzlich eine passive Familien-Komponenten-Antwort-Memory. Befund 2091 führt die balancierten 5m- und 30m-Erfahrungen provenancegetreu zusammen. Die Memory wächst auf 322 Beobachtungen bei unverändert 32 Antwortidentitäten. Alle acht Volumenidentitäten besitzen nun jeweils 21 Beobachtungen aus fünf Evidenzquellen; `rf_05:volume` behält das Symbol `dio_rresponse_0gpsabe`. Die Schicht ist generisch, speichert keine Antwortklasse oder Bedeutung und bleibt vollständig von Wahrnehmung und Handlung getrennt.
 
 Befund 2088 vermisst erstmals die innere Erfahrungsbreite aller 32 Identitäten. `rf_05:volume:event_share` bleibt mit 21/21 positiven Beobachtungen über fünf Quellen vollständig gleichgerichtet, während Kontinuität und Abdeckung jeweils 13 positive und 8 negative Werte tragen. Vollständige Richtungsbilanzen treten auch bei anderen Antworten auf, dort aber meist erst auf Basis von sechs Beobachtungen aus zwei Quellen. Persistenz und Evidenztiefe müssen deshalb getrennt gelesen werden.
 
@@ -368,6 +368,7 @@ Aktuelle Befundkette:
 - [2088: Passive Antwort-Erfahrungsbreite](docs/befunde/2001-3000/2088_PASSIVE_ANTWORT_ERFAHRUNGSBREITE.md)
 - [2089: Alle Rollenfamilien unter balancierter Volumen-Evidenz](docs/befunde/2001-3000/2089_ALLE_ROLLENFAMILIEN_VOLUME_EVIDENZBALANCE.md)
 - [2090: Familienabhängige Volumenrichtung im 30m-Transfer](docs/befunde/2001-3000/2090_ALLE_ROLLENFAMILIEN_VOLUME_30M_TRANSFER.md)
+- [2091: Passive Volumen-Antwort-Memory mit balancierter Evidenz](docs/befunde/2001-3000/2091_PASSIVE_VOLUME_ANTWORT_MEMORY_EVIDENZBALANCE.md)
 
 ## Visueller Forschungsweg
 

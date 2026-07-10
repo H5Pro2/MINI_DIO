@@ -13,3 +13,5 @@ Finding 2088 derives continuous breadth, sign-balance, and source-path projectio
 Finding 2089 balances volume-response evidence across all eight role families on existing holdout worlds. Its comparison remains a research projection and is not appended automatically.
 
 Finding 2090 transfers five predeclared family event-share directions to existing 30m worlds. The partial replication remains outside the passive memory pending a separate provenance-preserving maturation step.
+
+Finding 2091 adds exactly 100 previously missing observations through three filtered provenance views. The snapshot contains 322 observations; all eight volume identities have 21 observations from five sources, with no duplicated `rf_05` or `rf_08` evidence.

@@ -143,8 +143,9 @@ Die Befundfolge [2066](befunde/2001-3000/2066_REALVERSTAERKTE_ROLLENFAMILIEN_KOH
 [2086](befunde/2001-3000/2086_RF05_VOLUME_ORIENTIERUNGS_HOLDOUT.md),
 [2087](befunde/2001-3000/2087_PASSIVE_ANTWORT_MEMORY_WIDERSPRUCHSREIFUNG.md),
 [2088](befunde/2001-3000/2088_PASSIVE_ANTWORT_ERFAHRUNGSBREITE.md),
-[2089](befunde/2001-3000/2089_ALLE_ROLLENFAMILIEN_VOLUME_EVIDENZBALANCE.md)
-und [2090](befunde/2001-3000/2090_ALLE_ROLLENFAMILIEN_VOLUME_30M_TRANSFER.md)
+[2089](befunde/2001-3000/2089_ALLE_ROLLENFAMILIEN_VOLUME_EVIDENZBALANCE.md),
+[2090](befunde/2001-3000/2090_ALLE_ROLLENFAMILIEN_VOLUME_30M_TRANSFER.md)
+und [2091](befunde/2001-3000/2091_PASSIVE_VOLUME_ANTWORT_MEMORY_EVIDENZBALANCE.md)
 entwickelt dafür eine passive Rollenfamilien-Evidenz. Wichtig ist die Grenze:
 `2071` speichert Messwerte und Evidenzherkunft; seine sprachlichen Klassen sind
 vorläufige Report-Lesungen, keine fest einprogrammierten Bedeutungen. `2072`
@@ -246,6 +247,12 @@ replizieren positiv, `rf_17` negativ; `rf_08` und `rf_21` übertragen sich nicht
 geschlossen. Der M.1-Anschluss besitzt damit einen zeitebenenübergreifenden
 Richtungskern und zugleich familienabhängige Drift. Die Richtungen bleiben
 gemessene Relationen und werden nicht zu Eigenschaften der Familien erklärt.
+`2091` führt die fehlenden Volumenbeobachtungen in der passiven Memory zusammen.
+Alle acht Volumenidentitäten besitzen danach dieselbe Tiefe von 21
+Beobachtungen aus fünf Quellen. Vorhandene `rf_05`- und `rf_08`-Evidenz wird
+nicht dupliziert. Der M.1-Anschluss erhält damit eine balancierte
+Erfahrungsbasis, ohne aus positiver, negativer oder driftender Richtung eine
+Familienklasse zu erzeugen.
 
 Damit entsteht kein Wörterbuch nach dem Muster `dio_x = feste Bedeutung`.
 Tragfähiger ist:
