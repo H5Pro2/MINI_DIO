@@ -333,6 +333,13 @@ ungewichtete Kumulation erzeugt keinen in beiden Richtungen und Herkünften
 robusten Zusatznutzen. Der D.1-Anschluss bleibt damit übertragbare
 Kaltstarterfahrung, nicht eine wachsende Erwartungs- oder Steuerungsmechanik.
 
+[2101](befunde/2001-3000/2101_MCM_RELATIONSEREIGNISZEIT_SYNTHESE_UND_ARCHITEKTURGRENZE.md)
+ordnet die vollständige Evidenzkette: Die relationale Eigenzeit trägt eine
+bewegliche, kausal rekonstruierbare Innenordnung, aber keine stabile Semantik,
+Vorwärtserwartung oder Handlungsableitung. Der Anschluss an D.1, H.1 und M.1
+bleibt damit strukturell und experimentell begrenzt; er rechtfertigt keine
+zusätzliche Zustands-Memory oder Feldsteuerung.
+
 Damit entsteht kein Wörterbuch nach dem Muster `dio_x = feste Bedeutung`.
 Tragfähiger ist:
 

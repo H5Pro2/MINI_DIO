@@ -401,6 +401,8 @@ Befund 2099 überträgt die einfachere kollektive Gap-Häufigkeit eingefroren zw
 
 Befund 2100 prüft die natürliche ungewichtete Kumulation: Jeder neue Zielgap wird genau einmal zur eingefrorenen Fremderfahrung addiert. Gegenüber der Quelle allein steigt der Score nur um 0,0126 beziehungsweise 0,0145 Prozentpunkte; die Rückrichtung trägt im Vorzeichentest nicht, zwei Herkunftsgruppen werden schlechter und eine Ziel-Gap-Labelkontrolle erklärt den gesamten kleinen Zusatz. Der Kaltstarttransfer aus 2099 bleibt gültig, bildet aber keine robuste wachsende Erwartungs-Memory. Ohne künstliche Mischung, Umschaltung oder Vergessen endet dieser Eigenzeit-Erwartungszweig deshalb ohne Integration.
 
+Befund 2101 ordnet die gesamte Kette 2091 bis 2100 einschließlich ihrer methodischen Korrekturen. Getragen bleibt eine bewegliche, kausal rekonstruierbare relationale Eigenordnung: Das Feld bildet Synchronisation, gemeinsame Übergangswege und eine übertragbare Kaltstartkadenz, ohne feste Mitglieder zu benötigen. Nicht getragen sind stabile Semantik, vorwärtsgerichtete Erwartung, eine zusätzliche Zustands-Memory oder direkte Feld- und Handlungswirkung. Die vorhandene Relationsereigniszeit bleibt deshalb der einzige Quellzustand dieses gesättigten Zweigs.
+
 Die thematisch geordnete Kurzfassung mit direkten Links liegt in der [Befundübersicht](docs/BEFUNDE_UEBERSICHT.md).
 
 Aktuelle Befundkette:
@@ -438,6 +440,7 @@ Aktuelle Befundkette:
 - [2098: Präquentielle Erwartungsprüfung relationaler MCM-Eigenzeit-Gaps](docs/befunde/2001-3000/2098_MCM_RELATIONSGAP_PRAEQUENTIELLE_ERWARTUNG.md)
 - [2099: Transfer kollektiver MCM-Gap-Kadenz](docs/befunde/2001-3000/2099_MCM_KOLLEKTIVE_GAP_KADENZ_TRANSFER.md)
 - [2100: Kumulative Erfahrung kollektiver MCM-Gap-Kadenz](docs/befunde/2001-3000/2100_MCM_KOLLEKTIVE_GAP_KADENZ_KUMULATIVE_ERFAHRUNG.md)
+- [2101: Synthese der MCM-Relationsereigniszeit und Architekturgrenze](docs/befunde/2001-3000/2101_MCM_RELATIONSEREIGNISZEIT_SYNTHESE_UND_ARCHITEKTURGRENZE.md)
 
 ## Visueller Forschungsweg
 

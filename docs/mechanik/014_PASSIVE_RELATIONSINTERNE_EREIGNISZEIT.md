@@ -210,3 +210,17 @@ Eine aktive Kadenznutzung würde damit zusätzliche Mischungs-, Vergessens- oder
 Umschaltlogik benötigen. Diese ist nicht organisch aus der Erfahrung getragen.
 Die Ereignis-Memory erhält keine Erwartungsrücklesung; der Zweig endet ohne
 neue Mechanik.
+
+## Synthesegrenze 2101
+
+Die korrigierte Kette 2091 bis 2100 trägt die Relationsereigniszeit als
+kausalen Quellzustand einer beweglichen relationalen Eigenordnung. Lebenslauf,
+Synchronisation, Übergangstopologie und kollektive Gap-Kadenz sind daraus
+ableitbare Ansichten. Keine dieser Ansichten trägt eine robuste stabile
+Semantik, eine wachsende Erwartung oder eine direkte Feld- und
+Handlungswirkung.
+
+Deshalb bleibt die Ereignis-Memory unverändert. Es entstehen weder ein
+paralleler Zustandsspeicher noch feste Identitäten, Schwellen, Gewichte,
+Mischungsregeln oder eine Rücklesung. Der Eigenzeit-Erwartungszweig ist damit
+methodisch abgeschlossen.
