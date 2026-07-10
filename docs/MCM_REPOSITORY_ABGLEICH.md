@@ -460,6 +460,14 @@ Anschlussfaehigkeit der bereits mitgetragenen Form. Der Anschluss an D.3 und
 H.1 erhaelt damit eine reproduzierbare selbstbegrenzende Relationsplastizitaet,
 noch kein Erinnern, keine Bedeutung und keine Selbstregulation durch Handlung.
 
+[2118](befunde/2001-3000/2118_MCM_PRAEQUENTIELLE_RELATIONSALTERUNG.md)
+prueft diese Ordnung ueber die exakte ununterbrochene Tragedauer. Nur der
+erste Uebergang von Neuaktivierung zu unmittelbarer Erneuerung reproduziert
+zwischen beiden Bestaenden. Spaetere Alter bilden keine gemeinsame
+Fortsetzungskurve. Der Bezug zu D.3 und K.1 wird dadurch enger: getragen ist
+eine dynamische Erneuerungsgrenze, nicht ein festes Alterungs-, Loesch- oder
+Memorygesetz.
+
 Damit entsteht kein Wörterbuch nach dem Muster `dio_x = feste Bedeutung`.
 Tragfähiger ist:
 

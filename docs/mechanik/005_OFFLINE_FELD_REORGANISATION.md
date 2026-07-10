@@ -287,6 +287,19 @@ erfahrene neue Formen. Das traegt eine selbstbegrenzende relationale
 Plastizitaet, aber noch keine Memory-, Offline-, Bedeutungs- oder
 Wirkungsregel.
 
+## Erneuerungsgrenze statt Relationsalterung 2118
+
+Die exakte ununterbrochene Tragedauer wird bei gleicher Gesamthaeufigkeit und
+demselben Neuronenpaar als kontinuierlicher Rang verglichen. Ueber alle Alter
+setzen sich aeltere Formen seltener fort. Jenseits des ersten Mittragens
+uebertraegt diese Richtung jedoch nicht zwischen Entwicklungsbestand,
+Holdout und Zieluniversen.
+
+Robust ist damit der erste Uebergang von Neuaktivierung zu unmittelbarer
+Erneuerung, nicht eine fortlaufende Ermuedungs- oder Loeschkurve. 2118
+integriert keinen Alterszaehler, keine Lebensdauer und keine Memory-, Offline-,
+Bedeutungs- oder Wirkungsregel.
+
 ## Bezug zu bestehenden Befunden
 
 Diese Mechanik fasst die Linie aus folgenden Befunden zusammen:

@@ -435,6 +435,8 @@ Befund 2116 wechselt von ganzen Episoden zu partiellen inneren Relationen. Ein g
 
 Befund 2117 wechselt deshalb vom rückblickenden Quellenkriterium zur rein inneren nächsten Anschlussfähigkeit. Aktuell mitgetragene und aktuell neue gerichtete Slots werden nur bei exakt gleicher bisheriger Häufigkeit und innerhalb desselben Neuronenpaares verglichen; erst danach wird der nächste Zyklus gelesen. Über 24.860 strenge Vergleichspaare liegt die AUC bei 0,451 und 0,453. Alle 48 beziehungsweise 44 Quellen sowie beide disjunkten Zieluniversen liegen unter 0,5. Wiederholt mitgetragene Relationsformen setzen sich somit seltener fort als gleich erfahrene neue Richtungsformen. Das ist ein robuster Kandidat für selbstbegrenzende Feldplastizität, noch keine Vorhersageregel, Semantik oder Handlung.
 
+Befund 2118 prüft, ob diese Ablösung mit der exakten ununterbrochenen Tragedauer kontinuierlich zunimmt. Über alle Alter liegt der ältere Slot zwar in jeder Quelle unter AUC 0,5. Sobald beide verglichenen Formen jedoch bereits mitgetragen wurden, zerfällt die Richtung: Der Entwicklungsbestand liegt bei AUC 0,504 und widerspricht sich zwischen seinen Zieluniversen, während der Holdout bei 0,486 bleibt. Robust reproduziert nur der erste Übergang von Alter 1 zu 2 mit AUC 0,446 und 0,447. Das Feld zeigt damit eine Erneuerungsgrenze, aber keine universelle Alters-, Ermüdungs- oder Löschkurve.
+
 Die thematisch geordnete Kurzfassung mit direkten Links liegt in der [Befundübersicht](docs/BEFUNDE_UEBERSICHT.md).
 
 Aktuelle Befundkette:
@@ -489,6 +491,7 @@ Aktuelle Befundkette:
 - [2115: Exakte Formwiederkehr über viele MCM-Episoden](docs/befunde/2001-3000/2115_MCM_MEHREPISODEN_EXAKTE_FORMWIEDERKEHR.md)
 - [2116: Zyklusübergreifende partielle MCM-Relationen](docs/befunde/2001-3000/2116_MCM_ZYKLUSUEBERGREIFENDE_PARTIALRELATIONEN.md)
 - [2117: Präquentielle Fortsetzung partieller MCM-Relationen](docs/befunde/2001-3000/2117_MCM_PRAEQUENTIELLE_PARTIALRELATIONSFORTSETZUNG.md)
+- [2118: Präquentielle Alterung getragener MCM-Relationen](docs/befunde/2001-3000/2118_MCM_PRAEQUENTIELLE_RELATIONSALTERUNG.md)
 
 ## Visueller Forschungsweg
 

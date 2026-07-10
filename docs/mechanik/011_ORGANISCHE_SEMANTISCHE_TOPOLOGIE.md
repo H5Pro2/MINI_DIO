@@ -240,6 +240,18 @@ Anschlussordnung: nicht Selbstverstaerkung, sondern selbstbegrenzende
 Abloesung. 2117 integriert daraus weder Online-Praediktor noch Memory,
 Bedeutung oder Handlung.
 
+## Erneuerungsgrenze 2118
+
+Die exakte laufende Tragedauer bildet keine universelle Lebenskurve. Der
+Vergleich Alter `1` gegen `2` reproduziert die Ablosungsordnung in beiden
+Bestaenden nahezu identisch. Sobald beide Relationsformen bereits getragen
+sind, widersprechen sich Entwicklungsbestand, Holdout und Zieluniversen.
+
+Die organische Grenze liegt damit zwischen Neuaktivierung und erster
+unmittelbarer Erneuerung. Weiteres Alter darf nicht als festes Relevanz-,
+Abschwaechungs- oder Loeschsignal programmiert werden. 2118 integriert weder
+Relationsalter noch Memory, Bedeutung oder Handlung.
+
 ## Wiederkehrgrenze 2115
 
 Exakt proportionale Rangzyklusformen wiederholen sich in jedem kontinuierlichen
