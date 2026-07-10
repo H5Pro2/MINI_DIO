@@ -152,6 +152,19 @@ und nicht jede Vorwelt wird eindeutig wiedererkannt. Getragen ist eine
 mechanische Grundlage innerer Formkontinuitaet, noch kein episodisches Memory,
 keine Semantik und kein autonomer Offlineprozess.
 
+## Kontextstabilitaet 2108
+
+Alle 35 komplementaeren Viereraufteilungen der acht datenblind gewaehlten
+Zielwelten erhalten die staerkenormierte Quelltrennung innerhalb gleicher
+Assets und Jahre. In beiden Leserichtungen und beiden unabhaengigen Bestaenden
+liegt jede Aufteilungs-AUC ueber 0,5. Eine ueber alle Aufteilungen gemeinsam
+gehaltene Gruppenlabelnull erreicht keinen beobachteten Gesamtwert.
+
+Fast jede Vorwelt traegt die Trennung im Mittel, aber nur ein kleinerer Teil in
+jeder einzelnen Zielzusammensetzung. Die Formkontinuitaet ist damit als
+Population stabil und fuer konkrete Vorzustaende kontextabhaengig. Das traegt
+weiterhin keinen eigenen Offline-Takt, kein Memory und keine Rueckwirkung.
+
 ## Bezug zu bestehenden Befunden
 
 Diese Mechanik fasst die Linie aus folgenden Befunden zusammen:

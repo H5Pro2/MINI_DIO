@@ -384,6 +384,14 @@ H.1 und D.3 eine relationale Quellkomponente. Sie ist kurzlebig und verteilt;
 ein Identitaetssymbol, episodisches Erinnern oder adaptive Selbstregulation
 werden dadurch noch nicht belegt.
 
+[2108](befunde/2001-3000/2108_MCM_KONTINUITAET_KONTEXTSTABILITAET.md)
+prueft diese Quellkomponente ueber alle 35 ausgeglichenen Aufteilungen des
+datenblind gewaehlten Zieluniversums. Die relative Form bleibt in jeder
+Aufteilung und beiden unabhaengigen Bestaenden sichtbar, waehrend die klare
+Lesbarkeit einzelner Vorwelten kontextabhaengig wechselt. Der Anschluss an H.1
+traegt damit relationale Kontextstabilitaet, noch keine feste Identitaet oder
+autonome Selbstregulation.
+
 Damit entsteht kein Wörterbuch nach dem Muster `dio_x = feste Bedeutung`.
 Tragfähiger ist:
 

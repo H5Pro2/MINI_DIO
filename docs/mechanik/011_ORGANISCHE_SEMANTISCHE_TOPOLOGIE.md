@@ -121,3 +121,17 @@ Die Form ist verteilt statt symbolisch: Nur ein Teil der Vorwelten wird zum
 eindeutig naechsten Nachbarn, und alle Feldpfade konvergieren spaeter exakt.
 2107 traegt deshalb quellgebundene topologische Kontinuitaet, aber noch keinen
 neuen Knotenbegriff, keine Identitaets-Memory und keine Feldrueckwirkung.
+
+## Kontextstand 2108
+
+Die relative Quellform bleibt in allen 35 moeglichen ausgeglichenen
+Aufteilungen des datenblind gewaehlten Zieluniversums sichtbar. Jede der 140
+gerichteten Pruefungen liegt innerhalb gleicher Assets und Jahre ueber der
+ungebundenen AUC von 0,5. Die Stabilitaet wird somit nicht von einer einzelnen
+guenstigen Zielgruppierung getragen.
+
+Welche konkrete Vorwelt eindeutig wiedererkannt wird, wechselt dennoch mit
+der Zielzusammensetzung. Die Mikrotopologie zeigt dadurch eine organische
+Relation zwischen Vorzustand und neuem Kontakt statt eines festen
+Identitaetsetiketts. Alternative Zieluniversen, eine DIO-eigene Lesung und
+semantische Verdichtung bleiben ungeprueft beziehungsweise unintegriert.

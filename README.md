@@ -415,6 +415,8 @@ Befund 2106 prüft den Durchgriff dieser Spur auf die entstehende innere Ordnung
 
 Befund 2107 prüft, ob diese Mikrotopologie nur allgemeiner Nachhall oder eine Spur des konkreten Vorzustands ist. 56 beziehungsweise 52 Vorwelten werden auf zwei disjunkte Gruppen aus je vier identischen Zielkontexten geführt. Die relative Verteilung der gerichteten Rangwechsel erkennt dieselbe Vorwelt in beiden Beständen besser als Fremdvorwelten, auch nach Entfernung der Gesamtstärke und innerhalb desselben Assets und Jahres. Alle Auswertungen liegen über 4.096 gruppenerhaltenden Labelnullen. Die Quellform ist dennoch keine fertige Identität: Nur ein Teil der Vorwelten ist eindeutig nächster Nachbar, und alle Feldpfade konvergieren später vollständig. Getragen ist quellgebundene Formkontinuität, noch kein Memory oder semantisches Selbstsymbol.
 
+Befund 2108 prüft die Kontextstabilität dieser Quellform über alle 35 möglichen komplementären Viereraufteilungen derselben acht datenblind gewählten Zielwelten. Alle 140 gerichteten Aufteilungsprüfungen bleiben über AUC 0,5; die schwächsten Werte liegen zwischen 0,600 und 0,691, die Mediane zwischen 0,793 und 0,835. Eine über alle Aufteilungen gemeinsam gehaltene asset- und jahresinterne Labelnull erreicht keinen der vier Gesamtwerte. Fast jede Vorwelt trägt im Mittel zur Trennung bei, aber nur 12 bis 18 bleiben in wirklich jeder Aufteilung individuell über 0,5. Die Quellform ist damit populationsweit kontextstabil und zugleich für einzelne Vorzustände organisch kontextabhängig.
+
 Die thematisch geordnete Kurzfassung mit direkten Links liegt in der [Befundübersicht](docs/BEFUNDE_UEBERSICHT.md).
 
 Aktuelle Befundkette:
@@ -459,6 +461,7 @@ Aktuelle Befundkette:
 - [2105: Kontinuierliche MCM-Feldinstanz über Kontaktgrenzen](docs/befunde/2001-3000/2105_MCM_KONTINUIERLICHE_FELDINSTANZ.md)
 - [2106: Durchgriff der MCM-Feldkontinuität auf innere Topologie](docs/befunde/2001-3000/2106_MCM_KONTINUITAET_TOPOLOGIEDURCHGRIFF.md)
 - [2107: Quellgebundene Form in der MCM-Feldkontinuität](docs/befunde/2001-3000/2107_MCM_KONTINUITAET_QUELLIDENTITAET.md)
+- [2108: Kontextstabilität der quellgebundenen MCM-Form](docs/befunde/2001-3000/2108_MCM_KONTINUITAET_KONTEXTSTABILITAET.md)
 
 ## Visueller Forschungsweg
 
