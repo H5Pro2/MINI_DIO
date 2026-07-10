@@ -1,0 +1,2 @@
+order_exact,event_integrity_exact,event_history_exact,stored_lifecycle_observations,expected_lifecycle_observations,missing_lifecycle_observations,unexpected_lifecycle_observations,lifecycle_integrity_exact
+1,1,1,212466,212466,0,0,1

@@ -55,6 +55,12 @@ from mini_dio.mcm_neighborhood_event_memory import (
     passive_mcm_neighborhood_event_profile,
     passive_mcm_neighborhood_event_relations as passive_mcm_neighborhood_event_relations_trace,
 )
+from mini_dio.mcm_relation_lifecycle_memory import (
+    LIFECYCLE_FORMAT as MCM_RELATION_LIFECYCLE_FORMAT,
+    passive_mcm_relation_lifecycle_edges as passive_mcm_relation_lifecycle_edges_trace,
+    passive_mcm_relation_lifecycle_profile,
+    top_passive_mcm_relation_lifecycle_edges,
+)
 from mini_dio.mcm_neighborhood_consolidation import (
     CONSOLIDATION_FORMAT,
     consolidate_passive_mcm_neighborhood_layers as consolidate_passive_mcm_neighborhood_layers_trace,
@@ -131,6 +137,11 @@ class SemanticMemory:
                 "format": MCM_NEIGHBORHOOD_EVENT_FORMAT,
                 "relations": {},
             },
+            "passive_mcm_relation_lifecycle_memory": {
+                "format": MCM_RELATION_LIFECYCLE_FORMAT,
+                "symbols": [],
+                "observation_chunks": [],
+            },
             "passive_mcm_neighborhood_consolidation": {
                 "format": CONSOLIDATION_FORMAT,
                 "checkpoints": [],
@@ -196,6 +207,14 @@ class SemanticMemory:
                 {
                     "format": MCM_NEIGHBORHOOD_EVENT_FORMAT,
                     "relations": {},
+                },
+            )
+            self.data.setdefault(
+                "passive_mcm_relation_lifecycle_memory",
+                {
+                    "format": MCM_RELATION_LIFECYCLE_FORMAT,
+                    "symbols": [],
+                    "observation_chunks": [],
                 },
             )
             self.data.setdefault(
@@ -549,6 +568,15 @@ class SemanticMemory:
 
     def passive_mcm_neighborhood_event_relations(self) -> dict[str, dict]:
         return passive_mcm_neighborhood_event_relations_trace(self.data)
+
+    def passive_mcm_relation_lifecycle_profile(self) -> dict:
+        return passive_mcm_relation_lifecycle_profile(self.data)
+
+    def passive_mcm_relation_lifecycle_edges(self) -> dict[str, dict]:
+        return passive_mcm_relation_lifecycle_edges_trace(self.data)
+
+    def top_passive_mcm_relation_lifecycle_edges(self, limit: int = 8) -> list[dict]:
+        return top_passive_mcm_relation_lifecycle_edges(self.data, limit=limit)
 
     def consolidate_passive_mcm_neighborhood_layers(
         self,

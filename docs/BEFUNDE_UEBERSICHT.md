@@ -113,8 +113,9 @@ Die aktuelle Kette untersucht, ob einzelne Rollen als Familienräume weiterleben
 - [2087: MCM-Eigenzeit-Kantenpersistenz](befunde/2001-3000/2087_MCM_EIGENZEIT_KANTENPERSISTENZ.md)
 - [2088: Blinder Holdout des MCM-Multiplexkandidaten](befunde/2001-3000/2088_MCM_MULTIPLEX_BLIND_HOLDOUT.md)
 - [2089: Daten-Holdout der MCM-Breitenschicht](befunde/2001-3000/2089_MCM_BREITENSCHICHT_DATEN_HOLDOUT.md)
+- [2090: Passiver MCM-Relationsnachbarschafts-Lebenslauf](befunde/2001-3000/2090_PASSIVE_MCM_RELATIONSNACHBARSCHAFT_LEBENSLAUF.md)
 
-Kurzbefund: Alle acht Familien besitzen reale Folgeweltevidenz, aber der Kontrollvergleich begrenzt deren Bedeutung deutlich. Befund 2075 beginnt deshalb mit der Integration: Innere Episoden bilden online Knoten und gerichtete Kanten. Befund 2076 zeigt einen nahezu reihenfolgenstabilen globalen Graphen ohne semantische Real-/Nullwelttrennung. Befund 2077 findet auch in längeren inneren Motiven keine belastbare Realfolgebindung. Befund 2078 findet eine kleine profil- und jahresübergreifende kontinuierliche Nachbarschaft. Befund 2079 integriert deren passive Wachstumsbedingung. Befunde 2080 bis 2084 entwickeln und begrenzen eine passive Reifungshistorie. Befund 2085 integriert 23.492 tatsächlich ausgelöste Relationsereignisse als passive Eigenzeit. Befund 2086 trennt deren Bewegungsaspekte. Befund 2087 findet einen alters- und reihenfolgenübergreifenden 19er-Breitenverbund mit darin liegendem 4er-Profilverbund. Befund 2088 bestätigt im gleichen Weltbestand eine breitere persistente Breitenschicht, nicht aber den geschlossenen Multiplexkern. Befund 2089 findet auch in 64 neuen realen `30m`-Welten eine große Breitenschicht, jedoch ohne stabile alte Mitglieder. Getragen ist dynamische Zusammenhangsbildung, nicht feste Relationsidentität oder Feldrückwirkung.
+Kurzbefund: Alle acht Familien besitzen reale Folgeweltevidenz, aber der Kontrollvergleich begrenzt deren Bedeutung deutlich. Befund 2075 beginnt deshalb mit der Integration: Innere Episoden bilden online Knoten und gerichtete Kanten. Befund 2076 zeigt einen nahezu reihenfolgenstabilen globalen Graphen ohne semantische Real-/Nullwelttrennung. Befund 2077 findet auch in längeren inneren Motiven keine belastbare Realfolgebindung. Befund 2078 findet eine kleine profil- und jahresübergreifende kontinuierliche Nachbarschaft. Befund 2079 integriert deren passive Wachstumsbedingung. Befunde 2080 bis 2084 entwickeln und begrenzen eine passive Reifungshistorie. Befund 2085 integriert Relationsereignisse als passive Eigenzeit. Befunde 2086 bis 2089 zeigen eine wiederkehrende Breitenschicht ohne stabile alte Mitglieder. Befund 2090 integriert deshalb keine Komponente, sondern den passiven Lebenslauf gleichaltriger gegenseitiger Relationsnachbarschaften. Die bestehende Eigenzeit bleibt bytegleich; Feld- und Handlungsrückwirkung bleiben ausgeschlossen.
 
 ## 8. Methodische Grenzen Und Gegenproben
 
@@ -129,6 +130,7 @@ Wichtige Mechanikdokumente:
 - [Passive wachsende Nachbarschafts-Memory](mechanik/012_PASSIVE_WACHSENDE_NACHBARSCHAFTS_MEMORY.md)
 - [Passive Offline-Nachbarschafts-Konsolidierung](mechanik/013_PASSIVE_OFFLINE_NACHBARSCHAFTS_KONSOLIDIERUNG.md)
 - [Passive relationsinterne Ereigniszeit](mechanik/014_PASSIVE_RELATIONSINTERNE_EREIGNISZEIT.md)
+- [Passiver MCM-Relationsnachbarschafts-Lebenslauf](mechanik/015_PASSIVER_MCM_RELATIONSNACHBARSCHAFT_LEBENSLAUF.md)
 
 ## Vollständiger Befundbestand
 

@@ -137,3 +137,15 @@ Die Ereigniszeit trägt damit die erneute Entstehung von Zusammenhang, nicht
 die dauerhafte Identität seiner Mitglieder. Es wird weiterhin keine Komponente
 gespeichert oder zurückgelesen. Insbesondere erzeugt der Befund keine feste
 Klasse, kein Gate und keine Feld- oder Handlungswirkung.
+
+## Lebenslaufanschluss 2090
+
+Die Eigenzeit dient nun als einzige Quelle einer nachgelagerten passiven
+Relationsnachbarschaft. Nur vollständig beobachtete Relationen gleichen Alters
+werden anhand ihrer Breitenbewegung verglichen. Ihre gegenseitigen nächsten
+Nachbarschaften werden kompakt gespeichert, aber nicht in die Ereigniszeit
+zurückgelesen.
+
+Der 64-Welten-Replay erhält alle 10.092 bisherigen Relationsereignisse
+bytegleich. Die Ereignis-Memory bleibt damit Quelle des Lebenslaufs, nicht sein
+Produkt und nicht sein Steuerobjekt.

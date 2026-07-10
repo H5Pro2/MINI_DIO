@@ -8,6 +8,9 @@ from mini_dio.dio_syntax import make_mcm_field_episode_symbol
 from mini_dio.mcm_neighborhood_event_memory import (
     observe_passive_mcm_neighborhood_growth_event,
 )
+from mini_dio.mcm_relation_lifecycle_memory import (
+    observe_passive_mcm_relation_lifecycle,
+)
 
 
 PASSIVE_NEIGHBOR_BOUNDARY = {
@@ -299,6 +302,7 @@ def _grow_neighborhoods(
 
     neighborhoods = dict(layer.get("neighborhoods", {}) or {})
     finalization_index = _safe_int(layer.get("finalization_count")) + 1
+    changed_relations: set[str] = set()
     for pair, evidence in current.items():
         symbol = _neighbor_symbol(*pair)
         record = dict(neighborhoods.get(symbol, {}) or {})
@@ -359,10 +363,16 @@ def _grow_neighborhoods(
             record,
             finalization_index=finalization_index,
         )
+        changed_relations.add(symbol)
 
     layer["neighborhoods"] = neighborhoods
     layer["finalization_count"] = finalization_index
     layer["finalized_world_profiles"] = len(prior_worlds) + 1
+    observe_passive_mcm_relation_lifecycle(
+        data,
+        finalization_index=finalization_index,
+        changed_relations=changed_relations,
+    )
     layer["active_neighborhoods"] = len(neighborhoods)
     layer["historical_neighborhoods"] = len(neighborhoods)
 

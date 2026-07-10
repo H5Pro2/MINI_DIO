@@ -252,6 +252,14 @@ dadurch dynamischer und zugleich enger begrenzt: Getragen ist die Fähigkeit
 zur Umbildung relationalen Zusammenhangs, nicht ein dauerhaftes Objekt, eine
 feste semantische Klasse oder eine aktive Feldhierarchie.
 
+[2090](befunde/2001-3000/2090_PASSIVE_MCM_RELATIONSNACHBARSCHAFT_LEBENSLAUF.md)
+integriert diese dynamische Grenze als passive Runtime-Struktur. Beziehungen
+gleichen Eigenalters bilden ohne feste Mitglieder oder Distanzschwelle
+gegenseitige Bewegungsnachbarschaften und bewahren deren Wiederkehr sowie
+Partnerwechsel. Das ist mit M.1 als erfahrungsabhängige Umbildung relationaler
+Ordnung vereinbar. Es bestätigt weder eine fertige Semantik noch bewusste
+Selbstorganisation und erzeugt keine aktive Feldhierarchie.
+
 Damit entsteht kein Wörterbuch nach dem Muster `dio_x = feste Bedeutung`.
 Tragfähiger ist:
 

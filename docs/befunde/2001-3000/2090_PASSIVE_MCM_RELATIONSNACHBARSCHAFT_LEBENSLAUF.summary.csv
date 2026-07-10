@@ -1,0 +1,2 @@
+worlds,relations,events,event_history_exact,lifecycle_relations,lifecycle_edges,lifecycle_observations,recurring_edges,edges_reappearing_at_later_age,relations_with_multiple_partners,maximum_relation_age,source_events_before_start,memory_size_bytes,lifecycle_document_bytes,archive_bytes,read_by_mini_dio,influences_field,influences_action,stores_components,uses_fixed_members,uses_distance_threshold
+64,2580,10092,1,1203,184300,212466,22801,22801,1188,52,0,15251405,903742,3648944,0,0,0,0,0,0

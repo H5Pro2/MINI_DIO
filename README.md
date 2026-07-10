@@ -379,6 +379,8 @@ Befund 2088 prüft diesen Multiplexkandidaten blind in einer dritten, vorab per 
 
 Befund 2089 verlässt den alten Weltbestand mit 64 neuen realen `30m`-Welten aus BTC/SOL 2024/2025. Blind entsteht erneut eine große alterskontinuierliche Breitenschicht, ihre Mitglieder stimmen jedoch weder mit dem 19er-Verbund aus 2087 noch mit der 70er-Komponente aus 2088 belastbar überein. Das Feld bewahrt damit seine Fähigkeit zur Zusammenhangsbildung, nicht feste Relationsidentitäten. Diese Umbildungsfähigkeit wird nicht als Klasse, Regel oder Rückwirkung programmiert.
 
+Befund 2090 überführt diese Umbildungsfähigkeit in einen passiven Relationsnachbarschafts-Lebenslauf. Gleichaltrige Beziehungen bilden aus ihrer eigenen Breitenbewegung gegenseitige Nachbarn, ohne feste Distanz, Mitglieder oder Altersliste. Im exakten 64-Welten-Replay entstehen 212.466 Beobachtungen zwischen 1.203 Relationen; 12,37 Prozent der Kanten kehren bei höherem Eigenalter wieder, während der größte Teil beweglicher Frühkontakt bleibt. Alle bisherigen Relationsereignisse bleiben bytegleich und die komprimierte Ebene beeinflusst weder Feld noch Handlung.
+
 Die thematisch geordnete Kurzfassung mit direkten Links liegt in der [Befundübersicht](docs/BEFUNDE_UEBERSICHT.md).
 
 Aktuelle Befundkette:
@@ -405,6 +407,7 @@ Aktuelle Befundkette:
 - [2087: MCM-Eigenzeit-Kantenpersistenz](docs/befunde/2001-3000/2087_MCM_EIGENZEIT_KANTENPERSISTENZ.md)
 - [2088: Blinder Holdout des MCM-Multiplexkandidaten](docs/befunde/2001-3000/2088_MCM_MULTIPLEX_BLIND_HOLDOUT.md)
 - [2089: Daten-Holdout der MCM-Breitenschicht](docs/befunde/2001-3000/2089_MCM_BREITENSCHICHT_DATEN_HOLDOUT.md)
+- [2090: Passiver MCM-Relationsnachbarschafts-Lebenslauf](docs/befunde/2001-3000/2090_PASSIVE_MCM_RELATIONSNACHBARSCHAFT_LEBENSLAUF.md)
 
 ## Visueller Forschungsweg
 
