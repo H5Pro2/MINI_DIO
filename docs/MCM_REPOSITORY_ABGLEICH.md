@@ -485,6 +485,14 @@ Feldkoordination. Weil konkrete Gestalt und Quellenrichtung nicht gemeinsam
 uebertragen, folgt daraus noch kein stabiler M.1-Beziehungsgraph, kein
 Erinnern und keine Selbstregulation durch Handlung.
 
+[2121](befunde/2001-3000/2121_MCM_INNENFORM_KOLLEKTIVE_ERNEUERUNGSKOPPLUNG.md)
+prueft, ob die unmittelbar vorausgehende kanonische Innenform die spaetere
+kollektive Erneuerung organisiert. Der gerichtete Kontextuebergang traegt
+weder im Holdout noch quellenweise oder zwischen getrennten Zieluniversen. Der
+moegliche Anschluss von G.1 an F bleibt damit eine Strukturhypothese, kein
+experimentell getragener Attraktor- oder Selbstregulationsmechanismus. Es wird
+kein Viranzwert und keine Kontext-Memory eingefuehrt.
+
 Damit entsteht kein Wörterbuch nach dem Muster `dio_x = feste Bedeutung`.
 Tragfähiger ist:
 

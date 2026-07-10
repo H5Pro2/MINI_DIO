@@ -324,6 +324,18 @@ Bestaenden; auch die kleinere Kopplung bleibt im Holdout quellenweise
 uneinheitlich. 2120 traegt kollektive Feldkoordination, aber keine feste
 Konfiguration und keine Memory-, Offline-, Bedeutungs- oder Wirkungsregel.
 
+## Kontextgrenze kollektiver Erneuerung 2121
+
+Die unmittelbar vorausgehende kanonische Rangform wird mit der spaeteren
+kollektiven Erneuerung verbunden. Eine strenge Zeitnull bewahrt pro Strom das
+vollstaendige Konfigurationsmultiset und loest nur dessen Zuordnung zum
+Innenkontext.
+
+Der Zusammenhang traegt weder im Holdout noch zwischen den Zieluniversen oder
+innerhalb einzelner Quellen. 2121 integriert keinen Viranzparameter, keine
+Kontext-Memory und keine Offline-, Bedeutungs- oder Wirkungsregel. Dieser
+Uebergangszweig ist damit gesaettigt.
+
 ## Bezug zu bestehenden Befunden
 
 Diese Mechanik fasst die Linie aus folgenden Befunden zusammen:

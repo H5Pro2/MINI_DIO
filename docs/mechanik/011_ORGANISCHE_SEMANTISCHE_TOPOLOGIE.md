@@ -277,6 +277,18 @@ kleinere Kopplung bleibt im Holdout quellenweise uneinheitlich. 2120
 integriert deshalb weder kollektiven Knoten noch Kopplungsgraph, Memory,
 Bedeutung oder Handlung.
 
+## Innenform-Erneuerungsgrenze 2121
+
+Die zeitlich vorausgehende exakte kanonische Innenform organisiert die
+konkrete kollektive Erneuerung nicht reproduzierbar. Ein aggregierter Abstand
+erscheint nur im Entwicklungsuniversum B; im Holdout, innerhalb aller Quellen
+und zwischen A und B traegt die Zuordnung nicht.
+
+Die bewegliche kollektive Ordnung aus 2120 darf deshalb nicht als Wirkung der
+unmittelbar vorausgehenden exakten Rangform gelesen werden. 2121 integriert
+weder Viranzwert noch Kontextknoten, Memory, Bedeutung oder Handlung und
+markiert die Saettigungsgrenze dieses Uebergangszweigs.
+
 ## Wiederkehrgrenze 2115
 
 Exakt proportionale Rangzyklusformen wiederholen sich in jedem kontinuierlichen
