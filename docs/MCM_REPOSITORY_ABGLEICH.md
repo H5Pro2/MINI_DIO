@@ -361,6 +361,13 @@ Die passiven Sleep-Spuren werden vom normalen Folgelauf nicht konsumiert.
 Damit ist adaptive Selbstregulation als MCM-Anschluss weiterhin eine
 Forschungshypothese, noch kein autonomer Prozess in MINI_DIO.
 
+[2105](befunde/2001-3000/2105_MCM_KONTINUIERLICHE_FELDINSTANZ.md)
+prüft die fehlende Feldkontinuität isoliert. Eine fortgeführte Feldinstanz
+trägt in beiden unabhängigen Beständen einen klaren afterimage-gebundenen
+Vorzustand in den nächsten Kontakt, konvergiert dort aber immer vollständig
+zum Resetfeld. Der Anschluss an D.3 und K.1 erhält damit eine reale zeitliche
+Grundlage, noch keine dauerhafte Bedeutung oder autonome Selbstregulation.
+
 Damit entsteht kein Wörterbuch nach dem Muster `dio_x = feste Bedeutung`.
 Tragfähiger ist:
 

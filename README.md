@@ -409,6 +409,8 @@ Befund 2103 trennt diese Bewegung in direkte Ereignisträger und indirekt versch
 
 Befund 2104 gleicht anschließend die vorhandenen Nachhall-, Sleep- und Offlinepfade direkt mit dem Code ab. MINI_DIO besitzt innere Zustandsabhängigkeit und memory-getragene Offline-Inhalte: Nachhall kann unter weiteren Feldschritten ausklingen, gespeicherte Episodenrollen können ein rekursives Sleep-Milieu bilden. Start, Takt, Dauer und Ende dieser Prozesse werden jedoch vollständig durch externe Tools gesetzt; Real-, Sleep- und Folgeweltfelder sind getrennte Instanzen, und die passive Sleep-Memory wird vom normalen Folgelauf nicht gelesen. Der aktuelle Stand ist daher ein extern bereitgestelltes Offline-Milieu mit innerer Dynamik, noch keine autonome endogene Feldaktivität.
 
+Befund 2105 isoliert daraufhin die fehlende Feldkontinuität. Dieselben 114 realen Nachbarfenster werden in beide Richtungen einmal mit Reset und einmal mit derselben fortgeführten MCM-Feldinstanz geprüft. Ohne Leerlücke wirkt der Vorzustand im Median 297 Ticks in die Folgewelt; nach 64 reizfreien Ticks noch rund 233 bis 235. Die Wirkungsstärke fällt dabei um etwa Faktor 3.500, und alle 1.824 Einzelvergleiche konvergieren innerhalb der Folgewelt bitgenau zum Resetfeld. Feldkontinuität bewahrt somit eine reale, afterimage-getragene und selbstbegrenzende Innenzustandsspur, aber noch keine dauerhafte Semantik, Memory oder autonome Aktivität.
+
 Die thematisch geordnete Kurzfassung mit direkten Links liegt in der [Befundübersicht](docs/BEFUNDE_UEBERSICHT.md).
 
 Aktuelle Befundkette:
@@ -450,6 +452,7 @@ Aktuelle Befundkette:
 - [2102: Relationale Pareto-Selbstabweichung des MCM-Feldverlaufs](docs/befunde/2001-3000/2102_MCM_RELATIONALE_PARETO_SELBSTABWEICHUNG.md)
 - [2103: Indirekte Pareto-Feldumverteilung des MCM-Feldverlaufs](docs/befunde/2001-3000/2103_MCM_PARETO_INDIREKTE_FELDUMVERTEILUNG.md)
 - [2104: Architekturabgleich endogener MCM-Feldaktivität](docs/befunde/2001-3000/2104_MCM_ENDOGENE_FELDAKTIVITAET_ARCHITEKTURABGLEICH.md)
+- [2105: Kontinuierliche MCM-Feldinstanz über Kontaktgrenzen](docs/befunde/2001-3000/2105_MCM_KONTINUIERLICHE_FELDINSTANZ.md)
 
 ## Visueller Forschungsweg
 

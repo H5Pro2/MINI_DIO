@@ -107,6 +107,22 @@ Noch nicht getragen sind ein eigener Sleep-Ausloeser, eigene Laufdauer,
 Kontinuitaet desselben Feldes durch Real-Sleep-Real oder eine kausale
 Rueckwirkung auf den naechsten Feldlauf.
 
+## Kontinuitaetsstand 2105
+
+Eine isolierte Gegenprobe behaelt dieselbe `MiniMCMField`-Instanz ueber reale
+Kontaktpaare und reizfreie Zwischenphasen. In allen 228 gerichteten Paaren
+wirkt der vorherige Feldzustand zunaechst in die Folgewelt. Die erste
+Folgedifferenz wird stark vom neuronalen Afterimage getragen.
+
+Die Wirkung ist selbstbegrenzend: Alle Kontinuitaetspfade werden innerhalb der
+Folgewelt bitgenau identisch zum Resetfeld. Reizfreie Luecken reduzieren die
+Staerke um mehrere Groessenordnungen, waehrend sehr kleine numerische Reste
+noch ueber viele Ticks unterscheidbar bleiben.
+
+Damit ist Feldkontinuitaet als reale mechanische Grundlage getragen. Noch
+nicht getragen sind eine Runtime-Integration, dauerhafte Semantik, ein eigener
+Takt oder autonome Offline-Aktivitaet.
+
 ## Bezug zu bestehenden Befunden
 
 Diese Mechanik fasst die Linie aus folgenden Befunden zusammen:
