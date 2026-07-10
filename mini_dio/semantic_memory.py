@@ -44,6 +44,12 @@ from mini_dio.mcm_topological_memory import (
     top_passive_mcm_topology_edges,
     top_passive_mcm_topology_nodes,
 )
+from mini_dio.mcm_neighborhood_memory import (
+    finalize_passive_mcm_neighborhood_world as finalize_passive_mcm_neighborhood_world_trace,
+    observe_passive_mcm_neighborhood_episode as observe_passive_mcm_neighborhood_episode_trace,
+    passive_mcm_neighborhood_profile,
+    top_passive_mcm_neighborhoods,
+)
 from mini_dio.mcm_preview_anchor_depth_memory import (
     store_passive_mcm_preview_anchor_depth as store_passive_mcm_preview_anchor_depth_trace,
     top_preview_anchor_depth as top_preview_anchor_depth_trace,
@@ -108,6 +114,7 @@ class SemanticMemory:
             "episode_memory": {},
             "mcm_field_episode_memory": {},
             "passive_mcm_topology": {"nodes": {}, "edges": {}},
+            "passive_mcm_neighborhood_memory": {"world_profiles": {}, "neighborhoods": {}},
             "passive_inner_effect_reflection_notes": [],
             "passive_inner_effect_reflection_history": {},
             "passive_inner_effect_meaning_notes": [],
@@ -159,6 +166,10 @@ class SemanticMemory:
             self.data.setdefault("episode_memory", {})
             self.data.setdefault("mcm_field_episode_memory", {})
             self.data.setdefault("passive_mcm_topology", {"nodes": {}, "edges": {}})
+            self.data.setdefault(
+                "passive_mcm_neighborhood_memory",
+                {"world_profiles": {}, "neighborhoods": {}},
+            )
             self.data.setdefault("passive_inner_effect_reflection_notes", [])
             self.data.setdefault("passive_inner_effect_reflection_history", {})
             self.data.setdefault("passive_inner_effect_meaning_notes", [])
@@ -460,6 +471,42 @@ class SemanticMemory:
 
     def top_passive_mcm_topology_edges(self, limit: int = 8) -> list[dict]:
         return top_passive_mcm_topology_edges(self.data, limit=limit)
+
+    def observe_passive_mcm_neighborhood_episode(
+        self,
+        payload: dict,
+        *,
+        world: str = "",
+        run_index: int = 0,
+    ) -> dict:
+        """Accumulate inner episode profiles without reading them into the field."""
+
+        return observe_passive_mcm_neighborhood_episode_trace(
+            self.data,
+            payload,
+            world=world,
+            run_index=run_index,
+        )
+
+    def finalize_passive_mcm_neighborhood_world(
+        self,
+        *,
+        world: str = "",
+        run_index: int = 0,
+    ) -> dict:
+        """Reorganize passive neighborhoods after one completed world run."""
+
+        return finalize_passive_mcm_neighborhood_world_trace(
+            self.data,
+            world=world,
+            run_index=run_index,
+        )
+
+    def passive_mcm_neighborhood_profile(self) -> dict:
+        return passive_mcm_neighborhood_profile(self.data)
+
+    def top_passive_mcm_neighborhoods(self, limit: int = 8) -> list[dict]:
+        return top_passive_mcm_neighborhoods(self.data, limit=limit)
 
     def compact_top(self, limit: int = 12) -> list[dict]:
         symbols = list(self.data.get("symbols", {}).values())

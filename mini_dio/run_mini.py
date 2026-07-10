@@ -726,6 +726,11 @@ def run_once(
                 world=passive_world_label or "",
                 run_index=run_index,
             )
+            memory.observe_passive_mcm_neighborhood_episode(
+                episode_payload,
+                world=passive_world_label or "",
+                run_index=run_index,
+            )
             mcm_topology_node_symbol = str(topology_observation.get("node_symbol", "") or "-")
             mcm_topology_edge_symbol = str(topology_observation.get("edge_symbol", "") or "-")
             if mcm_topology_node_symbol != "-":
@@ -939,6 +944,11 @@ def run_once(
             world=passive_world_label or "",
             run_index=run_index,
         )
+        memory.observe_passive_mcm_neighborhood_episode(
+            episode_payload,
+            world=passive_world_label or "",
+            run_index=run_index,
+        )
         mcm_topology_node_symbol = str(topology_observation.get("node_symbol", "") or "")
         mcm_topology_edge_symbol = str(topology_observation.get("edge_symbol", "") or "")
         if mcm_topology_node_symbol:
@@ -950,6 +960,11 @@ def run_once(
         mcm_field_episode_written += 1
         transition_key = str(episode_payload.get("transition", "") or "-")
         episode_transition_counter[transition_key] = int(episode_transition_counter.get(transition_key, 0) or 0) + 1
+
+    memory.finalize_passive_mcm_neighborhood_world(
+        world=passive_world_label or "",
+        run_index=run_index,
+    )
 
     with episode_path.open("w", newline="", encoding="utf-8") as handle:
         writer = csv.DictWriter(handle, fieldnames=list(rows[0].keys()) if rows else [])
@@ -984,6 +999,8 @@ def run_once(
         "passive_mcm_topology_profile": memory.passive_mcm_topology_profile(),
         "passive_mcm_topology_top_nodes": memory.top_passive_mcm_topology_nodes(8),
         "passive_mcm_topology_top_edges": memory.top_passive_mcm_topology_edges(8),
+        "passive_mcm_neighborhood_profile": memory.passive_mcm_neighborhood_profile(),
+        "passive_mcm_neighborhood_top": memory.top_passive_mcm_neighborhoods(8),
         "preview_anchor_depth_states": dict(sorted(preview_anchor_depth_counter.items())),
         "avg_preview_anchor_depth_score": sum(preview_anchor_depth_values) / max(1, len(preview_anchor_depth_values)),
         "max_preview_anchor_depth_score": max(preview_anchor_depth_values) if preview_anchor_depth_values else 0.0,

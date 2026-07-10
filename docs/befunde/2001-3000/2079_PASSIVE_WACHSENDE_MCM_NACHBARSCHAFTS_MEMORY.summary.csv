@@ -1,0 +1,3 @@
+sequence,world_profiles,episode_observations,active_neighborhoods,historical_neighborhoods,active_three_scope_neighborhoods,active_world_pair_observations,offline_all_links_present,offline_three_scope_links_present,offline_strict_core_present,memory_size_bytes
+forward,81,2037,2046,2046,541,45029,1705,436,26,12602411
+reverse,81,2037,2085,2085,542,45092,1716,431,26,12667721

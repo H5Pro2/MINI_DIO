@@ -1,0 +1,8 @@
+scope,left,right,left_count,right_count,shared,jaccard
+active_online,forward,reverse,2046,2085,1935,0.8811475409836066
+three_scope_online,forward,reverse,541,542,503,0.8672413793103448
+active_vs_2078,forward,offline_2078,2046,2116,1705,0.693935693935694
+active_vs_2078,reverse,offline_2078,2085,2116,1716,0.6905432595573441
+three_scope_vs_2078,forward,offline_2078,541,594,436,0.6237482117310443
+three_scope_vs_2078,reverse,offline_2078,542,594,431,0.6113475177304964
+offline_strict_core_presence,forward,reverse,26,26,26,1.0

@@ -357,6 +357,8 @@ Befund 2077 prüft längere innere Episodenfolgen und kontinuierliche Feldprofil
 
 Befund 2078 findet zwischen verschiedenen exakten Episodenidentitäten erstmals eine reproduzierbare kontinuierliche Nachbarschaftsebene. 26 Relationen bleiben über beide Jahre, den Jahresübergang und alle drei internen Profilräume sichtbar. Diese Geometrie ist jedoch nicht realexklusiv und bleibt vollständig passiv: Nähe ist noch keine Bedeutung.
 
+Befund 2079 integriert nur die Wachstumsbedingung dieser Ebene. In zwei gegensätzlich geordneten fortlaufenden 81-Welten-Memories wachsen alle 26 Kernrelationen selbstständig erneut. Die Gesamtgraphen erreichen Jaccard 0,881, der Dreiprofil-Kern 0,867. Die Nachbarschafts-Memory bleibt für Feld und Handlung unlesbar und besitzt noch keine organische Verdichtung oder Vergessensdynamik.
+
 Die thematisch geordnete Kurzfassung mit direkten Links liegt in der [Befundübersicht](docs/BEFUNDE_UEBERSICHT.md).
 
 Aktuelle Befundkette:
@@ -372,6 +374,7 @@ Aktuelle Befundkette:
 - [2076: MCM-Topologie im Mehrwelt-Wachstum](docs/befunde/2001-3000/2076_MCM_TOPOLOGIE_MEHRWELT_WACHSTUM.md)
 - [2077: MCM-Topologie, Folgen und Profilabstände](docs/befunde/2001-3000/2077_MCM_TOPOLOGIE_FOLGEN_UND_PROFILABSTAENDE.md)
 - [2078: Wiederkehrende MCM-Episodennachbarschaften](docs/befunde/2001-3000/2078_WIEDERKEHRENDE_MCM_EPISODENNACHBARSCHAFTEN.md)
+- [2079: Passive wachsende MCM-Nachbarschafts-Memory](docs/befunde/2001-3000/2079_PASSIVE_WACHSENDE_MCM_NACHBARSCHAFTS_MEMORY.md)
 
 ## Visueller Forschungsweg
 

@@ -102,8 +102,9 @@ Die aktuelle Kette untersucht, ob einzelne Rollen als Familienräume weiterleben
 - [2076: MCM-Topologie im Mehrwelt-Wachstum](befunde/2001-3000/2076_MCM_TOPOLOGIE_MEHRWELT_WACHSTUM.md)
 - [2077: MCM-Topologie, Folgen und Profilabstände](befunde/2001-3000/2077_MCM_TOPOLOGIE_FOLGEN_UND_PROFILABSTAENDE.md)
 - [2078: Wiederkehrende MCM-Episodennachbarschaften](befunde/2001-3000/2078_WIEDERKEHRENDE_MCM_EPISODENNACHBARSCHAFTEN.md)
+- [2079: Passive wachsende MCM-Nachbarschafts-Memory](befunde/2001-3000/2079_PASSIVE_WACHSENDE_MCM_NACHBARSCHAFTS_MEMORY.md)
 
-Kurzbefund: Alle acht Familien besitzen reale Folgeweltevidenz, aber der Kontrollvergleich begrenzt deren Bedeutung deutlich. Befund 2075 beginnt deshalb mit der Integration: Innere Episoden bilden online Knoten und gerichtete Kanten. Befund 2076 zeigt einen nahezu reihenfolgenstabilen globalen Graphen ohne semantische Real-/Nullwelttrennung. Befund 2077 findet auch in längeren inneren Motiven keine belastbare Realfolgebindung. Befund 2078 findet erstmals eine kleine profil- und jahresübergreifende kontinuierliche Nachbarschaft zwischen verschiedenen exakten Episodenidentitäten, jedoch ohne Realexklusivität oder Feldrückwirkung.
+Kurzbefund: Alle acht Familien besitzen reale Folgeweltevidenz, aber der Kontrollvergleich begrenzt deren Bedeutung deutlich. Befund 2075 beginnt deshalb mit der Integration: Innere Episoden bilden online Knoten und gerichtete Kanten. Befund 2076 zeigt einen nahezu reihenfolgenstabilen globalen Graphen ohne semantische Real-/Nullwelttrennung. Befund 2077 findet auch in längeren inneren Motiven keine belastbare Realfolgebindung. Befund 2078 findet erstmals eine kleine profil- und jahresübergreifende kontinuierliche Nachbarschaft. Befund 2079 integriert deren passive Wachstumsbedingung; alle 26 Kernrelationen wachsen unter zwei gegensätzlichen fortlaufenden Erfahrungswegen erneut, bleiben aber ohne semantische oder wirksame Rücklesung.
 
 ## 8. Methodische Grenzen Und Gegenproben
 
@@ -115,6 +116,7 @@ Wichtige Mechanikdokumente:
 - [MCM-Reifungsbahn](mechanik/009_MCM_REIFUNGSBAHN.md)
 - [Vierstufige Weltpassung](mechanik/010_VIERSTUFIGE_WELTPASSUNG.md)
 - [Organische semantische Topologie](mechanik/011_ORGANISCHE_SEMANTISCHE_TOPOLOGIE.md)
+- [Passive wachsende Nachbarschafts-Memory](mechanik/012_PASSIVE_WACHSENDE_NACHBARSCHAFTS_MEMORY.md)
 
 ## Vollständiger Befundbestand
 

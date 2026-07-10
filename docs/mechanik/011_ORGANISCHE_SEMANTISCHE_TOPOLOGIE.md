@@ -86,3 +86,9 @@ Kontinuierliche Feldprofile erhalten mehr Nähe, tragen aber ebenfalls noch kein
 Die schwellenfreie Mehrweltprüfung liest verschiedene exakte Episodenidentitäten als provisorische Nachbarn, wenn ihre kontinuierlichen Profile in zwei frischen Weltläufen gegenseitig die nächsten sind. Von 2.116 beobachteten Relationen werden 594 in allen drei internen Profilräumen getragen. 26 Relationen bleiben zugleich innerhalb 2025, über die Jahresgrenze und innerhalb 2024 mit Dreiprofil-Unterstützung sichtbar.
 
 Damit liegt erstmals eine mittlere Auflösung zwischen grobem Zustand und exakter Gleichheit vor. Sie ist organisch anschlussfähig, weil die konkreten Beziehungen aus wiederholter Nähe entstehen und nicht als Liste vorgegeben werden. Die Ebene ist dennoch keine fertige Semantik: Nach Normierung an der Topologiegröße besitzen Real-Real-Paare keine allgemein höhere Nachbarschaftsdichte als die Kontrollen. Alle Beziehungen bleiben passiv und ohne Feldrückwirkung.
+
+## Integrationsstand 2079
+
+Die mittlere Nachbarschaftsebene ist nun als passive Memory integriert. Abgeschlossene Weltläufe hinterlassen kompakte innere Episodenprofile. Jede neue Welt wird einmal mit allen früheren Welten verglichen; gegenseitige nächste Nachbarn sammeln Profilraum-, Weltpaar- und Kontextevidenz. Keine der in Befund 2078 beobachteten Beziehungen ist im Code vorgegeben.
+
+Unter zwei vollständig gegensätzlichen 81-Welten-Reihenfolgen entstehen alle 26 strengen Kernrelationen erneut. Die Gesamtgraphen überlappen mit Jaccard 0,881, die in allen drei Profilräumen getragenen Links mit 0,867. Damit trägt die Wachstumsbedingung einen stabilen inneren Kern, aber noch keine Semantik oder Feldrückwirkung. Die fehlende Verdichtungs-, Alterungs- und Vergessensdynamik bleibt eine technische und organische Grenze.

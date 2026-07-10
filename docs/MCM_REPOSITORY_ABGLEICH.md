@@ -171,6 +171,13 @@ kleiner Kern trägt über Profilräume und Jahresgrenze, ist aber nicht
 realexklusiv. Das stützt M.1 als Entstehung von Beziehung vor fester Bedeutung,
 nicht als Nachweis bereits gebildeter Semantik.
 
+[2079](befunde/2001-3000/2079_PASSIVE_WACHSENDE_MCM_NACHBARSCHAFTS_MEMORY.md)
+überführt nur diese Beziehungsbedingung in eine passive Runtime-Memory. Die
+konkreten Relationen werden nicht vorgegeben; alle 26 zuvor diagnostizierten
+Kernbeziehungen wachsen unter zwei gegensätzlichen fortlaufenden
+Erfahrungswegen erneut. Das ist ein stärkerer technischer Anschluss an M.1,
+bleibt aber ohne Bedeutungsbehauptung, Feldrückwirkung oder Handlung.
+
 Damit entsteht kein Wörterbuch nach dem Muster `dio_x = feste Bedeutung`.
 Tragfähiger ist:
 
