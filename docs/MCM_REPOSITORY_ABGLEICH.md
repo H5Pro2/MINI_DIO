@@ -135,8 +135,9 @@ Die Befundfolge [2066](befunde/2001-3000/2066_REALVERSTAERKTE_ROLLENFAMILIEN_KOH
 [2078](befunde/2001-3000/2078_ROLLENFAMILIEN_PHASENPROFIL_HOLDOUT.md),
 [2079](befunde/2001-3000/2079_ROLLENFAMILIEN_GEMATCHE_PSEUDOFAMILIEN.md),
 [2080](befunde/2001-3000/2080_RF08_SIGN_GEMATCHTER_CROSSYEAR_KONTRAST.md),
-[2081](befunde/2001-3000/2081_RF08_SIGN_RF05_VOLUME_30M_HOLDOUT.md)
-und [2082](befunde/2001-3000/2082_PASSIVE_FAMILIEN_KOMPONENTEN_ANTWORT_MEMORY.md)
+[2081](befunde/2001-3000/2081_RF08_SIGN_RF05_VOLUME_30M_HOLDOUT.md),
+[2082](befunde/2001-3000/2082_PASSIVE_FAMILIEN_KOMPONENTEN_ANTWORT_MEMORY.md)
+und [2083](befunde/2001-3000/2083_RF05_VOLUME_5M_MEMORY_REIFUNG.md)
 entwickelt dafür eine passive Rollenfamilien-Evidenz. Wichtig ist die Grenze:
 `2071` speichert Messwerte und Evidenzherkunft; seine sprachlichen Klassen sind
 vorläufige Report-Lesungen, keine fest einprogrammierten Bedeutungen. `2072`
@@ -190,6 +191,12 @@ verschiedenen Weltkontexten, ohne daraus eine Antwortklasse, Bestätigung oder
 Bedeutung zu bilden. Damit erhält der M.1-Anschluss erstmals eine technische
 Erfahrungsform, bleibt aber vollständig von Wahrnehmung, Handlung und Richtung
 getrennt.
+`2083` prüft `rf_05:volume` vorab auf 5m. Die Gesamtantwort repliziert stark
+gegenüber den gematchten Alternativmitgliedschaften, bleibt 2024 und bei BTC
+aber achsengemischt. Der M.1-Anschluss erscheint damit nicht als starre
+Signatur, sondern als wiederkehrende und zugleich kontextplastische
+Familienantwort. Fünf neue numerische Beobachtungen reifen dieselbe passive
+Antwortidentität, ohne eine Sonderregel, Klasse oder Rückwirkung zu erzeugen.
 
 Damit entsteht kein Wörterbuch nach dem Muster `dio_x = feste Bedeutung`.
 Tragfähiger ist:

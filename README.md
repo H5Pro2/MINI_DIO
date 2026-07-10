@@ -325,7 +325,7 @@ Das ist kein Nachweis allgemeiner Intelligenz und kein Bewusstseinsbeweis. Es is
 
 Die jüngste Forschung verdichtet einzelne `dio_*`-Rollen zu passiven Rollenfamilien. Acht Familien mit 29 Mitgliedern wurden in realen Folgewelten und anschließend gegen zeitstrukturzerstörte Kontrollwelten gelesen. Dabei zeigt sich kein einheitlich realweltgebundener Familientyp:
 
-- `rf_05` lag in der ersten Kontrollgruppe zugleich bei Kontinuität, Ereignisanteil und Mitgliederabdeckung über beiden Kontrollen. Ein unabhängiger 2024-Holdout reproduzierte diesen gemeinsamen Realvorsprung nicht, und Komponenten-Kontrollen zeigen keine einzelne tragende reale OHLCV-Komponente. Die spätere Phasenforschung grenzt jedoch eine andere Eigenschaft ein: `rf_05:volume` wird durch gelöste relative Volumenphase wiederholt verstärkt. Nach einem explorativen Crossyear-Abstand repliziert ein vorab festgelegter 30m-Holdout die Antwort in beiden Jahren und beiden Assets gegenüber gematchten Pseudo-Familien. Belegt ist damit eine familienbezogene Volumen-Phasensensitivität, keine reale Volumenbedeutung oder Handlungsrichtung. `rf_08:sign` bleibt dagegen zeitebenenabhängig und repliziert auf 30m nicht geschlossen.
+- `rf_05` lag in der ersten Kontrollgruppe zugleich bei Kontinuität, Ereignisanteil und Mitgliederabdeckung über beiden Kontrollen. Ein unabhängiger 2024-Holdout reproduzierte diesen gemeinsamen Realvorsprung nicht, und Komponenten-Kontrollen zeigen keine einzelne tragende reale OHLCV-Komponente. Die spätere Phasenforschung grenzt jedoch eine andere Eigenschaft ein: `rf_05:volume` wird durch gelöste relative Volumenphase wiederholt verstärkt. Nach einem explorativen Crossyear-Abstand repliziert ein vorab festgelegter 30m-Holdout die Antwort in beiden Jahren und beiden Assets gegenüber gematchten Pseudo-Familien. Der anschließende 5m-Holdout repliziert die Verstärkung im Gesamtprofil mit `0/100` gleichen Pseudo-Antworten und drei Perzentilen `1.000`, bleibt in den Teilgruppen 2024 und BTC aber gemischt. Belegt ist damit eine familienbezogene, kontextplastische Volumen-Phasensensitivität, keine reale Volumenbedeutung oder Handlungsrichtung. `rf_08:sign` bleibt dagegen zeitebenenabhängig und repliziert auf 30m nicht geschlossen.
 - `rf_07` trägt einen höheren realen Ereignisanteil, ist aber auch in beiden Kontrollformen vollständig abgedeckt und dort leicht kontinuierlicher.
 - `rf_08` liegt bei Kontinuität und Abdeckung über beiden Kontrollen, nicht jedoch beim Ereignisanteil.
 - `rf_17` wird durch Shuffle deutlich stärker gelesen als durch die reale Zeitfolge.
@@ -333,7 +333,7 @@ Die jüngste Forschung verdichtet einzelne `dio_*`-Rollen zu passiven Rollenfami
 
 Die Memory speichert dafür nur Identität, Herkunft und numerische Evidenz. Begriffe wie stabil, reorganisierend oder fragmentiert bleiben nachgelagerte Forschungssprache und werden nicht als Regeln in den Organismus geschrieben. Die Anschlussfähigkeit aus realen Folgewelten ist damit zunächst ein Befund feldinterner Wiederkehr. Für keine der acht Familien ist derzeit eine allgemeine realweltspezifische Bedeutung nachgewiesen.
 
-Seit Befund 2082 besitzt MINI_DIO zusätzlich eine passive Familien-Komponenten-Antwort-Memory. Sie verbindet eine stabile Antwortidentität mit einzelnen numerischen Beobachtungen aus unterschiedlichen Jahren, Zeitebenen, Assets und Kontrollräumen. Die Schicht ist generisch, speichert keine Antwortklasse oder Bedeutung und bleibt vollständig von Wahrnehmung und Handlung getrennt.
+Seit Befund 2082 besitzt MINI_DIO zusätzlich eine passive Familien-Komponenten-Antwort-Memory. Befund 2083 reift sie mit fünf neuen 5m-Kontextbeobachtungen von 212 auf 217 Einträge. Die 32 Antwortidentitäten bleiben stabil; `rf_05:volume` behält das Symbol `dio_rresponse_0gpsabe`. Die Schicht ist generisch, speichert keine Antwortklasse oder Bedeutung und bleibt vollständig von Wahrnehmung und Handlung getrennt.
 
 Die thematisch geordnete Kurzfassung mit direkten Links liegt in der [Befundübersicht](docs/BEFUNDE_UEBERSICHT.md).
 
@@ -354,6 +354,7 @@ Aktuelle Befundkette:
 - [2080: `rf_08:sign` im gematchten Crossyear-Kontrast](docs/befunde/2001-3000/2080_RF08_SIGN_GEMATCHTER_CROSSYEAR_KONTRAST.md)
 - [2081: `rf_08:sign` und `rf_05:volume` im unabhängigen 30m-Holdout](docs/befunde/2001-3000/2081_RF08_SIGN_RF05_VOLUME_30M_HOLDOUT.md)
 - [2082: Passive Familien-Komponenten-Antwort-Memory](docs/befunde/2001-3000/2082_PASSIVE_FAMILIEN_KOMPONENTEN_ANTWORT_MEMORY.md)
+- [2083: `rf_05:volume` im 5m-Holdout und Reifung der passiven Memory](docs/befunde/2001-3000/2083_RF05_VOLUME_5M_MEMORY_REIFUNG.md)
 
 ## Visueller Forschungsweg
 
