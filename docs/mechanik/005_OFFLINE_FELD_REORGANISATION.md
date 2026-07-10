@@ -221,6 +221,21 @@ Episoden tragen beide keine lokale Quelltopologie. Fortlaufende endogene
 Schliessung und Wiederoeffnung sind damit mechanisch getragen, aber noch kein
 Memory-, Offline- oder Wirkungstraeger.
 
+## Relationale Episodensalienz 2113
+
+Die staerkenormierte Form jeder endogenen Episode wird mit ihrer direkten
+Nachfolgeform verglichen. Der erste vollstaendig nach einem verdeckten
+Kontaktwechsel selbst gestartete Zyklus erhaelt nur nachtraeglich einen Rang
+unter allen eigenen Episodenwechseln desselben Feldstroms. Feld und
+Segmentierer kennen die Kontaktgrenze nicht.
+
+Der kontaktnahe Eigenrang liegt bei 0,380 beziehungsweise 0,463 und damit in
+beiden Gesamtbestaenden signifikant unter der positionsverschiebenden Null.
+Die Holdout-Universen laufen zudem mit 0,577 und 0,349 in entgegengesetzte
+Richtungen. Die Feldkontinuitaet absorbiert den Wechsel meist ohne besondere
+Episode-zu-Episode-Neuheit; eine organische Auswahl-, Memory- oder
+Wirkungsregel folgt daraus nicht.
+
 ## Bezug zu bestehenden Befunden
 
 Diese Mechanik fasst die Linie aus folgenden Befunden zusammen:

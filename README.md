@@ -425,6 +425,8 @@ Befund 2111 ersetzt die feste Präfixdauer durch ein inneres Ereignis. Ein Formp
 
 Befund 2112 lässt Feld und Rangzyklus-Segmentierer ohne Reset durch eine vollständige Vorwelt und die direkt folgende Zielwelt laufen. Jeder der 1.472 Ströme bildet nach dem verdeckten Übergang 172 bis 205 vollständig selbst geöffnete und geschlossene Episoden. Die erste strikte Episode beginnt median nach drei Ticks, schließt aber erst bei Tick 7 beziehungsweise 8. Der 2091-Bestand trägt beim ersten Ereignis noch 3 von 6 gleichquellige anonyme Kanten; der unabhängige Holdout trägt 0 von 6, ab vier Episoden tragen beide keine. Damit ist fortlaufende Selbstsegmentierung mechanisch möglich, sie wählt aber noch nicht reproduzierbar den frühen quellgebundenen Formträger aus und rechtfertigt kein Memory.
 
+Befund 2113 prüft deshalb die stärkenormierte Formänderung zwischen der ersten vollständig nach dem verdeckten Kontakt selbst gestarteten Episode und ihrem Vorgänger. Gegen 329 bis 415 eigene Episodenwechsel erreicht der Kandidat nur Eigenrang 0,380 beziehungsweise 0,463 und ist in beiden Gesamtbeständen signifikant ruhiger als seine Positionsnull. Im Holdout laufen die disjunkten Zieluniversen mit 0,577 und 0,349 sogar in entgegengesetzte Richtungen. Ein Kontakt tritt damit nicht allgemein als große relationale Episodenneuheit hervor; diese einfache Salienzform rechtfertigt ebenfalls keine Auswahl oder Memory.
+
 Die thematisch geordnete Kurzfassung mit direkten Links liegt in der [Befundübersicht](docs/BEFUNDE_UEBERSICHT.md).
 
 Aktuelle Befundkette:
@@ -474,6 +476,7 @@ Aktuelle Befundkette:
 - [2110: Intrinsische Selbstlesbarkeit der MCM-Form](docs/befunde/2001-3000/2110_MCM_INTRINSISCHE_FORM_SELBSTLESBARKEIT.md)
 - [2111: Endogene Schließung intrinsischer MCM-Formepisoden](docs/befunde/2001-3000/2111_MCM_ENDOGENE_RANGZYKLUS_SCHLIESSUNG.md)
 - [2112: Kontinuierliche Rangzyklus-Selbstsegmentierung](docs/befunde/2001-3000/2112_MCM_KONTINUIERLICHE_RANGZYKLUS_SEGMENTIERUNG.md)
+- [2113: Relationale Salienz zwischen endogenen MCM-Episoden](docs/befunde/2001-3000/2113_MCM_EPISODEN_RELATIONALE_SALIENZ.md)
 
 ## Visueller Forschungsweg
 

@@ -191,3 +191,16 @@ Topologie. Nur der Entwicklungsbestand traegt beim ersten Ereignis wenige
 gleichquellige Kanten; der unabhaengige Holdout reproduziert sie nicht, und ab
 vier Episoden fehlen sie in beiden Bestaenden. 2112 integriert deshalb weder
 eine Episodenauswahl noch Memory oder Semantik.
+
+## Relationaler Salienzstand 2113
+
+Der kontaktnahe Wechsel zwischen staerkenormierten endogenen Episodenformen
+wird ohne festen Schwellwert unter allen eigenen Wechseln desselben Feldstroms
+gerankt. In beiden Gesamtbestaenden liegt er signifikant unter der
+Positionsnull. Im Holdout zeigen die beiden disjunkten Zieluniversen sogar
+entgegengesetzte Richtungen.
+
+Damit ist hohe Episode-zu-Episode-Neuheit kein universeller innerer Marker fuer
+Kontaktrelevanz. Die beobachtete relative Ruhe beschreibt Feldkontinuitaet,
+waehlt aber keine speicherreife Episode aus. 2113 integriert deshalb weder
+Salienz, Memory, Semantik noch Handlung.

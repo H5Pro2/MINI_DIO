@@ -423,6 +423,14 @@ reproduzierbare lokale Quelltopologie im Holdout. Der Anschluss an D.3 und H.1
 gewinnt damit eine fortlaufende endogene Segmentierungsbewegung, noch keine
 organische Auswahl, Erinnerung oder Selbstregulation.
 
+[2113](befunde/2001-3000/2113_MCM_EPISODEN_RELATIONALE_SALIENZ.md)
+prueft den kontaktnaechsten Wechsel zwischen staerkenormierten endogenen
+Episodenformen gegen alle eigenen Wechsel desselben Feldstroms. Beide
+Gesamtbestaende zeigen relative Ruhe statt hoher Salienz; die disjunkten
+Holdout-Universen laufen gegeneinander. Der Anschluss an D.3 und H.1 erhaelt
+damit eine weitere Kontinuitaetseigenschaft, aber keinen allgemeinen
+Relevanzmarker, kein Erinnern und keine Selbstregulation.
+
 Damit entsteht kein Wörterbuch nach dem Muster `dio_x = feste Bedeutung`.
 Tragfähiger ist:
 
