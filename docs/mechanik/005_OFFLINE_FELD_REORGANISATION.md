@@ -77,6 +77,36 @@ MINI_DIO zeigt passive Offline-Feld-Reorganisation bestehender Feldrollen.
 
 Ob daraus spaeter eigenstaendigere semantische Zwischenstrukturen entstehen, muss ueber weitere Wiederholungen, andere Welten und Gegenpruefungen untersucht werden.
 
+## Architekturabgleich 2104
+
+Der Begriff `Offline-Feld-Reorganisation` beschreibt im aktuellen Code ein
+Forschungsmilieu, keinen autonom gestarteten Runtimeprozess.
+
+Zwei Mechaniken sind zu unterscheiden:
+
+- Der Leerlauf-Nachhalltest behaelt dasselbe MCM-Feld nach dem Kontakt, wird
+  aber durch ein externes Tool fuer eine festgelegte Zahl weiterer Ticks
+  aufgerufen.
+- Das Sleep-Feldmilieu liest eigene Episodenrollen, startet dafuer jedoch ein
+  neues MCM-Feld mit extern gesetzter Tickzahl, Intensitaet, Rollenbegrenzung
+  und Aktivierungsgrenze.
+
+Die optionale Sleep-Reorganisationsmemory markiert Beruehrungen passiv. Der
+normale Folgeweltlauf liest sie nicht zurueck. Auch die Offline-Konsolidierung
+bleibt `read_by_mini_dio = 0`, `influences_field = 0` und
+`influences_action = 0`.
+
+Der belastbare Stand ist deshalb:
+
+```text
+extern bereitgestelltes Offline-Milieu
+mit innerer Zustands- und Memory-Dynamik
+```
+
+Noch nicht getragen sind ein eigener Sleep-Ausloeser, eigene Laufdauer,
+Kontinuitaet desselben Feldes durch Real-Sleep-Real oder eine kausale
+Rueckwirkung auf den naechsten Feldlauf.
+
 ## Bezug zu bestehenden Befunden
 
 Diese Mechanik fasst die Linie aus folgenden Befunden zusammen:

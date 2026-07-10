@@ -354,6 +354,13 @@ strenge Identitätsnull erklärt. Damit entsteht auch im Anschluss an H.1 und
 K.1 noch keine belegte Feldweitergabe oder adaptive Selbstregulation aus der
 Pareto-Bewegung.
 
+[2104](befunde/2001-3000/2104_MCM_ENDOGENE_FELDAKTIVITAET_ARCHITEKTURABGLEICH.md)
+prüft den K.1-Anschluss auf Architekturebene. Nachhall und Sleep-Resonanz tragen
+innere Zustands- und Memory-Dynamik, werden aber extern gestartet und getaktet.
+Die passiven Sleep-Spuren werden vom normalen Folgelauf nicht konsumiert.
+Damit ist adaptive Selbstregulation als MCM-Anschluss weiterhin eine
+Forschungshypothese, noch kein autonomer Prozess in MINI_DIO.
+
 Damit entsteht kein Wörterbuch nach dem Muster `dio_x = feste Bedeutung`.
 Tragfähiger ist:
 

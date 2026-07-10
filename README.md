@@ -407,6 +407,8 @@ Befund 2102 prüft daraufhin die feldinterne Selbstabweichung ohne Außenwerte. 
 
 Befund 2103 trennt diese Bewegung in direkte Ereignisträger und indirekt verschobene Relationen ohne eigenes aktuelles Ereignis. Indirekte Wechsel stellen wegen ihres viel größeren Vergleichsraums 90,04 beziehungsweise 88,95 Prozent aller Schichtwechsel. Ihre Häufigkeit, Stärke und ihr Abstand zur direkten Bewegung liegen jedoch in beiden Beständen vollständig in derselben strengen Null. Die globale Pareto-Geometrie verteilt relative Lageänderung breit, aber noch ohne nachweisbare relationseigene Feldweitergabe. Der Pareto-Selbstabweichungszweig endet deshalb ohne Propagationswert, Memory oder Rückwirkung.
 
+Befund 2104 gleicht anschließend die vorhandenen Nachhall-, Sleep- und Offlinepfade direkt mit dem Code ab. MINI_DIO besitzt innere Zustandsabhängigkeit und memory-getragene Offline-Inhalte: Nachhall kann unter weiteren Feldschritten ausklingen, gespeicherte Episodenrollen können ein rekursives Sleep-Milieu bilden. Start, Takt, Dauer und Ende dieser Prozesse werden jedoch vollständig durch externe Tools gesetzt; Real-, Sleep- und Folgeweltfelder sind getrennte Instanzen, und die passive Sleep-Memory wird vom normalen Folgelauf nicht gelesen. Der aktuelle Stand ist daher ein extern bereitgestelltes Offline-Milieu mit innerer Dynamik, noch keine autonome endogene Feldaktivität.
+
 Die thematisch geordnete Kurzfassung mit direkten Links liegt in der [Befundübersicht](docs/BEFUNDE_UEBERSICHT.md).
 
 Aktuelle Befundkette:
@@ -447,6 +449,7 @@ Aktuelle Befundkette:
 - [2101: Synthese der MCM-Relationsereigniszeit und Architekturgrenze](docs/befunde/2001-3000/2101_MCM_RELATIONSEREIGNISZEIT_SYNTHESE_UND_ARCHITEKTURGRENZE.md)
 - [2102: Relationale Pareto-Selbstabweichung des MCM-Feldverlaufs](docs/befunde/2001-3000/2102_MCM_RELATIONALE_PARETO_SELBSTABWEICHUNG.md)
 - [2103: Indirekte Pareto-Feldumverteilung des MCM-Feldverlaufs](docs/befunde/2001-3000/2103_MCM_PARETO_INDIREKTE_FELDUMVERTEILUNG.md)
+- [2104: Architekturabgleich endogener MCM-Feldaktivität](docs/befunde/2001-3000/2104_MCM_ENDOGENE_FELDAKTIVITAET_ARCHITEKTURABGLEICH.md)
 
 ## Visueller Forschungsweg
 
