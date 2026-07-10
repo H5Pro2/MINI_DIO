@@ -163,6 +163,14 @@ nicht stabil von der Shuffle-Nullwelt ab. Der Anschluss an M.1 bleibt damit
 eine Forschungsrichtung für entstehende Beziehungsmuster, kein bereits
 erreichter semantischer Zustand des Feldes.
 
+[2078](befunde/2001-3000/2078_WIEDERKEHRENDE_MCM_EPISODENNACHBARSCHAFTEN.md)
+findet zwischen diesen beiden Auflösungen eine erste reproduzierbare
+Nachbarschaftsebene. Verschiedene exakte Episodenidentitäten können über viele
+frische Weltläufe gegenseitig nächste kontinuierliche Feldprofile bleiben. Ein
+kleiner Kern trägt über Profilräume und Jahresgrenze, ist aber nicht
+realexklusiv. Das stützt M.1 als Entstehung von Beziehung vor fester Bedeutung,
+nicht als Nachweis bereits gebildeter Semantik.
+
 Damit entsteht kein Wörterbuch nach dem Muster `dio_x = feste Bedeutung`.
 Tragfähiger ist:
 

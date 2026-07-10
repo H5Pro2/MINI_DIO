@@ -1,0 +1,10 @@
+profile_scope,pair_kind,world_pairs,mutual_link_observations,unique_links,mean_links_per_world_pair,mean_link_fraction_of_smaller_topology,max_links_in_world_pair
+field_core_raw,real_real,351,2936,438,8.364672364672364,0.553275552482705,15
+field_core_raw,real_null,1458,11606,1034,7.960219478737997,0.5747503739151454,14
+field_core_raw,null_null,1431,10611,981,7.415094339622642,0.5708673950360413,14
+field_full_raw,real_real,351,2879,350,8.202279202279202,0.5424833740219679,15
+field_full_raw,real_null,1458,11332,775,7.772290809327846,0.5608921837014309,15
+field_full_raw,null_null,1431,10578,702,7.3920335429769395,0.5695367677210463,12
+field_full_plus_duration_standardized,real_real,351,2917,345,8.31054131054131,0.5513927615760724,14
+field_full_plus_duration_standardized,real_null,1458,11398,935,7.8175582990397805,0.5640446445478042,16
+field_full_plus_duration_standardized,null_null,1431,10579,905,7.392732354996506,0.5679573824230346,13

@@ -1,0 +1,7 @@
+comparison_type,left,right,left_links,right_links,shared_links,jaccard
+world_pair_kind,real_real,real_null,627,1548,560,0.34674922600619196
+world_pair_kind,real_real,null_null,627,1454,366,0.21341107871720116
+world_pair_kind,real_null,null_null,1548,1454,951,0.4636762554851292
+profile_scope,field_core_raw,field_full_raw,1457,1026,659,0.3612938596491228
+profile_scope,field_core_raw,field_full_plus_duration_standardized,1457,1322,798,0.4028268551236749
+profile_scope,field_full_raw,field_full_plus_duration_standardized,1026,1322,826,0.5427069645203679

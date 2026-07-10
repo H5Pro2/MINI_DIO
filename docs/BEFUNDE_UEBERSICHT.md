@@ -101,8 +101,9 @@ Die aktuelle Kette untersucht, ob einzelne Rollen als Familienräume weiterleben
 - [2075: Passive wachsende MCM-Feldtopologie](befunde/2001-3000/2075_PASSIVE_WACHSENDE_MCM_FELDTOPOLOGIE.md)
 - [2076: MCM-Topologie im Mehrwelt-Wachstum](befunde/2001-3000/2076_MCM_TOPOLOGIE_MEHRWELT_WACHSTUM.md)
 - [2077: MCM-Topologie, Folgen und Profilabstände](befunde/2001-3000/2077_MCM_TOPOLOGIE_FOLGEN_UND_PROFILABSTAENDE.md)
+- [2078: Wiederkehrende MCM-Episodennachbarschaften](befunde/2001-3000/2078_WIEDERKEHRENDE_MCM_EPISODENNACHBARSCHAFTEN.md)
 
-Kurzbefund: Alle acht Familien besitzen reale Folgeweltevidenz, aber der Kontrollvergleich begrenzt deren Bedeutung deutlich. Befund 2075 beginnt deshalb mit der Integration: Innere Episoden bilden online Knoten und gerichtete Kanten. Befund 2076 zeigt einen nahezu reihenfolgenstabilen globalen Graphen ohne semantische Real-/Nullwelttrennung. Befund 2077 findet auch in längeren inneren Motiven und kontinuierlichen Feldprofilabständen keine belastbare Realfolgebindung. Die Memory bewahrt Feldrollen, Reihenfolge, Herkunft und numerische Erfahrung, keine Bestandteile der Außenwelt als feste Identitäten.
+Kurzbefund: Alle acht Familien besitzen reale Folgeweltevidenz, aber der Kontrollvergleich begrenzt deren Bedeutung deutlich. Befund 2075 beginnt deshalb mit der Integration: Innere Episoden bilden online Knoten und gerichtete Kanten. Befund 2076 zeigt einen nahezu reihenfolgenstabilen globalen Graphen ohne semantische Real-/Nullwelttrennung. Befund 2077 findet auch in längeren inneren Motiven keine belastbare Realfolgebindung. Befund 2078 findet erstmals eine kleine profil- und jahresübergreifende kontinuierliche Nachbarschaft zwischen verschiedenen exakten Episodenidentitäten, jedoch ohne Realexklusivität oder Feldrückwirkung.
 
 ## 8. Methodische Grenzen Und Gegenproben
 

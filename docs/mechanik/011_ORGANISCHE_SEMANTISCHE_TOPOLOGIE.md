@@ -80,3 +80,9 @@ Diese Stabilität ist noch keine semantische Weltbindung. Der reale Anker teilt 
 Die Prüfung der inneren zeitlichen Struktur zeigt eine Lücke zwischen zwei Ebenen. Die grobe Zustandsfolge besitzt in allen vier Welten nur zwei alternierende Motive und ist damit gesättigt. Die exakte Episodenidentität wird bei längeren Folgen dagegen so spezifisch, dass keine Viererfolge weltübergreifend wiederkehrt.
 
 Kontinuierliche Feldprofile erhalten mehr Nähe, tragen aber ebenfalls noch keine Realfolgebindung. In drei getrennten Profilräumen liegt der reihenfolgensensitive Verlauf des Realankers näher an der Shuffle-Nullwelt als am direkt folgenden Realfenster. Die Topologie bleibt deshalb ein passiver innerer Träger. Verdichtung, Verschmelzung, Konsolidierung und Feldrückwirkung sind aus diesem Stand nicht begründet.
+
+## Nachbarschaftsstand 2078
+
+Die schwellenfreie Mehrweltprüfung liest verschiedene exakte Episodenidentitäten als provisorische Nachbarn, wenn ihre kontinuierlichen Profile in zwei frischen Weltläufen gegenseitig die nächsten sind. Von 2.116 beobachteten Relationen werden 594 in allen drei internen Profilräumen getragen. 26 Relationen bleiben zugleich innerhalb 2025, über die Jahresgrenze und innerhalb 2024 mit Dreiprofil-Unterstützung sichtbar.
+
+Damit liegt erstmals eine mittlere Auflösung zwischen grobem Zustand und exakter Gleichheit vor. Sie ist organisch anschlussfähig, weil die konkreten Beziehungen aus wiederholter Nähe entstehen und nicht als Liste vorgegeben werden. Die Ebene ist dennoch keine fertige Semantik: Nach Normierung an der Topologiegröße besitzen Real-Real-Paare keine allgemein höhere Nachbarschaftsdichte als die Kontrollen. Alle Beziehungen bleiben passiv und ohne Feldrückwirkung.

@@ -355,6 +355,8 @@ Die erste Mehrweltprüfung 2076 zeigt nahezu vollständige Reihenfolgenstabilit�
 
 Befund 2077 prüft längere innere Episodenfolgen und kontinuierliche Feldprofilabstände. Auch diese feinere Lesung hebt den direkten Realfolge-Anschluss nicht stabil von der Shuffle-Nullwelt ab: Grobe Zustände sind bereits gesättigt, während exakte längere Episodenmotive zu selten wiederkehren. Es wird daher weiterhin keine semantische Bindung oder Rückwirkung in das Feld geschrieben.
 
+Befund 2078 findet zwischen verschiedenen exakten Episodenidentitäten erstmals eine reproduzierbare kontinuierliche Nachbarschaftsebene. 26 Relationen bleiben über beide Jahre, den Jahresübergang und alle drei internen Profilräume sichtbar. Diese Geometrie ist jedoch nicht realexklusiv und bleibt vollständig passiv: Nähe ist noch keine Bedeutung.
+
 Die thematisch geordnete Kurzfassung mit direkten Links liegt in der [Befundübersicht](docs/BEFUNDE_UEBERSICHT.md).
 
 Aktuelle Befundkette:
@@ -369,6 +371,7 @@ Aktuelle Befundkette:
 - [2075: Passive wachsende MCM-Feldtopologie](docs/befunde/2001-3000/2075_PASSIVE_WACHSENDE_MCM_FELDTOPOLOGIE.md)
 - [2076: MCM-Topologie im Mehrwelt-Wachstum](docs/befunde/2001-3000/2076_MCM_TOPOLOGIE_MEHRWELT_WACHSTUM.md)
 - [2077: MCM-Topologie, Folgen und Profilabstände](docs/befunde/2001-3000/2077_MCM_TOPOLOGIE_FOLGEN_UND_PROFILABSTAENDE.md)
+- [2078: Wiederkehrende MCM-Episodennachbarschaften](docs/befunde/2001-3000/2078_WIEDERKEHRENDE_MCM_EPISODENNACHBARSCHAFTEN.md)
 
 ## Visueller Forschungsweg
 
