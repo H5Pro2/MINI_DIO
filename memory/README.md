@@ -9,3 +9,5 @@ Passive family-component response observations may be generated locally as `pass
 Finding 2087 appends five contradictory 5m holdout observations without changing the 32 stable family-component response identities. The tracked projection now contains 222 observations and remains evidence only; it is not read by MINI_DIO.
 
 Finding 2088 derives continuous breadth, sign-balance, and source-path projections from that snapshot. These projections do not add memory fields or runtime behavior.
+
+Finding 2089 balances volume-response evidence across all eight role families on existing holdout worlds. Its comparison remains a research projection and is not appended automatically.

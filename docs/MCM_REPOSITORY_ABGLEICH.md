@@ -141,8 +141,9 @@ Die Befundfolge [2066](befunde/2001-3000/2066_REALVERSTAERKTE_ROLLENFAMILIEN_KOH
 [2084](befunde/2001-3000/2084_RF05_VOLUME_5M_FENSTERPFADE.md),
 [2085](befunde/2001-3000/2085_RF05_VOLUME_FELDZUSTAND_ANTWORTKOPPLUNG.md),
 [2086](befunde/2001-3000/2086_RF05_VOLUME_ORIENTIERUNGS_HOLDOUT.md),
-[2087](befunde/2001-3000/2087_PASSIVE_ANTWORT_MEMORY_WIDERSPRUCHSREIFUNG.md)
-und [2088](befunde/2001-3000/2088_PASSIVE_ANTWORT_ERFAHRUNGSBREITE.md)
+[2087](befunde/2001-3000/2087_PASSIVE_ANTWORT_MEMORY_WIDERSPRUCHSREIFUNG.md),
+[2088](befunde/2001-3000/2088_PASSIVE_ANTWORT_ERFAHRUNGSBREITE.md)
+und [2089](befunde/2001-3000/2089_ALLE_ROLLENFAMILIEN_VOLUME_EVIDENZBALANCE.md)
 entwickelt dafür eine passive Rollenfamilien-Evidenz. Wichtig ist die Grenze:
 `2071` speichert Messwerte und Evidenzherkunft; seine sprachlichen Klassen sind
 vorläufige Report-Lesungen, keine fest einprogrammierten Bedeutungen. `2072`
@@ -233,6 +234,12 @@ Kontinuität und Mitgliederbreite tragen dagegen deutliche Vorzeichenbreite.
 Andere vollständig gerichtete Achsen sind meist erst über sechs Beobachtungen
 aus zwei Quellen belegt. Der M.1-Anschluss verlangt deshalb eine getrennte
 Lesung von Richtungsbilanz und Evidenztiefe, nicht eine neue Rollenklasse.
+`2089` gleicht die Volumen-Evidenztiefe aller acht Familien auf denselben
+Holdouts an. Drei Familien erhöhen und zwei senken den Ereignisanteil in allen
+zehn Gruppen; `rf_05` trägt den größten positiven Effekt und Nullabstand. Die
+gleiche Phasenlösung erzeugt somit keine feste Komponentenwirkung, sondern eine
+familienabhängige Ereignisrichtung. Das verdichtet den M.1-Anschluss als
+relationale Antworttopologie, weiterhin ohne semantische oder motorische Rolle.
 
 Damit entsteht kein Wörterbuch nach dem Muster `dio_x = feste Bedeutung`.
 Tragfähiger ist:
