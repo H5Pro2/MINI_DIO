@@ -217,6 +217,17 @@ aber noch keine feldintern entstandene Wachstumsbedingung. 2114 trennt diese
 Ebenen ausdruecklich und verhindert, dass Selbstsegmentierung vorschnell als
 Bedeutung, Memory oder Handlung programmiert wird.
 
+## Partialrelationsgrenze 2116
+
+Dieselben gerichteten Relationsslots beteiligen sich dicht ueber benachbarte
+Rangzyklen hinweg. Diese unmittelbare Fortsetzung ist schwellenfrei,
+staerkeunabhaengig und in beiden Bestaenden breit vorhanden.
+
+Sie bildet zwischen disjunkten Zieluniversen dennoch keine individuelle
+Quelltopologie. Damit ist auch partielle Zykluskontinuitaet noch kein
+semantisches Wachstumsrecht. 2116 integriert weder Relationsknoten noch Memory,
+Bedeutung oder Handlung.
+
 ## Wiederkehrgrenze 2115
 
 Exakt proportionale Rangzyklusformen wiederholen sich in jedem kontinuierlichen

@@ -445,6 +445,13 @@ disjunkten Zieluniversen aber keine individuelle Quelltopologie. Der Anschluss
 an D.3 und H.1 erhaelt damit reale Mehrfachbeobachtung, jedoch kein
 Wachstumsrecht, kein Erinnern und keine Selbstregulation.
 
+[2116](befunde/2001-3000/2116_MCM_ZYKLUSUEBERGREIFENDE_PARTIALRELATIONEN.md)
+zerlegt Episoden in binarisierte gerichtete Relationsslots und prueft deren
+unmittelbares Mittragen ueber benachbarte Rangzyklen. Die Schicht ist dicht und
+reproduzierbar, traegt aber keine individuelle Quelltopologie. Der Anschluss
+an D.3 und H.1 erhaelt damit partielle Feldkontinuitaet, jedoch kein
+Wachstumsrecht, kein Erinnern und keine Selbstregulation.
+
 Damit entsteht kein Wörterbuch nach dem Muster `dio_x = feste Bedeutung`.
 Tragfähiger ist:
 

@@ -1,0 +1,6 @@
+dataset,profile_kind,edge_index,left_anonymous_node,right_anonymous_node,distance,same_source_posthoc,left_source_posthoc,right_source_posthoc,graph_used_source_label,graph_used_asset_or_year,graph_used_contact_boundary,fixed_distance_threshold_used,memory_written,influences_action
+2091_basis,episode_relation_participation,1,a_024,b_014,0.0257533114155175,0,2091_basis|BTC|2025|9000,2091_basis|BTC|2024|9000,0,0,0,0,0,0
+2091_basis,episode_relation_participation,2,a_046,b_007,0.025707128060629175,0,2091_basis|SOL|2025|5000,2091_basis|BTC|2024|15000,0,0,0,0,0,0
+2091_basis,consecutive_partial_relation_carry,1,a_001,b_039,0.039229153262619096,0,2091_basis|BTC|2024|0,2091_basis|SOL|2025|11000,0,0,0,0,0,0
+2092_holdout,episode_relation_participation,1,a_006,b_007,0.026909852619849513,0,2092_holdout|DOGE|2024|6000,2092_holdout|DOGE|2024|7000,0,0,0,0,0,0
+2092_holdout,consecutive_partial_relation_carry,1,a_033,b_029,0.04480046075536367,0,2092_holdout|XRP|2024|1000,2092_holdout|PAXG|2025|5000,0,0,0,0,0,0

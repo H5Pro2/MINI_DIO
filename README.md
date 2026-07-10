@@ -431,6 +431,8 @@ Befund 2114 gleicht die Kette 2105 bis 2113 als gemeinsame Trägerarchitektur ab
 
 Befund 2115 prüft über alle selbstsegmentierten Episoden die strengste Wiederkehrform ohne Ähnlichkeitsschwelle: Erst eine zweite exakt proportionale gerichtete Rangwechselform zählt. Jeder der 1.472 Ströme besitzt solche Wiederkehr, median sieben Beobachtungen. Zwischen den disjunkten Zieluniversen fallen die Wiederkehrprofile dennoch auf AUC 0,500 bis 0,504 und erzeugen in beiden Beständen keine einzige gleichquellige anonyme Kante. Exakte Wiederholung ist damit reale Felddynamik, aber keine individuell tragende Relevanz- oder Wachstumsbedingung und begründet keine Memory.
 
+Befund 2116 wechselt von ganzen Episoden zu partiellen inneren Relationen. Ein gerichteter Neuronenrelationsslot trägt nur dann, wenn er in zwei unmittelbar benachbarten Rangzyklen beteiligt ist; Episodenstärke wird binarisiert. Diese Schicht ist mit 36 bis 57 getragenen Slots und Mittragen über mehr als 90 Prozent der Zyklusgrenzen in jedem Strom sehr dicht. Ihre Quellenprofile liegen dennoch nur bei AUC 0,494 bis 0,504 und bilden keine gleichquellige anonyme Kante. Partielle Zykluskontinuität ist damit reales Feldsubstrat, aber ebenfalls keine Relevanz- oder Wachstumsbedingung.
+
 Die thematisch geordnete Kurzfassung mit direkten Links liegt in der [Befundübersicht](docs/BEFUNDE_UEBERSICHT.md).
 
 Aktuelle Befundkette:
@@ -483,6 +485,7 @@ Aktuelle Befundkette:
 - [2113: Relationale Salienz zwischen endogenen MCM-Episoden](docs/befunde/2001-3000/2113_MCM_EPISODEN_RELATIONALE_SALIENZ.md)
 - [2114: Trägeraudit der MCM-Feldintelligenz](docs/befunde/2001-3000/2114_MCM_FELDINTELLIGENZ_TRAEGERAUDIT.md)
 - [2115: Exakte Formwiederkehr über viele MCM-Episoden](docs/befunde/2001-3000/2115_MCM_MEHREPISODEN_EXAKTE_FORMWIEDERKEHR.md)
+- [2116: Zyklusübergreifende partielle MCM-Relationen](docs/befunde/2001-3000/2116_MCM_ZYKLUSUEBERGREIFENDE_PARTIALRELATIONEN.md)
 
 ## Visueller Forschungsweg
 

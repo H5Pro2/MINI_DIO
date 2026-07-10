@@ -262,6 +262,18 @@ Zwischen disjunkten Zieluniversen fallen ihre Quellenprofile dennoch auf AUC
 Wiederholung ist damit reale Felddynamik, aber keine organische Relevanz-,
 Memory-, Offline- oder Wirkungsbedingung.
 
+## Zyklusuebergreifende Partialrelationen 2116
+
+Ein gerichteter Neuronenrelationsslot traegt, wenn er in zwei unmittelbar
+benachbarten Rangzyklen beteiligt ist. Seine Staerke innerhalb der Episode
+wird binarisiert. Diese partielle Fortsetzung erscheint in allen Stroemen,
+ueber mehr als 90 Prozent der Zyklusgrenzen und mit median 44 getragenen Slots.
+
+Die Quellenprofile liegen dennoch nur bei AUC 0,494 bis 0,504 und erzeugen
+keine gleichquellige anonyme Kante. Partielle Kontinuitaet ist ein dichtes
+Feldsubstrat, aber keine organische Relevanz-, Memory-, Offline- oder
+Wirkungsbedingung.
+
 ## Bezug zu bestehenden Befunden
 
 Diese Mechanik fasst die Linie aus folgenden Befunden zusammen:
