@@ -19,6 +19,7 @@ if str(ROOT) not in sys.path:
 from mini_dio.semantic_memory import SemanticMemory
 
 
+RUN_ID = "2082"
 GENERATED_DIR = ROOT / "data" / "generated" / "2082_mcm_neighborhood_consolidation"
 MEMORY_DIR = ROOT / "memory"
 DEBUG_ROOT = ROOT / "debug" / "2082_mcm_neighborhood_consolidation"
@@ -59,13 +60,13 @@ def _world_specs() -> list[WorldSpec]:
                 if member.lower().endswith(".csv") and Path(member).name.lower() != "manifest.csv":
                     pending.append((archive_path, member))
     return [
-        WorldSpec(index, f"W2082_{index:03d}", archive, member)
+        WorldSpec(index, f"W{RUN_ID}_{index:03d}", archive, member)
         for index, (archive, member) in enumerate(pending, start=1)
     ]
 
 
 def _memory_path(sequence: str) -> Path:
-    return MEMORY_DIR / f"topology_2082_{sequence}.json"
+    return MEMORY_DIR / f"topology_{RUN_ID}_{sequence}.json"
 
 
 def _clean_local_state() -> None:
@@ -137,8 +138,8 @@ def _active_source(memory: SemanticMemory) -> dict[str, dict[str, object]]:
 
 def _checkpoint_records(memory: SemanticMemory, source: dict[str, dict]) -> dict[str, dict]:
     store = memory.data["passive_mcm_neighborhood_consolidation"]
-    checkpoint_symbol = str(store["latest_checkpoint_symbol"])
-    relations = dict(store.get("relations", {}) or {})
+    checkpoint_symbol = str(store["checkpoints"][-1]["checkpoint_symbol"])
+    relations = memory.passive_mcm_neighborhood_consolidation_relations()
     out = {}
     for pair_key, source_record in source.items():
         relation = dict(relations[source_record["neighborhood_symbol"]] or {})
@@ -250,7 +251,9 @@ def _run_sequence(
             store = reloaded.data["passive_mcm_neighborhood_consolidation"]
             current_histories = {
                 symbol: list(dict(record or {}).get("history", []) or [])
-                for symbol, record in dict(store.get("relations", {}) or {}).items()
+                for symbol, record in (
+                    reloaded.passive_mcm_neighborhood_consolidation_relations().items()
+                )
             }
             preserved = all(
                 current_histories.get(symbol, [])[: len(history)] == history
@@ -303,8 +306,8 @@ def _run_sequence(
     final_memory = SemanticMemory(memory_path)
     final_memory.load()
     history_rows = []
-    store = final_memory.data["passive_mcm_neighborhood_consolidation"]
-    for relation in dict(store.get("relations", {}) or {}).values():
+    relations = final_memory.passive_mcm_neighborhood_consolidation_relations()
+    for relation in relations.values():
         record = dict(relation or {})
         pair_key = "|".join(sorted((str(record["left_node"]), str(record["right_node"]))))
         for entry in list(record.get("history", []) or []):
@@ -331,6 +334,13 @@ def _run_sequence(
         "histories": history_rows,
         "snapshots": snapshots,
         "profile": final_memory.passive_mcm_neighborhood_consolidation_profile(),
+        "consolidation_document_bytes": len(
+            json.dumps(
+                final_memory.data["passive_mcm_neighborhood_consolidation"],
+                indent=2,
+                sort_keys=True,
+            ).encode("utf-8")
+        ),
         "memory_size_bytes": memory_path.stat().st_size,
     }
 
@@ -442,6 +452,7 @@ def main() -> int:
                     "checkpoints": profile["checkpoints"],
                     "final_relations": profile["relations"],
                     "history_entries": profile["history_entries"],
+                    "storage_format": profile["format"],
                     "all_checkpoints_exact_2081": int(
                         all(int(row["all_exact"]) == 1 for row in sequence_equivalence)
                     ),
@@ -456,6 +467,9 @@ def main() -> int:
                         all(int(row["history_prefix_preserved"]) == 1 for row in sequence_continuity)
                     ),
                     "memory_size_bytes": size,
+                    "consolidation_document_bytes": results[sequence][
+                        "consolidation_document_bytes"
+                    ],
                     "2081_baseline_memory_size_bytes": baseline,
                     "consolidation_overhead_bytes": size - baseline,
                     "consolidation_overhead_percent": ((size - baseline) / baseline) * 100.0,

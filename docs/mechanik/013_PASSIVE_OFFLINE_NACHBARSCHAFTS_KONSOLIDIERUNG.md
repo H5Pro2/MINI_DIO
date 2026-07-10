@@ -29,24 +29,26 @@ passive_mcm_neighborhood_consolidation
     dio_mcm_neighbor_*
       left_node
       right_node
-      first_checkpoint
-      last_checkpoint
-      observed_checkpoint_count
-      latest_pareto_depth
-      latest_normalized_depth
-      history
-        checkpoint_symbol
-        pareto_depth
-        max_pareto_depth
-        normalized_depth
-        world_pair_count
-        world_count
-        growth_seen_count
+      history_deltas
+        checkpoint_index_delta
+        pareto_depth_delta
+        world_pair_count_delta
+        world_count_delta
+        growth_seen_count_delta
 ```
 
 Ein Checkpoint besitzt eine deterministische Identität aus Bezeichnung und
 Laufindex. Derselbe Checkpoint kann dadurch nicht versehentlich zweimal in die
 Historie geschrieben werden.
+
+Der erste Vektor einer Relation ist relativ zu null und enthält damit ihren
+vollständigen Ausgangsstand. Folgende Vektoren sind exakte ganzzahlige
+Differenzen zum vorherigen beobachteten Stand. Bezeichnung, Laufindex, maximale
+Tiefe und Schichtverteilung liegen einmal im gemeinsamen Checkpoint.
+
+Beim diagnostischen Lesen werden daraus wieder vollständige Datensätze mit
+absoluten Werten und normierter Tiefe erzeugt. Diese Expansion wird nicht in
+das Memory-Dokument zurückgeschrieben.
 
 ## Schichtbildung
 
@@ -63,7 +65,8 @@ Grenzwerte.
 
 ## Harte Grenze
 
-Der gesamte Zweig und jeder Relationsstand tragen folgende Sperren:
+Der gesamte Zweig trägt folgende Sperren, die beim diagnostischen Lesen auf
+jeden Relationsstand projiziert werden:
 
 ```text
 passive_only = 1
@@ -90,7 +93,11 @@ Relationshistorie an. Frühere Einträge werden nicht neu berechnet, ersetzt,
 gedämpft oder gelöscht. Relationen, die an einem späteren Checkpoint nicht
 aktiv sind, behalten ihre bisherige Bahn unverändert.
 
-Die wachsende Historie ist damit zunächst verlustfrei. Befund 2082 zeigt
-zugleich ihre technische Grenze: Fünf Checkpoints erhöhen die vollständige
-Memory-Größe bei 81 Welten um rund 32 bis 33 Prozent. Diese Ebene ist eine
-kontrollierte Forschungsstruktur, noch keine organische Kompression.
+Die wachsende Historie bleibt verlustfrei. Befund 2082 zeigte die technische
+Grenze der wiederholten Vollstände: Fünf Checkpoints erhöhten die vollständige
+Memory-Größe bei 81 Welten um rund 32 bis 33 Prozent.
+
+Seit Befund 2083 speichert `compact_delta_v1` dieselben Reifungsbahnen als
+Änderungsvektoren. Alle 10.476 Einträge werden exakt rekonstruiert, während
+rund 72,7 Prozent des vorherigen Konsolidierungsmehrbedarfs entfallen. Es wird
+keine Relation entfernt, gerundet oder nach Bedeutung ausgewählt.

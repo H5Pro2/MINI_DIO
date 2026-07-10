@@ -19,7 +19,15 @@ PASSIVE_CONSOLIDATION_BOUNDARY = {
     "is_entry_signal": 0,
     "is_direction_signal": 0,
 }
+CONSOLIDATION_FORMAT = "compact_delta_v1"
 SUPPORT_AXES = ("world_pair_count", "world_count", "growth_seen_count")
+DELTA_FIELDS = (
+    "checkpoint_index",
+    "pareto_depth",
+    "world_pair_count",
+    "world_count",
+    "growth_seen_count",
+)
 
 
 def _safe_int(value: object) -> int:
@@ -44,6 +52,13 @@ def _store(data: dict) -> dict:
     if not isinstance(store.get("relations"), dict):
         store["relations"] = {}
     store.update(PASSIVE_CONSOLIDATION_BOUNDARY)
+    has_verbose_relations = any(
+        isinstance(record, dict)
+        and "history" in record
+        and "history_deltas" not in record
+        for record in store["relations"].values()
+    )
+    store["format"] = "verbose_v1" if has_verbose_relations else CONSOLIDATION_FORMAT
     return store
 
 
@@ -119,6 +134,109 @@ def _active_neighborhood_rows(data: dict) -> list[dict[str, object]]:
     return rows
 
 
+def _checkpoint_map(store: dict) -> dict[int, dict]:
+    return {
+        _safe_int(item.get("checkpoint_index")): dict(item or {})
+        for item in list(store.get("checkpoints", []) or [])
+        if isinstance(item, dict)
+    }
+
+
+def _numeric_history(record: dict) -> list[list[int]]:
+    deltas = list(record.get("history_deltas", []) or [])
+    if deltas:
+        values: list[list[int]] = []
+        previous = [0] * len(DELTA_FIELDS)
+        for raw_delta in deltas:
+            delta = [_safe_int(value) for value in list(raw_delta or [])]
+            if len(delta) != len(DELTA_FIELDS):
+                raise ValueError("invalid passive neighborhood consolidation delta")
+            current = [previous[index] + delta[index] for index in range(len(delta))]
+            values.append(current)
+            previous = current
+        return values
+    return [
+        [
+            _safe_int(entry.get("checkpoint_index")),
+            _safe_int(entry.get("pareto_depth")),
+            _safe_int(entry.get("world_pair_count")),
+            _safe_int(entry.get("world_count")),
+            _safe_int(entry.get("growth_seen_count")),
+        ]
+        for entry in list(record.get("history", []) or [])
+        if isinstance(entry, dict)
+    ]
+
+
+def _history_deltas(values: list[list[int]]) -> list[list[int]]:
+    deltas = []
+    previous = [0] * len(DELTA_FIELDS)
+    for current in values:
+        if len(current) != len(DELTA_FIELDS):
+            raise ValueError("invalid passive neighborhood consolidation history")
+        deltas.append(
+            [current[index] - previous[index] for index in range(len(DELTA_FIELDS))]
+        )
+        previous = current
+    return deltas
+
+
+def _compact_relation(record: dict, symbol: str) -> dict:
+    values = _numeric_history(record)
+    return {
+        "neighborhood_symbol": str(record.get("neighborhood_symbol", symbol) or symbol),
+        "left_node": str(record.get("left_node", "") or ""),
+        "right_node": str(record.get("right_node", "") or ""),
+        "history_deltas": _history_deltas(values),
+    }
+
+
+def _expanded_relation(record: dict, store: dict, symbol: str) -> dict:
+    checkpoints = _checkpoint_map(store)
+    history = []
+    for values in _numeric_history(record):
+        checkpoint_index, depth, world_pairs, worlds, growth = values
+        checkpoint = checkpoints.get(checkpoint_index, {})
+        max_depth = _safe_int(checkpoint.get("max_pareto_depth")) or 1
+        history.append(
+            {
+                "checkpoint_symbol": str(checkpoint.get("checkpoint_symbol", "") or ""),
+                "checkpoint_index": checkpoint_index,
+                "checkpoint_label": str(checkpoint.get("checkpoint_label", "") or ""),
+                "run_index": _safe_int(checkpoint.get("run_index")),
+                "pareto_depth": depth,
+                "max_pareto_depth": max_depth,
+                "normalized_depth": (depth - 1) / max(1, max_depth - 1),
+                "world_pair_count": world_pairs,
+                "world_count": worlds,
+                "growth_seen_count": growth,
+            }
+        )
+    latest = history[-1] if history else {}
+    return {
+        **PASSIVE_CONSOLIDATION_BOUNDARY,
+        "neighborhood_symbol": str(record.get("neighborhood_symbol", symbol) or symbol),
+        "left_node": str(record.get("left_node", "") or ""),
+        "right_node": str(record.get("right_node", "") or ""),
+        "first_checkpoint": _safe_int(history[0].get("checkpoint_index")) if history else 0,
+        "last_checkpoint": _safe_int(latest.get("checkpoint_index")),
+        "observed_checkpoint_count": len(history),
+        "latest_pareto_depth": _safe_int(latest.get("pareto_depth")),
+        "latest_normalized_depth": float(latest.get("normalized_depth", 0.0) or 0.0),
+        "history": history,
+    }
+
+
+def passive_mcm_neighborhood_consolidation_relations(data: dict) -> dict[str, dict]:
+    """Return expanded diagnostic records without expanding the stored document."""
+
+    store = _store(data)
+    return {
+        str(symbol): _expanded_relation(dict(record or {}), store, str(symbol))
+        for symbol, record in dict(store.get("relations", {}) or {}).items()
+    }
+
+
 def consolidate_passive_mcm_neighborhood_layers(
     data: dict,
     *,
@@ -138,49 +256,49 @@ def consolidate_passive_mcm_neighborhood_layers(
     max_depth = max(depths.values(), default=1)
     checkpoint_index = len(store["checkpoints"]) + 1
     layer_counts: dict[str, int] = {}
-    relations = dict(store.get("relations", {}) or {})
+    relations = {
+        str(relation_symbol): _compact_relation(
+            dict(record or {}), str(relation_symbol)
+        )
+        for relation_symbol, record in dict(store.get("relations", {}) or {}).items()
+    }
     for row in rows:
         depth = depths[str(row["pair_key"])]
-        normalized_depth = (depth - 1) / max(1, max_depth - 1)
         layer_counts[str(depth)] = _safe_int(layer_counts.get(str(depth))) + 1
         relation_symbol = str(row["neighborhood_symbol"])
         relation = dict(relations.get(relation_symbol, {}) or {})
-        history = list(relation.get("history", []) or [])
-        history.append(
-            {
-                "checkpoint_symbol": symbol,
-                "checkpoint_index": checkpoint_index,
-                "checkpoint_label": label,
-                "run_index": _safe_int(run_index),
-                "pareto_depth": depth,
-                "max_pareto_depth": max_depth,
-                "normalized_depth": normalized_depth,
-                "world_pair_count": _safe_int(row["world_pair_count"]),
-                "world_count": _safe_int(row["world_count"]),
-                "growth_seen_count": _safe_int(row["growth_seen_count"]),
-            }
-        )
-        relation.update(
-            {
-                **PASSIVE_CONSOLIDATION_BOUNDARY,
+        if not relation:
+            relation = {
                 "neighborhood_symbol": relation_symbol,
                 "left_node": row["left_node"],
                 "right_node": row["right_node"],
-                "first_checkpoint": _safe_int(relation.get("first_checkpoint"))
-                or checkpoint_index,
-                "last_checkpoint": checkpoint_index,
-                "observed_checkpoint_count": len(history),
-                "latest_pareto_depth": depth,
-                "latest_normalized_depth": normalized_depth,
-                "history": history,
+                "history_deltas": [],
             }
+        values = _numeric_history(relation)
+        values.append(
+            [
+                checkpoint_index,
+                depth,
+                _safe_int(row["world_pair_count"]),
+                _safe_int(row["world_count"]),
+                _safe_int(row["growth_seen_count"]),
+            ]
         )
+        relation["history_deltas"] = _history_deltas(values)
         relations[relation_symbol] = relation
 
     store["relations"] = relations
+    store["format"] = CONSOLIDATION_FORMAT
+    store["checkpoints"] = [
+        {
+            key: value
+            for key, value in dict(checkpoint or {}).items()
+            if key not in PASSIVE_CONSOLIDATION_BOUNDARY
+        }
+        for checkpoint in store["checkpoints"]
+    ]
     store["checkpoints"].append(
         {
-            **PASSIVE_CONSOLIDATION_BOUNDARY,
             "checkpoint_symbol": symbol,
             "checkpoint_index": checkpoint_index,
             "checkpoint_label": label,
@@ -191,37 +309,39 @@ def consolidate_passive_mcm_neighborhood_layers(
             "layer_counts": layer_counts,
         }
     )
-    store["latest_checkpoint_symbol"] = symbol
-    store["latest_relation_count"] = len(rows)
-    store["latest_max_pareto_depth"] = max_depth
-    store["latest_layer_one_count"] = _safe_int(layer_counts.get("1"))
+    for key in (
+        "latest_checkpoint_symbol",
+        "latest_relation_count",
+        "latest_max_pareto_depth",
+        "latest_layer_one_count",
+    ):
+        store.pop(key, None)
     return passive_mcm_neighborhood_consolidation_profile(data)
 
 
 def passive_mcm_neighborhood_consolidation_profile(data: dict) -> dict:
     store = _store(data)
     relations = dict(store.get("relations", {}) or {})
+    checkpoints = list(store.get("checkpoints", []) or [])
+    latest = dict(checkpoints[-1] or {}) if checkpoints else {}
     return {
         **PASSIVE_CONSOLIDATION_BOUNDARY,
-        "checkpoints": len(list(store.get("checkpoints", []) or [])),
+        "format": str(store.get("format", CONSOLIDATION_FORMAT)),
+        "checkpoints": len(checkpoints),
         "relations": len(relations),
         "history_entries": sum(
-            len(list(dict(record or {}).get("history", []) or []))
-            for record in relations.values()
+            len(_numeric_history(dict(record or {}))) for record in relations.values()
         ),
-        "latest_relation_count": _safe_int(store.get("latest_relation_count")),
-        "latest_max_pareto_depth": _safe_int(store.get("latest_max_pareto_depth")),
-        "latest_layer_one_count": _safe_int(store.get("latest_layer_one_count")),
+        "latest_relation_count": _safe_int(latest.get("relation_count")),
+        "latest_max_pareto_depth": _safe_int(latest.get("max_pareto_depth")),
+        "latest_layer_one_count": _safe_int(latest.get("layer_one_count")),
     }
 
 
 def top_passive_mcm_neighborhood_consolidation(
     data: dict, limit: int = 8
 ) -> list[dict]:
-    records = [
-        dict(record or {})
-        for record in dict(_store(data).get("relations", {}) or {}).values()
-    ]
+    records = list(passive_mcm_neighborhood_consolidation_relations(data).values())
     records.sort(
         key=lambda record: (
             _safe_int(record.get("latest_pareto_depth")),
@@ -233,10 +353,12 @@ def top_passive_mcm_neighborhood_consolidation(
 
 
 __all__ = [
+    "CONSOLIDATION_FORMAT",
     "PASSIVE_CONSOLIDATION_BOUNDARY",
     "SUPPORT_AXES",
     "consolidate_passive_mcm_neighborhood_layers",
     "pareto_depths",
     "passive_mcm_neighborhood_consolidation_profile",
+    "passive_mcm_neighborhood_consolidation_relations",
     "top_passive_mcm_neighborhood_consolidation",
 ]

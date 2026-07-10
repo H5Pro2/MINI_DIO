@@ -1,0 +1,11 @@
+sequence,from_position,to_position,previous_relations,current_relations,previous_history_entries,current_history_entries,expected_added_entries,actual_added_entries,history_prefix_preserved
+forward,0,10,0,240,0,240,240,240,1
+forward,10,20,240,482,240,722,482,482,1
+forward,20,40,482,952,722,1674,952,952,1
+forward,40,60,952,1591,1674,3265,1591,1591,1
+forward,60,81,1591,2046,3265,5311,2046,2046,1
+reverse,0,10,0,190,0,190,190,190,1
+reverse,10,20,190,421,190,611,421,421,1
+reverse,20,40,421,928,611,1539,928,928,1
+reverse,40,60,928,1541,1539,3080,1541,1541,1
+reverse,60,81,1541,2085,3080,5165,2085,2085,1

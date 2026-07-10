@@ -107,3 +107,10 @@ Memory-Struktur, noch keine Handlungs- oder Feldregel.
 
 Die vollständigen Runtime-Memories, extrahierten Welten und Debugdaten bleiben
 lokal und werden nach der Prüfung entfernt.
+
+## Technische Weiterentwicklung 2083
+
+Befund 2083 ersetzt die wiederholten Vollstände durch eine exakt
+rekonstruierbare Delta-Darstellung. Der in diesem Befund gemessene Inhalt und
+seine passive Grenze bleiben unverändert; nur die persistierte Form wird
+kompakter.

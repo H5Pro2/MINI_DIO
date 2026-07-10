@@ -365,6 +365,8 @@ Befund 2081 verfolgt die gewichtungsfreie Pareto-Tiefe während des Wachstums. D
 
 Befund 2082 speichert diese Reifungsschichten erstmals als passive Offline-Historie. Alle zehn Zwischenstände zweier 81-Welten-Läufe bleiben exakt identisch zur ungespeicherten Referenz 2081; Quelldaten und spätere Feldentwicklung werden nicht verändert. Damit besitzt jede beobachtete Beziehung eine bewahrte Reifungsbahn, aber weiterhin keine Feldrückwirkung, Löschentscheidung oder feste Bedeutung. Die unverdichtete Historie vergrößert die Memory um rund 32 bis 33 Prozent.
 
+Befund 2083 überführt dieselbe Reifungsbahn in ein schwellenfreies Deltaformat. Alle 10.476 rekonstruierten Einträge sind exakt identisch zur Vollhistorie aus 2082, während die gesamte Memory um rund 17,8 bis 18,0 Prozent kleiner wird und etwa 72,7 Prozent des vorherigen Konsolidierungsmehrbedarfs entfallen. Es wird keine Erfahrung entfernt oder bevorzugt; die Struktur bleibt vollständig passiv.
+
 Die thematisch geordnete Kurzfassung mit direkten Links liegt in der [Befundübersicht](docs/BEFUNDE_UEBERSICHT.md).
 
 Aktuelle Befundkette:
@@ -384,6 +386,7 @@ Aktuelle Befundkette:
 - [2080: MCM-Nachbarschaft, Persistenz und Peripherie](docs/befunde/2001-3000/2080_MCM_NACHBARSCHAFT_PERSISTENZ_UND_PERIPHERIE.md)
 - [2081: Dynamische MCM-Nachbarschafts-Pareto-Tiefe](docs/befunde/2001-3000/2081_DYNAMISCHE_MCM_NACHBARSCHAFT_PARETO_TIEFE.md)
 - [2082: Passive Offline-Konsolidierung der MCM-Nachbarschaft](docs/befunde/2001-3000/2082_PASSIVE_OFFLINE_KONSOLIDIERUNG_MCM_NACHBARSCHAFT.md)
+- [2083: Exakte Delta-Konsolidierung der MCM-Nachbarschaft](docs/befunde/2001-3000/2083_EXAKTE_DELTA_KONSOLIDIERUNG_MCM_NACHBARSCHAFT.md)
 
 ## Visueller Forschungsweg
 

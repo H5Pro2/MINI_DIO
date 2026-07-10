@@ -51,8 +51,10 @@ from mini_dio.mcm_neighborhood_memory import (
     top_passive_mcm_neighborhoods,
 )
 from mini_dio.mcm_neighborhood_consolidation import (
+    CONSOLIDATION_FORMAT,
     consolidate_passive_mcm_neighborhood_layers as consolidate_passive_mcm_neighborhood_layers_trace,
     passive_mcm_neighborhood_consolidation_profile,
+    passive_mcm_neighborhood_consolidation_relations as passive_mcm_neighborhood_consolidation_relations_trace,
     top_passive_mcm_neighborhood_consolidation,
 )
 from mini_dio.mcm_preview_anchor_depth_memory import (
@@ -120,7 +122,11 @@ class SemanticMemory:
             "mcm_field_episode_memory": {},
             "passive_mcm_topology": {"nodes": {}, "edges": {}},
             "passive_mcm_neighborhood_memory": {"world_profiles": {}, "neighborhoods": {}},
-            "passive_mcm_neighborhood_consolidation": {"checkpoints": [], "relations": {}},
+            "passive_mcm_neighborhood_consolidation": {
+                "format": CONSOLIDATION_FORMAT,
+                "checkpoints": [],
+                "relations": {},
+            },
             "passive_inner_effect_reflection_notes": [],
             "passive_inner_effect_reflection_history": {},
             "passive_inner_effect_meaning_notes": [],
@@ -178,7 +184,11 @@ class SemanticMemory:
             )
             self.data.setdefault(
                 "passive_mcm_neighborhood_consolidation",
-                {"checkpoints": [], "relations": {}},
+                {
+                    "format": CONSOLIDATION_FORMAT,
+                    "checkpoints": [],
+                    "relations": {},
+                },
             )
             self.data.setdefault("passive_inner_effect_reflection_notes", [])
             self.data.setdefault("passive_inner_effect_reflection_history", {})
@@ -534,6 +544,9 @@ class SemanticMemory:
 
     def passive_mcm_neighborhood_consolidation_profile(self) -> dict:
         return passive_mcm_neighborhood_consolidation_profile(self.data)
+
+    def passive_mcm_neighborhood_consolidation_relations(self) -> dict[str, dict]:
+        return passive_mcm_neighborhood_consolidation_relations_trace(self.data)
 
     def top_passive_mcm_neighborhood_consolidation(self, limit: int = 8) -> list[dict]:
         return top_passive_mcm_neighborhood_consolidation(self.data, limit=limit)

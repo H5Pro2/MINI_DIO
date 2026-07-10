@@ -200,6 +200,13 @@ ungespeicherten Referenz. Der Anschluss an M.1 wird damit zeitlich: Beziehungen
 können eine eigene Reifungsbahn tragen, ohne dass daraus bereits Bedeutung,
 Vergessen, Handlung oder Feldrückwirkung programmiert wird.
 
+[2083](befunde/2001-3000/2083_EXAKTE_DELTA_KONSOLIDIERUNG_MCM_NACHBARSCHAFT.md)
+zeigt, dass diese Reifungsbahn ohne inhaltliche Auswahl als exakte
+Änderungsstruktur bewahrt werden kann. Das stärkt die technische
+Anschlussfähigkeit einer wachsenden relationalen Memory, liefert aber keinen
+zusätzlichen Beleg für Semantik oder Feldwirkung: Kompaktere Speicherung ist
+nicht mit stärkerer innerer Bedeutung gleichzusetzen.
+
 Damit entsteht kein Wörterbuch nach dem Muster `dio_x = feste Bedeutung`.
 Tragfähiger ist:
 
