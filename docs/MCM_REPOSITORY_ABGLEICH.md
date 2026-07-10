@@ -438,6 +438,13 @@ Der Anschluss an D.3 und H.1 traegt damit innere Kontinuitaet, Form und Takt.
 Nicht getragen ist die Gleichsetzung eines geschlossenen Zyklus mit relevanter
 Bedeutung, Erinnerung oder Selbstregulation.
 
+[2115](befunde/2001-3000/2115_MCM_MEHREPISODEN_EXAKTE_FORMWIEDERKEHR.md)
+prueft die zweite und jede weitere exakt proportionale Rangzyklusform als
+schwellenfreie Wiederkehr. Sie tritt in jedem Strom auf, traegt zwischen
+disjunkten Zieluniversen aber keine individuelle Quelltopologie. Der Anschluss
+an D.3 und H.1 erhaelt damit reale Mehrfachbeobachtung, jedoch kein
+Wachstumsrecht, kein Erinnern und keine Selbstregulation.
+
 Damit entsteht kein Wörterbuch nach dem Muster `dio_x = feste Bedeutung`.
 Tragfähiger ist:
 

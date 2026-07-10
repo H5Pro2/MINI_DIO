@@ -429,6 +429,8 @@ Befund 2113 prüft deshalb die stärkenormierte Formänderung zwischen der erste
 
 Befund 2114 gleicht die Kette 2105 bis 2113 als gemeinsame Trägerarchitektur ab. Getragen sind das kontinuierliche Feld als kausale Vorzustandsspur, die relationale Rangwechselform als intrinsisch lesbare Eigenform und der Rangzyklus als variable endogene Eigenzeit. Nicht getragen ist die Gleichsetzung eines geschlossenen Zyklus mit einem relevanten Bedeutungsknoten. Der offene Engpass liegt damit nicht mehr primär bei innerem Träger oder Takt, sondern bei einer organisch entstehenden Relevanz zwischen vielen selbst gebildeten Formen. Eine zusätzliche Rangzyklus-Memory wird daraus nicht abgeleitet.
 
+Befund 2115 prüft über alle selbstsegmentierten Episoden die strengste Wiederkehrform ohne Ähnlichkeitsschwelle: Erst eine zweite exakt proportionale gerichtete Rangwechselform zählt. Jeder der 1.472 Ströme besitzt solche Wiederkehr, median sieben Beobachtungen. Zwischen den disjunkten Zieluniversen fallen die Wiederkehrprofile dennoch auf AUC 0,500 bis 0,504 und erzeugen in beiden Beständen keine einzige gleichquellige anonyme Kante. Exakte Wiederholung ist damit reale Felddynamik, aber keine individuell tragende Relevanz- oder Wachstumsbedingung und begründet keine Memory.
+
 Die thematisch geordnete Kurzfassung mit direkten Links liegt in der [Befundübersicht](docs/BEFUNDE_UEBERSICHT.md).
 
 Aktuelle Befundkette:
@@ -480,6 +482,7 @@ Aktuelle Befundkette:
 - [2112: Kontinuierliche Rangzyklus-Selbstsegmentierung](docs/befunde/2001-3000/2112_MCM_KONTINUIERLICHE_RANGZYKLUS_SEGMENTIERUNG.md)
 - [2113: Relationale Salienz zwischen endogenen MCM-Episoden](docs/befunde/2001-3000/2113_MCM_EPISODEN_RELATIONALE_SALIENZ.md)
 - [2114: Trägeraudit der MCM-Feldintelligenz](docs/befunde/2001-3000/2114_MCM_FELDINTELLIGENZ_TRAEGERAUDIT.md)
+- [2115: Exakte Formwiederkehr über viele MCM-Episoden](docs/befunde/2001-3000/2115_MCM_MEHREPISODEN_EXAKTE_FORMWIEDERKEHR.md)
 
 ## Visueller Forschungsweg
 

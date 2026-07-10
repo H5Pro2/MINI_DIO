@@ -216,3 +216,15 @@ Die organische semantische Topologie besitzt damit belastbare innere Traeger,
 aber noch keine feldintern entstandene Wachstumsbedingung. 2114 trennt diese
 Ebenen ausdruecklich und verhindert, dass Selbstsegmentierung vorschnell als
 Bedeutung, Memory oder Handlung programmiert wird.
+
+## Wiederkehrgrenze 2115
+
+Exakt proportionale Rangzyklusformen wiederholen sich in jedem kontinuierlichen
+Strom. Die zweite und jede weitere Beobachtung bildet eine schwellenfreie
+Wiederkehrschicht. Diese Schicht bewahrt zwischen disjunkten Zieluniversen
+jedoch keine individuelle Quelltopologie und verbessert die All-Episoden-Basis
+nicht.
+
+Damit darf exakte Wiederkehr nicht mit semantischer Verdichtung oder
+Wachstumsrecht gleichgesetzt werden. 2115 integriert weder einen Knoten noch
+Memory, Bedeutung oder Handlung.

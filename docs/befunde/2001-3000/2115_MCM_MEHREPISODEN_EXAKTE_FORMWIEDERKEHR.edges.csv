@@ -1,0 +1,7 @@
+dataset,profile_kind,edge_index,left_anonymous_node,right_anonymous_node,distance,same_source_posthoc,left_source_posthoc,right_source_posthoc,graph_used_source_label,graph_used_asset_or_year,graph_used_contact_boundary,fixed_distance_threshold_used,memory_written,influences_action
+2091_basis,all_episode_forms,1,a_015,b_007,0.023289986890970445,0,2091_basis|BTC|2025|0,2091_basis|BTC|2024|15000,0,0,0,0,0,0
+2091_basis,all_episode_forms,2,a_018,b_011,0.02280742380432674,0,2091_basis|BTC|2025|14000,2091_basis|BTC|2024|6000,0,0,0,0,0,0
+2091_basis,exact_recurrence_forms,1,a_036,b_031,0.1366308243727599,0,2091_basis|SOL|2024|8000,2091_basis|SOL|2024|3000,0,0,0,0,0,0
+2091_basis,exact_recurrence_forms,2,a_036,b_043,0.1366308243727599,0,2091_basis|SOL|2024|8000,2091_basis|SOL|2025|2000,0,0,0,0,0,0
+2092_holdout,all_episode_forms,1,a_002,b_028,0.030836113903687724,0,2092_holdout|DOGE|2024|1000,2092_holdout|PAXG|2025|3000,0,0,0,0,0,0
+2092_holdout,exact_recurrence_forms,1,a_002,b_023,0.14966159436747675,0,2092_holdout|DOGE|2024|1000,2092_holdout|PAXG|2024|7000,0,0,0,0,0,0

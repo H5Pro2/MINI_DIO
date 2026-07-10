@@ -250,6 +250,18 @@ werden. Der offene mechanische Engpass liegt bei der Relevanz zwischen vielen
 selbst entstandenen Formen; eine neue Memory-, Offline- oder Wirkungsregel
 wird nicht integriert.
 
+## Exakte Mehr-Episoden-Wiederkehr 2115
+
+Geschlossene Episodenformen werden durch ihren groessten gemeinsamen Teiler
+staerkenormiert. Erst die zweite exakt proportionale Beobachtung derselben
+gerichteten Rangwechselform zaehlt als Wiederkehr. Diese strenge Schicht tritt
+in allen 1.472 Stroemen auf, median siebenmal.
+
+Zwischen disjunkten Zieluniversen fallen ihre Quellenprofile dennoch auf AUC
+0,500 bis 0,504 und erzeugen keine gleichquellige anonyme Kante. Exakte
+Wiederholung ist damit reale Felddynamik, aber keine organische Relevanz-,
+Memory-, Offline- oder Wirkungsbedingung.
+
 ## Bezug zu bestehenden Befunden
 
 Diese Mechanik fasst die Linie aus folgenden Befunden zusammen:
