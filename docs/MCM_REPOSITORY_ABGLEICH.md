@@ -136,8 +136,9 @@ Die Befundfolge [2066](befunde/2001-3000/2066_REALVERSTAERKTE_ROLLENFAMILIEN_KOH
 [2079](befunde/2001-3000/2079_ROLLENFAMILIEN_GEMATCHE_PSEUDOFAMILIEN.md),
 [2080](befunde/2001-3000/2080_RF08_SIGN_GEMATCHTER_CROSSYEAR_KONTRAST.md),
 [2081](befunde/2001-3000/2081_RF08_SIGN_RF05_VOLUME_30M_HOLDOUT.md),
-[2082](befunde/2001-3000/2082_PASSIVE_FAMILIEN_KOMPONENTEN_ANTWORT_MEMORY.md)
-und [2083](befunde/2001-3000/2083_RF05_VOLUME_5M_MEMORY_REIFUNG.md)
+[2082](befunde/2001-3000/2082_PASSIVE_FAMILIEN_KOMPONENTEN_ANTWORT_MEMORY.md),
+[2083](befunde/2001-3000/2083_RF05_VOLUME_5M_MEMORY_REIFUNG.md)
+und [2084](befunde/2001-3000/2084_RF05_VOLUME_5M_FENSTERPFADE.md)
 entwickelt dafür eine passive Rollenfamilien-Evidenz. Wichtig ist die Grenze:
 `2071` speichert Messwerte und Evidenzherkunft; seine sprachlichen Klassen sind
 vorläufige Report-Lesungen, keine fest einprogrammierten Bedeutungen. `2072`
@@ -197,6 +198,12 @@ aber achsengemischt. Der M.1-Anschluss erscheint damit nicht als starre
 Signatur, sondern als wiederkehrende und zugleich kontextplastische
 Familienantwort. Fünf neue numerische Beobachtungen reifen dieselbe passive
 Antwortidentität, ohne eine Sonderregel, Klasse oder Rückwirkung zu erzeugen.
+`2084` zerlegt dieselbe Evidenz in zwölf Fenster. Fast durchgehend steigt der
+Familienereignisanteil, während Kontinuität und Mitgliederbreite mit der
+lokalen Feldphase wechseln. Die starke Gesamtantwort ist damit als kollektive
+Wirkung über mehrere Feldlagen lesbar, nicht als lokale Invariante jedes
+Fensters. Die Memory wird durch diese nachträgliche Zerlegung nicht erneut
+vergrößert.
 
 Damit entsteht kein Wörterbuch nach dem Muster `dio_x = feste Bedeutung`.
 Tragfähiger ist:
