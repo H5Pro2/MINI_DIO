@@ -91,6 +91,8 @@ Kurzbefund: Reife ist keine starre Klasse. Eine Familie kann in einer Welt getra
 
 Die aktuelle Kette untersucht, ob einzelne Rollen als Familienräume weiterleben und wie sich ihre innere Mitgliedsverteilung in realen Folgewelten verändert.
 
+OHLCV-Daten sind dabei ausschließlich eine reproduzierbare Außenwelt. Komponenten- und Phasenänderungen dienen als kontrollierte Reize für das MCM-Feld; sie untersuchen keine Chartformationen, Marktphasen, Handelssignale oder Prognosen.
+
 - [2066: Kohäsion realverstärkter Rollenfamilien](befunde/2001-3000/2066_REALVERSTAERKTE_ROLLENFAMILIEN_KOHAESION.md)
 - [2069: Passive Rollenfamilien-Memory](befunde/2001-3000/2069_PASSIVE_ROLLENFAMILIEN_MEMORY.md)
 - [2070: Erste drei Familien auf gleicher Symbolbasis](befunde/2001-3000/2070_ROLLENFAMILIEN_GLEICHE_SYMBOLBASIS_FOLGEWELTEN.md)
@@ -106,17 +108,8 @@ Die aktuelle Kette untersucht, ob einzelne Rollen als Familienräume weiterleben
 - [2080: `rf_08:sign` im gematchten Crossyear-Kontrast](befunde/2001-3000/2080_RF08_SIGN_GEMATCHTER_CROSSYEAR_KONTRAST.md)
 - [2081: `rf_08:sign` und `rf_05:volume` im unabhängigen 30m-Holdout](befunde/2001-3000/2081_RF08_SIGN_RF05_VOLUME_30M_HOLDOUT.md)
 - [2082: Passive Familien-Komponenten-Antwort-Memory](befunde/2001-3000/2082_PASSIVE_FAMILIEN_KOMPONENTEN_ANTWORT_MEMORY.md)
-- [2083: `rf_05:volume` im 5m-Holdout und Reifung der passiven Memory](befunde/2001-3000/2083_RF05_VOLUME_5M_MEMORY_REIFUNG.md)
-- [2084: `rf_05:volume` als 5m-Fensterpfad](befunde/2001-3000/2084_RF05_VOLUME_5M_FENSTERPFADE.md)
-- [2085: `rf_05:volume` zwischen Feldzustand und Antwort](befunde/2001-3000/2085_RF05_VOLUME_FELDZUSTAND_ANTWORTKOPPLUNG.md)
-- [2086: `rf_05:volume` im unabhängigen Orientierungs-Holdout](befunde/2001-3000/2086_RF05_VOLUME_ORIENTIERUNGS_HOLDOUT.md)
-- [2087: Passive Antwort-Memory mit widersprechender Erfahrung](befunde/2001-3000/2087_PASSIVE_ANTWORT_MEMORY_WIDERSPRUCHSREIFUNG.md)
-- [2088: Passive Antwort-Erfahrungsbreite](befunde/2001-3000/2088_PASSIVE_ANTWORT_ERFAHRUNGSBREITE.md)
-- [2089: Alle Rollenfamilien unter balancierter Volumen-Evidenz](befunde/2001-3000/2089_ALLE_ROLLENFAMILIEN_VOLUME_EVIDENZBALANCE.md)
-- [2090: Familienabhängige Volumenrichtung im 30m-Transfer](befunde/2001-3000/2090_ALLE_ROLLENFAMILIEN_VOLUME_30M_TRANSFER.md)
-- [2091: Passive Volumen-Antwort-Memory mit balancierter Evidenz](befunde/2001-3000/2091_PASSIVE_VOLUME_ANTWORT_MEMORY_EVIDENZBALANCE.md)
 
-Kurzbefund: Alle acht Familien besitzen reale Folgeweltevidenz, aber der Kontrollvergleich begrenzt deren Bedeutung deutlich. Komponenten- und Phasenkontrollen zeigen keine einzelne tragende reale OHLCV-Komponente und keine notwendige allgemeine Komponentenkopplung. Unter gleicher Volumenphasenlösung erhöhen `rf_05`, `rf_07` und `rf_08` auf zwei 5m-Holdouts den Familienereignisanteil, während `rf_17` und `rf_21` ihn senken. Im 30m-Transfer replizieren `rf_05` und `rf_07` positiv sowie `rf_17` negativ; `rf_08` und `rf_21` driften. Befund 2091 nimmt 100 bisher fehlende Beobachtungen provenancegetreu auf. Alle acht Volumenidentitäten besitzen danach 21 Beobachtungen aus fünf Quellen. Die passive Memory enthält 322 Beobachtungen und unverändert 32 Identitäten, ohne Klasse, Bedeutung oder Handlung.
+Kurzbefund: Alle acht Familien besitzen reale Folgeweltevidenz, aber Gegenproben begrenzen vorschnelle Bedeutungszuweisungen. Real-/Nullwelt-, Komponenten-, Phasen- und Pseudo-Familien-Vergleiche zeigen keine einzelne tragende Chart-Komponente und keinen festen Familientyp. Einzelne Reaktionen wiederholen sich, bleiben jedoch kontextabhängige Feldsensitivitäten ohne Chartbedeutung oder Handlungsrichtung. Befund 2082 bewahrt 212 numerische Beobachtungen in 32 passiven Familien-Komponenten-Antwortidentitäten. Die Memory speichert Herkunft, Weltkontext und Nullabstand, aber keine Klasse, Bestätigung, Bedeutung, Vorhersage oder Handlung.
 
 ## 8. Methodische Grenzen Und Gegenproben
 

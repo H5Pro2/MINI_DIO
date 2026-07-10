@@ -1,5 +1,0 @@
-asset,year,window_starts,relation_path,relation_changes,strengthened_windows,mixed_windows,weakened_windows,continuity_path,event_share_path,coverage_path,minimum_percentile_path
-BTC,2024,0;36000;72000,verstaerkt;gemischt;gemischt,1,1,2,0,0.026964;-0.019663;-0.181766,0.004024;0.010060;0.007713,0.041667;-0.041667;-0.125000,1.000;0.540;0.010
-BTC,2025,0;36000;72000,verstaerkt;gemischt;gemischt,1,1,2,0,0.165468;-0.003206;0.000911,0.012072;0.007378;0.011066,0.083333;0.000000;0.000000,1.000;0.930;0.900
-SOL,2024,0;36000;72000,gemischt;gemischt;verstaerkt,1,1,2,0,0.001070;0.005309;0.178404,-0.001341;0.001341;0.010396,0.000000;0.000000;0.083333,0.240;0.780;0.530
-SOL,2025,0;36000;72000,verstaerkt;verstaerkt;gemischt,1,2,1,0,0.252751;0.029593;-0.260516,0.002012;0.000335;0.003353,0.125000;0.083333;-0.166667,1.000;0.180;0.000

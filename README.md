@@ -323,23 +323,21 @@ Das ist kein Nachweis allgemeiner Intelligenz und kein Bewusstseinsbeweis. Es is
 
 ## Aktueller Forschungsstand In Kurzform
 
-Die jüngste Forschung verdichtet einzelne `dio_*`-Rollen zu passiven Rollenfamilien. Acht Familien mit 29 Mitgliedern wurden in realen Folgewelten und anschließend gegen zeitstrukturzerstörte Kontrollwelten gelesen. Dabei zeigt sich kein einheitlich realweltgebundener Familientyp:
+Die jüngste Forschung verdichtet einzelne `dio_*`-Rollen zu passiven Rollenfamilien. Acht Familien mit 29 Mitgliedern wurden in realen Folgewelten, zeitstrukturveränderten Kontrollwelten und unabhängigen Gegenproben gelesen. Untersuchungsgegenstand ist dabei die Organisation des MCM-Feldes: Wiederkehr, Kontinuität, Kopplung, Rollenbreite, Drift und Nachhall.
 
-- `rf_05` lag in der ersten Kontrollgruppe zugleich bei Kontinuität, Ereignisanteil und Mitgliederabdeckung über beiden Kontrollen. Ein unabhängiger 2024-Holdout reproduzierte diesen gemeinsamen Realvorsprung nicht, und Komponenten-Kontrollen zeigen keine einzelne tragende reale OHLCV-Komponente. Die spätere Phasenforschung grenzt jedoch eine andere Eigenschaft ein: `rf_05:volume` reagiert wiederholt auf gelöste relative Volumenphase. Nach einem explorativen Crossyear-Abstand repliziert ein vorab festgelegter 30m-Holdout zunächst eine dreiachsige Verstärkung. Auf 5m zeigt sich die Grenze: Der erste Gesamt-Holdout ist verstärkt, aber seine Fenster zerfallen in fünf verstärkte und sieben gemischte Antworten. Vier daraus abgeleitete positive Kreuzkopplungen fallen im unabhängigen Orientierungs-Holdout vollständig auf `0/4` zurück. Wiederkehrend bleibt nur der Familienereignisanteil: Er steigt in allen fünf neuen Gruppen bei Pseudo-Perzentil `1.000`, während Kontinuität und Mitgliederbreite sinken. Belegt ist damit eine schmale, kontextplastische Umverteilung der Familienereignisse unter gelöster Volumenphase, keine allgemeine Familienverstärkung, reale Volumenbedeutung oder Handlungsrichtung. `rf_08:sign` bleibt ebenfalls zeitebenenabhängig und repliziert auf 30m nicht geschlossen.
-- `rf_07` trägt einen höheren realen Ereignisanteil, ist aber auch in beiden Kontrollformen vollständig abgedeckt und dort leicht kontinuierlicher.
-- `rf_08` liegt bei Kontinuität und Abdeckung über beiden Kontrollen, nicht jedoch beim Ereignisanteil.
-- `rf_17` wird durch Shuffle deutlich stärker gelesen als durch die reale Zeitfolge.
-- Über alle acht Familien liegt Shuffle bei mittlerer Kontinuität über Realwelt; Random Sign liegt etwa auf Realniveau. Für `rf_05` liegt im neuen Holdout Realwelt über Shuffle, aber auf allen drei Primärachsen unter Random Sign.
+**Rolle der Chartdaten:** OHLCV-Zeitreihen dienen MINI_DIO als reproduzierbare Außenwelt. Einzelne Chart-Komponenten werden nur verändert, um das MCM-Feld kontrolliert zu reizen und seine Reorganisation zu beobachten. Untersucht werden weder Chartabschnitte als Marktphasen noch Preis-Volumen-Muster, Handelssignale oder Prognosen.
 
-Die Memory speichert dafür nur Identität, Herkunft und numerische Evidenz. Begriffe wie stabil, reorganisierend oder fragmentiert bleiben nachgelagerte Forschungssprache und werden nicht als Regeln in den Organismus geschrieben. Die Anschlussfähigkeit aus realen Folgewelten ist damit zunächst ein Befund feldinterner Wiederkehr. Für keine der acht Familien ist derzeit eine allgemeine realweltspezifische Bedeutung nachgewiesen.
+Die bisherigen Gegenproben zeigen:
 
-Seit Befund 2082 besitzt MINI_DIO zusätzlich eine passive Familien-Komponenten-Antwort-Memory. Befund 2091 führt die balancierten 5m- und 30m-Erfahrungen provenancegetreu zusammen. Die Memory wächst auf 322 Beobachtungen bei unverändert 32 Antwortidentitäten. Alle acht Volumenidentitäten besitzen nun jeweils 21 Beobachtungen aus fünf Evidenzquellen; `rf_05:volume` behält das Symbol `dio_rresponse_0gpsabe`. Die Schicht ist generisch, speichert keine Antwortklasse oder Bedeutung und bleibt vollständig von Wahrnehmung und Handlung getrennt.
+- Alle acht Rollenfamilien können in späteren Welten wiederkehren, aber keine Familie besitzt derzeit eine allgemein nachgewiesene realweltspezifische Bedeutung.
+- Real-/Nullwelt-Vergleiche begrenzen mehrere zunächst stark wirkende Familienprofile; Wiederkehr allein beweist noch keine besondere Weltbindung.
+- Komponenten- und Phasenkontrollen widerlegen eine einfache feste Zuordnung zwischen einer OHLCV-Komponente und einer Rollenfamilie. Sichtbar sind kontextabhängige Feldreaktionen, keine Chartbedeutungen.
+- Gematchte Pseudo-Familien zeigen, dass Mitgliederzahl und Quellhäufigkeit einen Teil scheinbar stabiler Antworten erklären können.
+- Einzelne Familien-Komponenten-Reaktionen wiederholen sich in Gegenproben, bleiben jedoch numerische Feldsensitivitäten ohne Semantik, Richtung oder Handlung.
 
-Befund 2088 vermisst erstmals die innere Erfahrungsbreite aller 32 Identitäten. `rf_05:volume:event_share` bleibt mit 21/21 positiven Beobachtungen über fünf Quellen vollständig gleichgerichtet, während Kontinuität und Abdeckung jeweils 13 positive und 8 negative Werte tragen. Vollständige Richtungsbilanzen treten auch bei anderen Antworten auf, dort aber meist erst auf Basis von sechs Beobachtungen aus zwei Quellen. Persistenz und Evidenztiefe müssen deshalb getrennt gelesen werden.
+Die Memory speichert dafür nur Identität, Herkunft, Weltkontext und numerische Feldantwort. Begriffe wie stabil, reorganisierend oder fragmentiert bleiben nachgelagerte Forschungssprache und werden nicht als Regeln in den Organismus geschrieben.
 
-Befund 2089 gleicht diese Evidenztiefe für alle acht Volumenidentitäten auf denselben zwei 5m-Holdouts an. `rf_05`, `rf_07` und `rf_08` erhöhen den Familienereignisanteil in 10/10 Gruppen; `rf_17` und `rf_21` senken ihn in 10/10. `rf_05` trägt den größten positiven Mittelwert und den größten Abstand zu seinen Pseudo-Familien. Dieselbe Volumenphasenlösung besitzt damit keine allgemeine Wirkung, sondern wird familienabhängig in entgegengesetzte Ereignisrichtungen aufgenommen.
-
-Befund 2090 überträgt diese Richtungen auf die vorhandenen 30m-Welten. Streng replizieren `rf_05` und `rf_07` positiv sowie `rf_17` negativ. Über alle drei Holdouts tragen sie 15/15 gleichgerichtete Gruppen. `rf_08` und `rf_21` verlieren auf 30m ihre geschlossene Richtung. Die Antworttopologie besitzt damit einen zeitebenenübergreifenden Kern und zugleich familienabhängige Drift.
+Seit Befund 2082 besitzt MINI_DIO eine generische passive Familien-Komponenten-Antwort-Memory mit 212 Beobachtungen und 32 stabilen Antwortidentitäten. Sie bleibt vollständig von Wahrnehmung und Handlung getrennt und enthält keine Antwortklasse, Bestätigung, Bedeutung oder Vorhersage.
 
 Die thematisch geordnete Kurzfassung mit direkten Links liegt in der [Befundübersicht](docs/BEFUNDE_UEBERSICHT.md).
 
@@ -360,15 +358,6 @@ Aktuelle Befundkette:
 - [2080: `rf_08:sign` im gematchten Crossyear-Kontrast](docs/befunde/2001-3000/2080_RF08_SIGN_GEMATCHTER_CROSSYEAR_KONTRAST.md)
 - [2081: `rf_08:sign` und `rf_05:volume` im unabhängigen 30m-Holdout](docs/befunde/2001-3000/2081_RF08_SIGN_RF05_VOLUME_30M_HOLDOUT.md)
 - [2082: Passive Familien-Komponenten-Antwort-Memory](docs/befunde/2001-3000/2082_PASSIVE_FAMILIEN_KOMPONENTEN_ANTWORT_MEMORY.md)
-- [2083: `rf_05:volume` im 5m-Holdout und Reifung der passiven Memory](docs/befunde/2001-3000/2083_RF05_VOLUME_5M_MEMORY_REIFUNG.md)
-- [2084: `rf_05:volume` als 5m-Fensterpfad](docs/befunde/2001-3000/2084_RF05_VOLUME_5M_FENSTERPFADE.md)
-- [2085: `rf_05:volume` zwischen Feldzustand und Antwort](docs/befunde/2001-3000/2085_RF05_VOLUME_FELDZUSTAND_ANTWORTKOPPLUNG.md)
-- [2086: `rf_05:volume` im unabhängigen Orientierungs-Holdout](docs/befunde/2001-3000/2086_RF05_VOLUME_ORIENTIERUNGS_HOLDOUT.md)
-- [2087: Passive Antwort-Memory mit widersprechender Erfahrung](docs/befunde/2001-3000/2087_PASSIVE_ANTWORT_MEMORY_WIDERSPRUCHSREIFUNG.md)
-- [2088: Passive Antwort-Erfahrungsbreite](docs/befunde/2001-3000/2088_PASSIVE_ANTWORT_ERFAHRUNGSBREITE.md)
-- [2089: Alle Rollenfamilien unter balancierter Volumen-Evidenz](docs/befunde/2001-3000/2089_ALLE_ROLLENFAMILIEN_VOLUME_EVIDENZBALANCE.md)
-- [2090: Familienabhängige Volumenrichtung im 30m-Transfer](docs/befunde/2001-3000/2090_ALLE_ROLLENFAMILIEN_VOLUME_30M_TRANSFER.md)
-- [2091: Passive Volumen-Antwort-Memory mit balancierter Evidenz](docs/befunde/2001-3000/2091_PASSIVE_VOLUME_ANTWORT_MEMORY_EVIDENZBALANCE.md)
 
 ## Visueller Forschungsweg
 

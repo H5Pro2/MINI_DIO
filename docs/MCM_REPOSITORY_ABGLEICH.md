@@ -135,18 +135,13 @@ Die Befundfolge [2066](befunde/2001-3000/2066_REALVERSTAERKTE_ROLLENFAMILIEN_KOH
 [2078](befunde/2001-3000/2078_ROLLENFAMILIEN_PHASENPROFIL_HOLDOUT.md),
 [2079](befunde/2001-3000/2079_ROLLENFAMILIEN_GEMATCHE_PSEUDOFAMILIEN.md),
 [2080](befunde/2001-3000/2080_RF08_SIGN_GEMATCHTER_CROSSYEAR_KONTRAST.md),
-[2081](befunde/2001-3000/2081_RF08_SIGN_RF05_VOLUME_30M_HOLDOUT.md),
-[2082](befunde/2001-3000/2082_PASSIVE_FAMILIEN_KOMPONENTEN_ANTWORT_MEMORY.md),
-[2083](befunde/2001-3000/2083_RF05_VOLUME_5M_MEMORY_REIFUNG.md),
-[2084](befunde/2001-3000/2084_RF05_VOLUME_5M_FENSTERPFADE.md),
-[2085](befunde/2001-3000/2085_RF05_VOLUME_FELDZUSTAND_ANTWORTKOPPLUNG.md),
-[2086](befunde/2001-3000/2086_RF05_VOLUME_ORIENTIERUNGS_HOLDOUT.md),
-[2087](befunde/2001-3000/2087_PASSIVE_ANTWORT_MEMORY_WIDERSPRUCHSREIFUNG.md),
-[2088](befunde/2001-3000/2088_PASSIVE_ANTWORT_ERFAHRUNGSBREITE.md),
-[2089](befunde/2001-3000/2089_ALLE_ROLLENFAMILIEN_VOLUME_EVIDENZBALANCE.md),
-[2090](befunde/2001-3000/2090_ALLE_ROLLENFAMILIEN_VOLUME_30M_TRANSFER.md)
-und [2091](befunde/2001-3000/2091_PASSIVE_VOLUME_ANTWORT_MEMORY_EVIDENZBALANCE.md)
+[2081](befunde/2001-3000/2081_RF08_SIGN_RF05_VOLUME_30M_HOLDOUT.md)
+und [2082](befunde/2001-3000/2082_PASSIVE_FAMILIEN_KOMPONENTEN_ANTWORT_MEMORY.md)
 entwickelt dafür eine passive Rollenfamilien-Evidenz. Wichtig ist die Grenze:
+Die verwendeten OHLCV-Zeitreihen sind eine kontrollierbare Außenwelt, nicht der
+Gegenstand einer Chart- oder Marktforschung. Komponentenänderungen prüfen, wie
+das MCM-Feld auf veränderte Weltkopplung reagiert. Sie erzeugen keine Aussagen
+über Marktphasen, Handelssignale oder eine feste Bedeutung von Kurs und Volumen.
 `2071` speichert Messwerte und Evidenzherkunft; seine sprachlichen Klassen sind
 vorläufige Report-Lesungen, keine fest einprogrammierten Bedeutungen. `2072`
 liefert die noch fehlende Folgeweltprüfung für zuvor ungelesene Familien. `2073`
@@ -199,60 +194,6 @@ verschiedenen Weltkontexten, ohne daraus eine Antwortklasse, Bestätigung oder
 Bedeutung zu bilden. Damit erhält der M.1-Anschluss erstmals eine technische
 Erfahrungsform, bleibt aber vollständig von Wahrnehmung, Handlung und Richtung
 getrennt.
-`2083` prüft `rf_05:volume` vorab auf 5m. Die Gesamtantwort repliziert stark
-gegenüber den gematchten Alternativmitgliedschaften, bleibt 2024 und bei BTC
-aber achsengemischt. Der M.1-Anschluss erscheint damit nicht als starre
-Signatur, sondern als wiederkehrende und zugleich kontextplastische
-Familienantwort. Fünf neue numerische Beobachtungen reifen dieselbe passive
-Antwortidentität, ohne eine Sonderregel, Klasse oder Rückwirkung zu erzeugen.
-`2084` zerlegt dieselbe Evidenz in zwölf Fenster. Fast durchgehend steigt der
-Familienereignisanteil, während Kontinuität und Mitgliederbreite mit der
-lokalen Feldphase wechseln. Die starke Gesamtantwort ist damit als kollektive
-Wirkung über mehrere Feldlagen lesbar, nicht als lokale Invariante jedes
-Fensters. Die Memory wird durch diese nachträgliche Zerlegung nicht erneut
-vergrößert.
-`2085` verbindet die ungestörte Familienlage kontinuierlich mit dem späteren
-Antwortvektor. Keine einfache Kopplung ist im Betrag ungewöhnlich gegenüber
-gematchten Familien. Vier kreuzweise Achsen tragen jedoch eine robuste
-entgegengesetzte Orientierung: Die mögliche Besonderheit liegt damit nicht in
-größerer Reaktionsstärke, sondern in der relationalen Ordnung zwischen
-Kontinuität, Ereignisanteil und Mitgliederbreite. Auch daraus entsteht keine
-Runtime-Regel oder zusätzliche Memory-Evidenz.
-`2086` prüft diese vier Orientierungen in zwölf neuen 5m-Fenstern. Keine der
-vier positiven Kreuzkopplungen repliziert; auch die dreiachsige Verstärkung
-fällt geschlossen aus. Wiederkehrend bleibt nur ein steigender
-Familienereignisanteil bei gleichzeitig sinkender Kontinuität und
-Mitgliederbreite. Der M.1-Anschluss verengt sich damit von einer möglichen
-festen Antwortordnung auf eine kontextplastische Ereignisumverteilung. Die
-widerlegte Kreuzorientierung wird weder gespeichert noch programmiert.
-`2087` nimmt die vollständigen numerischen Antwortvektoren aus 2086 in dieselbe
-passive Familien-Komponenten-Identität auf. Frühere positive und neue negative
-Achsen bleiben nebeneinander erhalten; nur die arithmetische Erfahrungsmitte
-verschiebt sich. So bewahrt der M.1-Anschluss Widerspruch als Herkunft und
-Feldlage, ohne daraus Bestätigung, Klasse oder steuernde Bedeutung zu bilden.
-`2088` vermisst diese Breite für alle Antwortidentitäten. Ereignisanteil bleibt
-bei `rf_05:volume` über 21 Beobachtungen und fünf Quellen gleichgerichtet;
-Kontinuität und Mitgliederbreite tragen dagegen deutliche Vorzeichenbreite.
-Andere vollständig gerichtete Achsen sind meist erst über sechs Beobachtungen
-aus zwei Quellen belegt. Der M.1-Anschluss verlangt deshalb eine getrennte
-Lesung von Richtungsbilanz und Evidenztiefe, nicht eine neue Rollenklasse.
-`2089` gleicht die Volumen-Evidenztiefe aller acht Familien auf denselben
-Holdouts an. Drei Familien erhöhen und zwei senken den Ereignisanteil in allen
-zehn Gruppen; `rf_05` trägt den größten positiven Effekt und Nullabstand. Die
-gleiche Phasenlösung erzeugt somit keine feste Komponentenwirkung, sondern eine
-familienabhängige Ereignisrichtung. Das verdichtet den M.1-Anschluss als
-relationale Antworttopologie, weiterhin ohne semantische oder motorische Rolle.
-`2090` prüft fünf dieser Richtungen vorab auf 30m. `rf_05` und `rf_07`
-replizieren positiv, `rf_17` negativ; `rf_08` und `rf_21` übertragen sich nicht
-geschlossen. Der M.1-Anschluss besitzt damit einen zeitebenenübergreifenden
-Richtungskern und zugleich familienabhängige Drift. Die Richtungen bleiben
-gemessene Relationen und werden nicht zu Eigenschaften der Familien erklärt.
-`2091` führt die fehlenden Volumenbeobachtungen in der passiven Memory zusammen.
-Alle acht Volumenidentitäten besitzen danach dieselbe Tiefe von 21
-Beobachtungen aus fünf Quellen. Vorhandene `rf_05`- und `rf_08`-Evidenz wird
-nicht dupliziert. Der M.1-Anschluss erhält damit eine balancierte
-Erfahrungsbasis, ohne aus positiver, negativer oder driftender Richtung eine
-Familienklasse zu erzeugen.
 
 Damit entsteht kein Wörterbuch nach dem Muster `dio_x = feste Bedeutung`.
 Tragfähiger ist:
