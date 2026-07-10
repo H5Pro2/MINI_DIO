@@ -91,8 +91,6 @@ Kurzbefund: Reife ist keine starre Klasse. Eine Familie kann in einer Welt getra
 
 Die aktuelle Kette untersucht, ob einzelne Rollen als Familienräume weiterleben und wie sich ihre innere Mitgliedsverteilung in realen Folgewelten verändert.
 
-OHLCV-Daten sind dabei ausschließlich eine reproduzierbare Außenwelt. Komponenten- und Phasenänderungen dienen als kontrollierte Reize für das MCM-Feld; sie untersuchen keine Chartformationen, Marktphasen, Handelssignale oder Prognosen.
-
 - [2066: Kohäsion realverstärkter Rollenfamilien](befunde/2001-3000/2066_REALVERSTAERKTE_ROLLENFAMILIEN_KOHAESION.md)
 - [2069: Passive Rollenfamilien-Memory](befunde/2001-3000/2069_PASSIVE_ROLLENFAMILIEN_MEMORY.md)
 - [2070: Erste drei Familien auf gleicher Symbolbasis](befunde/2001-3000/2070_ROLLENFAMILIEN_GLEICHE_SYMBOLBASIS_FOLGEWELTEN.md)
@@ -100,16 +98,8 @@ OHLCV-Daten sind dabei ausschließlich eine reproduzierbare Außenwelt. Komponen
 - [2072: Fünf bisher ungelesene Familien in denselben Folgewelten](befunde/2001-3000/2072_OFFENE_ROLLENFAMILIEN_GLEICHE_SYMBOLBASIS_FOLGEWELTEN.md)
 - [2073: Rollenfamilien im Real-/Nullwelt-Kontrast](befunde/2001-3000/2073_ROLLENFAMILIEN_REAL_NULL_KONTRAST.md)
 - [2074: `rf_05` im unabhängigen Jahres- und Zeitebenen-Holdout](befunde/2001-3000/2074_RF05_CROSSYEAR_TIMEFRAME_HOLDOUT.md)
-- [2075: `rf_05` unter komponentenisolierten Kontrollen](befunde/2001-3000/2075_RF05_KOMPONENTEN_KONTROLLEN.md)
-- [2076: `rf_05` unter Komponenten-Phasenkontrollen](befunde/2001-3000/2076_RF05_KOMPONENTEN_PHASENKONTROLLEN.md)
-- [2077: Rollenfamilien unter Komponenten-Phasenprofilen](befunde/2001-3000/2077_ROLLENFAMILIEN_KOMPONENTEN_PHASENPROFILE.md)
-- [2078: Rollenfamilien-Phasenprofile im unabhängigen 2025-Holdout](befunde/2001-3000/2078_ROLLENFAMILIEN_PHASENPROFIL_HOLDOUT.md)
-- [2079: Rollenfamilien gegen gematchte Pseudo-Familien](befunde/2001-3000/2079_ROLLENFAMILIEN_GEMATCHE_PSEUDOFAMILIEN.md)
-- [2080: `rf_08:sign` im gematchten Crossyear-Kontrast](befunde/2001-3000/2080_RF08_SIGN_GEMATCHTER_CROSSYEAR_KONTRAST.md)
-- [2081: `rf_08:sign` und `rf_05:volume` im unabhängigen 30m-Holdout](befunde/2001-3000/2081_RF08_SIGN_RF05_VOLUME_30M_HOLDOUT.md)
-- [2082: Passive Familien-Komponenten-Antwort-Memory](befunde/2001-3000/2082_PASSIVE_FAMILIEN_KOMPONENTEN_ANTWORT_MEMORY.md)
 
-Kurzbefund: Alle acht Familien besitzen reale Folgeweltevidenz, aber Gegenproben begrenzen vorschnelle Bedeutungszuweisungen. Real-/Nullwelt-, Komponenten-, Phasen- und Pseudo-Familien-Vergleiche zeigen keine einzelne tragende Chart-Komponente und keinen festen Familientyp. Einzelne Reaktionen wiederholen sich, bleiben jedoch kontextabhängige Feldsensitivitäten ohne Chartbedeutung oder Handlungsrichtung. Befund 2082 bewahrt 212 numerische Beobachtungen in 32 passiven Familien-Komponenten-Antwortidentitäten. Die Memory speichert Herkunft, Weltkontext und Nullabstand, aber keine Klasse, Bestätigung, Bedeutung, Vorhersage oder Handlung.
+Kurzbefund: Alle acht Familien besitzen reale Folgeweltevidenz, aber der Kontrollvergleich begrenzt deren Bedeutung deutlich. Der unabhängige Holdout reproduziert den zunächst gemeinsamen Vorsprung von `rf_05` nicht. Die Familien belegen damit feldinterne relationale Wiederkehr, aber derzeit keine allgemein nachgewiesene realweltspezifische Bedeutung. Die Memory bewahrt Feldrollen, Herkunft und numerische Erfahrung, keine Bestandteile der Außenwelt als feste Identitäten.
 
 ## 8. Methodische Grenzen Und Gegenproben
 

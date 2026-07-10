@@ -128,20 +128,8 @@ Die Befundfolge [2066](befunde/2001-3000/2066_REALVERSTAERKTE_ROLLENFAMILIEN_KOH
 [2071](befunde/2001-3000/2071_PASSIVE_ROLLENFAMILIEN_MEMORY_FOLGEWELTDRIFT.md),
 [2072](befunde/2001-3000/2072_OFFENE_ROLLENFAMILIEN_GLEICHE_SYMBOLBASIS_FOLGEWELTEN.md),
 [2073](befunde/2001-3000/2073_ROLLENFAMILIEN_REAL_NULL_KONTRAST.md),
-[2074](befunde/2001-3000/2074_RF05_CROSSYEAR_TIMEFRAME_HOLDOUT.md),
-[2075](befunde/2001-3000/2075_RF05_KOMPONENTEN_KONTROLLEN.md),
-[2076](befunde/2001-3000/2076_RF05_KOMPONENTEN_PHASENKONTROLLEN.md),
-[2077](befunde/2001-3000/2077_ROLLENFAMILIEN_KOMPONENTEN_PHASENPROFILE.md),
-[2078](befunde/2001-3000/2078_ROLLENFAMILIEN_PHASENPROFIL_HOLDOUT.md),
-[2079](befunde/2001-3000/2079_ROLLENFAMILIEN_GEMATCHE_PSEUDOFAMILIEN.md),
-[2080](befunde/2001-3000/2080_RF08_SIGN_GEMATCHTER_CROSSYEAR_KONTRAST.md),
-[2081](befunde/2001-3000/2081_RF08_SIGN_RF05_VOLUME_30M_HOLDOUT.md)
-und [2082](befunde/2001-3000/2082_PASSIVE_FAMILIEN_KOMPONENTEN_ANTWORT_MEMORY.md)
+[2074](befunde/2001-3000/2074_RF05_CROSSYEAR_TIMEFRAME_HOLDOUT.md)
 entwickelt dafür eine passive Rollenfamilien-Evidenz. Wichtig ist die Grenze:
-Die verwendeten OHLCV-Zeitreihen sind eine kontrollierbare Außenwelt, nicht der
-Gegenstand einer Chart- oder Marktforschung. Komponentenänderungen prüfen, wie
-das MCM-Feld auf veränderte Weltkopplung reagiert. Sie erzeugen keine Aussagen
-über Marktphasen, Handelssignale oder eine feste Bedeutung von Kurs und Volumen.
 `2071` speichert Messwerte und Evidenzherkunft; seine sprachlichen Klassen sind
 vorläufige Report-Lesungen, keine fest einprogrammierten Bedeutungen. `2072`
 liefert die noch fehlende Folgeweltprüfung für zuvor ungelesene Familien. `2073`
@@ -151,49 +139,7 @@ Gruppenprofil zunächst einen gemeinsamen Vorsprung bei Kontinuität,
 Ereignisanteil und Mitgliederabdeckung. `2074` reproduziert diesen Vorsprung im
 unabhängigen Jahres- und Zeitebenen-Holdout jedoch nicht. Die Rollenfamilien
 bleiben damit ein relationaler M.1-Anschluss, aber ihre realweltspezifische
-Weltbindung ist derzeit für keine Familie allgemein belegt. `2075` grenzt
-zusätzlich eine einfache Komponentenbedeutung ab: Körpergrößen- und
-Volumen-Shuffle verstärken `rf_05`, während erst vollständiges Shape-Shuffle die
-drei Primärachsen gemeinsam senkt. Damit ist weder ein einzelnes Zeichen noch
-eine einzelne OHLCV-Komponente als Träger der Rollenfamilie belegt. `2076`
-erhält die Eigenzeit einzelner Komponenten und löst nur deren relative Phase.
-Größen-, Docht- und Volumenphase tragen `rf_05` gebündelt stärker als Real. Die
-Vorzeichenphase fällt gebündelt ab, aber nicht über alle Offsets und Fensterpaare
-kohärent. Damit bleibt auch eine allgemein notwendige reale Komponentenkopplung
-unbelegt; sichtbar ist zunächst nur begrenzte Phasensensitivität.
-`2077` zeigt jedoch, dass diese Sensitivität nicht bei allen Rollenfamilien
-gleich ausfällt. Selektive Verstärkung, breite Abschwächung und achsengemischte
-Antwort bilden unterscheidbare Familienprofile. Das schließt an M.1 als
-relationale Rollenbildung an, ohne den Profilen feste Semantik zuzuschreiben:
-Belegt ist eine familienabhängige Phasen-Antworttopologie innerhalb des
-Kontrollraums, noch keine unabhängige Weltbindung oder Bedeutung.
-`2078` prüft vier markante Profile vorab in getrennten 2025-Fenstern. Einzelne
-gerichtete Achsen wiederholen sich, vollständige Profile bleiben jedoch von der
-Zeitebene abhängig. Der M.1-Anschluss verdichtet sich dadurch nicht zu festen
-Rollentypen, sondern zu einer begrenzten, feld- und zeitebenensensitiven
-Antwortstruktur.
-`2079` trennt diese Achsen zusätzlich von Mitgliederzahl und Quellhäufigkeit.
-Zwei zuvor stabile `rf_10`-Achsen treten unter gematchten Pseudo-Familien häufig
-auf. Nur `rf_08:sign` bleibt auffällig und konzentriert sich auf 15m. Der
-M.1-Anschluss wird dadurch weiter auf eine mögliche familien-, komponenten- und
-zeitebenengebundene Kopplung begrenzt, nicht auf einen allgemeinen Rollentyp.
-`2080` zeigt `rf_08:sign` in beiden Jahren außerhalb identischer gematchter
-Alternativmitgliedschaften. Die 2025 sichtbare 15m-Konzentration wiederholt sich
-2024 jedoch nicht, weil dort beide Zeitebenen tragen. Damit bleibt eine
-wiederkehrende Familien-Komponenten-Kopplung als Kandidat offen, nicht aber eine
-feste Zeitebenen- oder Rollenbedeutung.
-`2081` prüft `rf_08:sign` und `rf_05:volume` vorab auf 30m. Nur
-`rf_05:volume` repliziert geschlossen über beide Jahre, beide Assets und
-gematchte Alternativmitgliedschaften. Der M.1-Anschluss verdichtet sich damit
-zu einer wiederkehrenden familienbezogenen Phasensensitivität, weiterhin ohne
-feste Volumenbedeutung oder Handlung. Eine passive kontextgebundene
-Antwort-Memory ist dadurch fachlich begründbar.
-`2082` setzt diese Erweiterung als getrennte passive Memory-Schicht um. Eine
-stabile Familien-Komponenten-Identität verbindet numerische Beobachtungen aus
-verschiedenen Weltkontexten, ohne daraus eine Antwortklasse, Bestätigung oder
-Bedeutung zu bilden. Damit erhält der M.1-Anschluss erstmals eine technische
-Erfahrungsform, bleibt aber vollständig von Wahrnehmung, Handlung und Richtung
-getrennt.
+Weltbindung ist derzeit für keine Familie allgemein belegt.
 
 Damit entsteht kein Wörterbuch nach dem Muster `dio_x = feste Bedeutung`.
 Tragfähiger ist:

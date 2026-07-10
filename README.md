@@ -323,21 +323,19 @@ Das ist kein Nachweis allgemeiner Intelligenz und kein Bewusstseinsbeweis. Es is
 
 ## Aktueller Forschungsstand In Kurzform
 
-Die jüngste Forschung verdichtet einzelne `dio_*`-Rollen zu passiven Rollenfamilien. Acht Familien mit 29 Mitgliedern wurden in realen Folgewelten, zeitstrukturveränderten Kontrollwelten und unabhängigen Gegenproben gelesen. Untersuchungsgegenstand ist dabei die Organisation des MCM-Feldes: Wiederkehr, Kontinuität, Kopplung, Rollenbreite, Drift und Nachhall.
+Die jüngste Forschung verdichtet einzelne `dio_*`-Rollen zu passiven Rollenfamilien. Acht Familien mit 29 Mitgliedern wurden in realen Folgewelten und anschließend gegen zeitstrukturveränderte Kontrollwelten gelesen. Untersucht wird ausschließlich, wie sich das MCM-Feld unter wechselndem Weltkontakt organisiert: Wiederkehr, Kontinuität, Kopplung, Rollenbreite, Drift und Nachhall.
 
-**Rolle der Chartdaten:** OHLCV-Zeitreihen dienen MINI_DIO als reproduzierbare Außenwelt. Einzelne Chart-Komponenten werden nur verändert, um das MCM-Feld kontrolliert zu reizen und seine Reorganisation zu beobachten. Untersucht werden weder Chartabschnitte als Marktphasen noch Preis-Volumen-Muster, Handelssignale oder Prognosen.
+Dabei zeigt sich kein einheitlich realweltgebundener Familientyp:
 
-Die bisherigen Gegenproben zeigen:
+- `rf_05` lag in der ersten Kontrollgruppe zugleich bei Kontinuität, Ereignisanteil und Mitgliederabdeckung über beiden Kontrollen. Ein unabhängiger 2024-Holdout reproduzierte diesen gemeinsamen Vorsprung jedoch nicht.
+- `rf_07` trägt einen höheren realen Ereignisanteil, ist aber auch in beiden Kontrollformen vollständig abgedeckt und dort leicht kontinuierlicher.
+- `rf_08` liegt bei Kontinuität und Abdeckung über beiden Kontrollen, nicht jedoch beim Ereignisanteil.
+- `rf_17` wird durch die zeitstrukturveränderte Kontrollwelt deutlich stärker gelesen als durch die reale Zeitfolge.
+- Über alle acht Familien liegt die mittlere Kontinuität der Kontrollwelten mindestens auf Realweltniveau.
 
-- Alle acht Rollenfamilien können in späteren Welten wiederkehren, aber keine Familie besitzt derzeit eine allgemein nachgewiesene realweltspezifische Bedeutung.
-- Real-/Nullwelt-Vergleiche begrenzen mehrere zunächst stark wirkende Familienprofile; Wiederkehr allein beweist noch keine besondere Weltbindung.
-- Komponenten- und Phasenkontrollen widerlegen eine einfache feste Zuordnung zwischen einer OHLCV-Komponente und einer Rollenfamilie. Sichtbar sind kontextabhängige Feldreaktionen, keine Chartbedeutungen.
-- Gematchte Pseudo-Familien zeigen, dass Mitgliederzahl und Quellhäufigkeit einen Teil scheinbar stabiler Antworten erklären können.
-- Einzelne Familien-Komponenten-Reaktionen wiederholen sich in Gegenproben, bleiben jedoch numerische Feldsensitivitäten ohne Semantik, Richtung oder Handlung.
+Die Rollenfamilien-Memory speichert nur feldinterne Identität, Herkunft, Wiederkehr und numerische Evidenz. Sie speichert keine Bestandteile der Außenwelt als Bedeutungs- oder Antwortidentitäten. Begriffe wie stabil, reorganisierend oder fragmentiert bleiben nachgelagerte Forschungssprache und werden nicht als Regeln in den Organismus geschrieben.
 
-Die Memory speichert dafür nur Identität, Herkunft, Weltkontext und numerische Feldantwort. Begriffe wie stabil, reorganisierend oder fragmentiert bleiben nachgelagerte Forschungssprache und werden nicht als Regeln in den Organismus geschrieben.
-
-Seit Befund 2082 besitzt MINI_DIO eine generische passive Familien-Komponenten-Antwort-Memory mit 212 Beobachtungen und 32 stabilen Antwortidentitäten. Sie bleibt vollständig von Wahrnehmung und Handlung getrennt und enthält keine Antwortklasse, Bestätigung, Bedeutung oder Vorhersage.
+Die Anschlussfähigkeit aus realen Folgewelten ist damit zunächst ein Befund feldinterner Wiederkehr. Für keine der acht Familien ist derzeit eine allgemeine realweltspezifische Bedeutung nachgewiesen.
 
 Die thematisch geordnete Kurzfassung mit direkten Links liegt in der [Befundübersicht](docs/BEFUNDE_UEBERSICHT.md).
 
@@ -350,14 +348,6 @@ Aktuelle Befundkette:
 - [2072: Bisher ungelesene Rollenfamilien in Folgewelten](docs/befunde/2001-3000/2072_OFFENE_ROLLENFAMILIEN_GLEICHE_SYMBOLBASIS_FOLGEWELTEN.md)
 - [2073: Rollenfamilien im Real-/Nullwelt-Kontrast](docs/befunde/2001-3000/2073_ROLLENFAMILIEN_REAL_NULL_KONTRAST.md)
 - [2074: `rf_05` im unabhängigen Jahres- und Zeitebenen-Holdout](docs/befunde/2001-3000/2074_RF05_CROSSYEAR_TIMEFRAME_HOLDOUT.md)
-- [2075: `rf_05` unter komponentenisolierten Kontrollen](docs/befunde/2001-3000/2075_RF05_KOMPONENTEN_KONTROLLEN.md)
-- [2076: `rf_05` unter Komponenten-Phasenkontrollen](docs/befunde/2001-3000/2076_RF05_KOMPONENTEN_PHASENKONTROLLEN.md)
-- [2077: Rollenfamilien unter Komponenten-Phasenprofilen](docs/befunde/2001-3000/2077_ROLLENFAMILIEN_KOMPONENTEN_PHASENPROFILE.md)
-- [2078: Rollenfamilien-Phasenprofile im unabhängigen 2025-Holdout](docs/befunde/2001-3000/2078_ROLLENFAMILIEN_PHASENPROFIL_HOLDOUT.md)
-- [2079: Rollenfamilien gegen gematchte Pseudo-Familien](docs/befunde/2001-3000/2079_ROLLENFAMILIEN_GEMATCHE_PSEUDOFAMILIEN.md)
-- [2080: `rf_08:sign` im gematchten Crossyear-Kontrast](docs/befunde/2001-3000/2080_RF08_SIGN_GEMATCHTER_CROSSYEAR_KONTRAST.md)
-- [2081: `rf_08:sign` und `rf_05:volume` im unabhängigen 30m-Holdout](docs/befunde/2001-3000/2081_RF08_SIGN_RF05_VOLUME_30M_HOLDOUT.md)
-- [2082: Passive Familien-Komponenten-Antwort-Memory](docs/befunde/2001-3000/2082_PASSIVE_FAMILIEN_KOMPONENTEN_ANTWORT_MEMORY.md)
 
 ## Visueller Forschungsweg
 

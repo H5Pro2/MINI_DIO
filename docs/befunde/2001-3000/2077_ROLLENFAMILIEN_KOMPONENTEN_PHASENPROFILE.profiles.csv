@@ -1,9 +1,0 @@
-role_family,sign_relation,magnitude_relation,wick_relation,volume_relation,component_signature,pooled_strengthened_components,pooled_weakened_components,exact_strengthened_conditions,exact_weakened_conditions
-rf_05,abgeschwaecht,verstaerkt,verstaerkt,verstaerkt,abgeschwaecht;verstaerkt;verstaerkt;verstaerkt,3,1,7,2
-rf_06,abgeschwaecht,gemischt,gemischt,abgeschwaecht,abgeschwaecht;gemischt;gemischt;abgeschwaecht,0,2,1,9
-rf_07,gemischt,gemischt,gemischt,gemischt,gemischt;gemischt;gemischt;gemischt,0,0,0,0
-rf_08,verstaerkt,verstaerkt,verstaerkt,verstaerkt,verstaerkt;verstaerkt;verstaerkt;verstaerkt,4,0,11,0
-rf_10,abgeschwaecht,abgeschwaecht,abgeschwaecht,abgeschwaecht,abgeschwaecht;abgeschwaecht;abgeschwaecht;abgeschwaecht,0,4,0,12
-rf_13,gemischt,abgeschwaecht,gemischt,abgeschwaecht,gemischt;abgeschwaecht;gemischt;abgeschwaecht,0,2,2,6
-rf_17,abgeschwaecht,abgeschwaecht,abgeschwaecht,abgeschwaecht,abgeschwaecht;abgeschwaecht;abgeschwaecht;abgeschwaecht,0,4,1,9
-rf_21,abgeschwaecht,gemischt,abgeschwaecht,abgeschwaecht,abgeschwaecht;gemischt;abgeschwaecht;abgeschwaecht,0,3,0,7
