@@ -421,12 +421,24 @@ Die Begriffe Feldbewusstsein, Feldintelligenz, Feldzeit, Zentrum, Rand und Topol
 
 Die Forschungsqualität hängt deshalb an Gegenproben, Nullwelten, unabhängigen Zeitfenstern, frischen Memories, Rohwerten und klarer Trennung zwischen gespeicherter Evidenz und nachgelagerter Interpretation.
 
-## Zentrale Dokumente
+## Dokumentation, Archiv Und Theoriebezug
 
-- [Befundübersicht](docs/BEFUNDE_UEBERSICHT.md)
-- [Historische Projektentwicklung bis 9. Juli 2026](docs/PROJEKTENTWICKLUNG_LANGFASSUNG_BIS_2026-07-09.md) - vollständiges Textarchiv der früheren Langfassung
-- [Mechanik und Modellnotizen](docs/mechanik/)
-- [MCM-Hauptprojekt](https://github.com/H5Pro2/Mental-Core-Matrix-MCM)
-- [Von Resonanz zu Sprache](https://github.com/H5Pro2/Mental-Core-Matrix-MCM/blob/main/Abhandlungen/MCM%20-%20Nebenabhandlung/Von%20Resonanz%20zu%20Sprache.pdf)
-- [Die energetische Natur der Zeit](https://github.com/H5Pro2/Mental-Core-Matrix-MCM/blob/main/Abhandlungen/MCM%20-%20Hauptabhandlungen/Teil%20I%20-%20Die%20Mental%20Core%20Matrix%20%E2%80%93%20Strukturmodell/Abhandlung%20Block%20D%20-%20Die%20energetische%20Natur%20der%20Zeit.pdf)
-- [Individuelle Selbstregulation im Modell der MCM](https://github.com/H5Pro2/Mental-Core-Matrix-MCM/blob/main/Abhandlungen/MCM%20-%20Hauptabhandlungen/Teil%20II%20-%20Psychologische%20Dynamik%20der%20Mental%20Core%20Matrix/Abhandlung%20Block%20K%20-%20Individuelle%20Selbstregulation%20im%20Modell%20der%20MCM.pdf)
+Die README erklärt das Projekt als Ganzes. Für die vertiefende Arbeit sind aktuelle Forschungsdokumentation, historischer Projektstand und theoretischer MCM-Anschluss bewusst getrennt.
+
+### MINI_DIO-Dokumentation
+
+- [Befundübersicht](docs/BEFUNDE_UEBERSICHT.md) - thematisch geordneter Einstieg in die wichtigsten Forschungsbefunde
+- [Mechanik und Modellnotizen](docs/mechanik/) - technische Prinzipien, Reifungsbahnen und methodische Grenzen
+- [Aktueller MCM-Repository-Abgleich](docs/MCM_REPOSITORY_ABGLEICH.md) - direkte Zuordnung zwischen MCM-Abhandlungen und der in MINI_DIO beobachteten Struktur
+
+### Historischer Projektstand
+
+- [Projektentwicklung bis 9. Juli 2026](docs/PROJEKTENTWICKLUNG_LANGFASSUNG_BIS_2026-07-09.md) - vollständiges Textarchiv der früheren Langfassung; historische Aussagen sind nicht automatisch der aktuelle Forschungsstand
+
+### Theoretischer MCM-Anschluss
+
+Das [MCM-Hauptprojekt](https://github.com/H5Pro2/Mental-Core-Matrix-MCM) ist der externe Theorie- und Abhandlungskorpus. Für die Einordnung von MINI_DIO sind besonders diese Texte relevant:
+
+- [Von Resonanz zu Sprache](https://github.com/H5Pro2/Mental-Core-Matrix-MCM/blob/main/Abhandlungen/MCM%20-%20Nebenabhandlung/Von%20Resonanz%20zu%20Sprache.pdf) - Übergang von vorsprachlicher Resonanz zu späterer Bedeutungsbildung
+- [Block D: Die energetische Natur der Zeit](https://github.com/H5Pro2/Mental-Core-Matrix-MCM/blob/main/Abhandlungen/MCM%20-%20Hauptabhandlungen/Teil%20I%20-%20Die%20Mental%20Core%20Matrix%20%E2%80%93%20Strukturmodell/Abhandlung%20Block%20D%20-%20Die%20energetische%20Natur%20der%20Zeit.pdf) - Bezug zu Feldzeit, Nachhall und zeitlicher Eigenstruktur
+- [Block K: Individuelle Selbstregulation im Modell der MCM](https://github.com/H5Pro2/Mental-Core-Matrix-MCM/blob/main/Abhandlungen/MCM%20-%20Hauptabhandlungen/Teil%20II%20-%20Psychologische%20Dynamik%20der%20Mental%20Core%20Matrix/Abhandlung%20Block%20K%20-%20Individuelle%20Selbstregulation%20im%20Modell%20der%20MCM.pdf) - Bezug zu organischer Regulation ohne zentrale harte Steuerung
