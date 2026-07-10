@@ -134,8 +134,9 @@ Die Befundfolge [2066](befunde/2001-3000/2066_REALVERSTAERKTE_ROLLENFAMILIEN_KOH
 [2077](befunde/2001-3000/2077_ROLLENFAMILIEN_KOMPONENTEN_PHASENPROFILE.md),
 [2078](befunde/2001-3000/2078_ROLLENFAMILIEN_PHASENPROFIL_HOLDOUT.md),
 [2079](befunde/2001-3000/2079_ROLLENFAMILIEN_GEMATCHE_PSEUDOFAMILIEN.md),
-[2080](befunde/2001-3000/2080_RF08_SIGN_GEMATCHTER_CROSSYEAR_KONTRAST.md)
-und [2081](befunde/2001-3000/2081_RF08_SIGN_RF05_VOLUME_30M_HOLDOUT.md)
+[2080](befunde/2001-3000/2080_RF08_SIGN_GEMATCHTER_CROSSYEAR_KONTRAST.md),
+[2081](befunde/2001-3000/2081_RF08_SIGN_RF05_VOLUME_30M_HOLDOUT.md)
+und [2082](befunde/2001-3000/2082_PASSIVE_FAMILIEN_KOMPONENTEN_ANTWORT_MEMORY.md)
 entwickelt dafür eine passive Rollenfamilien-Evidenz. Wichtig ist die Grenze:
 `2071` speichert Messwerte und Evidenzherkunft; seine sprachlichen Klassen sind
 vorläufige Report-Lesungen, keine fest einprogrammierten Bedeutungen. `2072`
@@ -183,6 +184,12 @@ gematchte Alternativmitgliedschaften. Der M.1-Anschluss verdichtet sich damit
 zu einer wiederkehrenden familienbezogenen Phasensensitivität, weiterhin ohne
 feste Volumenbedeutung oder Handlung. Eine passive kontextgebundene
 Antwort-Memory ist dadurch fachlich begründbar.
+`2082` setzt diese Erweiterung als getrennte passive Memory-Schicht um. Eine
+stabile Familien-Komponenten-Identität verbindet numerische Beobachtungen aus
+verschiedenen Weltkontexten, ohne daraus eine Antwortklasse, Bestätigung oder
+Bedeutung zu bilden. Damit erhält der M.1-Anschluss erstmals eine technische
+Erfahrungsform, bleibt aber vollständig von Wahrnehmung, Handlung und Richtung
+getrennt.
 
 Damit entsteht kein Wörterbuch nach dem Muster `dio_x = feste Bedeutung`.
 Tragfähiger ist:

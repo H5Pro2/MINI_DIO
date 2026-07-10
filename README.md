@@ -333,6 +333,8 @@ Die jüngste Forschung verdichtet einzelne `dio_*`-Rollen zu passiven Rollenfami
 
 Die Memory speichert dafür nur Identität, Herkunft und numerische Evidenz. Begriffe wie stabil, reorganisierend oder fragmentiert bleiben nachgelagerte Forschungssprache und werden nicht als Regeln in den Organismus geschrieben. Die Anschlussfähigkeit aus realen Folgewelten ist damit zunächst ein Befund feldinterner Wiederkehr. Für keine der acht Familien ist derzeit eine allgemeine realweltspezifische Bedeutung nachgewiesen.
 
+Seit Befund 2082 besitzt MINI_DIO zusätzlich eine passive Familien-Komponenten-Antwort-Memory. Sie verbindet eine stabile Antwortidentität mit einzelnen numerischen Beobachtungen aus unterschiedlichen Jahren, Zeitebenen, Assets und Kontrollräumen. Die Schicht ist generisch, speichert keine Antwortklasse oder Bedeutung und bleibt vollständig von Wahrnehmung und Handlung getrennt.
+
 Die thematisch geordnete Kurzfassung mit direkten Links liegt in der [Befundübersicht](docs/BEFUNDE_UEBERSICHT.md).
 
 Aktuelle Befundkette:
@@ -351,6 +353,7 @@ Aktuelle Befundkette:
 - [2079: Rollenfamilien gegen gematchte Pseudo-Familien](docs/befunde/2001-3000/2079_ROLLENFAMILIEN_GEMATCHE_PSEUDOFAMILIEN.md)
 - [2080: `rf_08:sign` im gematchten Crossyear-Kontrast](docs/befunde/2001-3000/2080_RF08_SIGN_GEMATCHTER_CROSSYEAR_KONTRAST.md)
 - [2081: `rf_08:sign` und `rf_05:volume` im unabhängigen 30m-Holdout](docs/befunde/2001-3000/2081_RF08_SIGN_RF05_VOLUME_30M_HOLDOUT.md)
+- [2082: Passive Familien-Komponenten-Antwort-Memory](docs/befunde/2001-3000/2082_PASSIVE_FAMILIEN_KOMPONENTEN_ANTWORT_MEMORY.md)
 
 ## Visueller Forschungsweg
 
