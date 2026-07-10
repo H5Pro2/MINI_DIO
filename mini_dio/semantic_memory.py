@@ -38,6 +38,12 @@ from mini_dio.mcm_field_memory_store import (
     store_mcm_field_episode_memory as store_mcm_field_episode_memory_trace,
     top_mcm_field_episode_memory,
 )
+from mini_dio.mcm_topological_memory import (
+    passive_mcm_topology_profile,
+    store_passive_mcm_topology_episode as store_passive_mcm_topology_episode_trace,
+    top_passive_mcm_topology_edges,
+    top_passive_mcm_topology_nodes,
+)
 from mini_dio.mcm_preview_anchor_depth_memory import (
     store_passive_mcm_preview_anchor_depth as store_passive_mcm_preview_anchor_depth_trace,
     top_preview_anchor_depth as top_preview_anchor_depth_trace,
@@ -101,6 +107,7 @@ class SemanticMemory:
             "temporal_families": {},
             "episode_memory": {},
             "mcm_field_episode_memory": {},
+            "passive_mcm_topology": {"nodes": {}, "edges": {}},
             "passive_inner_effect_reflection_notes": [],
             "passive_inner_effect_reflection_history": {},
             "passive_inner_effect_meaning_notes": [],
@@ -151,6 +158,7 @@ class SemanticMemory:
             self.data.setdefault("temporal_families", {})
             self.data.setdefault("episode_memory", {})
             self.data.setdefault("mcm_field_episode_memory", {})
+            self.data.setdefault("passive_mcm_topology", {"nodes": {}, "edges": {}})
             self.data.setdefault("passive_inner_effect_reflection_notes", [])
             self.data.setdefault("passive_inner_effect_reflection_history", {})
             self.data.setdefault("passive_inner_effect_meaning_notes", [])
@@ -425,6 +433,33 @@ class SemanticMemory:
         """
 
         return store_mcm_field_episode_memory_trace(self.data, payload, self.max_mcm_field_episode_memory)
+
+    def store_passive_mcm_topology_episode(
+        self,
+        payload: dict,
+        *,
+        previous_node_symbol: str = "",
+        world: str = "",
+        run_index: int = 0,
+    ) -> dict:
+        """Grow passive topology from the observed order of inner episodes."""
+
+        return store_passive_mcm_topology_episode_trace(
+            self.data,
+            payload,
+            previous_node_symbol=previous_node_symbol,
+            world=world,
+            run_index=run_index,
+        )
+
+    def passive_mcm_topology_profile(self) -> dict:
+        return passive_mcm_topology_profile(self.data)
+
+    def top_passive_mcm_topology_nodes(self, limit: int = 8) -> list[dict]:
+        return top_passive_mcm_topology_nodes(self.data, limit=limit)
+
+    def top_passive_mcm_topology_edges(self, limit: int = 8) -> list[dict]:
+        return top_passive_mcm_topology_edges(self.data, limit=limit)
 
     def compact_top(self, limit: int = 12) -> list[dict]:
         symbols = list(self.data.get("symbols", {}).values())

@@ -349,6 +349,8 @@ Die Rollenfamilien-Memory speichert nur feldinterne Identität, Herkunft, Wieder
 
 Die Anschlussfähigkeit aus realen Folgewelten ist damit zunächst ein Befund feldinterner Wiederkehr. Für keine der acht Familien ist derzeit eine allgemeine realweltspezifische Bedeutung nachgewiesen.
 
+Seit Befund 2075 verbindet MINI_DIO abgeschlossene innere MCM-Episoden während des Laufs zu einer passiven wachsenden Topologie. Knoten entstehen aus inneren Episodenidentitäten, gerichtete Kanten aus ihrer tatsächlichen Reihenfolge. Weltangaben bleiben reine Herkunft; das Netz beeinflusst weder Feld noch Handlung.
+
 Die thematisch geordnete Kurzfassung mit direkten Links liegt in der [Befundübersicht](docs/BEFUNDE_UEBERSICHT.md).
 
 Aktuelle Befundkette:
@@ -360,6 +362,7 @@ Aktuelle Befundkette:
 - [2072: Bisher ungelesene Rollenfamilien in Folgewelten](docs/befunde/2001-3000/2072_OFFENE_ROLLENFAMILIEN_GLEICHE_SYMBOLBASIS_FOLGEWELTEN.md)
 - [2073: Rollenfamilien im Real-/Nullwelt-Kontrast](docs/befunde/2001-3000/2073_ROLLENFAMILIEN_REAL_NULL_KONTRAST.md)
 - [2074: `rf_05` im unabhängigen Jahres- und Zeitebenen-Holdout](docs/befunde/2001-3000/2074_RF05_CROSSYEAR_TIMEFRAME_HOLDOUT.md)
+- [2075: Passive wachsende MCM-Feldtopologie](docs/befunde/2001-3000/2075_PASSIVE_WACHSENDE_MCM_FELDTOPOLOGIE.md)
 
 ## Visueller Forschungsweg
 

@@ -98,8 +98,9 @@ Die aktuelle Kette untersucht, ob einzelne Rollen als Familienräume weiterleben
 - [2072: Fünf bisher ungelesene Familien in denselben Folgewelten](befunde/2001-3000/2072_OFFENE_ROLLENFAMILIEN_GLEICHE_SYMBOLBASIS_FOLGEWELTEN.md)
 - [2073: Rollenfamilien im Real-/Nullwelt-Kontrast](befunde/2001-3000/2073_ROLLENFAMILIEN_REAL_NULL_KONTRAST.md)
 - [2074: `rf_05` im unabhängigen Jahres- und Zeitebenen-Holdout](befunde/2001-3000/2074_RF05_CROSSYEAR_TIMEFRAME_HOLDOUT.md)
+- [2075: Passive wachsende MCM-Feldtopologie](befunde/2001-3000/2075_PASSIVE_WACHSENDE_MCM_FELDTOPOLOGIE.md)
 
-Kurzbefund: Alle acht Familien besitzen reale Folgeweltevidenz, aber der Kontrollvergleich begrenzt deren Bedeutung deutlich. Der unabhängige Holdout reproduziert den zunächst gemeinsamen Vorsprung von `rf_05` nicht. Die Familien belegen damit feldinterne relationale Wiederkehr, aber derzeit keine allgemein nachgewiesene realweltspezifische Bedeutung. Die Memory bewahrt Feldrollen, Herkunft und numerische Erfahrung, keine Bestandteile der Außenwelt als feste Identitäten.
+Kurzbefund: Alle acht Familien besitzen reale Folgeweltevidenz, aber der Kontrollvergleich begrenzt deren Bedeutung deutlich. Der unabhängige Holdout reproduziert den zunächst gemeinsamen Vorsprung von `rf_05` nicht. Die Familien belegen damit feldinterne relationale Wiederkehr, aber derzeit keine allgemein nachgewiesene realweltspezifische Bedeutung. Befund 2075 beginnt deshalb mit der Integration: Innere Episoden bilden online Knoten und gerichtete Kanten. Die Memory bewahrt Feldrollen, Reihenfolge, Herkunft und numerische Erfahrung, keine Bestandteile der Außenwelt als feste Identitäten.
 
 ## 8. Methodische Grenzen Und Gegenproben
 
@@ -110,6 +111,7 @@ Wichtige Mechanikdokumente:
 - [Statische Reste und organische Kontrolle](mechanik/007_STATISCHE_RESTE_UND_ORGANISCHE_KONTROLLE.md)
 - [MCM-Reifungsbahn](mechanik/009_MCM_REIFUNGSBAHN.md)
 - [Vierstufige Weltpassung](mechanik/010_VIERSTUFIGE_WELTPASSUNG.md)
+- [Organische semantische Topologie](mechanik/011_ORGANISCHE_SEMANTISCHE_TOPOLOGIE.md)
 
 ## Vollständiger Befundbestand
 

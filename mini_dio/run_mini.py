@@ -392,6 +392,9 @@ def run_once(
     episode_transition_counter = {}
     episode_memory_written = 0
     mcm_field_episode_written = 0
+    mcm_topology_node_observations = 0
+    mcm_topology_edge_observations = 0
+    previous_mcm_topology_node_symbol = ""
     passive_mcm_effect_class_counter = {}
     passive_inner_effect_awareness_counter = {}
     passive_inner_effect_meaning_display_counter = {}
@@ -631,6 +634,8 @@ def run_once(
         episode_payload = episode_tracker.step(index, symbol_family, mcm_field_effect)
         episode_memory_symbol = "-"
         mcm_field_episode_symbol = "-"
+        mcm_topology_node_symbol = "-"
+        mcm_topology_edge_symbol = "-"
         mcm_field_episode_preview_symbol = "-"
         mcm_field_episode_preview_payload = episode_tracker.preview()
         if mcm_field_episode_preview_payload:
@@ -715,6 +720,19 @@ def run_once(
         if episode_payload:
             episode_memory_symbol = memory.store_episode_memory(episode_payload)
             mcm_field_episode_symbol = memory.store_mcm_field_episode_memory(episode_payload)
+            topology_observation = memory.store_passive_mcm_topology_episode(
+                episode_payload,
+                previous_node_symbol=previous_mcm_topology_node_symbol,
+                world=passive_world_label or "",
+                run_index=run_index,
+            )
+            mcm_topology_node_symbol = str(topology_observation.get("node_symbol", "") or "-")
+            mcm_topology_edge_symbol = str(topology_observation.get("edge_symbol", "") or "-")
+            if mcm_topology_node_symbol != "-":
+                previous_mcm_topology_node_symbol = mcm_topology_node_symbol
+                mcm_topology_node_observations += 1
+            if mcm_topology_edge_symbol != "-":
+                mcm_topology_edge_observations += 1
             episode_memory_written += 1
             mcm_field_episode_written += 1
             transition_key = str(episode_payload.get("transition", "") or "-")
@@ -769,6 +787,8 @@ def run_once(
                 "mcm_hearing_field_gap": f"{float(mcm_field_effect['hearing_field_gap']):.6f}",
                 "episode_memory_symbol": episode_memory_symbol,
                 "mcm_field_episode_symbol": mcm_field_episode_symbol,
+                "mcm_topology_node_symbol": mcm_topology_node_symbol,
+                "mcm_topology_edge_symbol": mcm_topology_edge_symbol,
                 "mcm_field_episode_preview_symbol": mcm_field_episode_preview_symbol,
                 "mcm_preview_anchor_depth_state": preview_anchor_depth_state,
                 "mcm_preview_anchor_depth_score": f"{preview_anchor_depth_score:.6f}",
@@ -913,6 +933,19 @@ def run_once(
     if episode_payload:
         memory.store_episode_memory(episode_payload)
         memory.store_mcm_field_episode_memory(episode_payload)
+        topology_observation = memory.store_passive_mcm_topology_episode(
+            episode_payload,
+            previous_node_symbol=previous_mcm_topology_node_symbol,
+            world=passive_world_label or "",
+            run_index=run_index,
+        )
+        mcm_topology_node_symbol = str(topology_observation.get("node_symbol", "") or "")
+        mcm_topology_edge_symbol = str(topology_observation.get("edge_symbol", "") or "")
+        if mcm_topology_node_symbol:
+            previous_mcm_topology_node_symbol = mcm_topology_node_symbol
+            mcm_topology_node_observations += 1
+        if mcm_topology_edge_symbol:
+            mcm_topology_edge_observations += 1
         episode_memory_written += 1
         mcm_field_episode_written += 1
         transition_key = str(episode_payload.get("transition", "") or "-")
@@ -946,6 +979,11 @@ def run_once(
         "episode_memory_transitions": dict(sorted(episode_transition_counter.items())),
         "episode_memory_written": episode_memory_written,
         "mcm_field_episode_written": mcm_field_episode_written,
+        "mcm_topology_node_observations": mcm_topology_node_observations,
+        "mcm_topology_edge_observations": mcm_topology_edge_observations,
+        "passive_mcm_topology_profile": memory.passive_mcm_topology_profile(),
+        "passive_mcm_topology_top_nodes": memory.top_passive_mcm_topology_nodes(8),
+        "passive_mcm_topology_top_edges": memory.top_passive_mcm_topology_edges(8),
         "preview_anchor_depth_states": dict(sorted(preview_anchor_depth_counter.items())),
         "avg_preview_anchor_depth_score": sum(preview_anchor_depth_values) / max(1, len(preview_anchor_depth_values)),
         "max_preview_anchor_depth_score": max(preview_anchor_depth_values) if preview_anchor_depth_values else 0.0,

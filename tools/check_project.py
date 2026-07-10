@@ -14,6 +14,7 @@ def compile_python_files() -> int:
         list((ROOT / "mini_dio").glob("*.py"))
         + list((ROOT / "reports").glob("*.py"))
         + list((ROOT / "tools").glob("*.py"))
+        + list((ROOT / "tests").glob("*.py"))
     )
     errors: list[tuple[Path, str]] = []
     for path in files:
@@ -56,10 +57,26 @@ def check_befunde_layout() -> int:
     return 0 if result.returncode == 0 else 1
 
 
+def check_unit_tests() -> int:
+    result = subprocess.run(
+        [sys.executable, "-m", "unittest", "discover", "-s", "tests", "-v"],
+        cwd=ROOT,
+        text=True,
+        capture_output=True,
+    )
+    print(f"unit_tests_exit={result.returncode}")
+    if result.stdout:
+        print(result.stdout, end="")
+    if result.stderr:
+        print(result.stderr, end="")
+    return 0 if result.returncode == 0 else 1
+
+
 def main() -> int:
     errors = 0
     errors += compile_python_files()
     errors += check_runner_help()
+    errors += check_unit_tests()
     errors += check_befunde_layout()
     return 1 if errors else 0
 

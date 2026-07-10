@@ -129,7 +129,8 @@ Die Befundfolge [2066](befunde/2001-3000/2066_REALVERSTAERKTE_ROLLENFAMILIEN_KOH
 [2072](befunde/2001-3000/2072_OFFENE_ROLLENFAMILIEN_GLEICHE_SYMBOLBASIS_FOLGEWELTEN.md),
 [2073](befunde/2001-3000/2073_ROLLENFAMILIEN_REAL_NULL_KONTRAST.md),
 [2074](befunde/2001-3000/2074_RF05_CROSSYEAR_TIMEFRAME_HOLDOUT.md)
-entwickelt dafür eine passive Rollenfamilien-Evidenz. Wichtig ist die Grenze:
+und [2075](befunde/2001-3000/2075_PASSIVE_WACHSENDE_MCM_FELDTOPOLOGIE.md)
+entwickelt dafür eine passive relationale Feld- und Rollenfamilien-Evidenz. Wichtig ist die Grenze:
 `2071` speichert Messwerte und Evidenzherkunft; seine sprachlichen Klassen sind
 vorläufige Report-Lesungen, keine fest einprogrammierten Bedeutungen. `2072`
 liefert die noch fehlende Folgeweltprüfung für zuvor ungelesene Familien. `2073`
@@ -140,6 +141,13 @@ Ereignisanteil und Mitgliederabdeckung. `2074` reproduziert diesen Vorsprung im
 unabhängigen Jahres- und Zeitebenen-Holdout jedoch nicht. Die Rollenfamilien
 bleiben damit ein relationaler M.1-Anschluss, aber ihre realweltspezifische
 Weltbindung ist derzeit für keine Familie allgemein belegt.
+
+`2075` überführt diese Grenze erstmals in eine laufend wachsende relationale
+Struktur. Abgeschlossene innere MCM-Episoden bilden Knoten; ihre tatsächlich
+beobachtete Reihenfolge bildet gerichtete Kanten. Weltangaben bleiben Herkunft
+und werden nicht Teil der Knotenidentität. Damit wird M.1 als Beziehung zwischen
+inneren Rollen technisch anschlussfähig, ohne feste Bedeutung, Feldrückwirkung
+oder Handlung zu programmieren.
 
 Damit entsteht kein Wörterbuch nach dem Muster `dio_x = feste Bedeutung`.
 Tragfähiger ist:

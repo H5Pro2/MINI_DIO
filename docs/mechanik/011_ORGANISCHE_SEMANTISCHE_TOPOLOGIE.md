@@ -1,0 +1,70 @@
+# 011 - Organische semantische Topologie
+
+## Ziel
+
+MINI_DIO soll aus der zeitlichen Folge seiner eigenen MCM-Feldwirkungen ein wachsendes inneres Netz bilden.
+
+Programmiert wird nur die Möglichkeit, Beobachtungen zu verbinden. Die konkrete Zahl, Wiederkehr und Richtung der Knoten und Kanten entsteht aus dem Feldlauf.
+
+## Untersuchungsrichtung
+
+```text
+vollständige Außenwelt
+-> Aufnahme und Rezeptoren
+-> MCM-Feldwirkung
+-> abgeschlossene innere Episode
+-> Knoten im topologischen Gedächtnis
+-> gerichtete Kante zur vorherigen inneren Episode
+```
+
+Weltname und äußere Merkmale sind keine Knotenidentität. Der Weltname bleibt ausschließlich Herkunft einer Beobachtung.
+
+## Knoten
+
+Ein Knoten verwendet die bestehende `dio_mcm_episode_*`-Identität. Sie entsteht aus:
+
+- innerem Episodenzustand,
+- vorherigem und folgendem inneren Zustand,
+- gerichteter innerer Übergangsfolge,
+- Episodendauer,
+- Carry, Strain und Rekopplung,
+- sensorischer Kopplung und inneren Feldabständen.
+
+Bei Wiederkehr wird kein neuer semantischer Name vergeben. Der vorhandene Knoten erhält zusätzliche numerische Erfahrung und Herkunft.
+
+## Gerichtete Kanten
+
+Eine Kante entsteht nur aus der tatsächlich beobachteten Reihenfolge abgeschlossener Episoden.
+
+```text
+A -> B ist nicht B -> A
+```
+
+Wiederholt sich dieselbe Folge, wächst ihre Beobachtungszahl. Eine bisher ungesehene Folge erweitert das Netz um eine neue Kante.
+
+## Passive Grenze
+
+Die erste Umsetzung ist vollständig passiv:
+
+```text
+read_by_mini_dio: 0
+influences_field: 0
+influences_action: 0
+is_gate: 0
+is_motoric: 0
+is_entry_signal: 0
+is_direction_signal: 0
+```
+
+Das Netz beschreibt Wachstum. Es entscheidet noch nicht, was das Feld wahrnimmt oder wie DIO handelt.
+
+## Noch nicht umgesetzt
+
+- weiche Resonanz zwischen ähnlichen, aber nicht identischen Knoten,
+- organische Verschmelzung oder Teilung,
+- Alterung und Vergessen,
+- ressourcenbezogene Konkurrenz,
+- Sleep-Konsolidierung,
+- passive Rücklesung in eine spätere Feldregulation.
+
+Diese Schritte dürfen erst folgen, wenn Mehrweltprüfungen zeigen, welche Knoten und Kanten tatsächlich wiederkehren, driften oder nur lauflokal entstehen.
