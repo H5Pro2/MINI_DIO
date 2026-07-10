@@ -155,6 +155,14 @@ belastbare Welttrennung. Die relationale Struktur ist damit als innerer Träger
 belegt, nicht als fertige Semantik. Insbesondere darf gemeinsame Knotenpräsenz
 noch nicht als reale Bedeutung oder Feldresonanz zurückgelesen werden.
 
+[2077](befunde/2001-3000/2077_MCM_TOPOLOGIE_FOLGEN_UND_PROFILABSTAENDE.md)
+verschärft diese Grenze. Längere gerichtete Folgen werden mit der exakten
+Episodenidentität zu selten, während die grobe Zustandsfolge bereits gesättigt
+ist. Auch kontinuierliche Feldprofilabstände heben den direkten Realfolgepfad
+nicht stabil von der Shuffle-Nullwelt ab. Der Anschluss an M.1 bleibt damit
+eine Forschungsrichtung für entstehende Beziehungsmuster, kein bereits
+erreichter semantischer Zustand des Feldes.
+
 Damit entsteht kein Wörterbuch nach dem Muster `dio_x = feste Bedeutung`.
 Tragfähiger ist:
 

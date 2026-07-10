@@ -353,6 +353,8 @@ Seit Befund 2075 verbindet MINI_DIO abgeschlossene innere MCM-Episoden während 
 
 Die erste Mehrweltprüfung 2076 zeigt nahezu vollständige Reihenfolgenstabilität des globalen Graphen, aber noch keine belastbare semantische Welttrennung. Real- und Nullwelten teilen derzeit teilweise mehr Knoten als zwei direkt folgende Realfenster. Deshalb bleibt die Topologie vollständig passiv.
 
+Befund 2077 prüft längere innere Episodenfolgen und kontinuierliche Feldprofilabstände. Auch diese feinere Lesung hebt den direkten Realfolge-Anschluss nicht stabil von der Shuffle-Nullwelt ab: Grobe Zustände sind bereits gesättigt, während exakte längere Episodenmotive zu selten wiederkehren. Es wird daher weiterhin keine semantische Bindung oder Rückwirkung in das Feld geschrieben.
+
 Die thematisch geordnete Kurzfassung mit direkten Links liegt in der [Befundübersicht](docs/BEFUNDE_UEBERSICHT.md).
 
 Aktuelle Befundkette:
@@ -366,6 +368,7 @@ Aktuelle Befundkette:
 - [2074: `rf_05` im unabhängigen Jahres- und Zeitebenen-Holdout](docs/befunde/2001-3000/2074_RF05_CROSSYEAR_TIMEFRAME_HOLDOUT.md)
 - [2075: Passive wachsende MCM-Feldtopologie](docs/befunde/2001-3000/2075_PASSIVE_WACHSENDE_MCM_FELDTOPOLOGIE.md)
 - [2076: MCM-Topologie im Mehrwelt-Wachstum](docs/befunde/2001-3000/2076_MCM_TOPOLOGIE_MEHRWELT_WACHSTUM.md)
+- [2077: MCM-Topologie, Folgen und Profilabstände](docs/befunde/2001-3000/2077_MCM_TOPOLOGIE_FOLGEN_UND_PROFILABSTAENDE.md)
 
 ## Visueller Forschungsweg
 

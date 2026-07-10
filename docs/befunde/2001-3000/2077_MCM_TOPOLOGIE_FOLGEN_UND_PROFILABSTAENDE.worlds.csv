@@ -1,0 +1,5 @@
+world,episodes,unique_nodes,unique_states,unique_node_pairs,unique_node_triples,unique_node_quadruples,unique_state_pairs,unique_state_triples,unique_state_quadruples
+real_anchor,29,19,2,27,27,26,2,2,2
+real_follow,23,13,2,20,21,20,2,2,2
+null_shuffle,25,16,2,24,23,22,2,2,2
+null_random,21,11,2,18,19,18,2,2,2
