@@ -193,6 +193,19 @@ oder zerfaellt. Das Feld besitzt damit einen intrinsisch lesbaren
 Formkontinuitaetstraeger, aber noch keine eigene Episodengrenze, kein Memory
 und keinen Offline-Takt.
 
+## Endogene Schliessung 2111
+
+Ein intrinsisches Formprofil oeffnet bei der ersten tatsaechlichen
+Rangveraenderung und schliesst beim ersten exakten Rangzustand, der im selben
+Kontakt bereits erlebt wurde. Alle 1.472 realen Quell-Ziel-Pfade schliessen
+ohne feste Tickgrenze zwischen Tick 2 und 13. Die variablen Profile behalten in
+beiden Bestaenden eine starke universumsuebergreifende Quelltrennung und einen
+anonymen gegenseitigen Graphen ueber der Labelnull.
+
+Damit traegt das Feld einen endogenen Abschlusskandidaten. Der Profilbeginn
+bleibt jedoch an die extern bereitgestellte Kontaktgrenze gebunden; Memory,
+Offline-Takt und Rueckwirkung bleiben unintegriert.
+
 ## Bezug zu bestehenden Befunden
 
 Diese Mechanik fasst die Linie aus folgenden Befunden zusammen:

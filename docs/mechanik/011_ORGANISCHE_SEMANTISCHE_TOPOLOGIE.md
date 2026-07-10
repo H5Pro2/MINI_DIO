@@ -163,3 +163,17 @@ MINI_DIO selbst gelesen. Insbesondere fehlt eine endogen entstehende Grenze,
 an der das Feld sein laufendes Formprofil ohne fest gesetzte Tickzahl als
 Episode schliesst. Eine feste Vier-Tick-Regel oder sofortige Memory-Integration
 wird aus 2110 nicht abgeleitet.
+
+## Endogener Schliessungsstand 2111
+
+Die erste exakte Wiederkehr einer bereits im selben Kontakt erlebten
+neuronalen Rangordnung schliesst ein zuvor durch reale Rangveraenderung
+geoeffnetes Formprofil. Alle 1.472 Pfade schliessen ohne Zeitlimit zwischen
+Tick 2 und 13. Ihre variablen Profile tragen weiterhin ueberzufaellige
+gleichquellige gegenseitige Kanten zwischen getrennten Zieluniversen.
+
+Damit entsteht erstmals eine feldinterne Abschlussgrenze ohne feste
+Episodendauer. Der Start wird noch durch den aeusseren Kontaktwechsel gesetzt,
+und die geschlossene Form wird weder gespeichert noch zurueckgelesen. 2111 ist
+deshalb ein organischer Episodenabschlusskandidat, noch keine autonome
+Segmentierung oder semantische Memory.

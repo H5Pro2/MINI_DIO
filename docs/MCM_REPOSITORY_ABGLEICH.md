@@ -408,6 +408,13 @@ Der Anschluss an H.1 und D.3 erhaelt damit einen intrinsisch zugaenglichen
 Traeger. Eine feldinterne Episodengrenze, Erinnerung oder autonome
 Selbstregulation bleiben unbewiesen und unintegriert.
 
+[2111](befunde/2001-3000/2111_MCM_ENDOGENE_RANGZYKLUS_SCHLIESSUNG.md)
+schliesst diesen intrinsischen Traeger beim ersten exakten Wiederkehrereignis
+der eigenen neuronalen Rangordnung. Die variable Dauer entsteht ohne
+Tickgrenze und bewahrt Quellform zwischen getrennten Zieluniversen. Der
+Anschluss an D.3 und H.1 erhaelt damit eine endogene Abschlussform, aber noch
+keinen autonomen Start, kein Erinnern und keine Selbstregulation.
+
 Damit entsteht kein Wörterbuch nach dem Muster `dio_x = feste Bedeutung`.
 Tragfähiger ist:
 

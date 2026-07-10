@@ -421,6 +421,8 @@ Befund 2109 trennt anschließend zwei vollständig disjunkte datenblinde Zieluni
 
 Befund 2110 entfernt die entscheidende äußere Hilfskonstruktion: Ein laufendes DIO besitzt kein parallel berechnetes Resetfeld. Deshalb werden nur gerichtete Rangwechsel zwischen zwei eigenen aufeinanderfolgenden Zuständen gelesen. Bereits über 1 bis 4 Kontaktticks erreicht diese intrinsische Form in beiden getrennten Zieluniversen AUC 0,953 bis 0,976. Ein vollständig label-, marktgruppen- und resetfreier gegenseitiger Nachbarschaftsgraph verbindet dabei je nach Bestand 12 bis 20 beziehungsweise 14 bis 15 Profile derselben Vorwelt, jeweils über allen 4.096 Labelnullen. Danach dünnt die Topologie aus oder zerfällt. Damit liegt erstmals ein mechanisch selbstlesbarer Träger für Innenidentität vor, aber noch keine DIO-eigene Episodengrenze, Memory oder Semantik.
 
+Befund 2111 ersetzt die feste Präfixdauer durch ein inneres Ereignis. Ein Formprofil öffnet bei der ersten tatsächlichen Rangänderung und schließt bei der ersten exakten Wiederkehr einer bereits im selben Kontakt erlebten Rangordnung. Alle 1.472 Pfade schließen ohne Zeitlimit zwischen Tick 2 und 13, median bei 4 beziehungsweise 5. Die variablen Profile behalten AUC 0,836 bis 0,902 zwischen den getrennten Zieluniversen. Der vollständig anonyme Graph bildet 5 von 10 und 3 von 8 Kanten zwischen derselben Vorwelt, jeweils über der Labelnull. Damit liegt ein endogener Abschlusskandidat vor; der Episodenstart bleibt jedoch an die äußere Kontaktgrenze gebunden, und es wird noch nichts gespeichert oder zurückgelesen.
+
 Die thematisch geordnete Kurzfassung mit direkten Links liegt in der [Befundübersicht](docs/BEFUNDE_UEBERSICHT.md).
 
 Aktuelle Befundkette:
@@ -468,6 +470,7 @@ Aktuelle Befundkette:
 - [2108: Kontextstabilität der quellgebundenen MCM-Form](docs/befunde/2001-3000/2108_MCM_KONTINUITAET_KONTEXTSTABILITAET.md)
 - [2109: Transfer der MCM-Quellform zwischen getrennten Zieluniversen](docs/befunde/2001-3000/2109_MCM_KONTINUITAET_ZIELUNIVERSUM_TRANSFER.md)
 - [2110: Intrinsische Selbstlesbarkeit der MCM-Form](docs/befunde/2001-3000/2110_MCM_INTRINSISCHE_FORM_SELBSTLESBARKEIT.md)
+- [2111: Endogene Schließung intrinsischer MCM-Formepisoden](docs/befunde/2001-3000/2111_MCM_ENDOGENE_RANGZYKLUS_SCHLIESSUNG.md)
 
 ## Visueller Forschungsweg
 
