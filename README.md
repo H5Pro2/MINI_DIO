@@ -419,6 +419,8 @@ Befund 2108 prüft die Kontextstabilität dieser Quellform über alle 35 möglic
 
 Befund 2109 trennt anschließend zwei vollständig disjunkte datenblinde Zieluniversen aus je acht Welten. Die relative Rangwechselform derselben 48 beziehungsweise 44 Vorwelten bleibt zwischen diesen Universen klar wiedererkennbar: Innerhalb gleicher Assets und Jahre liegen die AUC-Werte bei 0,859 bis 0,888, die Medianränge zwischen 1 und 2. Alle Werte und eindeutigen Nachbartreffer liegen über 4.096 Labelnullen. Dennoch verlieren einzelne Vorwelten beim Universumswechsel ihre Trennung, und alle 1.472 Feldpfade konvergieren vollständig. Getragen ist universumsübergreifende Quellform, noch keine von DIO selbst gelesene Identität.
 
+Befund 2110 entfernt die entscheidende äußere Hilfskonstruktion: Ein laufendes DIO besitzt kein parallel berechnetes Resetfeld. Deshalb werden nur gerichtete Rangwechsel zwischen zwei eigenen aufeinanderfolgenden Zuständen gelesen. Bereits über 1 bis 4 Kontaktticks erreicht diese intrinsische Form in beiden getrennten Zieluniversen AUC 0,953 bis 0,976. Ein vollständig label-, marktgruppen- und resetfreier gegenseitiger Nachbarschaftsgraph verbindet dabei je nach Bestand 12 bis 20 beziehungsweise 14 bis 15 Profile derselben Vorwelt, jeweils über allen 4.096 Labelnullen. Danach dünnt die Topologie aus oder zerfällt. Damit liegt erstmals ein mechanisch selbstlesbarer Träger für Innenidentität vor, aber noch keine DIO-eigene Episodengrenze, Memory oder Semantik.
+
 Die thematisch geordnete Kurzfassung mit direkten Links liegt in der [Befundübersicht](docs/BEFUNDE_UEBERSICHT.md).
 
 Aktuelle Befundkette:
@@ -465,6 +467,7 @@ Aktuelle Befundkette:
 - [2107: Quellgebundene Form in der MCM-Feldkontinuität](docs/befunde/2001-3000/2107_MCM_KONTINUITAET_QUELLIDENTITAET.md)
 - [2108: Kontextstabilität der quellgebundenen MCM-Form](docs/befunde/2001-3000/2108_MCM_KONTINUITAET_KONTEXTSTABILITAET.md)
 - [2109: Transfer der MCM-Quellform zwischen getrennten Zieluniversen](docs/befunde/2001-3000/2109_MCM_KONTINUITAET_ZIELUNIVERSUM_TRANSFER.md)
+- [2110: Intrinsische Selbstlesbarkeit der MCM-Form](docs/befunde/2001-3000/2110_MCM_INTRINSISCHE_FORM_SELBSTLESBARKEIT.md)
 
 ## Visueller Forschungsweg
 

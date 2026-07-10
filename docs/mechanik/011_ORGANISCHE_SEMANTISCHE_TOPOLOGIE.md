@@ -148,3 +148,18 @@ Die Form bleibt fuer einzelne Quellen verletzlich und wird von DIOs aktueller
 Syntax weiterhin nicht gelesen. 2109 erweitert daher die mechanische
 Grundlage organischer Innenidentitaet, ohne einen neuen Knoten, eine
 Identitaets-Memory oder semantische Rueckwirkung zu integrieren.
+
+## Intrinsischer Topologiestand 2110
+
+Die quellgebundene Form laesst sich ohne Resetfeld aus den tatsaechlichen
+gerichteten Rangwechseln aufeinanderfolgender eigener Feldzustaende bilden.
+Ein globaler anonymer gegenseitiger Naechstnachbarschaftsgraph erzeugt bei 1
+bis 4 Kontaktticks in beiden unabhaengigen Bestaenden ueberzufaellig viele
+Kanten zwischen Profilen derselben Vorwelt. Herkunft, Asset und Jahr werden
+erst nach abgeschlossener Graphbildung zur Kontrolle gelesen.
+
+Damit ist die innere Form mechanisch selbstlesbar, aber noch nicht von
+MINI_DIO selbst gelesen. Insbesondere fehlt eine endogen entstehende Grenze,
+an der das Feld sein laufendes Formprofil ohne fest gesetzte Tickzahl als
+Episode schliesst. Eine feste Vier-Tick-Regel oder sofortige Memory-Integration
+wird aus 2110 nicht abgeleitet.

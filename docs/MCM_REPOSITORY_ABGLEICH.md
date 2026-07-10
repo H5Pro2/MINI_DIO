@@ -400,6 +400,14 @@ traegt damit eine universumsuebergreifende relationale Innenform. Sie wird von
 DIO noch nicht selbst gelesen und belegt weder Erinnerung noch autonome
 Selbstregulation.
 
+[2110](befunde/2001-3000/2110_MCM_INTRINSISCHE_FORM_SELBSTLESBARKEIT.md)
+entfernt das parallele Resetfeld und liest nur die tatsaechliche innere
+Bewegung derselben Feldinstanz. Im fruehen Kontakt entstehen ohne Herkunfts-
+oder Marktgruppenwissen gegenseitige Formnachbarschaften derselben Vorwelt.
+Der Anschluss an H.1 und D.3 erhaelt damit einen intrinsisch zugaenglichen
+Traeger. Eine feldinterne Episodengrenze, Erinnerung oder autonome
+Selbstregulation bleiben unbewiesen und unintegriert.
+
 Damit entsteht kein Wörterbuch nach dem Muster `dio_x = feste Bedeutung`.
 Tragfähiger ist:
 

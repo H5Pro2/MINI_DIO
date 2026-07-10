@@ -178,6 +178,21 @@ Trennung, und alle Feldpfade konvergieren spaeter exakt. Der Nachhall traegt
 damit universumsuebergreifende relationale Form, aber weiterhin kein eigenes
 Erinnern, keinen Takt und keine autonome Rueckwirkung.
 
+## Intrinsische Selbstlesbarkeit 2110
+
+Die Resetgegenprobe wird vollstaendig entfernt. Nur gerichtete Rangwechsel
+zwischen zwei aufeinanderfolgenden Zustaenden derselben kontinuierlichen
+Feldinstanz bilden das Profil. Ein globaler gegenseitiger
+Naechstnachbarschaftsgraph verwendet weder Herkunftslabel noch Asset, Jahr oder
+Weltname.
+
+Im gemeinsamen Fruehbereich von 1 bis 4 Kontaktticks entstehen in beiden
+unabhaengigen Bestaenden jeweils 12 bis 20 beziehungsweise 14 bis 15
+gleichquellige Kanten ueber allen Labelnullen. Danach duennt die Topologie aus
+oder zerfaellt. Das Feld besitzt damit einen intrinsisch lesbaren
+Formkontinuitaetstraeger, aber noch keine eigene Episodengrenze, kein Memory
+und keinen Offline-Takt.
+
 ## Bezug zu bestehenden Befunden
 
 Diese Mechanik fasst die Linie aus folgenden Befunden zusammen:
