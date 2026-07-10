@@ -130,8 +130,9 @@ Die Befundfolge [2066](befunde/2001-3000/2066_REALVERSTAERKTE_ROLLENFAMILIEN_KOH
 [2073](befunde/2001-3000/2073_ROLLENFAMILIEN_REAL_NULL_KONTRAST.md),
 [2074](befunde/2001-3000/2074_RF05_CROSSYEAR_TIMEFRAME_HOLDOUT.md),
 [2075](befunde/2001-3000/2075_RF05_KOMPONENTEN_KONTROLLEN.md),
-[2076](befunde/2001-3000/2076_RF05_KOMPONENTEN_PHASENKONTROLLEN.md)
-und [2077](befunde/2001-3000/2077_ROLLENFAMILIEN_KOMPONENTEN_PHASENPROFILE.md)
+[2076](befunde/2001-3000/2076_RF05_KOMPONENTEN_PHASENKONTROLLEN.md),
+[2077](befunde/2001-3000/2077_ROLLENFAMILIEN_KOMPONENTEN_PHASENPROFILE.md)
+und [2078](befunde/2001-3000/2078_ROLLENFAMILIEN_PHASENPROFIL_HOLDOUT.md)
 entwickelt dafür eine passive Rollenfamilien-Evidenz. Wichtig ist die Grenze:
 `2071` speichert Messwerte und Evidenzherkunft; seine sprachlichen Klassen sind
 vorläufige Report-Lesungen, keine fest einprogrammierten Bedeutungen. `2072`
@@ -158,6 +159,11 @@ Antwort bilden unterscheidbare Familienprofile. Das schließt an M.1 als
 relationale Rollenbildung an, ohne den Profilen feste Semantik zuzuschreiben:
 Belegt ist eine familienabhängige Phasen-Antworttopologie innerhalb des
 Kontrollraums, noch keine unabhängige Weltbindung oder Bedeutung.
+`2078` prüft vier markante Profile vorab in getrennten 2025-Fenstern. Einzelne
+gerichtete Achsen wiederholen sich, vollständige Profile bleiben jedoch von der
+Zeitebene abhängig. Der M.1-Anschluss verdichtet sich dadurch nicht zu festen
+Rollentypen, sondern zu einer begrenzten, feld- und zeitebenensensitiven
+Antwortstruktur.
 
 Damit entsteht kein Wörterbuch nach dem Muster `dio_x = feste Bedeutung`.
 Tragfähiger ist:
