@@ -54,3 +54,15 @@ Forschungsmitglieder.
 Der 64-Welten-Replay aus Befund 2090 bestätigt bytegleiche Relationsereignisse
 und eine exakte Offline-Rekonstruktion aller 212.466 gespeicherten
 Kantenbeobachtungen. Die zusätzliche Runtime-Struktur benötigt 903.742 Bytes.
+
+## Eigenstabilitätsstand 2091
+
+Eine rein nachgelagerte Prüfung vergleicht fortsetzungsfähige Kanten gleichen
+Alters. Bereits beim vorherigen Alter getragene Kanten bestehen beim nächsten
+Alter zu 37,12 Prozent fort, neue Kontakte zu 34,09 Prozent. Der relative
+Vorsprung von 8,87 Prozent bleibt sowohl unter altersstratifizierter
+Kantenlabel-Null als auch bei relationsweiser Permutation des vollständigen
+Zukunftsgraphen überzufällig.
+
+Diese Eigenstabilität wird nicht in die Mechanik zurückgelesen. Der Lebenslauf
+bewahrt weiterhin Beobachtungen ohne Gewichtung, Auswahl oder Verstärkung.

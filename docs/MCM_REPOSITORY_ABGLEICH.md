@@ -260,6 +260,14 @@ Partnerwechsel. Das ist mit M.1 als erfahrungsabhängige Umbildung relationaler
 Ordnung vereinbar. Es bestätigt weder eine fertige Semantik noch bewusste
 Selbstorganisation und erzeugt keine aktive Feldhierarchie.
 
+[2091](befunde/2001-3000/2091_MCM_RELATIONSLEBENSLAUF_EIGENSTABILITAET.md)
+findet in dieser Umbildung eine schwache innere Fortsetzungsordnung: Bereits
+getragene Kanten bestehen beim nächsten Relationsalter etwas häufiger als neue
+Kontakte. Der Effekt bleibt gegenüber Alters- und Graphstrukturkontrollen
+erhalten. Das vertieft den Anschluss an M.1 als eigenzeitliche relationale
+Stabilisierung, belegt aber weder aktive Selbstverstärkung noch semantische
+Autonomie oder Feldintelligenz.
+
 Damit entsteht kein Wörterbuch nach dem Muster `dio_x = feste Bedeutung`.
 Tragfähiger ist:
 

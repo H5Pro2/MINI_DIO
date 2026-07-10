@@ -381,6 +381,8 @@ Befund 2089 verlässt den alten Weltbestand mit 64 neuen realen `30m`-Welten aus
 
 Befund 2090 überführt diese Umbildungsfähigkeit in einen passiven Relationsnachbarschafts-Lebenslauf. Gleichaltrige Beziehungen bilden aus ihrer eigenen Breitenbewegung gegenseitige Nachbarn, ohne feste Distanz, Mitglieder oder Altersliste. Im exakten 64-Welten-Replay entstehen 212.466 Beobachtungen zwischen 1.203 Relationen; 12,37 Prozent der Kanten kehren bei höherem Eigenalter wieder, während der größte Teil beweglicher Frühkontakt bleibt. Alle bisherigen Relationsereignisse bleiben bytegleich und die komprimierte Ebene beeinflusst weder Feld noch Handlung.
 
+Befund 2091 prüft die Eigenstabilität dieses Lebenslaufs ohne neuen Feldlauf. Bereits getragene Kanten setzen sich beim nächsten Relationsalter zu 37,12 Prozent fort, neue Kontakte zu 34,09 Prozent. Der kleine relative Vorsprung von 8,87 Prozent bleibt in einer altersstratifizierten Null und bei Permutation des vollständigen Zukunftsgraphen überzufällig. Der Lebenslauf enthält damit schwache Information über seine eigene nächste Fortsetzung, aber noch keine Selbstverstärkung oder Rückwirkung.
+
 Die thematisch geordnete Kurzfassung mit direkten Links liegt in der [Befundübersicht](docs/BEFUNDE_UEBERSICHT.md).
 
 Aktuelle Befundkette:
@@ -408,6 +410,7 @@ Aktuelle Befundkette:
 - [2088: Blinder Holdout des MCM-Multiplexkandidaten](docs/befunde/2001-3000/2088_MCM_MULTIPLEX_BLIND_HOLDOUT.md)
 - [2089: Daten-Holdout der MCM-Breitenschicht](docs/befunde/2001-3000/2089_MCM_BREITENSCHICHT_DATEN_HOLDOUT.md)
 - [2090: Passiver MCM-Relationsnachbarschafts-Lebenslauf](docs/befunde/2001-3000/2090_PASSIVE_MCM_RELATIONSNACHBARSCHAFT_LEBENSLAUF.md)
+- [2091: Eigenstabilität des MCM-Relationslebenslaufs](docs/befunde/2001-3000/2091_MCM_RELATIONSLEBENSLAUF_EIGENSTABILITAET.md)
 
 ## Visueller Forschungsweg
 
