@@ -237,3 +237,15 @@ Stütztrajektorie exakt erhält.
 Die konkrete Zuordnung zwischen Relation und Ereigniszeit trägt daher keinen
 robusten Zusatz zur globalen Pareto-Umbildung. Die Ereignis-Memory erhält
 weder einen Selbstabweichungs- oder Neuheitswert noch eine Rücklesung.
+
+## Indirekte Umverteilungsgrenze 2103
+
+Direkte Ereignisträger und aktuell unberührte Relationen werden bei jeder
+Weltfinalisierung getrennt. Die relative Pareto-Geometrie verschiebt viele
+unberührte Relationen, doch Häufigkeit und Stärke dieser indirekten Bewegung
+liegen ebenso wie ihr Abstand zur direkten Bewegung vollständig in der
+aktivitäts-, ereignisalters- und trajektorienerhaltenden Null.
+
+Damit ist keine besondere relationseigene Feldweitergabe getragen. Der
+Pareto-Selbstabweichungszweig endet ohne Propagationswert, zusätzliche Memory
+oder Rücklesung.

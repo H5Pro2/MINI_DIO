@@ -347,6 +347,13 @@ als unter erhaltener Aktivität, Ereignisalterung und Stütztrajektorie. Der
 Anschluss an H.1 bleibt daher plastische individuelle Feldtopologie, noch kein
 belegtes inneres Neuheitssignal oder eine selbstregulierende Feldwirkung.
 
+[2103](befunde/2001-3000/2103_MCM_PARETO_INDIREKTE_FELDUMVERTEILUNG.md)
+trennt direkte Ereignisträger von indirekt verschobenen Relationen. Die breite
+relative Umverteilung unberührter Relationen bleibt vollständig durch die
+strenge Identitätsnull erklärt. Damit entsteht auch im Anschluss an H.1 und
+K.1 noch keine belegte Feldweitergabe oder adaptive Selbstregulation aus der
+Pareto-Bewegung.
+
 Damit entsteht kein Wörterbuch nach dem Muster `dio_x = feste Bedeutung`.
 Tragfähiger ist:
 

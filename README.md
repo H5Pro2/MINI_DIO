@@ -405,6 +405,8 @@ Befund 2101 ordnet die gesamte Kette 2091 bis 2100 einschließlich ihrer methodi
 
 Befund 2102 prüft daraufhin die feldinterne Selbstabweichung ohne Außenwerte. Nach jeder Welt wird gelesen, wie viele bereits vorhandene Relationen ihre gewichtungsfreie Pareto-Schicht wechseln. Die Ordnung ist mit 81,09 beziehungsweise 77,74 Prozent stark beweglich, unterscheidet sich aber weder in Wechselhäufigkeit noch Bewegungsstärke von einer Null, die Weltaktivität, Ereignisalter und jede individuelle Stütztrajektorie exakt erhält. Auch die gleichberechtigte Weltperspektive trägt nicht. Die Plastizität ist real; ein relationseigenes Neuheitssignal oder eine Rückwirkung wird daraus nicht integriert.
 
+Befund 2103 trennt diese Bewegung in direkte Ereignisträger und indirekt verschobene Relationen ohne eigenes aktuelles Ereignis. Indirekte Wechsel stellen wegen ihres viel größeren Vergleichsraums 90,04 beziehungsweise 88,95 Prozent aller Schichtwechsel. Ihre Häufigkeit, Stärke und ihr Abstand zur direkten Bewegung liegen jedoch in beiden Beständen vollständig in derselben strengen Null. Die globale Pareto-Geometrie verteilt relative Lageänderung breit, aber noch ohne nachweisbare relationseigene Feldweitergabe. Der Pareto-Selbstabweichungszweig endet deshalb ohne Propagationswert, Memory oder Rückwirkung.
+
 Die thematisch geordnete Kurzfassung mit direkten Links liegt in der [Befundübersicht](docs/BEFUNDE_UEBERSICHT.md).
 
 Aktuelle Befundkette:
@@ -444,6 +446,7 @@ Aktuelle Befundkette:
 - [2100: Kumulative Erfahrung kollektiver MCM-Gap-Kadenz](docs/befunde/2001-3000/2100_MCM_KOLLEKTIVE_GAP_KADENZ_KUMULATIVE_ERFAHRUNG.md)
 - [2101: Synthese der MCM-Relationsereigniszeit und Architekturgrenze](docs/befunde/2001-3000/2101_MCM_RELATIONSEREIGNISZEIT_SYNTHESE_UND_ARCHITEKTURGRENZE.md)
 - [2102: Relationale Pareto-Selbstabweichung des MCM-Feldverlaufs](docs/befunde/2001-3000/2102_MCM_RELATIONALE_PARETO_SELBSTABWEICHUNG.md)
+- [2103: Indirekte Pareto-Feldumverteilung des MCM-Feldverlaufs](docs/befunde/2001-3000/2103_MCM_PARETO_INDIREKTE_FELDUMVERTEILUNG.md)
 
 ## Visueller Forschungsweg
 
