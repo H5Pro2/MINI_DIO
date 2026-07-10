@@ -186,3 +186,15 @@ der dünnen Einzelhistorie wird durch die Kontrollen erklärt.
 Die Übergangstopologie bleibt damit retrospektive Ordnung, nicht Erwartung.
 Die Ereignis-Memory erhält keinen Prognosewert, kein Gate und keine
 Rücklesung.
+
+## Kollektiver Kadenztransfer 2099
+
+Die globale Gap-Häufigkeit eines unabhängigen Bestands ordnet die Gaps des
+anderen Bestands in beiden Richtungen besser ein als dessen erst wachsende
+Eigenhäufigkeit. Der Vorteil liegt in allen zehn Asset-Jahr-Herkünften vor und
+fast vollständig in der frühen Zielerfahrung. Nach weiterer Erfahrung erreicht
+das Ziel praktisch dieselbe kollektive Kadenz.
+
+Damit trägt die Ereigniszeit übertragbare Kaltstarterfahrung, ohne eine feste
+Reifeschwelle oder Mischungsregel zu benötigen. Eine kumulative Nutzung in der
+Runtime ist noch nicht geprüft; es entsteht keine Rücklesung.

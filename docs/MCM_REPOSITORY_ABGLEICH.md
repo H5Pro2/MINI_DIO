@@ -320,6 +320,13 @@ nächsten Gap nicht besser ein als die globale bisherige Feldhäufigkeit. Der
 Anschluss an D.1 bleibt daher eine beobachtbare kollektive Zeitordnung, noch
 keine innere Erwartung, Antizipation oder aktive Feldsteuerung.
 
+[2099](befunde/2001-3000/2099_MCM_KOLLEKTIVE_GAP_KADENZ_TRANSFER.md)
+findet in dieser einfacheren kollektiven Zeitordnung einen unabhängigen
+Transfer: Die eingefrorene Gap-Kadenz eines Bestands verbessert den Kaltstart
+des anderen und wird später von dessen eigener Erfahrung eingeholt. Das
+vertieft den Anschluss an D.1 als erfahrungsübertragbare relationale Kadenz,
+belegt aber noch keine aktive Erwartung oder Feldsteuerung.
+
 Damit entsteht kein Wörterbuch nach dem Muster `dio_x = feste Bedeutung`.
 Tragfähiger ist:
 

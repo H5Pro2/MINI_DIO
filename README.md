@@ -397,6 +397,8 @@ Befund 2097 verbindet diese individuellen Präfixänderungen ausschließlich dur
 
 Befund 2098 prüft diese Topologie erstmals strikt vorwärtsgerichtet. Nach einem bekannten Relationsgap ordnet die bis dahin gewachsene Gap-Übergangserfahrung den späteren nächsten Gap in beiden Beständen schlechter ein als die einfache globale bisherige Gap-Häufigkeit. Ihr Vorteil gegenüber der dünnen Einzelhistorie einer Relation wird von aktivitätserhaltenden Kontrollen vollständig erklärt. Die Übergangstopologie bleibt damit eine retrospektive Ordnung gemeinsamer Entwicklung und wird nicht als Erwartung, Gate oder Handlungssignal integriert.
 
+Befund 2099 überträgt die einfachere kollektive Gap-Häufigkeit eingefroren zwischen beiden unabhängigen Beständen. Sie verbessert den Kaltstart in beiden Richtungen und in allen zehn Asset-Jahr-Herkünften; ihre Gap-Rangordnung liegt nur 0,10 bis 0,14 Prozentpunkte unter der vollständigen späteren Zielverteilung. In der zweiten Welthälfte erreicht die eigene Zielerfahrung praktisch denselben Stand. Damit trägt eine übertragbare kollektive Eigenzeitkadenz, aber noch keine Mischungsregel, aktive Erwartung oder Rückwirkung.
+
 Die thematisch geordnete Kurzfassung mit direkten Links liegt in der [Befundübersicht](docs/BEFUNDE_UEBERSICHT.md).
 
 Aktuelle Befundkette:
@@ -432,6 +434,7 @@ Aktuelle Befundkette:
 - [2096: Kausale Zustandsrekonstruktion aus MCM-Relationsereigniszeit](docs/befunde/2001-3000/2096_MCM_RELATIONSEREIGNISZEIT_KAUSALE_ZUSTANDSREKONSTRUKTION.md)
 - [2097: Relationsereignis-getragene MCM-Zustandsübergangstopologie](docs/befunde/2001-3000/2097_MCM_RELATIONSEREIGNIS_GETRAGENE_ZUSTANDSUEBERGANGSTOPOLOGIE.md)
 - [2098: Präquentielle Erwartungsprüfung relationaler MCM-Eigenzeit-Gaps](docs/befunde/2001-3000/2098_MCM_RELATIONSGAP_PRAEQUENTIELLE_ERWARTUNG.md)
+- [2099: Transfer kollektiver MCM-Gap-Kadenz](docs/befunde/2001-3000/2099_MCM_KOLLEKTIVE_GAP_KADENZ_TRANSFER.md)
 
 ## Visueller Forschungsweg
 
