@@ -395,6 +395,8 @@ Befund 2096 beginnt den nächsten Forschungsabschnitt mit einer Minimalitätspr�
 
 Befund 2097 verbindet diese individuellen Präfixänderungen ausschließlich durch fortgesetzte Relationserfahrung. Aufeinanderfolgende Ereignisse derselben Relation bilden gerichtete Übergänge und Zweischrittpfade. In beiden unabhängigen Beständen bündeln sich deutlich mehr Relationspaare auf denselben Wegen als unter einer relationseigenen Gap-Null und einer strengeren, pro Welt aktivitätserhaltenden Ereignisnull. Damit entsteht eine organische Zustandsübergangstopologie ohne Zustandsklassen oder Distanzschwellen. Sie bleibt vollständig aus der Ereigniszeit rekonstruierbar und wird noch nicht gespeichert oder zurückgelesen.
 
+Befund 2098 prüft diese Topologie erstmals strikt vorwärtsgerichtet. Nach einem bekannten Relationsgap ordnet die bis dahin gewachsene Gap-Übergangserfahrung den späteren nächsten Gap in beiden Beständen schlechter ein als die einfache globale bisherige Gap-Häufigkeit. Ihr Vorteil gegenüber der dünnen Einzelhistorie einer Relation wird von aktivitätserhaltenden Kontrollen vollständig erklärt. Die Übergangstopologie bleibt damit eine retrospektive Ordnung gemeinsamer Entwicklung und wird nicht als Erwartung, Gate oder Handlungssignal integriert.
+
 Die thematisch geordnete Kurzfassung mit direkten Links liegt in der [Befundübersicht](docs/BEFUNDE_UEBERSICHT.md).
 
 Aktuelle Befundkette:
@@ -429,6 +431,7 @@ Aktuelle Befundkette:
 - [2095: Kopplung von MCM-Synchronisation und Bewegungstopologie](docs/befunde/2001-3000/2095_MCM_SYNCHRONISATION_BEWEGUNGSKOPPLUNG.md)
 - [2096: Kausale Zustandsrekonstruktion aus MCM-Relationsereigniszeit](docs/befunde/2001-3000/2096_MCM_RELATIONSEREIGNISZEIT_KAUSALE_ZUSTANDSREKONSTRUKTION.md)
 - [2097: Relationsereignis-getragene MCM-Zustandsübergangstopologie](docs/befunde/2001-3000/2097_MCM_RELATIONSEREIGNIS_GETRAGENE_ZUSTANDSUEBERGANGSTOPOLOGIE.md)
+- [2098: Präquentielle Erwartungsprüfung relationaler MCM-Eigenzeit-Gaps](docs/befunde/2001-3000/2098_MCM_RELATIONSGAP_PRAEQUENTIELLE_ERWARTUNG.md)
 
 ## Visueller Forschungsweg
 

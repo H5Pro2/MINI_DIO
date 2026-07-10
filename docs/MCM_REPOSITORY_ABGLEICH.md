@@ -314,6 +314,12 @@ findet zwischen diesen individuellen Präfixänderungen eine organische
 Anschluss an D.1 und M.1 als gemeinsame Entwicklung relationaler Eigenzeiten,
 belegt aber noch keine Vorhersage, Semantik oder aktive Feldsteuerung.
 
+[2098](befunde/2001-3000/2098_MCM_RELATIONSGAP_PRAEQUENTIELLE_ERWARTUNG.md)
+prüft diese Grenze kausal. Die Gap-Übergangstopologie ordnet den späteren
+nächsten Gap nicht besser ein als die globale bisherige Feldhäufigkeit. Der
+Anschluss an D.1 bleibt daher eine beobachtbare kollektive Zeitordnung, noch
+keine innere Erwartung, Antizipation oder aktive Feldsteuerung.
+
 Damit entsteht kein Wörterbuch nach dem Muster `dio_x = feste Bedeutung`.
 Tragfähiger ist:
 

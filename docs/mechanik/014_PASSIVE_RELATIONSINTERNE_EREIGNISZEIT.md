@@ -174,3 +174,15 @@ aktivitätserhaltenden Ereignisnull.
 Diese Zustandsübergangstopologie benötigt keine Zustandsklasse und keine neue
 Speicherung. Sie bleibt aus der Ereignis-Memory rekonstruierbar. Einzelne
 stärkste Pfade werden nicht bevorzugt und es entsteht noch keine Rücklesung.
+
+## Erwartungsgrenze 2098
+
+Ein strikt kausaler Vorwärtstest verwendet nach jedem Relationsereignis nur
+den gerade bekannten Gap und die bis dahin abgeschlossenen Gap-Übergänge. In
+beiden Beständen ordnet diese konditionierte Erfahrung den nächsten Gap
+schlechter ein als die globale bisherige Gap-Häufigkeit. Ihr Vorteil gegenüber
+der dünnen Einzelhistorie wird durch die Kontrollen erklärt.
+
+Die Übergangstopologie bleibt damit retrospektive Ordnung, nicht Erwartung.
+Die Ereignis-Memory erhält keinen Prognosewert, kein Gate und keine
+Rücklesung.
