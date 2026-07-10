@@ -325,7 +325,7 @@ Das ist kein Nachweis allgemeiner Intelligenz und kein Bewusstseinsbeweis. Es is
 
 Die jüngste Forschung verdichtet einzelne `dio_*`-Rollen zu passiven Rollenfamilien. Acht Familien mit 29 Mitgliedern wurden in realen Folgewelten und anschließend gegen zeitstrukturzerstörte Kontrollwelten gelesen. Dabei zeigt sich kein einheitlich realweltgebundener Familientyp:
 
-- `rf_05` lag in der ersten Kontrollgruppe zugleich bei Kontinuität, Ereignisanteil und Mitgliederabdeckung über beiden Kontrollen. Ein unabhängiger 2024-Holdout reproduzierte diesen gemeinsamen Vorsprung nicht. Komponenten-Kontrollen zeigen anschließend keine einzelne tragende reale OHLCV-Komponente: Größen- und Volumen-Shuffle verstärken die Familie sogar auf allen drei Primärachsen. Zirkuläre Phasenkontrollen bestätigen diese Grenze für Größen, Dochte und Volumen. Nur die Vorzeichenphase liegt gebündelt unter Real, trägt diesen Abstand aber weder über alle Offsets noch breit in den direkten Fensterpaaren.
+- `rf_05` lag in der ersten Kontrollgruppe zugleich bei Kontinuität, Ereignisanteil und Mitgliederabdeckung über beiden Kontrollen. Ein unabhängiger 2024-Holdout reproduzierte diesen gemeinsamen Vorsprung nicht. Komponenten-Kontrollen zeigen anschließend keine einzelne tragende reale OHLCV-Komponente: Größen- und Volumen-Shuffle verstärken die Familie sogar auf allen drei Primärachsen. Zirkuläre Phasenkontrollen bestätigen diese Grenze für Größen, Dochte und Volumen. Nur die Vorzeichenphase liegt gebündelt unter Real, trägt diesen Abstand aber weder über alle Offsets noch breit in den direkten Fensterpaaren. Im Vergleich aller acht Familien ist das selektive `rf_05`-Profil dennoch einzigartig; andere Familien zeigen eigenständige Verstärkungs-, Abschwächungs- oder Mischprofile. Damit erscheint eine familienabhängige Phasen-Antworttopologie, noch keine feste Bedeutung.
 - `rf_07` trägt einen höheren realen Ereignisanteil, ist aber auch in beiden Kontrollformen vollständig abgedeckt und dort leicht kontinuierlicher.
 - `rf_08` liegt bei Kontinuität und Abdeckung über beiden Kontrollen, nicht jedoch beim Ereignisanteil.
 - `rf_17` wird durch Shuffle deutlich stärker gelesen als durch die reale Zeitfolge.
@@ -346,6 +346,7 @@ Aktuelle Befundkette:
 - [2074: `rf_05` im unabhängigen Jahres- und Zeitebenen-Holdout](docs/befunde/2001-3000/2074_RF05_CROSSYEAR_TIMEFRAME_HOLDOUT.md)
 - [2075: `rf_05` unter komponentenisolierten Kontrollen](docs/befunde/2001-3000/2075_RF05_KOMPONENTEN_KONTROLLEN.md)
 - [2076: `rf_05` unter Komponenten-Phasenkontrollen](docs/befunde/2001-3000/2076_RF05_KOMPONENTEN_PHASENKONTROLLEN.md)
+- [2077: Rollenfamilien unter Komponenten-Phasenprofilen](docs/befunde/2001-3000/2077_ROLLENFAMILIEN_KOMPONENTEN_PHASENPROFILE.md)
 
 ## Visueller Forschungsweg
 
