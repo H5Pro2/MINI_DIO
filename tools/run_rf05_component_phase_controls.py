@@ -92,7 +92,11 @@ def _rotate(values: list[object], lag: int) -> list[object]:
     return values[-offset:] + values[:-offset]
 
 
-def _phase_worlds(source: Path, prefix: Path) -> dict[str, Path]:
+def _phase_worlds(
+    source: Path,
+    prefix: Path,
+    components: tuple[str, ...] = COMPONENTS,
+) -> dict[str, Path]:
     fieldnames, data = _read_rows(source, ROWS)
     if len(data) != ROWS:
         raise ValueError(f"{source} enthält {len(data)} statt {ROWS} Zeilen")
@@ -107,33 +111,37 @@ def _phase_worlds(source: Path, prefix: Path) -> dict[str, Path]:
 
     controls: dict[str, list[dict[str, float]]] = {}
     for lag in LAGS:
-        shifted_signs = _rotate(signs, lag)
-        controls[f"sign_phase_{lag:03d}"] = [
-            {**shape, "body": magnitudes[index] * float(shifted_signs[index])}
-            for index, shape in enumerate(shapes)
-        ]
+        if "sign" in components:
+            shifted_signs = _rotate(signs, lag)
+            controls[f"sign_phase_{lag:03d}"] = [
+                {**shape, "body": magnitudes[index] * float(shifted_signs[index])}
+                for index, shape in enumerate(shapes)
+            ]
 
-        shifted_magnitudes = _rotate(magnitudes, lag)
-        controls[f"magnitude_phase_{lag:03d}"] = [
-            {**shape, "body": float(shifted_magnitudes[index]) * signs[index]}
-            for index, shape in enumerate(shapes)
-        ]
+        if "magnitude" in components:
+            shifted_magnitudes = _rotate(magnitudes, lag)
+            controls[f"magnitude_phase_{lag:03d}"] = [
+                {**shape, "body": float(shifted_magnitudes[index]) * signs[index]}
+                for index, shape in enumerate(shapes)
+            ]
 
-        shifted_wicks = _rotate(wicks, lag)
-        controls[f"wick_phase_{lag:03d}"] = [
-            {
-                **shape,
-                "upper": float(shifted_wicks[index][0]),
-                "lower": float(shifted_wicks[index][1]),
-            }
-            for index, shape in enumerate(shapes)
-        ]
+        if "wick" in components:
+            shifted_wicks = _rotate(wicks, lag)
+            controls[f"wick_phase_{lag:03d}"] = [
+                {
+                    **shape,
+                    "upper": float(shifted_wicks[index][0]),
+                    "lower": float(shifted_wicks[index][1]),
+                }
+                for index, shape in enumerate(shapes)
+            ]
 
-        shifted_volumes = _rotate(volumes, lag)
-        controls[f"volume_phase_{lag:03d}"] = [
-            {**shape, "volume": float(shifted_volumes[index])}
-            for index, shape in enumerate(shapes)
-        ]
+        if "volume" in components:
+            shifted_volumes = _rotate(volumes, lag)
+            controls[f"volume_phase_{lag:03d}"] = [
+                {**shape, "volume": float(shifted_volumes[index])}
+                for index, shape in enumerate(shapes)
+            ]
 
     paths: dict[str, Path] = {}
     for kind, control_shapes in controls.items():

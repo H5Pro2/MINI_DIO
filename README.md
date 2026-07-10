@@ -325,7 +325,7 @@ Das ist kein Nachweis allgemeiner Intelligenz und kein Bewusstseinsbeweis. Es is
 
 Die jüngste Forschung verdichtet einzelne `dio_*`-Rollen zu passiven Rollenfamilien. Acht Familien mit 29 Mitgliedern wurden in realen Folgewelten und anschließend gegen zeitstrukturzerstörte Kontrollwelten gelesen. Dabei zeigt sich kein einheitlich realweltgebundener Familientyp:
 
-- `rf_05` lag in der ersten Kontrollgruppe zugleich bei Kontinuität, Ereignisanteil und Mitgliederabdeckung über beiden Kontrollen. Ein unabhängiger 2024-Holdout reproduzierte diesen gemeinsamen Vorsprung nicht. Komponenten- und Phasenkontrollen zeigen anschließend keine einzelne tragende reale OHLCV-Komponente. Größen- und häufigkeitsgematchte Pseudo-Familien entkräften zwei zunächst stabile `rf_10`-Achsen. `rf_08:sign` bleibt dagegen in 2024 und 2025 gegenüber identischen Alternativmitgliedschaften auffällig. Die 2025 sichtbare 15m-Konzentration repliziert 2024 nicht; dort tragen 1h und 15m. Damit erscheint eine mögliche wiederkehrende Familien-Komponenten-Kopplung, aber keine feste Zeitebenenbindung oder Bedeutung. `rf_05:volume` zeigt explorativ einen noch stärkeren Crossyear-Abstand und benötigt eine vorab festgelegte unabhängige Prüfung.
+- `rf_05` lag in der ersten Kontrollgruppe zugleich bei Kontinuität, Ereignisanteil und Mitgliederabdeckung über beiden Kontrollen. Ein unabhängiger 2024-Holdout reproduzierte diesen gemeinsamen Realvorsprung nicht, und Komponenten-Kontrollen zeigen keine einzelne tragende reale OHLCV-Komponente. Die spätere Phasenforschung grenzt jedoch eine andere Eigenschaft ein: `rf_05:volume` wird durch gelöste relative Volumenphase wiederholt verstärkt. Nach einem explorativen Crossyear-Abstand repliziert ein vorab festgelegter 30m-Holdout die Antwort in beiden Jahren und beiden Assets gegenüber gematchten Pseudo-Familien. Belegt ist damit eine familienbezogene Volumen-Phasensensitivität, keine reale Volumenbedeutung oder Handlungsrichtung. `rf_08:sign` bleibt dagegen zeitebenenabhängig und repliziert auf 30m nicht geschlossen.
 - `rf_07` trägt einen höheren realen Ereignisanteil, ist aber auch in beiden Kontrollformen vollständig abgedeckt und dort leicht kontinuierlicher.
 - `rf_08` liegt bei Kontinuität und Abdeckung über beiden Kontrollen, nicht jedoch beim Ereignisanteil.
 - `rf_17` wird durch Shuffle deutlich stärker gelesen als durch die reale Zeitfolge.
@@ -350,6 +350,7 @@ Aktuelle Befundkette:
 - [2078: Rollenfamilien-Phasenprofile im unabhängigen 2025-Holdout](docs/befunde/2001-3000/2078_ROLLENFAMILIEN_PHASENPROFIL_HOLDOUT.md)
 - [2079: Rollenfamilien gegen gematchte Pseudo-Familien](docs/befunde/2001-3000/2079_ROLLENFAMILIEN_GEMATCHE_PSEUDOFAMILIEN.md)
 - [2080: `rf_08:sign` im gematchten Crossyear-Kontrast](docs/befunde/2001-3000/2080_RF08_SIGN_GEMATCHTER_CROSSYEAR_KONTRAST.md)
+- [2081: `rf_08:sign` und `rf_05:volume` im unabhängigen 30m-Holdout](docs/befunde/2001-3000/2081_RF08_SIGN_RF05_VOLUME_30M_HOLDOUT.md)
 
 ## Visueller Forschungsweg
 

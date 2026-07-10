@@ -209,6 +209,14 @@ def _summary_for_kind(
         selected_worlds = [
             row for row in selected_worlds if str(row["timeframe"]) == timeframe
         ]
+    elif group.startswith("year:"):
+        year = int(group.split(":", 1)[1])
+        selected_members = [row for row in selected_members if int(row["year"]) == year]
+        selected_worlds = [row for row in selected_worlds if int(row["year"]) == year]
+    elif group.startswith("asset:"):
+        asset = group.split(":", 1)[1]
+        selected_members = [row for row in selected_members if str(row["asset"]) == asset]
+        selected_worlds = [row for row in selected_worlds if str(row["asset"]) == asset]
     return _build_family_summary(
         selected_worlds,
         selected_members,
@@ -221,6 +229,8 @@ def _evaluate_pseudos(
     definitions: list[dict[str, object]],
     pool_rows: list[dict[str, object]],
     global_counts: Counter[str],
+    components: tuple[str, ...] = COMPONENTS,
+    groups: tuple[str, ...] = GROUPS,
 ) -> list[dict[str, object]]:
     by_symbol_world = {
         (str(row["world_label"]), str(row["symbol_family"])): row for row in pool_rows
@@ -244,7 +254,7 @@ def _evaluate_pseudos(
                 )
         candidate_worlds = _build_world_rows(candidate_members)
         source_counts = Counter({symbol: global_counts[symbol] for symbol in members})
-        for group in GROUPS:
+        for group in groups:
             real = _summary_for_kind(
                 candidate_members,
                 candidate_worlds,
@@ -254,7 +264,7 @@ def _evaluate_pseudos(
                 ("real",),
                 group,
             )
-            for component in COMPONENTS:
+            for component in components:
                 kinds = tuple(
                     f"{component}_phase_{lag:03d}" for lag in (17, 83, 251)
                 )
