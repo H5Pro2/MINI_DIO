@@ -162,3 +162,15 @@ Ebene der hinreichende Quellzustand. Lebenslauf und Synchronisation sind
 ableitbare Ansichten; eine zusätzliche Zustands-Memory würde dieselbe
 Erfahrung duplizieren. Es entsteht weder eine Zustandsklasse noch eine
 Rücklesung.
+
+## Übergangstopologiestand 2097
+
+Aufeinanderfolgende Ereignisse derselben Relation verbinden ihre
+Weltpräfixänderungen gerichtet. Viele Relationen teilen in Entwicklungsbestand
+und unabhängigem Holdout dieselben Übergänge und Zweischrittpfade deutlich
+häufiger als unter relationseigener Gap-Neuordnung und einer pro Welt
+aktivitätserhaltenden Ereignisnull.
+
+Diese Zustandsübergangstopologie benötigt keine Zustandsklasse und keine neue
+Speicherung. Sie bleibt aus der Ereignis-Memory rekonstruierbar. Einzelne
+stärkste Pfade werden nicht bevorzugt und es entsteht noch keine Rücklesung.

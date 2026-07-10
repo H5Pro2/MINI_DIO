@@ -307,6 +307,13 @@ benötigt daher keinen zusätzlich benannten Gesamtzustand: Die relationale
 Eigenzeit ist Quellzustand, die nachgelagerten Topologien sind passive
 Ansichten ihrer Entwicklung.
 
+[2097](befunde/2001-3000/2097_MCM_RELATIONSEREIGNIS_GETRAGENE_ZUSTANDSUEBERGANGSTOPOLOGIE.md)
+findet zwischen diesen individuellen Präfixänderungen eine organische
+Übergangstopologie. Fortgesetzte Erfahrungen vieler Relationen bündeln sich
+überzufällig auf denselben Übergängen und Zweischrittpfaden. Das vertieft den
+Anschluss an D.1 und M.1 als gemeinsame Entwicklung relationaler Eigenzeiten,
+belegt aber noch keine Vorhersage, Semantik oder aktive Feldsteuerung.
+
 Damit entsteht kein Wörterbuch nach dem Muster `dio_x = feste Bedeutung`.
 Tragfähiger ist:
 

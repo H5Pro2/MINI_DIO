@@ -393,6 +393,8 @@ Befund 2095 prüft, ob die Bewegungsnachbarschaften des Lebenslaufs besondere st
 
 Befund 2096 beginnt den nächsten Forschungsabschnitt mit einer Minimalitätsprüfung statt einer neuen Zustandsklasse. In einem rein kausalen Vorwärtslauf rekonstruiert der bis zu jeder Welt beobachtete Relationsereignispräfix alle 124 Lebenslaufpräfixe und sämtliche Synchronisationspaar-Alter beider Bestände exakt, ohne einen Zukunftszugriff. Jede Welt besitzt einen individuellen Ereignispräfix. Eine zusätzliche Zustands-Memory wäre daher redundant; Lebenslauf und Synchronisation bleiben ableitbare Ansichten derselben passiven Ereigniserfahrung.
 
+Befund 2097 verbindet diese individuellen Präfixänderungen ausschließlich durch fortgesetzte Relationserfahrung. Aufeinanderfolgende Ereignisse derselben Relation bilden gerichtete Übergänge und Zweischrittpfade. In beiden unabhängigen Beständen bündeln sich deutlich mehr Relationspaare auf denselben Wegen als unter einer relationseigenen Gap-Null und einer strengeren, pro Welt aktivitätserhaltenden Ereignisnull. Damit entsteht eine organische Zustandsübergangstopologie ohne Zustandsklassen oder Distanzschwellen. Sie bleibt vollständig aus der Ereigniszeit rekonstruierbar und wird noch nicht gespeichert oder zurückgelesen.
+
 Die thematisch geordnete Kurzfassung mit direkten Links liegt in der [Befundübersicht](docs/BEFUNDE_UEBERSICHT.md).
 
 Aktuelle Befundkette:
@@ -426,6 +428,7 @@ Aktuelle Befundkette:
 - [2094: Topologie der MCM-Relationssynchronisation](docs/befunde/2001-3000/2094_MCM_RELATIONSSYNCHRONISATION_TOPOLOGIE.md)
 - [2095: Kopplung von MCM-Synchronisation und Bewegungstopologie](docs/befunde/2001-3000/2095_MCM_SYNCHRONISATION_BEWEGUNGSKOPPLUNG.md)
 - [2096: Kausale Zustandsrekonstruktion aus MCM-Relationsereigniszeit](docs/befunde/2001-3000/2096_MCM_RELATIONSEREIGNISZEIT_KAUSALE_ZUSTANDSREKONSTRUKTION.md)
+- [2097: Relationsereignis-getragene MCM-Zustandsübergangstopologie](docs/befunde/2001-3000/2097_MCM_RELATIONSEREIGNIS_GETRAGENE_ZUSTANDSUEBERGANGSTOPOLOGIE.md)
 
 ## Visueller Forschungsweg
 
