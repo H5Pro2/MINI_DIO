@@ -375,6 +375,8 @@ Befund 2086 vergleicht diese Bewegungen bei gleichem Relationsalter. Die groben 
 
 Befund 2087 verfolgt die getrennten Kanten von Relationsalter 3 über 5 bis 10. Innerhalb beider Erfahrungsrichtungen bleiben alle drei Teilräume stark überzufällig erhalten. Reihenfolgenübergreifend verbleiben ein vollständiger Breitenverbund aus 19 Relationen und ein darin liegender Profilverbund aus 4 Relationen; der Taktverbund trägt nicht. Die kleinen Komponenten liegen nur schwach über der strengeren Identitätsnull und werden nicht als Runtime-Knoten festgeschrieben.
 
+Befund 2088 prüft diesen Multiplexkandidaten blind in einer dritten, vorab per Hash festgelegten Reihenfolge desselben 81-Welten-Bestands. Eine große Breitenschicht entsteht erneut und enthält 12 der früheren 19 Relationen deutlich über Zufall. Der geschlossene 19er-Verbund erscheint jedoch nicht wieder; vom Profilverbund bleibt nur eine überzufällige Teilkante statt des vollständigen Viererkerns. Getragen ist damit eine organisch entstehende Breitenschicht, noch keine feste Multiplexstruktur oder Feldrückwirkung.
+
 Die thematisch geordnete Kurzfassung mit direkten Links liegt in der [Befundübersicht](docs/BEFUNDE_UEBERSICHT.md).
 
 Aktuelle Befundkette:
@@ -399,6 +401,7 @@ Aktuelle Befundkette:
 - [2085: Relationsinterne MCM-Nachbarschafts-Ereigniszeit](docs/befunde/2001-3000/2085_RELATIONSINTERNE_MCM_NACHBARSCHAFTS_EREIGNISZEIT.md)
 - [2086: MCM-Eigenzeit-Bewegungsnachbarschaften](docs/befunde/2001-3000/2086_MCM_EIGENZEIT_BEWEGUNGSNACHBARSCHAFTEN.md)
 - [2087: MCM-Eigenzeit-Kantenpersistenz](docs/befunde/2001-3000/2087_MCM_EIGENZEIT_KANTENPERSISTENZ.md)
+- [2088: Blinder Holdout des MCM-Multiplexkandidaten](docs/befunde/2001-3000/2088_MCM_MULTIPLEX_BLIND_HOLDOUT.md)
 
 ## Visueller Forschungsweg
 

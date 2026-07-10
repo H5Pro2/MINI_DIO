@@ -112,3 +112,16 @@ Taktverbund trägt nicht.
 Die Komponenten werden weder gespeichert noch bevorzugt. Insbesondere stehen
 keine Relationsidentitäten als Konstanten im Runtime-Code. Die Ereignis-Memory
 bleibt eine passive Grundlage ohne Multiplex- oder Feldrückleselogik.
+
+## Holdoutstand 2088
+
+Eine dritte, vorab per Hash festgelegte Reihenfolge desselben 81-Welten-Bestands
+bildet die Komponenten blind, bevor die 2087-Relationen eingelesen werden. Eine
+große alterskontinuierliche Breitenschicht enthält 12 der früheren 19
+Relationen deutlich über Zufall. Der geschlossene 19er-Verbund erscheint nicht
+erneut; vom vollständigen Vierer-Profilverbund bleibt nur eine überzufällige
+Teilkante.
+
+Damit trägt die Ereigniszeit eine reihenfolgenrobuste Bewegungsschicht, aber
+noch keinen ausreichend bestimmten Multiplexkern. Die Ereignis-Memory bleibt
+passiv und wird nicht zur Auswahl, Feldänderung oder Handlung zurückgelesen.

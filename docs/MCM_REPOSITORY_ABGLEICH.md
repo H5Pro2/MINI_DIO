@@ -235,6 +235,15 @@ verschachtelter Beziehungsordnung vereinbar, aber noch schmal und nicht mit dem
 früheren strengen Kern identisch. Der Bezug bleibt ein experimenteller
 Strukturanschluss, keine feste Semantik und keine aktive Feldhierarchie.
 
+[2088](befunde/2001-3000/2088_MCM_MULTIPLEX_BLIND_HOLDOUT.md)
+prüft diesen Strukturanschluss in einer dritten, blind festgelegten
+Erfahrungsreihenfolge. Eine breitere persistente Breitenschicht entsteht erneut
+und nimmt einen großen Teil des früheren Verbunds auf. Der geschlossene
+19er-Breitenkern und der vollständige darin liegende Vierer-Profilkern bleiben
+jedoch nicht erhalten. Das stützt vorsichtig eine organisch entstehende
+mehrschichtige Beziehungsordnung im Sinn von M.1, nicht aber feste Feldrollen,
+Semantik oder Hierarchie.
+
 Damit entsteht kein Wörterbuch nach dem Muster `dio_x = feste Bedeutung`.
 Tragfähiger ist:
 

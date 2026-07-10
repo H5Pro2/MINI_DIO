@@ -1,0 +1,3 @@
+reference_sequence,holdout_relations,reference_relations,shared_relations,relation_jaccard
+forward,2088,2046,1993,0.930873423633816
+reverse,2088,2085,1983,0.9054794520547945
