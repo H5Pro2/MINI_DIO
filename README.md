@@ -333,7 +333,7 @@ Die jüngste Forschung verdichtet einzelne `dio_*`-Rollen zu passiven Rollenfami
 
 Die Memory speichert dafür nur Identität, Herkunft und numerische Evidenz. Begriffe wie stabil, reorganisierend oder fragmentiert bleiben nachgelagerte Forschungssprache und werden nicht als Regeln in den Organismus geschrieben. Die Anschlussfähigkeit aus realen Folgewelten ist damit zunächst ein Befund feldinterner Wiederkehr. Für keine der acht Familien ist derzeit eine allgemeine realweltspezifische Bedeutung nachgewiesen.
 
-Seit Befund 2082 besitzt MINI_DIO zusätzlich eine passive Familien-Komponenten-Antwort-Memory. Befund 2083 reift sie mit fünf neuen 5m-Kontextbeobachtungen von 212 auf 217 Einträge. Die 32 Antwortidentitäten bleiben stabil; `rf_05:volume` behält das Symbol `dio_rresponse_0gpsabe`. Die Schicht ist generisch, speichert keine Antwortklasse oder Bedeutung und bleibt vollständig von Wahrnehmung und Handlung getrennt.
+Seit Befund 2082 besitzt MINI_DIO zusätzlich eine passive Familien-Komponenten-Antwort-Memory. Befund 2087 reift sie mit der widersprechenden unabhängigen Erfahrung aus 2086 von 217 auf 222 Beobachtungen. Die 32 Antwortidentitäten bleiben stabil; `rf_05:volume` behält das Symbol `dio_rresponse_0gpsabe` und wächst auf 21 Beobachtungen aus fünf Evidenzquellen. Die Schicht ist generisch, speichert keine Antwortklasse oder Bedeutung und bleibt vollständig von Wahrnehmung und Handlung getrennt.
 
 Die thematisch geordnete Kurzfassung mit direkten Links liegt in der [Befundübersicht](docs/BEFUNDE_UEBERSICHT.md).
 
@@ -358,6 +358,7 @@ Aktuelle Befundkette:
 - [2084: `rf_05:volume` als 5m-Fensterpfad](docs/befunde/2001-3000/2084_RF05_VOLUME_5M_FENSTERPFADE.md)
 - [2085: `rf_05:volume` zwischen Feldzustand und Antwort](docs/befunde/2001-3000/2085_RF05_VOLUME_FELDZUSTAND_ANTWORTKOPPLUNG.md)
 - [2086: `rf_05:volume` im unabhängigen Orientierungs-Holdout](docs/befunde/2001-3000/2086_RF05_VOLUME_ORIENTIERUNGS_HOLDOUT.md)
+- [2087: Passive Antwort-Memory mit widersprechender Erfahrung](docs/befunde/2001-3000/2087_PASSIVE_ANTWORT_MEMORY_WIDERSPRUCHSREIFUNG.md)
 
 ## Visueller Forschungsweg
 

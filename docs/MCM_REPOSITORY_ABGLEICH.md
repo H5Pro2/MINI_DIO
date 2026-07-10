@@ -139,8 +139,9 @@ Die Befundfolge [2066](befunde/2001-3000/2066_REALVERSTAERKTE_ROLLENFAMILIEN_KOH
 [2082](befunde/2001-3000/2082_PASSIVE_FAMILIEN_KOMPONENTEN_ANTWORT_MEMORY.md),
 [2083](befunde/2001-3000/2083_RF05_VOLUME_5M_MEMORY_REIFUNG.md),
 [2084](befunde/2001-3000/2084_RF05_VOLUME_5M_FENSTERPFADE.md),
-[2085](befunde/2001-3000/2085_RF05_VOLUME_FELDZUSTAND_ANTWORTKOPPLUNG.md)
-und [2086](befunde/2001-3000/2086_RF05_VOLUME_ORIENTIERUNGS_HOLDOUT.md)
+[2085](befunde/2001-3000/2085_RF05_VOLUME_FELDZUSTAND_ANTWORTKOPPLUNG.md),
+[2086](befunde/2001-3000/2086_RF05_VOLUME_ORIENTIERUNGS_HOLDOUT.md)
+und [2087](befunde/2001-3000/2087_PASSIVE_ANTWORT_MEMORY_WIDERSPRUCHSREIFUNG.md)
 entwickelt dafür eine passive Rollenfamilien-Evidenz. Wichtig ist die Grenze:
 `2071` speichert Messwerte und Evidenzherkunft; seine sprachlichen Klassen sind
 vorläufige Report-Lesungen, keine fest einprogrammierten Bedeutungen. `2072`
@@ -220,6 +221,11 @@ Familienereignisanteil bei gleichzeitig sinkender Kontinuität und
 Mitgliederbreite. Der M.1-Anschluss verengt sich damit von einer möglichen
 festen Antwortordnung auf eine kontextplastische Ereignisumverteilung. Die
 widerlegte Kreuzorientierung wird weder gespeichert noch programmiert.
+`2087` nimmt die vollständigen numerischen Antwortvektoren aus 2086 in dieselbe
+passive Familien-Komponenten-Identität auf. Frühere positive und neue negative
+Achsen bleiben nebeneinander erhalten; nur die arithmetische Erfahrungsmitte
+verschiebt sich. So bewahrt der M.1-Anschluss Widerspruch als Herkunft und
+Feldlage, ohne daraus Bestätigung, Klasse oder steuernde Bedeutung zu bilden.
 
 Damit entsteht kein Wörterbuch nach dem Muster `dio_x = feste Bedeutung`.
 Tragfähiger ist:
