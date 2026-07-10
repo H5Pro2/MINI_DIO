@@ -1,0 +1,11 @@
+scope,world,record_kind,real_first_count,null_first_count,shared,jaccard,seen_count_differences
+global,all,nodes,33,33,33,1.0,4
+world,real_anchor,nodes,19,19,19,1.0,
+world,real_follow,nodes,13,13,12,0.8571428571428571,
+world,null_shuffle,nodes,16,16,16,1.0,
+world,null_random_sign,nodes,11,11,11,1.0,
+global,all,edges,65,65,64,0.9696969696969697,4
+world,real_anchor,edges,27,27,25,0.8620689655172413,
+world,real_follow,edges,19,19,18,0.9,
+world,null_shuffle,edges,24,24,24,1.0,
+world,null_random_sign,edges,18,18,18,1.0,

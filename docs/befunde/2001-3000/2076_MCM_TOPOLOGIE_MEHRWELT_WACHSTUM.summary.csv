@@ -1,0 +1,9 @@
+sequence,position,world,world_kind,node_observations,new_nodes,returning_node_observations,cumulative_nodes,edge_observations,new_edges,returning_edge_observations,cumulative_edges
+real_first,1,real_anchor,real_anchor,29,19,10,19,28,27,1,27
+real_first,2,real_follow,real_follow,23,7,16,26,22,16,6,43
+real_first,3,null_shuffle,null_shuffle,25,4,21,30,24,14,10,57
+real_first,4,null_random,null_random_sign,21,3,18,33,20,8,12,65
+null_first,1,null_shuffle,null_shuffle,25,16,9,16,24,24,0,24
+null_first,2,null_random,null_random_sign,21,6,15,22,20,12,8,36
+null_first,3,real_anchor,real_anchor,29,6,23,28,28,16,12,52
+null_first,4,real_follow,real_follow,23,5,18,33,22,13,9,65

@@ -351,6 +351,8 @@ Die Anschlussfähigkeit aus realen Folgewelten ist damit zunächst ein Befund fe
 
 Seit Befund 2075 verbindet MINI_DIO abgeschlossene innere MCM-Episoden während des Laufs zu einer passiven wachsenden Topologie. Knoten entstehen aus inneren Episodenidentitäten, gerichtete Kanten aus ihrer tatsächlichen Reihenfolge. Weltangaben bleiben reine Herkunft; das Netz beeinflusst weder Feld noch Handlung.
 
+Die erste Mehrweltprüfung 2076 zeigt nahezu vollständige Reihenfolgenstabilität des globalen Graphen, aber noch keine belastbare semantische Welttrennung. Real- und Nullwelten teilen derzeit teilweise mehr Knoten als zwei direkt folgende Realfenster. Deshalb bleibt die Topologie vollständig passiv.
+
 Die thematisch geordnete Kurzfassung mit direkten Links liegt in der [Befundübersicht](docs/BEFUNDE_UEBERSICHT.md).
 
 Aktuelle Befundkette:
@@ -363,6 +365,7 @@ Aktuelle Befundkette:
 - [2073: Rollenfamilien im Real-/Nullwelt-Kontrast](docs/befunde/2001-3000/2073_ROLLENFAMILIEN_REAL_NULL_KONTRAST.md)
 - [2074: `rf_05` im unabhängigen Jahres- und Zeitebenen-Holdout](docs/befunde/2001-3000/2074_RF05_CROSSYEAR_TIMEFRAME_HOLDOUT.md)
 - [2075: Passive wachsende MCM-Feldtopologie](docs/befunde/2001-3000/2075_PASSIVE_WACHSENDE_MCM_FELDTOPOLOGIE.md)
+- [2076: MCM-Topologie im Mehrwelt-Wachstum](docs/befunde/2001-3000/2076_MCM_TOPOLOGIE_MEHRWELT_WACHSTUM.md)
 
 ## Visueller Forschungsweg
 

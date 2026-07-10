@@ -149,6 +149,12 @@ und werden nicht Teil der Knotenidentität. Damit wird M.1 als Beziehung zwische
 inneren Rollen technisch anschlussfähig, ohne feste Bedeutung, Feldrückwirkung
 oder Handlung zu programmieren.
 
+Die Mehrweltprüfung [2076](befunde/2001-3000/2076_MCM_TOPOLOGIE_MEHRWELT_WACHSTUM.md)
+zeigt einen nahezu reihenfolgenstabilen globalen Graphen, aber noch keine
+belastbare Welttrennung. Die relationale Struktur ist damit als innerer Träger
+belegt, nicht als fertige Semantik. Insbesondere darf gemeinsame Knotenpräsenz
+noch nicht als reale Bedeutung oder Feldresonanz zurückgelesen werden.
+
 Damit entsteht kein Wörterbuch nach dem Muster `dio_x = feste Bedeutung`.
 Tragfähiger ist:
 

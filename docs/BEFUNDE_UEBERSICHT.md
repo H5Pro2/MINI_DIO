@@ -99,8 +99,9 @@ Die aktuelle Kette untersucht, ob einzelne Rollen als Familienräume weiterleben
 - [2073: Rollenfamilien im Real-/Nullwelt-Kontrast](befunde/2001-3000/2073_ROLLENFAMILIEN_REAL_NULL_KONTRAST.md)
 - [2074: `rf_05` im unabhängigen Jahres- und Zeitebenen-Holdout](befunde/2001-3000/2074_RF05_CROSSYEAR_TIMEFRAME_HOLDOUT.md)
 - [2075: Passive wachsende MCM-Feldtopologie](befunde/2001-3000/2075_PASSIVE_WACHSENDE_MCM_FELDTOPOLOGIE.md)
+- [2076: MCM-Topologie im Mehrwelt-Wachstum](befunde/2001-3000/2076_MCM_TOPOLOGIE_MEHRWELT_WACHSTUM.md)
 
-Kurzbefund: Alle acht Familien besitzen reale Folgeweltevidenz, aber der Kontrollvergleich begrenzt deren Bedeutung deutlich. Der unabhängige Holdout reproduziert den zunächst gemeinsamen Vorsprung von `rf_05` nicht. Die Familien belegen damit feldinterne relationale Wiederkehr, aber derzeit keine allgemein nachgewiesene realweltspezifische Bedeutung. Befund 2075 beginnt deshalb mit der Integration: Innere Episoden bilden online Knoten und gerichtete Kanten. Die Memory bewahrt Feldrollen, Reihenfolge, Herkunft und numerische Erfahrung, keine Bestandteile der Außenwelt als feste Identitäten.
+Kurzbefund: Alle acht Familien besitzen reale Folgeweltevidenz, aber der Kontrollvergleich begrenzt deren Bedeutung deutlich. Befund 2075 beginnt deshalb mit der Integration: Innere Episoden bilden online Knoten und gerichtete Kanten. Befund 2076 zeigt, dass dieser globale Graph unter umgekehrter Reihenfolge nahezu stabil wiederkehrt, zugleich aber Real- und Nullwelten noch nicht semantisch trennt. Die Memory bewahrt Feldrollen, Reihenfolge, Herkunft und numerische Erfahrung, keine Bestandteile der Außenwelt als feste Identitäten.
 
 ## 8. Methodische Grenzen Und Gegenproben
 

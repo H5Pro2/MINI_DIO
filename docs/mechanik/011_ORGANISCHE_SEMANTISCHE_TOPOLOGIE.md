@@ -68,3 +68,9 @@ Das Netz beschreibt Wachstum. Es entscheidet noch nicht, was das Feld wahrnimmt 
 - passive Rücklesung in eine spätere Feldregulation.
 
 Diese Schritte dürfen erst folgen, wenn Mehrweltprüfungen zeigen, welche Knoten und Kanten tatsächlich wiederkehren, driften oder nur lauflokal entstehen.
+
+## Mehrweltstand 2076
+
+Die erste Vierweltprüfung mit umgekehrter Reihenfolgenkontrolle endet in beiden Läufen bei 33 Knoten und 65 Kanten. Alle 33 Knoten und 64 von 65 Kanten sind global identisch. Das Netz besitzt damit einen reihenfolgenstabilen Grundträger.
+
+Diese Stabilität ist noch keine semantische Weltbindung. Der reale Anker teilt in der aktuellen Identität mehr Knoten mit seiner Shuffle-Nullwelt als mit dem direkt folgenden Realfenster. Deshalb bleiben Resonanzverschmelzung, Sleep-Konsolidierung und Feldrückwirkung gesperrt. Zuerst muss die innere zeitliche Struktur über längere Motive und kontinuierliche Profilnähe genauer gelesen werden.
