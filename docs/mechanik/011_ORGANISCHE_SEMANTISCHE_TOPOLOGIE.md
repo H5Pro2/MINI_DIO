@@ -398,6 +398,25 @@ entstehende Relevanz zwischen mehreren solchen Ereignistraegern. 2128 liest
 deshalb nur passiv und integriert weder Kopplung noch Knoten, Memory,
 Bedeutung, Handlung oder Viranzparameter.
 
+## Passive Triadenrelationsgrenze 2129
+
+Drei unterschiedlich erfahrene, aber unverbundene Mikrofelder werden nur
+ueber ihre labelinvarianten Deltaereignisse gemeinsam gelesen. Gegenseitige
+naechste Partner und Medoid-Zentren koennen tickweise wechseln; Gleichstaende
+bleiben als Mehrfachrelationen erhalten.
+
+Die volle Relation zeigt starke Wiederkehr und A/B-Transfer, wird jedoch fast
+vollstaendig durch gemeinsame Delta-Gleichstaende getragen. Wenn nur Ticks mit
+drei verschiedenen Deltas gelten, bleiben im Mittel etwa zwei eindeutige
+Konfigurationen pro Pfad. Ihre Verteilung bewahrt Vorwelterfahrung, ihre
+zeitliche Partnerwiederkehr liegt im Holdout aber unter der unabhaengig
+verschobenen Zeitnull. Auch der anonyme strenge Graph reproduziert nicht.
+
+Damit entsteht noch keine organische Relevanz zwischen den drei
+Ereignistraegern. Getragen ist nur ein seltener frueher triadenspezifischer
+Erfahrungsrest. 2129 integriert weder Mitgliedschaft noch Partner, Zentrum,
+Kopplung, Memory, Bedeutung, Handlung oder Viranzparameter.
+
 ## Wiederkehrgrenze 2115
 
 Exakt proportionale Rangzyklusformen wiederholen sich in jedem kontinuierlichen
