@@ -107,6 +107,10 @@ Ergaenzung 2123: Unabhaengige Zeitverschiebungen zwischen Neuronen erhalten jede
 
 Ergaenzung 2124: Eine diagnostische Kontrollinstanz behaelt dieselbe Aussenwelt, Gewichte und Nachhallmechanik, entfernt aber das interne Vorgaengersignal. Der Entwicklungsueberschuss faellt auf nullnaehe; im Holdout bleiben 15,34 Prozent gegenueber dem gekoppelten Feld. Alle 92 Quellen tragen einen positiven Kopplungsbeitrag. Damit ist interne Feldwirkung kausal lokalisiert, aber noch keine organische Topologie belegt: Kette und Faktor 0,12 sind im aktuellen Feld fest vorgegeben.
 
+- [2125: Kettenlage, Richtung und Beobachterkoordination](befunde/2001-3000/2125_MCM_KETTENLAGE_RICHTUNG_BEOBACHTERKOORDINATION.md)
+
+Ergaenzung 2125: Alle Kopfpositionen derselben Kette werden vorwaerts und rueckwaerts geprueft. Vorwaertsrotationen bewahren den groessten Teil der Koordination, waehrend die Richtungsumkehr auf rund drei bis vier Prozent des Originalwerts einbricht. Die Kopfposition ist kontextabhaengig und nicht einzigartig. Dominant ist damit die fest vorgegebene indexgebundene Richtung, nicht organisch entstandene Topologie.
+
 ## 6. Reifungsbahn Und Weltpassung
 
 Die MCM-Reifungsbahn verbindet Weltkontakt, Sinnesaufnahme, Feldwirkung, Nachhall, Feldzeit, Bedeutungsbreite, Rekopplung und Nullwelt-Abstand. Weltpassung wird als getragen, geöffnet, verschoben oder ausgeblendet gelesen.

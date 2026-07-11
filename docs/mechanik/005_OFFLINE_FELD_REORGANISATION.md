@@ -376,6 +376,18 @@ Diese Wirkung darf noch nicht organisch genannt werden, weil Kettenordnung und
 Kopplungsfaktor im Feldkern vorgegeben sind. Es wird keine Offline-, Memory-
 oder Wirkungsregel daraus erzeugt.
 
+## Kettenlage und Richtung 2125
+
+Alle Kopfpositionen derselben gerichteten Kette werden vorwaerts und
+rueckwaerts durchlaufen. Vorwaertsrotationen bewahren im Mittel 78,37
+beziehungsweise 94,51 Prozent des Originalueberschusses. Die vollstaendige
+Richtungsumkehr faellt auf 4,12 beziehungsweise 3,60 Prozent.
+
+Der Kettenkopf ist nicht stabil bevorzugt; die fest vorgegebene Laufrichtung
+ist der dominante Traeger. Damit wird die 2124-Wirkung weiter als
+Architekturpraegung und nicht als organische Reorganisation begrenzt. Es wird
+keine Offline-, Memory- oder Wirkungsregel erzeugt.
+
 ## Bezug zu bestehenden Befunden
 
 Diese Mechanik fasst die Linie aus folgenden Befunden zusammen:

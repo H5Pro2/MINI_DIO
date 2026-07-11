@@ -328,6 +328,19 @@ sind vorgegeben. Bevor daraus Wachstum abgeleitet werden darf, muss die
 Abhaengigkeit von dieser festen Indexordnung selbst geprueft werden. 2124
 integriert weder Knoten noch Memory, Bedeutung oder Handlung.
 
+## Indexrichtungsgrenze 2125
+
+Die genaue Kopfposition der Kette ist beweglich und kann zwischen
+Zieluniversen ihre relative Guete wechseln. Die Richtung entlang der
+indexgebunden initialisierten Neuronen ist dagegen entscheidend:
+Vorwaertsrotationen tragen breit, Rueckwaertsrotationen brechen fast
+vollstaendig ein.
+
+Die 2122-2124-Koordination ist deshalb noch kein Kandidat fuer organisches
+Topologiewachstum. Sie folgt wesentlich einer vorgegebenen gerichteten
+Architektur. 2125 integriert weder Knoten noch Memory, Bedeutung oder Handlung
+und markiert diese Kette als Forschungsgrenze statt als Wachstumsgrundlage.
+
 ## Wiederkehrgrenze 2115
 
 Exakt proportionale Rangzyklusformen wiederholen sich in jedem kontinuierlichen

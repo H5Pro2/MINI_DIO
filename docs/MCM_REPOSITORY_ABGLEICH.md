@@ -519,6 +519,15 @@ an D.3 und H.1 gewinnt damit eine kausale interne Feldwirkung. Weil gerichtete
 Kette und Kopplungsstaerke im Modell fest vorgegeben sind, belegt 2124 jedoch
 weder organische Topologie noch F, G.1, Viranz oder Selbstregulation.
 
+[2125](befunde/2001-3000/2125_MCM_KETTENLAGE_RICHTUNG_BEOBACHTERKOORDINATION.md)
+prueft jede Kopfposition der bestehenden Kette in beiden Richtungen.
+Vorwaertsrotationen bewahren den groessten Teil der Koordination;
+Rueckwaertsrotationen brechen breit ein. Der Kettenkopf ist dagegen weder
+einzigartig noch zieluniversumsstabil. Der Anschluss an D.3 und H.1 bleibt
+damit reale interne Feldwirkung, wird aber enger als Wirkung der vorgegebenen
+indexgebundenen Richtung begrenzt. Eine organische Topologie, F, G.1, Viranz
+oder Selbstregulation folgt daraus nicht.
+
 Damit entsteht kein Wörterbuch nach dem Muster `dio_x = feste Bedeutung`.
 Tragfähiger ist:
 
