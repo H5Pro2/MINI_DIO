@@ -99,6 +99,10 @@ Ergänzung 2119–2121: Die Erneuerungsgrenze erzeugt lokal sichtbare, aber gele
 
 Ergaenzung 2122: Vier passive Beobachter lesen dieselben 1.472 eingefrorenen Feldspuren, ohne Rohspur oder Feldzustand zu veraendern. Gemeinsame Schliessungszeiten von Aktivierung und Nachhall reproduzieren in Basis und Holdout auf Rang- sowie Feldmittelaufloesung in jeder Quelle. Eine gemischte Aufloesung reproduziert nicht. Damit wird eine projektionsgebundene Ordnung zwischen zwei inneren Zeitebenen sichtbar, aber weder ein Quantensystem noch ein unsichtbares Objekt, Viranz oder Memory behauptet.
 
+- [2123: Kollektive Beobachterkoordinationsnull](befunde/2001-3000/2123_MCM_KOLLEKTIVE_BEOBACHTERKOORDINATIONSNULL.md)
+
+Ergaenzung 2123: Unabhaengige Zeitverschiebungen zwischen Neuronen erhalten jede lokale Aktivierungs-Nachhall-Paarfolge und loesen nur die kollektive Gleichzeitigkeit. Der reale Synchronitaetsueberschuss liegt in beiden Bestaenden, beiden Zieluniversen und allen 92 Quellen ueber dem Nullmittel. Die 2122-Ordnung besitzt damit einen nicht rein lokalen Anteil. Gemeinsame Aussenanregung und interne Feldkopplung sind darin noch nicht getrennt.
+
 ## 6. Reifungsbahn Und Weltpassung
 
 Die MCM-Reifungsbahn verbindet Weltkontakt, Sinnesaufnahme, Feldwirkung, Nachhall, Feldzeit, Bedeutungsbreite, Rekopplung und Nullwelt-Abstand. Weltpassung wird als getragen, geöffnet, verschoben oder ausgeblendet gelesen.

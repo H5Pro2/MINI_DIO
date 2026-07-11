@@ -502,6 +502,15 @@ eine reproduzierte Mehrprojektionsordnung zwischen Momentanaktivierung und
 integriertem Nachhall. Sie ist weder Messrueckwirkung noch Beleg eines
 Quantensystems, Attraktors, Viranzwerts oder Memory-Mechanismus.
 
+[2123](befunde/2001-3000/2123_MCM_KOLLEKTIVE_BEOBACHTERKOORDINATIONSNULL.md)
+erhaelt jede lokale Aktivierungs-Nachhall-Paarfolge und loest nur die zeitliche
+Abstimmung zwischen Neuronen. Der reale Synchronitaetsueberschuss liegt in
+beiden Bestaenden, beiden Zieluniversen und allen Quellen ueber dem Nullmittel.
+Der Anschluss an D.3 und H.1 gewinnt damit einen nicht rein lokalen
+Koordinationsanteil. Gemeinsame rezeptorische Anregung und interne
+Nachbarschaftskopplung bleiben noch ungetrennt; F oder G.1 werden dadurch nicht
+als Bewusstseins-, Attraktor- oder Viranzmechanismus belegt.
+
 Damit entsteht kein Wörterbuch nach dem Muster `dio_x = feste Bedeutung`.
 Tragfähiger ist:
 

@@ -445,6 +445,8 @@ Befund 2121 prüft den gerichteten Übergang von der unmittelbar vorausgehenden 
 
 Befund 2122 uebernimmt von der Quantenmessung ausschliesslich die methodische Frage nach der Grenze zwischen Feld und Beobachter. Alle 1.472 Feldspuren bleiben unter vier passiven Projektionen byte-identisch und unabhaengig von deren Ausfuehrungsreihenfolge. Zwischen unmittelbarer Aktivierung und integriertem Nachhall reproduzieren gemeinsame endogene Schliessungszeiten in beiden Datenbestaenden und jeder Quelle, sofern beide Beobachter dieselbe relationale Aufloesung verwenden. Eine gemischte Aufloesung kehrt ihre Richtung im Holdout um. Getragen ist damit eine projektionsgebundene Mehrfensterordnung ohne Messrueckwirkung, nicht eine Quantenbehauptung, ein unsichtbares Objekt, Viranz oder Memory.
 
+Befund 2123 loest fuer denselben staerksten Traeger ausschliesslich die zeitliche Abstimmung zwischen verschiedenen Neuronen. Jede lokale Aktivierungs-Nachhall-Paarfolge bleibt dabei exakt erhalten. Der reale Synchronitaetsueberschuss liegt in beiden Bestaenden und beiden Zieluniversen ueber allen 32 Kollektivnullen; alle 48 beziehungsweise 44 Quellen tragen dieselbe Richtung. Die Mehrprojektionsordnung ist damit nicht rein lokal. Noch offen bleibt, welcher Anteil aus gemeinsamer rezeptorischer Anregung und welcher aus interner Nachbarschaftskopplung stammt.
+
 Die thematisch geordnete Kurzfassung mit direkten Links liegt in der [Befundübersicht](docs/BEFUNDE_UEBERSICHT.md).
 
 Aktuelle Befundkette:
@@ -504,6 +506,7 @@ Aktuelle Befundkette:
 - [2120: Kollektive Topologie der MCM-Erneuerungskonfigurationen](docs/befunde/2001-3000/2120_MCM_KOLLEKTIVE_ERNEUERUNGSKONFIGURATIONSTOPOLOGIE.md)
 - [2121: Innenform und kollektive MCM-Erneuerungskopplung](docs/befunde/2001-3000/2121_MCM_INNENFORM_KOLLEKTIVE_ERNEUERUNGSKOPPLUNG.md)
 - [2122: Passive Beobachtergrenze des MCM-Feldes](docs/befunde/2001-3000/2122_MCM_PASSIVE_BEOBACHTERGRENZE.md)
+- [2123: Kollektive Beobachterkoordinationsnull](docs/befunde/2001-3000/2123_MCM_KOLLEKTIVE_BEOBACHTERKOORDINATIONSNULL.md)
 
 ## Visueller Forschungsweg
 

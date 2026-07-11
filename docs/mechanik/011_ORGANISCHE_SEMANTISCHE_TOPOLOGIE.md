@@ -302,6 +302,19 @@ gemischter Aufloesung bricht der Transfer. Damit erscheint ein erster
 beobachterstabiler Traeger ueber zwei innere Zeitebenen, jedoch noch kein
 Bedeutungsknoten und keine Wachstumsregel.
 
+## Kollektive Mehrprojektionsordnung 2123
+
+Die 2122-Synchronitaet bleibt ueber einer Null, die jede lokale
+Aktivierungs-Nachhall-Paarfolge erhaelt und nur die Gleichzeitigkeit
+verschiedener Neuronen loest. Damit liegt der Traeger nicht ausschliesslich in
+isolierten Einzelspuren, sondern besitzt einen reproduzierten kollektiven
+Anteil.
+
+Dieser Anteil ist noch keine semantische Topologie: Gemeinsame rezeptorische
+Anregung und interne Nachbarschaftskopplung sind nicht getrennt, und einzelne
+Pfade koennen weiterhin gegen die Gesamtrichtung laufen. 2123 integriert
+deshalb weder Knoten noch Memory, Bedeutung oder Handlung.
+
 ## Wiederkehrgrenze 2115
 
 Exakt proportionale Rangzyklusformen wiederholen sich in jedem kontinuierlichen

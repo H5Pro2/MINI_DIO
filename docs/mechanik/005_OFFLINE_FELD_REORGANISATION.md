@@ -351,6 +351,18 @@ nicht. Die getragene Ebene ist deshalb eine passive Mehrprojektionsordnung
 zwischen momentaner Feldbewegung und integriertem Nachhall, keine neue
 Feldsteuerung oder Memory.
 
+## Kollektiver Anteil der Beobachterordnung 2123
+
+2123 verschiebt die Zielzeit jedes Neurons unabhaengig, bewahrt aber seine
+vollstaendige lokale Aktivierungs-Nachhall-Paarfolge. Der
+Synchronitaetsueberschuss der echten Population bleibt in beiden Bestaenden,
+beiden Zieluniversen und allen Quellen oberhalb des Nullmittels.
+
+Die Mehrprojektionsordnung aus 2122 ist daher nicht als blosse Summe
+unabhaengiger lokaler Nachhallspuren lesbar. Der getragene kollektive Anteil
+fasst derzeit gemeinsame Aussenanregung und interne Nachbarschaftskopplung noch
+zusammen. Eine Offline-, Memory- oder Wirkungsregel wird nicht eingefuehrt.
+
 ## Bezug zu bestehenden Befunden
 
 Diese Mechanik fasst die Linie aus folgenden Befunden zusammen:
