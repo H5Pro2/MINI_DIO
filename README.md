@@ -453,6 +453,8 @@ Befund 2125 verschiebt dieselbe Kette an jede moegliche Kopfposition und kehrt s
 
 Befund 2126 beendet deshalb die Variantenpruefung der festen Kette und gleicht acht bereits vorhandene passive Topologie- und Relationsschichten als moegliche organische Kopplungstraeger ab. Kein Kandidat erfuellt alle notwendigen Grenzen fuer Feldrueckwirkung. Die Relationslebenslauf-Memory ist der staerkste organische Relevanzprozess, wird aber erst auf Weltabschlussebene gebildet. Intrinsische Rangform und Rangzyklus sind der staerkste feldlokale Traeger, bleiben aber index- und architekturabhaengig. Lokalisiert ist damit die fehlende Bruecke zwischen feldlokaler Eigenform und erfahrungsgebildeter beweglicher Relevanz; eine Integration erfolgt nicht.
 
+Befund 2127 prueft erstmals drei baugleiche Mikrofelder mit unterschiedlicher realer Vorgeschichte als minimale symmetrische Triade. Jedes Feld erhaelt ausschliesslich die mittlere Signatur der beiden anderen aus dem vorherigen Tick; Feldnamen, Rollen und ein Zentrum wirken nicht in den Lauf. Gegen drei isolierte Mikrofelder sinkt der gemeinsame Uebergangsueberschuss in beiden Bestaenden und beiden Zieluniversen, waehrend sich die Felder nur leicht angleichen. Ein nachgelagert gelesener Mittelpunkt bleibt beweglich, traegt aber keine neue stabile Gesamtordnung. Der Austausch globaler Mittelwertsignaturen wird deshalb nicht als organische Mehrfeldkopplung integriert.
+
 Die thematisch geordnete Kurzfassung mit direkten Links liegt in der [Befundübersicht](docs/BEFUNDE_UEBERSICHT.md).
 
 Aktuelle Befundkette:
@@ -516,6 +518,7 @@ Aktuelle Befundkette:
 - [2124: Nachbarschaftskopplung und Beobachterkoordination](docs/befunde/2001-3000/2124_MCM_NACHBARSCHAFTSKOPPLUNG_BEOBACHTERKOORDINATION.md)
 - [2125: Kettenlage, Richtung und Beobachterkoordination](docs/befunde/2001-3000/2125_MCM_KETTENLAGE_RICHTUNG_BEOBACHTERKOORDINATION.md)
 - [2126: Audit organischer MCM-Kopplungstraeger](docs/befunde/2001-3000/2126_MCM_ORGANISCHER_KOPPLUNGSTRAEGER_AUDIT.md)
+- [2127: Minimales symmetrisches MCM-Triadenfeld](docs/befunde/2001-3000/2127_MCM_MINIMALES_TRIADENFELD.md)
 
 ## Visueller Forschungsweg
 

@@ -359,6 +359,25 @@ Relationsereigniszeit ohne vorgegebenen Neuronenindex, Episodenlabel oder
 Weltabschluss. 2126 programmiert diese Bruecke nicht und integriert weder
 Knoten noch Memory, Bedeutung oder Handlung.
 
+## Minimale Mehrfeldgrenze 2127
+
+Drei baugleiche Mikrofelder werden nach unterschiedlichen realen
+Vorgeschichten symmetrisch verbunden. Jedes Feld erhaelt nur die mittlere
+Gesamtsignatur der beiden anderen Felder aus dem vorherigen Tick. Es gibt kein
+Zentralfeld, keine Feldrollen und keine identitaetsabhaengige Auswertung.
+
+Die Verbindung erhoeht die gemeinsame relationale Uebergangsordnung gegen
+drei isolierte Felder weder im Entwicklungsbestand noch im unabhaengigen
+Holdout. Sie senkt stattdessen den Ueberschuss und gleicht lokale Zustaende
+leicht an. Ein rein diagnostisch gelesener Mittelpunkt kann zwischen den
+Feldern wechseln, traegt aber keine stabile neue Gesamtinstanz.
+
+Damit ist eine Mehrfeldorganisation nicht allgemein verworfen. Begrenzt ist
+der direkte Austausch globaler Mittelwertsignaturen: Er ist zu arm, um die in
+2126 lokalisierte Bruecke zwischen feldlokaler Eigenform und beweglicher
+erfahrungsgebildeter Relevanz zu bilden. 2127 integriert weder Mehrfeldkern
+noch Triaden-Memory, Bedeutung, Handlung oder Viranzparameter.
+
 ## Wiederkehrgrenze 2115
 
 Exakt proportionale Rangzyklusformen wiederholen sich in jedem kontinuierlichen
