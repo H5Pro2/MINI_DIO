@@ -363,6 +363,19 @@ unabhaengiger lokaler Nachhallspuren lesbar. Der getragene kollektive Anteil
 fasst derzeit gemeinsame Aussenanregung und interne Nachbarschaftskopplung noch
 zusammen. Eine Offline-, Memory- oder Wirkungsregel wird nicht eingefuehrt.
 
+## Interner Kopplungsanteil 2124
+
+Eine diagnostische Kontrollinstanz behaelt dieselbe Aussenwelt, Gewichte und
+Nachhallgleichung, setzt aber das Vorgaengersignal jedes Neurons auf null. Der
+Synchronitaetsueberschuss faellt im Entwicklungsbestand auf Nullnaehe; im
+Holdout bleiben etwa 15,34 Prozent des gekoppelten Werts. Alle Quellen tragen
+einen positiven Kopplungsbeitrag.
+
+Damit stammt der dominante 2122/2123-Traeger aus der internen Feldweitergabe.
+Diese Wirkung darf noch nicht organisch genannt werden, weil Kettenordnung und
+Kopplungsfaktor im Feldkern vorgegeben sind. Es wird keine Offline-, Memory-
+oder Wirkungsregel daraus erzeugt.
+
 ## Bezug zu bestehenden Befunden
 
 Diese Mechanik fasst die Linie aus folgenden Befunden zusammen:

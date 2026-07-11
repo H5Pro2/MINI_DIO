@@ -511,6 +511,14 @@ Koordinationsanteil. Gemeinsame rezeptorische Anregung und interne
 Nachbarschaftskopplung bleiben noch ungetrennt; F oder G.1 werden dadurch nicht
 als Bewusstseins-, Attraktor- oder Viranzmechanismus belegt.
 
+[2124](befunde/2001-3000/2124_MCM_NACHBARSCHAFTSKOPPLUNG_BEOBACHTERKOORDINATION.md)
+trennt gemeinsame Aussenanregung von der internen Vorgaengerweitergabe des
+aktuellen MCM-Feldes. Der dominante Synchronitaetsanteil verschwindet ohne
+interne Kopplung; ein kleinerer Aussenanteil bleibt im Holdout. Der Anschluss
+an D.3 und H.1 gewinnt damit eine kausale interne Feldwirkung. Weil gerichtete
+Kette und Kopplungsstaerke im Modell fest vorgegeben sind, belegt 2124 jedoch
+weder organische Topologie noch F, G.1, Viranz oder Selbstregulation.
+
 Damit entsteht kein Wörterbuch nach dem Muster `dio_x = feste Bedeutung`.
 Tragfähiger ist:
 

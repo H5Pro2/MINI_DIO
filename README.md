@@ -447,6 +447,8 @@ Befund 2122 uebernimmt von der Quantenmessung ausschliesslich die methodische Fr
 
 Befund 2123 loest fuer denselben staerksten Traeger ausschliesslich die zeitliche Abstimmung zwischen verschiedenen Neuronen. Jede lokale Aktivierungs-Nachhall-Paarfolge bleibt dabei exakt erhalten. Der reale Synchronitaetsueberschuss liegt in beiden Bestaenden und beiden Zieluniversen ueber allen 32 Kollektivnullen; alle 48 beziehungsweise 44 Quellen tragen dieselbe Richtung. Die Mehrprojektionsordnung ist damit nicht rein lokal. Noch offen bleibt, welcher Anteil aus gemeinsamer rezeptorischer Anregung und welcher aus interner Nachbarschaftskopplung stammt.
 
+Befund 2124 haelt Aussenwelt, Gewichte, Nachhall und kontinuierliche Vorwelt gleich und entfernt nur in einer diagnostischen Kontrollinstanz die interne Weitergabe zum naechsten Neuron. Im Entwicklungsbestand faellt der Synchronitaetsueberschuss dadurch praktisch auf null. Im Holdout bleiben etwa 15,34 Prozent als gemeinsame Aussenwirkung, waehrend rund 84,66 Prozent der Differenz erst mit interner Kopplung erscheinen. Alle 92 Quellen tragen dieselbe Richtung. Der Befund lokalisiert damit eine reale interne Feldwirkung, markiert aber zugleich ihre Grenze: Nachbarschaftskette und Faktor 0,12 sind bisher fest programmiert und noch keine organisch entstandene Topologie.
+
 Die thematisch geordnete Kurzfassung mit direkten Links liegt in der [Befundübersicht](docs/BEFUNDE_UEBERSICHT.md).
 
 Aktuelle Befundkette:
@@ -507,6 +509,7 @@ Aktuelle Befundkette:
 - [2121: Innenform und kollektive MCM-Erneuerungskopplung](docs/befunde/2001-3000/2121_MCM_INNENFORM_KOLLEKTIVE_ERNEUERUNGSKOPPLUNG.md)
 - [2122: Passive Beobachtergrenze des MCM-Feldes](docs/befunde/2001-3000/2122_MCM_PASSIVE_BEOBACHTERGRENZE.md)
 - [2123: Kollektive Beobachterkoordinationsnull](docs/befunde/2001-3000/2123_MCM_KOLLEKTIVE_BEOBACHTERKOORDINATIONSNULL.md)
+- [2124: Nachbarschaftskopplung und Beobachterkoordination](docs/befunde/2001-3000/2124_MCM_NACHBARSCHAFTSKOPPLUNG_BEOBACHTERKOORDINATION.md)
 
 ## Visueller Forschungsweg
 

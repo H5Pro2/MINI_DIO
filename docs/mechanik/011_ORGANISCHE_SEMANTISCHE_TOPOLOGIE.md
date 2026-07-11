@@ -315,6 +315,19 @@ Anregung und interne Nachbarschaftskopplung sind nicht getrennt, und einzelne
 Pfade koennen weiterhin gegen die Gesamtrichtung laufen. 2123 integriert
 deshalb weder Knoten noch Memory, Bedeutung oder Handlung.
 
+## Grenze der vorgegebenen Kopplung 2124
+
+2124 lokalisiert den dominanten Mehrprojektionsanteil in der internen
+Vorgaengerweitergabe des aktuellen Feldes. Ohne dieses Signal faellt der
+Ueberschuss im Entwicklungsbestand auf Nullnaehe; im Holdout verbleibt nur ein
+kleinerer gemeinsamer Aussenanteil.
+
+Das ist eine reale Feldwirkung, aber noch keine organisch gewachsene
+semantische Topologie. Die gerichtete Neuronenkette und ihre Staerke `0,12`
+sind vorgegeben. Bevor daraus Wachstum abgeleitet werden darf, muss die
+Abhaengigkeit von dieser festen Indexordnung selbst geprueft werden. 2124
+integriert weder Knoten noch Memory, Bedeutung oder Handlung.
+
 ## Wiederkehrgrenze 2115
 
 Exakt proportionale Rangzyklusformen wiederholen sich in jedem kontinuierlichen

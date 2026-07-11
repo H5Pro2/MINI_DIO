@@ -103,6 +103,10 @@ Ergaenzung 2122: Vier passive Beobachter lesen dieselben 1.472 eingefrorenen Fel
 
 Ergaenzung 2123: Unabhaengige Zeitverschiebungen zwischen Neuronen erhalten jede lokale Aktivierungs-Nachhall-Paarfolge und loesen nur die kollektive Gleichzeitigkeit. Der reale Synchronitaetsueberschuss liegt in beiden Bestaenden, beiden Zieluniversen und allen 92 Quellen ueber dem Nullmittel. Die 2122-Ordnung besitzt damit einen nicht rein lokalen Anteil. Gemeinsame Aussenanregung und interne Feldkopplung sind darin noch nicht getrennt.
 
+- [2124: Nachbarschaftskopplung und Beobachterkoordination](befunde/2001-3000/2124_MCM_NACHBARSCHAFTSKOPPLUNG_BEOBACHTERKOORDINATION.md)
+
+Ergaenzung 2124: Eine diagnostische Kontrollinstanz behaelt dieselbe Aussenwelt, Gewichte und Nachhallmechanik, entfernt aber das interne Vorgaengersignal. Der Entwicklungsueberschuss faellt auf nullnaehe; im Holdout bleiben 15,34 Prozent gegenueber dem gekoppelten Feld. Alle 92 Quellen tragen einen positiven Kopplungsbeitrag. Damit ist interne Feldwirkung kausal lokalisiert, aber noch keine organische Topologie belegt: Kette und Faktor 0,12 sind im aktuellen Feld fest vorgegeben.
+
 ## 6. Reifungsbahn Und Weltpassung
 
 Die MCM-Reifungsbahn verbindet Weltkontakt, Sinnesaufnahme, Feldwirkung, Nachhall, Feldzeit, Bedeutungsbreite, Rekopplung und Nullwelt-Abstand. Weltpassung wird als getragen, geöffnet, verschoben oder ausgeblendet gelesen.
