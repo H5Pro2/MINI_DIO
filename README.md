@@ -1,5 +1,18 @@
 # MINI_DIO
 
+> **Forschungsstand und Übergang:** MINI_DIO hat ausreichend belastbare
+> Erkenntnisse über MCM-Feldreaktion, Nachhall, Feldzeit, passive Topologie,
+> Bedeutungsverdichtung und Eigenregulation hervorgebracht, um die nächste
+> Grundfrage klar zu erkennen. Die aktive Feldmechanik beruht weiterhin auf
+> festen Eingangsgewichten, festen Nachhallwerten und festen Kopplungswegen;
+> passive Memory- und Beobachtungsschichten können diese Grenze beschreiben,
+> aber kein selbstwachsendes Nervengerüst ersetzen. Deshalb wird die aktive
+> Forschung an einem entwicklungsfähigen MCM-Neuron und einem kontinuierlich
+> lebenden Nervengerüst im neuen Projekt
+> [RESEARCH MCM LIVING FIELD](https://github.com/H5Pro2/RESEARCH_MCM_LIVING_FIELD)
+> fortgeführt. MINI_DIO bleibt unverändert als Forschungsstand, Befundarchiv
+> und experimentelle Grundlage erhalten.
+
 **MCM-Feldforschung und organische Entwicklung eines Digitalen Organismus**
 
 MINI_DIO ist ein eigenständiges Forschungsprojekt für ein [MCM](https://github.com/H5Pro2/Mental-Core-Matrix-MCM)-basiertes Innenfeldsystem.
