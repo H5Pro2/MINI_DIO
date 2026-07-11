@@ -378,6 +378,26 @@ der direkte Austausch globaler Mittelwertsignaturen: Er ist zu arm, um die in
 erfahrungsgebildeter Relevanz zu bilden. 2127 integriert weder Mehrfeldkern
 noch Triaden-Memory, Bedeutung, Handlung oder Viranzparameter.
 
+## Labelinvariante Relationsereigniszeit 2128
+
+Die Anzahl der zwischen zwei aufeinanderfolgenden Feldzustaenden geaenderten
+Rangrelationen bildet eine momentane relationale Umbildungsbreite. Ihre
+signierte Aenderung zum vorherigen Tick bewahrt dabei eine minimale zeitliche
+Richtung. Beide Groessen bleiben bei beliebiger Umbenennung der Neuronen exakt
+gleich und benoetigen keine Schwelle, Rolle oder globale Mittelwertsignatur.
+
+Die Deltaform traegt in Entwicklungsbestand und Holdout die unterschiedliche
+Vorwelterfahrung zwischen beiden disjunkten Zieluniversen bis Tick 4 ueber
+allen Herkunftslabelnullen. Unter weiterer Zielerfahrung zerfaellt diese
+Information. Der anonyme gegenseitige Nachbarschaftsgraph reproduziert im
+Holdout noch nicht.
+
+Damit ist erstmals die feldlokale und indexfreie Seite der in 2126 gesuchten
+Relationsereigniszeit konkret lokalisiert. Noch offen bleibt die organisch
+entstehende Relevanz zwischen mehreren solchen Ereignistraegern. 2128 liest
+deshalb nur passiv und integriert weder Kopplung noch Knoten, Memory,
+Bedeutung, Handlung oder Viranzparameter.
+
 ## Wiederkehrgrenze 2115
 
 Exakt proportionale Rangzyklusformen wiederholen sich in jedem kontinuierlichen

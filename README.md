@@ -455,6 +455,8 @@ Befund 2126 beendet deshalb die Variantenpruefung der festen Kette und gleicht a
 
 Befund 2127 prueft erstmals drei baugleiche Mikrofelder mit unterschiedlicher realer Vorgeschichte als minimale symmetrische Triade. Jedes Feld erhaelt ausschliesslich die mittlere Signatur der beiden anderen aus dem vorherigen Tick; Feldnamen, Rollen und ein Zentrum wirken nicht in den Lauf. Gegen drei isolierte Mikrofelder sinkt der gemeinsame Uebergangsueberschuss in beiden Bestaenden und beiden Zieluniversen, waehrend sich die Felder nur leicht angleichen. Ein nachgelagert gelesener Mittelpunkt bleibt beweglich, traegt aber keine neue stabile Gesamtordnung. Der Austausch globaler Mittelwertsignaturen wird deshalb nicht als organische Mehrfeldkopplung integriert.
 
+Befund 2128 ersetzt den globalen Mittelwert durch ein kleineres feldlokales Ereignis: die Anzahl der paarweisen Rangrelationen, die sich zwischen zwei eigenen Zustaenden aendern, und deren signierte Aenderung zum vorigen Tick. Diese Form bleibt unter beliebiger Neuronen-Umbenennung exakt gleich und benoetigt weder Schwelle noch Feldrolle. Ihre Deltaform bewahrt die Vorwelterfahrung in beiden Bestaenden und beiden Zielrichtungen bis Tick 4 ueber allen 4.096 Labelnullen. Im Holdout entsteht daraus jedoch noch kein ueberzufaelliger anonymer Nachbarschaftsgraph. Getragen ist ein frueher indexfreier Informationskandidat, noch keine Mehrfeldtopologie oder Rueckwirkung.
+
 Die thematisch geordnete Kurzfassung mit direkten Links liegt in der [Befundübersicht](docs/BEFUNDE_UEBERSICHT.md).
 
 Aktuelle Befundkette:
@@ -519,6 +521,7 @@ Aktuelle Befundkette:
 - [2125: Kettenlage, Richtung und Beobachterkoordination](docs/befunde/2001-3000/2125_MCM_KETTENLAGE_RICHTUNG_BEOBACHTERKOORDINATION.md)
 - [2126: Audit organischer MCM-Kopplungstraeger](docs/befunde/2001-3000/2126_MCM_ORGANISCHER_KOPPLUNGSTRAEGER_AUDIT.md)
 - [2127: Minimales symmetrisches MCM-Triadenfeld](docs/befunde/2001-3000/2127_MCM_MINIMALES_TRIADENFELD.md)
+- [2128: Labelinvarianter MCM-Relationsereignistraeger](docs/befunde/2001-3000/2128_MCM_LABELINVARIANTER_RELATIONSEREIGNISTRAEGER.md)
 
 ## Visueller Forschungsweg
 
