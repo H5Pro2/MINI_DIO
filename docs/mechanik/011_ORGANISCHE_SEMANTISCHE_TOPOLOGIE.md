@@ -359,64 +359,6 @@ Relationsereigniszeit ohne vorgegebenen Neuronenindex, Episodenlabel oder
 Weltabschluss. 2126 programmiert diese Bruecke nicht und integriert weder
 Knoten noch Memory, Bedeutung oder Handlung.
 
-## Minimale Mehrfeldgrenze 2127
-
-Drei baugleiche Mikrofelder werden nach unterschiedlichen realen
-Vorgeschichten symmetrisch verbunden. Jedes Feld erhaelt nur die mittlere
-Gesamtsignatur der beiden anderen Felder aus dem vorherigen Tick. Es gibt kein
-Zentralfeld, keine Feldrollen und keine identitaetsabhaengige Auswertung.
-
-Die Verbindung erhoeht die gemeinsame relationale Uebergangsordnung gegen
-drei isolierte Felder weder im Entwicklungsbestand noch im unabhaengigen
-Holdout. Sie senkt stattdessen den Ueberschuss und gleicht lokale Zustaende
-leicht an. Ein rein diagnostisch gelesener Mittelpunkt kann zwischen den
-Feldern wechseln, traegt aber keine stabile neue Gesamtinstanz.
-
-Damit ist eine Mehrfeldorganisation nicht allgemein verworfen. Begrenzt ist
-der direkte Austausch globaler Mittelwertsignaturen: Er ist zu arm, um die in
-2126 lokalisierte Bruecke zwischen feldlokaler Eigenform und beweglicher
-erfahrungsgebildeter Relevanz zu bilden. 2127 integriert weder Mehrfeldkern
-noch Triaden-Memory, Bedeutung, Handlung oder Viranzparameter.
-
-## Labelinvariante Relationsereigniszeit 2128
-
-Die Anzahl der zwischen zwei aufeinanderfolgenden Feldzustaenden geaenderten
-Rangrelationen bildet eine momentane relationale Umbildungsbreite. Ihre
-signierte Aenderung zum vorherigen Tick bewahrt dabei eine minimale zeitliche
-Richtung. Beide Groessen bleiben bei beliebiger Umbenennung der Neuronen exakt
-gleich und benoetigen keine Schwelle, Rolle oder globale Mittelwertsignatur.
-
-Die Deltaform traegt in Entwicklungsbestand und Holdout die unterschiedliche
-Vorwelterfahrung zwischen beiden disjunkten Zieluniversen bis Tick 4 ueber
-allen Herkunftslabelnullen. Unter weiterer Zielerfahrung zerfaellt diese
-Information. Der anonyme gegenseitige Nachbarschaftsgraph reproduziert im
-Holdout noch nicht.
-
-Damit ist erstmals die feldlokale und indexfreie Seite der in 2126 gesuchten
-Relationsereigniszeit konkret lokalisiert. Noch offen bleibt die organisch
-entstehende Relevanz zwischen mehreren solchen Ereignistraegern. 2128 liest
-deshalb nur passiv und integriert weder Kopplung noch Knoten, Memory,
-Bedeutung, Handlung oder Viranzparameter.
-
-## Passive Triadenrelationsgrenze 2129
-
-Drei unterschiedlich erfahrene, aber unverbundene Mikrofelder werden nur
-ueber ihre labelinvarianten Deltaereignisse gemeinsam gelesen. Gegenseitige
-naechste Partner und Medoid-Zentren koennen tickweise wechseln; Gleichstaende
-bleiben als Mehrfachrelationen erhalten.
-
-Die volle Relation zeigt starke Wiederkehr und A/B-Transfer, wird jedoch fast
-vollstaendig durch gemeinsame Delta-Gleichstaende getragen. Wenn nur Ticks mit
-drei verschiedenen Deltas gelten, bleiben im Mittel etwa zwei eindeutige
-Konfigurationen pro Pfad. Ihre Verteilung bewahrt Vorwelterfahrung, ihre
-zeitliche Partnerwiederkehr liegt im Holdout aber unter der unabhaengig
-verschobenen Zeitnull. Auch der anonyme strenge Graph reproduziert nicht.
-
-Damit entsteht noch keine organische Relevanz zwischen den drei
-Ereignistraegern. Getragen ist nur ein seltener frueher triadenspezifischer
-Erfahrungsrest. 2129 integriert weder Mitgliedschaft noch Partner, Zentrum,
-Kopplung, Memory, Bedeutung, Handlung oder Viranzparameter.
-
 ## Wiederkehrgrenze 2115
 
 Exakt proportionale Rangzyklusformen wiederholen sich in jedem kontinuierlichen

@@ -453,12 +453,6 @@ Befund 2125 verschiebt dieselbe Kette an jede moegliche Kopfposition und kehrt s
 
 Befund 2126 beendet deshalb die Variantenpruefung der festen Kette und gleicht acht bereits vorhandene passive Topologie- und Relationsschichten als moegliche organische Kopplungstraeger ab. Kein Kandidat erfuellt alle notwendigen Grenzen fuer Feldrueckwirkung. Die Relationslebenslauf-Memory ist der staerkste organische Relevanzprozess, wird aber erst auf Weltabschlussebene gebildet. Intrinsische Rangform und Rangzyklus sind der staerkste feldlokale Traeger, bleiben aber index- und architekturabhaengig. Lokalisiert ist damit die fehlende Bruecke zwischen feldlokaler Eigenform und erfahrungsgebildeter beweglicher Relevanz; eine Integration erfolgt nicht.
 
-Befund 2127 prueft erstmals drei baugleiche Mikrofelder mit unterschiedlicher realer Vorgeschichte als minimale symmetrische Triade. Jedes Feld erhaelt ausschliesslich die mittlere Signatur der beiden anderen aus dem vorherigen Tick; Feldnamen, Rollen und ein Zentrum wirken nicht in den Lauf. Gegen drei isolierte Mikrofelder sinkt der gemeinsame Uebergangsueberschuss in beiden Bestaenden und beiden Zieluniversen, waehrend sich die Felder nur leicht angleichen. Ein nachgelagert gelesener Mittelpunkt bleibt beweglich, traegt aber keine neue stabile Gesamtordnung. Der Austausch globaler Mittelwertsignaturen wird deshalb nicht als organische Mehrfeldkopplung integriert.
-
-Befund 2128 ersetzt den globalen Mittelwert durch ein kleineres feldlokales Ereignis: die Anzahl der paarweisen Rangrelationen, die sich zwischen zwei eigenen Zustaenden aendern, und deren signierte Aenderung zum vorigen Tick. Diese Form bleibt unter beliebiger Neuronen-Umbenennung exakt gleich und benoetigt weder Schwelle noch Feldrolle. Ihre Deltaform bewahrt die Vorwelterfahrung in beiden Bestaenden und beiden Zielrichtungen bis Tick 4 ueber allen 4.096 Labelnullen. Im Holdout entsteht daraus jedoch noch kein ueberzufaelliger anonymer Nachbarschaftsgraph. Getragen ist ein frueher indexfreier Informationskandidat, noch keine Mehrfeldtopologie oder Rueckwirkung.
-
-Befund 2129 liest drei unverbundene Mikrofelder erstmals gemeinsam ueber ihre 2128-Deltaereignisse. Die volle Partner- und Zentrumsordnung wirkt zunaechst stark und beweglich, wird aber an 54 beziehungsweise 62 von 64 Ticks durch mehrfache Gleichstaende dominiert. Nach Ausschluss aller Delta-Gleichstaende bleiben im Mittel nur etwa zwei eindeutige Ticks. Deren seltene Konfiguration uebertraegt A/B, ihre zeitliche Wiederkehr liegt im Holdout jedoch unter jeder Null und der anonyme strenge Graph reproduziert nicht. Getragen ist ein frueher triadenspezifischer Erfahrungsrest, keine organische Partnerbindung oder Mehrfeldtopologie.
-
 Die thematisch geordnete Kurzfassung mit direkten Links liegt in der [Befundübersicht](docs/BEFUNDE_UEBERSICHT.md).
 
 Aktuelle Befundkette:
@@ -522,9 +516,6 @@ Aktuelle Befundkette:
 - [2124: Nachbarschaftskopplung und Beobachterkoordination](docs/befunde/2001-3000/2124_MCM_NACHBARSCHAFTSKOPPLUNG_BEOBACHTERKOORDINATION.md)
 - [2125: Kettenlage, Richtung und Beobachterkoordination](docs/befunde/2001-3000/2125_MCM_KETTENLAGE_RICHTUNG_BEOBACHTERKOORDINATION.md)
 - [2126: Audit organischer MCM-Kopplungstraeger](docs/befunde/2001-3000/2126_MCM_ORGANISCHER_KOPPLUNGSTRAEGER_AUDIT.md)
-- [2127: Minimales symmetrisches MCM-Triadenfeld](docs/befunde/2001-3000/2127_MCM_MINIMALES_TRIADENFELD.md)
-- [2128: Labelinvarianter MCM-Relationsereignistraeger](docs/befunde/2001-3000/2128_MCM_LABELINVARIANTER_RELATIONSEREIGNISTRAEGER.md)
-- [2129: Passive MCM-Triaden-Relationsmobilitaet](docs/befunde/2001-3000/2129_MCM_PASSIVE_TRIADEN_RELATIONSMOBILITAET.md)
 
 ## Visueller Forschungsweg
 
