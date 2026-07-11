@@ -528,6 +528,16 @@ damit reale interne Feldwirkung, wird aber enger als Wirkung der vorgegebenen
 indexgebundenen Richtung begrenzt. Eine organische Topologie, F, G.1, Viranz
 oder Selbstregulation folgt daraus nicht.
 
+[2126](befunde/2001-3000/2126_MCM_ORGANISCHER_KOPPLUNGSTRAEGER_AUDIT.md)
+gleicht acht bestehende passive Topologie- und Relationsschichten auf einen
+organischen Rueckkopplungstraeger ab. Kein Kandidat verbindet heute
+feldlokale Verfuegbarkeit, erfahrungsgebildete Relevanz und
+Architekturunabhaengigkeit. Der Relationslebenslauf traegt bewegliche
+Selbstordnung, Rangform und Rangzyklus tragen feldlokale Eigenform und
+Eigenzeit. Der Anschluss an D.3, H.1 und K.1 bleibt damit auf zwei getrennte
+Vorbedingungen begrenzt; F, G.1, Viranz oder Selbstregulation sind nicht
+mechanisch verbunden.
+
 Damit entsteht kein Wörterbuch nach dem Muster `dio_x = feste Bedeutung`.
 Tragfähiger ist:
 

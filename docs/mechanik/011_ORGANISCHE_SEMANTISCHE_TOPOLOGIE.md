@@ -341,6 +341,24 @@ Topologiewachstum. Sie folgt wesentlich einer vorgegebenen gerichteten
 Architektur. 2125 integriert weder Knoten noch Memory, Bedeutung oder Handlung
 und markiert diese Kette als Forschungsgrenze statt als Wachstumsgrundlage.
 
+## Kopplungstraeger-Audit 2126
+
+Acht vorhandene passive Topologie- und Relationsschichten werden gemeinsam
+gegen notwendige Grenzen einer organischen Feldkopplung geprueft. Kein
+Kandidat verbindet heute alle Bedingungen.
+
+Die Relationslebenslauf-Nachbarschaft ist der staerkste organische
+Relevanzprozess: Mitglieder und Partner entstehen beweglich aus kausaler
+Ereignisgeschichte ohne feste Distanzschwelle. Sie wird jedoch erst bei
+Weltfinalisierungen gebildet. Intrinsische Rangform und Rangzyklus sind die
+staerksten feldlokalen Traeger, bleiben aber an feste Neuronenidentitaeten und
+Indexrichtung gebunden.
+
+Die offene mechanische Bruecke ist damit eine feldlokale
+Relationsereigniszeit ohne vorgegebenen Neuronenindex, Episodenlabel oder
+Weltabschluss. 2126 programmiert diese Bruecke nicht und integriert weder
+Knoten noch Memory, Bedeutung oder Handlung.
+
 ## Wiederkehrgrenze 2115
 
 Exakt proportionale Rangzyklusformen wiederholen sich in jedem kontinuierlichen

@@ -111,6 +111,10 @@ Ergaenzung 2124: Eine diagnostische Kontrollinstanz behaelt dieselbe Aussenwelt,
 
 Ergaenzung 2125: Alle Kopfpositionen derselben Kette werden vorwaerts und rueckwaerts geprueft. Vorwaertsrotationen bewahren den groessten Teil der Koordination, waehrend die Richtungsumkehr auf rund drei bis vier Prozent des Originalwerts einbricht. Die Kopfposition ist kontextabhaengig und nicht einzigartig. Dominant ist damit die fest vorgegebene indexgebundene Richtung, nicht organisch entstandene Topologie.
 
+- [2126: Audit organischer MCM-Kopplungstraeger](befunde/2001-3000/2126_MCM_ORGANISCHER_KOPPLUNGSTRAEGER_AUDIT.md)
+
+Ergaenzung 2126: Acht vorhandene passive Traeger werden ohne gewichteten Score gegen notwendige Kopplungsgrenzen geprueft. Kein Kandidat ist fuer Feldrueckwirkung bereit. Relationslebenslauf-Nachbarschaft traegt die staerkste organische Relevanzbildung, liegt aber oberhalb laufender Kontakte; intrinsische Rangform und Eigenzeit sind feldlokal, aber indexabhaengig. Die fehlende Bruecke ist damit lokalisiert, ohne eine neue Memory oder feste Kopplung einzufuehren.
+
 ## 6. Reifungsbahn Und Weltpassung
 
 Die MCM-Reifungsbahn verbindet Weltkontakt, Sinnesaufnahme, Feldwirkung, Nachhall, Feldzeit, Bedeutungsbreite, Rekopplung und Nullwelt-Abstand. Weltpassung wird als getragen, geöffnet, verschoben oder ausgeblendet gelesen.

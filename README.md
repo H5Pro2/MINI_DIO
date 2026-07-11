@@ -451,6 +451,8 @@ Befund 2124 haelt Aussenwelt, Gewichte, Nachhall und kontinuierliche Vorwelt gle
 
 Befund 2125 verschiebt dieselbe Kette an jede moegliche Kopfposition und kehrt sie vollstaendig um. Vorwaertsrotationen behalten im Mittel 78,37 beziehungsweise 94,51 Prozent des Originalueberschusses; Rueckwaertsrotationen nur 4,12 beziehungsweise 3,60 Prozent. Der Kettenkopf ist nicht stabil bevorzugt und kippt im Holdout-Universum B sogar gegen die Originalordnung. Dominant ist die fest vorgegebene Richtung entlang der indexgebunden initialisierten Neuronen. Die starke Koordination ist damit weiter als Architekturwirkung begrenzt und darf nicht als organisch gewachsene Topologie oder Memory-Signal verwendet werden.
 
+Befund 2126 beendet deshalb die Variantenpruefung der festen Kette und gleicht acht bereits vorhandene passive Topologie- und Relationsschichten als moegliche organische Kopplungstraeger ab. Kein Kandidat erfuellt alle notwendigen Grenzen fuer Feldrueckwirkung. Die Relationslebenslauf-Memory ist der staerkste organische Relevanzprozess, wird aber erst auf Weltabschlussebene gebildet. Intrinsische Rangform und Rangzyklus sind der staerkste feldlokale Traeger, bleiben aber index- und architekturabhaengig. Lokalisiert ist damit die fehlende Bruecke zwischen feldlokaler Eigenform und erfahrungsgebildeter beweglicher Relevanz; eine Integration erfolgt nicht.
+
 Die thematisch geordnete Kurzfassung mit direkten Links liegt in der [Befundübersicht](docs/BEFUNDE_UEBERSICHT.md).
 
 Aktuelle Befundkette:
@@ -513,6 +515,7 @@ Aktuelle Befundkette:
 - [2123: Kollektive Beobachterkoordinationsnull](docs/befunde/2001-3000/2123_MCM_KOLLEKTIVE_BEOBACHTERKOORDINATIONSNULL.md)
 - [2124: Nachbarschaftskopplung und Beobachterkoordination](docs/befunde/2001-3000/2124_MCM_NACHBARSCHAFTSKOPPLUNG_BEOBACHTERKOORDINATION.md)
 - [2125: Kettenlage, Richtung und Beobachterkoordination](docs/befunde/2001-3000/2125_MCM_KETTENLAGE_RICHTUNG_BEOBACHTERKOORDINATION.md)
+- [2126: Audit organischer MCM-Kopplungstraeger](docs/befunde/2001-3000/2126_MCM_ORGANISCHER_KOPPLUNGSTRAEGER_AUDIT.md)
 
 ## Visueller Forschungsweg
 
