@@ -9,7 +9,7 @@
 > aber kein selbstwachsendes Nervengerüst ersetzen. Deshalb wird die aktive
 > Forschung an einem entwicklungsfähigen MCM-Neuron und einem kontinuierlich
 > lebenden Nervengerüst im neuen Projekt
-> [RESEARCH MCM LIVING FIELD](https://github.com/H5Pro2/RESEARCH_MCM_LIVING_FIELD)
+> [MCM_FIELD_ORGANISM](https://github.com/H5Pro2/MCM_FIELD_ORGANISM)
 > fortgeführt. MINI_DIO bleibt unverändert als Forschungsstand, Befundarchiv
 > und experimentelle Grundlage erhalten.
 
